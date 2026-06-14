@@ -1,0 +1,155 @@
+@import "tailwindcss";
+
+/* AI DRUDGE — Drudge-Report-style dense aggregator.
+   Dark mode is the default; .light on <html> flips to the light theme.
+   Tailwind v4 utility classes do most of the work; the rules below handle
+   the typographic personality and the headline/priority colors. */
+
+@layer base {
+  :root {
+    --siren: #e50b0b;
+    --siren-dim: #b00808;
+    --accent: #1d4ed8;
+    --gold: #b8860b;
+  }
+
+  html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  html.dark {
+    background: #0a0a0a;
+    color: #e8e8e8;
+    color-scheme: dark;
+  }
+  html.light {
+    background: #f4f1ea;
+    color: #1a1a1a;
+    color-scheme: light;
+  }
+
+  body {
+    font-family: ui-monospace, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 14px;
+    line-height: 1.35;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+}
+
+@layer components {
+  /* Masthead — Drudge's big red title */
+  .masthead {
+    font-family: ui-monospace, Menlo, Monaco, Consolas, monospace;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1;
+  }
+
+  /* Critical-priority headline — the Drudge "siren" red */
+  .headline-critical { color: var(--siren); font-weight: 700; }
+  .headline-high     { font-weight: 700; }
+  .headline-medium   { font-weight: 500; }
+  .headline-low      { font-weight: 400; opacity: 0.85; }
+
+  /* Source badge next to each headline */
+  .source-badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    padding: 1px 5px;
+    border: 1px solid currentColor;
+    border-radius: 2px;
+    opacity: 0.7;
+    vertical-align: middle;
+    text-transform: uppercase;
+  }
+
+  /* Category section heading — caps, underlined */
+  .section-heading {
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border-bottom: 2px solid var(--siren);
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+    font-size: 13px;
+  }
+
+  /* Lead story in center column */
+  .lead-title {
+    font-family: ui-monospace, Menlo, Monaco, Consolas, monospace;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+  }
+
+  /* Hover card */
+  .hover-card {
+    position: fixed;
+    z-index: 50;
+    width: 340px;
+    max-width: calc(100vw - 32px);
+    border: 1px solid;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  }
+  html.dark  .hover-card { background: #161616; border-color: #333; }
+  html.light .hover-card { background: #fffdf7; border-color: #c8bfa3; }
+
+  /* Stock ticker */
+  .ticker-bar {
+    font-size: 12px;
+    font-family: ui-monospace, Menlo, Monaco, Consolas, monospace;
+    background: #000;
+    color: #ddd;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+  }
+  .ticker-up   { color: #22c55e; }
+  .ticker-down { color: var(--siren); }
+  .ticker-flat { color: #999; }
+
+  /* "+N" badge on grouped stories */
+  .related-badge {
+    display: inline-block;
+    background: var(--accent);
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 0 5px;
+    border-radius: 8px;
+    margin-left: 4px;
+    vertical-align: middle;
+  }
+
+  /* Search input */
+  .search-input {
+    background: transparent;
+    border: 1px solid;
+    padding: 4px 8px;
+    font-family: inherit;
+    font-size: 13px;
+    width: 100%;
+  }
+  html.dark  .search-input { border-color: #333; color: #e8e8e8; }
+  html.light .search-input { border-color: #999; color: #1a1a1a; }
+  .search-input:focus { outline: none; border-color: var(--accent); }
+}
+
+/* Scrollbar polish for dark mode */
+html.dark ::-webkit-scrollbar          { width: 10px; height: 10px; }
+html.dark ::-webkit-scrollbar-track    { background: #0a0a0a; }
+html.dark ::-webkit-scrollbar-thumb    { background: #2a2a2a; border-radius: 5px; }
+html.dark ::-webkit-scrollbar-thumb:hover { background: #3a3a3a; }

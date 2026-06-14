@@ -1,0 +1,64 @@
+name: Refresh and deploy
+
+on:
+  schedule:
+    # Hourly at :05 — gives a fresh homepage ~24 times a day.
+    - cron: "5 * * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+
+permissions:
+  contents: write      # to commit refreshed JSON back to the repo
+  pages: write         # to deploy to GitHub Pages
+  id-token: write      # for Pages deploy OIDC
+
+concurrency:
+  group: refresh-deploy
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install
+        run: npm ci
+
+      - name: Fetch data (RSS + stocks + brief)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: npm run build:data
+
+      # Commit JSON back so the repo always holds the latest snapshot.
+      # If nothing changed, the commit is a no-op. We never force-push.
+      - name: Commit refreshed data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain public/data)" ]]; then
+            git add public/data
+            git commit -m "chore(data): refresh $(date -u +%FT%TZ)"
+            git push
+          else
+            echo "No data changes to commit."
+          fi
+
+      - name: Build site
+        run: npm run build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
