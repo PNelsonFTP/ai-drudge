@@ -12,9 +12,8 @@ import { fileURLToPath } from "node:url";
 import { fetchAllFeeds } from "./fetch-feeds";
 import { fetchStocks } from "./fetch-stocks";
 import { generateBrief } from "./generate-brief";
-import { groupStories } from "./lib/groupStories";
-import { CATEGORIES } from "./sources";
-import type { CategoryBucket, GroupedArticle, HeadlinesPayload } from "./types";
+import { buildCategories } from "./lib/router";
+import type { CategoryBucket, HeadlinesPayload } from "./types";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = resolve(__dirname, "../public/data");
@@ -51,14 +50,12 @@ async function main() {
     process.exit(0);
   }
 
-  // Bucket by category, then group same-story within each bucket.
-  const buckets: CategoryBucket[] = CATEGORIES.map((meta) => {
-    const inCat = out.articles.filter((a) => a.category === meta.id);
-    const grouped: GroupedArticle[] = groupStories(inCat);
-    // Cap each category to keep the page tight.
-    const cap = meta.id === "industry_news" || meta.id === "research" ? 20 : 12;
-    return { id: meta.id, label: meta.label, articles: grouped.slice(0, cap) };
-  }).filter((b) => b.articles.length > 0);
+  // Multi-category routing: each article can appear in multiple sections
+  // (its feed's home category PLUS any category whose keywords match its
+  // title/summary). Within each category, articles are scored by priority
+  // + recency + keyword relevance, then a per-source diversity cap forces
+  // variety so no single feed dominates the top.
+  const buckets: CategoryBucket[] = buildCategories(out.articles);
 
   const payload: HeadlinesPayload = {
     generatedAt: new Date().toISOString(),

@@ -16,10 +16,17 @@ import { extractDate } from "./lib/timeAgo";
 const PARSER = new XMLParser({
   ignoreAttributes: false,
   attributeNamePrefix: "@_",
-  // Default is 1000; large feeds (Simon Willison, Mandiant) exceed that.
-  // (Option exists at runtime even though the TS types don't list it.)
-  entityExpansionLimit: 100000,
-} as ConstructorParameters<typeof XMLParser>[0]);
+  // fast-xml-parser v5+ caps entity expansions by default to prevent DoS.
+  // Legit large feeds (GitHub release Atom, Mandiant, Simon Willison) trip
+  // the default 1000-entity limit. Raise it well above any real feed.
+  processEntities: {
+    enabled: true,
+    maxEntitySize: 100000,
+    maxTotalExpansions: 100000,
+    maxExpandedLength: 1000000,
+    maxEntityCount: 100000,
+  },
+});
 
 const USER_AGENTS = [
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15",
@@ -157,7 +164,13 @@ async function fetchOneFeed(src: FeedSource): Promise<{ articles: Article[]; ok:
   const now = new Date();
   const out: Article[] = [];
 
-  for (const item of items) {
+  // Cap each feed to its most recent 15 items. This prevents high-volume
+  // feeds (Reddit, OpenAI News, GitHub releases) from flooding categories
+  // after keyword routing.
+  const ITEMS_PER_FEED_CAP = 15;
+  const cappedItems = items.slice(0, ITEMS_PER_FEED_CAP);
+
+  for (const item of cappedItems) {
     const title = stripHtml(firstStr(item.title));
     const link = linkFromItem(item);
     if (!title || !link) continue;

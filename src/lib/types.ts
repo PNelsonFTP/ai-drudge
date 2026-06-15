@@ -8,7 +8,8 @@ export type CategoryId =
   | "industry_news" | "safety_policy" | "ai_security" | "analysis"
   | "cyber_threats" | "cyber_defense"
   | "hardware" | "open_source" | "agents_watch" | "funding"
-  | "robotics" | "quantum";
+  | "robotics" | "quantum"
+  | "github_repos" | "ai_finance" | "local_models";
 
 export interface Article {
   id: string;
