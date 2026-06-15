@@ -52,6 +52,81 @@ function stripHtml(s: string | undefined | null): string {
     .trim();
 }
 
+// Decode the common HTML/XML entities that leak through RSS titles and
+// summaries (&#8217; &amp; &lt; &gt; &apos; &quot; &#xNN; &#NN;).
+// Applied after stripHtml so entities inside CDATA also get cleaned.
+const NAMED_ENTITIES: Record<string, string> = {
+  amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", "#39": "'",
+  nbsp: " ", copy: "\u00a9", reg: "\u00ae", trade: "\u2122",
+  mdash: "\u2014", ndash: "\u2013", hellip: "\u2026",
+  lsquo: "\u2018", rsquo: "\u2019", ldquo: "\u201c", rdquo: "\u201d",
+};
+
+function decodeEntities(s: string): string {
+  if (!s || !s.includes("&")) return s;
+  return s.replace(/&(#[xX]?[0-9a-fA-F]+|[a-zA-Z][a-zA-Z0-9]*);/g, (full, body: string) => {
+    const lc = body.toLowerCase();
+    if (lc in NAMED_ENTITIES) return NAMED_ENTITIES[lc];
+    if (lc.startsWith("#x")) {
+      const cp = parseInt(lc.slice(2), 16);
+      return Number.isFinite(cp) ? String.fromCodePoint(cp) : full;
+    }
+    if (lc.startsWith("#")) {
+      const cp = parseInt(lc.slice(1), 10);
+      return Number.isFinite(cp) ? String.fromCodePoint(cp) : full;
+    }
+    return full;
+  });
+}
+
+function cleanText(s: string | undefined | null): string {
+  return decodeEntities(stripHtml(s));
+}
+
+// Detect GitHub-release "noise" titles: pure version tags, commit hashes,
+// RC tags, or version-prefixed changelog entries with no real headline.
+// Examples we want to drop:
+//   "v0.30.8", "b9637", "v5.10.1", "Release v4.2.0"
+//   "v0.30.5-rc0: llama.cpp version update (#16511)"
+//   "3.3.0b1", "3.1.0b1"
+// Examples we want to KEEP:
+//   "Release v5.10.1: Add Mistral Small 3 support" (has real words after colon)
+//   "2026.24: Hey Siri, Tell Me a Fable" (Stratechery podcast — has real title)
+// The distinction: is there an actual ENGLISH title after the version tag?
+function isReleaseNoise(title: string, source: string): string {
+  // Only apply this filter to GitHub release feeds — news sites occasionally
+  // publish legitimate titles like "v8 is here".
+  if (!source.includes("/")) return title;
+  const t = title.trim();
+  if (!t) return title;
+
+  // Pure hash like "b9637" or "abc1234"
+  if (/^[a-z]?\d{3,}$/i.test(t)) return "";
+  if (/^[a-f0-9]{7,}$/i.test(t)) return "";
+
+  // Strip a leading version-tag prefix (and optional "release " before it),
+  // then check if what remains is meaningful English or empty.
+  //   "v0.30.5-rc0: llama.cpp version update (#16511)" -> strip prefix -> "llama.cpp version update (#16511)"
+  //   "3.3.0b1" -> strip prefix -> "" (drop)
+  //   "v0.30.8" -> strip prefix -> "" (drop)
+  //   "Release v5.10.1: Add Mistral support" -> strip prefix -> "Add Mistral support" (keep whole)
+  const stripped = t
+    .replace(/^release\s+/i, "")
+    .replace(/^v?\d+\.\d+(?:\.\d+)*(?:-[a-z0-9.]+)?\s*[:：]?\s*/i, "")
+    .trim();
+
+  // If after stripping there's nothing meaningful left, drop entirely.
+  if (!stripped) return "";
+
+  // If stripped has fewer than 3 real words, also drop — these are usually
+  // things like "3.3.0b1" or "Update #1234" with no actual headline.
+  const words = stripped.split(/\s+/).filter((w) => /[a-z]{3,}/i.test(w));
+  if (words.length < 3) return "";
+
+  // Otherwise, keep the cleaned title (without the version prefix noise).
+  return stripped;
+}
+
 function firstStr(...vals: unknown[]): string | null {
   for (const v of vals) {
     if (typeof v === "string" && v.trim()) return v.trim();
@@ -171,11 +246,34 @@ async function fetchOneFeed(src: FeedSource): Promise<{ articles: Article[]; ok:
   const cappedItems = items.slice(0, ITEMS_PER_FEED_CAP);
 
   for (const item of cappedItems) {
-    const title = stripHtml(firstStr(item.title));
+    const rawTitle = cleanText(firstStr(item.title));
     const link = linkFromItem(item);
-    if (!title || !link) continue;
+    if (!rawTitle || !link) continue;
+
+    // Drop release-tag noise (b9637, v0.30.4) and strip version prefixes
+    // when there's a real headline underneath.
+    const title = isReleaseNoise(rawTitle, src.name);
+    if (!title) continue;
+
     const rawDate = firstStr(item.pubDate, item.published, item.updated, item.date);
-    const summarySrc = firstStr(item.description, item.summary, item.content, item["content:encoded"]);
+
+    // For GitHub Atom releases, the changelog lives in <content type="html">,
+    // NOT in <summary>. Pull it so hover cards have something to show.
+    // We also try summary/description for RSS feeds.
+    const isGitHubRelease = src.url.includes("github.com") && src.url.includes("releases.atom");
+    const summarySrc = isGitHubRelease
+      ? firstStr(item.content, item.summary, item.description)
+      : firstStr(item.description, item.summary, item.content, item["content:encoded"]);
+
+    const summary = summarySrc
+      ? cleanText(summarySrc)
+          // GitHub release HTML often starts with "<a name=N>N</a>" or whitespace artifacts
+          .replace(/^\s*[a-z0-9\s,.-]*\s+by\s+@[\w-]+\s+/i, "")
+          .replace(/\s+/g, " ")
+          .trim()
+          .slice(0, 320)
+      : null;
+
     out.push({
       id: hashId(link),
       title,
@@ -185,7 +283,7 @@ async function fetchOneFeed(src: FeedSource): Promise<{ articles: Article[]; ok:
       priority: src.priority,
       publishedAt: extractDate(rawDate, now),
       publishedRaw: rawDate,
-      summary: summarySrc ? stripHtml(summarySrc).slice(0, 320) : null,
+      summary,
       collectedAt,
     });
   }

@@ -118,8 +118,27 @@ export function buildCategories(articles: Article[]): {
 } {
   const now = new Date();
 
+  // GLOBAL PER-SOURCE CAP
+  // ────────────────────────────────────────────────────────────────────
+  // Limit how many items any single source can contribute to the whole
+  // site per build. Without this, a high-volume feed (llama.cpp releases,
+  // Ollama blog) floods 6+ categories because each category independently
+  // caps the source but the source is allowed its full count everywhere.
+  //
+  // Articles are already sorted (priority then recency) coming in, so
+  // taking the first N per source keeps each source's MOST important /
+  // freshest items and drops the long tail of its less-important posts.
+  const GLOBAL_PER_SOURCE_CAP = 6;
+  const perSourceCount = new Map<string, number>();
+  const sourceLimited = articles.filter((a) => {
+    const n = perSourceCount.get(a.source) ?? 0;
+    if (n >= GLOBAL_PER_SOURCE_CAP) return false;
+    perSourceCount.set(a.source, n + 1);
+    return true;
+  });
+
   // Pre-compute routes per article (avoid repeated work).
-  const routed = articles.map((a) => ({ article: a, cats: routesFor(a) }));
+  const routed = sourceLimited.map((a) => ({ article: a, cats: routesFor(a) }));
 
   const buckets: CategoryBucket[] = [];
 

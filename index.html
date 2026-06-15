@@ -5,6 +5,15 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="AI DRUDGE — machine intelligence headlines, refreshed hourly." />
+    <!--
+      Preload the data files so the browser starts fetching them in parallel
+      with parsing main.tsx. Without this, the SPA parses ~67KB of JS first,
+      THEN issues the data fetches, adding ~150-300ms to first paint on slow
+      connections. The paths are relative so Vite rewrites them to BASE_URL.
+    -->
+    <link rel="preload" href="./data/headlines.json" as="fetch" crossorigin="anonymous" />
+    <link rel="preload" href="./data/stocks.json"    as="fetch" crossorigin="anonymous" />
+    <link rel="preload" href="./data/brief.json"     as="fetch" crossorigin="anonymous" />
     <title>AI DRUDGE</title>
   </head>
   <body>
