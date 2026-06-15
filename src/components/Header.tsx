@@ -4,8 +4,11 @@ interface HeaderProps {
   generatedAt: string | null;
   totalCount: number;
   bookmarksCount: number;
-  showingBookmarks: boolean;
-  onToggleBookmarks: () => void;
+  queueCount: number;
+  mutedCount: number;
+  view: "home" | "bookmarks" | "queue";
+  onSetView: (v: "home" | "bookmarks" | "queue") => void;
+  onOpenManageMutes: () => void;
   search: string;
   onSearchChange: (s: string) => void;
 }
@@ -16,8 +19,11 @@ export function Header({
   generatedAt,
   totalCount,
   bookmarksCount,
-  showingBookmarks,
-  onToggleBookmarks,
+  queueCount,
+  mutedCount,
+  view,
+  onSetView,
+  onOpenManageMutes,
   search,
   onSearchChange,
 }: HeaderProps) {
@@ -40,16 +46,30 @@ export function Header({
             </p>
           </div>
 
-          <div className="flex items-center gap-2 text-xs">
-            <span className="opacity-60">
-              {totalCount > 0 ? `${totalCount} stories · updated ${updated}` : "loading…"}
+          <div className="flex items-center gap-2 text-xs flex-wrap justify-end">
+            <span className="opacity-60 mr-1">
+              {totalCount > 0 ? `${totalCount} stories · ${updated}` : "loading…"}
             </span>
             <button
-              onClick={onToggleBookmarks}
-              className={`px-2 py-1 border rounded ${showingBookmarks ? "bg-[var(--gold)] text-black border-[var(--gold)]" : "opacity-80"}`}
-              title="Show bookmarked stories"
+              onClick={() => onSetView(view === "bookmarks" ? "home" : "bookmarks")}
+              className={`px-2 py-1 border rounded ${view === "bookmarks" ? "bg-[var(--gold)] text-black border-[var(--gold)]" : "opacity-80"}`}
+              title="Bookmarks (save permanently)"
             >
               ★ {bookmarksCount}
+            </button>
+            <button
+              onClick={() => onSetView(view === "queue" ? "home" : "queue")}
+              className={`px-2 py-1 border rounded ${view === "queue" ? "bg-[var(--accent)] text-white border-[var(--accent)]" : "opacity-80"}`}
+              title="Read-later queue (clears on open)"
+            >
+              ◷ {queueCount}
+            </button>
+            <button
+              onClick={onOpenManageMutes}
+              className="px-2 py-1 border rounded opacity-80"
+              title="Manage hidden sources & sections"
+            >
+              ✕ {mutedCount}
             </button>
             <button
               onClick={onToggleTheme}

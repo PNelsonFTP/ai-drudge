@@ -6,7 +6,7 @@
 // (priority + recency + keyword boost) and then a per-source cap
 // forces diversity so no single source can dominate the top.
 
-import type { Article, CategoryBucket, GroupedArticle } from "../types";
+import type { Article, CategoryBucket, GroupedArticle, TrendingStory } from "../types";
 import { CATEGORIES, KEYWORDS, PRIORITY_WEIGHT, type CategoryId } from "../sources";
 import { groupStories } from "./groupStories";
 
@@ -56,6 +56,26 @@ interface ScoredArticle {
   score: number;
 }
 
+// Title token helpers for cross-category story unification in Trending.
+const STOPWORDS = new Set([
+  "the","a","an","and","or","but","of","to","in","on","for","with","by","at","from",
+  "is","are","was","were","be","been","as","it","its","this","that","these","those",
+  "says","said","will","has","have","had","new","ai","via","after","over","into",
+  "you","your","i","we","our","they","their","he","she","his","her",
+]);
+function titleTokens(title: string): Set<string> {
+  return new Set(
+    title.toLowerCase().replace(/[^a-z0-9\s]/g, " ").split(/\s+/)
+      .filter((t) => t.length > 2 && !STOPWORDS.has(t))
+  );
+}
+function jaccard(a: Set<string>, b: Set<string>): number {
+  if (a.size === 0 || b.size === 0) return 0;
+  let inter = 0;
+  for (const t of a) if (b.has(t)) inter++;
+  return inter / (a.size + b.size - inter);
+}
+
 // Score = priority weight + recency + small boost if it arrived via keyword
 // (means it's on-topic for this category beyond just being the feed's home).
 function scoreArticle(article: Article, catId: CategoryId, now: Date): number {
@@ -92,13 +112,26 @@ function enforceDiversity<T extends { article: Article }>(
   return [...head, ...tail];
 }
 
-export function buildCategories(articles: Article[]): CategoryBucket[] {
+export function buildCategories(articles: Article[]): {
+  buckets: CategoryBucket[];
+  trending: TrendingStory[];
+} {
   const now = new Date();
 
   // Pre-compute routes per article (avoid repeated work).
   const routed = articles.map((a) => ({ article: a, cats: routesFor(a) }));
 
   const buckets: CategoryBucket[] = [];
+
+  // Track every appearance of every article URL across categories so we can
+  // compute the Trending section (stories covered by many distinct sources).
+  // Key: lead-article URL. Value: { sources: Set, categories: Set, lead, related }.
+  const storyCoverage = new Map<string, {
+    lead: GroupedArticle;
+    sources: Set<string>;
+    categories: Set<CategoryId>;
+    maxScore: number;
+  }>();
 
   for (const meta of CATEGORIES) {
     // Collect all articles that should appear in this category.
@@ -131,27 +164,79 @@ export function buildCategories(articles: Article[]): CategoryBucket[] {
     grouped.sort((a, b) => (scoreByTitle.get(b.title) ?? 0) - (scoreByTitle.get(a.title) ?? 0));
 
     // Enforce per-source diversity across the WHOLE list (not just top 6).
-    // Cap of 3 items per source when the category has many sources, but allow
-    // up to 5 when the category genuinely has few sources (e.g. specialist
-    // sections like Quantum).
     const distinctSources = new Set(grouped.map((g) => g.source)).size;
     const maxPerSource = distinctSources <= 2 ? 5 : distinctSources <= 4 ? 4 : 3;
     const withScore = grouped.map((g) => ({
       article: g,
       score: scoreByTitle.get(g.title) ?? 0,
     }));
-    // Apply diversity across the entire list so a dominant source can't
-    // queue up 20 items behind the first 2.
     const diversified = enforceDiversity(withScore, withScore.length, maxPerSource);
+    const ordered = diversified.map((d) => d.article);
 
-    // Final cap for display.
+    // Caps: short preview for the default view + longer list for "View all".
     const displayCap = meta.id === "industry_news" ? 15 : 10;
+    const viewAllCap = meta.id === "industry_news" ? 40 : meta.id === "github_repos" ? 25 : 20;
+
     buckets.push({
       id: meta.id,
       label: meta.label,
-      articles: diversified.slice(0, displayCap).map((d) => d.article),
+      articles: ordered.slice(0, displayCap),
+      articlesAll: ordered.slice(0, viewAllCap),
+      sourceCount: distinctSources,
     });
+
+    // Roll up coverage for trending.
+    for (const g of ordered.slice(0, viewAllCap)) {
+      const allSources = new Set<string>([g.source, ...g.related.map((r) => r.source)]);
+      // Try to find an existing story cluster by URL OR by title similarity.
+      // Different categories may have different lead URLs for the same story.
+      let existing = storyCoverage.get(g.url);
+      if (!existing) {
+        // Fuzzy match by title tokens.
+        const gTok = titleTokens(g.title);
+        for (const [, ev] of storyCoverage) {
+          if (jaccard(gTok, titleTokens(ev.lead.title)) >= 0.4) {
+            existing = ev;
+            break;
+          }
+        }
+      }
+      if (existing) {
+        allSources.forEach((s) => existing!.sources.add(s));
+        existing.categories.add(meta.id);
+        const score = scoreByTitle.get(g.title) ?? 0;
+        if (score > existing.maxScore) {
+          existing.maxScore = score;
+          existing.lead = g;
+        }
+      } else {
+        storyCoverage.set(g.url, {
+          lead: g,
+          sources: allSources,
+          categories: new Set([meta.id]),
+          maxScore: scoreByTitle.get(g.title) ?? 0,
+        });
+      }
+    }
   }
 
-  return buckets;
+  // Trending = stories covered by 2+ distinct sources, sorted by source count
+  // then by score. Cap at 12. (Threshold is 2 because most same-story coverage
+  // happens across categories rather than within one — within-category dupes
+  // are rare since the per-source diversity cap already spreads things out.)
+  const trending: TrendingStory[] = [...storyCoverage.values()]
+    .filter((s) => s.sources.size >= 2)
+    .sort((a, b) => {
+      if (b.sources.size !== a.sources.size) return b.sources.size - a.sources.size;
+      return b.maxScore - a.maxScore;
+    })
+    .slice(0, 12)
+    .map((s) => ({
+      lead: s.lead,
+      sources: [...s.sources],
+      sourceCount: s.sources.size,
+      categoryIds: [...s.categories],
+    }));
+
+  return { buckets, trending };
 }

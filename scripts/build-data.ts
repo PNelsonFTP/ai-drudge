@@ -13,7 +13,7 @@ import { fetchAllFeeds } from "./fetch-feeds";
 import { fetchStocks } from "./fetch-stocks";
 import { generateBrief } from "./generate-brief";
 import { buildCategories } from "./lib/router";
-import type { CategoryBucket, HeadlinesPayload } from "./types";
+import type { HeadlinesPayload } from "./types";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = resolve(__dirname, "../public/data");
@@ -55,17 +55,23 @@ async function main() {
   // title/summary). Within each category, articles are scored by priority
   // + recency + keyword relevance, then a per-source diversity cap forces
   // variety so no single feed dominates the top.
-  const buckets: CategoryBucket[] = buildCategories(out.articles);
+  //
+  // Returns both the category buckets AND a Trending list (stories covered
+  // by 3+ distinct sources across categories).
+  const { buckets: categories, trending } = buildCategories(out.articles);
 
   const payload: HeadlinesPayload = {
     generatedAt: new Date().toISOString(),
-    totalCount: buckets.reduce((n, b) => n + b.articles.length, 0),
-    categories: buckets,
+    totalCount: categories.reduce((n, b) => n + b.articles.length, 0),
+    trending,
+    categories,
     feedStats: out.feedStats,
   };
 
   await writeJson(resolve(DATA_DIR, "headlines.json"), payload);
-  console.log(`Wrote headlines.json — ${payload.totalCount} grouped stories across ${buckets.length} categories.`);
+  console.log(
+    `Wrote headlines.json — ${payload.totalCount} grouped stories across ${categories.length} categories, ${trending.length} trending.`
+  );
 
   // Stocks (silent fail to {}).
   const stocks = await fetchStocks();

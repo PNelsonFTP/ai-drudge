@@ -28,10 +28,19 @@ export interface GroupedArticle extends Article {
   related: Article[];
 }
 
+export interface TrendingStory {
+  lead: GroupedArticle;
+  sources: string[];
+  sourceCount: number;
+  categoryIds: string[];
+}
+
 export interface CategoryBucket {
   id: CategoryId;
   label: string;
   articles: GroupedArticle[];
+  articlesAll: GroupedArticle[];
+  sourceCount: number;
 }
 
 export interface FeedStat {
@@ -43,6 +52,7 @@ export interface FeedStat {
 export interface HeadlinesPayload {
   generatedAt: string;
   totalCount: number;
+  trending: TrendingStory[];
   categories: CategoryBucket[];
   feedStats: FeedStat[];
 }
