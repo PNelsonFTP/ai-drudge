@@ -2,109 +2,125 @@
 
 A Drudge-Report-style aggregator for AI news. Static site, no server, refreshed hourly by GitHub Actions.
 
+**Live:** https://pnelsonftp.github.io/ai-drudge/
+
+**Full documentation:** [docs/](./docs/) — design, handoff, SBOM, history, and roadmap.
+
 ## Why this exists
 
-An earlier Next.js version lived at `pacoaifeed.space-z.ai` and repeatedly fell over: 90-second blocks, OOM kills, rate-limit crashes, blank pages during refresh. Root cause was doing live RSS scraping inside Next.js API routes at request time.
+An earlier Next.js version at `pacoaifeed.space-z.ai` repeatedly failed: 90-second blocks, OOM kills, rate-limit crashes, and blank pages during refresh. The root cause was live RSS scraping inside Next.js API routes at request time.
 
-This version moves scraping out of the request path entirely. A GitHub Actions workflow fetches every RSS feed once per hour in parallel, writes a single `headlines.json`, and deploys the static SPA. No server = no OOM. Pre-fetched JSON = no rate limits at request time = no blank pages.
+This version fetches all feeds **once per hour in GitHub Actions**, writes static JSON, and deploys a Vite SPA to GitHub Pages. No server means no OOM. Pre-fetched JSON means no rate limits at page load and no blank refresh states.
 
 ## Stack
 
 - Vite 6 + React 19 + TypeScript 5.8
-- Tailwind CSS v4 (via `@tailwindcss/vite`)
-- `fast-xml-parser` for RSS parsing (build-time only)
-- GitHub Pages for hosting
+- Tailwind CSS v4 (`@tailwindcss/vite`)
+- `fast-xml-parser` for RSS (build-time only)
+- GitHub Pages + GitHub Actions (hourly cron)
 
 ## Project layout
 
 ```
 ai-drudge/
-├── .github/workflows/refresh.yml   # hourly cron: fetch -> commit -> deploy
+├── docs/                           # Full documentation package
+│   ├── DESIGN.md                   # Architecture and algorithms
+│   ├── HANDOFF.md                  # Operations and troubleshooting
+│   ├── PROJECT_HISTORY.md          # What was built and when
+│   ├── SBOM.md / SBOM.json         # Dependency bill of materials
+│   └── FUTURE_IMPROVEMENTS.md      # Next upgrade cycle roadmap
+├── .github/workflows/refresh.yml   # Hourly: fetch → commit → deploy
 ├── scripts/
-│   ├── sources.ts                  # feed list (edit this to add feeds)
-│   ├── fetch-feeds.ts              # parallel RSS with timeout + retry
+│   ├── sources.ts                  # ~103 feeds, 18 categories, KEYWORDS
+│   ├── fetch-feeds.ts              # Parallel RSS, entity decode, noise filter
+│   ├── scrape-sources.ts           # HTML scraper (Anthropic — no RSS)
 │   ├── fetch-stocks.ts             # NVDA/MSFT/GOOG/META/AMZN
-│   ├── generate-brief.ts           # Claude brief if key, else top-3 fallback
-│   ├── build-data.ts               # orchestrator -> public/data/*.json
+│   ├── generate-brief.ts           # Claude brief or curated fallback
+│   ├── build-data.ts               # Orchestrator → public/data/*.json
 │   ├── lib/
-│   │   ├── timeAgo.ts              # 9 date-extraction patterns
-│   │   └── groupStories.ts         # Jaccard >=0.4 same-story clustering
+│   │   ├── router.ts               # Multi-category routing, caps, trending
+│   │   ├── groupStories.ts         # Jaccard ≥0.4 clustering
+│   │   └── timeAgo.ts              # 9 date-extraction patterns
 │   └── types.ts
-├── public/data/                    # generated JSON consumed by the SPA
+├── public/data/                    # Generated JSON (committed by CI)
 ├── src/
-│   ├── App.tsx                     # 3-column Drudge layout
-│   ├── main.tsx
-│   ├── styles.css                  # Tailwind v4 + Drudge typography
-│   ├── components/                  # Header, StockTicker, DailyBrief, etc.
-│   ├── hooks/                       # useHeadlines, useBookmarks, useTheme
-│   └── lib/                         # types, timeAgo
-├── index.html
-├── vite.config.ts
-├── tsconfig.json
-└── package.json
+│   ├── App.tsx                     # 3-column layout, search, views
+│   ├── components/                 # Header, Trending, CategoryColumn, etc.
+│   ├── hooks/
+│   │   ├── useHeadlines.ts         # Stale-while-revalidate + sessionStorage
+│   │   ├── useLocalStorageSet.ts   # Bookmarks, queue, mutes
+│   │   └── useTheme.ts
+│   └── lib/types.ts
+└── vite.config.ts                  # base: "/ai-drudge/"
 ```
 
 ## Local development
 
 ```bash
 cd ai-drudge
-npm install
-npm run build:data   # one-time: populate public/data/*.json
+npm ci
+npm run build:data   # Fetch RSS + stocks + brief (~30s, needs network)
 npm run dev          # http://localhost:5173/ai-drudge/
 ```
 
-You need a network connection for `npm run build:data` (it fetches RSS). The dev server then serves the generated JSON statically.
+## Deployment
 
-## Deployment to GitHub Pages
+1. Push to GitHub repo `PNelsonFTP/ai-drudge` (or update `base` in `vite.config.ts`).
+2. Repo Settings → Pages → Source: **GitHub Actions**.
+3. Workflow runs on push to `main`, manual dispatch, and cron `5 * * * *`.
 
-1. Push this folder to a GitHub repo named `ai-drudge` (or update `base` in `vite.config.ts` to match your repo name).
-2. In the repo settings → Pages → set Source to **GitHub Actions**.
-3. The workflow in `.github/workflows/refresh.yml` runs:
-   - on every push to `main`,
-   - on a manual dispatch,
-   - on an hourly cron (`5 * * * *`).
-4. The first run fetches data and deploys. Subsequent hourly runs refresh the JSON in-place and redeploy.
+See [docs/HANDOFF.md](./docs/HANDOFF.md) for troubleshooting, git conflict resolution, and monitoring.
 
 ## Adding a feed
 
-Edit `scripts/sources.ts` and append to the relevant category:
+Edit `scripts/sources.ts`:
 
 ```ts
 { name: "My Source", url: "https://example.com/feed.xml", category: "industry_news", priority: "high" },
 ```
 
-That's it. No other code needs to change. Categories are defined at the bottom of the same file; reorder the `CATEGORIES` array to reorder sections on the homepage.
+Keyword routing rules in the same file can place articles in additional categories. See [docs/DESIGN.md](./docs/DESIGN.md) §3.4.
 
 ## Optional: AI Daily Brief
 
-The brief uses Claude (Sonnet 4.5, temperature 0.3) with a strict anti-hallucination system prompt: it may only summarize titles/summaries present in the input. If no key is set, or the call fails, it falls back to the top 3 headlines — the site works either way.
+With `ANTHROPIC_API_KEY` set as a GitHub Actions secret, the build generates a Claude summary (grounded in fetched headlines only). Without it, a curated fallback uses trending stories and cross-category sampling.
 
-To enable:
+## Features
 
-1. Get an Anthropic API key.
-2. Repo settings → Secrets and variables → Actions → New repository secret.
-3. Name: `ANTHROPIC_API_KEY`. Value: your key.
-
-## Feature parity with the original
-
-| Feature | Where |
-|---|---|
+| Feature | Location |
+|---------|----------|
 | 3-column Drudge layout | `src/App.tsx` |
-| Dark/light theme (persisted) | `src/hooks/useTheme.ts` |
-| 16 categories incl. cybersec | `scripts/sources.ts` |
-| Time-ago stamps (9 patterns) | `scripts/lib/timeAgo.ts` |
-| Hover preview cards (200ms hide) | `src/components/HoverCard.tsx` |
-| Same-story grouping (Jaccard ≥0.4) | `scripts/lib/groupStories.ts` |
-| Stock ticker (NVDA/MSFT/GOOG/META/AMZN, ▲/▼) | `src/components/StockTicker.tsx` + `scripts/fetch-stocks.ts` |
-| Cybersec categories (threats + defense) | `scripts/sources.ts` |
-| Search | `src/App.tsx` (filters client-side) |
-| Bookmarks | `src/hooks/useBookmarks.ts` |
-| AI Daily Brief (grounded) | `scripts/generate-brief.ts` |
+| 18 categories | `scripts/sources.ts` |
+| Multi-category keyword routing | `scripts/lib/router.ts` |
+| Trending (2+ source coverage) | `scripts/lib/router.ts` + `Trending.tsx` |
+| Story grouping (Jaccard ≥0.4) | `scripts/lib/groupStories.ts` |
+| Per-source global cap (6) | `scripts/lib/router.ts` |
+| View All per section | `CategoryColumn.tsx` + `articlesAll` |
+| Dark/light theme | `useTheme.ts` |
+| Hover preview cards (200ms hide) | `HoverCard.tsx` |
+| Stock ticker | `StockTicker.tsx` + `fetch-stocks.ts` |
+| Search (client-side) | `App.tsx` |
+| Bookmarks | `useLocalStorageSet.ts` |
+| Read-later queue | `useLocalStorageSet.ts` |
+| Mute sources / categories | `ManageMutes.tsx` |
+| Mobile accordion | `CategoryColumn.tsx` |
+| Stale-while-revalidate load | `useHeadlines.ts` |
+| Anthropic HTML scraper | `scrape-sources.ts` |
 | Hourly refresh, no blank page | `.github/workflows/refresh.yml` |
+
+## Documentation
+
+| Doc | Purpose |
+|-----|---------|
+| [docs/DESIGN.md](./docs/DESIGN.md) | System design and data contracts |
+| [docs/HANDOFF.md](./docs/HANDOFF.md) | Operator handoff |
+| [docs/PROJECT_HISTORY.md](./docs/PROJECT_HISTORY.md) | Build history |
+| [docs/SBOM.md](./docs/SBOM.md) | Full dependency SBOM |
+| [docs/FUTURE_IMPROVEMENTS.md](./docs/FUTURE_IMPROVEMENTS.md) | Next cycle roadmap |
 
 ## What was deliberately NOT carried over
 
-- The `refreshing` / `justUpdated` / `hasLoadedOnce` ref state machine that broke the JSX in commit `75da178`.
-- Live RSS in API routes.
-- The Geist font (caused a build error in the original).
-- Client-side "Updating headlines" banner — not needed since refresh happens server-side at build time.
+- Live RSS in API routes (OOM / rate limits)
+- `refreshing` / blank-page refresh UX from commit `75da178`
+- Geist font (build failures on flaky network)
+- Connection to local Python `Collectors/` — site is standalone cloud-only
