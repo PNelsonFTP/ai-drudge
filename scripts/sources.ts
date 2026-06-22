@@ -6,12 +6,13 @@
 //   2. The KEYWORDS map (below) routes any article to ADDITIONAL categories
 //      when its title or summary matches. An OpenAI press release that
 //      TechCrunch also covers will appear under MODEL RELEASES for users
-//      who want it from the source AND under INDUSTRY NEWS for users who
-//      want the press take — both sorted by their own priority+recency.
+//      who want it from the source AND under INDUSTRY NEWS for users
+//      who want the press take — both sorted by their own score.
 //
-// Articles are then sorted by score (priority + recency + keyword boost),
-// and each category enforces a per-source diversity cap so no single
-// source can dominate the top of a section.
+// Articles are sorted by finalScore (priority + recency + importance + HN),
+// dropped when they exceed their category's hard age window, and each
+// category enforces a per-source diversity cap so no single source can
+// dominate the top of a section.
 
 export type CategoryId =
   | "model_releases"
@@ -26,13 +27,12 @@ export type CategoryId =
   | "cyber_defense"
   | "hardware"
   | "open_source"
-  | "agents_watch"
   | "funding"
   | "robotics"
   | "quantum"
-  | "github_repos"     // NEW: useful repos for extending AI/LLMs
-  | "ai_finance"       // NEW: financial / market side of AI
-  | "local_models";    // NEW: running models locally (hw, config, etc.)
+  | "github_repos"     // useful repos for extending AI/LLMs
+  | "ai_finance"       // financial / market side of AI
+  | "local_models";    // running models locally (hw, config, etc.)
 
 export type Priority = "critical" | "high" | "medium" | "low";
 
@@ -49,9 +49,10 @@ export const SOURCES: FeedSource[] = [
   { name: "Google DeepMind Blog", url: "https://deepmind.google/blog/rss.xml", category: "model_releases", priority: "critical" },
   { name: "Hugging Face Blog", url: "https://huggingface.co/blog/feed.xml", category: "model_releases", priority: "high" },
   { name: "Meta AI Blog", url: "https://about.fb.com/feed/", category: "model_releases", priority: "high" },
-  { name: "Cohere Blog", url: "https://cohere.com/blog/rss.xml", category: "model_releases", priority: "medium" },
-  // Anthropic / Mistral / xAI have no public RSS — SPA-only sites.
-  // They are reachable via the press-trade press (TechCrunch, The Verge, etc.) which is already in industry_news.
+  { name: "Google AI Blog", url: "https://blog.google/technology/ai/rss/", category: "model_releases", priority: "high" },
+  { name: "The Decoder", url: "https://the-decoder.com/feed/", category: "model_releases", priority: "high" },
+  // Anthropic / Mistral / xAI have no public RSS — covered via scrape-sources.ts
+  // and via press-trade press (TechCrunch, The Verge, etc.) in industry_news.
 
   // ---------- research ----------
   { name: "arXiv cs.AI", url: "http://export.arxiv.org/rss/cs.AI", category: "research", priority: "high" },
@@ -61,21 +62,23 @@ export const SOURCES: FeedSource[] = [
   { name: "Microsoft Research Blog", url: "https://www.microsoft.com/en-us/research/feed/", category: "research", priority: "medium" },
   { name: "BAIR Blog", url: "https://bair.berkeley.edu/blog/feed.xml", category: "research", priority: "medium" },
   { name: "ML@CMU", url: "https://blog.ml.cmu.edu/feed/", category: "research", priority: "medium" },
-  { name: "Stanford HAI", url: "https://hai.stanford.edu/news/rss.xml", category: "research", priority: "medium" },
+  { name: "Ahead of AI (Raschka)", url: "https://magazine.sebastianraschka.com/feed", category: "research", priority: "medium" },
+  { name: "Sebastian Ruder", url: "https://newsletter.ruder.io/feed", category: "research", priority: "low" },
+  { name: "MarkTechPost", url: "https://www.marktechpost.com/feed/", category: "research", priority: "medium" },
+  { name: "Apple ML", url: "https://machinelearning.apple.com/rss.xml", category: "research", priority: "medium" },
   { name: "Deep Learning Weekly", url: "https://www.deeplearningweekly.com/feed", category: "research", priority: "low" },
 
   // ---------- agents_tools ----------
   { name: "LlamaIndex Blog", url: "https://medium.com/feed/llamaindex-blog", category: "agents_tools", priority: "high" },
   { name: "Vercel Blog", url: "https://vercel.com/atom", category: "agents_tools", priority: "medium" },
-  { name: "Cursor Changelog", url: "https://www.cursor.com/changelog.xml", category: "agents_tools", priority: "medium" },
-  { name: "LangChain Blog", url: "https://blog.langchain.dev/rss/", category: "agents_tools", priority: "high" },
+  { name: "LangChain Blog", url: "https://medium.com/feed/langchain-io", category: "agents_tools", priority: "medium" },
   { name: "OpenAI Cookbook", url: "https://github.com/openai/openai-cookbook/releases.atom", category: "agents_tools", priority: "medium" },
   { name: "AutoGPT", url: "https://github.com/Significant-Gravitas/AutoGPT/releases.atom", category: "agents_tools", priority: "low" },
 
   // ---------- products ----------
   { name: "OpenAI Blog", url: "https://openai.com/blog/rss.xml", category: "products", priority: "high" },
   { name: "GitHub Blog", url: "https://github.blog/feed/", category: "products", priority: "medium" },
-  { name: "GitHub Changelog", url: "https://github.blog/changelog_feed.xml", category: "products", priority: "low" },
+  { name: "AWS ML Blog", url: "https://aws.amazon.com/blogs/machine-learning/feed/", category: "products", priority: "medium" },
 
   // ---------- industry_news ----------
   { name: "TechCrunch AI", url: "https://techcrunch.com/category/artificial-intelligence/feed/", category: "industry_news", priority: "high" },
@@ -84,8 +87,11 @@ export const SOURCES: FeedSource[] = [
   { name: "MIT Tech Review AI", url: "https://www.technologyreview.com/topic/artificial-intelligence/feed", category: "industry_news", priority: "high" },
   { name: "The Verge AI", url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", category: "industry_news", priority: "medium" },
   { name: "Wired AI", url: "https://www.wired.com/feed/tag/ai/latest/rss", category: "industry_news", priority: "medium" },
-  { name: "The Information AI", url: "https://www.theinformation.com/feed", category: "industry_news", priority: "medium" },
   { name: "CNBC Tech", url: "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664", category: "industry_news", priority: "medium" },
+  { name: "AI News (smol.ai)", url: "https://buttondown.com/ainews/rss", category: "industry_news", priority: "high" },
+  { name: "TLDR AI", url: "https://tldr.tech/api/rss/ai", category: "industry_news", priority: "medium" },
+  { name: "Last Week in AI", url: "https://lastweekin.ai/feed", category: "industry_news", priority: "medium" },
+  { name: "Bloomberg Tech", url: "https://feeds.bloomberg.com/technology/news.rss", category: "industry_news", priority: "medium" },
 
   // ---------- safety_policy ----------
   { name: "LessWrong", url: "https://www.lesswrong.com/feed.xml", category: "safety_policy", priority: "low" },
@@ -101,6 +107,9 @@ export const SOURCES: FeedSource[] = [
   { name: "One Useful Thing", url: "https://www.oneusefulthing.org/feed", category: "analysis", priority: "low" },
   { name: "The Algorithmic Bridge", url: "https://thealgorithmicbridge.substack.com/feed", category: "analysis", priority: "low" },
   { name: "Gary Marcus", url: "https://garymarcus.substack.com/feed", category: "analysis", priority: "low" },
+  { name: "Import AI (Jack Clark)", url: "https://jack-clark.net/feed/", category: "analysis", priority: "high" },
+  { name: "Interconnects (Lambert)", url: "https://www.interconnects.ai/feed", category: "analysis", priority: "high" },
+  { name: "Latent Space", url: "https://www.latent.space/feed", category: "analysis", priority: "medium" },
 
   // ---------- cyber_threats ----------
   { name: "BleepingComputer", url: "https://www.bleepingcomputer.com/feed/", category: "cyber_threats", priority: "high" },
@@ -113,7 +122,6 @@ export const SOURCES: FeedSource[] = [
   // ---------- cyber_defense ----------
   { name: "CrowdStrike Blog", url: "https://www.crowdstrike.com/blog/feed/", category: "cyber_defense", priority: "medium" },
   { name: "Palo Alto Unit 42", url: "https://unit42.paloaltonetworks.com/feed/", category: "cyber_defense", priority: "high" },
-  { name: "Mandiant", url: "https://www.mandiant.com/resources/blog/rss.xml", category: "cyber_defense", priority: "high" },
   { name: "Microsoft Security", url: "https://www.microsoft.com/en-us/security/blog/feed/", category: "cyber_defense", priority: "medium" },
   { name: "SentinelOne", url: "https://www.sentinelone.com/feed/", category: "cyber_defense", priority: "medium" },
   { name: "Google Project Zero", url: "https://googleprojectzero.blogspot.com/feeds/posts/default", category: "cyber_defense", priority: "critical" },
@@ -121,17 +129,14 @@ export const SOURCES: FeedSource[] = [
 
   // ---------- hardware ----------
   { name: "NVIDIA Blog", url: "https://blogs.nvidia.com/feed/", category: "hardware", priority: "high" },
+  { name: "NVIDIA Dev Blog", url: "https://developer.nvidia.com/blog/feed", category: "hardware", priority: "medium" },
   { name: "SemiAnalysis", url: "https://www.semianalysis.com/feed", category: "hardware", priority: "medium" },
   { name: "ServeTheHome", url: "https://www.servethehome.com/feed/", category: "hardware", priority: "medium" },
   { name: "Tom's Hardware", url: "https://www.tomshardware.com/feeds/news", category: "hardware", priority: "medium" },
-  { name: "AnandTech", url: "https://www.anandtech.com/rss/news.xml", category: "hardware", priority: "low" },
   { name: "Chipstrat", url: "https://www.chipstrat.com/feed.xml", category: "hardware", priority: "low" },
 
   // ---------- open_source ----------
   { name: "EleutherAI", url: "https://blog.eleuther.ai/feed.xml", category: "open_source", priority: "medium" },
-
-  // ---------- agents_watch ----------
-  { name: "Adept AI", url: "https://www.adept.ai/blog/rss.xml", category: "agents_watch", priority: "low" },
 
   // ---------- funding ----------
   { name: "TechCrunch Startups", url: "https://techcrunch.com/category/startups/feed/", category: "funding", priority: "medium" },
@@ -145,9 +150,10 @@ export const SOURCES: FeedSource[] = [
   { name: "The Quantum Insider", url: "https://thequantuminsider.com/feed/", category: "quantum", priority: "low" },
   { name: "Quantum Computing Report", url: "https://quantumcomputingreport.com/feed/", category: "quantum", priority: "low" },
 
-  // ---------- github_repos (NEW) ----------
+  // ---------- github_repos ----------
   // GitHub release feeds are official Atom feeds per repo — perfect for surfacing
-  // useful AI tools as they ship.
+  // useful AI tools as they ship. fetch-feeds.ts synthesizes display titles for
+  // version-only release titles so they survive the noise filter.
   { name: "langchain-ai/langchain", url: "https://github.com/langchain-ai/langchain/releases.atom", category: "github_repos", priority: "high" },
   { name: "run-llama/llama_index", url: "https://github.com/run-llama/llama_index/releases.atom", category: "github_repos", priority: "high" },
   { name: "vllm-project/vllm", url: "https://github.com/vllm-project/vllm/releases.atom", category: "github_repos", priority: "high" },
@@ -165,29 +171,61 @@ export const SOURCES: FeedSource[] = [
   { name: "continuedev/continue", url: "https://github.com/continuedev/continue/releases.atom", category: "github_repos", priority: "high" },
   { name: "open-webui/open-webui", url: "https://github.com/open-webui/open-webui/releases.atom", category: "github_repos", priority: "high" },
 
-  // ---------- ai_finance (NEW) ----------
+  // ---------- ai_finance ----------
   { name: "Bloomberg Markets", url: "https://feeds.bloomberg.com/markets/news.rss", category: "ai_finance", priority: "high" },
   { name: "CNBC AI Stocks", url: "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664", category: "ai_finance", priority: "medium" },
-  { name: "Seeking Alpha", url: "https://seekingalpha.com/market-news/all.xml", category: "ai_finance", priority: "medium" },
-  { name: "Barron's AI", url: "https://www.barrons.com/feed/news/category/artificial-intelligence", category: "ai_finance", priority: "medium" },
-  { name: "Investor's Business Daily AI", url: "https://www.investors.com/feed/", category: "ai_finance", priority: "medium" },
-  { name: "Wall Street Journal Markets", url: "https://feeds.content.dowjones.io/public/rss/RSSMarketsMain.xml", category: "ai_finance", priority: "medium" },
   { name: "MarketWatch", url: "https://feeds.marketwatch.com/marketwatch/topstories/", category: "ai_finance", priority: "low" },
 
-  // ---------- local_models (NEW) ----------
+  // ---------- local_models ----------
   // Local-first, on-device, and self-hosted LLMs + hardware configs.
   { name: "Ollama Blog", url: "https://ollama.com/blog/rss.xml", category: "local_models", priority: "critical" },
-  { name: "LM Studio Blog", url: "https://lmstudio.ai/blog/rss.xml", category: "local_models", priority: "high" },
-  { name: "Jan Blog", url: "https://jan.ai/blog/rss.xml", category: "local_models", priority: "medium" },
   { name: "LocalLLaMA Subreddit", url: "https://www.reddit.com/r/LocalLLaMA.rss", category: "local_models", priority: "high" },
   { name: "r/LocalLLM", url: "https://www.reddit.com/r/LocalLLM.rss", category: "local_models", priority: "medium" },
-  { name: "ServeTheHome GPU", url: "https://www.servethehome.com/category/gpu/feed/", category: "local_models", priority: "medium" },
   { name: "Puget Systems", url: "https://www.pugetsystems.com/blog/feed/", category: "local_models", priority: "medium" },
-  { name: "Tom's Hardware GPUs", url: "https://www.tomshardware.com/pc-components/gpus/feed", category: "local_models", priority: "medium" },
-  { name: "TinyML", url: "https://tinyml.org/feed/", category: "local_models", priority: "low" },
   { name: "ModularML", url: "https://www.modular.com/blog/rss.xml", category: "local_models", priority: "medium" },
   { name: "PremAI Blog", url: "https://blog.premai.io/feed/", category: "local_models", priority: "low" },
 ];
+
+// ─────────────────────────────────────────────────────────────────────────
+// PER-CATEGORY AGE WINDOWS
+//
+// Strictness = BALANCED. Tight windows for fast lanes (news/releases),
+// longer windows for slow lanes (research/analysis). Starvation-aware fill
+// (#4): items past softDays only appear to keep a section >= minItems, and
+// never past hardDays. Retune here only — router.ts reads these constants.
+// ─────────────────────────────────────────────────────────────────────────
+
+export interface AgeWindow {
+  softDays: number;   // preferred freshness; beyond this only fills to minItems
+  hardDays: number;   // absolute cap — nothing older is ever shown
+  minItems: number;   // backfill target so sparse sections aren't empty
+}
+
+export const AGE_WINDOWS: Record<CategoryId, AgeWindow> = {
+  // FAST lanes
+  model_releases: { softDays: 3, hardDays: 5, minItems: 4 },
+  industry_news:  { softDays: 3, hardDays: 5, minItems: 4 },
+  ai_finance:     { softDays: 3, hardDays: 5, minItems: 4 },
+  products:       { softDays: 3, hardDays: 5, minItems: 4 },
+  agents_tools:   { softDays: 3, hardDays: 5, minItems: 4 },
+  local_models:   { softDays: 3, hardDays: 5, minItems: 4 },
+
+  // MID lanes
+  research:       { softDays: 7,  hardDays: 10, minItems: 3 },
+  hardware:       { softDays: 7,  hardDays: 10, minItems: 3 },
+  cyber_threats:  { softDays: 7,  hardDays: 10, minItems: 3 },
+  cyber_defense:  { softDays: 7,  hardDays: 10, minItems: 3 },
+  ai_security:    { softDays: 7,  hardDays: 10, minItems: 3 },
+  open_source:    { softDays: 7,  hardDays: 10, minItems: 3 },
+  funding:        { softDays: 7,  hardDays: 10, minItems: 3 },
+  github_repos:   { softDays: 7,  hardDays: 10, minItems: 3 },
+
+  // SLOW lanes
+  analysis:       { softDays: 14, hardDays: 21, minItems: 3 },
+  safety_policy:  { softDays: 14, hardDays: 21, minItems: 3 },
+  robotics:       { softDays: 14, hardDays: 21, minItems: 3 },
+  quantum:        { softDays: 14, hardDays: 21, minItems: 3 },
+};
 
 // ─────────────────────────────────────────────────────────────────────────
 // KEYWORD ROUTER
@@ -260,7 +298,7 @@ export interface CategoryMeta {
 }
 
 // Order here = order on the homepage (top-to-bottom, left-to-right).
-// GitHub Repos intentionally moved to the bottom — release-note titles
+// GitHub Repos intentionally kept at the bottom — release-note titles
 // format differently from news headlines and break the visual flow at the top.
 export const CATEGORIES: CategoryMeta[] = [
   { id: "model_releases", label: "MODEL RELEASES", short: "MODELS" },
@@ -283,6 +321,9 @@ export const CATEGORIES: CategoryMeta[] = [
   { id: "github_repos",   label: "GITHUB REPOS",   short: "REPOS" },
 ];
 
+// KEPT for backwards compatibility with fetch-feeds.ts pre-sort. The new
+// scoring module (lib/score.ts) uses its own rebalanced PRIORITY_SCORE;
+// this is only used for the initial global sort before routing.
 export const PRIORITY_WEIGHT: Record<Priority, number> = {
   critical: 100,
   high: 50,

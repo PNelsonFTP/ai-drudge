@@ -33,10 +33,16 @@ jobs:
       - name: Install
         run: npm ci
 
-      - name: Fetch data (RSS + stocks + brief)
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Fetch data (RSS + stocks + brief + HN)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: npm run build:data
+
+      - name: Quality gate
+        run: npm run build:check
 
       # Commit JSON back so the repo always holds the latest snapshot.
       # If nothing changed, the commit is a no-op. We never force-push.

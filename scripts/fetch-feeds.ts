@@ -89,14 +89,20 @@ function cleanText(s: string | undefined | null): string {
 //   "v0.30.8", "b9637", "v5.10.1", "Release v4.2.0"
 //   "v0.30.5-rc0: llama.cpp version update (#16511)"
 //   "3.3.0b1", "3.1.0b1"
-// Examples we want to KEEP:
-//   "Release v5.10.1: Add Mistral Small 3 support" (has real words after colon)
-//   "2026.24: Hey Siri, Tell Me a Fable" (Stratechery podcast — has real title)
-// The distinction: is there an actual ENGLISH title after the version tag?
+// Examples we want to KEEP (real headline):
+//   "Release v5.10.1: Add Mistral Small 3 support"
+//   "2026.24: Hey Siri, Tell Me a Fable"
+//
+// For GitHub release feeds specifically, if the noise filter would drop a
+// title, we SYNTHESIZE "<repoShort> <version> released" instead so the
+// GITHUB REPOS section isn't empty. (#10)
 function isReleaseNoise(title: string, source: string): string {
   // Only apply this filter to GitHub release feeds — news sites occasionally
   // publish legitimate titles like "v8 is here".
-  if (!source.includes("/")) return title;
+  const isGitHubRelease = source.includes("/") && (
+    source.includes("github.com/") || source.includes("/")
+  );
+  if (!isGitHubRelease) return title;
   const t = title.trim();
   if (!t) return title;
 
@@ -115,16 +121,32 @@ function isReleaseNoise(title: string, source: string): string {
     .replace(/^v?\d+\.\d+(?:\.\d+)*(?:-[a-z0-9.]+)?\s*[:：]?\s*/i, "")
     .trim();
 
-  // If after stripping there's nothing meaningful left, drop entirely.
-  if (!stripped) return "";
+  // If after stripping there's nothing meaningful left, SYNTHESIZE a title
+  // from the repo name + version so the GITHUB REPOS section has content (#10).
+  if (!stripped) {
+    const synth = synthesizeGitHubTitle(source, t);
+    return synth;
+  }
 
-  // If stripped has fewer than 3 real words, also drop — these are usually
-  // things like "3.3.0b1" or "Update #1234" with no actual headline.
+  // If stripped has fewer than 3 real words, also synthesize from repo.
   const words = stripped.split(/\s+/).filter((w) => /[a-z]{3,}/i.test(w));
-  if (words.length < 3) return "";
+  if (words.length < 3) {
+    const synth = synthesizeGitHubTitle(source, t);
+    return synth || stripped;
+  }
 
   // Otherwise, keep the cleaned title (without the version prefix noise).
   return stripped;
+}
+
+// Build "<repoShort> <version> released" from a source name like
+// "ollama/ollama" and a raw title like "v0.6.2". Returns "" if we can't
+// extract anything useful.
+function synthesizeGitHubTitle(source: string, rawTitle: string): string {
+  const short = source.split("/").pop() || source;
+  const vMatch = rawTitle.match(/v?(\d+\.\d+(?:\.\d+)*(?:-[a-z0-9.]+)?)/i);
+  const version = vMatch ? `v${vMatch[1]}` : "";
+  return `${short} ${version} released`.trim();
 }
 
 function firstStr(...vals: unknown[]): string | null {
@@ -191,7 +213,7 @@ function linkFromItem(item: ParsedItem): string | null {
   return null;
 }
 
-async function fetchWithTimeout(url: string, ua: string, timeoutMs = 8000): Promise<string> {
+async function fetchWithTimeout(url: string, ua: string, timeoutMs = 8000): Promise<{ body: string; contentType: string } | null> {
   const ctl = new AbortController();
   const t = setTimeout(() => ctl.abort(), timeoutMs);
   try {
@@ -204,25 +226,54 @@ async function fetchWithTimeout(url: string, ua: string, timeoutMs = 8000): Prom
       redirect: "follow",
     });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    return await res.text();
+    const body = await res.text();
+    const contentType = (res.headers.get("content-type") || "").toLowerCase();
+    return { body, contentType };
   } finally {
     clearTimeout(t);
   }
 }
 
+// #11: validate the body actually looks like a feed before parsing.
+// Prevents HTML/Cloudflare interstitials from producing silent 0-item "OK"
+// feeds (e.g. Cohere, LangChain Blog returning SPA HTML).
+function looksLikeFeed(body: string, contentType: string): boolean {
+  const ct = contentType.split(";")[0].trim();
+  if (ct.includes("xml") || ct.includes("rss") || ct.includes("atom")) return true;
+  const head = body.slice(0, 600).trim();
+  return /^<\?xml/.test(head) || /^<rss/.test(head) || /^<feed/.test(head) || /^<rdf/i.test(head);
+}
+
 async function fetchOneFeed(src: FeedSource): Promise<{ articles: Article[]; ok: boolean }> {
   let body: string | null = null;
+  let contentType = "";
   let lastErr: unknown = null;
-  for (let attempt = 0; attempt < 2 && !body; attempt++) {
+  // #8: 3 retries (was 2) with small jittered delay for transient failures.
+  // Substack feeds in particular sometimes rate-limit on first hit.
+  for (let attempt = 0; attempt < 3 && !body; attempt++) {
     const ua = USER_AGENTS[(attempt + src.url.length) % USER_AGENTS.length];
+    if (attempt > 0) {
+      const jitter = 400 + Math.floor(Math.random() * 600);
+      await new Promise((r) => setTimeout(r, jitter));
+    }
     try {
-      body = await fetchWithTimeout(src.url, ua);
+      const got = await fetchWithTimeout(src.url, ua);
+      if (got) {
+        body = got.body;
+        contentType = got.contentType;
+      }
     } catch (e) {
       lastErr = e;
     }
   }
   if (!body) {
     console.warn(`  [skip] ${src.name}: ${lastErr instanceof Error ? lastErr.message : "fetch failed"}`);
+    return { articles: [], ok: false };
+  }
+
+  // #11: reject HTML/interstitial responses before parsing.
+  if (!looksLikeFeed(body, contentType)) {
+    console.warn(`  [skip] ${src.name}: not a feed (got ${contentType.split(";")[0] || "html"})`);
     return { articles: [], ok: false };
   }
 

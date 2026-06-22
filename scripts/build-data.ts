@@ -14,6 +14,7 @@ import { scrapeAllSources } from "./scrape-sources";
 import { fetchStocks } from "./fetch-stocks";
 import { generateBrief } from "./generate-brief";
 import { buildCategories } from "./lib/router";
+import { fetchHn } from "./fetch-hn";
 import type { HeadlinesPayload } from "./types";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -41,10 +42,11 @@ async function writeJson(path: string, data: unknown): Promise<void> {
 }
 
 async function main() {
-  // Run RSS fetch and HTML scrape in parallel — they're independent.
-  const [feedOut, scrapeOut] = await Promise.all([
+  // Run RSS fetch, HTML scrape, and HN index in parallel — independent.
+  const [feedOut, scrapeOut, hn] = await Promise.all([
     fetchAllFeeds(),
     scrapeAllSources(),
+    fetchHn(),
   ]);
 
   const allArticles = [...feedOut.articles, ...scrapeOut.articles];
@@ -66,8 +68,9 @@ async function main() {
     process.exit(0);
   }
 
-  // Multi-category routing with per-source global cap, scoring, and diversity.
-  const { buckets: categories, trending } = buildCategories(allArticles);
+  // Multi-category routing with per-source global cap, scoring, age windows,
+  // starvation fill, HN boost, and freshness gates on Lead/Trending.
+  const { buckets: categories, trending, leadUrl } = buildCategories(allArticles, hn);
 
   const payload: HeadlinesPayload = {
     generatedAt: new Date().toISOString(),
@@ -75,6 +78,7 @@ async function main() {
     trending,
     categories,
     feedStats: allFeedStats,
+    leadUrl,
   };
 
   await writeJsonMin(resolve(DATA_DIR, "headlines.json"), payload);

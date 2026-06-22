@@ -41,6 +41,7 @@ export interface HeadlinesPayload {
   trending: TrendingStory[];    // most-covered stories across all categories
   categories: CategoryBucket[];
   feedStats: { source: string; ok: boolean; count: number }[];
+  leadUrl?: string | null;      // chosen lead story URL (always < 72h at build)
 }
 
 export interface StockQuote {

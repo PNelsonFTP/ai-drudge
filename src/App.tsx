@@ -4,6 +4,7 @@ import { StockTicker } from "./components/StockTicker";
 import { DailyBrief } from "./components/DailyBrief";
 import { LeadStory } from "./components/LeadStory";
 import { Trending } from "./components/Trending";
+import { LatestStrip } from "./components/LatestStrip";
 import { CategoryColumn } from "./components/CategoryColumn";
 import { HoverCard as HoverCardContent, useHoverCard } from "./components/HoverCard";
 import { Headline } from "./components/Headline";
@@ -19,6 +20,16 @@ import {
 import type { Article, CategoryBucket, GroupedArticle } from "./lib/types";
 
 type View = "home" | "bookmarks" | "queue";
+
+// #13: data considered stale if last refreshed more than this many hours ago.
+const STALE_DATA_HOURS = 6;
+
+function dataIsStale(generatedAt: string | null): boolean {
+  if (!generatedAt) return false;
+  const then = new Date(generatedAt).getTime();
+  if (isNaN(then)) return false;
+  return (Date.now() - then) / 3_600_000 > STALE_DATA_HOURS;
+}
 
 export default function App() {
   const { headlines, stocks, brief, error } = useHeadlines();
@@ -104,10 +115,17 @@ export default function App() {
     return out;
   }, [headlines, queue]);
 
-  // Lead story = the first critical/high story from the highest-priority
-  // category present (model_releases preferred).
+  // Lead story = the chosen lead URL if present (#7, always <72h at build time),
+  // otherwise the first article from the highest-priority category present.
   const lead = useMemo<GroupedArticle | null>(() => {
     if (!headlines) return null;
+    if (headlines.leadUrl) {
+      for (const c of headlines.categories) {
+        for (const a of c.articlesAll) {
+          if (a.url === headlines.leadUrl) return a;
+        }
+      }
+    }
     const order = ["model_releases", "industry_news", "ai_security", "cyber_threats", "research"];
     for (const id of order) {
       const cat = headlines.categories.find((c) => c.id === id);
@@ -115,6 +133,23 @@ export default function App() {
     }
     return headlines.categories[0]?.articles[0] ?? null;
   }, [headlines]);
+
+  // #14: flatten filtered categories for the LATEST strip.
+  const latestArticles = useMemo<GroupedArticle[]>(() => {
+    const seen = new Set<string>();
+    const out: GroupedArticle[] = [];
+    for (const c of filteredCategories) {
+      for (const a of c.articlesAll) {
+        if (!seen.has(a.url)) {
+          seen.add(a.url);
+          out.push(a);
+        }
+      }
+    }
+    return out;
+  }, [filteredCategories]);
+
+  const staleData = dataIsStale(headlines?.generatedAt ?? null);
 
   // Three-column layout for the home view.
   const columns = useMemo<CategoryBucket[][]>(() => {
@@ -157,6 +192,12 @@ export default function App() {
         {/* HOME VIEW */}
         {headlines && view === "home" && (
           <>
+            {staleData && (
+              <div className="border border-[var(--siren)] text-[var(--siren)] px-4 py-2 mb-4 text-[12px]">
+                Headlines may be delayed — last refresh was more than {STALE_DATA_HOURS} hours ago.
+              </div>
+            )}
+
             {brief && <DailyBrief brief={brief} />}
             {headlines.trending.length > 0 && (
               <Trending stories={headlines.trending} onHover={showHover} onHoverEnd={hideHover} />
@@ -164,6 +205,7 @@ export default function App() {
             {lead && (
               <LeadStory article={lead} onHover={showHover} onHoverEnd={hideHover} />
             )}
+            <LatestStrip articles={latestArticles} onHover={showHover} onHoverEnd={hideHover} />
 
             {filteredCategories.length === 0 ? (
               <div className="opacity-60 text-center py-12">

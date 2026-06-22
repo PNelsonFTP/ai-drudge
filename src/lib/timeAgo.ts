@@ -18,3 +18,21 @@ export function timeAgoDisplay(iso: string | null, now: Date = new Date()): stri
   const month = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][d.getUTCMonth()];
   return `${month} ${d.getUTCDate()}`;
 }
+
+export function ageHours(iso: string | null, now: Date = new Date()): number {
+  if (!iso) return Infinity;
+  const then = new Date(iso).getTime();
+  if (isNaN(then)) return Infinity;
+  return Math.max(0, (now.getTime() - then) / 3_600_000);
+}
+
+// #12: "NEW" badge for items posted within the threshold.
+export function isNew(iso: string | null, withinHours = 6, now: Date = new Date()): boolean {
+  return ageHours(iso, now) <= withinHours;
+}
+
+// #12: subtle de-emphasis for items older than the threshold.
+export function isStale(iso: string | null, afterHours = 72, now: Date = new Date()): boolean {
+  if (!iso) return false;
+  return ageHours(iso, now) > afterHours;
+}

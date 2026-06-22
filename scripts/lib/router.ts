@@ -1,32 +1,19 @@
-// Multi-category router + scoring + per-source diversity cap.
+// Multi-category router + scoring + per-source diversity cap + age windows.
 //
 // Each Article has a home category (from its feed's `category`).
 // The keyword router adds it to ADDITIONAL categories when its
-// title+summary matches. Within each category, articles are scored
-// (priority + recency + keyword boost) and then a per-source cap
-// forces diversity so no single source can dominate the top.
+// title+summary matches. Within each category:
+//   1. Drop items older than the category's hard age window (#3).
+//   2. Score with finalScore (priority + recency + importance + HN + home) (#1/#2/#5/#6).
+//   3. Starvation-aware fill: prefer soft-window items, backfill to minItems (#4).
+//   4. Per-source diversity cap so no single source dominates the top.
+//   5. Group same-story (Jaccard) clusters.
+// Lead Story and Trending get a freshness gate (#7).
 
 import type { Article, CategoryBucket, GroupedArticle, TrendingStory } from "../types";
-import { CATEGORIES, KEYWORDS, PRIORITY_WEIGHT, type CategoryId } from "../sources";
+import { AGE_WINDOWS, CATEGORIES, KEYWORDS, type CategoryId } from "../sources";
+import { ageHours, finalScore, type HnIndex, type ScoreCtx } from "./score";
 import { groupStories } from "./groupStories";
-
-const HOUR_MS = 60 * 60 * 1000;
-const DAY_MS = 24 * HOUR_MS;
-
-// Recency score: 100 at "now", decays to ~0 over 72h. After that it's flat ~0.
-function recencyScore(publishedAt: string | null, now: Date): number {
-  if (!publishedAt) return 5; // unknown date — small floor so it doesn't vanish
-  const t = new Date(publishedAt).getTime();
-  if (isNaN(t)) return 5;
-  const ageHrs = Math.max(0, (now.getTime() - t) / HOUR_MS);
-  if (ageHrs <= 1)  return 100;
-  if (ageHrs <= 6)  return 80;
-  if (ageHrs <= 12) return 65;
-  if (ageHrs <= 24) return 50;
-  if (ageHrs <= 48) return 30;
-  if (ageHrs <= 72) return 15;
-  return 5;
-}
 
 // Which categories does this article belong to?
 // - Always: its feed's home category.
@@ -51,11 +38,6 @@ function routesFor(article: Article): Set<CategoryId> {
   return cats;
 }
 
-interface ScoredArticle {
-  article: Article;
-  score: number;
-}
-
 // Title token helpers for cross-category story unification in Trending.
 const STOPWORDS = new Set([
   "the","a","an","and","or","but","of","to","in","on","for","with","by","at","from",
@@ -76,16 +58,9 @@ function jaccard(a: Set<string>, b: Set<string>): number {
   return inter / (a.size + b.size - inter);
 }
 
-// Score = priority weight + recency + small boost if it arrived via keyword
-// (means it's on-topic for this category beyond just being the feed's home).
-function scoreArticle(article: Article, catId: CategoryId, now: Date): number {
-  const priority = PRIORITY_WEIGHT[article.priority];
-  const recency = recencyScore(article.publishedAt, now);
-  const isHomeCat = article.category === catId;
-  // Articles whose home category IS this one get a small bonus (more relevant),
-  // but keyword-routed articles can still rank high if they're fresh + high priority.
-  const homeBonus = isHomeCat ? 8 : 0;
-  return priority + recency + homeBonus;
+interface ScoredArticle {
+  article: Article;
+  score: number;
 }
 
 // Per-source diversity cap: no more than N items from any single source in
@@ -112,22 +87,50 @@ function enforceDiversity<T extends { article: Article }>(
   return [...head, ...tail];
 }
 
-export function buildCategories(articles: Article[]): {
+// Starvation-aware fill (#4): items within softDays first; if that yields
+// fewer than minItems, backfill with items between softDays and hardDays
+// (score-sorted) only up to minItems. Never pad beyond minItems from the
+// soft/hard band just to fill larger caps.
+function starvationFill(
+  scored: ScoredArticle[],
+  softDays: number,
+  hardDays: number,
+  minItems: number,
+  now: Date,
+): ScoredArticle[] {
+  const softHrs = softDays * 24;
+  const hardHrs = hardDays * 24;
+
+  const soft = scored.filter((s) => ageHours(s.article.publishedAt, now) <= softHrs);
+  if (soft.length >= minItems) return soft;
+
+  const middle = scored.filter((s) => {
+    const h = ageHours(s.article.publishedAt, now);
+    return h > softHrs && h <= hardHrs;
+  });
+  // Backfill up to minItems only.
+  const need = minItems - soft.length;
+  return [...soft, ...middle.slice(0, Math.max(0, need))];
+}
+
+export interface BuildCategoriesResult {
   buckets: CategoryBucket[];
   trending: TrendingStory[];
-} {
+  leadUrl: string | null;   // #7: chosen lead URL (always < 72h)
+}
+
+export function buildCategories(
+  articles: Article[],
+  hn?: HnIndex,
+): BuildCategoriesResult {
   const now = new Date();
 
   // GLOBAL PER-SOURCE CAP
   // ────────────────────────────────────────────────────────────────────
   // Limit how many items any single source can contribute to the whole
-  // site per build. Without this, a high-volume feed (llama.cpp releases,
-  // Ollama blog) floods 6+ categories because each category independently
-  // caps the source but the source is allowed its full count everywhere.
-  //
-  // Articles are already sorted (priority then recency) coming in, so
-  // taking the first N per source keeps each source's MOST important /
-  // freshest items and drops the long tail of its less-important posts.
+  // site per build. Without this, a high-volume feed floods 6+ categories.
+  // Articles come in pre-sorted (priority then recency), so taking the first
+  // N per source keeps each source's MOST important / freshest items.
   const GLOBAL_PER_SOURCE_CAP = 6;
   const perSourceCount = new Map<string, number>();
   const sourceLimited = articles.filter((a) => {
@@ -144,28 +147,45 @@ export function buildCategories(articles: Article[]): {
 
   // Track every appearance of every article URL across categories so we can
   // compute the Trending section (stories covered by many distinct sources).
-  // Key: lead-article URL. Value: { sources: Set, categories: Set, lead, related }.
   const storyCoverage = new Map<string, {
     lead: GroupedArticle;
     sources: Set<string>;
     categories: Set<CategoryId>;
     maxScore: number;
+    leadAgeH: number;
   }>();
 
+  // #7: pick the highest-scoring <72h article as the Lead Story.
+  let leadCandidate: { url: string; score: number } | null = null;
+
   for (const meta of CATEGORIES) {
-    // Collect all articles that should appear in this category.
+    const window = AGE_WINDOWS[meta.id];
+
+    // Collect all articles routed to this category.
     const inCat: ScoredArticle[] = [];
     for (const { article, cats } of routed) {
-      if (cats.has(meta.id)) {
-        inCat.push({ article, score: scoreArticle(article, meta.id, now) });
-      }
+      if (!cats.has(meta.id)) continue;
+      // #3: drop items older than the hard age window.
+      const ageH = ageHours(article.publishedAt, now);
+      if (ageH > window.hardDays * 24) continue;
+      const ctx: ScoreCtx = {
+        now,
+        hn,
+        forCategoryId: meta.id,
+        isHomeCategory: article.category === meta.id,
+      };
+      inCat.push({ article, score: finalScore(article, ctx) });
     }
 
-    // Skip empty categories.
     if (inCat.length === 0) continue;
 
-    // Sort by score descending.
     inCat.sort((a, b) => b.score - a.score);
+
+    // #4: starvation-aware fill — prefer fresh; only backfill to minItems.
+    const filled = starvationFill(inCat, window.softDays, window.hardDays, window.minItems, now);
+    // Re-sort after fill (soft + middle already sorted within their bands,
+    // but a single merged order is safer).
+    filled.sort((a, b) => b.score - a.score);
 
     // Cap before grouping for performance.
     const cap =
@@ -173,7 +193,7 @@ export function buildCategories(articles: Article[]): {
       meta.id === "research"      ? 40 :
       meta.id === "github_repos"  ? 30 :
       25;
-    const top = inCat.slice(0, cap);
+    const top = filled.slice(0, cap);
 
     // Group same-story (Jaccard) within the category.
     const grouped: GroupedArticle[] = groupStories(top.map((s) => s.article));
@@ -204,14 +224,20 @@ export function buildCategories(articles: Article[]): {
       sourceCount: distinctSources,
     });
 
-    // Roll up coverage for trending.
+    // Roll up coverage for trending (only items that survive the window).
     for (const g of ordered.slice(0, viewAllCap)) {
       const allSources = new Set<string>([g.source, ...g.related.map((r) => r.source)]);
+      const score = scoreByTitle.get(g.title) ?? 0;
+      const ageH = ageHours(g.publishedAt, now);
+
+      // #7: track the lead candidate (must be < 72h).
+      if (ageH <= 72 && (!leadCandidate || score > leadCandidate.score)) {
+        leadCandidate = { url: g.url, score };
+      }
+
       // Try to find an existing story cluster by URL OR by title similarity.
-      // Different categories may have different lead URLs for the same story.
       let existing = storyCoverage.get(g.url);
       if (!existing) {
-        // Fuzzy match by title tokens.
         const gTok = titleTokens(g.title);
         for (const [, ev] of storyCoverage) {
           if (jaccard(gTok, titleTokens(ev.lead.title)) >= 0.4) {
@@ -223,39 +249,46 @@ export function buildCategories(articles: Article[]): {
       if (existing) {
         allSources.forEach((s) => existing!.sources.add(s));
         existing.categories.add(meta.id);
-        const score = scoreByTitle.get(g.title) ?? 0;
         if (score > existing.maxScore) {
           existing.maxScore = score;
           existing.lead = g;
+          existing.leadAgeH = ageH;
         }
       } else {
         storyCoverage.set(g.url, {
           lead: g,
           sources: allSources,
           categories: new Set([meta.id]),
-          maxScore: scoreByTitle.get(g.title) ?? 0,
+          maxScore: score,
+          leadAgeH: ageH,
         });
       }
     }
   }
 
-  // Trending = stories covered by 2+ distinct sources, sorted by source count
-  // then by score. Cap at 12. (Threshold is 2 because most same-story coverage
-  // happens across categories rather than within one — within-category dupes
-  // are rare since the per-source diversity cap already spreads things out.)
-  const trending: TrendingStory[] = [...storyCoverage.values()]
-    .filter((s) => s.sources.size >= 2)
-    .sort((a, b) => {
-      if (b.sources.size !== a.sources.size) return b.sources.size - a.sources.size;
-      return b.maxScore - a.maxScore;
-    })
-    .slice(0, 12)
-    .map((s) => ({
-      lead: s.lead,
-      sources: [...s.sources],
-      sourceCount: s.sources.size,
-      categoryIds: [...s.categories],
-    }));
+  // Trending = stories covered by 2+ distinct sources AND fresh (<72h).
+  // If the strict gate yields too few, relax to <120h to reach min 4.
+  // Sorted by source count then by score. Cap at 12.
+  const TRENDING_FRESH_H = 72;
+  const TRENDING_RELAXED_H = 120;
+  const TRENDING_MIN = 4;
 
-  return { buckets, trending };
+  let trending = [...storyCoverage.values()]
+    .filter((s) => s.sources.size >= 2 && s.leadAgeH <= TRENDING_FRESH_H);
+  if (trending.length < TRENDING_MIN) {
+    trending = [...storyCoverage.values()]
+      .filter((s) => s.sources.size >= 2 && s.leadAgeH <= TRENDING_RELAXED_H);
+  }
+  trending.sort((a, b) => {
+    if (b.sources.size !== a.sources.size) return b.sources.size - a.sources.size;
+    return b.maxScore - a.maxScore;
+  });
+  const trendingOut: TrendingStory[] = trending.slice(0, 12).map((s) => ({
+    lead: s.lead,
+    sources: [...s.sources],
+    sourceCount: s.sources.size,
+    categoryIds: [...s.categories],
+  }));
+
+  return { buckets, trending: trendingOut, leadUrl: leadCandidate?.url ?? null };
 }

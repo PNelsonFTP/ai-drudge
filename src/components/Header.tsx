@@ -13,6 +13,19 @@ interface HeaderProps {
   onSearchChange: (s: string) => void;
 }
 
+function relativeUpdated(generatedAt: string | null): { label: string; stale: boolean } {
+  if (!generatedAt) return { label: "—", stale: false };
+  const then = new Date(generatedAt).getTime();
+  if (isNaN(then)) return { label: "—", stale: false };
+  const diffH = (Date.now() - then) / 3_600_000;
+  const ago = (() => {
+    if (diffH < 1) return `${Math.max(0, Math.floor(diffH * 60))}m ago`;
+    if (diffH < 24) return `${Math.floor(diffH)}h ago`;
+    return `${Math.floor(diffH / 24)}d ago`;
+  })();
+  return { label: `updated ${ago}`, stale: diffH > 6 };
+}
+
 export function Header({
   theme,
   onToggleTheme,
@@ -27,11 +40,7 @@ export function Header({
   search,
   onSearchChange,
 }: HeaderProps) {
-  const updated = generatedAt
-    ? new Date(generatedAt).toLocaleString(undefined, {
-        month: "short", day: "numeric", hour: "2-digit", minute: "2-digit",
-      })
-    : "—";
+  const { label: updatedLabel, stale: dataStale } = relativeUpdated(generatedAt);
 
   return (
     <header className="border-b-2 border-[var(--siren)] px-4 py-3">
@@ -47,8 +56,8 @@ export function Header({
           </div>
 
           <div className="flex items-center gap-2 text-xs flex-wrap justify-end">
-            <span className="opacity-60 mr-1">
-              {totalCount > 0 ? `${totalCount} stories · ${updated}` : "loading…"}
+            <span className={`mr-1 ${dataStale ? "text-[var(--siren)]" : "opacity-60"}`}>
+              {totalCount > 0 ? `${totalCount} stories · ${updatedLabel}` : "loading…"}
             </span>
             <button
               onClick={() => onSetView(view === "bookmarks" ? "home" : "bookmarks")}

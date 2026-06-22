@@ -1,6 +1,6 @@
 import { useState } from "react";
 import type { GroupedArticle } from "../lib/types";
-import { timeAgoDisplay } from "../lib/timeAgo";
+import { isNew, isStale, timeAgoDisplay } from "../lib/timeAgo";
 
 interface HeadlineProps {
   article: GroupedArticle;
@@ -43,11 +43,14 @@ export function Headline({
     if (consumeOnOpen && onConsume) onConsume(article.id);
   };
 
+  const fresh = isNew(article.publishedAt);
+  const stale = isStale(article.publishedAt);
+
   // Dimmed if user has muted this source (only happens when explicitly
   // viewing muted items from the manage panel; otherwise they're filtered out).
   return (
     <div
-      className="group flex items-start gap-1 py-1"
+      className={`group flex items-start gap-1 py-1 ${stale ? "opacity-60" : ""}`}
       onMouseEnter={(e) => { onHover(article, e); setShowActions(true); }}
       onMouseLeave={() => { onHoverEnd(); setShowActions(false); }}
     >
@@ -77,6 +80,14 @@ export function Headline({
         >
           {article.title}
         </a>
+        {fresh && (
+          <span
+            className="ml-1 text-[9px] uppercase tracking-wider align-top text-[var(--siren)] font-bold"
+            title="Posted in the last 6 hours"
+          >
+            NEW
+          </span>
+        )}
         {article.related.length > 0 && (
           <span className="related-badge" title={`${article.related.length} more source(s) covering this story`}>
             +{article.related.length}

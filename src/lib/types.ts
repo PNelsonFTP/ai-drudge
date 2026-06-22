@@ -7,7 +7,7 @@ export type CategoryId =
   | "model_releases" | "research" | "agents_tools" | "products"
   | "industry_news" | "safety_policy" | "ai_security" | "analysis"
   | "cyber_threats" | "cyber_defense"
-  | "hardware" | "open_source" | "agents_watch" | "funding"
+  | "hardware" | "open_source" | "funding"
   | "robotics" | "quantum"
   | "github_repos" | "ai_finance" | "local_models";
 
@@ -55,6 +55,7 @@ export interface HeadlinesPayload {
   trending: TrendingStory[];
   categories: CategoryBucket[];
   feedStats: FeedStat[];
+  leadUrl?: string | null;
 }
 
 export interface StockQuote {
