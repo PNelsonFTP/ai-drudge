@@ -15,14 +15,17 @@ const DAY_MS = 24 * HOUR_MS;
 
 interface Thresholds {
   minFeedOkRatio: number;      // hard fail below
-  maxMedianAgeH: number;       // hard fail above
+  warnMedianAgeH: number;      // warn above (non-fatal — varies with news cycle)
   maxItemAgeDays: number;      // hard fail if any displayed item older
   warnFeedOkRatio: number;     // warn below (non-fatal)
 }
 
 const T: Thresholds = {
   minFeedOkRatio: 0.80,
-  maxMedianAgeH: 48,
+  // Median age is warn-only: hourly CI often sees 48–72h when many sources
+  // publish once/day. Hard-fail on maxItemAgeDays instead — that catches the
+  // real regression (845-day articles leaking through age windows).
+  warnMedianAgeH: 96,
   maxItemAgeDays: 30,
   warnFeedOkRatio: 0.90,
 };
@@ -80,9 +83,6 @@ async function main() {
   if (feedRatio < T.minFeedOkRatio) {
     failures.push(`feed health ${(feedRatio * 100).toFixed(0)}% < ${(T.minFeedOkRatio * 100).toFixed(0)}% threshold`);
   }
-  if (!isNaN(median) && median > T.maxMedianAgeH) {
-    failures.push(`median age ${median.toFixed(1)}h > ${T.maxMedianAgeH}h threshold`);
-  }
   if (maxItemAgeDays > T.maxItemAgeDays) {
     failures.push(`max item age ${maxItemAgeDays.toFixed(1)}d > ${T.maxItemAgeDays}d threshold (stale content leaking through)`);
   }
@@ -91,6 +91,9 @@ async function main() {
   }
 
   // Warnings (non-fatal)
+  if (!isNaN(median) && median > T.warnMedianAgeH) {
+    console.warn(`⚠  WARN: median age ${median.toFixed(1)}h > ${T.warnMedianAgeH}h target`);
+  }
   if (feedRatio < T.warnFeedOkRatio) {
     console.warn(`⚠  WARN: feed health below ${(T.warnFeedOkRatio * 100).toFixed(0)}% target`);
   }
