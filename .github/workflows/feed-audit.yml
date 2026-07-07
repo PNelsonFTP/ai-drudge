@@ -1,0 +1,30 @@
+name: Weekly feed audit
+
+# Validates every configured feed URL (liveness, parseability, freshness,
+# permanent redirects) so dead sources get caught within a week instead of
+# silently rotting. Failures show up as a red run — review the log and fix
+# scripts/sources.ts. This never blocks the hourly refresh workflow.
+
+on:
+  schedule:
+    - cron: "0 12 * * 1"   # Mondays 12:00 UTC
+  workflow_dispatch: {}
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: Install
+        run: npm ci
+
+      - name: Validate all feeds
+        run: npm run validate:feeds

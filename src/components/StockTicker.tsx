@@ -1,6 +1,6 @@
 import type { StockQuote } from "../lib/types";
 
-const ORDER = ["NVDA", "MSFT", "GOOG", "META", "AMZN"];
+const ORDER = ["NVDA", "MSFT", "GOOG", "META", "AMZN", "AMD", "TSM", "AVGO"];
 
 export function StockTicker({ stocks }: { stocks: Record<string, StockQuote> | null }) {
   if (!stocks) return null;

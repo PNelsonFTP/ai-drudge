@@ -83,70 +83,63 @@ function cleanText(s: string | undefined | null): string {
   return decodeEntities(stripHtml(s));
 }
 
-// Detect GitHub-release "noise" titles: pure version tags, commit hashes,
-// RC tags, or version-prefixed changelog entries with no real headline.
-// Examples we want to drop:
-//   "v0.30.8", "b9637", "v5.10.1", "Release v4.2.0"
+// Clean GitHub-release "noise" titles: pure version tags, build tags, commit
+// hashes, RC tags, or version-prefixed changelog entries with no real headline.
+// Examples we want to synthesize from:
+//   "v0.30.8", "b9637", "v5.10.1", "Release v4.2.0", "3.3.0b1"
 //   "v0.30.5-rc0: llama.cpp version update (#16511)"
-//   "3.3.0b1", "3.1.0b1"
 // Examples we want to KEEP (real headline):
 //   "Release v5.10.1: Add Mistral Small 3 support"
 //   "2026.24: Hey Siri, Tell Me a Fable"
 //
-// For GitHub release feeds specifically, if the noise filter would drop a
-// title, we SYNTHESIZE "<repoShort> <version> released" instead so the
-// GITHUB REPOS section isn't empty. (#10)
-function isReleaseNoise(title: string, source: string): string {
-  // Only apply this filter to GitHub release feeds — news sites occasionally
-  // publish legitimate titles like "v8 is here".
-  const isGitHubRelease = source.includes("/") && (
-    source.includes("github.com/") || source.includes("/")
-  );
-  if (!isGitHubRelease) return title;
+// When there is no real headline we SYNTHESIZE "<repoShort> <version> released"
+// so the GITHUB REPOS section isn't empty (#10). The caller keeps only the
+// NEWEST synthesized title per feed — repos like llama.cpp cut several
+// tag-only builds per day and we don't want 15 near-identical headlines.
+function cleanGitHubReleaseTitle(
+  title: string,
+  source: string
+): { title: string; synthesized: boolean } {
   const t = title.trim();
-  if (!t) return title;
+  if (!t) return { title: "", synthesized: false };
 
-  // Pure hash like "b9637" or "abc1234"
-  if (/^[a-z]?\d{3,}$/i.test(t)) return "";
-  if (/^[a-f0-9]{7,}$/i.test(t)) return "";
+  // Pure build tag ("b9637") or commit hash ("abc1234f") — synthesize,
+  // using the tag itself as the version.
+  if (/^[a-z]?\d{3,}$/i.test(t) || /^[a-f0-9]{7,}$/i.test(t)) {
+    return { title: `${repoShort(source)} ${t} released`, synthesized: true };
+  }
 
   // Strip a leading version-tag prefix (and optional "release " before it),
   // then check if what remains is meaningful English or empty.
-  //   "v0.30.5-rc0: llama.cpp version update (#16511)" -> strip prefix -> "llama.cpp version update (#16511)"
-  //   "3.3.0b1" -> strip prefix -> "" (drop)
-  //   "v0.30.8" -> strip prefix -> "" (drop)
-  //   "Release v5.10.1: Add Mistral support" -> strip prefix -> "Add Mistral support" (keep whole)
+  //   "v0.30.5-rc0: llama.cpp version update (#16511)" -> "llama.cpp version update (#16511)"
+  //   "3.3.0b1" / "v0.30.8" -> "" (synthesize)
+  //   "Release v5.10.1: Add Mistral support" -> "Add Mistral support"
   const stripped = t
     .replace(/^release\s+/i, "")
     .replace(/^v?\d+\.\d+(?:\.\d+)*(?:-[a-z0-9.]+)?\s*[:：]?\s*/i, "")
     .trim();
 
-  // If after stripping there's nothing meaningful left, SYNTHESIZE a title
-  // from the repo name + version so the GITHUB REPOS section has content (#10).
-  if (!stripped) {
-    const synth = synthesizeGitHubTitle(source, t);
-    return synth;
-  }
-
-  // If stripped has fewer than 3 real words, also synthesize from repo.
+  // Fewer than 3 real words left = no real headline — synthesize from repo.
   const words = stripped.split(/\s+/).filter((w) => /[a-z]{3,}/i.test(w));
-  if (words.length < 3) {
-    const synth = synthesizeGitHubTitle(source, t);
-    return synth || stripped;
+  if (!stripped || words.length < 3) {
+    return { title: synthesizeGitHubTitle(source, t) || stripped, synthesized: true };
   }
 
   // Otherwise, keep the cleaned title (without the version prefix noise).
-  return stripped;
+  return { title: stripped, synthesized: false };
+}
+
+function repoShort(source: string): string {
+  return source.split("/").pop() || source;
 }
 
 // Build "<repoShort> <version> released" from a source name like
 // "ollama/ollama" and a raw title like "v0.6.2". Returns "" if we can't
 // extract anything useful.
 function synthesizeGitHubTitle(source: string, rawTitle: string): string {
-  const short = source.split("/").pop() || source;
   const vMatch = rawTitle.match(/v?(\d+\.\d+(?:\.\d+)*(?:-[a-z0-9.]+)?)/i);
   const version = vMatch ? `v${vMatch[1]}` : "";
-  return `${short} ${version} released`.trim();
+  return `${repoShort(source)} ${version} released`.trim();
 }
 
 function firstStr(...vals: unknown[]): string | null {
@@ -187,8 +180,8 @@ function extractItems(json: any): ParsedItem[] {
     const entries = feed.entry;
     return Array.isArray(entries) ? entries : entries ? [entries] : [];
   }
-  // RDF
-  const rdf = json?.rdf;
+  // RDF (RSS 1.0 — e.g. Nature journal feeds)
+  const rdf = json?.["rdf:RDF"] ?? json?.rdf;
   if (rdf) {
     const items = rdf.item;
     return Array.isArray(items) ? items : items ? [items] : [];
@@ -296,22 +289,36 @@ async function fetchOneFeed(src: FeedSource): Promise<{ articles: Article[]; ok:
   const ITEMS_PER_FEED_CAP = 15;
   const cappedItems = items.slice(0, ITEMS_PER_FEED_CAP);
 
+  // Only apply the release-noise filter to GitHub release feeds — news sites
+  // occasionally publish legitimate titles like "v8 is here". (Matching on
+  // the URL, not the source name: "r/LocalLLM" also contains a slash.)
+  const isGitHubRelease = src.url.includes("github.com") && src.url.includes("releases.atom");
+  let synthesizedThisFeed = false;
+
   for (const item of cappedItems) {
     const rawTitle = cleanText(firstStr(item.title));
     const link = linkFromItem(item);
     if (!rawTitle || !link) continue;
 
-    // Drop release-tag noise (b9637, v0.30.4) and strip version prefixes
-    // when there's a real headline underneath.
-    const title = isReleaseNoise(rawTitle, src.name);
-    if (!title) continue;
+    // For tag-only release titles (b9637, v0.30.4), synthesize a headline
+    // from the repo name — but keep only the newest one per feed so busy
+    // repos don't publish 15 near-identical lines per build.
+    let title = rawTitle;
+    if (isGitHubRelease) {
+      const cleaned = cleanGitHubReleaseTitle(rawTitle, src.name);
+      if (!cleaned.title) continue;
+      if (cleaned.synthesized) {
+        if (synthesizedThisFeed) continue;
+        synthesizedThisFeed = true;
+      }
+      title = cleaned.title;
+    }
 
-    const rawDate = firstStr(item.pubDate, item.published, item.updated, item.date);
+    const rawDate = firstStr(item.pubDate, item.published, item.updated, item.date, (item as any)["dc:date"]);
 
     // For GitHub Atom releases, the changelog lives in <content type="html">,
     // NOT in <summary>. Pull it so hover cards have something to show.
     // We also try summary/description for RSS feeds.
-    const isGitHubRelease = src.url.includes("github.com") && src.url.includes("releases.atom");
     const summarySrc = isGitHubRelease
       ? firstStr(item.content, item.summary, item.description)
       : firstStr(item.description, item.summary, item.content, item["content:encoded"]);

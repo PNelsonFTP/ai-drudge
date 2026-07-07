@@ -19,9 +19,16 @@ import { groupStories } from "./groupStories";
 // - Always: its feed's home category.
 // - Additionally: any category whose keyword set matches title+summary.
 //
-// Exception: noisy aggregators (Reddit) only get keyword-routed into their
-// home category, because their post titles are generic and match too broadly.
-const KEYWORD_AGNOSTIC_SOURCES = new Set(["LocalLLaMA Subreddit", "r/LocalLLM", "Hacker News"]);
+// Exception: noisy aggregators (Reddit, Lemmy) only get keyword-routed into
+// their home category, because their post titles are generic and match too
+// broadly. (The hnrss/Google News query feeds carry real article titles, so
+// they route normally.)
+const KEYWORD_AGNOSTIC_SOURCES = new Set([
+  "LocalLLaMA Subreddit",
+  "r/LocalLLM",
+  "Lemmy c/localllama",
+  "Hacker News",
+]);
 
 function routesFor(article: Article): Set<CategoryId> {
   const cats = new Set<CategoryId>([article.category]);

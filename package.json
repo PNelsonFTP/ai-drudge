@@ -10,7 +10,9 @@
     "build:check": "tsx scripts/check-data.ts",
     "typecheck": "tsc --noEmit",
     "preview": "vite preview",
-    "data:once": "tsx scripts/build-data.ts"
+    "data:once": "tsx scripts/build-data.ts",
+    "validate:feeds": "tsx scripts/validate-feeds.ts",
+    "sbom": "tsx scripts/generate-sbom.ts"
   },
   "dependencies": {
     "react": "^19.1.0",
@@ -22,11 +24,10 @@
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
     "@vitejs/plugin-react": "^4.4.1",
-    "fast-xml-parser": "^4.5.2",
+    "fast-xml-parser": "^5.9.3",
     "tailwindcss": "^4.1.8",
     "tsx": "^4.19.2",
     "typescript": "~5.8.3",
-    "vite": "^6.3.5",
-    "vite-plugin-pwa": "^1.0.0"
+    "vite": "^6.3.5"
   }
 }

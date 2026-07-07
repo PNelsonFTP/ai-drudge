@@ -1,10 +1,11 @@
-// Stock quotes for NVDA, MSFT, GOOG, META, AMZN.
+// Stock quotes for the AI complex: hyperscalers/labs (NVDA, MSFT, GOOG,
+// META, AMZN) plus the silicon supply chain (AMD, TSM, AVGO).
 // Uses Stooq (free, no key, CSV) with a Yahoo fallback. Silently returns {}
 // if every source fails — the site then hides the ticker gracefully.
 
 import type { StockQuote } from "./types";
 
-const SYMBOLS = ["NVDA", "MSFT", "GOOG", "META", "AMZN"];
+const SYMBOLS = ["NVDA", "MSFT", "GOOG", "META", "AMZN", "AMD", "TSM", "AVGO"];
 
 // Stooq format: Symbol,Date,Time,Open,High,Low,Close,Volume
 async function fromStooq(sym: string): Promise<StockQuote | null> {

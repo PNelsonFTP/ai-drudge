@@ -50,8 +50,8 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [[ -n "$(git status --porcelain public/data)" ]]; then
-            git add public/data
+          if [[ -n "$(git status --porcelain public/data public/feed.xml)" ]]; then
+            git add public/data public/feed.xml
             git commit -m "chore(data): refresh $(date -u +%FT%TZ)"
             git push
           else

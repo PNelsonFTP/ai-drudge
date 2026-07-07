@@ -8,7 +8,7 @@ Chronological record of what was built, why, and what was deliberately rejected.
 |------|--------|
 | Inspiration | [Drudge Report](https://www.drudgereport.com/) layout and density |
 | Prior attempt | Next.js site at `pacoaifeed.space-z.ai` (hosted on z.ai) |
-| Workspace path | `/Users/paulnelson/Documents/Cursor/ai-drudge` |
+| Workspace path | `/Users/paulnelson/Documents/Development/ai-drudge` |
 | Live deployment | https://pnelsonftp.github.io/ai-drudge/ |
 | Git remote | https://github.com/PNelsonFTP/ai-drudge |
 | Related asset | `cyber-drudge-prompt.md` at workspace root — reusable prompt for a cybersecurity variant |
@@ -66,21 +66,106 @@ The prior site scraped RSS **inside Next.js API routes at request time**. That c
 | Client perf | Block on every load | SWR + sessionStorage + preload hints |
 | `fast-xml-parser` entity limit | Default 1000 (silent feed drops) | Raised via `processEntities` config |
 
+### Phase 4 — CI stabilization (June 28, 2026)
+
+**Commit:** `81494e4` — Fix CI: relax quality-gate median-age check, Node 22
+
+- `build:check` median-age check demoted to a warning (hourly runs legitimately
+  see 48–72h medians when many sources publish daily); hard-fail moved to
+  max-item-age (30d) which catches the real regression class
+- GitHub Actions Node 20 → 22
+
+### Phase 5 — Full overhaul (July 6, 2026)
+
+Complete source audit + feature cycle, executed with multi-agent research
+(13 parallel research agents swept the AI news landscape; every candidate feed
+was fetch-verified twice before inclusion).
+
+**Source overhaul (~101 → 178 feeds, all validated 2026-07-06):**
+
+- **Fixed 10 broken/moved URLs:** arXiv (dead `export.arxiv.org` host →
+  `rss.arxiv.org`), LangChain (dead Medium feed → `blog.langchain.com`),
+  Ars Technica (generic features feed → dedicated `/ai/feed/`), smol.ai
+  (abandoned Buttondown → `news.smol.ai`), Google Project Zero, MarketWatch,
+  PremAI, The Algorithmic Bridge (permanent redirects), llama.cpp + whisper
+  (repos moved to `ggml-org`)
+- **Removed 12 dead/stale feeds:** Google Research blogspot (829d stale),
+  EleutherAI (404), SemiAnalysis (all endpoints stale since Sep 2025),
+  Protect AI (dead post-acquisition), Sebastian Ruder, LlamaIndex Medium,
+  openai/whisper + openai-cookbook + gpt_academic + microsoft/autogen
+  (dormant repos), CNBC duplicate URL
+- **Added ~75 new sources**, biggest gains where the site was thinnest:
+  - *AI security* (2 → 13 sources): Embrace The Red, tl;dr sec, Trail of Bits,
+    OWASP GenAI, Prompt Security, Straiker, Knostic, JFrog, rez0, Noma,
+    Giskard, Google News prompt-injection query
+  - *Safety/policy* (2 → 11): Zvi, CAIS newsletter, Transformer, METR, CSET,
+    EU AI Act Newsletter, GovAI, Redwood, AI Policy Perspectives
+  - *Labs/models:* Mistral (critical), Ai2, Stability, HN Chinese-labs query
+    (DeepSeek/Qwen/Kimi/GLM have no first-party feeds)
+  - *Products/tools:* Cursor changelog, OpenRouter, Together AI, Copilot
+    changelog, Cline, Amp
+  - *Research:* Transformer Circuits, MIT News AI, Epoch AI, IBM Research,
+    Nature MI, Sakana, Thinking Machines, Lil'Log, TheSequence, HF Daily Papers
+  - *Local models:* LM Studio, vLLM blog, Lemmy mirror (Reddit blocks CI IPs),
+    HN local-LLM query
+  - *Repos:* claude-code, codex, gemini-cli, qwen-code, langgraph, litellm,
+    whisper.cpp, ComfyUI, sglang, unsloth, MCP spec
+  - *Plus:* Techmeme, Guardian AI, Register AI/ML, WSJ, ZDNet, IEEE Spectrum,
+    404 Media, FT AI, Crunchbase AI, Newcomer, Humanoids Daily, Waymo,
+    Shtetl-Optimized, Chips and Cheese, More Than Moore, and a Google News
+    "AI × SEC/FINRA" query for regulatory signal
+- Documented every checked-and-feedless site at the top of `sources.ts` so
+  future sessions don't re-litigate them
+
+**Pipeline improvements:**
+
+- `validate-feeds.ts` — permanent feed validator (`npm run validate:feeds`);
+  new weekly CI workflow `feed-audit.yml` runs it every Monday
+- Site Atom feed emitted to `public/feed.xml` (`lib/emitFeed.ts`)
+- GitHub tag-only releases now synthesize one "repo bXXXX released" headline
+  per feed instead of being dropped (llama.cpp section was empty before)
+- RDF/RSS 1.0 support + `dc:date` (Nature feeds parsed 0 items before)
+- `fast-xml-parser` 4.5 → 5.9 (clears GHSA-gh4j-gqv2-49f6); removed unused
+  `vite-plugin-pwa`; **npm audit: 0 findings**
+- Daily brief moved to `claude-sonnet-5` (removed `temperature`, rejected on
+  Sonnet 5)
+- Stock ticker: added AMD, TSM, AVGO
+- `generate-sbom.ts` — CycloneDX SBOM regeneration (`npm run sbom`)
+
+**Client improvements:**
+
+- **Bookmark/queue snapshots** — saved articles previously vanished when they
+  aged out of the hourly payload; now persisted to localStorage and GC'd
+- **Read-state** — headlines seen ≥1.5s render dimmed on later visits (LRU 500)
+- **"N new since your last visit"** banner
+- **Feed Health panel** — footer "N/M feeds OK" opens per-feed status
+- Search extended to summaries; dead mute-filter branch removed
+
+**Measured result (first post-overhaul build):** 173/178 feeds OK (97%),
+258 visible stories (was ~170), median age 12.7h, 60% under 24h, trending 4
+clusters (was 1), zero empty sections, ai_security 2 → 14 articles.
+
 ## Feature inventory (current)
 
 ### Build pipeline (`scripts/`)
 
 | Component | File | Purpose |
 |-----------|------|---------|
-| Feed registry | `sources.ts` | ~103 feeds, 18 categories, KEYWORDS map |
-| RSS fetcher | `fetch-feeds.ts` | Parallel fetch, 8s timeout, entity decode, release-noise filter |
+| Feed registry | `sources.ts` | ~178 validated feeds, 18 categories, KEYWORDS map |
+| RSS fetcher | `fetch-feeds.ts` | Parallel fetch, 8s timeout, entity decode, release-title synthesis, RDF support |
 | HTML scraper | `scrape-sources.ts` | Anthropic News + Research (no public RSS) |
 | Router | `lib/router.ts` | Multi-category routing, global cap 6, trending, diversity |
 | Story grouping | `lib/groupStories.ts` | Jaccard ≥0.4 within category |
+| Scoring | `lib/score.ts` | Priority + recency decay + importance + HN boost |
+| Site feed | `lib/emitFeed.ts` | Atom feed of the aggregator (`/feed.xml`) |
 | Time parsing | `lib/timeAgo.ts` | 9 date patterns |
-| Stocks | `fetch-stocks.ts` | Stooq + Yahoo fallback |
-| Brief | `generate-brief.ts` | Claude (optional) or curated fallback |
-| Orchestrator | `build-data.ts` | Parallel RSS + scrape → route → minified JSON |
+| Stocks | `fetch-stocks.ts` | 8 symbols, Stooq + Yahoo fallback |
+| Brief | `generate-brief.ts` | Claude Sonnet 5 (optional) or curated fallback |
+| HN signal | `fetch-hn.ts` | Algolia velocity index for scoring |
+| Orchestrator | `build-data.ts` | Parallel RSS + scrape + HN → route → minified JSON + feed.xml |
+| Feed validator | `validate-feeds.ts` | Liveness/freshness/redirect audit (`npm run validate:feeds`) |
+| Quality gate | `check-data.ts` | CI hard-fail on feed health / stale leakage |
+| SBOM generator | `generate-sbom.ts` | CycloneDX from lockfile (`npm run sbom`) |
 
 ### Client (`src/`)
 
@@ -119,18 +204,19 @@ b916713 Multi-category routing + 3 new sections + diversity cap
 
 Plus automated `chore(data): refresh …` commits from the hourly cron.
 
-## Operational metrics (typical run)
+## Operational metrics (post-overhaul build, 2026-07-06)
 
 | Metric | Value |
 |--------|-------|
-| Feed sources configured | 103 |
-| Feeds OK (local / GH Actions varies) | ~85–90 / 103 |
-| Grouped stories displayed | ~180 |
-| Categories populated | 18 |
-| Trending stories | 3–5 |
-| `headlines.json` size | ~360 KB minified |
-| Workflow runtime | ~30 seconds |
-| Lines of application code (excl. node_modules) | ~3,000 |
+| Feed sources configured | 178 (all validated) |
+| Feeds OK per build | ~170–175 (97%; Reddit + hnrss transients account for the rest) |
+| Unique visible stories | ~258 |
+| Median article age | ~13h (60% under 24h) |
+| Categories populated | 18 / 18 |
+| Trending clusters | 4+ |
+| `headlines.json` size | ~300 KB minified |
+| npm audit findings | 0 |
+| Workflow runtime | ~60–90 seconds |
 
 ## Deliberately NOT implemented
 
@@ -140,6 +226,7 @@ Plus automated `chore(data): refresh …` commits from the hourly cron.
 | `refreshing` / blank-page refresh UX | Replaced by hourly static rebuild |
 | Next.js / server runtime | OOM and complexity |
 | Geist font | Build failures on flaky network |
-| PWA plugin wired up | Listed in package.json but not in vite.config |
+| PWA | `vite-plugin-pwa` removed 2026-07-06 (was never wired); deliberate re-add is roadmap item #6 |
 | Local Collectors integration | Site is cloud-only; uses its own fetch pipeline |
-| Site RSS feed (`/feed.xml`) | Deferred to next cycle — see FUTURE_IMPROVEMENTS.md |
+| GitHub Trending RSS mirror | Undated items, repo-name titles — poor headline fit |
+| Reddit feed workarounds (old.reddit, mirrors) | Tested 2026-07-06; equally rate-limited. Lemmy + HN queries are the backup instead |

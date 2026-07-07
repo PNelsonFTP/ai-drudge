@@ -14,11 +14,13 @@ import { scrapeAllSources } from "./scrape-sources";
 import { fetchStocks } from "./fetch-stocks";
 import { generateBrief } from "./generate-brief";
 import { buildCategories } from "./lib/router";
+import { buildSiteFeed } from "./lib/emitFeed";
 import { fetchHn } from "./fetch-hn";
 import type { HeadlinesPayload } from "./types";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = resolve(__dirname, "../public/data");
+const PUBLIC_DIR = resolve(__dirname, "../public");
 
 async function readJsonIfExists<T>(path: string): Promise<T | null> {
   try {
@@ -85,6 +87,11 @@ async function main() {
   console.log(
     `Wrote headlines.json — ${payload.totalCount} grouped stories across ${categories.length} categories, ${trending.length} trending.`
   );
+
+  // Site Atom feed so readers can subscribe to the aggregator itself.
+  const siteFeed = buildSiteFeed(trending, categories, payload.generatedAt);
+  await writeFile(resolve(PUBLIC_DIR, "feed.xml"), siteFeed);
+  console.log("Wrote feed.xml");
 
   // Stocks (silent fail to {}).
   const stocks = await fetchStocks();

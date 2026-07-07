@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Header } from "./components/Header";
 import { StockTicker } from "./components/StockTicker";
 import { DailyBrief } from "./components/DailyBrief";
@@ -9,6 +9,7 @@ import { CategoryColumn } from "./components/CategoryColumn";
 import { HoverCard as HoverCardContent, useHoverCard } from "./components/HoverCard";
 import { Headline } from "./components/Headline";
 import { ManageMutes } from "./components/ManageMutes";
+import { FeedHealth } from "./components/FeedHealth";
 import { useHeadlines } from "./hooks/useHeadlines";
 import { useTheme } from "./hooks/useTheme";
 import {
@@ -16,7 +17,9 @@ import {
   useReadLater,
   useMutedSources,
   useMutedCategories,
+  useArticleSnapshots,
 } from "./hooks/useLocalStorageSet";
+import { ReadStateContext, useReadStateProvider } from "./hooks/useReadState";
 import type { Article, CategoryBucket, GroupedArticle } from "./lib/types";
 
 type View = "home" | "bookmarks" | "queue";
@@ -31,6 +34,32 @@ function dataIsStale(generatedAt: string | null): boolean {
   return (Date.now() - then) / 3_600_000 > STALE_DATA_HOURS;
 }
 
+// "N new since your last visit" (#2 from the roadmap). Reads the previous
+// visit time once, then records this visit. Uses publishedAt (not
+// collectedAt — that resets on every hourly rebuild).
+const LAST_VISIT_KEY = "ai-drudge:last-visit";
+
+function useLastVisit(loaded: boolean): number | null {
+  const [prev] = useState<number | null>(() => {
+    try {
+      const raw = localStorage.getItem(LAST_VISIT_KEY);
+      const t = raw ? new Date(raw).getTime() : NaN;
+      return isNaN(t) ? null : t;
+    } catch {
+      return null;
+    }
+  });
+  useEffect(() => {
+    if (!loaded) return;
+    try {
+      localStorage.setItem(LAST_VISIT_KEY, new Date().toISOString());
+    } catch {
+      /* best-effort */
+    }
+  }, [loaded]);
+  return prev;
+}
+
 export default function App() {
   const { headlines, stocks, brief, error } = useHeadlines();
   const { theme, toggle: toggleTheme } = useTheme();
@@ -39,12 +68,53 @@ export default function App() {
   const { muted: mutedSources, toggle: toggleMuteSource } = useMutedSources();
   const { muted: mutedCategories, toggle: toggleMuteCategory } = useMutedCategories();
   const { active: hover, show: showHover, hide: hideHover } = useHoverCard();
+  const { snapshots, sync: syncSnapshots } = useArticleSnapshots();
+  const readState = useReadStateProvider();
 
   const [search, setSearch] = useState("");
   const [view, setView] = useState<View>("home");
   const [manageOpen, setManageOpen] = useState(false);
+  const [feedHealthOpen, setFeedHealthOpen] = useState(false);
+  const [newBannerDismissed, setNewBannerDismissed] = useState(false);
 
   const searchLc = search.trim().toLowerCase();
+
+  // ID -> live article, for snapshotting bookmarks/queue items before they
+  // age out of the payload.
+  const articleById = useMemo<Map<string, Article>>(() => {
+    const m = new Map<string, Article>();
+    if (!headlines) return m;
+    for (const c of headlines.categories) {
+      for (const a of c.articlesAll) {
+        if (!m.has(a.id)) {
+          const { related: _related, ...plain } = a;
+          m.set(a.id, plain);
+        }
+      }
+    }
+    return m;
+  }, [headlines]);
+
+  // Persist snapshots for everything bookmarked/queued; GC the rest.
+  useEffect(() => {
+    if (!headlines) return;
+    syncSnapshots(new Set([...bookmarks, ...queue]), articleById);
+  }, [headlines, bookmarks, queue, articleById, syncSnapshots]);
+
+  const prevVisit = useLastVisit(!!headlines);
+  const newSinceLastVisit = useMemo(() => {
+    if (!headlines || prevVisit == null) return 0;
+    const seen = new Set<string>();
+    let n = 0;
+    for (const c of headlines.categories) {
+      for (const a of c.articlesAll) {
+        if (seen.has(a.url)) continue;
+        seen.add(a.url);
+        if (a.publishedAt && new Date(a.publishedAt).getTime() > prevVisit) n++;
+      }
+    }
+    return n;
+  }, [headlines, prevVisit]);
 
   // Map category id -> label for the ManageMutes panel.
   const categoryLabelsById = useMemo<Record<string, string>>(() => {
@@ -63,14 +133,12 @@ export default function App() {
       .map((c) => {
         const filterFn = (a: GroupedArticle) => {
           if (mutedSources.has(a.source)) return false;
-          if (a.related.every((r) => mutedSources.has(r.source))) {
-            // Keep if any related source is unmuted; only drop if literally all muted.
-          }
           if (!searchLc) return true;
           return (
             a.title.toLowerCase().includes(searchLc) ||
             a.source.toLowerCase().includes(searchLc) ||
             c.label.toLowerCase().includes(searchLc) ||
+            (a.summary ?? "").toLowerCase().includes(searchLc) ||
             a.related.some((r: Article) => r.source.toLowerCase().includes(searchLc))
           );
         };
@@ -83,37 +151,41 @@ export default function App() {
       .filter((c) => c.articles.length > 0);
   }, [headlines, mutedCategories, mutedSources, searchLc]);
 
-  // Bookmarks view: flat list of bookmarked articles across all categories.
-  const bookmarkArticles = useMemo<GroupedArticle[]>(() => {
-    if (!headlines || bookmarks.size === 0) return [];
+  // Bookmarks/queue views: prefer the live payload article (it has related
+  // coverage), fall back to the localStorage snapshot once the article has
+  // aged out of headlines.json — saved items never silently disappear.
+  const collectSaved = (ids: Set<string>): GroupedArticle[] => {
+    if (ids.size === 0) return [];
     const seen = new Set<string>();
     const out: GroupedArticle[] = [];
-    for (const c of headlines.categories) {
-      for (const a of c.articlesAll) {
-        if (bookmarks.has(a.id) && !seen.has(a.id)) {
-          seen.add(a.id);
-          out.push(a);
+    if (headlines) {
+      for (const c of headlines.categories) {
+        for (const a of c.articlesAll) {
+          if (ids.has(a.id) && !seen.has(a.id)) {
+            seen.add(a.id);
+            out.push(a);
+          }
         }
       }
     }
+    for (const id of ids) {
+      if (!seen.has(id) && snapshots[id]) {
+        seen.add(id);
+        out.push({ ...snapshots[id], related: [] });
+      }
+    }
+    out.sort((a, b) => {
+      const ta = a.publishedAt ? new Date(a.publishedAt).getTime() : 0;
+      const tb = b.publishedAt ? new Date(b.publishedAt).getTime() : 0;
+      return tb - ta;
+    });
     return out;
-  }, [headlines, bookmarks]);
+  };
 
-  // Queue view: same idea but for read-later items.
-  const queueArticles = useMemo<GroupedArticle[]>(() => {
-    if (!headlines || queue.size === 0) return [];
-    const seen = new Set<string>();
-    const out: GroupedArticle[] = [];
-    for (const c of headlines.categories) {
-      for (const a of c.articlesAll) {
-        if (queue.has(a.id) && !seen.has(a.id)) {
-          seen.add(a.id);
-          out.push(a);
-        }
-      }
-    }
-    return out;
-  }, [headlines, queue]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const bookmarkArticles = useMemo(() => collectSaved(bookmarks), [headlines, bookmarks, snapshots]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const queueArticles = useMemo(() => collectSaved(queue), [headlines, queue, snapshots]);
 
   // Lead story = the chosen lead URL if present (#7, always <72h at build time),
   // otherwise the first article from the highest-priority category present.
@@ -161,6 +233,7 @@ export default function App() {
   const mutedCount = mutedSources.size + mutedCategories.size;
 
   return (
+    <ReadStateContext.Provider value={readState}>
     <div className="min-h-full">
       <Header
         theme={theme}
@@ -195,6 +268,21 @@ export default function App() {
             {staleData && (
               <div className="border border-[var(--siren)] text-[var(--siren)] px-4 py-2 mb-4 text-[12px]">
                 Headlines may be delayed — last refresh was more than {STALE_DATA_HOURS} hours ago.
+              </div>
+            )}
+
+            {newSinceLastVisit > 0 && !newBannerDismissed && (
+              <div className="border border-current px-4 py-2 mb-4 text-[12px] flex items-center justify-between gap-3 opacity-90">
+                <span>
+                  <strong>{newSinceLastVisit}</strong> new {newSinceLastVisit === 1 ? "story" : "stories"} since your last visit.
+                </span>
+                <button
+                  onClick={() => setNewBannerDismissed(true)}
+                  className="opacity-60 hover:opacity-100 shrink-0"
+                  aria-label="Dismiss"
+                >
+                  ✕
+                </button>
               </div>
             )}
 
@@ -280,12 +368,21 @@ export default function App() {
         )}
 
         <footer className="mt-12 pt-6 border-t border-current border-opacity-20 text-[11px] opacity-50 flex flex-wrap items-center justify-between gap-2">
-          <span>AI DRUDGE — aggregator, no affiliation with Drudge Report.</span>
           <span>
-            {headlines?.feedStats
-              ? `${headlines.feedStats.filter((f: { ok: boolean }) => f.ok).length}/${headlines.feedStats.length} feeds OK`
-              : ""}
+            AI DRUDGE — aggregator, no affiliation with Drudge Report.{" "}
+            <a href={`${import.meta.env.BASE_URL}feed.xml`} className="underline hover:opacity-100">
+              RSS
+            </a>
           </span>
+          {headlines?.feedStats && (
+            <button
+              onClick={() => setFeedHealthOpen(true)}
+              className="underline hover:opacity-100"
+              title="Per-feed fetch status from the last build"
+            >
+              {headlines.feedStats.filter((f: { ok: boolean }) => f.ok).length}/{headlines.feedStats.length} feeds OK
+            </button>
+          )}
         </footer>
       </main>
 
@@ -303,7 +400,16 @@ export default function App() {
           onClose={() => setManageOpen(false)}
         />
       )}
+
+      {feedHealthOpen && headlines?.feedStats && (
+        <FeedHealth
+          stats={headlines.feedStats}
+          generatedAt={headlines.generatedAt}
+          onClose={() => setFeedHealthOpen(false)}
+        />
+      )}
     </div>
+    </ReadStateContext.Provider>
   );
 }
 

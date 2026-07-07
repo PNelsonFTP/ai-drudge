@@ -1,6 +1,7 @@
 import { useState } from "react";
 import type { GroupedArticle } from "../lib/types";
 import { isNew, isStale, timeAgoDisplay } from "../lib/timeAgo";
+import { useReadState } from "../hooks/useReadState";
 
 interface HeadlineProps {
   article: GroupedArticle;
@@ -38,6 +39,7 @@ export function Headline({
   onConsume,
 }: HeadlineProps) {
   const [showActions, setShowActions] = useState(false);
+  const { wasSeen, observe } = useReadState();
 
   const handleTitleClick = () => {
     if (consumeOnOpen && onConsume) onConsume(article.id);
@@ -45,12 +47,15 @@ export function Headline({
 
   const fresh = isNew(article.publishedAt);
   const stale = isStale(article.publishedAt);
+  // Dim headlines the reader already scrolled past in a previous session.
+  const seen = wasSeen(article.id) && !fresh;
 
   // Dimmed if user has muted this source (only happens when explicitly
   // viewing muted items from the manage panel; otherwise they're filtered out).
   return (
     <div
-      className={`group flex items-start gap-1 py-1 ${stale ? "opacity-60" : ""}`}
+      ref={(el) => observe(el, article.id)}
+      className={`group flex items-start gap-1 py-1 ${stale || seen ? "opacity-60" : ""}`}
       onMouseEnter={(e) => { onHover(article, e); setShowActions(true); }}
       onMouseLeave={() => { onHoverEnd(); setShowActions(false); }}
     >

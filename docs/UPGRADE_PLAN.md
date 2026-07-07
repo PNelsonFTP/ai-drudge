@@ -1,5 +1,12 @@
 # AI DRUDGE — Upgrade Plan (Freshness, Importance, Sources)
 
+> **HISTORICAL — fully executed.** Items #1–#15 shipped across the June 2026
+> quality pass and the July 6, 2026 overhaul (see
+> [PROJECT_HISTORY.md](./PROJECT_HISTORY.md) Phase 5). The "feeds don't rot
+> silently" guardrail now exists as `npm run validate:feeds` + the weekly
+> `feed-audit.yml` workflow. Current roadmap:
+> [FUTURE_IMPROVEMENTS.md](./FUTURE_IMPROVEMENTS.md).
+
 **Status:** Ready to implement. Self-contained spec for an implementing agent.
 **Primary goals (in priority order):**
 1. Rank by **freshest + most important**; stop old articles from lingering.

@@ -159,9 +159,14 @@ export async function generateBrief(
         "content-type": "application/json",
       },
       body: JSON.stringify({
-        model: "claude-sonnet-4-5-20250929",
+        // Sonnet 5: cheapest current-gen tier for an hourly summarization job.
+        // Note: non-default temperature/top_p are rejected (400) on Sonnet 5,
+        // and thinking is adaptive-on by default — disabled here to keep the
+        // hourly brief fast and cheap.
+        model: "claude-sonnet-5",
         max_tokens: 1024,
-        temperature: 0.3,
+        thinking: { type: "disabled" },
+        output_config: { effort: "low" },
         system: SYSTEM_PROMPT,
         messages: [
           {
@@ -180,7 +185,7 @@ export async function generateBrief(
     }
 
     const json = (await res.json()) as ClaudeResponse;
-    const text = json.content?.[0]?.text ?? "";
+    const text = json.content?.find((b) => b.type === "text")?.text ?? "";
     const match = text.match(/\{[\s\S]*\}/);
     if (!match) {
       console.warn("  Claude brief: no JSON in response, using fallback");

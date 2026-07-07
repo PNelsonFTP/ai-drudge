@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
+import type { Article } from "../lib/types";
 
 // Generic localStorage-backed string Set, with cross-tab sync.
 // Used by useBookmarks, useReadLater, useMutedSources, useMutedCategories.
@@ -101,4 +102,59 @@ export function useMutedSources() {
 export function useMutedCategories() {
   const { set: muted, toggle, has } = useLocalStorageSet("ai-drudge:muted-categories");
   return { muted, toggle, has };
+}
+
+// ─── Article snapshots (make bookmarks/queue survive the hourly refresh) ──
+//
+// Bookmarks and the queue store article IDs, but articles age out of
+// headlines.json within days — without a snapshot, a "permanent" bookmark
+// silently disappears once the article leaves the payload. This hook keeps a
+// localStorage copy of every bookmarked/queued article and garbage-collects
+// snapshots whose ID is no longer referenced by either set.
+const SNAPSHOT_KEY = "ai-drudge:article-snapshots";
+
+function readSnapshots(): Record<string, Article> {
+  try {
+    const raw = localStorage.getItem(SNAPSHOT_KEY);
+    if (!raw) return {};
+    const obj = JSON.parse(raw);
+    return obj && typeof obj === "object" ? obj : {};
+  } catch {
+    return {};
+  }
+}
+
+export function useArticleSnapshots() {
+  const [snapshots, setSnapshots] = useState<Record<string, Article>>(() => readSnapshots());
+
+  // keep: every ID currently bookmarked or queued.
+  // available: ID -> article for everything in the current payload.
+  const sync = useCallback((keep: Set<string>, available: Map<string, Article>) => {
+    setSnapshots((prev) => {
+      let changed = false;
+      const next = { ...prev };
+      for (const id of keep) {
+        const live = available.get(id);
+        if (live && !next[id]) {
+          next[id] = live;
+          changed = true;
+        }
+      }
+      for (const id of Object.keys(next)) {
+        if (!keep.has(id)) {
+          delete next[id];
+          changed = true;
+        }
+      }
+      if (!changed) return prev;
+      try {
+        localStorage.setItem(SNAPSHOT_KEY, JSON.stringify(next));
+      } catch {
+        /* best-effort */
+      }
+      return next;
+    });
+  }, []);
+
+  return { snapshots, sync };
 }
