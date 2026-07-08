@@ -5,7 +5,16 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-07-08T21:19:26.668Z</updated>
+  <updated>2026-07-08T23:19:00.940Z</updated>
+  <entry>
+    <title>claude-code v2.1.205 released</title>
+    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.205"/>
+    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.205</id>
+    <updated>2026-07-08T21:22:06.000Z</updated>
+    <author><name>anthropics/claude-code</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>What's changed Added an auto mode rule that blocks tampering with session transcript files Fixed --json-schema silently producing unstructured output when the schema was invalid, and schemas using the format keyword being rejected Fixed a message sent while Claude was working being silently lost when the turn ended at  — Also covered by: QwenLM/qwen-code</summary>
+  </entry>
   <entry>
     <title>Breaking Ground on Meta’s First Data Center in Canada</title>
     <link href="https://about.fb.com/news/2026/07/breaking-ground-on-metas-first-data-center-in-canada/"/>
@@ -14,6 +23,15 @@
     <author><name>Meta AI Blog</name></author>
     <category term="MODEL RELEASES"/>
     <summary>We’re breaking ground on a new 1GW, AI-optimized data center in Sturgeon County, Alberta — our first data center in Canada and 33rd in our global fleet. The post Breaking Ground on Meta’s First Data Center in Canada appeared first on Meta Newsroom .</summary>
+  </entry>
+  <entry>
+    <title>NVIDIA and Hugging Face bring new models and frameworks to LeRobot</title>
+    <link href="https://www.therobotreport.com/nvidia-hugging-face-bring-new-models-frameworks-lerobot/"/>
+    <id>https://www.therobotreport.com/nvidia-hugging-face-bring-new-models-frameworks-lerobot/</id>
+    <updated>2026-07-08T22:49:50.000Z</updated>
+    <author><name>The Robot Report</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Hugging Face LeRobot is an open-source robotics library for training, running, and sharing robot datasets, models, policies, and workflows. The post NVIDIA and Hugging Face bring new models and frameworks to LeRobot appeared first on The Robot Report . — Also covered by: NVIDIA Blog</summary>
   </entry>
   <entry>
     <title>NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness</title>
@@ -25,49 +43,40 @@
     <summary>NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open models, while completing more tasks at hig — Also covered by: NVIDIA Dev Blog</summary>
   </entry>
   <entry>
-    <title>NVIDIA and Hugging Face Standardize Open-Source Robotics Pipeline via LeRobot</title>
-    <link href="https://www.humanoidsdaily.com/news/nvidia-and-hugging-face-standardize-open-source-robotics-pipeline-via-lerobot"/>
-    <id>https://www.humanoidsdaily.com/news/nvidia-and-hugging-face-standardize-open-source-robotics-pipeline-via-lerobot</id>
-    <updated>2026-07-08T07:57:20.000Z</updated>
-    <author><name>Humanoids Daily</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>A new collaboration brings NVIDIA Isaac GR00T 1.7, Isaac Teleop, and the upcoming Cosmos 3 world model directly into Hugging Face’s LeRobot ecosystem. — Also covered by: NVIDIA Blog</summary>
+    <title>Improving Agents is a Data Mining Problem</title>
+    <link href="https://www.langchain.com/blog/improving-agents-is-a-data-mining-problem"/>
+    <id>https://www.langchain.com/blog/improving-agents-is-a-data-mining-problem</id>
+    <updated>2026-07-08T22:35:23.000Z</updated>
+    <author><name>LangChain Blog</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>How LangChain mines agent traces to find failures, fine-tune judge models cheaper than frontier LLMs, and hill-climb performance with evals.</summary>
   </entry>
   <entry>
     <title>CrowdStrike Unveils 5 New Prompt Injection Techniques Challenging AI Agents - CyberSecurityNews</title>
-    <link href="https://news.google.com/rss/articles/CBMid0FVX3lxTE1HZ21Zay1GQ1p4dXdhbXpPaVNCdVdzX3pMWEtSZ1RQdkVhQWE0Tm5RSXZwdXl4V0tITlJ3X084ZkFuM0xaRFNEMUNlOVpEV1I2QktxTnFwS1JodmsyWnV2NlF6em8zRjBSMmxMVEF5QXV6aU1zOFc00gF3QVVfeXFMTUdnbVlrLUZDWnh1d2Ftek9pU0J1V3NfekxYS1JnVFB2RWFBYTROblFJdnB1eXhXS0hOUndfTzhmQW4zTFpEU0QxQ2U5WkRXUjZCS3FOcXBLUmh2azJadXY2UXp6bzNGMFIybExUQXlBdXppTXM4VzQ?oc=5"/>
-    <id>https://news.google.com/rss/articles/CBMid0FVX3lxTE1HZ21Zay1GQ1p4dXdhbXpPaVNCdVdzX3pMWEtSZ1RQdkVhQWE0Tm5RSXZwdXl4V0tITlJ3X084ZkFuM0xaRFNEMUNlOVpEV1I2QktxTnFwS1JodmsyWnV2NlF6em8zRjBSMmxMVEF5QXV6aU1zOFc00gF3QVVfeXFMTUdnbVlrLUZDWnh1d2Ftek9pU0J1V3NfekxYS1JnVFB2RWFBYTROblFJdnB1eXhXS0hOUndfTzhmQW4zTFpEU0QxQ2U5WkRXUjZCS3FOcXBLUmh2azJadXY2UXp6bzNGMFIybExUQXlBdXppTXM4VzQ?oc=5</id>
-    <updated>2026-07-08T14:52:28.000Z</updated>
+    <link href="https://news.google.com/rss/articles/CBMickFVX3lxTE5Yb1E0dlB0WTBzZmtnSTktOE51TG41ZUJOZmtSV3NiQ2RkcmtuNnpYbHBvZEtWdUxlYXNDaGFiMUQ4RWkwOS1XSDJkTE90Y0daTEhHXzVtM3lSWTQ5QTBkOXdLWjd5dEI0V0g3TUVaUlZTZ9IBd0FVX3lxTE1HZ21Zay1GQ1p4dXdhbXpPaVNCdVdzX3pMWEtSZ1RQdkVhQWE0Tm5RSXZwdXl4V0tITlJ3X084ZkFuM0xaRFNEMUNlOVpEV1I2QktxTnFwS1JodmsyWnV2NlF6em8zRjBSMmxMVEF5QXV6aU1zOFc0?oc=5"/>
+    <id>https://news.google.com/rss/articles/CBMickFVX3lxTE5Yb1E0dlB0WTBzZmtnSTktOE51TG41ZUJOZmtSV3NiQ2RkcmtuNnpYbHBvZEtWdUxlYXNDaGFiMUQ4RWkwOS1XSDJkTE90Y0daTEhHXzVtM3lSWTQ5QTBkOXdLWjd5dEI0V0g3TUVaUlZTZ9IBd0FVX3lxTE1HZ21Zay1GQ1p4dXdhbXpPaVNCdVdzX3pMWEtSZ1RQdkVhQWE0Tm5RSXZwdXl4V0tITlJ3X084ZkFuM0xaRFNEMUNlOVpEV1I2QktxTnFwS1JodmsyWnV2NlF6em8zRjBSMmxMVEF5QXV6aU1zOFc0?oc=5</id>
+    <updated>2026-07-08T14:53:22.000Z</updated>
     <author><name>GN: Prompt Injection</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
+    <category term="AI SECURITY"/>
     <summary>CrowdStrike Unveils 5 New Prompt Injection Techniques Challenging AI Agents CyberSecurityNews — Also covered by: GN: Prompt Injection, CrowdStrike Blog</summary>
   </entry>
   <entry>
-    <title>qwen-code v0.19.8 released</title>
-    <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.19.8"/>
-    <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.19.8</id>
-    <updated>2026-07-08T15:29:45.000Z</updated>
-    <author><name>QwenLM/qwen-code</name></author>
-    <category term="GITHUB REPOS"/>
-    <summary>What's Changed docs(channels): add WeCom to channels overview by @DragonnZhang in #6490 feat(cli): Add serve env isolation and total admission by @doudouOUC in #6416 feat(cli): review auto-generated skills with an inline preview, editor handoff, and an in-dialog off switch by @tanzhenxin in #6393 fix(core): reject frac — Also covered by: anthropics/claude-code</summary>
-  </entry>
-  <entry>
-    <title>Introducing Robostral Navigate</title>
-    <link href="https://mistral.ai/news/robostral-navigate/"/>
-    <id>https://mistral.ai/news/robostral-navigate/</id>
-    <updated>2026-07-08T12:00:59.000Z</updated>
-    <author><name>Mistral AI</name></author>
+    <title>Separating signal from noise in coding evaluations</title>
+    <link href="https://openai.com/index/separating-signal-from-noise-coding-evaluations"/>
+    <id>https://openai.com/index/separating-signal-from-noise-coding-evaluations</id>
+    <updated>2026-07-08T13:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Introducing Robostral Navigate: 8B model achieving 76.6% on R2R-CE with just a single RGB camera. No depth sensors, LiDAR, or multiple cameras needed.</summary>
+    <summary>A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.</summary>
   </entry>
   <entry>
-    <title>OpenAI says it found widespread task issues in SWE-Bench Pro, estimates ~30% of tasks are broken, and retracts its earlier recommendation to adopt the benchmark (OpenAI)</title>
-    <link href="https://www.techmeme.com/260708/p41#a260708p41"/>
-    <id>https://www.techmeme.com/260708/p41#a260708p41</id>
-    <updated>2026-07-08T21:10:01.000Z</updated>
+    <title>Sources: Reno-based AI chip startup Positron is in talks to raise ~$750M in two phases, at valuations of $3.5B in the first tranche and ~$5B in the second (Bloomberg)</title>
+    <link href="https://www.techmeme.com/260708/p43#a260708p43"/>
+    <id>https://www.techmeme.com/260708/p43#a260708p43</id>
+    <updated>2026-07-08T23:15:02.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>OpenAI : OpenAI says it found widespread task issues in SWE-Bench Pro, estimates ~30% of tasks are broken, and retracts its earlier recommendation to adopt the benchmark — Through a detailed audit, we find widespread task issues in SWE-Bench Pro and estimate that ~30% of the tasks are broken.</summary>
+    <summary>Bloomberg : Sources: Reno-based AI chip startup Positron is in talks to raise ~$750M in two phases, at valuations of $3.5B in the first tranche and ~$5B in the second — AI chip startup Positron is in talks to raise about $750 million in financing during a round with two phases, part of a groundswell …</summary>
   </entry>
   <entry>
     <title>ollama v0.31.2 released</title>
@@ -79,22 +88,13 @@
     <summary>What's Changed Enabled flash attention on older NVIDIA GPUs (compute capability 6.x) iGPU can now offload vision models with padding to fit available memory Fixed structured output for thinking models when thinking is disabled Hardened GGUF model creation ollama launch for Claude Code now disables telemetry by default </summary>
   </entry>
   <entry>
-    <title>【今朝の5本】仕事を始める前に読んでおきたい厳選ニュース</title>
-    <link href="https://www.bloomberg.com/jp/news/newsletters/2026-07-08/THVJZDKGZAJE00"/>
-    <id>https://www.bloomberg.com/jp/news/newsletters/2026-07-08/THVJZDKGZAJE00</id>
-    <updated>2026-07-08T21:06:49.000Z</updated>
+    <title>Apple Supplier Luxshare to Trade After HK’s Biggest 2026 Listing</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-08/apple-supplier-luxshare-to-trade-after-hk-s-biggest-2026-listing"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-08/apple-supplier-luxshare-to-trade-after-hk-s-biggest-2026-listing</id>
+    <updated>2026-07-08T23:00:00.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>​威嚇強める、FOMC議事要旨、テック起債、BofA姿勢転換、世界成長見通し</summary>
-  </entry>
-  <entry>
-    <title>Separating signal from noise in coding evaluations</title>
-    <link href="https://openai.com/index/separating-signal-from-noise-coding-evaluations"/>
-    <id>https://openai.com/index/separating-signal-from-noise-coding-evaluations</id>
-    <updated>2026-07-08T13:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="RESEARCH"/>
-    <summary>A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.</summary>
+    <summary>Apple Inc. supplier Luxshare Precision Industry Co. is set to begin trading in Hong Kong on Thursday after raising HK$24.3 billion ($3.1 billion) in the city’s biggest listing this year so far.</summary>
   </entry>
   <entry>
     <title>Grok 4.5 is available in Grok Build, in Cursor, and from the SpaceXAI console, but not in the EU; it costs $2 per 1M input tokens and $6 per 1M output tokens (Axios)</title>
@@ -104,15 +104,6 @@
     <author><name>Techmeme</name></author>
     <category term="PRODUCTS"/>
     <summary>Axios : Grok 4.5 is available in Grok Build, in Cursor, and from the SpaceXAI console, but not in the EU; it costs $2 per 1M input tokens and $6 per 1M output tokens — Elon Musk's SpaceXAI is launching Grok 4.5, its smartest model yet, and its first release since going public and acquiring the AI coding startup Cursor.</summary>
-  </entry>
-  <entry>
-    <title>IBM and Red Hat launch Lightwell to defend open-source code from AI attacks</title>
-    <link href="https://www.zdnet.com/article/ibm-and-red-hat-have-moved-project-lightwell-from-vision-to-product/"/>
-    <id>https://www.zdnet.com/article/ibm-and-red-hat-have-moved-project-lightwell-from-vision-to-product/</id>
-    <updated>2026-07-08T17:26:26.000Z</updated>
-    <author><name>ZDNet AI</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Their plan to protect open-source projects from AI-discovered security holes has led to the launch of two commercial offerings: Lightwell Network and Lightwell Clearinghouse Premier.</summary>
   </entry>
   <entry>
     <title>Our approach to government and national security partnerships</title>
@@ -133,22 +124,22 @@
     <summary>Phare, the independent LLM safety benchmark, now covers 71 models. Claude Sonnet 5 sets a jailbreak resistance record; Kimi and Qwen enter the top 10</summary>
   </entry>
   <entry>
-    <title>Greek victims file lawsuit against Intellexa over Predator spyware</title>
-    <link href="https://therecord.media/greek-victims-file-lawsuit-against-intellexa-spyware"/>
-    <id>https://therecord.media/greek-victims-file-lawsuit-against-intellexa-spyware</id>
-    <updated>2026-07-08T20:20:00.000Z</updated>
-    <author><name>The Record</name></author>
+    <title>Mount Royal University confirms breach as hackers claim attack</title>
+    <link href="https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/"/>
+    <id>https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/</id>
+    <updated>2026-07-08T21:26:59.000Z</updated>
+    <author><name>BleepingComputer</name></author>
     <category term="CYBER THREATS"/>
-    <summary>The use of the spyware came to light in 2022, with traces of Predator found on dozens of phones. The scandal led to the resignation of Greece’s intelligence service chief and the prime minister’s chief of staff.</summary>
+    <summary>Mount Royal University in Calgary says hackers stole and then deleted data from its file storage systems after breaching the university's network. [...]</summary>
   </entry>
   <entry>
-    <title>Introducing Claude apps gateway for AWS</title>
-    <link href="https://aws.amazon.com/blogs/machine-learning/introducing-claude-apps-gateway-for-aws/"/>
-    <id>https://aws.amazon.com/blogs/machine-learning/introducing-claude-apps-gateway-for-aws/</id>
-    <updated>2026-07-08T19:49:22.000Z</updated>
-    <author><name>AWS ML Blog</name></author>
+    <title>langchain v1.3.4 released</title>
+    <link href="https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.3.4"/>
+    <id>https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.3.4</id>
+    <updated>2026-07-08T23:00:10.000Z</updated>
+    <author><name>langchain-ai/langchain</name></author>
     <category term="CYBER DEFENSE"/>
-    <summary>Today, we're announcing the Claude apps gateway for AWS, a self-hosted control plane that gives organizations a single point of control over access, cost, and policy for Claude Code and Claude Desktop. In this post, we show how to set up and run Claude apps gateway for AWS with Amazon Bedrock and Claude Platform on AWS</summary>
+    <summary>Changes since langchain-openai==1.3.3 release(openai): 1.3.4 ( #38731 ) fix(openai): suppress Pydantic serializer warning on structured output parsed field ( #37727 ) test(openai): skip Codex VCR tests before cassette setup ( #38690 ) chore: bump the minor-and-patch group across 3 directories with 11 updates ( #38587 )</summary>
   </entry>
   <entry>
     <title>Quoting Kenton Varda</title>
@@ -160,15 +151,6 @@
     <summary>I just declared a moratorium against AI-written change descriptions (e.g. PR and commit messages, also issues/tickets) from my team. AI was writing change descriptions that were worse than useless to me as I tried to review PRs: outlining details of the code that could easily be seen by looking at the code, but omittin</summary>
   </entry>
   <entry>
-    <title>Mistral enters robotics with Robostral Navigate, an 8B model that steers robots using just one camera</title>
-    <link href="https://the-decoder.com/mistral-enters-robotics-with-robostral-navigate-an-8b-model-that-steers-robots-using-just-one-camera/"/>
-    <id>https://the-decoder.com/mistral-enters-robotics-with-robostral-navigate-an-8b-model-that-steers-robots-using-just-one-camera/</id>
-    <updated>2026-07-08T17:23:17.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="ROBOTICS"/>
-    <summary>Mistral is entering the robotics market with Robostral Navigate, an 8B model that guides robots through unknown environments using only a single RGB camera. Trained in simulation and refined with reinforcement learning (CISPO), it hits 76.6 percent on the R2R-CE benchmark. Mistral hasn't said when the model will be ava</summary>
-  </entry>
-  <entry>
     <title>U.S. National Science Foundation Launches Project Triad to Unify Quantum Sensing, Networking, and Computing</title>
     <link href="https://quantumcomputingreport.com/u-s-national-science-foundation-launches-project-triad-to-unify-quantum-sensing-networking-and-computing/"/>
     <id>https://quantumcomputingreport.com/u-s-national-science-foundation-launches-project-triad-to-unify-quantum-sensing-networking-and-computing/</id>
@@ -176,6 +158,24 @@
     <author><name>Quantum Computing Report</name></author>
     <category term="QUANTUM"/>
     <summary>The U.S. National Science Foundation (NSF) has launched Project Triad, a multi-tiered federal initiative designed to combine quantum sensing, quantum networking, and quantum computing into a single, cohesive operational architecture. In alignment with the executive order &quot;Ushering in the Next Frontier of Quantum Innova</summary>
+  </entry>
+  <entry>
+    <title>Introducing Robostral Navigate</title>
+    <link href="https://mistral.ai/news/robostral-navigate/"/>
+    <id>https://mistral.ai/news/robostral-navigate/</id>
+    <updated>2026-07-08T12:00:59.000Z</updated>
+    <author><name>Mistral AI</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Introducing Robostral Navigate: 8B model achieving 76.6% on R2R-CE with just a single RGB camera. No depth sensors, LiDAR, or multiple cameras needed.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI says it found widespread task issues in SWE-Bench Pro, estimates ~30% of tasks are broken, and retracts its earlier recommendation to adopt the benchmark (OpenAI)</title>
+    <link href="https://www.techmeme.com/260708/p41#a260708p41"/>
+    <id>https://www.techmeme.com/260708/p41#a260708p41</id>
+    <updated>2026-07-08T21:10:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>OpenAI : OpenAI says it found widespread task issues in SWE-Bench Pro, estimates ~30% of tasks are broken, and retracts its earlier recommendation to adopt the benchmark — Through a detailed audit, we find widespread task issues in SWE-Bench Pro and estimate that ~30% of the tasks are broken.</summary>
   </entry>
   <entry>
     <title>Meta announces its first data center in Canada, a 1GW facility in Alberta that will cost the company about $9B and take two to three years to construct (Jonathan Vanian/CNBC)</title>
@@ -205,40 +205,40 @@
     <summary>Crossposting this here because I thought you guys might appreciate it. When ChatGPT and other open source LLMs first came out, there was a lot of speculation as to how these technologies could change gaming. I recall there being posts and comments about when we could have AI powered NPCs. Nvidia showcased ACE back in 2</summary>
   </entry>
   <entry>
-    <title>Your coding agent bill doubled. Here’s how to fix it.</title>
-    <link href="https://www.langchain.com/blog/fix-your-coding-agent-bill"/>
-    <id>https://www.langchain.com/blog/fix-your-coding-agent-bill</id>
-    <updated>2026-07-08T20:21:48.000Z</updated>
+    <title>How Schneider Electric Built Their LLMOps Foundations With LangSmith</title>
+    <link href="https://www.langchain.com/blog/how-schneider-electric-built-their-llmops-foundations-at-enterprise-scale-with-langsmith"/>
+    <id>https://www.langchain.com/blog/how-schneider-electric-built-their-llmops-foundations-at-enterprise-scale-with-langsmith</id>
+    <updated>2026-07-08T22:35:23.000Z</updated>
     <author><name>LangChain Blog</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Learn why coding agent bills spiral out of control — and how to trace, compare, and govern spend across Claude Code, Cursor, Copilot, and more in one place.</summary>
+    <summary>Learn how Schneider Electric built enterprise LLMOps foundations with LangSmith to improve observability, evaluation, and deployment for AI products at scale.</summary>
   </entry>
   <entry>
     <title>LangChain and NVIDIA Launch NemoClaw Deep Agents Blueprint</title>
     <link href="https://www.langchain.com/blog/langchain-and-nvidia-launch-the-nemoclaw-deep-agents-blueprint"/>
     <id>https://www.langchain.com/blog/langchain-and-nvidia-launch-the-nemoclaw-deep-agents-blueprint</id>
-    <updated>2026-07-08T18:09:30.000Z</updated>
+    <updated>2026-07-08T22:35:23.000Z</updated>
     <author><name>LangChain Blog</name></author>
     <category term="AGENTS &amp; TOOLS"/>
     <summary>LangChain and NVIDIA launch the NemoClaw Deep Agents blueprint, combining Deep Agents Code, Nemotron 3 Ultra, and OpenShell for open, governed enterprise agents. — Also covered by: LangChain Blog</summary>
   </entry>
   <entry>
-    <title>Trader Joe's, Lowe's Embrace Mini Mania To Boost Sales</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-07-08/trader-joe-s-lowe-s-embrace-mini-mania-to-boost-sales"/>
-    <id>https://www.bloomberg.com/news/videos/2026-07-08/trader-joe-s-lowe-s-embrace-mini-mania-to-boost-sales</id>
-    <updated>2026-07-08T21:00:07.000Z</updated>
+    <title>Luxury Car Firm DuPont Registry Group to Pick Banks for IPO</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-08/luxury-car-firm-dupont-registry-group-said-to-pick-banks-for-ipo"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-08/luxury-car-firm-dupont-registry-group-said-to-pick-banks-for-ipo</id>
+    <updated>2026-07-08T22:53:35.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Mini mania is sweeping through US retailers as shoppers on a budget love colorful, charming, tiny versions of common products. Bloomberg’s Sunny Kim has more. (Source: Bloomberg)</summary>
+    <summary>DuPont Registry Group, a luxury car marketplace and media company, has picked banks for a US initial public offering, according to people familiar with the matter.</summary>
   </entry>
   <entry>
-    <title>GrainCorp Pushes for Australia Biofuel Mandates After Iran War</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-08/graincorp-pushes-for-australia-biofuel-mandates-after-iran-war"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-08/graincorp-pushes-for-australia-biofuel-mandates-after-iran-war</id>
-    <updated>2026-07-08T21:00:00.000Z</updated>
+    <title>Gold Holds Decline as US Strikes on Iran Magnify Inflation Risks</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-08/gold-holds-decline-as-us-strikes-on-iran-magnify-inflation-risks"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-08/gold-holds-decline-as-us-strikes-on-iran-magnify-inflation-risks</id>
+    <updated>2026-07-08T22:54:24.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Australia should adopt national biofuel mandates to bolster its energy security, according to GrainCorp Ltd., after months of uncertainty from the Iran war which sent shockwaves through the country’s economy.</summary>
+    <summary>Gold held a decline as a second day of US strikes against Iran drove energy prices higher and intensified concerns around inflation.</summary>
   </entry>
   <entry>
     <title>Grok 4.5 is so cheap compared to Fable 5 and GPT 5.5 that benchmark gaps may not matter much</title>
@@ -259,21 +259,21 @@
     <summary>Carmen Arroyo / Bloomberg : SpaceXAI launches Grok 4.5, its first model built in partnership with Cursor, designed to “handle difficult, long-running” legal, finance, and coding tasks — SpaceXAI has unveiled a new artificial intelligence model built in partnership with AI coding startup Cursor that's meant …</summary>
   </entry>
   <entry>
-    <title>OpenAI launches GPT-Live, a new generation of voice models built on a full-duplex architecture, meaning they can listen and speak at the same time (OpenAI)</title>
-    <link href="https://www.techmeme.com/260708/p36#a260708p36"/>
-    <id>https://www.techmeme.com/260708/p36#a260708p36</id>
-    <updated>2026-07-08T17:08:24.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Introducing Claude apps gateway for AWS</title>
+    <link href="https://aws.amazon.com/blogs/machine-learning/introducing-claude-apps-gateway-for-aws/"/>
+    <id>https://aws.amazon.com/blogs/machine-learning/introducing-claude-apps-gateway-for-aws/</id>
+    <updated>2026-07-08T19:49:22.000Z</updated>
+    <author><name>AWS ML Blog</name></author>
     <category term="PRODUCTS"/>
-    <summary>OpenAI : OpenAI launches GPT-Live, a new generation of voice models built on a full-duplex architecture, meaning they can listen and speak at the same time — A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice. — Sign up to be notified</summary>
+    <summary>Today, we're announcing the Claude apps gateway for AWS, a self-hosted control plane that gives organizations a single point of control over access, cost, and policy for Claude Code and Claude Desktop. In this post, we show how to set up and run Claude apps gateway for AWS with Amazon Bedrock and Claude Platform on AWS</summary>
   </entry>
   <entry>
-    <title>'I'm not a programmer' anymore: Linus Torvalds on the only two tools he uses now</title>
-    <link href="https://www.zdnet.com/article/open-source-summit-linus-torvalds/"/>
-    <id>https://www.zdnet.com/article/open-source-summit-linus-torvalds/</id>
-    <updated>2026-07-08T21:09:50.000Z</updated>
+    <title>IBM and Red Hat launch Lightwell to defend open-source code from AI attacks</title>
+    <link href="https://www.zdnet.com/article/ibm-and-red-hat-have-moved-project-lightwell-from-vision-to-product/"/>
+    <id>https://www.zdnet.com/article/ibm-and-red-hat-have-moved-project-lightwell-from-vision-to-product/</id>
+    <updated>2026-07-08T17:26:26.000Z</updated>
     <author><name>ZDNet AI</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>At the Open Source Summit in Mumbai, Torvalds discusses the pain and power of AI in the kernel, and why Linux no longer supports 'museum' technology.</summary>
+    <summary>Their plan to protect open-source projects from AI-discovered security holes has led to the launch of two commercial offerings: Lightwell Network and Lightwell Clearinghouse Premier.</summary>
   </entry>
 </feed>
