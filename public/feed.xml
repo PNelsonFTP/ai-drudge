@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-07-08T04:23:29.602Z</updated>
+  <updated>2026-07-08T07:37:35.025Z</updated>
   <entry>
     <title>Anthropic's Claude Cowork AI agent is now available on mobile and web</title>
     <link href="https://the-decoder.com/anthropics-claude-cowork-ai-agent-is-now-available-on-mobile-and-web/"/>
@@ -25,40 +25,49 @@
     <summary>Polysemanticity is one of the most important concepts when it comes to mechanistic interpretability, basically, studying the internal representations of neural networks. For some reason, the concept of polysemanticity seems really, really fascinating to me, mostly due to how it kind of relates to superposition in quant — Also covered by: Anthropic Research</summary>
   </entry>
   <entry>
+    <title>llama.cpp b9911 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b9911"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b9911</id>
+    <updated>2026-07-08T07:00:30.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>CUDA: Fuse MMVQ post-scale for NVFP4 ( #24481 ) CUDA: Fuse MMVQ for NVFP4 and BS 1 TODO: Add tests to test-backend-ops (did verify correctness manually for one model) Reorder bias/scale once PRs for NVFP4 are merged/landed Add dense MMVQ fusion as well Perf numbers on B4500. Note qwen35 is FP8-&gt;Q8 ./scripts/compare-lla</summary>
+  </entry>
+  <entry>
+    <title>AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round</title>
+    <link href="https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/"/>
+    <id>https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/</id>
+    <updated>2026-07-08T07:16:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>AI chip maker SambaNova has raised at an $11B valuation months after Intel was rumored to be trying to buy it for about $1.6 billion.</summary>
+  </entry>
+  <entry>
+    <title>b9917: fix: OOB reads in UGM tokenizer (precompiled_charsmap handling) (#18750)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b9917"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b9917</id>
+    <updated>2026-07-08T05:02:09.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>fix: OOB reads in UGM tokenizer (precompiled_charsmap handling) Validate minimum size (4 bytes) before reading xcda_blob_size Use strnlen with bounds check instead of unsafe strlen Both issues allow heap-buffer-overflow from malicious T5/UGM GGUF files. Replace unsafe strnlen() with a bounds-checked loop that scans for</summary>
+  </entry>
+  <entry>
     <title>ollama v0.31.2 released</title>
     <link href="https://github.com/ollama/ollama/releases/tag/v0.31.2-rc2"/>
     <id>https://github.com/ollama/ollama/releases/tag/v0.31.2-rc2</id>
     <updated>2026-07-07T23:03:07.000Z</updated>
     <author><name>ollama/ollama</name></author>
-    <category term="MODEL RELEASES"/>
+    <category term="AGENTS &amp; TOOLS"/>
     <summary>What's Changed ci: avoid unbounded parallelism by @dhiltgen in #16966 fix cuda toolkit lookup and parallel by @MarkWard0110 in #16613 docs(cloud): update retirement list by @mxyng in #17000 discover: fall back to standard CUDA when the JetPack runner is absent by @kevinpark1217 in #16949 agent: harness core by @ParthSa</summary>
   </entry>
   <entry>
-    <title>Source: the US Department of Commerce has given OpenAI the green light for a broad launch of GPT 5.6; the company expects to do a wide release this week (Axios)</title>
-    <link href="https://www.techmeme.com/260707/p45#a260707p45"/>
-    <id>https://www.techmeme.com/260707/p45#a260707p45</id>
-    <updated>2026-07-08T03:25:33.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Axios : Source: the US Department of Commerce has given OpenAI the green light for a broad launch of GPT 5.6; the company expects to do a wide release this week — The U.S. Department of Commerce has given OpenAI the green light for a broad launch of its advanced GPT 5.6 model, a source familiar with the situation confi</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp b9909 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b9909"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b9909</id>
-    <updated>2026-07-08T03:34:08.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>server : add timings and progress to /responses API stream ( #25348 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7</summary>
-  </entry>
-  <entry>
-    <title>Thai SEC Weighs Legal Action Against Major True Corp. Investor</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-08/thai-sec-weighs-legal-action-against-major-true-corp-investor"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-08/thai-sec-weighs-legal-action-against-major-true-corp-investor</id>
-    <updated>2026-07-08T03:19:26.000Z</updated>
+    <title>Ugandan Farmers to Challenge $5.6 Billion Pipeline</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-07-08/ugandan-farmers-to-challenge-5-6-billion-pipeline-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-07-08/ugandan-farmers-to-challenge-5-6-billion-pipeline-video</id>
+    <updated>2026-07-08T07:31:33.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Thailand’s market regulator is considering legal action against an investor over inconsistencies in seven disclosure reports linked to six listed companies, including a nearly $1 billion acquisition of shares in telecom giant True Corp.</summary>
+    <summary>A group of Ugandan farmers will file a lawsuit in the UK High Court against the East African nation’s crude pipeline, potentially delaying exports. Bloomberg's Jennifer Zabasajja reports. (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>Prompt Robustness Is Task-Dependent: Comparing Objective and Belief-Style Questions in LLM Evaluation</title>
@@ -68,15 +77,6 @@
     <author><name>arXiv cs.CL</name></author>
     <category term="RESEARCH"/>
     <summary>arXiv:2607.05554v1 Announce Type: new Abstract: Survey-style evaluations of large language models often treat a prompted response as a measure of a model's values or beliefs. This assumption is particularly fragile when responses are read as evidence of political values, social attitudes, or beliefs. We ask whether pro</summary>
-  </entry>
-  <entry>
-    <title>Savi’s app aims to protect consumers from realistic AI scams like kidnappers demanding ransom</title>
-    <link href="https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/"/>
-    <id>https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/</id>
-    <updated>2026-07-07T12:00:00.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="PRODUCTS"/>
-    <summary>The company just raised $7 million in seed funding, and is launching its app for iPhone and Android on Tuesday.</summary>
   </entry>
   <entry>
     <title>Design-CP: Context Parallelism for Design of Protein Nanoparticles</title>
@@ -115,22 +115,13 @@
     <summary>Enterprise AI's adoption gap: investment is up, but security, data, and accountability are lagging MarketScale</summary>
   </entry>
   <entry>
-    <title>Accenture confirms breach after hacker offers stolen data for sale</title>
-    <link href="https://www.bleepingcomputer.com/news/security/accenture-confirms-breach-after-hacker-offers-stolen-data-for-sale/"/>
-    <id>https://www.bleepingcomputer.com/news/security/accenture-confirms-breach-after-hacker-offers-stolen-data-for-sale/</id>
-    <updated>2026-07-07T22:06:07.000Z</updated>
+    <title>CISA orders feds to patch max severity ColdFusion flaw by Friday</title>
+    <link href="https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/"/>
+    <id>https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/</id>
+    <updated>2026-07-08T07:16:55.000Z</updated>
     <author><name>BleepingComputer</name></author>
     <category term="CYBER THREATS"/>
-    <summary>IT services giant Accenture has confirmed it suffered a security breach after a threat actor claimed to have stolen 35 GB of source code and other data from the company. [...]</summary>
-  </entry>
-  <entry>
-    <title>Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation</title>
-    <link href="https://unit42.paloaltonetworks.com/vidar-stealer-xmrig-miner-campaign-analysis/"/>
-    <id>https://unit42.paloaltonetworks.com/vidar-stealer-xmrig-miner-campaign-analysis/</id>
-    <updated>2026-07-07T22:00:21.000Z</updated>
-    <author><name>Palo Alto Unit 42</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>A cybercrime campaign combined a loader-as-a-service framework and DLL sideloading via a Go-compiled fake MpClient.dll, a novel evasion layer combination. The post Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation appeared first on Unit 42 .</summary>
+    <summary>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered government agencies to patch an actively exploited maximum-severity flaw in the Adobe ColdFusion commercial web app development platform by Friday. [...]</summary>
   </entry>
   <entry>
     <title>sqlite-utils 4.0, now with database schema migrations</title>
@@ -142,58 +133,40 @@
     <summary>This morning I released sqlite-utils 4.0 , the 124th release of that project and the first major version bump since 3.0 in November 2020. In addition to some small but significant breaking changes (described in this upgrade guide ), this version introduces three major features: database migrations , nested transactions</summary>
   </entry>
   <entry>
-    <title>ABB Robotics includes vSLAM navigation in F712 autonomous forklift</title>
-    <link href="https://www.therobotreport.com/abb-robotics-includes-vslam-navigation-f712-autonomous-forklift/"/>
-    <id>https://www.therobotreport.com/abb-robotics-includes-vslam-navigation-f712-autonomous-forklift/</id>
-    <updated>2026-07-07T20:24:24.000Z</updated>
-    <author><name>The Robot Report</name></author>
+    <title>A look at Chinese lidar maker Hesai, blacklisted by the US DOD in 2024, as it expands in the US; Hesai says it has ~33% of the global automotive lidar market (CNBC)</title>
+    <link href="https://www.techmeme.com/260708/p4#a260708p4"/>
+    <id>https://www.techmeme.com/260708/p4#a260708p4</id>
+    <updated>2026-07-08T05:20:49.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="ROBOTICS"/>
-    <summary>The Flexley Stacy F712 forklift uses vision to navigate, works with other robots, and complies with safety standards, says ABB Robotics. The post ABB Robotics includes vSLAM navigation in F712 autonomous forklift appeared first on The Robot Report .</summary>
+    <summary>CNBC : A look at Chinese lidar maker Hesai, blacklisted by the US DOD in 2024, as it expands in the US; Hesai says it has ~33% of the global automotive lidar market — Robots on the factory floor. Self-driving vehicles on the Las Vegas strip. Even a substitute for man's best friend — the robotic dog.</summary>
   </entry>
   <entry>
-    <title>Oratomic Secures $300M Series A to Build Fault-Tolerant Quantum Computers via Reconfigurable Neutral-Atom Arrays</title>
-    <link href="https://quantumcomputingreport.com/oratomic-secures-300m-series-a-to-build-fault-tolerant-quantum-computers-via-reconfigurable-neutral-atom-arrays/"/>
-    <id>https://quantumcomputingreport.com/oratomic-secures-300m-series-a-to-build-fault-tolerant-quantum-computers-via-reconfigurable-neutral-atom-arrays/</id>
-    <updated>2026-07-08T01:21:51.000Z</updated>
-    <author><name>Quantum Computing Report</name></author>
+    <title>Oratomic, which is developing quantum computing hardware and software, raised a $300M Series A led by ARCH Venture Partners, Spark Capital, and Khosla Ventures (Matt Swayne/The Quantum Insider)</title>
+    <link href="https://www.techmeme.com/260708/p5#a260708p5"/>
+    <id>https://www.techmeme.com/260708/p5#a260708p5</id>
+    <updated>2026-07-08T05:50:50.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="QUANTUM"/>
-    <summary>Neutral-atom hardware startup Oratomic has launched its public operations following a $300 million Series A funding round. The capitalization cycle was co-led by ARCH Venture Partners, Spark Capital, and Khosla Ventures, with participation from an investment syndicate including Bezos Expeditions, Index Ventures, Genera</summary>
+    <summary>Matt Swayne / The Quantum Insider : Oratomic, which is developing quantum computing hardware and software, raised a $300M Series A led by ARCH Venture Partners, Spark Capital, and Khosla Ventures — - Oratomic raised a $300 million Series A to accelerate development of fault-tolerant, utility-scale quantum computers.</summary>
   </entry>
   <entry>
-    <title>Meta’s AI Glasses: Your Questions Answered</title>
-    <link href="https://about.fb.com/news/2026/07/metas-ai-glasses-your-questions-answered/"/>
-    <id>https://about.fb.com/news/2026/07/metas-ai-glasses-your-questions-answered/</id>
-    <updated>2026-07-07T23:35:43.000Z</updated>
-    <author><name>Meta AI Blog</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>We’re answering frequently asked questions about our AI glasses and sharing the features we’ve built to help both the wearers of our glasses and the people around them feel comfortable. The post Meta’s AI Glasses: Your Questions Answered appeared first on Meta Newsroom .</summary>
-  </entry>
-  <entry>
-    <title>Meta announces that it will be updating its glasses with a new feature that disables the camera if someone tampers with the glasses' privacy LED light (Victoria Song/The Verge)</title>
-    <link href="https://www.techmeme.com/260707/p41#a260707p41"/>
-    <id>https://www.techmeme.com/260707/p41#a260707p41</id>
-    <updated>2026-07-08T00:55:02.000Z</updated>
+    <title>A look at effective altruism's fall after SBF's arrest and how the soon-to-be rich from upcoming AI IPOs give the movement a chance to return larger than ever (Andrew Fedorov/New York Magazine)</title>
+    <link href="https://www.techmeme.com/260708/p8#a260708p8"/>
+    <id>https://www.techmeme.com/260708/p8#a260708p8</id>
+    <updated>2026-07-08T06:35:55.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Victoria Song / The Verge : Meta announces that it will be updating its glasses with a new feature that disables the camera if someone tampers with the glasses' privacy LED light — The company is rolling out an update following increased scrutiny of its smart glasses. … Amid public backlash over its smart glasses …</summary>
+    <summary>Andrew Fedorov / New York Magazine : A look at effective altruism's fall after SBF's arrest and how the soon-to-be rich from upcoming AI IPOs give the movement a chance to return larger than ever — Out of the spotlight, the movement has been preparing for the soon-to-be AI rich to donate billions.</summary>
   </entry>
   <entry>
-    <title>I need an adult: J-Space-Aware Pruning/Merging/Distillation</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1uqd8i7/i_need_an_adult_jspaceaware/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1uqd8i7/i_need_an_adult_jspaceaware/</id>
-    <updated>2026-07-08T00:29:49.000Z</updated>
+    <title>Introducing Horus Hiero | A Hieroglyphic Language Translation Model</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1uqk69n/introducing_horus_hiero_a_hieroglyphic_language/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1uqk69n/introducing_horus_hiero_a_hieroglyphic_language/</id>
+    <updated>2026-07-08T06:06:08.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Warning: I am an accountant and not an ML engineer of any kind, and I'm potentially missing some important points. I wrote all this by hand, but I'll link my gemini chat where I was trying to understand this at the bottom so y'all can decide if I've got AI psychosis or not. I was reading through Anthropic's latest publ</summary>
-  </entry>
-  <entry>
-    <title>Unsloth has uploaded several sizes of Deepseek-V4-Flash GGUF's</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1uq9krm/unsloth_has_uploaded_several_sizes_of/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1uq9krm/unsloth_has_uploaded_several_sizes_of/</id>
-    <updated>2026-07-07T22:02:27.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>submitted by /u/ForsookComparison [link] [comments]</summary>
+    <summary>Our new open-source AI model for Ancient Egyptian hieroglyph translation. Available in two versions: Horus Hiero 9B Horus Hiero Mini 4B (optimized for CPUs and mobile devices) Built on Qwen 3.5 , Horus Hiero supports ~150 languages , understands text, images, and video , and is the first model of its kind to combine la</summary>
   </entry>
   <entry>
     <title>FirstResearch: Auditable Question Formation for LLM Scientific Discovery Agents</title>
@@ -214,22 +187,21 @@
     <summary>arXiv:2607.05456v1 Announce Type: new Abstract: While recent advances in large language models have enabled end-to-end automated manuscript generation, existing systems suffer from three critical deficiencies: (i) generated claims are not deterministically grounded in verifiable literature, (ii) experimental results ar</summary>
   </entry>
   <entry>
-    <title>Momenta Global CEO Sees Profitability by 2028</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-07-08/momenta-global-ceo-sees-profitability-by-2028-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-07-08/momenta-global-ceo-sees-profitability-by-2028-video</id>
-    <updated>2026-07-08T04:09:23.000Z</updated>
+    <title>Vistry Expects £30 Million Pretax Loss, CFO Steps Down</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-08/vistry-expects-30-million-pretax-loss-cfo-steps-down"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-08/vistry-expects-30-million-pretax-loss-cfo-steps-down</id>
+    <updated>2026-07-08T06:49:19.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Cao Xudong, founder, chairperson and CEO of Momenta Global, says the autonomous-driving company is targeting breakeven next year and profitability by 2028. He also discusses plans to use proceeds of its IPO to expand AI computing capacity. Cao speaks exclusively on Bloomberg: The China Show. (Source: Bloomberg)</summary>
+    <summary>UK homebuilder Vistry Group Plc expects to report a loss before tax of about £30 million ($40.1 million) in the first half of the year as it races to raise cash.</summary>
   </entry>
   <entry>
-    <title>Iran Can’t Help Gloating, and Oil Prices Go Up</title>
-    <link href="https://www.bloomberg.com/opinion/newsletters/2026-07-08/us-strikes-iran-can-t-help-gloating-and-oil-prices-go-up"/>
-    <id>https://www.bloomberg.com/opinion/newsletters/2026-07-08/us-strikes-iran-can-t-help-gloating-and-oil-prices-go-up</id>
-    <updated>2026-07-08T04:10:59.000Z</updated>
+    <title>Horizons Middle East &amp; Africa 7/8/2026 (Video)</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-07-08/horizons-middle-east-africa-7-8-2026-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-07-08/horizons-middle-east-africa-7-8-2026-video</id>
+    <updated>2026-07-08T07:20:44.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Iran-US attacks mean volatility will continue, and markets need to readjust.</summary>
   </entry>
   <entry>
     <title>CSTutorBench: Benchmarking Small Language Models as Tutors for Block-Based Programming</title>
@@ -241,39 +213,66 @@
     <summary>arXiv:2607.05571v1 Announce Type: new Abstract: Large language models are increasingly explored as AI tutors, yet deploying them in K-12 settings raises concerns around privacy, cost, and reliance on proprietary models. Small language models (SLMs) offer a promising alternative, but selecting the right model for a spec</summary>
   </entry>
   <entry>
-    <title>Kimi K2.7 now available for Copilot Business and Enterprise</title>
-    <link href="https://github.blog/changelog/2026-07-07-kimi-k2-7-now-available-for-copilot-business-and-enterprise"/>
-    <id>https://github.blog/changelog/2026-07-07-kimi-k2-7-now-available-for-copilot-business-and-enterprise</id>
-    <updated>2026-07-08T00:05:35.000Z</updated>
+    <title>Open, convenient and predictable: Introducing Provisioned Throughput</title>
+    <link href="https://www.together.ai/blog/provisioned-throughput"/>
+    <id>https://www.together.ai/blog/provisioned-throughput</id>
+    <updated>2026-07-08T00:00:00.000Z</updated>
+    <author><name>Together AI Blog</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Provisioned Throughput gives you reserved inference capacity for frontier open models like MiniMax M3 and GLM-5.2. Token-based pricing, a 99% uptime SLA, and up to 90% lower cost than proprietary APIs. No GPU-hour math, no infrastructure to manage.</summary>
+  </entry>
+  <entry>
+    <title>Add review cycles and time to adoption phases in the usage API</title>
+    <link href="https://github.blog/changelog/2026-07-07-add-review-cycles-and-time-to-adoption-phases-in-the-usage-api"/>
+    <id>https://github.blog/changelog/2026-07-07-add-review-cycles-and-time-to-adoption-phases-in-the-usage-api</id>
+    <updated>2026-07-08T04:53:01.000Z</updated>
     <author><name>GitHub Copilot Changelog</name></author>
     <category term="PRODUCTS"/>
-    <summary>On July 1, 2026, we announced Kimi K2.7 would be available to Copilot Pro, Pro+, and Max plans. The model is now additionally available on Copilot Business and Copilot Enterprise… The post Kimi K2.7 now available for Copilot Business and Enterprise appeared first on The GitHub Blog .</summary>
+    <summary>The Copilot usage metrics API now reports two additional code-review velocity metrics for each AI adoption phase, extending the adoption phase cohorts fields available in the enterprise and organization reports.… The post Add review cycles and time to adoption phases in the usage API appeared first on The GitHub Blog .</summary>
   </entry>
   <entry>
-    <title>Introducing Muse Image: Image Generation Built for Your World</title>
-    <link href="https://about.fb.com/news/2026/07/introducing-muse-image-meta-ai/"/>
-    <id>https://about.fb.com/news/2026/07/introducing-muse-image-meta-ai/</id>
-    <updated>2026-07-07T18:05:34.000Z</updated>
-    <author><name>Meta AI Blog</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Muse Image is the first image generation model from Meta Superintelligence Labs, now available in Meta AI. The post Introducing Muse Image: Image Generation Built for Your World appeared first on Meta Newsroom .</summary>
-  </entry>
-  <entry>
-    <title>NVIDIA and Hugging Face Bring New Models and Frameworks to LeRobot for the Open Robotics Community</title>
-    <link href="https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/"/>
-    <id>https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/</id>
-    <updated>2026-07-07T06:00:26.000Z</updated>
-    <author><name>NVIDIA Blog</name></author>
+    <title>The global AI boom has thrust CPUs back into the spotlight as Nvidia, Qualcomm, MediaTek, and others challenge Intel and AMD in the AI data center CPU market (Nikkei Asia)</title>
+    <link href="https://www.techmeme.com/260708/p6#a260708p6"/>
+    <id>https://www.techmeme.com/260708/p6#a260708p6</id>
+    <updated>2026-07-08T06:10:01.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="HARDWARE"/>
-    <summary>Open source AI has shown how quickly developers can innovate when models, data and tools are shared. Robotics has the same opportunity, but advancements in physical AI development can still be gated by costly and fragmented resources, from large datasets and robot foundation models to simulation, compute and validation</summary>
+    <summary>Nikkei Asia : The global AI boom has thrust CPUs back into the spotlight as Nvidia, Qualcomm, MediaTek, and others challenge Intel and AMD in the AI data center CPU market — TAIPEI/PALO ALTO, California — The global AI boom is reshaping one of the semiconductor industry's most important battlegrounds: CPUs.</summary>
   </entry>
   <entry>
-    <title>Unannounced Nvidia RTX 50 Super GPUs appear in Seasonic PSU calculator — unreleased graphics cards shown with 10-17% higher TGP over original models</title>
-    <link href="https://www.tomshardware.com/pc-components/gpus/unannounced-nvidia-rtx-50-super-gpus-appear-in-seasonic-psu-calculator-unreleased-graphics-cards-shown-with-10-17-percent-higher-tgp-over-original-models"/>
-    <id>https://www.tomshardware.com/pc-components/gpus/unannounced-nvidia-rtx-50-super-gpus-appear-in-seasonic-psu-calculator-unreleased-graphics-cards-shown-with-10-17-percent-higher-tgp-over-original-models</id>
-    <updated>2026-07-07T21:34:05.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
-    <category term="HARDWARE"/>
-    <summary>Total graphics power figures for Nvidia's unanounced, unreleased RTX 50 Super-series graphics cards have appeared in Seasonic's PSU capacity calculator, revealing potentially higher TGPs of those products.</summary>
+    <title>Why the rise of open source AI isn’t hurting Anthropic … yet</title>
+    <link href="https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/"/>
+    <id>https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/</id>
+    <updated>2026-07-07T20:04:32.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Open source models’ success isn’t coming at the expense of frontier labs. Instead, they each seem to capture two phases of the same life cycle.</summary>
+  </entry>
+  <entry>
+    <title>Ant Group’s Robbyant Open-Sources LingBot-Vision: A 1B Boundary-Centric Vision Foundation Model for Dense Spatial Perception</title>
+    <link href="https://www.marktechpost.com/2026/07/07/ant-groups-robbyant-open-sources-lingbot-vision-a-1b-boundary-centric-vision-foundation-model-for-dense-spatial-perception/"/>
+    <id>https://www.marktechpost.com/2026/07/07/ant-groups-robbyant-open-sources-lingbot-vision-a-1b-boundary-centric-vision-foundation-model-for-dense-spatial-perception/</id>
+    <updated>2026-07-08T03:03:22.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Ant Group's Robbyant open-sourced LingBot-Vision, a self-supervised ViT family for dense spatial perception. Masked boundary modeling makes image boundaries a native training signal. The 1B backbone matches or surpasses larger models, and initializes LingBot-Depth 2.0. The post Ant Group’s Robbyant Open-Sources LingBot</summary>
+  </entry>
+  <entry>
+    <title>[Linkpost]Six Story Prompts I Want to Read</title>
+    <link href="https://www.lesswrong.com/posts/4T2WdXXLuxKJyPcoQ/linkpost-six-story-prompts-i-want-to-read"/>
+    <id>https://www.lesswrong.com/posts/4T2WdXXLuxKJyPcoQ/linkpost-six-story-prompts-i-want-to-read</id>
+    <updated>2026-07-08T06:12:05.000Z</updated>
+    <author><name>LessWrong</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>Below are six story prompts that you might enjoy. Especially intended for my writer friends, but hopefully other people might find it fun to try writing based on one of these prompts too! The first three prompts are about AI in one capacity or another. I think the current moment in AI, in addition to being unusually pr</summary>
+  </entry>
+  <entry>
+    <title>How did we get to democracy?</title>
+    <link href="https://www.lesswrong.com/posts/cLQrijiGDa9X9wHqt/how-did-we-get-to-democracy"/>
+    <id>https://www.lesswrong.com/posts/cLQrijiGDa9X9wHqt/how-did-we-get-to-democracy</id>
+    <updated>2026-07-08T02:48:18.000Z</updated>
+    <author><name>LessWrong</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>We’re really interested in how we ended up living in a democracy - and we think that you should be too. Not only is it just a surprising outcome that’s worth exploring on its own, but also having some idea of which factors lead to countries becoming more democratic and staying that way allows us to be more conscious of</summary>
   </entry>
 </feed>
