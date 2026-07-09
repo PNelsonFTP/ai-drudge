@@ -5,24 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-07-09T18:55:42.898Z</updated>
+  <updated>2026-07-09T22:40:18.931Z</updated>
   <entry>
-    <title>Introducing GPT‑Live</title>
-    <link href="https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything"/>
-    <id>https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything</id>
-    <updated>2026-07-08T23:20:48.000Z</updated>
+    <title>The new GPT-5.6 family: Luna, Terra, Sol</title>
+    <link href="https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything"/>
+    <id>https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything</id>
+    <updated>2026-07-09T19:46:38.000Z</updated>
     <author><name>Simon Willison</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Introducing GPT‑Live OpenAI finally upgraded the model used by ChatGPT voice mode! I've had preview access for a few weeks in the iPhone app, and the new model is very impressive. It also has the ability to spin off harder tasks to GPT-5.5: For questions that require web search, deeper reasoning, or more complex work, </summary>
-  </entry>
-  <entry>
-    <title>Create a LangChain Deep Agents Harness Profile for NVIDIA Nemotron 3 Ultra to Improve Performance</title>
-    <link href="https://developer.nvidia.com/blog/create-a-langchain-deep-agents-harness-profile-for-nvidia-nemotron-3-ultra-to-improve-performance/"/>
-    <id>https://developer.nvidia.com/blog/create-a-langchain-deep-agents-harness-profile-for-nvidia-nemotron-3-ultra-to-improve-performance/</id>
-    <updated>2026-07-09T18:17:59.000Z</updated>
-    <author><name>NVIDIA Dev Blog</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Agentic systems often face a trade-off between accuracy and cost. The highest-performing proprietary frontier models and harnesses provide top accuracy but are... — Also covered by: NVIDIA Blog</summary>
+    <summary>OpenAI's latest flagship model hit general availability this morning , and comes in three sizes: Luna, Terra, and Sol (from smallest to largest). The new models are priced per 1M input/output tokens as Luna $1/$6, Terra $2.50/$15, Sol $5/$30. For comparison, the Claude Opus series are $5/$25 and the Claude Fable 5 is $</summary>
   </entry>
   <entry>
     <title>qwen-code v0.7.1 released</title>
@@ -30,8 +21,17 @@
     <id>https://github.com/QwenLM/qwen-code/releases/tag/cua-driver-rs-v0.7.1</id>
     <updated>2026-07-09T14:52:05.000Z</updated>
     <author><name>QwenLM/qwen-code</name></author>
-    <category term="MODEL RELEASES"/>
+    <category term="HARDWARE"/>
     <summary>cua-driver prebuilt binaries — relative-coordinate fork (vendored under packages/cua-driver ). macOS : codesigned + notarized universal binary + QwenCuaDriver.app Linux : unsigned (x86_64 + arm64, glibc 2.31 floor) Windows : unsigned (x86_64 + arm64) Enable relative coordinates: CUA_DRIVER_RS_COORDINATE_SPACE=1 (defaul — Also covered by: anthropics/claude-code</summary>
+  </entry>
+  <entry>
+    <title>NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness</title>
+    <link href="https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/"/>
+    <id>https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/</id>
+    <updated>2026-07-08T15:00:27.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
+    <category term="HARDWARE"/>
+    <summary>NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open models, while completing more tasks at hig</summary>
   </entry>
   <entry>
     <title>NVIDIA and Hugging Face bring new models and frameworks to LeRobot</title>
@@ -52,76 +52,58 @@
     <summary>More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.</summary>
   </entry>
   <entry>
-    <title>Paris-based AI voice startup Gradium raises $100M seed, backed by Nvidia</title>
-    <link href="https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia/"/>
-    <id>https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia/</id>
-    <updated>2026-07-09T18:34:35.000Z</updated>
+    <title>OpenAI launches its new family of models with GPT-5.6</title>
+    <link href="https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/"/>
+    <id>https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/</id>
+    <updated>2026-07-09T22:24:24.000Z</updated>
     <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>The Paris-based ElevenLabs competitor, just announced a hefty seed extension round.</summary>
+    <summary>OpenAI's latest family of models promise improvements across a range of areas, including cybersecurity.</summary>
   </entry>
   <entry>
-    <title>Ollama: all aboard open models</title>
-    <link href="https://ollama.com/blog/all-aboard-open-models"/>
-    <id>https://ollama.com/blog/all-aboard-open-models</id>
-    <updated>2026-07-09T00:00:00.000Z</updated>
-    <author><name>Ollama Blog</name></author>
+    <title>llama.cpp b9946 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b9946"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b9946</id>
+    <updated>2026-07-09T22:22:02.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Serving 8.9 million developers, Ollama has raised $88M from Benchmark, Theory Ventures, 8VC, Y Combinator, and many incredible angel investors.</summary>
+    <summary>hexagon: tiling, tracing and optimizations for unary ops ( #25474 ) hexagon: tile wide rows in pointwise unary ops to avoid VTCM overflow unary: reject permuted tensors for now (not used by models) hex-unary: replace divs with fastdiv hex-unary: add vtcm layout and host computed kernel params hex-unary: move fastdiv in</summary>
   </entry>
   <entry>
-    <title>Introducing Muse Spark 1.1</title>
-    <link href="https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything"/>
-    <id>https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything</id>
-    <updated>2026-07-09T16:24:09.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>ChatGPT is now a partner for your most ambitious work</title>
+    <link href="https://openai.com/index/chatgpt-for-your-most-ambitious-work"/>
+    <id>https://openai.com/index/chatgpt-for-your-most-ambitious-work</id>
+    <updated>2026-07-09T10:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Introducing Muse Spark 1.1 Following Muse Spark in April , here's Muse Spark 1.1 - the first Spark model to offer an API. Meta claim significant improvements in agentic tool calling and computer use. There are a lot more details are in the Muse Spark 1.1 Evaluation Report . The &quot;Attractor States in Self-Conversation&quot; p</summary>
+    <summary>ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.</summary>
   </entry>
   <entry>
-    <title>Pricey Credit Markets Fuel Anything Funds</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-07-09/pricey-credit-markets-fuel-anything-funds-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-07-09/pricey-credit-markets-fuel-anything-funds-video</id>
-    <updated>2026-07-09T18:22:59.000Z</updated>
+    <title>Willow Wealth CEO on Responsibly Growing Private Markets</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-07-09/willow-wealth-ceo-on-responsibly-growing-private-markets-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-07-09/willow-wealth-ceo-on-responsibly-growing-private-markets-video</id>
+    <updated>2026-07-09T21:34:47.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Bloomberg's Tasos Vossos joins Katie Greifeld on &quot;Bloomberg Real Yield.&quot; Bond investors are increasingly betting on flexible funds that can buy whatever they like as lofty credit market valuations leave little margin for error. (Source: Bloomberg)</summary>
+    <summary>Mitchell Caplan, CEO of Willow Wealth, discusses the evolving landscape of private market investing for individual investors. Caplan highlighted the trend of companies staying private longer, which has shifted significant wealth creation to the private phase before IPOs, citing examples like SpaceX and other mature pri</summary>
   </entry>
   <entry>
-    <title>GPT-5.6 Sol nearly matches Fable 5 on aggregated benchmarks at one-third the cost</title>
-    <link href="https://the-decoder.com/gpt-5-6-sol-nearly-matches-fable-5-on-aggregated-benchmarks-at-one-third-the-cost/"/>
-    <id>https://the-decoder.com/gpt-5-6-sol-nearly-matches-fable-5-on-aggregated-benchmarks-at-one-third-the-cost/</id>
-    <updated>2026-07-09T18:37:51.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>GLM 5.2 is nearly as accurate as a human book keeper</title>
+    <link href="https://toot-books.pages.dev/blog/glm-5-2-vat-benchmark"/>
+    <id>https://toot-books.pages.dev/blog/glm-5-2-vat-benchmark</id>
+    <updated>2026-07-09T18:29:41.000Z</updated>
+    <author><name>HN: Chinese Frontier Labs</name></author>
     <category term="RESEARCH"/>
-    <summary>OpenAI's GPT-5.6 Sol scores 59 points on the Artificial Analysis Intelligence Index, just one point behind Claude Fable 5. At $1.04 per task, it costs a third of what Anthropic's top model charges. In agentic coding, Sol beats every competitor, adding even more pricing pressure on Anthropic. The article GPT-5.6 Sol nea</summary>
+    <summary>Article URL: https://toot-books.pages.dev/blog/glm-5-2-vat-benchmark Comments URL: https://news.ycombinator.com/item?id=48850414 Points: 158 # Comments: 93</summary>
   </entry>
   <entry>
-    <title>OpenAI pairs its GPT-5.6 public rollout with ChatGPT Work, a new agent that handles entire workflows</title>
-    <link href="https://the-decoder.com/openai-pairs-its-gpt-5-6-public-rollout-with-chatgpt-work-a-new-agent-that-handles-entire-workflows/"/>
-    <id>https://the-decoder.com/openai-pairs-its-gpt-5-6-public-rollout-with-chatgpt-work-a-new-agent-that-handles-entire-workflows/</id>
-    <updated>2026-07-09T17:59:22.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="PRODUCTS"/>
-    <summary>OpenAI is launching ChatGPT Work, an agent-based product powered by Codex and the now publicly available GPT-5.6. The agent can independently handle complex projects across apps like Google Drive, Slack, and Salesforce. ChatGPT Work is available now on web, mobile, and desktop, though access depends on the subscription</summary>
-  </entry>
-  <entry>
-    <title>Meta's Muse Spark 1.1 API pricing squeezes OpenAI and Anthropic as the AI price war heats up</title>
-    <link href="https://the-decoder.com/metas-muse-spark-1-1-api-pricing-squeezes-openai-and-anthropic-as-the-ai-price-war-heats-up/"/>
-    <id>https://the-decoder.com/metas-muse-spark-1-1-api-pricing-squeezes-openai-and-anthropic-as-the-ai-price-war-heats-up/</id>
-    <updated>2026-07-09T16:58:44.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="HARDWARE"/>
-    <summary>Meta is entering the AI API business with Muse Spark 1.1 at prices that undercut even the dirt-cheap Grok 4.5, released just yesterday. At $4.25 per million output tokens, Meta charges a fraction of what Anthropic or OpenAI ask. For pure-play AI labs burning through billions, the pressure just got worse. The article Me</summary>
-  </entry>
-  <entry>
-    <title>Databricks makes Chinese open-source model GLM 5.2 its default coding engine after it matched Opus at lower cost</title>
-    <link href="https://the-decoder.com/databricks-makes-chinese-open-source-model-glm-5-2-its-default-coding-engine-after-it-matched-opus-at-lower-cost/"/>
-    <id>https://the-decoder.com/databricks-makes-chinese-open-source-model-glm-5-2-its-default-coding-engine-after-it-matched-opus-at-lower-cost/</id>
-    <updated>2026-07-09T11:03:39.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>Popular open source AI developer tool Ollama raises $65M, grows to nearly 9M users</title>
+    <link href="https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/"/>
+    <id>https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/</id>
+    <updated>2026-07-09T13:00:00.000Z</updated>
+    <author><name>TechCrunch Startups</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>Databricks benchmarked coding agents on its own multi-million-line codebase and found that the Chinese open-source model GLM 5.2 matched Anthropic's Opus 4.8 at $1.28 per task versus $1.94. The company plans to roll it out as a daily coding workhorse. Its broader takeaway: no single provider dominates, and companies sh</summary>
+    <summary>Benchmark-backed Ollama has amassed 176,000 stars, and nearly 17,000 forks on GitHub by helping developers easily run AI on their PCs.</summary>
   </entry>
   <entry>
     <title>Don’t let independent AI audits provide a false sense of safety</title>
@@ -142,13 +124,13 @@
     <summary>An MCP powered system that's continuously finding and reproducing vulns, improvements to Datadog's OSS malware hunting tool, Hakluke muses on the future of bug bounty</summary>
   </entry>
   <entry>
-    <title>npm 12 Disables Install Scripts by Default to Reduce Supply Chain Risk</title>
-    <link href="https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html"/>
-    <id>https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html</id>
-    <updated>2026-07-09T16:49:02.000Z</updated>
-    <author><name>The Hacker News</name></author>
+    <title>OpenMandriva Linux says contributor tried to sabotage the project</title>
+    <link href="https://www.bleepingcomputer.com/news/security/openmandriva-linux-says-contributor-tried-to-sabotage-the-project/"/>
+    <id>https://www.bleepingcomputer.com/news/security/openmandriva-linux-says-contributor-tried-to-sabotage-the-project/</id>
+    <updated>2026-07-09T22:14:13.000Z</updated>
+    <author><name>BleepingComputer</name></author>
     <category term="CYBER THREATS"/>
-    <summary>GitHub has officially announced the release of npm version 12 with install scripts disabled by default, along with deprecating granular access tokens (GATs) designed to bypass two-factor authentication (2FA). The Microsoft-owned subsidiary noted that the following npm install behaviors that used to run automatically be</summary>
+    <summary>The OpenMandriva Linux project announced that it was the target of an attempted act of internal sabotage after a dispute among contributors. [...]</summary>
   </entry>
   <entry>
     <title>WolfSSL, GeoVision, VTK vulnerabilities</title>
@@ -160,94 +142,94 @@
     <summary>Cisco Talos’ Vulnerability Discovery &amp; Research team recently disclosed three vulnerabilities in WolfSSF, fourteen in GeoVision, and one vulnerability in VTK-DICOM. The vulnerabilities mentioned in this blog post have been patched by their respective vendors, in adherence to Cisco’s third-party vulnerability disclosure</summary>
   </entry>
   <entry>
-    <title>Rollon launches two telescopic rails with integrated magnets</title>
-    <link href="https://www.therobotreport.com/rollon-launches-two-telescopic-rails-integrated-magnets/"/>
-    <id>https://www.therobotreport.com/rollon-launches-two-telescopic-rails-integrated-magnets/</id>
-    <updated>2026-07-09T16:41:39.000Z</updated>
+    <title>ForSight Robotics’ road to performing a fully robotic cataract surgery</title>
+    <link href="https://www.therobotreport.com/forsight-robotics-road-to-performing-a-fully-robotic-cataracts-surgery/"/>
+    <id>https://www.therobotreport.com/forsight-robotics-road-to-performing-a-fully-robotic-cataracts-surgery/</id>
+    <updated>2026-07-09T21:14:06.000Z</updated>
     <author><name>The Robot Report</name></author>
     <category term="ROBOTICS"/>
-    <summary>Rollon said the magnets deliver improved load management, smoother extension, and increased durability, even under intensive operating conditions. The post Rollon launches two telescopic rails with integrated magnets appeared first on The Robot Report .</summary>
+    <summary>ForSight Robotics' JASPER Platform assists surgeons with cataract surgeries, while still leaving the power in the surgeon's hands. The post ForSight Robotics’ road to performing a fully robotic cataract surgery appeared first on The Robot Report .</summary>
   </entry>
   <entry>
-    <title>QIZ Security Raises $17 Million Seed to Lead Cyber Readiness For The Post-Quantum Era</title>
-    <link href="https://thequantuminsider.com/2026/07/09/qiz-security-raises-17-million-seed-to-lead-cyber-readiness-for-the-post-quantum-era/"/>
-    <id>https://thequantuminsider.com/2026/07/09/qiz-security-raises-17-million-seed-to-lead-cyber-readiness-for-the-post-quantum-era/</id>
-    <updated>2026-07-09T13:48:58.000Z</updated>
-    <author><name>The Quantum Insider</name></author>
+    <title>Quantum Rings’ Open Quantum Product Now Available on the Qbraid Platform</title>
+    <link href="https://quantumcomputingreport.com/quantum-rings-open-quantum-product-now-available-on-the-qbraid-platform/"/>
+    <id>https://quantumcomputingreport.com/quantum-rings-open-quantum-product-now-available-on-the-qbraid-platform/</id>
+    <updated>2026-07-09T18:26:33.000Z</updated>
+    <author><name>Quantum Computing Report</name></author>
     <category term="QUANTUM"/>
-    <summary>Insider Brief PRESS RELEASE — QIZ Security, the cryptographic posture and Post-Quantum Cryptography (PQC) management platform, today announced a $17 million seed round led by Bessemer Venture Partners and Merlin Ventures, with participation from, Evolution Equity Partners, Qbeat Ventures, Singtel Innov8 and Qino Cyber </summary>
+    <summary>Quantum Rings has announced a partnership with qBraid to make their Open Quantum platform available within the qBraid Lab. The development will provide developers and researchers free, subsidized access to QPUs from IonQ, Rigetti, IQM, and AQT. With Open Quantum, users will have available a unified access point to run </summary>
   </entry>
   <entry>
-    <title>llama.cpp b9940 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b9940"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b9940</id>
-    <updated>2026-07-09T11:39:56.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="GITHUB REPOS"/>
-    <summary>llama-bench : init params.offline ( #25476 ) Signed-off-by: Adrien Gallouët angt@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (</summary>
-  </entry>
-  <entry>
-    <title>GPT-5.5 Bio Bug Bounty</title>
-    <link href="https://openai.com/index/bio-bug-bounty"/>
-    <id>https://openai.com/index/bio-bug-bounty</id>
-    <updated>2026-07-09T10:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Details about the OpenAI Bio Bounty program</summary>
-  </entry>
-  <entry>
-    <title>OpenAI broadly releases GPT-5.6, and launches ChatGPT Work, an AI agent that can gather context across apps and files to create documents, on Mac and Windows (Axios)</title>
-    <link href="https://www.techmeme.com/260709/p27#a260709p27"/>
-    <id>https://www.techmeme.com/260709/p27#a260709p27</id>
-    <updated>2026-07-09T17:06:46.000Z</updated>
+    <title>PitchBook: US venture funding hit $412.7B in H1 2026, up 30% on all of 2025, with AI startup funding accounting for 86%, or $355.9B; Q2 saw seven $1B+ rounds (Duncan Riley/SiliconANGLE)</title>
+    <link href="https://www.techmeme.com/260709/p34#a260709p34"/>
+    <id>https://www.techmeme.com/260709/p34#a260709p34</id>
+    <updated>2026-07-09T20:10:02.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Axios : OpenAI broadly releases GPT-5.6, and launches ChatGPT Work, an AI agent that can gather context across apps and files to create documents, on Mac and Windows — - Sol is the most powerful version, while Luna is designed for speed. … - A new “ultra” mode within Sol allows the system …</summary>
+    <summary>Duncan Riley / SiliconANGLE : PitchBook: US venture funding hit $412.7B in H1 2026, up 30% on all of 2025, with AI startup funding accounting for 86%, or $355.9B; Q2 saw seven $1B+ rounds — U.S. venture capital deal value hit $412.7 billion in the first half of 2026, nearly 30% more than investors put to work in all of</summary>
   </entry>
   <entry>
-    <title>Wall Street's First Take on SpaceX</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-07-09/wall-street-s-first-take-on-spacex-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-07-09/wall-street-s-first-take-on-spacex-video</id>
-    <updated>2026-07-09T18:15:48.000Z</updated>
-    <author><name>Bloomberg Tech</name></author>
+    <title>Elon Musk praises Mythos/Fable, promises not to ‘cut off’ Anthropic</title>
+    <link href="https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/"/>
+    <id>https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/</id>
+    <updated>2026-07-09T21:57:42.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>The quiet period has ended for underwriters of SpaceX's IPO, and analysts are starting to publish their views on Elon Musk-led company. William Blair's Louie DiPalma launched coverage with a bullish rating, citing the company's growing advantage as rival Blue Origin turns to outside investors. He joins Ed Ludlow on &quot;Bl</summary>
+    <summary>Should Anthropic trust Elon Musk to host its models? With about $40 billion in revenue at stake, Musk insists that the company can.</summary>
   </entry>
   <entry>
-    <title>OpenMed 1.8: Apache-2.0 clinical de-identification that runs fully local, now on Android, iOS, and in the browser. 400+ open issues if you want in on 1.9</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1urt5o4/openmed_18_apache20_clinical_deidentification/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1urt5o4/openmed_18_apache20_clinical_deidentification/</id>
-    <updated>2026-07-09T15:13:59.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>Ollama: all aboard open models</title>
+    <link href="https://ollama.com/blog/all-aboard-open-models"/>
+    <id>https://ollama.com/blog/all-aboard-open-models</id>
+    <updated>2026-07-09T00:00:00.000Z</updated>
+    <author><name>Ollama Blog</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Maintainer here. OpenMed is an Apache-2.0 toolkit for clinical NLP with one hard rule: patient data never leaves your hardware. No cloud calls, no API keys, works in airplane mode. What shipped in 1.8 this week: OpenMedKit for Android (Kotlin, ONNX Runtime Mobile + ML Kit OCR): read a document, strip every name/MRN/dat</summary>
+    <summary>Serving 8.9 million developers, Ollama has raised $88M from Benchmark, Theory Ventures, 8VC, Y Combinator, and many incredible angel investors.</summary>
   </entry>
   <entry>
-    <title>Llama.cpp update: ggml-hip: enable -funsafe-math-optimizations</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1urrqp1/llamacpp_update_ggmlhip_enable/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1urrqp1/llamacpp_update_ggmlhip_enable/</id>
-    <updated>2026-07-09T14:22:30.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>ollama v0.31.2 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.31.2"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.31.2</id>
+    <updated>2026-07-08T20:44:32.000Z</updated>
+    <author><name>ollama/ollama</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>https://github.com/ggml-org/llama.cpp/commit/ccb0c3422394fbbfc28fd91f8c77111b748cfa09 It seems to be time for another llama.cpp rebuild, at least if you are on amds ROCm/HIP. There are no benchmarks included and i am still building, so it would be nice if any of you could report back on the performance changes. submitt</summary>
+    <summary>What's Changed Enabled flash attention on older NVIDIA GPUs (compute capability 6.x) iGPU can now offload vision models with padding to fit available memory Fixed structured output for thinking models when thinking is disabled Hardened GGUF model creation ollama launch for Claude Code now disables telemetry by default </summary>
   </entry>
   <entry>
-    <title>Kimmeridge Faults Pace of Devon Energy’s Asset-Sale Efforts</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-09/kimmeridge-faults-pace-of-devon-energy-s-asset-sale-efforts"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-09/kimmeridge-faults-pace-of-devon-energy-s-asset-sale-efforts</id>
-    <updated>2026-07-09T18:14:54.000Z</updated>
+    <title>GPT-5.6 is now the preferred model in Microsoft 365 Copilot</title>
+    <link href="https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot"/>
+    <id>https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot</id>
+    <updated>2026-07-09T13:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.</summary>
+  </entry>
+  <entry>
+    <title>Introducing Muse Spark 1.1</title>
+    <link href="https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything"/>
+    <id>https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything</id>
+    <updated>2026-07-09T16:24:09.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Introducing Muse Spark 1.1 Following Muse Spark in April , here's Muse Spark 1.1 - the first Spark model to offer an API. Meta claim significant improvements in agentic tool calling and computer use. There are a lot more details are in the Muse Spark 1.1 Evaluation Report . The &quot;Attractor States in Self-Conversation&quot; p</summary>
+  </entry>
+  <entry>
+    <title>Asian Stocks Set to Gain After US Chipmakers Rally: Markets Wrap</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-09/stock-market-today-dow-s-p-live-updates"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-09/stock-market-today-dow-s-p-live-updates</id>
+    <updated>2026-07-09T22:08:45.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Kimmeridge Energy Management Co., an outspoken shale investor, criticized Devon Energy Corp.’s divestment program as too slow after the driller’s $25 billion takeover of Coterra Energy Inc.</summary>
+    <summary>Asian stocks looked poised to gain on Friday after a resurgence in giant chipmakers drove a rebound on Wall Street. Oil opened lower in early Friday trading.</summary>
   </entry>
   <entry>
-    <title>Junk Firms Seize on Drought in Buyout Debt to Slash Loan Costs</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-07-09/junk-firms-seize-on-drought-in-buyout-debt-to-cut-costs-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-07-09/junk-firms-seize-on-drought-in-buyout-debt-to-cut-costs-video</id>
-    <updated>2026-07-09T18:33:44.000Z</updated>
+    <title>Oil Steady at End of Volatile Week as Traders Assess Iran Risks</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-09/latest-oil-market-news-and-analysis-for-july-10"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-09/latest-oil-market-news-and-analysis-for-july-10</id>
+    <updated>2026-07-09T22:04:02.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Bloomberg's Aaron Weinman joins Katie Greifeld on &quot;Bloomberg Real Yield.&quot; The energy-drink maker Celsius, the sneaker firm Skechers and other junk-rated companies are seizing on hot credit markets to secure better terms from lenders, sharply reducing the extra yield their loans offer compared to benchmark borrowing cos</summary>
+    <summary>Oil steadied at the end of a bumpy week as traders assessed the risk to flows from a flare-up in fighting between Iran and the US.</summary>
   </entry>
   <entry>
     <title>Separating signal from noise in coding evaluations</title>
@@ -259,21 +241,39 @@
     <summary>A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.</summary>
   </entry>
   <entry>
-    <title>GPT-5.6 Sol costs $5 per 1M input tokens and $30 per 1M output tokens, GPT-5.6 Terra costs $2.50 and $15, and GPT-5.6 Luna costs $1 and $6 (OpenAI)</title>
-    <link href="https://www.techmeme.com/260709/p28#a260709p28"/>
-    <id>https://www.techmeme.com/260709/p28#a260709p28</id>
-    <updated>2026-07-09T17:35:02.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="HARDWARE"/>
-    <summary>OpenAI : GPT-5.6 Sol costs $5 per 1M input tokens and $30 per 1M output tokens, GPT-5.6 Terra costs $2.50 and $15, and GPT-5.6 Luna costs $1 and $6 — More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.</summary>
+    <title>OpenAI’s GPT-5.6 Sol, Terra, and Luna are now available in GitHub Copilot</title>
+    <link href="https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot"/>
+    <id>https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot</id>
+    <updated>2026-07-09T16:41:29.000Z</updated>
+    <author><name>GitHub Copilot Changelog</name></author>
+    <category term="PRODUCTS"/>
+    <summary>OpenAI’s GPT-5.6 family is now rolling out in GitHub Copilot. GPT-5.6 comes in three variants, Sol, Terra, and Luna, so you can match the model to the job, whether that’s… The post OpenAI’s GPT-5.6 Sol, Terra, and Luna are now available in GitHub Copilot appeared first on The GitHub Blog . — Also covered by: Vercel Blog</summary>
   </entry>
   <entry>
-    <title>ollama v0.31.2 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.31.2"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.31.2</id>
-    <updated>2026-07-08T20:44:32.000Z</updated>
-    <author><name>ollama/ollama</name></author>
+    <title>UN digital tech agency launches initiative to improve trust in AI agents - Reuters</title>
+    <link href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxOLW40R0Vic01SdnN0WVBwcV9xUGU5NDkyVUhmVFEtV05xRllhZUdIZEhUSWEwOEt6OUdFZnVheG8wMFh1eGo2QmxDLW5ZNmN5RHNPcm44VTJtZ1EzdzRVXy0yNFJaVWx2VnNMNUtTa2d4cHRHOHVfbkhBZzUxMUxERXNaS1BPVXFtQThJOHdqVzJoaVdIOUVhWEQzSFg3TUhxUUxvQVdxaWNxY195MHRMZ3MybFAyYzFLVXkw?oc=5"/>
+    <id>https://news.google.com/rss/articles/CBMiuwFBVV95cUxOLW40R0Vic01SdnN0WVBwcV9xUGU5NDkyVUhmVFEtV05xRllhZUdIZEhUSWEwOEt6OUdFZnVheG8wMFh1eGo2QmxDLW5ZNmN5RHNPcm44VTJtZ1EzdzRVXy0yNFJaVWx2VnNMNUtTa2d4cHRHOHVfbkhBZzUxMUxERXNaS1BPVXFtQThJOHdqVzJoaVdIOUVhWEQzSFg3TUhxUUxvQVdxaWNxY195MHRMZ3MybFAyYzFLVXkw?oc=5</id>
+    <updated>2026-07-09T21:17:34.000Z</updated>
+    <author><name>Reuters AI (Google News)</name></author>
+    <category term="PRODUCTS"/>
+    <summary>UN digital tech agency launches initiative to improve trust in AI agents Reuters</summary>
+  </entry>
+  <entry>
+    <title>GeForce NOW Turns Up the Heat With New GeForce RTX 5080-Powered Toronto Server</title>
+    <link href="https://blogs.nvidia.com/blog/geforce-now-thursday-toronto-expansion/"/>
+    <id>https://blogs.nvidia.com/blog/geforce-now-thursday-toronto-expansion/</id>
+    <updated>2026-07-09T13:00:55.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
     <category term="HARDWARE"/>
-    <summary>What's Changed Enabled flash attention on older NVIDIA GPUs (compute capability 6.x) iGPU can now offload vision models with padding to fit available memory Fixed structured output for thinking models when thinking is disabled Hardened GGUF model creation ollama launch for Claude Code now disables telemetry by default </summary>
+    <summary>This GFN Thursday brings more games, more power and more ways to play on GeForce NOW. The cloud gaming service is expanding with a new GeForce RTX 5080-powered server in Toronto, bringing dedicated high performance in the cloud closer to members across the region. NTE: Neverness to Everness also gets an update in the c</summary>
+  </entry>
+  <entry>
+    <title>Natural Language Autoencoders are summarizers, but do they have to be?</title>
+    <link href="https://www.lesswrong.com/posts/4nZwNPyfoadAxPH98/natural-language-autoencoders-are-summarizers-but-do-they"/>
+    <id>https://www.lesswrong.com/posts/4nZwNPyfoadAxPH98/natural-language-autoencoders-are-summarizers-but-do-they</id>
+    <updated>2026-07-09T19:54:59.000Z</updated>
+    <author><name>LessWrong</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>TL;DR : NLAs are an interesting idea. They do reconstruct the activations well, they can kinda audit model organisms for hidden objectives. But there are hints that they don't do what we actually want them to do. I tinker with the open-weight instances and find: verbalizations work cross-model and even cross-model-fami</summary>
   </entry>
 </feed>
