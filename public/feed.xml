@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-07-11T08:55:18.012Z</updated>
+  <updated>2026-07-11T10:22:21.978Z</updated>
   <entry>
     <title>Apple Sues OpenAI, Alleging It Stole Trade Secrets</title>
     <link href="https://www.wsj.com/tech/apple-openai-lawsuit-f86bd58c?mod=rss_Technology"/>
@@ -25,6 +25,15 @@
     <summary>OpenAI's latest flagship model hit general availability this morning , and comes in three sizes: Luna, Terra, and Sol (from smallest to largest). The new models are priced per 1M input/output tokens as Luna $1/$6, Terra $2.50/$15, Sol $5/$30. For comparison, the Claude Opus series are $5/$25 and the Claude Fable 5 is $</summary>
   </entry>
   <entry>
+    <title>'Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets</title>
+    <link href="https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/"/>
+    <id>https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/</id>
+    <updated>2026-07-11T09:03:57.000Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>A PNG hiding a prompt injection could steal your repo's secrets, researchers demonstrate. The technique, dubbed 'Ghostcommit,' slipped past AI code reviewers CodeRabbit and Bugbot, which never open image files at all, then convinced a coding agent to read a repo's .env and write every secret into the code as a list of </summary>
+  </entry>
+  <entry>
     <title>Apple sues OpenAI alleging theft of top-secret information</title>
     <link href="https://www.ft.com/content/5054739e-7f97-455c-910a-dd8a8150fed2"/>
     <id>https://www.ft.com/content/5054739e-7f97-455c-910a-dd8a8150fed2</id>
@@ -32,15 +41,6 @@
     <author><name>FT Artificial Intelligence</name></author>
     <category term="INDUSTRY NEWS"/>
     <summary>Lawsuit marks collapse of relationship between two of the biggest names in Silicon Valley</summary>
-  </entry>
-  <entry>
-    <title>Hugging Face CEO: Companies are done renting AI - shifting to owning open source models</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1ute8u3/hugging_face_ceo_companies_are_done_renting_ai/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1ute8u3/hugging_face_ceo_companies_are_done_renting_ai/</id>
-    <updated>2026-07-11T08:17:32.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Fresh take from Hugging Face CEO Clément Delangue in the latest TechCrunch Equity podcast (July 10, 2026). He says companies are increasingly walking away from just renting frontier model APIs and moving toward owning their AI through open source. Key points: • Most enterprises start on closed frontier APIs (OpenAI, An</summary>
   </entry>
   <entry>
     <title>[AINews] not much happened today</title>
@@ -79,22 +79,31 @@
     <summary>A big day for OpenAI.</summary>
   </entry>
   <entry>
+    <title>OpenAI admits it &quot;didn't get everything quite right&quot; with ChatGPT Work launch and scrambles to fix UX and costs</title>
+    <link href="https://the-decoder.com/openai-admits-it-didnt-get-everything-quite-right-with-chatgpt-work-launch-and-scrambles-to-fix-ux-and-costs/"/>
+    <id>https://the-decoder.com/openai-admits-it-didnt-get-everything-quite-right-with-chatgpt-work-launch-and-scrambles-to-fix-ux-and-costs/</id>
+    <updated>2026-07-11T08:01:09.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Following the launch of ChatGPT Work and GPT-5.6 Sol, OpenAI has acknowledged significant issues: excessive compute usage, a confusing transition to the desktop interface for chats and projects, an unclear distinction between Codex and ChatGPT Work, and regressions in existing workflows. In some cases, GPT-5.6 Sol repo</summary>
+  </entry>
+  <entry>
+    <title>An analysis of 1M+ social media posts from April 24 to June 30: ~25% of longform posts with 250+ words were fully AI-generated; on LinkedIn, the figure was 41% (Max Spero/Pangram Labs)</title>
+    <link href="https://www.techmeme.com/260711/p3#a260711p3"/>
+    <id>https://www.techmeme.com/260711/p3#a260711p3</id>
+    <updated>2026-07-11T05:50:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Max Spero / Pangram Labs : An analysis of 1M+ social media posts from April 24 to June 30: ~25% of longform posts with 250+ words were fully AI-generated; on LinkedIn, the figure was 41% — A first look at analytics from our Pangram Chrome extension — Two months ago, we launched our Chrome extension to help combat the r</summary>
+  </entry>
+  <entry>
     <title>llama.cpp b9963 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b9963"/>
     <id>https://github.com/ggml-org/llama.cpp/releases/tag/b9963</id>
     <updated>2026-07-11T08:40:28.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
-    <category term="MODEL RELEASES"/>
+    <category term="LOCAL MODELS"/>
     <summary>mtmd: deepseek-ocr v1 multi-tile ( #24717 ) mtmd: deepseek-ocr v1 multi-tile dynamic resolution + unified image-preprocessors for both versions (ds-ocr v1 and v2) remove hacky API fuse row into a long image almost working adapt to new preprocessor api rm debugging printf improve mtmd: dsocr-tiles fixes ( #25481 ) ds-oc</summary>
-  </entry>
-  <entry>
-    <title>Meta ditches Muse Image AI feature because it ‘misses the mark’ on users’ privacy</title>
-    <link href="https://www.theguardian.com/technology/2026/jul/11/meta-ditches-muse-image-ai-feature-instagram-privacy"/>
-    <id>https://www.theguardian.com/technology/2026/jul/11/meta-ditches-muse-image-ai-feature-instagram-privacy</id>
-    <updated>2026-07-11T05:07:41.000Z</updated>
-    <author><name>The Guardian AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Meta was criticised for feature launched on Tuesday that automatically lets users generate images using content from public Instagram accounts Meta has said ⁠it is discontinuing an AI feature launched this week that allowed users to generate images using public Instagram ⁠accounts, after drawing widespread ⁠criticism o</summary>
   </entry>
   <entry>
     <title>ollama v0.32.0 released</title>
@@ -118,10 +127,10 @@
     <title>transformers v5.13.1 released</title>
     <link href="https://github.com/huggingface/transformers/releases/tag/v5.13.1"/>
     <id>https://github.com/huggingface/transformers/releases/tag/v5.13.1</id>
-    <updated>2026-07-11T08:27:29.000Z</updated>
+    <updated>2026-07-11T09:15:36.000Z</updated>
     <author><name>huggingface/transformers</name></author>
     <category term="RESEARCH"/>
-    <summary>v5.13.1</summary>
+    <summary>Patch release v5.13.1 This patch is focused on enabling transformers for the latest release of vllm! Be more defensive with remap_legacy_layer_types for custom models ( #47245 ) from @hmellor Fix custom code which doesn't know about the new linear layer type names ( #47174 ) from @hmellor Fix case where _LazyAutoMappin</summary>
   </entry>
   <entry>
     <title>claude-code v2.1.207 released</title>
@@ -133,13 +142,13 @@
     <summary>What's changed Auto mode is now available without CLAUDE_CODE_ENABLE_AUTO_MODE opt-in on Bedrock, Vertex AI, and Foundry; disable via disableAutoMode in settings Fixed the terminal freezing and keystrokes lagging while streaming responses containing very long lists, tables, paragraphs, or code blocks Fixed remote manag</summary>
   </entry>
   <entry>
-    <title>‘AI accountability agenda’: US senator unveils package of bills to curb tech’s harms</title>
-    <link href="https://www.theguardian.com/technology/2026/jul/10/us-senator-unveils-ai-accountability-agenda-bills"/>
-    <id>https://www.theguardian.com/technology/2026/jul/10/us-senator-unveils-ai-accountability-agenda-bills</id>
-    <updated>2026-07-10T09:00:16.000Z</updated>
-    <author><name>The Guardian AI</name></author>
+    <title>China Tells Refiners to Keep Fuel Output High as Iran War Drags</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-11/china-tells-refiners-to-keep-fuel-output-high-as-iran-war-drags"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-11/china-tells-refiners-to-keep-fuel-output-high-as-iran-war-drags</id>
+    <updated>2026-07-11T09:00:20.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="HARDWARE"/>
-    <summary>Exclusive: Senator Ed Markey on why he has proposed legislation aimed at curbing datacenters, automated hiring systems and harm to children US senator Ed Markey is worried about the perils of unregulated artificial intelligence. What part? All of it: the costs associated with thirsty, energy-guzzling datacenters, intru</summary>
+    <summary>China instructed some major refiners to keep fuel production high, according to people familiar with the matter, in an effort to protect domestic consumers as strikes in the Persian Gulf once again threaten oil shipments.</summary>
   </entry>
   <entry>
     <title>Open source AI matters more than ever, according to Hugging Face’s Clem Delangue</title>
@@ -160,24 +169,6 @@
     <summary>arXiv:2607.07766v1 Announce Type: new Abstract: Large language models (LLMs) have become significant providers of mental health support, yet they remain products of an attention economy whose operational and commercial targets favour sustained engagement over the friction that effective psychological support often requ</summary>
   </entry>
   <entry>
-    <title>CodeQL 2.26.0 adds Kotlin 2.4.0 support and AI prompt injection detection - The GitHub Blog</title>
-    <link href="https://news.google.com/rss/articles/CBMitgFBVV95cUxNOF9yRGNwVkN3ODFlNVJ6N3VWWElHWnpjYjcyVHplZTEwcmJmV3pKSmMyak1RamUyY19OaXRoWDJpbmVxZ01EcmRkamNCRWRuc1B4ZHRIZTJ1cGtnWGlmd1pZdUttaDNlTktLTXFYMmdvQVg0SVYzUkFWN0ItQUZjUmhIZVRKeXhfNzVKenpTOEZZeklYMmxiZG9oQnBOeXAzaEJicnRjSUNIQ1pDX3p4bUt4QlBJdw?oc=5"/>
-    <id>https://news.google.com/rss/articles/CBMitgFBVV95cUxNOF9yRGNwVkN3ODFlNVJ6N3VWWElHWnpjYjcyVHplZTEwcmJmV3pKSmMyak1RamUyY19OaXRoWDJpbmVxZ01EcmRkamNCRWRuc1B4ZHRIZTJ1cGtnWGlmd1pZdUttaDNlTktLTXFYMmdvQVg0SVYzUkFWN0ItQUZjUmhIZVRKeXhfNzVKenpTOEZZeklYMmxiZG9oQnBOeXAzaEJicnRjSUNIQ1pDX3p4bUt4QlBJdw?oc=5</id>
-    <updated>2026-07-10T20:40:56.000Z</updated>
-    <author><name>GN: Prompt Injection</name></author>
-    <category term="AI SECURITY"/>
-    <summary>CodeQL 2.26.0 adds Kotlin 2.4.0 support and AI prompt injection detection The GitHub Blog</summary>
-  </entry>
-  <entry>
-    <title>Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions</title>
-    <link href="https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html"/>
-    <id>https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html</id>
-    <updated>2026-07-11T06:45:55.000Z</updated>
-    <author><name>The Hacker News</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>Zimbra is urging customers to apply updates to address a critical security vulnerability impacting the Classic Web Client that could result in arbitrary code execution. The vulnerability has been described as a case of stored cross-site scripting (XSS) that could allow specially crafted emails to execute malicious scri</summary>
-  </entry>
-  <entry>
     <title>The Week’s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead</title>
     <link href="https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"/>
     <id>https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/</id>
@@ -187,49 +178,49 @@
     <summary>AI once again dominated venture funding this week, claiming five of the 10 largest announced rounds, including a pair of billion-dollar financings for AI infrastructure and cybersecurity that led the pack.</summary>
   </entry>
   <entry>
-    <title>An analysis of 1M+ social media posts from April 24 to June 30: ~25% of longform posts with 250+ words were fully AI-generated; on LinkedIn, the figure was 41% (Max Spero/Pangram Labs)</title>
-    <link href="https://www.techmeme.com/260711/p3#a260711p3"/>
-    <id>https://www.techmeme.com/260711/p3#a260711p3</id>
-    <updated>2026-07-11T05:50:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="ROBOTICS"/>
-    <summary>Max Spero / Pangram Labs : An analysis of 1M+ social media posts from April 24 to June 30: ~25% of longform posts with 250+ words were fully AI-generated; on LinkedIn, the figure was 41% — A first look at analytics from our Pangram Chrome extension — Two months ago, we launched our Chrome extension to help combat the r</summary>
-  </entry>
-  <entry>
-    <title>Google and Fraunhofer Launch Global Calls for Early Fault-Tolerant Algorithms and Enterprise Use Cases</title>
-    <link href="https://quantumcomputingreport.com/google-and-fraunhofer-launch-global-calls-for-early-fault-tolerant-algorithms-and-enterprise-use-cases/"/>
-    <id>https://quantumcomputingreport.com/google-and-fraunhofer-launch-global-calls-for-early-fault-tolerant-algorithms-and-enterprise-use-cases/</id>
-    <updated>2026-07-11T04:15:38.000Z</updated>
-    <author><name>Quantum Computing Report</name></author>
+    <title>Announcing BQP Partners: my and my brother’s new angel-investing venture</title>
+    <link href="https://scottaaronson.blog/?p=9930"/>
+    <id>https://scottaaronson.blog/?p=9930</id>
+    <updated>2026-07-10T14:59:33.000Z</updated>
+    <author><name>Shtetl-Optimized (Aaronson)</name></author>
     <category term="QUANTUM"/>
-    <summary>International research networks and academic sponsors have opened competitive application windows targeting immediate software optimizations for early fault-tolerant quantum computing (FTQC) platforms and industry-specific classical-to-quantum workload migrations. The structural focal point across these programs avoids</summary>
+    <summary>As I’ve written before, these past couple years I’ve often felt like the last remaining person in either quantum computing or AI who lacked a stake in some startup company whose valuation is right now shooting into interstellar space. My academic colleagues, including the ones who seemed the most singleminded about qua</summary>
   </entry>
   <entry>
-    <title>OpenAI admits it &quot;didn't get everything quite right&quot; with ChatGPT Work launch and scrambles to fix UX and costs</title>
-    <link href="https://the-decoder.com/openai-admits-it-didnt-get-everything-quite-right-with-chatgpt-work-launch-and-scrambles-to-fix-ux-and-costs/"/>
-    <id>https://the-decoder.com/openai-admits-it-didnt-get-everything-quite-right-with-chatgpt-work-launch-and-scrambles-to-fix-ux-and-costs/</id>
-    <updated>2026-07-11T08:01:09.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Following the launch of ChatGPT Work and GPT-5.6 Sol, OpenAI has acknowledged significant issues: excessive compute usage, a confusing transition to the desktop interface for chats and projects, an unclear distinction between Codex and ChatGPT Work, and regressions in existing workflows. In some cases, GPT-5.6 Sol repo</summary>
-  </entry>
-  <entry>
-    <title>SK Hynix's historic US stock market listing is a bet that the AI boom is breaking the memory chip industry's decades-long boom-and-bust cycle (Bloomberg)</title>
-    <link href="https://www.techmeme.com/260711/p4#a260711p4"/>
-    <id>https://www.techmeme.com/260711/p4#a260711p4</id>
-    <updated>2026-07-11T06:30:01.000Z</updated>
+    <title>How members of the extremist group Boko Haram are using AI chatbots to design explosives, fix or upgrade weapons, and brainstorm attack ideas (New York Times)</title>
+    <link href="https://www.techmeme.com/260711/p5#a260711p5"/>
+    <id>https://www.techmeme.com/260711/p5#a260711p5</id>
+    <updated>2026-07-11T09:45:00.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Bloomberg : SK Hynix's historic US stock market listing is a bet that the AI boom is breaking the memory chip industry's decades-long boom-and-bust cycle — South Korean memory chipmaker SK Hynix Inc. just pulled off the largest public listing by a foreign company in US market history.</summary>
+    <summary>New York Times : How members of the extremist group Boko Haram are using AI chatbots to design explosives, fix or upgrade weapons, and brainstorm attack ideas — A.I. chatbots are not just a propaganda tool for violent extremists but are aiding in bomb construction and attack planning, new research finds.</summary>
   </entry>
   <entry>
-    <title>V100 vs V620 vs 24GB Quadro for local coding agents</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1utahyd/v100_vs_v620_vs_24gb_quadro_for_local_coding/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1utahyd/v100_vs_v620_vs_24gb_quadro_for_local_coding/</id>
-    <updated>2026-07-11T04:49:11.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>Meta ditches Muse Image AI feature because it ‘misses the mark’ on users’ privacy</title>
+    <link href="https://www.theguardian.com/technology/2026/jul/11/meta-ditches-muse-image-ai-feature-instagram-privacy"/>
+    <id>https://www.theguardian.com/technology/2026/jul/11/meta-ditches-muse-image-ai-feature-instagram-privacy</id>
+    <updated>2026-07-11T05:07:41.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Meta was criticised for feature launched on Tuesday that automatically lets users generate images using content from public Instagram accounts Meta has said ⁠it is discontinuing an AI feature launched this week that allowed users to generate images using public Instagram ⁠accounts, after drawing widespread ⁠criticism o</summary>
+  </entry>
+  <entry>
+    <title>Running Qwen3 30B A3B at 50 tok/s on RTX 5060 Ti</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1utefpr/running_qwen3_30b_a3b_at_50_toks_on_rtx_5060_ti/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1utefpr/running_qwen3_30b_a3b_at_50_toks_on_rtx_5060_ti/</id>
+    <updated>2026-07-11T08:29:07.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Hello! I’m very new to local LLM stuff and looking for advice on what to choose first so I don’t get disappointed later and spend money improperly. I’m going to use my build for agentic coding (some qwen3.6 models that fit in 24/32GB VRAM) , occasional video generation, and just some chatting. I’m choosing between: Tes</summary>
+    <summary>Experimented with some custom CUDA and C++ code that can now run a Qwen3-30B-A3B at 50-54 tok/s at float 8 on an RTX 5060 Ti with only 16 GB of VRAM. This speed is roughly 50% improvement to llama.cpp which runs at around 33-34 tok/s (with n-cpu-moe). These speedups come mostly from combining SOTA solutions I saw in pa</summary>
+  </entry>
+  <entry>
+    <title>Qwen3.6 35B-A3B (Q8_0, no KV quant) single prompt in opencode: &quot;Create a beautiful, relaxing flight simulator in a single html file with mountains, clouds, and endless procedural terrain&quot;</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1utb6io/qwen36_35ba3b_q8_0_no_kv_quant_single_prompt_in/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1utb6io/qwen36_35ba3b_q8_0_no_kv_quant_single_prompt_in/</id>
+    <updated>2026-07-11T05:24:45.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Told it that in plan mode, then told it to implement with no changes to the plan. This model punches far, far above its weight. I wasn't impressed until I switched from Q4_K_M on GPU to Q8_0 on CPU. It matters. It's worth the slowdown. submitted by /u/_TheWolfOfWalmart_ [link] [comments]</summary>
   </entry>
   <entry>
     <title>Context Graphs for Proactive Enterprise Agents</title>
@@ -241,15 +232,6 @@
     <summary>arXiv:2607.07721v1 Announce Type: new Abstract: Retrieval-Augmented Generation (RAG) and agentic frameworks have advanced enterprise AI considerably, yet agents remain fundamentally reactive: they wait for a human query before acting. This paper argues that genuine enterprise productivity gains require proactive agents</summary>
   </entry>
   <entry>
-    <title>Adversarial Social Epistemology for Assemblies of Humans and Large Language Models</title>
-    <link href="https://arxiv.org/abs/2607.07760"/>
-    <id>https://arxiv.org/abs/2607.07760</id>
-    <updated>2026-07-11T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>arXiv:2607.07760v1 Announce Type: new Abstract: We outline an adversarial social epistemology (ASE) for densely interactive communicative landscapes in which public assertions are scaffolded by chains of testimony, inference, institutional certification, and tacit trust. In such landscapes, agents have incentives and a</summary>
-  </entry>
-  <entry>
     <title>Kazakh Tycoon Turlov’s Freedom Raises $300 Million for Expansion</title>
     <link href="https://www.bloomberg.com/news/articles/2026-07-11/kazakh-tycoon-turlov-s-freedom-raises-300-million-for-expansion"/>
     <id>https://www.bloomberg.com/news/articles/2026-07-11/kazakh-tycoon-turlov-s-freedom-raises-300-million-for-expansion</id>
@@ -259,15 +241,6 @@
     <summary>Kazakhstan billionaire Timur Turlov’s Freedom Holding Corp. raised $300 million in a share sale to help fund its ongoing international expansion.</summary>
   </entry>
   <entry>
-    <title>VW CEO Under Pressure as Labor Unions Torpedo Turnaround Plan</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-11/vw-ceo-under-pressure-as-labor-unions-torpedo-turnaround-plan"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-11/vw-ceo-under-pressure-as-labor-unions-torpedo-turnaround-plan</id>
-    <updated>2026-07-11T05:00:00.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Volkswagen AG Chief Executive Officer Oliver Blume faces an uphill battle to push through a fundamental overhaul of the carmaker after failing to win initial backing from the supervisory board.</summary>
-  </entry>
-  <entry>
     <title>AI-integrated models for assessing agricultural resilience</title>
     <link href="https://arxiv.org/abs/2607.07759"/>
     <id>https://arxiv.org/abs/2607.07759</id>
@@ -275,5 +248,32 @@
     <author><name>arXiv cs.AI</name></author>
     <category term="RESEARCH"/>
     <summary>arXiv:2607.07759v1 Announce Type: new Abstract: Agricultural supply chains are vulnerable to disruptions through linked biophysical and economic systems. We develop an AI-powered tool that integrates economic models (GTAP) with biophysical models (APSIM) to analyze supply chain shocks, enabling policymakers and market </summary>
+  </entry>
+  <entry>
+    <title>Better tools made Copilot code review worse. Here’s how we actually improved it.</title>
+    <link href="https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/"/>
+    <id>https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/</id>
+    <updated>2026-07-10T15:57:47.000Z</updated>
+    <author><name>GitHub Blog</name></author>
+    <category term="PRODUCTS"/>
+    <summary>How migrating Copilot code review to shared Unix-style code exploration tools reduced review cost by reshaping agent workflows around pull request evidence. The post Better tools made Copilot code review worse. Here’s how we actually improved it. appeared first on The GitHub Blog .</summary>
+  </entry>
+  <entry>
+    <title>Steam sales reportedly topped $11 billion during H1 2026 due to shifting trends — staggering growth driven by influx of Chinese players and booming legacy catalogues</title>
+    <link href="https://www.tomshardware.com/video-games/pc-gaming/steam-sales-reportedly-topped-usd11-billion-during-h1-2026-due-to-shifting-trends-staggering-growth-driven-by-influx-of-chinese-players-and-booming-legacy-catalogues"/>
+    <id>https://www.tomshardware.com/video-games/pc-gaming/steam-sales-reportedly-topped-usd11-billion-during-h1-2026-due-to-shifting-trends-staggering-growth-driven-by-influx-of-chinese-players-and-booming-legacy-catalogues</id>
+    <updated>2026-07-10T15:25:19.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <category term="HARDWARE"/>
+    <summary>Steam made an estimated $11.1 billion in revenue in the first six months of 2026, according to estimates from research firm Alinea Analytics. That's more than it did in the entire pandemic-ridden year of 2020. In fact, even last year's holiday season made 8% less money than H1 2026, making this half Valve's best-ever.</summary>
+  </entry>
+  <entry>
+    <title>Kyutai Releases MuScriptor: An Open-Weight Decoder-Only Transformer for Multi-Instrument Music Transcription to MIDI</title>
+    <link href="https://www.marktechpost.com/2026/07/10/kyutai-releases-muscriptor-an-open-weight-decoder-only-transformer-for-multi-instrument-music-transcription-to-midi/"/>
+    <id>https://www.marktechpost.com/2026/07/10/kyutai-releases-muscriptor-an-open-weight-decoder-only-transformer-for-multi-instrument-music-transcription-to-midi/</id>
+    <updated>2026-07-10T20:21:08.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>MuScriptor is an open-weight, decoder-only Transformer from Kyutai and Mirelo. Trained on 170k real recordings plus 1.45M synthetic MIDIs, it transcribes full multi-instrument mixes into MIDI. The article covers its three-stage pipeline, benchmarks against YourMT3+, instrument conditioning, and setup, with an interacti</summary>
   </entry>
 </feed>
