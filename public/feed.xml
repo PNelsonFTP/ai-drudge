@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-07-12T23:01:28.508Z</updated>
+  <updated>2026-07-13T00:05:00.392Z</updated>
   <entry>
-    <title>Apple sues OpenAI alleging trade secret theft, says scheme was 'at every level'</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1uus189/apple_sues_openai_alleging_trade_secret_theft/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1uus189/apple_sues_openai_alleging_trade_secret_theft/</id>
-    <updated>2026-07-12T21:25:47.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>submitted by /u/fallingdowndizzyvr [link] [comments]</summary>
+    <title>Oil prices rise, stock futures dip after latest flare-up of strikes between U.S. and Iran</title>
+    <link href="https://www.marketwatch.com/story/oil-prices-rise-stock-futures-dip-after-latest-flare-up-of-strikes-between-u-s-and-iran-fef7f856?mod=mw_rss_topstories"/>
+    <id>https://www.marketwatch.com/story/oil-prices-rise-stock-futures-dip-after-latest-flare-up-of-strikes-between-u-s-and-iran-fef7f856?mod=mw_rss_topstories</id>
+    <updated>2026-07-12T23:52:00.000Z</updated>
+    <author><name>MarketWatch</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Oil prices rose and U.S. stock-index futures slipped on Sunday, after the U.S. and Iran continued their tit-for-tat attacks around the Strait of Hormuz over the weekend. — Also covered by: Bloomberg Markets</summary>
   </entry>
   <entry>
     <title>'Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets</title>
@@ -25,6 +25,15 @@
     <summary>A PNG hiding a prompt injection could steal your repo's secrets, researchers demonstrate. The technique, dubbed 'Ghostcommit,' slipped past AI code reviewers CodeRabbit and Bugbot, which never open image files at all, then convinced a coding agent to read a repo's .env and write every secret into the code as a list of </summary>
   </entry>
   <entry>
+    <title>Apple sues OpenAI alleging theft of top-secret information</title>
+    <link href="https://www.ft.com/content/5054739e-7f97-455c-910a-dd8a8150fed2"/>
+    <id>https://www.ft.com/content/5054739e-7f97-455c-910a-dd8a8150fed2</id>
+    <updated>2026-07-10T22:50:16.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Lawsuit marks collapse of relationship between two of the biggest names in Silicon Valley</summary>
+  </entry>
+  <entry>
     <title>not much happened today</title>
     <link href="https://news.smol.ai/issues/26-07-10-not-much/"/>
     <id>https://news.smol.ai/issues/26-07-10-not-much/</id>
@@ -32,15 +41,6 @@
     <author><name>AI News (smol.ai)</name></author>
     <category term="MODEL RELEASES"/>
     <summary>**OpenAI** rolled out **GPT-5.6** featuring a new model stratification with tiers **Luna / Terra / Sol** and effort levels including **Max** and **Ultra**, introducing complex configuration options. The launch faced UX challenges with the **ChatGPT Work / Codex** split, prompting rapid corrective actions including usag</summary>
-  </entry>
-  <entry>
-    <title>NVIDIA and Hugging Face Standardize Open-Source Robotics Pipeline via LeRobot</title>
-    <link href="https://www.humanoidsdaily.com/news/nvidia-and-hugging-face-standardize-open-source-robotics-pipeline-via-lerobot"/>
-    <id>https://www.humanoidsdaily.com/news/nvidia-and-hugging-face-standardize-open-source-robotics-pipeline-via-lerobot</id>
-    <updated>2026-07-08T07:57:20.000Z</updated>
-    <author><name>Humanoids Daily</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>A new collaboration brings NVIDIA Isaac GR00T 1.7, Isaac Teleop, and the upcoming Cosmos 3 world model directly into Hugging Face’s LeRobot ecosystem. — Also covered by: NVIDIA Blog</summary>
   </entry>
   <entry>
     <title>Fable gets another bump</title>
@@ -61,13 +61,13 @@
     <summary>Bloomberg : OpenAI, Meta, and SpaceXAI may be able to put pressure on Anthropic by emphasizing cost efficiency, as business customers increasingly scrutinize AI spending — Three prominent artificial intelligence developers released new models over the past week. They all promise to be more advanced …</summary>
   </entry>
   <entry>
-    <title>llama.cpp b9978 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b9978"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b9978</id>
-    <updated>2026-07-12T21:34:40.000Z</updated>
+    <title>llama.cpp b9979 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b9979"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b9979</id>
+    <updated>2026-07-12T23:38:18.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>server : evict checkpoints within min-step of each other ( #25472 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2</summary>
+    <summary>mtmd: fix silent prompt truncation on embedded NUL ( #25548 ) mtmd: fix silent prompt truncation on embedded NUL mtmd_input_text carried the prompt as a bare const char* with no length, so a NUL byte in message content cut the prompt at the tokenizer boundary and dropped every later message plus the assistant marker, w</summary>
   </entry>
   <entry>
     <title>US Says It Began Launching More Strikes Against Iran at 5pm ET</title>
@@ -106,13 +106,13 @@
     <summary>The most serious test to date of open source AI’s viability is happening right now.</summary>
   </entry>
   <entry>
-    <title>Extinction risk is not the right first sentence</title>
-    <link href="https://www.lesswrong.com/posts/xSAGzEG8CE3aDL2pv/extinction-risk-is-not-the-right-first-sentence"/>
-    <id>https://www.lesswrong.com/posts/xSAGzEG8CE3aDL2pv/extinction-risk-is-not-the-right-first-sentence</id>
-    <updated>2026-07-12T18:35:12.000Z</updated>
+    <title>The US Government may find it difficult to seize control during takeoff</title>
+    <link href="https://www.lesswrong.com/posts/DgTy3DC8rEw7a72rx/the-us-government-may-find-it-difficult-to-seize-control"/>
+    <id>https://www.lesswrong.com/posts/DgTy3DC8rEw7a72rx/the-us-government-may-find-it-difficult-to-seize-control</id>
+    <updated>2026-07-12T22:58:42.000Z</updated>
     <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Money wins quiet fights but votes win louder ones. What actually moves the public to act on AI, and why it decides which regulations and safeguards survive. This is my first post here. My leaning into AI safety is still in it's formative phase but I come at it as a tech founder and builder rather than a researcher. I'v</summary>
+    <summary>Epistemic status: conditioning on things I consider unlikely, many undiscussed considerations, not the whole story, etc. I'm not trying to advance any claims about whether this is good or bad, or what to do about it (if anything). I sometimes see concern about loss of most future value as a result of e.g. the US govern</summary>
   </entry>
   <entry>
     <title>ChatGPT Security Guide: Risks, Incidents &amp; Guidance</title>
@@ -196,31 +196,40 @@
     <summary>The Economic Times : Anthropic says it is extending Claude Fable 5 access on all paid plans, as well as keeping Claude Code's weekly rate limits 50% higher, through July 19 — In a post on X, the company said, “We're extending Claude Fable 5 access on all paid plans, as well as keeping Claude Code's weekly rate limits 5</summary>
   </entry>
   <entry>
-    <title>moondream3.1-9B-A2B</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1uunqcz/moondream319ba2b/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1uunqcz/moondream319ba2b/</id>
-    <updated>2026-07-12T18:40:55.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>Qwen fable fine tune</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1uuvb2g/qwen_fable_fine_tune/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1uuvb2g/qwen_fable_fine_tune/</id>
+    <updated>2026-07-12T23:42:51.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Moondream 3.1 is a vision language model with a mixture-of-experts architecture (9B total parameters, 2B active). It delivers state-of-the-art visual reasoning and detection while staying fast and cheap to deploy. Skills include query , detect , point , and caption , all native and all returning structured output. subm</summary>
+    <summary>Hey friends, I started a project i think we can all benefit from. I rented a few h200's and am fine tuning a hui Qwen 35b 3.6 3a on as much coherent fable data as possible. So far the benchmarks are amazingly motivating. I am being really picky about the data I ran fable pretty much as long as I have had it just making</summary>
   </entry>
   <entry>
-    <title>Oil Climbs, US Futures Dip on Fresh Iran Strikes: Markets Wrap</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-12/oil-climbs-us-futures-dip-on-fresh-iran-strikes-markets-wrap"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-12/oil-climbs-us-futures-dip-on-fresh-iran-strikes-markets-wrap</id>
-    <updated>2026-07-12T22:10:28.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Oil jumped and US equity futures fell after the US launched another round of strikes against Iran, while conflicting claims over the status of the Strait of Hormuz heightened uncertainty.</summary>
+    <title>Intel Arc Pro B70 (32GB, Battlemage) with Qwen3.6-35B-A3B is Stable! ~130 t/s with 4-bit (262k context) fully in VRAM ~69 t/s with 8-bit hybrid offload — llama.cpp Vulkan + embedded MTP benchmarks</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1uupa39/intel_arc_pro_b70_32gb_battlemage_with/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1uupa39/intel_arc_pro_b70_32gb_battlemage_with/</id>
+    <updated>2026-07-12T19:38:32.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Hardware : Intel Arc Pro B70 32 GB (Battlemage) · Ryzen 9 9900X · 64 GB DDR5 · Windows 11 Software : llama.cpp master e3546c794 (2026-07-12), Vulkan backend, self-built (MSVC + Ninja) · Intel driver 32.0.101.8860 (important — see gotchas) Models : unsloth Qwen3.6-35B-A3B-MTP-GGUF — UD-Q4_K_XL (21.3 GB) and UD-Q8_K_XL (</summary>
   </entry>
   <entry>
-    <title>NZ Aims to Sign LNG Import Plant Deal Before November Election</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-12/nz-aims-to-sign-lng-import-plant-deal-before-november-election"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-12/nz-aims-to-sign-lng-import-plant-deal-before-november-election</id>
-    <updated>2026-07-12T19:00:00.000Z</updated>
+    <title>Gold Declines as Renewed US-Iran Strikes Raise Rate-Hike Bets</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-12/gold-declines-as-renewed-us-iran-strikes-raise-rate-hike-bets"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-12/gold-declines-as-renewed-us-iran-strikes-raise-rate-hike-bets</id>
+    <updated>2026-07-12T23:13:35.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>New Zealand plans to sign a contract for its first liquefied natural gas import facility before the November election, with the government betting cheaper global LNG prices in coming years will make the fuel an affordable and reliable backup for renewable electricity.</summary>
+    <summary>Gold declined after the US and Iran exchanged strikes over the weekend, sending energy prices higher and once more raising the prospects for interest-rate hikes to combat inflation.</summary>
+  </entry>
+  <entry>
+    <title>Oil Jumps as US and Iran Trade Strikes, Dispute Hormuz Status</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-12/latest-oil-market-news-and-analysis-for-july-13"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-12/latest-oil-market-news-and-analysis-for-july-13</id>
+    <updated>2026-07-12T22:02:12.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Oil jumped as the US and Iran exchanged fresh strikes, with the sides offering conflicting statements on whether the Strait of Hormuz remains open to shipping.</summary>
   </entry>
   <entry>
     <title>transformers v5.13.1 released</title>
@@ -266,14 +275,5 @@
     <author><name>ServeTheHome</name></author>
     <category term="HARDWARE"/>
     <summary>In our ASUS ZenScreen MB169CK review, we see how this portable 15.6&quot; monitor performs compared to its competition The post ASUS ZenScreen MB169CK USB-C and Mini-HDMI 15.6in Portable Monitor Review appeared first on ServeTheHome .</summary>
-  </entry>
-  <entry>
-    <title>Chasing new skills, going back to basics and pushing for collective action: how software engineers are adapting to AI</title>
-    <link href="https://www.theguardian.com/technology/ng-interactive/2026/jul/12/software-developers-engineers-ai"/>
-    <id>https://www.theguardian.com/technology/ng-interactive/2026/jul/12/software-developers-engineers-ai</id>
-    <updated>2026-07-12T10:00:15.000Z</updated>
-    <author><name>The Guardian AI</name></author>
-    <category term="HARDWARE"/>
-    <summary>Software engineering was one of the best-paying professions in the US in 2022, but the advent of AI has disrupted it, leading to several layoffs and underemployment Every weekday, Matt, a software engineer, looks forward to his four-hour train commute to Pawling, New York. It’s time he uses to work on his own project: </summary>
   </entry>
 </feed>
