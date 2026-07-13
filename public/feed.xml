@@ -5,15 +5,24 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-07-13T00:05:00.392Z</updated>
+  <updated>2026-07-13T03:53:32.386Z</updated>
   <entry>
-    <title>Oil prices rise, stock futures dip after latest flare-up of strikes between U.S. and Iran</title>
-    <link href="https://www.marketwatch.com/story/oil-prices-rise-stock-futures-dip-after-latest-flare-up-of-strikes-between-u-s-and-iran-fef7f856?mod=mw_rss_topstories"/>
-    <id>https://www.marketwatch.com/story/oil-prices-rise-stock-futures-dip-after-latest-flare-up-of-strikes-between-u-s-and-iran-fef7f856?mod=mw_rss_topstories</id>
-    <updated>2026-07-12T23:52:00.000Z</updated>
-    <author><name>MarketWatch</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Oil prices rose and U.S. stock-index futures slipped on Sunday, after the U.S. and Iran continued their tit-for-tat attacks around the Strait of Hormuz over the weekend. — Also covered by: Bloomberg Markets</summary>
+    <title>Apple sues OpenAI alleging trade secret theft, says scheme was 'at every level'</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1uus189/apple_sues_openai_alleging_trade_secret_theft/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1uus189/apple_sues_openai_alleging_trade_secret_theft/</id>
+    <updated>2026-07-12T21:25:47.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>submitted by /u/fallingdowndizzyvr [link] [comments]</summary>
+  </entry>
+  <entry>
+    <title>qwen-code v0.0.5 released</title>
+    <link href="https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.0.5"/>
+    <id>https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.0.5</id>
+    <updated>2026-07-13T03:49:39.000Z</updated>
+    <author><name>QwenLM/qwen-code</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Full changelog — Also covered by: anthropics/claude-code</summary>
   </entry>
   <entry>
     <title>'Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets</title>
@@ -25,15 +34,6 @@
     <summary>A PNG hiding a prompt injection could steal your repo's secrets, researchers demonstrate. The technique, dubbed 'Ghostcommit,' slipped past AI code reviewers CodeRabbit and Bugbot, which never open image files at all, then convinced a coding agent to read a repo's .env and write every secret into the code as a list of </summary>
   </entry>
   <entry>
-    <title>Apple sues OpenAI alleging theft of top-secret information</title>
-    <link href="https://www.ft.com/content/5054739e-7f97-455c-910a-dd8a8150fed2"/>
-    <id>https://www.ft.com/content/5054739e-7f97-455c-910a-dd8a8150fed2</id>
-    <updated>2026-07-10T22:50:16.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Lawsuit marks collapse of relationship between two of the biggest names in Silicon Valley</summary>
-  </entry>
-  <entry>
     <title>not much happened today</title>
     <link href="https://news.smol.ai/issues/26-07-10-not-much/"/>
     <id>https://news.smol.ai/issues/26-07-10-not-much/</id>
@@ -43,49 +43,67 @@
     <summary>**OpenAI** rolled out **GPT-5.6** featuring a new model stratification with tiers **Luna / Terra / Sol** and effort levels including **Max** and **Ultra**, introducing complex configuration options. The launch faced UX challenges with the **ChatGPT Work / Codex** split, prompting rapid corrective actions including usag</summary>
   </entry>
   <entry>
+    <title>OpenAI temporarily relaxes GPT-5.6 Sol usage limits</title>
+    <link href="https://www.bleepingcomputer.com/news/artificial-intelligence/openai-temporarily-relaxes-gpt-56-sol-usage-limits/"/>
+    <id>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-temporarily-relaxes-gpt-56-sol-usage-limits/</id>
+    <updated>2026-07-13T00:44:44.000Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>OpenAI is temporarily relaxing GPT-5.6 Sol usage after demand for the company's most powerful model surged over the past 48 hours. [...]</summary>
+  </entry>
+  <entry>
+    <title>A profile of Asha Sharma, an outsider elevated by Satya Nadella to lead Xbox, where she made sweeping job cuts and shed game studios within her first few months (Financial Times)</title>
+    <link href="https://www.techmeme.com/260712/p11#a260712p11"/>
+    <id>https://www.techmeme.com/260712/p11#a260712p11</id>
+    <updated>2026-07-13T01:05:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Financial Times : A profile of Asha Sharma, an outsider elevated by Satya Nadella to lead Xbox, where she made sweeping job cuts and shed game studios within her first few months — Elevated to fix Microsoft's struggling gaming division, she is making tough decisions about its future</summary>
+  </entry>
+  <entry>
+    <title>llama.cpp b9982 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b9982"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b9982</id>
+    <updated>2026-07-13T01:30:04.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>server: honour per-request reasoning_budget_tokens in chat completions ( #23116 ) server: honour per-request reasoning_budget_tokens in chat completions The reasoning-budget block in oaicompat_chat_params_parse read only the server-level default (opt.reasoning_budget, typically -1) and the Anthropic-style alias thinkin</summary>
+  </entry>
+  <entry>
     <title>Fable gets another bump</title>
     <link href="https://simonwillison.net/2026/Jul/12/bump/#atom-everything"/>
     <id>https://simonwillison.net/2026/Jul/12/bump/#atom-everything</id>
     <updated>2026-07-12T21:20:07.000Z</updated>
     <author><name>Simon Willison</name></author>
-    <category term="MODEL RELEASES"/>
+    <category term="AGENTS &amp; TOOLS"/>
     <summary>One of the consequences of GPT-5.6 Sol being clearly a Fable/Mythos class model is that Anthropic have, once again, bumped the date that Fable stops being available in their Claude Max plans: We're extending Claude Fable 5 access on all paid plans, as well as keeping Claude Code’s weekly rate limits 50% higher, through</summary>
   </entry>
   <entry>
-    <title>OpenAI, Meta, and SpaceXAI may be able to put pressure on Anthropic by emphasizing cost efficiency, as business customers increasingly scrutinize AI spending (Bloomberg)</title>
-    <link href="https://www.techmeme.com/260712/p8#a260712p8"/>
-    <id>https://www.techmeme.com/260712/p8#a260712p8</id>
-    <updated>2026-07-12T21:40:05.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Bloomberg : OpenAI, Meta, and SpaceXAI may be able to put pressure on Anthropic by emphasizing cost efficiency, as business customers increasingly scrutinize AI spending — Three prominent artificial intelligence developers released new models over the past week. They all promise to be more advanced …</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp b9979 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b9979"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b9979</id>
-    <updated>2026-07-12T23:38:18.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>mtmd: fix silent prompt truncation on embedded NUL ( #25548 ) mtmd: fix silent prompt truncation on embedded NUL mtmd_input_text carried the prompt as a bare const char* with no length, so a NUL byte in message content cut the prompt at the tokenizer boundary and dropped every later message plus the assistant marker, w</summary>
-  </entry>
-  <entry>
-    <title>US Says It Began Launching More Strikes Against Iran at 5pm ET</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-12/us-says-it-began-launching-more-strikes-against-iran-at-5pm-et"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-12/us-says-it-began-launching-more-strikes-against-iran-at-5pm-et</id>
-    <updated>2026-07-12T21:22:42.000Z</updated>
+    <title>SBI Funds IPO Anchor Book 20 Times Subscribed; Draws Capital Group, BlackRock, Goldman, ADIA, GIC</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-13/capital-group-blackrock-said-to-buy-into-sbi-funds-anchor-book"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-13/capital-group-blackrock-said-to-buy-into-sbi-funds-anchor-book</id>
+    <updated>2026-07-13T03:00:35.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>US Central Command forces began launching more strikes against Iran at 5 p.m. ET today, to continue degrading their ability to attack civilian mariners and commercial ships freely transiting the Strait of Hormuz, according to a post on X.</summary>
+    <summary>The Capital Group Inc., BlackRock Inc., Fidelity Investments and Goldman Sachs Asset Management L.P. are among key investors that participated in the anchor book of SBI Funds Management Ltd., which was subscribed more than 20 times before the company’s initial public offering, according to people familiar with the matt</summary>
   </entry>
   <entry>
-    <title>Guide to Loop Engineering: How ‘autoresearch’ and ‘Bilevel Autoresearch’ Turn AI Agents Into Autonomous Machine Learning ML Research Loops</title>
-    <link href="https://www.marktechpost.com/2026/07/12/guide-to-loop-engineering/"/>
-    <id>https://www.marktechpost.com/2026/07/12/guide-to-loop-engineering/</id>
-    <updated>2026-07-12T20:07:02.000Z</updated>
+    <title>Meet NeuroVFM: A New Neuroimaging Foundation Model Trained With Vol-JEPA on Uncurated Clinical MRI and CT Volumes</title>
+    <link href="https://www.marktechpost.com/2026/07/12/meet-neurovfm-a-new-neuroimaging-foundation-model-trained-with-vol-jepa-on-uncurated-clinical-mri-and-ct-volumes/"/>
+    <id>https://www.marktechpost.com/2026/07/12/meet-neurovfm-a-new-neuroimaging-foundation-model-trained-with-vol-jepa-on-uncurated-clinical-mri-and-ct-volumes/</id>
+    <updated>2026-07-13T00:35:36.000Z</updated>
     <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
-    <summary>Most people still use AI like a 2015 search box. You type, you read, you type again. A newer pattern replaces that manual back-and-forth with a loop. This guide explains loop engineering using two verified artifacts. The sources are Andrej Karpathy’s autoresearch repository and the Bilevel Autoresearch paper. The frami</summary>
+    <summary>NeuroVFM is a generalist neuroimaging foundation model from the University of Michigan, trained on 5.24M clinical MRI and CT volumes. Its Vol-JEPA base extends I-JEPA and V-JEPA to volumetric medical imaging, learning brain anatomy and pathology without radiology-report labels. The post Meet NeuroVFM: A New Neuroimagin</summary>
+  </entry>
+  <entry>
+    <title>Sega Dreamcast driver fixes appear in Linux 7.2-rc3 — fabled console remains in favor while iconic computing architectures like i486 fall by the wayside</title>
+    <link href="https://www.tomshardware.com/software/linux/sega-dreamcast-driver-fixes-appear-in-linux-7-2-rc3-fabled-console-remains-in-favor-while-iconic-computing-architectures-like-i486-fall-by-the-wayside"/>
+    <id>https://www.tomshardware.com/software/linux/sega-dreamcast-driver-fixes-appear-in-linux-7-2-rc3-fabled-console-remains-in-favor-while-iconic-computing-architectures-like-i486-fall-by-the-wayside</id>
+    <updated>2026-07-12T14:51:53.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <category term="PRODUCTS"/>
+    <summary>A set of updates for Sega Dreamcast hardware has been merged into the Linux 7.2-rc3 kernel this weekend.</summary>
   </entry>
   <entry>
     <title>S&amp;P Global sees OpenAI as a &quot;key credit risk&quot; for Oracle and cuts its credit rating</title>
@@ -106,13 +124,13 @@
     <summary>The most serious test to date of open source AI’s viability is happening right now.</summary>
   </entry>
   <entry>
-    <title>The US Government may find it difficult to seize control during takeoff</title>
-    <link href="https://www.lesswrong.com/posts/DgTy3DC8rEw7a72rx/the-us-government-may-find-it-difficult-to-seize-control"/>
-    <id>https://www.lesswrong.com/posts/DgTy3DC8rEw7a72rx/the-us-government-may-find-it-difficult-to-seize-control</id>
-    <updated>2026-07-12T22:58:42.000Z</updated>
+    <title>5 &quot;Plan A&quot; scenarios</title>
+    <link href="https://www.lesswrong.com/posts/7HHKaD3BdsfHX7doz/5-plan-a-scenarios"/>
+    <id>https://www.lesswrong.com/posts/7HHKaD3BdsfHX7doz/5-plan-a-scenarios</id>
+    <updated>2026-07-13T00:36:48.000Z</updated>
     <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Epistemic status: conditioning on things I consider unlikely, many undiscussed considerations, not the whole story, etc. I'm not trying to advance any claims about whether this is good or bad, or what to do about it (if anything). I sometimes see concern about loss of most future value as a result of e.g. the US govern</summary>
+    <summary>https://ai-2040.com/ is a compelling look at one path forward in a world where the US decides to cooperate with China to slow down transformative AI, to buy us time to do it safely. (Ok, it has a bunch of potential paths forward, but one key path involving cooperation.) To me, the key insight in Plan A is that you need</summary>
   </entry>
   <entry>
     <title>ChatGPT Security Guide: Risks, Incidents &amp; Guidance</title>
@@ -124,15 +142,6 @@
     <summary>What security teams actually need to know about ChatGPT: data handling, documented incidents, CISO guidance, and API risks.</summary>
   </entry>
   <entry>
-    <title>Claude Fable 5 stays free for paid users until July 19 as Anthropic buys more time</title>
-    <link href="https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/"/>
-    <id>https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/</id>
-    <updated>2026-07-12T19:39:12.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>Anthropic has just extended access to Claude Fable 5 for paid subscribers until July 19, giving you another week to keep using the most powerful model. [...]</summary>
-  </entry>
-  <entry>
     <title>LinkedIn is the undisputed king of long-form AI slop, according to a study spanning five platforms</title>
     <link href="https://the-decoder.com/linkedin-is-the-undisputed-king-of-long-form-ai-slop-according-to-a-study-spanning-five-platforms/"/>
     <id>https://the-decoder.com/linkedin-is-the-undisputed-king-of-long-form-ai-slop-according-to-a-study-spanning-five-platforms/</id>
@@ -142,22 +151,13 @@
     <summary>One in four longer social media posts is entirely AI-generated, according to a Pangram analysis. LinkedIn leads with 41 percent of long-form posts flagged as AI-written. The platform made up only a third of all posts scanned but accounted for nearly two-thirds of all detected AI content. Because the detection model ten</summary>
   </entry>
   <entry>
-    <title>How AI rebrands fail to deliver a lasting share price boost</title>
-    <link href="https://www.ft.com/content/07fa9ce9-ac21-484c-a57c-078b0bb0fd3b"/>
-    <id>https://www.ft.com/content/07fa9ce9-ac21-484c-a57c-078b0bb0fd3b</id>
-    <updated>2026-07-11T15:41:24.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>Most of the groups that pivoted have not sustained their valuation gains, an FT analysis has found</summary>
-  </entry>
-  <entry>
-    <title>STEM education in the classroom, introducing BotBall</title>
-    <link href="https://www.therobotreport.com/stem-education-classroom-introducing-botball/"/>
-    <id>https://www.therobotreport.com/stem-education-classroom-introducing-botball/</id>
-    <updated>2026-07-12T10:00:26.000Z</updated>
-    <author><name>The Robot Report</name></author>
+    <title>Hyundai Motor Workers Strike Over Bonuses, Robot Job Security</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-13/hyundai-hymtf-workers-strike-over-bonuses-ai-robot-job-security"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-13/hyundai-hymtf-workers-strike-over-bonuses-ai-robot-job-security</id>
+    <updated>2026-07-13T02:32:53.000Z</updated>
+    <author><name>Bloomberg Tech</name></author>
     <category term="ROBOTICS"/>
-    <summary>Botball addresses STEM education with autonomous robotics, real coding, and a level playing field driven entirely by students. The post STEM education in the classroom, introducing BotBall appeared first on The Robot Report .</summary>
+    <summary>Hyundai Motor Co. workers began a three-day partial strike on Monday as their union demands bigger bonuses following landmark deals at semiconductor companies, and seek guarantees jobs won’t be lost to AI and robots.</summary>
   </entry>
   <entry>
     <title>Scientists’ Side Hustle? Using AI and Quantum Computing to Generate New Peptides</title>
@@ -178,12 +178,48 @@
     <summary>their public Instagram accounts. No consent needed, just a username. Meta admits &quot;this feature missed the mark&quot; and shut it down days after announcing it. The article Meta kills Muse Image feature that let anyone generate AI photos of Instagram users without consent appeared first on The Decoder .</summary>
   </entry>
   <entry>
+    <title>How museums are using AI chatbots to reach new audiences, as some museum staff worry AI-generated inaccuracies and bias could undermine them as trusted sources (Naomi Rea/Financial Times)</title>
+    <link href="https://www.techmeme.com/260712/p12#a260712p12"/>
+    <id>https://www.techmeme.com/260712/p12#a260712p12</id>
+    <updated>2026-07-13T03:00:30.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Naomi Rea / Financial Times : How museums are using AI chatbots to reach new audiences, as some museum staff worry AI-generated inaccuracies and bias could undermine them as trusted sources — Touted as a way to engage visitors and boost funding, new tools are triggering concerns around trust and ethics</summary>
+  </entry>
+  <entry>
+    <title>OpenAI, Meta, and SpaceXAI may be able to put pressure on Anthropic by emphasizing cost efficiency, as business customers increasingly scrutinize AI spending (Bloomberg)</title>
+    <link href="https://www.techmeme.com/260712/p8#a260712p8"/>
+    <id>https://www.techmeme.com/260712/p8#a260712p8</id>
+    <updated>2026-07-12T21:40:05.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Bloomberg : OpenAI, Meta, and SpaceXAI may be able to put pressure on Anthropic by emphasizing cost efficiency, as business customers increasingly scrutinize AI spending — Three prominent artificial intelligence developers released new models over the past week. They all promise to be more advanced …</summary>
+  </entry>
+  <entry>
+    <title>Google would make more money off of Open Source</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1uv0ba4/google_would_make_more_money_off_of_open_source/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1uv0ba4/google_would_make_more_money_off_of_open_source/</id>
+    <updated>2026-07-13T03:37:01.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>I've been thinking, if Google really wanted to win this race they would embrace the open source, stop policing, enable training, create good ai not use, but ai development courses, and support local, development. Like open source ecosystem is great, let's make sure the maintainers get paid and the right resources, turn</summary>
+  </entry>
+  <entry>
+    <title>Why do people keep fine-tuning on summarized/censored SOTA CoT traces?</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1uuvkw9/why_do_people_keep_finetuning_on/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1uuvkw9/why_do_people_keep_finetuning_on/</id>
+    <updated>2026-07-12T23:54:52.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Am I missing something? It seems like some people think distillation is magic and will raise the quality of output above what the base model is actually capable of. It's especially weird to me to see all these Fable fine-tunes, because as far as I understand it, they miss the fact that the reasoning traces you get from</summary>
+  </entry>
+  <entry>
     <title>Sources: Cursor is building a general-purpose AI agent codenamed Sand, aimed at non-developers, that handles emails, texts, and documents to rival Claude Cowork (Grace Kay/The Information)</title>
     <link href="https://www.techmeme.com/260712/p9#a260712p9"/>
     <id>https://www.techmeme.com/260712/p9#a260712p9</id>
     <updated>2026-07-12T22:30:01.000Z</updated>
     <author><name>Techmeme</name></author>
-    <category term="MODEL RELEASES"/>
+    <category term="AGENTS &amp; TOOLS"/>
     <summary>Grace Kay / The Information : Sources: Cursor is building a general-purpose AI agent codenamed Sand, aimed at non-developers, that handles emails, texts, and documents to rival Claude Cowork — Cursor is developing a general-purpose AI agent meant to compete with popular tools like Anthropic's Claude Cowork …</summary>
   </entry>
   <entry>
@@ -192,44 +228,35 @@
     <id>https://www.techmeme.com/260712/p7#a260712p7</id>
     <updated>2026-07-12T18:30:01.000Z</updated>
     <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
+    <category term="AGENTS &amp; TOOLS"/>
     <summary>The Economic Times : Anthropic says it is extending Claude Fable 5 access on all paid plans, as well as keeping Claude Code's weekly rate limits 50% higher, through July 19 — In a post on X, the company said, “We're extending Claude Fable 5 access on all paid plans, as well as keeping Claude Code's weekly rate limits 5</summary>
   </entry>
   <entry>
-    <title>Qwen fable fine tune</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1uuvb2g/qwen_fable_fine_tune/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1uuvb2g/qwen_fable_fine_tune/</id>
-    <updated>2026-07-12T23:42:51.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Hey friends, I started a project i think we can all benefit from. I rented a few h200's and am fine tuning a hui Qwen 35b 3.6 3a on as much coherent fable data as possible. So far the benchmarks are amazingly motivating. I am being really picky about the data I ran fable pretty much as long as I have had it just making</summary>
-  </entry>
-  <entry>
-    <title>Intel Arc Pro B70 (32GB, Battlemage) with Qwen3.6-35B-A3B is Stable! ~130 t/s with 4-bit (262k context) fully in VRAM ~69 t/s with 8-bit hybrid offload — llama.cpp Vulkan + embedded MTP benchmarks</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1uupa39/intel_arc_pro_b70_32gb_battlemage_with/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1uupa39/intel_arc_pro_b70_32gb_battlemage_with/</id>
-    <updated>2026-07-12T19:38:32.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Hardware : Intel Arc Pro B70 32 GB (Battlemage) · Ryzen 9 9900X · 64 GB DDR5 · Windows 11 Software : llama.cpp master e3546c794 (2026-07-12), Vulkan backend, self-built (MSVC + Ninja) · Intel driver 32.0.101.8860 (important — see gotchas) Models : unsloth Qwen3.6-35B-A3B-MTP-GGUF — UD-Q4_K_XL (21.3 GB) and UD-Q8_K_XL (</summary>
-  </entry>
-  <entry>
-    <title>Gold Declines as Renewed US-Iran Strikes Raise Rate-Hike Bets</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-12/gold-declines-as-renewed-us-iran-strikes-raise-rate-hike-bets"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-12/gold-declines-as-renewed-us-iran-strikes-raise-rate-hike-bets</id>
-    <updated>2026-07-12T23:13:35.000Z</updated>
+    <title>Nippon Paint Offers $8.6 Billion for Akzo Nobel’s Paint Business</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-13/nippon-paint-offers-8-6-billion-for-akzo-nobel-s-paint-business"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-13/nippon-paint-offers-8-6-billion-for-akzo-nobel-s-paint-business</id>
+    <updated>2026-07-13T02:47:58.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Gold declined after the US and Iran exchanged strikes over the weekend, sending energy prices higher and once more raising the prospects for interest-rate hikes to combat inflation.</summary>
+    <summary>Nippon Paint Holdings Co. has made an offer for Akzo Nobel NV’s decorative paints business in the past month.</summary>
   </entry>
   <entry>
-    <title>Oil Jumps as US and Iran Trade Strikes, Dispute Hormuz Status</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-12/latest-oil-market-news-and-analysis-for-july-13"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-12/latest-oil-market-news-and-analysis-for-july-13</id>
-    <updated>2026-07-12T22:02:12.000Z</updated>
+    <title>Gold Bars, Cash Pile Mark Fall of Indonesia’s Top Graft Hunter</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-13/gold-bars-pile-of-us-singapore-dollars-mark-fall-of-top-indonesia-graft-hunter"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-13/gold-bars-pile-of-us-singapore-dollars-mark-fall-of-top-indonesia-graft-hunter</id>
+    <updated>2026-07-13T03:36:56.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Oil jumped as the US and Iran exchanged fresh strikes, with the sides offering conflicting statements on whether the Strait of Hormuz remains open to shipping.</summary>
+    <summary>Rows of gold bars, stacks of US and Singapore dollars and seven suitcases found inside a locked safe have become the defining images of one of the biggest scandals to hit Indonesia’s law-enforcement establishment in years.</summary>
+  </entry>
+  <entry>
+    <title>Guide to Loop Engineering: How ‘autoresearch’ and ‘Bilevel Autoresearch’ Turn AI Agents Into Autonomous Machine Learning ML Research Loops</title>
+    <link href="https://www.marktechpost.com/2026/07/12/guide-to-loop-engineering/"/>
+    <id>https://www.marktechpost.com/2026/07/12/guide-to-loop-engineering/</id>
+    <updated>2026-07-12T20:07:02.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="RESEARCH"/>
+    <summary>Most people still use AI like a 2015 search box. You type, you read, you type again. A newer pattern replaces that manual back-and-forth with a loop. This guide explains loop engineering using two verified artifacts. The sources are Andrej Karpathy’s autoresearch repository and the Bilevel Autoresearch paper. The frami</summary>
   </entry>
   <entry>
     <title>transformers v5.13.1 released</title>
@@ -241,24 +268,6 @@
     <summary>Patch release v5.13.1 This patch is focused on enabling transformers for the latest release of vllm! Be more defensive with remap_legacy_layer_types for custom models ( #47245 ) from @hmellor Fix custom code which doesn't know about the new linear layer type names ( #47174 ) from @hmellor Fix case where _LazyAutoMappin</summary>
   </entry>
   <entry>
-    <title>Ghostcommit: Multimodal Prompt Injection Attack Exposes AI Code Review Tools to Supply Chain Risks - Rescana</title>
-    <link href="https://news.google.com/rss/articles/CBMixAFBVV95cUxPd05JLUhMTGlaZUFWdEJkTVZmZldRN1MzV1hheWhIc1dxRVBtUzBBQ2k3Mk1LZnFsTEIyLTJGamRHZ2I3NmFKYThZdllBZUdQNFIyeml3VGMwaG81MW1rd2dfV0ZJcjB1SVdPUVB6Ujd1TFJsQUJ2SGUyMXotbW44WURpV3lCSmxaM0sxTnlfRENiY2NXaTZjNEJORk5PaDN0cFNDQU9EOEdJWnk4WWw2b0FOMHRQYl9IdzZqVHpYUmhLTlBz?oc=5"/>
-    <id>https://news.google.com/rss/articles/CBMixAFBVV95cUxPd05JLUhMTGlaZUFWdEJkTVZmZldRN1MzV1hheWhIc1dxRVBtUzBBQ2k3Mk1LZnFsTEIyLTJGamRHZ2I3NmFKYThZdllBZUdQNFIyeml3VGMwaG81MW1rd2dfV0ZJcjB1SVdPUVB6Ujd1TFJsQUJ2SGUyMXotbW44WURpV3lCSmxaM0sxTnlfRENiY2NXaTZjNEJORk5PaDN0cFNDQU9EOEdJWnk4WWw2b0FOMHRQYl9IdzZqVHpYUmhLTlBz?oc=5</id>
-    <updated>2026-07-12T11:12:37.000Z</updated>
-    <author><name>GN: Prompt Injection</name></author>
-    <category term="RESEARCH"/>
-    <summary>Ghostcommit: Multimodal Prompt Injection Attack Exposes AI Code Review Tools to Supply Chain Risks Rescana</summary>
-  </entry>
-  <entry>
-    <title>Sega Dreamcast driver fixes appear in Linux 7.2-rc3 — fabled console remains in favor while iconic computing architectures like i486 fall by the wayside</title>
-    <link href="https://www.tomshardware.com/software/linux/sega-dreamcast-driver-fixes-appear-in-linux-7-2-rc3-fabled-console-remains-in-favor-while-iconic-computing-architectures-like-i486-fall-by-the-wayside"/>
-    <id>https://www.tomshardware.com/software/linux/sega-dreamcast-driver-fixes-appear-in-linux-7-2-rc3-fabled-console-remains-in-favor-while-iconic-computing-architectures-like-i486-fall-by-the-wayside</id>
-    <updated>2026-07-12T14:51:53.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
-    <category term="PRODUCTS"/>
-    <summary>A set of updates for Sega Dreamcast hardware has been merged into the Linux 7.2-rc3 kernel this weekend.</summary>
-  </entry>
-  <entry>
     <title>claude-code v2.1.207 released</title>
     <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.207"/>
     <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.207</id>
@@ -266,14 +275,5 @@
     <author><name>anthropics/claude-code</name></author>
     <category term="PRODUCTS"/>
     <summary>What's changed Auto mode is now available without CLAUDE_CODE_ENABLE_AUTO_MODE opt-in on Bedrock, Vertex AI, and Foundry; disable via disableAutoMode in settings Fixed the terminal freezing and keystrokes lagging while streaming responses containing very long lists, tables, paragraphs, or code blocks Fixed remote manag</summary>
-  </entry>
-  <entry>
-    <title>ASUS ZenScreen MB169CK USB-C and Mini-HDMI 15.6in Portable Monitor Review</title>
-    <link href="https://www.servethehome.com/asus-zenscreen-mb169ck-usb-c-and-mini-hdmi-15-6in-portable-monitor-review/"/>
-    <id>https://www.servethehome.com/asus-zenscreen-mb169ck-usb-c-and-mini-hdmi-15-6in-portable-monitor-review/</id>
-    <updated>2026-07-12T17:00:37.000Z</updated>
-    <author><name>ServeTheHome</name></author>
-    <category term="HARDWARE"/>
-    <summary>In our ASUS ZenScreen MB169CK review, we see how this portable 15.6&quot; monitor performs compared to its competition The post ASUS ZenScreen MB169CK USB-C and Mini-HDMI 15.6in Portable Monitor Review appeared first on ServeTheHome .</summary>
   </entry>
 </feed>
