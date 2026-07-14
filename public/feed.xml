@@ -5,16 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-07-14T18:12:14.100Z</updated>
-  <entry>
-    <title>Microsoft Entra ID gets passkeys default authentication starting September</title>
-    <link href="https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-id-gets-passkeys-default-authentication-starting-september/"/>
-    <id>https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-id-gets-passkeys-default-authentication-starting-september/</id>
-    <updated>2026-07-14T12:49:56.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>Microsoft has announced that passkeys will become the default authentication method for the Entra ID enterprise identity service starting September 2026. [...]</summary>
-  </entry>
+  <updated>2026-07-14T20:19:38.292Z</updated>
   <entry>
     <title>claude-code v2.1.209 released</title>
     <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.209"/>
@@ -23,6 +14,15 @@
     <author><name>anthropics/claude-code</name></author>
     <category term="MODEL RELEASES"/>
     <summary>What's changed Fixed /model and other dialogs being blocked in claude agents background sessions (reverts an overly broad guard)</summary>
+  </entry>
+  <entry>
+    <title>Xanadu and Lockheed Martin Integrate PennyLane into Quantum Training Program</title>
+    <link href="https://quantumcomputingreport.com/xanadu-and-lockheed-martin-integrate-pennylane-into-quantum-training-program/"/>
+    <id>https://quantumcomputingreport.com/xanadu-and-lockheed-martin-integrate-pennylane-into-quantum-training-program/</id>
+    <updated>2026-07-14T17:48:10.000Z</updated>
+    <author><name>Quantum Computing Report</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Photonic quantum computing company Xanadu (NASDAQ/TSX: XNDU) and Lockheed Martin (NYSE: LMT) have expanded their partnership to scale quantum training and workforce development. Under this strategic effort, Lockheed Martin will integrate Xanadu’s open-source quantum programming stack, PennyLane, into its internal Quant — Also covered by: The Quantum Insider</summary>
   </entry>
   <entry>
     <title>Now, defenders are embracing the prompt injection, too - Ars Technica</title>
@@ -43,22 +43,22 @@
     <summary>DeepSeek is already raising again. The Chinese AI lab just closed its first funding round and needs capital for its own data centers and chips to keep its aggressive pricing strategy going. The article DeepSeek needs more cash just weeks after closing its first $7 billion round appeared first on The Decoder .</summary>
   </entry>
   <entry>
-    <title>New York becomes first state to impose one-year pause on new AI datacenters</title>
-    <link href="https://www.theguardian.com/us-news/2026/jul/14/new-york-moratorium-ai-datacenters"/>
-    <id>https://www.theguardian.com/us-news/2026/jul/14/new-york-moratorium-ai-datacenters</id>
-    <updated>2026-07-14T17:23:51.000Z</updated>
-    <author><name>The Guardian AI</name></author>
+    <title>Overtone, a &quot;voice- and audio-forward&quot; dating service founded by Hinge creator Justin McLeod that uses AI to make &quot;highly curated introductions&quot;, raised $18M (Amanda Silberling/TechCrunch)</title>
+    <link href="https://www.techmeme.com/260714/p41#a260714p41"/>
+    <id>https://www.techmeme.com/260714/p41#a260714p41</id>
+    <updated>2026-07-14T20:00:50.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Governor Kathy Hochul issues executive order enacting a moratorium on the large, resource-intensive AI facilities New York became the first US state to enact a moratorium on new datacenters on Tuesday. Governor Kathy Hochul issued an executive order mandating a one-year statewide pause on the large facilities used to p</summary>
+    <summary>Amanda Silberling / TechCrunch : Overtone, a “voice- and audio-forward” dating service founded by Hinge creator Justin McLeod that uses AI to make “highly curated introductions”, raised $18M — Hinge founder Justin McLeod announced an $18 million fundraise for his new dating company, Overtone.</summary>
   </entry>
   <entry>
-    <title>llama.cpp b10003 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10003"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10003</id>
-    <updated>2026-07-14T17:44:20.000Z</updated>
+    <title>llama.cpp b10007 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10007"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10007</id>
+    <updated>2026-07-14T19:44:00.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>tokenize : align usage by using common args ( #25516 ) Migrate the tokenize tool to common_params_parse, replacing its hand-rolled argv parsing, Windows UTF-8 handling and file reading with the shared common helpers. Expose the model-sourcing flags (-m, -mu, -dr, -hf, -hff, --offline, HF_TOKEN) to LLAMA_EXAMPLE_TOKENIZ</summary>
+    <summary>opencl: fix a dp4a bug for devices where cl_khr_integer_dot_product is unavailable ( #25639 ) opencl: do not fail backend init on devices without cl_khr_integer_dot_product opencl: do not call dp4 kernels when dp is unavailable Co-authored-by: Li He lih@qti.qualcomm.com macOS/iOS: macOS Apple Silicon (arm64) macOS Appl</summary>
   </entry>
   <entry>
     <title>ollama v0.32.0 released</title>
@@ -88,31 +88,40 @@
     <summary>arXiv:2607.09880v1 Announce Type: new Abstract: Clinical time series are central to patient monitoring, risk assessment, and clinical decision support. However, they are often sparse, irregularly sampled, and asynchronous, making it difficult for models to identify the temporal evidence required for clinical Question A</summary>
   </entry>
   <entry>
-    <title>Reflection inks $1B compute deal with Nebius</title>
-    <link href="https://techcrunch.com/2026/07/14/reflection-inks-1b-compute-deal-with-nebius/"/>
-    <id>https://techcrunch.com/2026/07/14/reflection-inks-1b-compute-deal-with-nebius/</id>
-    <updated>2026-07-14T14:37:48.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Reflection AI has signed a $1 billion deal to access Nebius' compute. Reflection was founded in 2024 and is developing open source AI technology.</summary>
+    <title>PrismML launches Bonsai 27B, a model based on Qwen3.6 27B that it says runs natively on Apple devices via MLX; its CEO says Apple is evaluating the tech (MacKenzie Sigalos/CNBC)</title>
+    <link href="https://www.techmeme.com/260714/p39#a260714p39"/>
+    <id>https://www.techmeme.com/260714/p39#a260714p39</id>
+    <updated>2026-07-14T19:30:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="PRODUCTS"/>
+    <summary>MacKenzie Sigalos / CNBC : PrismML launches Bonsai 27B, a model based on Qwen3.6 27B that it says runs natively on Apple devices via MLX; its CEO says Apple is evaluating the tech — Apple is in talks with a small Silicon Valley company that says it can shrink powerful artificial intelligence models enough to run direct</summary>
   </entry>
   <entry>
-    <title>How Pentera Turns AI Security Workflows into Validation Engines</title>
-    <link href="https://thehackernews.com/2026/07/how-pentera-turns-ai-security-workflows.html"/>
-    <id>https://thehackernews.com/2026/07/how-pentera-turns-ai-security-workflows.html</id>
-    <updated>2026-07-14T11:30:00.000Z</updated>
-    <author><name>The Hacker News</name></author>
+    <title>New York becomes first state to impose one-year pause on new AI datacenters</title>
+    <link href="https://www.theguardian.com/us-news/2026/jul/14/new-york-moratorium-ai-datacenters"/>
+    <id>https://www.theguardian.com/us-news/2026/jul/14/new-york-moratorium-ai-datacenters</id>
+    <updated>2026-07-14T17:23:51.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>Governor Kathy Hochul issues executive order enacting a moratorium on the large, resource-intensive AI facilities New York became the first US state to enact a moratorium on new datacenters on Tuesday. Governor Kathy Hochul issued an executive order mandating a one-year statewide pause on the large facilities used to p</summary>
+  </entry>
+  <entry>
+    <title>Agentic Security Needs Its Own Framework: The Straiker STAR Framework | Straiker</title>
+    <link href="https://www.straiker.ai/blog/agentic-security-needs-its-own-framework-the-straiker-star-framework"/>
+    <id>https://www.straiker.ai/blog/agentic-security-needs-its-own-framework-the-straiker-star-framework</id>
+    <updated>2026-07-14T13:00:00.000Z</updated>
+    <author><name>Straiker STAR</name></author>
     <category term="AI SECURITY"/>
-    <summary>AI security agents are starting to influence real security decisions. They summarize findings, prioritize remediation, recommend next steps, and help teams move faster. But most still rely on fragmented risk signals: scanner output, severity scores, threat intelligence, configuration findings, and exposure data. That f</summary>
+    <summary>In agentic AI, the model behaves and the user is legitimate. The weapon is the context the agent reads. Here is why we built the Straiker STAR Framework to map the agentic attack surface, and how it supplements the NIST AI RMF and OWASP.</summary>
   </entry>
   <entry>
-    <title>You Don't Have to Run an Exploit to Know If You're Vulnerable</title>
-    <link href="https://www.bleepingcomputer.com/news/security/you-dont-have-to-run-an-exploit-to-know-if-youre-vulnerable/"/>
-    <id>https://www.bleepingcomputer.com/news/security/you-dont-have-to-run-an-exploit-to-know-if-youre-vulnerable/</id>
-    <updated>2026-07-14T14:00:10.000Z</updated>
+    <title>Microsoft releases Windows 10 KB5099539 extended security update</title>
+    <link href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5099539-extended-security-update/"/>
+    <id>https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5099539-extended-security-update/</id>
+    <updated>2026-07-14T18:49:28.000Z</updated>
     <author><name>BleepingComputer</name></author>
     <category term="CYBER THREATS"/>
-    <summary>Many vulnerabilities cannot be safely validated with live exploits, either because no exploit exists or the affected systems are too critical to test. Picus explains how TTP chaining helps organizations determine exploitability by validating the attack techniques an exploit depends on, without launching the exploit its</summary>
+    <summary>Microsoft has released the Windows 10 KB5099539 extended security update, which includes the July 2026 Patch Tuesday security updates for 570 vulnerabilities, along with additional security fixes. [...]</summary>
   </entry>
   <entry>
     <title>vllm v0.25.1 released</title>
@@ -124,13 +133,13 @@
     <summary>vLLM v0.25.1 Highlights This release features 2 commits from 2 contributors (1 new)! v0.25.1 is a patch release containing two targeted bug fixes on top of v0.25.0. Bug Fixes Avoid blocking model launching when no system FFmpeg is available for TorchCodec ( #47888 ). Previously import torchcodec raised a RuntimeError a</summary>
   </entry>
   <entry>
-    <title>Quoting Armin Ronacher</title>
-    <link href="https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything"/>
-    <id>https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything</id>
-    <updated>2026-07-14T18:04:23.000Z</updated>
+    <title>lobste.rs is now running on SQLite</title>
+    <link href="https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything"/>
+    <id>https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything</id>
+    <updated>2026-07-14T19:44:11.000Z</updated>
     <author><name>Simon Willison</name></author>
     <category term="ANALYSIS"/>
-    <summary>The shared language of a software project is not English or Python but it is the common understanding of what its concepts mean, where the boundaries are, which invariants matter, who owns what, and why the system has the shape it does. This language is rarely written down in one place. It lives partly in documentation</summary>
+    <summary>lobste.rs is now running on SQLite Community site Lobsters has been planning a migration away from MariaDB since August 2018 - originally targeting PostgreSQL, but last year they decided to investigate SQLite instead. This weekend they completed the migration, and now consider it stable enough that it looks like this i</summary>
   </entry>
   <entry>
     <title>D-topia review – cosy sci-fi mystery takes aim at AI</title>
@@ -142,58 +151,31 @@
     <summary>PC, PS5, Xbox Series X/S, Nintendo Switch, Nintendo Switch 2; Marimittu Games A soft puzzle game makes a sharp point about the over-optimised future ahead In the far future, on a planet that is not Earth, AI is in charge. This entity is no Skynet-esque killer robot but a machine that cares for humanity. Manifesting mos</summary>
   </entry>
   <entry>
-    <title>enQase Receives FIPS 140-3 Validation for Cryptographic Security Module</title>
-    <link href="https://thequantuminsider.com/2026/07/14/enqase-receives-fips-140-3-validation-for-cryptographic-module/"/>
-    <id>https://thequantuminsider.com/2026/07/14/enqase-receives-fips-140-3-validation-for-cryptographic-module/</id>
-    <updated>2026-07-14T17:02:00.000Z</updated>
-    <author><name>The Quantum Insider</name></author>
+    <title>NTHU and Top Taiwan Venture Capital Launch NT$1 Billion ($34M USD) “NTHU Future Fund” for Deep Tech Startups</title>
+    <link href="https://quantumcomputingreport.com/nthu-and-top-taiwan-venture-capital-launch-nt1-billion-31-1m-usd-nthu-future-fund-for-deep-tech-startups/"/>
+    <id>https://quantumcomputingreport.com/nthu-and-top-taiwan-venture-capital-launch-nt1-billion-31-1m-usd-nthu-future-fund-for-deep-tech-startups/</id>
+    <updated>2026-07-14T19:52:49.000Z</updated>
+    <author><name>Quantum Computing Report</name></author>
     <category term="QUANTUM"/>
-    <summary>Insider Brief Press release – enQase, a pioneer in quantum security and crypto-agility, today announced that the Cryptographic Module Validation Program (CMVP) has issued FIPS 140-3 Certificate #5346 for the enQase FIPS 140-3 Cryptographic Module. The certificate, issued under the Federal Information Processing Standar</summary>
+    <summary>National Tsing Hua University (NTHU) and Top Taiwan Venture Capital Co., Ltd. have officially launched the NTHU Future Fund. Announced during the 2026 Taiwan Venture Capital &amp; Private Equity Annual Conference in Hsinchu, the public-private partnership establishes a long-term capital vehicle specifically tailored to gui</summary>
   </entry>
   <entry>
-    <title>Anthropic opens Claude for Teachers with a promise not to train models on student data</title>
-    <link href="https://the-decoder.com/anthropic-opens-claude-for-teachers-with-a-promise-not-to-train-models-on-student-data/"/>
-    <id>https://the-decoder.com/anthropic-opens-claude-for-teachers-with-a-promise-not-to-train-models-on-student-data/</id>
-    <updated>2026-07-14T17:24:27.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Anthropic is rolling out Claude for Teachers, a free offering for verified K-12 educators at US schools. The article Anthropic opens Claude for Teachers with a promise not to train models on student data appeared first on The Decoder .</summary>
-  </entry>
-  <entry>
-    <title>Anthony Albanese promises fast-track approvals for datacentres to shore up AI investment</title>
-    <link href="https://www.theguardian.com/technology/2026/jul/14/anthony-albanese-promises-fast-track-approvals-for-datacentres-to-shore-up-ai-investment"/>
-    <id>https://www.theguardian.com/technology/2026/jul/14/anthony-albanese-promises-fast-track-approvals-for-datacentres-to-shore-up-ai-investment</id>
-    <updated>2026-07-14T12:30:25.000Z</updated>
-    <author><name>The Guardian AI</name></author>
+    <title>The founder of Hinge raised $18M to build a new AI dating service, Overtone</title>
+    <link href="https://techcrunch.com/2026/07/14/the-founder-of-hinge-raised-18m-to-build-a-new-ai-dating-service-overtone/"/>
+    <id>https://techcrunch.com/2026/07/14/the-founder-of-hinge-raised-18m-to-build-a-new-ai-dating-service-overtone/</id>
+    <updated>2026-07-14T19:39:39.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>PM to declare Australia the first country worldwide to bring economic, social, security and environmental issues from AI under single office in major speech Get our breaking news email , free app or daily news podcast Anthony Albanese says the federal government will introduce faster approval processes for AI projects,</summary>
+    <summary>Overtone describes itself as &quot;a voice- and audio-forward service, enabled by AI, that provides highly curated introductions.&quot;</summary>
   </entry>
   <entry>
-    <title>Google Images launches a Pinterest-like redesign with a browsable, dynamic gallery of images, and adds a way for users to create AI images in Search (Aisha Malik/TechCrunch)</title>
-    <link href="https://www.techmeme.com/260714/p35#a260714p35"/>
-    <id>https://www.techmeme.com/260714/p35#a260714p35</id>
-    <updated>2026-07-14T16:20:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Aisha Malik / TechCrunch : Google Images launches a Pinterest-like redesign with a browsable, dynamic gallery of images, and adds a way for users to create AI images in Search — Google Images, the tech giant's image search engine, is taking on Pinterest with its latest redesign that turns the site into a browsable …</summary>
-  </entry>
-  <entry>
-    <title>I gave my local LLM agent a face — an avatar frontend with an &quot;emotion-beat&quot; output contract (open-source)</title>
-    <link href="https://sh.itjust.works/post/63384479"/>
-    <id>https://sh.itjust.works/post/63384479</id>
-    <updated>2026-07-14T11:24:22.000Z</updated>
-    <author><name>Lemmy c/localllama</name></author>
+    <title>Was testing Qwen 3.6 local model and it had a crash out.</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1uwj0ix/was_testing_qwen_36_local_model_and_it_had_a/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1uwj0ix/was_testing_qwen_36_local_model_and_it_had_a/</id>
+    <updated>2026-07-14T19:40:10.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by catch88 to localllama -8 points | 9 comments I got tired of keeping a Telegram tab open all day just to talk to my local agent, so I built a monitor-resident avatar that fronts it instead — a video-call-style face that performs the replies instead of me reading a wall of text. A few things that might inter</summary>
-  </entry>
-  <entry>
-    <title>sglang v0.5.15 released</title>
-    <link href="https://github.com/sgl-project/sglang/releases/tag/v0.5.15.post1"/>
-    <id>https://github.com/sgl-project/sglang/releases/tag/v0.5.15.post1</id>
-    <updated>2026-07-14T08:43:33.000Z</updated>
-    <author><name>sgl-project/sglang</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>v0.5.15.post1 includes a few patches, mostly for GLM 5.2 #30454 #30627 : Fix DSA model launching on non Cuda/HIP devices #30858 : Fix flashinfer dependency on Cuda 12 images #31001 : Fix NaN outputs caused by flashinfer trtllm FP4 MoE kernels on long input #30839 : Fix GLM 5.2 IndexShare on PD disaggregation setting #3</summary>
+    <summary>I don't know what happened here. All I asked for was to remove/replace NaNs in a dataframe lol. submitted by /u/No-Understanding9654 [link] [comments]</summary>
   </entry>
   <entry>
     <title>How to Debug Coding Agents with LangSmith Traces</title>
@@ -214,6 +196,15 @@
     <summary>Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.</summary>
   </entry>
   <entry>
+    <title>IBM shares plunge 25% as customers shift spending to AI</title>
+    <link href="https://www.ft.com/content/da478c37-7a32-415d-9f30-3b2981149f95"/>
+    <id>https://www.ft.com/content/da478c37-7a32-415d-9f30-3b2981149f95</id>
+    <updated>2026-07-14T20:11:17.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Chief executive Arvind Krishna says company ‘faltered’ as clients raced to buy servers and storage</summary>
+  </entry>
+  <entry>
     <title>DeepSeek weighs new fundraising a month after closing first round</title>
     <link href="https://www.ft.com/content/6deb470e-d152-43a2-be0d-cc1fde4f3db8"/>
     <id>https://www.ft.com/content/6deb470e-d152-43a2-be0d-cc1fde4f3db8</id>
@@ -221,15 +212,6 @@
     <author><name>FT Artificial Intelligence</name></author>
     <category term="AI FINANCE"/>
     <summary>Unusually swift pace of capital injection comes as Chinese AI start-up seeks to build out infrastructure</summary>
-  </entry>
-  <entry>
-    <title>IBM loses quarter of its value as tech giant’s shares plunge and profits falter</title>
-    <link href="https://www.theguardian.com/technology/2026/jul/14/ibm-shares-profit-drop-value"/>
-    <id>https://www.theguardian.com/technology/2026/jul/14/ibm-shares-profit-drop-value</id>
-    <updated>2026-07-14T16:38:00.000Z</updated>
-    <author><name>The Guardian AI</name></author>
-    <category term="AI FINANCE"/>
-    <summary>IBM issued profit warning after weak second quarter, triggering selloff in software sector including Microsoft Shares in IBM plunged more than 25% on Tuesday after the US tech giant released disappointing preliminary second-quarter results. IBM’s stock was on track for an even steeper single-day decline than it suffere</summary>
   </entry>
   <entry>
     <title>Faithful by Design: Evaluating and Improving LLM-Generated Clinical Trial Summaries for Multi-Stakeholder Audiences</title>
@@ -250,13 +232,13 @@
     <summary>MIT students designed, built, and tested a jet engine with AI copilots, assessing AI’s usefulness in developing high-performance aerospace systems.</summary>
   </entry>
   <entry>
-    <title>Sources: data center operator Switch has hired investment banks for a US IPO that could raise up to $10B and value it at $80B, set for as soon as Q4 (Reuters)</title>
-    <link href="https://www.techmeme.com/260714/p31#a260714p31"/>
-    <id>https://www.techmeme.com/260714/p31#a260714p31</id>
-    <updated>2026-07-14T16:05:01.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Nemotron Labs: How Open Models Give Enterprises and Nations AI They Can Trust, Control and Customize</title>
+    <link href="https://blogs.nvidia.com/blog/nemotron-open-models-ai-trust-control-customize/"/>
+    <id>https://blogs.nvidia.com/blog/nemotron-open-models-ai-trust-control-customize/</id>
+    <updated>2026-07-14T16:45:13.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
     <category term="HARDWARE"/>
-    <summary>Reuters : Sources: data center operator Switch has hired investment banks for a US IPO that could raise up to $10B and value it at $80B, set for as soon as Q4 — Data center operator Switch is preparing for a significant initial public offering. This offering could potentially raise up to ten billion dollars soon.</summary>
+    <summary>Enterprises have plenty of powerful models to choose from. The real test is whether the AI an enterprise builds uniquely addresses the needs of the business: improving workflows, tapping into domain knowledge and exceeding standards for accuracy and trust.</summary>
   </entry>
   <entry>
     <title>datasette code-frequency chart on GitHub</title>
@@ -268,12 +250,30 @@
     <summary>datasette code-frequency chart on GitHub Out of curiosity I decided to see if I could find a useful illustration of the impact of coding agents and Opus 4.5 class models on my own output. The best I've found so far is this GitHub chart of frequency of code changes to my Datasette open source project: The big spike in a</summary>
   </entry>
   <entry>
-    <title>Meet Blume: An Open-Source, Zero-Config Documentation Framework That Ships AI-Ready Docs From a Markdown Folder</title>
-    <link href="https://www.marktechpost.com/2026/07/14/meet-blume-an-open-source-zero-config-documentation-framework-that-ships-ai-ready-docs-from-a-markdown-folder/"/>
-    <id>https://www.marktechpost.com/2026/07/14/meet-blume-an-open-source-zero-config-documentation-framework-that-ships-ai-ready-docs-from-a-markdown-folder/</id>
-    <updated>2026-07-14T08:15:29.000Z</updated>
-    <author><name>MarkTechPost</name></author>
+    <title>What building Shippy taught us about building agents</title>
+    <link href="https://allenai.org/blog/shippy-deep-dive"/>
+    <id>https://allenai.org/blog/shippy-deep-dive</id>
+    <updated>2026-07-13T08:00:00.000Z</updated>
+    <author><name>Ai2 (Allen Institute)</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>Developer Hayden Bleasel has released Blume, an open-source, MIT-licensed documentation framework. It reads a folder of Markdown or MDX and generates a hidden Astro project, shipping static, AI-ready docs with local search, 30+ MDX components, llms.txt, and a built-in MCP server. The post Meet Blume: An Open-Source, Ze</summary>
+    <summary>Building Shippy taught us that reliable agents depend less on the model itself than on deterministic tools, explicit guardrails, isolated infrastructure, and evaluations grounded in real-world workflows and live data.</summary>
+  </entry>
+  <entry>
+    <title>A data bottleneck could slow the superintelligence race</title>
+    <link href="https://www.transformernews.ai/p/data-bottleneck-could-slow-superintelligence-race-asi-recursive-self-improvement"/>
+    <id>https://www.transformernews.ai/p/data-bottleneck-could-slow-superintelligence-race-asi-recursive-self-improvement</id>
+    <updated>2026-07-14T15:30:34.000Z</updated>
+    <author><name>Transformer</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>And that could be a good thing</summary>
+  </entry>
+  <entry>
+    <title>Deepmind CEO Hassabis says &quot;nobody in the world knows what happens next&quot; so &quot;cautious optimism&quot; means building guardrails now</title>
+    <link href="https://the-decoder.com/deepmind-ceo-hassabis-says-nobody-in-the-world-knows-what-happens-next-so-cautious-optimism-means-building-guardrails-now/"/>
+    <id>https://the-decoder.com/deepmind-ceo-hassabis-says-nobody-in-the-world-knows-what-happens-next-so-cautious-optimism-means-building-guardrails-now/</id>
+    <updated>2026-07-14T11:49:03.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>Google Deepmind CEO Demis Hassabis has published a sweeping proposal for how to handle advanced AI. He wants a new US standards body modeled after financial regulator FINRA that would develop evaluation protocols for frontier models and could coordinate a slowdown in AI development if needed. Startups and research mode</summary>
   </entry>
 </feed>
