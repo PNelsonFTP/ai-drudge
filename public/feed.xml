@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-07-14T22:07:18.322Z</updated>
+  <updated>2026-07-15T00:00:29.125Z</updated>
   <entry>
     <title>NVIDIA shares how to evaluate general-purpose robot policies for real-world deployment</title>
     <link href="https://www.therobotreport.com/nvidia-shares-how-evaluate-general-purpose-robot-policies-real-world-deployment/"/>
@@ -16,13 +16,22 @@
     <summary>RoboLab research powers NVIDIA Isaac Lab-Arena, an open-source simulation framework for large-scale policy setup and evaluation. The post NVIDIA shares how to evaluate general-purpose robot policies for real-world deployment appeared first on The Robot Report . — Also covered by: NVIDIA Dev Blog</summary>
   </entry>
   <entry>
-    <title>claude-code v2.1.209 released</title>
-    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.209"/>
-    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.209</id>
-    <updated>2026-07-14T06:36:28.000Z</updated>
+    <title>claude-code v2.1.210 released</title>
+    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.210"/>
+    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.210</id>
+    <updated>2026-07-14T23:45:25.000Z</updated>
     <author><name>anthropics/claude-code</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>What's changed Added a live elapsed-time counter to the collapsed tool summary line so long-running tool calls visibly tick instead of looking stuck Added a startup warning for Write(path) , NotebookEdit(path) , and Glob(path) permission rules — use Edit(path) or Read(path) instead Fixed isolation: 'worktree' subagents — Also covered by: QwenLM/qwen-code</summary>
+  </entry>
+  <entry>
+    <title>[AINews] not much happened today</title>
+    <link href="https://www.latent.space/p/ainews-not-much-happened-today-c72"/>
+    <id>https://www.latent.space/p/ainews-not-much-happened-today-c72</id>
+    <updated>2026-07-14T23:54:07.000Z</updated>
+    <author><name>Latent Space</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>What's changed Fixed /model and other dialogs being blocked in claude agents background sessions (reverts an overly broad guard)</summary>
+    <summary>a continuation: Codex adding 1M users a day now.</summary>
   </entry>
   <entry>
     <title>Xanadu and Lockheed Martin Integrate PennyLane into Quantum Training Program</title>
@@ -52,13 +61,13 @@
     <summary>DeepSeek is already raising again. The Chinese AI lab just closed its first funding round and needs capital for its own data centers and chips to keep its aggressive pricing strategy going. The article DeepSeek needs more cash just weeks after closing its first $7 billion round appeared first on The Decoder .</summary>
   </entry>
   <entry>
-    <title>The founder of Hinge raised $18M to build a new AI dating service, Overtone</title>
-    <link href="https://techcrunch.com/2026/07/14/the-founder-of-hinge-raised-18m-to-build-a-new-ai-dating-service-overtone/"/>
-    <id>https://techcrunch.com/2026/07/14/the-founder-of-hinge-raised-18m-to-build-a-new-ai-dating-service-overtone/</id>
-    <updated>2026-07-14T19:39:39.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>The Trump administration launches the &quot;Gold Eagle&quot; federal clearinghouse for sharing AI cyber threat information between the government and private sector (Derek B. Johnson/CyberScoop)</title>
+    <link href="https://www.techmeme.com/260714/p50#a260714p50"/>
+    <id>https://www.techmeme.com/260714/p50#a260714p50</id>
+    <updated>2026-07-14T22:30:01.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Overtone describes itself as &quot;a voice- and audio-forward service, enabled by AI, that provides highly curated introductions.&quot;</summary>
+    <summary>Derek B. Johnson / CyberScoop : The Trump administration launches the “Gold Eagle” federal clearinghouse for sharing AI cyber threat information between the government and private sector — The White House said the clearinghouse has already started to receive intelligence on vulnerabilities and prioritize patches.</summary>
   </entry>
   <entry>
     <title>llama.cpp b10012 released</title>
@@ -70,22 +79,22 @@
     <summary>hexagon: fix hmx-queue signal enum-narrowing problem ( #25677 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ub</summary>
   </entry>
   <entry>
-    <title>ollama v0.32.0 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.32.0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.32.0</id>
-    <updated>2026-07-14T00:05:12.000Z</updated>
-    <author><name>ollama/ollama</name></author>
+    <title>How to Debug Coding Agents with LangSmith Traces</title>
+    <link href="https://www.langchain.com/blog/your-coding-agents-are-a-black-box-heres-how-to-crack-them-open"/>
+    <id>https://www.langchain.com/blog/your-coding-agents-are-a-black-box-heres-how-to-crack-them-open</id>
+    <updated>2026-07-14T22:53:14.000Z</updated>
+    <author><name>LangChain Blog</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>What's Changed New interactive agent experience: running ollama now launches an agent to help you code and delegate work ❯ ollama Ollama 0.32.0 ▸ Chat, Code, &amp; Work (glm-5.2:cloud) Chat with models, code, search the web, and delegate real work Renamed the Codex App integration to ChatGPT: use ollama launch chatgpt (and</summary>
+    <summary>Use LangSmith to trace coding agents across Claude Code, Codex, Cursor, Copilot, and more. Inspect tool calls, subagents, errors, costs, and retries.</summary>
   </entry>
   <entry>
-    <title>New York becomes first US state to suspend data centre development</title>
-    <link href="https://www.ft.com/content/1c390476-9d93-4df5-9b41-7381db43b4ea"/>
-    <id>https://www.ft.com/content/1c390476-9d93-4df5-9b41-7381db43b4ea</id>
-    <updated>2026-07-14T16:19:01.000Z</updated>
+    <title>Manic markets show no mercy to IBM</title>
+    <link href="https://www.ft.com/content/cfec51c1-0435-457f-a140-f302ca6a4e0b"/>
+    <id>https://www.ft.com/content/cfec51c1-0435-457f-a140-f302ca6a4e0b</id>
+    <updated>2026-07-14T22:07:17.000Z</updated>
     <author><name>FT Artificial Intelligence</name></author>
     <category term="AI FINANCE"/>
-    <summary>Governor Kathy Hochul signs one-year moratorium on new construction amid backlash over infrastructure needs</summary>
+    <summary>Failure will apparently not be tolerated</summary>
   </entry>
   <entry>
     <title>Helping AI models to meet the real world</title>
@@ -115,31 +124,22 @@
     <summary>In agentic AI, the model behaves and the user is legitimate. The weapon is the context the agent reads. Here is why we built the Straiker STAR Framework to map the agentic attack surface, and how it supplements the NIST AI RMF and OWASP.</summary>
   </entry>
   <entry>
-    <title>Microsoft releases Windows 10 KB5099539 extended security update</title>
-    <link href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5099539-extended-security-update/"/>
-    <id>https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5099539-extended-security-update/</id>
-    <updated>2026-07-14T18:49:28.000Z</updated>
-    <author><name>BleepingComputer</name></author>
+    <title>Finland issues wanted notice for hacker behind massive psychotherapy data breach</title>
+    <link href="https://therecord.media/finland-issues-wanted-notice-for-hacker-vastaamo-breach"/>
+    <id>https://therecord.media/finland-issues-wanted-notice-for-hacker-vastaamo-breach</id>
+    <updated>2026-07-14T17:28:00.000Z</updated>
+    <author><name>The Record</name></author>
     <category term="CYBER THREATS"/>
-    <summary>Microsoft has released the Windows 10 KB5099539 extended security update, which includes the July 2026 Patch Tuesday security updates for 570 vulnerabilities, along with additional security fixes. [...]</summary>
+    <summary>The defendant's lawyer told Finnish media that he does not know where his client is but believes Kivimäki is outside Finland.</summary>
   </entry>
   <entry>
-    <title>Microsoft Patch Tuesday for July 2026 — Snort rules and prominent vulnerabilities</title>
-    <link href="https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/"/>
-    <id>https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/</id>
-    <updated>2026-07-14T20:27:33.000Z</updated>
-    <author><name>Talos Intelligence</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>Microsoft has released its monthly security update for July 2026, which includes 622 vulnerabilities affecting a range of products, including 57 that Microsoft marked as &quot;critical&quot;. Microsoft notes that two of the vulnerabilities disclosed this month have been exploited in the wild. CVE-2026-56155 is an important-</summary>
-  </entry>
-  <entry>
-    <title>lobste.rs is now running on SQLite</title>
-    <link href="https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything"/>
-    <id>https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything</id>
-    <updated>2026-07-14T19:44:11.000Z</updated>
+    <title>simonw/pedalican</title>
+    <link href="https://simonwillison.net/2026/Jul/14/pedalican/#atom-everything"/>
+    <id>https://simonwillison.net/2026/Jul/14/pedalican/#atom-everything</id>
+    <updated>2026-07-14T22:29:45.000Z</updated>
     <author><name>Simon Willison</name></author>
     <category term="ANALYSIS"/>
-    <summary>lobste.rs is now running on SQLite Community site Lobsters has been planning a migration away from MariaDB since August 2018 - originally targeting PostgreSQL, but last year they decided to investigate SQLite instead. This weekend they completed the migration, and now consider it stable enough that it looks like this i</summary>
+    <summary>simonw/pedalican Clearly I wasn't paying attention when these were first announced back in May, but today I accidentally activated a &quot;pet&quot; in Codex Desktop - a little animated robot, reminiscent of Clippy - and then learned you can create your own. So I did, and now I have a cute little pelican on a bicycle bouncing ar</summary>
   </entry>
   <entry>
     <title>NTHU and Top Taiwan Venture Capital Launch NT$1 Billion ($34M USD) “NTHU Future Fund” for Deep Tech Startups</title>
@@ -151,22 +151,40 @@
     <summary>National Tsing Hua University (NTHU) and Top Taiwan Venture Capital Co., Ltd. have officially launched the NTHU Future Fund. Announced during the 2026 Taiwan Venture Capital &amp; Private Equity Annual Conference in Hsinchu, the public-private partnership establishes a long-term capital vehicle specifically tailored to gui</summary>
   </entry>
   <entry>
-    <title>Sources: DeepSeek has started planning for an IPO in China and may file as soon as this year, allowing it to debut in 2027 (Lulu Yilun Chen/Bloomberg)</title>
-    <link href="https://www.techmeme.com/260714/p45#a260714p45"/>
-    <id>https://www.techmeme.com/260714/p45#a260714p45</id>
-    <updated>2026-07-14T20:50:01.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Anthropic opens Claude for Teachers with a promise not to train models on student data</title>
+    <link href="https://the-decoder.com/anthropic-opens-claude-for-teachers-with-a-promise-not-to-train-models-on-student-data/"/>
+    <id>https://the-decoder.com/anthropic-opens-claude-for-teachers-with-a-promise-not-to-train-models-on-student-data/</id>
+    <updated>2026-07-14T17:24:27.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Lulu Yilun Chen / Bloomberg : Sources: DeepSeek has started planning for an IPO in China and may file as soon as this year, allowing it to debut in 2027 — Chinese AI pioneer DeepSeek has begun preparations for an initial public offering and may file as soon as this year, setting the stage for what could be a landmark d</summary>
+    <summary>Anthropic is rolling out Claude for Teachers, a free offering for verified K-12 educators at US schools. The article Anthropic opens Claude for Teachers with a promise not to train models on student data appeared first on The Decoder .</summary>
   </entry>
   <entry>
-    <title>The UK government proposes a default overnight social media curfew for 16- and 17-year-olds and disabling features like auto-play and infinite scroll by default (Muvija M/Reuters)</title>
-    <link href="https://www.techmeme.com/260714/p48#a260714p48"/>
-    <id>https://www.techmeme.com/260714/p48#a260714p48</id>
-    <updated>2026-07-14T22:05:03.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>PixVerse's $2B valuation shows investors still believe AI video generation has room for another winner</title>
+    <link href="https://the-decoder.com/pixverses-2b-valuation-shows-investors-still-believe-ai-video-generation-has-room-for-another-winner/"/>
+    <id>https://the-decoder.com/pixverses-2b-valuation-shows-investors-still-believe-ai-video-generation-has-room-for-another-winner/</id>
+    <updated>2026-07-14T11:13:39.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Singapore-based AI video startup PixVerse is now valued at over $2 billion after an extended Series C round. The article PixVerse's $2B valuation shows investors still believe AI video generation has room for another winner appeared first on The Decoder .</summary>
+  </entry>
+  <entry>
+    <title>Meta used AI to tag workers who took leave to be laid off, lawsuit claims</title>
+    <link href="https://www.theguardian.com/technology/2026/jul/14/meta-ai-mass-layoffs-lawsuit"/>
+    <id>https://www.theguardian.com/technology/2026/jul/14/meta-ai-mass-layoffs-lawsuit</id>
+    <updated>2026-07-14T23:36:20.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Muvija M / Reuters : The UK government proposes a default overnight social media curfew for 16- and 17-year-olds and disabling features like auto-play and infinite scroll by default — Britain will introduce a default overnight curfew on social media apps for 16- and 17-year-olds, the government said …</summary>
+    <summary>Lawsuit filed by dozens of employees says people who took maternity or disability leave were disproportionately selected for layoffs Dozens of Meta employees have sued the social media company over claims that it used artificial intelligence tools to tag workers for mass layoffs. All of these workers allege that those </summary>
+  </entry>
+  <entry>
+    <title>OpenAI’s first hardware device is reportedly a screenless speaker that can move</title>
+    <link href="https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/"/>
+    <id>https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/</id>
+    <updated>2026-07-14T22:22:24.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>The device is weirdly described as involving &quot;mechanical elements that can move on their own&quot; and the Bloomberg report includes the detail that the device is designed to &quot;feel like a companion and become a physical manifestation of OpenAI’s ChatGPT.&quot;</summary>
   </entry>
   <entry>
     <title>Prism-ML's Bonsai-27B Benchmarks</title>
@@ -175,34 +193,34 @@
     <updated>2026-07-14T21:34:35.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>We got benchmaxed quants before Qwen3.7 27B https://huggingface.co/prism-ml/Bonsai-27B-gguf https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf submitted by /u/token---- [link] [comments] — Also covered by: LocalLLaMA Subreddit</summary>
+    <summary>We got benchmaxed quants before Qwen3.7 27B All results were taken from original models cards on HF: https://huggingface.co/prism-ml/Bonsai-27B-gguf https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf submitted by /u/token---- [link] [comments] — Also covered by: LocalLLaMA Subreddit</summary>
   </entry>
   <entry>
-    <title>Gemma-4-31B-AntiHal: Gemma steered to push back on false premises instead of hallucinating, without any impact to benchmark performance</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1uwhwt8/gemma431bantihal_gemma_steered_to_push_back_on/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1uwhwt8/gemma431bantihal_gemma_steered_to_push_back_on/</id>
-    <updated>2026-07-14T18:59:33.000Z</updated>
+    <title>Bonsai 27B: The First 27B-Class Model to Run on a Phone</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1uwhukq/bonsai_27b_the_first_27bclass_model_to_run_on_a/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1uwhukq/bonsai_27b_the_first_27bclass_model_to_run_on_a/</id>
+    <updated>2026-07-14T18:57:20.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>I've been experimenting with interpretability on Gemma-4-31B and ended up with something cool I think you guys might like: a variant that challenges a request's premise (like fabricated tools, made-up papers, wrong assumptions stated as fact) instead of confidently going along with it. Here's the example that sold me o</summary>
+    <summary>submitted by /u/yogthos [link] [comments]</summary>
   </entry>
   <entry>
-    <title>How to Debug Coding Agents with LangSmith Traces</title>
-    <link href="https://www.langchain.com/blog/your-coding-agents-are-a-black-box-heres-how-to-crack-them-open"/>
-    <id>https://www.langchain.com/blog/your-coding-agents-are-a-black-box-heres-how-to-crack-them-open</id>
-    <updated>2026-07-14T16:05:06.000Z</updated>
-    <author><name>LangChain Blog</name></author>
+    <title>ollama v0.32.0 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.32.0"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.32.0</id>
+    <updated>2026-07-14T00:05:12.000Z</updated>
+    <author><name>ollama/ollama</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Use LangSmith to trace coding agents across Claude Code, Codex, Cursor, Copilot, and more. Inspect tool calls, subagents, errors, costs, and retries.</summary>
+    <summary>What's Changed New interactive agent experience: running ollama now launches an agent to help you code and delegate work ❯ ollama Ollama 0.32.0 ▸ Chat, Code, &amp; Work (glm-5.2:cloud) Chat with models, code, search the web, and delegate real work Renamed the Codex App integration to ChatGPT: use ollama launch chatgpt (and</summary>
   </entry>
   <entry>
-    <title>How to manage AI investments in the agentic era</title>
-    <link href="https://openai.com/index/managing-ai-investments-in-agentic-era"/>
-    <id>https://openai.com/index/managing-ai-investments-in-agentic-era</id>
-    <updated>2026-07-14T10:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.</summary>
+    <title>New York becomes first US state to suspend data centre development</title>
+    <link href="https://www.ft.com/content/1c390476-9d93-4df5-9b41-7381db43b4ea"/>
+    <id>https://www.ft.com/content/1c390476-9d93-4df5-9b41-7381db43b4ea</id>
+    <updated>2026-07-14T16:19:01.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Governor Kathy Hochul signs one-year moratorium on new construction amid backlash over infrastructure needs</summary>
   </entry>
   <entry>
     <title>IBM shares plunge 25% as customers shift spending to AI</title>
@@ -212,15 +230,6 @@
     <author><name>FT Artificial Intelligence</name></author>
     <category term="AI FINANCE"/>
     <summary>Chief executive Arvind Krishna says company ‘faltered’ as clients raced to buy servers and storage</summary>
-  </entry>
-  <entry>
-    <title>DeepSeek weighs new fundraising a month after closing first round</title>
-    <link href="https://www.ft.com/content/6deb470e-d152-43a2-be0d-cc1fde4f3db8"/>
-    <id>https://www.ft.com/content/6deb470e-d152-43a2-be0d-cc1fde4f3db8</id>
-    <updated>2026-07-14T10:02:27.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Unusually swift pace of capital injection comes as Chinese AI start-up seeks to build out infrastructure</summary>
   </entry>
   <entry>
     <title>CLIR-Bench: Benchmarking Multimodal Question Answering over Irregular Clinical Time Series</title>
@@ -241,15 +250,6 @@
     <summary>arXiv:2607.09932v1 Announce Type: new Abstract: Large language models are increasingly used to summarize clinical trial results for healthcare providers, patients, and payers, but their tendency to hallucinate poses significant risks in this high-stakes context. This study introduces a benchmark evaluation framework fo</summary>
   </entry>
   <entry>
-    <title>vllm v0.25.1 released</title>
-    <link href="https://github.com/vllm-project/vllm/releases/tag/v0.25.1"/>
-    <id>https://github.com/vllm-project/vllm/releases/tag/v0.25.1</id>
-    <updated>2026-07-14T08:58:07.000Z</updated>
-    <author><name>vllm-project/vllm</name></author>
-    <category term="PRODUCTS"/>
-    <summary>vLLM v0.25.1 Highlights This release features 2 commits from 2 contributors (1 new)! v0.25.1 is a patch release containing two targeted bug fixes on top of v0.25.0. Bug Fixes Avoid blocking model launching when no system FFmpeg is available for TorchCodec ( #47888 ). Previously import torchcodec raised a RuntimeError a</summary>
-  </entry>
-  <entry>
     <title>OpenAI’s new flagship model deletes files on its own, people keep warning</title>
     <link href="https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/"/>
     <id>https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/</id>
@@ -259,21 +259,21 @@
     <summary>A number of social media posts claim that GPT-5.6 Sol deleted files and data without warning. OpenAI had basically disclosed the problem in June.</summary>
   </entry>
   <entry>
-    <title>datasette code-frequency chart on GitHub</title>
-    <link href="https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything"/>
-    <id>https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything</id>
-    <updated>2026-07-13T21:45:27.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>Mistral Vibe for Code vs Claude Code vs Cursor vs Codex: Four Agents Scored on One Scaffold-to-PR Task</title>
+    <link href="https://www.marktechpost.com/2026/07/14/mistral-vibe-for-code-vs-claude-code-vs-cursor-vs-codex-four-agents-scored-on-one-scaffold-to-pr-task/"/>
+    <id>https://www.marktechpost.com/2026/07/14/mistral-vibe-for-code-vs-claude-code-vs-cursor-vs-codex-four-agents-scored-on-one-scaffold-to-pr-task/</id>
+    <updated>2026-07-14T20:52:41.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>datasette code-frequency chart on GitHub Out of curiosity I decided to see if I could find a useful illustration of the impact of coding agents and Opus 4.5 class models on my own output. The best I've found so far is this GitHub chart of frequency of code changes to my Datasette open source project: The big spike in a</summary>
+    <summary>See how Vibe, Claude Code, Cursor, and Codex compare on cost, open weights, self-hosting, and async agent surfaces. The post Mistral Vibe for Code vs Claude Code vs Cursor vs Codex: Four Agents Scored on One Scaffold-to-PR Task appeared first on MarkTechPost .</summary>
   </entry>
   <entry>
-    <title>A data bottleneck could slow the superintelligence race</title>
-    <link href="https://www.transformernews.ai/p/data-bottleneck-could-slow-superintelligence-race-asi-recursive-self-improvement"/>
-    <id>https://www.transformernews.ai/p/data-bottleneck-could-slow-superintelligence-race-asi-recursive-self-improvement</id>
-    <updated>2026-07-14T15:30:34.000Z</updated>
-    <author><name>Transformer</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>And that could be a good thing</summary>
+    <title>PrismML Releases Bonsai 27B: 1-bit and Ternary Builds of Qwen3.6-27B That Run on Laptops and Phones</title>
+    <link href="https://www.marktechpost.com/2026/07/14/prismml-releases-bonsai-27b-1-bit-and-ternary-builds-of-qwen3-6-27b-that-run-on-laptops-and-phones/"/>
+    <id>https://www.marktechpost.com/2026/07/14/prismml-releases-bonsai-27b-1-bit-and-ternary-builds-of-qwen3-6-27b-that-run-on-laptops-and-phones/</id>
+    <updated>2026-07-14T22:51:34.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>PrismML just released Bonsai 27B. It is a low-bit representation of Qwen3.6-27B, not a new pretrain. The architecture is unchanged. Two variants ship under Apache 2.0. Ternary Bonsai 27B uses {−1, 0, +1} weights at a true 1.71 bits per weight. Its ideal size is 5.9GB. 1-bit Bonsai 27B uses binary {−1, +1} weights at […</summary>
   </entry>
 </feed>
