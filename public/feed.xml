@@ -5,16 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-07-16T11:48:27.747Z</updated>
-  <entry>
-    <title>OpenAI’s GPT-Red Automates Prompt Injection Testing to Harden GPT-5.6 Sol</title>
-    <link href="https://thehackernews.com/2026/07/openais-gpt-red-automates-prompt.html"/>
-    <id>https://thehackernews.com/2026/07/openais-gpt-red-automates-prompt.html</id>
-    <updated>2026-07-16T08:42:31.000Z</updated>
-    <author><name>The Hacker News</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>OpenAI has disclosed details of GPT-Red, an internal automated red-teaming model that scales prompt injection vulnerability discovery with an aim to fix issues before the tools are deployed widely. &quot;GPT‑Red is a strong red-teamer, and our previous models are highly vulnerable to its prompt injection attacks,&quot; the artif</summary>
-  </entry>
+  <updated>2026-07-16T14:14:22.269Z</updated>
   <entry>
     <title>Thinking Machines Lab Drops Its First Model</title>
     <link href="https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/"/>
@@ -34,40 +25,49 @@
     <summary>**Thinking Machines Lab** launched **Inkling**, its first fully released open-weights foundation model family, featuring **975B parameters** with **41B active parameters** in a **Mixture-of-Experts** architecture. Inkling supports **multimodality** with text, image, and audio inputs and text output, is **Apache 2.0 lic</summary>
   </entry>
   <entry>
+    <title>Sakana AI's orchestrator adds Nvidia Nemotron to prove &quot;collective intelligence&quot; can rival single frontier models</title>
+    <link href="https://the-decoder.com/sakana-ais-fugu-adds-nvidia-nemotron-to-prove-collective-intelligence-can-rival-single-frontier-models/"/>
+    <id>https://the-decoder.com/sakana-ais-fugu-adds-nvidia-nemotron-to-prove-collective-intelligence-can-rival-single-frontier-models/</id>
+    <updated>2026-07-16T14:02:13.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Sakana AI is integrating Nvidia's open-source Nemotron models into its Fugu orchestrator, which dynamically combines multiple language models for specific tasks. The core argument: Open models only become competitive with Frontier systems when used in a coordinated manner. However, the announcement does not yet provide</summary>
+  </entry>
+  <entry>
+    <title>Sources: Moonshot plans to launch Kimi K3, China's largest model to date with 2T-3T parameters, in the coming days; it's expected to outperform Claude Opus 4.8 (Financial Times)</title>
+    <link href="https://www.techmeme.com/260716/p33#a260716p33"/>
+    <id>https://www.techmeme.com/260716/p33#a260716p33</id>
+    <updated>2026-07-16T13:45:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Financial Times : Sources: Moonshot plans to launch Kimi K3, China's largest model to date with 2T-3T parameters, in the coming days; it's expected to outperform Claude Opus 4.8 — Kimi K3 expected to exceed performance of Claude Opus 4.8 in sign of narrowing gap between US and China on frontier AI</summary>
+  </entry>
+  <entry>
+    <title>llama.cpp b10043 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10043"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10043</id>
+    <updated>2026-07-16T14:04:11.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>CUDA: Support CUDA Virtual Devices ( #25228 ) support cuda virtual devices disable NCCL path when virtual devices are used label virtual devices in description; add GPUx2 server CI jobs code refactor Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED</summary>
+  </entry>
+  <entry>
     <title>ollama v0.32.1 released</title>
     <link href="https://github.com/ollama/ollama/releases/tag/v0.32.1"/>
     <id>https://github.com/ollama/ollama/releases/tag/v0.32.1</id>
     <updated>2026-07-16T05:53:59.000Z</updated>
     <author><name>ollama/ollama</name></author>
-    <category term="MODEL RELEASES"/>
+    <category term="AGENTS &amp; TOOLS"/>
     <summary>What's Changed Improved Gemma 4 tool calling and multi-turn reasoning, including more reliable tool-response continuations Fixed a recurrent MLX model cache leak that could increase memory use across requests, and improved cache snapshot performance MLX text model loading now respects OLLAMA_LOAD_TIMEOUT Agent web sear</summary>
   </entry>
   <entry>
-    <title>Vital Signals launches the $399 Signal Ring, which provides systolic and diastolic blood pressure readings without the need for the traditional arm cuff (Chris Welch/Bloomberg)</title>
-    <link href="https://www.techmeme.com/260716/p16#a260716p16"/>
-    <id>https://www.techmeme.com/260716/p16#a260716p16</id>
-    <updated>2026-07-16T11:25:08.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Chris Welch / Bloomberg : Vital Signals launches the $399 Signal Ring, which provides systolic and diastolic blood pressure readings without the need for the traditional arm cuff — A three-year-old startup says it has produced a smart ring that can track blood pressure as accurately as a traditional arm cuff and that …</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp b10042 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10042"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10042</id>
-    <updated>2026-07-16T11:24:52.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Enable CUDA graphs on volta+turing ( #25749 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROC</summary>
-  </entry>
-  <entry>
-    <title>Chinese AI start-up Moonshot to launch model challenging Anthropic’s lead</title>
-    <link href="https://www.ft.com/content/c6ecd8ce-c441-4d7c-aea6-fae3e28fb6ff"/>
-    <id>https://www.ft.com/content/c6ecd8ce-c441-4d7c-aea6-fae3e28fb6ff</id>
-    <updated>2026-07-16T09:51:11.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
+    <title>Why IPOs of Tiny Foreign Companies Have Vanished in US</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-16/why-ipos-of-tiny-foreign-companies-have-vanished-in-us"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-16/why-ipos-of-tiny-foreign-companies-have-vanished-in-us</id>
+    <updated>2026-07-16T13:22:06.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Kimi K3 expected to exceed performance of Claude Opus 4.8 in sign of narrowing gap between US and China on frontier AI</summary>
+    <summary>Added scrutiny on foreign microcaps puts a damper on public debuts</summary>
   </entry>
   <entry>
     <title>transformers v5.14.1 released</title>
@@ -79,31 +79,40 @@
     <summary>Patch release v5.14.1 This patch solves a few issues which appeared when integrating Inkling model, most notably an issue affecting models using EncoderDecoderCache during assisted generation. It also fixes an issue that could appear during prefill with StaticCache and sdpa without padding for Inkling which uses a posi</summary>
   </entry>
   <entry>
-    <title>OpenAI's first hardware device is an RGB macropod — 'Codex Micro' features 13 low-profile keys and a joystick for controlling AI coding agents</title>
-    <link href="https://www.tomshardware.com/peripherals/keyboards/openais-first-hardware-device-is-an-rgb-macropod-codex-micro-features-13-low-profile-keys-and-a-joystick-for-controlling-ai-coding-agents"/>
-    <id>https://www.tomshardware.com/peripherals/keyboards/openais-first-hardware-device-is-an-rgb-macropod-codex-micro-features-13-low-profile-keys-and-a-joystick-for-controlling-ai-coding-agents</id>
-    <updated>2026-07-16T11:00:00.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
-    <category term="HARDWARE"/>
-    <summary>OpenAI has launched the &quot;Codex Micro&quot; marcopad in collaboration with Work Louder. It uses RGB to provide feedback about your coding agents in Codex, and features various customizable inputs to maximize your vibecoding potential.</summary>
-  </entry>
-  <entry>
-    <title>xAI open-sources &quot;Grok-Build&quot; on GitHub after massive data breach</title>
-    <link href="https://the-decoder.com/xai-open-sources-grok-build-on-github-after-massive-data-breach/"/>
-    <id>https://the-decoder.com/xai-open-sources-grok-build-on-github-after-massive-data-breach/</id>
-    <updated>2026-07-16T07:56:21.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>xAI's command-line tool &quot;Grok Build&quot; silently uploaded entire directories to Google Cloud servers, including SSH keys and password databases. After the backlash, Elon Musk promised to delete all uploaded user data, and xAI open-sourced the full 844,530-line Rust codebase under the Apache 2.0 license. The article xAI op</summary>
-  </entry>
-  <entry>
-    <title>Filings: Dario Amodei gave $1M in May to Public First, a super PAC advocating for AI safety regulations, seemingly his first seven-figure political donation (Brendan Bordelon/Politico)</title>
-    <link href="https://www.techmeme.com/260716/p15#a260716p15"/>
-    <id>https://www.techmeme.com/260716/p15#a260716p15</id>
-    <updated>2026-07-16T11:20:02.000Z</updated>
+    <title>1Password launches a new Claude integration for Mac that lets Anthropic's AI agent sign in to websites without seeing the user's password or 2FA code (Zac Hall/9to5Mac)</title>
+    <link href="https://www.techmeme.com/260716/p29#a260716p29"/>
+    <id>https://www.techmeme.com/260716/p29#a260716p29</id>
+    <updated>2026-07-16T13:20:03.000Z</updated>
     <author><name>Techmeme</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>Brendan Bordelon / Politico : Filings: Dario Amodei gave $1M in May to Public First, a super PAC advocating for AI safety regulations, seemingly his first seven-figure political donation — Anthropic CEO Dario Amodei gave $1 million in May to Public First, a super PAC that supports candidates who share the company's goa</summary>
+    <category term="PRODUCTS"/>
+    <summary>Zac Hall / 9to5Mac : 1Password launches a new Claude integration for Mac that lets Anthropic's AI agent sign in to websites without seeing the user's password or 2FA code — 1Password is launching a new Claude integration for Mac users today. It's designed to let Anthropic's AI agent sign in to websites without seeing …</summary>
+  </entry>
+  <entry>
+    <title>Fireworks, which helps developers access AI chips and open-source models, raised $1.5B at a $17.5B valuation and says it has exceeded $1B in annualized revenue (Jordan Novet/CNBC)</title>
+    <link href="https://www.techmeme.com/260716/p28#a260716p28"/>
+    <id>https://www.techmeme.com/260716/p28#a260716p28</id>
+    <updated>2026-07-16T13:15:06.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Jordan Novet / CNBC : Fireworks, which helps developers access AI chips and open-source models, raised $1.5B at a $17.5B valuation and says it has exceeded $1B in annualized revenue — The cost of the latest artificial intelligence models is increasingly breeding anxiety among finance executives …</summary>
+  </entry>
+  <entry>
+    <title>OpenAI's GPT-Red System Outperforms Human Hackers 84% to 13%, Hardens GPT-5.6 Against Prompt Injection - MLQ.ai</title>
+    <link href="https://news.google.com/rss/articles/CBMiugFBVV95cUxNVHBIVnFLU01hdmdKY2VZWURYdmo4TDB5Q1VNWTY4N294YVlOQ0hYY1FNUmVwVk1Sek5ORXVTLVNvUndUS0JybjlXeWNIQllWdW9fM29VNkkxMWZUb0ZhT0FRdjQyTUhYcHkwOWEzMm5LbEh6MGQ4Mk40WFl0V19kU3BzS2VCa0FUdXc0dTVRN3E4T3pXaDBpMnFnWENxQTE2T1UtcjhxS005SHdBZHl5RHlBcnlLMG1tWEE?oc=5"/>
+    <id>https://news.google.com/rss/articles/CBMiugFBVV95cUxNVHBIVnFLU01hdmdKY2VZWURYdmo4TDB5Q1VNWTY4N294YVlOQ0hYY1FNUmVwVk1Sek5ORXVTLVNvUndUS0JybjlXeWNIQllWdW9fM29VNkkxMWZUb0ZhT0FRdjQyTUhYcHkwOWEzMm5LbEh6MGQ4Mk40WFl0V19kU3BzS2VCa0FUdXc0dTVRN3E4T3pXaDBpMnFnWENxQTE2T1UtcjhxS005SHdBZHl5RHlBcnlLMG1tWEE?oc=5</id>
+    <updated>2026-07-16T13:42:53.000Z</updated>
+    <author><name>GN: Prompt Injection</name></author>
+    <category term="AI SECURITY"/>
+    <summary>OpenAI's GPT-Red System Outperforms Human Hackers 84% to 13%, Hardens GPT-5.6 Against Prompt Injection MLQ.ai</summary>
+  </entry>
+  <entry>
+    <title>23andMe to pay $18 million in new genetics data breach settlement</title>
+    <link href="https://www.bleepingcomputer.com/news/security/23andme-to-pay-18-million-in-new-genetics-data-breach-settlement/"/>
+    <id>https://www.bleepingcomputer.com/news/security/23andme-to-pay-18-million-in-new-genetics-data-breach-settlement/</id>
+    <updated>2026-07-16T13:47:23.000Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>Genetic testing company 23andMe has agreed to pay $18 million to settle claims from a coalition of 43 attorneys general that it failed to protect customers' genetic data. [...]</summary>
   </entry>
   <entry>
     <title>The Billion-Dollar Seed Isn’t The Deal You Think It Is</title>
@@ -115,13 +124,22 @@
     <summary>Despite attention-grabbing AI mega-seed rounds, historical data shows that very large first financings rarely produce venture-scale returns because high entry valuations limit investor upside. Instead, argues guest author Ellie McDonald, the strongest venture outcomes have typically come from capital-efficient startups</summary>
   </entry>
   <entry>
-    <title>Mermaid to Unicode box art (grok-mermaid)</title>
-    <link href="https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything"/>
-    <id>https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything</id>
-    <updated>2026-07-16T00:33:18.000Z</updated>
+    <title>Quoting Linus Torvalds</title>
+    <link href="https://simonwillison.net/2026/Jul/16/linus-torvalds/#atom-everything"/>
+    <id>https://simonwillison.net/2026/Jul/16/linus-torvalds/#atom-everything</id>
+    <updated>2026-07-16T13:26:10.000Z</updated>
     <author><name>Simon Willison</name></author>
     <category term="ANALYSIS"/>
-    <summary>Tool: Mermaid to Unicode box art (grok-mermaid) While exploring the codebase for the newly open-sourced Grok CLI coding agent I came across xai-grok-markdown/src/mermaid.rs , a &quot;self-contained terminal renderer for Mermaid diagrams&quot; written in Rust. I figured it would be fun to try that out in a browser via WebAssembly</summary>
+    <summary>I realize that some people really dislike AI, but this is an area where I'm willing to absolutely put my foot down as the top-level maintainer. Linux is not one of those anti-AI projects, and if somebody has issues with that, they can do the open-source thing and fork it. Or just walk away. AI is a tool, just like othe</summary>
+  </entry>
+  <entry>
+    <title>Xpanner rolls out X1 Panel Lift for automated solar panel installation</title>
+    <link href="https://www.therobotreport.com/xpanner-rolls-out-x1-panel-lift-automated-solar-panel-installation/"/>
+    <id>https://www.therobotreport.com/xpanner-rolls-out-x1-panel-lift-automated-solar-panel-installation/</id>
+    <updated>2026-07-16T13:08:40.000Z</updated>
+    <author><name>The Robot Report</name></author>
+    <category term="ROBOTICS"/>
+    <summary>X1 Panel Lift uses existing excavators and a single workflow so solar installation crews can focus on alignment, fastening, and quality. The post Xpanner rolls out X1 Panel Lift for automated solar panel installation appeared first on The Robot Report .</summary>
   </entry>
   <entry>
     <title>Arq Raises $1.4 Million Pre-Seed Round to Lay The Foundations For The Quantum Internet</title>
@@ -133,67 +151,40 @@
     <summary>Insider Brief PRESS RELEASE — Quantum technology startup Arq has raised a $1.4 million pre-seed round led by Ground State Ventures, joined by Big Sur Ventures, to accelerate the development of the quantum internet. Quantum computing is advancing rapidly, promising a new age of supercomputers that can solve highly compl</summary>
   </entry>
   <entry>
-    <title>Our approach to bioresilience</title>
-    <link href="https://deepmind.google/blog/our-approach-to-bioresilience/"/>
-    <id>https://deepmind.google/blog/our-approach-to-bioresilience/</id>
-    <updated>2026-07-16T09:30:42.000Z</updated>
-    <author><name>Google DeepMind Blog</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.</summary>
-  </entry>
-  <entry>
-    <title>Alpaca, which offers brokerage and financial infrastructure, raised $135M in equity and $300M in debt, following a $150M Series D in January (Bernard Goyder/Bloomberg)</title>
-    <link href="https://www.techmeme.com/260716/p14#a260716p14"/>
-    <id>https://www.techmeme.com/260716/p14#a260716p14</id>
-    <updated>2026-07-16T11:15:00.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Bernard Goyder / Bloomberg : Alpaca, which offers brokerage and financial infrastructure, raised $135M in equity and $300M in debt, following a $150M Series D in January — Brokerage and financial infrastructure startup Alpaca has raised $135 million in equity and $300 million in debt, as it looks to expand a business …</summary>
-  </entry>
-  <entry>
-    <title>Meta will now notify parents if teens discuss suicide or self-harm with Meta AI and is working on alerts to emergency services for users at risk of self-harm (Aisha Malik/TechCrunch)</title>
-    <link href="https://www.techmeme.com/260716/p17#a260716p17"/>
-    <id>https://www.techmeme.com/260716/p17#a260716p17</id>
-    <updated>2026-07-16T11:35:00.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Aisha Malik / TechCrunch : Meta will now notify parents if teens discuss suicide or self-harm with Meta AI and is working on alerts to emergency services for users at risk of self-harm — Meta announced on Thursday that it will now notify parents if their teen discusses suicide or self-harm with the company's Meta AI ch</summary>
-  </entry>
-  <entry>
-    <title>Which llama.cpp is FASTEST for Qwen3.6 MTP + Vision? failed requests.</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1uxz2qp/which_llamacpp_is_fastest_for_qwen36_mtp_vision/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1uxz2qp/which_llamacpp_is_fastest_for_qwen36_mtp_vision/</id>
-    <updated>2026-07-16T10:34:26.000Z</updated>
+    <title>Qwen3.6 27B failing on Openclaw with Ollama for simple html generation</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1uy3osn/qwen36_27b_failing_on_openclaw_with_ollama_for/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1uy3osn/qwen36_27b_failing_on_openclaw_with_ollama_for/</id>
+    <updated>2026-07-16T13:59:22.000Z</updated>
     <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Benchmark complete: 153/153 successful samples across 17 commits, with no failed requests. Thanks to u/SM8085 for suggesting a commit-by-commit benchmark and pointing me toward the relevant regression range. That idea triggered this full 153-run test. In the first comment, find the link to the testing setup on Git to m</summary>
+    <summary>submitted by /u/The_CoLLect1ve [link] [comments]</summary>
   </entry>
   <entry>
-    <title>Broker Alpaca Raises $435 Million, Explores Prime Broking Entry</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-16/broker-alpaca-raises-435-million-explores-prime-broking-entry"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-16/broker-alpaca-raises-435-million-explores-prime-broking-entry</id>
-    <updated>2026-07-16T10:00:00.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Brokerage and financial infrastructure startup Alpaca has raised $135 million in equity and $300 million in debt, as it looks to expand a business that helps investors trade across financial markets using artificial intelligence agents.</summary>
-  </entry>
-  <entry>
-    <title>Beacon Security, which offers an agentic security platform, raised a $13M seed and says it has &quot;tens&quot; of large enterprise customers including Cerebras (Chris Metinko/Axios)</title>
-    <link href="https://www.techmeme.com/260716/p18#a260716p18"/>
-    <id>https://www.techmeme.com/260716/p18#a260716p18</id>
-    <updated>2026-07-16T11:40:00.000Z</updated>
+    <title>Sable, which is building an AI agent named Aiden that lives on a company's website to run live product demos and more, raised $45M from Sequoia and 8VC (Lily Mae Lazarus/Fortune)</title>
+    <link href="https://www.techmeme.com/260716/p31#a260716p31"/>
+    <id>https://www.techmeme.com/260716/p31#a260716p31</id>
+    <updated>2026-07-16T13:30:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Chris Metinko / Axios : Beacon Security, which offers an agentic security platform, raised a $13M seed and says it has “tens” of large enterprise customers including Cerebras — Beacon Security, an agentic security platform, raised a $13 million seed led by Notable Capital, CEO Gal Tal-Hochberg tells Axios Pro exclusive</summary>
+    <summary>Lily Mae Lazarus / Fortune : Sable, which is building an AI agent named Aiden that lives on a company's website to run live product demos and more, raised $45M from Sequoia and 8VC — Sequoia partner Shaun Maguire still remembers the demo that changed his mind on Sable. — An AI sales rep was walking a buyer through …</summary>
   </entry>
   <entry>
-    <title>French Power Exports Jump 36% to Record on Nuclear Output Boost</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-16/french-power-exports-jump-36-to-record-on-nuclear-output-boost"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-16/french-power-exports-jump-36-to-record-on-nuclear-output-boost</id>
-    <updated>2026-07-16T10:00:00.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
+    <title>Chinese AI start-up Moonshot to launch model challenging Anthropic’s lead</title>
+    <link href="https://www.ft.com/content/c6ecd8ce-c441-4d7c-aea6-fae3e28fb6ff?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/c6ecd8ce-c441-4d7c-aea6-fae3e28fb6ff?syn-25a6b1a6=1</id>
+    <updated>2026-07-16T09:51:11.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
     <category term="AI FINANCE"/>
-    <summary>French power exports surged to a record in the first half of 2026 as a rebound in nuclear output and rising renewable generation left the country with a big surplus of low-cost electricity to sell across Europe.</summary>
+    <summary>Kimi K3 expected to exceed performance of Claude Opus 4.8 in sign of narrowing gap between US and China on frontier AI</summary>
+  </entry>
+  <entry>
+    <title>FT readers respond: What is the real cost of AI?</title>
+    <link href="https://www.ft.com/content/def99267-bff3-4c7f-8c0e-7b7774fd96f7"/>
+    <id>https://www.ft.com/content/def99267-bff3-4c7f-8c0e-7b7774fd96f7</id>
+    <updated>2026-07-16T13:43:43.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Commenters discuss the environmental impact of AI data centres and the need for greater transparency — join the debate</summary>
   </entry>
   <entry>
     <title>Ask Before You Diagnose: Safe-Psych, a Sequential Evaluation Benchmark for LLMs in Psychiatry</title>
@@ -214,6 +205,15 @@
     <summary>arXiv:2607.13045v1 Announce Type: new Abstract: Federated Learning (FL) has emerged as a key paradigm for privacy-preserving collaborative model training across distributed and heterogeneous data sources. By keeping raw data local, FL addresses data confidentiality concerns, yet it does not resolve the opacity of moder</summary>
   </entry>
   <entry>
+    <title>Sharpen the Sword, Skip the Downloads — ‘Onimusha: Way of the Sword’ Is Coming to GeForce NOW</title>
+    <link href="https://blogs.nvidia.com/blog/geforce-now-thursday-onimusha-coming/"/>
+    <id>https://blogs.nvidia.com/blog/geforce-now-thursday-onimusha-coming/</id>
+    <updated>2026-07-16T13:00:34.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Onimusha: Way of the Sword is coming to GeForce NOW at launch, with the playable demo available this week. It’s joined by Denshattack! rolling in with five new games arriving in the cloud. Plus, GeForce NOW officially launches in India, moving from beta to public availability — meaning gamers can sign up without a wait</summary>
+  </entry>
+  <entry>
     <title>Ex-OpenAI CTO Murati's Thinking Machines drops Inkling, a 975B parameter model that leads US labs but trails China</title>
     <link href="https://the-decoder.com/ex-openai-cto-muratis-thinking-machines-drops-inkling-a-975b-parameter-model-that-leads-us-labs-but-trails-china/"/>
     <id>https://the-decoder.com/ex-openai-cto-muratis-thinking-machines-drops-inkling-a-975b-parameter-model-that-leads-us-labs-but-trails-china/</id>
@@ -223,31 +223,13 @@
     <summary>Thinking Machines Lab, founded by former OpenAI CTO Mira Murati, has released Inkling, a multimodal open-weights model with 975 billion parameters. It leads U.S. open-weights models on the Artificial Analysis Intelligence Index, though top Chinese open models still beat it on some tasks. Pricing starts at $1.87 per mil</summary>
   </entry>
   <entry>
-    <title>Walden Robotics launches at $1.1B valuation for general-purpose robots</title>
-    <link href="https://www.therobotreport.com/walden-robotics-launches-1-1b-valuation-general-purpose-robots/"/>
-    <id>https://www.therobotreport.com/walden-robotics-launches-1-1b-valuation-general-purpose-robots/</id>
-    <updated>2026-07-15T20:04:03.000Z</updated>
-    <author><name>The Robot Report</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Leading technology companies have invested in Walden Robotics, which emerged from stealth as it develops full-stack physical AI. The post Walden Robotics launches at $1.1B valuation for general-purpose robots appeared first on The Robot Report .</summary>
-  </entry>
-  <entry>
-    <title>Gemma 4 gets a stealth update that fixes tool calling bugs and truncated responses under the same name</title>
-    <link href="https://the-decoder.com/gemma-4-gets-a-stealth-update-that-fixes-tool-calling-bugs-and-truncated-responses-under-the-same-name/"/>
-    <id>https://the-decoder.com/gemma-4-gets-a-stealth-update-that-fixes-tool-calling-bugs-and-truncated-responses-under-the-same-name/</id>
-    <updated>2026-07-16T09:07:58.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>Elon Musk spent estimated $1 billion on an energy company to power xAI, filings reveal — APR Energy owns a fleet of trailer-mounted gas and diesel turbines capable of generating more than 1 gigawatt</title>
+    <link href="https://www.tomshardware.com/tech-industry/data-centers/elon-musk-spent-estimated-usd1-billion-on-an-energy-company-to-power-xai-filings-reveal-apr-energy-owns-a-fleet-of-trailer-mounted-gas-and-diesel-turbines-capable-of-generating-more-than-1-gigawatt"/>
+    <id>https://www.tomshardware.com/tech-industry/data-centers/elon-musk-spent-estimated-usd1-billion-on-an-energy-company-to-power-xai-filings-reveal-apr-energy-owns-a-fleet-of-trailer-mounted-gas-and-diesel-turbines-capable-of-generating-more-than-1-gigawatt</id>
+    <updated>2026-07-16T12:45:17.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
     <category term="HARDWARE"/>
-    <summary>Google shipped an update to its open AI model Gemma 4 that speeds up performance on Nvidia Hopper GPUs, fixes tool calling bugs, and addresses problems with truncated responses. The article Gemma 4 gets a stealth update that fixes tool calling bugs and truncated responses under the same name appeared first on The Decod</summary>
-  </entry>
-  <entry>
-    <title>What Models Express, Suppress, and Resist: Auditing Open-Weight LLMs with Persona Vectors</title>
-    <link href="https://arxiv.org/abs/2607.13162"/>
-    <id>https://arxiv.org/abs/2607.13162</id>
-    <updated>2026-07-16T04:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>arXiv:2607.13162v1 Announce Type: new Abstract: What a language model will and will not do is largely set during post-training, but which behaviors it expresses, hides, or resists is not revealed by prompting alone. Persona vectors, behavioral directions in activation space, can probe this organization, but prior work </summary>
+    <summary>An FTC document revealed that Elon Musk purchased APR Energy, a mobile natural gas and diesel turbine generator provider, for an estimated $1 billion. The deal wasn't announced publicly and was only discovered after the FTC filing.</summary>
   </entry>
   <entry>
     <title>The US is advancing AI safety through state and federal action</title>
@@ -259,13 +241,13 @@
     <summary>OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.</summary>
   </entry>
   <entry>
-    <title>GPT-Red - A Red Teamer to Find Prompt Injection Vulnerabilities in GPT 5.6 Sol - CyberSecurityNews</title>
-    <link href="https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3d0xFcmRRR3YyVmY5czFLeHM1cl9BVjBYVlVyb3h6bkRHdkZ4UlFrRkN4c3R3WlJ1bzNZRXpLRjNXdlg3amZQNGdCVFFjeEnSAVRBVV95cUxPMDdkNFhEWnlFdDFGb2xZU1dTRzBJSjdZbE43aDl3OF9OOHdENXJ2clNmZy1FTlJOUzEyaW5Lcm9JUHRXYTk1MzJmUl9XVTBJNEkxd1Q?oc=5"/>
-    <id>https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3d0xFcmRRR3YyVmY5czFLeHM1cl9BVjBYVlVyb3h6bkRHdkZ4UlFrRkN4c3R3WlJ1bzNZRXpLRjNXdlg3amZQNGdCVFFjeEnSAVRBVV95cUxPMDdkNFhEWnlFdDFGb2xZU1dTRzBJSjdZbE43aDl3OF9OOHdENXJ2clNmZy1FTlJOUzEyaW5Lcm9JUHRXYTk1MzJmUl9XVTBJNEkxd1Q?oc=5</id>
-    <updated>2026-07-16T09:40:53.000Z</updated>
+    <title>OpenAI Unveils GPT-Red AI Model That Automatically Finds Prompt Injection Vulnerabilities - gbhackers.com</title>
+    <link href="https://news.google.com/rss/articles/CBMisgFBVV95cUxOZlM2T242NVpUNm5nOEtNTEpaT2RtOHJtelhBRXVFLUlhSndDOG9ybzJWM2RVOGNpdFpUXzV0SGVqODR6OWZxNkw3ZFF3Yk1Ldk13QnZfQlBQa3BmLVNzWENXLV9PalNrSWU2LTdoVEVvb0x5bkpUejV3OF9TWU9OWUR4bEFjTmZiNlNNa1JSSW5LOE9jcXBxUXN3b01vbEloeHc1VDBPaTREbVZHM2dtVG5R0gG3AUFVX3lxTE83NHB3VXNuQVhOSUlDSGlJN3k2VGJqb0dEN25qRlB4NnVuNlJqdDBXemdEZHdBbGdmSXVMQ2FaNkVDTnFEX25SUHZ5T3B0a29NX1VROXgtOW1jY0Z4cDVmc3BCSUdXWGozTzZVUGJPUWVkN3UwRXdJQ3RIZjAtUzNPclR6XzQ5d3BQdHZWbVFKdnRkWGUzSm5ZVVFOdUJaLWRZX0JNWkJ3VWI0dGRCa3FmNXRDWlp5aw?oc=5"/>
+    <id>https://news.google.com/rss/articles/CBMisgFBVV95cUxOZlM2T242NVpUNm5nOEtNTEpaT2RtOHJtelhBRXVFLUlhSndDOG9ybzJWM2RVOGNpdFpUXzV0SGVqODR6OWZxNkw3ZFF3Yk1Ldk13QnZfQlBQa3BmLVNzWENXLV9PalNrSWU2LTdoVEVvb0x5bkpUejV3OF9TWU9OWUR4bEFjTmZiNlNNa1JSSW5LOE9jcXBxUXN3b01vbEloeHc1VDBPaTREbVZHM2dtVG5R0gG3AUFVX3lxTE83NHB3VXNuQVhOSUlDSGlJN3k2VGJqb0dEN25qRlB4NnVuNlJqdDBXemdEZHdBbGdmSXVMQ2FaNkVDTnFEX25SUHZ5T3B0a29NX1VROXgtOW1jY0Z4cDVmc3BCSUdXWGozTzZVUGJPUWVkN3UwRXdJQ3RIZjAtUzNPclR6XzQ5d3BQdHZWbVFKdnRkWGUzSm5ZVVFOdUJaLWRZX0JNWkJ3VWI0dGRCa3FmNXRDWlp5aw?oc=5</id>
+    <updated>2026-07-16T11:41:33.000Z</updated>
     <author><name>GN: Prompt Injection</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>GPT-Red - A Red Teamer to Find Prompt Injection Vulnerabilities in GPT 5.6 Sol CyberSecurityNews</summary>
+    <category term="AI SECURITY"/>
+    <summary>OpenAI Unveils GPT-Red AI Model That Automatically Finds Prompt Injection Vulnerabilities gbhackers.com</summary>
   </entry>
   <entry>
     <title>OpenAI GPT-Red Uses Automated Attacks to Strengthen GPT-5.6 Against Prompt Injection - cyberpress.org</title>
@@ -275,5 +257,23 @@
     <author><name>GN: Prompt Injection</name></author>
     <category term="AI SECURITY"/>
     <summary>OpenAI GPT-Red Uses Automated Attacks to Strengthen GPT-5.6 Against Prompt Injection cyberpress.org — Also covered by: GN: Prompt Injection</summary>
+  </entry>
+  <entry>
+    <title>New ClickLock macOS Stealer Kills Apps Every 210ms Until Victims Type Their Password</title>
+    <link href="https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html"/>
+    <id>https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html</id>
+    <updated>2026-07-16T12:33:42.000Z</updated>
+    <author><name>The Hacker News</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>ClickLock Stealer, a new macOS infostealer, answers a victim's refusal by killing their apps on a loop until they hand over the login password. It arrives as a command pasted into Terminal, asks for the password behind a fake system dialog, and when the victim cancels, installs two LaunchAgents and quietly exits. At th</summary>
+  </entry>
+  <entry>
+    <title>Windows 11 24H2 Home and Pro reach end of support in 90 days</title>
+    <link href="https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-90-days/"/>
+    <id>https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-90-days/</id>
+    <updated>2026-07-16T11:59:24.000Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>Microsoft announced on Wednesday that systems running Windows 10 Enterprise LTSB 2016 and Home and Pro editions of Windows 11 24H2 will stop receiving updates in three months. [...]</summary>
   </entry>
 </feed>
