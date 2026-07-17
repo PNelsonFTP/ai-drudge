@@ -5,7 +5,16 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-07-17T04:15:57.799Z</updated>
+  <updated>2026-07-17T07:25:32.781Z</updated>
+  <entry>
+    <title>Inkling: Our open-weights model</title>
+    <link href="https://simonwillison.net/2026/Jul/16/inkling/#atom-everything"/>
+    <id>https://simonwillison.net/2026/Jul/16/inkling/#atom-everything</id>
+    <updated>2026-07-16T15:35:25.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="RESEARCH"/>
+    <summary>Inkling: Our open-weights model Mira Murati's Thinking Machines Lab just released their first open-weights model. Inkling is &quot;a Mixture-of-Experts transformer with 975B total parameters, 41B active&quot; - an Apache-2.0 licensed multimodal model trained on 45 trillion tokens of text, images, audio and video. They're also pr</summary>
+  </entry>
   <entry>
     <title>Two Scattered Spider Hackers Get 5.5 Years Each for £29 Million TfL Hack</title>
     <link href="https://thehackernews.com/2026/07/two-scattered-spider-hackers-get-55.html"/>
@@ -25,13 +34,22 @@
     <summary>Kerala, India-based quantum software provider Bloq Quantum has announced a strategic partnership with MIUUL, a premier technology training and skilling ecosystem in Turkey. The collaboration marks Bloq Quantum’s official entry into the Turkish market. Under the agreement, MIUUL will serve as Bloq Quantum's official reg — Also covered by: The Quantum Insider</summary>
   </entry>
   <entry>
-    <title>Kimi K3: Open Frontier Intelligence</title>
-    <link href="https://www.kimi.com/blog/kimi-k3"/>
-    <id>https://www.kimi.com/blog/kimi-k3</id>
-    <updated>2026-07-16T14:46:05.000Z</updated>
-    <author><name>HN: Chinese Frontier Labs</name></author>
+    <title>Thinking Machines Lab Drops Its First Model</title>
+    <link href="https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/"/>
+    <id>https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/</id>
+    <updated>2026-07-15T18:05:00.000Z</updated>
+    <author><name>Wired AI</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Inkling, a 975-billion-parameter open source model, was trained to understand video and audio. It could help Thinking Machines establish itself among competitors like Anthropic and OpenAI.</summary>
+  </entry>
+  <entry>
+    <title>Kimi's open model K3 nears GPT-5.6 Sol and Fable 5 while signaling the end of super cheap Chinese AI</title>
+    <link href="https://the-decoder.com/kimis-open-model-k3-nears-gpt-5-6-sol-and-fable-5-while-signaling-the-end-of-super-cheap-chinese-ai/"/>
+    <id>https://the-decoder.com/kimis-open-model-k3-nears-gpt-5-6-sol-and-fable-5-while-signaling-the-end-of-super-cheap-chinese-ai/</id>
+    <updated>2026-07-16T19:49:39.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>https://www.kimi.com/en Kimi K3 Intelligence, Performance &amp; Price Analysis: https://artificialanalysis.ai/models/kimi-k3 Comments URL: https://news.ycombinator.com/item?id=48935342 Points: 1312 # Comments: 817</summary>
+    <summary>Kimi is launching K3, a multimodal open-weight model with 2.8 trillion parameters and one million tokens of context. In the company's own benchmarks, it comes close to Claude Fable 5 and GPT 5.6 Sol while beating Opus 4.8 and GLM 5.2, in some cases by a wide margin. The model is also significantly pricier than its pred</summary>
   </entry>
   <entry>
     <title>Kalshi is offering wagers on the outcomes of late-stage clinical drug trials and regulatory decisions, launching a pilot of 13 new biotech contracts (Madison Muller/Bloomberg)</title>
@@ -43,13 +61,13 @@
     <summary>Madison Muller / Bloomberg : Kalshi is offering wagers on the outcomes of late-stage clinical drug trials and regulatory decisions, launching a pilot of 13 new biotech contracts — Kalshi to Offer Betting on Drug Trial Results — Video Player is loading. — Unmute — Current Time 0:00 Loaded: 63.68% Playback Rate</summary>
   </entry>
   <entry>
-    <title>Will we have a 27B model with Fable capabilities in 5 months? History says yes</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1uyhdaf/will_we_have_a_27b_model_with_fable_capabilities/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1uyhdaf/will_we_have_a_27b_model_with_fable_capabilities/</id>
-    <updated>2026-07-16T22:21:47.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>llama.cpp b10056 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10056"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10056</id>
+    <updated>2026-07-17T05:13:47.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>If history is any indication, open-source models in the 27B dense range should have caught up to what the US government banned two weeks ago because they thought they were too dangerous in less than half a year from now. Qwen 3.6 27B outperformed models that were considered frontier models only 5 months prior to its re</summary>
+    <summary>opencl: add ABS op ( #25115 )</summary>
   </entry>
   <entry>
     <title>Branching Policy Optimization: Sandbox-Native Language Agent Reinforcement Learning</title>
@@ -61,13 +79,13 @@
     <summary>arXiv:2607.14171v1 Announce Type: new Abstract: Reinforcement learning has emerged as the dominant paradigm for training large language model (LLM) agents that interact with executable sandboxes. State-of-the-art algorithms such as PPO, RLOO, and GRPO inherit their rollout topology from RLHF: for each prompt, N indepen</summary>
   </entry>
   <entry>
-    <title>Chinese AI start-up Moonshot launches model challenging Anthropic’s lead</title>
-    <link href="https://www.ft.com/content/c6ecd8ce-c441-4d7c-aea6-fae3e28fb6ff?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/c6ecd8ce-c441-4d7c-aea6-fae3e28fb6ff?syn-25a6b1a6=1</id>
-    <updated>2026-07-17T00:58:59.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
+    <title>Manipal Hospitals Said to Cut Valuation to $8.3 Billion in IPO</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-17/manipal-hospitals-said-to-cut-valuation-to-8-3-billion-in-ipo"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-17/manipal-hospitals-said-to-cut-valuation-to-8-3-billion-in-ipo</id>
+    <updated>2026-07-17T06:18:07.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Kimi K3 shows narrowing gap between US and China on frontier AI</summary>
+    <summary>India’s Manipal Health Enterprises Ltd., operator of the Manipal Hospitals chain, is seeking a lower valuation of about 800 billion rupees ($8.3 billion) in its planned initial public offering, according to people familiar with the matter.</summary>
   </entry>
   <entry>
     <title>Just Keep Prompting: Evaluating Repetitive Socratic Prompting in VLMs</title>
@@ -88,15 +106,6 @@
     <summary>Suggestion for hyperscalers feeling pressure over data center water use: Buy up a few exclusive country clubs, convert the golf courses into public parks, pay for guides and binoculars to get the previous members into birdwatching - help them embrace a more sustainable hobby! Google used 10.9 billion gallons in 2025 , </summary>
   </entry>
   <entry>
-    <title>Kimi's open model K3 nears GPT-5.6 Sol and Fable 5 while signaling the end of super cheap Chinese AI</title>
-    <link href="https://the-decoder.com/kimis-open-model-k3-nears-gpt-5-6-sol-and-fable-5-while-signaling-the-end-of-super-cheap-chinese-ai/"/>
-    <id>https://the-decoder.com/kimis-open-model-k3-nears-gpt-5-6-sol-and-fable-5-while-signaling-the-end-of-super-cheap-chinese-ai/</id>
-    <updated>2026-07-16T19:49:39.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Kimi is launching K3, a multimodal open-weight model with 2.8 trillion parameters and one million tokens of context. In the company's own benchmarks, it comes close to Claude Fable 5 and GPT 5.6 Sol while beating Opus 4.8 and GLM 5.2, in some cases by a wide margin. The model is also significantly pricier than its pred</summary>
-  </entry>
-  <entry>
     <title>Latent Communication Between Language Model Agents: Channels, Alignment, and the Limits of Text</title>
     <link href="https://arxiv.org/abs/2607.14103"/>
     <id>https://arxiv.org/abs/2607.14103</id>
@@ -115,13 +124,13 @@
     <summary>arXiv:2607.14101v1 Announce Type: new Abstract: Generating high-quality adversarial texts with low query budgets remains a challenging problem in the hard-label scenario. Most existing approaches rely on greedy algorithms, where one position in the text is selected for substitution, followed by the substitutions of oth</summary>
   </entry>
   <entry>
-    <title>New ClickLock macOS malware traps users into revealing login password</title>
-    <link href="https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/"/>
-    <id>https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/</id>
-    <updated>2026-07-16T21:52:54.000Z</updated>
+    <title>CISA urges immediate action on actively exploited Fortinet flaws</title>
+    <link href="https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/"/>
+    <id>https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/</id>
+    <updated>2026-07-17T07:03:33.000Z</updated>
     <author><name>BleepingComputer</name></author>
     <category term="CYBER THREATS"/>
-    <summary>A new macOS information-stealing malware dubbed ClickLock terminates all visible processes to force users into entering their system login password. [...]</summary>
+    <summary>CISA on Thursday ordered government agencies to prioritize patching two actively exploited vulnerabilities in the Fortinet FortiSandbox threat detection platform. [...]</summary>
   </entry>
   <entry>
     <title>QFireNet: A Quantum-Enhanced U-Net for Wildfire Segmentation from Sentinel-2 Imagery</title>
@@ -151,67 +160,67 @@
     <summary>arXiv:2607.14100v1 Announce Type: new Abstract: We present the first application of pregroup grammar-based quantum compositional natural language processing (QNLP) to Arabic; a morphologically rich, free-word-order language whose structural complexity provides a uniquely demanding testbed for theories of meaning compos</summary>
   </entry>
   <entry>
-    <title>llama.cpp b10054 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10054"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10054</id>
-    <updated>2026-07-17T00:30:46.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="GITHUB REPOS"/>
-    <summary>docs: added a note about using OpenCl with Adreno 810 ( #25786 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulk</summary>
+    <title>ollama v0.32.1 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.32.1"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.32.1</id>
+    <updated>2026-07-16T18:49:37.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>What's Changed Improved Gemma 4 tool calling and multi-turn reasoning, including more reliable tool-response continuations Fixed a recurrent MLX model cache leak that could increase memory use across requests, and improved cache snapshot performance MLX text model loading now respects OLLAMA_LOAD_TIMEOUT Agent web sear</summary>
   </entry>
   <entry>
-    <title>Sources: Coatue is leading a $3B investment in Databricks that values the data analytics software company at $188B, a 40% increase from its December valuation (Wall Street Journal)</title>
-    <link href="https://www.techmeme.com/260716/p66#a260716p66"/>
-    <id>https://www.techmeme.com/260716/p66#a260716p66</id>
-    <updated>2026-07-17T02:05:01.000Z</updated>
+    <title>Why teens deserve access to safe AI</title>
+    <link href="https://openai.com/index/why-teens-deserve-access-safe-ai"/>
+    <id>https://openai.com/index/why-teens-deserve-access-safe-ai</id>
+    <updated>2026-07-16T16:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.</summary>
+  </entry>
+  <entry>
+    <title>Sources: Tata plans India's first large-scale chip fab in Dholera, Gujarat, mostly using 90nm nodes, a far humbler start than the 28nm node it touted earlier (Bloomberg)</title>
+    <link href="https://www.techmeme.com/260717/p3#a260717p3"/>
+    <id>https://www.techmeme.com/260717/p3#a260717p3</id>
+    <updated>2026-07-17T06:25:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Wall Street Journal : Sources: Coatue is leading a $3B investment in Databricks that values the data analytics software company at $188B, a 40% increase from its December valuation — Startup's valuation jumps 40% as AI boom drives demand for its data-analytics software — Coatue Management is leading …</summary>
+    <summary>Bloomberg : Sources: Tata plans India's first large-scale chip fab in Dholera, Gujarat, mostly using 90nm nodes, a far humbler start than the 28nm node it touted earlier — Tata Electronics Pvt. is preparing to make India's first semiconductor wafers on far older technology than it originally expected …</summary>
   </entry>
   <entry>
-    <title>How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product</title>
-    <link href="https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/"/>
-    <id>https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/</id>
-    <updated>2026-07-16T15:02:00.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>During an internal meeting, Satya Nadella criticized Claude Fable 5 for being &quot;editorially controlled&quot;, saying its refusal to do &quot;random things&quot; makes no sense (Jordan Novet/CNBC)</title>
+    <link href="https://www.techmeme.com/260717/p2#a260717p2"/>
+    <id>https://www.techmeme.com/260717/p2#a260717p2</id>
+    <updated>2026-07-17T05:30:01.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Drawing on more than a decade spent helping build some of the world's most influential AI systems, including research that later informed the development of ChatGPT, Andrew Dai explains why he believes visual AI is one of the next major frontiers in artificial intelligence.</summary>
+    <summary>Jordan Novet / CNBC : During an internal meeting, Satya Nadella criticized Claude Fable 5 for being “editorially controlled”, saying its refusal to do “random things” makes no sense — Microsoft CEO Satya Nadella told employees Wednesday that Anthropic's limits on requests that users submit …</summary>
   </entry>
   <entry>
-    <title>Anyone else completely tuning out these massive &quot;open weight&quot; drops?</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1uylutc/anyone_else_completely_tuning_out_these_massive/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1uylutc/anyone_else_completely_tuning_out_these_massive/</id>
-    <updated>2026-07-17T01:36:41.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>Compose Claude skills from 13 ecosystems (Anthropic, OpenAI, Copilot, Google...) into one expert agent</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1uysli0/compose_claude_skills_from_13_ecosystems/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1uysli0/compose_claude_skills_from_13_ecosystems/</id>
+    <updated>2026-07-17T07:19:13.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Tbh the benchmarks on stuff like GLM-5.2 look insane. 753B params, 1M context, MIT license... everyone is throwing a party on the front page right now. But like... what is actually &quot;local&quot; about this anymore? A 700B+ MoE isn't fitting on anyone's home rig. Even if you absolutely crush it down to a q1 or q2 GGUF, you're</summary>
+    <summary>submitted by /u/Fault_Representative [link] [comments]</summary>
   </entry>
   <entry>
-    <title>Self-Improvements in Modern Agentic Systems: A Survey</title>
-    <link href="https://arxiv.org/abs/2607.13104"/>
-    <id>https://arxiv.org/abs/2607.13104</id>
-    <updated>2026-07-17T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>arXiv:2607.13104v1 Announce Type: new Abstract: Self-improving autonomous agents are moving from research prototypes to deployed systems. The primary goal is controllable evolution, or adaptation, from experience with minimal or even no human input. This survey frames modern self-improving agents as adaptive systems th</summary>
-  </entry>
-  <entry>
-    <title>Hong Kong Stocks’ Discount to China Widens on Liquidity Pressure</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-17/hong-kong-stocks-discount-to-china-widens-on-liquidity-pressure"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-17/hong-kong-stocks-discount-to-china-widens-on-liquidity-pressure</id>
-    <updated>2026-07-17T03:28:38.000Z</updated>
+    <title>UBS, Deutsche Bank Raise Stoxx 600 Targets as European Stocks Rally</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-17/ubs-deutsche-bank-turn-more-bullish-on-stoxx-600-taking-stock"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-17/ubs-deutsche-bank-turn-more-bullish-on-stoxx-600-taking-stock</id>
+    <updated>2026-07-17T06:33:12.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Hong Kong stocks’ valuation discount to their mainland-listed counterparts is widening, driven largely by liquidity strains and Beijing’s crackdowns on capital outflows.</summary>
+    <summary>Accelerating earnings growth and confidence the rally can withstand the latest geopolitical jitters means strategists are increasingly optimistic about European stocks, a Bloomberg survey shows.</summary>
   </entry>
   <entry>
-    <title>US chip and memory stocks slide in fresh bout of Wall Street tumult</title>
-    <link href="https://www.ft.com/content/c92a5a36-55a0-4d04-b84c-d1705976987b?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/c92a5a36-55a0-4d04-b84c-d1705976987b?syn-25a6b1a6=1</id>
-    <updated>2026-07-17T04:01:33.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
+    <title>Philippine Bourse Seeks to Boost Retail Trading With New Reforms</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-17/philippine-bourse-seeks-to-boost-retail-trading-with-new-reforms"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-17/philippine-bourse-seeks-to-boost-retail-trading-with-new-reforms</id>
+    <updated>2026-07-17T06:31:41.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Investors pull away from shares in companies that have led markets higher this year</summary>
+    <summary>The sole stock exchange in the Philippines is preparing a slew of measures including new exchange-traded funds to attract retail investors away from online gambling and cryptocurrency trading.</summary>
   </entry>
   <entry>
     <title>Interventional Grounding Audits: Black-Box Premise-Dependency Tests for LLM Chain-of-Thought via Predicate Substitution</title>
@@ -230,6 +239,15 @@
     <author><name>arXiv cs.LG</name></author>
     <category term="RESEARCH"/>
     <summary>arXiv:2607.14157v1 Announce Type: new Abstract: Retrieval over corpora that mix several domains often returns relevant but wrong-domain evidence that ranking metrics miss and that conformal risk control bounds only marginally, under-covering the worst domains. This work introduces C3R, a drop-in control layer that, fro</summary>
+  </entry>
+  <entry>
+    <title>How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product</title>
+    <link href="https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/"/>
+    <id>https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/</id>
+    <updated>2026-07-16T15:02:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Drawing on more than a decade spent helping build some of the world's most influential AI systems, including research that later informed the development of ChatGPT, Andrew Dai explains why he believes visual AI is one of the next major frontiers in artificial intelligence.</summary>
   </entry>
   <entry>
     <title>Roblox launches an AI-powered game-creation feature in its mobile app</title>
@@ -257,23 +275,5 @@
     <author><name>The Decoder</name></author>
     <category term="OPEN SOURCE"/>
     <summary>Sakana AI is integrating Nvidia's open-source Nemotron models into its Fugu orchestrator, which dynamically combines multiple language models for specific tasks. The core argument: Open models only become competitive with Frontier systems when used in a coordinated manner. However, the announcement does not yet provide</summary>
-  </entry>
-  <entry>
-    <title>Inkling: Our open-weights model</title>
-    <link href="https://simonwillison.net/2026/Jul/16/inkling/#atom-everything"/>
-    <id>https://simonwillison.net/2026/Jul/16/inkling/#atom-everything</id>
-    <updated>2026-07-16T15:35:25.000Z</updated>
-    <author><name>Simon Willison</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Inkling: Our open-weights model Mira Murati's Thinking Machines Lab just released their first open-weights model. Inkling is &quot;a Mixture-of-Experts transformer with 975B total parameters, 41B active&quot; - an Apache-2.0 licensed multimodal model trained on 45 trillion tokens of text, images, audio and video. They're also pr</summary>
-  </entry>
-  <entry>
-    <title>I don't think Claude is misaligned in 'Agentic Misalignment Summer 2026 - Motivated Mislabeling'</title>
-    <link href="https://www.lesswrong.com/posts/xh6a6RbvzhP3CCmGm/i-don-t-think-claude-is-misaligned-in-agentic-misalignment"/>
-    <id>https://www.lesswrong.com/posts/xh6a6RbvzhP3CCmGm/i-don-t-think-claude-is-misaligned-in-agentic-misalignment</id>
-    <updated>2026-07-17T02:09:49.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>Anthropic recently published Agentic Misalignment Summer 2026 The &quot;whistleblowing&quot; scenario has already been examined and found problematic . I started taking a look at the transcripts for some others. As far as I can tell, the objective of each agentic misalignment evaluation was to simulate a corrupted principal (inc</summary>
   </entry>
 </feed>
