@@ -5,14 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-07-19T06:39:30.034Z</updated>
+  <updated>2026-07-19T09:10:48.663Z</updated>
   <entry>
-    <title>Open Source Extraction Service</title>
-    <link href="https://www.langchain.com/blog/open-source-extraction-service"/>
-    <id>https://www.langchain.com/blog/open-source-extraction-service</id>
-    <updated>2026-07-18T01:05:38.000Z</updated>
-    <author><name>LangChain Blog</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
+    <title>qwen-code v0.20.0 released</title>
+    <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.20.0"/>
+    <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.20.0</id>
+    <updated>2026-07-19T07:32:00.000Z</updated>
+    <author><name>QwenLM/qwen-code</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features feat(cli): Add bounded daemon log rotation ( #6969 ) by @doudouOUC feat(review): bake the round label into a findings role's identity line and key ( #7171 ) by @wenshao feat(webshell): replay ChatRec — Also covered by: anthropics/claude-code</summary>
   </entry>
   <entry>
     <title>OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests</title>
@@ -33,12 +34,21 @@
     <summary>a quiet day</summary>
   </entry>
   <entry>
+    <title>AI chatbots reading X-rays can be dangerously confident even when they're wrong</title>
+    <link href="https://the-decoder.com/ai-chatbots-reading-x-rays-can-be-dangerously-confident-even-when-theyre-wrong/"/>
+    <id>https://the-decoder.com/ai-chatbots-reading-x-rays-can-be-dangerously-confident-even-when-theyre-wrong/</id>
+    <updated>2026-07-19T07:35:20.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>The RadLE 2.0 benchmark tests whether AI models in radiology can tell when they should leave a diagnosis to a human. Many models deliver wrong findings with full confidence, and human radiologists are still well ahead. Before AI can diagnose on its own, it needs to learn when it's better to say nothing. The article AI </summary>
+  </entry>
+  <entry>
     <title>Sources: Kimi developer Moonshot told investors it is preparing for a Hong Kong IPO in as early as six months; its ARR hit $300M in June, up from $200M in April (Bloomberg)</title>
     <link href="https://www.techmeme.com/260719/p5#a260719p5"/>
     <id>https://www.techmeme.com/260719/p5#a260719p5</id>
     <updated>2026-07-19T06:15:02.000Z</updated>
     <author><name>Techmeme</name></author>
-    <category term="MODEL RELEASES"/>
+    <category term="INDUSTRY NEWS"/>
     <summary>Bloomberg : Sources: Kimi developer Moonshot told investors it is preparing for a Hong Kong IPO in as early as six months; its ARR hit $300M in June, up from $200M in April — Moonshot AI has told investors it's preparing to list in as early as six months, seizing the opportunity to tap capital markets …</summary>
   </entry>
   <entry>
@@ -51,13 +61,13 @@
     <summary>model: rotate injected K/V cache for DFlash ( #25823 ) dflash: rotate injected K/V cache when using K/V quantization Update src/models/dflash.cpp Co-authored-by: Georgi Gerganov ggerganov@gmail.com clearer format remove trailing whitespace Co-authored-by: Georgi Gerganov ggerganov@gmail.com Website: https://llama.app m</summary>
   </entry>
   <entry>
-    <title>Claude Code uses Bun written in Rust now</title>
-    <link href="https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything"/>
-    <id>https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything</id>
-    <updated>2026-07-19T03:54:09.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>Perplexity AI Releases WANDR: An Open Benchmark Evaluating Research Agents That Must Search Wide And Deep</title>
+    <link href="https://www.marktechpost.com/2026/07/19/perplexity-ai-releases-wandr-an-open-benchmark-evaluating-research-agents-that-must-search-wide-and-deep/"/>
+    <id>https://www.marktechpost.com/2026/07/19/perplexity-ai-releases-wandr-an-open-benchmark-evaluating-research-agents-that-must-search-wide-and-deep/</id>
+    <updated>2026-07-19T07:19:14.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>In Rewriting Bun in Rust Jarred Sumner made the following claim: Claude Code v2.1.181 (released June 17th) and later use the Rust port of Bun. Startup got 10% faster on Linux but otherwise, barely anyone noticed. Boring is good. I decided to have a poke at my own Claude Code installation to see if I could find evidence</summary>
+    <summary>Perplexity's WANDR is an open benchmark and evaluation harness with 500 evidence-heavy tasks. It tests whether research agents can discover many qualifying entities and back each one with cited, re-verifiable evidence. Perplexity Search as Code leads at 0.363 soft F1 and 0.133 hard F1. The post Perplexity AI Releases W</summary>
   </entry>
   <entry>
     <title>India’s Private Lenders Bet on Corporate Loan Revival for Growth</title>
@@ -69,15 +79,6 @@
     <summary>India’s top private banks are betting on a sustained pick up in lending after reporting healthy numbers in the first quarter of the fiscal year, as more companies shift away from pricier bond market borrowings to cheaper loans.</summary>
   </entry>
   <entry>
-    <title>Kimi K3 vs DeepSeek V4 Pro vs GLM-5.2: Open Trillion-Scale MoE Models Compared on Benchmarks, License, and Serving Cost</title>
-    <link href="https://www.marktechpost.com/2026/07/18/kimi-k3-vs-deepseek-v4-pro-vs-glm-5-2-open-trillion-scale-moe-models-compared-on-benchmarks-license-and-serving-cost/"/>
-    <id>https://www.marktechpost.com/2026/07/18/kimi-k3-vs-deepseek-v4-pro-vs-glm-5-2-open-trillion-scale-moe-models-compared-on-benchmarks-license-and-serving-cost/</id>
-    <updated>2026-07-19T01:41:33.000Z</updated>
-    <author><name>MarkTechPost</name></author>
-    <category term="RESEARCH"/>
-    <summary>Three open MoE flagships face off on measured intelligence, MIT versus Modified MIT weights, and real serving cost The post Kimi K3 vs DeepSeek V4 Pro vs GLM-5.2: Open Trillion-Scale MoE Models Compared on Benchmarks, License, and Serving Cost appeared first on MarkTechPost .</summary>
-  </entry>
-  <entry>
     <title>Anthropic slashes Claude Fable 5 limits in Max and Team Premium and pushes Pro users toward API pricing</title>
     <link href="https://the-decoder.com/anthropic-slashes-claude-fable-5-limits-in-max-and-team-premium-and-pushes-pro-users-toward-api-pricing/"/>
     <id>https://the-decoder.com/anthropic-slashes-claude-fable-5-limits-in-max-and-team-premium-and-pushes-pro-users-toward-api-pricing/</id>
@@ -87,22 +88,31 @@
     <summary>Anthropic will include Claude Fable 5 in Max and Team Premium plans starting July 20, but at just 50 percent of regular limits, which themselves drop by a third that same day. Pro users get a one-time $100 credit, then pay API rates. The reversal from Anthropic's original plan to pull Fable from subscriptions entirely </summary>
   </entry>
   <entry>
+    <title>Scrying the AMD GFX1250 LLVM Tea Leaves</title>
+    <link href="https://chipsandcheese.com/p/scrying-the-amd-gfx1250-llvm-tea"/>
+    <id>https://chipsandcheese.com/p/scrying-the-amd-gfx1250-llvm-tea</id>
+    <updated>2026-07-19T03:21:03.000Z</updated>
+    <author><name>Chips and Cheese</name></author>
+    <category term="HARDWARE"/>
+    <summary>In just a few short days, AMD will be showing off their brand new MI400 series of Datacenter Accelerators at their Advancing AI event but before that event comes, we thought it would be fun to attempt to scry the tea leaves that are LLVM commits to see what we can ascertain about this next generation of AMD accelerator</summary>
+  </entry>
+  <entry>
     <title>Alibaba open-sources its chip software, following similar plays from Huawei and Moore Threads, as Chinese GPU makers try to break the dominance of Nvidia's CUDA (Ann Cao/South China Morning Post)</title>
     <link href="https://www.techmeme.com/260718/p18#a260718p18"/>
     <id>https://www.techmeme.com/260718/p18#a260718p18</id>
     <updated>2026-07-19T03:40:02.000Z</updated>
     <author><name>Techmeme</name></author>
-    <category term="HARDWARE"/>
+    <category term="OPEN SOURCE"/>
     <summary>Ann Cao / South China Morning Post : Alibaba open-sources its chip software, following similar plays from Huawei and Moore Threads, as Chinese GPU makers try to break the dominance of Nvidia's CUDA — The firm's chip unit T-Head aims to lower migration barriers to Zhenwu AI computing architectures, following similar ini</summary>
   </entry>
   <entry>
-    <title>Takeaways from the Australian AI Safety Forum</title>
-    <link href="https://www.lesswrong.com/posts/pq78rH7YAM5PQMYXw/takeaways-from-the-australian-ai-safety-forum"/>
-    <id>https://www.lesswrong.com/posts/pq78rH7YAM5PQMYXw/takeaways-from-the-australian-ai-safety-forum</id>
-    <updated>2026-07-19T03:32:13.000Z</updated>
+    <title>A peek into the post-capitalist dystopia</title>
+    <link href="https://www.lesswrong.com/posts/3BqAGpiK3wYPiedxk/a-peek-into-the-post-capitalist-dystopia"/>
+    <id>https://www.lesswrong.com/posts/3BqAGpiK3wYPiedxk/a-peek-into-the-post-capitalist-dystopia</id>
+    <updated>2026-07-19T07:10:10.000Z</updated>
     <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>On 7 and 8 July, I attended the Australian AI Safety Forum 2026 at The University of Sydney. It was two days of big ideas and diverse perspectives. Researchers, policymakers, industry practitioners and civil society groups were all brought together to examine the same problem from a variety of different angles. As a so</summary>
+    <summary>I recently took the proverbial “tech” pill and decided, like many other twenty-somethings, to spend my summer in San Francisco with the intent of getting an inside track on the latest developments in techno-capitalism, self-improving AI technologies, and hyper-optimized wellness stacks. And as much as I have enjoyed bu</summary>
   </entry>
   <entry>
     <title>Open-weight models now match frontier cyber performance from just four months ago at a fraction of the cost</title>
@@ -132,6 +142,15 @@
     <summary>Public exploits have been released for the critical &quot;wp2shell&quot; remote code execution vulnerabilities affecting WordPress Core, making it imperative that administrators patch their sites immediately. [...]</summary>
   </entry>
   <entry>
+    <title>Claude Code uses Bun written in Rust now</title>
+    <link href="https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything"/>
+    <id>https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything</id>
+    <updated>2026-07-19T03:54:09.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="ANALYSIS"/>
+    <summary>In Rewriting Bun in Rust Jarred Sumner made the following claim: Claude Code v2.1.181 (released June 17th) and later use the Rust port of Bun. Startup got 10% faster on Linux but otherwise, barely anyone noticed. Boring is good. I decided to have a poke at my own Claude Code installation to see if I could find evidence</summary>
+  </entry>
+  <entry>
     <title>'World's 1st mass-produced humanoid robot' motors to market in China</title>
     <link href="https://newatlas.com/robotics/u1-worlds-first-mass-produced-humanoid-robot/"/>
     <id>https://newatlas.com/robotics/u1-worlds-first-mass-produced-humanoid-robot/</id>
@@ -150,13 +169,22 @@
     <summary>A week ago, a philosopher named Amit Hagar put out a preprint entitled The NISQ Trap: Eight Years of Demonstrations the Hardware was Built to Lose. Here’s the abstract: With a single clear exception, every NISQ-era flagship demonstration of ‘quantum advantage’ has, within eighteen months of its announcement, been class</summary>
   </entry>
   <entry>
-    <title>claude-code v2.1.215 released</title>
-    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.215"/>
-    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.215</id>
-    <updated>2026-07-19T02:56:01.000Z</updated>
-    <author><name>anthropics/claude-code</name></author>
+    <title>litellm v1.93.0 released</title>
+    <link href="https://github.com/BerriAI/litellm/releases/tag/v1.93.0"/>
+    <id>https://github.com/BerriAI/litellm/releases/tag/v1.93.0</id>
+    <updated>2026-07-19T07:57:31.000Z</updated>
+    <author><name>BerriAI/litellm</name></author>
     <category term="GITHUB REPOS"/>
-    <summary>What's changed Claude no longer runs the /verify and /code-review skills on its own; invoke them with /verify or /code-review when you want them</summary>
+    <summary>Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original sig</summary>
+  </entry>
+  <entry>
+    <title>AI text detectors struggle when language models mimic an author's style</title>
+    <link href="https://the-decoder.com/ai-text-detectors-struggle-when-language-models-mimic-an-authors-style/"/>
+    <id>https://the-decoder.com/ai-text-detectors-struggle-when-language-models-mimic-an-authors-style/</id>
+    <updated>2026-07-19T08:35:26.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Epoch AI tested three leading AI text detectors (Pangram, GPTZero, and Originality.ai) using style-imitated texts. Up to 18 percent of AI-generated passages went undetected. For scientific writing, the miss rate climbed as high as 48 percent, the very genre where these detectors likely see the most real-world use. The </summary>
   </entry>
   <entry>
     <title>Analysis: OpenAI and Anthropic employees are donating to campaigns more heavily and cohesively than Google, Meta, and Airbnb employees did post-IPO (Alexandra Lindsay/The San Francisco ...)</title>
@@ -171,37 +199,28 @@
     <title>Victoria announces new social media ‘demasking’ powers for accounts accused of vilification</title>
     <link href="https://www.theguardian.com/australia-news/2026/jul/19/victoria-proposes-social-media-account-identification-powers"/>
     <id>https://www.theguardian.com/australia-news/2026/jul/19/victoria-proposes-social-media-account-identification-powers</id>
-    <updated>2026-07-19T06:11:03.000Z</updated>
+    <updated>2026-07-19T07:22:01.000Z</updated>
     <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
     <summary>New laws would give Vcat power to force social and AI platforms to identify anonymous users in move premier says will protect children Get our breaking news email , free app or daily news podcast Social media companies could be forced to identify anonymous accounts accused of online vilification, under new laws being p</summary>
   </entry>
   <entry>
-    <title>&quot;First (Qwen3.6-37B) finetune I'd recommend&quot;</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1v0i4mi/first_qwen3637b_finetune_id_recommend/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1v0i4mi/first_qwen3637b_finetune_id_recommend/</id>
-    <updated>2026-07-19T05:43:07.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>The Future of Age Verification: Your Face Never Leaves Your Device</title>
+    <link href="https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device/"/>
+    <id>https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device/</id>
+    <updated>2026-07-18T13:15:24.000Z</updated>
+    <author><name>BleepingComputer</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>https://youtu.be/vERb6uIscKo Highlights: * memory test: BottleCap slightly better * Agency test: base did tiny bit better, but BC took 2/3 of the time * OpenAI Human Eval, graded slightly better but again BC was 30% faster * coding test about the same submitted by /u/tomByrer [link] [comments]</summary>
+    <summary>As age verification laws expand worldwide, organizations face growing pressure to protect users' privacy while meeting regulatory requirements. Incode explains how on-device age estimation verifies age without transmitting or storing facial images, reducing biometric privacy risks while supporting compliance. [...]</summary>
   </entry>
   <entry>
-    <title>I built an interactive 3D visualizer for transformer architectures and live LLM inference</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1v0i6f9/i_built_an_interactive_3d_visualizer_for/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1v0i6f9/i_built_an_interactive_3d_visualizer_for/</id>
-    <updated>2026-07-19T05:45:55.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>ollama v0.32.1 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.32.1"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.32.1</id>
+    <updated>2026-07-16T18:49:37.000Z</updated>
+    <author><name>ollama/ollama</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Hi everyone! I've been working on an open-source project called LLM Studio. The goal is simple: make transformer models easier to understand by visualizing real model architecture and real inference instead of static diagrams. Current features include: • 3D architecture explorer • Live inference visualization • Tensor </summary>
-  </entry>
-  <entry>
-    <title>10 Open-Source No-Code AI Platforms for Building LLM Apps, RAG Systems, and AI Agents</title>
-    <link href="https://www.marktechpost.com/2026/07/18/10-open-source-no-code-ai-platforms-for-building-llm-apps-rag-systems-and-ai-agents/"/>
-    <id>https://www.marktechpost.com/2026/07/18/10-open-source-no-code-ai-platforms-for-building-llm-apps-rag-systems-and-ai-agents/</id>
-    <updated>2026-07-19T05:53:19.000Z</updated>
-    <author><name>MarkTechPost</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Retrieval, agents, and workflows now ship as visual and plain-English tools. This roundup covers 10 open-source no-code and low-code platforms for building LLM apps, RAG systems, and AI agents, each with its verified license, repository, and best-fit use case. The post 10 Open-Source No-Code AI Platforms for Building L</summary>
+    <summary>What's Changed Improved Gemma 4 tool calling and multi-turn reasoning, including more reliable tool-response continuations Fixed a recurrent MLX model cache leak that could increase memory use across requests, and improved cache snapshot performance MLX text model loading now respects OLLAMA_LOAD_TIMEOUT Agent web sear</summary>
   </entry>
   <entry>
     <title>Desktop Canary v2.2.11-canary.44</title>
@@ -213,31 +232,31 @@
     <summary>🐤 Canary Build — v2.2.11-canary.44 Automated canary build from canary branch. Commit Information Based on changes since v2.2.11-canary.43 Commit count: 1 bbb7a03dcc ✨ feat(cli): edit agencyConfig via agent edit --agency-config-file ( #17326 ) (Arvin Xu) ⚠️ Important Notes This is an automated canary build and is NOT i</summary>
   </entry>
   <entry>
-    <title>Jingye Says It Reserves Legal Rights in UK Steel Nationalization</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-19/jingye-says-it-reserves-legal-rights-in-uk-steel-nationalization"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-19/jingye-says-it-reserves-legal-rights-in-uk-steel-nationalization</id>
-    <updated>2026-07-19T05:00:13.000Z</updated>
+    <title>Caspian Pipeline Consortium Halts Loadings After Drone Strike</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-19/caspian-pipeline-consortium-halts-loadings-after-drone-strike"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-19/caspian-pipeline-consortium-halts-loadings-after-drone-strike</id>
+    <updated>2026-07-19T08:03:40.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Jingye Steel Co. has reserved all legal rights, including international arbitration, over the UK government’s nationalization of British Steel.</summary>
+    <summary>Oil loading at the Caspian Pipeline Consortium’s terminal on Russia’s Black Sea coast was halted after a drone strike.</summary>
   </entry>
   <entry>
-    <title>Xpeng says China close to building ‘killer’ rival to Tesla Model Y</title>
-    <link href="https://www.ft.com/content/5a8dc7cd-35c8-4aeb-8f09-1df8afb2cf2e?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/5a8dc7cd-35c8-4aeb-8f09-1df8afb2cf2e?syn-25a6b1a6=1</id>
-    <updated>2026-07-19T04:00:20.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
+    <title>US, Iran Trade More Attacks After Two Troops Killed in Jordan</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-19/us-iran-trade-more-attacks-after-two-troops-killed-in-jordan"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-19/us-iran-trade-more-attacks-after-two-troops-killed-in-jordan</id>
+    <updated>2026-07-19T06:58:45.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Elon Musk’s SUV remains top-selling electric vehicle in many parts of the world as well as second most popular in China</summary>
+    <summary>The US and Iran engaged in another wave of tit-for-tat attacks, signaling no let-up after strikes by the Islamic Republic killed two American service members in Jordan on Friday.</summary>
   </entry>
   <entry>
-    <title>Fine-Tuning Qwen3 with LoRA Using NVIDIA NeMo AutoModel: A Complete Single-GPU Google Colab Workflow Tutorial</title>
-    <link href="https://www.marktechpost.com/2026/07/18/fine-tuning-qwen3-with-lora-using-nvidia-nemo-automodel-a-complete-single-gpu-google-colab-workflow-tutorial/"/>
-    <id>https://www.marktechpost.com/2026/07/18/fine-tuning-qwen3-with-lora-using-nvidia-nemo-automodel-a-complete-single-gpu-google-colab-workflow-tutorial/</id>
-    <updated>2026-07-19T01:08:52.000Z</updated>
+    <title>Kimi K3 vs DeepSeek V4 Pro vs GLM-5.2: Open Trillion-Scale MoE Models Compared on Benchmarks, License, and Serving Cost</title>
+    <link href="https://www.marktechpost.com/2026/07/18/kimi-k3-vs-deepseek-v4-pro-vs-glm-5-2-open-trillion-scale-moe-models-compared-on-benchmarks-license-and-serving-cost/"/>
+    <id>https://www.marktechpost.com/2026/07/18/kimi-k3-vs-deepseek-v4-pro-vs-glm-5-2-open-trillion-scale-moe-models-compared-on-benchmarks-license-and-serving-cost/</id>
+    <updated>2026-07-19T01:41:33.000Z</updated>
     <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
-    <summary>We build an end-to-end NVIDIA NeMo AutoModel workflow in Google Colab using a single GPU. We verify CUDA hardware and precision support, install NeMo AutoModel from source, and load an official Qwen3-0.6B LoRA recipe. We then adapt its precision, batch size, checkpointing, and scheduler settings for a constrained runti</summary>
+    <summary>Three open MoE flagships face off on measured intelligence, MIT versus Modified MIT weights, and real serving cost The post Kimi K3 vs DeepSeek V4 Pro vs GLM-5.2: Open Trillion-Scale MoE Models Compared on Benchmarks, License, and Serving Cost appeared first on MarkTechPost .</summary>
   </entry>
   <entry>
     <title>Nvidia RTX 50 Super GPUs are reportedly ready, but stuck in limbo due to excessive GDDR7 pricing — 3GB GDDR7 module costs triple the price of 2GB</title>
@@ -256,23 +275,5 @@
     <author><name>GitHub Copilot Changelog</name></author>
     <category term="PRODUCTS"/>
     <summary>The Copilot usage metrics REST API now reports repository-level activity. Two new endpoints return a daily, per-repository breakdown of pull request activity for Copilot coding agent and Copilot code review.… The post Repository-level GitHub Copilot usage metrics generally available appeared first on The GitHub Blog . — Also covered by: GitHub Copilot Changelog</summary>
-  </entry>
-  <entry>
-    <title>Scrying the AMD GFX1250 LLVM Tea Leaves</title>
-    <link href="https://chipsandcheese.com/p/scrying-the-amd-gfx1250-llvm-tea"/>
-    <id>https://chipsandcheese.com/p/scrying-the-amd-gfx1250-llvm-tea</id>
-    <updated>2026-07-19T03:21:03.000Z</updated>
-    <author><name>Chips and Cheese</name></author>
-    <category term="HARDWARE"/>
-    <summary>In just a few short days, AMD will be showing off their brand new MI400 series of Datacenter Accelerators at their Advancing AI event but before that event comes, we thought it would be fun to attempt to scry the tea leaves that are LLVM commits to see what we can ascertain about this next generation of AMD accelerator</summary>
-  </entry>
-  <entry>
-    <title>A profile of businessman Sebastian Rucci, whose past ventures were subject to legal probes, as he bids to build California's biggest data center, a $10B project (Zusha Elinson/Wall Street Journal)</title>
-    <link href="https://www.techmeme.com/260719/p3#a260719p3"/>
-    <id>https://www.techmeme.com/260719/p3#a260719p3</id>
-    <updated>2026-07-19T05:20:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="HARDWARE"/>
-    <summary>Zusha Elinson / Wall Street Journal : A profile of businessman Sebastian Rucci, whose past ventures were subject to legal probes, as he bids to build California's biggest data center, a $10B project — Sebastian Rucci's past has become a theme in opposition to his proposal. He counters: 'Do I look like a guy that's goin</summary>
   </entry>
 </feed>
