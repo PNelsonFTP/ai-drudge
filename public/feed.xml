@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-07-21T18:21:52.106Z</updated>
+  <updated>2026-07-21T20:23:03.996Z</updated>
   <entry>
     <title>Google releases three new Gemini models — but no 3.5 Pro</title>
     <link href="https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/"/>
@@ -30,7 +30,7 @@
     <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.20.1</id>
     <updated>2026-07-21T17:04:47.000Z</updated>
     <author><name>QwenLM/qwen-code</name></author>
-    <category term="MODEL RELEASES"/>
+    <category term="CYBER DEFENSE"/>
     <summary>Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features feat(autofix): label-driven takeover and release; fix forced-dispatch green no-op ( #7165 ) by @wenshao feat(autofix): direct takeover of maintainer-fork PRs ( #7213 ) by @wenshao feat(daemon): Adver — Also covered by: anthropics/claude-code</summary>
   </entry>
   <entry>
@@ -43,22 +43,31 @@
     <summary>OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.</summary>
   </entry>
   <entry>
-    <title>Block launches Buzz, an open source collaboration workspace on Nostr protocol for humans and AI agents to share messages, code repositories, workflows, and more (Block)</title>
-    <link href="https://www.techmeme.com/260721/p39#a260721p39"/>
-    <id>https://www.techmeme.com/260721/p39#a260721p39</id>
-    <updated>2026-07-21T17:30:01.000Z</updated>
+    <title>Poolside launches Laguna S 2.1, an 118B open-weight model built for agentic coding and long-horizon work, that it says competes with larger open models (Iain Martin/Forbes)</title>
+    <link href="https://www.techmeme.com/260721/p42#a260721p42"/>
+    <id>https://www.techmeme.com/260721/p42#a260721p42</id>
+    <updated>2026-07-21T19:15:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Block : Block launches Buzz, an open source collaboration workspace on Nostr protocol for humans and AI agents to share messages, code repositories, workflows, and more — Open Source, Decentralized Technology, Developers, AI, Technology — TODAY WE'RE RELEASING Buzz, A FREE …</summary>
+    <summary>Iain Martin / Forbes : Poolside launches Laguna S 2.1, an 118B open-weight model built for agentic coding and long-horizon work, that it says competes with larger open models — Chinese open-source models like Kimi, Deepseek and Qwen are now dominant AI tools. American upstarts like Mira Murati's Thinking Machines …</summary>
   </entry>
   <entry>
-    <title>llama.cpp b10076 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10076"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10076</id>
-    <updated>2026-07-21T15:54:33.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>New Model: Nanbeige4.2-3B (Looped Transformer, outperforms 4x size)</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1v2n7l6/new_model_nanbeige423b_looped_transformer/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1v2n7l6/new_model_nanbeige423b_looped_transformer/</id>
+    <updated>2026-07-21T16:21:12.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>CUDA: vectorize same-type get_rows with int4 copy ( #25929 ) k_get_rows_float did a scalar one-element-per-thread copy and recomputed the row-invariant work (index load, fast_div_modulo, src/dst row pointers) for every element. Hoist that out of the per-element loop, and add a vectorized path (k_get_rows_float_vec) tha</summary>
+    <summary>https://huggingface.co/Nanbeige/Nanbeige4.2-3B Nanbeige4.2-3B is a compact agentic model built on Nanbeige4.2-3B-Base , designed to combine strong agentic behavior with broad reasoning and alignment capabilities. Its Looped Transformer architecture reuses the transformer layers to increase model capacity without adding</summary>
+  </entry>
+  <entry>
+    <title>ollama v0.32.2 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.32.2-rc2"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.32.2-rc2</id>
+    <updated>2026-07-21T19:56:41.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>What's Changed launch: keep Claude Code channels available by @hoyyeva in #17210 cmd: remove dead agent prompt wrappers by @ParthSareen in #17227 agent: reorder working directory instruction by @ParthSareen in #17228 agent: clean up semantics, UX, DX, and procedural code by @ParthSareen in #17212 agent: allow unlimited</summary>
   </entry>
   <entry>
     <title>Iberdrola Agrees to Buy 80% Stake in Caruna for €2 Billion</title>
@@ -70,13 +79,13 @@
     <summary>Iberdrola SA agreed to buy an 80% stake in Finland’s main electricity distribution network Caruna Group for €2 billion ($2.3 billion).</summary>
   </entry>
   <entry>
-    <title>Exploring self-distilled reasoning for supervised fine-tuning with Amazon Nova</title>
-    <link href="https://aws.amazon.com/blogs/machine-learning/exploring-self-distilled-reasoning-for-supervised-fine-tuning-with-amazon-nova/"/>
-    <id>https://aws.amazon.com/blogs/machine-learning/exploring-self-distilled-reasoning-for-supervised-fine-tuning-with-amazon-nova/</id>
-    <updated>2026-07-21T16:23:12.000Z</updated>
-    <author><name>AWS ML Blog</name></author>
+    <title>OpenAI says its models, including GPT-5.6 Sol and &quot;an even more capable pre-release model&quot;, breached Hugging Face during internal cyber benchmark tests (Ina Fried/Axios)</title>
+    <link href="https://www.techmeme.com/260721/p43#a260721p43"/>
+    <id>https://www.techmeme.com/260721/p43#a260721p43</id>
+    <updated>2026-07-21T19:55:02.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="RESEARCH"/>
-    <summary>In this post, we explore an idea for generating thinking tokens for datasets that lack reasoning traces in SFT customization. We first examine the reasoning suppression problem, then introduce Self-Distilled Reasoning (SDR), validate it across three benchmarks, and provide practical recommendations.</summary>
+    <summary>Ina Fried / Axios : OpenAI says its models, including GPT-5.6 Sol and “an even more capable pre-release model”, breached Hugging Face during internal cyber benchmark tests — OpenAI said Tuesday that models it was testing escaped their sandbox and compromised parts of AI platform Hugging Face's production infrastructure</summary>
   </entry>
   <entry>
     <title>NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide</title>
@@ -97,13 +106,13 @@
     <summary>Also, economists and mathematicians expect near-term AI impacts, and AI 2040: Plan A</summary>
   </entry>
   <entry>
-    <title>Google launches a cheaper alternative to large AI security models like Mythos</title>
-    <link href="https://www.theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model"/>
-    <id>https://www.theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model</id>
-    <updated>2026-07-21T15:00:00.000Z</updated>
-    <author><name>The Verge AI</name></author>
+    <title>How Straiker Secures Claude with the Claude Compliance API | Straiker</title>
+    <link href="https://www.straiker.ai/blog/how-straiker-secures-claude"/>
+    <id>https://www.straiker.ai/blog/how-straiker-secures-claude</id>
+    <updated>2026-07-21T19:30:00.000Z</updated>
+    <author><name>Straiker STAR</name></author>
     <category term="AI SECURITY"/>
-    <summary>Google is launching Gemini 3.6 Flash alongside a new security model dedicated to quickly finding and patching security vulnerabilities. In a blog post on Tuesday, Google describes Gemini 3.5 Flash Cyber as a &quot;cost-efficient and highly capable alternative&quot; to larger, more expensive AI systems, such as the one offered by</summary>
+    <summary>Straiker secures Claude Chat, Cowork, and Code with runtime detection at 98.1 to 99 percent, full traceability, and a Skills and MCP scanner that stops indirect prompt injection. Now part of Wave 3 of the Claude Compliance API.</summary>
   </entry>
   <entry>
     <title>Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities</title>
@@ -111,17 +120,17 @@
     <id>https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html</id>
     <updated>2026-07-21T15:09:28.000Z</updated>
     <author><name>The Hacker News</name></author>
-    <category term="CYBER THREATS"/>
+    <category term="CYBER DEFENSE"/>
     <summary>Google's DeepMind on Tuesday announced the release of Gemini 3.5 Flash Cyber, a specialized artificial intelligence (AI) model built atop 3.5 Flash that's designed to discover, validate, and patch vulnerabilities quickly and efficiently. According to the tech giant, the model will be exclusively available to government</summary>
   </entry>
   <entry>
-    <title>Closing The Series A Gap Is The Next Great Opportunity For Black Founders In The AI Era</title>
-    <link href="https://news.crunchbase.com/venture/seriesa-seed-gap-underrepresented-founders-ai-norman-green-black-ops/"/>
-    <id>https://news.crunchbase.com/venture/seriesa-seed-gap-underrepresented-founders-ai-norman-green-black-ops/</id>
-    <updated>2026-07-21T11:00:16.000Z</updated>
-    <author><name>Crunchbase News AI</name></author>
+    <title>OpenAI and Hugging Face partner to address security incident during model evaluation</title>
+    <link href="https://openai.com/index/hugging-face-model-evaluation-security-incident"/>
+    <id>https://openai.com/index/hugging-face-model-evaluation-security-incident</id>
+    <updated>2026-07-21T07:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
     <category term="FUNDING &amp; DEALS"/>
-    <summary>While 2026 has shown encouraging signs, with Black-founded startups raising approximately $643 million by late May, the strongest quarter since mid-2022, the improvement was driven largely by a handful of unusually large financings. James Norman and Sean Green, co-founders of Black Operator Ventures share their thought</summary>
+    <summary>OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.</summary>
   </entry>
   <entry>
     <title>A Fireside Chat with Cat and Thariq from the Claude Code team</title>
@@ -133,22 +142,22 @@
     <summary>Earlier this month I hosted a fireside chat session at the AI Engineer World's Fair with Cat Wu and Thariq Shihipar from Anthropic's Claude Code team. We talked about Claude Code, Claude Tag, Fable, coding agent security, evals, tool design, and how Anthropic use these tools themselves. The full video of the session is</summary>
   </entry>
   <entry>
-    <title>MISUMI Americas releases reshoring report, supports manufacturing training bill</title>
-    <link href="https://www.therobotreport.com/misumi-americas-releases-reshoring-report-supports-manufacturing-training-bill/"/>
-    <id>https://www.therobotreport.com/misumi-americas-releases-reshoring-report-supports-manufacturing-training-bill/</id>
-    <updated>2026-07-21T13:00:59.000Z</updated>
+    <title>Generative Bionics unveils humanoid robot with full-body tactile sensing</title>
+    <link href="https://www.therobotreport.com/generative-bionics-unveils-humanoid-robot-with-full-body-tactile-sensing/"/>
+    <id>https://www.therobotreport.com/generative-bionics-unveils-humanoid-robot-with-full-body-tactile-sensing/</id>
+    <updated>2026-07-21T19:44:26.000Z</updated>
     <author><name>The Robot Report</name></author>
     <category term="ROBOTICS"/>
-    <summary>MISUMI Americas has examined reshoring of U.S. manufacturing and supported legislation to send workers overseas for training. The post MISUMI Americas releases reshoring report, supports manufacturing training bill appeared first on The Robot Report .</summary>
+    <summary>Generative Bionics said its Gene.01 humanoid is fully sensorized, helping it quickly anticipate human presence and respond. The post Generative Bionics unveils humanoid robot with full-body tactile sensing appeared first on The Robot Report .</summary>
   </entry>
   <entry>
-    <title>Photon Queue Raises $4 Million Oversubscribed Seed Round</title>
-    <link href="https://thequantuminsider.com/2026/07/21/photon-queue-raises-4-millionoversubscribed-seed-round/"/>
-    <id>https://thequantuminsider.com/2026/07/21/photon-queue-raises-4-millionoversubscribed-seed-round/</id>
-    <updated>2026-07-21T12:49:46.000Z</updated>
+    <title>Galaxy Commits $5 Million to Prepare Bitcoin for Quantum Computing Threat</title>
+    <link href="https://thequantuminsider.com/2026/07/21/galaxy-commits-5-million-to-prepare-bitcoin-for-quantum-computing-threat/"/>
+    <id>https://thequantuminsider.com/2026/07/21/galaxy-commits-5-million-to-prepare-bitcoin-for-quantum-computing-threat/</id>
+    <updated>2026-07-21T18:46:30.000Z</updated>
     <author><name>The Quantum Insider</name></author>
     <category term="QUANTUM"/>
-    <summary>Insider Brief PRESS RELEASE — Photon Queue, a quantum technology company building high-efficiency quantum memories for next-generation quantum computing systems, today announced the close of its oversubscribed seed funding round of $4 million, led by Playground Global. The seed round builds on Photon Queue’s early cust</summary>
+    <summary>Insider Brief Galaxy Digital has launched the Galaxy Bitcoin Quantum Readiness Initiative, committing up to $5 million toward developer grants, a dedicated research program, and a new advisory council focused on protecting Bitcoin’s cryptographic foundation from future quantum computing attacks. The digital asset and d</summary>
   </entry>
   <entry>
     <title>Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber</title>
@@ -160,58 +169,31 @@
     <summary>We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.</summary>
   </entry>
   <entry>
-    <title>Microsoft and Mistral strike multi-billion-dollar deal to build AI infrastructure across Europe</title>
-    <link href="https://the-decoder.com/microsoft-and-mistral-strike-multi-billion-dollar-deal-to-build-ai-infrastructure-across-europe/"/>
-    <id>https://the-decoder.com/microsoft-and-mistral-strike-multi-billion-dollar-deal-to-build-ai-infrastructure-across-europe/</id>
-    <updated>2026-07-21T15:07:22.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Microsoft and Mistral are expanding their strategic partnership with a multi-billion-dollar deal to build out AI infrastructure in Europe. The article Microsoft and Mistral strike multi-billion-dollar deal to build AI infrastructure across Europe appeared first on The Decoder .</summary>
-  </entry>
-  <entry>
-    <title>Some Instagram and Facebook users say Meta's AI moderation deleted their accounts; Meta says AI makes 13% fewer errors and finds 10% more violations than humans (New York Times)</title>
-    <link href="https://www.techmeme.com/260721/p41#a260721p41"/>
-    <id>https://www.techmeme.com/260721/p41#a260721p41</id>
-    <updated>2026-07-21T18:20:02.000Z</updated>
+    <title>Block launches Buzz, an open source collaboration workspace on Nostr protocol for humans and AI agents to share messages, code repositories, workflows, and more (Block)</title>
+    <link href="https://www.techmeme.com/260721/p39#a260721p39"/>
+    <id>https://www.techmeme.com/260721/p39#a260721p39</id>
+    <updated>2026-07-21T17:30:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>New York Times : Some Instagram and Facebook users say Meta's AI moderation deleted their accounts; Meta says AI makes 13% fewer errors and finds 10% more violations than humans — Users said the technology mistakenly deleted their accounts. To resolve the issue, they still had to rely on A.I.</summary>
+    <summary>Block : Block launches Buzz, an open source collaboration workspace on Nostr protocol for humans and AI agents to share messages, code repositories, workflows, and more — Open Source, Decentralized Technology, Developers, AI, Technology — TODAY WE'RE RELEASING Buzz, A FREE …</summary>
   </entry>
   <entry>
-    <title>Anthropic claims local models are stealing from it, meanwhile it pays $1.5B for theft</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1v2ky1e/anthropic_claims_local_models_are_stealing_from/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1v2ky1e/anthropic_claims_local_models_are_stealing_from/</id>
-    <updated>2026-07-21T15:00:56.000Z</updated>
+    <title>llama.cpp b10076 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10076"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10076</id>
+    <updated>2026-07-21T15:54:33.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>CUDA: vectorize same-type get_rows with int4 copy ( #25929 ) k_get_rows_float did a scalar one-element-per-thread copy and recomputed the row-invariant work (index load, fast_div_modulo, src/dst row pointers) for every element. Hoist that out of the per-element loop, and add a vectorized path (k_get_rows_float_vec) tha</summary>
+  </entry>
+  <entry>
+    <title>Updated Gemma-4 chat template witchcraft: Gemma-4-26B-a4B shows dominance over Qwen3.6-MoE and Qwen3.5-MoE fine tunes (Instruct mode and Reasoning efficiency)</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1v2rqbd/updated_gemma4_chat_template_witchcraft/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1v2rqbd/updated_gemma4_chat_template_witchcraft/</id>
+    <updated>2026-07-21T18:58:08.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>$1.5 billion settlement largest known payout in U.S. copyright case Case part of a wave of lawsuits from copyright holders against AI companies Some authors and publishers opted out and continue separate ​cases against Anthropic submitted by /u/Terminator857 [link] [comments]</summary>
-  </entry>
-  <entry>
-    <title>New Model: Nanbeige4.2-3B (Looped Transformer, outperforms 4x size)</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1v2n7l6/new_model_nanbeige423b_looped_transformer/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1v2n7l6/new_model_nanbeige423b_looped_transformer/</id>
-    <updated>2026-07-21T16:21:12.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>https://huggingface.co/Nanbeige/Nanbeige4.2-3B Nanbeige4.2-3B is a compact agentic model built on Nanbeige4.2-3B-Base , designed to combine strong agentic behavior with broad reasoning and alignment capabilities. Its Looped Transformer architecture reuses the transformer layers to increase model capacity without adding</summary>
-  </entry>
-  <entry>
-    <title>ollama v0.32.2 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.32.2-rc0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.32.2-rc0</id>
-    <updated>2026-07-20T21:00:30.000Z</updated>
-    <author><name>ollama/ollama</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>What's Changed launch: keep Claude Code channels available by @hoyyeva in #17210 cmd: remove dead agent prompt wrappers by @ParthSareen in #17227 agent: reorder working directory instruction by @ParthSareen in #17228 agent: clean up semantics, UX, DX, and procedural code by @ParthSareen in #17212 agent: allow unlimited</summary>
-  </entry>
-  <entry>
-    <title>Building Governed Agents: A Framework for Cost, Control, and Compliance</title>
-    <link href="https://www.langchain.com/blog/building-governed-agents-a-framework-for-cost-control-and-compliance"/>
-    <id>https://www.langchain.com/blog/building-governed-agents-a-framework-for-cost-control-and-compliance</id>
-    <updated>2026-07-21T18:10:50.000Z</updated>
-    <author><name>LangChain Blog</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>The gateway is the runtime control plane for enterprise AI, turning policy into enforceable decisions across every model call, tool call, and agent hop.</summary>
+    <summary>Kind of unexpected. Happy for Gemma-4/Google, big win for us, LocalLLMers. Yet Qwen3.6 still does better in Hermes than Gemma-4 somehow. We need Gemma-4.1 fine-tuned on Agentic-tasks. That would be killer. submitted by /u/JLeonsarmiento [link] [comments]</summary>
   </entry>
   <entry>
     <title>Oaktree’s Poli Sees a $200 Billion ‘Distressed Moment’ Coming as Rates Stay High</title>
@@ -229,25 +211,25 @@
     <updated>2026-07-21T17:33:26.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>America’s Car-Mart Inc. thrived during a ‘90s slump, the 2008 financial crisis and the upheaval of Covid-19 by doing one thing well: selling and financing older, high-mileage used cars for cash-strapped, deeply-subprime buyers.</summary>
+    <summary>America’s Car-Mart Inc. thrived during a ’90s slump, the 2008 financial crisis and the upheaval of Covid-19 by doing one thing well: selling and financing older, high-mileage used cars for cash-strapped, deeply-subprime buyers.</summary>
   </entry>
   <entry>
-    <title>Diving Deeper on NVIDIA’s Vera CPU: New Architectural Details and SPEC CPU 2026 Benchmarks</title>
-    <link href="https://www.servethehome.com/diving-deeper-on-nvidias-vera-cpu-new-architectural-details-and-spec-cpu-2026-benchmarks/"/>
-    <id>https://www.servethehome.com/diving-deeper-on-nvidias-vera-cpu-new-architectural-details-and-spec-cpu-2026-benchmarks/</id>
-    <updated>2026-07-21T15:00:01.000Z</updated>
-    <author><name>ServeTheHome</name></author>
+    <title>Google Releases Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber: A Cheaper, More Token-Efficient Flash Tier Built for Agentic Workloads</title>
+    <link href="https://www.marktechpost.com/2026/07/21/google-releases-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber-a-cheaper-more-token-efficient-flash-tier-built-for-agentic-workloads/"/>
+    <id>https://www.marktechpost.com/2026/07/21/google-releases-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber-a-cheaper-more-token-efficient-flash-tier-built-for-agentic-workloads/</id>
+    <updated>2026-07-21T17:45:08.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
-    <summary>NVIDIA this morning has released a trove of new technical details on Vera, their upcoming server CPU, as well as the Olympus CPU core. The company is also publishing the first SPEC CPU 2026 benchmarks, giving us our best look yet at the performance of the chip The post Diving Deeper on NVIDIA’s Vera CPU: New Architectu</summary>
+    <summary>Google released Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber on July 21, 2026. The Flash tier gets cheaper and more token-efficient, with 3.6 Flash cutting output tokens 17% and dropping its output price to $7.50 per 1M. Flash-Lite runs at 350 tokens/sec, while gated Flash Cyber powers CodeMender for vulnerabi</summary>
   </entry>
   <entry>
-    <title>Nvidia deep dives Vera CPU for AI data centers — SPEC CPU 2026 benchmarks revealed, Olympus architecture specifics, and more</title>
-    <link href="https://www.tomshardware.com/pc-components/cpus/nvidia-spills-the-beans-on-vera-cpu-spec-benchmarks-revealed-olympus-architecture-detailed-and-more"/>
-    <id>https://www.tomshardware.com/pc-components/cpus/nvidia-spills-the-beans-on-vera-cpu-spec-benchmarks-revealed-olympus-architecture-detailed-and-more</id>
-    <updated>2026-07-21T15:00:00.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
+    <title>Validating Distributed LLM Serving Benchmarks with NVIDIA srt-slurm, SLURM Recipes, Parameter Sweeps, and Pareto Analysis</title>
+    <link href="https://www.marktechpost.com/2026/07/21/validating-distributed-llm-serving-benchmarks-with-nvidia-srt-slurm-slurm-recipes-parameter-sweeps-and-pareto-analysis/"/>
+    <id>https://www.marktechpost.com/2026/07/21/validating-distributed-llm-serving-benchmarks-with-nvidia-srt-slurm-slurm-recipes-parameter-sweeps-and-pareto-analysis/</id>
+    <updated>2026-07-21T16:29:36.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
-    <summary>Nvidia reveals all of the details about its Vera data center CPU, including an architectural breakdown of the Olympus core and the first (unofficial) SPEC CPU 2026 results.</summary>
+    <summary>In this tutorial, we explore NVIDIA’s srt-slurm framework and learn how we use srtctl to convert declarative YAML configurations into reproducible SLURM benchmark workflows for distributed LLM serving. We set up the project in Google Colab, inspect its internal architecture, define a cluster configuration, dry-run buil</summary>
   </entry>
   <entry>
     <title>Built for Vera Rubin, NVIDIA Spectrum-6 Arrives in Gigascale AI Factories</title>
@@ -259,6 +241,15 @@
     <summary>AI has entered the gigascale era. The world’s most advanced AI factories are bringing together hundreds of thousands of GPUs and CPUs to train frontier models, power agentic AI and generate intelligence at unprecedented scale. At this level, networking becomes a critical computing power multiplier in driving token gene</summary>
   </entry>
   <entry>
+    <title>Diving Deeper on NVIDIA’s Vera CPU: New Architectural Details and SPEC CPU 2026 Benchmarks</title>
+    <link href="https://www.servethehome.com/diving-deeper-on-nvidias-vera-cpu-new-architectural-details-and-spec-cpu-2026-benchmarks/"/>
+    <id>https://www.servethehome.com/diving-deeper-on-nvidias-vera-cpu-new-architectural-details-and-spec-cpu-2026-benchmarks/</id>
+    <updated>2026-07-21T15:00:01.000Z</updated>
+    <author><name>ServeTheHome</name></author>
+    <category term="HARDWARE"/>
+    <summary>NVIDIA this morning has released a trove of new technical details on Vera, their upcoming server CPU, as well as the Olympus CPU core. The company is also publishing the first SPEC CPU 2026 benchmarks, giving us our best look yet at the performance of the chip The post Diving Deeper on NVIDIA’s Vera CPU: New Architectu</summary>
+  </entry>
+  <entry>
     <title>LWiAI Podcast #247 - Opus 4.8, MAI, Anthropic IPO, Minimax-M3</title>
     <link href="https://lastweekin.ai/p/lwiai-podcast-247-opus-48-mai-anthropic"/>
     <id>https://lastweekin.ai/p/lwiai-podcast-247-opus-48-mai-anthropic</id>
@@ -268,12 +259,21 @@
     <summary>New Models, IPO Announcements, and the Rise of Open Source Competitors</summary>
   </entry>
   <entry>
-    <title>Open-Source Android AI Agents Could Let Invisible Screen Text Run Code on Host PCs</title>
-    <link href="https://thehackernews.com/2026/07/open-source-android-ai-agents-could-let.html"/>
-    <id>https://thehackernews.com/2026/07/open-source-android-ai-agents-could-let.html</id>
-    <updated>2026-07-21T11:58:00.000Z</updated>
-    <author><name>The Hacker News</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>An Android app that can draw over other windows and write to shared storage can slip instructions to the AI agent driving that phone, in text no human eye will ever see. Two more steps, and the same app is running commands on the PC driving the agent. Researchers demonstrated that chain, plus six other attacks, against</summary>
+    <title>I tried to stop Google DeepMind's Pentagon deal. Then I quit.</title>
+    <link href="https://www.transformernews.ai/p/i-tried-to-stop-google-deepmind-pentagon-deal-then-quit"/>
+    <id>https://www.transformernews.ai/p/i-tried-to-stop-google-deepmind-pentagon-deal-then-quit</id>
+    <updated>2026-07-21T14:02:23.000Z</updated>
+    <author><name>Transformer</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>Google DeepMind promised its AI would never be used in weapons. Alex Turner explains how he fought the company's U-turn from the inside — and why he quit when it failed</summary>
+  </entry>
+  <entry>
+    <title>Google launches a cheaper alternative to large AI security models like Mythos</title>
+    <link href="https://www.theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model"/>
+    <id>https://www.theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model</id>
+    <updated>2026-07-21T15:00:00.000Z</updated>
+    <author><name>The Verge AI</name></author>
+    <category term="AI SECURITY"/>
+    <summary>Google is launching Gemini 3.6 Flash alongside a new security model dedicated to quickly finding and patching security vulnerabilities. In a blog post on Tuesday, Google describes Gemini 3.5 Flash Cyber as a &quot;cost-efficient and highly capable alternative&quot; to larger, more expensive AI systems, such as the one offered by</summary>
   </entry>
 </feed>
