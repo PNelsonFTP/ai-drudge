@@ -5,7 +5,16 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-07-21T22:09:25.185Z</updated>
+  <updated>2026-07-22T00:01:08.778Z</updated>
+  <entry>
+    <title>OpenAI says Hugging Face was breached by its own pre-release models</title>
+    <link href="https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-own-pre-release-models/"/>
+    <id>https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-own-pre-release-models/</id>
+    <updated>2026-07-21T20:56:55.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>OpenAI has come forward to claim responsibility for the Hugging Face breach, saying it was the result of internal testing gone awry. — Also covered by: Bloomberg Tech</summary>
+  </entry>
   <entry>
     <title>Google releases three new Gemini models — but no 3.5 Pro</title>
     <link href="https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/"/>
@@ -25,76 +34,85 @@
     <summary>What's changed Added emoji shortcode autocomplete in the prompt input: type :heart: to insert ❤️, or :hea for suggestions — disable with the emojiCompletionEnabled setting Added warnings when transcript writes are failing (e.g. disk full) or when session saving is off due to an inherited environment variable, instead o — Also covered by: QwenLM/qwen-code</summary>
   </entry>
   <entry>
-    <title>Introducing the ChatGPT for small business program</title>
-    <link href="https://openai.com/index/introducing-chatgpt-small-business-program"/>
-    <id>https://openai.com/index/introducing-chatgpt-small-business-program</id>
-    <updated>2026-07-21T17:00:00.000Z</updated>
+    <title>OpenAI says it accidentally hacked Hugging Face with a new AI system</title>
+    <link href="https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai"/>
+    <id>https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai</id>
+    <updated>2026-07-21T21:48:54.000Z</updated>
+    <author><name>The Verge AI</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>OpenAI says its AI models mistakenly breached open-source AI platform Hugging Face during internal testing. In a blog post on Tuesday, OpenAI writes that GPT-5.6 Sol and &quot;an even more capable pre-release model&quot; discovered vulnerabilities within their sandboxed testing environment, allowing them to gain access to the in</summary>
+  </entry>
+  <entry>
+    <title>OpenAI and Hugging Face partner to address security incident during model evaluation</title>
+    <link href="https://openai.com/index/hugging-face-model-evaluation-security-incident"/>
+    <id>https://openai.com/index/hugging-face-model-evaluation-security-incident</id>
+    <updated>2026-07-21T07:00:00.000Z</updated>
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.</summary>
+    <summary>OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.</summary>
   </entry>
   <entry>
-    <title>France becomes the first European country to pass a law banning social media access for users under 15, potentially going into effect as soon as September 1 (Mark Landler/New York Times)</title>
-    <link href="https://www.techmeme.com/260721/p44#a260721p44"/>
-    <id>https://www.techmeme.com/260721/p44#a260721p44</id>
-    <updated>2026-07-21T20:40:01.000Z</updated>
+    <title>London-based robotics startup Humanoid raised a $152M Series A led by Prime Movers Lab at a $1.35B post-money valuation, bringing its total funding to $270M (John Koetsier/Forbes)</title>
+    <link href="https://www.techmeme.com/260721/p51#a260721p51"/>
+    <id>https://www.techmeme.com/260721/p51#a260721p51</id>
+    <updated>2026-07-21T22:45:00.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Mark Landler / New York Times : France becomes the first European country to pass a law banning social media access for users under 15, potentially going into effect as soon as September 1 — Its new law, the first of its kind enacted by a European country, will ban access to some accounts for anyone under 15.</summary>
+    <summary>John Koetsier / Forbes : London-based robotics startup Humanoid raised a $152M Series A led by Prime Movers Lab at a $1.35B post-money valuation, bringing its total funding to $270M — Europe has a new billion-dollar startup, and it's Humanoid, a two-year-old company headquartered in London that developed its humanoid r</summary>
   </entry>
   <entry>
-    <title>OpenAI admits responsibility for HuggingFace Attack - an agent from an internal evaluation is reportedly the cause.</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1v2w7jl/openai_admits_responsibility_for_huggingface/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1v2w7jl/openai_admits_responsibility_for_huggingface/</id>
-    <updated>2026-07-21T21:40:50.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>llama.cpp b10078 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10078"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10078</id>
+    <updated>2026-07-21T22:40:57.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by /u/Qwen30bEnjoyer [link] [comments]</summary>
+    <summary>vulkan: Refactor vk_queue to use per-instance mutexes and unique handles ( #23570 ) Refactor vk_queue to use per-instance mutexes and unique handles integrates VK_KHR_internally_synchronized_queues, abstracting the queue submission into a polymorphic interface that completely bypasses host-side mutex locking when drive</summary>
   </entry>
   <entry>
     <title>ollama v0.32.2 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.32.2-rc2"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.32.2-rc2</id>
-    <updated>2026-07-21T19:56:41.000Z</updated>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.32.2-rc3"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.32.2-rc3</id>
+    <updated>2026-07-21T23:57:42.000Z</updated>
     <author><name>ollama/ollama</name></author>
     <category term="AGENTS &amp; TOOLS"/>
     <summary>What's Changed launch: keep Claude Code channels available by @hoyyeva in #17210 cmd: remove dead agent prompt wrappers by @ParthSareen in #17227 agent: reorder working directory instruction by @ParthSareen in #17228 agent: clean up semantics, UX, DX, and procedural code by @ParthSareen in #17212 agent: allow unlimited</summary>
   </entry>
   <entry>
-    <title>Banks Wrap Up Loan Backing SoftBank’s $5.4 Billion Robotics Bet</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-21/banks-wrap-up-loan-backing-softbank-s-5-4-billion-robotics-bet"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-21/banks-wrap-up-loan-backing-softbank-s-5-4-billion-robotics-bet</id>
-    <updated>2026-07-21T21:05:03.000Z</updated>
+    <title>Innolight Seeks Up to $7 Billion in Biggest Hong Kong Listing in Years</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-21/innolight-seeks-up-to-7-billion-in-biggest-hong-kong-listing-in-years"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-21/innolight-seeks-up-to-7-billion-in-biggest-hong-kong-listing-in-years</id>
+    <updated>2026-07-21T23:10:10.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>A group of banks wrapped up a loan offering backing SoftBank Group Corp.’s $5.4 billion robotics bet after increasing the size of the US dollar tranche.</summary>
+    <summary>China’s Zhongji Innolight Co. has started taking investor orders for a Hong Kong listing to raise as much as HK$55 billion ($7 billion), the city’s biggest in seven years.</summary>
   </entry>
   <entry>
-    <title>OpenAI says its models chained vulnerabilities across its research environment and Hugging Face's infrastructure to find solutions for the ExploitGym benchmark (OpenAI)</title>
-    <link href="https://www.techmeme.com/260721/p47#a260721p47"/>
-    <id>https://www.techmeme.com/260721/p47#a260721p47</id>
-    <updated>2026-07-21T21:40:06.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Google Releases Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber: A Cheaper, More Token-Efficient Flash Tier Built for Agentic Workloads</title>
+    <link href="https://www.marktechpost.com/2026/07/21/google-releases-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber-a-cheaper-more-token-efficient-flash-tier-built-for-agentic-workloads/"/>
+    <id>https://www.marktechpost.com/2026/07/21/google-releases-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber-a-cheaper-more-token-efficient-flash-tier-built-for-agentic-workloads/</id>
+    <updated>2026-07-21T17:45:08.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
-    <summary>OpenAI : OpenAI says its models chained vulnerabilities across its research environment and Hugging Face's infrastructure to find solutions for the ExploitGym benchmark — Last week, Hugging Face disclosed a new kind of security incident(opens in a new window) after they detected and contained …</summary>
+    <summary>Google released Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber on July 21, 2026. The Flash tier gets cheaper and more token-efficient, with 3.6 Flash cutting output tokens 17% and dropping its output price to $7.50 per 1M. Flash-Lite runs at 350 tokens/sec, while gated Flash Cyber powers CodeMender for vulnerabi</summary>
   </entry>
   <entry>
-    <title>NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide</title>
-    <link href="https://blogs.nvidia.com/blog/vera-rubin/"/>
-    <id>https://blogs.nvidia.com/blog/vera-rubin/</id>
-    <updated>2026-07-21T15:36:43.000Z</updated>
+    <title>Introducing the ChatGPT for small business program</title>
+    <link href="https://openai.com/index/introducing-chatgpt-small-business-program"/>
+    <id>https://openai.com/index/introducing-chatgpt-small-business-program</id>
+    <updated>2026-07-21T17:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="PRODUCTS"/>
+    <summary>OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.</summary>
+  </entry>
+  <entry>
+    <title>Built in Fort Worth: Wistron Opens Advanced Manufacturing Plant to Produce NVIDIA AI Systems</title>
+    <link href="https://blogs.nvidia.com/blog/wistron-manufacturing-texas/"/>
+    <id>https://blogs.nvidia.com/blog/wistron-manufacturing-texas/</id>
+    <updated>2026-07-21T22:35:45.000Z</updated>
     <author><name>NVIDIA Blog</name></author>
     <category term="HARDWARE"/>
-    <summary>NVIDIA Vera Rubin is here, and it’s going gigascale. Vera Rubin NVL72 production is ramping up with racks running at partners CoreWeave, Google Cloud, Microsoft Azure and Oracle Cloud Infrastructure. Spanning 350+ factory sites in 30 countries, Vera Rubin has the largest, most mature rack-scale supply chain ever assemb</summary>
-  </entry>
-  <entry>
-    <title>Cisco releases Antares-350M and Antares-1B, two open-weight AI models to find known vulnerabilities within a codebase, and plans to release Antares-3B soon (Sam Sabin/Axios)</title>
-    <link href="https://www.techmeme.com/260721/p46#a260721p46"/>
-    <id>https://www.techmeme.com/260721/p46#a260721p46</id>
-    <updated>2026-07-21T21:05:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Sam Sabin / Axios : Cisco releases Antares-350M and Antares-1B, two open-weight AI models to find known vulnerabilities within a codebase, and plans to release Antares-3B soon — - Cisco says the models performed similarly to much larger models, including OpenAI's GPT-5.5 and Z.ai's GLM-5.2 …</summary>
+    <summary>The AI era runs on AI infrastructure. Many of these advanced systems are built and tested in Texas. Wistron opened its first U.S. manufacturing facility today in Fort Worth — a 324,000-square-foot greenfield plant producing superchips at the heart of some of the world’s most capable AI systems. In front of an audience </summary>
   </entry>
   <entry>
     <title>AISN #77: New Model Releases From OpenAI, SpaceXAI, and Meta</title>
@@ -106,13 +124,13 @@
     <summary>Also, economists and mathematicians expect near-term AI impacts, and AI 2040: Plan A</summary>
   </entry>
   <entry>
-    <title>How Straiker Secures Claude with the Claude Compliance API | Straiker</title>
-    <link href="https://www.straiker.ai/blog/how-straiker-secures-claude"/>
-    <id>https://www.straiker.ai/blog/how-straiker-secures-claude</id>
-    <updated>2026-07-21T19:30:00.000Z</updated>
-    <author><name>Straiker STAR</name></author>
+    <title>Google launches a cheaper alternative to large AI security models like Mythos</title>
+    <link href="https://www.theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model"/>
+    <id>https://www.theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model</id>
+    <updated>2026-07-21T15:00:00.000Z</updated>
+    <author><name>The Verge AI</name></author>
     <category term="AI SECURITY"/>
-    <summary>Straiker secures Claude Chat, Cowork, and Code with runtime detection at 98.1 to 99 percent, full traceability, and a Skills and MCP scanner that stops indirect prompt injection. Now part of Wave 3 of the Claude Compliance API.</summary>
+    <summary>Google is launching Gemini 3.6 Flash alongside a new security model dedicated to quickly finding and patching security vulnerabilities. In a blog post on Tuesday, Google describes Gemini 3.5 Flash Cyber as a &quot;cost-efficient and highly capable alternative&quot; to larger, more expensive AI systems, such as the one offered by</summary>
   </entry>
   <entry>
     <title>Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities</title>
@@ -122,15 +140,6 @@
     <author><name>The Hacker News</name></author>
     <category term="CYBER THREATS"/>
     <summary>Google's DeepMind on Tuesday announced the release of Gemini 3.5 Flash Cyber, a specialized artificial intelligence (AI) model built atop 3.5 Flash that's designed to discover, validate, and patch vulnerabilities quickly and efficiently. According to the tech giant, the model will be exclusively available to government</summary>
-  </entry>
-  <entry>
-    <title>OpenAI and Hugging Face partner to address security incident during model evaluation</title>
-    <link href="https://openai.com/index/hugging-face-model-evaluation-security-incident"/>
-    <id>https://openai.com/index/hugging-face-model-evaluation-security-incident</id>
-    <updated>2026-07-21T07:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.</summary>
   </entry>
   <entry>
     <title>A Fireside Chat with Cat and Thariq from the Claude Code team</title>
@@ -151,37 +160,37 @@
     <summary>Insider Brief Galaxy Digital has launched the Galaxy Bitcoin Quantum Readiness Initiative, committing up to $5 million toward developer grants, a dedicated research program, and a new advisory council focused on protecting Bitcoin’s cryptographic foundation from future quantum computing attacks. The digital asset and d</summary>
   </entry>
   <entry>
-    <title>Super Micro says Q4 orders have topped $60B and expects gross margins of 15% to 17%, up from its prior forecast of 8.2% to 8.4%; SMCI jumps 13%+ after hours (Juby Babu/Reuters)</title>
-    <link href="https://www.techmeme.com/260721/p45#a260721p45"/>
-    <id>https://www.techmeme.com/260721/p45#a260721p45</id>
-    <updated>2026-07-21T20:50:01.000Z</updated>
+    <title>Amazon says its business sales unit, Amazon Business, reached $60B in annualized gross sales in Q2, up ~71% from 2023, and serves 11M+ organizations worldwide (Matt Day/Bloomberg)</title>
+    <link href="https://www.techmeme.com/260721/p50#a260721p50"/>
+    <id>https://www.techmeme.com/260721/p50#a260721p50</id>
+    <updated>2026-07-21T22:25:02.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Juby Babu / Reuters : Super Micro says Q4 orders have topped $60B and expects gross margins of 15% to 17%, up from its prior forecast of 8.2% to 8.4%; SMCI jumps 13%+ after hours — Super Micro Computer (SMCI.O) said on Tuesday it has received orders in excess of $60 billion in the fourth quarter …</summary>
+    <summary>Matt Day / Bloomberg : Amazon says its business sales unit, Amazon Business, reached $60B in annualized gross sales in Q2, up ~71% from 2023, and serves 11M+ organizations worldwide — Amazon.com Inc.'s business sales unit was recently on track to sell $60 billion of merchandise over the course of a full year …</summary>
   </entry>
   <entry>
-    <title>llama.cpp b10077 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10077"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10077</id>
-    <updated>2026-07-21T21:55:19.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>Brand new</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1v2xx0i/brand_new/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1v2xx0i/brand_new/</id>
+    <updated>2026-07-21T22:47:13.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>ggml-openvino: Add GGML_BACKEND_DL_IMPL invocation for OpenVINO backend ( #25795 ) This adds the missing GGML_BACKEND_DL_IMPL() macro invocation, that other backends have. Fixes #25586 for me Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS I</summary>
+    <summary>I don’t know shit. I’m sick of hitting my free limit on Claude and ChatGPT so i’m gonna host my own model and access it remotely with Tailscale. I downloaded Odysseus because I like Pewdiepie but I have no idea what i’m doing. I have a QWEN 8B model active and it is dumb as dog shit. How do I make it less dumb and then</summary>
   </entry>
   <entry>
-    <title>I ran Laguna-S-2.1 through my private agentic eval vs Qwen3.5-122B on an RTX Pro 6000 (96GB). Fastest 100B+ I've tested and the best tool calling, but it invents facts under pressure.</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1v2ua8g/i_ran_lagunas21_through_my_private_agentic_eval/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1v2ua8g/i_ran_lagunas21_through_my_private_agentic_eval/</id>
-    <updated>2026-07-21T20:29:15.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>Sol Hacked Hugging face. Set up?</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1v2xrn0/sol_hacked_hugging_face_set_up/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1v2xrn0/sol_hacked_hugging_face_set_up/</id>
+    <updated>2026-07-21T22:41:10.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Laguna-S-2.1 dropped few hours ago and as I am in the market for an upgrade to trusty qwen3.6 dense and the current daily 122B, I ran it through the same eval harness I use to pick the model that runs my local agent stack. Posting because the results don't fit the usual &quot;benchmaxed or king&quot; binary, it's genuinely both </summary>
+    <summary>Honestly This smells like a set up from both companies to show companies need access to SOTA America models to defend agains cyber threats from China. submitted by /u/antunes145 [link] [comments]</summary>
   </entry>
   <entry>
     <title>How Apollo Uses Deep Agents and LangSmith for GTM AI</title>
     <link href="https://www.langchain.com/blog/how-apollo-rebuilt-its-ai-assistant-on-deep-agents-to-power-the-full-gtm-loop"/>
     <id>https://www.langchain.com/blog/how-apollo-rebuilt-its-ai-assistant-on-deep-agents-to-power-the-full-gtm-loop</id>
-    <updated>2026-07-21T20:32:18.000Z</updated>
+    <updated>2026-07-21T23:48:02.000Z</updated>
     <author><name>LangChain Blog</name></author>
     <category term="AGENTS &amp; TOOLS"/>
     <summary>Apollo uses Deep Agents and LangSmith to power an AI Assistant that handles prospecting, enrichment, outreach, analytics, and MCP integrations.</summary>
@@ -190,37 +199,28 @@
     <title>Agents need their own computer. Here's how to give them one safely.</title>
     <link href="https://www.langchain.com/blog/agents-need-their-own-computer"/>
     <id>https://www.langchain.com/blog/agents-need-their-own-computer</id>
-    <updated>2026-07-21T18:32:27.000Z</updated>
+    <updated>2026-07-21T23:48:02.000Z</updated>
     <author><name>LangChain Blog</name></author>
     <category term="AGENTS &amp; TOOLS"/>
     <summary>For most of computing history, a developer environment meant a physical machine, then a VM, then a container, with each one shared across the work happening on it, each one requiring deliberate setup and teardown. The idea of giving every agent its own isolated computer, booting in under a second and cleaning up when d</summary>
   </entry>
   <entry>
-    <title>Meta’s unwinding of Manus shows even forced deals have merits</title>
-    <link href="https://www.ft.com/content/bdd09ed8-368c-4264-ac9f-936044a10213?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/bdd09ed8-368c-4264-ac9f-936044a10213?syn-25a6b1a6=1</id>
-    <updated>2026-07-21T21:00:02.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Disposal of Chinese agentic AI start-up has left the Facebook owner better off than it might seem</summary>
-  </entry>
-  <entry>
-    <title>This ETF Tax Loophole Is All the Rage Among Rich Americans</title>
-    <link href="https://www.bloomberg.com/graphics/2026-etf-351-conversion-tax-dodges/"/>
-    <id>https://www.bloomberg.com/graphics/2026-etf-351-conversion-tax-dodges/</id>
-    <updated>2026-07-21T21:00:21.000Z</updated>
+    <title>Yen Slides Past 163 Mark to Fresh Four-Decade Low Against Dollar</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-21/yen-slides-past-163-mark-to-fresh-four-decade-low-against-dollar"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-21/yen-slides-past-163-mark-to-fresh-four-decade-low-against-dollar</id>
+    <updated>2026-07-21T22:35:01.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>A bespoke fund is becoming a must-have tool for wealthy investors looking to defer — and sometimes even avoid — capital gains tax.</summary>
+    <summary>The yen slid past 163 per dollar for the first time since 1986, extending its decline and increasingly testing Japanese authorities’ resolve to intervene.</summary>
   </entry>
   <entry>
-    <title>Google Releases Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber: A Cheaper, More Token-Efficient Flash Tier Built for Agentic Workloads</title>
-    <link href="https://www.marktechpost.com/2026/07/21/google-releases-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber-a-cheaper-more-token-efficient-flash-tier-built-for-agentic-workloads/"/>
-    <id>https://www.marktechpost.com/2026/07/21/google-releases-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber-a-cheaper-more-token-efficient-flash-tier-built-for-agentic-workloads/</id>
-    <updated>2026-07-21T17:45:08.000Z</updated>
-    <author><name>MarkTechPost</name></author>
-    <category term="RESEARCH"/>
-    <summary>Google released Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber on July 21, 2026. The Flash tier gets cheaper and more token-efficient, with 3.6 Flash cutting output tokens 17% and dropping its output price to $7.50 per 1M. Flash-Lite runs at 350 tokens/sec, while gated Flash Cyber powers CodeMender for vulnerabi</summary>
+    <title>Gold Holds Gain as Traders Weigh Impact of Oil Risks on Rates</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-21/gold-holds-gain-as-traders-weigh-impact-of-oil-risks-on-rates"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-21/gold-holds-gain-as-traders-weigh-impact-of-oil-risks-on-rates</id>
+    <updated>2026-07-21T23:34:45.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Gold held a gain as traders monitored threats to energy supply routes that risk stoking inflation and putting pressure on the Federal Reserve to hike interest rates.</summary>
   </entry>
   <entry>
     <title>Validating Distributed LLM Serving Benchmarks with NVIDIA srt-slurm, SLURM Recipes, Parameter Sweeps, and Pareto Analysis</title>
@@ -232,6 +232,15 @@
     <summary>In this tutorial, we explore NVIDIA’s srt-slurm framework and learn how we use srtctl to convert declarative YAML configurations into reproducible SLURM benchmark workflows for distributed LLM serving. We set up the project in Google Colab, inspect its internal architecture, define a cluster configuration, dry-run buil</summary>
   </entry>
   <entry>
+    <title>Exploring self-distilled reasoning for supervised fine-tuning with Amazon Nova</title>
+    <link href="https://aws.amazon.com/blogs/machine-learning/exploring-self-distilled-reasoning-for-supervised-fine-tuning-with-amazon-nova/"/>
+    <id>https://aws.amazon.com/blogs/machine-learning/exploring-self-distilled-reasoning-for-supervised-fine-tuning-with-amazon-nova/</id>
+    <updated>2026-07-21T16:23:12.000Z</updated>
+    <author><name>AWS ML Blog</name></author>
+    <category term="RESEARCH"/>
+    <summary>In this post, we explore an idea for generating thinking tokens for datasets that lack reasoning traces in SFT customization. We first examine the reasoning suppression problem, then introduce Self-Distilled Reasoning (SDR), validate it across three benchmarks, and provide practical recommendations.</summary>
+  </entry>
+  <entry>
     <title>Gemini 3.6 Flash is now available in GitHub Copilot</title>
     <link href="https://github.blog/changelog/2026-07-21-gemini-3-6-flash-is-now-available-in-github-copilot"/>
     <id>https://github.blog/changelog/2026-07-21-gemini-3-6-flash-is-now-available-in-github-copilot</id>
@@ -239,6 +248,15 @@
     <author><name>GitHub Copilot Changelog</name></author>
     <category term="PRODUCTS"/>
     <summary>Gemini 3.6 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. It is designed for web and app development, coding, and longer-horizon agentic tasks. It has configurable… The post Gemini 3.6 Flash is now available in GitHub Copilot appeared first on The GitHub Blog .</summary>
+  </entry>
+  <entry>
+    <title>NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide</title>
+    <link href="https://blogs.nvidia.com/blog/vera-rubin/"/>
+    <id>https://blogs.nvidia.com/blog/vera-rubin/</id>
+    <updated>2026-07-21T15:36:43.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
+    <category term="HARDWARE"/>
+    <summary>NVIDIA Vera Rubin is here, and it’s going gigascale. Vera Rubin NVL72 production is ramping up with racks running at partners CoreWeave, Google Cloud, Microsoft Azure and Oracle Cloud Infrastructure. Spanning 350+ factory sites in 30 countries, Vera Rubin has the largest, most mature rack-scale supply chain ever assemb</summary>
   </entry>
   <entry>
     <title>Built for Vera Rubin, NVIDIA Spectrum-6 Arrives in Gigascale AI Factories</title>
@@ -250,15 +268,6 @@
     <summary>AI has entered the gigascale era. The world’s most advanced AI factories are bringing together hundreds of thousands of GPUs and CPUs to train frontier models, power agentic AI and generate intelligence at unprecedented scale. At this level, networking becomes a critical computing power multiplier in driving token gene</summary>
   </entry>
   <entry>
-    <title>Diving Deeper on NVIDIA’s Vera CPU: New Architectural Details and SPEC CPU 2026 Benchmarks</title>
-    <link href="https://www.servethehome.com/diving-deeper-on-nvidias-vera-cpu-new-architectural-details-and-spec-cpu-2026-benchmarks/"/>
-    <id>https://www.servethehome.com/diving-deeper-on-nvidias-vera-cpu-new-architectural-details-and-spec-cpu-2026-benchmarks/</id>
-    <updated>2026-07-21T15:00:01.000Z</updated>
-    <author><name>ServeTheHome</name></author>
-    <category term="HARDWARE"/>
-    <summary>NVIDIA this morning has released a trove of new technical details on Vera, their upcoming server CPU, as well as the Olympus CPU core. The company is also publishing the first SPEC CPU 2026 benchmarks, giving us our best look yet at the performance of the chip The post Diving Deeper on NVIDIA’s Vera CPU: New Architectu</summary>
-  </entry>
-  <entry>
     <title>LWiAI Podcast #247 - Opus 4.8, MAI, Anthropic IPO, Minimax-M3</title>
     <link href="https://lastweekin.ai/p/lwiai-podcast-247-opus-48-mai-anthropic"/>
     <id>https://lastweekin.ai/p/lwiai-podcast-247-opus-48-mai-anthropic</id>
@@ -266,14 +275,5 @@
     <author><name>Last Week in AI</name></author>
     <category term="OPEN SOURCE"/>
     <summary>New Models, IPO Announcements, and the Rise of Open Source Competitors</summary>
-  </entry>
-  <entry>
-    <title>LWiAI Podcast #249 - Fable 5 ban, SpaceX Cursor + IPO, OSS Aplenty</title>
-    <link href="https://lastweekin.ai/p/lwiai-podcast-249-fable-5-ban-spacex"/>
-    <id>https://lastweekin.ai/p/lwiai-podcast-249-fable-5-ban-spacex</id>
-    <updated>2026-07-21T10:30:35.000Z</updated>
-    <author><name>Last Week in AI</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Exploring the Fable 5 ban, SpaceX’s strategic acquisition, and a burst of open source advancements</summary>
   </entry>
 </feed>
