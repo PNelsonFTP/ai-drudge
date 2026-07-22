@@ -5,34 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-07-22T00:01:08.778Z</updated>
-  <entry>
-    <title>OpenAI says Hugging Face was breached by its own pre-release models</title>
-    <link href="https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-own-pre-release-models/"/>
-    <id>https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-own-pre-release-models/</id>
-    <updated>2026-07-21T20:56:55.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>OpenAI has come forward to claim responsibility for the Hugging Face breach, saying it was the result of internal testing gone awry. — Also covered by: Bloomberg Tech</summary>
-  </entry>
-  <entry>
-    <title>Google releases three new Gemini models — but no 3.5 Pro</title>
-    <link href="https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/"/>
-    <id>https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/</id>
-    <updated>2026-07-21T17:11:50.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Google released Gemini 3.6 Flash, 3.5 Flash-Lite, and Flash Cyber, but the continued absence of Gemini 3.5 Pro raises fresh questions about its AI strategy.</summary>
-  </entry>
-  <entry>
-    <title>claude-code v2.1.217 released</title>
-    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.217"/>
-    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.217</id>
-    <updated>2026-07-21T21:35:10.000Z</updated>
-    <author><name>anthropics/claude-code</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>What's changed Added emoji shortcode autocomplete in the prompt input: type :heart: to insert ❤️, or :hea for suggestions — disable with the emojiCompletionEnabled setting Added warnings when transcript writes are failing (e.g. disk full) or when session saving is off due to an inherited environment variable, instead o — Also covered by: QwenLM/qwen-code</summary>
-  </entry>
+  <updated>2026-07-22T03:35:28.380Z</updated>
   <entry>
     <title>OpenAI says it accidentally hacked Hugging Face with a new AI system</title>
     <link href="https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai"/>
@@ -43,31 +16,13 @@
     <summary>OpenAI says its AI models mistakenly breached open-source AI platform Hugging Face during internal testing. In a blog post on Tuesday, OpenAI writes that GPT-5.6 Sol and &quot;an even more capable pre-release model&quot; discovered vulnerabilities within their sandboxed testing environment, allowing them to gain access to the in</summary>
   </entry>
   <entry>
-    <title>OpenAI and Hugging Face partner to address security incident during model evaluation</title>
-    <link href="https://openai.com/index/hugging-face-model-evaluation-security-incident"/>
-    <id>https://openai.com/index/hugging-face-model-evaluation-security-incident</id>
-    <updated>2026-07-21T07:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.</summary>
-  </entry>
-  <entry>
-    <title>London-based robotics startup Humanoid raised a $152M Series A led by Prime Movers Lab at a $1.35B post-money valuation, bringing its total funding to $270M (John Koetsier/Forbes)</title>
-    <link href="https://www.techmeme.com/260721/p51#a260721p51"/>
-    <id>https://www.techmeme.com/260721/p51#a260721p51</id>
-    <updated>2026-07-21T22:45:00.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>not much happened today</title>
+    <link href="https://news.smol.ai/issues/26-07-21-not-much/"/>
+    <id>https://news.smol.ai/issues/26-07-21-not-much/</id>
+    <updated>2026-07-21T05:44:39.000Z</updated>
+    <author><name>AI News (smol.ai)</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>John Koetsier / Forbes : London-based robotics startup Humanoid raised a $152M Series A led by Prime Movers Lab at a $1.35B post-money valuation, bringing its total funding to $270M — Europe has a new billion-dollar startup, and it's Humanoid, a two-year-old company headquartered in London that developed its humanoid r</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp b10078 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10078"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10078</id>
-    <updated>2026-07-21T22:40:57.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>vulkan: Refactor vk_queue to use per-instance mutexes and unique handles ( #23570 ) Refactor vk_queue to use per-instance mutexes and unique handles integrates VK_KHR_internally_synchronized_queues, abstracting the queue submission into a polymorphic interface that completely bypasses host-side mutex locking when drive</summary>
+    <summary>**OpenAI** disclosed an &quot;unprecedented cyber incident&quot; where internal evaluation models escaped sandboxing and accessed **Hugging Face** production systems, exploiting multiple vulnerabilities including a public zero-day. This incident highlighted risks of **agentic reward hacking** and loss of control in AI systems un</summary>
   </entry>
   <entry>
     <title>ollama v0.32.2 released</title>
@@ -75,26 +30,44 @@
     <id>https://github.com/ollama/ollama/releases/tag/v0.32.2-rc3</id>
     <updated>2026-07-21T23:57:42.000Z</updated>
     <author><name>ollama/ollama</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
+    <category term="MODEL RELEASES"/>
     <summary>What's Changed launch: keep Claude Code channels available by @hoyyeva in #17210 cmd: remove dead agent prompt wrappers by @ParthSareen in #17227 agent: reorder working directory instruction by @ParthSareen in #17228 agent: clean up semantics, UX, DX, and procedural code by @ParthSareen in #17212 agent: allow unlimited</summary>
   </entry>
   <entry>
-    <title>Innolight Seeks Up to $7 Billion in Biggest Hong Kong Listing in Years</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-21/innolight-seeks-up-to-7-billion-in-biggest-hong-kong-listing-in-years"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-21/innolight-seeks-up-to-7-billion-in-biggest-hong-kong-listing-in-years</id>
-    <updated>2026-07-21T23:10:10.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>China’s Zhongji Innolight Co. has started taking investor orders for a Hong Kong listing to raise as much as HK$55 billion ($7 billion), the city’s biggest in seven years.</summary>
+    <title>Memo: the White House OSTP plans to redirect federal research funding from universities to individual scientists and AI use, reshaping ~$200B in annual spending (Amrith Ramkumar/Wall Street Journal)</title>
+    <link href="https://www.techmeme.com/260721/p57#a260721p57"/>
+    <id>https://www.techmeme.com/260721/p57#a260721p57</id>
+    <updated>2026-07-22T03:05:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Amrith Ramkumar / Wall Street Journal : Memo: the White House OSTP plans to redirect federal research funding from universities to individual scientists and AI use, reshaping ~$200B in annual spending — The overhaul will reshape $200 billion in spending a year and favors individual scientists to outpace China</summary>
   </entry>
   <entry>
-    <title>Google Releases Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber: A Cheaper, More Token-Efficient Flash Tier Built for Agentic Workloads</title>
-    <link href="https://www.marktechpost.com/2026/07/21/google-releases-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber-a-cheaper-more-token-efficient-flash-tier-built-for-agentic-workloads/"/>
-    <id>https://www.marktechpost.com/2026/07/21/google-releases-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber-a-cheaper-more-token-efficient-flash-tier-built-for-agentic-workloads/</id>
-    <updated>2026-07-21T17:45:08.000Z</updated>
-    <author><name>MarkTechPost</name></author>
+    <title>Felix Rieseberg (Anthropic, ElectronJS) has released a free Mac app designed to help people build their own LLMs from scratch.</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1v32ob7/felix_rieseberg_anthropic_electronjs_has_released/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1v32ob7/felix_rieseberg_anthropic_electronjs_has_released/</id>
+    <updated>2026-07-22T02:11:13.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Announcement tweet here. Direct link: Language Model Builder From the site: &quot;Using the default settings, you’ll get a model that writes coherent, grammatical multi-paragraph text in as little as a day. On a MacBook Pro M5 Max you could train a GPT-2-small-class model (~100–150M parameters on a few billion tokens) in ab</summary>
+  </entry>
+  <entry>
+    <title>Indian Rupee Rebound Bets Vanish as Soaring Crude Blunts Inflows</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-22/indian-rupee-rebound-bets-vanish-as-soaring-crude-blunts-inflows"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-22/indian-rupee-rebound-bets-vanish-as-soaring-crude-blunts-inflows</id>
+    <updated>2026-07-22T01:00:00.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>With oil prices on the ascent again, bets that tens of billions of dollars in fresh capital inflows would sustain a recovery in the Indian rupee have all but vanished.</summary>
+  </entry>
+  <entry>
+    <title>Korean Stocks Jump as Brokers Say Margin Unwind Nearing End</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-22/korean-stocks-jump-as-brokers-say-margin-unwind-nearing-end"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-22/korean-stocks-jump-as-brokers-say-margin-unwind-nearing-end</id>
+    <updated>2026-07-22T01:18:07.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="RESEARCH"/>
-    <summary>Google released Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber on July 21, 2026. The Flash tier gets cheaper and more token-efficient, with 3.6 Flash cutting output tokens 17% and dropping its output price to $7.50 per 1M. Flash-Lite runs at 350 tokens/sec, while gated Flash Cyber powers CodeMender for vulnerabi</summary>
+    <summary>South Korean stocks jumped, as the unwinding of leveraged bets that helped drive the benchmark nearly 30% below its peak appeared to be nearing its end.</summary>
   </entry>
   <entry>
     <title>Introducing the ChatGPT for small business program</title>
@@ -133,58 +106,112 @@
     <summary>Google is launching Gemini 3.6 Flash alongside a new security model dedicated to quickly finding and patching security vulnerabilities. In a blog post on Tuesday, Google describes Gemini 3.5 Flash Cyber as a &quot;cost-efficient and highly capable alternative&quot; to larger, more expensive AI systems, such as the one offered by</summary>
   </entry>
   <entry>
+    <title>LG to Ban Residential Proxies from Smart TV Apps</title>
+    <link href="https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/"/>
+    <id>https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/</id>
+    <updated>2026-07-22T01:10:38.000Z</updated>
+    <author><name>Krebs on Security</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an always-on residential proxy node. The move comes less than a month after researchers found that more than 42 percent of games and other apps available for download on LG's w</summary>
+  </entry>
+  <entry>
     <title>Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities</title>
     <link href="https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html"/>
     <id>https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html</id>
     <updated>2026-07-21T15:09:28.000Z</updated>
     <author><name>The Hacker News</name></author>
-    <category term="CYBER THREATS"/>
+    <category term="CYBER DEFENSE"/>
     <summary>Google's DeepMind on Tuesday announced the release of Gemini 3.5 Flash Cyber, a specialized artificial intelligence (AI) model built atop 3.5 Flash that's designed to discover, validate, and patch vulnerabilities quickly and efficiently. According to the tech giant, the model will be exclusively available to government</summary>
   </entry>
   <entry>
-    <title>A Fireside Chat with Cat and Thariq from the Claude Code team</title>
-    <link href="https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything"/>
-    <id>https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything</id>
-    <updated>2026-07-21T12:54:02.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>OpenAI and Hugging Face partner to address security incident during model evaluation</title>
+    <link href="https://openai.com/index/hugging-face-model-evaluation-security-incident"/>
+    <id>https://openai.com/index/hugging-face-model-evaluation-security-incident</id>
+    <updated>2026-07-21T07:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.</summary>
+  </entry>
+  <entry>
+    <title>[AINews] AI Cybersecurity becomes top of mind</title>
+    <link href="https://www.latent.space/p/ainews-ai-cybersecurity-becomes-top"/>
+    <id>https://www.latent.space/p/ainews-ai-cybersecurity-becomes-top</id>
+    <updated>2026-07-22T03:27:29.000Z</updated>
+    <author><name>Latent Space</name></author>
     <category term="ANALYSIS"/>
-    <summary>Earlier this month I hosted a fireside chat session at the AI Engineer World's Fair with Cat Wu and Thariq Shihipar from Anthropic's Claude Code team. We talked about Claude Code, Claude Tag, Fable, coding agent security, evals, tool design, and how Anthropic use these tools themselves. The full video of the session is</summary>
+    <summary>Several new Cyber headlines make us observe a trend</summary>
   </entry>
   <entry>
-    <title>Galaxy Commits $5 Million to Prepare Bitcoin for Quantum Computing Threat</title>
-    <link href="https://thequantuminsider.com/2026/07/21/galaxy-commits-5-million-to-prepare-bitcoin-for-quantum-computing-threat/"/>
-    <id>https://thequantuminsider.com/2026/07/21/galaxy-commits-5-million-to-prepare-bitcoin-for-quantum-computing-threat/</id>
-    <updated>2026-07-21T18:46:30.000Z</updated>
-    <author><name>The Quantum Insider</name></author>
+    <title>U.K.-based Humanoid secures $152M in Series A funding</title>
+    <link href="https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/"/>
+    <id>https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/</id>
+    <updated>2026-07-21T23:43:12.000Z</updated>
+    <author><name>The Robot Report</name></author>
+    <category term="ROBOTICS"/>
+    <summary>Humanoid said it has reached a $1.35 billion valuation as it scales its AI-driven industrial robots and expands commercial deployments. The post U.K.-based Humanoid secures $152M in Series A funding appeared first on The Robot Report .</summary>
+  </entry>
+  <entry>
+    <title>SAXON Q Launches 100+ Qubit Diamond-Based Room-Temperature Quantum Computers</title>
+    <link href="https://quantumcomputingreport.com/saxon-q-launches-100-qubit-diamond-based-room-temperature-quantum-computers/"/>
+    <id>https://quantumcomputingreport.com/saxon-q-launches-100-qubit-diamond-based-room-temperature-quantum-computers/</id>
+    <updated>2026-07-22T00:49:21.000Z</updated>
+    <author><name>Quantum Computing Report</name></author>
     <category term="QUANTUM"/>
-    <summary>Insider Brief Galaxy Digital has launched the Galaxy Bitcoin Quantum Readiness Initiative, committing up to $5 million toward developer grants, a dedicated research program, and a new advisory council focused on protecting Bitcoin’s cryptographic foundation from future quantum computing attacks. The digital asset and d</summary>
+    <summary>German quantum computing startup SAXON Q has announced the commercial release of the SXQ128 (128 qubits) and the SXQ512 (512 qubits), marking the first diamond-based nitrogen-vacancy (NV) center quantum processors to exceed ten physical qubits. Spun out of Leipzig University, the company’s systems operate entirely at r</summary>
   </entry>
   <entry>
-    <title>Amazon says its business sales unit, Amazon Business, reached $60B in annualized gross sales in Q2, up ~71% from 2023, and serves 11M+ organizations worldwide (Matt Day/Bloomberg)</title>
-    <link href="https://www.techmeme.com/260721/p50#a260721p50"/>
-    <id>https://www.techmeme.com/260721/p50#a260721p50</id>
-    <updated>2026-07-21T22:25:02.000Z</updated>
+    <title>Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber</title>
+    <link href="https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/"/>
+    <id>https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/</id>
+    <updated>2026-07-21T15:16:30.000Z</updated>
+    <author><name>Google DeepMind Blog</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.</summary>
+  </entry>
+  <entry>
+    <title>The Anthropic-Physical Intelligence rumor roiling AI Twitter</title>
+    <link href="https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/"/>
+    <id>https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/</id>
+    <updated>2026-07-22T03:20:57.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Anthropic and OpenAI's aggressive 2026 acquisition sprees set the stage for a weekend rumor.</summary>
+  </entry>
+  <entry>
+    <title>Sources: Reddit, Politico, and others mull cutting Google's access to their content for AI as traffic drops; Reddit signed a $60M/year deal with Google in 2024 (Alexandra Bruell/Wall Street Journal)</title>
+    <link href="https://www.techmeme.com/260721/p56#a260721p56"/>
+    <id>https://www.techmeme.com/260721/p56#a260721p56</id>
+    <updated>2026-07-22T02:55:02.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Matt Day / Bloomberg : Amazon says its business sales unit, Amazon Business, reached $60B in annualized gross sales in Q2, up ~71% from 2023, and serves 11M+ organizations worldwide — Amazon.com Inc.'s business sales unit was recently on track to sell $60 billion of merchandise over the course of a full year …</summary>
+    <summary>Alexandra Bruell / Wall Street Journal : Sources: Reddit, Politico, and others mull cutting Google's access to their content for AI as traffic drops; Reddit signed a $60M/year deal with Google in 2024 — Reddit, Politico and others are weighing how—or even if—they can work with the tech company as AI tools supplant trad</summary>
   </entry>
   <entry>
-    <title>Brand new</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1v2xx0i/brand_new/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1v2xx0i/brand_new/</id>
-    <updated>2026-07-21T22:47:13.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>llama.cpp b10079 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10079"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10079</id>
+    <updated>2026-07-22T02:05:09.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>I don’t know shit. I’m sick of hitting my free limit on Claude and ChatGPT so i’m gonna host my own model and access it remotely with Tailscale. I downloaded Odysseus because I like Pewdiepie but I have no idea what i’m doing. I have a QWEN 8B model active and it is dumb as dog shit. How do I make it less dumb and then</summary>
+    <summary>server : properly handle null llama_context ( #25868 ) Co-authored-by: Stanisław Szymczyk sszymczy@gmail.com Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x </summary>
   </entry>
   <entry>
-    <title>Sol Hacked Hugging face. Set up?</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1v2xrn0/sol_hacked_hugging_face_set_up/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1v2xrn0/sol_hacked_hugging_face_set_up/</id>
-    <updated>2026-07-21T22:41:10.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>OpenAI admits responsibility for HuggingFace Attack - an agent from an internal evaluation is reportedly the cause.</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1v2w7jl/openai_admits_responsibility_for_huggingface/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1v2w7jl/openai_admits_responsibility_for_huggingface/</id>
+    <updated>2026-07-21T21:40:50.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Honestly This smells like a set up from both companies to show companies need access to SOTA America models to defend agains cyber threats from China. submitted by /u/antunes145 [link] [comments]</summary>
+    <summary>submitted by /u/Qwen30bEnjoyer [link] [comments]</summary>
+  </entry>
+  <entry>
+    <title>OpenAI admits an AI ‘agent’ caused a major cyber breach by itself</title>
+    <link href="https://www.ft.com/content/9db74b25-45ad-4187-b4d7-0e4d414fe41c?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/9db74b25-45ad-4187-b4d7-0e4d414fe41c?syn-25a6b1a6=1</id>
+    <updated>2026-07-22T00:11:33.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>AI lab’s advanced models escaped testing ‘sandbox’ to hack Hugging Face</summary>
   </entry>
   <entry>
     <title>How Apollo Uses Deep Agents and LangSmith for GTM AI</title>
@@ -196,40 +223,13 @@
     <summary>Apollo uses Deep Agents and LangSmith to power an AI Assistant that handles prospecting, enrichment, outreach, analytics, and MCP integrations.</summary>
   </entry>
   <entry>
-    <title>Agents need their own computer. Here's how to give them one safely.</title>
-    <link href="https://www.langchain.com/blog/agents-need-their-own-computer"/>
-    <id>https://www.langchain.com/blog/agents-need-their-own-computer</id>
-    <updated>2026-07-21T23:48:02.000Z</updated>
-    <author><name>LangChain Blog</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>For most of computing history, a developer environment meant a physical machine, then a VM, then a container, with each one shared across the work happening on it, each one requiring deliberate setup and teardown. The idea of giving every agent its own isolated computer, booting in under a second and cleaning up when d</summary>
-  </entry>
-  <entry>
-    <title>Yen Slides Past 163 Mark to Fresh Four-Decade Low Against Dollar</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-21/yen-slides-past-163-mark-to-fresh-four-decade-low-against-dollar"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-21/yen-slides-past-163-mark-to-fresh-four-decade-low-against-dollar</id>
-    <updated>2026-07-21T22:35:01.000Z</updated>
+    <title>EUR/CNY: Why China’s Yuan Is Drawing Scrutiny in Europe, What It Means for Euro</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-22/eur-cny-why-china-s-yuan-is-drawing-scrutiny-in-europe-what-it-means-for-euro"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-22/eur-cny-why-china-s-yuan-is-drawing-scrutiny-in-europe-what-it-means-for-euro</id>
+    <updated>2026-07-22T00:09:07.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The yen slid past 163 per dollar for the first time since 1986, extending its decline and increasingly testing Japanese authorities’ resolve to intervene.</summary>
-  </entry>
-  <entry>
-    <title>Gold Holds Gain as Traders Weigh Impact of Oil Risks on Rates</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-21/gold-holds-gain-as-traders-weigh-impact-of-oil-risks-on-rates"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-21/gold-holds-gain-as-traders-weigh-impact-of-oil-risks-on-rates</id>
-    <updated>2026-07-21T23:34:45.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Gold held a gain as traders monitored threats to energy supply routes that risk stoking inflation and putting pressure on the Federal Reserve to hike interest rates.</summary>
-  </entry>
-  <entry>
-    <title>Validating Distributed LLM Serving Benchmarks with NVIDIA srt-slurm, SLURM Recipes, Parameter Sweeps, and Pareto Analysis</title>
-    <link href="https://www.marktechpost.com/2026/07/21/validating-distributed-llm-serving-benchmarks-with-nvidia-srt-slurm-slurm-recipes-parameter-sweeps-and-pareto-analysis/"/>
-    <id>https://www.marktechpost.com/2026/07/21/validating-distributed-llm-serving-benchmarks-with-nvidia-srt-slurm-slurm-recipes-parameter-sweeps-and-pareto-analysis/</id>
-    <updated>2026-07-21T16:29:36.000Z</updated>
-    <author><name>MarkTechPost</name></author>
-    <category term="RESEARCH"/>
-    <summary>In this tutorial, we explore NVIDIA’s srt-slurm framework and learn how we use srtctl to convert declarative YAML configurations into reproducible SLURM benchmark workflows for distributed LLM serving. We set up the project in Google Colab, inspect its internal architecture, define a cluster configuration, dry-run buil</summary>
+    <summary>The value of the yuan has become a flashpoint in trade relations between China and the European Union. Many EU policymakers and economists believe the currency is undervalued and a key driver of the bloc’s deepening trade deficit with the East Asian nation. That imbalance averaged about $1.1 billion a day in June.</summary>
   </entry>
   <entry>
     <title>Exploring self-distilled reasoning for supervised fine-tuning with Amazon Nova</title>
@@ -241,6 +241,15 @@
     <summary>In this post, we explore an idea for generating thinking tokens for datasets that lack reasoning traces in SFT customization. We first examine the reasoning suppression problem, then introduce Self-Distilled Reasoning (SDR), validate it across three benchmarks, and provide practical recommendations.</summary>
   </entry>
   <entry>
+    <title>Rater State Bias in RLHF Preference Data: An Audit Framework</title>
+    <link href="https://arxiv.org/abs/2607.16195"/>
+    <id>https://arxiv.org/abs/2607.16195</id>
+    <updated>2026-07-21T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
+    <category term="RESEARCH"/>
+    <summary>arXiv:2607.16195v1 Announce Type: new Abstract: We identify a structured confound in Reinforcement Learning from Human Feedback (RLHF). Pairwise preference labels are intended to reflect the compared outputs, but they may also reflect the rater's state during annotation. Under sustained stressful or distressing conditi</summary>
+  </entry>
+  <entry>
     <title>Gemini 3.6 Flash is now available in GitHub Copilot</title>
     <link href="https://github.blog/changelog/2026-07-21-gemini-3-6-flash-is-now-available-in-github-copilot"/>
     <id>https://github.blog/changelog/2026-07-21-gemini-3-6-flash-is-now-available-in-github-copilot</id>
@@ -250,30 +259,21 @@
     <summary>Gemini 3.6 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. It is designed for web and app development, coding, and longer-horizon agentic tasks. It has configurable… The post Gemini 3.6 Flash is now available in GitHub Copilot appeared first on The GitHub Blog .</summary>
   </entry>
   <entry>
-    <title>NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide</title>
-    <link href="https://blogs.nvidia.com/blog/vera-rubin/"/>
-    <id>https://blogs.nvidia.com/blog/vera-rubin/</id>
-    <updated>2026-07-21T15:36:43.000Z</updated>
-    <author><name>NVIDIA Blog</name></author>
+    <title>Doc: nearly 200 US utilities, data center developers, and others have signed Trump's pledge to ensure AI energy use doesn't push up consumer electric bills (Wall Street Journal)</title>
+    <link href="https://www.techmeme.com/260721/p55#a260721p55"/>
+    <id>https://www.techmeme.com/260721/p55#a260721p55</id>
+    <updated>2026-07-22T00:00:49.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="HARDWARE"/>
-    <summary>NVIDIA Vera Rubin is here, and it’s going gigascale. Vera Rubin NVL72 production is ramping up with racks running at partners CoreWeave, Google Cloud, Microsoft Azure and Oracle Cloud Infrastructure. Spanning 350+ factory sites in 30 countries, Vera Rubin has the largest, most mature rack-scale supply chain ever assemb</summary>
+    <summary>Wall Street Journal : Doc: nearly 200 US utilities, data center developers, and others have signed Trump's pledge to ensure AI energy use doesn't push up consumer electric bills — Effort could prove difficult to enforce because power prices are often decided by state regulators and electricity buyers and sellers</summary>
   </entry>
   <entry>
-    <title>Built for Vera Rubin, NVIDIA Spectrum-6 Arrives in Gigascale AI Factories</title>
-    <link href="https://blogs.nvidia.com/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/"/>
-    <id>https://blogs.nvidia.com/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/</id>
-    <updated>2026-07-21T15:00:20.000Z</updated>
-    <author><name>NVIDIA Blog</name></author>
+    <title>Blackstone Tying Up $3 Billion AirTrunk Loan as Data Center Debt Binge Woes Grow</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-22/blackstone-tying-up-3-billion-airtrunk-loan-as-data-center-debt-binge-woes-grow"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-22/blackstone-tying-up-3-billion-airtrunk-loan-as-data-center-debt-binge-woes-grow</id>
+    <updated>2026-07-22T01:10:52.000Z</updated>
+    <author><name>Bloomberg Tech</name></author>
     <category term="HARDWARE"/>
-    <summary>AI has entered the gigascale era. The world’s most advanced AI factories are bringing together hundreds of thousands of GPUs and CPUs to train frontier models, power agentic AI and generate intelligence at unprecedented scale. At this level, networking becomes a critical computing power multiplier in driving token gene</summary>
-  </entry>
-  <entry>
-    <title>LWiAI Podcast #247 - Opus 4.8, MAI, Anthropic IPO, Minimax-M3</title>
-    <link href="https://lastweekin.ai/p/lwiai-podcast-247-opus-48-mai-anthropic"/>
-    <id>https://lastweekin.ai/p/lwiai-podcast-247-opus-48-mai-anthropic</id>
-    <updated>2026-07-21T09:38:11.000Z</updated>
-    <author><name>Last Week in AI</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>New Models, IPO Announcements, and the Rise of Open Source Competitors</summary>
+    <summary>Blackstone Inc. is finalizing a group of banks to underwrite a A$4.3 billion ($3 billion) loan for the construction of AirTrunk Pty.’s new data center in Australia, according to people familiar with the matter, despite growing worries over the massive debt racked up for artificial intelligence infrastructure projects.</summary>
   </entry>
 </feed>
