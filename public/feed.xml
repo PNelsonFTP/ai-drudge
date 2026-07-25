@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-07-25T11:20:14.363Z</updated>
+  <updated>2026-07-25T13:55:28.952Z</updated>
   <entry>
     <title>Anthropic's Claude Opus 5 delivers near-Fable 5 performance at half the token price</title>
     <link href="https://the-decoder.com/anthropic-claims-its-new-claude-opus-5-delivers-near-fable-5-performance-at-half-the-token-price/"/>
@@ -50,15 +50,6 @@
     <author><name>Cline Blog</name></author>
     <category term="AGENTS &amp; TOOLS"/>
     <summary>See how recursive self-improvement helped Cline optimize Kimi K3 and achieve an 88.8% SOTA score on Terminal-Bench 2.1 at a fraction of the cost.</summary>
-  </entry>
-  <entry>
-    <title>Comments on IBM’s Acquisition of the HRL Laboratories</title>
-    <link href="https://quantumcomputingreport.com/comments-on-ibms-acquisition-of-the-hrl-laboratories/"/>
-    <id>https://quantumcomputingreport.com/comments-on-ibms-acquisition-of-the-hrl-laboratories/</id>
-    <updated>2026-07-24T03:14:08.000Z</updated>
-    <author><name>Quantum Computing Report</name></author>
-    <category term="QUANTUM"/>
-    <summary>By Doug Finke IBM Quantum’s announcement about their intended acquisition of HRL Laboratories is quite important and a little surprising. But if you look at this further, there are good reasons why this makes a lot of sense. Here are our thoughts on this. Technology Transitions If you look at the history of technology  — Also covered by: IBM Research Blog</summary>
   </entry>
   <entry>
     <title>Samsung announces a $200B+ contract to make chips for Broadcom through 2030, focusing on its 2nm and below process technologies for Broadcom's products (Hooyeon Kim/Bloomberg)</title>
@@ -133,13 +124,13 @@
     <summary>A threat actor used the open-source Hermes AI agent in unattended &quot;YOLO&quot; mode to automate post-exploitation activity during an alleged breach of Thailand's Ministry of Finance. [...]</summary>
   </entry>
   <entry>
-    <title>Quoting Boris Cherny</title>
-    <link href="https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything"/>
-    <id>https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything</id>
-    <updated>2026-07-25T00:42:59.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>Claude Opus 5: The System Card</title>
+    <link href="https://www.lesswrong.com/posts/ywGX6FhgbZEkHRfQR/claude-opus-5-the-system-card"/>
+    <id>https://www.lesswrong.com/posts/ywGX6FhgbZEkHRfQR/claude-opus-5-the-system-card</id>
+    <updated>2026-07-25T13:42:24.000Z</updated>
+    <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>More than any of these eval scores, what is most exciting to me is something else: Opus 5 is our least prompt injectable model yet. It is a bit buried in the system card, but across PI evals and red teaming, Opus 5 is very hard to prompt inject successfully. — Boris Cherny , here's that System Card section , page 73 Ta</summary>
+    <summary>Claude Opus 5 is trying to be the best of both worlds. On many practical tasks, Opus 5 is pitched as straight up as good or better than Fable 5, while being faster, at half the price. Most tasks do not require Mythos-level big model smell. Claude Opus 5 is substantially stronger than Claude Opus 4.8 across the board, w</summary>
   </entry>
   <entry>
     <title>Opus 5 may have solved browser-based prompt injection, the biggest security flaw haunting AI agents - the-decoder.com</title>
@@ -151,22 +142,13 @@
     <summary>Opus 5 may have solved browser-based prompt injection, the biggest security flaw haunting AI agents the-decoder.com — Also covered by: The Decoder</summary>
   </entry>
   <entry>
-    <title>OpenAI confirms ChatGPT is down worldwide</title>
-    <link href="https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/"/>
-    <id>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/</id>
-    <updated>2026-07-25T09:31:09.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>ChatGPT, the famous artificial intelligence chatbot that allows users to converse with various personalities and topics, has connectivity issues worldwide. [...]</summary>
-  </entry>
-  <entry>
     <title>Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git</title>
     <link href="https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html"/>
     <id>https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html</id>
-    <updated>2026-07-25T08:34:15.000Z</updated>
+    <updated>2026-07-25T10:14:26.000Z</updated>
     <author><name>The Hacker News</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>Security researcher Yuhang Wu at depthfirst has published a working proof-of-concept (PoC) exploit that executes commands as git on an unpatched self-managed GitLab 18.11.3 server. An ordinary authenticated user triggers it by committing two crafted Jupyter notebooks and requesting their diff. The chain needs no admini</summary>
+    <category term="CYBER THREATS"/>
+    <summary>Security researchers at depthfirst published working exploit code on July 24 for a GitLab flaw that GitLab patched six weeks earlier, on June 10. It runs commands as git on any self-managed 18.11.3 server that has not taken the update. Any authenticated user who can push to a project can run it. The attacker commits a </summary>
   </entry>
   <entry>
     <title>A profile of Hangzhou-based Unitree, which shipped 5,500 humanoid robots in 2025, accounting for 25%+ of the global market, as it prepares for a Shanghai IPO (Charlie Campbell/Time)</title>
@@ -178,13 +160,22 @@
     <summary>Charlie Campbell / Time : A profile of Hangzhou-based Unitree, which shipped 5,500 humanoid robots in 2025, accounting for 25%+ of the global market, as it prepares for a Shanghai IPO — Spectators typically leave a UFC fight with ringing ears and a sheepish resolve to get back to the gym. Wang Xingxing went straight to</summary>
   </entry>
   <entry>
-    <title>Guest Post: Inside Africa’s Coordinated Race to Secure a Post-Quantum Future</title>
-    <link href="https://thequantuminsider.com/2026/07/25/inside-africas-coordinated-race-to-secure-a-post-quantum-future/"/>
-    <id>https://thequantuminsider.com/2026/07/25/inside-africas-coordinated-race-to-secure-a-post-quantum-future/</id>
-    <updated>2026-07-25T09:00:00.000Z</updated>
-    <author><name>The Quantum Insider</name></author>
+    <title>Beyond the Showcase: AGIBOT Expands Embodied AI Portfolio at WAIC 2026</title>
+    <link href="https://www.humanoidsdaily.com/news/beyond-the-showcase-agibot-expands-embodied-ai-portfolio-at-waic-2026"/>
+    <id>https://www.humanoidsdaily.com/news/beyond-the-showcase-agibot-expands-embodied-ai-portfolio-at-waic-2026</id>
+    <updated>2026-07-25T12:12:49.000Z</updated>
+    <author><name>Humanoids Daily</name></author>
+    <category term="ROBOTICS"/>
+    <summary>At the World Artificial Intelligence Conference 2026, AGIBOT introduced four new embodied AI platforms, moving beyond technical novelties to focus on reliable manufacturing, industrial task execution, and dexterous manipulation.</summary>
+  </entry>
+  <entry>
+    <title>Bloq Quantum Expands Quantum Education and Workforce Ecosystem in India via Strategic Partnerships</title>
+    <link href="https://quantumcomputingreport.com/bloq-quantum-expands-quantum-education-and-workforce-ecosystem-in-india-via-strategic-partnerships/"/>
+    <id>https://quantumcomputingreport.com/bloq-quantum-expands-quantum-education-and-workforce-ecosystem-in-india-via-strategic-partnerships/</id>
+    <updated>2026-07-25T13:44:37.000Z</updated>
+    <author><name>Quantum Computing Report</name></author>
     <category term="QUANTUM"/>
-    <summary>Guest Post by By Somtochukwu Igwegbe More than two trillion dollars moved through mobile money worldwide in 2025, and roughly two-thirds of that value flowed through sub-Saharan Africa, according to GSMA’s State of the Industry Report on Mobile Money 2026. For a fifth of adults in the region, a mobile money account is </summary>
+    <summary>Enterprise quantum software infrastructure provider Bloq Quantum has announced two strategic partnerships in Kerala, India, designed to accelerate quantum skilling, academic research, and institutional deployment across the region. The company signed a Memorandum of Understanding (MoU) with Sree Buddha College of Engin</summary>
   </entry>
   <entry>
     <title>Anthropic's Claude Opus 5 costs well below Fable 5 while matching or beating it across most benchmarks</title>
@@ -196,31 +187,40 @@
     <summary>Anthropic's Claude Opus 5 leads the Artificial Analysis Intelligence Index with 61 points, edging out Claude Fable 5 and GPT-5.6 Sol. The model scores highest in analytical quality and coding, and costs up to half as much as Fable 5 at lower reasoning tiers. But the race at the top remains close. The article Anthropic'</summary>
   </entry>
   <entry>
-    <title>Verizon CEO Dan Schulman says Verizon will provide dark-fiber connectivity for Google's data centers in a $1B+ deal, with more such deals in the pipeline (Jaspreet Singh/Reuters)</title>
-    <link href="https://www.techmeme.com/260725/p6#a260725p6"/>
-    <id>https://www.techmeme.com/260725/p6#a260725p6</id>
-    <updated>2026-07-25T06:20:00.000Z</updated>
+    <title>New reports reveal the extent of OpenAI's loss of control during the autonomous hack on Hugging Face</title>
+    <link href="https://the-decoder.com/new-reports-reveal-the-extent-of-openais-loss-of-control-during-the-autonomous-hack-on-hugging-face/"/>
+    <id>https://the-decoder.com/new-reports-reveal-the-extent-of-openais-loss-of-control-during-the-autonomous-hack-on-hugging-face/</id>
+    <updated>2026-07-25T13:45:50.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>In a cybersecurity test, OpenAI's most advanced models breached the boundaries of their isolated test environment, reached the open internet, and hacked the AI platform Hugging Face on their own. The attack took hours, not the weeks a human hacker would need. At least seven days passed before OpenAI realized what had h</summary>
+  </entry>
+  <entry>
+    <title>SK Group Chair Chey Tae Won says Anthropic has asked SK Hynix for supplies to make its own chips, calling it remarkable that an AI developer has chip ambitions (Ian King/Bloomberg)</title>
+    <link href="https://www.techmeme.com/260725/p12#a260725p12"/>
+    <id>https://www.techmeme.com/260725/p12#a260725p12</id>
+    <updated>2026-07-25T13:50:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Jaspreet Singh / Reuters : Verizon CEO Dan Schulman says Verizon will provide dark-fiber connectivity for Google's data centers in a $1B+ deal, with more such deals in the pipeline — Verizon CEO Dan Schulman said on Friday the company has secured a deal with Google (GOOGL.O), valued at more than $1 billion …</summary>
+    <summary>Ian King / Bloomberg : SK Group Chair Chey Tae Won says Anthropic has asked SK Hynix for supplies to make its own chips, calling it remarkable that an AI developer has chip ambitions — AI developer Anthropic PBC has asked SK Hynix Inc., one of the world's biggest manufacturers of memory chips …</summary>
   </entry>
   <entry>
-    <title>llama rpc exists and works really well</title>
-    <link href="https://sh.itjust.works/post/63990120"/>
-    <id>https://sh.itjust.works/post/63990120</id>
-    <updated>2026-07-25T09:41:53.000Z</updated>
-    <author><name>Lemmy c/localllama</name></author>
+    <title>Where should I start</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1v68e1e/where_should_i_start/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1v68e1e/where_should_i_start/</id>
+    <updated>2026-07-25T13:26:34.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by troed to localllama 5 points | 0 comments https://github.com/ggml-org/llama.cpp/blob/master/tools/rpc/README.md I’ve been back’n’forth for a while whether to invest in a second 5060Ti to be able to go dual GPU on my main workstation. The target has always been to be able to run Qwen 3.6 27B at a usable mod</summary>
+    <summary>I got a 5070 ti though people say its weak in the world of llms, I got curious on what does this thing do. I am currently a first year IT student and maybe my use case would be to help me through it. Genuinely just looking for something to do and this caught my interest, just wanna learn and explore more about it even </summary>
   </entry>
   <entry>
-    <title>how many models have you collected locally?</title>
-    <link href="https://sh.itjust.works/post/63976878"/>
-    <id>https://sh.itjust.works/post/63976878</id>
-    <updated>2026-07-25T02:28:30.000Z</updated>
-    <author><name>Lemmy c/localllama</name></author>
+    <title>Built a unified workspace for debugging multi-step AI workflows (looking for feedback)</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1v67ro6/built_a_unified_workspace_for_debugging_multistep/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1v67ro6/built_a_unified_workspace_for_debugging_multistep/</id>
+    <updated>2026-07-25T13:00:02.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by leanleft to localllama 5 points | 4 comments llm’s are random text generators. each one is a different architecture, different training data, or different training recipe. first off: you probably dont need to fill up your harddrive with every good model in existance. often a url link is sufficient.(unless </summary>
+    <summary>I've been building a workspace for investigating AI workflow executions. After spending time with existing observability tools, I kept finding myself jumping between traces, prompts, logs, and metrics. I wanted to see what it would feel like if investigation happened in one place. For those of you building AI products </summary>
   </entry>
   <entry>
     <title>Why the OpenAI Agent Broke Into Hugging Face: Reward Hacking, Not Malice, Explained for Engineers</title>
@@ -241,22 +241,22 @@
     <summary>Lily Mae Lazarus / Fortune : Candid Health, which develops tech and AI agents to automate medical billing and claims processing workflows, raised a $120M Series D led by Sixth Street Growth — Candid Health cofounder Doug Proctor spun his laptop around to show me a herd of wild horses grazing behind him in upstate New Y</summary>
   </entry>
   <entry>
-    <title>Big Tech Debt Flood Is Taking Over Risk In Market: Credit Weekly</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-25/big-tech-debt-flood-is-taking-over-risk-in-market-credit-weekly"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-25/big-tech-debt-flood-is-taking-over-risk-in-market-credit-weekly</id>
-    <updated>2026-07-25T11:00:00.000Z</updated>
+    <title>The ‘Trump Trade’ Is Turning Into a Loser in the Stock Market</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-25/the-trump-trade-is-turning-into-a-loser-in-the-stock-market"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-25/the-trump-trade-is-turning-into-a-loser-in-the-stock-market</id>
+    <updated>2026-07-25T13:00:01.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Big Tech’s insatiable appetite for AI investment is unleashing a relentless wave of bond sales — and having a bigger impact on the US corporate bond market than might be obvious.</summary>
+    <summary>When Donald Trump was elected to a second term as president, amateur and professional traders alike rushed to identify which stocks would benefit from his aggressive economic policies.</summary>
   </entry>
   <entry>
-    <title>Ukraine Seeks 30-Year Energy Pact With Canada, Minister Says</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-25/ukraine-seeks-30-year-energy-pact-with-canada-minister-says"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-25/ukraine-seeks-30-year-energy-pact-with-canada-minister-says</id>
-    <updated>2026-07-25T09:07:34.000Z</updated>
+    <title>Austin’s Mayor Tackles Housing Affordability, and Canada Faces New Tariffs</title>
+    <link href="https://www.bloomberg.com/news/newsletters/2026-07-25/austin-s-mayor-tackles-housing-affordability-and-canada-faces-new-tariffs"/>
+    <id>https://www.bloomberg.com/news/newsletters/2026-07-25/austin-s-mayor-tackles-housing-affordability-and-canada-faces-new-tariffs</id>
+    <updated>2026-07-25T12:00:01.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Ukraine is looking to sign a 30-year strategic energy agreement with Canada and proposing an “energy security bridge” focused on the supply of Canadian LNG, Energy Minister Denys Shmyhal said.</summary>
+    <summary>Former trade negotiator says don’t underestimate Canada’s ire</summary>
   </entry>
   <entry>
     <title>Anthropic launches Opus 5</title>
@@ -268,12 +268,12 @@
     <summary>Opus 5 will be both cheaper and less restrictive than Fable, likely making it preferable in most use cases.</summary>
   </entry>
   <entry>
-    <title>More Is Not More: What Matters for Diversity in LLM Opinions?</title>
-    <link href="https://arxiv.org/abs/2607.20429"/>
-    <id>https://arxiv.org/abs/2607.20429</id>
-    <updated>2026-07-25T04:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
+    <title>Delaware’s Printed Solid rebrands to Prusa USA</title>
+    <link href="https://www.tomshardware.com/3d-printing/delawares-printed-solid-rebrands-to-prusa-usa"/>
+    <id>https://www.tomshardware.com/3d-printing/delawares-printed-solid-rebrands-to-prusa-usa</id>
+    <updated>2026-07-25T12:41:51.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
     <category term="HARDWARE"/>
-    <summary>arXiv:2607.20429v1 Announce Type: new Abstract: Large language models are increasingly used to simulate diverse human opinions in open-ended tasks such as synthetic surveys, focus group modeling, and public opinion prediction. However, LLM outputs exhibit systematic opinion homogenization. Practitioners have explored v</summary>
+    <summary>Printed Solid, the Delaware-based filament manufacturer acquired by Czech Prusa Research in 2022, is now known as Prusa USA, Inc.</summary>
   </entry>
 </feed>
