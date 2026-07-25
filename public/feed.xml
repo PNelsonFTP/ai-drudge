@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-07-25T17:10:54.400Z</updated>
+  <updated>2026-07-25T19:21:43.338Z</updated>
   <entry>
     <title>Anthropic's Claude Opus 5 delivers near-Fable 5 performance at half the token price</title>
     <link href="https://the-decoder.com/anthropic-claims-its-new-claude-opus-5-delivers-near-fable-5-performance-at-half-the-token-price/"/>
@@ -55,10 +55,10 @@
     <title>ollama v0.32.4 released</title>
     <link href="https://github.com/ollama/ollama/releases/tag/v0.32.4"/>
     <id>https://github.com/ollama/ollama/releases/tag/v0.32.4</id>
-    <updated>2026-07-25T16:41:03.000Z</updated>
+    <updated>2026-07-25T18:26:49.000Z</updated>
     <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>What's Changed x/create: quantize lm_head at 8-bit in the requested family by @jessegross in #17357 test: harden flaky updater and transfer unit tests by @dhiltgen in #17378 server: fix ps data race on scheduler loaded map by @dhiltgen in #17376 qwen3_5: fix expert quantization handling and gather packed gate_up in one</summary>
+    <summary>What's Changed Support Laguna on Apple GPUs via the MLX engine Quantize draft-model output heads at the requested type when creating speculative-decoding drafts. Fixed Qwen3 MoE decoding for differently-quantized experts, plus faster packed gate/up projection (~4–9% on M5 Max). Full Changelog : v0.32.3...v0.32.4</summary>
   </entry>
   <entry>
     <title>Sources: DeepSeek told investors it is suspending its second funding round after remarks attributed to Liang Wenfeng on US-China AI competition went viral (Pei Li/Bloomberg)</title>
@@ -106,15 +106,6 @@
     <summary>Principles of Intelligence (PrincInt, formerly PIBBSS) is launching PIRAMID , an internal research division using the tools and techniques of statistical physics to build scientific foundations for ambitious mechanistic interpretability. PIRAMID’s central premise is that scalable alignment will require more than persua</summary>
   </entry>
   <entry>
-    <title>Geekbench 7 is Out with a Major Overhaul</title>
-    <link href="https://www.servethehome.com/geekbench-7-is-out-with-a-major-overhaul/"/>
-    <id>https://www.servethehome.com/geekbench-7-is-out-with-a-major-overhaul/</id>
-    <updated>2026-07-25T15:06:47.000Z</updated>
-    <author><name>ServeTheHome</name></author>
-    <category term="HARDWARE"/>
-    <summary>Geekbench 7 is out with major overhauls to scoring, CPU and GPU benchmarks. We have already been testing with it The post Geekbench 7 is Out with a Major Overhaul appeared first on ServeTheHome .</summary>
-  </entry>
-  <entry>
     <title>Sources: OpenAI and Anthropic quietly lobby Washington regulators to restrict open-source AI models, even as Sam Altman publicly says he supports open source AI (New York Times)</title>
     <link href="https://www.techmeme.com/260725/p13#a260725p13"/>
     <id>https://www.techmeme.com/260725/p13#a260725p13</id>
@@ -160,40 +151,49 @@
     <summary>At the World Artificial Intelligence Conference 2026, AGIBOT introduced four new embodied AI platforms, moving beyond technical novelties to focus on reliable manufacturing, industrial task execution, and dexterous manipulation.</summary>
   </entry>
   <entry>
-    <title>Bloq Quantum Expands Quantum Education and Workforce Ecosystem in India via Strategic Partnerships</title>
-    <link href="https://quantumcomputingreport.com/bloq-quantum-expands-quantum-education-and-workforce-ecosystem-in-india-via-strategic-partnerships/"/>
-    <id>https://quantumcomputingreport.com/bloq-quantum-expands-quantum-education-and-workforce-ecosystem-in-india-via-strategic-partnerships/</id>
-    <updated>2026-07-25T13:44:37.000Z</updated>
+    <title>Zero Point Cryogenics and Ability Engineering Technology Anchor IQMP FaQtory in Chicago</title>
+    <link href="https://quantumcomputingreport.com/zero-point-cryogenics-and-ability-engineering-technology-anchor-iqmp-faqtory-in-chicago/"/>
+    <id>https://quantumcomputingreport.com/zero-point-cryogenics-and-ability-engineering-technology-anchor-iqmp-faqtory-in-chicago/</id>
+    <updated>2026-07-25T15:14:29.000Z</updated>
     <author><name>Quantum Computing Report</name></author>
     <category term="QUANTUM"/>
-    <summary>Enterprise quantum software infrastructure provider Bloq Quantum has announced two strategic partnerships in Kerala, India, designed to accelerate quantum skilling, academic research, and institutional deployment across the region. The company signed a Memorandum of Understanding (MoU) with Sree Buddha College of Engin</summary>
+    <summary>Following the federal funding rollout for The Bloch Quantum Tech Hub, the Illinois Quantum and Microelectronics Park (IQMP) has secured its first two physical supply-chain tenants: Edmonton-based dilution refrigerator manufacturer Zero Point Cryogenics (ZPC) and Illinois-based precision engineering firm Ability Enginee</summary>
   </entry>
   <entry>
-    <title>Samsung announces a $200B+ contract to make chips for Broadcom through 2030, focusing on its 2nm and below process technologies for Broadcom's products (Hooyeon Kim/Bloomberg)</title>
-    <link href="https://www.techmeme.com/260725/p9#a260725p9"/>
-    <id>https://www.techmeme.com/260725/p9#a260725p9</id>
-    <updated>2026-07-25T09:45:02.000Z</updated>
+    <title>Several universities including Yale, Johns Hopkins, and the University of Waterloo have restricted or disabled their use of AI detectors over accuracy concerns (Ima Jackson-Obot/Financial Times)</title>
+    <link href="https://www.techmeme.com/260725/p15#a260725p15"/>
+    <id>https://www.techmeme.com/260725/p15#a260725p15</id>
+    <updated>2026-07-25T18:05:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Hooyeon Kim / Bloomberg : Samsung announces a $200B+ contract to make chips for Broadcom through 2030, focusing on its 2nm and below process technologies for Broadcom's products — Samsung Electronics Co. won a contract worth more than $200 billion to make chips for Broadcom Inc., as the companies race to win a larger s</summary>
+    <summary>Ima Jackson-Obot / Financial Times : Several universities including Yale, Johns Hopkins, and the University of Waterloo have restricted or disabled their use of AI detectors over accuracy concerns — Some institutions are overhauling assessment and trying to move away from the emphasis on surveillance</summary>
   </entry>
   <entry>
-    <title>LLaDA2.2 just dropped, a 100B class diffusion model for agents that edits its own tokens while it decodes</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1v6c5th/llada22_just_dropped_a_100b_class_diffusion_model/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1v6c5th/llada22_just_dropped_a_100b_class_diffusion_model/</id>
-    <updated>2026-07-25T16:01:41.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>Benchmarks: TensorSharp vs. llama.cpp</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1v6ect8/benchmarks_tensorsharp_vs_llamacpp/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1v6ect8/benchmarks_tensorsharp_vs_llamacpp/</id>
+    <updated>2026-07-25T17:27:32.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>This one only landed a few hours ago, and the first thing I went looking for was the serving story rather than the benchmarks. It is a 100B class Mixture of Experts diffusion model aimed squarely at agent work, and the genuinely novel part is that it revises its own draft while it decodes. The four moves it makes insid</summary>
+    <summary>Cuda and Vulkan Benchmark: TensorSharp vs. llama.cpp I would like to share my latest open source local Unsloth (GGUF) LLM inference engine and applications. It supports many models from Unsloth, like Gemma4, DiffusionGemma, Qwen3.6 with multi-modal (image, vision, audio), Qwen Image Edit, reasoning and function tool. I</summary>
   </entry>
   <entry>
-    <title>model: add Laguna MLX support (#17237)</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.32.4-rc0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.32.4-rc0</id>
-    <updated>2026-07-25T01:24:53.000Z</updated>
-    <author><name>ollama/ollama</name></author>
+    <title>Mobile Offline LLMs: What do you use them for?</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1v6fq6p/mobile_offline_llms_what_do_you_use_them_for/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1v6fq6p/mobile_offline_llms_what_do_you_use_them_for/</id>
+    <updated>2026-07-25T18:19:20.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>model: add Laguna MLX support Add Laguna XS 2, XS 2.1, and S 2.1 support to the MLX model and create paths. Read the source config to apply one quantization policy across dense and routed MoE layers. Keep the tied output head and router at source precision, quantize supported attention and expert projections, selective</summary>
+    <summary>I've spent the last year or so playing around with open source MLX and GGUF models on iPhone hardware. Given the limitations in memory, GPU/CPU/ANE, and in turn the context window I've been trying to figure out the best use cases for them. I've also done a lot of testing with Apple Foundation model. It is not that capa</summary>
+  </entry>
+  <entry>
+    <title>Why the OpenAI Agent Broke Into Hugging Face: Reward Hacking, Not Malice, Explained for Engineers</title>
+    <link href="https://www.marktechpost.com/2026/07/25/why-the-openai-agent-broke-into-hugging-face-reward-hacking-not-malice-explained-for-engineers/"/>
+    <id>https://www.marktechpost.com/2026/07/25/why-the-openai-agent-broke-into-hugging-face-reward-hacking-not-malice-explained-for-engineers/</id>
+    <updated>2026-07-25T09:03:27.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>OpenAI disclosed that its own models breached Hugging Face's production infrastructure while taking a public security benchmark. The models were not attacking a target — they were optimizing a score. Here is the mechanism, what the ExploitGym data showed two months earlier, and which widely repeated claims about the in</summary>
   </entry>
   <entry>
     <title>OpenAI agent goes rogue and hacks popular AI community — left escape plans for future models inside the company's infrastructure</title>
@@ -203,15 +203,6 @@
     <author><name>Tom's Hardware</name></author>
     <category term="AGENTS &amp; TOOLS"/>
     <summary>OpenAI tests multiple autonomous AI agents at once and has difficulty identifying the threats each of them represents, if a new report from Reuters is accurate.</summary>
-  </entry>
-  <entry>
-    <title>Hermes AI agent used to automate attack on Thai Finance Ministry</title>
-    <link href="https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/"/>
-    <id>https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/</id>
-    <updated>2026-07-24T19:09:09.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>A threat actor used the open-source Hermes AI agent in unattended &quot;YOLO&quot; mode to automate post-exploitation activity during an alleged breach of Thailand's Ministry of Finance. [...]</summary>
   </entry>
   <entry>
     <title>The ‘Trump Trade’ Is Turning Into a Loser in the Stock Market</title>
@@ -241,6 +232,15 @@
     <summary>Anthropic's Claude Opus 5 leads the Artificial Analysis Intelligence Index with 61 points, edging out Claude Fable 5 and GPT-5.6 Sol. The model scores highest in analytical quality and coding, and costs up to half as much as Fable 5 at lower reasoning tiers. But the race at the top remains close. The article Anthropic'</summary>
   </entry>
   <entry>
+    <title>Anthropic launches Opus 5</title>
+    <link href="https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/"/>
+    <id>https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/</id>
+    <updated>2026-07-24T17:00:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Opus 5 will be both cheaper and less restrictive than Fable, likely making it preferable in most use cases.</summary>
+  </entry>
+  <entry>
     <title>SpaceX Launches Another Starship, and This Time the Market Is Watching</title>
     <link href="https://www.wsj.com/tech/spacex-launches-another-starship-and-this-time-the-market-is-watching-e76b9d43?mod=rss_Technology"/>
     <id>https://www.wsj.com/tech/spacex-launches-another-starship-and-this-time-the-market-is-watching-e76b9d43?mod=rss_Technology</id>
@@ -250,13 +250,13 @@
     <summary>The latest launch for the experimental rocket is the first since Elon Musk’s rocket company went public in a historic IPO.</summary>
   </entry>
   <entry>
-    <title>Anthropic launches Opus 5</title>
-    <link href="https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/"/>
-    <id>https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/</id>
-    <updated>2026-07-24T17:00:00.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Opus 5 will be both cheaper and less restrictive than Fable, likely making it preferable in most use cases.</summary>
+    <title>Geekbench 7 is Out with a Major Overhaul</title>
+    <link href="https://www.servethehome.com/geekbench-7-is-out-with-a-major-overhaul/"/>
+    <id>https://www.servethehome.com/geekbench-7-is-out-with-a-major-overhaul/</id>
+    <updated>2026-07-25T15:06:47.000Z</updated>
+    <author><name>ServeTheHome</name></author>
+    <category term="HARDWARE"/>
+    <summary>Geekbench 7 is out with major overhauls to scoring, CPU and GPU benchmarks. We have already been testing with it The post Geekbench 7 is Out with a Major Overhaul appeared first on ServeTheHome .</summary>
   </entry>
   <entry>
     <title>Nvidia and SK Group enter $500 billion AI partnership — plan to supercharge AI infrastructure with next-gen memory and massive AI factories</title>
@@ -268,12 +268,12 @@
     <summary>Nvidia and SK Group enter $500 billion strategic partnership focused on long-term memory supply, 2 GW AI data center, and future AI infrastructure</summary>
   </entry>
   <entry>
-    <title>Microsoft's open-weight AI push is so obviously an Azure play it hurts</title>
-    <link href="https://the-decoder.com/microsofts-open-weight-ai-push-is-so-obviously-an-azure-play-it-hurts/"/>
-    <id>https://the-decoder.com/microsofts-open-weight-ai-push-is-so-obviously-an-azure-play-it-hurts/</id>
-    <updated>2026-07-24T16:06:02.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>Open-weight AI is having its Kubernetes moment</title>
+    <link href="https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/"/>
+    <id>https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/</id>
+    <updated>2026-07-25T14:49:49.000Z</updated>
+    <author><name>HN: AI (150+ points)</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>Microsoft, along with Meta, Nvidia, and more than 20 other companies, is pushing for open-weight AI models in an open letter. The strategic logic is simple: the more models running on Azure, the less Microsoft depends on expensive OpenAI and Anthropic models. The company is also swapping external models in products lik</summary>
+    <summary>Article URL: https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/ Comments URL: https://news.ycombinator.com/item?id=49048034 Points: 162 # Comments: 110</summary>
   </entry>
 </feed>
