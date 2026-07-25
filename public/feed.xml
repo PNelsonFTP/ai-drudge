@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-07-25T21:03:40.605Z</updated>
+  <updated>2026-07-25T22:05:14.537Z</updated>
   <entry>
     <title>Anthropic's Claude Opus 5 delivers near-Fable 5 performance at half the token price</title>
     <link href="https://the-decoder.com/anthropic-claims-its-new-claude-opus-5-delivers-near-fable-5-performance-at-half-the-token-price/"/>
@@ -32,6 +32,15 @@
     <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Opus 5 combined with Auto Mode hits a zero percent prompt injection success rate for browser agents across 129 test scenarios. Without those extra protection layers, the rate is 3.7 percent. If these numbers hold up in practice, Anthropic may have cracked one of the biggest security problems facing AI agents that opera</summary>
+  </entry>
+  <entry>
+    <title>The OpenAI models that hacked Hugging Face weren’t just following instructions</title>
+    <link href="https://blog.redwoodresearch.org/p/the-openai-models-that-hacked-hugging"/>
+    <id>https://blog.redwoodresearch.org/p/the-openai-models-that-hacked-hugging</id>
+    <updated>2026-07-25T21:37:05.000Z</updated>
+    <author><name>Redwood Research</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>And what the incident can’t tell us about alignment</summary>
   </entry>
   <entry>
     <title>Claude Opus 5 is now available in GitHub Copilot</title>
@@ -115,15 +124,6 @@
     <summary>New York Times : Sources: OpenAI and Anthropic quietly lobby Washington regulators to restrict open-source AI models, even as Sam Altman publicly says he supports open source AI — Anthropic and OpenAI are clashing with the rest of the tech industry over whether “open-source” models from China should be freely available</summary>
   </entry>
   <entry>
-    <title>Introducing PIRAMID: Physics-Informed Research for Ambitious Mechanistic Interpretability</title>
-    <link href="https://www.lesswrong.com/posts/nbSJhbLERTZFeNxY7/introducing-piramid-physics-informed-research-for-ambitious"/>
-    <id>https://www.lesswrong.com/posts/nbSJhbLERTZFeNxY7/introducing-piramid-physics-informed-research-for-ambitious</id>
-    <updated>2026-07-25T15:54:35.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>Principles of Intelligence (PrincInt, formerly PIBBSS) is launching PIRAMID , an internal research division using the tools and techniques of statistical physics to build scientific foundations for ambitious mechanistic interpretability. PIRAMID’s central premise is that scalable alignment will require more than persua</summary>
-  </entry>
-  <entry>
     <title>Opus 5 may have solved browser-based prompt injection, the biggest security flaw haunting AI agents - the-decoder.com</title>
     <link href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxNclNKZWtwYmxVTmpCQ1pIckc0aXY2T1hGcHJtZ2VqbzY0YlE4WWhaZmZrWmF2VEpPbDZGSm55TUtxSWFUcGltd0pCTUZFLXY4c21KRTVQNl9vZnBOVlpjQVcycFJ6ejBTYmU0WWd6U1NWTlVQYUtqdzVrcWhaTTU5UnhaMkplTDdOYmZHYTNMTnF4emJ6THRjUllDb1NxN0VucWNwd3dNSFZrMVVHQTRac291cFFWXzRlRzMyZjhwX0M?oc=5"/>
     <id>https://news.google.com/rss/articles/CBMiwAFBVV95cUxNclNKZWtwYmxVTmpCQ1pIckc0aXY2T1hGcHJtZ2VqbzY0YlE4WWhaZmZrWmF2VEpPbDZGSm55TUtxSWFUcGltd0pCTUZFLXY4c21KRTVQNl9vZnBOVlpjQVcycFJ6ejBTYmU0WWd6U1NWTlVQYUtqdzVrcWhaTTU5UnhaMkplTDdOYmZHYTNMTnF4emJ6THRjUllDb1NxN0VucWNwd3dNSFZrMVVHQTRac291cFFWXzRlRzMyZjhwX0M?oc=5</id>
@@ -178,22 +178,22 @@
     <summary>Quantum software provider Quantum Elements has released Orbit, an advanced error suppression tool accessible as a Qiskit Function in the IBM Qiskit Functions Catalog. Designed to streamline noise management for quantum developers, Orbit provides members of the IBM Quantum Network with an automated, low-overhead suite t</summary>
   </entry>
   <entry>
-    <title>Benchmarks: TensorSharp vs. llama.cpp</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1v6ect8/benchmarks_tensorsharp_vs_llamacpp/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1v6ect8/benchmarks_tensorsharp_vs_llamacpp/</id>
-    <updated>2026-07-25T17:27:32.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>128 RAM + 24GB of VRAM 3090 enough to run MOE models?</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1v6kobp/128_ram_24gb_of_vram_3090_enough_to_run_moe_models/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1v6kobp/128_ram_24gb_of_vram_3090_enough_to_run_moe_models/</id>
+    <updated>2026-07-25T21:35:33.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Cuda and Vulkan Benchmark: TensorSharp vs. llama.cpp I would like to share my latest open source local Unsloth (GGUF) LLM inference engine and applications. It supports many models from Unsloth, like Gemma4, DiffusionGemma, Qwen3.6 with multi-modal (image, vision, audio), Qwen Image Edit, reasoning and function tool. I</summary>
+    <summary>I have 64 GB of VRAM. Is it worth investing in another 64 GB of RAM to run MOE models like Laguna or DeepSeek V4 flash? submitted by /u/cezarducatti [link] [comments]</summary>
   </entry>
   <entry>
-    <title>Mobile Offline LLMs: What do you use them for?</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1v6fq6p/mobile_offline_llms_what_do_you_use_them_for/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1v6fq6p/mobile_offline_llms_what_do_you_use_them_for/</id>
-    <updated>2026-07-25T18:19:20.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>AI Workstation Build — Need Opinions Before I Spend $11K</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1v6jr3y/ai_workstation_build_need_opinions_before_i_spend/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1v6jr3y/ai_workstation_build_need_opinions_before_i_spend/</id>
+    <updated>2026-07-25T20:57:45.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>I've spent the last year or so playing around with open source MLX and GGUF models on iPhone hardware. Given the limitations in memory, GPU/CPU/ANE, and in turn the context window I've been trying to figure out the best use cases for them. I've also done a lot of testing with Apple Foundation model. It is not that capa</summary>
+    <summary>I'm looking for a professionally built local-AI workstation and would appreciate opinions before I spend roughly $11,000. Primary use: running local/open-weight models—especially Qwen-family coding and agent models—plus RAG, document analysis, private business automation, and potentially multiple coding agents. This is</summary>
   </entry>
   <entry>
     <title>Human-in-the-Loop Large Language Model Framework for Identification of Cutaneous Immune-Related Adverse Events</title>
@@ -205,13 +205,13 @@
     <summary>arXiv:2607.20428v1 Announce Type: new Abstract: This study evaluated a retrieval-augmented, multi-agent large language model (LLM)-driven, human-in-the-loop framework for detecting cutaneous immune-related adverse events (cirAEs) from clinical notes. Compared with unassisted manual review, the LLM-assisted workflow imp</summary>
   </entry>
   <entry>
-    <title>Why the OpenAI Agent Broke Into Hugging Face: Reward Hacking, Not Malice, Explained for Engineers</title>
-    <link href="https://www.marktechpost.com/2026/07/25/why-the-openai-agent-broke-into-hugging-face-reward-hacking-not-malice-explained-for-engineers/"/>
-    <id>https://www.marktechpost.com/2026/07/25/why-the-openai-agent-broke-into-hugging-face-reward-hacking-not-malice-explained-for-engineers/</id>
-    <updated>2026-07-25T09:03:27.000Z</updated>
-    <author><name>MarkTechPost</name></author>
+    <title>Hermes AI agent used to automate attack on Thai Finance Ministry</title>
+    <link href="https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/"/>
+    <id>https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/</id>
+    <updated>2026-07-24T19:09:09.000Z</updated>
+    <author><name>BleepingComputer</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>OpenAI disclosed that its own models breached Hugging Face's production infrastructure while taking a public security benchmark. The models were not attacking a target — they were optimizing a score. Here is the mechanism, what the ExploitGym data showed two months earlier, and which widely repeated claims about the in</summary>
+    <summary>A threat actor used the open-source Hermes AI agent in unattended &quot;YOLO&quot; mode to automate post-exploitation activity during an alleged breach of Thailand's Ministry of Finance. [...]</summary>
   </entry>
   <entry>
     <title>The ‘Trump Trade’ Is Turning Into a Loser in the Stock Market</title>
@@ -241,6 +241,15 @@
     <summary>Anthropic's Claude Opus 5 leads the Artificial Analysis Intelligence Index with 61 points, edging out Claude Fable 5 and GPT-5.6 Sol. The model scores highest in analytical quality and coding, and costs up to half as much as Fable 5 at lower reasoning tiers. But the race at the top remains close. The article Anthropic'</summary>
   </entry>
   <entry>
+    <title>Introducing PIRAMID: Physics-Informed Research for Ambitious Mechanistic Interpretability</title>
+    <link href="https://www.lesswrong.com/posts/nbSJhbLERTZFeNxY7/introducing-piramid-physics-informed-research-for-ambitious"/>
+    <id>https://www.lesswrong.com/posts/nbSJhbLERTZFeNxY7/introducing-piramid-physics-informed-research-for-ambitious</id>
+    <updated>2026-07-25T15:54:35.000Z</updated>
+    <author><name>LessWrong</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Principles of Intelligence (PrincInt, formerly PIBBSS) is launching PIRAMID , an internal research division using the tools and techniques of statistical physics to build scientific foundations for ambitious mechanistic interpretability. PIRAMID’s central premise is that scalable alignment will require more than persua</summary>
+  </entry>
+  <entry>
     <title>Geekbench 7 is Out with a Major Overhaul</title>
     <link href="https://www.servethehome.com/geekbench-7-is-out-with-a-major-overhaul/"/>
     <id>https://www.servethehome.com/geekbench-7-is-out-with-a-major-overhaul/</id>
@@ -250,13 +259,13 @@
     <summary>Geekbench 7 is out with major overhauls to scoring, CPU and GPU benchmarks. We have already been testing with it The post Geekbench 7 is Out with a Major Overhaul appeared first on ServeTheHome .</summary>
   </entry>
   <entry>
-    <title>Nvidia and SK Group enter $500 billion AI partnership — plan to supercharge AI infrastructure with next-gen memory and massive AI factories</title>
-    <link href="https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-and-sk-group-enter-usd500-billion-ai-partnership-plan-to-supercharge-ai-infrastructure-with-next-gen-memory-and-massive-ai-factories"/>
-    <id>https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-and-sk-group-enter-usd500-billion-ai-partnership-plan-to-supercharge-ai-infrastructure-with-next-gen-memory-and-massive-ai-factories</id>
-    <updated>2026-07-25T13:55:35.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
+    <title>model: add Laguna MLX support (#17237)</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.32.4-rc0"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.32.4-rc0</id>
+    <updated>2026-07-25T01:24:53.000Z</updated>
+    <author><name>ollama/ollama</name></author>
     <category term="HARDWARE"/>
-    <summary>Nvidia and SK Group enter $500 billion strategic partnership focused on long-term memory supply, 2 GW AI data center, and future AI infrastructure</summary>
+    <summary>model: add Laguna MLX support Add Laguna XS 2, XS 2.1, and S 2.1 support to the MLX model and create paths. Read the source config to apply one quantization policy across dense and routed MoE layers. Keep the tied output head and router at source precision, quantize supported attention and expert projections, selective</summary>
   </entry>
   <entry>
     <title>Open-weight AI is having its Kubernetes moment</title>
@@ -265,15 +274,6 @@
     <updated>2026-07-25T14:49:49.000Z</updated>
     <author><name>HN: AI (150+ points)</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>Article URL: https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/ Comments URL: https://news.ycombinator.com/item?id=49048034 Points: 233 # Comments: 169</summary>
-  </entry>
-  <entry>
-    <title>Hermes AI agent used to automate attack on Thai Finance Ministry</title>
-    <link href="https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/"/>
-    <id>https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/</id>
-    <updated>2026-07-24T19:09:09.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>A threat actor used the open-source Hermes AI agent in unattended &quot;YOLO&quot; mode to automate post-exploitation activity during an alleged breach of Thailand's Ministry of Finance. [...]</summary>
+    <summary>Article URL: https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/ Comments URL: https://news.ycombinator.com/item?id=49048034 Points: 266 # Comments: 204</summary>
   </entry>
 </feed>
