@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-07-26T19:24:18.806Z</updated>
+  <updated>2026-07-26T21:06:59.059Z</updated>
   <entry>
     <title>An OpenAI model left notes about how to evade containment</title>
     <link href="https://blog.redwoodresearch.org/p/an-openai-model-left-notes-about"/>
@@ -61,13 +61,13 @@
     <summary>Reuters : Shein's IPO prospectus shows Q1 revenue of $9.05B, up 1% YoY, as it swings from $395M profit in Q1 2025 to $99M loss partly due to US' “de minimis” rule removal — Shein swung to a $99 million net loss in the first quarter of this year, the draft Hong Kong listing prospectus …</summary>
   </entry>
   <entry>
-    <title>Sources: OpenAI and Anthropic quietly lobby Washington regulators to restrict open-source AI models, even as Sam Altman publicly says he supports open source AI</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1v74j62/sources_openai_and_anthropic_quietly_lobby/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1v74j62/sources_openai_and_anthropic_quietly_lobby/</id>
-    <updated>2026-07-26T13:53:52.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>BeeLlama.cpp v0.4.1: KVarN, KV precision tail, q2_0-q3_1 KV cache, improved support. KLD benchmarks: tail 1024 makes kvarn5 and q6_0 match q8_0, for much less VRAM</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1v7a463/beellamacpp_v041_kvarn_kv_precision_tail_q2_0q3_1/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1v7a463/beellamacpp_v041_kvarn_kv_precision_tail_q2_0q3_1/</id>
+    <updated>2026-07-26T17:23:08.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by /u/pscoutou [link] [comments]</summary>
+    <summary>TL;DR llama.cpp fork with more KV cache quantization features, with all claims supported by benchmarks: KVarN, KV cache precision tail, additional types of standard KV cache (q2_0-q3_1, q6_0, q6_1), and more. BeeLLama v0.4.1 is here, building up on top of v0.4.0 feature set, now with better backend and model support. K</summary>
   </entry>
   <entry>
     <title>Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack</title>
@@ -97,13 +97,13 @@
     <summary>An FPGA and embedded systems expert has recreated the US Navy’s F-14 Tomcat’s Central Air Data Computer (CADC) in an FPGA. It is demonstrated in a scale 3D printed model aircraft</summary>
   </entry>
   <entry>
-    <title>This Senao SA9832v2 is an Intel Amston Lake-Powered Cloud SASE Gateway</title>
-    <link href="https://www.servethehome.com/computex-2026-senao-sa9832v2-an-intel-amston-lake-powered-cloud-sase-gateway/"/>
-    <id>https://www.servethehome.com/computex-2026-senao-sa9832v2-an-intel-amston-lake-powered-cloud-sase-gateway/</id>
-    <updated>2026-07-26T17:00:01.000Z</updated>
-    <author><name>ServeTheHome</name></author>
+    <title>Minecraft system requirements raised for the first time in 17 years — Microsoft now recommends 16GB of RAM and a 2020s or newer CPU to run the Java Edition</title>
+    <link href="https://www.tomshardware.com/video-games/pc-gaming/minecraft-system-requirements-raised-for-the-first-time-in-17-years-microsoft-now-recommends-16gb-of-ram-and-a-2020s-or-newer-cpu-to-run-the-java-edition"/>
+    <id>https://www.tomshardware.com/video-games/pc-gaming/minecraft-system-requirements-raised-for-the-first-time-in-17-years-microsoft-now-recommends-16gb-of-ram-and-a-2020s-or-newer-cpu-to-run-the-java-edition</id>
+    <updated>2026-07-26T12:30:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
     <category term="HARDWARE"/>
-    <summary>At Computex 2026 Senao was showing off its latest wired SASE gateway, the SA9832v2, which is powered by Intel's elusive Atom X7 &quot;Amston Lake&quot; SoC The post This Senao SA9832v2 is an Intel Amston Lake-Powered Cloud SASE Gateway appeared first on ServeTheHome .</summary>
+    <summary>Microsoft is increasing the minimum and recommended system requirements for Minecraft for the first time, 17 years after it launched. Although the system upgrade is quite reasonable and the hardware falls squarely within the most popular components in the most recent Steam Hardware Survey, those playing with a bare-min</summary>
   </entry>
   <entry>
     <title>Cursor's agent swarm suggests cheaper models can handle most coding when frontier models plan the work</title>
@@ -124,7 +124,7 @@
     <summary>Opus 5 may have solved browser-based prompt injection, the biggest security flaw haunting AI agents The Decoder</summary>
   </entry>
   <entry>
-    <title>GitHub, PyPI add time-absed defenses against supply chain attacks</title>
+    <title>GitHub, PyPI add time-based defenses against supply chain attacks</title>
     <link href="https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/"/>
     <id>https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/</id>
     <updated>2026-07-26T14:13:39.000Z</updated>
@@ -140,6 +140,15 @@
     <author><name>crewAIInc/crewAI</name></author>
     <category term="CYBER DEFENSE"/>
     <summary>What's Changed Bug Fixes Resolve registry skills through the runtime's CrewAI+ client Recover from the GPT-5.6 tools + reasoning_effort 400 Make tool calling work on the Responses API path Route responses-only models instead of failing with 404 Bump bedrock-agentcore to patch CVE-2026-16796 Observability Emit skill usa</summary>
+  </entry>
+  <entry>
+    <title>An Inside Look at the Relay Market Powering Token Resellers and Fraud</title>
+    <link href="https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything"/>
+    <id>https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything</id>
+    <updated>2026-07-26T19:30:54.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="ANALYSIS"/>
+    <summary>An Inside Look at the Relay Market Powering Token Resellers and Fraud Fascinating investigation by Matt Lenhard into the market that has grown up around reselling LLM tokens at a discount by pooling API keys from various sources. This looks to be mostly a thing in China. Resellers sell access to an LLM proxy that offer</summary>
   </entry>
   <entry>
     <title>A Golden Milestone: Figure Manufactures Its 1,000th Figure 03 Humanoid</title>
@@ -169,6 +178,15 @@
     <summary>ui: fix context gauge card regressions and land at the conversation e…</summary>
   </entry>
   <entry>
+    <title>Making sense of the panic over Chinese AI</title>
+    <link href="https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/"/>
+    <id>https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/</id>
+    <updated>2026-07-26T19:40:57.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>On the latest episode of Equity, we discussed why Moonshot AI's Kimi seemed to panic Silicon Valley and Wall Street.</summary>
+  </entry>
+  <entry>
     <title>Sources: Apple may have delayed AI glasses launch partly over privacy concerns that Meta's glasses created for the category, as it works to address the issues (Mark Gurman/Bloomberg)</title>
     <link href="https://www.techmeme.com/260726/p5#a260726p5"/>
     <id>https://www.techmeme.com/260726/p5#a260726p5</id>
@@ -178,22 +196,31 @@
     <summary>Mark Gurman / Bloomberg : Sources: Apple may have delayed AI glasses launch partly over privacy concerns that Meta's glasses created for the category, as it works to address the issues — Company debated whether glasses will be able to record video. — Apple's upcoming smart glasses have a major challenge in front of the</summary>
   </entry>
   <entry>
-    <title>MiniMax (official) on X: &quot;Open weights. Open research. Open innovation.🫶 Marching for an open future.🤍</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1v7bwg7/minimax_official_on_x_open_weights_open_research/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1v7bwg7/minimax_official_on_x_open_weights_open_research/</id>
-    <updated>2026-07-26T18:28:47.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>submitted by /u/RhubarbSimilar1683 [link] [comments]</summary>
+    <title>India eases foreign investment rules for e-commerce companies, a win for Amazon, which lobbied to buy goods directly from Indian sellers and sell them overseas (Aditya Kalra/Reuters)</title>
+    <link href="https://www.techmeme.com/260726/p8#a260726p8"/>
+    <id>https://www.techmeme.com/260726/p8#a260726p8</id>
+    <updated>2026-07-26T20:55:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Aditya Kalra / Reuters : India eases foreign investment rules for e-commerce companies, a win for Amazon, which lobbied to buy goods directly from Indian sellers and sell them overseas — India's government on Thursday eased foreign investment rules to allow e-commerce companies to buy products directly from Indian sell</summary>
   </entry>
   <entry>
-    <title>90 agentic bakeoff runs: ThinkingCap vs Fable Fusion vs stock Qwen3.6-27B</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1v78dzr/90_agentic_bakeoff_runs_thinkingcap_vs_fable/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1v78dzr/90_agentic_bakeoff_runs_thinkingcap_vs_fable/</id>
-    <updated>2026-07-26T16:19:45.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>my first fine tune</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1v78shf/my_first_fine_tune/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1v78shf/my_first_fine_tune/</id>
+    <updated>2026-07-26T16:35:02.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Last week someone here said ThinkingCap and Fable Fusion &quot;really do beat the OG&quot; for agentic work, so I ran it: 6 self-grading tasks, 5 reps, 3 models, 90 isolated runs. Tooling, since that's half the story: each run was a fresh Coder workspace on my k8s cluster driving my own agent (Hermes, the harness I use daily) he</summary>
+    <summary>submitted by /u/Frosty2o25 [link] [comments]</summary>
+  </entry>
+  <entry>
+    <title>Bond Traders on Edge as Risks of Fed Rate Hike This Week Mount</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-26/bond-traders-on-edge-as-risks-of-fed-rate-hike-this-week-mount"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-26/bond-traders-on-edge-as-risks-of-fed-rate-hike-this-week-mount</id>
+    <updated>2026-07-26T19:00:00.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Bond traders enter the week seeing a better than one-in-three chance that the Federal Reserve hikes interest rates on Wednesday after flaring Middle East tensions lifted oil prices, boosting inflation worries and yields.</summary>
   </entry>
   <entry>
     <title>Traders Are Getting a New Tool to Wager on the Biggest US Stocks</title>
@@ -203,15 +230,6 @@
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
     <summary>Investors will soon have another way to bet on the hottest stocks from Nvidia Corp. to SpaceX, without trading a single share.</summary>
-  </entry>
-  <entry>
-    <title>Big Tech Earnings Slam Into a Market in Revolt Over AI Spending</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-26/big-tech-earnings-slam-into-a-market-in-revolt-over-ai-spending"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-26/big-tech-earnings-slam-into-a-market-in-revolt-over-ai-spending</id>
-    <updated>2026-07-26T13:00:00.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>For years, US technology giants had a tacit agreement with investors: The companies could spend lavishly on artificial intelligence, and the stock market would reward them long as their revenues were rising. That deal is suddenly breaking down.</summary>
   </entry>
   <entry>
     <title>Geekbench 7 is Out with a Major Overhaul</title>
@@ -241,13 +259,13 @@
     <summary>More than 3,600 people sign petition for careful assessment of proposed AI hub, now a flashpoint for national debate on datacentre boom Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily news podcast For some residents it started with a letter in the mailbox. It was a</summary>
   </entry>
   <entry>
-    <title>Minecraft system requirements raised for the first time in 17 years — Microsoft now recommends 16GB of RAM and a 2020s or newer CPU to run the Java Edition</title>
-    <link href="https://www.tomshardware.com/video-games/pc-gaming/minecraft-system-requirements-raised-for-the-first-time-in-17-years-microsoft-now-recommends-16gb-of-ram-and-a-2020s-or-newer-cpu-to-run-the-java-edition"/>
-    <id>https://www.tomshardware.com/video-games/pc-gaming/minecraft-system-requirements-raised-for-the-first-time-in-17-years-microsoft-now-recommends-16gb-of-ram-and-a-2020s-or-newer-cpu-to-run-the-java-edition</id>
-    <updated>2026-07-26T12:30:00.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
+    <title>This Senao SA9832v2 is an Intel Amston Lake-Powered Cloud SASE Gateway</title>
+    <link href="https://www.servethehome.com/computex-2026-senao-sa9832v2-an-intel-amston-lake-powered-cloud-sase-gateway/"/>
+    <id>https://www.servethehome.com/computex-2026-senao-sa9832v2-an-intel-amston-lake-powered-cloud-sase-gateway/</id>
+    <updated>2026-07-26T17:00:01.000Z</updated>
+    <author><name>ServeTheHome</name></author>
     <category term="HARDWARE"/>
-    <summary>Microsoft is increasing the minimum and recommended system requirements for Minecraft for the first time, 17 years after it launched. Although the system upgrade is quite reasonable and the hardware falls squarely within the most popular components in the most recent Steam Hardware Survey, those playing with a bare-min</summary>
+    <summary>At Computex 2026 Senao was showing off its latest wired SASE gateway, the SA9832v2, which is powered by Intel's elusive Atom X7 &quot;Amston Lake&quot; SoC The post This Senao SA9832v2 is an Intel Amston Lake-Powered Cloud SASE Gateway appeared first on ServeTheHome .</summary>
   </entry>
   <entry>
     <title>Open-source 3D-printed portable MRI machine built for under $70,000 — DIY medical equipment costs less than 7% of a full-sized MRI machine’s $1.1 million starting price</title>
@@ -257,23 +275,5 @@
     <author><name>Tom's Hardware</name></author>
     <category term="HARDWARE"/>
     <summary>This open-source project uses 3D printing to build the core of a portable MRI machine, although it still has a lower resolution compared to multi-million-dollar full-sized machines. One tech expert suggested that an AI model be trained on high-field MRI data or the physics of the actual machine to overcome this limitat</summary>
-  </entry>
-  <entry>
-    <title>US reportedly favors selective bans over blanket restrictions on Chinese open weight models citing security concerns</title>
-    <link href="https://the-decoder.com/us-reportedly-favors-selective-bans-over-blanket-restrictions-on-chinese-open-weight-models-citing-security-concerns/"/>
-    <id>https://the-decoder.com/us-reportedly-favors-selective-bans-over-blanket-restrictions-on-chinese-open-weight-models-citing-security-concerns/</id>
-    <updated>2026-07-26T07:56:24.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>The Trump administration is planning targeted bans on Chinese AI models rather than a blanket ban. After public pressure, OpenAI and Google DeepMind signed an open letter opposing regulation of open-weight models, yet OpenAI and Anthropic continue to lobby privately for those same restrictions amid security concerns an</summary>
-  </entry>
-  <entry>
-    <title>Inoculate or Reflect? Two training interventions under prompting, steering, and patching</title>
-    <link href="https://www.lesswrong.com/posts/LQK3yzsn8gts4tS7c/inoculate-or-reflect-two-training-interventions-under-1"/>
-    <id>https://www.lesswrong.com/posts/LQK3yzsn8gts4tS7c/inoculate-or-reflect-two-training-interventions-under-1</id>
-    <updated>2026-07-26T18:15:46.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>Anthropic's recent paper, Verbalizable Representations Form a Global Workspace in Language Models , contains a small experiment near the end that we found more interesting than the main findings. The technique is called Counterfactual Reflection Training (CRT) . The model is fed a partial transcript in its context wind</summary>
   </entry>
 </feed>
