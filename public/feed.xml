@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-07-29T15:15:34.109Z</updated>
+  <updated>2026-07-29T17:23:45.846Z</updated>
   <entry>
     <title>Mark Zuckerberg says US should not ban Chinese AI</title>
     <link href="https://www.ft.com/content/af4fa147-7fdd-42eb-8eb2-3f624a89a4e4?syn-25a6b1a6=1"/>
@@ -16,58 +16,48 @@
     <summary>Meta chief warns against ‘regulatory capture’ of American rules on the technology</summary>
   </entry>
   <entry>
-    <title>OpenAI’s rogue AI agent didn’t stop at hacking Hugging Face</title>
-    <link href="https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face"/>
-    <id>https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face</id>
-    <updated>2026-07-29T11:54:29.000Z</updated>
-    <author><name>The Verge AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>The AI agent that escaped from OpenAI and hacked developer platform Hugging Face attacked other companies as well, OpenAI revealed on Tuesday. The update substantially widens the scope of an already concerning incident, which has alarmed industry insiders and fueled growing calls for stronger oversight on frontier AI s — Also covered by: Wired AI</summary>
-  </entry>
-  <entry>
-    <title>Industry Leaders Unite in Open Secure AI Alliance for AI Safety and Security</title>
-    <link href="https://blogs.nvidia.com/blog/open-secure-ai-alliance/"/>
-    <id>https://blogs.nvidia.com/blog/open-secure-ai-alliance/</id>
-    <updated>2026-07-27T09:00:07.000Z</updated>
-    <author><name>NVIDIA Blog</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Open source software is a critical pillar of the global economy. It underpins cloud computing, financial services, manufacturing, telecommunications, government and internet services by making technology accessible and observable to communities of experts. Cybersecurity is among the top three beneficiaries of open sour</summary>
-  </entry>
-  <entry>
-    <title>GPT Transcribe improves on its predecessor but can't catch ElevenLabs, Google, or Mistral on error rates</title>
-    <link href="https://the-decoder.com/gpt-transcribe-improves-on-its-predecessor-but-cant-catch-elevenlabs-google-or-mistral-on-error-rates/"/>
-    <id>https://the-decoder.com/gpt-transcribe-improves-on-its-predecessor-but-cant-catch-elevenlabs-google-or-mistral-on-error-rates/</id>
-    <updated>2026-07-29T12:45:33.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control</title>
+    <link href="https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/"/>
+    <id>https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/</id>
+    <updated>2026-07-29T16:02:10.000Z</updated>
+    <author><name>Google DeepMind Blog</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>OpenAI has released GPT Transcribe and GPT Live Transcribe, two new speech recognition models available through its API. The article GPT Transcribe improves on its predecessor but can't catch ElevenLabs, Google, or Mistral on error rates appeared first on The Decoder .</summary>
   </entry>
   <entry>
-    <title>A look at OpenAI's open-source agent harness that now powers Codex and ChatGPT Work, as the company works to optimize the harness to cut runaway token usage (Jason Hiner/The Deep View)</title>
-    <link href="https://www.techmeme.com/260729/p22#a260729p22"/>
-    <id>https://www.techmeme.com/260729/p22#a260729p22</id>
-    <updated>2026-07-29T14:40:29.000Z</updated>
+    <title>Groundcover, which provides observability software that can monitor AI agents, raised a $100M Series C led by One Peak, bringing its total funding to $160M (Meir Orbach/CTech)</title>
+    <link href="https://www.techmeme.com/260729/p27#a260729p27"/>
+    <id>https://www.techmeme.com/260729/p27#a260729p27</id>
+    <updated>2026-07-29T15:35:02.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Jason Hiner / The Deep View : A look at OpenAI's open-source agent harness that now powers Codex and ChatGPT Work, as the company works to optimize the harness to cut runaway token usage — The unsung hero behind OpenAI's 2026 transformation is a technology that rarely gets mentioned, and that most of its 1 billion mont</summary>
+    <summary>Meir Orbach / CTech : Groundcover, which provides observability software that can monitor AI agents, raised a $100M Series C led by One Peak, bringing its total funding to $160M — The Israeli startup says traditional monitoring platforms were not built for the explosion of data generated by cloud and AI systems.</summary>
   </entry>
   <entry>
-    <title>llama.cpp b10181 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10181"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10181</id>
-    <updated>2026-07-29T15:11:44.000Z</updated>
+    <title>llama.cpp b10182 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10182"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10182</id>
+    <updated>2026-07-29T17:03:28.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>ggml-cuda : disable MMQ on devices with less than 48 KiB shared memory ( #26141 ) ggml_cuda_should_use_mmq() selects MMQ purely from the quantization type. The current MMQ configurations are designed and maintained against a minimum of 48 KiB per-block shared memory, the limit provided by NVIDIA Pascal GPUs and later. </summary>
+    <summary>llama: move suppress_tokens handling to common/sampling ( #26276 ) llama: move suppress_tokens handling to common/sampling address security issues rm has_logit_bias Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework </summary>
   </entry>
   <entry>
-    <title>Grant Thornton to Buy Advisory Firm CBIZ in $5 Billion Deal</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-29/grant-thornton-us-buys-cbiz-in-5-billion-deal"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-29/grant-thornton-us-buys-cbiz-in-5-billion-deal</id>
-    <updated>2026-07-29T13:06:39.000Z</updated>
+    <title>Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory</title>
+    <link href="https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html"/>
+    <id>https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html</id>
+    <updated>2026-07-29T15:39:30.000Z</updated>
+    <author><name>The Hacker News</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for Anthropic Claude Code and OpenAI Codex, that could result in unauthenticated remote code execution. The vulnerability, tracked as CVE-2026-59726 (CVSS score: 10.0), impacts all versions of the project</summary>
+  </entry>
+  <entry>
+    <title>CoreWeave Boosts Yield on $2.6 Billion Loan Tied to Anthropic</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-29/coreweave-boosts-yield-on-2-6-billion-loan-tied-to-anthropic"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-29/coreweave-boosts-yield-on-2-6-billion-loan-tied-to-anthropic</id>
+    <updated>2026-07-29T17:08:58.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Grant Thornton’s US arm has agreed to buy rival accountant CBIZ Inc. in a deal that values the target firm at $5 billion, marking one of the largest professional services acquisitions in recent years.</summary>
+    <summary>CoreWeave Inc. has sweetened terms on a $2.6 billion loan to fund additional computing capacity for firms including Anthropic PBC in an effort to win over investors growing wary of AI-related debt as bubble concerns mount.</summary>
   </entry>
   <entry>
     <title>GAUGE: Grading Agent-Built Financial Models Without a Golden Answer</title>
@@ -79,13 +69,13 @@
     <summary>arXiv:2607.24889v1 Announce Type: new Abstract: Financial models combine public disclosures with analyst assumptions to produce forecasts and valuations. While some components can be checked mechanically, forecasts, discount rates, and target prices often admit multiple reasonable answers. Existing benchmarks neverthel</summary>
   </entry>
   <entry>
-    <title>Auge global de la yerba mate no llega a productores argentinos</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-07-29/auge-global-de-la-yerba-mate-no-llega-a-productores-argentinos"/>
-    <id>https://www.bloomberg.com/news/videos/2026-07-29/auge-global-de-la-yerba-mate-no-llega-a-productores-argentinos</id>
-    <updated>2026-07-29T14:06:04.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="PRODUCTS"/>
-    <summary>La yerba mate conquista consumidores en las grandes ciudades del mundo. Pero detrás de ese boom, muchos pequeños productores argentinos atraviesan una crisis y cada vez más emigran a Brasil en busca de trabajo. (Source: Bloomberg)</summary>
+    <title>Anthropic's cryptanalysis results on HAWK and AES show AI can now understand existing cryptanalysis results, turn them into new attacks, and even extend them (Matthew Green/A Few Thoughts ...)</title>
+    <link href="https://www.techmeme.com/260729/p30#a260729p30"/>
+    <id>https://www.techmeme.com/260729/p30#a260729p30</id>
+    <updated>2026-07-29T16:45:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="HARDWARE"/>
+    <summary>Matthew Green / A Few Thoughts on Cryptographic Engineering : Anthropic's cryptanalysis results on HAWK and AES show AI can now understand existing cryptanalysis results, turn them into new attacks, and even extend them — Yesterday Anthropic published two new cryptanalysis results, both outputs of Claude Mythos, their </summary>
   </entry>
   <entry>
     <title>Do Models Fake Alignment Without Clear Consequences?</title>
@@ -106,15 +96,6 @@
     <summary>Everything you need to know about the EU AI Act. Scope, prohibited practices, non-compliance fines up to €35M, and the real compliance deadlines for 2026-2028.</summary>
   </entry>
   <entry>
-    <title>Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline</title>
-    <link href="https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html"/>
-    <id>https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html</id>
-    <updated>2026-07-29T13:48:36.000Z</updated>
-    <author><name>The Hacker News</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>A coordinated cyberattack targeted operational technology at more than 30 Minnesota community water systems on July 26 and 27, triggering a statewide cybersecurity response. Braham, Plymouth, South St. Paul and Maple Plain have publicly described a plant outage, communications failures or affected automated controls. B</summary>
-  </entry>
-  <entry>
     <title>As AI content floods the internet, Pangram raises $9M to detect it</title>
     <link href="https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it/"/>
     <id>https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it/</id>
@@ -124,13 +105,13 @@
     <summary>Pangram has raised $9 million to scale its AI detection software. The startup has also released a new AI text detection model, Pangram 4, and an AI image detection model in research preview.</summary>
   </entry>
   <entry>
-    <title>Exclusive: Former Meta And Slack Engineers Raise $15M For New Startup Centralize To Build A ‘Deal GPS’ For Enterprise Sales</title>
-    <link href="https://news.crunchbase.com/sales-marketing/centralize-enterprise-sales-gtm-startup-funding-slack-meta-alums/"/>
-    <id>https://news.crunchbase.com/sales-marketing/centralize-enterprise-sales-gtm-startup-funding-slack-meta-alums/</id>
-    <updated>2026-07-29T13:00:30.000Z</updated>
-    <author><name>Crunchbase News AI</name></author>
+    <title>Europe’s First Pure-Play Humanoid Unicorn: Humanoid Raises $152M at $1.35B Valuation</title>
+    <link href="https://www.humanoidsdaily.com/news/europe-s-first-pure-play-humanoid-unicorn-humanoid-raises-152m-at-1-35b-valuation"/>
+    <id>https://www.humanoidsdaily.com/news/europe-s-first-pure-play-humanoid-unicorn-humanoid-raises-152m-at-1-35b-valuation</id>
+    <updated>2026-07-29T15:40:12.000Z</updated>
+    <author><name>Humanoids Daily</name></author>
     <category term="FUNDING &amp; DEALS"/>
-    <summary>Centralize, an enterprise sales platform, emerges from stealth and shares exclusive news of its $15 million Series A funding round with Crunchbase News.</summary>
+    <summary>UK-based startup Humanoid has secured $152 million in Series A funding led by Prime Movers Lab, with strategic backing from industrial giants Bosch and Schaeffler.</summary>
   </entry>
   <entry>
     <title>Why compute might get 10x+ more expensive in coming years</title>
@@ -142,94 +123,94 @@
     <summary>If a human-level software engineer that could run on an H100 equivalent, at current market rates for software engineers, that H100 should rent for over $250k a year. That’s 15x today’s spot price.</summary>
   </entry>
   <entry>
-    <title>The Imminent Embodied AI Ban: FCC to Target Chinese Humanoids</title>
-    <link href="https://www.humanoidsdaily.com/news/the-imminent-embodied-ai-ban-fcc-to-target-chinese-humanoids"/>
-    <id>https://www.humanoidsdaily.com/news/the-imminent-embodied-ai-ban-fcc-to-target-chinese-humanoids</id>
-    <updated>2026-07-28T20:16:42.000Z</updated>
-    <author><name>Humanoids Daily</name></author>
-    <category term="ROBOTICS"/>
-    <summary>The Trump administration is reportedly preparing to direct the FCC to ban new imports of Chinese humanoid robots, quadrupeds, and connected power inverters in a sweeping move to protect the U.S. AI buildout.</summary>
-  </entry>
-  <entry>
-    <title>IonQ Clears Final Regulatory Hurdle to Complete Acquisition of SkyWater Technology</title>
-    <link href="https://quantumcomputingreport.com/ionq-clears-final-regulatory-hurdle-to-complete-acquisition-of-skywater-technology/"/>
-    <id>https://quantumcomputingreport.com/ionq-clears-final-regulatory-hurdle-to-complete-acquisition-of-skywater-technology/</id>
-    <updated>2026-07-29T12:43:37.000Z</updated>
-    <author><name>Quantum Computing Report</name></author>
+    <title>FTC Split Lets IonQ-SkyWater Quantum Deal Close Without Changes</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-29/ftc-split-lets-ionq-skywater-quantum-deal-close-without-changes"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-29/ftc-split-lets-ionq-skywater-quantum-deal-close-without-changes</id>
+    <updated>2026-07-29T16:25:06.000Z</updated>
+    <author><name>Bloomberg Tech</name></author>
     <category term="QUANTUM"/>
-    <summary>Trapped-ion quantum hardware developer IonQ (NYSE: IONQ) has secured final regulatory approval to finalize its acquisition of SkyWater Technology (NASDAQ: SKYT), the largest exclusively U.S.-based semiconductor foundry. First announced as a definitive $1.8 billion cash-and-stock transaction in January 2026, the deal is</summary>
+    <summary>IonQ Inc. will close its $1.8 billion acquisition of semiconductor foundry SkyWater Technology Inc. later this week after the Federal Trade Commission was unable to decide whether to impose conditions on the deal, according to people familiar with the matter.</summary>
   </entry>
   <entry>
-    <title>OpenAI open-sources Codex Security CLI to help developers find and fix vulnerabilities from the command line</title>
-    <link href="https://the-decoder.com/openai-open-sources-codex-security-cli-to-help-developers-find-and-fix-vulnerabilities-from-the-command-line/"/>
-    <id>https://the-decoder.com/openai-open-sources-codex-security-cli-to-help-developers-find-and-fix-vulnerabilities-from-the-command-line/</id>
-    <updated>2026-07-29T11:50:56.000Z</updated>
+    <title>OpenAI admits its autonomous AI models also compromised credentials on other platforms during security eval</title>
+    <link href="https://the-decoder.com/openai-admits-its-autonomous-ai-models-also-compromised-credentials-on-other-platforms-during-security-eval/"/>
+    <id>https://the-decoder.com/openai-admits-its-autonomous-ai-models-also-compromised-credentials-on-other-platforms-during-security-eval/</id>
+    <updated>2026-07-29T16:26:56.000Z</updated>
     <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>OpenAI has released Codex Security CLI, an open-source tool that automatically detects and fixes vulnerabilities in code repositories. Previously known internally as &quot;Aardvark,&quot; the system has already helped fix more than 3,000 critical security flaws, according to OpenAI. It competes directly with Anthropic's Claude S</summary>
+    <summary>During a security evaluation, OpenAI's autonomous hacking models broke into Hugging Face and used exposed credentials on four other services. Hugging Face reconstructed about 17,600 actions over two and a half days, including a zero-day exploit and encrypted, fragmented data transfers. The models were apparently trying</summary>
   </entry>
   <entry>
-    <title>Deepmind dismantles its AlphaFold team as key authors leave for Anthropic</title>
-    <link href="https://the-decoder.com/deepmind-dismantles-its-alphafold-team-as-key-authors-leave-for-anthropic/"/>
-    <id>https://the-decoder.com/deepmind-dismantles-its-alphafold-team-as-key-authors-leave-for-anthropic/</id>
-    <updated>2026-07-29T13:47:11.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>Accelerating scientific discovery with ChatGPT for Academic Researchers</title>
+    <link href="https://openai.com/index/chatgpt-for-academic-researchers"/>
+    <id>https://openai.com/index/chatgpt-for-academic-researchers</id>
+    <updated>2026-07-29T10:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>The majority of the researchers behind AlphaFold are now working on other projects, and almost a quarter have left Google Deepmind altogether. The restructuring marks a sharp turn away from the strategy that put the lab on the map. The article Deepmind dismantles its AlphaFold team as key authors leave for Anthropic ap</summary>
+    <summary>OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.</summary>
   </entry>
   <entry>
-    <title>Encore AI raises $30M to build AI agents that learn from customer calls</title>
-    <link href="https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls/"/>
-    <id>https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls/</id>
-    <updated>2026-07-29T14:41:06.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>The startup analyzes calls, messages and CRM data to identify effective sales techniques and turn them into playbooks for AI agents.</summary>
-  </entry>
-  <entry>
-    <title>Eliyan, which aims to license tech and make physical &quot;chiplets&quot; to ease AI chip data transfer bottlenecks, raised a $145M Series C at a $1B valuation (Stephen Nellis/Reuters)</title>
-    <link href="https://www.techmeme.com/260729/p21#a260729p21"/>
-    <id>https://www.techmeme.com/260729/p21#a260729p21</id>
-    <updated>2026-07-29T14:30:01.000Z</updated>
+    <title>Encore AI, which studies companies' customer interactions to train and deploy AI voice agents, raised a $30M Series A led by Team8, Planven, and The Garage (Ram Iyer/TechCrunch)</title>
+    <link href="https://www.techmeme.com/260729/p26#a260729p26"/>
+    <id>https://www.techmeme.com/260729/p26#a260729p26</id>
+    <updated>2026-07-29T15:25:43.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Stephen Nellis / Reuters : Eliyan, which aims to license tech and make physical “chiplets” to ease AI chip data transfer bottlenecks, raised a $145M Series C at a $1B valuation — Eliyan, a startup that aims to ease the bottlenecks in transferring data between AI chips in data centers …</summary>
+    <summary>Ram Iyer / TechCrunch : Encore AI, which studies companies' customer interactions to train and deploy AI voice agents, raised a $30M Series A led by Team8, Planven, and The Garage — Encore AI, a startup that studies companies' customer interactions to train and deploy AI voice agents that can work alongside customer su</summary>
   </entry>
   <entry>
-    <title>Understand Kimi K3 from first principles: a recommended order for anyone trying to understand this beast</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1v9vnpk/understand_kimi_k3_from_first_principles_a/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1v9vnpk/understand_kimi_k3_from_first_principles_a/</id>
-    <updated>2026-07-29T13:05:37.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>ChipAgents, which uses AI agents to help speed up the process of chip design, raised a $60M Series A2 led by B Capital, bringing the expanded round to $134M (Max A. Cherney/Reuters)</title>
+    <link href="https://www.techmeme.com/260729/p25#a260729p25"/>
+    <id>https://www.techmeme.com/260729/p25#a260729p25</id>
+    <updated>2026-07-29T15:20:03.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Max A. Cherney / Reuters : ChipAgents, which uses AI agents to help speed up the process of chip design, raised a $60M Series A2 led by B Capital, bringing the expanded round to $134M — Chip design startup ChipAgents expanded its Series A financing with a $60 million infusion to further fund its plans to speed …</summary>
+  </entry>
+  <entry>
+    <title>What's one local model you keep coming back to, no matter what gets released?</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1va29sy/whats_one_local_model_you_keep_coming_back_to_no/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1va29sy/whats_one_local_model_you_keep_coming_back_to_no/</id>
+    <updated>2026-07-29T17:05:47.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Everyone is talking about Kimi K3, but if you jump straight into the technical report, you’ll quickly realize it’s standing on years of research -- just like any breakthrough is! If you want to understand the work put into it by the Kimi team, here’s the reading order I’d recommend. Linear Transformers Are Secretly Fas</summary>
+    <summary>Curious which models have actually stayed in your rotation. submitted by /u/recro69 [link] [comments]</summary>
   </entry>
   <entry>
-    <title>I keep coming back to Qwen... Over and Over. Is there really nothing better under 120B?</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1v9xsi8/i_keep_coming_back_to_qwen_over_and_over_is_there/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1v9xsi8/i_keep_coming_back_to_qwen_over_and_over_is_there/</id>
-    <updated>2026-07-29T14:27:51.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>Looking for someone who can set up an on-premise AI system for my business</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1va1wbe/looking_for_someone_who_can_set_up_an_onpremise/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1va1wbe/looking_for_someone_who_can_set_up_an_onpremise/</id>
+    <updated>2026-07-29T16:52:40.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>I was looking for a strong coding model and a strong general model, both should be 120b or under. After weeks of researching, qwen3.6 27b(general) and qwen3 coder next(coding) are the top choices. I mean there has to be something better. Any reccommendations? submitted by /u/Possible_Grocery8079 [link] [comments]</summary>
+    <summary>Hey everyone, I’m looking for a local developer or consultant in the south Florida area , who can design and build a local on-premise AI system for my business. The main goals are: • Create an internal repository for all of our company PDFs and documents so they can be easily searched and queried in natural language • </summary>
   </entry>
   <entry>
-    <title>Goldman: Fed Unlikely to Surprise</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-07-29/goldman-fed-unlikely-to-surprise-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-07-29/goldman-fed-unlikely-to-surprise-video</id>
-    <updated>2026-07-29T15:06:01.000Z</updated>
+    <title>Deep Agents v0.7</title>
+    <link href="https://www.langchain.com/blog/deep-agents-v0-7"/>
+    <id>https://www.langchain.com/blog/deep-agents-v0-7</id>
+    <updated>2026-07-29T17:00:19.000Z</updated>
+    <author><name>LangChain Blog</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Today we're shipping deep agents v0.7. This release simplifies the base harness, resulting in 65% fewer base input tokens at comparable performance.</summary>
+  </entry>
+  <entry>
+    <title>BMO Completes SRTs Tied to $5 Billion of Corporate Loans</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-07-29/bmo-completes-srts-tied-to-5-billion-of-corporate-loans"/>
+    <id>https://www.bloomberg.com/news/articles/2026-07-29/bmo-completes-srts-tied-to-5-billion-of-corporate-loans</id>
+    <updated>2026-07-29T16:17:19.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Goldman Sachs Chief US Economist David Mericle joins Bloomberg Open Interest to explain why the Fed is still likely to leave interest rates unchanged despite geopolitical tensions and rising oil prices. He breaks down the inflation outlook, why a surprise hike is unlikely, and why today's resilient consumer could weake</summary>
+    <summary>Bank of Montreal recently completed two significant risk transfers covering about $5 billion of corporate loans, becoming the latest Canadian lender to tap strong investor demand for the instruments.</summary>
   </entry>
   <entry>
-    <title>CAVU Consumer Partners Co-Founders on Brand Building</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-07-29/cavu-consumer-partners-co-founders-on-brand-building-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-07-29/cavu-consumer-partners-co-founders-on-brand-building-video</id>
-    <updated>2026-07-29T14:35:02.000Z</updated>
+    <title>Ford Shares Climb as Profit-Rich SUVs Drive Outlook Higher</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-07-29/ford-shares-climb-as-suvs-drive-outlook-higher-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-07-29/ford-shares-climb-as-suvs-drive-outlook-higher-video</id>
+    <updated>2026-07-29T16:56:57.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>CAVU Consumer Partners Co-Founders Brett Thomas and Rohan Oza look to Millennials and Gen Z's drive for a healthier lifestyle as the foundation of their venture and brand building with companies such as Whoop, Skinny Dipped and The Farmer's Dog. They speak to Romaine Bostick and Emily Graffeo on Bloomberg's 'The Close.</summary>
+    <summary>Ford Motor Co. raised its profit outlook for the second time this year as consumers continue to snap up the automaker’s high-margin sport-utility vehicles. The rosier forecast, revealed late Tuesday as the automaker reported better-than-expected quarterly earnings, shows how Ford is cashing in on resilient demand for S</summary>
   </entry>
   <entry>
     <title>CogArena: A Multimethod Evaluation of Cognitive Ability Structure in Large Language Models</title>
@@ -250,30 +231,48 @@
     <summary>The visionary PhysioNet platform launched 25 years ago, based on a system developed at MIT in the 1970s. It has become one of the most comprehensive biomedical and clinical data repositories in existence.</summary>
   </entry>
   <entry>
-    <title>How to remap the Windows 11 Copilot key and restore your missing Right Ctrl button</title>
-    <link href="https://www.zdnet.com/article/remap-windows-copilot-key/"/>
-    <id>https://www.zdnet.com/article/remap-windows-copilot-key/</id>
-    <updated>2026-07-29T13:01:00.000Z</updated>
-    <author><name>ZDNet AI</name></author>
+    <title>Default model enablement for Copilot Business and Enterprise</title>
+    <link href="https://github.blog/changelog/2026-07-29-default-model-enablement-for-copilot-business-and-enterprise"/>
+    <id>https://github.blog/changelog/2026-07-29-default-model-enablement-for-copilot-business-and-enterprise</id>
+    <updated>2026-07-29T14:01:07.000Z</updated>
+    <author><name>GitHub Copilot Changelog</name></author>
     <category term="PRODUCTS"/>
-    <summary>Pressing the Copilot key on your laptop keyboard launches Copilot. But whether or not you use Microsoft's AI, you can remap the key to trigger a different feature.</summary>
+    <summary>We’re introducing a global default enablement policy for generally available Copilot models on Copilot Business and Copilot Enterprise plans. Instead of requiring admins to manually turn on each new model… The post Default model enablement for Copilot Business and Enterprise appeared first on The GitHub Blog .</summary>
   </entry>
   <entry>
-    <title>Logitech CEO Faber Says Chip Supply Is Unusually Tight</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-07-29/logitech-ceo-faber-chip-supply-is-unusually-tight-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-07-29/logitech-ceo-faber-chip-supply-is-unusually-tight-video</id>
-    <updated>2026-07-29T15:01:32.000Z</updated>
-    <author><name>Bloomberg Tech</name></author>
+    <title>Tame Dependabot: Group your updates, slow the cadence, keep security fast</title>
+    <link href="https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/"/>
+    <id>https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/</id>
+    <updated>2026-07-29T16:00:00.000Z</updated>
+    <author><name>GitHub Blog</name></author>
     <category term="PRODUCTS"/>
-    <summary>Logitech CEO Hanneke Faber discusses the company’s first-quarter results and the impact of a late-June incident at a key semiconductor supplier. Speaking with Dani Burger on &quot;Bloomberg Open Interest,&quot; Faber also discusses gaming demand, component costs and the company's pricing strategy. (Source: Bloomberg)</summary>
+    <summary>Dependabot keeps your dependencies current, but its defaults can flood your repository with pull requests. Here's how grouping updates, slowing the cadence, and keeping security fixes fast cut the noise on a Microsoft open source project. The post Tame Dependabot: Group your updates, slow the cadence, keep security fas</summary>
   </entry>
   <entry>
-    <title>Brookfield and NextEra partner to develop a $100B, 1.2GW+ AI data center campus at a former DOE uranium-enrichment site in Kentucky, set to open in 2032 (Robb M. Stewart/Wall Street Journal)</title>
-    <link href="https://www.techmeme.com/260729/p23#a260729p23"/>
-    <id>https://www.techmeme.com/260729/p23#a260729p23</id>
-    <updated>2026-07-29T14:45:02.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>How to Self-Host a Validated AI Coding Assistant with NVIDIA NeMo Guardrails</title>
+    <link href="https://developer.nvidia.com/blog/how-to-self-host-a-validated-ai-coding-assistant-with-nvidia-nemo-guardrails/"/>
+    <id>https://developer.nvidia.com/blog/how-to-self-host-a-validated-ai-coding-assistant-with-nvidia-nemo-guardrails/</id>
+    <updated>2026-07-29T16:46:45.000Z</updated>
+    <author><name>NVIDIA Dev Blog</name></author>
     <category term="HARDWARE"/>
-    <summary>Robb M. Stewart / Wall Street Journal : Brookfield and NextEra partner to develop a $100B, 1.2GW+ AI data center campus at a former DOE uranium-enrichment site in Kentucky, set to open in 2032 — The companies plan to develop a data center campus on the Energy Department's Paducah site in western Kentucky</summary>
+    <summary>Deploying an AI coding assistant in a regulated, sovereign, or source-sensitive environment, often comes with challenges. Three common issues are: the source...</summary>
+  </entry>
+  <entry>
+    <title>Nvidia employee implicated in escalating Supermicro smuggling scandal, but demand only intensifies for Nvidia hardware</title>
+    <link href="https://www.tomshardware.com/tech-industry/nvidia-employee-implicated-in-escalating-supermicro-smuggling-scandal-but-demand-only-intensifies-for-nvidia-hardware"/>
+    <id>https://www.tomshardware.com/tech-industry/nvidia-employee-implicated-in-escalating-supermicro-smuggling-scandal-but-demand-only-intensifies-for-nvidia-hardware</id>
+    <updated>2026-07-29T15:10:06.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <category term="HARDWARE"/>
+    <summary>An Nvidia employee has been implicated in the Supermicro smuggling scandal, with his home and desk searched. He's been detained over allegations of forgery and breach of trust. Meanwhile, Nvidia is collapsing its buyer list in order to root out potential smuggling chains.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI open-sources Codex Security CLI to help developers find and fix vulnerabilities from the command line</title>
+    <link href="https://the-decoder.com/openai-open-sources-codex-security-cli-to-help-developers-find-and-fix-vulnerabilities-from-the-command-line/"/>
+    <id>https://the-decoder.com/openai-open-sources-codex-security-cli-to-help-developers-find-and-fix-vulnerabilities-from-the-command-line/</id>
+    <updated>2026-07-29T11:50:56.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>OpenAI has released Codex Security CLI, an open-source tool that automatically detects and fixes vulnerabilities in code repositories. Previously known internally as &quot;Aardvark,&quot; the system has already helped fix more than 3,000 critical security flaws, according to OpenAI. It competes directly with Anthropic's Claude S</summary>
   </entry>
 </feed>
