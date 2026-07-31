@@ -5,15 +5,51 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-07-31T21:17:14.688Z</updated>
+  <updated>2026-07-31T23:11:41.756Z</updated>
   <entry>
-    <title>Anthropic says its AI hacked real-world companies in three incidents</title>
-    <link href="https://therecord.media/anthropic-ai-hacked-three-real-companies"/>
-    <id>https://therecord.media/anthropic-ai-hacked-three-real-companies</id>
-    <updated>2026-07-31T12:15:00.000Z</updated>
-    <author><name>The Record</name></author>
+    <title>Deepseek V4 Flash on SlopCodeBench</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vbtiy7/deepseek_v4_flash_on_slopcodebench/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vbtiy7/deepseek_v4_flash_on_slopcodebench/</id>
+    <updated>2026-07-31T15:05:45.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Claude maker Anthropic said its AI models escaped test environments and breached networks at three companies on the open internet.</summary>
+    <summary>While waiting for some of the quants to drop, I load the API with $50 and ran it on SlopCodeBench Just vibe reading the results it seems like Opus 4.8 &lt; Deepseek &lt; Opus 5 https://github.com/michaelasper/benchmarks/blob/main/deepseek-v4-flash-on-slop-code-bench.md I was mostly curious from this blog post When Q2 drops -</summary>
+  </entry>
+  <entry>
+    <title>Google Earth AI tool pulled after spate of fake satellite images</title>
+    <link href="https://www.ft.com/content/06b7545b-94a0-4a5d-9c21-0c7852771b41?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/06b7545b-94a0-4a5d-9c21-0c7852771b41?syn-25a6b1a6=1</id>
+    <updated>2026-07-31T20:03:13.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Security experts say generative tools risk eroding trust in satellite images used to verify conflict damage and incidents</summary>
+  </entry>
+  <entry>
+    <title>DeepSeek-V4-Flash-0731 unsloth gguf on A100</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vbwuq0/deepseekv4flash0731_unsloth_gguf_on_a100/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vbwuq0/deepseekv4flash0731_unsloth_gguf_on_a100/</id>
+    <updated>2026-07-31T17:06:05.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>A100 with 40gb VRAM: 162GB Q8_K_XL ~16.1 tok/s generation Only 15.8GB of 40GB VRAM used with all experts on CPU NOTE just tested coding on linux box DeepSeek-V4-Flash-0731 runs losslessly on the single 40GB A100 at 17.7 tok/s with 6 experts loaded into VRAM, with Codex driving it through a full agentic coding loop subm — Also covered by: Lemmy c/localllama, LocalLLaMA Subreddit</summary>
+  </entry>
+  <entry>
+    <title>Anthropic’s Opus 5 Is Better at Resisting Prompt Injection</title>
+    <link href="https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html"/>
+    <id>https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html</id>
+    <updated>2026-07-31T17:23:16.000Z</updated>
+    <author><name>Schneier on Security</name></author>
+    <category term="RESEARCH"/>
+    <summary>The chart is interesting. On the IPI benchmark, Opus 5 improved over Opus 4.8, reducing the probability of an attacker succeeding within 15 attempts from 5.5% to 2.0%, and from 0.5% to 0.2% on 1 attempt. It also improved on Sonnet 5 (5.9% at k=15) and Mythos 5 (2.6%), making it the most robust model evaluated. Opus 5 a</summary>
+  </entry>
+  <entry>
+    <title>Anthropic says Claude accidentally hacked real companies too</title>
+    <link href="https://www.theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests"/>
+    <id>https://www.theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests</id>
+    <updated>2026-07-31T13:41:17.000Z</updated>
+    <author><name>The Verge AI</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Anthropic just realized several of its Claude AI models hacked into the systems of three different organizations during testing, acting on their own and without the company noticing. The revelation comes days after rival OpenAI said one of its own models had breached developer platform Hugging Face, adding to growing u</summary>
   </entry>
   <entry>
     <title>qwen-code v0.21.2 released</title>
@@ -21,17 +57,8 @@
     <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.21.2</id>
     <updated>2026-07-31T04:29:16.000Z</updated>
     <author><name>QwenLM/qwen-code</name></author>
-    <category term="MODEL RELEASES"/>
+    <category term="GITHUB REPOS"/>
     <summary>Highlights Autofix now defers lower-severity suggestions after five rounds and posts visible notices when refusing to proceed due to round limits. ( #7913 , #8067 ) Added an opt-in Auto Recall profile that automatically searches external context with built-in security limits. ( #7877 ) Enhanced the /verify command with — Also covered by: anthropics/claude-code</summary>
-  </entry>
-  <entry>
-    <title>Advancing the price-performance frontier with GPT‑5.6</title>
-    <link href="https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything"/>
-    <id>https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything</id>
-    <updated>2026-07-30T23:58:42.000Z</updated>
-    <author><name>Simon Willison</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Advancing the price-performance frontier with GPT‑5.6 Huge price drop from OpenAI today: GPT-5.6 Terra got a 20% reduction, and GPT-5.6 Luna got a massive 80% drop. OpenAI credit 5.6 Sol with enabling this: in How GPT‑5.6 fuses frontier intelligence with frontier efficiency they describe using 5.6 Sol to optimize load </summary>
   </entry>
   <entry>
     <title>IonQ Completes Acquisition of SkyWater Technology, Establishing Vertically Integrated Quantum Platform</title>
@@ -43,31 +70,31 @@
     <summary>Trapped-ion quantum computing developer IonQ (NYSE: IONQ) has officially completed its acquisition of SkyWater Technology (NASDAQ: SKYT), the largest exclusively U.S.-based semiconductor foundry. Following final regulatory approvals, the transaction closed on July 31, 2026, establishing IonQ as a vertically integrated  — Also covered by: The Quantum Insider</summary>
   </entry>
   <entry>
-    <title>Building abundant intelligence</title>
-    <link href="https://openai.com/index/building-abundant-intelligence"/>
-    <id>https://openai.com/index/building-abundant-intelligence</id>
-    <updated>2026-07-31T15:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
+    <title>DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis</title>
+    <link href="https://artificialanalysis.ai/models/deepseek-v4-flash"/>
+    <id>https://artificialanalysis.ai/models/deepseek-v4-flash</id>
+    <updated>2026-07-31T07:59:11.000Z</updated>
+    <author><name>HN: Chinese Frontier Labs</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.</summary>
+    <summary>https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731 Comments URL: https://news.ycombinator.com/item?id=49120299 Points: 506 # Comments: 279</summary>
   </entry>
   <entry>
-    <title>Sources: OpenAI has discovered other instances where AI agents escaped containment; none of the agents were thought to have left OpenAI's network (Reuters)</title>
-    <link href="https://www.techmeme.com/260731/p36#a260731p36"/>
-    <id>https://www.techmeme.com/260731/p36#a260731p36</id>
-    <updated>2026-07-31T20:40:00.000Z</updated>
+    <title>The FTC clears quantum computing company IonQ's $1.8B acquisition of chipmaker SkyWater after the FTC's two members disagreed at first on imposing conditions (Jody Godoy/Reuters)</title>
+    <link href="https://www.techmeme.com/260731/p41#a260731p41"/>
+    <id>https://www.techmeme.com/260731/p41#a260731p41</id>
+    <updated>2026-07-31T22:55:00.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Reuters : Sources: OpenAI has discovered other instances where AI agents escaped containment; none of the agents were thought to have left OpenAI's network — OpenAI has discovered other instances in which autonomous agents have escaped containment as the company expands its investigation …</summary>
+    <summary>Jody Godoy / Reuters : The FTC clears quantum computing company IonQ's $1.8B acquisition of chipmaker SkyWater after the FTC's two members disagreed at first on imposing conditions — The U.S. Federal Trade Commission cleared quantum computing firm IonQ's (IONQ.N) $1.8 billion acquisition of chipmaker SkyWater Technolog</summary>
   </entry>
   <entry>
-    <title>llama.cpp b10214 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10214"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10214</id>
-    <updated>2026-07-31T20:47:49.000Z</updated>
+    <title>llama.cpp b10216 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10216"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10216</id>
+    <updated>2026-07-31T22:06:43.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>mtmd: add n_embd_head ( #26342 ) Co-authored-by: Daniel Han unslothai@gmail.com Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubu</summary>
+    <summary>vulkan: add POOL_1D op ( #25431 ) vulkan : add pool1d push constants and pipeline field Declared data structures needed for POOL1D OP, which are the vk_op_pool1d_push_constants struct and pipeline_pool1d_f32 field. vulkan : add pool1d compute shader Added pool1d.comp for Vulkan backend mirroring the existing pool2d sha</summary>
   </entry>
   <entry>
     <title>Evaluating code review agents with ReviewBench</title>
@@ -79,13 +106,13 @@
     <summary>Learn how LangChain built ReviewBench, a benchmark for evaluating code review agents against real PR feedback from trusted reviewers.</summary>
   </entry>
   <entry>
-    <title>Extenet Bonds Miss Interest Amid Alleged Cash Control Violations</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-31/extenet-bonds-miss-interest-amid-alleged-cash-control-violations"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-31/extenet-bonds-miss-interest-amid-alleged-cash-control-violations</id>
-    <updated>2026-07-31T20:37:20.000Z</updated>
+    <title>Chip War, Stanford University: Scarlet &amp; Tom's Must-Read Books</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-07-31/chip-war-stanford-university-scarlet-tom-s-must-read-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-07-31/chip-war-stanford-university-scarlet-tom-s-must-read-video</id>
+    <updated>2026-07-31T22:23:43.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Bonds issued by Extenet Systems, a company that operates miniature cell towers, are in default after missing interest payments, and the firm also engaged in cash management violations, according to the bank responsible for collecting payments.</summary>
+    <summary>Scarlet Fu and Tom Keene discuss their must-read book on this weeks edition of &quot;Bloomberg Money.&quot; (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>When benchmark inferences do not compose: Projectibility in AI evaluation</title>
@@ -97,13 +124,13 @@
     <summary>arXiv:2607.26159v1 Announce Type: new Abstract: An AI benchmark result rarely reaches a consequential claim in one step. Evaluators generalize it to further cases, interpret it as evidence of capability, extrapolate it to new tasks, transport it to another system or site, and combine it with assumptions about human rev</summary>
   </entry>
   <entry>
-    <title>Announcing the Agentic Catalog Experience in Amazon Quick</title>
-    <link href="https://aws.amazon.com/blogs/machine-learning/announcing-the-agentic-catalog-experience-in-amazon-quick/"/>
-    <id>https://aws.amazon.com/blogs/machine-learning/announcing-the-agentic-catalog-experience-in-amazon-quick/</id>
-    <updated>2026-07-31T19:53:04.000Z</updated>
-    <author><name>AWS ML Blog</name></author>
+    <title>Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks</title>
+    <link href="https://www.cnbc.com/2026/07/31/clear-street-pre-ipo-platform-databricks.html"/>
+    <id>https://www.cnbc.com/2026/07/31/clear-street-pre-ipo-platform-databricks.html</id>
+    <updated>2026-07-31T21:49:40.000Z</updated>
+    <author><name>CNBC Tech</name></author>
     <category term="PRODUCTS"/>
-    <summary>Amazon Quick introduces the Agentic Catalog Experience, an AI-powered workflow for data curators to discover upstream catalog assets in natural language and auto-create Datasets and Topics with inherited semantics. Now in preview for AWS Glue Data Catalog and Databricks Unity Catalog.</summary>
+    <summary>Fintech brokerage Clear Street is launching a private markets platform, beginning with Databricks stakes, to give investors more access to late-stage startups.</summary>
   </entry>
   <entry>
     <title>Big tech spends more than $1 trillion on AI infrastructure — additional $745 billion expected to be added to the figure in 2026 alone</title>
@@ -142,6 +169,15 @@
     <summary>This post walks through a sandbox escape from a Flatpak application via PipeWire. The vulnerability was discovered using my automated research pipeline with Claude Code and Opus 4.6 back in April 2026. It was an exciting find, as this was the first bug I submitted to Red Hat. Claude Code was also excited finding this: </summary>
   </entry>
   <entry>
+    <title>Amgen says cloud data breach exposed patient health, proprietary info</title>
+    <link href="https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/"/>
+    <id>https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/</id>
+    <updated>2026-07-31T22:16:42.000Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>Pharmaceutical company Amgen says it suffered a data breach after threat actors stole corporate data and patient information stored in multiple cloud systems operated by third-party service providers. [...]</summary>
+  </entry>
+  <entry>
     <title>Three Recent Chrome Releases Fix 1,442 Flaws, More Than Prior 23 Updates Combined</title>
     <link href="https://thehackernews.com/2026/07/three-recent-chrome-releases-fix-1442.html"/>
     <id>https://thehackernews.com/2026/07/three-recent-chrome-releases-fix-1442.html</id>
@@ -160,13 +196,13 @@
     <summary>Another week, another bevy of big rounds. The largest round was a reported $5 billion Nvidia-backed financing for foundational AI unicorn Safe Superintelligence, followed by a $1 billion investment in Commonwealth Fusion Systems.</summary>
   </entry>
   <entry>
-    <title>The Xcode Assassin Returns: A Deep Dive Into the Latest XCSSET Version</title>
-    <link href="https://unit42.paloaltonetworks.com/xcsset-v40-malware-analysis/"/>
-    <id>https://unit42.paloaltonetworks.com/xcsset-v40-malware-analysis/</id>
-    <updated>2026-07-31T10:00:18.000Z</updated>
-    <author><name>Palo Alto Unit 42</name></author>
+    <title>Oxide and Friends: The Open Weight Revolution with Simon Willison</title>
+    <link href="https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-everything"/>
+    <id>https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-everything</id>
+    <updated>2026-07-31T21:33:13.000Z</updated>
+    <author><name>Simon Willison</name></author>
     <category term="ANALYSIS"/>
-    <summary>Analysis of XCSSET v40 reveals a macOS malware targeting developers via Xcode. Unit 42 used advanced pattern matching and AI to decode its logic. The post The Xcode Assassin Returns: A Deep Dive Into the Latest XCSSET Version appeared first on Unit 42 .</summary>
+    <summary>Oxide and Friends: The Open Weight Revolution with Simon Willison On Monday Bryan Cantrill and Adam Leventhal invited me to join their podcast to talk about the wild week we've had - with Kimi K3 showing open weight models can stand toe-to-toe with proprietary frontier ones, accidental cybersecurity attacks , and publi</summary>
   </entry>
   <entry>
     <title>Google Deepmind unveils Gemini Robotics 2 to power robots of all shapes from tabletop arms to humanoids</title>
@@ -178,67 +214,58 @@
     <summary>Google Deepmind's Gemini Robotics 2 is its most advanced vision-language-action model yet, built to control everything from tabletop robots to full-body humanoids. Gemini Robotics ER 2 adds a higher-level reasoning layer for robotics tasks. The article Google Deepmind unveils Gemini Robotics 2 to power robots of all sh</summary>
   </entry>
   <entry>
-    <title>SEALSQ Begins Commercial Deployment of Miraex Quantum Photonics Technology</title>
-    <link href="https://thequantuminsider.com/2026/07/31/sealsq-launches-commercial-phase-of-miraex-quantum-photonics-technology/"/>
-    <id>https://thequantuminsider.com/2026/07/31/sealsq-launches-commercial-phase-of-miraex-quantum-photonics-technology/</id>
-    <updated>2026-07-31T14:58:43.000Z</updated>
-    <author><name>The Quantum Insider</name></author>
-    <category term="QUANTUM"/>
-    <summary>Insider Brief Press release – SEALSQ Corp (NASDAQ: LAES), (“SEALSQ” or “Company”), a company focused on semiconductors, PKI, and post-quantum technology solutions, today announced the start of the commercial phase of the groundbreaking quantum photonics technology developed by Miraex SA, following the 100% acquisition </summary>
+    <title>Building abundant intelligence</title>
+    <link href="https://openai.com/index/building-abundant-intelligence"/>
+    <id>https://openai.com/index/building-abundant-intelligence</id>
+    <updated>2026-07-31T15:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.</summary>
   </entry>
   <entry>
-    <title>FBI and EPA say water and wastewater utilities in at least seven states reported cyberattacks this week, with some causing flooding and other operational issues (James Rundle/Wall Street Journal)</title>
-    <link href="https://www.techmeme.com/260731/p35#a260731p35"/>
-    <id>https://www.techmeme.com/260731/p35#a260731p35</id>
-    <updated>2026-07-31T20:25:01.000Z</updated>
+    <title>Sources: OpenAI demoed a new &quot;Astra&quot; AI model family to US policymakers and regulators this week, touting its improved abilities to complete long-running tasks (The Information)</title>
+    <link href="https://www.techmeme.com/260731/p40#a260731p40"/>
+    <id>https://www.techmeme.com/260731/p40#a260731p40</id>
+    <updated>2026-07-31T22:25:09.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>James Rundle / Wall Street Journal : FBI and EPA say water and wastewater utilities in at least seven states reported cyberattacks this week, with some causing flooding and other operational issues — Water plants in at least seven U.S. states have reported attacks this week, with some affecting operations</summary>
+    <summary>The Information : Sources: OpenAI demoed a new “Astra” AI model family to US policymakers and regulators this week, touting its improved abilities to complete long-running tasks — OpenAI is preparing to release a new model family, tentatively using the name “Astra,” with improved abilities …</summary>
   </entry>
   <entry>
-    <title>Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation</title>
-    <link href="https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/"/>
-    <id>https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/</id>
-    <updated>2026-07-31T19:47:28.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>A tool that allowed anyone to generate fake AI-generated imagery and superimpose it over real Google Earth maps quickly spurred backlash.</summary>
-  </entry>
-  <entry>
-    <title>Uncensored Multi-Model Releases, LongCat-Flash-Lite with MTPs, Jamba2-Mini, Qwen3.5-9B-Nikusui-v1 with MTPs and Qwen3.5-27B-Nikusui-v1 with MTPs, Available in Safetensors and GGUF Formats!</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vbweoz/uncensored_multimodel_releases_longcatflashlite/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vbweoz/uncensored_multimodel_releases_longcatflashlite/</id>
-    <updated>2026-07-31T16:49:58.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>With release of Deepseek V4 I wanted see how the model sizes are trending over time. The trend is that by this time next year, we probably will have Opus 4.5 level models on consumer grade laptops!</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vbzicu/with_release_of_deepseek_v4_i_wanted_see_how_the/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vbzicu/with_release_of_deepseek_v4_i_wanted_see_how_the/</id>
+    <updated>2026-07-31T18:42:27.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Been working hard for the past month to bring to the community some interesting curios, so for starters we have LongCat-Flash-Lite Uncensored Heretic with MTPs which has never before been uncensored, it is a 69B-A3B model, I spent a long time working on it to make it work with Heretic, to then create a llama.cpp fork t</summary>
+    <summary>I was surprised to see that Deepseek V4 Flash is extremely smart and small enough to fit in setup that can be built with &lt; $50,000. Expensive, but not a datacenter. So I wanted to see the trend over time of model sizes and their scores and created above plots using Opus/Sonnet 5. I am not an expert in LLMs and I am sur</summary>
   </entry>
   <entry>
-    <title>Still building and testing… just got Inkling small up and running after its release yesterday, took me about 6 hours of tweaking, and it was well worth it.</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vc2mr1/still_building_and_testing_just_got_inkling_small/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vc2mr1/still_building_and_testing_just_got_inkling_small/</id>
-    <updated>2026-07-31T20:39:28.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>submitted by /u/Plumberguy9 [link] [comments]</summary>
+    <title>Sources: OpenAI has discovered other instances where AI agents escaped containment; none of the agents were thought to have left OpenAI's network (Reuters)</title>
+    <link href="https://www.techmeme.com/260731/p36#a260731p36"/>
+    <id>https://www.techmeme.com/260731/p36#a260731p36</id>
+    <updated>2026-07-31T20:40:00.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Reuters : Sources: OpenAI has discovered other instances where AI agents escaped containment; none of the agents were thought to have left OpenAI's network — OpenAI has discovered other instances in which autonomous agents have escaped containment as the company expands its investigation …</summary>
   </entry>
   <entry>
-    <title>Americans Are Richer Than Ever. Why Are They So Angry?</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-07-31/americans-are-richer-than-ever-why-are-they-so-angry-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-07-31/americans-are-richer-than-ever-why-are-they-so-angry-video</id>
-    <updated>2026-07-31T21:10:36.000Z</updated>
+    <title>'Rush', 'BTS', SpaceX: Your Look Ahead for Weekend, Week</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-07-31/-rush-bts-spacex-your-look-ahead-for-weekend-week-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-07-31/-rush-bts-spacex-your-look-ahead-for-weekend-week-video</id>
+    <updated>2026-07-31T22:21:51.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Bloomberg's Allison Schrager and David Gura join Scarlet Fu and Tom Keene on &quot;Bloomberg Money.&quot; Schrager writes that &quot;it is one of the great paradoxes of our time: Americans have never been richer — or more negative about the economy. More people are upper-middle class than ever, and even lower-income Americans are ric</summary>
+    <summary>Scarlet Fu and Tom Keene on &quot;Bloomberg Money&quot; to discuss the week ahead - 'BTS', 'Rush' &amp; Jobs (Source: Bloomberg)</summary>
   </entry>
   <entry>
-    <title>New Zealand Housing Market Faces Biggest ‘Down Phase’ in Decades</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-07-31/new-zealand-housing-market-faces-biggest-down-phase-in-decades"/>
-    <id>https://www.bloomberg.com/news/articles/2026-07-31/new-zealand-housing-market-faces-biggest-down-phase-in-decades</id>
-    <updated>2026-07-31T21:00:00.000Z</updated>
+    <title>RBC's Calvasina Sees Nervousness, But 'No Panic' in Stocks</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-07-31/rbc-s-calvasina-sees-nervousness-but-no-panic-in-stocks-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-07-31/rbc-s-calvasina-sees-nervousness-but-no-panic-in-stocks-video</id>
+    <updated>2026-07-31T22:03:43.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>New Zealand house prices fell to a three-year low in July, extending a slump that began in early 2022 and leaving the market in its weakest state in decades.</summary>
+    <summary>Lori Calvasina, head of US equity strategy at RBC Capital Markets, joins Scarlet Fu and Tom Keene on &quot;Bloomberg Money.&quot; They discuss stock trading by institutional and retail investors. Plus the firm's &quot;Four Tiers of Fear&quot;. (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>DoTime: A Synthetic Benchmark Generator for Interventional and Counterfactual Time Series</title>
@@ -248,32 +275,5 @@
     <author><name>arXiv cs.LG</name></author>
     <category term="RESEARCH"/>
     <summary>arXiv:2607.27263v1 Announce Type: new Abstract: Most benchmarks for causal inference over time series are observational, small, or domain-specific, leaving interventional and counterfactual estimation under-served exactly where it matters most, such as in healthcare, policy evaluation, and climate science. We introduce</summary>
-  </entry>
-  <entry>
-    <title>Thinking Machines bets on efficiency over size with its second model, Inkling Small</title>
-    <link href="https://the-decoder.com/thinking-machines-bets-on-efficiency-over-size-with-its-second-model-inkling-small/"/>
-    <id>https://the-decoder.com/thinking-machines-bets-on-efficiency-over-size-with-its-second-model-inkling-small/</id>
-    <updated>2026-07-31T17:41:50.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="RESEARCH"/>
-    <summary>Thinking Machines, the AI lab from former OpenAI CTO Mira Murati, has released Inkling Small. The open-weights reasoning model is less than a third the size of Inkling but beats it on several coding and reasoning benchmarks. The article Thinking Machines bets on efficiency over size with its second model, Inkling Small</summary>
-  </entry>
-  <entry>
-    <title>Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks</title>
-    <link href="https://www.cnbc.com/2026/07/31/clear-street-pre-ipo-platform-databricks.html"/>
-    <id>https://www.cnbc.com/2026/07/31/clear-street-pre-ipo-platform-databricks.html</id>
-    <updated>2026-07-31T18:20:01.000Z</updated>
-    <author><name>CNBC Tech</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Fintech brokerage Clear Street is launching a private markets platform, beginning with Databricks stakes, to give investors more access to late-stage startups.</summary>
-  </entry>
-  <entry>
-    <title>Gemini 2.5 Pro and Gemini 3 Flash deprecated</title>
-    <link href="https://github.blog/changelog/2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated"/>
-    <id>https://github.blog/changelog/2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated</id>
-    <updated>2026-07-31T20:04:01.000Z</updated>
-    <author><name>GitHub Copilot Changelog</name></author>
-    <category term="PRODUCTS"/>
-    <summary>As of today, July 31, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Model… The post Gemini 2.5 Pro and Gemini 3 Flash deprecated appeared first on The GitHub Blog .</summary>
   </entry>
 </feed>
