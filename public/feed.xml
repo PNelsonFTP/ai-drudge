@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-01T21:04:50.028Z</updated>
+  <updated>2026-08-01T22:08:11.964Z</updated>
   <entry>
     <title>deepseek-ai/DeepSeek-V4-Flash-0731</title>
     <link href="https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything"/>
@@ -43,13 +43,13 @@
     <summary>OpenAI is building a new model family called &quot;Astra&quot; that would let multiple agents tackle complex problems together for hours or even days. CEO Sam Altman has already demoed Astra to policymakers in Washington. OpenAI hasn't decided whether to release it as GPT-6 or a new GPT-5 variant. The article OpenAI announces it</summary>
   </entry>
   <entry>
-    <title>Trump Media's new paid data API debuts, for &quot;a direct, licensed, real-time feed of the platform's most market-moving Truths&quot;; Dem. senators asked SEC to probe (CJ Haddad/CNBC)</title>
+    <title>Trump Media's new paid data API launches, for &quot;a direct, licensed, real-time feed of the platform's most market-moving Truths&quot;; Dem. senators asked SEC to probe (CJ Haddad/CNBC)</title>
     <link href="https://www.techmeme.com/260801/p14#a260801p14"/>
     <id>https://www.techmeme.com/260801/p14#a260801p14</id>
     <updated>2026-08-01T18:40:02.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>CJ Haddad / CNBC : Trump Media's new paid data API debuts, for “a direct, licensed, real-time feed of the platform's most market-moving Truths”; Dem. senators asked SEC to probe — Trump Media and Technology Group's new paid data service launched on Aug. 1, providing faster access to Truth Social posts …</summary>
+    <summary>CJ Haddad / CNBC : Trump Media's new paid data API launches, for “a direct, licensed, real-time feed of the platform's most market-moving Truths”; Dem. senators asked SEC to probe — Trump Media and Technology Group's new paid data service launched on Aug. 1, providing faster access to Truth Social posts …</summary>
   </entry>
   <entry>
     <title>llama.cpp b10221 released</title>
@@ -61,6 +61,15 @@
     <summary>vendor : update BoringSSL to 0.20260730.0 ( #26353 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x</summary>
   </entry>
   <entry>
+    <title>datasette-apps 0.2a0</title>
+    <link href="https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything"/>
+    <id>https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything</id>
+    <updated>2026-08-01T21:23:56.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Release: datasette-apps 0.2a0 Changes that improve Datasette Apps when created and edited using Datasette Agent : New app_debug() tool allowing agent to open an app (invisibly) and test it using JavaScript. #33 New app_list() tool for listing apps the user has permission to edit, so the agent can edit them. #36 The app</summary>
+  </entry>
+  <entry>
     <title>AI Loan Market Sees Investor Demands Rise, Borrowers Offer Better Terms</title>
     <link href="https://www.bloomberg.com/news/articles/2026-08-01/loan-investors-are-pushing-back-as-fear-rises-credit-weekly"/>
     <id>https://www.bloomberg.com/news/articles/2026-08-01/loan-investors-are-pushing-back-as-fear-rises-credit-weekly</id>
@@ -70,22 +79,13 @@
     <summary>Loan investors are pushing back for the first time in years, in a shift that will probably translate to higher borrowing costs for everyone from private equity firms to deeply indebted AI companies.</summary>
   </entry>
   <entry>
-    <title>Evaluating code review agents with ReviewBench</title>
-    <link href="https://www.langchain.com/blog/evaluating-code-review-agents-with-reviewbench"/>
-    <id>https://www.langchain.com/blog/evaluating-code-review-agents-with-reviewbench</id>
-    <updated>2026-07-31T16:58:26.000Z</updated>
-    <author><name>LangChain Blog</name></author>
+    <title>AMD Releases Instella-MoE-16B-A3B: A Fully Open Mixture-of-Experts LLM With 2.8B Active Parameters Trained On Instinct GPUs</title>
+    <link href="https://www.marktechpost.com/2026/08/01/amd-instella-moe-16b-a3b-fully-open-mixture-of-experts-llm/"/>
+    <id>https://www.marktechpost.com/2026/08/01/amd-instella-moe-16b-a3b-fully-open-mixture-of-experts-llm/</id>
+    <updated>2026-08-01T19:01:42.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
-    <summary>Learn how LangChain built ReviewBench, a benchmark for evaluating code review agents against real PR feedback from trusted reviewers.</summary>
-  </entry>
-  <entry>
-    <title>Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks</title>
-    <link href="https://www.cnbc.com/2026/07/31/clear-street-pre-ipo-platform-databricks.html"/>
-    <id>https://www.cnbc.com/2026/07/31/clear-street-pre-ipo-platform-databricks.html</id>
-    <updated>2026-07-31T21:49:40.000Z</updated>
-    <author><name>CNBC Tech</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Fintech brokerage Clear Street is launching a private markets platform, beginning with Databricks stakes, to give investors more access to late-stage startups.</summary>
+    <summary>AMD released Instella-MoE-16B-A3B, a fully open Mixture-of-Experts language model trained from scratch on Instinct MI300X and MI325X GPUs. It holds 16B total parameters but activates only 2.8B per token, using Gated MLA and FarSkip-Collective. AMD published weights from every training stage, plus data mixtures, configs</summary>
   </entry>
   <entry>
     <title>Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs</title>
@@ -97,22 +97,22 @@
     <summary>The new Kioxia CM10 series spans 2.5&quot; and EDSFF form factors, PCIe Gen5 and Gen6, air-cooled and liquid-cooled, and two NAND generations The post Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs appeared first on ServeTheHome .</summary>
   </entry>
   <entry>
-    <title>Hacker uses DeepSeek AI to autonomously attack vulnerable servers</title>
-    <link href="https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/"/>
-    <id>https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/</id>
-    <updated>2026-07-31T17:35:35.000Z</updated>
-    <author><name>BleepingComputer</name></author>
+    <title>Supabase Releases Evals: an Open Source Benchmark That Scores Claude Code, Codex and OpenCode on Real Supabase Tasks</title>
+    <link href="https://www.marktechpost.com/2026/08/01/supabase-releases-evals-an-open-source-benchmark-that-scores-claude-code-codex-and-opencode-on-real-supabase-tasks/"/>
+    <id>https://www.marktechpost.com/2026/08/01/supabase-releases-evals-an-open-source-benchmark-that-scores-claude-code-codex-and-opencode-on-real-supabase-tasks/</id>
+    <updated>2026-08-01T09:52:49.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>A Chinese-speaking threat actor is using the DeepSeek AI model and the open-source Hermes Agent to conduct autonomous cyberattacks on exposed servers with limited human involvement. [...]</summary>
+    <summary>Supabase has open sourced supabase/evals, an Apache-2.0 benchmark and framework that runs coding agents including Claude Code, Codex and OpenCode against real Supabase tasks — building schemas, debugging Edge Functions, fixing RLS policies — inside containerized stacks, then scores them with deterministic checks and LL</summary>
   </entry>
   <entry>
-    <title>Confirming Claims of Superposition and Adversarial Examples in Toy Models</title>
-    <link href="https://www.lesswrong.com/posts/rwu73dCE3uWjieijK/confirming-claims-of-superposition-and-adversarial-examples"/>
-    <id>https://www.lesswrong.com/posts/rwu73dCE3uWjieijK/confirming-claims-of-superposition-and-adversarial-examples</id>
-    <updated>2026-08-01T20:19:53.000Z</updated>
+    <title>Mathematicians may be worried, but AI-for-science is going to be great, recursively self-improving, and we’re going to learn loads</title>
+    <link href="https://www.lesswrong.com/posts/8oWjLL8HRb7SfyPYj/mathematicians-may-be-worried-but-ai-for-science-is-going-to"/>
+    <id>https://www.lesswrong.com/posts/8oWjLL8HRb7SfyPYj/mathematicians-may-be-worried-but-ai-for-science-is-going-to</id>
+    <updated>2026-08-01T21:59:42.000Z</updated>
     <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>This is a replication of Adversarial Attacks Leverage Interference Between Features in Superposition , completed as part of the Second Look Summer Fellowship. tl;dr: We reproduce all three core claims of Stevinson et al. from their toy classifier setting: PGD attacks against toy models generally agree with theoreticall</summary>
+    <summary>I have a new post on my experiments with 5.6-sol as a scientific agent; you can find the original post here . I've reproduced it below, as well. I'd be grateful for any feedback, thoughts, or to hear about experiments other people have done; you're very welcome to point your own agents at the repos described below, or </summary>
   </entry>
   <entry>
     <title>A security researcher built a self-spreading worm that hides inside Word docs and hijacks Microsoft Copilot</title>
@@ -149,15 +149,6 @@
     <author><name>The Robot Report</name></author>
     <category term="FUNDING &amp; DEALS"/>
     <summary>In July, large funding rounds, new approaches to robot training, and new robot models drew our readers attention. The post Top 10 robotics stories of July 2026 appeared first on The Robot Report .</summary>
-  </entry>
-  <entry>
-    <title>Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)</title>
-    <link href="https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything"/>
-    <id>https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything</id>
-    <updated>2026-07-31T23:13:22.000Z</updated>
-    <author><name>Simon Willison</name></author>
-    <category term="ANALYSIS"/>
-    <summary>Tuesday was Stateless MCP day - the rollout of MCP 2.0, or the 2026-07-28 Model Context Protocol specification to use the more formal but less memorable name. This is the most significant change to the MCP spec since it first launched, and has also served to reignite my personal interest in the protocol. For background</summary>
   </entry>
   <entry>
     <title>OpenAI says an internal version of Astra, its next big model, produced results for 10 problems in math, quantum complexity, and theoretical computer science (OpenAI)</title>
@@ -220,7 +211,7 @@
     <updated>2026-07-31T15:41:17.000Z</updated>
     <author><name>Lemmy c/localllama</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by BeefAndPoultry to localllama 14 points | 6 comments https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF the quality of GLM 5.2 in just 155 or 162 GB?</summary>
+    <summary>submitted by BeefAndPoultry to localllama 15 points | 6 comments https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF the quality of GLM 5.2 in just 155 or 162 GB?</summary>
   </entry>
   <entry>
     <title>AI coding agents can modernize research software but can't judge if the science is right</title>
@@ -250,22 +241,22 @@
     <summary>The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Tim Stenovec bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Seaport Research Partners Chief Equity Strategist Jonathan Golub, Utah Governor Spencer Cox, Maryland Governor Wes Mo</summary>
   </entry>
   <entry>
-    <title>The AI slowdown is coming</title>
-    <link href="https://www.transformernews.ai/p/the-ai-slowdown-is-coming"/>
-    <id>https://www.transformernews.ai/p/the-ai-slowdown-is-coming</id>
-    <updated>2026-07-31T15:02:04.000Z</updated>
-    <author><name>Transformer</name></author>
+    <title>Accelerating Transformer Training with NVIDIA Transformer Engine, Fused Kernels, BF16, FP8, and GPU Benchmarking</title>
+    <link href="https://www.marktechpost.com/2026/08/01/accelerating-transformer-training-with-nvidia-transformer-engine-fused-kernels-bf16-fp8-and-gpu-benchmarking/"/>
+    <id>https://www.marktechpost.com/2026/08/01/accelerating-transformer-training-with-nvidia-transformer-engine-fused-kernels-bf16-fp8-and-gpu-benchmarking/</id>
+    <updated>2026-08-01T18:31:15.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
-    <summary>Transformer Weekly: Claude hacks revealed, Commerce markup delayed, White House framework imminent</summary>
+    <summary>Discover how to optimize transformer workloads using the NVIDIA Transformer Engine. This tutorial guides you through configuring fused GPU kernels, implementing FP8 delayed scaling, and benchmarking model performance. Learn to build and train efficient GPT-style causal language models in PyTorch with practical code exa</summary>
   </entry>
   <entry>
-    <title>Anthropic’s Opus 5 Is Better at Resisting Prompt Injection</title>
-    <link href="https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html"/>
-    <id>https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html</id>
-    <updated>2026-07-31T17:23:16.000Z</updated>
-    <author><name>Schneier on Security</name></author>
-    <category term="RESEARCH"/>
-    <summary>The chart is interesting. On the IPI benchmark, Opus 5 improved over Opus 4.8, reducing the probability of an attacker succeeding within 15 attempts from 5.5% to 2.0%, and from 0.5% to 0.2% on 1 attempt. It also improved on Sonnet 5 (5.9% at k=15) and Mythos 5 (2.6%), making it the most robust model evaluated. Opus 5 a</summary>
+    <title>Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks</title>
+    <link href="https://www.cnbc.com/2026/07/31/clear-street-pre-ipo-platform-databricks.html"/>
+    <id>https://www.cnbc.com/2026/07/31/clear-street-pre-ipo-platform-databricks.html</id>
+    <updated>2026-07-31T21:49:40.000Z</updated>
+    <author><name>CNBC Tech</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Fintech brokerage Clear Street is launching a private markets platform, beginning with Databricks stakes, to give investors more access to late-stage startups.</summary>
   </entry>
   <entry>
     <title>Announcing the Agentic Catalog Experience in Amazon Quick</title>
@@ -275,5 +266,14 @@
     <author><name>AWS ML Blog</name></author>
     <category term="PRODUCTS"/>
     <summary>Amazon Quick introduces the Agentic Catalog Experience, an AI-powered workflow for data curators to discover upstream catalog assets in natural language and auto-create Datasets and Topics with inherited semantics. Now in preview for AWS Glue Data Catalog and Databricks Unity Catalog.</summary>
+  </entry>
+  <entry>
+    <title>Dell founder shows how a $100 billion empire started 42 years ago — CEO says ‘This one page changed my life’</title>
+    <link href="https://www.tomshardware.com/tech-industry/dell-founder-shows-how-a-usd100-billion-empire-started-42-years-ago-ceo-says-this-one-page-changed-my-life"/>
+    <id>https://www.tomshardware.com/tech-industry/dell-founder-shows-how-a-usd100-billion-empire-started-42-years-ago-ceo-says-this-one-page-changed-my-life</id>
+    <updated>2026-08-01T17:06:31.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <category term="HARDWARE"/>
+    <summary>Billionaire Michael Dell reminisced about the early days of his company, sharing an early quarterly earnings report that showed the then-startup making nearly $135,000 in just three months. Dell says that that document changed his life, as it convinced his parents that he no longer needed to go back to college and purs</summary>
   </entry>
 </feed>
