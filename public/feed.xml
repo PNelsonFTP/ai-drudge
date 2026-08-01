@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-07-31T23:11:41.756Z</updated>
+  <updated>2026-08-01T03:43:11.484Z</updated>
   <entry>
-    <title>Deepseek V4 Flash on SlopCodeBench</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vbtiy7/deepseek_v4_flash_on_slopcodebench/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vbtiy7/deepseek_v4_flash_on_slopcodebench/</id>
-    <updated>2026-07-31T15:05:45.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>deepseek-ai/DeepSeek-V4-Flash-0731</title>
+    <link href="https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything"/>
+    <id>https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything</id>
+    <updated>2026-07-31T23:59:44.000Z</updated>
+    <author><name>Simon Willison</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>While waiting for some of the quants to drop, I load the API with $50 and ran it on SlopCodeBench Just vibe reading the results it seems like Opus 4.8 &lt; Deepseek &lt; Opus 5 https://github.com/michaelasper/benchmarks/blob/main/deepseek-v4-flash-on-slop-code-bench.md I was mostly curious from this blog post When Q2 drops -</summary>
+    <summary>deepseek-ai/DeepSeek-V4-Flash-0731 The latest release in DeepSeek's V4 family, &quot;with substantially enhanced agentic capabilities&quot;. It's 304 billion parameters - 167GB on Hugging Face - but it appears to punch well above its weight. Artificial Analysis rank it ahead of MiniMax M3 - a 428B model. It's $0.14/million input</summary>
   </entry>
   <entry>
     <title>Google Earth AI tool pulled after spate of fake satellite images</title>
@@ -25,40 +25,22 @@
     <summary>Security experts say generative tools risk eroding trust in satellite images used to verify conflict damage and incidents</summary>
   </entry>
   <entry>
-    <title>DeepSeek-V4-Flash-0731 unsloth gguf on A100</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vbwuq0/deepseekv4flash0731_unsloth_gguf_on_a100/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vbwuq0/deepseekv4flash0731_unsloth_gguf_on_a100/</id>
-    <updated>2026-07-31T17:06:05.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>A100 with 40gb VRAM: 162GB Q8_K_XL ~16.1 tok/s generation Only 15.8GB of 40GB VRAM used with all experts on CPU NOTE just tested coding on linux box DeepSeek-V4-Flash-0731 runs losslessly on the single 40GB A100 at 17.7 tok/s with 6 experts loaded into VRAM, with Codex driving it through a full agentic coding loop subm — Also covered by: Lemmy c/localllama, LocalLLaMA Subreddit</summary>
-  </entry>
-  <entry>
-    <title>Anthropic’s Opus 5 Is Better at Resisting Prompt Injection</title>
-    <link href="https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html"/>
-    <id>https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html</id>
-    <updated>2026-07-31T17:23:16.000Z</updated>
-    <author><name>Schneier on Security</name></author>
-    <category term="RESEARCH"/>
-    <summary>The chart is interesting. On the IPI benchmark, Opus 5 improved over Opus 4.8, reducing the probability of an attacker succeeding within 15 attempts from 5.5% to 2.0%, and from 0.5% to 0.2% on 1 attempt. It also improved on Sonnet 5 (5.9% at k=15) and Mythos 5 (2.6%), making it the most robust model evaluated. Opus 5 a</summary>
-  </entry>
-  <entry>
-    <title>Anthropic says Claude accidentally hacked real companies too</title>
-    <link href="https://www.theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests"/>
-    <id>https://www.theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests</id>
-    <updated>2026-07-31T13:41:17.000Z</updated>
-    <author><name>The Verge AI</name></author>
+    <title>[AINews] not much happened today</title>
+    <link href="https://www.latent.space/p/ainews-not-much-happened-today-038"/>
+    <id>https://www.latent.space/p/ainews-not-much-happened-today-038</id>
+    <updated>2026-08-01T01:38:09.000Z</updated>
+    <author><name>Latent Space</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Anthropic just realized several of its Claude AI models hacked into the systems of three different organizations during testing, acting on their own and without the company noticing. The revelation comes days after rival OpenAI said one of its own models had breached developer platform Hugging Face, adding to growing u</summary>
+    <summary>apart from DeepSeek V4-Flash 0731, a quiet day.</summary>
   </entry>
   <entry>
-    <title>qwen-code v0.21.2 released</title>
-    <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.21.2"/>
-    <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.21.2</id>
-    <updated>2026-07-31T04:29:16.000Z</updated>
-    <author><name>QwenLM/qwen-code</name></author>
-    <category term="GITHUB REPOS"/>
-    <summary>Highlights Autofix now defers lower-severity suggestions after five rounds and posts visible notices when refusing to proceed due to round limits. ( #7913 , #8067 ) Added an opt-in Auto Recall profile that automatically searches external context with built-in security limits. ( #7877 ) Enhanced the /verify command with — Also covered by: anthropics/claude-code</summary>
+    <title>Anthropic says its AI hacked real-world companies in three incidents</title>
+    <link href="https://therecord.media/anthropic-ai-hacked-three-real-companies"/>
+    <id>https://therecord.media/anthropic-ai-hacked-three-real-companies</id>
+    <updated>2026-07-31T12:15:00.000Z</updated>
+    <author><name>The Record</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Claude maker Anthropic said its AI models escaped test environments and breached networks at three companies on the open internet.</summary>
   </entry>
   <entry>
     <title>IonQ Completes Acquisition of SkyWater Technology, Establishing Vertically Integrated Quantum Platform</title>
@@ -68,15 +50,6 @@
     <author><name>Quantum Computing Report</name></author>
     <category term="QUANTUM"/>
     <summary>Trapped-ion quantum computing developer IonQ (NYSE: IONQ) has officially completed its acquisition of SkyWater Technology (NASDAQ: SKYT), the largest exclusively U.S.-based semiconductor foundry. Following final regulatory approvals, the transaction closed on July 31, 2026, establishing IonQ as a vertically integrated  — Also covered by: The Quantum Insider</summary>
-  </entry>
-  <entry>
-    <title>DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis</title>
-    <link href="https://artificialanalysis.ai/models/deepseek-v4-flash"/>
-    <id>https://artificialanalysis.ai/models/deepseek-v4-flash</id>
-    <updated>2026-07-31T07:59:11.000Z</updated>
-    <author><name>HN: Chinese Frontier Labs</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731 Comments URL: https://news.ycombinator.com/item?id=49120299 Points: 506 # Comments: 279</summary>
   </entry>
   <entry>
     <title>The FTC clears quantum computing company IonQ's $1.8B acquisition of chipmaker SkyWater after the FTC's two members disagreed at first on imposing conditions (Jody Godoy/Reuters)</title>
@@ -97,22 +70,13 @@
     <summary>vulkan: add POOL_1D op ( #25431 ) vulkan : add pool1d push constants and pipeline field Declared data structures needed for POOL1D OP, which are the vk_op_pool1d_push_constants struct and pipeline_pool1d_f32 field. vulkan : add pool1d compute shader Added pool1d.comp for Vulkan backend mirroring the existing pool2d sha</summary>
   </entry>
   <entry>
-    <title>Evaluating code review agents with ReviewBench</title>
-    <link href="https://www.langchain.com/blog/evaluating-code-review-agents-with-reviewbench"/>
-    <id>https://www.langchain.com/blog/evaluating-code-review-agents-with-reviewbench</id>
-    <updated>2026-07-31T16:58:26.000Z</updated>
-    <author><name>LangChain Blog</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Learn how LangChain built ReviewBench, a benchmark for evaluating code review agents against real PR feedback from trusted reviewers.</summary>
-  </entry>
-  <entry>
-    <title>Chip War, Stanford University: Scarlet &amp; Tom's Must-Read Books</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-07-31/chip-war-stanford-university-scarlet-tom-s-must-read-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-07-31/chip-war-stanford-university-scarlet-tom-s-must-read-video</id>
-    <updated>2026-07-31T22:23:43.000Z</updated>
+    <title>India’s Kerala Struggles to Care for Aging Population with Fertility Rate Low</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-01/india-s-kerala-struggles-to-care-for-aging-population-with-fertility-rate-low"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-01/india-s-kerala-struggles-to-care-for-aging-population-with-fertility-rate-low</id>
+    <updated>2026-08-01T02:30:00.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Scarlet Fu and Tom Keene discuss their must-read book on this weeks edition of &quot;Bloomberg Money.&quot; (Source: Bloomberg)</summary>
+    <summary>India’s biggest student protests in years last week highlighted the growing frustrations of the country’s hundreds of millions of young people.</summary>
   </entry>
   <entry>
     <title>When benchmark inferences do not compose: Projectibility in AI evaluation</title>
@@ -133,13 +97,13 @@
     <summary>Fintech brokerage Clear Street is launching a private markets platform, beginning with Databricks stakes, to give investors more access to late-stage startups.</summary>
   </entry>
   <entry>
-    <title>Big tech spends more than $1 trillion on AI infrastructure — additional $745 billion expected to be added to the figure in 2026 alone</title>
-    <link href="https://www.tomshardware.com/tech-industry/big-tech/big-tech-spends-more-than-usd1-trillion-on-ai-infrastructure-additional-usd745-billion-expected-to-be-added-to-the-figure-in-2026-alone"/>
-    <id>https://www.tomshardware.com/tech-industry/big-tech/big-tech-spends-more-than-usd1-trillion-on-ai-infrastructure-additional-usd745-billion-expected-to-be-added-to-the-figure-in-2026-alone</id>
-    <updated>2026-07-31T16:30:34.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
+    <title>PCIe Gen6 and Gen5 Will Both Matter for AI Storage</title>
+    <link href="https://www.servethehome.com/pcie-gen6-and-gen5-will-both-matter-for-ai-storage/"/>
+    <id>https://www.servethehome.com/pcie-gen6-and-gen5-will-both-matter-for-ai-storage/</id>
+    <updated>2026-08-01T02:00:19.000Z</updated>
+    <author><name>ServeTheHome</name></author>
     <category term="HARDWARE"/>
-    <summary>Amazon, Google, Meta, and Microsoft have collectively spent more than $1 trillion on AI investments since the rush started in 2023. However, the big four are planning to spend more on AI CAPEX, with billions more planned for this year, even as their &quot;hidden debt&quot; balloons to over $1.65 trillion.</summary>
+    <summary>We discuss why both PCIe Gen5 and PCIe Gen6 will both matter for AI storage as the industry builds at an incredible pace The post PCIe Gen6 and Gen5 Will Both Matter for AI Storage appeared first on ServeTheHome .</summary>
   </entry>
   <entry>
     <title>Hacker uses DeepSeek AI to autonomously attack vulnerable servers</title>
@@ -196,15 +160,6 @@
     <summary>Another week, another bevy of big rounds. The largest round was a reported $5 billion Nvidia-backed financing for foundational AI unicorn Safe Superintelligence, followed by a $1 billion investment in Commonwealth Fusion Systems.</summary>
   </entry>
   <entry>
-    <title>Oxide and Friends: The Open Weight Revolution with Simon Willison</title>
-    <link href="https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-everything"/>
-    <id>https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-everything</id>
-    <updated>2026-07-31T21:33:13.000Z</updated>
-    <author><name>Simon Willison</name></author>
-    <category term="ANALYSIS"/>
-    <summary>Oxide and Friends: The Open Weight Revolution with Simon Willison On Monday Bryan Cantrill and Adam Leventhal invited me to join their podcast to talk about the wild week we've had - with Kimi K3 showing open weight models can stand toe-to-toe with proprietary frontier ones, accidental cybersecurity attacks , and publi</summary>
-  </entry>
-  <entry>
     <title>Google Deepmind unveils Gemini Robotics 2 to power robots of all shapes from tabletop arms to humanoids</title>
     <link href="https://the-decoder.com/google-deepmind-unveils-gemini-robotics-2-to-power-robots-of-all-shapes-from-tabletop-arms-to-humanoids/"/>
     <id>https://the-decoder.com/google-deepmind-unveils-gemini-robotics-2-to-power-robots-of-all-shapes-from-tabletop-arms-to-humanoids/</id>
@@ -223,49 +178,67 @@
     <summary>A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.</summary>
   </entry>
   <entry>
-    <title>Sources: OpenAI demoed a new &quot;Astra&quot; AI model family to US policymakers and regulators this week, touting its improved abilities to complete long-running tasks (The Information)</title>
-    <link href="https://www.techmeme.com/260731/p40#a260731p40"/>
-    <id>https://www.techmeme.com/260731/p40#a260731p40</id>
-    <updated>2026-07-31T22:25:09.000Z</updated>
+    <title>A US judge largely denies Perplexity and three data scraper firms' bid to dismiss Reddit's lawsuit over claims of copyright law violations under DMCA (Ashley Belanger/Ars Technica)</title>
+    <link href="https://www.techmeme.com/260731/p44#a260731p44"/>
+    <id>https://www.techmeme.com/260731/p44#a260731p44</id>
+    <updated>2026-08-01T02:45:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>The Information : Sources: OpenAI demoed a new “Astra” AI model family to US policymakers and regulators this week, touting its improved abilities to complete long-running tasks — OpenAI is preparing to release a new model family, tentatively using the name “Astra,” with improved abilities …</summary>
+    <summary>Ashley Belanger / Ars Technica : A US judge largely denies Perplexity and three data scraper firms' bid to dismiss Reddit's lawsuit over claims of copyright law violations under DMCA — On Friday, a judge largely denied a motion to dismiss from a web scraper, SerpApi, which is accused of conspiring with Perplexity AI …</summary>
   </entry>
   <entry>
-    <title>With release of Deepseek V4 I wanted see how the model sizes are trending over time. The trend is that by this time next year, we probably will have Opus 4.5 level models on consumer grade laptops!</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vbzicu/with_release_of_deepseek_v4_i_wanted_see_how_the/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vbzicu/with_release_of_deepseek_v4_i_wanted_see_how_the/</id>
-    <updated>2026-07-31T18:42:27.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>Deepseek v4 Flash 0731 GGUF Benchmark: TensorSharp vs. llama.cpp</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1vc4c08/deepseek_v4_flash_0731_gguf_benchmark_tensorsharp/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1vc4c08/deepseek_v4_flash_0731_gguf_benchmark_tensorsharp/</id>
+    <updated>2026-07-31T21:45:26.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>I was surprised to see that Deepseek V4 Flash is extremely smart and small enough to fit in setup that can be built with &lt; $50,000. Expensive, but not a datacenter. So I wanted to see the trend over time of model sizes and their scores and created above plots using Opus/Sonnet 5. I am not an expert in LLMs and I am sur</summary>
+    <summary>TensorSharp is an open-source inference engine for running GGUF LLMs locally, with CUDA, Vulkan, Metal, OpenAI-compatible APIs, continuous batching, speculative decoding, and multimodal support. Thanks recent contribtions from open source community, TensorSharp is able to run inference over multiple GPUs and nodes. So </summary>
   </entry>
   <entry>
-    <title>Sources: OpenAI has discovered other instances where AI agents escaped containment; none of the agents were thought to have left OpenAI's network (Reuters)</title>
-    <link href="https://www.techmeme.com/260731/p36#a260731p36"/>
-    <id>https://www.techmeme.com/260731/p36#a260731p36</id>
-    <updated>2026-07-31T20:40:00.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Running Inkling-Small on RTX PRO 6000 Blackwell (sm_120): a from-scratch field guide</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1vc7x3h/running_inklingsmall_on_rtx_pro_6000_blackwell_sm/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1vc7x3h/running_inklingsmall_on_rtx_pro_6000_blackwell_sm/</id>
+    <updated>2026-08-01T00:13:29.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Inkling-Small was released roughly 24 hours before this work began. There were zero runbooks, zero Docker tags, and zero prior art for running it on RTX PRO 6000 Blackwell workstation cards — sm_120, no NVLink, PCIe-only. We got it into production anyway. First on 2 cards with brutally tight VRAM, then on 4 . This docu</summary>
+  </entry>
+  <entry>
+    <title>Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)</title>
+    <link href="https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything"/>
+    <id>https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything</id>
+    <updated>2026-07-31T23:13:22.000Z</updated>
+    <author><name>Simon Willison</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Reuters : Sources: OpenAI has discovered other instances where AI agents escaped containment; none of the agents were thought to have left OpenAI's network — OpenAI has discovered other instances in which autonomous agents have escaped containment as the company expands its investigation …</summary>
+    <summary>Tuesday was Stateless MCP day - the rollout of MCP 2.0, or the 2026-07-28 Model Context Protocol specification to use the more formal but less memorable name. This is the most significant change to the MCP spec since it first launched, and has also served to reignite my personal interest in the protocol. For background</summary>
   </entry>
   <entry>
-    <title>'Rush', 'BTS', SpaceX: Your Look Ahead for Weekend, Week</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-07-31/-rush-bts-spacex-your-look-ahead-for-weekend-week-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-07-31/-rush-bts-spacex-your-look-ahead-for-weekend-week-video</id>
-    <updated>2026-07-31T22:21:51.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Scarlet Fu and Tom Keene on &quot;Bloomberg Money&quot; to discuss the week ahead - 'BTS', 'Rush' &amp; Jobs (Source: Bloomberg)</summary>
+    <title>Evaluating code review agents with ReviewBench</title>
+    <link href="https://www.langchain.com/blog/evaluating-code-review-agents-with-reviewbench"/>
+    <id>https://www.langchain.com/blog/evaluating-code-review-agents-with-reviewbench</id>
+    <updated>2026-07-31T16:58:26.000Z</updated>
+    <author><name>LangChain Blog</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Learn how LangChain built ReviewBench, a benchmark for evaluating code review agents against real PR feedback from trusted reviewers.</summary>
   </entry>
   <entry>
-    <title>RBC's Calvasina Sees Nervousness, But 'No Panic' in Stocks</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-07-31/rbc-s-calvasina-sees-nervousness-but-no-panic-in-stocks-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-07-31/rbc-s-calvasina-sees-nervousness-but-no-panic-in-stocks-video</id>
-    <updated>2026-07-31T22:03:43.000Z</updated>
+    <title>Lawmakers Unveil E15 Proposal Allowing Blending Exemptions</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-01/lawmakers-unveil-e15-legislation-allowing-blending-exemptions"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-01/lawmakers-unveil-e15-legislation-allowing-blending-exemptions</id>
+    <updated>2026-08-01T01:13:39.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Lori Calvasina, head of US equity strategy at RBC Capital Markets, joins Scarlet Fu and Tom Keene on &quot;Bloomberg Money.&quot; They discuss stock trading by institutional and retail investors. Plus the firm's &quot;Four Tiers of Fear&quot;. (Source: Bloomberg)</summary>
+    <summary>US lawmakers unveiled legislation that would expand sales of higher-ethanol gasoline and give exemptions from annual blending mandates for some small oil refineries that have received them in the past.</summary>
+  </entry>
+  <entry>
+    <title>Wall Street Week | Warsh’s Waiting Game, EU Merger Rules, Robotic Surgeons</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-07-31/wall-street-week-warsh-s-waiting-game-eu-merger-rules-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-07-31/wall-street-week-warsh-s-waiting-game-eu-merger-rules-video</id>
+    <updated>2026-07-31T23:12:55.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>This week, Harvard professor and former Obama economic adviser Jason Furman discusses the Fed rate decision and the challenges facing Chairman Kevin Warsh. Plus, the European Union is rewriting its merger rules in a bid to create tech giants that can compete with America. Later, Johnson &amp; Johnson entered the fast-growi</summary>
   </entry>
   <entry>
     <title>DoTime: A Synthetic Benchmark Generator for Interventional and Counterfactual Time Series</title>
@@ -275,5 +248,32 @@
     <author><name>arXiv cs.LG</name></author>
     <category term="RESEARCH"/>
     <summary>arXiv:2607.27263v1 Announce Type: new Abstract: Most benchmarks for causal inference over time series are observational, small, or domain-specific, leaving interventional and counterfactual estimation under-served exactly where it matters most, such as in healthcare, policy evaluation, and climate science. We introduce</summary>
+  </entry>
+  <entry>
+    <title>Thinking Machines bets on efficiency over size with its second model, Inkling Small</title>
+    <link href="https://the-decoder.com/thinking-machines-bets-on-efficiency-over-size-with-its-second-model-inkling-small/"/>
+    <id>https://the-decoder.com/thinking-machines-bets-on-efficiency-over-size-with-its-second-model-inkling-small/</id>
+    <updated>2026-07-31T17:41:50.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="RESEARCH"/>
+    <summary>Thinking Machines, the AI lab from former OpenAI CTO Mira Murati, has released Inkling Small. The open-weights reasoning model is less than a third the size of Inkling but beats it on several coding and reasoning benchmarks. The article Thinking Machines bets on efficiency over size with its second model, Inkling Small</summary>
+  </entry>
+  <entry>
+    <title>Announcing the Agentic Catalog Experience in Amazon Quick</title>
+    <link href="https://aws.amazon.com/blogs/machine-learning/announcing-the-agentic-catalog-experience-in-amazon-quick/"/>
+    <id>https://aws.amazon.com/blogs/machine-learning/announcing-the-agentic-catalog-experience-in-amazon-quick/</id>
+    <updated>2026-07-31T19:53:04.000Z</updated>
+    <author><name>AWS ML Blog</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Amazon Quick introduces the Agentic Catalog Experience, an AI-powered workflow for data curators to discover upstream catalog assets in natural language and auto-create Datasets and Topics with inherited semantics. Now in preview for AWS Glue Data Catalog and Databricks Unity Catalog.</summary>
+  </entry>
+  <entry>
+    <title>Gemini 2.5 Pro and Gemini 3 Flash deprecated</title>
+    <link href="https://github.blog/changelog/2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated"/>
+    <id>https://github.blog/changelog/2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated</id>
+    <updated>2026-07-31T20:04:01.000Z</updated>
+    <author><name>GitHub Copilot Changelog</name></author>
+    <category term="PRODUCTS"/>
+    <summary>As of today, July 31, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Model… The post Gemini 2.5 Pro and Gemini 3 Flash deprecated appeared first on The GitHub Blog .</summary>
   </entry>
 </feed>
