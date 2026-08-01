@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-01T17:10:24.612Z</updated>
+  <updated>2026-08-01T19:22:35.120Z</updated>
   <entry>
-    <title>deepseek-ai/DeepSeek-V4-Flash-0731</title>
-    <link href="https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything"/>
-    <id>https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything</id>
-    <updated>2026-07-31T23:59:44.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>Deepseek v4 flash 0731 still not holding up.</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vct09w/deepseek_v4_flash_0731_still_not_holding_up/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vct09w/deepseek_v4_flash_0731_still_not_holding_up/</id>
+    <updated>2026-08-01T17:16:45.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>deepseek-ai/DeepSeek-V4-Flash-0731 The latest release in DeepSeek's V4 family, &quot;with substantially enhanced agentic capabilities&quot;. It's 304 billion parameters - 167GB on Hugging Face - but it appears to punch well above its weight. Artificial Analysis rank it ahead of MiniMax M3 - a 428B model. It's $0.14/million input</summary>
+    <summary>The biggest issue with preview was its inability to follow rules prompts and skills. It seems like no matter what you do it ignores them. I've tried first person and second person. I've tried Chinese and English. It does not follow them. That's the only problem with these models and why they're not actually frontier le</summary>
   </entry>
   <entry>
     <title>not much happened today</title>
@@ -25,22 +25,31 @@
     <summary>**DeepSeek** launched the public-beta of **DeepSeek-V4-Flash API**, boasting a significant post-training performance leap without architecture or size changes, achieving a **Terminal-Bench score of 82.7** and nearing **GPT-5.6 Luna's 51** score at about **60% lower cost per task**. The model features **284B total / 13B</summary>
   </entry>
   <entry>
-    <title>Ten advances in mathematics and theoretical computer science</title>
-    <link href="https://openai.com/index/ten-advances-in-mathematics"/>
-    <id>https://openai.com/index/ten-advances-in-mathematics</id>
-    <updated>2026-08-01T00:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
+    <title>Anthropic says its AI hacked real-world companies in three incidents</title>
+    <link href="https://therecord.media/anthropic-ai-hacked-three-real-companies"/>
+    <id>https://therecord.media/anthropic-ai-hacked-three-real-companies</id>
+    <updated>2026-07-31T12:15:00.000Z</updated>
+    <author><name>The Record</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.</summary>
+    <summary>Claude maker Anthropic said its AI models escaped test environments and breached networks at three companies on the open internet.</summary>
   </entry>
   <entry>
-    <title>Sam Altman is still making the case for parenting via ChatGPT</title>
-    <link href="https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/"/>
-    <id>https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/</id>
-    <updated>2026-08-01T17:07:34.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>OpenAI announces its &quot;next major model&quot; Astra by dropping ten previously unsolved math solutions</title>
+    <link href="https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions/"/>
+    <id>https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions/</id>
+    <updated>2026-08-01T09:29:49.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>OpenAI is building a new model family called &quot;Astra&quot; that would let multiple agents tackle complex problems together for hours or even days. CEO Sam Altman has already demoed Astra to policymakers in Washington. OpenAI hasn't decided whether to release it as GPT-6 or a new GPT-5 variant. The article OpenAI announces it</summary>
+  </entry>
+  <entry>
+    <title>Trump Media's new paid data API debuts, for &quot;a direct, licensed, real-time feed of the platform's most market-moving Truths&quot;; Dem. senators asked SEC to probe (CJ Haddad/CNBC)</title>
+    <link href="https://www.techmeme.com/260801/p14#a260801p14"/>
+    <id>https://www.techmeme.com/260801/p14#a260801p14</id>
+    <updated>2026-08-01T18:40:02.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>OpenAI's CEO seemed excited to share a &quot;cool use case&quot; for parents.</summary>
+    <summary>CJ Haddad / CNBC : Trump Media's new paid data API debuts, for “a direct, licensed, real-time feed of the platform's most market-moving Truths”; Dem. senators asked SEC to probe — Trump Media and Technology Group's new paid data service launched on Aug. 1, providing faster access to Truth Social posts …</summary>
   </entry>
   <entry>
     <title>llama.cpp b10219 released</title>
@@ -50,15 +59,6 @@
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
     <summary>cli : persist reasoning_content in chat history ( #26362 ) cli : persist reasoning_content in chat history llama-cli collected reasoning from the stream for display but only stored assistant content in messages, so --reasoning-preserve could not re-inject prior thoughts on later turns. Website: https://llama.app macOS/</summary>
-  </entry>
-  <entry>
-    <title>OpenAI announces its &quot;next major model&quot; Astra by dropping ten previously unsolved math solutions</title>
-    <link href="https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions/"/>
-    <id>https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions/</id>
-    <updated>2026-08-01T09:29:49.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>OpenAI is building a new model family called &quot;Astra&quot; that would let multiple agents tackle complex problems together for hours or even days. CEO Sam Altman has already demoed Astra to policymakers in Washington. OpenAI hasn't decided whether to release it as GPT-6 or a new GPT-5 variant. The article OpenAI announces it</summary>
   </entry>
   <entry>
     <title>Can Mergers Close Europe’s Tech Gap?</title>
@@ -79,13 +79,13 @@
     <summary>Learn how LangChain built ReviewBench, a benchmark for evaluating code review agents against real PR feedback from trusted reviewers.</summary>
   </entry>
   <entry>
-    <title>Toronto-based Terminal, whose API connects insurance products and commercial fleet software with telematics data, raised a $20M Series A led by Battery Ventures (Alex Riehl/BetaKit)</title>
-    <link href="https://www.techmeme.com/260801/p7#a260801p7"/>
-    <id>https://www.techmeme.com/260801/p7#a260801p7</id>
-    <updated>2026-08-01T06:25:01.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks</title>
+    <link href="https://www.cnbc.com/2026/07/31/clear-street-pre-ipo-platform-databricks.html"/>
+    <id>https://www.cnbc.com/2026/07/31/clear-street-pre-ipo-platform-databricks.html</id>
+    <updated>2026-07-31T21:49:40.000Z</updated>
+    <author><name>CNBC Tech</name></author>
     <category term="PRODUCTS"/>
-    <summary>Alex Riehl / BetaKit : Toronto-based Terminal, whose API connects insurance products and commercial fleet software with telematics data, raised a $20M Series A led by Battery Ventures — Toronto startup landed Fortune 500 customers with almost no sales team. Now, it's shifting gears.</summary>
+    <summary>Fintech brokerage Clear Street is launching a private markets platform, beginning with Databricks stakes, to give investors more access to late-stage startups.</summary>
   </entry>
   <entry>
     <title>Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs</title>
@@ -106,13 +106,13 @@
     <summary>Kim Zetter / Wired : This year's Defcon badges include Baochip-1x, an open source chip whose security is verifiable and that can also be used as a hardware security token — Created by legendary hardware hacker Andrew “bunnie” Huang, the badges for this year's famed security conference aim to push the boundaries of secu</summary>
   </entry>
   <entry>
-    <title>Advancing responsible AI across Europe</title>
-    <link href="https://openai.com/index/advancing-responsible-ai-across-europe"/>
-    <id>https://openai.com/index/advancing-responsible-ai-across-europe</id>
-    <updated>2026-07-31T15:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
+    <title>Using AI to analyze life patterns</title>
+    <link href="https://www.lesswrong.com/posts/3RghEkCcY8749drkE/using-ai-to-analyze-life-patterns"/>
+    <id>https://www.lesswrong.com/posts/3RghEkCcY8749drkE/using-ai-to-analyze-life-patterns</id>
+    <updated>2026-08-01T18:00:28.000Z</updated>
+    <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.</summary>
+    <summary>If you’re anything like me, you may have a lot of notes from various introspective activities – annual / monthly reviews, worksheets, therapy notes, etc. Often these notes are just gathering dust in a paper folder or some forgotten corner of Google Drive. There may be some insights there – how personal problems change </summary>
   </entry>
   <entry>
     <title>A security researcher built a self-spreading worm that hides inside Word docs and hijacks Microsoft Copilot</title>
@@ -124,12 +124,21 @@
     <summary>A security researcher has demonstrated a worm-like attack on Microsoft Copilot for Word: invisible prompt injections hidden in documents spread automatically into new files every time they're reused. Microsoft confirmed the issue but failed to fix it after 144 days and two attempts. The article A security researcher bu</summary>
   </entry>
   <entry>
+    <title>Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes</title>
+    <link href="https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html"/>
+    <id>https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html</id>
+    <updated>2026-08-01T17:17:22.000Z</updated>
+    <author><name>The Hacker News</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>An attacker drained 1,196 Bitcoin addresses in 41 minutes on July 30, taking 1,082.65 BTC worth about $70.2 million at the time. Galaxy Research mapped the sweep and tied it to a firmware flaw in Coldcard, the Bitcoin-only hardware wallet made by Canadian firm Coinkite. A March 2021 firmware integration error routed se</summary>
+  </entry>
+  <entry>
     <title>Rails patches critical Active Storage flaw with RCE potential</title>
     <link href="https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/"/>
     <id>https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/</id>
     <updated>2026-08-01T14:20:30.000Z</updated>
     <author><name>BleepingComputer</name></author>
-    <category term="CYBER THREATS"/>
+    <category term="CYBER DEFENSE"/>
     <summary>A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). [...]</summary>
   </entry>
   <entry>
@@ -169,13 +178,31 @@
     <summary>OpenAI's refutation of the Unit Distance Conjecture has sparked a wave of AI-assisted advances in mathematics. Fields Medal winner Timothy Gowers says GPT 5.6 Pro solved two problems he had spent considerable time working on, each on its first attempt. He warns of the &quot;possible destruction of mathematical culture&quot; if m</summary>
   </entry>
   <entry>
-    <title>This $9 key physically locks your most addictive apps</title>
-    <link href="https://techcrunch.com/2026/08/01/this-9-key-physically-locks-your-most-addictive-apps/"/>
-    <id>https://techcrunch.com/2026/08/01/this-9-key-physically-locks-your-most-addictive-apps/</id>
-    <updated>2026-08-01T15:58:17.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>ByteDance's Seedance 2.5 generates 30-second video clips with built-in audio</title>
+    <link href="https://the-decoder.com/bytedances-seedance-2-5-generates-30-second-video-clips-with-built-in-audio/"/>
+    <id>https://the-decoder.com/bytedances-seedance-2-5-generates-30-second-video-clips-with-built-in-audio/</id>
+    <updated>2026-08-01T13:33:41.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>ByteDance just shipped Seedance 2.5, an AI video model that produces video and audio together in one go. Each clip runs up to 30 seconds, three times what Google's Gemini Omni Flash puts out. Users can feed in dozens of images, videos, and audio files as reference. For ad teams, this could kill the process of cutting t</summary>
+  </entry>
+  <entry>
+    <title>Officials: the scope of cyberattacks on US water systems now includes at least seven states and may be far wider; MN was just the first to publicly report them (New York Times)</title>
+    <link href="https://www.techmeme.com/260801/p13#a260801p13"/>
+    <id>https://www.techmeme.com/260801/p13#a260801p13</id>
+    <updated>2026-08-01T18:00:38.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>This $9 NFC key requires you to physically scan it to unlock distracting apps on your phone.</summary>
+    <summary>New York Times : Officials: the scope of cyberattacks on US water systems now includes at least seven states and may be far wider; MN was just the first to publicly report them — Michigan and Minnesota are among at least seven states coping with cyberattacks aimed at disrupting water systems nationwide.</summary>
+  </entry>
+  <entry>
+    <title>Bitcoin hardware wallet Coldcard shipped a faulty firmware build, and hackers are now draining wallets; Galaxy Research estimates ~$70M stolen (Shaurya Malwa/CoinDesk)</title>
+    <link href="https://www.techmeme.com/260801/p15#a260801p15"/>
+    <id>https://www.techmeme.com/260801/p15#a260801p15</id>
+    <updated>2026-08-01T19:00:02.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Shaurya Malwa / CoinDesk : Bitcoin hardware wallet Coldcard shipped a faulty firmware build, and hackers are now draining wallets; Galaxy Research estimates ~$70M stolen — More than 1,000 bitcoin, worth about $70 million, was drained from 1,196 wallets in a 41-minute window on July 30, nearly double the amount reported</summary>
   </entry>
   <entry>
     <title>DeepSeek V4 Flash 0731 IQ2_M benchmark for Dual 3060 and 96GB RAM ≈ 3.5 tok/s.</title>
@@ -185,15 +212,6 @@
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
     <summary>Thanks to the community help I finally launched this llm. LM Studio refused to load weight onto second GPU but Unsloth Studio did so everything was done in there. Not a proper benchmark (used PC in parallel as well) but it gives an idea of ​​the performance from dual 3060 with RAM offloading. DeepSeek V4 Flash 0731 IQ2</summary>
-  </entry>
-  <entry>
-    <title>LongCat-Flash-Lite-Sparse Is Now Available for Download</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vcpv6u/longcatflashlitesparse_is_now_available_for/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vcpv6u/longcatflashlitesparse_is_now_available_for/</id>
-    <updated>2026-08-01T15:10:04.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>The weights have now been added to the repo an hour ago. This model is built upon LongCat-Flash-Lite , the differences are that LongCat-Flash-Lite-Sparse : Replaces dense MLA with LongCat Sparse Attention (LSA) Natively supports context lengths of up to 1M tokens (vs 256k for LongCat-Flash-Lite) submitted by /u/LLMFan4</summary>
   </entry>
   <entry>
     <title>AI coding agents can modernize research software but can't judge if the science is right</title>
@@ -241,13 +259,13 @@
     <summary>The chart is interesting. On the IPI benchmark, Opus 5 improved over Opus 4.8, reducing the probability of an attacker succeeding within 15 attempts from 5.5% to 2.0%, and from 0.5% to 0.2% on 1 attempt. It also improved on Sonnet 5 (5.9% at k=15) and Mythos 5 (2.6%), making it the most robust model evaluated. Opus 5 a</summary>
   </entry>
   <entry>
-    <title>Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks</title>
-    <link href="https://www.cnbc.com/2026/07/31/clear-street-pre-ipo-platform-databricks.html"/>
-    <id>https://www.cnbc.com/2026/07/31/clear-street-pre-ipo-platform-databricks.html</id>
-    <updated>2026-07-31T21:49:40.000Z</updated>
-    <author><name>CNBC Tech</name></author>
+    <title>Announcing the Agentic Catalog Experience in Amazon Quick</title>
+    <link href="https://aws.amazon.com/blogs/machine-learning/announcing-the-agentic-catalog-experience-in-amazon-quick/"/>
+    <id>https://aws.amazon.com/blogs/machine-learning/announcing-the-agentic-catalog-experience-in-amazon-quick/</id>
+    <updated>2026-07-31T19:53:04.000Z</updated>
+    <author><name>AWS ML Blog</name></author>
     <category term="PRODUCTS"/>
-    <summary>Fintech brokerage Clear Street is launching a private markets platform, beginning with Databricks stakes, to give investors more access to late-stage startups.</summary>
+    <summary>Amazon Quick introduces the Agentic Catalog Experience, an AI-powered workflow for data curators to discover upstream catalog assets in natural language and auto-create Datasets and Topics with inherited semantics. Now in preview for AWS Glue Data Catalog and Databricks Unity Catalog.</summary>
   </entry>
   <entry>
     <title>Two Hands Corporation Begins External Beta Testing for EntangleX Quantum Simulator</title>
@@ -257,23 +275,5 @@
     <author><name>Quantum Computing Report</name></author>
     <category term="PRODUCTS"/>
     <summary>Micro-cap technology holding firm Two Hands Corporation (OTC: TWOH)—which is in the process of changing its corporate identity to Quantum X Inc.—has announced that the base user interface for its internally developed quantum circuit simulation software, EntangleX, is now open to selected external partners for third-par</summary>
-  </entry>
-  <entry>
-    <title>Dell founder shows how a $100 billion empire started 42 years ago — CEO says ‘This one page changed my life’</title>
-    <link href="https://www.tomshardware.com/tech-industry/dell-founder-shows-how-a-usd100-billion-empire-started-42-years-ago-ceo-says-this-one-page-changed-my-life"/>
-    <id>https://www.tomshardware.com/tech-industry/dell-founder-shows-how-a-usd100-billion-empire-started-42-years-ago-ceo-says-this-one-page-changed-my-life</id>
-    <updated>2026-08-01T17:06:31.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
-    <category term="HARDWARE"/>
-    <summary>Billionaire Michael Dell reminisced about the early days of his company, sharing an early quarterly earnings report that showed the then-startup making nearly $135,000 in just three months. Dell says that that document changed his life, as it convinced his parents that he no longer needed to go back to college and purs</summary>
-  </entry>
-  <entry>
-    <title>German court rules AI music generator Suno violated copyrights, rejects fair use defense</title>
-    <link href="https://the-decoder.com/german-court-rules-ai-music-generator-suno-violated-copyrights-rejects-fair-use-defense/"/>
-    <id>https://the-decoder.com/german-court-rules-ai-music-generator-suno-violated-copyrights-rejects-fair-use-defense/</id>
-    <updated>2026-08-01T10:40:50.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="HARDWARE"/>
-    <summary>A Munich court ruled that AI music generator Suno violated copyrights through both training and output. The court found six songs reproducibly stored in Suno's models and rejected both Germany's text-and-data-mining exception and the US fair use defense. The ruling isn't final, and several key questions remain open. Th</summary>
   </entry>
 </feed>
