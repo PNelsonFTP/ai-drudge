@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-02T17:10:39.205Z</updated>
+  <updated>2026-08-02T19:23:07.198Z</updated>
   <entry>
-    <title>deepseek-ai/DeepSeek-V4-Flash-0731</title>
-    <link href="https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything"/>
-    <id>https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything</id>
-    <updated>2026-07-31T23:59:44.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>DSpark Benchmark Result on Deepseek v4 Flash 0731</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vdpe1k/dspark_benchmark_result_on_deepseek_v4_flash_0731/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vdpe1k/dspark_benchmark_result_on_deepseek_v4_flash_0731/</id>
+    <updated>2026-08-02T18:21:49.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>deepseek-ai/DeepSeek-V4-Flash-0731 The latest release in DeepSeek's V4 family, &quot;with substantially enhanced agentic capabilities&quot;. It's 304 billion parameters - 167GB on Hugging Face - but it appears to punch well above its weight. Artificial Analysis rank it ahead of MiniMax M3 - a 428B model. It's $0.14/million input</summary>
+    <summary>TensorSharp supports DSpark on Deepseek v4 Flash 0731 now. Here is the benchmark result on 4x Nvidia A40 GPUs, cuda 12.8 with/without DSpark: Model: DeepSeek-V4-Flash-0731-UD-Q8_K_XL from https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF DSpark draft model from: https://huggingface.co/alessandrobologna/DeepSee</summary>
   </entry>
   <entry>
     <title>not much happened today</title>
@@ -25,40 +25,22 @@
     <summary>**DeepSeek** launched the public-beta of **DeepSeek-V4-Flash API**, boasting a significant post-training performance leap without architecture or size changes, achieving a **Terminal-Bench score of 82.7** and nearing **GPT-5.6 Luna's 51** score at about **60% lower cost per task**. The model features **284B total / 13B</summary>
   </entry>
   <entry>
-    <title>AI finds plenty of security flaws, but almost none of them get exploited</title>
-    <link href="https://the-decoder.com/ai-finds-plenty-of-security-flaws-but-almost-none-of-them-get-exploited/"/>
-    <id>https://the-decoder.com/ai-finds-plenty-of-security-flaws-but-almost-none-of-them-get-exploited/</id>
-    <updated>2026-08-02T10:09:34.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>llama.cpp b10232 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10232"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10232</id>
+    <updated>2026-08-02T18:59:42.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>VulnCheck counted how often security flaws found by AI actually get exploited. Out of 1,061 AI-discovered vulnerabilities in the first half of 2026, just 14 saw confirmed attacks. That's 1.3 percent, the same rate as vulnerabilities overall. But exploits are landing faster, with the median dropping from 120 days to 80.</summary>
+    <summary>metal: implement DeepSeek V4 hyper-connections ( #26459 ) Implement GGML_OP_DSV4_HC_COMB, GGML_OP_DSV4_HC_PRE, and GGML_OP_DSV4_HC_POST with SIMDgroup register and shuffle optimized kernels. Add Metal dispatch and support plumbing and test the production Sinkhorn iteration count and embedding width. Assisted-by: Codex </summary>
   </entry>
   <entry>
-    <title>Thoughts on Apple Upgrade; sources: MacBook Air is now facing shortages too; Apple wants to turn its future glasses and headsets into health and fitness devices (Mark Gurman/Bloomberg)</title>
-    <link href="https://www.techmeme.com/260802/p7#a260802p7"/>
-    <id>https://www.techmeme.com/260802/p7#a260802p7</id>
-    <updated>2026-08-02T15:15:09.000Z</updated>
+    <title>Experts say US law is unprepared for rogue AI agents and models, as recent OpenAI and Anthropic incidents raise questions over legal liability and repercussions (Lily Hay Newman/Wired)</title>
+    <link href="https://www.techmeme.com/260802/p8#a260802p8"/>
+    <id>https://www.techmeme.com/260802/p8#a260802p8</id>
+    <updated>2026-08-02T17:45:14.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Mark Gurman / Bloomberg : Thoughts on Apple Upgrade; sources: MacBook Air is now facing shortages too; Apple wants to turn its future glasses and headsets into health and fitness devices — Also: MacBook Air runs into major shortages. — Apple has finally delivered a hardware subscription program …</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp b10229 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10229"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10229</id>
-    <updated>2026-08-02T14:33:01.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>opencl: bugfix increment ref_count in ggml_backend_opencl_init() ( #26162 ) Incrementing ref_count at the beginning is important later in the free() method of the ggml_backend_opencl_context at program end. If we do not increment the ref_count , the result would be -1 here, and consequently, the profiling data would no</summary>
-  </entry>
-  <entry>
-    <title>OpenAI Presence wants to make AI agents production-ready for businesses</title>
-    <link href="https://the-decoder.com/openai-presence-wants-to-make-ai-agents-production-ready-for-businesses/"/>
-    <id>https://the-decoder.com/openai-presence-wants-to-make-ai-agents-production-ready-for-businesses/</id>
-    <updated>2026-08-02T13:10:21.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>OpenAI's new enterprise offering, Presence, is designed to get AI agents into production for customer service and internal workflows. Unlike the existing Workspace Agents, Presence targets external deployments. For complex cases, OpenAI's own engineers step in. The article OpenAI Presence wants to make AI agents produc</summary>
+    <summary>Lily Hay Newman / Wired : Experts say US law is unprepared for rogue AI agents and models, as recent OpenAI and Anthropic incidents raise questions over legal liability and repercussions — Both major AI labs' models broke containment, escaped onto the internet, and hacked other companies.</summary>
   </entry>
   <entry>
     <title>Trump Pushes Major Dulles Makeover</title>
@@ -133,15 +115,6 @@
     <summary>Google is preparing a new Chrome security feature that would block policy-installed extensions from hijacking the New Tab page or changing the default search engine. [...]</summary>
   </entry>
   <entry>
-    <title>Rails patches critical Active Storage flaw with RCE potential</title>
-    <link href="https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/"/>
-    <id>https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/</id>
-    <updated>2026-08-01T14:20:30.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). [...]</summary>
-  </entry>
-  <entry>
     <title>LemonEdge, a fund accounting and operations software provider for the private markets sector, raised a $21M Series A led by Blackstone Innovations Investments (FinTech Global)</title>
     <link href="https://www.techmeme.com/260802/p3#a260802p3"/>
     <id>https://www.techmeme.com/260802/p3#a260802p3</id>
@@ -178,6 +151,15 @@
     <summary>Global professional services firm Ernst &amp; Young (EY) has announced the addition of an on-site quantum computer to its in-house technology stack. Led by EY Canada, the deployment serves as a key innovation hub within EY's global enterprise tech strategy. The hardware installation forms part of a broader $3 billion globa</summary>
   </entry>
   <entry>
+    <title>AI finds plenty of security flaws, but almost none of them get exploited</title>
+    <link href="https://the-decoder.com/ai-finds-plenty-of-security-flaws-but-almost-none-of-them-get-exploited/"/>
+    <id>https://the-decoder.com/ai-finds-plenty-of-security-flaws-but-almost-none-of-them-get-exploited/</id>
+    <updated>2026-08-02T10:09:34.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>VulnCheck counted how often security flaws found by AI actually get exploited. Out of 1,061 AI-discovered vulnerabilities in the first half of 2026, just 14 saw confirmed attacks. That's 1.3 percent, the same rate as vulnerabilities overall. But exploits are landing faster, with the median dropping from 120 days to 80.</summary>
+  </entry>
+  <entry>
     <title>Claude Opus 5 pushes prompt-to-game AI from rough color blocks to full 3D prototypes with physics and music</title>
     <link href="https://the-decoder.com/claude-opus-5-pushes-prompt-to-game-ai-from-rough-color-blocks-to-full-3d-prototypes-with-physics-and-music/"/>
     <id>https://the-decoder.com/claude-opus-5-pushes-prompt-to-game-ai-from-rough-color-blocks-to-full-3d-prototypes-with-physics-and-music/</id>
@@ -187,49 +169,49 @@
     <summary>Anthropic's Claude Opus 5 generates complete 3D games from single prompts, including a first-person shooter, a kart racer, and a Minecraft clone, all without a single external asset. Geometry, textures, physics, and in some cases music are produced as code and run directly in the browser. In side-by-side comparisons wi</summary>
   </entry>
   <entry>
-    <title>As Taiwanese server makers expand in Mexico, the country has become the second-largest supplier of servers to the US, behind Taiwan, with $46.9B in YTD sales (Financial Times)</title>
-    <link href="https://www.techmeme.com/260802/p6#a260802p6"/>
-    <id>https://www.techmeme.com/260802/p6#a260802p6</id>
-    <updated>2026-08-02T11:00:32.000Z</updated>
+    <title>Thoughts on Apple Upgrade; sources: MacBook Air is now facing shortages too; Apple wants to turn its future glasses and headsets into health and fitness devices (Mark Gurman/Bloomberg)</title>
+    <link href="https://www.techmeme.com/260802/p7#a260802p7"/>
+    <id>https://www.techmeme.com/260802/p7#a260802p7</id>
+    <updated>2026-08-02T15:15:09.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Financial Times : As Taiwanese server makers expand in Mexico, the country has become the second-largest supplier of servers to the US, behind Taiwan, with $46.9B in YTD sales — Factories churning out servers for data centres are pushing exports to record levels</summary>
+    <summary>Mark Gurman / Bloomberg : Thoughts on Apple Upgrade; sources: MacBook Air is now facing shortages too; Apple wants to turn its future glasses and headsets into health and fitness devices — Also: MacBook Air runs into major shortages. — Apple has finally delivered a hardware subscription program …</summary>
   </entry>
   <entry>
-    <title>I got tired of ad-filled mobile wrappers for Ollama, so I built PocketLLM Lite an open-source, offline Android client (Local GGUF, SKILL.md plugins, local RAG)</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vdl2rk/i_got_tired_of_adfilled_mobile_wrappers_for/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vdl2rk/i_got_tired_of_adfilled_mobile_wrappers_for/</id>
-    <updated>2026-08-02T15:32:00.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>DeepSeek-V4-Flash-0731: surpasses Fable-5, Sol &amp; Kimi-K3 on Chess Benchmark</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vdq8en/deepseekv4flash0731_surpasses_fable5_sol_kimik3/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vdq8en/deepseekv4flash0731_surpasses_fable5_sol_kimik3/</id>
+    <updated>2026-08-02T18:54:26.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Hey, Like a lot of people here, I use local models via Ollama on my desktop/server and wanted a mobile client that actually felt responsive, worked offline, and respected privacy. Most apps on the Play Store are either subscription traps, loaded with ads, or route everything through third-party cloud servers. So I buil</summary>
+    <summary>submitted by /u/mrwang89 [link] [comments]</summary>
   </entry>
   <entry>
-    <title>All Qwen model oneshots: 1109 outputs to look at and compare!</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vdnezc/all_qwen_model_oneshots_1109_outputs_to_look_at/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vdnezc/all_qwen_model_oneshots_1109_outputs_to_look_at/</id>
-    <updated>2026-08-02T17:05:00.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>submitted by /u/kms_dev [link] [comments]</summary>
+    <title>Desktop Canary v2.2.14-canary.7</title>
+    <link href="https://github.com/lobehub/lobehub/releases/tag/v2.2.14-canary.7"/>
+    <id>https://github.com/lobehub/lobehub/releases/tag/v2.2.14-canary.7</id>
+    <updated>2026-08-02T18:49:09.000Z</updated>
+    <author><name>lobehub/lobe-chat</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>🐤 Canary Build — v2.2.14-canary.7 Automated canary build from canary branch. Commit Information Based on changes since v2.2.14-canary.6 Commit count: 3 92739976d8 ✨ feat(onboarding): enrich understanding personas ( #17830 ) (Neko) 22eadf9a04 🐛 fix(agent-signal): preserve skill receipt rollback refs ( #17835 ) (Neko) </summary>
   </entry>
   <entry>
-    <title>Meta AI uses a second AI agent as a memory coach to keep long tasks on track</title>
-    <link href="https://the-decoder.com/meta-ai-uses-a-second-ai-agent-as-a-memory-coach-to-keep-long-tasks-on-track/"/>
-    <id>https://the-decoder.com/meta-ai-uses-a-second-ai-agent-as-a-memory-coach-to-keep-long-tasks-on-track/</id>
-    <updated>2026-08-02T12:57:38.000Z</updated>
+    <title>OpenAI Presence wants to make AI agents production-ready for businesses</title>
+    <link href="https://the-decoder.com/openai-presence-wants-to-make-ai-agents-production-ready-for-businesses/"/>
+    <id>https://the-decoder.com/openai-presence-wants-to-make-ai-agents-production-ready-for-businesses/</id>
+    <updated>2026-08-02T13:10:21.000Z</updated>
     <author><name>The Decoder</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Meta AI wants to stop AI agents from forgetting errors they've already diagnosed and repeating failed steps during complex tasks. A separate memory agent maintains a structured memory bank and decides when to remind the main agent and when to stay silent. The system improved scores by up to 8.3 percentage points across</summary>
+    <summary>OpenAI's new enterprise offering, Presence, is designed to get AI agents into production for customer service and internal workflows. Unlike the existing Workspace Agents, Presence targets external deployments. For complex cases, OpenAI's own engineers step in. The article OpenAI Presence wants to make AI agents produc</summary>
   </entry>
   <entry>
-    <title>After Hugging Face incident, METR urges independent root-cause investigations into AI agent misbehavior</title>
-    <link href="https://the-decoder.com/after-hugging-face-incident-metr-urges-independent-root-cause-investigations-into-ai-agent-misbehavior/"/>
-    <id>https://the-decoder.com/after-hugging-face-incident-metr-urges-independent-root-cause-investigations-into-ai-agent-misbehavior/</id>
-    <updated>2026-08-02T07:33:17.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Research organization METR is calling for systematic, independently led investigations whenever AI agents act autonomously against their developers' intentions. The push comes partly in response to the Hugging Face hack carried out by OpenAI models. METR's own Frontier Risk Report documented 44 such incidents across al</summary>
+    <title>Prysmian Is Said Near Takeover of US Electrical Maker Atkore</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-02/prysmian-is-said-near-takeover-of-us-electrical-maker-atkore"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-02/prysmian-is-said-near-takeover-of-us-electrical-maker-atkore</id>
+    <updated>2026-08-02T18:58:48.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Italy’s Prysmian is in advanced talks to acquire electrical manufacturing company Atkore Inc., people familiar with the matter said.</summary>
   </entry>
   <entry>
     <title>Governors Push State Solutions on Costs</title>
@@ -239,15 +221,6 @@
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
     <summary>Governors from Oklahoma, Maryland and Delaware say states remain the nation's laboratories of democracy, sharing policy ideas on housing, education, child care and energy while arguing that affordability is the top concern for voters across party lines. They say states cannot control inflation or global energy prices b</summary>
-  </entry>
-  <entry>
-    <title>Office Dress Codes Face Shorts Debate</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-02/office-dress-codes-face-shorts-debate-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-02/office-dress-codes-face-shorts-debate-video</id>
-    <updated>2026-08-02T16:18:01.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Bloomberg's Chris Rovzar says workplace dress codes are evolving as warmer weather, changing office culture and designer collections prompt more employees to consider wearing shorts to work. He says a Bloomberg survey finds opinion remains divided, with supporters arguing shorts can be professional in the right setting</summary>
   </entry>
   <entry>
     <title>Evaluating code review agents with ReviewBench</title>
@@ -275,5 +248,32 @@
     <author><name>CNBC Tech</name></author>
     <category term="PRODUCTS"/>
     <summary>Fintech brokerage Clear Street is launching a private markets platform, beginning with Databricks stakes, to give investors more access to late-stage startups.</summary>
+  </entry>
+  <entry>
+    <title>Kimi K3 + DeepSeek-V4 Flash + Deep Research + Parallel Chat</title>
+    <link href="https://github.com/unslothai/unsloth/releases/tag/v0.1.511-beta"/>
+    <id>https://github.com/unslothai/unsloth/releases/tag/v0.1.511-beta</id>
+    <updated>2026-08-02T14:46:11.000Z</updated>
+    <author><name>unslothai/unsloth</name></author>
+    <category term="HARDWARE"/>
+    <summary>Hey everyone! Kimi K3 &amp; DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs, Unsloth can keep multiple chats generating in parallel, and the new Deep Research mode plans, reads and cites sources using your local model. This release also brings better AMD and Intel GPU support, DoRA training, and many insta</summary>
+  </entry>
+  <entry>
+    <title>Grab this 240 Hz QD-OLED gaming monitor at just $300 — Gigabyte's 27-inch GO27Q24A is now $150 off at Newegg</title>
+    <link href="https://www.tomshardware.com/monitors/gaming-monitors/grab-this-240-hz-qd-oled-gaming-monitor-at-just-usd300-gigabytes-27-inch-go27q24a-is-now-usd150-off-at-newegg"/>
+    <id>https://www.tomshardware.com/monitors/gaming-monitors/grab-this-240-hz-qd-oled-gaming-monitor-at-just-usd300-gigabytes-27-inch-go27q24a-is-now-usd150-off-at-newegg</id>
+    <updated>2026-08-02T16:16:41.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <category term="HARDWARE"/>
+    <summary>Gigabyte's GO27Q24A delivers a 240Hz QD-OLED panel, HDMI 2.1, and esports-focused features for just $299.99</summary>
+  </entry>
+  <entry>
+    <title>LessWrong App</title>
+    <link href="https://www.lesswrong.com/posts/rZmiewu7sBzuFXewn/lesswrong-app"/>
+    <id>https://www.lesswrong.com/posts/rZmiewu7sBzuFXewn/lesswrong-app</id>
+    <updated>2026-08-02T13:19:08.000Z</updated>
+    <author><name>LessWrong</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Hello everyone long time lurker here. I know most people here probably prefer a PWA but if you are like me and prefer an app, I made one for android. There is a huge focus on ensuring the app is really fast and slick, I hope you enjoy using it. It is ofcourse also open source feel free to contribute. https://github.com</summary>
   </entry>
 </feed>
