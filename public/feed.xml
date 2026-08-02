@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-02T13:46:53.744Z</updated>
+  <updated>2026-08-02T15:11:06.133Z</updated>
   <entry>
     <title>Run the new DeepSeek V4 Flash 0731 Checkpoint on a 128gb Macbook</title>
     <link href="https://www.reddit.com/r/LocalLLM/comments/1vdcgyr/run_the_new_deepseek_v4_flash_0731_checkpoint_on/"/>
@@ -25,13 +25,13 @@
     <summary>**DeepSeek** launched the public-beta of **DeepSeek-V4-Flash API**, boasting a significant post-training performance leap without architecture or size changes, achieving a **Terminal-Bench score of 82.7** and nearing **GPT-5.6 Luna's 51** score at about **60% lower cost per task**. The model features **284B total / 13B</summary>
   </entry>
   <entry>
-    <title>llama.cpp b10228 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10228"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10228</id>
-    <updated>2026-08-02T13:30:27.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>AI finds plenty of security flaws, but almost none of them get exploited</title>
+    <link href="https://the-decoder.com/ai-finds-plenty-of-security-flaws-but-almost-none-of-them-get-exploited/"/>
+    <id>https://the-decoder.com/ai-finds-plenty-of-security-flaws-but-almost-none-of-them-get-exploited/</id>
+    <updated>2026-08-02T10:09:34.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>DeepseekV4 MTP + DSpark ( #25784 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubun</summary>
+    <summary>VulnCheck counted how often security flaws found by AI actually get exploited. Out of 1,061 AI-discovered vulnerabilities in the first half of 2026, just 14 saw confirmed attacks. That's 1.3 percent, the same rate as vulnerabilities overall. But exploits are landing faster, with the median dropping from 120 days to 80.</summary>
   </entry>
   <entry>
     <title>LemonEdge, a fund accounting and operations software provider for the private markets sector, raised a $21M Series A led by Blackstone Innovations Investments (FinTech Global)</title>
@@ -43,6 +43,15 @@
     <summary>FinTech Global : LemonEdge, a fund accounting and operations software provider for the private markets sector, raised a $21M Series A led by Blackstone Innovations Investments — LemonEdge, a fund accounting platform designed specifically for the private markets sector, has secured $21m in Series A funding …</summary>
   </entry>
   <entry>
+    <title>llama.cpp b10229 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10229"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10229</id>
+    <updated>2026-08-02T14:33:01.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>opencl: bugfix increment ref_count in ggml_backend_opencl_init() ( #26162 ) Incrementing ref_count at the beginning is important later in the free() method of the ggml_backend_opencl_context at program end. If we do not increment the ref_count , the result would be -1 here, and consequently, the profiling data would no</summary>
+  </entry>
+  <entry>
     <title>OpenAI Presence wants to make AI agents production-ready for businesses</title>
     <link href="https://the-decoder.com/openai-presence-wants-to-make-ai-agents-production-ready-for-businesses/"/>
     <id>https://the-decoder.com/openai-presence-wants-to-make-ai-agents-production-ready-for-businesses/</id>
@@ -52,13 +61,13 @@
     <summary>OpenAI's new enterprise offering, Presence, is designed to get AI agents into production for customer service and internal workflows. Unlike the existing Workspace Agents, Presence targets external deployments. For complex cases, OpenAI's own engineers step in. The article OpenAI Presence wants to make AI agents produc</summary>
   </entry>
   <entry>
-    <title>SpaceX IPO Faces First Reality Check</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-02/spacex-ipo-faces-first-reality-check-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-02/spacex-ipo-faces-first-reality-check-video</id>
-    <updated>2026-08-02T12:53:41.000Z</updated>
+    <title>Why Think Tanks are a Billion Dollar Business</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-02/why-think-tanks-are-a-billion-dollar-business-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-02/why-think-tanks-are-a-billion-dollar-business-video</id>
+    <updated>2026-08-02T14:03:41.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Bloomberg Space Reporter Loren Grush says investors will use SpaceX's first public earnings report to gauge progress on Starship, Starlink, AI infrastructure and the company's long-term growth strategy following its blockbuster IPO. She says Starship's latest test marks meaningful progress, but major technical hurdles </summary>
+    <summary>Think tanks bring together experts and shape debates in Washington, but how do you measure the value of an idea? From the Aspen Institute to the Heritage Foundation, this episode explores the business of ideas, the billions of dollars behind America's leading think tanks, and how they measure success. (Source: Bloomber</summary>
   </entry>
   <entry>
     <title>Kimi K3: The Complete Developer Guide</title>
@@ -97,13 +106,13 @@
     <summary>This post walks through a sandbox escape from a Flatpak application via PipeWire. The vulnerability was discovered using my automated research pipeline with Claude Code and Opus 4.6 back in April 2026. It was an exciting find, as this was the first bug I submitted to Red Hat. Claude Code was also excited finding this: </summary>
   </entry>
   <entry>
-    <title>AI finds plenty of security flaws, but almost none of them get exploited</title>
-    <link href="https://the-decoder.com/ai-finds-plenty-of-security-flaws-but-almost-none-of-them-get-exploited/"/>
-    <id>https://the-decoder.com/ai-finds-plenty-of-security-flaws-but-almost-none-of-them-get-exploited/</id>
-    <updated>2026-08-02T10:09:34.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>Google Chrome may soon block New Tab hijacker extensions by default</title>
+    <link href="https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/"/>
+    <id>https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/</id>
+    <updated>2026-08-02T14:17:16.000Z</updated>
+    <author><name>BleepingComputer</name></author>
     <category term="CYBER THREATS"/>
-    <summary>VulnCheck counted how often security flaws found by AI actually get exploited. Out of 1,061 AI-discovered vulnerabilities in the first half of 2026, just 14 saw confirmed attacks. That's 1.3 percent, the same rate as vulnerabilities overall. But exploits are landing faster, with the median dropping from 120 days to 80.</summary>
+    <summary>Google is preparing a new Chrome security feature that would block policy-installed extensions from hijacking the New Tab page or changing the default search engine. [...]</summary>
   </entry>
   <entry>
     <title>Rails patches critical Active Storage flaw with RCE potential</title>
@@ -133,13 +142,13 @@
     <summary>Gemini Robotics 2 enables robots to reason through every movement, unlocking a broad range of tasks, DeepMind said. The post Google DeepMind says Gemini Robotics 2 enables full body control appeared first on The Robot Report .</summary>
   </entry>
   <entry>
-    <title>Gil Kalai (Hebrew University / Reichman University): Why noise may doom quantum computers</title>
-    <link href="https://thequantuminsider.com/2026/08/01/gil-kalai-hebrew-university-reichman-university-why-noise-may-doom-quantum-computers/"/>
-    <id>https://thequantuminsider.com/2026/08/01/gil-kalai-hebrew-university-reichman-university-why-noise-may-doom-quantum-computers/</id>
-    <updated>2026-08-01T07:00:00.000Z</updated>
-    <author><name>The Quantum Insider</name></author>
+    <title>EY Expands In-House Capabilities with On-Site Quantum Computer Hub in Canada</title>
+    <link href="https://quantumcomputingreport.com/ey-expands-in-house-capabilities-with-on-site-quantum-computer-hub-in-canada/"/>
+    <id>https://quantumcomputingreport.com/ey-expands-in-house-capabilities-with-on-site-quantum-computer-hub-in-canada/</id>
+    <updated>2026-08-01T12:09:50.000Z</updated>
+    <author><name>Quantum Computing Report</name></author>
     <category term="QUANTUM"/>
-    <summary>Yuval Boger interviews mathematician Gil Kalai about his long-standing skepticism regarding scalable quantum computing. Kalai explains two main arguments behind his theory: correlated noise that may defeat quantum error correction and complexity-based limits on NISQ devices achieving quantum supremacy. They discuss exp</summary>
+    <summary>Global professional services firm Ernst &amp; Young (EY) has announced the addition of an on-site quantum computer to its in-house technology stack. Led by EY Canada, the deployment serves as a key innovation hub within EY's global enterprise tech strategy. The hardware installation forms part of a broader $3 billion globa</summary>
   </entry>
   <entry>
     <title>Claude Opus 5 pushes prompt-to-game AI from rough color blocks to full 3D prototypes with physics and music</title>
@@ -160,13 +169,13 @@
     <summary>Financial Times : As Taiwanese server makers expand in Mexico, the country has become the second-largest supplier of servers to the US, behind Taiwan, with $46.9B in YTD sales — Factories churning out servers for data centres are pushing exports to record levels</summary>
   </entry>
   <entry>
-    <title>Malaysia shuts down Network School, Balaji Srinivasan's techno-utopian project, over licensing issues; Srinivasan says he is opening a new campus in Kazakhstan (Wall Street Journal)</title>
-    <link href="https://www.techmeme.com/260802/p2#a260802p2"/>
-    <id>https://www.techmeme.com/260802/p2#a260802p2</id>
-    <updated>2026-08-02T05:10:01.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>A Dire Situation</title>
+    <link href="https://www.wsj.com/tech/ai/a-dire-situation-fa97dbae?mod=rss_Technology"/>
+    <id>https://www.wsj.com/tech/ai/a-dire-situation-fa97dbae?mod=rss_Technology</id>
+    <updated>2026-08-02T14:55:00.000Z</updated>
+    <author><name>WSJ Tech</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Wall Street Journal : Malaysia shuts down Network School, Balaji Srinivasan's techno-utopian project, over licensing issues; Srinivasan says he is opening a new campus in Kazakhstan — Balaji Srinivasan left Silicon Valley and created an incubator for new countries in an Asian ghost city, before the government shut it d</summary>
+    <summary>Plus, what AI content does to our brains, Meta’s mountain of lawsuits, the million-dollar talent wars for math geniuses and more.</summary>
   </entry>
   <entry>
     <title>Coding Agents Benchmarks Reliability</title>
@@ -176,6 +185,15 @@
     <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
     <summary>https://preview.redd.it/p6qveukajygh1.png?width=890&amp;format=png&amp;auto=webp&amp;s=ac4bfef017bcff5eecad5923999e8505b45f3838 I would like to get an informed perspective on the reliability of coding agent benchmarks, such as those published by Artificial Analysis. There seems to be a growing sentiment that some models, like Clau</summary>
+  </entry>
+  <entry>
+    <title>Run DeepSeek V4 Flash locally or in the cloud (US-hosted)</title>
+    <link href="https://lmstudio.ai/blog/deepseek-v4-flash"/>
+    <id>https://lmstudio.ai/blog/deepseek-v4-flash</id>
+    <updated>2026-08-02T00:00:00.000Z</updated>
+    <author><name>LM Studio Blog</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>DeepSeek V4 Flash is now available locally and in LM Studio Bionic, hosted on US-based servers with Zero Data Retention by default.</summary>
   </entry>
   <entry>
     <title>Meta AI uses a second AI agent as a memory coach to keep long tasks on track</title>
@@ -196,22 +214,22 @@
     <summary>Research organization METR is calling for systematic, independently led investigations whenever AI agents act autonomously against their developers' intentions. The push comes partly in response to the Hugging Face hack carried out by OpenAI models. METR's own Frontier Risk Report documented 44 such incidents across al</summary>
   </entry>
   <entry>
-    <title>Nides Says Iran War Needs Negotiations</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-02/nides-says-iran-war-needs-negotiations-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-02/nides-says-iran-war-needs-negotiations-video</id>
-    <updated>2026-08-02T13:31:08.000Z</updated>
+    <title>AI Adoption Sparks Cultural Divide</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-02/ai-adoption-sparks-cultural-divide-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-02/ai-adoption-sparks-cultural-divide-video</id>
+    <updated>2026-08-02T14:34:46.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Former US Ambassador to Israel Tom Nides says there is no lasting military solution to the conflict with Iran, arguing that renewed negotiations involving regional allies offer the only realistic path to reopening the Strait of Hormuz and addressing Tehran's nuclear program. He also says regime change in Iran is not a </summary>
+    <summary>Bloomberg's Josie Cox says artificial intelligence is creating new social divisions as disagreements over its use increasingly shape workplaces, relationships and personal identity, with skepticism driven by concerns over authenticity, ethics and creativity. She says employers are increasingly encouraging or requiring </summary>
   </entry>
   <entry>
-    <title>By The Way: Headlines You May Have Missed the Week of 8/02</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-02/by-the-way-headlines-you-may-have-missed-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-02/by-the-way-headlines-you-may-have-missed-video</id>
-    <updated>2026-08-02T13:14:21.000Z</updated>
+    <title>Bond Traders Flying Blind on Fed See Risk Yields Spiral Higher</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-02/bond-traders-flying-blind-on-fed-see-risk-yields-spiral-higher"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-02/bond-traders-flying-blind-on-fed-see-risk-yields-spiral-higher</id>
+    <updated>2026-08-02T14:00:00.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Younger Chinese professionals moving away from the traditional baijiu drinking culture, premium bottled water gaining traction with wellness-focused consumers, and historic government buildings across Europe being converted into luxury hotels. Bloomberg News' Nathan Hager joins David Gura and Christina Ruffini on Bloom</summary>
+    <summary>Bond investors including Brandywine Global Investment Management and Wellington Management say the risk of a deeper Treasury rout is rising as Federal Reserve Chairman Kevin Warsh keeps investors in the dark about how officials will respond to the evolving economy.</summary>
   </entry>
   <entry>
     <title>Evaluating code review agents with ReviewBench</title>
@@ -232,15 +250,6 @@
     <summary>Transformer Weekly: Claude hacks revealed, Commerce markup delayed, White House framework imminent</summary>
   </entry>
   <entry>
-    <title>Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks</title>
-    <link href="https://www.cnbc.com/2026/07/31/clear-street-pre-ipo-platform-databricks.html"/>
-    <id>https://www.cnbc.com/2026/07/31/clear-street-pre-ipo-platform-databricks.html</id>
-    <updated>2026-07-31T21:49:40.000Z</updated>
-    <author><name>CNBC Tech</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Fintech brokerage Clear Street is launching a private markets platform, beginning with Databricks stakes, to give investors more access to late-stage startups.</summary>
-  </entry>
-  <entry>
     <title>SpaceXAI says it will remove all 69 of its unpermitted turbine power generators, but expects process to take a year — trailer-mounted generators to be replaced by 1.2GW power plant</title>
     <link href="https://www.tomshardware.com/tech-industry/big-tech/spacexai-says-it-will-remove-all-69-of-its-unpermitted-turbine-power-generators-but-expects-process-to-take-a-year-trailer-mounted-generators-to-be-replaced-by-1-2gw-power-plant"/>
     <id>https://www.tomshardware.com/tech-industry/big-tech/spacexai-says-it-will-remove-all-69-of-its-unpermitted-turbine-power-generators-but-expects-process-to-take-a-year-trailer-mounted-generators-to-be-replaced-by-1-2gw-power-plant</id>
@@ -250,13 +259,13 @@
     <summary>These turbines have been the center of a lawsuit involving permits and pollution. While this is good news for the community, it will still take quite some time before they're fully removed from the premises.</summary>
   </entry>
   <entry>
-    <title>Iran suspected of conducting cyberattacks on US water suppliers in 45 municipalities — small towns mostly targeted, with utilities switching to manual control</title>
-    <link href="https://www.tomshardware.com/tech-industry/cyber-security/iran-suspected-of-conducting-cyberattacks-on-us-water-suppliers-in-45-municipalities-small-towns-mostly-targeted-with-utilities-switching-to-manual-control"/>
-    <id>https://www.tomshardware.com/tech-industry/cyber-security/iran-suspected-of-conducting-cyberattacks-on-us-water-suppliers-in-45-municipalities-small-towns-mostly-targeted-with-utilities-switching-to-manual-control</id>
-    <updated>2026-08-02T13:10:00.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
+    <title>Kimi K3 + DeepSeek-V4 Flash + Deep Research + Parallel Chat</title>
+    <link href="https://github.com/unslothai/unsloth/releases/tag/v0.1.511-beta"/>
+    <id>https://github.com/unslothai/unsloth/releases/tag/v0.1.511-beta</id>
+    <updated>2026-08-02T14:46:11.000Z</updated>
+    <author><name>unslothai/unsloth</name></author>
     <category term="HARDWARE"/>
-    <summary>Several US towns said that their water utilities have suffered from cyberattacks, which are suspected to have originated from Iran. While systems remain running, several have resorted to manual control to protect the water supply.</summary>
+    <summary>Hey everyone! Kimi K3 &amp; DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs, Unsloth can keep multiple chats generating in parallel, and the new Deep Research mode plans, reads and cites sources using your local model. This release also brings better AMD and Intel GPU support, DoRA training, and many insta</summary>
   </entry>
   <entry>
     <title>Open letters about AI development</title>
@@ -266,14 +275,5 @@
     <author><name>Simon Willison</name></author>
     <category term="OPEN SOURCE"/>
     <summary>Open letters about AI development I wrote this summary of the past few weeks of open letters as a section of my sponsors-only newsletter but I've decided to share it here as well. Open Weights and American AI Leadership was shepherded by Microsoft, dated July 24th, and signed by 235 AI-adjacent companies including NVID</summary>
-  </entry>
-  <entry>
-    <title>A profile of Jacob Tsimerman, who won the Fields Medal last week and is taking a leave from the University of Toronto to join OpenAI and work on AI safety (Ben Cohen/Wall Street Journal)</title>
-    <link href="https://www.techmeme.com/260802/p5#a260802p5"/>
-    <id>https://www.techmeme.com/260802/p5#a260802p5</id>
-    <updated>2026-08-02T06:00:36.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>Ben Cohen / Wall Street Journal : A profile of Jacob Tsimerman, who won the Fields Medal last week and is taking a leave from the University of Toronto to join OpenAI and work on AI safety — Jacob Tsimerman won the biggest prize in math. Now he's working on the most important problem of his career.</summary>
   </entry>
 </feed>
