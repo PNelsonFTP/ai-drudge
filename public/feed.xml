@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-02T04:32:21.748Z</updated>
+  <updated>2026-08-02T07:37:57.735Z</updated>
   <entry>
-    <title>deepseek-ai/DeepSeek-V4-Flash-0731</title>
-    <link href="https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything"/>
-    <id>https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything</id>
-    <updated>2026-07-31T23:59:44.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>DeepSeek-V4-Flash-0731 UD-Q8_K_XL 17.20~ t/s on A6000 + 256GB DDR4</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vd6tpq/deepseekv4flash0731_udq8_k_xl_1720_ts_on_a6000/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vd6tpq/deepseekv4flash0731_udq8_k_xl_1720_ts_on_a6000/</id>
+    <updated>2026-08-02T03:16:19.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>deepseek-ai/DeepSeek-V4-Flash-0731 The latest release in DeepSeek's V4 family, &quot;with substantially enhanced agentic capabilities&quot;. It's 304 billion parameters - 167GB on Hugging Face - but it appears to punch well above its weight. Artificial Analysis rank it ahead of MiniMax M3 - a 428B model. It's $0.14/million input</summary>
+    <summary>Hello everyone I want to join the hype of posting specs. CPU: AMD EPYC 74F3 24-Core RAM: 8 Channel 3200 DDR4 GPU: RTX A6000 48GB Prompt processing is in the high 70t/s (got down to mid 30t/s at 300k context). Inference is a steady 17.20t/s~ and the 48GB VRAM is enough to have the full 1mil context but PP will be so bad</summary>
   </entry>
   <entry>
     <title>not much happened today</title>
@@ -34,67 +34,58 @@
     <summary>Claude maker Anthropic said its AI models escaped test environments and breached networks at three companies on the open internet.</summary>
   </entry>
   <entry>
-    <title>July 2026 newsletter</title>
-    <link href="https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything"/>
-    <id>https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything</id>
-    <updated>2026-08-02T04:12:41.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>After Hugging Face incident, METR urges independent root-cause investigations into AI agent misbehavior</title>
+    <link href="https://the-decoder.com/after-hugging-face-incident-metr-urges-independent-root-cause-investigations-into-ai-agent-misbehavior/"/>
+    <id>https://the-decoder.com/after-hugging-face-incident-metr-urges-independent-root-cause-investigations-into-ai-agent-misbehavior/</id>
+    <updated>2026-08-02T07:33:17.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>The June edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: Accidental cyberattacks by OpenAl and Anthropic models under test GPT-5.6 Sol, Terra, and Luna Claude Opus 5 Kimi K3 and DeepSeek-V4-Flash-0731 Open letters about</summary>
+    <summary>Research organization METR is calling for systematic, independently led investigations whenever AI agents act autonomously against their developers' intentions. The push comes partly in response to the Hugging Face hack carried out by OpenAI models. METR's own Frontier Risk Report documented 44 such incidents across al</summary>
   </entry>
   <entry>
-    <title>Trump Media's new paid data API launches, for &quot;a direct, licensed, real-time feed of the platform's most market-moving Truths&quot;; Dem. senators asked SEC to probe (CJ Haddad/CNBC)</title>
-    <link href="https://www.techmeme.com/260801/p14#a260801p14"/>
-    <id>https://www.techmeme.com/260801/p14#a260801p14</id>
-    <updated>2026-08-01T18:40:02.000Z</updated>
+    <title>LemonEdge, a fund accounting and operations software provider for the private markets sector, raised a $21M Series A led by Blackstone Innovations Investments (FinTech Global)</title>
+    <link href="https://www.techmeme.com/260802/p3#a260802p3"/>
+    <id>https://www.techmeme.com/260802/p3#a260802p3</id>
+    <updated>2026-08-02T05:30:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>CJ Haddad / CNBC : Trump Media's new paid data API launches, for “a direct, licensed, real-time feed of the platform's most market-moving Truths”; Dem. senators asked SEC to probe — Trump Media and Technology Group's new paid data service launched on Aug. 1, providing faster access to Truth Social posts …</summary>
+    <summary>FinTech Global : LemonEdge, a fund accounting and operations software provider for the private markets sector, raised a $21M Series A led by Blackstone Innovations Investments — LemonEdge, a fund accounting platform designed specifically for the private markets sector, has secured $21m in Series A funding …</summary>
   </entry>
   <entry>
-    <title>llama.cpp b10223 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10223"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10223</id>
-    <updated>2026-08-01T22:50:00.000Z</updated>
+    <title>llama.cpp b10224 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10224"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10224</id>
+    <updated>2026-08-02T07:06:13.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>test: fix some CI errors ( #26415 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubu</summary>
+    <summary>ggml-webgpu: add support for f16 repeat ( #26307 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64</summary>
   </entry>
   <entry>
-    <title>OpenAI announces its &quot;next major model&quot; Astra by dropping ten previously unsolved math solutions</title>
-    <link href="https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions/"/>
-    <id>https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions/</id>
-    <updated>2026-08-01T09:29:49.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>OpenAI is building a new model family called &quot;Astra&quot; that would let multiple agents tackle complex problems together for hours or even days. CEO Sam Altman has already demoed Astra to policymakers in Washington. OpenAI hasn't decided whether to release it as GPT-6 or a new GPT-5 variant. The article OpenAI announces it</summary>
-  </entry>
-  <entry>
-    <title>Trump Says US to Cancel Iran Attack Subject to a Rapid Deal</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-02/trump-says-us-to-cancel-iran-attack-subject-to-a-rapid-deal"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-02/trump-says-us-to-cancel-iran-attack-subject-to-a-rapid-deal</id>
-    <updated>2026-08-02T02:19:38.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
+    <title>Apple struggles to keep pace with AI ‘bug’ hunters</title>
+    <link href="https://www.ft.com/content/4532122d-90f2-4433-9df6-ca99d8a141d2?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/4532122d-90f2-4433-9df6-ca99d8a141d2?syn-25a6b1a6=1</id>
+    <updated>2026-08-02T04:00:06.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
     <category term="AI FINANCE"/>
-    <summary>President Donald Trump said the US will hold off new strikes against Iran after the Islamic Republic and other Middle Eastern nations told him they are working toward a deal.</summary>
+    <summary>iPhone maker has limited the number of vulnerabilities researchers can submit to manage wave of reports</summary>
   </entry>
   <entry>
-    <title>MUD as AI Evaluation and LLM-judge distortion in ways aggregate κ misses</title>
-    <link href="https://www.lesswrong.com/posts/GPbWyHgx9hCLMdAjc/mud-as-ai-evaluation-and-llm-judge-distortion-in-ways"/>
-    <id>https://www.lesswrong.com/posts/GPbWyHgx9hCLMdAjc/mud-as-ai-evaluation-and-llm-judge-distortion-in-ways</id>
-    <updated>2026-08-02T01:08:04.000Z</updated>
-    <author><name>LessWrong</name></author>
+    <title>NVIDIA AI Releases Molt: A PyTorch-Native Agentic Reinforcement Learning Framework</title>
+    <link href="https://www.marktechpost.com/2026/08/01/nvidia-ai-releases-molt-a-pytorch-native-agentic-reinforcement-learning-framework/"/>
+    <id>https://www.marktechpost.com/2026/08/01/nvidia-ai-releases-molt-a-pytorch-native-agentic-reinforcement-learning-framework/</id>
+    <updated>2026-08-02T06:21:26.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
-    <summary>A group of friends and I spent the last several months running an experiment in our free time to determine if a MUD would be a suitable environment for benchmarking and evaluating LLMs. The results of the experiment were not what we expected. The main surprise was that the model rankings were extremely sensitive to the</summary>
+    <summary>Agentic RL research is constant algorithm modification, and in mainstream frameworks every change threads through trainer, distributed backend, and rollout glue. NVIDIA's Molt targets that cost with about 8.6K lines of RL code, composing Ray, vLLM, and NeMo AutoModel around one asynchronous loop. The agent stays ordina</summary>
   </entry>
   <entry>
-    <title>Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs</title>
-    <link href="https://www.servethehome.com/kioxia-cm10-series-launched-for-the-pcie-gen6-generation-of-ssds/"/>
-    <id>https://www.servethehome.com/kioxia-cm10-series-launched-for-the-pcie-gen6-generation-of-ssds/</id>
-    <updated>2026-08-01T15:00:24.000Z</updated>
-    <author><name>ServeTheHome</name></author>
-    <category term="HARDWARE"/>
-    <summary>The new Kioxia CM10 series spans 2.5&quot; and EDSFF form factors, PCIe Gen5 and Gen6, air-cooled and liquid-cooled, and two NAND generations The post Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs appeared first on ServeTheHome .</summary>
+    <title>End-to-End Forecasting with TimesFM 2.5: Backtesting, Covariates, Anomaly Detection, and Scalable Colab Deployment</title>
+    <link href="https://www.marktechpost.com/2026/08/01/end-to-end-forecasting-with-timesfm-2-5-backtesting-covariates-anomaly-detection-and-scalable-colab-deployment/"/>
+    <id>https://www.marktechpost.com/2026/08/01/end-to-end-forecasting-with-timesfm-2-5-backtesting-covariates-anomaly-detection-and-scalable-colab-deployment/</id>
+    <updated>2026-08-02T05:44:14.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="PRODUCTS"/>
+    <summary>In this tutorial, we build an advanced end-to-end time-series forecasting workflow with TimesFM 2.5. We begin by configuring the runtime, installing the required dependencies, detecting available hardware, and generating a realistic multi-store retail dataset with trend, seasonality, pricing, promotions, holidays, temp</summary>
   </entry>
   <entry>
     <title>Open letters about AI development</title>
@@ -104,6 +95,15 @@
     <author><name>Simon Willison</name></author>
     <category term="OPEN SOURCE"/>
     <summary>Open letters about AI development I wrote this summary of the past few weeks of open letters as a section of my sponsors-only newsletter but I've decided to share it here as well. Open Weights and American AI Leadership was shepherded by Microsoft, dated July 24th, and signed by 235 AI-adjacent companies including NVID</summary>
+  </entry>
+  <entry>
+    <title>A profile of Jacob Tsimerman, who won the Fields Medal last week and is taking a leave from the University of Toronto to join OpenAI and work on AI safety (Ben Cohen/Wall Street Journal)</title>
+    <link href="https://www.techmeme.com/260802/p5#a260802p5"/>
+    <id>https://www.techmeme.com/260802/p5#a260802p5</id>
+    <updated>2026-08-02T06:00:36.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>Ben Cohen / Wall Street Journal : A profile of Jacob Tsimerman, who won the Fields Medal last week and is taking a leave from the University of Toronto to join OpenAI and work on AI safety — Jacob Tsimerman won the biggest prize in math. Now he's working on the most important problem of his career.</summary>
   </entry>
   <entry>
     <title>A security researcher built a self-spreading worm that hides inside Word docs and hijacks Microsoft Copilot</title>
@@ -124,22 +124,22 @@
     <summary>An attacker drained 1,196 Bitcoin addresses in 41 minutes on July 30, taking 1,082.65 BTC worth about $70.2 million at the time. Galaxy Research mapped the sweep and tied it to a firmware flaw in Coldcard, the Bitcoin-only hardware wallet made by Canadian firm Coinkite. A March 2021 firmware integration error routed se</summary>
   </entry>
   <entry>
-    <title>Rails patches critical Active Storage flaw with RCE potential</title>
-    <link href="https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/"/>
-    <id>https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/</id>
-    <updated>2026-08-01T14:20:30.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). [...]</summary>
+    <title>July 2026 newsletter</title>
+    <link href="https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything"/>
+    <id>https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything</id>
+    <updated>2026-08-02T04:12:41.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="ANALYSIS"/>
+    <summary>The June edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: Accidental cyberattacks by OpenAl and Anthropic models under test GPT-5.6 Sol, Terra, and Luna Claude Opus 5 Kimi K3 and DeepSeek-V4-Flash-0731 Open letters about</summary>
   </entry>
   <entry>
-    <title>Top 10 robotics stories of July 2026</title>
-    <link href="https://www.therobotreport.com/top-10-robotics-stories-july-2026/"/>
-    <id>https://www.therobotreport.com/top-10-robotics-stories-july-2026/</id>
-    <updated>2026-08-01T12:00:30.000Z</updated>
-    <author><name>The Robot Report</name></author>
+    <title>Chinese VC firms are rushing to raise new funds after three years of record-low fundraising, amid renewed enthusiasm for China's tech, AI, and robotics sectors (Eleanor Olcott/Financial Times)</title>
+    <link href="https://www.techmeme.com/260802/p4#a260802p4"/>
+    <id>https://www.techmeme.com/260802/p4#a260802p4</id>
+    <updated>2026-08-02T05:40:00.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="ROBOTICS"/>
-    <summary>In July, large funding rounds, new approaches to robot training, and new robot models drew our readers attention. The post Top 10 robotics stories of July 2026 appeared first on The Robot Report .</summary>
+    <summary>Eleanor Olcott / Financial Times : Chinese VC firms are rushing to raise new funds after three years of record-low fundraising, amid renewed enthusiasm for China's tech, AI, and robotics sectors — Managers capitalise on investors' desire to ‘hedge’ against US market bets — China's venture capital firms are rushing …</summary>
   </entry>
   <entry>
     <title>EY Expands In-House Capabilities with On-Site Quantum Computer Hub in Canada</title>
@@ -151,49 +151,49 @@
     <summary>Global professional services firm Ernst &amp; Young (EY) has announced the addition of an on-site quantum computer to its in-house technology stack. Led by EY Canada, the deployment serves as a key innovation hub within EY's global enterprise tech strategy. The hardware installation forms part of a broader $3 billion globa</summary>
   </entry>
   <entry>
-    <title>AI keeps cracking unsolved math problems, and mathematicians have mixed feelings</title>
-    <link href="https://the-decoder.com/ai-keeps-cracking-unsolved-math-problems-and-mathematicians-have-mixed-feelings/"/>
-    <id>https://the-decoder.com/ai-keeps-cracking-unsolved-math-problems-and-mathematicians-have-mixed-feelings/</id>
-    <updated>2026-08-01T16:01:31.000Z</updated>
+    <title>Snap and LinkedIn are fighting back against a flood of low-quality AI content</title>
+    <link href="https://the-decoder.com/snap-and-linkedin-are-fighting-back-against-a-flood-of-low-quality-ai-content/"/>
+    <id>https://the-decoder.com/snap-and-linkedin-are-fighting-back-against-a-flood-of-low-quality-ai-content/</id>
+    <updated>2026-08-02T06:49:28.000Z</updated>
     <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>OpenAI's refutation of the Unit Distance Conjecture has sparked a wave of AI-assisted advances in mathematics. Fields Medal winner Timothy Gowers says GPT 5.6 Pro solved two problems he had spent considerable time working on, each on its first attempt. He warns of the &quot;possible destruction of mathematical culture&quot; if m</summary>
+    <summary>Snap is banning AI-generated videos from Spotlight to keep the feed focused on human creativity. Content edited with Snapchat's own AI tools is still allowed. LinkedIn, meanwhile, has rolled out a dedicated &quot;AI slop&quot; reporting button. The article Snap and LinkedIn are fighting back against a flood of low-quality AI con</summary>
   </entry>
   <entry>
-    <title>An investigation reveals Dubai-based unlicensed crypto exchange Shelbit has processed at least $4B as part of Iran's sanctions-evasion operation since May 2024 (Reuters)</title>
-    <link href="https://www.techmeme.com/260801/p17#a260801p17"/>
-    <id>https://www.techmeme.com/260801/p17#a260801p17</id>
-    <updated>2026-08-02T03:05:52.000Z</updated>
+    <title>Malaysia shuts down Network School, Balaji Srinivasan's techno-utopian project, over licensing issues; Srinivasan says he is opening a new campus in Kazakhstan (Wall Street Journal)</title>
+    <link href="https://www.techmeme.com/260802/p2#a260802p2"/>
+    <id>https://www.techmeme.com/260802/p2#a260802p2</id>
+    <updated>2026-08-02T05:10:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Reuters : An investigation reveals Dubai-based unlicensed crypto exchange Shelbit has processed at least $4B as part of Iran's sanctions-evasion operation since May 2024 — A Dubai-based crypto exchange serves as a hub for moving illicit Iranian money. The exchange, Shelbit, links a vast gambling network fronted …</summary>
+    <summary>Wall Street Journal : Malaysia shuts down Network School, Balaji Srinivasan's techno-utopian project, over licensing issues; Srinivasan says he is opening a new campus in Kazakhstan — Balaji Srinivasan left Silicon Valley and created an incubator for new countries in an Asian ghost city, before the government shut it d</summary>
   </entry>
   <entry>
-    <title>Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps</title>
-    <link href="https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/"/>
-    <id>https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/</id>
-    <updated>2026-08-01T20:26:04.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>Apple introduced a cap and a 30-day cool-off period on bug report submissions, citing a deluge of AI-assisted reports; researchers can request higher quotas (Financial Times)</title>
+    <link href="https://www.techmeme.com/260802/p1#a260802p1"/>
+    <id>https://www.techmeme.com/260802/p1#a260802p1</id>
+    <updated>2026-08-02T05:00:15.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Despite a lawsuit from xAI, a Minnesota ban on apps that allow users to “nudify” images can move forward.</summary>
+    <summary>Financial Times : Apple introduced a cap and a 30-day cool-off period on bug report submissions, citing a deluge of AI-assisted reports; researchers can request higher quotas — iPhone maker has limited the number of vulnerabilities researchers can submit to manage wave of reports</summary>
   </entry>
   <entry>
-    <title>Kimi K3 + Deep Research + Parallel Chat</title>
-    <link href="https://github.com/unslothai/unsloth/releases/tag/v0.1.51-beta"/>
-    <id>https://github.com/unslothai/unsloth/releases/tag/v0.1.51-beta</id>
-    <updated>2026-08-01T06:10:59.000Z</updated>
-    <author><name>unslothai/unsloth</name></author>
+    <title>DeepSeek-V4-Flash 284B on 5.3GB of memory</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vdbix4/deepseekv4flash_284b_on_53gb_of_memory/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vdbix4/deepseekv4flash_284b_on_53gb_of_memory/</id>
+    <updated>2026-08-02T07:28:04.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Hey everyone! Kimi K3 can now run locally with Unsloth Dynamic GGUFs, Unsloth can keep multiple chats generating in parallel, and the new Deep Research mode plans, reads and cites sources using your local model. This release also brings better AMD and Intel GPU support, DoRA training, and many installer, MLX, export an</summary>
+    <summary>Following up on my Qwen 3.6 port , I wanted to keep adding models and ended up fixing a bunch of things along the way, so it's its own engine now: Mference . Same core idea from TurboFieldfare , MoE models activate a few B params per token, so keep the shared core and KV cache resident and stream the selected experts o</summary>
   </entry>
   <entry>
-    <title>unsloth/DeepSeek-V4-Flash-0731-GGUF · Hugging Face</title>
-    <link href="https://sh.itjust.works/post/64340558"/>
-    <id>https://sh.itjust.works/post/64340558</id>
-    <updated>2026-07-31T15:41:17.000Z</updated>
-    <author><name>Lemmy c/localllama</name></author>
+    <title>Real-world reality check on Qwen for autonomous coding agents</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vdb1n1/realworld_reality_check_on_qwen_for_autonomous/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vdb1n1/realworld_reality_check_on_qwen_for_autonomous/</id>
+    <updated>2026-08-02T07:00:41.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by BeefAndPoultry to localllama 16 points | 7 comments https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF the quality of GLM 5.2 in just 155 or 162 GB?</summary>
+    <summary>TLDR below 👇🏼 I’ve seen a lot of hype around Qwen 3.6 35B and 3.5 120B lately, especially regarding coding and tool-use capabilities. On this subreddit it is the defacto recommended model for everyone without a Datacenter at home. I’ve been running Qwen 3.5 120B (Qwen3.5-122B-A10B-GPTQ-Int4) as an autonomous worker a</summary>
   </entry>
   <entry>
     <title>datasette-apps 0.2a0</title>
@@ -205,40 +205,31 @@
     <summary>Release: datasette-apps 0.2a0 Changes that improve Datasette Apps when created and edited using Datasette Agent : New app_debug() tool allowing agent to open an app (invisibly) and test it using JavaScript. #33 New app_list() tool for listing apps the user has permission to edit, so the agent can edit them. #36 The app</summary>
   </entry>
   <entry>
-    <title>🔮 Leopold &amp; exponential markets; transformative GLP-1s; runaway AI &amp; the future of safety++ #595</title>
-    <link href="https://www.exponentialview.co/p/ev-595"/>
-    <id>https://www.exponentialview.co/p/ev-595</id>
-    <updated>2026-08-02T03:19:05.000Z</updated>
-    <author><name>Exponential View (Azhar)</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Plus: AI agents as citizen rights, protein &amp; longevity, nervous Europe</summary>
-  </entry>
-  <entry>
-    <title>Saudi Prince Concerned Over Trump’s Iran Strike Plan: Axios</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-02/saudi-prince-concerned-over-trump-s-iran-strike-plan-axios"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-02/saudi-prince-concerned-over-trump-s-iran-strike-plan-axios</id>
-    <updated>2026-08-02T00:13:35.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
+    <title>A Chess Training App for Imitation Learning</title>
+    <link href="https://www.lesswrong.com/posts/D2CpuGdiLrhr3gJXa/a-chess-training-app-for-imitation-learning"/>
+    <id>https://www.lesswrong.com/posts/D2CpuGdiLrhr3gJXa/a-chess-training-app-for-imitation-learning</id>
+    <updated>2026-08-02T01:16:23.000Z</updated>
+    <author><name>LessWrong</name></author>
     <category term="AI FINANCE"/>
-    <summary>Saudi Crown Prince Mohammed bin Salman told President Donald Trump in a call that he was concerned over the US’s plans for new strikes against Iran, Axios reported, citing people familiar with the conversation.</summary>
+    <summary>LLMs learn faster if we first pretrain thm to imitate dense teacher-forced examples . I speculated that this would work on humans too, so I built a chess app where you try to imitate Stockfish. My theory is that this will help humans quickly become OK at chess, but they will reach a wall where practice on full games is</summary>
   </entry>
   <entry>
-    <title>Crushed by Kospi Rout, Angry Koreans Rip Lee and Vow Not to Buy</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-02/crushed-by-kospi-rout-angry-koreans-rip-lee-and-vow-not-to-buy"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-02/crushed-by-kospi-rout-angry-koreans-rip-lee-and-vow-not-to-buy</id>
-    <updated>2026-08-02T00:00:00.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
+    <title>Dell founder shows how a $100 billion empire started 42 years ago — CEO says ‘This one page changed my life’</title>
+    <link href="https://www.tomshardware.com/tech-industry/dell-founder-shows-how-a-usd100-billion-empire-started-42-years-ago-ceo-says-this-one-page-changed-my-life"/>
+    <id>https://www.tomshardware.com/tech-industry/dell-founder-shows-how-a-usd100-billion-empire-started-42-years-ago-ceo-says-this-one-page-changed-my-life</id>
+    <updated>2026-08-01T17:06:31.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
     <category term="AI FINANCE"/>
-    <summary>South Korea’s retail traders have long built a reputation for embracing risk. Yet July’s punishing reversal in the Kospi has rattled even this battle-hardened cohort, exposing the limits of their tolerance for volatility.</summary>
+    <summary>Billionaire Michael Dell reminisced about the early days of his company, sharing an early quarterly earnings report that showed the then-startup making nearly $135,000 in just three months. Dell says that that document changed his life, as it convinced his parents that he no longer needed to go back to college and purs</summary>
   </entry>
   <entry>
-    <title>Constitutional Midtraining: Content Presence Drives Alignment Gains</title>
-    <link href="https://www.lesswrong.com/posts/n5htoDGvKKJFAjji2/constitutional-midtraining-content-presence-drives-alignment-1"/>
-    <id>https://www.lesswrong.com/posts/n5htoDGvKKJFAjji2/constitutional-midtraining-content-presence-drives-alignment-1</id>
-    <updated>2026-08-02T00:38:25.000Z</updated>
+    <title>MUD as AI Evaluation and LLM-judge distortion in ways aggregate κ misses</title>
+    <link href="https://www.lesswrong.com/posts/GPbWyHgx9hCLMdAjc/mud-as-ai-evaluation-and-llm-judge-distortion-in-ways"/>
+    <id>https://www.lesswrong.com/posts/GPbWyHgx9hCLMdAjc/mud-as-ai-evaluation-and-llm-judge-distortion-in-ways</id>
+    <updated>2026-08-02T01:08:04.000Z</updated>
     <author><name>LessWrong</name></author>
     <category term="RESEARCH"/>
-    <summary>A more accessible, much shorter version of our paper that goes by the above title. Paper here . Code and benchmarks here . Data and models here . Would love for you to explore them! Authors: Desiree Cho, Cameron Tice, Bernie Hogan, Hunar Batra, Puria Radmard, Jun Zhao, Sir Nigel Shadbolt. More about me: LinkedIn | Oxfo</summary>
+    <summary>A group of friends and I spent the last several months running an experiment in our free time to determine if a MUD would be a suitable environment for benchmarking and evaluating LLMs. The results of the experiment were not what we expected. The main surprise was that the model rankings were extremely sensitive to the</summary>
   </entry>
   <entry>
     <title>Kimi K3: The Complete Developer Guide</title>
@@ -246,7 +237,7 @@
     <id>https://www.together.ai/blog/kimi-k3-guide</id>
     <updated>2026-08-01T00:00:00.000Z</updated>
     <author><name>Together AI Blog</name></author>
-    <category term="RESEARCH"/>
+    <category term="PRODUCTS"/>
     <summary>Kimi K3 is the first open 3T-class model. See how it benchmarks, what it costs, and how to call it on the Together AI API, with copy-paste code examples.</summary>
   </entry>
   <entry>
@@ -259,21 +250,30 @@
     <summary>Fintech brokerage Clear Street is launching a private markets platform, beginning with Databricks stakes, to give investors more access to late-stage startups.</summary>
   </entry>
   <entry>
-    <title>Dell founder shows how a $100 billion empire started 42 years ago — CEO says ‘This one page changed my life’</title>
-    <link href="https://www.tomshardware.com/tech-industry/dell-founder-shows-how-a-usd100-billion-empire-started-42-years-ago-ceo-says-this-one-page-changed-my-life"/>
-    <id>https://www.tomshardware.com/tech-industry/dell-founder-shows-how-a-usd100-billion-empire-started-42-years-ago-ceo-says-this-one-page-changed-my-life</id>
-    <updated>2026-08-01T17:06:31.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
+    <title>Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs</title>
+    <link href="https://www.servethehome.com/kioxia-cm10-series-launched-for-the-pcie-gen6-generation-of-ssds/"/>
+    <id>https://www.servethehome.com/kioxia-cm10-series-launched-for-the-pcie-gen6-generation-of-ssds/</id>
+    <updated>2026-08-01T15:00:24.000Z</updated>
+    <author><name>ServeTheHome</name></author>
     <category term="HARDWARE"/>
-    <summary>Billionaire Michael Dell reminisced about the early days of his company, sharing an early quarterly earnings report that showed the then-startup making nearly $135,000 in just three months. Dell says that that document changed his life, as it convinced his parents that he no longer needed to go back to college and purs</summary>
+    <summary>The new Kioxia CM10 series spans 2.5&quot; and EDSFF form factors, PCIe Gen5 and Gen6, air-cooled and liquid-cooled, and two NAND generations The post Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs appeared first on ServeTheHome .</summary>
   </entry>
   <entry>
-    <title>German court rules AI music generator Suno violated copyrights, rejects fair use defense</title>
-    <link href="https://the-decoder.com/german-court-rules-ai-music-generator-suno-violated-copyrights-rejects-fair-use-defense/"/>
-    <id>https://the-decoder.com/german-court-rules-ai-music-generator-suno-violated-copyrights-rejects-fair-use-defense/</id>
-    <updated>2026-08-01T10:40:50.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="HARDWARE"/>
-    <summary>A Munich court ruled that AI music generator Suno violated copyrights through both training and output. The court found six songs reproducibly stored in Suno's models and rejected both Germany's text-and-data-mining exception and the US fair use defense. The ruling isn't final, and several key questions remain open. Th</summary>
+    <title>Supabase Releases Evals: an Open Source Benchmark That Scores Claude Code, Codex and OpenCode on Real Supabase Tasks</title>
+    <link href="https://www.marktechpost.com/2026/08/01/supabase-releases-evals-an-open-source-benchmark-that-scores-claude-code-codex-and-opencode-on-real-supabase-tasks/"/>
+    <id>https://www.marktechpost.com/2026/08/01/supabase-releases-evals-an-open-source-benchmark-that-scores-claude-code-codex-and-opencode-on-real-supabase-tasks/</id>
+    <updated>2026-08-01T09:52:49.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Supabase has open sourced supabase/evals, an Apache-2.0 benchmark and framework that runs coding agents including Claude Code, Codex and OpenCode against real Supabase tasks — building schemas, debugging Edge Functions, fixing RLS policies — inside containerized stacks, then scores them with deterministic checks and LL</summary>
+  </entry>
+  <entry>
+    <title>Hacker uses DeepSeek AI to autonomously attack vulnerable servers</title>
+    <link href="https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/"/>
+    <id>https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/</id>
+    <updated>2026-07-31T17:35:35.000Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>A Chinese-speaking threat actor is using the DeepSeek AI model and the open-source Hermes Agent to conduct autonomous cyberattacks on exposed servers with limited human involvement. [...]</summary>
   </entry>
 </feed>
