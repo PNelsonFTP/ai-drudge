@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-02T07:37:57.735Z</updated>
+  <updated>2026-08-02T10:05:17.050Z</updated>
   <entry>
-    <title>DeepSeek-V4-Flash-0731 UD-Q8_K_XL 17.20~ t/s on A6000 + 256GB DDR4</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vd6tpq/deepseekv4flash0731_udq8_k_xl_1720_ts_on_a6000/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vd6tpq/deepseekv4flash0731_udq8_k_xl_1720_ts_on_a6000/</id>
-    <updated>2026-08-02T03:16:19.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>deepseek-ai/DeepSeek-V4-Flash-0731</title>
+    <link href="https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything"/>
+    <id>https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything</id>
+    <updated>2026-07-31T23:59:44.000Z</updated>
+    <author><name>Simon Willison</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Hello everyone I want to join the hype of posting specs. CPU: AMD EPYC 74F3 24-Core RAM: 8 Channel 3200 DDR4 GPU: RTX A6000 48GB Prompt processing is in the high 70t/s (got down to mid 30t/s at 300k context). Inference is a steady 17.20t/s~ and the 48GB VRAM is enough to have the full 1mil context but PP will be so bad</summary>
+    <summary>deepseek-ai/DeepSeek-V4-Flash-0731 The latest release in DeepSeek's V4 family, &quot;with substantially enhanced agentic capabilities&quot;. It's 304 billion parameters - 167GB on Hugging Face - but it appears to punch well above its weight. Artificial Analysis rank it ahead of MiniMax M3 - a 428B model. It's $0.14/million input</summary>
   </entry>
   <entry>
     <title>not much happened today</title>
@@ -21,7 +21,7 @@
     <id>https://news.smol.ai/issues/26-07-31-not-much/</id>
     <updated>2026-07-31T05:44:39.000Z</updated>
     <author><name>AI News (smol.ai)</name></author>
-    <category term="MODEL RELEASES"/>
+    <category term="INDUSTRY NEWS"/>
     <summary>**DeepSeek** launched the public-beta of **DeepSeek-V4-Flash API**, boasting a significant post-training performance leap without architecture or size changes, achieving a **Terminal-Bench score of 82.7** and nearing **GPT-5.6 Luna's 51** score at about **60% lower cost per task**. The model features **284B total / 13B</summary>
   </entry>
   <entry>
@@ -34,13 +34,13 @@
     <summary>Claude maker Anthropic said its AI models escaped test environments and breached networks at three companies on the open internet.</summary>
   </entry>
   <entry>
-    <title>After Hugging Face incident, METR urges independent root-cause investigations into AI agent misbehavior</title>
-    <link href="https://the-decoder.com/after-hugging-face-incident-metr-urges-independent-root-cause-investigations-into-ai-agent-misbehavior/"/>
-    <id>https://the-decoder.com/after-hugging-face-incident-metr-urges-independent-root-cause-investigations-into-ai-agent-misbehavior/</id>
-    <updated>2026-08-02T07:33:17.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>llama.cpp b10227 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10227"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10227</id>
+    <updated>2026-08-02T09:45:09.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Research organization METR is calling for systematic, independently led investigations whenever AI agents act autonomously against their developers' intentions. The push comes partly in response to the Hugging Face hack carried out by OpenAI models. METR's own Frontier Risk Report documented 44 such incidents across al</summary>
+    <summary>chat : add qwen3 specialized parser ( #26252 ) Add tagged thinking tool parser chat : refactor and add permute helper cont : add support for &lt;tool_call&gt; omission cont : update tool delimiters cont : add comment for qwen3-coder cont : fix trigger pattern for &lt;function Co-authored-by: Bart de Boer bart.deboer@gmail.com W</summary>
   </entry>
   <entry>
     <title>LemonEdge, a fund accounting and operations software provider for the private markets sector, raised a $21M Series A led by Blackstone Innovations Investments (FinTech Global)</title>
@@ -52,22 +52,22 @@
     <summary>FinTech Global : LemonEdge, a fund accounting and operations software provider for the private markets sector, raised a $21M Series A led by Blackstone Innovations Investments — LemonEdge, a fund accounting platform designed specifically for the private markets sector, has secured $21m in Series A funding …</summary>
   </entry>
   <entry>
-    <title>llama.cpp b10224 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10224"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10224</id>
-    <updated>2026-08-02T07:06:13.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>ggml-webgpu: add support for f16 repeat ( #26307 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64</summary>
+    <title>After Hugging Face incident, METR urges independent root-cause investigations into AI agent misbehavior</title>
+    <link href="https://the-decoder.com/after-hugging-face-incident-metr-urges-independent-root-cause-investigations-into-ai-agent-misbehavior/"/>
+    <id>https://the-decoder.com/after-hugging-face-incident-metr-urges-independent-root-cause-investigations-into-ai-agent-misbehavior/</id>
+    <updated>2026-08-02T07:33:17.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Research organization METR is calling for systematic, independently led investigations whenever AI agents act autonomously against their developers' intentions. The push comes partly in response to the Hugging Face hack carried out by OpenAI models. METR's own Frontier Risk Report documented 44 such incidents across al</summary>
   </entry>
   <entry>
-    <title>Apple struggles to keep pace with AI ‘bug’ hunters</title>
-    <link href="https://www.ft.com/content/4532122d-90f2-4433-9df6-ca99d8a141d2?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/4532122d-90f2-4433-9df6-ca99d8a141d2?syn-25a6b1a6=1</id>
-    <updated>2026-08-02T04:00:06.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
+    <title>ANZ, NAB Among Banks Funding Blackstone HSBC Book Buy, AFR Says</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-02/anz-nab-among-banks-funding-blackstone-hsbc-book-buy-afr-says"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-02/anz-nab-among-banks-funding-blackstone-hsbc-book-buy-afr-says</id>
+    <updated>2026-08-02T08:45:44.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>iPhone maker has limited the number of vulnerabilities researchers can submit to manage wave of reports</summary>
+    <summary>ANZ Group Holdings Ltd. and National Australia Bank Ltd. are among lenders bankrolling Blackstone Inc.’s A$36 billion ($25.3 billion) purchase of HSBC Holdings Plc’s Australian retail loan portfolio, the Australian Financial Review reported Sunday, citing unnamed sources.</summary>
   </entry>
   <entry>
     <title>NVIDIA AI Releases Molt: A PyTorch-Native Agentic Reinforcement Learning Framework</title>
@@ -86,6 +86,15 @@
     <author><name>MarkTechPost</name></author>
     <category term="PRODUCTS"/>
     <summary>In this tutorial, we build an advanced end-to-end time-series forecasting workflow with TimesFM 2.5. We begin by configuring the runtime, installing the required dependencies, detecting available hardware, and generating a realistic multi-store retail dataset with trend, seasonality, pricing, promotions, holidays, temp</summary>
+  </entry>
+  <entry>
+    <title>Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs</title>
+    <link href="https://www.servethehome.com/kioxia-cm10-series-launched-for-the-pcie-gen6-generation-of-ssds/"/>
+    <id>https://www.servethehome.com/kioxia-cm10-series-launched-for-the-pcie-gen6-generation-of-ssds/</id>
+    <updated>2026-08-01T15:00:24.000Z</updated>
+    <author><name>ServeTheHome</name></author>
+    <category term="HARDWARE"/>
+    <summary>The new Kioxia CM10 series spans 2.5&quot; and EDSFF form factors, PCIe Gen5 and Gen6, air-cooled and liquid-cooled, and two NAND generations The post Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs appeared first on ServeTheHome .</summary>
   </entry>
   <entry>
     <title>Open letters about AI development</title>
@@ -151,13 +160,13 @@
     <summary>Global professional services firm Ernst &amp; Young (EY) has announced the addition of an on-site quantum computer to its in-house technology stack. Led by EY Canada, the deployment serves as a key innovation hub within EY's global enterprise tech strategy. The hardware installation forms part of a broader $3 billion globa</summary>
   </entry>
   <entry>
-    <title>Snap and LinkedIn are fighting back against a flood of low-quality AI content</title>
-    <link href="https://the-decoder.com/snap-and-linkedin-are-fighting-back-against-a-flood-of-low-quality-ai-content/"/>
-    <id>https://the-decoder.com/snap-and-linkedin-are-fighting-back-against-a-flood-of-low-quality-ai-content/</id>
-    <updated>2026-08-02T06:49:28.000Z</updated>
+    <title>Claude Opus 5 pushes prompt-to-game AI from rough color blocks to full 3D prototypes with physics and music</title>
+    <link href="https://the-decoder.com/claude-opus-5-pushes-prompt-to-game-ai-from-rough-color-blocks-to-full-3d-prototypes-with-physics-and-music/"/>
+    <id>https://the-decoder.com/claude-opus-5-pushes-prompt-to-game-ai-from-rough-color-blocks-to-full-3d-prototypes-with-physics-and-music/</id>
+    <updated>2026-08-02T08:51:07.000Z</updated>
     <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Snap is banning AI-generated videos from Spotlight to keep the feed focused on human creativity. Content edited with Snapchat's own AI tools is still allowed. LinkedIn, meanwhile, has rolled out a dedicated &quot;AI slop&quot; reporting button. The article Snap and LinkedIn are fighting back against a flood of low-quality AI con</summary>
+    <summary>Anthropic's Claude Opus 5 generates complete 3D games from single prompts, including a first-person shooter, a kart racer, and a Minecraft clone, all without a single external asset. Geometry, textures, physics, and in some cases music are produced as code and run directly in the browser. In side-by-side comparisons wi</summary>
   </entry>
   <entry>
     <title>Malaysia shuts down Network School, Balaji Srinivasan's techno-utopian project, over licensing issues; Srinivasan says he is opening a new campus in Kazakhstan (Wall Street Journal)</title>
@@ -178,22 +187,22 @@
     <summary>Financial Times : Apple introduced a cap and a 30-day cool-off period on bug report submissions, citing a deluge of AI-assisted reports; researchers can request higher quotas — iPhone maker has limited the number of vulnerabilities researchers can submit to manage wave of reports</summary>
   </entry>
   <entry>
-    <title>DeepSeek-V4-Flash 284B on 5.3GB of memory</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vdbix4/deepseekv4flash_284b_on_53gb_of_memory/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vdbix4/deepseekv4flash_284b_on_53gb_of_memory/</id>
-    <updated>2026-08-02T07:28:04.000Z</updated>
+    <title>PSA for DeepSeek-V4-Flash-0731 users — don't blow out your prompt cache with system role messages mid-conversation</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vdbgw5/psa_for_deepseekv4flash0731_users_dont_blow_out/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vdbgw5/psa_for_deepseekv4flash0731_users_dont_blow_out/</id>
+    <updated>2026-08-02T07:24:49.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Following up on my Qwen 3.6 port , I wanted to keep adding models and ended up fixing a bunch of things along the way, so it's its own engine now: Mference . Same core idea from TurboFieldfare , MoE models activate a few B params per token, so keep the shared core and KV cache resident and stream the selected experts o</summary>
+    <summary>DSv4F doesn't ship a jinja, but for distributions that do and faithfully reconstruct what DS releases in their chat template python, every system message is hoisted into the system prompt at the top -- the format has no mid-conversation system turn. So, anything you stick at the tail or mid-convo actually fries your pr</summary>
   </entry>
   <entry>
-    <title>Real-world reality check on Qwen for autonomous coding agents</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vdb1n1/realworld_reality_check_on_qwen_for_autonomous/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vdb1n1/realworld_reality_check_on_qwen_for_autonomous/</id>
-    <updated>2026-08-02T07:00:41.000Z</updated>
+    <title>Xberg v1 is out</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vdd795/xberg_v1_is_out/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vdd795/xberg_v1_is_out/</id>
+    <updated>2026-08-02T09:06:51.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>TLDR below 👇🏼 I’ve seen a lot of hype around Qwen 3.6 35B and 3.5 120B lately, especially regarding coding and tool-use capabilities. On this subreddit it is the defacto recommended model for everyone without a Datacenter at home. I’ve been running Qwen 3.5 120B (Qwen3.5-122B-A10B-GPTQ-Int4) as an autonomous worker a</summary>
+    <summary>Hi all, I'm happy to announce that Xberg v1 is out. Xberg is the successor to Kreuzberg, equivalent to what would have been Kreuzberg v5. It's a content intelligence framework that handles a very wide range of inputs: documents (currently 101 formats), code and data formats (currently 367 types), audio/video transcript</summary>
   </entry>
   <entry>
     <title>datasette-apps 0.2a0</title>
@@ -205,22 +214,22 @@
     <summary>Release: datasette-apps 0.2a0 Changes that improve Datasette Apps when created and edited using Datasette Agent : New app_debug() tool allowing agent to open an app (invisibly) and test it using JavaScript. #33 New app_list() tool for listing apps the user has permission to edit, so the agent can edit them. #36 The app</summary>
   </entry>
   <entry>
-    <title>A Chess Training App for Imitation Learning</title>
-    <link href="https://www.lesswrong.com/posts/D2CpuGdiLrhr3gJXa/a-chess-training-app-for-imitation-learning"/>
-    <id>https://www.lesswrong.com/posts/D2CpuGdiLrhr3gJXa/a-chess-training-app-for-imitation-learning</id>
-    <updated>2026-08-02T01:16:23.000Z</updated>
-    <author><name>LessWrong</name></author>
+    <title>Bomb Kills Three, Injures 21 at Restaurant on Moscow’s Kudrinskaya Square</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-02/bomb-kills-three-injures-21-at-restaurant-on-moscow-s-kudrinskaya-square"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-02/bomb-kills-three-injures-21-at-restaurant-on-moscow-s-kudrinskaya-square</id>
+    <updated>2026-08-02T07:22:43.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>LLMs learn faster if we first pretrain thm to imitate dense teacher-forced examples . I speculated that this would work on humans too, so I built a chess app where you try to imitate Stockfish. My theory is that this will help humans quickly become OK at chess, but they will reach a wall where practice on full games is</summary>
+    <summary>Three people were killed and 21 injured after a bomb was detonated in an upscale restaurant in central Moscow on Saturday night, according to Russia’s National Anti-Terrorism Committee.</summary>
   </entry>
   <entry>
-    <title>Dell founder shows how a $100 billion empire started 42 years ago — CEO says ‘This one page changed my life’</title>
-    <link href="https://www.tomshardware.com/tech-industry/dell-founder-shows-how-a-usd100-billion-empire-started-42-years-ago-ceo-says-this-one-page-changed-my-life"/>
-    <id>https://www.tomshardware.com/tech-industry/dell-founder-shows-how-a-usd100-billion-empire-started-42-years-ago-ceo-says-this-one-page-changed-my-life</id>
-    <updated>2026-08-01T17:06:31.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
+    <title>Stock market turmoil sheds stark light on the opaque AI economy</title>
+    <link href="https://www.theguardian.com/technology/2026/aug/02/stock-market-turmoil-nvidia-china-light-ai-economy"/>
+    <id>https://www.theguardian.com/technology/2026/aug/02/stock-market-turmoil-nvidia-china-light-ai-economy</id>
+    <updated>2026-08-02T09:00:17.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="AI FINANCE"/>
-    <summary>Billionaire Michael Dell reminisced about the early days of his company, sharing an early quarterly earnings report that showed the then-startup making nearly $135,000 in just three months. Dell says that that document changed his life, as it convinced his parents that he no longer needed to go back to college and purs</summary>
+    <summary>Investors scramble to make sense of a shock Chinese challenge to the dominance of western chipmakers Even for the rollercoaster world of AI, last week was particularly volatile as investors scrambled to keep up with developments that threatened the dominance of the largest western chipmakers. It began with a double wha</summary>
   </entry>
   <entry>
     <title>MUD as AI Evaluation and LLM-judge distortion in ways aggregate κ misses</title>
@@ -250,30 +259,21 @@
     <summary>Fintech brokerage Clear Street is launching a private markets platform, beginning with Databricks stakes, to give investors more access to late-stage startups.</summary>
   </entry>
   <entry>
-    <title>Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs</title>
-    <link href="https://www.servethehome.com/kioxia-cm10-series-launched-for-the-pcie-gen6-generation-of-ssds/"/>
-    <id>https://www.servethehome.com/kioxia-cm10-series-launched-for-the-pcie-gen6-generation-of-ssds/</id>
-    <updated>2026-08-01T15:00:24.000Z</updated>
-    <author><name>ServeTheHome</name></author>
+    <title>Dell founder shows how a $100 billion empire started 42 years ago — CEO says ‘This one page changed my life’</title>
+    <link href="https://www.tomshardware.com/tech-industry/dell-founder-shows-how-a-usd100-billion-empire-started-42-years-ago-ceo-says-this-one-page-changed-my-life"/>
+    <id>https://www.tomshardware.com/tech-industry/dell-founder-shows-how-a-usd100-billion-empire-started-42-years-ago-ceo-says-this-one-page-changed-my-life</id>
+    <updated>2026-08-01T17:06:31.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
     <category term="HARDWARE"/>
-    <summary>The new Kioxia CM10 series spans 2.5&quot; and EDSFF form factors, PCIe Gen5 and Gen6, air-cooled and liquid-cooled, and two NAND generations The post Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs appeared first on ServeTheHome .</summary>
+    <summary>Billionaire Michael Dell reminisced about the early days of his company, sharing an early quarterly earnings report that showed the then-startup making nearly $135,000 in just three months. Dell says that that document changed his life, as it convinced his parents that he no longer needed to go back to college and purs</summary>
   </entry>
   <entry>
-    <title>Supabase Releases Evals: an Open Source Benchmark That Scores Claude Code, Codex and OpenCode on Real Supabase Tasks</title>
-    <link href="https://www.marktechpost.com/2026/08/01/supabase-releases-evals-an-open-source-benchmark-that-scores-claude-code-codex-and-opencode-on-real-supabase-tasks/"/>
-    <id>https://www.marktechpost.com/2026/08/01/supabase-releases-evals-an-open-source-benchmark-that-scores-claude-code-codex-and-opencode-on-real-supabase-tasks/</id>
-    <updated>2026-08-01T09:52:49.000Z</updated>
+    <title>AMD Releases Instella-MoE-16B-A3B: A Fully Open Mixture-of-Experts LLM With 2.8B Active Parameters Trained On Instinct GPUs</title>
+    <link href="https://www.marktechpost.com/2026/08/01/amd-instella-moe-16b-a3b-fully-open-mixture-of-experts-llm/"/>
+    <id>https://www.marktechpost.com/2026/08/01/amd-instella-moe-16b-a3b-fully-open-mixture-of-experts-llm/</id>
+    <updated>2026-08-01T19:01:42.000Z</updated>
     <author><name>MarkTechPost</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Supabase has open sourced supabase/evals, an Apache-2.0 benchmark and framework that runs coding agents including Claude Code, Codex and OpenCode against real Supabase tasks — building schemas, debugging Edge Functions, fixing RLS policies — inside containerized stacks, then scores them with deterministic checks and LL</summary>
-  </entry>
-  <entry>
-    <title>Hacker uses DeepSeek AI to autonomously attack vulnerable servers</title>
-    <link href="https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/"/>
-    <id>https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/</id>
-    <updated>2026-07-31T17:35:35.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>A Chinese-speaking threat actor is using the DeepSeek AI model and the open-source Hermes Agent to conduct autonomous cyberattacks on exposed servers with limited human involvement. [...]</summary>
+    <category term="HARDWARE"/>
+    <summary>AMD released Instella-MoE-16B-A3B, a fully open Mixture-of-Experts language model trained from scratch on Instinct MI300X and MI325X GPUs. It holds 16B total parameters but activates only 2.8B per token, using Gated MLA and FarSkip-Collective. AMD published weights from every training stage, plus data mixtures, configs</summary>
   </entry>
 </feed>
