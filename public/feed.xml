@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-02T19:23:07.198Z</updated>
+  <updated>2026-08-02T21:05:30.816Z</updated>
   <entry>
-    <title>DSpark Benchmark Result on Deepseek v4 Flash 0731</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vdpe1k/dspark_benchmark_result_on_deepseek_v4_flash_0731/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vdpe1k/dspark_benchmark_result_on_deepseek_v4_flash_0731/</id>
-    <updated>2026-08-02T18:21:49.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>deepseek-ai/DeepSeek-V4-Flash-0731</title>
+    <link href="https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything"/>
+    <id>https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything</id>
+    <updated>2026-07-31T23:59:44.000Z</updated>
+    <author><name>Simon Willison</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>TensorSharp supports DSpark on Deepseek v4 Flash 0731 now. Here is the benchmark result on 4x Nvidia A40 GPUs, cuda 12.8 with/without DSpark: Model: DeepSeek-V4-Flash-0731-UD-Q8_K_XL from https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF DSpark draft model from: https://huggingface.co/alessandrobologna/DeepSee</summary>
+    <summary>deepseek-ai/DeepSeek-V4-Flash-0731 The latest release in DeepSeek's V4 family, &quot;with substantially enhanced agentic capabilities&quot;. It's 304 billion parameters - 167GB on Hugging Face - but it appears to punch well above its weight. Artificial Analysis rank it ahead of MiniMax M3 - a 428B model. It's $0.14/million input</summary>
   </entry>
   <entry>
     <title>not much happened today</title>
@@ -25,13 +25,31 @@
     <summary>**DeepSeek** launched the public-beta of **DeepSeek-V4-Flash API**, boasting a significant post-training performance leap without architecture or size changes, achieving a **Terminal-Bench score of 82.7** and nearing **GPT-5.6 Luna's 51** score at about **60% lower cost per task**. The model features **284B total / 13B</summary>
   </entry>
   <entry>
-    <title>llama.cpp b10232 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10232"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10232</id>
-    <updated>2026-08-02T18:59:42.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>AI finds plenty of security flaws, but almost none of them get exploited</title>
+    <link href="https://the-decoder.com/ai-finds-plenty-of-security-flaws-but-almost-none-of-them-get-exploited/"/>
+    <id>https://the-decoder.com/ai-finds-plenty-of-security-flaws-but-almost-none-of-them-get-exploited/</id>
+    <updated>2026-08-02T10:09:34.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>metal: implement DeepSeek V4 hyper-connections ( #26459 ) Implement GGML_OP_DSV4_HC_COMB, GGML_OP_DSV4_HC_PRE, and GGML_OP_DSV4_HC_POST with SIMDgroup register and shuffle optimized kernels. Add Metal dispatch and support plumbing and test the production Sinkhorn iteration count and embedding width. Assisted-by: Codex </summary>
+    <summary>VulnCheck counted how often security flaws found by AI actually get exploited. Out of 1,061 AI-discovered vulnerabilities in the first half of 2026, just 14 saw confirmed attacks. That's 1.3 percent, the same rate as vulnerabilities overall. But exploits are landing faster, with the median dropping from 120 days to 80.</summary>
+  </entry>
+  <entry>
+    <title>Sam Altman and AI’s decel debate</title>
+    <link href="https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/"/>
+    <id>https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/</id>
+    <updated>2026-08-02T20:54:22.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>On the latest episode of Equity, we discuss why Sam Altman has calling on the industry to &quot;pace the rate of AI development.&quot;</summary>
+  </entry>
+  <entry>
+    <title>llama.cpp b10235 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10235"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10235</id>
+    <updated>2026-08-02T21:04:04.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>metal : add SILU_BACK ( #25982 ) feat(silu_back): implemented silu_back op for f32 fix(silu_back): removed redundant asserts in ggml-metal-ops.cpp function ggml_metal_op_silu_back. Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) </summary>
   </entry>
   <entry>
     <title>Experts say US law is unprepared for rogue AI agents and models, as recent OpenAI and Anthropic incidents raise questions over legal liability and repercussions (Lily Hay Newman/Wired)</title>
@@ -39,7 +57,7 @@
     <id>https://www.techmeme.com/260802/p8#a260802p8</id>
     <updated>2026-08-02T17:45:14.000Z</updated>
     <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
+    <category term="AGENTS &amp; TOOLS"/>
     <summary>Lily Hay Newman / Wired : Experts say US law is unprepared for rogue AI agents and models, as recent OpenAI and Anthropic incidents raise questions over legal liability and repercussions — Both major AI labs' models broke containment, escaped onto the internet, and hacked other companies.</summary>
   </entry>
   <entry>
@@ -52,13 +70,13 @@
     <summary>Bloomberg CityLab's Kriston Capps says a proposed $20 billion overhaul of Washington Dulles International Airport would replace aging concourses, eliminate the airport's signature mobile lounges and create a more modern hub centered on United Airlines' long-term growth strategy. He says the project would largely be fun</summary>
   </entry>
   <entry>
-    <title>Kimi K3: The Complete Developer Guide</title>
-    <link href="https://www.together.ai/blog/kimi-k3-guide"/>
-    <id>https://www.together.ai/blog/kimi-k3-guide</id>
-    <updated>2026-08-01T00:00:00.000Z</updated>
-    <author><name>Together AI Blog</name></author>
+    <title>Thinking Machines Lab Releases Inkling-Small: A 276B Total, 12B Active Open Weights Multimodal MoE Model</title>
+    <link href="https://www.marktechpost.com/2026/08/02/thinking-machines-lab-releases-inkling-small-276b-open-weights-multimodal-moe-model/"/>
+    <id>https://www.marktechpost.com/2026/08/02/thinking-machines-lab-releases-inkling-small-276b-open-weights-multimodal-moe-model/</id>
+    <updated>2026-08-02T20:35:50.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
-    <summary>Kimi K3 is the first open 3T-class model. See how it benchmarks, what it costs, and how to call it on the Together AI API, with copy-paste code examples.</summary>
+    <summary>Inkling-Small matches Inkling at a quarter the size, and its NVFP4 checkpoint runs on one NVIDIA B300 GPU The post Thinking Machines Lab Releases Inkling-Small: A 276B Total, 12B Active Open Weights Multimodal MoE Model appeared first on MarkTechPost .</summary>
   </entry>
   <entry>
     <title>Run DeepSeek V4 Flash locally or in the cloud (US-hosted)</title>
@@ -68,24 +86,6 @@
     <author><name>LM Studio Blog</name></author>
     <category term="PRODUCTS"/>
     <summary>DeepSeek V4 Flash is now available locally and in LM Studio Bionic, hosted on US-based servers with Zero Data Retention by default.</summary>
-  </entry>
-  <entry>
-    <title>ASUS Showcases NUC 16 Family Powered By Panther Lake</title>
-    <link href="https://www.servethehome.com/asus-showcases-nuc-16-family-powered-by-intel-panther-lake/"/>
-    <id>https://www.servethehome.com/asus-showcases-nuc-16-family-powered-by-intel-panther-lake/</id>
-    <updated>2026-08-02T17:00:02.000Z</updated>
-    <author><name>ServeTheHome</name></author>
-    <category term="HARDWARE"/>
-    <summary>ASUS was showing off the new NUC 16 family of mini-PCs for this year's Computex trade show. Powered by Intel's Panther Lake and Wildcat Lake SoCs, these mini-PCs pack a full system into a 0.7L chassis The post ASUS Showcases NUC 16 Family Powered By Panther Lake appeared first on ServeTheHome .</summary>
-  </entry>
-  <entry>
-    <title>Open letters about AI development</title>
-    <link href="https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything"/>
-    <id>https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything</id>
-    <updated>2026-08-02T04:16:52.000Z</updated>
-    <author><name>Simon Willison</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Open letters about AI development I wrote this summary of the past few weeks of open letters as a section of my sponsors-only newsletter but I've decided to share it here as well. Open Weights and American AI Leadership was shepherded by Microsoft, dated July 24th, and signed by 235 AI-adjacent companies including NVID</summary>
   </entry>
   <entry>
     <title>Further Developments About Internal AI Models Hacking Things</title>
@@ -115,13 +115,13 @@
     <summary>Google is preparing a new Chrome security feature that would block policy-installed extensions from hijacking the New Tab page or changing the default search engine. [...]</summary>
   </entry>
   <entry>
-    <title>LemonEdge, a fund accounting and operations software provider for the private markets sector, raised a $21M Series A led by Blackstone Innovations Investments (FinTech Global)</title>
-    <link href="https://www.techmeme.com/260802/p3#a260802p3"/>
-    <id>https://www.techmeme.com/260802/p3#a260802p3</id>
-    <updated>2026-08-02T05:30:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>FinTech Global : LemonEdge, a fund accounting and operations software provider for the private markets sector, raised a $21M Series A led by Blackstone Innovations Investments — LemonEdge, a fund accounting platform designed specifically for the private markets sector, has secured $21m in Series A funding …</summary>
+    <title>Dispatch from Anthropic v. Department of War Summary Judgment Motion Hearing</title>
+    <link href="https://www.lesswrong.com/posts/jGEXLKyGtXyiYa7ac/dispatch-from-anthropic-v-department-of-war-summary-judgment"/>
+    <id>https://www.lesswrong.com/posts/jGEXLKyGtXyiYa7ac/dispatch-from-anthropic-v-department-of-war-summary-judgment</id>
+    <updated>2026-08-02T20:37:18.000Z</updated>
+    <author><name>LessWrong</name></author>
+    <category term="CYBER DEFENSE"/>
+    <summary>Dateline SAN FRANCISCO, 30 July 2026— A hearing was held on a motion for summary judgment in the case of Anthropic PBC v. U.S. Department of War et al. in Courtroom 4 on the 17th floor of the Phillip Burton Federal Building, the Hon. Rita F. Lin presiding. The case is not going well for the government. Two days after t</summary>
   </entry>
   <entry>
     <title>Latest open artifacts (#23): Laguna S2.1, Inkling, &amp; Kimi K3 show the utility of open models on the Pareto frontier</title>
@@ -151,15 +151,6 @@
     <summary>Global professional services firm Ernst &amp; Young (EY) has announced the addition of an on-site quantum computer to its in-house technology stack. Led by EY Canada, the deployment serves as a key innovation hub within EY's global enterprise tech strategy. The hardware installation forms part of a broader $3 billion globa</summary>
   </entry>
   <entry>
-    <title>AI finds plenty of security flaws, but almost none of them get exploited</title>
-    <link href="https://the-decoder.com/ai-finds-plenty-of-security-flaws-but-almost-none-of-them-get-exploited/"/>
-    <id>https://the-decoder.com/ai-finds-plenty-of-security-flaws-but-almost-none-of-them-get-exploited/</id>
-    <updated>2026-08-02T10:09:34.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>VulnCheck counted how often security flaws found by AI actually get exploited. Out of 1,061 AI-discovered vulnerabilities in the first half of 2026, just 14 saw confirmed attacks. That's 1.3 percent, the same rate as vulnerabilities overall. But exploits are landing faster, with the median dropping from 120 days to 80.</summary>
-  </entry>
-  <entry>
     <title>Claude Opus 5 pushes prompt-to-game AI from rough color blocks to full 3D prototypes with physics and music</title>
     <link href="https://the-decoder.com/claude-opus-5-pushes-prompt-to-game-ai-from-rough-color-blocks-to-full-3d-prototypes-with-physics-and-music/"/>
     <id>https://the-decoder.com/claude-opus-5-pushes-prompt-to-game-ai-from-rough-color-blocks-to-full-3d-prototypes-with-physics-and-music/</id>
@@ -169,22 +160,40 @@
     <summary>Anthropic's Claude Opus 5 generates complete 3D games from single prompts, including a first-person shooter, a kart racer, and a Minecraft clone, all without a single external asset. Geometry, textures, physics, and in some cases music are produced as code and run directly in the browser. In side-by-side comparisons wi</summary>
   </entry>
   <entry>
-    <title>Thoughts on Apple Upgrade; sources: MacBook Air is now facing shortages too; Apple wants to turn its future glasses and headsets into health and fitness devices (Mark Gurman/Bloomberg)</title>
-    <link href="https://www.techmeme.com/260802/p7#a260802p7"/>
-    <id>https://www.techmeme.com/260802/p7#a260802p7</id>
-    <updated>2026-08-02T15:15:09.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Mark Gurman / Bloomberg : Thoughts on Apple Upgrade; sources: MacBook Air is now facing shortages too; Apple wants to turn its future glasses and headsets into health and fitness devices — Also: MacBook Air runs into major shortages. — Apple has finally delivered a hardware subscription program …</summary>
+    <title>OpenAI Presence wants to make AI agents production-ready for businesses</title>
+    <link href="https://the-decoder.com/openai-presence-wants-to-make-ai-agents-production-ready-for-businesses/"/>
+    <id>https://the-decoder.com/openai-presence-wants-to-make-ai-agents-production-ready-for-businesses/</id>
+    <updated>2026-08-02T13:10:21.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>OpenAI's new enterprise offering, Presence, is designed to get AI agents into production for customer service and internal workflows. Unlike the existing Workspace Agents, Presence targets external deployments. For complex cases, OpenAI's own engineers step in. The article OpenAI Presence wants to make AI agents produc</summary>
   </entry>
   <entry>
-    <title>DeepSeek-V4-Flash-0731: surpasses Fable-5, Sol &amp; Kimi-K3 on Chess Benchmark</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vdq8en/deepseekv4flash0731_surpasses_fable5_sol_kimik3/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vdq8en/deepseekv4flash0731_surpasses_fable5_sol_kimik3/</id>
-    <updated>2026-08-02T18:54:26.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>Researchers used AI-assisted code to undetectably tamper with data from computerized scans of physical DNA evidence produced by widely used crime-lab machines (Mariah Timms/Wall Street Journal)</title>
+    <link href="https://www.techmeme.com/260802/p9#a260802p9"/>
+    <id>https://www.techmeme.com/260802/p9#a260802p9</id>
+    <updated>2026-08-02T19:40:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Mariah Timms / Wall Street Journal : Researchers used AI-assisted code to undetectably tamper with data from computerized scans of physical DNA evidence produced by widely used crime-lab machines — Researchers found that widely used lab machines produced digital DNA files that are vulnerable to tampering</summary>
+  </entry>
+  <entry>
+    <title>I created CCPBench, a Chinese Bias Benchmark</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1vdsq2m/i_created_ccpbench_a_chinese_bias_benchmark/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1vdsq2m/i_created_ccpbench_a_chinese_bias_benchmark/</id>
+    <updated>2026-08-02T20:31:26.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by /u/mrwang89 [link] [comments]</summary>
+    <summary>There has been a lot of talk recently about Chinese LLMs, and how they are biased towards CCP viewpoints, but there is no way to quantify this and compare between models. I have made CCPBench, which aims to address this. 29 models were asked 500 questions each about politics, geography, science, and more, and Gemini 3 </summary>
+  </entry>
+  <entry>
+    <title>The best model for Research and writing quality SEO?</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1vds7gr/the_best_model_for_research_and_writing_quality/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1vds7gr/the_best_model_for_research_and_writing_quality/</id>
+    <updated>2026-08-02T20:11:15.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Hello guys, I don't know much about Local LLMS, but I need an alternative for my project I am running. Currently, i am using Claude Sonnet 4.6 + Haiku for my SaaS, it is writing really quality SEO posts, doing a lot of researches and I have 9 steps before I write an article. I am doing Brief, H structure, Keyword Resea</summary>
   </entry>
   <entry>
     <title>Desktop Canary v2.2.14-canary.7</title>
@@ -196,13 +205,13 @@
     <summary>🐤 Canary Build — v2.2.14-canary.7 Automated canary build from canary branch. Commit Information Based on changes since v2.2.14-canary.6 Commit count: 3 92739976d8 ✨ feat(onboarding): enrich understanding personas ( #17830 ) (Neko) 22eadf9a04 🐛 fix(agent-signal): preserve skill receipt rollback refs ( #17835 ) (Neko) </summary>
   </entry>
   <entry>
-    <title>OpenAI Presence wants to make AI agents production-ready for businesses</title>
-    <link href="https://the-decoder.com/openai-presence-wants-to-make-ai-agents-production-ready-for-businesses/"/>
-    <id>https://the-decoder.com/openai-presence-wants-to-make-ai-agents-production-ready-for-businesses/</id>
-    <updated>2026-08-02T13:10:21.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>OpenAI's new enterprise offering, Presence, is designed to get AI agents into production for customer service and internal workflows. Unlike the existing Workspace Agents, Presence targets external deployments. For complex cases, OpenAI's own engineers step in. The article OpenAI Presence wants to make AI agents produc</summary>
+    <title>AstraZeneca Said to Have Explored Bristol Myers Merger</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-02/astrazeneca-is-said-to-have-explored-bristol-myers-mega-merger"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-02/astrazeneca-is-said-to-have-explored-bristol-myers-mega-merger</id>
+    <updated>2026-08-02T20:13:51.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>AstraZeneca Plc has explored an acquisition of Bristol Myers Squibb Co., in a megadeal that would create one of the world’s largest drugmakers, according to people familiar with the matter.</summary>
   </entry>
   <entry>
     <title>Prysmian Is Said Near Takeover of US Electrical Maker Atkore</title>
@@ -214,40 +223,40 @@
     <summary>Italy’s Prysmian is in advanced talks to acquire electrical manufacturing company Atkore Inc., people familiar with the matter said.</summary>
   </entry>
   <entry>
-    <title>Governors Push State Solutions on Costs</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-02/governors-push-state-solutions-on-costs"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-02/governors-push-state-solutions-on-costs</id>
-    <updated>2026-08-02T16:20:06.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Governors from Oklahoma, Maryland and Delaware say states remain the nation's laboratories of democracy, sharing policy ideas on housing, education, child care and energy while arguing that affordability is the top concern for voters across party lines. They say states cannot control inflation or global energy prices b</summary>
-  </entry>
-  <entry>
-    <title>Evaluating code review agents with ReviewBench</title>
-    <link href="https://www.langchain.com/blog/evaluating-code-review-agents-with-reviewbench"/>
-    <id>https://www.langchain.com/blog/evaluating-code-review-agents-with-reviewbench</id>
-    <updated>2026-07-31T16:58:26.000Z</updated>
-    <author><name>LangChain Blog</name></author>
+    <title>NVIDIA AI Releases Molt: A PyTorch-Native Agentic Reinforcement Learning Framework</title>
+    <link href="https://www.marktechpost.com/2026/08/01/nvidia-ai-releases-molt-a-pytorch-native-agentic-reinforcement-learning-framework/"/>
+    <id>https://www.marktechpost.com/2026/08/01/nvidia-ai-releases-molt-a-pytorch-native-agentic-reinforcement-learning-framework/</id>
+    <updated>2026-08-02T06:21:26.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
-    <summary>Learn how LangChain built ReviewBench, a benchmark for evaluating code review agents against real PR feedback from trusted reviewers.</summary>
+    <summary>Agentic RL research is constant algorithm modification, and in mainstream frameworks every change threads through trainer, distributed backend, and rollout glue. NVIDIA's Molt targets that cost with about 8.6K lines of RL code, composing Ray, vLLM, and NeMo AutoModel around one asynchronous loop. The agent stays ordina</summary>
   </entry>
   <entry>
-    <title>The AI slowdown is coming</title>
-    <link href="https://www.transformernews.ai/p/the-ai-slowdown-is-coming"/>
-    <id>https://www.transformernews.ai/p/the-ai-slowdown-is-coming</id>
-    <updated>2026-07-31T15:02:04.000Z</updated>
-    <author><name>Transformer</name></author>
+    <title>End-to-End Forecasting with TimesFM 2.5: Backtesting, Covariates, Anomaly Detection, and Scalable Colab Deployment</title>
+    <link href="https://www.marktechpost.com/2026/08/01/end-to-end-forecasting-with-timesfm-2-5-backtesting-covariates-anomaly-detection-and-scalable-colab-deployment/"/>
+    <id>https://www.marktechpost.com/2026/08/01/end-to-end-forecasting-with-timesfm-2-5-backtesting-covariates-anomaly-detection-and-scalable-colab-deployment/</id>
+    <updated>2026-08-02T05:44:14.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
-    <summary>Transformer Weekly: Claude hacks revealed, Commerce markup delayed, White House framework imminent</summary>
+    <summary>In this tutorial, we build an advanced end-to-end time-series forecasting workflow with TimesFM 2.5. We begin by configuring the runtime, installing the required dependencies, detecting available hardware, and generating a realistic multi-store retail dataset with trend, seasonality, pricing, promotions, holidays, temp</summary>
   </entry>
   <entry>
-    <title>Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks</title>
-    <link href="https://www.cnbc.com/2026/07/31/clear-street-pre-ipo-platform-databricks.html"/>
-    <id>https://www.cnbc.com/2026/07/31/clear-street-pre-ipo-platform-databricks.html</id>
-    <updated>2026-07-31T21:49:40.000Z</updated>
-    <author><name>CNBC Tech</name></author>
+    <title>Kimi K3: The Complete Developer Guide</title>
+    <link href="https://www.together.ai/blog/kimi-k3-guide"/>
+    <id>https://www.together.ai/blog/kimi-k3-guide</id>
+    <updated>2026-08-01T00:00:00.000Z</updated>
+    <author><name>Together AI Blog</name></author>
     <category term="PRODUCTS"/>
-    <summary>Fintech brokerage Clear Street is launching a private markets platform, beginning with Databricks stakes, to give investors more access to late-stage startups.</summary>
+    <summary>Kimi K3 is the first open 3T-class model. See how it benchmarks, what it costs, and how to call it on the Together AI API, with copy-paste code examples.</summary>
+  </entry>
+  <entry>
+    <title>ASUS Showcases NUC 16 Family Powered By Panther Lake</title>
+    <link href="https://www.servethehome.com/asus-showcases-nuc-16-family-powered-by-intel-panther-lake/"/>
+    <id>https://www.servethehome.com/asus-showcases-nuc-16-family-powered-by-intel-panther-lake/</id>
+    <updated>2026-08-02T17:00:02.000Z</updated>
+    <author><name>ServeTheHome</name></author>
+    <category term="HARDWARE"/>
+    <summary>ASUS was showing off the new NUC 16 family of mini-PCs for this year's Computex trade show. Powered by Intel's Panther Lake and Wildcat Lake SoCs, these mini-PCs pack a full system into a 0.7L chassis The post ASUS Showcases NUC 16 Family Powered By Panther Lake appeared first on ServeTheHome .</summary>
   </entry>
   <entry>
     <title>Kimi K3 + DeepSeek-V4 Flash + Deep Research + Parallel Chat</title>
@@ -259,21 +268,12 @@
     <summary>Hey everyone! Kimi K3 &amp; DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs, Unsloth can keep multiple chats generating in parallel, and the new Deep Research mode plans, reads and cites sources using your local model. This release also brings better AMD and Intel GPU support, DoRA training, and many insta</summary>
   </entry>
   <entry>
-    <title>Grab this 240 Hz QD-OLED gaming monitor at just $300 — Gigabyte's 27-inch GO27Q24A is now $150 off at Newegg</title>
-    <link href="https://www.tomshardware.com/monitors/gaming-monitors/grab-this-240-hz-qd-oled-gaming-monitor-at-just-usd300-gigabytes-27-inch-go27q24a-is-now-usd150-off-at-newegg"/>
-    <id>https://www.tomshardware.com/monitors/gaming-monitors/grab-this-240-hz-qd-oled-gaming-monitor-at-just-usd300-gigabytes-27-inch-go27q24a-is-now-usd150-off-at-newegg</id>
-    <updated>2026-08-02T16:16:41.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
-    <category term="HARDWARE"/>
-    <summary>Gigabyte's GO27Q24A delivers a 240Hz QD-OLED panel, HDMI 2.1, and esports-focused features for just $299.99</summary>
-  </entry>
-  <entry>
-    <title>LessWrong App</title>
-    <link href="https://www.lesswrong.com/posts/rZmiewu7sBzuFXewn/lesswrong-app"/>
-    <id>https://www.lesswrong.com/posts/rZmiewu7sBzuFXewn/lesswrong-app</id>
-    <updated>2026-08-02T13:19:08.000Z</updated>
-    <author><name>LessWrong</name></author>
+    <title>Open letters about AI development</title>
+    <link href="https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything"/>
+    <id>https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything</id>
+    <updated>2026-08-02T04:16:52.000Z</updated>
+    <author><name>Simon Willison</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>Hello everyone long time lurker here. I know most people here probably prefer a PWA but if you are like me and prefer an app, I made one for android. There is a huge focus on ensuring the app is really fast and slick, I hope you enjoy using it. It is ofcourse also open source feel free to contribute. https://github.com</summary>
+    <summary>Open letters about AI development I wrote this summary of the past few weeks of open letters as a section of my sponsors-only newsletter but I've decided to share it here as well. Open Weights and American AI Leadership was shepherded by Microsoft, dated July 24th, and signed by 235 AI-adjacent companies including NVID</summary>
   </entry>
 </feed>
