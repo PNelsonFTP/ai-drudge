@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-02T11:32:38.608Z</updated>
+  <updated>2026-08-02T13:46:53.744Z</updated>
   <entry>
-    <title>deepseek-ai/DeepSeek-V4-Flash-0731</title>
-    <link href="https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything"/>
-    <id>https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything</id>
-    <updated>2026-07-31T23:59:44.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>Run the new DeepSeek V4 Flash 0731 Checkpoint on a 128gb Macbook</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1vdcgyr/run_the_new_deepseek_v4_flash_0731_checkpoint_on/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1vdcgyr/run_the_new_deepseek_v4_flash_0731_checkpoint_on/</id>
+    <updated>2026-08-02T08:23:04.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>deepseek-ai/DeepSeek-V4-Flash-0731 The latest release in DeepSeek's V4 family, &quot;with substantially enhanced agentic capabilities&quot;. It's 304 billion parameters - 167GB on Hugging Face - but it appears to punch well above its weight. Artificial Analysis rank it ahead of MiniMax M3 - a 428B model. It's $0.14/million input — Also covered by: HN: Chinese Frontier Labs</summary>
+    <summary>Just uploaded a REAP of the new checkpoint of DeepSeek V4 Flash. Currently running it through some benchmarks at the moment but it was performing very well testing it inside of Pi. Will be doing some fine tunes down the line to try and fix what was removed aswell! submitted by /u/True2456 [link] [comments]</summary>
   </entry>
   <entry>
     <title>not much happened today</title>
@@ -25,22 +25,13 @@
     <summary>**DeepSeek** launched the public-beta of **DeepSeek-V4-Flash API**, boasting a significant post-training performance leap without architecture or size changes, achieving a **Terminal-Bench score of 82.7** and nearing **GPT-5.6 Luna's 51** score at about **60% lower cost per task**. The model features **284B total / 13B</summary>
   </entry>
   <entry>
-    <title>Anthropic says its AI hacked real-world companies in three incidents</title>
-    <link href="https://therecord.media/anthropic-ai-hacked-three-real-companies"/>
-    <id>https://therecord.media/anthropic-ai-hacked-three-real-companies</id>
-    <updated>2026-07-31T12:15:00.000Z</updated>
-    <author><name>The Record</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Claude maker Anthropic said its AI models escaped test environments and breached networks at three companies on the open internet.</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp b10227 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10227"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10227</id>
-    <updated>2026-08-02T09:45:09.000Z</updated>
+    <title>llama.cpp b10228 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10228"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10228</id>
+    <updated>2026-08-02T13:30:27.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>chat : add qwen3 specialized parser ( #26252 ) Add tagged thinking tool parser chat : refactor and add permute helper cont : add support for &lt;tool_call&gt; omission cont : update tool delimiters cont : add comment for qwen3-coder cont : fix trigger pattern for &lt;function Co-authored-by: Bart de Boer bart.deboer@gmail.com W</summary>
+    <summary>DeepseekV4 MTP + DSpark ( #25784 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubun</summary>
   </entry>
   <entry>
     <title>LemonEdge, a fund accounting and operations software provider for the private markets sector, raised a $21M Series A led by Blackstone Innovations Investments (FinTech Global)</title>
@@ -52,31 +43,22 @@
     <summary>FinTech Global : LemonEdge, a fund accounting and operations software provider for the private markets sector, raised a $21M Series A led by Blackstone Innovations Investments — LemonEdge, a fund accounting platform designed specifically for the private markets sector, has secured $21m in Series A funding …</summary>
   </entry>
   <entry>
-    <title>After Hugging Face incident, METR urges independent root-cause investigations into AI agent misbehavior</title>
-    <link href="https://the-decoder.com/after-hugging-face-incident-metr-urges-independent-root-cause-investigations-into-ai-agent-misbehavior/"/>
-    <id>https://the-decoder.com/after-hugging-face-incident-metr-urges-independent-root-cause-investigations-into-ai-agent-misbehavior/</id>
-    <updated>2026-08-02T07:33:17.000Z</updated>
+    <title>OpenAI Presence wants to make AI agents production-ready for businesses</title>
+    <link href="https://the-decoder.com/openai-presence-wants-to-make-ai-agents-production-ready-for-businesses/"/>
+    <id>https://the-decoder.com/openai-presence-wants-to-make-ai-agents-production-ready-for-businesses/</id>
+    <updated>2026-08-02T13:10:21.000Z</updated>
     <author><name>The Decoder</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Research organization METR is calling for systematic, independently led investigations whenever AI agents act autonomously against their developers' intentions. The push comes partly in response to the Hugging Face hack carried out by OpenAI models. METR's own Frontier Risk Report documented 44 such incidents across al</summary>
+    <summary>OpenAI's new enterprise offering, Presence, is designed to get AI agents into production for customer service and internal workflows. Unlike the existing Workspace Agents, Presence targets external deployments. For complex cases, OpenAI's own engineers step in. The article OpenAI Presence wants to make AI agents produc</summary>
   </entry>
   <entry>
-    <title>ANZ, NAB Among Banks Funding Blackstone HSBC Book Buy, AFR Says</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-02/anz-nab-among-banks-funding-blackstone-hsbc-book-buy-afr-says"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-02/anz-nab-among-banks-funding-blackstone-hsbc-book-buy-afr-says</id>
-    <updated>2026-08-02T08:45:44.000Z</updated>
+    <title>SpaceX IPO Faces First Reality Check</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-02/spacex-ipo-faces-first-reality-check-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-02/spacex-ipo-faces-first-reality-check-video</id>
+    <updated>2026-08-02T12:53:41.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>ANZ Group Holdings Ltd. and National Australia Bank Ltd. are among lenders bankrolling Blackstone Inc.’s A$36 billion ($25.3 billion) purchase of HSBC Holdings Plc’s Australian retail loan portfolio, the Australian Financial Review reported Sunday, citing unnamed sources.</summary>
-  </entry>
-  <entry>
-    <title>MUD as AI Evaluation and LLM-judge distortion in ways aggregate κ misses</title>
-    <link href="https://www.lesswrong.com/posts/GPbWyHgx9hCLMdAjc/mud-as-ai-evaluation-and-llm-judge-distortion-in-ways"/>
-    <id>https://www.lesswrong.com/posts/GPbWyHgx9hCLMdAjc/mud-as-ai-evaluation-and-llm-judge-distortion-in-ways</id>
-    <updated>2026-08-02T01:08:04.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="RESEARCH"/>
-    <summary>A group of friends and I spent the last several months running an experiment in our free time to determine if a MUD would be a suitable environment for benchmarking and evaluating LLMs. The results of the experiment were not what we expected. The main surprise was that the model rankings were extremely sensitive to the</summary>
+    <summary>Bloomberg Space Reporter Loren Grush says investors will use SpaceX's first public earnings report to gauge progress on Starship, Starlink, AI infrastructure and the company's long-term growth strategy following its blockbuster IPO. She says Starship's latest test marks meaningful progress, but major technical hurdles </summary>
   </entry>
   <entry>
     <title>Kimi K3: The Complete Developer Guide</title>
@@ -84,35 +66,26 @@
     <id>https://www.together.ai/blog/kimi-k3-guide</id>
     <updated>2026-08-01T00:00:00.000Z</updated>
     <author><name>Together AI Blog</name></author>
-    <category term="PRODUCTS"/>
+    <category term="RESEARCH"/>
     <summary>Kimi K3 is the first open 3T-class model. See how it benchmarks, what it costs, and how to call it on the Together AI API, with copy-paste code examples.</summary>
   </entry>
   <entry>
-    <title>RTX 5060 Ti survives car crash after being bent in half — short PCB saves the day, single memory chip resolder restore full performance</title>
-    <link href="https://www.tomshardware.com/pc-components/gpus/rtx-5060-ti-survives-car-crash-after-being-bent-in-half-short-pcb-saves-the-day-single-memory-chip-resolder-restore-full-performance"/>
-    <id>https://www.tomshardware.com/pc-components/gpus/rtx-5060-ti-survives-car-crash-after-being-bent-in-half-short-pcb-saves-the-day-single-memory-chip-resolder-restore-full-performance</id>
-    <updated>2026-08-02T11:30:00.000Z</updated>
+    <title>First open-source firmware for AM5 officially launches — Dasharo v0.9.0 brings Coreboot and openSIL to Zen 4 APUs on MSI B850</title>
+    <link href="https://www.tomshardware.com/pc-components/motherboards/first-open-source-firmware-for-am5-officially-launches-dasharo-v0-9-0-brings-coreboot-and-opensil-to-zen-4-apus-on-msi-b850"/>
+    <id>https://www.tomshardware.com/pc-components/motherboards/first-open-source-firmware-for-am5-officially-launches-dasharo-v0-9-0-brings-coreboot-and-opensil-to-zen-4-apus-on-msi-b850</id>
+    <updated>2026-08-02T12:10:00.000Z</updated>
     <author><name>Tom's Hardware</name></author>
-    <category term="HARDWARE"/>
-    <summary>What happens when a graphics card gets in a car crash? If you're lucky, the damage is limited to just cosmetic scars that can go away over time with no serious damage under-the-hood.</summary>
+    <category term="PRODUCTS"/>
+    <summary>3mdeb has introduced a new open-source firmware for the MSI B850-P WiFi, marking the first time open-source firmware has been introduced to the AM5 platform.</summary>
   </entry>
   <entry>
-    <title>Open letters about AI development</title>
-    <link href="https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything"/>
-    <id>https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything</id>
-    <updated>2026-08-02T04:16:52.000Z</updated>
-    <author><name>Simon Willison</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Open letters about AI development I wrote this summary of the past few weeks of open letters as a section of my sponsors-only newsletter but I've decided to share it here as well. Open Weights and American AI Leadership was shepherded by Microsoft, dated July 24th, and signed by 235 AI-adjacent companies including NVID</summary>
-  </entry>
-  <entry>
-    <title>A profile of Jacob Tsimerman, who won the Fields Medal last week and is taking a leave from the University of Toronto to join OpenAI and work on AI safety (Ben Cohen/Wall Street Journal)</title>
-    <link href="https://www.techmeme.com/260802/p5#a260802p5"/>
-    <id>https://www.techmeme.com/260802/p5#a260802p5</id>
-    <updated>2026-08-02T06:00:36.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>LessWrong App</title>
+    <link href="https://www.lesswrong.com/posts/rZmiewu7sBzuFXewn/lesswrong-app"/>
+    <id>https://www.lesswrong.com/posts/rZmiewu7sBzuFXewn/lesswrong-app</id>
+    <updated>2026-08-02T13:19:08.000Z</updated>
+    <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Ben Cohen / Wall Street Journal : A profile of Jacob Tsimerman, who won the Fields Medal last week and is taking a leave from the University of Toronto to join OpenAI and work on AI safety — Jacob Tsimerman won the biggest prize in math. Now he's working on the most important problem of his career.</summary>
+    <summary>Hello everyone long time lurker here. I know most people here probably prefer a PWA but if you are like me and prefer an app, I made one for android. There is a huge focus on ensuring the app is really fast and slick, I hope you enjoy using it. It is ofcourse also open source feel free to contribute. https://github.com</summary>
   </entry>
   <entry>
     <title>Escaping Linux Sandboxes via PipeWire (CVE-2026-5674)</title>
@@ -142,31 +115,31 @@
     <summary>A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). [...]</summary>
   </entry>
   <entry>
-    <title>July 2026 newsletter</title>
-    <link href="https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything"/>
-    <id>https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything</id>
-    <updated>2026-08-02T04:12:41.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>Latest open artifacts (#23): Laguna S2.1, Inkling, &amp; Kimi K3 show the utility of open models on the Pareto frontier</title>
+    <link href="https://www.interconnects.ai/p/latest-open-artifacts-23-laguna-s21"/>
+    <id>https://www.interconnects.ai/p/latest-open-artifacts-23-laguna-s21</id>
+    <updated>2026-08-02T13:01:40.000Z</updated>
+    <author><name>Interconnects (Lambert)</name></author>
     <category term="ANALYSIS"/>
-    <summary>The June edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: Accidental cyberattacks by OpenAl and Anthropic models under test GPT-5.6 Sol, Terra, and Luna Claude Opus 5 Kimi K3 and DeepSeek-V4-Flash-0731 Open letters about</summary>
+    <summary>Capacity to train strong models is proliferating.</summary>
   </entry>
   <entry>
-    <title>Chinese VC firms are rushing to raise new funds after three years of record-low fundraising, amid renewed enthusiasm for China's tech, AI, and robotics sectors (Eleanor Olcott/Financial Times)</title>
-    <link href="https://www.techmeme.com/260802/p4#a260802p4"/>
-    <id>https://www.techmeme.com/260802/p4#a260802p4</id>
-    <updated>2026-08-02T05:40:00.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Google DeepMind says Gemini Robotics 2 enables full body control</title>
+    <link href="https://www.therobotreport.com/google-deepmind-says-gemini-robotics-2-enables-full-body-control/"/>
+    <id>https://www.therobotreport.com/google-deepmind-says-gemini-robotics-2-enables-full-body-control/</id>
+    <updated>2026-08-02T12:31:32.000Z</updated>
+    <author><name>The Robot Report</name></author>
     <category term="ROBOTICS"/>
-    <summary>Eleanor Olcott / Financial Times : Chinese VC firms are rushing to raise new funds after three years of record-low fundraising, amid renewed enthusiasm for China's tech, AI, and robotics sectors — Managers capitalise on investors' desire to ‘hedge’ against US market bets — China's venture capital firms are rushing …</summary>
+    <summary>Gemini Robotics 2 enables robots to reason through every movement, unlocking a broad range of tasks, DeepMind said. The post Google DeepMind says Gemini Robotics 2 enables full body control appeared first on The Robot Report .</summary>
   </entry>
   <entry>
-    <title>EY Expands In-House Capabilities with On-Site Quantum Computer Hub in Canada</title>
-    <link href="https://quantumcomputingreport.com/ey-expands-in-house-capabilities-with-on-site-quantum-computer-hub-in-canada/"/>
-    <id>https://quantumcomputingreport.com/ey-expands-in-house-capabilities-with-on-site-quantum-computer-hub-in-canada/</id>
-    <updated>2026-08-01T12:09:50.000Z</updated>
-    <author><name>Quantum Computing Report</name></author>
+    <title>Gil Kalai (Hebrew University / Reichman University): Why noise may doom quantum computers</title>
+    <link href="https://thequantuminsider.com/2026/08/01/gil-kalai-hebrew-university-reichman-university-why-noise-may-doom-quantum-computers/"/>
+    <id>https://thequantuminsider.com/2026/08/01/gil-kalai-hebrew-university-reichman-university-why-noise-may-doom-quantum-computers/</id>
+    <updated>2026-08-01T07:00:00.000Z</updated>
+    <author><name>The Quantum Insider</name></author>
     <category term="QUANTUM"/>
-    <summary>Global professional services firm Ernst &amp; Young (EY) has announced the addition of an on-site quantum computer to its in-house technology stack. Led by EY Canada, the deployment serves as a key innovation hub within EY's global enterprise tech strategy. The hardware installation forms part of a broader $3 billion globa</summary>
+    <summary>Yuval Boger interviews mathematician Gil Kalai about his long-standing skepticism regarding scalable quantum computing. Kalai explains two main arguments behind his theory: correlated noise that may defeat quantum error correction and complexity-based limits on NISQ devices achieving quantum supremacy. They discuss exp</summary>
   </entry>
   <entry>
     <title>Claude Opus 5 pushes prompt-to-game AI from rough color blocks to full 3D prototypes with physics and music</title>
@@ -196,58 +169,49 @@
     <summary>Wall Street Journal : Malaysia shuts down Network School, Balaji Srinivasan's techno-utopian project, over licensing issues; Srinivasan says he is opening a new campus in Kazakhstan — Balaji Srinivasan left Silicon Valley and created an incubator for new countries in an Asian ghost city, before the government shut it d</summary>
   </entry>
   <entry>
-    <title>AMD Driver crashes with LM Studio on Windows 11</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vdek38/amd_driver_crashes_with_lm_studio_on_windows_11/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vdek38/amd_driver_crashes_with_lm_studio_on_windows_11/</id>
-    <updated>2026-08-02T10:27:04.000Z</updated>
+    <title>Coding Agents Benchmarks Reliability</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1vdh4pl/coding_agents_benchmarks_reliability/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1vdh4pl/coding_agents_benchmarks_reliability/</id>
+    <updated>2026-08-02T12:42:54.000Z</updated>
     <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>I have the following rig: Windows 11 AMD Ryzen 9900X Asus ProArt Wifi x870E 64GB RAM @ DDR5 6000 AMD 9070XT 16GB - primary (x8), connected by DisplayPort AMD R9700 AI Pro 32GB (x8) Corsair rm1000e 1000W PSU. When I start LM Studio and open unsloth/Qwen 27B, I can &quot;chat&quot; to the model. As soon as I ALT-TAB to another win</summary>
+    <summary>https://preview.redd.it/p6qveukajygh1.png?width=890&amp;format=png&amp;auto=webp&amp;s=ac4bfef017bcff5eecad5923999e8505b45f3838 I would like to get an informed perspective on the reliability of coding agent benchmarks, such as those published by Artificial Analysis. There seems to be a growing sentiment that some models, like Clau</summary>
   </entry>
   <entry>
-    <title>Running an uncensored model locally on LM Studio</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vddrly/running_an_uncensored_model_locally_on_lm_studio/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vddrly/running_an_uncensored_model_locally_on_lm_studio/</id>
-    <updated>2026-08-02T09:40:57.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>I started using an uncensored version of Qwen3.6 35B on LM Studio to write stories from my ideas and I love how it is coming out. Getting about 30 tokens/s on my 9070 XT as the full model does not fit on the VRAM. submitted by /u/AirUnited8152 [link] [comments]</summary>
-  </entry>
-  <entry>
-    <title>datasette-apps 0.2a0</title>
-    <link href="https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything"/>
-    <id>https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything</id>
-    <updated>2026-08-01T21:23:56.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>Meta AI uses a second AI agent as a memory coach to keep long tasks on track</title>
+    <link href="https://the-decoder.com/meta-ai-uses-a-second-ai-agent-as-a-memory-coach-to-keep-long-tasks-on-track/"/>
+    <id>https://the-decoder.com/meta-ai-uses-a-second-ai-agent-as-a-memory-coach-to-keep-long-tasks-on-track/</id>
+    <updated>2026-08-02T12:57:38.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Release: datasette-apps 0.2a0 Changes that improve Datasette Apps when created and edited using Datasette Agent : New app_debug() tool allowing agent to open an app (invisibly) and test it using JavaScript. #33 New app_list() tool for listing apps the user has permission to edit, so the agent can edit them. #36 The app</summary>
+    <summary>Meta AI wants to stop AI agents from forgetting errors they've already diagnosed and repeating failed steps during complex tasks. A separate memory agent maintains a structured memory bank and decides when to remind the main agent and when to stay silent. The system improved scores by up to 8.3 percentage points across</summary>
   </entry>
   <entry>
-    <title>Why every tech giant wants to look like a cybersecurity company in the AI era</title>
-    <link href="https://www.marketwatch.com/story/why-every-tech-giant-wants-to-look-like-a-cybersecurity-company-in-the-ai-era-00534525?mod=mw_rss_topstories"/>
-    <id>https://www.marketwatch.com/story/why-every-tech-giant-wants-to-look-like-a-cybersecurity-company-in-the-ai-era-00534525?mod=mw_rss_topstories</id>
-    <updated>2026-08-02T11:30:00.000Z</updated>
-    <author><name>MarketWatch</name></author>
+    <title>After Hugging Face incident, METR urges independent root-cause investigations into AI agent misbehavior</title>
+    <link href="https://the-decoder.com/after-hugging-face-incident-metr-urges-independent-root-cause-investigations-into-ai-agent-misbehavior/"/>
+    <id>https://the-decoder.com/after-hugging-face-incident-metr-urges-independent-root-cause-investigations-into-ai-agent-misbehavior/</id>
+    <updated>2026-08-02T07:33:17.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>As AI agents break free, tech giants are racing to turn cybersecurity into a core feature of their businesses.</summary>
+    <summary>Research organization METR is calling for systematic, independently led investigations whenever AI agents act autonomously against their developers' intentions. The push comes partly in response to the Hugging Face hack carried out by OpenAI models. METR's own Frontier Risk Report documented 44 such incidents across al</summary>
   </entry>
   <entry>
-    <title>Banks Offload Risk from Leveraged ETFs With Exotic ‘Crash Puts’</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-02/banks-offload-risk-from-leveraged-etfs-with-exotic-crash-puts"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-02/banks-offload-risk-from-leveraged-etfs-with-exotic-crash-puts</id>
-    <updated>2026-08-02T11:00:00.000Z</updated>
+    <title>Nides Says Iran War Needs Negotiations</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-02/nides-says-iran-war-needs-negotiations-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-02/nides-says-iran-war-needs-negotiations-video</id>
+    <updated>2026-08-02T13:31:08.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Leveraged ETFs that offer the tantalizing prospect of doubling or tripling the daily returns of an individual stock are famously risky for investors who buy them.</summary>
+    <summary>Former US Ambassador to Israel Tom Nides says there is no lasting military solution to the conflict with Iran, arguing that renewed negotiations involving regional allies offer the only realistic path to reopening the Strait of Hormuz and addressing Tehran's nuclear program. He also says regime change in Iran is not a </summary>
   </entry>
   <entry>
-    <title>Bomb Kills Three, Injures 21 at Restaurant on Moscow’s Kudrinskaya Square</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-02/bomb-kills-three-injures-21-at-restaurant-on-moscow-s-kudrinskaya-square"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-02/bomb-kills-three-injures-21-at-restaurant-on-moscow-s-kudrinskaya-square</id>
-    <updated>2026-08-02T07:22:43.000Z</updated>
+    <title>By The Way: Headlines You May Have Missed the Week of 8/02</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-02/by-the-way-headlines-you-may-have-missed-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-02/by-the-way-headlines-you-may-have-missed-video</id>
+    <updated>2026-08-02T13:14:21.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Three people were killed and 21 injured after a bomb was detonated in an upscale restaurant in central Moscow on Saturday night, according to Russia’s National Anti-Terrorism Committee.</summary>
+    <summary>Younger Chinese professionals moving away from the traditional baijiu drinking culture, premium bottled water gaining traction with wellness-focused consumers, and historic government buildings across Europe being converted into luxury hotels. Bloomberg News' Nathan Hager joins David Gura and Christina Ruffini on Bloom</summary>
   </entry>
   <entry>
     <title>Evaluating code review agents with ReviewBench</title>
@@ -259,6 +223,15 @@
     <summary>Learn how LangChain built ReviewBench, a benchmark for evaluating code review agents against real PR feedback from trusted reviewers.</summary>
   </entry>
   <entry>
+    <title>The AI slowdown is coming</title>
+    <link href="https://www.transformernews.ai/p/the-ai-slowdown-is-coming"/>
+    <id>https://www.transformernews.ai/p/the-ai-slowdown-is-coming</id>
+    <updated>2026-07-31T15:02:04.000Z</updated>
+    <author><name>Transformer</name></author>
+    <category term="RESEARCH"/>
+    <summary>Transformer Weekly: Claude hacks revealed, Commerce markup delayed, White House framework imminent</summary>
+  </entry>
+  <entry>
     <title>Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks</title>
     <link href="https://www.cnbc.com/2026/07/31/clear-street-pre-ipo-platform-databricks.html"/>
     <id>https://www.cnbc.com/2026/07/31/clear-street-pre-ipo-platform-databricks.html</id>
@@ -268,12 +241,39 @@
     <summary>Fintech brokerage Clear Street is launching a private markets platform, beginning with Databricks stakes, to give investors more access to late-stage startups.</summary>
   </entry>
   <entry>
-    <title>Announcing the Agentic Catalog Experience in Amazon Quick</title>
-    <link href="https://aws.amazon.com/blogs/machine-learning/announcing-the-agentic-catalog-experience-in-amazon-quick/"/>
-    <id>https://aws.amazon.com/blogs/machine-learning/announcing-the-agentic-catalog-experience-in-amazon-quick/</id>
-    <updated>2026-07-31T19:53:04.000Z</updated>
-    <author><name>AWS ML Blog</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Amazon Quick introduces the Agentic Catalog Experience, an AI-powered workflow for data curators to discover upstream catalog assets in natural language and auto-create Datasets and Topics with inherited semantics. Now in preview for AWS Glue Data Catalog and Databricks Unity Catalog.</summary>
+    <title>SpaceXAI says it will remove all 69 of its unpermitted turbine power generators, but expects process to take a year — trailer-mounted generators to be replaced by 1.2GW power plant</title>
+    <link href="https://www.tomshardware.com/tech-industry/big-tech/spacexai-says-it-will-remove-all-69-of-its-unpermitted-turbine-power-generators-but-expects-process-to-take-a-year-trailer-mounted-generators-to-be-replaced-by-1-2gw-power-plant"/>
+    <id>https://www.tomshardware.com/tech-industry/big-tech/spacexai-says-it-will-remove-all-69-of-its-unpermitted-turbine-power-generators-but-expects-process-to-take-a-year-trailer-mounted-generators-to-be-replaced-by-1-2gw-power-plant</id>
+    <updated>2026-08-02T11:50:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <category term="HARDWARE"/>
+    <summary>These turbines have been the center of a lawsuit involving permits and pollution. While this is good news for the community, it will still take quite some time before they're fully removed from the premises.</summary>
+  </entry>
+  <entry>
+    <title>Iran suspected of conducting cyberattacks on US water suppliers in 45 municipalities — small towns mostly targeted, with utilities switching to manual control</title>
+    <link href="https://www.tomshardware.com/tech-industry/cyber-security/iran-suspected-of-conducting-cyberattacks-on-us-water-suppliers-in-45-municipalities-small-towns-mostly-targeted-with-utilities-switching-to-manual-control"/>
+    <id>https://www.tomshardware.com/tech-industry/cyber-security/iran-suspected-of-conducting-cyberattacks-on-us-water-suppliers-in-45-municipalities-small-towns-mostly-targeted-with-utilities-switching-to-manual-control</id>
+    <updated>2026-08-02T13:10:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <category term="HARDWARE"/>
+    <summary>Several US towns said that their water utilities have suffered from cyberattacks, which are suspected to have originated from Iran. While systems remain running, several have resorted to manual control to protect the water supply.</summary>
+  </entry>
+  <entry>
+    <title>Open letters about AI development</title>
+    <link href="https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything"/>
+    <id>https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything</id>
+    <updated>2026-08-02T04:16:52.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Open letters about AI development I wrote this summary of the past few weeks of open letters as a section of my sponsors-only newsletter but I've decided to share it here as well. Open Weights and American AI Leadership was shepherded by Microsoft, dated July 24th, and signed by 235 AI-adjacent companies including NVID</summary>
+  </entry>
+  <entry>
+    <title>A profile of Jacob Tsimerman, who won the Fields Medal last week and is taking a leave from the University of Toronto to join OpenAI and work on AI safety (Ben Cohen/Wall Street Journal)</title>
+    <link href="https://www.techmeme.com/260802/p5#a260802p5"/>
+    <id>https://www.techmeme.com/260802/p5#a260802p5</id>
+    <updated>2026-08-02T06:00:36.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>Ben Cohen / Wall Street Journal : A profile of Jacob Tsimerman, who won the Fields Medal last week and is taking a leave from the University of Toronto to join OpenAI and work on AI safety — Jacob Tsimerman won the biggest prize in math. Now he's working on the most important problem of his career.</summary>
   </entry>
 </feed>
