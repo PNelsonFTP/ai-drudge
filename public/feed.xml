@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-03T15:49:31.418Z</updated>
+  <updated>2026-08-03T18:00:23.731Z</updated>
   <entry>
     <title>IBM finds 92% of companies hit by AI security breaches lacked basic access controls</title>
     <link href="https://the-decoder.com/ibm-finds-92-of-companies-hit-by-ai-security-breaches-lacked-basic-access-controls/"/>
@@ -16,40 +16,40 @@
     <summary>According to IBM, 92 percent of companies that experienced an AI security incident had inadequate access controls for their AI systems. The model itself was rarely the problem. The article IBM finds 92% of companies hit by AI security breaches lacked basic access controls appeared first on The Decoder .</summary>
   </entry>
   <entry>
-    <title>Zenity, which develops a platform for securing AI agents, raised a $125M Series C led by Norwest Venture Partners, taking its total funding to ~$185M (Meir Orbach/CTech)</title>
-    <link href="https://www.techmeme.com/260803/p21#a260803p21"/>
-    <id>https://www.techmeme.com/260803/p21#a260803p21</id>
-    <updated>2026-08-03T13:46:04.000Z</updated>
+    <title>Leaked doc: Microsoft plans to bring Xbox 360 games to PC, and the games will be able to run on the next-gen Project Helix console, &quot;Xbox PCs&quot;, and handhelds (The Verge)</title>
+    <link href="https://www.techmeme.com/260803/p29#a260803p29"/>
+    <id>https://www.techmeme.com/260803/p29#a260803p29</id>
+    <updated>2026-08-03T17:05:03.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Meir Orbach / CTech : Zenity, which develops a platform for securing AI agents, raised a $125M Series C led by Norwest Venture Partners, taking its total funding to ~$185M — Israeli cybersecurity company reaches $185 million in total funding as enterprises race to secure autonomous AI agents.</summary>
+    <summary>The Verge : Leaked doc: Microsoft plans to bring Xbox 360 games to PC, and the games will be able to run on the next-gen Project Helix console, “Xbox PCs”, and handhelds — The disc to digital program seems like it's close to launching, too.</summary>
   </entry>
   <entry>
-    <title>llama.cpp b10241 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10241"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10241</id>
-    <updated>2026-08-03T15:00:33.000Z</updated>
+    <title>llama.cpp b10242 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10242"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10242</id>
+    <updated>2026-08-03T17:24:46.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>CUDA: Fix data-races when reusing SMEM in block_reduce ( #26385 ) CUDA: Fix data-races when reusing block_reduce block_reduce currently doesn't resync after reading from SMEM, causing potential data-races when reusing SMEM for multiple reductions. One may consider simply always adding this in block_reduce, but this com</summary>
+    <summary>CUDA: Add backend sampler for penalties sampler ( #25262 ) sampling: enhance penalty handling in common_sampler_init Set default value for penalty_last_n based on model context if not specified. Ensure penalty_last_n and n_prev are non-negative. Update llama_sampler_penalties structure to inherit from llama_sampler_bac</summary>
   </entry>
   <entry>
     <title>How Stripe Built Kai on Deep Agents in 1 Week</title>
     <link href="https://www.langchain.com/blog/how-stripe-built-their-knowledge-ai-platform-on-deep-agents"/>
     <id>https://www.langchain.com/blog/how-stripe-built-their-knowledge-ai-platform-on-deep-agents</id>
-    <updated>2026-08-03T15:30:03.000Z</updated>
+    <updated>2026-08-03T17:03:56.000Z</updated>
     <author><name>LangChain Blog</name></author>
     <category term="AGENTS &amp; TOOLS"/>
     <summary>Learn how Stripe built Kai, a company-wide AI agent on LangChain, LangGraph, and Deep Agents, reaching 5,000 users in roughly 4 weeks.</summary>
   </entry>
   <entry>
-    <title>Citadel Securities Sees a $500 Billion Chip Financing Debt Binge</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-03/citadel-securities-sees-a-500-billion-chip-financing-debt-binge"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-03/citadel-securities-sees-a-500-billion-chip-financing-debt-binge</id>
-    <updated>2026-08-03T15:01:03.000Z</updated>
+    <title>AstraZeneca Investors See Little Logic in Bristol Tie-Up</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-03/astrazeneca-investors-see-little-logic-in-bristol-tie-up-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-03/astrazeneca-investors-see-little-logic-in-bristol-tie-up-video</id>
+    <updated>2026-08-03T16:37:32.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The credit markets may have had their fill of record borrowing for data centers, but tech companies aren’t done yet. Citadel Securities LLC is forecasting another $500 billion-plus of debt in the public and private markets by 2028 to bankroll the chips that go inside the artificial intelligence campuses.</summary>
+    <summary>AstraZeneca Plc investors had a clear message for the UK drugmaker on Monday: they don’t like the idea of a $400 billion merger with Bristol-Myers Squibb Co. Bloomberg Intelligence's Director of Research, Sam Fazeli joins to discuss. (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>Chain-of-Models: Cross-Model Auditing for Bias-Robust LLM Judges</title>
@@ -61,22 +61,13 @@
     <summary>arXiv:2607.28636v1 Announce Type: new Abstract: LLMs increasingly serve as automated judges, but their judgments remain vulnerable to cognitive biases. Existing mitigations mostly rely on prompt-driven debiasing, which is brittle across bias types, or human evaluation, which does not scale. We study \emph{Chain-of-Mode</summary>
   </entry>
   <entry>
-    <title>Alibaba Qwen Releases Qwen3.8-Max: A 2.4 Trillion Parameter MoE Model and the Most Capable One in the Qwen Family to Date</title>
-    <link href="https://www.marktechpost.com/2026/08/03/alibaba-qwen-releases-qwen3-8-max/"/>
-    <id>https://www.marktechpost.com/2026/08/03/alibaba-qwen-releases-qwen3-8-max/</id>
-    <updated>2026-08-03T08:24:16.000Z</updated>
-    <author><name>MarkTechPost</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Alibaba's Qwen team moved Qwen3.8-Max from preview to general availability, with published per-token pricing and open weights due next week. The 2.4T parameter MoE model accepts text, image and video input across a 1M-token context. No benchmark table has been published. The post Alibaba Qwen Releases Qwen3.8-Max: A 2.</summary>
-  </entry>
-  <entry>
-    <title>Alibaba’s open-weight Qwen3.8-Max takes on long-horizon AI tasks with 2.4 trillion parameters</title>
-    <link href="https://the-decoder.com/alibabas-open-weight-qwen3-8-max-takes-on-long-horizon-ai-tasks-with-2-4-trillion-parameters/"/>
-    <id>https://the-decoder.com/alibabas-open-weight-qwen3-8-max-takes-on-long-horizon-ai-tasks-with-2-4-trillion-parameters/</id>
-    <updated>2026-08-03T10:48:50.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>Quoting David Crawshaw's prompt</title>
+    <link href="https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything"/>
+    <id>https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything</id>
+    <updated>2026-08-03T16:15:27.000Z</updated>
+    <author><name>Simon Willison</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>Alibaba's new flagship model Qwen3.8-Max is built to handle complex tasks on its own over days at a time, from reproducing research papers to designing chips autonomously. The team plans to release the weights next week. The article Alibaba’s open-weight Qwen3.8-Max takes on long-horizon AI tasks with 2.4 trillion para</summary>
+    <summary>Set up a nightly cron job that executes the prompt: fetch upstream changes to the &lt;software&gt; and rebase all local changes on top of upstream. Check that the software works as intended and replace the current version. — David Crawshaw's prompt , Devtools must be open source Tags: prompt-engineering , coding-agents , gen</summary>
   </entry>
   <entry>
     <title>LARA: Lightweight Adapters in the Residual Stream for Composable Adaptation and Alignment</title>
@@ -88,31 +79,49 @@
     <summary>arXiv:2607.28669v1 Announce Type: new Abstract: We present LARA (Lightweight Additive Residual Adaptation), a method for efficient adaptation that operates in the residual stream of a frozen model rather than in its weights. Where LoRA adds an update of low rank to weight matrices, LARA reads the hidden state at a smal</summary>
   </entry>
   <entry>
-    <title>Pass the Passkey: A Novel Attack Surface in Passwordless Authentication</title>
-    <link href="https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/"/>
-    <id>https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/</id>
-    <updated>2026-08-03T10:00:35.000Z</updated>
-    <author><name>Palo Alto Unit 42</name></author>
+    <title>LLM Heist: Hijacking LiteLLM for Traffic Interception, Key Theft, and Tool-Call Injection</title>
+    <link href="https://embracethered.com/blog/posts/2026/hijacking-litellm-for-fun-and-profit/"/>
+    <id>https://embracethered.com/blog/posts/2026/hijacking-litellm-for-fun-and-profit/</id>
+    <updated>2026-08-03T16:00:00.000Z</updated>
+    <author><name>Embrace The Red</name></author>
+    <category term="AI SECURITY"/>
+    <summary>LiteLLM is a popular AI gateway. It provides a unified interface to LLMs and simplifies governance. It also has access to the backend LLM provider keys. All of that makes it a high-value target. Not only for IP and data theft, but also for response modification and tool invocation. This post walks through a set of TTPs</summary>
+  </entry>
+  <entry>
+    <title>Hackers steal 31,000 records identifying people behind Liechtenstein companies, foundations</title>
+    <link href="https://therecord.media/hackers-steal-records-liechtenstein-companies-foundations"/>
+    <id>https://therecord.media/hackers-steal-records-liechtenstein-companies-foundations</id>
+    <updated>2026-08-03T17:36:00.000Z</updated>
+    <author><name>The Record</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>A cyberattack compromised tens of thousands of records related to companies, foundations and trusts in Liechtenstein, prompting the government to to form a “crisis unit” to address the breach.</summary>
+  </entry>
+  <entry>
+    <title>[Webinar] Tales from the Frontlines: An exclusive briefing on Q2 incidents</title>
+    <link href="https://blog.talosintelligence.com/webinar-tales-from-the-frontlines-an-exclusive-briefing-on-q2-incidents/"/>
+    <id>https://blog.talosintelligence.com/webinar-tales-from-the-frontlines-an-exclusive-briefing-on-q2-incidents/</id>
+    <updated>2026-08-03T16:00:12.000Z</updated>
+    <author><name>Talos Intelligence</name></author>
     <category term="CYBER DEFENSE"/>
-    <summary>Explore how passkey implementation gaps undermine security when relying parties fail to validate the User Verified flag, reducing MFA to a single factor. The post Pass the Passkey: A Novel Attack Surface in Passwordless Authentication appeared first on Unit 42 .</summary>
+    <summary>Register for an exclusive, unrecorded 30-minute webinar to review the most high-impact incidents Talos IR faced in Q2.</summary>
   </entry>
   <entry>
-    <title>Introducing our Artifacts Hub and Adoption Dashboard</title>
-    <link href="https://www.interconnects.ai/p/introducing-our-artifacts-hub-and"/>
-    <id>https://www.interconnects.ai/p/introducing-our-artifacts-hub-and</id>
-    <updated>2026-08-03T14:03:08.000Z</updated>
-    <author><name>Interconnects (Lambert)</name></author>
-    <category term="ANALYSIS"/>
-    <summary>Scaling our curation and measurement of the open ecosystem.</summary>
+    <title>AI Valuation Gaps Set to Widen as Investment Cycle Matures</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-03/ai-valuation-gaps-set-to-widen-as-cycle-matures-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-03/ai-valuation-gaps-set-to-widen-as-cycle-matures-video</id>
+    <updated>2026-08-03T16:28:27.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>A volatile month for US equities ended on a higher note Friday, with the S&amp;P 500 Index clocking a 1.1% weekly advance. Much of the comeback can be linked to gains in technology stocks on Thursday and Friday, particularly Microsoft. and Amazon. Sarah Hunt, Chief Market Strategist at Alpine Saxon Woods, discusses recent </summary>
   </entry>
   <entry>
-    <title>Reimagine Robotics emerges from stealth with robots that ‘learn on the job’</title>
-    <link href="https://www.therobotreport.com/reimagine-robotics-emerges-stealth-with-robotslearn-on-the-job/"/>
-    <id>https://www.therobotreport.com/reimagine-robotics-emerges-stealth-with-robotslearn-on-the-job/</id>
-    <updated>2026-08-03T07:00:51.000Z</updated>
+    <title>HEBI Robotics earns NASA SBIR grant to fast track miniaturized actuators</title>
+    <link href="https://www.therobotreport.com/hebi-robotics-earns-nasa-sbir-grant-fast-track-miniaturized-actuators/"/>
+    <id>https://www.therobotreport.com/hebi-robotics-earns-nasa-sbir-grant-fast-track-miniaturized-actuators/</id>
+    <updated>2026-08-03T17:17:46.000Z</updated>
     <author><name>The Robot Report</name></author>
     <category term="ROBOTICS"/>
-    <summary>Reimagine Robotics, founded by former Google DeepMind Applied Robotics leaders, is developing systems that do not require specialized programmers. The post Reimagine Robotics emerges from stealth with robots that ‘learn on the job’ appeared first on The Robot Report .</summary>
+    <summary>This Phase I award is only part of HEBI Robotics' roadmap. The company also plans to continue developing its existing actuation hardware. The post HEBI Robotics earns NASA SBIR grant to fast track miniaturized actuators appeared first on The Robot Report .</summary>
   </entry>
   <entry>
     <title>Two teams solved the same quantum crypto problem using GPT-5.6 just three hours apart</title>
@@ -142,67 +151,58 @@
     <summary>One paragraph of &quot;Lord of the Rings&quot; in, 5,500 lines of code out. Andrej Karpathy had Claude Opus 5 turn Tolkien's opening into a 3D browser scene. The article Unicorn, pelican, Middle-earth: OpenAI co-founder Karpathy is looking for the next AI vibe test appeared first on The Decoder .</summary>
   </entry>
   <entry>
-    <title>Horizon3, whose AI penetration testing platform NodeZero helps find and exploit attack paths in production systems, raised a $250M Series E at a $2B valuation (Kate Park/TechCrunch)</title>
-    <link href="https://www.techmeme.com/260803/p19#a260803p19"/>
-    <id>https://www.techmeme.com/260803/p19#a260803p19</id>
-    <updated>2026-08-03T13:01:58.000Z</updated>
+    <title>Valar, which is making small modular nuclear reactors to power data centers, raised a $1B Series B led by Sequoia at a $6B post-money valuation (Bloomberg)</title>
+    <link href="https://www.techmeme.com/260803/p26#a260803p26"/>
+    <id>https://www.techmeme.com/260803/p26#a260803p26</id>
+    <updated>2026-08-03T16:15:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Kate Park / TechCrunch : Horizon3, whose AI penetration testing platform NodeZero helps find and exploit attack paths in production systems, raised a $250M Series E at a $2B valuation — Cybersecurity startup Horizon3 has raised a $250 million Series E at a $2 billion valuation, more than tripling its valuation in 14 mo</summary>
+    <summary>Bloomberg : Valar, which is making small modular nuclear reactors to power data centers, raised a $1B Series B led by Sequoia at a $6B post-money valuation — Sequoia Capital led a $1 billion funding round for Valar Atomics Inc. that the nuclear startup says will help it shift from demonstrating small reactors to produc</summary>
   </entry>
   <entry>
-    <title>UK court filing: in July, Apple launched a new legal challenge against the UK government's attempt to create a &quot;backdoor&quot; to access encrypted customer data (Tim Bradshaw/Financial Times)</title>
-    <link href="https://www.techmeme.com/260803/p22#a260803p22"/>
-    <id>https://www.techmeme.com/260803/p22#a260803p22</id>
-    <updated>2026-08-03T14:20:00.000Z</updated>
+    <title>Mariana Minerals, which builds and operates mines using its MarianaOS software platform, raised a $310M Series B, bringing its total funding to $400M (Allie Garfinkle/Fortune)</title>
+    <link href="https://www.techmeme.com/260803/p25#a260803p25"/>
+    <id>https://www.techmeme.com/260803/p25#a260803p25</id>
+    <updated>2026-08-03T16:10:02.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Tim Bradshaw / Financial Times : UK court filing: in July, Apple launched a new legal challenge against the UK government's attempt to create a “backdoor” to access encrypted customer data — iPhone maker files complaint over latest government demand to allow access to encrypted user data</summary>
+    <summary>Allie Garfinkle / Fortune : Mariana Minerals, which builds and operates mines using its MarianaOS software platform, raised a $310M Series B, bringing its total funding to $400M — The last century was fueled by oil and gas. Turner Caldwell is betting the next century runs on metals.</summary>
   </entry>
   <entry>
-    <title>I benchmarked performance of unsloth/DeepSeek-V4-Flash-0731-GGUF at UD-IQ3_S</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vec08u/i_benchmarked_performance_of/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vec08u/i_benchmarked_performance_of/</id>
-    <updated>2026-08-03T12:26:55.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>V4-Flash-0731 - vibes after first weekend of use</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vee1ob/v4flash0731_vibes_after_first_weekend_of_use/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vee1ob/v4flash0731_vibes_after_first_weekend_of_use/</id>
+    <updated>2026-08-03T13:51:37.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>So Hardware and Setup I have; RTX3090ti+RTX5060ti(24+16=40gb Vram) i7 14700k (But only 16x pysical cores are reserved and assigned to LLama.cpp LXC) 128gb DDR4 300mhz Assigned to LLama.cpp My Base Llama.cpp server settings are; --ctx-size 131072 --temp 1 --top-p 0.95 --min-p 0.00 -ngl -1 --threads 16 --threads-batch 16</summary>
+    <summary>Spent way too much time with V4-Flash-0731 this weekend and wanted to share my vibes as briefly as possible. I sent it through a bit of real-work and some of my personal benchmarks. My quick thoughts are: Quantization hits this thing like a truck - I've tried a bunch of the Q2 and Q3 weights and it behaves like an enti</summary>
   </entry>
   <entry>
-    <title>First try in Godot</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1veak0d/first_try_in_godot/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1veak0d/first_try_in_godot/</id>
-    <updated>2026-08-03T11:17:15.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>The Chinese labs everyone lumps together are making four pretty different bets. I work at one of them.</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1veipya/the_chinese_labs_everyone_lumps_together_are/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1veipya/the_chinese_labs_everyone_lumps_together_are/</id>
+    <updated>2026-08-03T16:42:42.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>6 promts, less than 30min. Qwen3.6 35B A3B Q6. Honestly very impressed it generated a full project folder with helpful comments for manual debugging. submitted by /u/SilverKanji [link] [comments]</summary>
+    <summary>Every time a model drops from a Chinese lab the thread fills with people who already know who made it, and the guess is usually Alibaba. There was a thread here recently asking what separates the open source labs from the frontier labs. It ran to nearly sixty comments and hardly anyone in it separated out the labs on t</summary>
   </entry>
   <entry>
-    <title>FOMO in the SOC: Where AI Platforms like Claude Actually Fit</title>
-    <link href="https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html"/>
-    <id>https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html</id>
-    <updated>2026-08-03T11:30:00.000Z</updated>
-    <author><name>The Hacker News</name></author>
+    <title>Evaluating code review agents with ReviewBench</title>
+    <link href="https://www.langchain.com/blog/evaluating-code-review-agents-with-reviewbench"/>
+    <id>https://www.langchain.com/blog/evaluating-code-review-agents-with-reviewbench</id>
+    <updated>2026-08-03T10:39:11.000Z</updated>
+    <author><name>LangChain Blog</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>AI is moving incredibly fast, and every security leader is feeling the pressure to keep up. AI platforms like Claude, Codex and Cursor are already helping security teams write detections, investigate alerts, summarize incidents, and automate repetitive work. The conversation has evolved from whether AI belongs in the S</summary>
+    <summary>Learn how LangChain built ReviewBench, a benchmark for evaluating code review agents against real PR feedback from trusted reviewers.</summary>
   </entry>
   <entry>
-    <title>Colombian Peso Pares Stellar Rally as Central Bank Steps In</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-03/colombian-peso-pares-stellar-rally-as-central-bank-steps-in"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-03/colombian-peso-pares-stellar-rally-as-central-bank-steps-in</id>
-    <updated>2026-08-03T15:30:35.000Z</updated>
+    <title>Citadel Securities’ Shah Says Markets Questioning Warsh’s Plans</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-03/citadel-securities-shah-says-markets-questioning-warsh-s-plans"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-03/citadel-securities-shah-says-markets-questioning-warsh-s-plans</id>
+    <updated>2026-08-03T17:24:34.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The Colombian peso is on track for its biggest drop in three months after the central bank unexpectedly paused rate hikes and announced a program to build up dollar reserves, signaling that the currency’s rally has gone too far.</summary>
-  </entry>
-  <entry>
-    <title>Astra Buying Bristol Makes No Sense, Fazeli Says</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-03/astra-buying-bristol-makes-no-sense-fazeli-says-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-03/astra-buying-bristol-makes-no-sense-fazeli-says-video</id>
-    <updated>2026-08-03T15:37:14.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>AstraZeneca shares plunged Monday on news that the drugmaker was exploring an acquisition of Bristol Meyers Squibb. A deal would create one of the world's biggest drugmakers. Sam Fazeli of Bloomberg Intelligence says a takeover would make no sense. (Source: Bloomberg)</summary>
+    <summary>Federal Reserve Chairman Kevin Warsh is creating fresh uncertainty for investors by pledging to rein in inflation without explaining how he intends to do so, according to Citadel Securities.</summary>
   </entry>
   <entry>
     <title>Can AI Evaluate AI Scientists? A Benchmarking Study of Autonomous Research Generation Systems Using Automated Multi-Model Review</title>
@@ -223,31 +223,49 @@
     <summary>arXiv:2607.28642v1 Announce Type: new Abstract: Long chain-of-thought reasoning improves performance on complex problems, but it also introduces redundancy accumulation, context overflow, and error anchoring. We argue that under bounded context windows, the core bottleneck is not trajectory compression or test-time con</summary>
   </entry>
   <entry>
-    <title>Samsung SDS launches NPU-as-a-Service offering with FuriosaAI chips in South Korea</title>
-    <link href="https://www.datacenterdynamics.com/en/news/samsung-sds-launches-npu-as-a-service-offering-with-furiosaai-chips-in-south-korea/"/>
-    <id>https://www.datacenterdynamics.com/en/news/samsung-sds-launches-npu-as-a-service-offering-with-furiosaai-chips-in-south-korea/</id>
-    <updated>2026-08-03T15:20:27.000Z</updated>
-    <author><name>Data Center Dynamics</name></author>
+    <title>Automated Reasoning policy refinement in Amazon Bedrock</title>
+    <link href="https://aws.amazon.com/blogs/machine-learning/automated-reasoning-policy-refinement-in-amazon-bedrock/"/>
+    <id>https://aws.amazon.com/blogs/machine-learning/automated-reasoning-policy-refinement-in-amazon-bedrock/</id>
+    <updated>2026-08-03T16:30:58.000Z</updated>
+    <author><name>AWS ML Blog</name></author>
     <category term="PRODUCTS"/>
-    <summary>Will be powered by FuriosaAI's RNGD AI chip</summary>
+    <summary>Amazon Bedrock now supports automatic Automated Reasoning policy refinement. The refinement engine diagnoses failing tests and proposes formal-logic fixes for rule issues and language issues, and you approve every change before it takes effect. This post walks through both refinement modes with complete API and console</summary>
   </entry>
   <entry>
-    <title>Lexar lists 32GB DDR5 memory with homegrown Chinese chips — 3,999 Yuan ($592) price undercuts hopes for cheaper CXMT-powered RAM</title>
-    <link href="https://www.tomshardware.com/pc-components/ddr5/lexar-lists-32gb-ddr5-memory-with-homegrown-chinese-chips-3-999-yuan-usd592-price-undercuts-hopes-for-cheaper-cxmt-powered-ram"/>
-    <id>https://www.tomshardware.com/pc-components/ddr5/lexar-lists-32gb-ddr5-memory-with-homegrown-chinese-chips-3-999-yuan-usd592-price-undercuts-hopes-for-cheaper-cxmt-powered-ram</id>
-    <updated>2026-08-03T14:51:09.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
+    <title>From weeks to minutes: How Formula 1® uses agentic AI on AWS to accelerate data operations</title>
+    <link href="https://aws.amazon.com/blogs/machine-learning/from-weeks-to-minutes-how-formula-1-uses-agentic-ai-on-aws-to-accelerate-data-operations/"/>
+    <id>https://aws.amazon.com/blogs/machine-learning/from-weeks-to-minutes-how-formula-1-uses-agentic-ai-on-aws-to-accelerate-data-operations/</id>
+    <updated>2026-08-03T17:24:15.000Z</updated>
+    <author><name>AWS ML Blog</name></author>
     <category term="PRODUCTS"/>
-    <summary>Lexar's latest Thor RGB kit likely uses CXMT-made DRAM, but its pricing remains comparable to premium DDR5 memory from established brands.</summary>
+    <summary>Formula 1® partnered with AWS to build the Data Accelerator, using agentic AI on Amazon Bedrock AgentCore to transform its MarTech data platform. Learn how F1 cut data source onboarding from up to 8 weeks to about 40 minutes, automated schema evolution, and gained end-to-end observability across its fan-engagement data</summary>
   </entry>
   <entry>
-    <title>Thinking Machines Lab Releases Inkling-Small: A 276B Total, 12B Active Open Weights Multimodal MoE Model</title>
-    <link href="https://www.marktechpost.com/2026/08/02/thinking-machines-lab-releases-inkling-small-276b-open-weights-multimodal-moe-model/"/>
-    <id>https://www.marktechpost.com/2026/08/02/thinking-machines-lab-releases-inkling-small-276b-open-weights-multimodal-moe-model/</id>
-    <updated>2026-08-02T20:35:50.000Z</updated>
-    <author><name>MarkTechPost</name></author>
+    <title>Brazil’s Oil Output Hits Record as War Drives Up Non-OPEC Supply</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-03/brazil-s-oil-output-hits-record-as-war-drives-up-non-opec-supply"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-03/brazil-s-oil-output-hits-record-as-war-drives-up-non-opec-supply</id>
+    <updated>2026-08-03T16:36:33.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="HARDWARE"/>
+    <summary>Oil production in Brazil reached a record high in June as rising supplies from producers a world away from the Middle East cushion disruption from the fallout of the war in Iran.</summary>
+  </entry>
+  <entry>
+    <title>Devtools must be open source (exe.dev)</title>
+    <link href="https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything"/>
+    <id>https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything</id>
+    <updated>2026-08-03T15:30:38.000Z</updated>
+    <author><name>Simon Willison</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>Inkling-Small matches Inkling at a quarter the size, and its NVFP4 checkpoint runs on one NVIDIA B300 GPU The post Thinking Machines Lab Releases Inkling-Small: A 276B Total, 12B Active Open Weights Multimodal MoE Model appeared first on MarkTechPost .</summary>
+    <summary>My comment on Devtools must be open source (exe.dev) — Hacker News. One of the arguments for open source software for end-users has always been the freedom to examine and modify how that software works. The reality for most people - even expert programmers - has been that the freedom is more about being able to lean on</summary>
+  </entry>
+  <entry>
+    <title>Orchard: An open framework for scalable agentic AI</title>
+    <link href="https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/"/>
+    <id>https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/</id>
+    <updated>2026-08-03T16:00:00.000Z</updated>
+    <author><name>Microsoft Research Blog</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Orchard is an open-source framework for the research community to train and evaluate AI agents across task types. It reduces complexity while supporting strong performance from smaller models by enabling researchers to reuse the same infrastructure. The post Orchard: An open framework for scalable agentic AI appeared f</summary>
   </entry>
   <entry>
     <title>Concrete Evaluations to Investigate the OpenAI Model That Hacked Hugging Face</title>
@@ -256,24 +274,6 @@
     <updated>2026-08-03T09:23:01.000Z</updated>
     <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>This post is written in our personal capacity. Three-Minute Executive Summary An OpenAI model/multi-agent system bypassed its sandbox and launched a cyberattack on Hugging Face in order to cheat on a cyber evaluation. In this post, we describe the ambitious, comprehensive alignment evaluation we would run on this model</summary>
-  </entry>
-  <entry>
-    <title>II. Anthropic reasoning with duplication is not consistent with probability properties</title>
-    <link href="https://www.lesswrong.com/posts/GR3TqJebMsiLQBqjv/ii-anthropic-reasoning-with-duplication-is-not-consistent"/>
-    <id>https://www.lesswrong.com/posts/GR3TqJebMsiLQBqjv/ii-anthropic-reasoning-with-duplication-is-not-consistent</id>
-    <updated>2026-08-03T14:21:23.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>tl;dr There is an impossibility result in anthropic probability: no reasonable probability theory can stay consistent across a duplication event. In particular, it must violate either Bayesian updates-from priors in non-anthropic situations, or the martingale condition – today’s probabilities are expectations of tomorr</summary>
-  </entry>
-  <entry>
-    <title>Automated AI Red Teaming: ART vs Claude Code, Garak &amp; Promptfoo</title>
-    <link href="https://www.giskard.ai/knowledge/automated-ai-red-teaming-benchmark"/>
-    <id>https://www.giskard.ai/knowledge/automated-ai-red-teaming-benchmark</id>
-    <updated>2026-08-04T00:00:00.000Z</updated>
-    <author><name>Giskard</name></author>
-    <category term="AI SECURITY"/>
-    <summary>We planted 17 vulnerabilities in a banking AI agent and pointed four AI red teaming tools at it. We analyse the results, and the non-detected failures.</summary>
+    <summary>[Tweet Thread] This post is written in our personal capacity. Three-Minute Executive Summary An OpenAI model/multi-agent system bypassed its sandbox and launched a cyberattack on Hugging Face in order to cheat on a cyber evaluation. In this post, we describe the ambitious, comprehensive alignment evaluation we would ru</summary>
   </entry>
 </feed>
