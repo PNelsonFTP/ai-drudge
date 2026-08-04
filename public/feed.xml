@@ -5,15 +5,24 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-04T17:59:08.771Z</updated>
+  <updated>2026-08-04T19:48:51.572Z</updated>
   <entry>
-    <title>llama.cpp b10269 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10269"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10269</id>
-    <updated>2026-08-04T17:24:01.000Z</updated>
+    <title>llama.cpp b10271 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10271"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10271</id>
+    <updated>2026-08-04T18:56:37.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>models : fix dflash wo_a reshape on load ( #26577 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x6 — Also covered by: ggml-org/whisper.cpp</summary>
+    <summary>ui: CWD for agent ( #26518 ) server : extend file_glob_search for UI pickers ui : add per-conversation working directory with picker ui : add path navigation and search scope to cwd picker Treat path-like queries (starting with / or ~) as directory navigation instead of glob-matching the whole query: search the parent  — Also covered by: ggml-org/whisper.cpp</summary>
+  </entry>
+  <entry>
+    <title>Introducing Shieldstral.</title>
+    <link href="https://mistral.ai/news/shieldstral/"/>
+    <id>https://mistral.ai/news/shieldstral/</id>
+    <updated>2026-08-04T12:00:26.000Z</updated>
+    <author><name>Mistral AI</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Shieldstral introduces a 3B open-weights multimodal safety classifier that outperforms models up to 7x its size.</summary>
   </entry>
   <entry>
     <title>IonQ and EPB to establish Quantum Communications Research Center in Chattanooga, Tennessee</title>
@@ -34,49 +43,31 @@
     <summary>Highlights Adds an opt-in one-time update bridge for macOS users to migrate from the Electron desktop app to the new Tauri shell. ( #8392 ) Introduces detailed execution-specific outcome tracking for tool calls to distinguish between invocation success, failure, and cancellation. ( #8180 ) Prevents unsafe replay of MCP — Also covered by: anthropics/claude-code</summary>
   </entry>
   <entry>
-    <title>Introducing Shieldstral.</title>
-    <link href="https://mistral.ai/news/shieldstral/"/>
-    <id>https://mistral.ai/news/shieldstral/</id>
-    <updated>2026-08-04T12:00:26.000Z</updated>
-    <author><name>Mistral AI</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Shieldstral introduces a 3B open-weights multimodal safety classifier that outperforms models up to 7x its size.</summary>
-  </entry>
-  <entry>
-    <title>Trump administration reportedly drafting ban on Chinese datacenter components</title>
-    <link href="https://www.theguardian.com/technology/2026/aug/04/fcc-ban-china-datacenter-devices"/>
-    <id>https://www.theguardian.com/technology/2026/aug/04/fcc-ban-china-datacenter-devices</id>
-    <updated>2026-08-04T17:21:33.000Z</updated>
-    <author><name>The Guardian AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Trump’s FCC is developing a measure to bar US imports of new models of Chinese datacenter devices, sources say The Trump administration is reportedly drafting a ban on US imports of new models of Chinese datacenter components, in the latest sign US authorities are scrambling to respond to the rapid development of AI te</summary>
-  </entry>
-  <entry>
-    <title>ollama v0.32.6-rc0 released</title>
+    <title>ollama v0.32.6 released</title>
     <link href="https://github.com/ollama/ollama/releases/tag/v0.32.6-rc0"/>
     <id>https://github.com/ollama/ollama/releases/tag/v0.32.6-rc0</id>
-    <updated>2026-08-04T16:51:52.000Z</updated>
+    <updated>2026-08-04T18:49:20.000Z</updated>
     <author><name>ollama/ollama</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>llama.cpp update ( #17545 )</summary>
+    <category term="MODEL RELEASES"/>
+    <summary>What's Changed Qwen3.5 is faster on Apple GPUs: the MLX engine now uses the model's MTP head for speculative decoding automatically /v1/chat/completions streaming now matches OpenAI's wire format: role only on the first chunk, finish_reason on its own chunk, and usage in a separate chunk with stream_options.include_usa</summary>
   </entry>
   <entry>
-    <title>Customer Experience (CX) Agents in Production: Lessons from Lyft, Vodafone, and LATAM Airlines</title>
-    <link href="https://www.langchain.com/blog/customer-experience-cx-agents-in-production-lessons-from-lyft-vodafone-and-latam-airlines"/>
-    <id>https://www.langchain.com/blog/customer-experience-cx-agents-in-production-lessons-from-lyft-vodafone-and-latam-airlines</id>
-    <updated>2026-08-04T17:18:59.000Z</updated>
-    <author><name>LangChain Blog</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Customer Experience (CX) Agents in Production: Lessons from Lyft, Vodafone, and LATAM Airlines</summary>
+    <title>Apple says more ex-employees may have taken confidential data to OpenAI</title>
+    <link href="https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/"/>
+    <id>https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/</id>
+    <updated>2026-08-04T14:03:01.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Apple says its trade secrets investigation into OpenAI has widened. In a new court filing, Apple claims additional former staff may have retained or accessed confidential information.</summary>
   </entry>
   <entry>
-    <title>Bloomberg News Now</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-04/bloomberg-news-now-video-mseykvsn"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-04/bloomberg-news-now-video-mseykvsn</id>
-    <updated>2026-08-04T17:55:21.000Z</updated>
+    <title>Jefferies Gets New Evidence of Fake Invoices at Troubled Fund</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-04/jefferies-gets-new-evidence-of-fake-invoices-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-04/jefferies-gets-new-evidence-of-fake-invoices-video</id>
+    <updated>2026-08-04T19:29:59.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Bloomberg News Now -u.s. says strait of hormuz deal could come within days -oil drops on besant comments as markets rally -semiconductor stocks surge, palantir jumps 25% -white house hosts ai firms on voluntary safety tests -anthropic signs $10b compute deal with volta infra -polymarket seeks $20b valuation in new fund</summary>
+    <summary>Jeffries has found new evidence that invoices underpinning its financing to an iron ore trader called Sapphire Minmetals Corp. are fake. This discovery comes after Jeffries was already reviewing its exposure to iron ore trader Radiant World, after reports that documents provided to financers were not valid. Bloomberg's — Also covered by: Bloomberg Markets</summary>
   </entry>
   <entry>
     <title>NVIDIA Joins NSF State and Regional AI Hubs Program to Expand AI Research and Education Across the US</title>
@@ -124,13 +115,22 @@
     <summary>Frontier AI is reshaping vulnerability discovery. Learn how our NOVA system found 14,000+ unknown vulnerabilities across the open-source software supply chain. The post The Frontier AI Vulnerability Burst: Industrializing Autonomous Zero-Day Discovery in Open-Source Software appeared first on Unit 42 .</summary>
   </entry>
   <entry>
-    <title>Mathematicians are grappling with the possibility that AI might eclipse them</title>
-    <link href="https://www.understandingai.org/p/mathematicians-are-grappling-with"/>
-    <id>https://www.understandingai.org/p/mathematicians-are-grappling-with</id>
-    <updated>2026-08-04T13:53:52.000Z</updated>
-    <author><name>Understanding AI (Timothy B. Lee)</name></author>
+    <title>A Record 14 Billion-Dollar Rounds In July Pushed Venture’s Historic Run Higher</title>
+    <link href="https://news.crunchbase.com/venture/data-billion-dollar-rounds-set-global-funding-record-july-2026/"/>
+    <id>https://news.crunchbase.com/venture/data-billion-dollar-rounds-set-global-funding-record-july-2026/</id>
+    <updated>2026-08-04T11:00:18.000Z</updated>
+    <author><name>Crunchbase News AI</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>Global venture funding showed no signs of slowing in July. Startup capital totaled $65 billion, up 100% year over year, as the month notched the highest-ever number of billion-dollar venture rounds on record, per Crunchbase data.</summary>
+  </entry>
+  <entry>
+    <title>PipeNetwork/minimax-h3-mlx</title>
+    <link href="https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything"/>
+    <id>https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything</id>
+    <updated>2026-08-04T19:10:09.000Z</updated>
+    <author><name>Simon Willison</name></author>
     <category term="ANALYSIS"/>
-    <summary>I talked to 20 mathematicians about rapid AI progress in their field.</summary>
+    <summary>PipeNetwork/minimax-h3-mlx MiniMax released MiniMax-H3 two days ago - they describe it as a &quot;a general-purpose, omni-modal generative system&quot;, which in practice means it accepts text, images, audio and video and can use them to generate up to 15 second video clips with audio included. This Python package ports it to ML</summary>
   </entry>
   <entry>
     <title>Tau Robotics Launches $30 Hour Humanoid Cleaning Service Amidst FCC Ban Turmoil</title>
@@ -160,103 +160,85 @@
     <summary>Anthropic is locking in $10 billion worth of computing capacity from Volta Infra Holdings, a cloud startup that's only a few months old. The article Anthropic locks in $10 billion of compute from Volta, a cloud startup that didn't exist six months ago appeared first on The Decoder .</summary>
   </entry>
   <entry>
-    <title>Is the future of data centers portable? Runware builds a pod to find out</title>
-    <link href="https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/"/>
-    <id>https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/</id>
-    <updated>2026-08-04T13:00:00.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>Trump administration reportedly drafting ban on Chinese datacenter components</title>
+    <link href="https://www.theguardian.com/technology/2026/aug/04/fcc-ban-china-datacenter-devices"/>
+    <id>https://www.theguardian.com/technology/2026/aug/04/fcc-ban-china-datacenter-devices</id>
+    <updated>2026-08-04T17:21:33.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>On Tuesday, AI infrastructure company Runware announced the launch of its own modular data center called Sonic Inference Pod.</summary>
+    <summary>Trump’s FCC is developing a measure to bar US imports of new models of Chinese datacenter devices, sources say The Trump administration is reportedly drafting a ban on US imports of new models of Chinese datacenter components, in the latest sign US authorities are scrambling to respond to the rapid development of AI te</summary>
   </entry>
   <entry>
-    <title>Apple says more ex-employees may have taken confidential data to OpenAI</title>
-    <link href="https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/"/>
-    <id>https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/</id>
-    <updated>2026-08-04T14:03:01.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>Mistral releases Shieldstral, a 3B multimodal safety classifier that it says matches models up to 7x its size on text safety, available under Apache 2.0 (Mistral AI Blog)</title>
+    <link href="https://www.techmeme.com/260804/p36#a260804p36"/>
+    <id>https://www.techmeme.com/260804/p36#a260804p36</id>
+    <updated>2026-08-04T18:55:01.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Apple says its trade secrets investigation into OpenAI has widened. In a new court filing, Apple claims additional former staff may have retained or accessed confidential information.</summary>
+    <summary>Mistral AI Blog : Mistral releases Shieldstral, a 3B multimodal safety classifier that it says matches models up to 7x its size on text safety, available under Apache 2.0 — Every product that ships a model needs to answer questions like these — but the right answer depends on the product, the audience, and the moment.</summary>
   </entry>
   <entry>
-    <title>Faster downloading + DeepSeek-V4 Flash 0731</title>
-    <link href="https://github.com/unslothai/unsloth/releases/tag/v0.1.52-beta"/>
-    <id>https://github.com/unslothai/unsloth/releases/tag/v0.1.52-beta</id>
-    <updated>2026-08-04T16:08:00.000Z</updated>
-    <author><name>unslothai/unsloth</name></author>
+    <title>Introducing Shieldstral. | Mistral AI</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vfj3me/introducing_shieldstral_mistral_ai/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vfj3me/introducing_shieldstral_mistral_ai/</id>
+    <updated>2026-08-04T18:42:32.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Hey everyone! For folks who missed the news - Kimi K3 &amp; DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs! We now added more efficient and faster downloading for Colab, low memory systems and also high memory and CPU systems - we auto fallback to HTTP as well if XET is stuck DeepSeek V4 Flash 0731 You ca</summary>
+    <summary>submitted by /u/tengo_harambe [link] [comments]</summary>
   </entry>
   <entry>
-    <title>How to Evaluate Voice Agents with LangSmith</title>
-    <link href="https://www.langchain.com/blog/how-to-evaluate-voice-agents-execution-outcomes-and-experience"/>
-    <id>https://www.langchain.com/blog/how-to-evaluate-voice-agents-execution-outcomes-and-experience</id>
-    <updated>2026-08-04T17:15:48.000Z</updated>
+    <title>Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress</title>
+    <link href="https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/"/>
+    <id>https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/</id>
+    <updated>2026-08-04T19:28:49.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>The week-old Open Secure AI Alliance, spearheaded by Nvidia and grown to over 120 companies, already has proposals out for defending against AI agents.</summary>
+  </entry>
+  <entry>
+    <title>Customer Experience (CX) Agents in Production: Lessons from Lyft, Vodafone, and LATAM Airlines</title>
+    <link href="https://www.langchain.com/blog/customer-experience-cx-agents-in-production-lessons-from-lyft-vodafone-and-latam-airlines"/>
+    <id>https://www.langchain.com/blog/customer-experience-cx-agents-in-production-lessons-from-lyft-vodafone-and-latam-airlines</id>
+    <updated>2026-08-04T17:18:59.000Z</updated>
     <author><name>LangChain Blog</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Learn how to evaluate voice agents across execution, outcomes, and caller experience using LangSmith traces, code evaluators, LLM judges, and human review.</summary>
+    <summary>Customer Experience (CX) Agents in Production: Lessons from Lyft, Vodafone, and LATAM Airlines</summary>
   </entry>
   <entry>
-    <title>Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks</title>
-    <link href="https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html"/>
-    <id>https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html</id>
-    <updated>2026-08-04T13:30:23.000Z</updated>
-    <author><name>The Hacker News</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>A credential-stealing npm worm that first appeared in keyv@6.0.0 spread beyond the Keyv and Cacheable namespaces into hundreds of packages across multiple organizations on August 4, 2026. SafeDep verified 353 poisoned versions across 79 package names in the npm registry. Its monitoring put the wider footprint at 442 ve</summary>
-  </entry>
-  <entry>
-    <title>Griffin’s NYC Office Tower Set to Land $3.3 Billion Construction Loan</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-04/griffin-s-nyc-office-tower-set-to-land-3-3-billion-construction-loan"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-04/griffin-s-nyc-office-tower-set-to-land-3-3-billion-construction-loan</id>
-    <updated>2026-08-04T17:00:17.000Z</updated>
+    <title>Wayfair Sees Momentum as Stores, High-End Goods Draw Consumers</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-04/wayfair-sees-momentum-with-stores-high-end-goods-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-04/wayfair-sees-momentum-with-stores-high-end-goods-video</id>
+    <updated>2026-08-04T19:25:19.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The team working on Citadel’s new Manhattan skyscraper expects to secure a $3.3 billion construction loan for the project.</summary>
+    <summary>Kate Gulliver, CFO at Wayfair, said that the momentum the furniture company is seeing is the result of initiatives building up over time as Wayfair tries to improve the customer experience. Gulliver also discussed what kind of consumers are buying from Wayfair. She said that the company is seeing momentum from the high</summary>
   </entry>
   <entry>
-    <title>Jefferies Gets New Evidence of Fake Invoices at Beleaguered Fund</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-04/jefferies-gets-new-evidence-of-fake-invoices-at-beleaguered-fund"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-04/jefferies-gets-new-evidence-of-fake-invoices-at-beleaguered-fund</id>
-    <updated>2026-08-04T17:44:16.000Z</updated>
+    <title>AI’s Great Reverse Run On The Bank</title>
+    <link href="https://www.bloomberg.com/news/newsletters/2026-08-04/ai-s-great-reverse-run-on-the-bank"/>
+    <id>https://www.bloomberg.com/news/newsletters/2026-08-04/ai-s-great-reverse-run-on-the-bank</id>
+    <updated>2026-08-04T19:02:23.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Jefferies Financial Group Inc. has been told that some of the invoices underpinning its financing to an iron ore trader called Sapphire Minmetals Corp. are not genuine, according to people familiar with the matter.</summary>
+    <summary>When people run towards the source of panic.</summary>
   </entry>
   <entry>
-    <title>AgentMemBench: A Systematic Benchmark for Evaluating Long-Term Memory Management Strategies in Conversational AI Agents</title>
-    <link href="https://arxiv.org/abs/2608.00009"/>
-    <id>https://arxiv.org/abs/2608.00009</id>
-    <updated>2026-08-04T04:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
+    <title>Solving the solvent problem</title>
+    <link href="https://news.mit.edu/2026/solving-solvent-problem-sodium-metal-batteries-0804"/>
+    <id>https://news.mit.edu/2026/solving-solvent-problem-sodium-metal-batteries-0804</id>
+    <updated>2026-08-04T18:50:00.000Z</updated>
+    <author><name>MIT News AI</name></author>
     <category term="RESEARCH"/>
-    <summary>arXiv:2608.00009v1 Announce Type: new Abstract: Long-term memory remains a critical bottleneck for conversational AI agents, whose finite context windows cannot support coherent recall across thousands of turns. We present AgentMemBench, a unified, reproducible benchmark evaluating five memory management strategies und</summary>
+    <summary>By focusing on electrolytes, MIT scientists are making sodium-metal batteries a more practical energy storage option.</summary>
   </entry>
   <entry>
-    <title>CoT-Core: Accelerating LLM Evaluation via CoT-Aware Coreset Selection</title>
-    <link href="https://arxiv.org/abs/2608.00014"/>
-    <id>https://arxiv.org/abs/2608.00014</id>
-    <updated>2026-08-04T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
-    <category term="RESEARCH"/>
-    <summary>arXiv:2608.00014v1 Announce Type: new Abstract: Evaluating Large Language Models (LLMs) incurs prohibitive computational overhead during continuous development processes. While coreset selection accelerates evaluation, existing methods either suffer from a severe ``cold start'' bottleneck requiring massive historical l</summary>
-  </entry>
-  <entry>
-    <title>NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use</title>
-    <link href="https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/"/>
-    <id>https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/</id>
-    <updated>2026-08-04T15:00:49.000Z</updated>
-    <author><name>NVIDIA Blog</name></author>
-    <category term="HARDWARE"/>
-    <summary>For robotaxis and other autonomous vehicles (AVs), the hardest problems aren’t the everyday scenarios. They’re the rare, complex situations that are difficult to anticipate and train for. Handling these long‑tail events takes more than just object detection and motion prediction. AVs must understand the situation, reas</summary>
-  </entry>
-  <entry>
-    <title>Silicon Valley’s rift over open source pushes back contemplated White House bans on Chinese AI</title>
-    <link href="https://the-decoder.com/silicon-valleys-rift-over-open-source-pushes-back-contemplated-white-house-bans-on-chinese-ai/"/>
-    <id>https://the-decoder.com/silicon-valleys-rift-over-open-source-pushes-back-contemplated-white-house-bans-on-chinese-ai/</id>
-    <updated>2026-08-04T12:23:43.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>The Trump administration discussed sanctions and cloud bans targeting Chinese open-weight AI models, according to the New York Times. OpenAI and Anthropic pushed for restrictions, while Nvidia, Google, and Meta fought back. After pushback from Silicon Valley, Washington backed off for now, but a decision is expected be</summary>
+    <title>Introducing Web Search on Amazon Bedrock for foundation model grounding</title>
+    <link href="https://aws.amazon.com/blogs/machine-learning/introducing-web-search-on-amazon-bedrock-for-foundation-model-grounding/"/>
+    <id>https://aws.amazon.com/blogs/machine-learning/introducing-web-search-on-amazon-bedrock-for-foundation-model-grounding/</id>
+    <updated>2026-08-04T18:39:14.000Z</updated>
+    <author><name>AWS ML Blog</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Today, we are introducing the general availability of Web Search on Amazon Bedrock. It is a server-side built-in tool that grounds model responses in current web knowledge. With Web Search, grounding becomes a native capability of Amazon Bedrock, with no third-party vendors to onboard, no external APIs to orchestrate, </summary>
   </entry>
   <entry>
     <title>AISN #78: Internal Models Escape OpenAI and Anthropic</title>
@@ -275,5 +257,23 @@
     <author><name>BleepingComputer</name></author>
     <category term="SAFETY &amp; POLICY"/>
     <summary>AI agents need broad access to be useful, but traditional access controls cannot determine whether an action aligns with a user's intent. Varonis explains how Agent IBAC detects intent drift and enforces real-time guardrails to keep agents within their intended boundaries. [...]</summary>
+  </entry>
+  <entry>
+    <title>Prompt Injection tops 2026 OWASP GenAI / LLM Top Ten vulnerabilities - SD Times</title>
+    <link href="https://news.google.com/rss/articles/CBMinAFBVV95cUxORXRfcW1faHJiTGltOGlyZkxadW1TLTdiNm1tTUlxa29PVDRqR1JzSFVIVGhvdTJFeFVkLVBYV1lJUDAzRnU3MXpHVkRsNkVQRFF2bVF6clV1S3lCSDVOMUhqSGJNMXloT3cxTTE5NG9yREV4bi14ZHFCVkptVzBLV2dNTU1pZktCckhTaF9iN1hHUjVUUXdLMXFGRjU?oc=5"/>
+    <id>https://news.google.com/rss/articles/CBMinAFBVV95cUxORXRfcW1faHJiTGltOGlyZkxadW1TLTdiNm1tTUlxa29PVDRqR1JzSFVIVGhvdTJFeFVkLVBYV1lJUDAzRnU3MXpHVkRsNkVQRFF2bVF6clV1S3lCSDVOMUhqSGJNMXloT3cxTTE5NG9yREV4bi14ZHFCVkptVzBLV2dNTU1pZktCckhTaF9iN1hHUjVUUXdLMXFGRjU?oc=5</id>
+    <updated>2026-08-04T18:32:10.000Z</updated>
+    <author><name>GN: Prompt Injection</name></author>
+    <category term="AI SECURITY"/>
+    <summary>Prompt Injection tops 2026 OWASP GenAI / LLM Top Ten vulnerabilities SD Times</summary>
+  </entry>
+  <entry>
+    <title>LLM Heist: Hijacking LiteLLM for Traffic Interception, Key Theft, and Tool-Call Injection</title>
+    <link href="https://embracethered.com/blog/posts/2026/hijacking-litellm-for-fun-and-profit/"/>
+    <id>https://embracethered.com/blog/posts/2026/hijacking-litellm-for-fun-and-profit/</id>
+    <updated>2026-08-03T16:00:00.000Z</updated>
+    <author><name>Embrace The Red</name></author>
+    <category term="AI SECURITY"/>
+    <summary>LiteLLM is a popular AI gateway. It provides a unified interface to LLMs and simplifies governance. It also has access to the backend LLM provider keys. All of that makes it a high-value target. Not only for IP and data theft, but also for response modification and tool invocation. This post walks through a set of TTPs</summary>
   </entry>
 </feed>
