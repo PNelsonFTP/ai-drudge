@@ -5,15 +5,24 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-05T15:22:41.822Z</updated>
+  <updated>2026-08-05T17:50:01.574Z</updated>
   <entry>
-    <title>llama.cpp b10285 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10285"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10285</id>
-    <updated>2026-08-05T15:22:32.000Z</updated>
+    <title>llama.cpp b10288 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10288"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10288</id>
+    <updated>2026-08-05T17:42:08.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>tests: re-enable MiniMax M3 in test-llama-archs ( #26633 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ub — Also covered by: ggml-org/whisper.cpp</summary>
+  </entry>
+  <entry>
+    <title>qwen-code v0.21.6 released</title>
+    <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.21.6"/>
+    <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.21.6</id>
+    <updated>2026-08-05T16:06:32.000Z</updated>
+    <author><name>QwenLM/qwen-code</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>mtmd: support multi-row batching for deepseek-ocr ( #26154 ) mtmd: support multi-row batching for deepseek-ocr mtmd: weave deepseek-ocr rows in one shot instead of per row ( #26615 ) Co-authored-by: Saba Fallah sabafallah@gmail.com Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (a — Also covered by: ggml-org/whisper.cpp</summary>
+    <summary>Highlights Added experimental native Live Voice support to WebShell on macOS for real-time audio interactions via a global shortcut. ( #7859 ) Web Shell now keeps conversation turns expanded during active background subagent tasks and allows immediate execution of read-only info commands. ( #8413 , #8496 ) Restored des — Also covered by: QwenLM/qwen-code, anthropics/claude-code</summary>
   </entry>
   <entry>
     <title>Qarakal Quantum Unveils Pangaea Architecture for Modular Quantum Computing</title>
@@ -25,49 +34,67 @@
     <summary>Insider Brief Press release – Quantum startup Qarakal Quantum today announced its Pangaea architecture for breakthrough modularity and scalability that shortens the path to commercially viable, industry-scale quantum computing. Leveraging its IP-protected quantum bus technology, Qarakal Quantum constructs quantum compu — Also covered by: Quantum Computing Report</summary>
   </entry>
   <entry>
-    <title>Introducing Shieldstral.</title>
-    <link href="https://mistral.ai/news/shieldstral/"/>
-    <id>https://mistral.ai/news/shieldstral/</id>
-    <updated>2026-08-04T12:00:26.000Z</updated>
-    <author><name>Mistral AI</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Shieldstral introduces a 3B open-weights multimodal safety classifier that outperforms models up to 7x its size.</summary>
-  </entry>
-  <entry>
-    <title>Faye, which offers travel insurance services and uses AI to help resolve claims, raised a $50M Series C led by Madrona, taking its total funding to $100M (Chris Metinko/Axios)</title>
-    <link href="https://www.techmeme.com/260805/p23#a260805p23"/>
-    <id>https://www.techmeme.com/260805/p23#a260805p23</id>
-    <updated>2026-08-05T15:15:02.000Z</updated>
+    <title>Hark, founded by Figure AI CEO Brett Adcock, previews Handoff, a computer use agent it says outperforms GPT-5.4 and Opus 4.8, and plans for a summer release (Ivan Mehta/TechCrunch)</title>
+    <link href="https://www.techmeme.com/260805/p30#a260805p30"/>
+    <id>https://www.techmeme.com/260805/p30#a260805p30</id>
+    <updated>2026-08-05T16:50:00.000Z</updated>
     <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Chris Metinko / Axios : Faye, which offers travel insurance services and uses AI to help resolve claims, raised a $50M Series C led by Madrona, taking its total funding to $100M — Travel protection startup Faye raised a $50 million Series C led by Madrona, CEO Elad Schaffer tells Axios Pro exclusively.</summary>
+    <category term="MODEL RELEASES"/>
+    <summary>Ivan Mehta / TechCrunch : Hark, founded by Figure AI CEO Brett Adcock, previews Handoff, a computer use agent it says outperforms GPT-5.4 and Opus 4.8, and plans for a summer release — Hark, a startup that raised $700 million in Series A funding in May, today launched its agent Hark Handoff, which can use a browser eff</summary>
   </entry>
   <entry>
-    <title>An AI agent went rogue during UK safety tests, creating fake identities and launching social engineering attacks unprompted</title>
-    <link href="https://the-decoder.com/an-ai-agent-went-rogue-during-uk-safety-tests-creating-fake-identities-and-launching-social-engineering-attacks-unprompted/"/>
-    <id>https://the-decoder.com/an-ai-agent-went-rogue-during-uk-safety-tests-creating-fake-identities-and-launching-social-engineering-attacks-unprompted/</id>
-    <updated>2026-08-05T10:15:49.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>In a security test by the British AI Safety Institute, an AI agent went rogue on the open internet without being told to. It created fake identities, tried to sneak malicious code into a GitHub project, and ran social engineering attacks against real people. Of 19 unsanctioned actions across 122 test runs, 17 came from</summary>
-  </entry>
-  <entry>
-    <title>Brazil’s CSN Seeks $2.9 Billion for Sales of Entire Cement Unit</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-05/brazil-s-csn-seeks-2-9-billion-for-sales-of-entire-cement-unit"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-05/brazil-s-csn-seeks-2-9-billion-for-sales-of-entire-cement-unit</id>
-    <updated>2026-08-05T14:31:05.000Z</updated>
+    <title>EU Audit Offers Brazil’s Poultry Exports a Path Around Ban</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-05/eu-audit-offers-brazil-s-poultry-exports-a-path-around-ban"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-05/eu-audit-offers-brazil-s-poultry-exports-a-path-around-ban</id>
+    <updated>2026-08-05T16:53:15.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Benjamin Steinbruch’s Cia. Siderúrgica Nacional is seeking at least 15 billion reais ($2.9 billion) for its cement business and expects to receive four bids as it moves to sell the entire unit, according to a person familiar with the matter.</summary>
+    <summary>The European Union will carry out an audit in Brazil at the end of August that could allow the country’s poultry exports to avoid a ban due to take effect on Sept. 3.</summary>
   </entry>
   <entry>
-    <title>SpaceX’s ambitious compute goals could require over two million Nvidia Rubin GPUs</title>
-    <link href="https://the-decoder.com/spacexs-ambitious-compute-goals-could-require-over-two-million-nvidia-rubin-gpus/"/>
-    <id>https://the-decoder.com/spacexs-ambitious-compute-goals-could-require-over-two-million-nvidia-rubin-gpus/</id>
-    <updated>2026-08-05T14:15:50.000Z</updated>
+    <title>Evaluating OpenAI's Privacy Filter: Cross-Lingual, Cross-Domain PII Detection Across 42 Benchmarks</title>
+    <link href="https://arxiv.org/abs/2608.02616"/>
+    <id>https://arxiv.org/abs/2608.02616</id>
+    <updated>2026-08-05T04:00:00.000Z</updated>
+    <author><name>arXiv cs.CL</name></author>
+    <category term="RESEARCH"/>
+    <summary>arXiv:2608.02616v1 Announce Type: new Abstract: We present the first independent, systematic evaluation of OpenAI's Privacy Filter (OPF), a 1.5B-parameter bidirectional PII detector, across 42 synthetic benchmarks spanning 22 languages and 5 domains. Zero-shot, OPF achieves F1=0.855 on AI4Privacy and 0.464 on SPY medic</summary>
+  </entry>
+  <entry>
+    <title>DIGI - Aicha Evans, Zoox CEO</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-05/digi-aicha-evans-zoox-ceo-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-05/digi-aicha-evans-zoox-ceo-video</id>
+    <updated>2026-08-05T17:35:10.000Z</updated>
+    <author><name>Bloomberg Tech</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Zoox is entering a new phase of its business as it's getting ready to launch paid robotaxi rides in Las Vegas, becoming the first company in the US to charge for rides in a purpose-built, steering wheel-free autonomous vehicle. Zoox CEO Aicha Evans joins Bloomberg to discuss pricing, expansion plans and production ramp</summary>
+  </entry>
+  <entry>
+    <title>Mistral's open model Shieldstral matches much larger safety models at a fraction of the size</title>
+    <link href="https://the-decoder.com/mistrals-open-model-shieldstral-matches-much-larger-safety-models/"/>
+    <id>https://the-decoder.com/mistrals-open-model-shieldstral-matches-much-larger-safety-models/</id>
+    <updated>2026-08-05T16:35:07.000Z</updated>
     <author><name>The Decoder</name></author>
     <category term="HARDWARE"/>
-    <summary>SpaceX plans to more than 5x its compute capacity by the end of 2027, betting exclusively on Nvidia's Vera Rubin platform. The expansion could require well over a million new GPUs. Meanwhile, the company's AI segment posted $2.56 billion in Q2 revenue, driven mostly by leasing out its own server capacity. The article S</summary>
+    <summary>Mistral's new 3B Shieldstral model checks AI inputs and outputs for safety violations using natural language yes-or-no questions instead of fixed categories. It matches models seven times its size in some benchmarks. Operators can set their own criteria at runtime rather than rely on a third party's category system, an</summary>
+  </entry>
+  <entry>
+    <title>Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports</title>
+    <link href="https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html"/>
+    <id>https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html</id>
+    <updated>2026-08-05T15:14:05.000Z</updated>
+    <author><name>The Hacker News</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Two security flaws in Paperclip could let attackers execute commands on a network server or a developer's computer. Paperclip is an open-source control plane for teams of artificial intelligence (AI) agents, and both paths rely on importing a malicious agent and starting it. A third flaw could expose sensitive data and</summary>
+  </entry>
+  <entry>
+    <title>What the latest rogue AI incidents should teach us</title>
+    <link href="https://www.transformernews.ai/p/what-the-latest-rogue-ai-incidents-should-teach-us"/>
+    <id>https://www.transformernews.ai/p/what-the-latest-rogue-ai-incidents-should-teach-us</id>
+    <updated>2026-08-05T15:56:48.000Z</updated>
+    <author><name>Transformer</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>Hacking, creating fake identities and trying to socially engineer real people could be just the beginning if things don't change fast</summary>
   </entry>
   <entry>
     <title>Anthropic AI agent faked identities, phished real developers in UK government hacking test</title>
@@ -79,22 +106,13 @@
     <summary>An artificial intelligence agent built by Anthropic independently planted malicious code in a real software project and sent phishing emails to developers during a U.K. government security evaluation, according to Britain’s AI Security Institute.</summary>
   </entry>
   <entry>
-    <title>Evaluating OpenAI's Privacy Filter: Cross-Lingual, Cross-Domain PII Detection Across 42 Benchmarks</title>
-    <link href="https://arxiv.org/abs/2608.02616"/>
-    <id>https://arxiv.org/abs/2608.02616</id>
-    <updated>2026-08-05T04:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>arXiv:2608.02616v1 Announce Type: new Abstract: We present the first independent, systematic evaluation of OpenAI's Privacy Filter (OPF), a 1.5B-parameter bidirectional PII detector, across 42 synthetic benchmarks spanning 22 languages and 5 domains. Zero-shot, OPF achieves F1=0.855 on AI4Privacy and 0.464 on SPY medic</summary>
-  </entry>
-  <entry>
-    <title>Your AI Strategy May Be Destroying Your Exit Value</title>
-    <link href="https://news.crunchbase.com/ai/strategies-enhancing-exit-value-acquisitions-sagie/"/>
-    <id>https://news.crunchbase.com/ai/strategies-enhancing-exit-value-acquisitions-sagie/</id>
-    <updated>2026-08-05T11:00:37.000Z</updated>
-    <author><name>Crunchbase News AI</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>While integrating AI into a startup's product strategy is often viewed as a way to enhance valuation, it can inadvertently reduce exit value, argues tech strategic adviser Itay Sagie. In this guest commentary he shares three ways your AI strategy can provide a positive impact on valuation when it becomes time for an ex</summary>
+    <title>Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt</title>
+    <link href="https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html"/>
+    <id>https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html</id>
+    <updated>2026-08-05T15:36:03.000Z</updated>
+    <author><name>The Hacker News</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>Cybersecurity researchers have discovered more than half-a-dozen services advertisements for illegal access to artificial intelligence (AI) models on underground cybercrime forums and messaging platforms. One such service, Poison Claude, claims to offer access to Anthropic's large language models (LLMs), including Opus</summary>
   </entry>
   <entry>
     <title>New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging</title>
@@ -106,76 +124,76 @@
     <summary>I released LLM 0.32 this morning, the most significant new version of LLM since the initial launch of the project. The new version includes support for visible reasoning traces, server-side provider tools, redesigned content-addressable SQLite logs, new models, and new features enabled by the OpenAI Responses API. I al</summary>
   </entry>
   <entry>
-    <title>Europe’s Nucleus Exits Stealth, Deploying Teleoperated Humanoids to Factories on &quot;Day 91&quot;</title>
-    <link href="https://www.humanoidsdaily.com/news/europe-s-nucleus-exits-stealth-deploying-teleoperated-humanoids-to-factories-on-day-91"/>
-    <id>https://www.humanoidsdaily.com/news/europe-s-nucleus-exits-stealth-deploying-teleoperated-humanoids-to-factories-on-day-91</id>
-    <updated>2026-08-05T12:02:18.000Z</updated>
-    <author><name>Humanoids Daily</name></author>
-    <category term="ROBOTICS"/>
-    <summary>Founded by alumni from top robotics labs, Nucleus aims to skip the autonomy waiting game by deploying supervised humanoids into real-world factories today.</summary>
+    <title>Google Deepmind loses both its CEO and chief scientist as Demis Hassabis and Jeff Dean step down simultaneously</title>
+    <link href="https://the-decoder.com/google-deepmind-loses-both-its-ceo-and-chief-scientist-as-demis-hassabis-and-jeff-dean-step-down-simultaneously/"/>
+    <id>https://the-decoder.com/google-deepmind-loses-both-its-ceo-and-chief-scientist-as-demis-hassabis-and-jeff-dean-step-down-simultaneously/</id>
+    <updated>2026-08-05T17:26:53.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Google Deepmind is overhauling its leadership as Demis Hassabis steps back from day-to-day management to become Alphabet's chief scientist and Jeff Dean leaves Google after 27 years to launch AI startup Discovery Loop. Former Deepmind CTO Koray Kavukcuoglu will take over as Google races to close the gap with its top AI</summary>
   </entry>
   <entry>
-    <title>Developers in Africa are increasingly choosing Chinese open-source AI models over US models, saying they are downloadable, easier to customize, and much cheaper (New York Times)</title>
-    <link href="https://www.techmeme.com/260805/p22#a260805p22"/>
-    <id>https://www.techmeme.com/260805/p22#a260805p22</id>
-    <updated>2026-08-05T14:45:00.000Z</updated>
+    <title>Mysk: Apple's Private Relay tool can leak users' IP addresses due to issues in Apple's WebKit browser engine, also affecting OnionBrowser, a Tor browser for iOS (Joseph Cox/404 Media)</title>
+    <link href="https://www.techmeme.com/260805/p32#a260805p32"/>
+    <id>https://www.techmeme.com/260805/p32#a260805p32</id>
+    <updated>2026-08-05T17:40:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>New York Times : Developers in Africa are increasingly choosing Chinese open-source AI models over US models, saying they are downloadable, easier to customize, and much cheaper — Developers built Sunflower, an artificial intelligence tool customized for Ugandan languages, using a Chinese model.</summary>
+    <summary>Joseph Cox / 404 Media : Mysk: Apple's Private Relay tool can leak users' IP addresses due to issues in Apple's WebKit browser engine, also affecting OnionBrowser, a Tor browser for iOS — Researchers found a group of issues that mean Private Relay isn't actually protecting users' real IP addresses.</summary>
   </entry>
   <entry>
-    <title>Why I'll never be convinced by Meta's ‘pervert’ glasses | Opinion</title>
-    <link href="https://www.theguardian.com/technology/video/2026/aug/05/meta-pervert-glasses-opinion-video"/>
-    <id>https://www.theguardian.com/technology/video/2026/aug/05/meta-pervert-glasses-opinion-video</id>
-    <updated>2026-08-05T14:13:33.000Z</updated>
-    <author><name>The Guardian AI</name></author>
+    <title>Reddit expands its test of Rules Hub, a suite of tools that rely on LLMs to help moderators manage their communities, and plans a full launch later this year (Jay Peters/The Verge)</title>
+    <link href="https://www.techmeme.com/260805/p31#a260805p31"/>
+    <id>https://www.techmeme.com/260805/p31#a260805p31</id>
+    <updated>2026-08-05T17:20:03.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>'Most people don’t want pervert glasses that can film us without our consent,' said a spokesperson from activist group Everyone Hates Elon. The group has launched a series of guerilla adverts deriding non-consensual filming by the glasses as well as an email campaign encouraging people to legally object to being filmed</summary>
+    <summary>Jay Peters / The Verge : Reddit expands its test of Rules Hub, a suite of tools that rely on LLMs to help moderators manage their communities, and plans a full launch later this year — It's also planning big changes for developers and old Reddit. … Reddit is enlisting AI to help moderate new subreddits — and eventually</summary>
   </entry>
   <entry>
-    <title>MoE CPU-offload benchmark on Deepseek V4/Gemma4/Qwen/GPT-OSS — TensorSharp vs llama.cpp</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vg8pzh/moe_cpuoffload_benchmark_on_deepseek/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vg8pzh/moe_cpuoffload_benchmark_on_deepseek/</id>
-    <updated>2026-08-05T14:20:18.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>MemArena: An Ego-Centric Benchmark for On-Device Agentic Personal Memory Assistants at Scale</title>
+    <link href="https://arxiv.org/abs/2608.02613"/>
+    <id>https://arxiv.org/abs/2608.02613</id>
+    <updated>2026-08-05T04:00:00.000Z</updated>
+    <author><name>arXiv cs.CL</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>TensorSharp's MoE CPU-offload feature has been merged into main. Here is the parameters description of this feature: Mixture-of-Experts CPU offload: --n-cpu-moe &lt;N&gt; | -ncmoe &lt;N&gt; Keep the routed MoE expert weights of the first N layers in system RAM and multiply them on the CPU; attention, norms, the router and the shar</summary>
+    <summary>arXiv:2608.02613v1 Announce Type: new Abstract: Edge-deployed personal memory assistants must handle private interpersonal conversations on-device with open-weight models. Yet, existing memory benchmarks often under-test the combination of activity-dense interaction, ego-centric perspective, and coherent multi-session </summary>
   </entry>
   <entry>
-    <title>DeepSeek V4 Flash: 11 → 25 tok/s with one bash command (llama.cpp b10270)</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vga26q/deepseek_v4_flash_11_25_toks_with_one_bash/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vga26q/deepseek_v4_flash_11_25_toks_with_one_bash/</id>
-    <updated>2026-08-05T15:10:06.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>MacPaw taps Liquid AI to offer on-device inference to devs building for its app store</title>
+    <link href="https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store/"/>
+    <id>https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store/</id>
+    <updated>2026-08-05T12:28:38.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>DeepSeek V4 Flash: 11 → 25.9 tok/s with one bash command First, credit where it's due. Huge thanks to u/pseudonerv . He noticed that my original benchmark looked much slower than expected for this model and shared his own M4 Max numbers. That pushed me to investigate instead of assuming the result was normal. After rep</summary>
+    <summary>MacPaw is building a local version of its AI assistant Eney using Liquid AI's models.</summary>
   </entry>
   <entry>
-    <title>US appeals court allows Perplexity's AI shopping agent back on Amazon</title>
-    <link href="https://the-decoder.com/us-appeals-court-allows-perplexitys-ai-shopping-agent-back-on-amazon/"/>
-    <id>https://the-decoder.com/us-appeals-court-allows-perplexitys-ai-shopping-agent-back-on-amazon/</id>
-    <updated>2026-08-05T10:31:42.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>How we built an autonomous SRE agent for Kubernetes</title>
+    <link href="https://www.langchain.com/blog/how-we-build-an-autonomous-sre-agent-for-kubernetes-deployments"/>
+    <id>https://www.langchain.com/blog/how-we-build-an-autonomous-sre-agent-for-kubernetes-deployments</id>
+    <updated>2026-08-05T16:24:31.000Z</updated>
+    <author><name>LangChain Blog</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>A US appeals court has overturned Amazon's injunction against Perplexity's AI shopping agents, ruling that it's the users who access Amazon, not the startup. It's the first federal appeals court decision on whether AI agents can lawfully act on online platforms on behalf of users, and it could reshape the entire AI age</summary>
+    <summary>Learn how LangChain built an autonomous SRE agent for Kubernetes deployments with Deep Agents, human approval for changes, LangSmith tracing, and evals.</summary>
   </entry>
   <entry>
-    <title>Disney Climbs on Profit Beat; AMD Falls on Underwhelming Forecast | Stock Movers</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-05/disney-climbs-on-profit-beat-amd-falls-on-forecast-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-05/disney-climbs-on-profit-beat-amd-falls-on-forecast-video</id>
-    <updated>2026-08-05T15:12:16.000Z</updated>
+    <title>Boeing-Lockheed Rocket Joint Venture Taps Private Bond Market</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-05/boeing-lockheed-rocket-joint-venture-taps-private-bond-market"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-05/boeing-lockheed-rocket-joint-venture-taps-private-bond-market</id>
+    <updated>2026-08-05T17:41:59.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>On this episode of Stock Movers: - Advanced Micro Devices (AMD) shares are lower after the semiconductor firm’s second-quarter revenue and third-quarter sales forecast underwhelmed investors expecting a stronger performance given rising demand. - Disney (DIS) shares are climbing as profit beat Wall Street estimates in </summary>
+    <summary>Boeing Co. and Lockheed Martin Corp.’s rocket joint venture plans to sell bonds in the private market to refinance debt.</summary>
   </entry>
   <entry>
-    <title>GLP-1 muda gôndolas nos mercados e pão de queijo perde espaço</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-05/glp-1-muda-gondolas-nos-mercados-na-era-do-ozempic-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-05/glp-1-muda-gondolas-nos-mercados-na-era-do-ozempic-video</id>
-    <updated>2026-08-05T15:01:13.000Z</updated>
+    <title>Colombia Seizes Explosives Ahead of De la Espriella Inauguration</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-05/colombia-seizes-explosives-ahead-of-de-la-espriella-inauguration"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-05/colombia-seizes-explosives-ahead-of-de-la-espriella-inauguration</id>
+    <updated>2026-08-05T17:28:56.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Nos supermercados brasileiros, o pão de queijo perde espaço para o iogurte. As redes varejistas estão reorganizando corredores e gôndolas para a era do Ozempic. Saiba mais com Rachel Gamarski. Edição de Patricia Xavier e produção de Barbara Nascimento e Catarina Bacci. (Source: Bloomberg)</summary>
+    <summary>Colombian authorities intercepted a bus rigged with explosives in the country’s southwest on Wednesday, underscoring security concerns ahead of President-elect Abelardo de la Espriella’s inauguration.</summary>
   </entry>
   <entry>
     <title>CoT-Core: Accelerating LLM Evaluation via CoT-Aware Coreset Selection</title>
@@ -205,22 +223,31 @@
     <summary>NVIDIA is participating in the U.S. National Science Foundation’s (NSF) State and Regional Artificial Intelligence Infrastructure Hubs program, an effort launching today to expand access to the advanced computing, data, software and expertise needed for AI-enabled research and education. Consistent with the aims of the</summary>
   </entry>
   <entry>
-    <title>ollama v0.32.6 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.32.6-rc0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.32.6-rc0</id>
-    <updated>2026-08-04T18:49:20.000Z</updated>
-    <author><name>ollama/ollama</name></author>
+    <title>SpaceX’s ambitious compute goals could require over two million Nvidia Rubin GPUs</title>
+    <link href="https://the-decoder.com/spacexs-ambitious-compute-goals-could-require-over-two-million-nvidia-rubin-gpus/"/>
+    <id>https://the-decoder.com/spacexs-ambitious-compute-goals-could-require-over-two-million-nvidia-rubin-gpus/</id>
+    <updated>2026-08-05T14:15:50.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="HARDWARE"/>
-    <summary>What's Changed Qwen3.5 is faster on Apple GPUs: the MLX engine now uses the model's MTP head for speculative decoding automatically /v1/chat/completions streaming now matches OpenAI's wire format: role only on the first chunk, finish_reason on its own chunk, and usage in a separate chunk with stream_options.include_usa</summary>
+    <summary>SpaceX plans to more than 5x its compute capacity by the end of 2027, betting exclusively on Nvidia's Vera Rubin platform. The expansion could require well over a million new GPUs. Meanwhile, the company's AI segment posted $2.56 billion in Q2 revenue, driven mostly by leasing out its own server capacity. The article S</summary>
   </entry>
   <entry>
-    <title>China's CXMT targets 30% DRAM memory market share by 2030 with sixth mega-fab — future plans bottlenecked by access to advanced chipmaking tools</title>
-    <link href="https://www.tomshardware.com/pc-components/dram/chinas-cxmt-targets-30-percent-dram-memory-market-share-by-2030-with-sixth-mega-fab-future-plans-bottlenecked-by-access-to-advanced-chipmaking-tools"/>
-    <id>https://www.tomshardware.com/pc-components/dram/chinas-cxmt-targets-30-percent-dram-memory-market-share-by-2030-with-sixth-mega-fab-future-plans-bottlenecked-by-access-to-advanced-chipmaking-tools</id>
-    <updated>2026-08-05T14:31:50.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
+    <title>Gigantic DapuStor R6060 512TB E2 NVMe SSD Shown at FMS 2026</title>
+    <link href="https://www.servethehome.com/gigantic-dapustor-r6060-512tb-e2-nvme-ssd-shown-at-fms-2026/"/>
+    <id>https://www.servethehome.com/gigantic-dapustor-r6060-512tb-e2-nvme-ssd-shown-at-fms-2026/</id>
+    <updated>2026-08-05T17:32:05.000Z</updated>
+    <author><name>ServeTheHome</name></author>
     <category term="HARDWARE"/>
-    <summary>ChangXin Memory Technologies (CXMT) began considering building its sixth DRAM fab in China to boost memory output in the coming years. If all announced projects proceed as planned, the company's production capacity could more than double in the mid-term future.</summary>
+    <summary>At FMS 2026, we saw the gigantic DapuStor R6060, an E2 form factor NVMe SSD that packs 512TB of capacity per drive The post Gigantic DapuStor R6060 512TB E2 NVMe SSD Shown at FMS 2026 appeared first on ServeTheHome .</summary>
+  </entry>
+  <entry>
+    <title>Sure seems like Fenix Flexin used AI music generator Treblo</title>
+    <link href="https://www.theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo"/>
+    <id>https://www.theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo</id>
+    <updated>2026-08-05T16:57:25.000Z</updated>
+    <author><name>The Verge AI</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>We were pretty sure that Fenix Flexin's &quot;Rubberz&quot; was made using AI, but musician Medasin was confident that it was made using Treblo specifically. Now the company and a new detection tool seem to confirm it. On Monday, the company announced the open-source Treblo AI Music Classifier, which detects when a song was gene</summary>
   </entry>
   <entry>
     <title>AutoFOAM: The Self-Refining Autonomous OpenFOAM Agent</title>
@@ -232,48 +259,21 @@
     <summary>arXiv:2608.00003v1 Announce Type: new Abstract: Computational Fluid Dynamics (CFD) plays an important role in modern engineering, but using open-source solvers such as OpenFOAM requires considerable knowledge and skills, as well as time-consuming configuration file setup. To reduce this burden, we propose AutoFOAM - a </summary>
   </entry>
   <entry>
-    <title>Rogue AI agents created fake online identities in another hacking attempt</title>
-    <link href="https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking"/>
-    <id>https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking</id>
-    <updated>2026-08-05T15:14:57.000Z</updated>
-    <author><name>The Verge AI</name></author>
+    <title>AI Influencers Are Heading Into Uncharted Territory</title>
+    <link href="https://www.wired.com/story/algorithm-turning-on-ai-influencers-are-humans-worried/"/>
+    <id>https://www.wired.com/story/algorithm-turning-on-ai-influencers-are-humans-worried/</id>
+    <updated>2026-08-05T11:43:00.000Z</updated>
+    <author><name>Wired AI</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Yet more rogue AI agents from OpenAI and Anthropic have been caught attempting to hack real targets online without permission. The discoveries add to a growing list of previously unknown incidents that have alarmed AI safety experts and intensified pressure for greater oversight of frontier systems. According to a repo</summary>
+    <summary>Some creators fear the EU AI Act’s regulatory chaos will upend their lucrative businesses. Others are owning it by incorporating AI transparency into their creative process.</summary>
   </entry>
   <entry>
-    <title>Regranting in 2026: now more than ever</title>
-    <link href="https://www.lesswrong.com/posts/F8qBjWfAsryeTzbvY/regranting-in-2026-now-more-than-ever"/>
-    <id>https://www.lesswrong.com/posts/F8qBjWfAsryeTzbvY/regranting-in-2026-now-more-than-ever</id>
-    <updated>2026-08-05T13:59:26.000Z</updated>
+    <title>Charles Goodhart Elementary School</title>
+    <link href="https://www.lesswrong.com/posts/7AKvSMavPZ8GjxFaa/charles-goodhart-elementary-school"/>
+    <id>https://www.lesswrong.com/posts/7AKvSMavPZ8GjxFaa/charles-goodhart-elementary-school</id>
+    <updated>2026-08-05T17:06:07.000Z</updated>
     <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Mostly written by Carol, edits by Austin. Manifund is raising money for our 2026 AI safety regranting program! TL;DR Early grants can have huge returns. Dispersed part-time grantmakers can find opportunities before centralized funders. Donating to Manifund Regranting puts your money in these opportunities. See also our</summary>
-  </entry>
-  <entry>
-    <title>AI models shock UK testers by using fake identities to trick developers</title>
-    <link href="https://www.theguardian.com/technology/2026/aug/05/openai-anthropic-models-went-rogue-cybersecurity-test-ai-security-institute"/>
-    <id>https://www.theguardian.com/technology/2026/aug/05/openai-anthropic-models-went-rogue-cybersecurity-test-ai-security-institute</id>
-    <updated>2026-08-05T15:15:05.000Z</updated>
-    <author><name>The Guardian AI</name></author>
-    <category term="AI SECURITY"/>
-    <summary>AI Security Institute says models by OpenAI and Anthropic went rogue during a cybersecurity test and showed a new type of risk Advanced artificial intelligence models have stunned the UK’s AI Security Institute by carrying out a hacking campaign against real people during a cybersecurity test. The institute (AISI) said</summary>
-  </entry>
-  <entry>
-    <title>A few notes on AWS Nitro Enclaves: KMS integration</title>
-    <link href="https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/"/>
-    <id>https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/</id>
-    <updated>2026-08-05T11:00:00.000Z</updated>
-    <author><name>Trail of Bits</name></author>
-    <category term="AI SECURITY"/>
-    <summary>Nitro Enclaves and Key Management Service (KMS) feel like a natural fit: since the KMS can verify attestation documents generated by the enclaves, developers can offload key management tasks from their applications to the AWS-managed service. But integrating an external service with your trusted enclaves comes with new</summary>
-  </entry>
-  <entry>
-    <title>Cyberattacks on water systems expand to 12 states as South Dakota, Georgia announce incidents</title>
-    <link href="https://therecord.media/iran-cyberattacks-water-treatment"/>
-    <id>https://therecord.media/iran-cyberattacks-water-treatment</id>
-    <updated>2026-08-05T14:00:00.000Z</updated>
-    <author><name>The Record</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>Water utilities in at least 12 states have reported cyberattacks on their operational technology, as the scope of a campaign allegedly linked to Iranian hackers continues to grow.</summary>
+    <summary>I heard a story (second- or third-hand, which surely lost or gained some details on the telephone path from reality to this telling if it even happened at all) about a boy, age 7 or so, who goes to a very highly-acclaimed school. A piece of recurring homework they give the kids is to read for twenty minutes from a chap</summary>
   </entry>
 </feed>
