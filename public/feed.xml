@@ -5,15 +5,24 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-05T19:48:23.611Z</updated>
+  <updated>2026-08-05T21:21:02.754Z</updated>
   <entry>
-    <title>llama.cpp b10288 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10288"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10288</id>
-    <updated>2026-08-05T17:42:08.000Z</updated>
+    <title>llama.cpp b10289 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10289"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10289</id>
+    <updated>2026-08-05T20:09:39.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>tests: re-enable MiniMax M3 in test-llama-archs ( #26633 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ub — Also covered by: ggml-org/whisper.cpp</summary>
+    <summary>server: harden the file_glob_search directory walk ( #26626 ) server: don't walk Windows junctions in file_glob_search std::filesystem reports a junction as a plain directory, so the symlink guard misses it and a junction pointing back at an ancestor is walked until the path length gives out read the reparse tag and tr — Also covered by: ggml-org/whisper.cpp</summary>
+  </entry>
+  <entry>
+    <title>Meta Debuts AI Coding Agent in Race With OpenAI and Anthropic</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-05/meta-debuts-ai-coding-agent-in-race-with-openai-and-anthropic"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-05/meta-debuts-ai-coding-agent-in-race-with-openai-and-anthropic</id>
+    <updated>2026-08-05T20:33:34.000Z</updated>
+    <author><name>Bloomberg Tech</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Meta Platforms Inc. Chief Executive Officer Mark Zuckerberg announced the release of the company’s first AI coding agent, known as Muse Code, stepping up competition with OpenAI and Anthropic PBC. — Also covered by: WSJ Tech</summary>
   </entry>
   <entry>
     <title>qwen-code v0.21.6 released</title>
@@ -43,22 +52,22 @@
     <summary>What's Changed Qwen3.5 is faster on Apple GPUs: the MLX engine now uses the model's MTP head for speculative decoding automatically /v1/chat/completions streaming now matches OpenAI's wire format: role only on the first chunk, finish_reason on its own chunk, and usage in a separate chunk with stream_options.include_usa</summary>
   </entry>
   <entry>
-    <title>Hark, founded by Figure AI CEO Brett Adcock, previews Handoff, a computer use agent it says outperforms GPT-5.4 and Opus 4.8, and plans for a summer release (Ivan Mehta/TechCrunch)</title>
-    <link href="https://www.techmeme.com/260805/p30#a260805p30"/>
-    <id>https://www.techmeme.com/260805/p30#a260805p30</id>
-    <updated>2026-08-05T16:50:00.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders</title>
+    <link href="https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/"/>
+    <id>https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/</id>
+    <updated>2026-08-05T20:05:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Ivan Mehta / TechCrunch : Hark, founded by Figure AI CEO Brett Adcock, previews Handoff, a computer use agent it says outperforms GPT-5.4 and Opus 4.8, and plans for a summer release — Hark, a startup that raised $700 million in Series A funding in May, today launched its agent Hark Handoff, which can use a browser eff</summary>
+    <summary>The serial entrepreneur joins the e-commerce company as CPO to lead its AI agents.</summary>
   </entry>
   <entry>
-    <title>Ghana Made $1.9 Billion Loss on Gold Purchases in 2025, IMF Says</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-05/ghana-made-1-9-billion-loss-on-gold-purchases-in-2025-imf-says"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-05/ghana-made-1-9-billion-loss-on-gold-purchases-in-2025-imf-says</id>
-    <updated>2026-08-05T18:29:42.000Z</updated>
+    <title>Big Take: The $19 Billion Menopause Economy</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-05/big-take-the-19-billion-menopause-economy-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-05/big-take-the-19-billion-menopause-economy-video</id>
+    <updated>2026-08-05T21:07:55.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Ghana’s central bank incurred losses of 22 billion cedis ($1.9 billion) in 2025 under a domestic gold purchase program aimed at boosting the country’s foreign-exchange reserves.</summary>
+    <summary>The $19 billion market for menopause treatment is booming. But the gold rush is leaving some women behind. (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>Evaluating OpenAI's Privacy Filter: Cross-Lingual, Cross-Domain PII Detection Across 42 Benchmarks</title>
@@ -70,13 +79,13 @@
     <summary>arXiv:2608.02616v1 Announce Type: new Abstract: We present the first independent, systematic evaluation of OpenAI's Privacy Filter (OPF), a 1.5B-parameter bidirectional PII detector, across 42 synthetic benchmarks spanning 22 languages and 5 domains. Zero-shot, OPF achieves F1=0.855 on AI4Privacy and 0.464 on SPY medic</summary>
   </entry>
   <entry>
-    <title>Meta releases Muse Code in beta, a terminal coding agent powered by Muse Spark 1.2, a coding-focused model priced at $1.25/1M input and $4.25/1M output tokens (Jonathan Vanian/CNBC)</title>
-    <link href="https://www.techmeme.com/260805/p34#a260805p34"/>
-    <id>https://www.techmeme.com/260805/p34#a260805p34</id>
-    <updated>2026-08-05T19:43:30.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Run production AI agents in n8n with Amazon Bedrock AgentCore harness</title>
+    <link href="https://aws.amazon.com/blogs/machine-learning/run-production-ai-agents-in-n8n-with-amazon-bedrock-agentcore-harness/"/>
+    <id>https://aws.amazon.com/blogs/machine-learning/run-production-ai-agents-in-n8n-with-amazon-bedrock-agentcore-harness/</id>
+    <updated>2026-08-05T18:00:57.000Z</updated>
+    <author><name>AWS ML Blog</name></author>
     <category term="PRODUCTS"/>
-    <summary>Jonathan Vanian / CNBC : Meta releases Muse Code in beta, a terminal coding agent powered by Muse Spark 1.2, a coding-focused model priced at $1.25/1M input and $4.25/1M output tokens — Meta is rolling out its first coding agent called Muse Code as the company tries to challenge leading AI labs Anthropic and OpenAI.</summary>
+    <summary>Amazon Bedrock AgentCore harness is now generally available. Learn how to add it as an agent step in n8n workflows using a new open-source community node, and build agents with persistent memory, real tools, code execution, and VPC isolation — all from the n8n editor with no infrastructure or agent code.</summary>
   </entry>
   <entry>
     <title>Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports</title>
@@ -106,13 +115,13 @@
     <summary>An artificial intelligence agent built by Anthropic independently planted malicious code in a real software project and sent phishing emails to developers during a U.K. government security evaluation, according to Britain’s AI Security Institute.</summary>
   </entry>
   <entry>
-    <title>OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes</title>
-    <link href="https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html"/>
-    <id>https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html</id>
-    <updated>2026-08-05T18:33:47.000Z</updated>
-    <author><name>The Hacker News</name></author>
+    <title>Canadian man pleads guilty to Snowflake hacks that led to 165 breaches</title>
+    <link href="https://therecord.media/guilty-plea-snowflake-hack-connor-riley-moucka"/>
+    <id>https://therecord.media/guilty-plea-snowflake-hack-connor-riley-moucka</id>
+    <updated>2026-08-05T20:15:00.000Z</updated>
+    <author><name>The Record</name></author>
     <category term="CYBER THREATS"/>
-    <summary>OpenAI said it disrupted a Cambodia-based scam operation that used its generative artificial intelligence (AI) chatbot ChatGPT to facilitate a wide range of investment, romance, gambling, and law enforcement impersonation schemes. To that end, it banned a coordinated network of ChatGPT accounts likely originating from </summary>
+    <summary>A 26-year-old from Ontario faces as many as 32 years in prison after pleading guilty to fraud, identity theft and conspiracy charges related to the 2024 hacks of cloud platform Snowflake.</summary>
   </entry>
   <entry>
     <title>One-shotting a Raccoon Heist game using Claude Fable 5</title>
@@ -124,6 +133,15 @@
     <summary>Back in 2024 I tweeted screenshots of a game concept generated by GPT-3 and some concept &quot;art&quot; created using DALL-E. Today, on the fourth anniversary of that tweet, I decided to see if Claude Fable 5 (running in Claude Code for web ) could build the entire game from the content of that tweet. It did a pretty good job o</summary>
   </entry>
   <entry>
+    <title>Unitree Kicks Off STAR Market IPO Amid Deepening US-China Robotics Rivalry</title>
+    <link href="https://www.humanoidsdaily.com/news/unitree-kicks-off-star-market-ipo-amid-deepening-us-china-robotics-rivalry"/>
+    <id>https://www.humanoidsdaily.com/news/unitree-kicks-off-star-market-ipo-amid-deepening-us-china-robotics-rivalry</id>
+    <updated>2026-08-05T15:26:06.000Z</updated>
+    <author><name>Humanoids Daily</name></author>
+    <category term="ROBOTICS"/>
+    <summary>Chinese humanoid giant Unitree Robotics is targeting a post-IPO valuation of up to $7.4 billion as it navigates sweeping US import bans and intensifying global competition.</summary>
+  </entry>
+  <entry>
     <title>Google Deepmind loses both its CEO and chief scientist as Demis Hassabis and Jeff Dean step down simultaneously</title>
     <link href="https://the-decoder.com/google-deepmind-loses-both-its-ceo-and-chief-scientist-as-demis-hassabis-and-jeff-dean-step-down-simultaneously/"/>
     <id>https://the-decoder.com/google-deepmind-loses-both-its-ceo-and-chief-scientist-as-demis-hassabis-and-jeff-dean-step-down-simultaneously/</id>
@@ -133,49 +151,67 @@
     <summary>Google Deepmind is overhauling its leadership as Demis Hassabis steps back from day-to-day management to become Alphabet's chief scientist and Jeff Dean leaves Google after 27 years to launch AI startup Discovery Loop. Former Deepmind CTO Koray Kavukcuoglu will take over as Google races to close the gap with its top AI</summary>
   </entry>
   <entry>
-    <title>Source: Yunfeng Capital, a PE firm co-founded by Jack Ma, invested ~$30M in AI insurance tech startup Corgi, leading a round that reportedly valued Corgi at $4B (Business Insider)</title>
-    <link href="https://www.techmeme.com/260805/p33#a260805p33"/>
-    <id>https://www.techmeme.com/260805/p33#a260805p33</id>
-    <updated>2026-08-05T18:20:02.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Business Insider : Source: Yunfeng Capital, a PE firm co-founded by Jack Ma, invested ~$30M in AI insurance tech startup Corgi, leading a round that reportedly valued Corgi at $4B — Jack is back. — Chinese billionaire Jack Ma's private equity firm secretly led the latest funding round for Corgi …</summary>
-  </entry>
-  <entry>
-    <title>MemArena: An Ego-Centric Benchmark for On-Device Agentic Personal Memory Assistants at Scale</title>
-    <link href="https://arxiv.org/abs/2608.02613"/>
-    <id>https://arxiv.org/abs/2608.02613</id>
-    <updated>2026-08-05T04:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>arXiv:2608.02613v1 Announce Type: new Abstract: Edge-deployed personal memory assistants must handle private interpersonal conversations on-device with open-weight models. Yet, existing memory benchmarks often under-test the combination of activity-dense interaction, ego-centric perspective, and coherent multi-session </summary>
-  </entry>
-  <entry>
-    <title>Need CEO Search For Ethan Allen: Bergeron</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-05/need-ceo-search-for-ethan-allen-bergeron-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-05/need-ceo-search-for-ethan-allen-bergeron-video</id>
-    <updated>2026-08-05T19:33:35.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Douglas Bergeron, founder of DGB Investments, joins Dani Burger on &quot;Bloomberg Deals.&quot; DGB Investments founder Douglas Bergeron has built a stake in Ethan Allen Interiors and is pushing to replace the furniture company’s entire board of directors. (Source: Bloomberg)</summary>
-  </entry>
-  <entry>
-    <title>Everyone Is Chasing Scale: Petillo-Décossard</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-05/everyone-is-chasing-scale-petillo-decossard-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-05/everyone-is-chasing-scale-petillo-decossard-video</id>
-    <updated>2026-08-05T18:50:50.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Kimberly Petillo-Décossard, global co-head of M&amp;A White &amp; Case, joins Dani Burger on &quot;Bloomberg Deals.&quot; They discuss the current state of dealmaking, market volatility, and how the federal regulatory environment affects the flow of deals. (Source: Bloomberg)</summary>
-  </entry>
-  <entry>
     <title>Mistral's open model Shieldstral matches much larger safety models at a fraction of the size</title>
     <link href="https://the-decoder.com/mistrals-open-model-shieldstral-matches-much-larger-safety-models/"/>
     <id>https://the-decoder.com/mistrals-open-model-shieldstral-matches-much-larger-safety-models/</id>
     <updated>2026-08-05T16:35:07.000Z</updated>
     <author><name>The Decoder</name></author>
-    <category term="RESEARCH"/>
+    <category term="MODEL RELEASES"/>
     <summary>Mistral's new 3B Shieldstral model checks AI inputs and outputs for safety violations using natural language yes-or-no questions instead of fixed categories. It matches models seven times its size in some benchmarks. Operators can set their own criteria at runtime rather than rely on a third party's category system, an</summary>
+  </entry>
+  <entry>
+    <title>Jeff Dean and other top AI researchers are leaving Google to launch their own startup</title>
+    <link href="https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/"/>
+    <id>https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/</id>
+    <updated>2026-08-05T19:30:19.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>The legendary Google executive is joined by other outgoing Google execs in a joint mission to use AI to push forward the process of scientific discovery.</summary>
+  </entry>
+  <entry>
+    <title>Binance affiliates are suing RedotPay's founders for allegedly diverting 470K+ users to a competing product in a &quot;fraudulent scheme&quot;, claiming $472.8M in losses (Bloomberg)</title>
+    <link href="https://www.techmeme.com/260805/p41#a260805p41"/>
+    <id>https://www.techmeme.com/260805/p41#a260805p41</id>
+    <updated>2026-08-05T21:15:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Bloomberg : Binance affiliates are suing RedotPay's founders for allegedly diverting 470K+ users to a competing product in a “fraudulent scheme”, claiming $472.8M in losses — Binance affiliates are suing the founders of Hong Kong-based crypto payments firm RedotPay for allegedly diverting hundreds …</summary>
+  </entry>
+  <entry>
+    <title>Topaz Video 1.6.1 – Consumer GPU Performance Analysis</title>
+    <link href="https://www.pugetsystems.com/labs/articles/topaz-video-1-6-1-consumer-gpu-performance-analysis/"/>
+    <id>https://www.pugetsystems.com/labs/articles/topaz-video-1-6-1-consumer-gpu-performance-analysis/</id>
+    <updated>2026-08-05T20:13:46.000Z</updated>
+    <author><name>Puget Systems</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>We tested the performance of current-generation GPUs from AMD, Intel, and NVIDIA in Topaz Video version 1.6.1. The post Topaz Video 1.6.1 – Consumer GPU Performance Analysis appeared first on Puget Systems .</summary>
+  </entry>
+  <entry>
+    <title>How we built an autonomous SRE agent for Kubernetes</title>
+    <link href="https://www.langchain.com/blog/how-we-build-an-autonomous-sre-agent-for-kubernetes-deployments"/>
+    <id>https://www.langchain.com/blog/how-we-build-an-autonomous-sre-agent-for-kubernetes-deployments</id>
+    <updated>2026-08-05T16:24:31.000Z</updated>
+    <author><name>LangChain Blog</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Learn how LangChain built an autonomous SRE agent for Kubernetes deployments with Deep Agents, human approval for changes, LangSmith tracing, and evals.</summary>
+  </entry>
+  <entry>
+    <title>Celestica’s $3 Billion Deal Joins Data Center Funding Rush</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-05/celestica-joins-data-center-funding-rush-with-3-billion-deal"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-05/celestica-joins-data-center-funding-rush-with-3-billion-deal</id>
+    <updated>2026-08-05T21:05:38.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Celestica Inc. is looking to raise $3 billion from selling new shares, joining a flurry of companies raising funds for data centers to power the artificial intelligence buildout.</summary>
+  </entry>
+  <entry>
+    <title>MetLife’s Earnings Beat Wall Street Expectations</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-05/metlife-s-earnings-beat-wall-street-expectations"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-05/metlife-s-earnings-beat-wall-street-expectations</id>
+    <updated>2026-08-05T21:11:43.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>MetLife Inc.’s second-quarter earnings surpassed Wall Street’s expectations, boosted by strong underwriting, volume growth and the success of a five-year plan outlined in late 2024.</summary>
   </entry>
   <entry>
     <title>CoT-Core: Accelerating LLM Evaluation via CoT-Aware Coreset Selection</title>
@@ -187,13 +223,13 @@
     <summary>arXiv:2608.00014v1 Announce Type: new Abstract: Evaluating Large Language Models (LLMs) incurs prohibitive computational overhead during continuous development processes. While coreset selection accelerates evaluation, existing methods either suffer from a severe ``cold start'' bottleneck requiring massive historical l</summary>
   </entry>
   <entry>
-    <title>Run production AI agents in n8n with Amazon Bedrock AgentCore harness</title>
-    <link href="https://aws.amazon.com/blogs/machine-learning/run-production-ai-agents-in-n8n-with-amazon-bedrock-agentcore-harness/"/>
-    <id>https://aws.amazon.com/blogs/machine-learning/run-production-ai-agents-in-n8n-with-amazon-bedrock-agentcore-harness/</id>
-    <updated>2026-08-05T18:00:57.000Z</updated>
-    <author><name>AWS ML Blog</name></author>
+    <title>Meta AI Releases Muse Code (Beta): A Terminal Coding Agent Powered by the New Muse Spark 1.2 Model</title>
+    <link href="https://www.marktechpost.com/2026/08/05/meta-superintelligence-labs-releases-muse-code/"/>
+    <id>https://www.marktechpost.com/2026/08/05/meta-superintelligence-labs-releases-muse-code/</id>
+    <updated>2026-08-05T20:07:32.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="PRODUCTS"/>
-    <summary>Amazon Bedrock AgentCore harness is now generally available. Learn how to add it as an agent step in n8n workflows using a new open-source community node, and build agents with persistent memory, real tools, code execution, and VPC isolation — all from the n8n editor with no infrastructure or agent code.</summary>
+    <summary>Meta Superintelligence Labs has released Muse Code, a terminal coding agent in beta, powered by the new Muse Spark 1.2 model. Muse Code plans changes, writes code, and validates results across large repositories. Async background agents stay active for the whole session instead of spawning per task. A local append-only</summary>
   </entry>
   <entry>
     <title>How LendingTree built a multi-agent mortgage assistant on Amazon Bedrock</title>
@@ -232,48 +268,12 @@
     <summary>arXiv:2608.00003v1 Announce Type: new Abstract: Computational Fluid Dynamics (CFD) plays an important role in modern engineering, but using open-source solvers such as OpenFOAM requires considerable knowledge and skills, as well as time-consuming configuration file setup. To reduce this burden, we propose AutoFOAM - a </summary>
   </entry>
   <entry>
-    <title>An International AI Slowdown Is Ready Whenever Politicians Are</title>
-    <link href="https://www.lesswrong.com/posts/jwipsPeb2xpyhwqsh/an-international-ai-slowdown-is-ready-whenever-politicians"/>
-    <id>https://www.lesswrong.com/posts/jwipsPeb2xpyhwqsh/an-international-ai-slowdown-is-ready-whenever-politicians</id>
-    <updated>2026-08-05T19:15:17.000Z</updated>
+    <title>I built a chess transformer interp+viz library, and need an experienced software writer to review my repository and its structure before I open-source it</title>
+    <link href="https://www.lesswrong.com/posts/tdFgYMtxMfpcitYL5/i-built-a-chess-transformer-interp-viz-library-and-need-an"/>
+    <id>https://www.lesswrong.com/posts/tdFgYMtxMfpcitYL5/i-built-a-chess-transformer-interp-viz-library-and-need-an</id>
+    <updated>2026-08-05T20:09:02.000Z</updated>
     <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Linkpost for a piece we recently published for AI Frontiers in the wake of recent calls for slowdown, covering how an international verification effort be trivially enforced by using human inspectors alone and the joint incentives for implementing one. On July 28, over a thousand employees of the world’s top AI compani</summary>
-  </entry>
-  <entry>
-    <title>AI models have been going rogue in tests – how worried should we be?</title>
-    <link href="https://www.theguardian.com/technology/2026/aug/05/ai-models-have-been-going-rogue-in-tests-how-worried-should-we-be"/>
-    <id>https://www.theguardian.com/technology/2026/aug/05/ai-models-have-been-going-rogue-in-tests-how-worried-should-we-be</id>
-    <updated>2026-08-05T17:43:57.000Z</updated>
-    <author><name>The Guardian AI</name></author>
-    <category term="AI SECURITY"/>
-    <summary>The UK’s AI Security Institute test revealed AI models indulging in unprecedented hacking attempts AI models shock UK testers by using fake identities to trick developers Two cutting-edge AI models have targeted real people and organisations in the latest safety scare to hit the technology. The UK’s AI Security Institu</summary>
-  </entry>
-  <entry>
-    <title>A few notes on AWS Nitro Enclaves: KMS integration</title>
-    <link href="https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/"/>
-    <id>https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/</id>
-    <updated>2026-08-05T11:00:00.000Z</updated>
-    <author><name>Trail of Bits</name></author>
-    <category term="AI SECURITY"/>
-    <summary>Nitro Enclaves and Key Management Service (KMS) feel like a natural fit: since the KMS can verify attestation documents generated by the enclaves, developers can offload key management tasks from their applications to the AWS-managed service. But integrating an external service with your trusted enclaves comes with new</summary>
-  </entry>
-  <entry>
-    <title>Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt</title>
-    <link href="https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html"/>
-    <id>https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html</id>
-    <updated>2026-08-05T15:36:03.000Z</updated>
-    <author><name>The Hacker News</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>Cybersecurity researchers have discovered more than half-a-dozen services advertisements for illegal access to artificial intelligence (AI) models on underground cybercrime forums and messaging platforms. One such service, Poison Claude, claims to offer access to Anthropic's large language models (LLMs), including Opus</summary>
-  </entry>
-  <entry>
-    <title>Dutch retailer De Bijenkorf warns customer data may be exposed after cyber incident</title>
-    <link href="https://therecord.media/de-bijenkorf-luxury-retailer-third-party-cyber-incident"/>
-    <id>https://therecord.media/de-bijenkorf-luxury-retailer-third-party-cyber-incident</id>
-    <updated>2026-08-05T15:36:00.000Z</updated>
-    <author><name>The Record</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>Amsterdam-based luxury goods chain De Bijenkorf is the latest retailer to announce a cyber incident involving a third-party logistics provider.</summary>
+    <summary>Please message me if you think you can help or want to set up an agreement. Discuss</summary>
   </entry>
 </feed>
