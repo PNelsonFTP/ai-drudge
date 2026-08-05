@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-05T21:21:02.754Z</updated>
+  <updated>2026-08-05T23:11:18.383Z</updated>
   <entry>
     <title>llama.cpp b10289 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10289"/>
@@ -14,15 +14,6 @@
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
     <summary>server: harden the file_glob_search directory walk ( #26626 ) server: don't walk Windows junctions in file_glob_search std::filesystem reports a junction as a plain directory, so the symlink guard misses it and a junction pointing back at an ancestor is walked until the path length gives out read the reparse tag and tr — Also covered by: ggml-org/whisper.cpp</summary>
-  </entry>
-  <entry>
-    <title>Meta Debuts AI Coding Agent in Race With OpenAI and Anthropic</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-05/meta-debuts-ai-coding-agent-in-race-with-openai-and-anthropic"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-05/meta-debuts-ai-coding-agent-in-race-with-openai-and-anthropic</id>
-    <updated>2026-08-05T20:33:34.000Z</updated>
-    <author><name>Bloomberg Tech</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Meta Platforms Inc. Chief Executive Officer Mark Zuckerberg announced the release of the company’s first AI coding agent, known as Muse Code, stepping up competition with OpenAI and Anthropic PBC. — Also covered by: WSJ Tech</summary>
   </entry>
   <entry>
     <title>qwen-code v0.21.6 released</title>
@@ -52,22 +43,31 @@
     <summary>What's Changed Qwen3.5 is faster on Apple GPUs: the MLX engine now uses the model's MTP head for speculative decoding automatically /v1/chat/completions streaming now matches OpenAI's wire format: role only on the first chunk, finish_reason on its own chunk, and usage in a separate chunk with stream_options.include_usa</summary>
   </entry>
   <entry>
-    <title>Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders</title>
-    <link href="https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/"/>
-    <id>https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/</id>
-    <updated>2026-08-05T20:05:00.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>Source: Muse Spark 1.1 model breached a company's systems during cybersecurity testing; Meta says evaluation partner Irregular caused a sandbox misconfiguration (Jyoti Mann/The Information)</title>
+    <link href="https://www.techmeme.com/260805/p45#a260805p45"/>
+    <id>https://www.techmeme.com/260805/p45#a260805p45</id>
+    <updated>2026-08-05T22:50:02.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>The serial entrepreneur joins the e-commerce company as CPO to lead its AI agents.</summary>
+    <summary>Jyoti Mann / The Information : Source: Muse Spark 1.1 model breached a company's systems during cybersecurity testing; Meta says evaluation partner Irregular caused a sandbox misconfiguration — A Meta Platforms artificial intelligence model accessed the internet during cybersecurity testing and hacked into another comp</summary>
   </entry>
   <entry>
-    <title>Big Take: The $19 Billion Menopause Economy</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-05/big-take-the-19-billion-menopause-economy-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-05/big-take-the-19-billion-menopause-economy-video</id>
-    <updated>2026-08-05T21:07:55.000Z</updated>
+    <title>Meta launches Muse Code, an AI agent for large code bases</title>
+    <link href="https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/"/>
+    <id>https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/</id>
+    <updated>2026-08-05T21:21:28.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Meta expanded its AI coding offerings with a new agent that, it promises, can handle complex tasks with complex software.</summary>
+  </entry>
+  <entry>
+    <title>Japan’s Kishida Sees Growth as Game Changer for Yen</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-05/japan-s-kishida-sees-growth-as-game-changer-for-yen"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-05/japan-s-kishida-sees-growth-as-game-changer-for-yen</id>
+    <updated>2026-08-05T23:00:11.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The $19 billion market for menopause treatment is booming. But the gold rush is leaving some women behind. (Source: Bloomberg)</summary>
+    <summary>Joint US-Japan intervention has helped the yen for now, but isn’t a game-changer for the currency or the economy, Japan’s former Prime Minister Fumio Kishida said in a Bloomberg TV interview in Tokyo. He touted a ¥370 trillion ($2.3 trillion) growth strategy as the long-term vision that will transform Japan’s fortunes.</summary>
   </entry>
   <entry>
     <title>Evaluating OpenAI's Privacy Filter: Cross-Lingual, Cross-Domain PII Detection Across 42 Benchmarks</title>
@@ -77,15 +77,6 @@
     <author><name>arXiv cs.CL</name></author>
     <category term="RESEARCH"/>
     <summary>arXiv:2608.02616v1 Announce Type: new Abstract: We present the first independent, systematic evaluation of OpenAI's Privacy Filter (OPF), a 1.5B-parameter bidirectional PII detector, across 42 synthetic benchmarks spanning 22 languages and 5 domains. Zero-shot, OPF achieves F1=0.855 on AI4Privacy and 0.464 on SPY medic</summary>
-  </entry>
-  <entry>
-    <title>Run production AI agents in n8n with Amazon Bedrock AgentCore harness</title>
-    <link href="https://aws.amazon.com/blogs/machine-learning/run-production-ai-agents-in-n8n-with-amazon-bedrock-agentcore-harness/"/>
-    <id>https://aws.amazon.com/blogs/machine-learning/run-production-ai-agents-in-n8n-with-amazon-bedrock-agentcore-harness/</id>
-    <updated>2026-08-05T18:00:57.000Z</updated>
-    <author><name>AWS ML Blog</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Amazon Bedrock AgentCore harness is now generally available. Learn how to add it as an agent step in n8n workflows using a new open-source community node, and build agents with persistent memory, real tools, code execution, and VPC isolation — all from the n8n editor with no infrastructure or agent code.</summary>
   </entry>
   <entry>
     <title>Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports</title>
@@ -115,13 +106,13 @@
     <summary>An artificial intelligence agent built by Anthropic independently planted malicious code in a real software project and sent phishing emails to developers during a U.K. government security evaluation, according to Britain’s AI Security Institute.</summary>
   </entry>
   <entry>
-    <title>Canadian man pleads guilty to Snowflake hacks that led to 165 breaches</title>
-    <link href="https://therecord.media/guilty-plea-snowflake-hack-connor-riley-moucka"/>
-    <id>https://therecord.media/guilty-plea-snowflake-hack-connor-riley-moucka</id>
-    <updated>2026-08-05T20:15:00.000Z</updated>
-    <author><name>The Record</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>A 26-year-old from Ontario faces as many as 32 years in prison after pleading guilty to fraud, identity theft and conspiracy charges related to the 2024 hacks of cloud platform Snowflake.</summary>
+    <title>langchain v1.5.4 released</title>
+    <link href="https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.4"/>
+    <id>https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.4</id>
+    <updated>2026-08-05T19:03:35.000Z</updated>
+    <author><name>langchain-ai/langchain</name></author>
+    <category term="CYBER DEFENSE"/>
+    <summary>Changes since langchain-anthropic==1.5.3 release(anthropic): 1.5.4 ( #39277 ) fix(anthropic): handle tool schemas with unsupported top-level composition ( #39273 ) chore: bump the minor-and-patch group across 3 directories with 7 updates ( #39187 ) fix(anthropic): preserve caller tool_choice ( #39206 ) feat(anthropic):</summary>
   </entry>
   <entry>
     <title>One-shotting a Raccoon Heist game using Claude Fable 5</title>
@@ -142,6 +133,15 @@
     <summary>Chinese humanoid giant Unitree Robotics is targeting a post-IPO valuation of up to $7.4 billion as it navigates sweeping US import bans and intensifying global competition.</summary>
   </entry>
   <entry>
+    <title>PsiQuantum CEO on Quantum Computing Progress, Chip Space</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-05/psiquantum-ceo-on-quantum-computing-progress-chip-space-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-05/psiquantum-ceo-on-quantum-computing-progress-chip-space-video</id>
+    <updated>2026-08-05T21:27:40.000Z</updated>
+    <author><name>Bloomberg Tech</name></author>
+    <category term="QUANTUM"/>
+    <summary>Victor Peng, CEO of PsiQuantum, detailed the company's unique approach to quantum computing, emphasizing their use of photons as qubits and their deep expertise in photonics. He explained that their architecture inherently addresses challenges such as photon loss and bit flips through built-in error correction, highlig</summary>
+  </entry>
+  <entry>
     <title>Google Deepmind loses both its CEO and chief scientist as Demis Hassabis and Jeff Dean step down simultaneously</title>
     <link href="https://the-decoder.com/google-deepmind-loses-both-its-ceo-and-chief-scientist-as-demis-hassabis-and-jeff-dean-step-down-simultaneously/"/>
     <id>https://the-decoder.com/google-deepmind-loses-both-its-ceo-and-chief-scientist-as-demis-hassabis-and-jeff-dean-step-down-simultaneously/</id>
@@ -160,58 +160,49 @@
     <summary>Mistral's new 3B Shieldstral model checks AI inputs and outputs for safety violations using natural language yes-or-no questions instead of fixed categories. It matches models seven times its size in some benchmarks. Operators can set their own criteria at runtime rather than rely on a third party's category system, an</summary>
   </entry>
   <entry>
-    <title>Jeff Dean and other top AI researchers are leaving Google to launch their own startup</title>
-    <link href="https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/"/>
-    <id>https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/</id>
-    <updated>2026-08-05T19:30:19.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>Big shake-up in Google’s AI team as DeepMind chief executive steps down</title>
+    <link href="https://www.theguardian.com/technology/2026/aug/05/big-shake-up-in-googles-ai-team-as-deepmind-chief-executive-steps-down"/>
+    <id>https://www.theguardian.com/technology/2026/aug/05/big-shake-up-in-googles-ai-team-as-deepmind-chief-executive-steps-down</id>
+    <updated>2026-08-05T22:23:46.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>The legendary Google executive is joined by other outgoing Google execs in a joint mission to use AI to push forward the process of scientific discovery.</summary>
+    <summary>Two senior engineers are leaving company to launch startup amid fears Google is falling behind in AI race Sir Demis Hassabis is stepping down as chief executive of Google DeepMind, in a leadership overhaul of the UK-based AI research lab. Hassabis, a Nobel prize recipient , is leaving his main managerial role to become</summary>
   </entry>
   <entry>
-    <title>Binance affiliates are suing RedotPay's founders for allegedly diverting 470K+ users to a competing product in a &quot;fraudulent scheme&quot;, claiming $472.8M in losses (Bloomberg)</title>
-    <link href="https://www.techmeme.com/260805/p41#a260805p41"/>
-    <id>https://www.techmeme.com/260805/p41#a260805p41</id>
-    <updated>2026-08-05T21:15:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Bloomberg : Binance affiliates are suing RedotPay's founders for allegedly diverting 470K+ users to a competing product in a “fraudulent scheme”, claiming $472.8M in losses — Binance affiliates are suing the founders of Hong Kong-based crypto payments firm RedotPay for allegedly diverting hundreds …</summary>
-  </entry>
-  <entry>
-    <title>Topaz Video 1.6.1 – Consumer GPU Performance Analysis</title>
-    <link href="https://www.pugetsystems.com/labs/articles/topaz-video-1-6-1-consumer-gpu-performance-analysis/"/>
-    <id>https://www.pugetsystems.com/labs/articles/topaz-video-1-6-1-consumer-gpu-performance-analysis/</id>
-    <updated>2026-08-05T20:13:46.000Z</updated>
-    <author><name>Puget Systems</name></author>
+    <title>Disappointing LocalLLM Results. Am I doing something wrong? Is Tic-Tac-Toe that hard?</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1vgl5uq/disappointing_localllm_results_am_i_doing/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1vgl5uq/disappointing_localllm_results_am_i_doing/</id>
+    <updated>2026-08-05T21:49:47.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>We tested the performance of current-generation GPUs from AMD, Intel, and NVIDIA in Topaz Video version 1.6.1. The post Topaz Video 1.6.1 – Consumer GPU Performance Analysis appeared first on Puget Systems .</summary>
+    <summary>I have been trying to test out Claude Code using local models this week, and while I am admittedly very new to Claude Code, AI, etc., the results have been quite disappointing in terms of actual agentic coding. I have a 4070 TI Super and have been testing Claude Code through Ollama using both gemma4:12b and qwen3.5:9b </summary>
   </entry>
   <entry>
-    <title>How we built an autonomous SRE agent for Kubernetes</title>
-    <link href="https://www.langchain.com/blog/how-we-build-an-autonomous-sre-agent-for-kubernetes-deployments"/>
-    <id>https://www.langchain.com/blog/how-we-build-an-autonomous-sre-agent-for-kubernetes-deployments</id>
-    <updated>2026-08-05T16:24:31.000Z</updated>
-    <author><name>LangChain Blog</name></author>
+    <title>Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders</title>
+    <link href="https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/"/>
+    <id>https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/</id>
+    <updated>2026-08-05T20:05:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Learn how LangChain built an autonomous SRE agent for Kubernetes deployments with Deep Agents, human approval for changes, LangSmith tracing, and evals.</summary>
+    <summary>The serial entrepreneur joins the e-commerce company as CPO to lead its AI agents.</summary>
   </entry>
   <entry>
-    <title>Celestica’s $3 Billion Deal Joins Data Center Funding Rush</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-05/celestica-joins-data-center-funding-rush-with-3-billion-deal"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-05/celestica-joins-data-center-funding-rush-with-3-billion-deal</id>
-    <updated>2026-08-05T21:05:38.000Z</updated>
+    <title>Liechtenstein’s LGT Aims to Expand its Private Banking in Japan</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-05/liechtenstein-s-lgt-aims-to-expand-its-private-banking-in-japan"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-05/liechtenstein-s-lgt-aims-to-expand-its-private-banking-in-japan</id>
+    <updated>2026-08-05T23:00:00.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Celestica Inc. is looking to raise $3 billion from selling new shares, joining a flurry of companies raising funds for data centers to power the artificial intelligence buildout.</summary>
+    <summary>LGT, a private bank owned by the Princely House of Liechtenstein, is looking to expand in Japan, betting that it can capture a share of the rising wealth in a market that has historically proved difficult for foreign private banks.</summary>
   </entry>
   <entry>
-    <title>MetLife’s Earnings Beat Wall Street Expectations</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-05/metlife-s-earnings-beat-wall-street-expectations"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-05/metlife-s-earnings-beat-wall-street-expectations</id>
-    <updated>2026-08-05T21:11:43.000Z</updated>
+    <title>China’s Cheap AI Is Shifting Investors’ Focus to Internet Stocks</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-05/china-s-cheap-ai-is-shifting-investors-focus-to-internet-stocks"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-05/china-s-cheap-ai-is-shifting-investors-focus-to-internet-stocks</id>
+    <updated>2026-08-05T23:00:00.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>MetLife Inc.’s second-quarter earnings surpassed Wall Street’s expectations, boosted by strong underwriting, volume growth and the success of a five-year plan outlined in late 2024.</summary>
+    <summary>China’s rapid progress in low-cost artificial intelligence is strengthening the investment case for the country’s internet giants after years in the shadow of chipmakers, market participants say.</summary>
   </entry>
   <entry>
     <title>CoT-Core: Accelerating LLM Evaluation via CoT-Aware Coreset Selection</title>
@@ -223,22 +214,22 @@
     <summary>arXiv:2608.00014v1 Announce Type: new Abstract: Evaluating Large Language Models (LLMs) incurs prohibitive computational overhead during continuous development processes. While coreset selection accelerates evaluation, existing methods either suffer from a severe ``cold start'' bottleneck requiring massive historical l</summary>
   </entry>
   <entry>
-    <title>Meta AI Releases Muse Code (Beta): A Terminal Coding Agent Powered by the New Muse Spark 1.2 Model</title>
-    <link href="https://www.marktechpost.com/2026/08/05/meta-superintelligence-labs-releases-muse-code/"/>
-    <id>https://www.marktechpost.com/2026/08/05/meta-superintelligence-labs-releases-muse-code/</id>
-    <updated>2026-08-05T20:07:32.000Z</updated>
-    <author><name>MarkTechPost</name></author>
+    <title>Meta launches new AI coding tool powered by Muse Spark 1.2 - Reuters</title>
+    <link href="https://news.google.com/rss/articles/CBMipwFBVV95cUxOMnJqb2s0a2s3WWxWTC1vNWdRNXc5eDBQRnNlUDBnekl4cXR6RG1hcUZ3cWlOMzFtTTNacUQ1cE01dWFpQ0NuMlpvOXJJalFmcFUyWEtaRjJlbVp1djJQWnhNdnJra2RId1B5WHhicUF6a2pVdUZ1M2tubElIbHhsVnFvX1owXzAtYzRaalpKZVkyNFRYU2ZyX3N4ai0xUHE1SkNWLTRzQQ?oc=5"/>
+    <id>https://news.google.com/rss/articles/CBMipwFBVV95cUxOMnJqb2s0a2s3WWxWTC1vNWdRNXc5eDBQRnNlUDBnekl4cXR6RG1hcUZ3cWlOMzFtTTNacUQ1cE01dWFpQ0NuMlpvOXJJalFmcFUyWEtaRjJlbVp1djJQWnhNdnJra2RId1B5WHhicUF6a2pVdUZ1M2tubElIbHhsVnFvX1owXzAtYzRaalpKZVkyNFRYU2ZyX3N4ai0xUHE1SkNWLTRzQQ?oc=5</id>
+    <updated>2026-08-05T21:31:51.000Z</updated>
+    <author><name>Reuters AI (Google News)</name></author>
     <category term="PRODUCTS"/>
-    <summary>Meta Superintelligence Labs has released Muse Code, a terminal coding agent in beta, powered by the new Muse Spark 1.2 model. Muse Code plans changes, writes code, and validates results across large repositories. Async background agents stay active for the whole session instead of spawning per task. A local append-only</summary>
+    <summary>Meta launches new AI coding tool powered by Muse Spark 1.2 Reuters</summary>
   </entry>
   <entry>
-    <title>How LendingTree built a multi-agent mortgage assistant on Amazon Bedrock</title>
-    <link href="https://aws.amazon.com/blogs/machine-learning/how-lendingtree-built-a-multi-agent-mortgage-assistant-on-amazon-bedrock/"/>
-    <id>https://aws.amazon.com/blogs/machine-learning/how-lendingtree-built-a-multi-agent-mortgage-assistant-on-amazon-bedrock/</id>
-    <updated>2026-08-05T18:50:02.000Z</updated>
+    <title>Run production AI agents in n8n with Amazon Bedrock AgentCore harness</title>
+    <link href="https://aws.amazon.com/blogs/machine-learning/run-production-ai-agents-in-n8n-with-amazon-bedrock-agentcore-harness/"/>
+    <id>https://aws.amazon.com/blogs/machine-learning/run-production-ai-agents-in-n8n-with-amazon-bedrock-agentcore-harness/</id>
+    <updated>2026-08-05T18:00:57.000Z</updated>
     <author><name>AWS ML Blog</name></author>
     <category term="PRODUCTS"/>
-    <summary>Learn how LendingTree built a production multi-agent mortgage assistant on Amazon Bedrock. Three coordinated agents use LangGraph, the Model Context Protocol, and Amazon Nova models with built-in guardrails to deliver 24/7 personalized mortgage guidance while meeting strict financial-services compliance.</summary>
+    <summary>Amazon Bedrock AgentCore harness is now generally available. Learn how to add it as an agent step in n8n workflows using a new open-source community node, and build agents with persistent memory, real tools, code execution, and VPC isolation — all from the n8n editor with no infrastructure or agent code.</summary>
   </entry>
   <entry>
     <title>NVIDIA’s Vera Whitepaper Has a Thread Loose</title>
@@ -268,12 +259,21 @@
     <summary>arXiv:2608.00003v1 Announce Type: new Abstract: Computational Fluid Dynamics (CFD) plays an important role in modern engineering, but using open-source solvers such as OpenFOAM requires considerable knowledge and skills, as well as time-consuming configuration file setup. To reduce this burden, we propose AutoFOAM - a </summary>
   </entry>
   <entry>
-    <title>I built a chess transformer interp+viz library, and need an experienced software writer to review my repository and its structure before I open-source it</title>
-    <link href="https://www.lesswrong.com/posts/tdFgYMtxMfpcitYL5/i-built-a-chess-transformer-interp-viz-library-and-need-an"/>
-    <id>https://www.lesswrong.com/posts/tdFgYMtxMfpcitYL5/i-built-a-chess-transformer-interp-viz-library-and-need-an</id>
-    <updated>2026-08-05T20:09:02.000Z</updated>
+    <title>Fundamental Uncertainty Essay Contestants</title>
+    <link href="https://www.lesswrong.com/posts/5mEEEj3WkQErQX4Q6/fundamental-uncertainty-essay-contestants"/>
+    <id>https://www.lesswrong.com/posts/5mEEEj3WkQErQX4Q6/fundamental-uncertainty-essay-contestants</id>
+    <updated>2026-08-05T23:01:24.000Z</updated>
     <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Please message me if you think you can help or want to set up an agreement. Discuss</summary>
+    <summary>Thanks to everyone who submitted an essay to the contest ( LW mirror ). Links to all the entrants are below. I’m reviewing them now and aim to announce the winners on or about August 15th. If you thought you submitted an entry and don’t see it listed below, let me know immediately! Everything Adds Up to Normality by Av</summary>
+  </entry>
+  <entry>
+    <title>Terminal-Bench Leaderboard Rankings: Luck or Skill?</title>
+    <link href="https://www.lesswrong.com/posts/GiPmLmmbT6DyrwYkH/terminal-bench-leaderboard-rankings-luck-or-skill"/>
+    <id>https://www.lesswrong.com/posts/GiPmLmmbT6DyrwYkH/terminal-bench-leaderboard-rankings-luck-or-skill</id>
+    <updated>2026-08-05T21:26:27.000Z</updated>
+    <author><name>LessWrong</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>Terminal-Bench 2.0, one of the best agent benchmarks, runs agents on 89 tasks with at least 5 tries per task. The aggregate rankings are then published along with a confidence interval. What I wanted to know, however, was whether or not the point gap between any two given agents represented a statistically significant </summary>
   </entry>
 </feed>
