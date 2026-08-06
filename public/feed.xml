@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-06T06:40:26.731Z</updated>
+  <updated>2026-08-06T09:46:02.969Z</updated>
   <entry>
     <title>Meta says its AI model hacked into another company during testing</title>
     <link href="https://www.theguardian.com/technology/2026/aug/05/meta-ai-model-hack-training"/>
@@ -16,13 +16,31 @@
     <summary>Company is the third to report such an incident after Anthropic and OpenAI reported breaches during training Meta said on Wednesday that one of its AI models hacked ⁠another company during cybersecurity testing, after an error by its testing partner gave the model unintended internet access. The incident adds to a ⁠gro — Also covered by: Reuters AI (Google News)</summary>
   </entry>
   <entry>
-    <title>llama.cpp b10290 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10290"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10290</id>
-    <updated>2026-08-06T01:35:47.000Z</updated>
+    <title>llama.cpp b10293 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10293"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10293</id>
+    <updated>2026-08-06T09:14:26.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>mtmd/ggml: add ggml_build_forward_order ( #26649 ) ggml: add ggml_build_forward_order ggml_build_forward_expand marks the tensor and all its ancestors for compute, so using it as a pure ordering hint (keeping q, k and v together) defeats ggml_build_forward_select: the unselected branch is forced to run with inputs that — Also covered by: ggml-org/whisper.cpp</summary>
+    <summary>ci : onboard AMD ROCm CI with gfx1151 fixes ( #26544 ) ci: prepare for amd rocm ci Signed-off-by: Aaron Teo aaron.teo1@ibm.com ci: fix editorconfig-checker Signed-off-by: Aaron Teo aaron.teo1@ibm.com ci: fix device not recognised Signed-off-by: Aaron Teo aaron.teo1@ibm.com ci: rename gpu-amd to gpu-hip Signed-off-by: A — Also covered by: ggml-org/whisper.cpp</summary>
+  </entry>
+  <entry>
+    <title>OpenAI says Apple’s trade secrets lawsuit aims to stop employees leaving</title>
+    <link href="https://www.ft.com/content/d9e9cbbe-8443-4c10-821a-1834e4965236?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/d9e9cbbe-8443-4c10-821a-1834e4965236?syn-25a6b1a6=1</id>
+    <updated>2026-08-06T06:09:06.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>ChatGPT maker seeks to dismiss blockbuster case as it prepares to launch its own AI device</summary>
+  </entry>
+  <entry>
+    <title>Ransom Cartel Creator Gets 16 Years in Prison for Operating Ransomware-as-a-Service</title>
+    <link href="https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html"/>
+    <id>https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html</id>
+    <updated>2026-08-06T07:19:54.000Z</updated>
+    <author><name>The Hacker News</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>A federal judge in Alexandria, Virginia, sentenced Maksim Silnikau to 16 years in prison on August 5 for creating and running Ransom Cartel, the ransomware-as-a-service operation he stood up in 2021. Between 2021 and 2023, Ransom Cartel conspirators attacked at least 18 companies, including firms in California, New Yor — Also covered by: BleepingComputer</summary>
   </entry>
   <entry>
     <title>No Perfect Fix for AI Browser Prompt Injection Flaws - Dark Reading</title>
@@ -34,15 +52,6 @@
     <summary>No Perfect Fix for AI Browser Prompt Injection Flaws Dark Reading — Also covered by: Dark Reading</summary>
   </entry>
   <entry>
-    <title>Qarakal Quantum Unveils Pangaea Architecture for Modular Quantum Computing</title>
-    <link href="https://thequantuminsider.com/2026/08/05/qarakal-quantum-modular-architecture-scaling-quantum-computers/"/>
-    <id>https://thequantuminsider.com/2026/08/05/qarakal-quantum-modular-architecture-scaling-quantum-computers/</id>
-    <updated>2026-08-05T13:41:52.000Z</updated>
-    <author><name>The Quantum Insider</name></author>
-    <category term="QUANTUM"/>
-    <summary>Insider Brief Press release – Quantum startup Qarakal Quantum today announced its Pangaea architecture for breakthrough modularity and scalability that shortens the path to commercially viable, industry-scale quantum computing. Leveraging its IP-protected quantum bus technology, Qarakal Quantum constructs quantum compu — Also covered by: Quantum Computing Report</summary>
-  </entry>
-  <entry>
     <title>ollama v0.32.6 released</title>
     <link href="https://github.com/ollama/ollama/releases/tag/v0.32.6"/>
     <id>https://github.com/ollama/ollama/releases/tag/v0.32.6</id>
@@ -52,13 +61,13 @@
     <summary>What's Changed Qwen3.5 is faster on Apple GPUs: the MLX engine now uses the model's MTP head for speculative decoding automatically /v1/chat/completions streaming now matches OpenAI's wire format: role only on the first chunk, finish_reason on its own chunk, and usage in a separate chunk with stream_options.include_usa</summary>
   </entry>
   <entry>
-    <title>PitchBook: AI voice startups raised $7B in Q1 '26, vs. $1B in Q1 '25, as OpenAI and Google bet on voice as the main interface for a new generation of AI agents (Cristina Criddle/Financial Times)</title>
-    <link href="https://www.techmeme.com/260806/p4#a260806p4"/>
-    <id>https://www.techmeme.com/260806/p4#a260806p4</id>
-    <updated>2026-08-06T05:50:01.000Z</updated>
+    <title>Filing: OpenAI says &quot;Apple should not be permitted to use a baseless and pretextual lawsuit to make up for its failures to integrate AI into its products&quot; (Megan Morrone/Axios)</title>
+    <link href="https://www.techmeme.com/260806/p8#a260806p8"/>
+    <id>https://www.techmeme.com/260806/p8#a260806p8</id>
+    <updated>2026-08-06T06:40:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Cristina Criddle / Financial Times : PitchBook: AI voice startups raised $7B in Q1 '26, vs. $1B in Q1 '25, as OpenAI and Google bet on voice as the main interface for a new generation of AI agents — OpenAI and Google invest heavily in voice systems as main way to interact with a new generation of AI agents.</summary>
+    <summary>Megan Morrone / Axios : Filing: OpenAI says “Apple should not be permitted to use a baseless and pretextual lawsuit to make up for its failures to integrate AI into its products” — If the case survives, discovery could expose sensitive details about both companies' hiring, hardware development and data-security practic</summary>
   </entry>
   <entry>
     <title>FinProBench: Evaluating Financial AI Agents with Role-Grounded Rubrics Derived from Professional Deliverables</title>
@@ -70,15 +79,6 @@
     <summary>arXiv:2608.04077v1 Announce Type: new Abstract: Evaluating financial AI agents requires criteria aligned with real professional work. Existing rubric methods typically derive criteria from task prompts or model outputs, overlooking tacit standards visible only in practitioner deliverables. We introduce FinProBench, a b</summary>
   </entry>
   <entry>
-    <title>Manipal Health Eyes India Expansion After IPO Debut</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-06/manipal-health-eyes-india-expansion-after-ipo-debut-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-06/manipal-health-eyes-india-expansion-after-ipo-debut-video</id>
-    <updated>2026-08-06T06:35:59.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Manipal Health Enterprises says its IPO proceeds will help reduce debt and support future growth across India. On Bloomberg's 'Insight with Haslinda Amin,' Group COO Karthik Rajagopal spoke exclusively about valuation concerns, expansion plans, acquisitions and why the company remains focused on the domestic healthcare</summary>
-  </entry>
-  <entry>
     <title>Evaluating OpenAI's Privacy Filter: Cross-Lingual, Cross-Domain PII Detection Across 42 Benchmarks</title>
     <link href="https://arxiv.org/abs/2608.02616"/>
     <id>https://arxiv.org/abs/2608.02616</id>
@@ -88,13 +88,13 @@
     <summary>arXiv:2608.02616v1 Announce Type: new Abstract: We present the first independent, systematic evaluation of OpenAI's Privacy Filter (OPF), a 1.5B-parameter bidirectional PII detector, across 42 synthetic benchmarks spanning 22 languages and 5 domains. Zero-shot, OPF achieves F1=0.855 on AI4Privacy and 0.464 on SPY medic</summary>
   </entry>
   <entry>
-    <title>Meta launches Muse Code, an AI agent for large code bases</title>
-    <link href="https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/"/>
-    <id>https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/</id>
-    <updated>2026-08-05T21:21:28.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>China Launches Cybersecurity Review Into Palo Alto Networks</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-06/china-launches-cybersecurity-review-into-palo-alto-networks"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-06/china-launches-cybersecurity-review-into-palo-alto-networks</id>
+    <updated>2026-08-06T09:10:13.000Z</updated>
+    <author><name>Bloomberg Tech</name></author>
     <category term="PRODUCTS"/>
-    <summary>Meta expanded its AI coding offerings with a new agent that, it promises, can handle complex tasks with complex software.</summary>
+    <summary>China launched a formal security review into products sold by US technology firm Palo Alto Networks Inc. within the Chinese market.</summary>
   </entry>
   <entry>
     <title>MemArena: An Ego-Centric Benchmark for On-Device Agentic Personal Memory Assistants at Scale</title>
@@ -142,6 +142,24 @@
     <summary>Chinese humanoid giant Unitree Robotics is targeting a post-IPO valuation of up to $7.4 billion as it navigates sweeping US import bans and intensifying global competition.</summary>
   </entry>
   <entry>
+    <title>Why DARPA Is Turning Its Attention to Quantum Manufacturing</title>
+    <link href="https://thequantuminsider.com/2026/08/06/why-darpa-is-turning-its-attention-to-quantum-manufacturing/"/>
+    <id>https://thequantuminsider.com/2026/08/06/why-darpa-is-turning-its-attention-to-quantum-manufacturing/</id>
+    <updated>2026-08-06T08:39:38.000Z</updated>
+    <author><name>The Quantum Insider</name></author>
+    <category term="QUANTUM"/>
+    <summary>Insider Brief DARPA is shifting more of its attention from demonstrating quantum technologies in the laboratory to figuring out how to manufacture them at scale, according to a news release from the agency. The U.S. Defense Advanced Research Projects Agency this week launched It’s About Time, a new program intended to </summary>
+  </entry>
+  <entry>
+    <title>DeepSeek says it plans to implement substantial price increases across its services; V4 Flash currently costs $0.14/1M input and $0.28/1M output tokens (Bloomberg)</title>
+    <link href="https://www.techmeme.com/260806/p9#a260806p9"/>
+    <id>https://www.techmeme.com/260806/p9#a260806p9</id>
+    <updated>2026-08-06T06:45:00.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Bloomberg : DeepSeek says it plans to implement substantial price increases across its services; V4 Flash currently costs $0.14/1M input and $0.28/1M output tokens — DeepSeek plans to implement a significant price increase across its AI services, an unusual shift from the disruptive Chinese player that has put pressure</summary>
+  </entry>
+  <entry>
     <title>Google Deepmind loses both its CEO and chief scientist as Demis Hassabis and Jeff Dean step down simultaneously</title>
     <link href="https://the-decoder.com/google-deepmind-loses-both-its-ceo-and-chief-scientist-as-demis-hassabis-and-jeff-dean-step-down-simultaneously/"/>
     <id>https://the-decoder.com/google-deepmind-loses-both-its-ceo-and-chief-scientist-as-demis-hassabis-and-jeff-dean-step-down-simultaneously/</id>
@@ -151,31 +169,31 @@
     <summary>Google Deepmind is overhauling its leadership as Demis Hassabis steps back from day-to-day management to become Alphabet's chief scientist and Jeff Dean leaves Google after 27 years to launch AI startup Discovery Loop. Former Deepmind CTO Koray Kavukcuoglu will take over as Google races to close the gap with its top AI</summary>
   </entry>
   <entry>
-    <title>Mistral's open model Shieldstral matches much larger safety models at a fraction of the size</title>
-    <link href="https://the-decoder.com/mistrals-open-model-shieldstral-matches-much-larger-safety-models/"/>
-    <id>https://the-decoder.com/mistrals-open-model-shieldstral-matches-much-larger-safety-models/</id>
-    <updated>2026-08-05T16:35:07.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Mistral's new 3B Shieldstral model checks AI inputs and outputs for safety violations using natural language yes-or-no questions instead of fixed categories. It matches models seven times its size in some benchmarks. Operators can set their own criteria at runtime rather than rely on a third party's category system, an</summary>
-  </entry>
-  <entry>
-    <title>OpenAI files a motion to dismiss Apple's lawsuit accusing the AI company of stealing trade secrets, saying that the iPhone maker's allegations are meritless (Bloomberg)</title>
-    <link href="https://www.techmeme.com/260806/p7#a260806p7"/>
-    <id>https://www.techmeme.com/260806/p7#a260806p7</id>
-    <updated>2026-08-06T06:35:00.000Z</updated>
+    <title>Google centralizes its AI leadership at Mountain View in a bid to catch its rivals; Sebastian Borgeaud, who led a major AI coding effort, moved from the UK (Bloomberg)</title>
+    <link href="https://www.techmeme.com/260806/p13#a260806p13"/>
+    <id>https://www.techmeme.com/260806/p13#a260806p13</id>
+    <updated>2026-08-06T09:40:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Bloomberg : OpenAI files a motion to dismiss Apple's lawsuit accusing the AI company of stealing trade secrets, saying that the iPhone maker's allegations are meritless — OpenAI is asking a federal judge to dismiss a lawsuit filed by Apple Inc. accusing the artificial intelligence company of stealing trade secrets …</summary>
+    <summary>Bloomberg : Google centralizes its AI leadership at Mountain View in a bid to catch its rivals; Sebastian Borgeaud, who led a major AI coding effort, moved from the UK — Alphabet Inc.'s Google is concentrating its artificial intelligence leadership at its Mountain View, California …</summary>
   </entry>
   <entry>
-    <title>An interview with TMTG interim CEO Kevin McGurn on the paid API for high-speed access to Truth Social posts, the pending $6B TMTG-TAE merger, and more (Daniel Thomas/Financial Times)</title>
-    <link href="https://www.techmeme.com/260806/p6#a260806p6"/>
-    <id>https://www.techmeme.com/260806/p6#a260806p6</id>
-    <updated>2026-08-06T06:10:02.000Z</updated>
+    <title>Nintendo reports Q1 revenue down 10% YoY to ~$3.3B, above $2.8B est., net income of ~$933M, above ~$495M est., and Switch 2 sales down 34.4% YoY to 3.82M (Jenny Lee/CNBC)</title>
+    <link href="https://www.techmeme.com/260806/p12#a260806p12"/>
+    <id>https://www.techmeme.com/260806/p12#a260806p12</id>
+    <updated>2026-08-06T09:25:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Daniel Thomas / Financial Times : An interview with TMTG interim CEO Kevin McGurn on the paid API for high-speed access to Truth Social posts, the pending $6B TMTG-TAE merger, and more — Head of Trump Media &amp; Technology Group is overseeing a push to charge for high-speed access to announcements</summary>
+    <summary>Jenny Lee / CNBC : Nintendo reports Q1 revenue down 10% YoY to ~$3.3B, above $2.8B est., net income of ~$933M, above ~$495M est., and Switch 2 sales down 34.4% YoY to 3.82M — Choose CNBC as your preferred source on Google and never miss a moment from the most trusted name in business news.</summary>
+  </entry>
+  <entry>
+    <title>i just spent weeks rewriting my webUI from scratch, getting rid of all AI slop within the codebase and switching it over to a proper lightweight framework (alpine.js). i am now comfortable suggesting it as an alternative to openwebUI, librechat and the like! it is made for local models</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vgx9m5/i_just_spent_weeks_rewriting_my_webui_from/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vgx9m5/i_just_spent_weeks_rewriting_my_webui_from/</id>
+    <updated>2026-08-06T07:24:13.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>[Fully open source under GPL3, made from the ground up for use with local models, no subscriptions, no corporate backing] When i first started this, it was meant to be a fully lightweight, extremely modular alternative to openclaw, hermes and the like , and it still is! But i noticed people especially like the webUI, t</summary>
   </entry>
   <entry>
     <title>FinPerMA: A Theory-Informed, Event-Grounded Personalized-Memory Benchmark for LLM Agents</title>
@@ -187,22 +205,22 @@
     <summary>arXiv:2608.04095v1 Announce Type: new Abstract: Large language model (LLM) agents are increasingly used as personalized assistants in high-stakes domains such as financial advising, yet it remains unclear whether they can maintain and update an individualized user model over long horizons. Existing personalized-memory </summary>
   </entry>
   <entry>
-    <title>Commerzbank CEO on Results, UniCredit, Buybacks</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-06/commerzbank-ceo-on-results-unicredit-buybacks-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-06/commerzbank-ceo-on-results-unicredit-buybacks-video</id>
-    <updated>2026-08-06T06:23:37.000Z</updated>
+    <title>Manipal Health Eyes India Expansion After IPO Debut</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-06/manipal-health-eyes-india-expansion-after-ipo-debut-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-06/manipal-health-eyes-india-expansion-after-ipo-debut-video</id>
+    <updated>2026-08-06T06:35:59.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>&quot;We have seen a record net income for the first half of the year,&quot; Commerzbank Chief Executive Officer Bettina Orlopp says, adding that results show the bank is able to deliver &quot;despite all turbulences there might be out there.&quot; She also comments on the relationship with UniCredit, buybacks and shareholder value. (Sour</summary>
+    <summary>Manipal Health Enterprises says its IPO proceeds will help reduce debt and support future growth across India. On Bloomberg's 'Insight with Haslinda Amin,' Group COO Karthik Rajagopal spoke exclusively about valuation concerns, expansion plans, acquisitions and why the company remains focused on the domestic healthcare</summary>
   </entry>
   <entry>
-    <title>PB Fintech Won't Tap Equity Market in a Hurry: Chairman</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-06/pb-fintech-won-t-tap-equity-market-in-a-hurry-chairman-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-06/pb-fintech-won-t-tap-equity-market-in-a-hurry-chairman-video</id>
-    <updated>2026-08-06T06:09:12.000Z</updated>
+    <title>SoftBank Books $8.5 Billion Gain on Intel to Beat Estimates</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-06/softbank-s-profit-beats-expectations-with-boost-from-chip-bets"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-06/softbank-s-profit-beats-expectations-with-boost-from-chip-bets</id>
+    <updated>2026-08-06T06:35:47.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Yashish Dahiya, Chairman &amp; Group CEO of PB Fintech, discusses the company's earnings after it reported a 92% jump in first quarter net income. He also said the company will not return to the equity market to raise money in a hurry after it cancelled a planned share sale in February. He spoke exclusively on Bloomberg's </summary>
+    <summary>SoftBank Group Corp. reported a smaller-than-expected decline in quarterly net income, lifted by a big boost from its stake in Intel Corp. while it awaits an OpenAI listing.</summary>
   </entry>
   <entry>
     <title>Preferred, Not Safer: Pairwise Preference Is a Poor Proxy for Clinical Safety</title>
@@ -214,13 +232,13 @@
     <summary>arXiv:2608.02617v1 Announce Type: new Abstract: We evaluate whether clinician pairwise preferences provide a reliable signal of clinical safety in large language model (LLM) evaluation using expert feedback from MOOVE (Massive Open Online Validation and Evaluation), a clinician-led platform collecting blinded pairwise </summary>
   </entry>
   <entry>
-    <title>Meta launches new AI coding tool powered by Muse Spark 1.2 - Reuters</title>
-    <link href="https://news.google.com/rss/articles/CBMipwFBVV95cUxOMnJqb2s0a2s3WWxWTC1vNWdRNXc5eDBQRnNlUDBnekl4cXR6RG1hcUZ3cWlOMzFtTTNacUQ1cE01dWFpQ0NuMlpvOXJJalFmcFUyWEtaRjJlbVp1djJQWnhNdnJra2RId1B5WHhicUF6a2pVdUZ1M2tubElIbHhsVnFvX1owXzAtYzRaalpKZVkyNFRYU2ZyX3N4ai0xUHE1SkNWLTRzQQ?oc=5"/>
-    <id>https://news.google.com/rss/articles/CBMipwFBVV95cUxOMnJqb2s0a2s3WWxWTC1vNWdRNXc5eDBQRnNlUDBnekl4cXR6RG1hcUZ3cWlOMzFtTTNacUQ1cE01dWFpQ0NuMlpvOXJJalFmcFUyWEtaRjJlbVp1djJQWnhNdnJra2RId1B5WHhicUF6a2pVdUZ1M2tubElIbHhsVnFvX1owXzAtYzRaalpKZVkyNFRYU2ZyX3N4ai0xUHE1SkNWLTRzQQ?oc=5</id>
-    <updated>2026-08-05T21:31:51.000Z</updated>
-    <author><name>Reuters AI (Google News)</name></author>
+    <title>Meta launches Muse Code, an AI agent for large code bases</title>
+    <link href="https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/"/>
+    <id>https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/</id>
+    <updated>2026-08-05T21:21:28.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="PRODUCTS"/>
-    <summary>Meta launches new AI coding tool powered by Muse Spark 1.2 Reuters</summary>
+    <summary>Meta expanded its AI coding offerings with a new agent that, it promises, can handle complex tasks with complex software.</summary>
   </entry>
   <entry>
     <title>Run production AI agents in n8n with Amazon Bedrock AgentCore harness</title>
@@ -232,48 +250,30 @@
     <summary>Amazon Bedrock AgentCore harness is now generally available. Learn how to add it as an agent step in n8n workflows using a new open-source community node, and build agents with persistent memory, real tools, code execution, and VPC isolation — all from the n8n editor with no infrastructure or agent code.</summary>
   </entry>
   <entry>
-    <title>A Long-Run Persistence Theory for AI Systems under the Redundancy-Adjusted Artificial Age Score (AAS)</title>
-    <link href="https://arxiv.org/abs/2608.04012"/>
-    <id>https://arxiv.org/abs/2608.04012</id>
-    <updated>2026-08-06T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
-    <category term="HARDWARE"/>
-    <summary>arXiv:2608.04012v1 Announce Type: new Abstract: Artificial intelligence systems are increasingly expected to operate over repeated cycles of interaction, adaptation, and update rather than through isolated one-shot outputs. This raises a fundamental theoretical question: can an AI system persist indefinitely without in</summary>
-  </entry>
-  <entry>
-    <title>Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports</title>
-    <link href="https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html"/>
-    <id>https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html</id>
-    <updated>2026-08-05T15:14:05.000Z</updated>
-    <author><name>The Hacker News</name></author>
+    <title>Prime Intellect Releases Prime Agent: An Open-Source RLM Harness Where Sub-Agents Are Function Calls Inside Persistent IPython Kernel</title>
+    <link href="https://www.marktechpost.com/2026/08/06/prime-intellect-releases-prime-agent/"/>
+    <id>https://www.marktechpost.com/2026/08/06/prime-intellect-releases-prime-agent/</id>
+    <updated>2026-08-06T09:00:08.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>Two security flaws in Paperclip could let attackers execute commands on a network server or a developer's computer. Paperclip is an open-source control plane for teams of artificial intelligence (AI) agents, and both paths rely on importing a malicious agent and starting it. A third flaw could expose sensitive data and</summary>
+    <summary>Prime Intellect has open-sourced Prime Agent, a coding and research harness built on two abstractions: the Recursive Language Model, which turns sub-agent calls into functions inside a persistent IPython kernel, and the Continual Harness, which lets the agent edit its own prompts, skills, memory, and sub-agent specs mi</summary>
   </entry>
   <entry>
-    <title>Sure seems like Fenix Flexin used AI music generator Treblo</title>
-    <link href="https://www.theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo"/>
-    <id>https://www.theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo</id>
-    <updated>2026-08-05T16:57:25.000Z</updated>
-    <author><name>The Verge AI</name></author>
+    <title>Introducing Shieldstral.</title>
+    <link href="https://mistral.ai/news/shieldstral/"/>
+    <id>https://mistral.ai/news/shieldstral/</id>
+    <updated>2026-08-04T12:00:26.000Z</updated>
+    <author><name>Mistral AI</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>We were pretty sure that Fenix Flexin's &quot;Rubberz&quot; was made using AI, but musician Medasin was confident that it was made using Treblo specifically. Now the company and a new detection tool seem to confirm it. On Monday, the company announced the open-source Treblo AI Music Classifier, which detects when a song was gene</summary>
+    <summary>Shieldstral introduces a 3B open-weights multimodal safety classifier that outperforms models up to 7x its size.</summary>
   </entry>
   <entry>
-    <title>Fundamental Uncertainty Essay Contestants</title>
-    <link href="https://www.lesswrong.com/posts/5mEEEj3WkQErQX4Q6/fundamental-uncertainty-essay-contestants"/>
-    <id>https://www.lesswrong.com/posts/5mEEEj3WkQErQX4Q6/fundamental-uncertainty-essay-contestants</id>
-    <updated>2026-08-05T23:01:24.000Z</updated>
+    <title>Reward is hyperstitional information</title>
+    <link href="https://www.lesswrong.com/posts/z7DBBn9RaDyKJRidg/reward-is-hyperstitional-information"/>
+    <id>https://www.lesswrong.com/posts/z7DBBn9RaDyKJRidg/reward-is-hyperstitional-information</id>
+    <updated>2026-08-06T08:05:27.000Z</updated>
     <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Thanks to everyone who submitted an essay to the contest ( LW mirror ). Links to all the entrants are below. I’m reviewing them now and aim to announce the winners on or about August 15th. If you thought you submitted an entry and don’t see it listed below, let me know immediately! Everything Adds Up to Normality by Av</summary>
-  </entry>
-  <entry>
-    <title>Terminal-Bench Leaderboard Rankings: Luck or Skill?</title>
-    <link href="https://www.lesswrong.com/posts/GiPmLmmbT6DyrwYkH/terminal-bench-leaderboard-rankings-luck-or-skill"/>
-    <id>https://www.lesswrong.com/posts/GiPmLmmbT6DyrwYkH/terminal-bench-leaderboard-rankings-luck-or-skill</id>
-    <updated>2026-08-05T21:26:27.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>Terminal-Bench 2.0, one of the best agent benchmarks, runs agents on 89 tasks with at least 5 tries per task. The aggregate rankings are then published along with a confidence interval. What I wanted to know, however, was whether or not the point gap between any two given agents represented a statistically significant </summary>
+    <summary>(This article broadly explains mirror ascent, continuous Bayesian inference and information geometry in full. Title refers to the result in section 3.) The logarithmic scoring rule mjx-container[jax=&quot;CHTML&quot;] { line-height: 0; } mjx-container [space=&quot;1&quot;] { margin-left: .111em; } mjx-container [space=&quot;2&quot;] { margin-left: </summary>
   </entry>
 </feed>
