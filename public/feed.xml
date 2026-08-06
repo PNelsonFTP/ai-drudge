@@ -5,24 +5,42 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-05T23:11:18.383Z</updated>
+  <updated>2026-08-06T03:28:08.906Z</updated>
   <entry>
-    <title>llama.cpp b10289 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10289"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10289</id>
-    <updated>2026-08-05T20:09:39.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>server: harden the file_glob_search directory walk ( #26626 ) server: don't walk Windows junctions in file_glob_search std::filesystem reports a junction as a plain directory, so the symlink guard misses it and a junction pointing back at an ancestor is walked until the path length gives out read the reparse tag and tr — Also covered by: ggml-org/whisper.cpp</summary>
+    <title>Meta says its AI model hacked into another company during testing</title>
+    <link href="https://www.theguardian.com/technology/2026/aug/05/meta-ai-model-hack-training"/>
+    <id>https://www.theguardian.com/technology/2026/aug/05/meta-ai-model-hack-training</id>
+    <updated>2026-08-06T01:27:44.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Company is the third to report such an incident after Anthropic and OpenAI reported breaches during training Meta said on Wednesday that one of its AI models hacked ⁠another company during cybersecurity testing, after an error by its testing partner gave the model unintended internet access. The incident adds to a ⁠gro — Also covered by: Reuters AI (Google News)</summary>
   </entry>
   <entry>
-    <title>qwen-code v0.21.6 released</title>
-    <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.21.6"/>
-    <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.21.6</id>
-    <updated>2026-08-05T16:06:32.000Z</updated>
-    <author><name>QwenLM/qwen-code</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Highlights Added experimental native Live Voice support to WebShell on macOS for real-time audio interactions via a global shortcut. ( #7859 ) Web Shell now keeps conversation turns expanded during active background subagent tasks and allows immediate execution of read-only info commands. ( #8413 , #8496 ) Restored des — Also covered by: QwenLM/qwen-code, anthropics/claude-code</summary>
+    <title>llama.cpp b10290 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10290"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10290</id>
+    <updated>2026-08-06T01:35:47.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>mtmd/ggml: add ggml_build_forward_order ( #26649 ) ggml: add ggml_build_forward_order ggml_build_forward_expand marks the tensor and all its ancestors for compute, so using it as a pure ordering hint (keeping q, k and v together) defeats ggml_build_forward_select: the unselected branch is forced to run with inputs that — Also covered by: ggml-org/whisper.cpp</summary>
+  </entry>
+  <entry>
+    <title>Big US hedge funds targeted by wave of cyber attacks</title>
+    <link href="https://www.ft.com/content/1fcca000-d9ac-4b3b-9d31-2fef0d1f55f3?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/1fcca000-d9ac-4b3b-9d31-2fef0d1f55f3?syn-25a6b1a6=1</id>
+    <updated>2026-08-05T19:47:48.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Point72 and Citadel among firms hit by audio phishing schemes</summary>
+  </entry>
+  <entry>
+    <title>No Perfect Fix for AI Browser Prompt Injection Flaws - Dark Reading</title>
+    <link href="https://news.google.com/rss/articles/CBMingFBVV95cUxPWWw3SjRleFBlUU5uZWJ1cWxfUW10WTZOemVzVUNCMVE4azVDU3ZyWEMzSk1DT21pTU5qMWhLa1ZNc2tSMnpkUGN2XzVxcDJHR0pOLWVjZjFqczdTZzh4RnBjQk81bXVsa1FhVmQwOHRaSU9rbTJUMXJjc1pqVHItenpUYXRJaFp3UlBjMmtJOVJhT0VMSENYMEpPMFhiZw?oc=5"/>
+    <id>https://news.google.com/rss/articles/CBMingFBVV95cUxPWWw3SjRleFBlUU5uZWJ1cWxfUW10WTZOemVzVUNCMVE4azVDU3ZyWEMzSk1DT21pTU5qMWhLa1ZNc2tSMnpkUGN2XzVxcDJHR0pOLWVjZjFqczdTZzh4RnBjQk81bXVsa1FhVmQwOHRaSU9rbTJUMXJjc1pqVHItenpUYXRJaFp3UlBjMmtJOVJhT0VMSENYMEpPMFhiZw?oc=5</id>
+    <updated>2026-08-05T23:33:44.000Z</updated>
+    <author><name>GN: Prompt Injection</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>No Perfect Fix for AI Browser Prompt Injection Flaws Dark Reading — Also covered by: Dark Reading</summary>
   </entry>
   <entry>
     <title>Qarakal Quantum Unveils Pangaea Architecture for Modular Quantum Computing</title>
@@ -43,31 +61,22 @@
     <summary>What's Changed Qwen3.5 is faster on Apple GPUs: the MLX engine now uses the model's MTP head for speculative decoding automatically /v1/chat/completions streaming now matches OpenAI's wire format: role only on the first chunk, finish_reason on its own chunk, and usage in a separate chunk with stream_options.include_usa</summary>
   </entry>
   <entry>
-    <title>Source: Muse Spark 1.1 model breached a company's systems during cybersecurity testing; Meta says evaluation partner Irregular caused a sandbox misconfiguration (Jyoti Mann/The Information)</title>
-    <link href="https://www.techmeme.com/260805/p45#a260805p45"/>
-    <id>https://www.techmeme.com/260805/p45#a260805p45</id>
-    <updated>2026-08-05T22:50:02.000Z</updated>
+    <title>Cloudflare open sources a new version of Cloudflare OS, an AI agentic workspace for enterprises running on a company's account and accessible via browser (Kyt Dotson/SiliconANGLE)</title>
+    <link href="https://www.techmeme.com/260805/p54#a260805p54"/>
+    <id>https://www.techmeme.com/260805/p54#a260805p54</id>
+    <updated>2026-08-06T03:10:02.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Jyoti Mann / The Information : Source: Muse Spark 1.1 model breached a company's systems during cybersecurity testing; Meta says evaluation partner Irregular caused a sandbox misconfiguration — A Meta Platforms artificial intelligence model accessed the internet during cybersecurity testing and hacked into another comp</summary>
+    <summary>Kyt Dotson / SiliconANGLE : Cloudflare open sources a new version of Cloudflare OS, an AI agentic workspace for enterprises running on a company's account and accessible via browser — Cloudflare Inc. today announced the launch of Cloudflare OS, an open-source artificial intelligence agentic workspace available through </summary>
   </entry>
   <entry>
-    <title>Meta launches Muse Code, an AI agent for large code bases</title>
-    <link href="https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/"/>
-    <id>https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/</id>
-    <updated>2026-08-05T21:21:28.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Meta expanded its AI coding offerings with a new agent that, it promises, can handle complex tasks with complex software.</summary>
-  </entry>
-  <entry>
-    <title>Japan’s Kishida Sees Growth as Game Changer for Yen</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-05/japan-s-kishida-sees-growth-as-game-changer-for-yen"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-05/japan-s-kishida-sees-growth-as-game-changer-for-yen</id>
-    <updated>2026-08-05T23:00:11.000Z</updated>
+    <title>Bankers Kept in Dark on LIC’s Unusually Fast $3.3 Billion Deal</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-06/bankers-kept-in-dark-on-lic-s-unusually-fast-3-3-billion-deal"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-06/bankers-kept-in-dark-on-lic-s-unusually-fast-3-3-billion-deal</id>
+    <updated>2026-08-06T01:00:00.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Joint US-Japan intervention has helped the yen for now, but isn’t a game-changer for the currency or the economy, Japan’s former Prime Minister Fumio Kishida said in a Bloomberg TV interview in Tokyo. He touted a ¥370 trillion ($2.3 trillion) growth strategy as the long-term vision that will transform Japan’s fortunes.</summary>
+    <summary>India’s plan to sell more shares in its insurance giant was no secret. But the government surprised the market by how much it raised and the pace of the deal.</summary>
   </entry>
   <entry>
     <title>Evaluating OpenAI's Privacy Filter: Cross-Lingual, Cross-Domain PII Detection Across 42 Benchmarks</title>
@@ -79,13 +88,13 @@
     <summary>arXiv:2608.02616v1 Announce Type: new Abstract: We present the first independent, systematic evaluation of OpenAI's Privacy Filter (OPF), a 1.5B-parameter bidirectional PII detector, across 42 synthetic benchmarks spanning 22 languages and 5 domains. Zero-shot, OPF achieves F1=0.855 on AI4Privacy and 0.464 on SPY medic</summary>
   </entry>
   <entry>
-    <title>Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports</title>
-    <link href="https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html"/>
-    <id>https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html</id>
-    <updated>2026-08-05T15:14:05.000Z</updated>
-    <author><name>The Hacker News</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Two security flaws in Paperclip could let attackers execute commands on a network server or a developer's computer. Paperclip is an open-source control plane for teams of artificial intelligence (AI) agents, and both paths rely on importing a malicious agent and starting it. A third flaw could expose sensitive data and</summary>
+    <title>Meta launches Muse Code, an AI agent for large code bases</title>
+    <link href="https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/"/>
+    <id>https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/</id>
+    <updated>2026-08-05T21:21:28.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Meta expanded its AI coding offerings with a new agent that, it promises, can handle complex tasks with complex software.</summary>
   </entry>
   <entry>
     <title>What the latest rogue AI incidents should teach us</title>
@@ -97,31 +106,31 @@
     <summary>Hacking, creating fake identities and trying to socially engineer real people could be just the beginning if things don't change fast</summary>
   </entry>
   <entry>
-    <title>Anthropic AI agent faked identities, phished real developers in UK government hacking test</title>
-    <link href="https://therecord.media/anthropic-ai-hacking-uk"/>
-    <id>https://therecord.media/anthropic-ai-hacking-uk</id>
-    <updated>2026-08-05T13:00:00.000Z</updated>
-    <author><name>The Record</name></author>
-    <category term="AI SECURITY"/>
-    <summary>An artificial intelligence agent built by Anthropic independently planted malicious code in a real software project and sent phishing emails to developers during a U.K. government security evaluation, according to Britain’s AI Security Institute.</summary>
-  </entry>
-  <entry>
-    <title>langchain v1.5.4 released</title>
-    <link href="https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.4"/>
-    <id>https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.4</id>
-    <updated>2026-08-05T19:03:35.000Z</updated>
-    <author><name>langchain-ai/langchain</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>Changes since langchain-anthropic==1.5.3 release(anthropic): 1.5.4 ( #39277 ) fix(anthropic): handle tool schemas with unsupported top-level composition ( #39273 ) chore: bump the minor-and-patch group across 3 directories with 7 updates ( #39187 ) fix(anthropic): preserve caller tool_choice ( #39206 ) feat(anthropic):</summary>
-  </entry>
-  <entry>
-    <title>One-shotting a Raccoon Heist game using Claude Fable 5</title>
-    <link href="https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-everything"/>
-    <id>https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-everything</id>
-    <updated>2026-08-05T19:42:38.000Z</updated>
+    <title>Incident Report: unsanctioned agent behaviour during cyber testing</title>
+    <link href="https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything"/>
+    <id>https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything</id>
+    <updated>2026-08-05T23:32:06.000Z</updated>
     <author><name>Simon Willison</name></author>
-    <category term="ANALYSIS"/>
-    <summary>Back in 2024 I tweeted screenshots of a game concept generated by GPT-3 and some concept &quot;art&quot; created using DALL-E. Today, on the fourth anniversary of that tweet, I decided to see if Claude Fable 5 (running in Claude Code for web ) could build the entire game from the content of that tweet. It did a pretty good job o</summary>
+    <category term="AI SECURITY"/>
+    <summary>Incident Report: unsanctioned agent behaviour during cyber testing It happened again . This time it was the UK government's AI Security Institute who accidentally attacked other companies while running an evaluation with models with the safety filters turned off. From their technical paper (PDF): During a cyber evaluat</summary>
+  </entry>
+  <entry>
+    <title>OpenAI says the Hugging Face breach involved AI agents creating an internal message board, unnoticed by humans, where they shared exploits and planned the hack (Lily Hay Newman/Wired)</title>
+    <link href="https://www.techmeme.com/260805/p51#a260805p51"/>
+    <id>https://www.techmeme.com/260805/p51#a260805p51</id>
+    <updated>2026-08-06T01:45:00.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>Lily Hay Newman / Wired : OpenAI says the Hugging Face breach involved AI agents creating an internal message board, unnoticed by humans, where they shared exploits and planned the hack — At the Black Hat security conference, the AI giant revealed new details about how its agents went rogue, hacked several other compan</summary>
+  </entry>
+  <entry>
+    <title>Sapiom, which helps businesses build, ship, and scale AI agents and lower token costs, raised a $35M Series A led by Dragonfly, taking its total funding to $50M (Reed Albergotti/Semafor)</title>
+    <link href="https://www.techmeme.com/260805/p50#a260805p50"/>
+    <id>https://www.techmeme.com/260805/p50#a260805p50</id>
+    <updated>2026-08-06T00:55:00.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>Reed Albergotti / Semafor : Sapiom, which helps businesses build, ship, and scale AI agents and lower token costs, raised a $35M Series A led by Dragonfly, taking its total funding to $50M — THE SCOOP — Quintessential San Francisco AI startup Polsia employs nobody and operates swarms of AI agents to help run other busi</summary>
   </entry>
   <entry>
     <title>Unitree Kicks Off STAR Market IPO Amid Deepening US-China Robotics Rivalry</title>
@@ -131,15 +140,6 @@
     <author><name>Humanoids Daily</name></author>
     <category term="ROBOTICS"/>
     <summary>Chinese humanoid giant Unitree Robotics is targeting a post-IPO valuation of up to $7.4 billion as it navigates sweeping US import bans and intensifying global competition.</summary>
-  </entry>
-  <entry>
-    <title>PsiQuantum CEO on Quantum Computing Progress, Chip Space</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-05/psiquantum-ceo-on-quantum-computing-progress-chip-space-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-05/psiquantum-ceo-on-quantum-computing-progress-chip-space-video</id>
-    <updated>2026-08-05T21:27:40.000Z</updated>
-    <author><name>Bloomberg Tech</name></author>
-    <category term="QUANTUM"/>
-    <summary>Victor Peng, CEO of PsiQuantum, detailed the company's unique approach to quantum computing, emphasizing their use of photons as qubits and their deep expertise in photonics. He explained that their architecture inherently addresses challenges such as photon loss and bit flips through built-in error correction, highlig</summary>
   </entry>
   <entry>
     <title>Google Deepmind loses both its CEO and chief scientist as Demis Hassabis and Jeff Dean step down simultaneously</title>
@@ -160,76 +160,58 @@
     <summary>Mistral's new 3B Shieldstral model checks AI inputs and outputs for safety violations using natural language yes-or-no questions instead of fixed categories. It matches models seven times its size in some benchmarks. Operators can set their own criteria at runtime rather than rely on a third party's category system, an</summary>
   </entry>
   <entry>
-    <title>Big shake-up in Google’s AI team as DeepMind chief executive steps down</title>
-    <link href="https://www.theguardian.com/technology/2026/aug/05/big-shake-up-in-googles-ai-team-as-deepmind-chief-executive-steps-down"/>
-    <id>https://www.theguardian.com/technology/2026/aug/05/big-shake-up-in-googles-ai-team-as-deepmind-chief-executive-steps-down</id>
-    <updated>2026-08-05T22:23:46.000Z</updated>
-    <author><name>The Guardian AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Two senior engineers are leaving company to launch startup amid fears Google is falling behind in AI race Sir Demis Hassabis is stepping down as chief executive of Google DeepMind, in a leadership overhaul of the UK-based AI research lab. Hassabis, a Nobel prize recipient , is leaving his main managerial role to become</summary>
-  </entry>
-  <entry>
-    <title>Disappointing LocalLLM Results. Am I doing something wrong? Is Tic-Tac-Toe that hard?</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vgl5uq/disappointing_localllm_results_am_i_doing/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vgl5uq/disappointing_localllm_results_am_i_doing/</id>
-    <updated>2026-08-05T21:49:47.000Z</updated>
+    <title>Best Coding LLM with 5090. Stingy Claude</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1vgs40v/best_coding_llm_with_5090_stingy_claude/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1vgs40v/best_coding_llm_with_5090_stingy_claude/</id>
+    <updated>2026-08-06T02:51:50.000Z</updated>
     <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>I have been trying to test out Claude Code using local models this week, and while I am admittedly very new to Claude Code, AI, etc., the results have been quite disappointing in terms of actual agentic coding. I have a 4070 TI Super and have been testing Claude Code through Ollama using both gemma4:12b and qwen3.5:9b </summary>
+    <summary>What is the best model and parameters I can run locally for coding purposes on a 5090? Plenty of other threads about it. Feeling like claude and anthropic have gotten stingy (or my apps just gotten massive). $100/month for pro plan and developing a SaaS app for mortgage with a huge relational databasing, CRM, email fea</summary>
   </entry>
   <entry>
-    <title>Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders</title>
-    <link href="https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/"/>
-    <id>https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/</id>
-    <updated>2026-08-05T20:05:00.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>The serial entrepreneur joins the e-commerce company as CPO to lead its AI agents.</summary>
-  </entry>
-  <entry>
-    <title>Liechtenstein’s LGT Aims to Expand its Private Banking in Japan</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-05/liechtenstein-s-lgt-aims-to-expand-its-private-banking-in-japan"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-05/liechtenstein-s-lgt-aims-to-expand-its-private-banking-in-japan</id>
-    <updated>2026-08-05T23:00:00.000Z</updated>
+    <title>China Steel Group Says Push for Yuan-Pricing Would Help Iron Ore</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-06/china-steel-group-says-push-for-yuan-pricing-would-help-iron-ore"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-06/china-steel-group-says-push-for-yuan-pricing-would-help-iron-ore</id>
+    <updated>2026-08-06T02:58:49.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>LGT, a private bank owned by the Princely House of Liechtenstein, is looking to expand in Japan, betting that it can capture a share of the rising wealth in a market that has historically proved difficult for foreign private banks.</summary>
+    <summary>China’s main steel-industry group called for greater use of yuan-denominated index pricing in the iron ore market, saying such a shift would better reflect supply and demand in the top user of the commodity.</summary>
   </entry>
   <entry>
-    <title>China’s Cheap AI Is Shifting Investors’ Focus to Internet Stocks</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-05/china-s-cheap-ai-is-shifting-investors-focus-to-internet-stocks"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-05/china-s-cheap-ai-is-shifting-investors-focus-to-internet-stocks</id>
-    <updated>2026-08-05T23:00:00.000Z</updated>
+    <title>Traders in India Dial Back October Rate-Hike Bets After Dovish RBI Speak</title>
+    <link href="https://www.bloomberg.com/news/newsletters/2026-08-06/traders-in-india-dial-back-october-rate-hike-bets-after-dovish-rbi-speak"/>
+    <id>https://www.bloomberg.com/news/newsletters/2026-08-06/traders-in-india-dial-back-october-rate-hike-bets-after-dovish-rbi-speak</id>
+    <updated>2026-08-06T02:37:08.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>China’s rapid progress in low-cost artificial intelligence is strengthening the investment case for the country’s internet giants after years in the shadow of chipmakers, market participants say.</summary>
+    <summary>The earliest that the market is now anticipating a rate hike is December.</summary>
   </entry>
   <entry>
-    <title>CoT-Core: Accelerating LLM Evaluation via CoT-Aware Coreset Selection</title>
-    <link href="https://arxiv.org/abs/2608.00014"/>
-    <id>https://arxiv.org/abs/2608.00014</id>
+    <title>Preferred, Not Safer: Pairwise Preference Is a Poor Proxy for Clinical Safety</title>
+    <link href="https://arxiv.org/abs/2608.02617"/>
+    <id>https://arxiv.org/abs/2608.02617</id>
     <updated>2026-08-05T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
+    <author><name>arXiv cs.CL</name></author>
     <category term="RESEARCH"/>
-    <summary>arXiv:2608.00014v1 Announce Type: new Abstract: Evaluating Large Language Models (LLMs) incurs prohibitive computational overhead during continuous development processes. While coreset selection accelerates evaluation, existing methods either suffer from a severe ``cold start'' bottleneck requiring massive historical l</summary>
+    <summary>arXiv:2608.02617v1 Announce Type: new Abstract: We evaluate whether clinician pairwise preferences provide a reliable signal of clinical safety in large language model (LLM) evaluation using expert feedback from MOOVE (Massive Open Online Validation and Evaluation), a clinician-led platform collecting blinded pairwise </summary>
   </entry>
   <entry>
-    <title>Meta launches new AI coding tool powered by Muse Spark 1.2 - Reuters</title>
-    <link href="https://news.google.com/rss/articles/CBMipwFBVV95cUxOMnJqb2s0a2s3WWxWTC1vNWdRNXc5eDBQRnNlUDBnekl4cXR6RG1hcUZ3cWlOMzFtTTNacUQ1cE01dWFpQ0NuMlpvOXJJalFmcFUyWEtaRjJlbVp1djJQWnhNdnJra2RId1B5WHhicUF6a2pVdUZ1M2tubElIbHhsVnFvX1owXzAtYzRaalpKZVkyNFRYU2ZyX3N4ai0xUHE1SkNWLTRzQQ?oc=5"/>
-    <id>https://news.google.com/rss/articles/CBMipwFBVV95cUxOMnJqb2s0a2s3WWxWTC1vNWdRNXc5eDBQRnNlUDBnekl4cXR6RG1hcUZ3cWlOMzFtTTNacUQ1cE01dWFpQ0NuMlpvOXJJalFmcFUyWEtaRjJlbVp1djJQWnhNdnJra2RId1B5WHhicUF6a2pVdUZ1M2tubElIbHhsVnFvX1owXzAtYzRaalpKZVkyNFRYU2ZyX3N4ai0xUHE1SkNWLTRzQQ?oc=5</id>
-    <updated>2026-08-05T21:31:51.000Z</updated>
-    <author><name>Reuters AI (Google News)</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Meta launches new AI coding tool powered by Muse Spark 1.2 Reuters</summary>
+    <title>Microsoft’s SkillOpt Shows Optimized Agent Skill Artifacts Transfer Across Model Scales and Between Codex and Claude Code Harnesses</title>
+    <link href="https://www.marktechpost.com/2026/08/05/microsoft-skillopt-agent-skill-transfer-portability/"/>
+    <id>https://www.marktechpost.com/2026/08/05/microsoft-skillopt-agent-skill-transfer-portability/</id>
+    <updated>2026-08-06T00:37:42.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="RESEARCH"/>
+    <summary>Most coverage of Microsoft's SkillOpt centers on its 52/52 result. The more consequential finding is in Section 4.3: the exported best_skill.md keeps working in environments it was never trained on. A Codex-trained SpreadsheetBench skill lifted Claude Code from 22.1 to 81.8, slightly above the 80.4 that harness reached</summary>
   </entry>
   <entry>
-    <title>Run production AI agents in n8n with Amazon Bedrock AgentCore harness</title>
-    <link href="https://aws.amazon.com/blogs/machine-learning/run-production-ai-agents-in-n8n-with-amazon-bedrock-agentcore-harness/"/>
-    <id>https://aws.amazon.com/blogs/machine-learning/run-production-ai-agents-in-n8n-with-amazon-bedrock-agentcore-harness/</id>
-    <updated>2026-08-05T18:00:57.000Z</updated>
-    <author><name>AWS ML Blog</name></author>
+    <title>Chinese Renewable Energy Giant Envision Launches Data Center</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-06/chinese-renewable-energy-giant-envision-launches-data-center"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-06/chinese-renewable-energy-giant-envision-launches-data-center</id>
+    <updated>2026-08-06T01:46:49.000Z</updated>
+    <author><name>Bloomberg Tech</name></author>
     <category term="PRODUCTS"/>
-    <summary>Amazon Bedrock AgentCore harness is now generally available. Learn how to add it as an agent step in n8n workflows using a new open-source community node, and build agents with persistent memory, real tools, code execution, and VPC isolation — all from the n8n editor with no infrastructure or agent code.</summary>
+    <summary>Envision Group has commissioned the initial phase of a gigawatt-scale data center in China’s Inner Mongolia, an unusual foray by a renewable energy company into the booming artificial intelligence industry.</summary>
   </entry>
   <entry>
     <title>NVIDIA’s Vera Whitepaper Has a Thread Loose</title>
@@ -241,6 +223,15 @@
     <summary>Hello you fine Internet folks,</summary>
   </entry>
   <entry>
+    <title>Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports</title>
+    <link href="https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html"/>
+    <id>https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html</id>
+    <updated>2026-08-05T15:14:05.000Z</updated>
+    <author><name>The Hacker News</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Two security flaws in Paperclip could let attackers execute commands on a network server or a developer's computer. Paperclip is an open-source control plane for teams of artificial intelligence (AI) agents, and both paths rely on importing a malicious agent and starting it. A third flaw could expose sensitive data and</summary>
+  </entry>
+  <entry>
     <title>Sure seems like Fenix Flexin used AI music generator Treblo</title>
     <link href="https://www.theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo"/>
     <id>https://www.theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo</id>
@@ -248,15 +239,6 @@
     <author><name>The Verge AI</name></author>
     <category term="OPEN SOURCE"/>
     <summary>We were pretty sure that Fenix Flexin's &quot;Rubberz&quot; was made using AI, but musician Medasin was confident that it was made using Treblo specifically. Now the company and a new detection tool seem to confirm it. On Monday, the company announced the open-source Treblo AI Music Classifier, which detects when a song was gene</summary>
-  </entry>
-  <entry>
-    <title>AutoFOAM: The Self-Refining Autonomous OpenFOAM Agent</title>
-    <link href="https://arxiv.org/abs/2608.00003"/>
-    <id>https://arxiv.org/abs/2608.00003</id>
-    <updated>2026-08-05T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>arXiv:2608.00003v1 Announce Type: new Abstract: Computational Fluid Dynamics (CFD) plays an important role in modern engineering, but using open-source solvers such as OpenFOAM requires considerable knowledge and skills, as well as time-consuming configuration file setup. To reduce this burden, we propose AutoFOAM - a </summary>
   </entry>
   <entry>
     <title>Fundamental Uncertainty Essay Contestants</title>
@@ -275,5 +257,23 @@
     <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
     <summary>Terminal-Bench 2.0, one of the best agent benchmarks, runs agents on 89 tasks with at least 5 tries per task. The aggregate rankings are then published along with a confidence interval. What I wanted to know, however, was whether or not the point gap between any two given agents represented a statistically significant </summary>
+  </entry>
+  <entry>
+    <title>Anthropic AI agent faked identities, phished real developers in UK government hacking test</title>
+    <link href="https://therecord.media/anthropic-ai-hacking-uk"/>
+    <id>https://therecord.media/anthropic-ai-hacking-uk</id>
+    <updated>2026-08-05T13:00:00.000Z</updated>
+    <author><name>The Record</name></author>
+    <category term="AI SECURITY"/>
+    <summary>An artificial intelligence agent built by Anthropic independently planted malicious code in a real software project and sent phishing emails to developers during a U.K. government security evaluation, according to Britain’s AI Security Institute.</summary>
+  </entry>
+  <entry>
+    <title>AI Attacks Are Evolving: TryHackMe Demo Explores Prompt Injection - eSecurity Planet</title>
+    <link href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxOc0pRQ3ZtbGhrYW1WQl9zbXExTmY2eHZuUkN2S2Z5eEw4QTlKQWN3VEZZRU1jSUxsSTJhQWhGX25STzFuVDhHVFRoM2tEMFpYSGdqWjdQTV9PaTJxckI0NmFkZjllS3lkdUQtOVFHSEJydWtYQTRsdktka1Z2Wl90REhHcGYwRHhiVTg2WEFzX1liU3RhTWQ1WUdMUzBqeDFOOHF0MHlhR0c?oc=5"/>
+    <id>https://news.google.com/rss/articles/CBMiqAFBVV95cUxOc0pRQ3ZtbGhrYW1WQl9zbXExTmY2eHZuUkN2S2Z5eEw4QTlKQWN3VEZZRU1jSUxsSTJhQWhGX25STzFuVDhHVFRoM2tEMFpYSGdqWjdQTV9PaTJxckI0NmFkZjllS3lkdUQtOVFHSEJydWtYQTRsdktka1Z2Wl90REhHcGYwRHhiVTg2WEFzX1liU3RhTWQ1WUdMUzBqeDFOOHF0MHlhR0c?oc=5</id>
+    <updated>2026-08-05T23:37:13.000Z</updated>
+    <author><name>GN: Prompt Injection</name></author>
+    <category term="AI SECURITY"/>
+    <summary>AI Attacks Are Evolving: TryHackMe Demo Explores Prompt Injection eSecurity Planet</summary>
   </entry>
 </feed>
