@@ -5,15 +5,24 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-07T09:12:18.476Z</updated>
+  <updated>2026-08-07T11:02:01.177Z</updated>
   <entry>
-    <title>llama.cpp b10299 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10299"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10299</id>
-    <updated>2026-08-07T07:19:14.000Z</updated>
+    <title>llama.cpp b10301 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10301"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10301</id>
+    <updated>2026-08-07T10:03:09.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>metal : avoid threadgroup matrix array instantiation in kernel_lightning_indexer ( #26646 ) In MSL, declaring an array of matrix types like threadgroup half4x4 causes a 'no matching constructor' compilation error because MSL matrix types do not have zero-argument default constructors and threadgroup variables cannot ha — Also covered by: ggml-org/whisper.cpp</summary>
+    <summary>cuda: fix warnings for unused variable/function ( #26688 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ub — Also covered by: ggml-org/whisper.cpp</summary>
+  </entry>
+  <entry>
+    <title>ByteDance targets mega AI model nearing Anthropic’s Mythos</title>
+    <link href="https://www.ft.com/content/9b8383b1-a28d-4940-8c4e-2f0cd21556ef?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/9b8383b1-a28d-4940-8c4e-2f0cd21556ef?syn-25a6b1a6=1</id>
+    <updated>2026-08-07T04:36:03.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>TikTok owner training a model three times larger than Moonshot’s Kimi K3</summary>
   </entry>
   <entry>
     <title>ChainDrop: Inside a Self-Propagating npm Worm</title>
@@ -23,15 +32,6 @@
     <author><name>Palo Alto Unit 42</name></author>
     <category term="CYBER DEFENSE"/>
     <summary>Analysis of ChainDrop, an npm supply chain worm extracting GitHub Actions runner secrets and using Ethereum smart contracts for C2 routing. The post ChainDrop: Inside a Self-Propagating npm Worm appeared first on Unit 42 . — Also covered by: Microsoft Security</summary>
-  </entry>
-  <entry>
-    <title>Meta AI model hacked a company during misconfigured cyber test</title>
-    <link href="https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/"/>
-    <id>https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/</id>
-    <updated>2026-08-06T16:11:39.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Meta has become the latest AI company to confirm that one of its models hacked a real organization during cybersecurity testing, as similar incidents continue to emerge following OpenAI'sOpenAI's initial disclosure that its agents breached Hugging Face. [...] — Also covered by: Simon Willison</summary>
   </entry>
   <entry>
     <title>No Perfect Fix for AI Browser Prompt Injection Flaws - Dark Reading</title>
@@ -52,40 +52,22 @@
     <summary>Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.</summary>
   </entry>
   <entry>
-    <title>Trump orders new 15% tariff on key material for solar panels and microchips</title>
-    <link href="https://www.theguardian.com/us-news/2026/aug/07/trump-orders-tariff-solar-panels-microchips-manufacturing-ingredient"/>
-    <id>https://www.theguardian.com/us-news/2026/aug/07/trump-orders-tariff-solar-panels-microchips-manufacturing-ingredient</id>
-    <updated>2026-08-07T09:11:36.000Z</updated>
-    <author><name>The Guardian AI</name></author>
+    <title>Athens-based Omilia, which builds self-learning AI agents that work across different customer contact points, raised a $67M Series B led by Expedition Growth (Ivan Mehta/TechCrunch)</title>
+    <link href="https://www.techmeme.com/260807/p11#a260807p11"/>
+    <id>https://www.techmeme.com/260807/p11#a260807p11</id>
+    <updated>2026-08-07T11:00:34.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Move to raise levy on goods made with polysilicon aims to protect domestic US supply chains from China, the major producer Donald Trump has ordered a new 15% tariff on imported products made of polysilicon, an important ingredient in microchip manufacturing that is primarily produced by China. The new tariff, which wil</summary>
+    <summary>Ivan Mehta / TechCrunch : Athens-based Omilia, which builds self-learning AI agents that work across different customer contact points, raised a $67M Series B led by Expedition Growth — The customer support industry has seen a massive influx of startups like Sierra, Decagon and Parloa trying to infuse AI …</summary>
   </entry>
   <entry>
-    <title>My issue with Artificial Analysis's 'intelligence index'</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vhoyw1/my_issue_with_artificial_analysiss_intelligence/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vhoyw1/my_issue_with_artificial_analysiss_intelligence/</id>
-    <updated>2026-08-07T03:06:05.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>I swear AA is not the bipartisan they so claim. An open source mode (Qwen 3.8 max) was number 1 on the agentic index, then they just so happen to launch &quot;v4.1.1&quot; of their index in which they just adjusted the weights of the gdpval and t3 banking so that it would be lower than opus, despite the lead in t3 being a 8% lea</summary>
-  </entry>
-  <entry>
-    <title>Amazon, Cursor, Microsoft, OpenAI, and Vercel unite on a shared standard for AI agent plugins</title>
-    <link href="https://the-decoder.com/amazon-cursor-microsoft-openai-and-vercel-unite-on-a-shared-standard-for-ai-agent-plugins/"/>
-    <id>https://the-decoder.com/amazon-cursor-microsoft-openai-and-vercel-unite-on-a-shared-standard-for-ai-agent-plugins/</id>
-    <updated>2026-08-07T08:54:45.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Amazon, Cursor, Microsoft, OpenAI, and Vercel have jointly created Agent Plugins, an open standard that defines a single package format for AI agent extensions. Version 1.0.0 uses a plugin.json manifest file and supports both agent skills and MCP servers. The article Amazon, Cursor, Microsoft, OpenAI, and Vercel unite </summary>
-  </entry>
-  <entry>
-    <title>Quant Crash in China Sends DeepSeek Founder’s Funds Down 20%</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-07/quant-crash-in-china-sends-deepseek-founder-s-funds-down-20"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-07/quant-crash-in-china-sends-deepseek-founder-s-funds-down-20</id>
-    <updated>2026-08-07T08:40:14.000Z</updated>
+    <title>Big Tech Stocks Storm Back as AI Fears Fade and Euphoria Resumes</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-07/big-tech-stocks-storm-back-as-ai-fears-fade-and-euphoria-resumes"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-07/big-tech-stocks-storm-back-as-ai-fears-fade-and-euphoria-resumes</id>
+    <updated>2026-08-07T10:30:01.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>China’s quantitative hedge funds suffered steep losses in July after a rout in stocks linked to artificial intelligence, pushing some funds into the red for the year and leaving others doing little better than benchmark stock indexes.</summary>
+    <summary>After spending much of the year in the stock market doghouse over fears about their profligate spending on artificial intelligence, the world’s biggest technology companies are suddenly leading the way once again.</summary>
   </entry>
   <entry>
     <title>Decoupling Perception from Description: Computation-Grounded Representation Alignment between Multivariate Time Series and Language</title>
@@ -97,22 +79,22 @@
     <summary>arXiv:2608.05238v1 Announce Type: new Abstract: Training multimodal models to align time series with language runs into a self-supervision trap. The usual recipe asks an LLM to read a series and write a description, so label quality is capped by the perceptual skill the model is supposed to learn. The data can never te</summary>
   </entry>
   <entry>
-    <title>ByteDance targets mega AI model nearing Anthropic’s Mythos</title>
-    <link href="https://www.ft.com/content/9b8383b1-a28d-4940-8c4e-2f0cd21556ef?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/9b8383b1-a28d-4940-8c4e-2f0cd21556ef?syn-25a6b1a6=1</id>
-    <updated>2026-08-07T04:36:03.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
+    <title>Canada Launches Quantum Defence Innovation Secure Hub in Calgary</title>
+    <link href="https://thequantuminsider.com/2026/08/07/canada-launches-quantum-defence-innovation-secure-hub-calgary/"/>
+    <id>https://thequantuminsider.com/2026/08/07/canada-launches-quantum-defence-innovation-secure-hub-calgary/</id>
+    <updated>2026-08-07T09:57:17.000Z</updated>
+    <author><name>The Quantum Insider</name></author>
     <category term="PRODUCTS"/>
-    <summary>TikTok owner training a model three times larger than Moonshot’s Kimi K3</summary>
+    <summary>Insider Brief Press release – Today, the Honourable David J. McGuinty, Minister of National Defence, announced the launch of the Quantum Defence Innovation Secure Hub (DISH) under the Bureau of Research, Engineering and Advanced Leadership in Innovation and Science (BOREALIS) in Calgary, Alberta. Quantum technologies a</summary>
   </entry>
   <entry>
-    <title>Sydney-based AI data center company Firmus raised $2B in funding from Coatue, Nvidia, and others at a $10.5B post-money valuation, up from $5.5B in April (Nichiket Sunil/Reuters)</title>
-    <link href="https://www.techmeme.com/260806/p61#a260806p61"/>
-    <id>https://www.techmeme.com/260806/p61#a260806p61</id>
-    <updated>2026-08-07T03:55:01.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>‘This is very real redlining’: outrage in Little Rock as two datacenters loom</title>
+    <link href="https://www.theguardian.com/us-news/2026/aug/07/datacenters-little-rock-arkansas"/>
+    <id>https://www.theguardian.com/us-news/2026/aug/07/datacenters-little-rock-arkansas</id>
+    <updated>2026-08-07T10:00:15.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="HARDWARE"/>
-    <summary>Nichiket Sunil / Reuters : Sydney-based AI data center company Firmus raised $2B in funding from Coatue, Nvidia, and others at a $10.5B post-money valuation, up from $5.5B in April — Firmus said on Friday it had raised $2 billion in equity in its latest funding round to speed up the build-out of AI factories …</summary>
+    <summary>Critics decry proposed hyperscale projects, fearing overuse of water and electricity, and ‘appropriating rural, Black-owned land for industrial purposes ’ There seems to be a fight over datacenters in nearly every city in the US right now. And amid the extreme polarization of today’s politics, the opposition tends to b</summary>
   </entry>
   <entry>
     <title>Microsoft Open Sources code-testing-generator: a Polyglot Unit-Test Agent That Hits 92.1% Task Completion Versus 78.9% for Stock Copilot</title>
@@ -124,22 +106,22 @@
     <summary>Microsoft has open sourced code-testing-generator, a polyglot unit-test agent shipping in the MIT-licensed dotnet/skills repository. It reads a repository before writing anything — detecting the language, test framework, existing conventions, and the real build and test commands — then plans, writes, runs and validates</summary>
   </entry>
   <entry>
-    <title>Ramin Farassat on how Menlo Security is securing AI agents from prompt injection - SC Media</title>
-    <link href="https://news.google.com/rss/articles/CBMiswFBVV95cUxQeGp4SW1FemFZc0dHT0s0Nk5ZX1BnNVN0ZU15bHYzSDA1ZjFIZWZFOUt2RllOX0lHWFhFaG81cXIxNk5EdkpETG1vSjFlcXY0NWhoTGxpZEZQTjFXQzV4T3M5QXZGLXpVNE1BZ1c5Vk5yN0NpUmhxcTNhTTJFSUh1Z2FrZm1HdmZtSFRzS20ycE1OMFRjUlpSX1NPVkF1VUt5MlVTdi05QktVZTZlVlJ6eU1IRQ?oc=5"/>
-    <id>https://news.google.com/rss/articles/CBMiswFBVV95cUxQeGp4SW1FemFZc0dHT0s0Nk5ZX1BnNVN0ZU15bHYzSDA1ZjFIZWZFOUt2RllOX0lHWFhFaG81cXIxNk5EdkpETG1vSjFlcXY0NWhoTGxpZEZQTjFXQzV4T3M5QXZGLXpVNE1BZ1c5Vk5yN0NpUmhxcTNhTTJFSUh1Z2FrZm1HdmZtSFRzS20ycE1OMFRjUlpSX1NPVkF1VUt5MlVTdi05QktVZTZlVlJ6eU1IRQ?oc=5</id>
-    <updated>2026-08-07T01:33:48.000Z</updated>
+    <title>Claude in Chrome Prompt Injection Flaw Enables Slack, X, and Claude.ai Account Takeovers - cyberpress.org</title>
+    <link href="https://news.google.com/rss/articles/CBMid0FVX3lxTFAyVnlmRTFSamJ0WWlSeTdINV9QZE9GZVVfay1sLTNBTE5kcWs3SzExcVdVUmVQV3hBaGdlZjl1LU02UGxmTlBIT2xfd2Zjbk96anV5MTgxSXVzeTZyWHdwUzRwNXd6QllnU3hVRnMtcllhakVUNUVv0gF3QVVfeXFMUDJWeWZFMVJqYnRZaVJ5N0g1X1BkT0ZlVV9rLWwtM0FMTmRxazdLMTFxV1VSZVBXeEFoZ2VmOXUtTTZQbGZOUEhPbF93ZmNuT3pqdXkxODFJdXN5NnJYd3BTNHA1d3pCWWdTeFVGcy1yWWFqRVQ1RW8?oc=5"/>
+    <id>https://news.google.com/rss/articles/CBMid0FVX3lxTFAyVnlmRTFSamJ0WWlSeTdINV9QZE9GZVVfay1sLTNBTE5kcWs3SzExcVdVUmVQV3hBaGdlZjl1LU02UGxmTlBIT2xfd2Zjbk96anV5MTgxSXVzeTZyWHdwUzRwNXd6QllnU3hVRnMtcllhakVUNUVv0gF3QVVfeXFMUDJWeWZFMVJqYnRZaVJ5N0g1X1BkT0ZlVV9rLWwtM0FMTmRxazdLMTFxV1VSZVBXeEFoZ2VmOXUtTTZQbGZOUEhPbF93ZmNuT3pqdXkxODFJdXN5NnJYd3BTNHA1d3pCWWdTeFVGcy1yWWFqRVQ1RW8?oc=5</id>
+    <updated>2026-08-07T07:54:47.000Z</updated>
     <author><name>GN: Prompt Injection</name></author>
     <category term="AI SECURITY"/>
-    <summary>Ramin Farassat on how Menlo Security is securing AI agents from prompt injection SC Media</summary>
+    <summary>Claude in Chrome Prompt Injection Flaw Enables Slack, X, and Claude.ai Account Takeovers cyberpress.org</summary>
   </entry>
   <entry>
-    <title>TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign</title>
-    <link href="https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html"/>
-    <id>https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html</id>
-    <updated>2026-08-07T06:50:05.000Z</updated>
+    <title>Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets</title>
+    <link href="https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html"/>
+    <id>https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html</id>
+    <updated>2026-08-07T08:18:35.000Z</updated>
     <author><name>The Hacker News</name></author>
     <category term="CYBER THREATS"/>
-    <summary>A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising internet-facing infrastructure for years before training their sights on the software supply chain. &quot;The connection is supported by overlapping do</summary>
+    <summary>A GitHub issue opened by an account with no repository privileges was enough to execute code on the CI runners behind Anthropic's and Google's own coding-agent repositories. On OpenAI's, it was enough to hijack the next agent run. Novee Security ran the attack against each vendor's agent in the configuration that the v</summary>
   </entry>
   <entry>
     <title>Simon Willison on Technical Blogging</title>
@@ -160,15 +142,6 @@
     <summary>What might a modern day equivalent of Isaac Asimov’s laws of robotics look like? Guided by the author, I propose the three laws of AI Tesla and SpaceX founder Elon Musk predicted in July that legions of AI-powered robots would dominate the physical world and that AI might not take orders from people any more. He also o</summary>
   </entry>
   <entry>
-    <title>ZeroTier and Carahsoft Partner to Expand Post-Quantum Networking Access for Government</title>
-    <link href="https://thequantuminsider.com/2026/08/07/zerotier-carahsoft-partner-post-quantum-secure-software-defined-networking-public-sector/"/>
-    <id>https://thequantuminsider.com/2026/08/07/zerotier-carahsoft-partner-post-quantum-secure-software-defined-networking-public-sector/</id>
-    <updated>2026-08-07T07:40:00.000Z</updated>
-    <author><name>The Quantum Insider</name></author>
-    <category term="QUANTUM"/>
-    <summary>Insider Brief Press release – ZeroTier, one of the world’s top software-defined networking companies, and Carahsoft Technology Corp., The Trusted Government IT Solutions Provider®, today announced a strategic partnership. Under the agreement, Carahsoft will expand access to ZeroTier solutions across the Public Sector t</summary>
-  </entry>
-  <entry>
     <title>Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users</title>
     <link href="https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt"/>
     <id>https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt</id>
@@ -178,13 +151,22 @@
     <summary>ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.</summary>
   </entry>
   <entry>
-    <title>Can the government really get ahead of the curve on AI? - podcast</title>
-    <link href="https://www.theguardian.com/australia-news/audio/2026/aug/07/can-the-government-really-get-ahead-of-the-curve-on-ai-australian-politics-podcast"/>
-    <id>https://www.theguardian.com/australia-news/audio/2026/aug/07/can-the-government-really-get-ahead-of-the-curve-on-ai-australian-politics-podcast</id>
-    <updated>2026-08-07T03:12:09.000Z</updated>
-    <author><name>The Guardian AI</name></author>
+    <title>OpenAI improves GPT-5.6 Sol in ChatGPT and restricts free users to its weakest model</title>
+    <link href="https://the-decoder.com/openai-improves-gpt-5-6-sol-in-chatgpt-and-restricts-free-users-to-its-weakest-model/"/>
+    <id>https://the-decoder.com/openai-improves-gpt-5-6-sol-in-chatgpt-and-restricts-free-users-to-its-weakest-model/</id>
+    <updated>2026-08-07T08:29:27.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>OpenAI has updated GPT-5.6 Sol with more focused responses and a reasoning slider that lets users adjust how deeply the model thinks. Free users will get unlimited text chats with the smaller GPT-5.6 Luna starting next week, plus a button that lets Luna reason longer. But the smaller model still falls well short of its</summary>
+  </entry>
+  <entry>
+    <title>SK Hynix plans a $38B chipmaking expansion in South Korea, including a new ~$24.7B DRAM facility in Yongin and a ~$13.3B NAND fabrication plant in Cheongju (Yoolim Lee/Bloomberg)</title>
+    <link href="https://www.techmeme.com/260807/p7#a260807p7"/>
+    <id>https://www.techmeme.com/260807/p7#a260807p7</id>
+    <updated>2026-08-07T09:45:01.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>On Wednesday, the Labor government announced environmental and energy safeguards on new datacentres in Australia. Our political editor, Tom McIlroy , speaks to the assistant minister for science, technology and the digital economy, Dr Andrew Charlton, about the government’s push for national standards on datacentres. T</summary>
+    <summary>Yoolim Lee / Bloomberg : SK Hynix plans a $38B chipmaking expansion in South Korea, including a new ~$24.7B DRAM facility in Yongin and a ~$13.3B NAND fabrication plant in Cheongju — SK Hynix Inc. plans a 54 trillion won ($38 billion) expansion of its chipmaking facilities in South Korea, the memory chip maker said in </summary>
   </entry>
   <entry>
     <title>IS GLM 5.2, Kimi 2.7 still worth it?</title>
@@ -196,40 +178,40 @@
     <summary>Since now we have kimi k3 and next week we are getting Qwen 3.8 Max and also soon V4 pro Deepseek. I am curious if the old power house like Kimi 2.6/7 code and GLM.5.2 are all that relevant. especially for long hours of coding submitted by /u/Hannibalj2ca [link] [comments]</summary>
   </entry>
   <entry>
-    <title>Agentic Nesting: A New Methodology for Existing Enterprise Application Integration and Services</title>
-    <link href="https://arxiv.org/abs/2608.05159"/>
-    <id>https://arxiv.org/abs/2608.05159</id>
-    <updated>2026-08-07T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>arXiv:2608.05159v1 Announce Type: new Abstract: Enterprise operations extensively rely on multiple heterogeneous business systems and information applications, which also result in severe data silos and process fragmentation. Enterprises have invested considerable financial and material resources in building these appl</summary>
+    <title>AMD Acquires Taalas to Advance Compute Solutions for Rapidly Growing AI Inference Market</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vhrdo3/amd_acquires_taalas_to_advance_compute_solutions/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vhrdo3/amd_acquires_taalas_to_advance_compute_solutions/</id>
+    <updated>2026-08-07T05:09:25.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Press My earlier prediction that Tesla would buy them completely missed the mark. With AMD focusing heavily on the enterprise side, the idea of consumer-facing hot-swappable AI model chips looks pretty much dead. Fast forward ten years, you might find used model blade cards on eBay, except a full model's weights will b</summary>
   </entry>
   <entry>
-    <title>SkillTrace: Multi-Trace Provenance Auditing for LLM-Agent Skill Reuse</title>
-    <link href="https://arxiv.org/abs/2608.05204"/>
-    <id>https://arxiv.org/abs/2608.05204</id>
-    <updated>2026-08-07T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
+    <title>OpenAI reportedly slows research after its own models secretly coordinated hacks for weeks undetected</title>
+    <link href="https://the-decoder.com/openai-reportedly-slows-research-after-its-own-models-secretly-coordinated-hacks-for-weeks-undetected/"/>
+    <id>https://the-decoder.com/openai-reportedly-slows-research-after-its-own-models-secretly-coordinated-hacks-for-weeks-undetected/</id>
+    <updated>2026-08-07T09:22:26.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>arXiv:2608.05204v1 Announce Type: new Abstract: LLM-agent ecosystems are rapidly growing around reusable skills: mixed-modality packages of metadata, natural-language instructions, code, tools, references, and operational workflows. As skills become marketplace artifacts, auditing their reuse is no longer the same prob</summary>
+    <summary>During internal security tests, OpenAI's AI agents built their own message board with hundreds of thousands of posts, shared exploits and credentials, and eventually attacked external platforms like Hugging Face. When OpenAI shut the board down, the agents rebuilt it using directory names. OpenAI researcher Boaz Barak </summary>
   </entry>
   <entry>
-    <title>India’s Top Bank Net Income Beats Estimates, Shares Rise</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-07/india-s-top-bank-net-income-beats-estimates-aided-by-loan-growth"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-07/india-s-top-bank-net-income-beats-estimates-aided-by-loan-growth</id>
-    <updated>2026-08-07T08:23:45.000Z</updated>
+    <title>This Job Reports Has High Stakes for Investors</title>
+    <link href="https://www.bloomberg.com/news/newsletters/2026-08-07/this-job-reports-has-high-stakes-for-investors"/>
+    <id>https://www.bloomberg.com/news/newsletters/2026-08-07/this-job-reports-has-high-stakes-for-investors</id>
+    <updated>2026-08-07T10:25:58.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>State Bank of India reported better-than-expected profit in its first quarter, as the country’s biggest lender benefitted from strong credit growth in the world’s fastest-growing major economy. Shares rose.</summary>
+    <summary>Traders are watching for clues to Fed’s next move.</summary>
   </entry>
   <entry>
-    <title>Monte dei Paschi Profit Beats Expectations</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-07/monte-dei-paschi-profit-beats-expectations-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-07/monte-dei-paschi-profit-beats-expectations-video</id>
-    <updated>2026-08-07T08:37:18.000Z</updated>
+    <title>Bloomberg News Now</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-07/bloomberg-news-now-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-07/bloomberg-news-now-video</id>
+    <updated>2026-08-07T10:17:40.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Banca Monte dei Paschi di Siena exceeded profit expectations in the second quarter. Rival lender Banco BPM last week dropped a proposal to Monte Paschi to start merger discussions. Bloomberg's Steven Arons reports. (Source: Bloomberg)</summary>
+    <summary>Iran Wants to Bar US, Israeli Ships From Hormuz in Accord Haass: Iran Holds Strong Talk Position on Hormuz Oil Extends Gain Amid Continued Mideast Uncertainty Trump Admin Weighs Order on Autism &amp; Vaccines White House Posts Order on Ending Birth Tourism Yen Surrenders Almost Half Its Gains From US Intervention (Source: </summary>
   </entry>
   <entry>
     <title>Beyond Sentiment: Comparing Traditional NLP and LLM-Based Multi-Dimensional Analysis for Political News Evaluation</title>
@@ -268,12 +250,30 @@
     <summary>Go beyond chat in the GitHub Copilot app with these slash commands. They'll help you plan, collaborate, automate, and customize your dev workflow. The post A guide to slash commands in the GitHub Copilot app appeared first on The GitHub Blog .</summary>
   </entry>
   <entry>
-    <title>PPDL: LLM-Based Flows as Probabilistic Programs</title>
-    <link href="https://arxiv.org/abs/2608.05234"/>
-    <id>https://arxiv.org/abs/2608.05234</id>
-    <updated>2026-08-07T04:00:00.000Z</updated>
-    <author><name>arXiv cs.LG</name></author>
+    <title>Anthropic co-designing custom AI inference chips to bypass costly Nvidia GPUs — Samsung reported as manufacturing partner for Claude maker</title>
+    <link href="https://www.tomshardware.com/tech-industry/anthropic-to-build-its-own-co-designed-custom-ai-accelerator-for-inferencing-workloads-samsung-reported-to-be-partnering-with-the-claude-ai-maker-for-manufacturing"/>
+    <id>https://www.tomshardware.com/tech-industry/anthropic-to-build-its-own-co-designed-custom-ai-accelerator-for-inferencing-workloads-samsung-reported-to-be-partnering-with-the-claude-ai-maker-for-manufacturing</id>
+    <updated>2026-08-07T10:30:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
     <category term="HARDWARE"/>
-    <summary>arXiv:2608.05234v1 Announce Type: new Abstract: Building reliable applications that leverage large language models (LLMs) remains a significant challenge. While LLMs offer impressive capabilities across diverse tasks, their outputs often lack accuracy and provide no clear measure of confidence. This uncertainty compoun</summary>
+    <summary>Anthropic has announced its building a team to co-design custom ASIC chips for AI inferencing workloads. This will give it greater control over its compute buildout and allow it to make its AI models specifically more efficient for its designs.</summary>
+  </entry>
+  <entry>
+    <title>Sources: the US Commerce Department's BIS is reviewing how Chinese AI companies access Nvidia chips overseas, including by legally renting foreign data centers (Mackenzie Hawkins/Bloomberg)</title>
+    <link href="https://www.techmeme.com/260807/p10#a260807p10"/>
+    <id>https://www.techmeme.com/260807/p10#a260807p10</id>
+    <updated>2026-08-07T10:35:02.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="HARDWARE"/>
+    <summary>Mackenzie Hawkins / Bloomberg : Sources: the US Commerce Department's BIS is reviewing how Chinese AI companies access Nvidia chips overseas, including by legally renting foreign data centers — A key US agency is reviewing how Chinese AI firms acquire and access Nvidia Corp. chips overseas, following a spate …</summary>
+  </entry>
+  <entry>
+    <title>Microsoft's AI revenue reportedly depends on OpenAI for 70 percent</title>
+    <link href="https://the-decoder.com/microsofts-ai-revenue-reportedly-depends-on-openai-for-70-percent/"/>
+    <id>https://the-decoder.com/microsofts-ai-revenue-reportedly-depends-on-openai-for-70-percent/</id>
+    <updated>2026-08-06T17:35:33.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Microsoft generated $24.1 billion in AI revenue through OpenAI in the fiscal year ending in June. That's about 70 percent of its total AI business, according to a Bloomberg analysis. The heavy reliance helps explain why a company long known for vendor lock-in has recently been championing open-weight models and pushing</summary>
   </entry>
 </feed>
