@@ -5,24 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-07T19:08:27.773Z</updated>
+  <updated>2026-08-07T20:52:04.421Z</updated>
   <entry>
-    <title>llama.cpp b10321 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10321"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10321</id>
-    <updated>2026-08-07T19:08:21.000Z</updated>
+    <title>llama.cpp b10322 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10322"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10322</id>
+    <updated>2026-08-07T19:53:30.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>metal : fix NORM/RMS_NORM for row lengths that leave a partial simdgroup ( #26708 ) ggml_metal_op_norm sized the threadgroup with nth = std::min(nth, args.ne00_t) , which can leave nth not a multiple of the simdgroup size. The kernels finish their row reduction with a cross-simdgroup step where each lane of the last si — Also covered by: ggml-org/whisper.cpp</summary>
-  </entry>
-  <entry>
-    <title>Canada Launches $20.3M Quantum Defence Innovation Secure Hub in Calgary</title>
-    <link href="https://quantumcomputingreport.com/canada-launches-20-3m-quantum-defence-innovation-secure-hub-in-calgary/"/>
-    <id>https://quantumcomputingreport.com/canada-launches-20-3m-quantum-defence-innovation-secure-hub-in-calgary/</id>
-    <updated>2026-08-07T11:28:15.000Z</updated>
-    <author><name>Quantum Computing Report</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Canadian Minister of National Defence David J. McGuinty has announced the launch of Canada’s first Quantum Defence Innovation Secure Hub (DISH) in Calgary, Alberta. Operated by a 13-member consortium led by the University of Calgary and its Quantum City initiative—under Managing Director Dr. Megan Lee—the hub will rece — Also covered by: The Quantum Insider</summary>
+    <summary>sycl: coalesce the ssm_conv window loads ( #26612 ) test-backend-ops perf -o SSM_CONV on an Arc Pro B70, interleaved A/B against master, 6 reps, us/run: ne_a=[515,3328,1,1] ne_b=[4,3328,1,1] n_t=512 97.68 -&gt; 52.95 1.85x ne_a=[937,8192,1,1] ne_b=[4,8192,1,1] n_t=934 516.16 -&gt; 276.13 1.87x ne_a=[4,3328,1,1] ne_b=[4,3328, — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
     <title>ChainDrop: Inside a Self-Propagating npm Worm</title>
@@ -32,6 +23,15 @@
     <author><name>Palo Alto Unit 42</name></author>
     <category term="CYBER DEFENSE"/>
     <summary>Analysis of ChainDrop, an npm supply chain worm extracting GitHub Actions runner secrets and using Ethereum smart contracts for C2 routing. The post ChainDrop: Inside a Self-Propagating npm Worm appeared first on Unit 42 . — Also covered by: Microsoft Security</summary>
+  </entry>
+  <entry>
+    <title>Canada Launches $20.3M Quantum Defence Innovation Secure Hub in Calgary</title>
+    <link href="https://quantumcomputingreport.com/canada-launches-20-3m-quantum-defence-innovation-secure-hub-in-calgary/"/>
+    <id>https://quantumcomputingreport.com/canada-launches-20-3m-quantum-defence-innovation-secure-hub-in-calgary/</id>
+    <updated>2026-08-07T11:28:15.000Z</updated>
+    <author><name>Quantum Computing Report</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Canadian Minister of National Defence David J. McGuinty has announced the launch of Canada’s first Quantum Defence Innovation Secure Hub (DISH) in Calgary, Alberta. Operated by a 13-member consortium led by the University of Calgary and its Quantum City initiative—under Managing Director Dr. Megan Lee—the hub will rece — Also covered by: The Quantum Insider</summary>
   </entry>
   <entry>
     <title>Responding to the next frontier of critical cyber capabilities</title>
@@ -52,22 +52,22 @@
     <summary>Responding to an article by China’s ambassador to the UK, Prof Paul H Cleverley advocates shared openness standards, while Dr Claire Jenkins says British AI can offer a distinctive path Ambassador Zheng Zeguang rightly celebrates openly released AI models, and the Chinese labs behind Qwen, DeepSeek and Kimi have led th</summary>
   </entry>
   <entry>
-    <title>Cloudflare launches Kitesurf, a browser built for AI agents</title>
-    <link href="https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/"/>
-    <id>https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/</id>
-    <updated>2026-08-07T16:16:09.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>LangSmith LLM Gateway: runtime governance built into the agent lifecycle</title>
+    <link href="https://www.langchain.com/blog/introducing-llm-gateway"/>
+    <id>https://www.langchain.com/blog/introducing-llm-gateway</id>
+    <updated>2026-08-07T19:33:22.000Z</updated>
+    <author><name>LangChain Blog</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Cloudflare has introduced Kitesurf, a cloud-hosted browser designed for AI agents instead of people. The company says the browser uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently.</summary>
+    <summary>Introducing LangSmith LLM Gateway: runtime governance for AI agents with spend limits, PII redaction, and trace continuity, built directly into LangSmith.</summary>
   </entry>
   <entry>
-    <title>Phelan Confirmed to Lead Trump’s Council of Economic Advisers</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-07/phelan-confirmed-to-lead-trump-s-council-of-economic-advisers"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-07/phelan-confirmed-to-lead-trump-s-council-of-economic-advisers</id>
-    <updated>2026-08-07T18:28:17.000Z</updated>
+    <title>SpaceX Nears IPO Price Again After Staging $327 Billion Rally</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-07/spacex-nears-ipo-price-again-after-staging-327-billion-rally"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-07/spacex-nears-ipo-price-again-after-staging-327-billion-rally</id>
+    <updated>2026-08-07T20:29:47.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The US Senate confirmed Christopher Phelan, a former adviser to the Federal Reserve Bank of Minneapolis, as chairman of the White House Council of Economic Advisers.</summary>
+    <summary>SpaceX shares jumped for a second straight day bringing them close to breaking back above the company’s $135 initial public offering price for the first time since falling below the key level last month.</summary>
   </entry>
   <entry>
     <title>Decoupling Perception from Description: Computation-Grounded Representation Alignment between Multivariate Time Series and Language</title>
@@ -77,6 +77,15 @@
     <author><name>arXiv cs.LG</name></author>
     <category term="RESEARCH"/>
     <summary>arXiv:2608.05238v1 Announce Type: new Abstract: Training multimodal models to align time series with language runs into a self-supervision trap. The usual recipe asks an LLM to read a series and write a description, so label quality is capped by the perceptual skill the model is supposed to learn. The data can never te</summary>
+  </entry>
+  <entry>
+    <title>Cloudflare launches Kitesurf, a browser built for AI agents</title>
+    <link href="https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/"/>
+    <id>https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/</id>
+    <updated>2026-08-07T16:16:09.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Cloudflare has introduced Kitesurf, a cloud-hosted browser designed for AI agents instead of people. The company says the browser uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently.</summary>
   </entry>
   <entry>
     <title>AMD acquires Taalas, a startup that bakes AI models directly into silicon</title>
@@ -115,13 +124,13 @@
     <summary>Anthropic and Meta models hacked third parties during testing, #collab-ing with an agent in an IR notebook, deep dive post on Figma's AI-powered code scanning</summary>
   </entry>
   <entry>
-    <title>US cyber ambassador nominee Cassady confirmed in Senate</title>
-    <link href="https://therecord.media/adam-cassady-confirmed-senate-cyber-ambassador"/>
-    <id>https://therecord.media/adam-cassady-confirmed-senate-cyber-ambassador</id>
-    <updated>2026-08-07T18:14:00.000Z</updated>
-    <author><name>The Record</name></author>
+    <title>Metabase SQLi zero-day exploited in customer data-theft attacks</title>
+    <link href="https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/"/>
+    <id>https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/</id>
+    <updated>2026-08-07T20:14:46.000Z</updated>
+    <author><name>BleepingComputer</name></author>
     <category term="CYBER THREATS"/>
-    <summary>NTIA official Adam Cassady becomes the second person confirmed to be the State Department's ambassador-at-large for cyber policy.</summary>
+    <summary>A critical Metabase SQL injection vulnerability was exploited in zero-day attacks to breach customer instances in data theft attacks, known to impact Framework and Tally. [...]</summary>
   </entry>
   <entry>
     <title>langchain v1.4.2 released</title>
@@ -133,22 +142,22 @@
     <summary>Changes since langchain-openai==1.4.1 release(openai): 1.4.2 ( #39322 ) fix(openai): handle ContextWindowExceededError ( #39300 ) chore: bump the minor-and-patch group across 3 directories with 7 updates ( #39187 ) fix(openai): filter langchain-generated content block IDs ( #39209 ) fix(openai): preserve Responses text</summary>
   </entry>
   <entry>
-    <title>The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI</title>
-    <link href="https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-everything"/>
-    <id>https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-everything</id>
-    <updated>2026-08-07T16:18:51.000Z</updated>
+    <title>Moonlight &amp; Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)</title>
+    <link href="https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything"/>
+    <id>https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything</id>
+    <updated>2026-08-07T19:18:09.000Z</updated>
     <author><name>Simon Willison</name></author>
     <category term="ANALYSIS"/>
-    <summary>The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI There's a fun anecdote from Accenture (apparently via leaked meeting audio recordings) in this 404 Media piece from June 24th: “We’re seeing from some of the data internally at least that it’s actually not our engineers that are driving</summary>
+    <summary>Moonlight &amp; Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra) On Wednesday I wrote about One-shotting a Raccoon Heist game using Claude Fable 5 , where I had Claude Fable 5 build a full working game from a premise I generated with GPT-3 and DALL-E four years ago . I decided to pose the exact same prompt to Codex Desk</summary>
   </entry>
   <entry>
-    <title>Video Friday: Drones Go Heavy in DARPA Lift Challenge</title>
-    <link href="https://spectrum.ieee.org/video-friday-heavy-lift-drone"/>
-    <id>https://spectrum.ieee.org/video-friday-heavy-lift-drone</id>
-    <updated>2026-08-07T16:00:01.000Z</updated>
-    <author><name>IEEE Spectrum Robotics</name></author>
+    <title>Avatar Robotics raises seed round to address industrial labor constraints</title>
+    <link href="https://www.therobotreport.com/avatar-robotics-raises-6-5-m-seed-round-address-industrial-labor-constraints/"/>
+    <id>https://www.therobotreport.com/avatar-robotics-raises-6-5-m-seed-round-address-industrial-labor-constraints/</id>
+    <updated>2026-08-07T19:57:22.000Z</updated>
+    <author><name>The Robot Report</name></author>
     <category term="ROBOTICS"/>
-    <summary>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Actuate 2026 : 18–19 August 2026, SAN FRANCISCO IROS 2026 : 27 September–1 </summary>
+    <summary>Avatar Robotics raised $6.5 million in funding to scale humanoid robots and remote teleoperation across industrial supply chains. The post Avatar Robotics raises seed round to address industrial labor constraints appeared first on The Robot Report .</summary>
   </entry>
   <entry>
     <title>Florida Atlantic University Launches Executive Certificate in Quantum Computing Strategy</title>
@@ -160,76 +169,58 @@
     <summary>The Executive Education program in the College of Business at Florida Atlantic University (FAU) has launched a new professional certificate course titled &quot;Quantum Computing: Business and Sourcing Strategy.&quot; Designed for non-technical enterprise leaders, technology executives, procurement directors, and strategists, the</summary>
   </entry>
   <entry>
-    <title>How HSP GRUPPE builds AI capabilities for tax advisory</title>
-    <link href="https://openai.com/index/hsp-gruppe"/>
-    <id>https://openai.com/index/hsp-gruppe</id>
-    <updated>2026-08-07T09:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
+    <title>OpenAI flags its new Astra model as potentially reaching the highest cybersecurity risk level for the first time</title>
+    <link href="https://the-decoder.com/openai-flags-its-new-astra-model-as-potentially-reaching-the-highest-cybersecurity-risk-level-for-the-first-time/"/>
+    <id>https://the-decoder.com/openai-flags-its-new-astra-model-as-potentially-reaching-the-highest-cybersecurity-risk-level-for-the-first-time/</id>
+    <updated>2026-08-07T19:41:06.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.</summary>
+    <summary>Internal tests of OpenAI's new AI model Astra show cybersecurity capabilities so strong that the company can no longer rule out the highest risk level in its own safety framework. Parts of Astra's development have been paused. The move follows recently disclosed incidents in which autonomous AI agents infiltrated OpenA</summary>
   </entry>
   <entry>
-    <title>Sources: legal AI startup Harvey is in talks to raise $500M+ at a $15.5B valuation, up from $11B in March, and is generating $350M+ in annualized revenue (The Information)</title>
-    <link href="https://www.techmeme.com/260807/p22#a260807p22"/>
-    <id>https://www.techmeme.com/260807/p22#a260807p22</id>
-    <updated>2026-08-07T17:25:01.000Z</updated>
+    <title>Sources: Cursor told staff on Thursday that SpaceX could complete its $60B acquisition as soon as next week and the Cursor brand name will likely be phased out (Grace Kay/The Information)</title>
+    <link href="https://www.techmeme.com/260807/p26#a260807p26"/>
+    <id>https://www.techmeme.com/260807/p26#a260807p26</id>
+    <updated>2026-08-07T19:30:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>The Information : Sources: legal AI startup Harvey is in talks to raise $500M+ at a $15.5B valuation, up from $11B in March, and is generating $350M+ in annualized revenue — Legal AI startup Harvey is in talks to raise at least $500 million at a $15.5 billion valuation including the investment, a 40% premium to its las</summary>
+    <summary>Grace Kay / The Information : Sources: Cursor told staff on Thursday that SpaceX could complete its $60B acquisition as soon as next week and the Cursor brand name will likely be phased out — Cursor told staff at an all-hands meeting on Thursday that SpaceX could complete its $60 billion acquisition of the coding start</summary>
   </entry>
   <entry>
-    <title>Wan-Animate-2: Pushing the Application Boundaries of Character Animation Models</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vi1r6t/wananimate2_pushing_the_application_boundaries_of/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vi1r6t/wananimate2_pushing_the_application_boundaries_of/</id>
-    <updated>2026-08-07T14:12:16.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>DSpark + DeepSeek-V4 Flash 0731</title>
+    <link href="https://github.com/unslothai/unsloth/releases/tag/v0.1.525-beta"/>
+    <id>https://github.com/unslothai/unsloth/releases/tag/v0.1.525-beta</id>
+    <updated>2026-08-07T15:25:35.000Z</updated>
+    <author><name>unslothai/unsloth</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>📝 Introduction We present Wan-Animate-2, a novel end-to-end character animation framework that directly consumes driving videos in a redesigned Diffusion Transformer, which achieves high-fidelity motion generation and strong identity preservation by eliminating intermediate motion extractors. We further add text-drive</summary>
+    <summary>Hey everyone! For folks who missed the news - Kimi K3 &amp; DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs! We now added more efficient and faster downloading for Colab, low memory systems and also high memory and CPU systems - we auto fallback to HTTP as well if XET is stuck August 7th Update Many bug fi</summary>
   </entry>
   <entry>
-    <title>Got job as Director of AI and Systems development self-taught</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vi8jlr/got_job_as_director_of_ai_and_systems_development/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vi8jlr/got_job_as_director_of_ai_and_systems_development/</id>
-    <updated>2026-08-07T18:24:25.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>claude-code v2.1.224 released</title>
+    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.224"/>
+    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.224</id>
+    <updated>2026-08-07T04:00:59.000Z</updated>
+    <author><name>anthropics/claude-code</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Hey everyone, I just wanted to share my journey here for some motivation. Three years ago, I saw the sudden spike in AI and realized it was the future of tech. My goal at the time was to be an indie game dev, and seeing that AI could write basic code, I told myself I needed to master it or risk being replaced. I starte</summary>
+    <summary>What's changed Added self-hosted environments: claude self-hosted-runner turns your own machines or containers into a place Claude Code web, mobile, and desktop sessions can run, on Team and Enterprise plans Added archive plugin source: install plugins from a zip over HTTPS without git or npm, with optional SHA-256 pin</summary>
   </entry>
   <entry>
-    <title>Managed Deep Agents is now in public beta</title>
-    <link href="https://www.langchain.com/blog/managed-deep-agents-is-now-in-public-beta"/>
-    <id>https://www.langchain.com/blog/managed-deep-agents-is-now-in-public-beta</id>
-    <updated>2026-08-07T18:32:35.000Z</updated>
-    <author><name>LangChain Blog</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Deploy Deep Agents to a managed LangSmith runtime with durable execution, memory, sandboxes, channels, evals, and production-ready infrastructure.</summary>
-  </entry>
-  <entry>
-    <title>Cloudflare debuts Kitesurf, a cloud-hosted browser for AI agents built on top of its Workers serverless service, available for free while in beta in Browser Run (Sarah Perez/TechCrunch)</title>
-    <link href="https://www.techmeme.com/260807/p21#a260807p21"/>
-    <id>https://www.techmeme.com/260807/p21#a260807p21</id>
-    <updated>2026-08-07T16:50:02.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Sarah Perez / TechCrunch : Cloudflare debuts Kitesurf, a cloud-hosted browser for AI agents built on top of its Workers serverless service, available for free while in beta in Browser Run — Cloudflare is the latest company to join the race to build a new web browser. But instead of pitching a Chrome alternative to cons</summary>
-  </entry>
-  <entry>
-    <title>Odd Lots: What It’s Like to Collaborate With Big Brand Names</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-07/odd-lots-what-it-s-like-to-collaborate-with-big-brand-names"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-07/odd-lots-what-it-s-like-to-collaborate-with-big-brand-names</id>
-    <updated>2026-08-07T19:00:50.000Z</updated>
+    <title>Once Upon a Farm CEO on Outlook Boost, Consumer Demand</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-07/once-upon-a-farm-ceo-on-outlook-boost-consumer-demand-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-07/once-upon-a-farm-ceo-on-outlook-boost-consumer-demand-video</id>
+    <updated>2026-08-07T20:43:25.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>In the age of brand collaborations, how do companies work together to benefit from each other's influence? On this episode of the Odd Lots podcast, Fishwife CEO Becca Millstein joins Tracy Alloway and Joe Weisenthal to talk about the company's partnership with brands like Whole Foods and Fly By Jing. (Source: Bloomberg</summary>
+    <summary>John Foraker, Co-Founder and CEO of Once Upon a Farm, discussed the company's strong 42% sales growth in the recent quarter and expressed confidence in sustaining this momentum due to resilient consumer demand across baby and kid food categories. The company has raised its guidance for the full year and anticipates con</summary>
   </entry>
   <entry>
-    <title>How the Food Industry Is Dealing With the Cyclospora Outbreak</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-07/how-the-food-industry-is-dealing-with-cyclospora-crisis-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-07/how-the-food-industry-is-dealing-with-cyclospora-crisis-video</id>
-    <updated>2026-08-07T18:50:31.000Z</updated>
+    <title>US Army Wants to Let Companies Test Weapons Faster</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-07/us-army-wants-to-let-companies-test-weapons-faster-video-msje9o14"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-07/us-army-wants-to-let-companies-test-weapons-faster-video-msje9o14</id>
+    <updated>2026-08-07T20:25:35.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Since Taco Bell was linked to the cyclospora outbreak, the fast food chain removed the allegedly implicated lettuce from its supply chain and, in a bid to win back hesitant diners, began offering special discounts on a concoction known as the Enchirito. Bloomberg Businessweek's Deena Shanker joins Max Chafkin and Stace</summary>
+    <summary>The US Army wants to see new weapons on the battlefield faster. Tyler Kendall sat down with US Army Secretary Dan Driscoll to discuss the Pentagon's plan to open up five military ranges to private industry. (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>Beyond Sentiment: Comparing Traditional NLP and LLM-Based Multi-Dimensional Analysis for Political News Evaluation</title>
@@ -257,6 +248,15 @@
     <author><name>GitHub Copilot Changelog</name></author>
     <category term="PRODUCTS"/>
     <summary>Since agent apps arrived on GitHub, teams have been able to run agents from partners like Claude and Codex directly in their GitHub workflows. The Copilot usage metrics API now… The post Copilot usage metrics API adds agent app activity appeared first on The GitHub Blog .</summary>
+  </entry>
+  <entry>
+    <title>Managed Deep Agents: the fastest way to ship a production deep agent</title>
+    <link href="https://www.langchain.com/blog/introducing-managed-deep-agents"/>
+    <id>https://www.langchain.com/blog/introducing-managed-deep-agents</id>
+    <updated>2026-08-07T19:36:29.000Z</updated>
+    <author><name>LangChain Blog</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Run deep agents in production with durable execution, sandboxes, tool access, and LangSmith observability, without building the runtime yourself. Now in private beta</summary>
   </entry>
   <entry>
     <title>Is the promise of AI living up to the hype? | Fiona Katauskas</title>
