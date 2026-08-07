@@ -5,33 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-07T17:58:23.779Z</updated>
+  <updated>2026-08-07T19:08:27.773Z</updated>
   <entry>
-    <title>llama.cpp b10318 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10318"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10318</id>
-    <updated>2026-08-07T17:37:18.000Z</updated>
+    <title>llama.cpp b10321 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10321"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10321</id>
+    <updated>2026-08-07T19:08:21.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>sync : ggml Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubunt — Also covered by: ggml-org/whisper.cpp</summary>
-  </entry>
-  <entry>
-    <title>Levi Strauss &amp; Co. says hackers stole corporate data in cyberattack</title>
-    <link href="https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/"/>
-    <id>https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/</id>
-    <updated>2026-08-07T15:48:20.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>Levi Strauss &amp; Co. (Levi's) says that hackers used social engineering on three of its employees to gain access to and steal corporate data stored on their machines. [...] — Also covered by: The Record</summary>
-  </entry>
-  <entry>
-    <title>ByteDance targets mega AI model nearing Anthropic’s Mythos</title>
-    <link href="https://www.ft.com/content/9b8383b1-a28d-4940-8c4e-2f0cd21556ef?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/9b8383b1-a28d-4940-8c4e-2f0cd21556ef?syn-25a6b1a6=1</id>
-    <updated>2026-08-07T04:36:03.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>TikTok owner training a model three times larger than Moonshot’s Kimi K3</summary>
+    <summary>metal : fix NORM/RMS_NORM for row lengths that leave a partial simdgroup ( #26708 ) ggml_metal_op_norm sized the threadgroup with nth = std::min(nth, args.ne00_t) , which can leave nth not a multiple of the simdgroup size. The kernels finish their row reduction with a cross-simdgroup step where each lane of the last si — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
     <title>Canada Launches $20.3M Quantum Defence Innovation Secure Hub in Calgary</title>
@@ -79,13 +61,13 @@
     <summary>Cloudflare has introduced Kitesurf, a cloud-hosted browser designed for AI agents instead of people. The company says the browser uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently.</summary>
   </entry>
   <entry>
-    <title>US Treasury Sparks Debate Over Auction Cutbacks to Temper Yields</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-07/us-treasury-sparks-debate-over-auction-cutbacks-to-temper-yields"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-07/us-treasury-sparks-debate-over-auction-cutbacks-to-temper-yields</id>
-    <updated>2026-08-07T17:33:44.000Z</updated>
+    <title>Phelan Confirmed to Lead Trump’s Council of Economic Advisers</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-07/phelan-confirmed-to-lead-trump-s-council-of-economic-advisers"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-07/phelan-confirmed-to-lead-trump-s-council-of-economic-advisers</id>
+    <updated>2026-08-07T18:28:17.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The US Treasury triggered debate this week about something that’s for years been an article of faith about the world’s biggest bond market: the government’s auctions of notes and bonds will just have to keep getting bigger.</summary>
+    <summary>The US Senate confirmed Christopher Phelan, a former adviser to the Federal Reserve Bank of Minneapolis, as chairman of the White House Council of Economic Advisers.</summary>
   </entry>
   <entry>
     <title>Decoupling Perception from Description: Computation-Grounded Representation Alignment between Multivariate Time Series and Language</title>
@@ -97,13 +79,13 @@
     <summary>arXiv:2608.05238v1 Announce Type: new Abstract: Training multimodal models to align time series with language runs into a self-supervision trap. The usual recipe asks an LLM to read a series and write a description, so label quality is capped by the perceptual skill the model is supposed to learn. The data can never te</summary>
   </entry>
   <entry>
-    <title>Is the promise of AI living up to the hype? | Fiona Katauskas</title>
-    <link href="https://www.theguardian.com/commentisfree/picture/2026/aug/08/is-the-promise-of-ai-living-up-to-the-hype"/>
-    <id>https://www.theguardian.com/commentisfree/picture/2026/aug/08/is-the-promise-of-ai-living-up-to-the-hype</id>
-    <updated>2026-08-07T15:00:24.000Z</updated>
-    <author><name>The Guardian AI</name></author>
+    <title>AMD acquires Taalas, a startup that bakes AI models directly into silicon</title>
+    <link href="https://the-decoder.com/amd-acquires-taalas-a-startup-that-bakes-ai-models-directly-into-silicon/"/>
+    <id>https://the-decoder.com/amd-acquires-taalas-a-startup-that-bakes-ai-models-directly-into-silicon/</id>
+    <updated>2026-08-07T18:01:32.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="HARDWARE"/>
-    <summary>It’s certainly increasing its output See more of Fiona Katauskas’s cartoons here Continue reading...</summary>
+    <summary>AMD is buying Canadian startup Taalas, which hard-codes model weights directly into inference chips. That makes them extremely fast but locks each chip to a single model. A demo chip hit over 16,000 tokens per second per user running Llama 3.1-8B. Google is reportedly working on a similar approach for Gemini. The artic</summary>
   </entry>
   <entry>
     <title>Growing Up The Hard Way</title>
@@ -133,13 +115,13 @@
     <summary>Anthropic and Meta models hacked third parties during testing, #collab-ing with an agent in an IR notebook, deep dive post on Figma's AI-powered code scanning</summary>
   </entry>
   <entry>
-    <title>Military device manufacturer discloses cyber incident to SEC</title>
-    <link href="https://therecord.media/military-device-manufacturer-discloses-cyber-incident"/>
-    <id>https://therecord.media/military-device-manufacturer-discloses-cyber-incident</id>
-    <updated>2026-08-07T16:52:00.000Z</updated>
+    <title>US cyber ambassador nominee Cassady confirmed in Senate</title>
+    <link href="https://therecord.media/adam-cassady-confirmed-senate-cyber-ambassador"/>
+    <id>https://therecord.media/adam-cassady-confirmed-senate-cyber-ambassador</id>
+    <updated>2026-08-07T18:14:00.000Z</updated>
     <author><name>The Record</name></author>
     <category term="CYBER THREATS"/>
-    <summary>IEH Corporation — which produces specialized products used in military satellites, missiles and fighter jets — said it discovered a cyberattack on Tuesday and immediately tried to contain it.</summary>
+    <summary>NTIA official Adam Cassady becomes the second person confirmed to be the State Department's ambassador-at-large for cyber policy.</summary>
   </entry>
   <entry>
     <title>langchain v1.4.2 released</title>
@@ -187,37 +169,37 @@
     <summary>Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.</summary>
   </entry>
   <entry>
-    <title>Singapore-based Multiplier, which acquires accounting firms to boost their growth with AI tools, raised a $35M Series B led by TheGP at a $300M valuation (Maria Armental/Wall Street Journal)</title>
-    <link href="https://www.techmeme.com/260807/p19#a260807p19"/>
-    <id>https://www.techmeme.com/260807/p19#a260807p19</id>
-    <updated>2026-08-07T16:20:00.000Z</updated>
+    <title>Sources: legal AI startup Harvey is in talks to raise $500M+ at a $15.5B valuation, up from $11B in March, and is generating $350M+ in annualized revenue (The Information)</title>
+    <link href="https://www.techmeme.com/260807/p22#a260807p22"/>
+    <id>https://www.techmeme.com/260807/p22#a260807p22</id>
+    <updated>2026-08-07T17:25:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Maria Armental / Wall Street Journal : Singapore-based Multiplier, which acquires accounting firms to boost their growth with AI tools, raised a $35M Series B led by TheGP at a $300M valuation — The $300 million company raised $35 million and hired former Slack CFO Allen Shim as it pursues an aggressive, acquisition-le</summary>
+    <summary>The Information : Sources: legal AI startup Harvey is in talks to raise $500M+ at a $15.5B valuation, up from $11B in March, and is generating $350M+ in annualized revenue — Legal AI startup Harvey is in talks to raise at least $500 million at a $15.5 billion valuation including the investment, a 40% premium to its las</summary>
   </entry>
   <entry>
-    <title>110B parameter in 6GB GPU and 16GB RAM vs 22.6 tok/s 30B on the same machine. Predict -&gt; optimize -&gt; run</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vi4vak/110b_parameter_in_6gb_gpu_and_16gb_ram_vs_226/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vi4vak/110b_parameter_in_6gb_gpu_and_16gb_ram_vs_226/</id>
-    <updated>2026-08-07T16:09:42.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>Wan-Animate-2: Pushing the Application Boundaries of Character Animation Models</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vi1r6t/wananimate2_pushing_the_application_boundaries_of/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vi1r6t/wananimate2_pushing_the_application_boundaries_of/</id>
+    <updated>2026-08-07T14:12:16.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>I have been working on building quantprobe, a free open-source model optimization with the goal of leveraging on old consumer hardware and make it run big models squeezing the most out of the machine. This research has a lot of findings, all documented in the repository including the failures! https://github.com/Federi</summary>
+    <summary>📝 Introduction We present Wan-Animate-2, a novel end-to-end character animation framework that directly consumes driving videos in a redesigned Diffusion Transformer, which achieves high-fidelity motion generation and strong identity preservation by eliminating intermediate motion extractors. We further add text-drive</summary>
   </entry>
   <entry>
-    <title>Title: How would you benchmark 50+ local LLMs without going insane?</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vhz5nl/title_how_would_you_benchmark_50_local_llms/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vhz5nl/title_how_would_you_benchmark_50_local_llms/</id>
-    <updated>2026-08-07T12:23:13.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>Got job as Director of AI and Systems development self-taught</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vi8jlr/got_job_as_director_of_ai_and_systems_development/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vi8jlr/got_job_as_director_of_ai_and_systems_development/</id>
+    <updated>2026-08-07T18:24:25.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>I feel like I stepped into a time capsule after the ChatGPT-3 days. 😅 I finally built a decent PC (Ryzen 7 7700, 32GB RAM, No GPU), discovered llama.cpp and somehow ended up downloading 50+ GGUF models. Now I'm stuck with decision paralysis. I mainly use them for coding (JavaScript, React, TypeScript, debugging, reaso</summary>
+    <summary>Hey everyone, I just wanted to share my journey here for some motivation. Three years ago, I saw the sudden spike in AI and realized it was the future of tech. My goal at the time was to be an indie game dev, and seeing that AI could write basic code, I told myself I needed to master it or risk being replaced. I starte</summary>
   </entry>
   <entry>
     <title>Managed Deep Agents is now in public beta</title>
     <link href="https://www.langchain.com/blog/managed-deep-agents-is-now-in-public-beta"/>
     <id>https://www.langchain.com/blog/managed-deep-agents-is-now-in-public-beta</id>
-    <updated>2026-08-07T17:24:06.000Z</updated>
+    <updated>2026-08-07T18:32:35.000Z</updated>
     <author><name>LangChain Blog</name></author>
     <category term="AGENTS &amp; TOOLS"/>
     <summary>Deploy Deep Agents to a managed LangSmith runtime with durable execution, memory, sandboxes, channels, evals, and production-ready infrastructure.</summary>
@@ -232,22 +214,22 @@
     <summary>Sarah Perez / TechCrunch : Cloudflare debuts Kitesurf, a cloud-hosted browser for AI agents built on top of its Workers serverless service, available for free while in beta in Browser Run — Cloudflare is the latest company to join the race to build a new web browser. But instead of pitching a Chrome alternative to cons</summary>
   </entry>
   <entry>
-    <title>DraftKings CEO Blasts Prediction Bets on Earnings Call Comments</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-07/draftkings-ceo-blasts-prediction-bets-on-earnings-call-comments"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-07/draftkings-ceo-blasts-prediction-bets-on-earnings-call-comments</id>
-    <updated>2026-08-07T17:30:04.000Z</updated>
+    <title>Odd Lots: What It’s Like to Collaborate With Big Brand Names</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-07/odd-lots-what-it-s-like-to-collaborate-with-big-brand-names"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-07/odd-lots-what-it-s-like-to-collaborate-with-big-brand-names</id>
+    <updated>2026-08-07T19:00:50.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>DraftKings Inc. Chief Executive Officer Jason Robins said he doesn’t think it is good that bettors are placing prediction market wagers on what executives say on company earnings calls.</summary>
+    <summary>In the age of brand collaborations, how do companies work together to benefit from each other's influence? On this episode of the Odd Lots podcast, Fishwife CEO Becca Millstein joins Tracy Alloway and Joe Weisenthal to talk about the company's partnership with brands like Whole Foods and Fly By Jing. (Source: Bloomberg</summary>
   </entry>
   <entry>
-    <title>The Free Money AI Bond Buildout Is Gone</title>
-    <link href="https://www.bloomberg.com/news/newsletters/2026-08-07/the-free-money-ai-bond-buildout-is-gone"/>
-    <id>https://www.bloomberg.com/news/newsletters/2026-08-07/the-free-money-ai-bond-buildout-is-gone</id>
-    <updated>2026-08-07T16:44:09.000Z</updated>
+    <title>How the Food Industry Is Dealing With the Cyclospora Outbreak</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-07/how-the-food-industry-is-dealing-with-cyclospora-crisis-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-07/how-the-food-industry-is-dealing-with-cyclospora-crisis-video</id>
+    <updated>2026-08-07T18:50:31.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Hyperscaler debt funding is getting pricier.</summary>
+    <summary>Since Taco Bell was linked to the cyclospora outbreak, the fast food chain removed the allegedly implicated lettuce from its supply chain and, in a bid to win back hesitant diners, began offering special discounts on a concoction known as the Enchirito. Bloomberg Businessweek's Deena Shanker joins Max Chafkin and Stace</summary>
   </entry>
   <entry>
     <title>Beyond Sentiment: Comparing Traditional NLP and LLM-Based Multi-Dimensional Analysis for Political News Evaluation</title>
@@ -268,12 +250,30 @@
     <summary>arXiv:2608.05160v1 Announce Type: new Abstract: We introduce the Ignition Index (I), a validated scalar metric that operationalizes Global Workspace Theory's (GWT) all-or-none ignition prediction in transformer language models. The metric fits a four-parameter sigmoid to per-layer linear probe accuracy as a function of</summary>
   </entry>
   <entry>
-    <title>Introducing Bench 2.0 — a revamped benchmark analyzer, exclusively for Tom's Hardware Premium subscribers</title>
-    <link href="https://www.tomshardware.com/pc-components/introducing-bench-2-0-a-revamped-benchmark-analyzer-exclusively-for-toms-hardware-premium-subscribers"/>
-    <id>https://www.tomshardware.com/pc-components/introducing-bench-2-0-a-revamped-benchmark-analyzer-exclusively-for-toms-hardware-premium-subscribers</id>
-    <updated>2026-08-07T13:27:12.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
+    <title>Copilot usage metrics API adds agent app activity</title>
+    <link href="https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity"/>
+    <id>https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity</id>
+    <updated>2026-08-07T18:20:47.000Z</updated>
+    <author><name>GitHub Copilot Changelog</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Since agent apps arrived on GitHub, teams have been able to run agents from partners like Claude and Codex directly in their GitHub workflows. The Copilot usage metrics API now… The post Copilot usage metrics API adds agent app activity appeared first on The GitHub Blog .</summary>
+  </entry>
+  <entry>
+    <title>Is the promise of AI living up to the hype? | Fiona Katauskas</title>
+    <link href="https://www.theguardian.com/commentisfree/picture/2026/aug/08/is-the-promise-of-ai-living-up-to-the-hype"/>
+    <id>https://www.theguardian.com/commentisfree/picture/2026/aug/08/is-the-promise-of-ai-living-up-to-the-hype</id>
+    <updated>2026-08-07T15:00:24.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="HARDWARE"/>
-    <summary>We’re pleased to introduce Bench 2.0, a ground-up rethink of our benchmarking tool that makes it the most powerful, most intuitive benchmark browser in the business. Bench 2.0 has tons of new features designed to make the data easier to understand, easier to sort through, and more usable.</summary>
+    <summary>It’s certainly increasing its output See more of Fiona Katauskas’s cartoons here Continue reading...</summary>
+  </entry>
+  <entry>
+    <title>A 10M IOPS Kioxia GP1 SSD Shown Running at FMS 2026</title>
+    <link href="https://www.servethehome.com/a-10m-iops-kioxia-gp1-ssd-shown-running-at-fms-2026/"/>
+    <id>https://www.servethehome.com/a-10m-iops-kioxia-gp1-ssd-shown-running-at-fms-2026/</id>
+    <updated>2026-08-07T19:00:09.000Z</updated>
+    <author><name>ServeTheHome</name></author>
+    <category term="HARDWARE"/>
+    <summary>At FMS 2026, we saw the Kioxia GP1 PCIe Gen6 NVMe SSD running live in the company's booth at just over 10M IOPS The post A 10M IOPS Kioxia GP1 SSD Shown Running at FMS 2026 appeared first on ServeTheHome .</summary>
   </entry>
 </feed>
