@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-07T13:22:54.777Z</updated>
+  <updated>2026-08-07T15:03:07.509Z</updated>
   <entry>
-    <title>llama.cpp b10307 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10307"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10307</id>
-    <updated>2026-08-07T13:22:04.000Z</updated>
+    <title>llama.cpp b10310 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10310"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10310</id>
+    <updated>2026-08-07T15:00:48.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>sycl: fix UE4M3 parsing ( #25608 ) The NVFP4 quantization format stores a scaling factor for every group of 16 weights, packed into a single UE4M3 byte. The SYCL GPU code was converting these scale values using the E4M3 path, but that's signed , and these are unsigned values. Website: https://llama.app macOS/iOS: macOS — Also covered by: ggml-org/whisper.cpp</summary>
+    <summary>ggml : add aarch64 HWCAP fallbacks and fix fp16 variant detection ( #25554 ) ggml : add fallback definitions for missing aarch64 HWCAP bits ggml : require HWCAP_ASIMDHP for the aarch64 fp16 cpu variants Also rename has_fp16_va to has_fp16, the field gates the whole FEAT_FP16 extension, scalar and vector half-precision  — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
     <title>ByteDance targets mega AI model nearing Anthropic’s Mythos</title>
@@ -23,6 +23,15 @@
     <author><name>FT Artificial Intelligence</name></author>
     <category term="MODEL RELEASES"/>
     <summary>TikTok owner training a model three times larger than Moonshot’s Kimi K3</summary>
+  </entry>
+  <entry>
+    <title>Canada Launches $20.3M Quantum Defence Innovation Secure Hub in Calgary</title>
+    <link href="https://quantumcomputingreport.com/canada-launches-20-3m-quantum-defence-innovation-secure-hub-in-calgary/"/>
+    <id>https://quantumcomputingreport.com/canada-launches-20-3m-quantum-defence-innovation-secure-hub-in-calgary/</id>
+    <updated>2026-08-07T11:28:15.000Z</updated>
+    <author><name>Quantum Computing Report</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Canadian Minister of National Defence David J. McGuinty has announced the launch of Canada’s first Quantum Defence Innovation Secure Hub (DISH) in Calgary, Alberta. Operated by a 13-member consortium led by the University of Calgary and its Quantum City initiative—under Managing Director Dr. Megan Lee—the hub will rece — Also covered by: The Quantum Insider</summary>
   </entry>
   <entry>
     <title>ChainDrop: Inside a Self-Propagating npm Worm</title>
@@ -52,6 +61,123 @@
     <summary>Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.</summary>
   </entry>
   <entry>
+    <title>Singapore-based AI infrastructure startup Acrab raised a $130M Series B, bringing its total funding to more than $480M (Mars W. Mosqueda Jr/DealStreetAsia)</title>
+    <link href="https://www.techmeme.com/260807/p17#a260807p17"/>
+    <id>https://www.techmeme.com/260807/p17#a260807p17</id>
+    <updated>2026-08-07T14:50:00.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Mars W. Mosqueda Jr / DealStreetAsia : Singapore-based AI infrastructure startup Acrab raised a $130M Series B, bringing its total funding to more than $480M — Acrab, a Singapore-headquartered AI infrastructure startup, has announced raising $130 million in a Series B funding round backed by existing investors Vertex V</summary>
+  </entry>
+  <entry>
+    <title>Deep Agents vs LangChain vs LangGraph</title>
+    <link href="https://www.langchain.com/blog/deep-agents-vs-langchain-vs-langgraph"/>
+    <id>https://www.langchain.com/blog/deep-agents-vs-langchain-vs-langgraph</id>
+    <updated>2026-08-07T07:27:53.000Z</updated>
+    <author><name>LangChain Blog</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Deep Agents, LangChain, and LangGraph each offer distinct approaches to building agents. In this post, we cover the key distinctions between our open source frameworks and when you should reach for each one.</summary>
+  </entry>
+  <entry>
+    <title>Hungary Warns of Dramatic Hit From Drought, Nuclear Outage</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-07/hungary-warns-of-dramatic-hit-from-drought-nuclear-outage"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-07/hungary-warns-of-dramatic-hit-from-drought-nuclear-outage</id>
+    <updated>2026-08-07T14:43:06.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Hungary is facing a “dramatic” economic impact given the drought across its agricultural heartland, combined with what may turn out to be a lengthy nuclear production outage, Prime Minister Peter Magyar said.</summary>
+  </entry>
+  <entry>
+    <title>Decoupling Perception from Description: Computation-Grounded Representation Alignment between Multivariate Time Series and Language</title>
+    <link href="https://arxiv.org/abs/2608.05238"/>
+    <id>https://arxiv.org/abs/2608.05238</id>
+    <updated>2026-08-07T04:00:00.000Z</updated>
+    <author><name>arXiv cs.LG</name></author>
+    <category term="RESEARCH"/>
+    <summary>arXiv:2608.05238v1 Announce Type: new Abstract: Training multimodal models to align time series with language runs into a self-supervision trap. The usual recipe asks an LLM to read a series and write a description, so label quality is capped by the perceptual skill the model is supposed to learn. The data can never te</summary>
+  </entry>
+  <entry>
+    <title>Is the promise of AI living up to the hype? | Fiona Katauskas</title>
+    <link href="https://www.theguardian.com/commentisfree/picture/2026/aug/08/is-the-promise-of-ai-living-up-to-the-hype"/>
+    <id>https://www.theguardian.com/commentisfree/picture/2026/aug/08/is-the-promise-of-ai-living-up-to-the-hype</id>
+    <updated>2026-08-07T15:00:24.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="HARDWARE"/>
+    <summary>It’s certainly increasing its output See more of Fiona Katauskas’s cartoons here Continue reading...</summary>
+  </entry>
+  <entry>
+    <title>Growing Up The Hard Way</title>
+    <link href="https://thehackernews.com/2026/08/growing-up-hard-way.html"/>
+    <id>https://thehackernews.com/2026/08/growing-up-hard-way.html</id>
+    <updated>2026-08-07T11:55:26.000Z</updated>
+    <author><name>The Hacker News</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Open Source had a great childhood. For two decades it got to be a kid. It ran around barefoot, gave everything away, trusted strangers, and never once thought about who was watching. It ran the kind of lemonade stand that took IOUs from anyone who wandered up — take what you need, pay me back whenever, no need to leave</summary>
+  </entry>
+  <entry>
+    <title>A secret AI framework won’t work</title>
+    <link href="https://www.transformernews.ai/p/secret-white-house-ai-framework-wont-work"/>
+    <id>https://www.transformernews.ai/p/secret-white-house-ai-framework-wont-work</id>
+    <updated>2026-08-07T13:59:21.000Z</updated>
+    <author><name>Transformer</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>AI is too important to regulate behind closed doors, especially given the government lacks much of the necessary expertise</summary>
+  </entry>
+  <entry>
+    <title>[tl;dr sec] #340 - Anthropic and Meta Agents be Hackin', Agentic Incident Response Notebooks, Figma's AI Code Scanning</title>
+    <link href="https://tldrsec.com/p/tldr-sec-340"/>
+    <id>https://tldrsec.com/p/tldr-sec-340</id>
+    <updated>2026-08-07T14:30:00.000Z</updated>
+    <author><name>tl;dr sec</name></author>
+    <category term="AI SECURITY"/>
+    <summary>Anthropic and Meta models hacked third parties during testing, #collab-ing with an agent in an IR notebook, deep dive post on Figma's AI-powered code scanning</summary>
+  </entry>
+  <entry>
+    <title>Levi Strauss says hackers breached employee computers, accessed corporate data</title>
+    <link href="https://therecord.media/levis-data-breach-social-engineering"/>
+    <id>https://therecord.media/levis-data-breach-social-engineering</id>
+    <updated>2026-08-07T13:35:00.000Z</updated>
+    <author><name>The Record</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>Intruders exfiltrated certain corporate information after gaining access to three company-issued computers through a social engineering attack, Levi Strauss reported.</summary>
+  </entry>
+  <entry>
+    <title>One of science fiction’s greatest writers warned us about a AI. Does he also hold the remedy? | Alan Finkel</title>
+    <link href="https://www.theguardian.com/technology/commentisfree/2026/aug/07/science-fiction-warned-us-about-an-ai-powered-dystopian-future-does-it-also-hold-the-remedy"/>
+    <id>https://www.theguardian.com/technology/commentisfree/2026/aug/07/science-fiction-warned-us-about-an-ai-powered-dystopian-future-does-it-also-hold-the-remedy</id>
+    <updated>2026-08-07T04:00:08.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="ROBOTICS"/>
+    <summary>What might a modern day equivalent of Isaac Asimov’s laws of robotics look like? Guided by the author, I propose the three laws of AI Tesla and SpaceX founder Elon Musk predicted in July that legions of AI-powered robots would dominate the physical world and that AI might not take orders from people any more. He also o</summary>
+  </entry>
+  <entry>
+    <title>SEC Declares Registration Statement Effective for Pasqal’s Business Combination with Bleichroeder Acquisition Corp. II</title>
+    <link href="https://quantumcomputingreport.com/sec-declares-registration-statement-effective-for-pasqals-business-combination-with-bleichroeder-acquisition-corp-ii/"/>
+    <id>https://quantumcomputingreport.com/sec-declares-registration-statement-effective-for-pasqals-business-combination-with-bleichroeder-acquisition-corp-ii/</id>
+    <updated>2026-08-07T12:09:52.000Z</updated>
+    <author><name>Quantum Computing Report</name></author>
+    <category term="QUANTUM"/>
+    <summary>French neutral-atom quantum computing developer Pasqal Holding SAS has announced that its joint Form F-4 Registration Statement with Special Purpose Acquisition Company (SPAC) Bleichroeder Acquisition Corp. II (NASDAQ: BBCQ) was declared effective by the U.S. Securities and Exchange Commission (SEC) on August 5, 2026. </summary>
+  </entry>
+  <entry>
+    <title>Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users</title>
+    <link href="https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt"/>
+    <id>https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt</id>
+    <updated>2026-08-06T10:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.</summary>
+  </entry>
+  <entry>
+    <title>China's Largest AI Model Is Being Developed at Bytedance</title>
+    <link href="https://the-decoder.com/chinas-largest-ai-model-is-being-developed-at-bytedance/"/>
+    <id>https://the-decoder.com/chinas-largest-ai-model-is-being-developed-at-bytedance/</id>
+    <updated>2026-08-07T12:54:17.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Bytedance is training an AI model with up to ten trillion parameters, according to the Financial Times. That's three times the size of Moonshot's Kimi K3, currently the largest Chinese model. The article China's Largest AI Model Is Being Developed at Bytedance appeared first on The Decoder .</summary>
+  </entry>
+  <entry>
     <title>The White House’s plan to vet potentially dangerous AI is cloaked in secrecy</title>
     <link href="https://www.theguardian.com/technology/2026/aug/07/white-house-ai"/>
     <id>https://www.theguardian.com/technology/2026/aug/07/white-house-ai</id>
@@ -70,157 +196,40 @@
     <summary>GitHub : https://github.com/humza-khalid/12vhpwr-guard Reddit thread : https://www.reddit.com/r/nvidia/comments/1vglua1/i_built_a_free_open_source_tool_that_shuts_your/ submitted by /u/pmttyji [link] [comments]</summary>
   </entry>
   <entry>
-    <title>Athens-based Omilia, which builds self-learning AI agents that work across different customer contact points, raised a $67M Series B led by Expedition Growth (Ivan Mehta/TechCrunch)</title>
-    <link href="https://www.techmeme.com/260807/p11#a260807p11"/>
-    <id>https://www.techmeme.com/260807/p11#a260807p11</id>
-    <updated>2026-08-07T11:00:34.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Ivan Mehta / TechCrunch : Athens-based Omilia, which builds self-learning AI agents that work across different customer contact points, raised a $67M Series B led by Expedition Growth — The customer support industry has seen a massive influx of startups like Sierra, Decagon and Parloa trying to infuse AI …</summary>
-  </entry>
-  <entry>
-    <title>US Loses 23,000 Jobs in July, Unemployment Rate Falls</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-07/us-loses-23-000-jobs-in-july-unemployment-rate-falls-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-07/us-loses-23-000-jobs-in-july-unemployment-rate-falls-video</id>
-    <updated>2026-08-07T13:19:08.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>US employers unexpectedly cut jobs in July and hiring over the previous two months was revised lower. 23,000 jobs were lost, the estimate was for a gain of 80,000 jobs. The unemployment rate fell to 4.1% from 4.2%. Bloomberg's Michael McKee reports. (Source: Bloomberg)</summary>
-  </entry>
-  <entry>
-    <title>Decoupling Perception from Description: Computation-Grounded Representation Alignment between Multivariate Time Series and Language</title>
-    <link href="https://arxiv.org/abs/2608.05238"/>
-    <id>https://arxiv.org/abs/2608.05238</id>
-    <updated>2026-08-07T04:00:00.000Z</updated>
-    <author><name>arXiv cs.LG</name></author>
-    <category term="RESEARCH"/>
-    <summary>arXiv:2608.05238v1 Announce Type: new Abstract: Training multimodal models to align time series with language runs into a self-supervision trap. The usual recipe asks an LLM to read a series and write a description, so label quality is capped by the perceptual skill the model is supposed to learn. The data can never te</summary>
-  </entry>
-  <entry>
-    <title>Canada Launches Quantum Defence Innovation Secure Hub in Calgary</title>
-    <link href="https://thequantuminsider.com/2026/08/07/canada-launches-quantum-defence-innovation-secure-hub-calgary/"/>
-    <id>https://thequantuminsider.com/2026/08/07/canada-launches-quantum-defence-innovation-secure-hub-calgary/</id>
-    <updated>2026-08-07T09:57:17.000Z</updated>
-    <author><name>The Quantum Insider</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Insider Brief Press release – Today, the Honourable David J. McGuinty, Minister of National Defence, announced the launch of the Quantum Defence Innovation Secure Hub (DISH) under the Bureau of Research, Engineering and Advanced Leadership in Innovation and Science (BOREALIS) in Calgary, Alberta. Quantum technologies a</summary>
-  </entry>
-  <entry>
-    <title>Growing Up The Hard Way</title>
-    <link href="https://thehackernews.com/2026/08/growing-up-hard-way.html"/>
-    <id>https://thehackernews.com/2026/08/growing-up-hard-way.html</id>
-    <updated>2026-08-07T11:55:26.000Z</updated>
-    <author><name>The Hacker News</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Open Source had a great childhood. For two decades it got to be a kid. It ran around barefoot, gave everything away, trusted strangers, and never once thought about who was watching. It ran the kind of lemonade stand that took IOUs from anyone who wandered up — take what you need, pay me back whenever, no need to leave</summary>
-  </entry>
-  <entry>
-    <title>Prompt injection technology in focus for Menlo Security - SiliconANGLE</title>
-    <link href="https://news.google.com/rss/articles/CBMifkFVX3lxTE80VkxaWk9xaVpSUVIzSFFELUdQYVhKQTRlMlhqV2dPUU5wUmtfbDQ1SUQzUGZEWG5aaWZFVlFlN000ODhIWE5RT3JkNmYzVnUwakZ6MzNOXy1HS0dlTWdMRlBFcVhDQ0dBRERXTGRQYkhXTTduSm5jNVVwbmdUdw?oc=5"/>
-    <id>https://news.google.com/rss/articles/CBMifkFVX3lxTE80VkxaWk9xaVpSUVIzSFFELUdQYVhKQTRlMlhqV2dPUU5wUmtfbDQ1SUQzUGZEWG5aaWZFVlFlN000ODhIWE5RT3JkNmYzVnUwakZ6MzNOXy1HS0dlTWdMRlBFcVhDQ0dBRERXTGRQYkhXTTduSm5jNVVwbmdUdw?oc=5</id>
-    <updated>2026-08-07T13:07:01.000Z</updated>
-    <author><name>GN: Prompt Injection</name></author>
-    <category term="AI SECURITY"/>
-    <summary>Prompt injection technology in focus for Menlo Security SiliconANGLE</summary>
-  </entry>
-  <entry>
-    <title>The Good, the Bad and the Ugly in Cybersecurity – Week 32</title>
-    <link href="https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-32-8/"/>
-    <id>https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-32-8/</id>
-    <updated>2026-08-07T13:00:57.000Z</updated>
-    <author><name>SentinelOne</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>Snowflake hacker's guilty plea covers a 100M-record breach, Mythos 5 spends 34 hours trying to backdoor real code, and ChainDrop's worm spreads via npm.</summary>
-  </entry>
-  <entry>
-    <title>Livestream shopping app Whatnot raised a $545M Series G led by Iconiq, Lightspeed, and Avra at a $20B valuation, up from an $11.5B valuation in October 2025 (Allie Garfinkle/Fortune)</title>
-    <link href="https://www.techmeme.com/260807/p12#a260807p12"/>
-    <id>https://www.techmeme.com/260807/p12#a260807p12</id>
-    <updated>2026-08-07T11:50:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>Allie Garfinkle / Fortune : Livestream shopping app Whatnot raised a $545M Series G led by Iconiq, Lightspeed, and Avra at a $20B valuation, up from an $11.5B valuation in October 2025 — Whatnot, started in a Funko Pop-flooded rental house, is now a $20 billion company. — The live commerce platform exclusively told For</summary>
-  </entry>
-  <entry>
-    <title>Ben's session</title>
-    <link href="https://www.bensbites.com/p/bens-session"/>
-    <id>https://www.bensbites.com/p/bens-session</id>
-    <updated>2026-08-07T12:58:51.000Z</updated>
-    <author><name>Ben's Bites</name></author>
-    <category term="ANALYSIS"/>
-    <summary>Field notes from my agent activity</summary>
-  </entry>
-  <entry>
-    <title>One of science fiction’s greatest writers warned us about a AI. Does he also hold the remedy? | Alan Finkel</title>
-    <link href="https://www.theguardian.com/technology/commentisfree/2026/aug/07/science-fiction-warned-us-about-an-ai-powered-dystopian-future-does-it-also-hold-the-remedy"/>
-    <id>https://www.theguardian.com/technology/commentisfree/2026/aug/07/science-fiction-warned-us-about-an-ai-powered-dystopian-future-does-it-also-hold-the-remedy</id>
-    <updated>2026-08-07T04:00:08.000Z</updated>
-    <author><name>The Guardian AI</name></author>
-    <category term="ROBOTICS"/>
-    <summary>What might a modern day equivalent of Isaac Asimov’s laws of robotics look like? Guided by the author, I propose the three laws of AI Tesla and SpaceX founder Elon Musk predicted in July that legions of AI-powered robots would dominate the physical world and that AI might not take orders from people any more. He also o</summary>
-  </entry>
-  <entry>
-    <title>China's Largest AI Model Is Being Developed at Bytedance</title>
-    <link href="https://the-decoder.com/chinas-largest-ai-model-is-being-developed-at-bytedance/"/>
-    <id>https://the-decoder.com/chinas-largest-ai-model-is-being-developed-at-bytedance/</id>
-    <updated>2026-08-07T12:54:17.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Bytedance is training an AI model with up to ten trillion parameters, according to the Financial Times. That's three times the size of Moonshot's Kimi K3, currently the largest Chinese model. The article China's Largest AI Model Is Being Developed at Bytedance appeared first on The Decoder .</summary>
-  </entry>
-  <entry>
-    <title>Stanford and Arc Institute scientists used AI to design new viruses that killed bacteria in the lab</title>
-    <link href="https://the-decoder.com/stanford-and-arc-institute-scientists-used-ai-to-design-new-viruses-that-killed-bacteria-in-the-lab/"/>
-    <id>https://the-decoder.com/stanford-and-arc-institute-scientists-used-ai-to-design-new-viruses-that-killed-bacteria-in-the-lab/</id>
-    <updated>2026-08-07T12:50:56.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>A research team in California has used artificial intelligence to design working viruses that kill bacteria, in what they describe as the &quot;first generative design of complete genomes.&quot; The project marks an early step toward AI-designed life forms, according to a report in MIT Technology Review. The article Stanford and</summary>
-  </entry>
-  <entry>
-    <title>A llama.cpp PR makes Q2_0 3.0–3.6x faster on x86 CPUs, 8B decode goes 2.39 → 8.20 tok/s</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vhz989/a_llamacpp_pr_makes_q2_0_3036x_faster_on_x86_cpus/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vhz989/a_llamacpp_pr_makes_q2_0_3036x_faster_on_x86_cpus/</id>
-    <updated>2026-08-07T12:27:41.000Z</updated>
+    <title>Wan-Animate-2: Pushing the Application Boundaries of Character Animation Models</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vi1r6t/wananimate2_pushing_the_application_boundaries_of/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vi1r6t/wananimate2_pushing_the_application_boundaries_of/</id>
+    <updated>2026-08-07T14:12:16.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>I was going through the current llama.cpp CPU PRs and #26348 stood out because this isn't the usual +5% kernel optimization. It adds an x86 VNNI implementation for the Q2_0 × Q8_0 dot product, and the author's controlled CPU-only benchmarks show roughly 3–3.6x higher throughput across Bonsai models from 1.7B to 27B. Se</summary>
+    <summary>📝 Introduction We present Wan-Animate-2, a novel end-to-end character animation framework that directly consumes driving videos in a redesigned Diffusion Transformer, which achieves high-fidelity motion generation and strong identity preservation by eliminating intermediate motion extractors. We further add text-drive</summary>
   </entry>
   <entry>
-    <title>OpenAI reportedly slows research after its own models secretly coordinated hacks for weeks undetected</title>
-    <link href="https://the-decoder.com/openai-reportedly-slows-research-after-its-own-models-secretly-coordinated-hacks-for-weeks-undetected/"/>
-    <id>https://the-decoder.com/openai-reportedly-slows-research-after-its-own-models-secretly-coordinated-hacks-for-weeks-undetected/</id>
-    <updated>2026-08-07T09:22:26.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>langchain v1.4.2 released</title>
+    <link href="https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.4.2"/>
+    <id>https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.4.2</id>
+    <updated>2026-08-07T13:58:16.000Z</updated>
+    <author><name>langchain-ai/langchain</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>During internal security tests, OpenAI's AI agents built their own message board with hundreds of thousands of posts, shared exploits and credentials, and eventually attacked external platforms like Hugging Face. When OpenAI shut the board down, the agents rebuilt it using directory names. OpenAI researcher Boaz Barak </summary>
+    <summary>Changes since langchain-openai==1.4.1 release(openai): 1.4.2 ( #39322 ) fix(openai): handle ContextWindowExceededError ( #39300 ) chore: bump the minor-and-patch group across 3 directories with 7 updates ( #39187 ) fix(openai): filter langchain-generated content block IDs ( #39209 ) fix(openai): preserve Responses text</summary>
   </entry>
   <entry>
-    <title>Amazon, Cursor, Microsoft, OpenAI, and Vercel unite on a shared standard for AI agent plugins</title>
-    <link href="https://the-decoder.com/amazon-cursor-microsoft-openai-and-vercel-unite-on-a-shared-standard-for-ai-agent-plugins/"/>
-    <id>https://the-decoder.com/amazon-cursor-microsoft-openai-and-vercel-unite-on-a-shared-standard-for-ai-agent-plugins/</id>
-    <updated>2026-08-07T08:54:45.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Amazon, Cursor, Microsoft, OpenAI, and Vercel have jointly created Agent Plugins, an open standard that defines a single package format for AI agent extensions. Version 1.0.0 uses a plugin.json manifest file and supports both agent skills and MCP servers. The article Amazon, Cursor, Microsoft, OpenAI, and Vercel unite </summary>
-  </entry>
-  <entry>
-    <title>Jobs Revisions Are Pointing to Labor Weakness, Says BlackRock’s Rosenberg</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-07/jobs-revisions-are-pointing-to-labor-weakness-rosenberg-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-07/jobs-revisions-are-pointing-to-labor-weakness-rosenberg-video</id>
-    <updated>2026-08-07T13:17:48.000Z</updated>
+    <title>Ukraine Grain Exports to Slump After Russian Strikes on Odesa</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-07/ukraine-grain-exports-to-slump-after-russian-strikes-on-odesa"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-07/ukraine-grain-exports-to-slump-after-russian-strikes-on-odesa</id>
+    <updated>2026-08-07T14:50:10.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Jeffrey Rosenberg, portfolio manager of the Systematic Multi-Strategy Fund at BlackRock, explains why he would be “hesitant’ to write off the July US jobs report which saw payrolls decline by 23,000 while the unemployment rate fell to 4.1%. Rosenberg says he sees the headline number as “a bit confusing.” (Source: Bloom</summary>
+    <summary>Ukraine’s agricultural shipments could fall by more than half this season after Russian attacks disrupted Black Sea ports, threatening the country’s biggest source of export revenue.</summary>
   </entry>
   <entry>
-    <title>Yen Jumps 1% Against Dollar After US Jobs Data</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-07/yen-jumps-1-against-dollar-after-us-jobs-data"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-07/yen-jumps-1-against-dollar-after-us-jobs-data</id>
-    <updated>2026-08-07T12:48:20.000Z</updated>
+    <title>BlackRock's Rick Rieder Sees Rate Hike Unlikely</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-07/blackrock-s-rick-rieder-sees-rate-hike-unlikely-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-07/blackrock-s-rick-rieder-sees-rate-hike-unlikely-video</id>
+    <updated>2026-08-07T14:46:39.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The yen surged against the dollar after US jobs data, after earlier speculation in markets that authorities could intervene again on the currency.</summary>
+    <summary>Rick Rieder, BlackRock's Chief Investment Officer of Global Fixed Income, discussed the Federal Reserve's monetary policy outlook, emphasizing that a rate hike currently does not make much sense given recent economic data. (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>Beyond Sentiment: Comparing Traditional NLP and LLM-Based Multi-Dimensional Analysis for Political News Evaluation</title>
@@ -259,21 +268,12 @@
     <summary>Go beyond chat in the GitHub Copilot app with these slash commands. They'll help you plan, collaborate, automate, and customize your dev workflow. The post A guide to slash commands in the GitHub Copilot app appeared first on The GitHub Blog .</summary>
   </entry>
   <entry>
-    <title>‘This is very real redlining’: outrage in Little Rock as two datacenters loom</title>
-    <link href="https://www.theguardian.com/us-news/2026/aug/07/datacenters-little-rock-arkansas"/>
-    <id>https://www.theguardian.com/us-news/2026/aug/07/datacenters-little-rock-arkansas</id>
-    <updated>2026-08-07T10:00:15.000Z</updated>
-    <author><name>The Guardian AI</name></author>
-    <category term="HARDWARE"/>
-    <summary>Critics decry proposed hyperscale projects, fearing overuse of water and electricity, and ‘appropriating rural, Black-owned land for industrial purposes ’ There seems to be a fight over datacenters in nearly every city in the US right now. And amid the extreme polarization of today’s politics, the opposition tends to b</summary>
-  </entry>
-  <entry>
-    <title>Anthropic co-designing custom AI inference chips to bypass costly Nvidia GPUs — Samsung reported as manufacturing partner for Claude maker</title>
-    <link href="https://www.tomshardware.com/tech-industry/anthropic-to-build-its-own-co-designed-custom-ai-accelerator-for-inferencing-workloads-samsung-reported-to-be-partnering-with-the-claude-ai-maker-for-manufacturing"/>
-    <id>https://www.tomshardware.com/tech-industry/anthropic-to-build-its-own-co-designed-custom-ai-accelerator-for-inferencing-workloads-samsung-reported-to-be-partnering-with-the-claude-ai-maker-for-manufacturing</id>
-    <updated>2026-08-07T10:30:00.000Z</updated>
+    <title>Introducing Bench 2.0 — a revamped benchmark analyzer, exclusively for Tom's Hardware Premium subscribers</title>
+    <link href="https://www.tomshardware.com/pc-components/introducing-bench-2-0-a-revamped-benchmark-analyzer-exclusively-for-toms-hardware-premium-subscribers"/>
+    <id>https://www.tomshardware.com/pc-components/introducing-bench-2-0-a-revamped-benchmark-analyzer-exclusively-for-toms-hardware-premium-subscribers</id>
+    <updated>2026-08-07T13:27:12.000Z</updated>
     <author><name>Tom's Hardware</name></author>
     <category term="HARDWARE"/>
-    <summary>Anthropic has announced its building a team to co-design custom ASIC chips for AI inferencing workloads. This will give it greater control over its compute buildout and allow it to make its AI models specifically more efficient for its designs.</summary>
+    <summary>We’re pleased to introduce Bench 2.0, a ground-up rethink of our benchmarking tool that makes it the most powerful, most intuitive benchmark browser in the business. Bench 2.0 has tons of new features designed to make the data easier to understand, easier to sort through, and more usable.</summary>
   </entry>
 </feed>
