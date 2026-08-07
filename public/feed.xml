@@ -5,15 +5,24 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-07T20:52:04.421Z</updated>
+  <updated>2026-08-07T21:49:49.435Z</updated>
   <entry>
-    <title>llama.cpp b10322 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10322"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10322</id>
-    <updated>2026-08-07T19:53:30.000Z</updated>
+    <title>llama.cpp b10326 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10326"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10326</id>
+    <updated>2026-08-07T21:25:38.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>sycl: coalesce the ssm_conv window loads ( #26612 ) test-backend-ops perf -o SSM_CONV on an Arc Pro B70, interleaved A/B against master, 6 reps, us/run: ne_a=[515,3328,1,1] ne_b=[4,3328,1,1] n_t=512 97.68 -&gt; 52.95 1.85x ne_a=[937,8192,1,1] ne_b=[4,8192,1,1] n_t=934 516.16 -&gt; 276.13 1.87x ne_a=[4,3328,1,1] ne_b=[4,3328, — Also covered by: ggml-org/whisper.cpp</summary>
+    <summary>tts: account for the vocoder pass in the timings line ( #26733 ) get_output runs the waveform work the pipeline defers to it, from a single trailing window to a full pass depending on the model. Measuring it keeps the reported total and the audio to process ratio honest. Website: https://llama.app macOS/iOS: macOS Appl — Also covered by: ggml-org/whisper.cpp</summary>
+  </entry>
+  <entry>
+    <title>DeepSeek V4 Flash 0731 - ARC-AGI Results</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vi9zls/deepseek_v4_flash_0731_arcagi_results/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vi9zls/deepseek_v4_flash_0731_arcagi_results/</id>
+    <updated>2026-08-07T19:17:49.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>submitted by /u/johnnyApplePRNG [link] [comments] — Also covered by: unslothai/unsloth</summary>
   </entry>
   <entry>
     <title>ChainDrop: Inside a Self-Propagating npm Worm</title>
@@ -85,16 +94,7 @@
     <updated>2026-08-07T16:16:09.000Z</updated>
     <author><name>TechCrunch AI</name></author>
     <category term="PRODUCTS"/>
-    <summary>Cloudflare has introduced Kitesurf, a cloud-hosted browser designed for AI agents instead of people. The company says the browser uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently.</summary>
-  </entry>
-  <entry>
-    <title>AMD acquires Taalas, a startup that bakes AI models directly into silicon</title>
-    <link href="https://the-decoder.com/amd-acquires-taalas-a-startup-that-bakes-ai-models-directly-into-silicon/"/>
-    <id>https://the-decoder.com/amd-acquires-taalas-a-startup-that-bakes-ai-models-directly-into-silicon/</id>
-    <updated>2026-08-07T18:01:32.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="HARDWARE"/>
-    <summary>AMD is buying Canadian startup Taalas, which hard-codes model weights directly into inference chips. That makes them extremely fast but locks each chip to a single model. A demo chip hit over 16,000 tokens per second per user running Llama 3.1-8B. Google is reportedly working on a similar approach for Gemini. The artic</summary>
+    <summary>Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently.</summary>
   </entry>
   <entry>
     <title>Growing Up The Hard Way</title>
@@ -169,6 +169,15 @@
     <summary>The Executive Education program in the College of Business at Florida Atlantic University (FAU) has launched a new professional certificate course titled &quot;Quantum Computing: Business and Sourcing Strategy.&quot; Designed for non-technical enterprise leaders, technology executives, procurement directors, and strategists, the</summary>
   </entry>
   <entry>
+    <title>AMD acquires Taalas, a startup that bakes AI models directly into silicon</title>
+    <link href="https://the-decoder.com/amd-acquires-taalas-a-startup-that-bakes-ai-models-directly-into-silicon/"/>
+    <id>https://the-decoder.com/amd-acquires-taalas-a-startup-that-bakes-ai-models-directly-into-silicon/</id>
+    <updated>2026-08-07T18:01:32.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>AMD is buying Canadian startup Taalas, which hard-codes model weights directly into inference chips. That makes them extremely fast but locks each chip to a single model. A demo chip hit over 16,000 tokens per second per user running Llama 3.1-8B. Google is reportedly working on a similar approach for Gemini. The artic</summary>
+  </entry>
+  <entry>
     <title>OpenAI flags its new Astra model as potentially reaching the highest cybersecurity risk level for the first time</title>
     <link href="https://the-decoder.com/openai-flags-its-new-astra-model-as-potentially-reaching-the-highest-cybersecurity-risk-level-for-the-first-time/"/>
     <id>https://the-decoder.com/openai-flags-its-new-astra-model-as-potentially-reaching-the-highest-cybersecurity-risk-level-for-the-first-time/</id>
@@ -187,22 +196,22 @@
     <summary>Grace Kay / The Information : Sources: Cursor told staff on Thursday that SpaceX could complete its $60B acquisition as soon as next week and the Cursor brand name will likely be phased out — Cursor told staff at an all-hands meeting on Thursday that SpaceX could complete its $60 billion acquisition of the coding start</summary>
   </entry>
   <entry>
-    <title>DSpark + DeepSeek-V4 Flash 0731</title>
-    <link href="https://github.com/unslothai/unsloth/releases/tag/v0.1.525-beta"/>
-    <id>https://github.com/unslothai/unsloth/releases/tag/v0.1.525-beta</id>
-    <updated>2026-08-07T15:25:35.000Z</updated>
-    <author><name>unslothai/unsloth</name></author>
+    <title>Qwen 3.6 27B flags/settings in llama.cpp</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vida0h/qwen_36_27b_flagssettings_in_llamacpp/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vida0h/qwen_36_27b_flagssettings_in_llamacpp/</id>
+    <updated>2026-08-07T21:25:24.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Hey everyone! For folks who missed the news - Kimi K3 &amp; DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs! We now added more efficient and faster downloading for Colab, low memory systems and also high memory and CPU systems - we auto fallback to HTTP as well if XET is stuck August 7th Update Many bug fi</summary>
+    <summary>I run the following on a 5090 and have been okay with its performance, it does most things somewhere 80-100 t/s, though that can slow down at full 262k context - more like 40 t/s at times. I use it primarily in appdev tasks. This just barely fits in the 5090, no vision, with very very little room to spare. The batch si</summary>
   </entry>
   <entry>
-    <title>claude-code v2.1.224 released</title>
-    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.224"/>
-    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.224</id>
-    <updated>2026-08-07T04:00:59.000Z</updated>
-    <author><name>anthropics/claude-code</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>What's changed Added self-hosted environments: claude self-hosted-runner turns your own machines or containers into a place Claude Code web, mobile, and desktop sessions can run, on Team and Enterprise plans Added archive plugin source: install plugins from a zip over HTTPS without git or npm, with optional SHA-256 pin</summary>
+    <title>Optimizing Life and Finances in Your Twenties | Masters in Business with Jack Raines</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-07/masters-in-business-with-jack-raines-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-07/masters-in-business-with-jack-raines-video</id>
+    <updated>2026-08-07T21:00:20.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Barry sits down with Jack Raines author of &quot;Younge Money&quot;. Jack dives into his unlikely journey into finance and venture capital. He discusses how his travels impacted the way he sees money and purpose in your twenties. He also reviews how to incorporate passion into your career and the impact it will have in your long</summary>
   </entry>
   <entry>
     <title>Once Upon a Farm CEO on Outlook Boost, Consumer Demand</title>
@@ -212,15 +221,6 @@
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
     <summary>John Foraker, Co-Founder and CEO of Once Upon a Farm, discussed the company's strong 42% sales growth in the recent quarter and expressed confidence in sustaining this momentum due to resilient consumer demand across baby and kid food categories. The company has raised its guidance for the full year and anticipates con</summary>
-  </entry>
-  <entry>
-    <title>US Army Wants to Let Companies Test Weapons Faster</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-07/us-army-wants-to-let-companies-test-weapons-faster-video-msje9o14"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-07/us-army-wants-to-let-companies-test-weapons-faster-video-msje9o14</id>
-    <updated>2026-08-07T20:25:35.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>The US Army wants to see new weapons on the battlefield faster. Tyler Kendall sat down with US Army Secretary Dan Driscoll to discuss the Pentagon's plan to open up five military ranges to private industry. (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>Beyond Sentiment: Comparing Traditional NLP and LLM-Based Multi-Dimensional Analysis for Political News Evaluation</title>
@@ -241,6 +241,15 @@
     <summary>arXiv:2608.05160v1 Announce Type: new Abstract: We introduce the Ignition Index (I), a validated scalar metric that operationalizes Global Workspace Theory's (GWT) all-or-none ignition prediction in transformer language models. The metric fits a four-parameter sigmoid to per-layer linear probe accuracy as a function of</summary>
   </entry>
   <entry>
+    <title>Copilot code review effort levels are generally available</title>
+    <link href="https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available"/>
+    <id>https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available</id>
+    <updated>2026-08-07T20:49:26.000Z</updated>
+    <author><name>GitHub Copilot Changelog</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Lite and Balanced effort levels for GitHub Copilot code review are now generally available. They let you match the depth of a review to the complexity and risk of a… The post Copilot code review effort levels are generally available appeared first on The GitHub Blog .</summary>
+  </entry>
+  <entry>
     <title>Copilot usage metrics API adds agent app activity</title>
     <link href="https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity"/>
     <id>https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity</id>
@@ -248,15 +257,6 @@
     <author><name>GitHub Copilot Changelog</name></author>
     <category term="PRODUCTS"/>
     <summary>Since agent apps arrived on GitHub, teams have been able to run agents from partners like Claude and Codex directly in their GitHub workflows. The Copilot usage metrics API now… The post Copilot usage metrics API adds agent app activity appeared first on The GitHub Blog .</summary>
-  </entry>
-  <entry>
-    <title>Managed Deep Agents: the fastest way to ship a production deep agent</title>
-    <link href="https://www.langchain.com/blog/introducing-managed-deep-agents"/>
-    <id>https://www.langchain.com/blog/introducing-managed-deep-agents</id>
-    <updated>2026-08-07T19:36:29.000Z</updated>
-    <author><name>LangChain Blog</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Run deep agents in production with durable execution, sandboxes, tool access, and LangSmith observability, without building the runtime yourself. Now in private beta</summary>
   </entry>
   <entry>
     <title>Is the promise of AI living up to the hype? | Fiona Katauskas</title>
@@ -268,12 +268,12 @@
     <summary>It’s certainly increasing its output See more of Fiona Katauskas’s cartoons here Continue reading...</summary>
   </entry>
   <entry>
-    <title>A 10M IOPS Kioxia GP1 SSD Shown Running at FMS 2026</title>
-    <link href="https://www.servethehome.com/a-10m-iops-kioxia-gp1-ssd-shown-running-at-fms-2026/"/>
-    <id>https://www.servethehome.com/a-10m-iops-kioxia-gp1-ssd-shown-running-at-fms-2026/</id>
-    <updated>2026-08-07T19:00:09.000Z</updated>
-    <author><name>ServeTheHome</name></author>
-    <category term="HARDWARE"/>
-    <summary>At FMS 2026, we saw the Kioxia GP1 PCIe Gen6 NVMe SSD running live in the company's booth at just over 10M IOPS The post A 10M IOPS Kioxia GP1 SSD Shown Running at FMS 2026 appeared first on ServeTheHome .</summary>
+    <title>Deep Agents vs LangChain vs LangGraph</title>
+    <link href="https://www.langchain.com/blog/deep-agents-vs-langchain-vs-langgraph"/>
+    <id>https://www.langchain.com/blog/deep-agents-vs-langchain-vs-langgraph</id>
+    <updated>2026-08-07T07:27:53.000Z</updated>
+    <author><name>LangChain Blog</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Deep Agents, LangChain, and LangGraph each offer distinct approaches to building agents. In this post, we cover the key distinctions between our open source frameworks and when you should reach for each one.</summary>
   </entry>
 </feed>
