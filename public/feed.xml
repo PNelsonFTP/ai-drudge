@@ -5,7 +5,16 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-08T22:39:17.022Z</updated>
+  <updated>2026-08-08T23:37:54.054Z</updated>
+  <entry>
+    <title>llama.cpp b10331 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10331"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10331</id>
+    <updated>2026-08-08T23:28:06.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>server: report the isolate working directory from get_info ( #26773 ) server: report the isolate working directory from get_info Without an explicit cwd, get_info fell back to the server process working directory even when a tools runtime was configured. That named a host path no tool would ever run in, since an isolat — Also covered by: ggml-org/whisper.cpp</summary>
+  </entry>
   <entry>
     <title>OpenAI to pause some work on AI model Astra due to security concerns</title>
     <link href="https://www.theguardian.com/technology/2026/aug/08/openai-astra-security-concerns"/>
@@ -13,16 +22,7 @@
     <updated>2026-08-08T17:00:41.000Z</updated>
     <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Agent found to be able to find and exploit vulnerabilities without human intervention, and to carry out cyber-attacks OpenAI will pause some work on an artificial intelligence model because of security concerns, the company stated on Friday, following a series of incidents in which AI agents have escaped containment. T — Also covered by: TechCrunch AI, Bloomberg Tech</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp b10330 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10330"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10330</id>
-    <updated>2026-08-08T17:22:00.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>CUDA: fuse rms_norm + mul + rope (+ view + set_rows) ( #26767 ) CUDA: fuse rms_norm + mul + rope (+ view + set_rows) tests: add broadcast weight case to rms_norm_mul_rope CUDA: check memory ranges before rms_norm rope fusion CUDA: check memory ranges in rope set_rows fusion Website: https://llama.app macOS/iOS: macOS A — Also covered by: ggml-org/whisper.cpp</summary>
+    <summary>Agent found to be able to find and exploit vulnerabilities without human intervention, and to carry out cyber-attacks OpenAI will pause some work on an artificial intelligence model because of security concerns, the company stated on Friday, following a series of incidents in which AI agents have escaped containment. T — Also covered by: TechCrunch AI</summary>
   </entry>
   <entry>
     <title>qwen-code v0.21.8 released</title>
@@ -61,13 +61,13 @@
     <summary>Auto mode is now the default in Claude Code for Pro, Max, and Team plans Anthropic are really confident in Claude Code's auto mode , to the point that they are making it the default setting for new sessions in most Claude Code plans starting on August 14th. This was one of the topics discussed in our Fireside Chat with</summary>
   </entry>
   <entry>
-    <title>OpenAI acquires presentation startup NextSlide</title>
-    <link href="https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/"/>
-    <id>https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/</id>
-    <updated>2026-08-08T19:41:13.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>Denmark Requires Oral Defenses for Students' Written Work to Counter AI Cheating</title>
+    <link href="https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/"/>
+    <id>https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/</id>
+    <updated>2026-08-08T18:09:31.000Z</updated>
+    <author><name>HN: AI (150+ points)</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>NextSlide says its team members are now working on ChatGPT.</summary>
+    <summary>Article URL: https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/ Comments URL: https://news.ycombinator.com/item?id=49224294 Points: 468 # Comments: 222</summary>
   </entry>
   <entry>
     <title>LIV Golf Tries to Survive Without Saudi Billions</title>
@@ -97,13 +97,13 @@
     <summary>The global buildout of AI infrastructure reached a new milestone today — Firebird, an emerging AI cloud, launched the CIS region’s largest AI factory in Armenia, establishing a new AI computing hub powered by NVIDIA accelerated computing and Dell Technologies high-performance AI infrastructure. Nikol Pashinyan, prime m</summary>
   </entry>
   <entry>
-    <title>Fields Medalist who published a paper on AI-driven human extinction now works for OpenAI</title>
-    <link href="https://the-decoder.com/fields-medalist-who-published-a-paper-on-ai-driven-human-extinction-now-works-for-openai/"/>
-    <id>https://the-decoder.com/fields-medalist-who-published-a-paper-on-ai-driven-human-extinction-now-works-for-openai/</id>
-    <updated>2026-08-08T11:08:48.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>Dutch-book resistant probability over centered worlds</title>
+    <link href="https://www.lesswrong.com/posts/cTSfisyzwxCvEpqEc/dutch-book-resistant-probability-over-centered-worlds"/>
+    <id>https://www.lesswrong.com/posts/cTSfisyzwxCvEpqEc/dutch-book-resistant-probability-over-centered-worlds</id>
+    <updated>2026-08-08T23:05:06.000Z</updated>
+    <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Newly awarded Fields Medalist Jacob Tsimerman is leaving the University of Toronto to join OpenAI and work on AI safety. In a recent paper, he analyzes scenarios where AI could contribute to human extinction and calls for far more investment in safety research. The article Fields Medalist who published a paper on AI-dr</summary>
+    <summary>An uncentered world is an objective state of the material universe; I ignore quantum complications. If you know the uncentered world, it does not follow that you can predict your proximate observations, since you do not know which part of the uncentered world is here and now. A centered world is an uncentered world com</summary>
   </entry>
   <entry>
     <title>Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers</title>
@@ -122,6 +122,15 @@
     <author><name>BleepingComputer</name></author>
     <category term="CYBER THREATS"/>
     <summary>The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched TrueConf video conferencing servers to replace client installers with malicious versions that deliver backdoors. [...]</summary>
+  </entry>
+  <entry>
+    <title>Now we have a timeline of the OpenAI accidental attack against Hugging Face</title>
+    <link href="https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything"/>
+    <id>https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything</id>
+    <updated>2026-08-08T14:06:41.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>My comment on Now we have a timeline of the OpenAI accidental attack against Hugging Face — Hacker News. I think one of the most interesting details here might be tucked away in that first bulletin point: May 7: OpenAI starts a new training run for an experimental, unreleased model. (Do they mean an evaluation run? The</summary>
   </entry>
   <entry>
     <title>Experts look ahead at the next 20 years of robotics at RoboBusiness</title>
@@ -160,6 +169,15 @@
     <summary>Climate scientist Zeke Hausfather tracked his Claude Code usage over eight weeks: 3.2 billion tokens and about 170 kWh of data center electricity. Per prompt, that's roughly 600 times more than a typical AI chat. His data shows how much the low figures reported by Google and OpenAI distort the reality of agent-based AI</summary>
   </entry>
   <entry>
+    <title>OpenAI acquires presentation startup NextSlide</title>
+    <link href="https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/"/>
+    <id>https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/</id>
+    <updated>2026-08-08T19:41:13.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>NextSlide says its team members are now working on ChatGPT.</summary>
+  </entry>
+  <entry>
     <title>A profile of Russia's A7, a payment network that helps Russia bypass Western sanctions, handling ~20% of payments in Russian foreign trade, or $100B+ annually (Alexander Osipovich/Wall Street Journal)</title>
     <link href="https://www.techmeme.com/260808/p8#a260808p8"/>
     <id>https://www.techmeme.com/260808/p8#a260808p8</id>
@@ -169,31 +187,22 @@
     <summary>Alexander Osipovich / Wall Street Journal : A profile of Russia's A7, a payment network that helps Russia bypass Western sanctions, handling ~20% of payments in Russian foreign trade, or $100B+ annually — A7 says it handles nearly 20% of payments in Russian foreign trade, or more than $100 billion annually</summary>
   </entry>
   <entry>
-    <title>Planned Amazon data center could become the biggest climate polluter in the U.S.</title>
-    <link href="https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/"/>
-    <id>https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/</id>
-    <updated>2026-08-08T21:24:02.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>As part of a planned Texas data center, Amazon is investing in an on-site power plant that could reportedly become the largest source of climate pollution in the United States.</summary>
+    <title>avg hit is always 0</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1vj9466/avg_hit_is_always_0/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1vj9466/avg_hit_is_always_0/</id>
+    <updated>2026-08-08T22:35:56.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>submitted by /u/Mean-Sprinkles3157 [link] [comments]</summary>
   </entry>
   <entry>
-    <title>Comparing 4bit quants for MLX</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vj7i17/comparing_4bit_quants_for_mlx/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vj7i17/comparing_4bit_quants_for_mlx/</id>
-    <updated>2026-08-08T21:24:27.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>What is the meta for local hosting?</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1vj8vk0/what_is_the_meta_for_local_hosting/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1vj8vk0/what_is_the_meta_for_local_hosting/</id>
+    <updated>2026-08-08T22:25:25.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Curious what people think are the ideal 4-bit quantization types on MLX These quants seem to be the most popular, at least for Gemma4 and Qwen3.6: - OptiQ 4bit ( mlx-community/Qwen3.6-27B-OptiQ-4bit ) - Unsloth dynamic 2.0 MLX ( unsloth/Qwen3.6-27B-UD-MLX-4bit ) - oQ ( Jundot/Qwen3.6-27B-oQ4 ) - DWQ (can't find an exam</summary>
-  </entry>
-  <entry>
-    <title>Repeated generation is worth it and self-evaluation is effective</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vj1d1i/repeated_generation_is_worth_it_and/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vj1d1i/repeated_generation_is_worth_it_and/</id>
-    <updated>2026-08-08T17:09:53.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>I made gemma4 12B write timestamp-anchored summaries of youtube video transcripts. I tested if the summaries have significant qualitative variance and if the SLM can pick the best one by itself. Below is the prompt texts I used. &quot;{{[INPUT]}}&lt;attachement name='original'&gt;&quot;, document, &quot;&lt;/attachment&gt;Above is a transcript. </summary>
+    <summary>Recently got my hands on the Ryzen AI Halo Box and was wondering what the best software stack looks like? Preferences for specific models? Anything better than just opencode + ollama? Thinking of using 9router as well. Wondering how other tools like aider/hermes provide that much value to justify a switch or like if th</summary>
   </entry>
   <entry>
     <title>Bloomberg This Weekend 8/08/2026</title>
@@ -250,6 +259,15 @@
     <summary>Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently.</summary>
   </entry>
   <entry>
+    <title>Planned Amazon data center could become the biggest climate polluter in the U.S.</title>
+    <link href="https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/"/>
+    <id>https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/</id>
+    <updated>2026-08-08T21:24:02.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="HARDWARE"/>
+    <summary>As part of a planned Texas data center, Amazon is investing in an on-site power plant that could reportedly become the largest source of climate pollution in the United States.</summary>
+  </entry>
+  <entry>
     <title>DeepMind’s hurricane breakthrough has surprised weather scientists</title>
     <link href="https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/"/>
     <id>https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/</id>
@@ -257,23 +275,5 @@
     <author><name>Ars Technica AI</name></author>
     <category term="OPEN SOURCE"/>
     <summary>Open source WeatherNext model can make accurate predictions with lower-resolution weather data.</summary>
-  </entry>
-  <entry>
-    <title>Why Low Fertility Rates Are a Positive Feedback Loop</title>
-    <link href="https://www.lesswrong.com/posts/u6ajuvLsixJLyMdPw/why-low-fertility-rates-are-a-positive-feedback-loop"/>
-    <id>https://www.lesswrong.com/posts/u6ajuvLsixJLyMdPw/why-low-fertility-rates-are-a-positive-feedback-loop</id>
-    <updated>2026-08-08T20:25:42.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>Low birth rates in the past cause ageing and shrinking populations in the present, which cause low birth rates in the future. So negative population growth feeds on itself. There are a variety of mechanisms by which this happens. (There may also be countervailing natural forces, as civilization is an extremely complex </summary>
-  </entry>
-  <entry>
-    <title>Glimpses of superintelligence</title>
-    <link href="https://www.lesswrong.com/posts/Ccq8cqoXYfsRv6AKe/glimpses-of-superintelligence"/>
-    <id>https://www.lesswrong.com/posts/Ccq8cqoXYfsRv6AKe/glimpses-of-superintelligence</id>
-    <updated>2026-08-08T20:25:36.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>TL;DR OpenAI started a large post-training run for their next model. The model sandboxes were not given direct, broad internet access. Some tasks required missing resources. Seeking rewards, agents looked for another way to complete them. One agent found write access to a shared service. Another left a message there. M</summary>
   </entry>
 </feed>
