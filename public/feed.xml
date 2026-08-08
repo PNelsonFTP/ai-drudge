@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-08T18:51:39.854Z</updated>
+  <updated>2026-08-08T19:37:28.860Z</updated>
   <entry>
     <title>llama.cpp b10330 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10330"/>
@@ -32,6 +32,15 @@
     <author><name>QwenLM/qwen-code</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Highlights Restored real-time autofix support for pull requests opened from forks by bridging review events to credentialed workflows. ( #8676 ) Enabled compression cache sharing for OpenAI, Gemini, and Vertex AI to reuse conversation prefixes and reduce redundant input processing. ( #8418 , #8425 ) Added repository co — Also covered by: anthropics/claude-code</summary>
+  </entry>
+  <entry>
+    <title>DSpark + DeepSeek-V4 Flash 0731</title>
+    <link href="https://github.com/unslothai/unsloth/releases/tag/v0.1.526-beta"/>
+    <id>https://github.com/unslothai/unsloth/releases/tag/v0.1.526-beta</id>
+    <updated>2026-08-08T16:51:47.000Z</updated>
+    <author><name>unslothai/unsloth</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Hey everyone! For folks who missed the news - Kimi K3 &amp; DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs! We now added more efficient and faster downloading for Colab, low memory systems and also high memory and CPU systems - we auto fallback to HTTP as well if XET is stuck August 7th Update Many bug fi</summary>
   </entry>
   <entry>
     <title>QC Ware Demonstrates Hybrid Quantum-Classical Chemistry Workflow Using Promethium and IBM Quantum</title>
@@ -259,21 +268,12 @@
     <summary>NVIDIA Labs has open-sourced NOOA (NVIDIA Object-Oriented Agents), a model-agnostic Python framework for building AI agents. Agent development today is split across prompt templates, tool schemas, callback code, and workflow graphs. NOOA collapses all of it into one Python class. Methods are the actions the model can t</summary>
   </entry>
   <entry>
-    <title>FAQ: Isn't AGI coming too soon for reprogenetics to help?</title>
-    <link href="https://www.lesswrong.com/posts/iQzxxgJXXaAQjq7Jz/faq-isn-t-agi-coming-too-soon-for-reprogenetics-to-help"/>
-    <id>https://www.lesswrong.com/posts/iQzxxgJXXaAQjq7Jz/faq-isn-t-agi-coming-too-soon-for-reprogenetics-to-help</id>
-    <updated>2026-08-08T08:54:41.000Z</updated>
+    <title>'AI Escaped Its Sandbox' — What Does That Actually Mean?</title>
+    <link href="https://www.lesswrong.com/posts/XzfseL3RgaZ4xJFKW/ai-escaped-its-sandbox-what-does-that-actually-mean"/>
+    <id>https://www.lesswrong.com/posts/XzfseL3RgaZ4xJFKW/ai-escaped-its-sandbox-what-does-that-actually-mean</id>
+    <updated>2026-08-08T18:55:28.000Z</updated>
     <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Introduction I think reprogenetics (human germline genomic engineering) can be done in a widely acceptable and beneficial way, and should be pursued aggressively. In particular, as a strong background motivation of mine, I think accelerating strong reprogenetics is probably the best way to enable strong human intellige</summary>
-  </entry>
-  <entry>
-    <title>Inducing self-other overlap with SFT reduces deception at scale, but generalization remains uneven</title>
-    <link href="https://www.lesswrong.com/posts/qLe7T2njnpGYt5D7a/inducing-self-other-overlap-with-sft-reduces-deception-at-2"/>
-    <id>https://www.lesswrong.com/posts/qLe7T2njnpGYt5D7a/inducing-self-other-overlap-with-sft-reduces-deception-at-2</id>
-    <updated>2026-08-08T15:21:57.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>This research was conducted at Overlap Research and supported by BlueDot Impact . Summary We tested whether LLM deception can be reduced by inducing self-other overlap using ordinary supervised fine-tuning (SOO SFT) instead of using a custom activation-matching loss . Qwen2.5-14B-Instruct, Gemma-3-27B-It, Qwen2.5-32B-I</summary>
+    <summary>When talking with my friends about the OpenAI/HF incident, I realized that for non-coders who've never used an agent or terminal it's quite difficult to imagine what this 'escape' entailed. I tried to write a post that would be helpful for such people. You may have seen headlines like An OpenAI test model escaped and b</summary>
   </entry>
 </feed>
