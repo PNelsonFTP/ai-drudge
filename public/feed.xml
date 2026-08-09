@@ -5,7 +5,16 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-09T18:53:38.054Z</updated>
+  <updated>2026-08-09T19:41:39.489Z</updated>
+  <entry>
+    <title>DeepSeek v4 Flash 0731 locally on CPU</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vjsysx/deepseek_v4_flash_0731_locally_on_cpu/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vjsysx/deepseek_v4_flash_0731_locally_on_cpu/</id>
+    <updated>2026-08-09T15:36:32.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>After seeing the benchmark results for the full release of DS v4 Flash 0731, I replaced my 2 x 16GB DDR4 ram sticks with 2 x 32GB DDR4 ram sticks to get a max supported of 128 GB RAM, in hope to be able to run GLM 5.2 equivalent model locally i.e. DS v4 Flash 0731 I also have RTX 4090 &amp; Tesla P40 so the total combined  — Also covered by: unslothai/unsloth</summary>
+  </entry>
   <entry>
     <title>llama.cpp b10333 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10333"/>
@@ -14,6 +23,15 @@
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
     <summary>ggml-cpu : fix missing Q5_0 dispatch in SpaceMiT backend ( #26792 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (V — Also covered by: ggml-org/whisper.cpp</summary>
+  </entry>
+  <entry>
+    <title>Anthropic is turning Claude Code’s auto mode on by default</title>
+    <link href="https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/"/>
+    <id>https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/</id>
+    <updated>2026-08-09T19:20:32.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Programming with Claude Code will soon require even less human oversight.</summary>
   </entry>
   <entry>
     <title>OpenAI to pause some work on AI model Astra due to security concerns</title>
@@ -34,40 +52,13 @@
     <summary>Highlights Restored real-time autofix support for pull requests opened from forks by bridging review events to credentialed workflows. ( #8676 ) Enabled compression cache sharing for OpenAI, Gemini, and Vertex AI to reuse conversation prefixes and reduce redundant input processing. ( #8418 , #8425 ) Added repository co — Also covered by: anthropics/claude-code</summary>
   </entry>
   <entry>
-    <title>DSpark + DeepSeek-V4 Flash 0731</title>
-    <link href="https://github.com/unslothai/unsloth/releases/tag/v0.1.526-beta"/>
-    <id>https://github.com/unslothai/unsloth/releases/tag/v0.1.526-beta</id>
-    <updated>2026-08-08T16:51:47.000Z</updated>
-    <author><name>unslothai/unsloth</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Hey everyone! For folks who missed the news - Kimi K3 &amp; DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs! We now added more efficient and faster downloading for Colab, low memory systems and also high memory and CPU systems - we auto fallback to HTTP as well if XET is stuck August 7th Update Many bug fi</summary>
-  </entry>
-  <entry>
-    <title>Google Deepmind's WeatherNext predicts cyclone tracks and intensity at the same time</title>
-    <link href="https://the-decoder.com/google-deepminds-weathernext-predicts-cyclone-tracks-and-intensity-at-the-same-time/"/>
-    <id>https://the-decoder.com/google-deepminds-weathernext-predicts-cyclone-tracks-and-intensity-at-the-same-time/</id>
-    <updated>2026-08-09T12:29:06.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Deepmind's new weather AI forecasts tropical cyclones about a day further ahead than leading operational models, matching a decade of progress in traditional weather forecasting. Code and model weights are open-source on GitHub. The article Google Deepmind's WeatherNext predicts cyclone tracks and intensity at the same</summary>
-  </entry>
-  <entry>
-    <title>Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy</title>
-    <link href="https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/"/>
-    <id>https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/</id>
-    <updated>2026-08-09T15:00:00.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>A look at Chinese state-owned investment bank CICC, which sponsored multibillion-dollar listings of China's tech champions, including CXMT and Zhongji Innolight (Financial Times)</title>
+    <link href="https://www.techmeme.com/260809/p8#a260809p8"/>
+    <id>https://www.techmeme.com/260809/p8#a260809p8</id>
+    <updated>2026-08-09T19:40:00.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>On the latest episode of Equity, we spoke to Jill Lepore about &quot;government by machines&quot; and why Elon Musk is a bad science fiction reader.</summary>
-  </entry>
-  <entry>
-    <title>The AI safety test is becoming a safety risk</title>
-    <link href="https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/"/>
-    <id>https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/</id>
-    <updated>2026-08-09T14:30:00.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards and regulation can keep pace with increasingly powerful models.</summary>
+    <summary>Financial Times : A look at Chinese state-owned investment bank CICC, which sponsored multibillion-dollar listings of China's tech champions, including CXMT and Zhongji Innolight — CICC has become a dominant financier in Beijing's drive to compete with US in tech race — China's top investment bank …</summary>
   </entry>
   <entry>
     <title>DC Crime Crackdown Tests Federal Prosecutors</title>
@@ -79,22 +70,13 @@
     <summary>A Bloomberg Law investigation finds federal prosecutors dismissed or downgraded many felony assault cases brought during President Donald Trump’s crime crackdown in Washington DC, with only a handful resulting in convictions. Bloomberg Law Editor-at-Large Keith Alexander says on Bloomberg This Weekend that the cases ra</summary>
   </entry>
   <entry>
-    <title>Google's DiffusionGemma proves you don't need to train from scratch to build a text diffusion model</title>
-    <link href="https://the-decoder.com/googles-diffusiongemma-proves-you-dont-need-to-train-from-scratch-to-build-a-text-diffusion-model/"/>
-    <id>https://the-decoder.com/googles-diffusiongemma-proves-you-dont-need-to-train-from-scratch-to-build-a-text-diffusion-model/</id>
-    <updated>2026-08-09T10:01:26.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>Top LLM Observability and Evaluation Platforms in 2026: Langfuse, LangSmith, Braintrust, Arize, and More Compared</title>
+    <link href="https://www.marktechpost.com/2026/08/09/top-llm-observability-and-evaluation-platforms-in-2026-langfuse-langsmith-braintrust-arize-and-more-compared/"/>
+    <id>https://www.marktechpost.com/2026/08/09/top-llm-observability-and-evaluation-platforms-in-2026-langfuse-langsmith-braintrust-arize-and-more-compared/</id>
+    <updated>2026-08-09T18:15:30.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
-    <summary>Instead of training a new model from scratch, Google DeepMind retrofitted Gemma 4 into a diffusion model using less than 10 percent of the original training budget. DiffusionGemma generates 256 tokens in parallel instead of one at a time, hitting about 1,500 tokens per second. Quality still trails the original autoregr</summary>
-  </entry>
-  <entry>
-    <title>unsloth v0.1.527-beta released</title>
-    <link href="https://github.com/unslothai/unsloth/releases/tag/v0.1.527-beta"/>
-    <id>https://github.com/unslothai/unsloth/releases/tag/v0.1.527-beta</id>
-    <updated>2026-08-09T17:53:34.000Z</updated>
-    <author><name>unslothai/unsloth</name></author>
-    <category term="PRODUCTS"/>
-    <summary>What's Changed Studio: judge the cached-pipeline signals on the snapshot the row actually loads by @danielhanchen in #7851 Bump install.sh / install.ps1 pin to unsloth&gt;=2026.8.3 by @danielhanchen in #7860 Studio: make the sidebar menu separators visible in dark mode by @shimmyshimmer in #7865 Studio: run sandbox matplo</summary>
+    <summary>A verified 2026 comparison of LLM observability platforms covering tracing depth, evaluation capability, production monitoring, and pricing. The post Top LLM Observability and Evaluation Platforms in 2026: Langfuse, LangSmith, Braintrust, Arize, and More Compared appeared first on MarkTechPost .</summary>
   </entry>
   <entry>
     <title>WisdPi WP-UT9 USB 10GbE Adapter Review</title>
@@ -104,6 +86,24 @@
     <author><name>ServeTheHome</name></author>
     <category term="HARDWARE"/>
     <summary>We check out the WisdPi WP-UT9, which is a stylish USB Type-C external 10Gbase-T adapter based on the Realtek RTL8159 10GbE platform The post WisdPi WP-UT9 USB 10GbE Adapter Review appeared first on ServeTheHome .</summary>
+  </entry>
+  <entry>
+    <title>Google Deepmind's WeatherNext predicts cyclone tracks and intensity at the same time</title>
+    <link href="https://the-decoder.com/google-deepminds-weathernext-predicts-cyclone-tracks-and-intensity-at-the-same-time/"/>
+    <id>https://the-decoder.com/google-deepminds-weathernext-predicts-cyclone-tracks-and-intensity-at-the-same-time/</id>
+    <updated>2026-08-09T12:29:06.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Deepmind's new weather AI forecasts tropical cyclones about a day further ahead than leading operational models, matching a decade of progress in traditional weather forecasting. Code and model weights are open-source on GitHub. The article Google Deepmind's WeatherNext predicts cyclone tracks and intensity at the same</summary>
+  </entry>
+  <entry>
+    <title>Lessons from the hacks</title>
+    <link href="https://www.interconnects.ai/p/lessons-from-the-hacks"/>
+    <id>https://www.interconnects.ai/p/lessons-from-the-hacks</id>
+    <updated>2026-08-09T14:57:11.000Z</updated>
+    <author><name>Interconnects (Lambert)</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>Musings on model alignment, what determines safety, and where we go from here.</summary>
   </entry>
   <entry>
     <title>Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers</title>
@@ -122,24 +122,6 @@
     <author><name>BleepingComputer</name></author>
     <category term="CYBER THREATS"/>
     <summary>The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched TrueConf video conferencing servers to replace client installers with malicious versions that deliver backdoors. [...]</summary>
-  </entry>
-  <entry>
-    <title>Cape Town-based Moment, a provider of digital payments and billing tools for businesses across Africa, raised a $22M Series A, taking its total funding to $55M (FinTech Global)</title>
-    <link href="https://www.techmeme.com/260809/p2#a260809p2"/>
-    <id>https://www.techmeme.com/260809/p2#a260809p2</id>
-    <updated>2026-08-09T05:10:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>FinTech Global : Cape Town-based Moment, a provider of digital payments and billing tools for businesses across Africa, raised a $22M Series A, taking its total funding to $55M — Moment, a pan-African FinTech, has closed a $22m Series A funding round led by AlphaCode Venture Partners …</summary>
-  </entry>
-  <entry>
-    <title>Lessons from the hacks</title>
-    <link href="https://www.interconnects.ai/p/lessons-from-the-hacks"/>
-    <id>https://www.interconnects.ai/p/lessons-from-the-hacks</id>
-    <updated>2026-08-09T14:57:11.000Z</updated>
-    <author><name>Interconnects (Lambert)</name></author>
-    <category term="ANALYSIS"/>
-    <summary>Musings on model alignment, what determines safety, and where we go from here.</summary>
   </entry>
   <entry>
     <title>Analog Devices returns as strategic sponsor to aid MassRobotics startups</title>
@@ -169,49 +151,31 @@
     <summary>The AI industry's hunger for power keeps growing. Nvidia is investing up to $3 billion in Lancium, a power infrastructure developer that already has four gigawatts under contract in Texas. Amazon, meanwhile, is building a gas-fired power plant in the state with a capacity of up to 7.65 gigawatts that could emit 33 mill</summary>
   </entry>
   <entry>
-    <title>AI is flooding Britain's employment courts with lawsuits</title>
-    <link href="https://the-decoder.com/ai-is-flooding-britains-employment-courts-with-lawsuits/"/>
-    <id>https://the-decoder.com/ai-is-flooding-britains-employment-courts-with-lawsuits/</id>
-    <updated>2026-08-09T10:26:43.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Britain's employment courts saw 39 percent more claims in the year through March 2026, many written with ChatGPT or Grok. The backlog jumped 55 percent to 64,000 unresolved cases, with AI-generated filings often running hundreds of pages and citing fabricated laws. The Economist calls it a &quot;tragedy of the commons, AI e</summary>
-  </entry>
-  <entry>
-    <title>As PC makers start using CXMT RAM chips, Apple is testing them too, but it needs a custom version for its devices, and US rules block Apple from sharing designs (Wall Street Journal)</title>
-    <link href="https://www.techmeme.com/260809/p7#a260809p7"/>
-    <id>https://www.techmeme.com/260809/p7#a260809p7</id>
-    <updated>2026-08-09T17:15:01.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy</title>
+    <link href="https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/"/>
+    <id>https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/</id>
+    <updated>2026-08-09T15:00:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Wall Street Journal : As PC makers start using CXMT RAM chips, Apple is testing them too, but it needs a custom version for its devices, and US rules block Apple from sharing designs — Maker of iPhones talks to China's CXMT, but any deal would be politically sensitive — Apple has been testing memory chips …</summary>
+    <summary>On the latest episode of Equity, we spoke to Jill Lepore about &quot;government by machines&quot; and why Elon Musk is a bad science fiction reader.</summary>
   </entry>
   <entry>
-    <title>Fixed some of Qwen's issues, and I got receipts! Published on HF</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vju23x/fixed_some_of_qwens_issues_and_i_got_receipts/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vju23x/fixed_some_of_qwens_issues_and_i_got_receipts/</id>
-    <updated>2026-08-09T16:20:03.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>Speculative decoding in a tools call</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vjxhof/speculative_decoding_in_a_tools_call/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vjxhof/speculative_decoding_in_a_tools_call/</id>
+    <updated>2026-08-09T18:34:14.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>I was always underwhelmed by how local models would overthink, forget their reasoning from last turn, fail tool calls, go in loops, take a long time to answer, waste tokens on slop, and then hit the context ceiling. So happy that I finally managed to build something that fixes all that and actually ships code, solves h</summary>
+    <summary>paper : https://arxiv.org/html/2608.00814v1 source : https://x.com/i/status/2086505517640540587 submitted by /u/Illustrious-Swim9663 [link] [comments]</summary>
   </entry>
   <entry>
-    <title>[P] VHectorLab 3D: An open-source 3D WebGL visualizer (Three.js + Top-K SAE) for exploring LLM latent spaces and vector geometry</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vjuoxk/p_vhectorlab_3d_an_opensource_3d_webgl_visualizer/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vjuoxk/p_vhectorlab_3d_an_opensource_3d_webgl_visualizer/</id>
-    <updated>2026-08-09T16:45:17.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Primero disculpas por esta copiada y pesteada de algo que me generó la IA, pero bué acá va: **TL;DR:** I built **VHectorLab 3D**—an open-source 3D WebGL tool (Three.js + PyTorch)—to visually inspect LLM latent spaces, vector arithmetic, and sparse feature activations (Top-K SAEs). My goal was to create a &quot;microscope&quot; t</summary>
-  </entry>
-  <entry>
-    <title>Auto mode is now the default in Claude Code for Pro, Max, and Team plans</title>
-    <link href="https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything"/>
-    <id>https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything</id>
-    <updated>2026-08-08T22:36:03.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>The AI safety test is becoming a safety risk</title>
+    <link href="https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/"/>
+    <id>https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/</id>
+    <updated>2026-08-09T14:30:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Auto mode is now the default in Claude Code for Pro, Max, and Team plans Anthropic are really confident in Claude Code's auto mode , to the point that they are making it the default setting for new sessions in most Claude Code plans starting on August 14th. This was one of the topics discussed in our Fireside Chat with</summary>
+    <summary>AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards and regulation can keep pace with increasingly powerful models.</summary>
   </entry>
   <entry>
     <title>Desktop Canary v2.2.14-canary.50</title>
@@ -241,22 +205,31 @@
     <summary>The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Puerto Rico Resident Commissioner Rep. Pablo José Hernández Rivera, Royal Observatory Greenwich Planetarium Astronomer </summary>
   </entry>
   <entry>
-    <title>sglang v0.5.17 released</title>
-    <link href="https://github.com/sgl-project/sglang/releases/tag/v0.5.17"/>
-    <id>https://github.com/sgl-project/sglang/releases/tag/v0.5.17</id>
-    <updated>2026-08-08T01:43:39.000Z</updated>
-    <author><name>sgl-project/sglang</name></author>
+    <title>Google's DiffusionGemma proves you don't need to train from scratch to build a text diffusion model</title>
+    <link href="https://the-decoder.com/googles-diffusiongemma-proves-you-dont-need-to-train-from-scratch-to-build-a-text-diffusion-model/"/>
+    <id>https://the-decoder.com/googles-diffusiongemma-proves-you-dont-need-to-train-from-scratch-to-build-a-text-diffusion-model/</id>
+    <updated>2026-08-09T10:01:26.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="RESEARCH"/>
-    <summary>Highlights 582 PRs from 194 contributors. Kimi K3 day-0 support : A 2.8T-parameter multimodal LatentMoE (896 experts, top-16, routed in a 3584-dim latent space) with a 1M-token context, 69 KDA linear-attention layers interleaved with 24 MLA layers, and a MoonViT3d vision tower, shipping as a native MXFP4 checkpoint. SG</summary>
+    <summary>Instead of training a new model from scratch, Google DeepMind retrofitted Gemma 4 into a diffusion model using less than 10 percent of the original training budget. DiffusionGemma generates 256 tokens in parallel instead of one at a time, hitting about 1,500 tokens per second. Quality still trails the original autoregr</summary>
   </entry>
   <entry>
-    <title>Bridge DC launches prefabricated data center power module</title>
-    <link href="https://www.datacenterdynamics.com/en/news/bridge-dc-launches-prefabricated-data-center-power-module/"/>
-    <id>https://www.datacenterdynamics.com/en/news/bridge-dc-launches-prefabricated-data-center-power-module/</id>
-    <updated>2026-08-07T17:00:55.000Z</updated>
-    <author><name>Data Center Dynamics</name></author>
+    <title>IMDb Sentiment Analysis with DistilBERT LoRA, TF-IDF Baselines, Calibration, Interpretability, Robustness Testing, and Semi-Supervised Learning</title>
+    <link href="https://www.marktechpost.com/2026/08/09/imdb-sentiment-analysis-with-distilbert-lora-tf-idf-baselines-calibration-interpretability-robustness-testing-and-semi-supervised-learning/"/>
+    <id>https://www.marktechpost.com/2026/08/09/imdb-sentiment-analysis-with-distilbert-lora-tf-idf-baselines-calibration-interpretability-robustness-testing-and-semi-supervised-learning/</id>
+    <updated>2026-08-09T07:17:35.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
-    <summary>Container contains transformers, power distribution, UPS, and cooling infrastructure</summary>
+    <summary>This tutorial provides a comprehensive guide to building a robust sentiment analysis workflow. By combining classical TF-IDF baselines with modern parameter-efficient fine-tuning (DistilBERT + LoRA), we explore deep model interpretability, calibration, and semi-supervised techniques to achieve scalable sentiment infere</summary>
+  </entry>
+  <entry>
+    <title>unsloth v0.1.527-beta released</title>
+    <link href="https://github.com/unslothai/unsloth/releases/tag/v0.1.527-beta"/>
+    <id>https://github.com/unslothai/unsloth/releases/tag/v0.1.527-beta</id>
+    <updated>2026-08-09T17:53:34.000Z</updated>
+    <author><name>unslothai/unsloth</name></author>
+    <category term="PRODUCTS"/>
+    <summary>What's Changed Studio: judge the cached-pipeline signals on the snapshot the row actually loads by @danielhanchen in #7851 Bump install.sh / install.ps1 pin to unsloth&gt;=2026.8.3 by @danielhanchen in #7860 Studio: make the sidebar menu separators visible in dark mode by @shimmyshimmer in #7865 Studio: run sandbox matplo</summary>
   </entry>
   <entry>
     <title>Musk’s Terafab projected to be larger than the Pentagon, Apple Park, Mall of America, and Giga Texas, combined — all-in-one chip manufacturing facility visualized to show the project’s massive footprint</title>
@@ -268,12 +241,39 @@
     <summary>Elon Musk's Terafab will have at least 100 million sq. ft of interior space, making it the largest such structure on Earth by a big margin. It seems that it will need this amount of space, though, for Musk's ambitious plan of bringing multiple semiconductor manufacturing processes under one roof.</summary>
   </entry>
   <entry>
-    <title>Firebird Launches CIS Region’s Largest AI Factory in Armenia</title>
-    <link href="https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/"/>
-    <id>https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/</id>
-    <updated>2026-08-08T10:24:54.000Z</updated>
-    <author><name>NVIDIA Blog</name></author>
-    <category term="PRODUCTS"/>
-    <summary>The global buildout of AI infrastructure reached a new milestone today — Firebird, an emerging AI cloud, launched the CIS region’s largest AI factory in Armenia, establishing a new AI computing hub powered by NVIDIA accelerated computing and Dell Technologies high-performance AI infrastructure. Nikol Pashinyan, prime m</summary>
+    <title>Wolfbox MF60 Compressed Air Duster is nearly 40% off in a limited-time deal — powerful rechargeable device's propulsion fan runs at up to 110,000 RPM</title>
+    <link href="https://www.tomshardware.com/pc-components/wolfbox-mf60-compressed-air-duster-is-nearly-40-percent-off-in-a-limited-time-deal-powerful-rechargeable-devices-propulsion-fan-runs-at-up-to-110-000-rpm"/>
+    <id>https://www.tomshardware.com/pc-components/wolfbox-mf60-compressed-air-duster-is-nearly-40-percent-off-in-a-limited-time-deal-powerful-rechargeable-devices-propulsion-fan-runs-at-up-to-110-000-rpm</id>
+    <updated>2026-08-09T15:52:16.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <category term="HARDWARE"/>
+    <summary>The Wolfbox MegaFlow 60 has surprisingly dipped below the price of the MegaFlow 50 air duster, and is currently just $30.39.</summary>
+  </entry>
+  <entry>
+    <title>Modder pumps liquid directly over bare GPU silicon via 3D-printed block — drops RTX 2060 Super load temps to 28°C despite initial leaks</title>
+    <link href="https://www.tomshardware.com/pc-components/liquid-cooling/modder-pumps-liquid-directly-over-bare-gpu-silicon-via-3d-printed-block-drops-rtx-2060-super-load-temps-to-28-c-despite-initial-leaks"/>
+    <id>https://www.tomshardware.com/pc-components/liquid-cooling/modder-pumps-liquid-directly-over-bare-gpu-silicon-via-3d-printed-block-drops-rtx-2060-super-load-temps-to-28-c-despite-initial-leaks</id>
+    <updated>2026-08-09T14:15:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <category term="HARDWARE"/>
+    <summary>The fearless TrashBench has been testing direct die water cooling of graphics cards and suffered most of the leaky nightmares you might expect.</summary>
+  </entry>
+  <entry>
+    <title>Meetily Lets You Transcribe and Summarize Meetings Without a Subscription—Here’s How</title>
+    <link href="https://www.wired.com/story/meetily-lets-you-transcribe-and-summarize-meetings-without-a-subscription-heres-how/"/>
+    <id>https://www.wired.com/story/meetily-lets-you-transcribe-and-summarize-meetings-without-a-subscription-heres-how/</id>
+    <updated>2026-08-09T10:30:00.000Z</updated>
+    <author><name>Wired AI</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>There are endless ways to record and transcribe your virtual meetings with AI. Here’s an option that’s free and open source.</summary>
+  </entry>
+  <entry>
+    <title>Meet Shepherd: An Open-Source Python Substrate That Lets Meta-Agents Fork, Replay, and Revert Any Agent Run</title>
+    <link href="https://www.marktechpost.com/2026/08/08/meet-shepherd-an-open-source-python-substrate-that-lets-meta-agents-fork-replay-and-revert-any-agent-run/"/>
+    <id>https://www.marktechpost.com/2026/08/08/meet-shepherd-an-open-source-python-substrate-that-lets-meta-agents-fork-replay-and-revert-any-agent-run/</id>
+    <updated>2026-08-08T20:54:49.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Long agent runs accumulate state that no transcript records — edited files, a live dev server, installed packages, a warm prompt cache. When an agent misreads a traceback at step 10 and rewrites a correct file, patching forward burns tokens and restarting re-pays every call. Researchers at Northeastern University and S</summary>
   </entry>
 </feed>
