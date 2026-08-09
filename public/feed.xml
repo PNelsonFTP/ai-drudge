@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-09T07:09:18.939Z</updated>
+  <updated>2026-08-09T08:55:17.101Z</updated>
   <entry>
     <title>llama.cpp b10331 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10331"/>
@@ -43,15 +43,6 @@
     <summary>Highlights Restored real-time autofix support for pull requests opened from forks by bridging review events to credentialed workflows. ( #8676 ) Enabled compression cache sharing for OpenAI, Gemini, and Vertex AI to reuse conversation prefixes and reduce redundant input processing. ( #8418 , #8425 ) Added repository co — Also covered by: anthropics/claude-code</summary>
   </entry>
   <entry>
-    <title>DSpark + DeepSeek-V4 Flash 0731</title>
-    <link href="https://github.com/unslothai/unsloth/releases/tag/v0.1.526-beta"/>
-    <id>https://github.com/unslothai/unsloth/releases/tag/v0.1.526-beta</id>
-    <updated>2026-08-08T16:51:47.000Z</updated>
-    <author><name>unslothai/unsloth</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Hey everyone! For folks who missed the news - Kimi K3 &amp; DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs! We now added more efficient and faster downloading for Colab, low memory systems and also high memory and CPU systems - we auto fallback to HTTP as well if XET is stuck August 7th Update Many bug fi</summary>
-  </entry>
-  <entry>
     <title>Cape Town-based Moment, a provider of digital payments and billing tools for businesses across Africa, raised a $22M Series A, taking its total funding to $55M (FinTech Global)</title>
     <link href="https://www.techmeme.com/260809/p2#a260809p2"/>
     <id>https://www.techmeme.com/260809/p2#a260809p2</id>
@@ -59,6 +50,15 @@
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
     <summary>FinTech Global : Cape Town-based Moment, a provider of digital payments and billing tools for businesses across Africa, raised a $22M Series A, taking its total funding to $55M — Moment, a pan-African FinTech, has closed a $22m Series A funding round led by AlphaCode Venture Partners …</summary>
+  </entry>
+  <entry>
+    <title>DeepSeek V4 Flash 0731 hits 82.7% on Terminal-Bench 2.1 in an independent public-harness run (445 trials)</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vjklwo/deepseek_v4_flash_0731_hits_827_on_terminalbench/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vjklwo/deepseek_v4_flash_0731_hits_827_on_terminalbench/</id>
+    <updated>2026-08-09T08:39:12.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Disclosure: I’m the author of Ante. DeepSeek recently reported an 82.7% score on Terminal-Bench 2.1 for DeepSeek V4 Flash 0731. Its evaluation used “DeepSeek Harness minimal mode,” which hasn’t been released yet. We wanted to see whether the reported result could be independently matched using a public, downloadable ha</summary>
   </entry>
   <entry>
     <title>China Issues Red Alert, Airports Cancel Flights as Typhoon Nears</title>
@@ -70,13 +70,13 @@
     <summary>China issued its highest storm alert in preparation for approaching Typhoon Dolphin as more than 1,000 flights were canceled and some rail services were suspended.</summary>
   </entry>
   <entry>
-    <title>Meet Shepherd: An Open-Source Python Substrate That Lets Meta-Agents Fork, Replay, and Revert Any Agent Run</title>
-    <link href="https://www.marktechpost.com/2026/08/08/meet-shepherd-an-open-source-python-substrate-that-lets-meta-agents-fork-replay-and-revert-any-agent-run/"/>
-    <id>https://www.marktechpost.com/2026/08/08/meet-shepherd-an-open-source-python-substrate-that-lets-meta-agents-fork-replay-and-revert-any-agent-run/</id>
-    <updated>2026-08-08T20:54:49.000Z</updated>
+    <title>IMDb Sentiment Analysis with DistilBERT LoRA, TF-IDF Baselines, Calibration, Interpretability, Robustness Testing, and Semi-Supervised Learning</title>
+    <link href="https://www.marktechpost.com/2026/08/09/imdb-sentiment-analysis-with-distilbert-lora-tf-idf-baselines-calibration-interpretability-robustness-testing-and-semi-supervised-learning/"/>
+    <id>https://www.marktechpost.com/2026/08/09/imdb-sentiment-analysis-with-distilbert-lora-tf-idf-baselines-calibration-interpretability-robustness-testing-and-semi-supervised-learning/</id>
+    <updated>2026-08-09T07:17:35.000Z</updated>
     <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
-    <summary>Long agent runs accumulate state that no transcript records — edited files, a live dev server, installed packages, a warm prompt cache. When an agent misreads a traceback at step 10 and rewrites a correct file, patching forward burns tokens and restarting re-pays every call. Researchers at Northeastern University and S</summary>
+    <summary>This tutorial provides a comprehensive guide to building a robust sentiment analysis workflow. By combining classical TF-IDF baselines with modern parameter-efficient fine-tuning (DistilBERT + LoRA), we explore deep model interpretability, calibration, and semi-supervised techniques to achieve scalable sentiment infere</summary>
   </entry>
   <entry>
     <title>Firebird Launches CIS Region’s Largest AI Factory in Armenia</title>
@@ -86,6 +86,15 @@
     <author><name>NVIDIA Blog</name></author>
     <category term="PRODUCTS"/>
     <summary>The global buildout of AI infrastructure reached a new milestone today — Firebird, an emerging AI cloud, launched the CIS region’s largest AI factory in Armenia, establishing a new AI computing hub powered by NVIDIA accelerated computing and Dell Technologies high-performance AI infrastructure. Nikol Pashinyan, prime m</summary>
+  </entry>
+  <entry>
+    <title>Meet Shepherd: An Open-Source Python Substrate That Lets Meta-Agents Fork, Replay, and Revert Any Agent Run</title>
+    <link href="https://www.marktechpost.com/2026/08/08/meet-shepherd-an-open-source-python-substrate-that-lets-meta-agents-fork-replay-and-revert-any-agent-run/"/>
+    <id>https://www.marktechpost.com/2026/08/08/meet-shepherd-an-open-source-python-substrate-that-lets-meta-agents-fork-replay-and-revert-any-agent-run/</id>
+    <updated>2026-08-08T20:54:49.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Long agent runs accumulate state that no transcript records — edited files, a live dev server, installed packages, a warm prompt cache. When an agent misreads a traceback at step 10 and rewrites a correct file, patching forward burns tokens and restarting re-pays every call. Researchers at Northeastern University and S</summary>
   </entry>
   <entry>
     <title>A Spillway for Agent Coordination</title>
@@ -178,22 +187,22 @@
     <summary>John Paul Rathbone / Financial Times : Rights groups warn Turkey's new cybersecurity law, which took effect in July, gives the presidency sweeping powers over online services operating in the country — Move raises concern about ‘absolute digital obedience’ among social media and gaming platforms</summary>
   </entry>
   <entry>
-    <title>I made my first ever blog on local ai LLM</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vjj2dk/i_made_my_first_ever_blog_on_local_ai_llm/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vjj2dk/i_made_my_first_ever_blog_on_local_ai_llm/</id>
-    <updated>2026-08-09T07:07:27.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>Updated benchmark: Deepseek V4 Flash on SlopCodeBench (local)</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vjiypj/updated_benchmark_deepseek_v4_flash_on/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vjiypj/updated_benchmark_deepseek_v4_flash_on/</id>
+    <updated>2026-08-09T07:01:43.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by /u/Fast_Soft_4887 [link] [comments]</summary>
+    <summary>Howdy - I posted a benchmark here - https://www.reddit.com/r/LocalLLaMA/comments/1vbtiy7/deepseek_v4_flash_on_slopcodebench/ This was using the hosted API - since then I've been playing around with quants Here is the lastest benchmark - https://github.com/michaelasper/benchmarks/blob/main/deepseek-v4-flash-0731-pi-on-s</summary>
   </entry>
   <entry>
-    <title>unrestricted coding llm.</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vjify4/unrestricted_coding_llm/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vjify4/unrestricted_coding_llm/</id>
-    <updated>2026-08-09T06:32:02.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>Best Embedding + Reranking Model</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vjk57h/best_embedding_reranking_model/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vjk57h/best_embedding_reranking_model/</id>
+    <updated>2026-08-09T08:10:52.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>HI all, i'm looking for a locally run claude code ai alternative that i can run on my pc or even on a server? and remote to? all thoughts are welcome? submitted by /u/brucegill993 [link] [comments]</summary>
+    <summary>What Local Embedding + Reranking Models are you guys running for RAG? I went down this rabbit hole because I wanted a Embedding Model + Reranker for a Translation Memory Server. Essentially, given X phrase/word/sentence/paragraph in English, can it find a similar phrase/word/sentence/paragraph in the target language th</summary>
   </entry>
   <entry>
     <title>AI agents use roughly 600 times more energy than a simple chat prompt</title>
@@ -205,6 +214,15 @@
     <summary>Climate scientist Zeke Hausfather tracked his Claude Code usage over eight weeks: 3.2 billion tokens and about 170 kWh of data center electricity. Per prompt, that's roughly 600 times more than a typical AI chat. His data shows how much the low figures reported by Google and OpenAI distort the reality of agent-based AI</summary>
   </entry>
   <entry>
+    <title>Europe’s Hot Stock Markets Are Creating a Buzz Among Investors</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-09/europe-s-hot-stock-markets-are-creating-a-buzz-among-investors"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-09/europe-s-hot-stock-markets-are-creating-a-buzz-among-investors</id>
+    <updated>2026-08-09T08:00:00.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Europe’s stock market is firing on all cylinders and drawing money managers who say this rally will be more durable than just another short-term trade.</summary>
+  </entry>
+  <entry>
     <title>China’s Inflation Cools as Iran War Oil Shock Starts to Ease</title>
     <link href="https://www.bloomberg.com/news/articles/2026-08-09/china-s-inflation-cools-as-oil-shock-of-iran-war-starts-to-ease"/>
     <id>https://www.bloomberg.com/news/articles/2026-08-09/china-s-inflation-cools-as-oil-shock-of-iran-war-starts-to-ease</id>
@@ -214,15 +232,6 @@
     <summary>China’s factory-gate inflation eased for the first time since the Iran war broke out in late February while consumer prices also decelerated, in another sign that cost pressures from the oil shock are starting to fade.</summary>
   </entry>
   <entry>
-    <title>Korea Volatility Spike Ebbs as Leveraged Trades Are Flushed Out</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-09/korea-volatility-spike-ebbs-as-leveraged-trades-are-flushed-out"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-09/korea-volatility-spike-ebbs-as-leveraged-trades-are-flushed-out</id>
-    <updated>2026-08-09T00:00:00.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>The most extreme phase of South Korea’s stock-market turmoil may be over after a historic selloff flushed out leveraged positions and regulatory curbs sent trading in some of the riskiest products plunging.</summary>
-  </entry>
-  <entry>
     <title>Pokee AI Releases Pokee-Isaac 28B: A 10M-Token Context Agentic Model Built to Run Inside the Customer Boundary</title>
     <link href="https://www.marktechpost.com/2026/08/08/pokee-ai-releases-pokee-isaac-28b-a-10m-token-context-agentic-model-built-to-run-inside-the-customer-boundary/"/>
     <id>https://www.marktechpost.com/2026/08/08/pokee-ai-releases-pokee-isaac-28b-a-10m-token-context-agentic-model-built-to-run-inside-the-customer-boundary/</id>
@@ -230,15 +239,6 @@
     <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
     <summary>Pokee AI released Pokee-Isaac 28B, a 28B text-only foundation model with a 10M-token context window built to run inside the customer boundary. It scores 93.3% on RULER at 10M tokens, where every baseline in its comparison panel returns 0.0 beyond 2M, and leads BFCL v4 at 70.94 while placing second on Terminal-Bench 2.1</summary>
-  </entry>
-  <entry>
-    <title>Mistral AI Releases Shieldstral 1.0 3B: An Open-Weights Policy-Adaptive Multimodal Safety Classifier Matching Models 7× Its Size</title>
-    <link href="https://www.marktechpost.com/2026/08/07/mistral-ai-releases-shieldstral-1-0-3b/"/>
-    <id>https://www.marktechpost.com/2026/08/07/mistral-ai-releases-shieldstral-1-0-3b/</id>
-    <updated>2026-08-08T04:36:26.000Z</updated>
-    <author><name>MarkTechPost</name></author>
-    <category term="RESEARCH"/>
-    <summary>Mistral AI has released Shieldstral 1.0 3B, an open-weights, policy-adaptive multimodal safety classifier that frames content moderation as a single yes/no question instead of a fixed harm taxonomy. Operators supply the policy as a plain-language query at inference time and get back a calibrated safety score from one f</summary>
   </entry>
   <entry>
     <title>Cloudflare launches Kitesurf, a browser built for AI agents</title>
