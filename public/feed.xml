@@ -5,16 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-09T19:41:39.489Z</updated>
-  <entry>
-    <title>DeepSeek v4 Flash 0731 locally on CPU</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vjsysx/deepseek_v4_flash_0731_locally_on_cpu/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vjsysx/deepseek_v4_flash_0731_locally_on_cpu/</id>
-    <updated>2026-08-09T15:36:32.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>After seeing the benchmark results for the full release of DS v4 Flash 0731, I replaced my 2 x 16GB DDR4 ram sticks with 2 x 32GB DDR4 ram sticks to get a max supported of 128 GB RAM, in hope to be able to run GLM 5.2 equivalent model locally i.e. DS v4 Flash 0731 I also have RTX 4090 &amp; Tesla P40 so the total combined  — Also covered by: unslothai/unsloth</summary>
-  </entry>
+  <updated>2026-08-09T20:45:19.325Z</updated>
   <entry>
     <title>llama.cpp b10333 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10333"/>
@@ -34,15 +25,6 @@
     <summary>Programming with Claude Code will soon require even less human oversight.</summary>
   </entry>
   <entry>
-    <title>OpenAI to pause some work on AI model Astra due to security concerns</title>
-    <link href="https://www.theguardian.com/technology/2026/aug/08/openai-astra-security-concerns"/>
-    <id>https://www.theguardian.com/technology/2026/aug/08/openai-astra-security-concerns</id>
-    <updated>2026-08-08T17:00:41.000Z</updated>
-    <author><name>The Guardian AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Agent found to be able to find and exploit vulnerabilities without human intervention, and to carry out cyber-attacks OpenAI will pause some work on an artificial intelligence model because of security concerns, the company stated on Friday, following a series of incidents in which AI agents have escaped containment. T — Also covered by: TechCrunch AI</summary>
-  </entry>
-  <entry>
     <title>qwen-code v0.21.8 released</title>
     <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.21.8"/>
     <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.21.8</id>
@@ -50,6 +32,15 @@
     <author><name>QwenLM/qwen-code</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Highlights Restored real-time autofix support for pull requests opened from forks by bridging review events to credentialed workflows. ( #8676 ) Enabled compression cache sharing for OpenAI, Gemini, and Vertex AI to reuse conversation prefixes and reduce redundant input processing. ( #8418 , #8425 ) Added repository co — Also covered by: anthropics/claude-code</summary>
+  </entry>
+  <entry>
+    <title>DSpark + DeepSeek-V4 Flash 0731</title>
+    <link href="https://github.com/unslothai/unsloth/releases/tag/v0.1.526-beta"/>
+    <id>https://github.com/unslothai/unsloth/releases/tag/v0.1.526-beta</id>
+    <updated>2026-08-08T16:51:47.000Z</updated>
+    <author><name>unslothai/unsloth</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Hey everyone! For folks who missed the news - Kimi K3 &amp; DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs! We now added more efficient and faster downloading for Colab, low memory systems and also high memory and CPU systems - we auto fallback to HTTP as well if XET is stuck August 7th Update Many bug fi</summary>
   </entry>
   <entry>
     <title>A look at Chinese state-owned investment bank CICC, which sponsored multibillion-dollar listings of China's tech champions, including CXMT and Zhongji Innolight (Financial Times)</title>
@@ -70,13 +61,22 @@
     <summary>A Bloomberg Law investigation finds federal prosecutors dismissed or downgraded many felony assault cases brought during President Donald Trump’s crime crackdown in Washington DC, with only a handful resulting in convictions. Bloomberg Law Editor-at-Large Keith Alexander says on Bloomberg This Weekend that the cases ra</summary>
   </entry>
   <entry>
-    <title>Top LLM Observability and Evaluation Platforms in 2026: Langfuse, LangSmith, Braintrust, Arize, and More Compared</title>
-    <link href="https://www.marktechpost.com/2026/08/09/top-llm-observability-and-evaluation-platforms-in-2026-langfuse-langsmith-braintrust-arize-and-more-compared/"/>
-    <id>https://www.marktechpost.com/2026/08/09/top-llm-observability-and-evaluation-platforms-in-2026-langfuse-langsmith-braintrust-arize-and-more-compared/</id>
-    <updated>2026-08-09T18:15:30.000Z</updated>
-    <author><name>MarkTechPost</name></author>
+    <title>Google's DiffusionGemma proves you don't need to train from scratch to build a text diffusion model</title>
+    <link href="https://the-decoder.com/googles-diffusiongemma-proves-you-dont-need-to-train-from-scratch-to-build-a-text-diffusion-model/"/>
+    <id>https://the-decoder.com/googles-diffusiongemma-proves-you-dont-need-to-train-from-scratch-to-build-a-text-diffusion-model/</id>
+    <updated>2026-08-09T10:01:26.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="RESEARCH"/>
-    <summary>A verified 2026 comparison of LLM observability platforms covering tracing depth, evaluation capability, production monitoring, and pricing. The post Top LLM Observability and Evaluation Platforms in 2026: Langfuse, LangSmith, Braintrust, Arize, and More Compared appeared first on MarkTechPost .</summary>
+    <summary>Instead of training a new model from scratch, Google DeepMind retrofitted Gemma 4 into a diffusion model using less than 10 percent of the original training budget. DiffusionGemma generates 256 tokens in parallel instead of one at a time, hitting about 1,500 tokens per second. Quality still trails the original autoregr</summary>
+  </entry>
+  <entry>
+    <title>unsloth v0.1.527-beta released</title>
+    <link href="https://github.com/unslothai/unsloth/releases/tag/v0.1.527-beta"/>
+    <id>https://github.com/unslothai/unsloth/releases/tag/v0.1.527-beta</id>
+    <updated>2026-08-09T17:53:34.000Z</updated>
+    <author><name>unslothai/unsloth</name></author>
+    <category term="PRODUCTS"/>
+    <summary>What's Changed Studio: judge the cached-pipeline signals on the snapshot the row actually loads by @danielhanchen in #7851 Bump install.sh / install.ps1 pin to unsloth&gt;=2026.8.3 by @danielhanchen in #7860 Studio: make the sidebar menu separators visible in dark mode by @shimmyshimmer in #7865 Studio: run sandbox matplo</summary>
   </entry>
   <entry>
     <title>WisdPi WP-UT9 USB 10GbE Adapter Review</title>
@@ -124,6 +124,15 @@
     <summary>The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched TrueConf video conferencing servers to replace client installers with malicious versions that deliver backdoors. [...]</summary>
   </entry>
   <entry>
+    <title>This former notorious red-light district is now one of the world’s top AI hubs</title>
+    <link href="https://techcrunch.com/2026/08/09/this-former-notorious-red-light-district-is-now-one-of-the-worlds-top-ai-hubs/"/>
+    <id>https://techcrunch.com/2026/08/09/this-former-notorious-red-light-district-is-now-one-of-the-worlds-top-ai-hubs/</id>
+    <updated>2026-08-09T13:00:00.000Z</updated>
+    <author><name>TechCrunch Startups</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>More than 20 years ago, King's Cross was one of the seediest area's in London. Now it's sprouting something new.</summary>
+  </entry>
+  <entry>
     <title>Analog Devices returns as strategic sponsor to aid MassRobotics startups</title>
     <link href="https://www.therobotreport.com/analog-devices-returns-strategic-sponsor-aid-massrobotics-startups/"/>
     <id>https://www.therobotreport.com/analog-devices-returns-strategic-sponsor-aid-massrobotics-startups/</id>
@@ -151,22 +160,31 @@
     <summary>The AI industry's hunger for power keeps growing. Nvidia is investing up to $3 billion in Lancium, a power infrastructure developer that already has four gigawatts under contract in Texas. Amazon, meanwhile, is building a gas-fired power plant in the state with a capacity of up to 7.65 gigawatts that could emit 33 mill</summary>
   </entry>
   <entry>
-    <title>Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy</title>
-    <link href="https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/"/>
-    <id>https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/</id>
-    <updated>2026-08-09T15:00:00.000Z</updated>
+    <title>Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry</title>
+    <link href="https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/"/>
+    <id>https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/</id>
+    <updated>2026-08-09T20:35:17.000Z</updated>
     <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>On the latest episode of Equity, we spoke to Jill Lepore about &quot;government by machines&quot; and why Elon Musk is a bad science fiction reader.</summary>
+    <summary>The AI-focused hedge fund is still making some big bets.</summary>
   </entry>
   <entry>
-    <title>Speculative decoding in a tools call</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vjxhof/speculative_decoding_in_a_tools_call/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vjxhof/speculative_decoding_in_a_tools_call/</id>
-    <updated>2026-08-09T18:34:14.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>Suggest a model...</title>
+    <link href="https://sh.itjust.works/post/64805858"/>
+    <id>https://sh.itjust.works/post/64805858</id>
+    <updated>2026-08-09T08:32:00.000Z</updated>
+    <author><name>Lemmy c/localllama</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>paper : https://arxiv.org/html/2608.00814v1 source : https://x.com/i/status/2086505517640540587 submitted by /u/Illustrious-Swim9663 [link] [comments]</summary>
+    <summary>submitted by Shimitar to localllama 11 points | 9 comments This is my upgraded rig: Ryzen9 5950x with 64gb DDR4 Dual NVIDIA RTX A4000 (16+16GB VRAM) to whom read my previous posts, i jumped the gun and upgraded my server, it was worthwhile and somewhat cheap given i already had the two GPUs and the DDR4 RAM. Anyway, i </summary>
+  </entry>
+  <entry>
+    <title>Thinking injection to modify model behaviour (making Gemma 4 less lazy)</title>
+    <link href="https://sh.itjust.works/post/64796482"/>
+    <id>https://sh.itjust.works/post/64796482</id>
+    <updated>2026-08-09T02:53:59.000Z</updated>
+    <author><name>Lemmy c/localllama</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>submitted by potatoguy to localllama 16 points | 8 comments So, I saw that article about prompt injection and thought about modifying Gemma 26B-A4B thinking. It seemed to work, it started making some search tool calls it has never done before without asking. I added a variable to the models chat template: {% set intern</summary>
   </entry>
   <entry>
     <title>The AI safety test is becoming a safety risk</title>
@@ -184,7 +202,7 @@
     <updated>2026-08-09T09:49:36.000Z</updated>
     <author><name>lobehub/lobe-chat</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>🐤 Canary Build — v2.2.14-canary.50 Automated canary build from canary branch. Commit Information Based on changes since v2.2.14-canary.49 Commit count: 6 3a0d5f2a6f 🐛 fix(local-file-shell): report real match count for file-scoped context grep ( #18101 ) (Arvin Xu) 975e21cf80 🐛 fix(agent): make creator task callbacks — Also covered by: lobehub/lobe-chat</summary>
+    <summary>🐤 Canary Build — v2.2.14-canary.50 Automated canary build from canary branch. Commit Information Based on changes since v2.2.14-canary.49 Commit count: 6 3a0d5f2a6f 🐛 fix(local-file-shell): report real match count for file-scoped context grep ( #18101 ) (Arvin Xu) 975e21cf80 🐛 fix(agent): make creator task callbacks</summary>
   </entry>
   <entry>
     <title>Hungarian Central Banker Touts Benefits of Joining Euro Area</title>
@@ -205,31 +223,22 @@
     <summary>The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Puerto Rico Resident Commissioner Rep. Pablo José Hernández Rivera, Royal Observatory Greenwich Planetarium Astronomer </summary>
   </entry>
   <entry>
-    <title>Google's DiffusionGemma proves you don't need to train from scratch to build a text diffusion model</title>
-    <link href="https://the-decoder.com/googles-diffusiongemma-proves-you-dont-need-to-train-from-scratch-to-build-a-text-diffusion-model/"/>
-    <id>https://the-decoder.com/googles-diffusiongemma-proves-you-dont-need-to-train-from-scratch-to-build-a-text-diffusion-model/</id>
-    <updated>2026-08-09T10:01:26.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>sglang v0.5.17 released</title>
+    <link href="https://github.com/sgl-project/sglang/releases/tag/v0.5.17"/>
+    <id>https://github.com/sgl-project/sglang/releases/tag/v0.5.17</id>
+    <updated>2026-08-08T01:43:39.000Z</updated>
+    <author><name>sgl-project/sglang</name></author>
     <category term="RESEARCH"/>
-    <summary>Instead of training a new model from scratch, Google DeepMind retrofitted Gemma 4 into a diffusion model using less than 10 percent of the original training budget. DiffusionGemma generates 256 tokens in parallel instead of one at a time, hitting about 1,500 tokens per second. Quality still trails the original autoregr</summary>
+    <summary>Highlights 582 PRs from 194 contributors. Kimi K3 day-0 support : A 2.8T-parameter multimodal LatentMoE (896 experts, top-16, routed in a 3584-dim latent space) with a 1M-token context, 69 KDA linear-attention layers interleaved with 24 MLA layers, and a MoonViT3d vision tower, shipping as a native MXFP4 checkpoint. SG</summary>
   </entry>
   <entry>
-    <title>IMDb Sentiment Analysis with DistilBERT LoRA, TF-IDF Baselines, Calibration, Interpretability, Robustness Testing, and Semi-Supervised Learning</title>
-    <link href="https://www.marktechpost.com/2026/08/09/imdb-sentiment-analysis-with-distilbert-lora-tf-idf-baselines-calibration-interpretability-robustness-testing-and-semi-supervised-learning/"/>
-    <id>https://www.marktechpost.com/2026/08/09/imdb-sentiment-analysis-with-distilbert-lora-tf-idf-baselines-calibration-interpretability-robustness-testing-and-semi-supervised-learning/</id>
-    <updated>2026-08-09T07:17:35.000Z</updated>
-    <author><name>MarkTechPost</name></author>
+    <title>Bridge DC launches prefabricated data center power module</title>
+    <link href="https://www.datacenterdynamics.com/en/news/bridge-dc-launches-prefabricated-data-center-power-module/"/>
+    <id>https://www.datacenterdynamics.com/en/news/bridge-dc-launches-prefabricated-data-center-power-module/</id>
+    <updated>2026-08-07T17:00:55.000Z</updated>
+    <author><name>Data Center Dynamics</name></author>
     <category term="RESEARCH"/>
-    <summary>This tutorial provides a comprehensive guide to building a robust sentiment analysis workflow. By combining classical TF-IDF baselines with modern parameter-efficient fine-tuning (DistilBERT + LoRA), we explore deep model interpretability, calibration, and semi-supervised techniques to achieve scalable sentiment infere</summary>
-  </entry>
-  <entry>
-    <title>unsloth v0.1.527-beta released</title>
-    <link href="https://github.com/unslothai/unsloth/releases/tag/v0.1.527-beta"/>
-    <id>https://github.com/unslothai/unsloth/releases/tag/v0.1.527-beta</id>
-    <updated>2026-08-09T17:53:34.000Z</updated>
-    <author><name>unslothai/unsloth</name></author>
-    <category term="PRODUCTS"/>
-    <summary>What's Changed Studio: judge the cached-pipeline signals on the snapshot the row actually loads by @danielhanchen in #7851 Bump install.sh / install.ps1 pin to unsloth&gt;=2026.8.3 by @danielhanchen in #7860 Studio: make the sidebar menu separators visible in dark mode by @shimmyshimmer in #7865 Studio: run sandbox matplo</summary>
+    <summary>Container contains transformers, power distribution, UPS, and cooling infrastructure</summary>
   </entry>
   <entry>
     <title>Musk’s Terafab projected to be larger than the Pentagon, Apple Park, Mall of America, and Giga Texas, combined — all-in-one chip manufacturing facility visualized to show the project’s massive footprint</title>
@@ -239,6 +248,15 @@
     <author><name>Tom's Hardware</name></author>
     <category term="PRODUCTS"/>
     <summary>Elon Musk's Terafab will have at least 100 million sq. ft of interior space, making it the largest such structure on Earth by a big margin. It seems that it will need this amount of space, though, for Musk's ambitious plan of bringing multiple semiconductor manufacturing processes under one roof.</summary>
+  </entry>
+  <entry>
+    <title>Firebird Launches CIS Region’s Largest AI Factory in Armenia</title>
+    <link href="https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/"/>
+    <id>https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/</id>
+    <updated>2026-08-08T10:24:54.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
+    <category term="PRODUCTS"/>
+    <summary>The global buildout of AI infrastructure reached a new milestone today — Firebird, an emerging AI cloud, launched the CIS region’s largest AI factory in Armenia, establishing a new AI computing hub powered by NVIDIA accelerated computing and Dell Technologies high-performance AI infrastructure. Nikol Pashinyan, prime m</summary>
   </entry>
   <entry>
     <title>Wolfbox MF60 Compressed Air Duster is nearly 40% off in a limited-time deal — powerful rechargeable device's propulsion fan runs at up to 110,000 RPM</title>
@@ -257,23 +275,5 @@
     <author><name>Tom's Hardware</name></author>
     <category term="HARDWARE"/>
     <summary>The fearless TrashBench has been testing direct die water cooling of graphics cards and suffered most of the leaky nightmares you might expect.</summary>
-  </entry>
-  <entry>
-    <title>Meetily Lets You Transcribe and Summarize Meetings Without a Subscription—Here’s How</title>
-    <link href="https://www.wired.com/story/meetily-lets-you-transcribe-and-summarize-meetings-without-a-subscription-heres-how/"/>
-    <id>https://www.wired.com/story/meetily-lets-you-transcribe-and-summarize-meetings-without-a-subscription-heres-how/</id>
-    <updated>2026-08-09T10:30:00.000Z</updated>
-    <author><name>Wired AI</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>There are endless ways to record and transcribe your virtual meetings with AI. Here’s an option that’s free and open source.</summary>
-  </entry>
-  <entry>
-    <title>Meet Shepherd: An Open-Source Python Substrate That Lets Meta-Agents Fork, Replay, and Revert Any Agent Run</title>
-    <link href="https://www.marktechpost.com/2026/08/08/meet-shepherd-an-open-source-python-substrate-that-lets-meta-agents-fork-replay-and-revert-any-agent-run/"/>
-    <id>https://www.marktechpost.com/2026/08/08/meet-shepherd-an-open-source-python-substrate-that-lets-meta-agents-fork-replay-and-revert-any-agent-run/</id>
-    <updated>2026-08-08T20:54:49.000Z</updated>
-    <author><name>MarkTechPost</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Long agent runs accumulate state that no transcript records — edited files, a live dev server, installed packages, a warm prompt cache. When an agent misreads a traceback at step 10 and rewrites a correct file, patching forward burns tokens and restarting re-pays every call. Researchers at Northeastern University and S</summary>
   </entry>
 </feed>
