@@ -5,24 +5,24 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-09T10:45:12.035Z</updated>
+  <updated>2026-08-09T11:37:46.864Z</updated>
   <entry>
-    <title>llama.cpp b10331 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10331"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10331</id>
-    <updated>2026-08-08T23:28:06.000Z</updated>
+    <title>llama.cpp b10333 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10333"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10333</id>
+    <updated>2026-08-09T11:23:21.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>server: report the isolate working directory from get_info ( #26773 ) server: report the isolate working directory from get_info Without an explicit cwd, get_info fell back to the server process working directory even when a tools runtime was configured. That named a host path no tool would ever run in, since an isolat — Also covered by: ggml-org/whisper.cpp</summary>
+    <summary>ggml-cpu : fix missing Q5_0 dispatch in SpaceMiT backend ( #26792 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (V — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
-    <title>Anthropic says auto mode will be the default in Claude Code for Pro, Max, Team plans, starting on Aug. 14, claiming it's good enough at catching harmful actions (Simon Willison/Simon Willison's Weblog)</title>
-    <link href="https://www.techmeme.com/260808/p10#a260808p10"/>
-    <id>https://www.techmeme.com/260808/p10#a260808p10</id>
-    <updated>2026-08-09T00:38:10.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Auto mode is now the default in Claude Code for Pro, Max, and Team plans</title>
+    <link href="https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything"/>
+    <id>https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything</id>
+    <updated>2026-08-08T22:36:03.000Z</updated>
+    <author><name>Simon Willison</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Simon Willison / Simon Willison's Weblog : Anthropic says auto mode will be the default in Claude Code for Pro, Max, Team plans, starting on Aug. 14, claiming it's good enough at catching harmful actions — This was one of the topics discussed in our Fireside Chat with Cat Wu and Thariq Shihipar at the AI Engineer World</summary>
+    <summary>Auto mode is now the default in Claude Code for Pro, Max, and Team plans Anthropic are really confident in Claude Code's auto mode , to the point that they are making it the default setting for new sessions in most Claude Code plans starting on August 14th. This was one of the topics discussed in our Fireside Chat with</summary>
   </entry>
   <entry>
     <title>OpenAI to pause some work on AI model Astra due to security concerns</title>
@@ -43,6 +43,15 @@
     <summary>Highlights Restored real-time autofix support for pull requests opened from forks by bridging review events to credentialed workflows. ( #8676 ) Enabled compression cache sharing for OpenAI, Gemini, and Vertex AI to reuse conversation prefixes and reduce redundant input processing. ( #8418 , #8425 ) Added repository co — Also covered by: anthropics/claude-code</summary>
   </entry>
   <entry>
+    <title>DSpark + DeepSeek-V4 Flash 0731</title>
+    <link href="https://github.com/unslothai/unsloth/releases/tag/v0.1.526-beta"/>
+    <id>https://github.com/unslothai/unsloth/releases/tag/v0.1.526-beta</id>
+    <updated>2026-08-08T16:51:47.000Z</updated>
+    <author><name>unslothai/unsloth</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Hey everyone! For folks who missed the news - Kimi K3 &amp; DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs! We now added more efficient and faster downloading for Colab, low memory systems and also high memory and CPU systems - we auto fallback to HTTP as well if XET is stuck August 7th Update Many bug fi</summary>
+  </entry>
+  <entry>
     <title>AI's energy appetite drives Nvidia and Amazon to pour billions into massive power infrastructure</title>
     <link href="https://the-decoder.com/ais-energy-appetite-drives-nvidia-and-amazon-to-pour-billions-into-massive-power-infrastructure/"/>
     <id>https://the-decoder.com/ais-energy-appetite-drives-nvidia-and-amazon-to-pour-billions-into-massive-power-infrastructure/</id>
@@ -59,6 +68,15 @@
     <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
     <summary>Finance sector will gain from the tech but it will need substantial investment and create risks, says rating agency The rating agency Moody’s has said the race to adopt AI is putting big banks at the mercy of a small group of Silicon Valley firms, leaving them vulnerable to widespread outages and price gouging by profi</summary>
+  </entry>
+  <entry>
+    <title>Anthropic says auto mode will be the default in Claude Code for Pro, Max, Team plans, starting on Aug. 14, claiming it's good enough at catching harmful actions (Simon Willison/Simon Willison's Weblog)</title>
+    <link href="https://www.techmeme.com/260808/p10#a260808p10"/>
+    <id>https://www.techmeme.com/260808/p10#a260808p10</id>
+    <updated>2026-08-09T00:38:10.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Simon Willison / Simon Willison's Weblog : Anthropic says auto mode will be the default in Claude Code for Pro, Max, Team plans, starting on Aug. 14, claiming it's good enough at catching harmful actions — This was one of the topics discussed in our Fireside Chat with Cat Wu and Thariq Shihipar at the AI Engineer World — Also covered by: Simon Willison</summary>
   </entry>
   <entry>
     <title>Typhoon Dolphin Makes Landfall in Eastern China After Red Alert</title>
@@ -178,31 +196,40 @@
     <summary>Britain's employment courts saw 39 percent more claims in the year through March 2026, many written with ChatGPT or Grok. The backlog jumped 55 percent to 64,000 unresolved cases, with AI-generated filings often running hundreds of pages and citing fabricated laws. The Economist calls it a &quot;tragedy of the commons, AI e</summary>
   </entry>
   <entry>
-    <title>The AI Therapist: A WSJ Podcast Series</title>
-    <link href="https://www.wsj.com/tech/ai/the-ai-therapist-a-wsj-podcast-series-7b1b8fea?mod=rss_Technology"/>
-    <id>https://www.wsj.com/tech/ai/the-ai-therapist-a-wsj-podcast-series-7b1b8fea?mod=rss_Technology</id>
-    <updated>2026-08-09T10:04:00.000Z</updated>
-    <author><name>WSJ Tech</name></author>
+    <title>What are datacentres doing to the places we love? In Slough, I found a bleak answer | John Harris</title>
+    <link href="https://www.theguardian.com/commentisfree/2026/aug/09/slough-famous-the-office-datacentres-locals-hub-europe"/>
+    <id>https://www.theguardian.com/commentisfree/2026/aug/09/slough-famous-the-office-datacentres-locals-hub-europe</id>
+    <updated>2026-08-09T11:03:18.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>A three-part podcast series about how AI mental-health chatbots are filling the rising demand for therapy, and the risks they may bring with them.</summary>
+    <summary>Whitehall wants to triple the UK’s number of datacentres – but demand for electricity and water means that could be at the expense of new homes Amid headlines about the UK’s drought , Europe’s wildfires and impossible global temperatures, it was 28C when I arrived in Slough last Monday. I was there to look around Sloug</summary>
   </entry>
   <entry>
-    <title>Suggest a model...</title>
-    <link href="https://sh.itjust.works/post/64805858"/>
-    <id>https://sh.itjust.works/post/64805858</id>
-    <updated>2026-08-09T08:32:00.000Z</updated>
-    <author><name>Lemmy c/localllama</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>submitted by Shimitar to localllama 5 points | 2 comments This is my upgraded rig: Ryzen9 5950x with 64gb DDR4 Dual NVIDIA RTX A4000 (16+16GB VRAM) to whom read my previous posts, i jumped the gun and upgraded my server, it was worthwhile and somewhat cheap given i already had the two GPUs and the DDR4 RAM. Anyway, i a</summary>
+    <title>A look back at &quot;Move 37&quot;, a watershed AI moment from AlphaGo's 2016 Go victory, as math witnesses similar breakthroughs where AI makes surprising discoveries (Ben Cohen/Wall Street Journal)</title>
+    <link href="https://www.techmeme.com/260809/p5#a260809p5"/>
+    <id>https://www.techmeme.com/260809/p5#a260809p5</id>
+    <updated>2026-08-09T11:00:00.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Ben Cohen / Wall Street Journal : A look back at “Move 37”, a watershed AI moment from AlphaGo's 2016 Go victory, as math witnesses similar breakthroughs where AI makes surprising discoveries — A decade ago, a computer did something that no human would have done. It was considered a breakthrough for AI.</summary>
   </entry>
   <entry>
-    <title>Thinking injection to modify model behaviour (making Gemma 4 less lazy)</title>
-    <link href="https://sh.itjust.works/post/64796482"/>
-    <id>https://sh.itjust.works/post/64796482</id>
-    <updated>2026-08-09T02:53:59.000Z</updated>
-    <author><name>Lemmy c/localllama</name></author>
+    <title>DeepSeek V4 Flash 0731 hits 82.7% on Terminal-Bench 2.1 in an independent public-harness run (445 trials)</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vjklwo/deepseek_v4_flash_0731_hits_827_on_terminalbench/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vjklwo/deepseek_v4_flash_0731_hits_827_on_terminalbench/</id>
+    <updated>2026-08-09T08:39:12.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by potatoguy to localllama 11 points | 8 comments So, I saw that article about prompt injection and thought about modifying Gemma 26B-A4B thinking. It seemed to work, it started making some search tool calls it has never done before without asking. I added a variable to the models chat template: {% set intern</summary>
+    <summary>Disclosure: I’m the author of Ante. DeepSeek recently reported an 82.7% score on Terminal-Bench 2.1 for DeepSeek V4 Flash 0731. Its evaluation used “DeepSeek Harness minimal mode,” which hasn’t been released yet. We wanted to see whether the reported result could be independently matched using a public, downloadable ha</summary>
+  </entry>
+  <entry>
+    <title>Updated benchmark: Deepseek V4 Flash on SlopCodeBench (local)</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vjiypj/updated_benchmark_deepseek_v4_flash_on/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vjiypj/updated_benchmark_deepseek_v4_flash_on/</id>
+    <updated>2026-08-09T07:01:43.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Howdy - I posted a benchmark here - https://www.reddit.com/r/LocalLLaMA/comments/1vbtiy7/deepseek_v4_flash_on_slopcodebench/ This was using the hosted API - since then I've been playing around with quants Here is the lastest benchmark - https://github.com/michaelasper/benchmarks/blob/main/deepseek-v4-flash-0731-pi-on-s</summary>
   </entry>
   <entry>
     <title>Desktop Canary v2.2.14-canary.50</title>
@@ -248,32 +275,5 @@
     <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
     <summary>Long agent runs accumulate state that no transcript records — edited files, a live dev server, installed packages, a warm prompt cache. When an agent misreads a traceback at step 10 and rewrites a correct file, patching forward burns tokens and restarting re-pays every call. Researchers at Northeastern University and S</summary>
-  </entry>
-  <entry>
-    <title>Cloudflare launches Kitesurf, a browser built for AI agents</title>
-    <link href="https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/"/>
-    <id>https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/</id>
-    <updated>2026-08-07T16:16:09.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently.</summary>
-  </entry>
-  <entry>
-    <title>GitHub Copilot weekly releases — August 3</title>
-    <link href="https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3"/>
-    <id>https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3</id>
-    <updated>2026-08-07T23:16:02.000Z</updated>
-    <author><name>GitHub Copilot Changelog</name></author>
-    <category term="PRODUCTS"/>
-    <summary>This week’s updates across GitHub Copilot in the desktop app, CLI, and VS Code help you resume and organize work, review changes, and ask questions without losing context. GitHub Copilot… The post GitHub Copilot weekly releases — August 3 appeared first on The GitHub Blog .</summary>
-  </entry>
-  <entry>
-    <title>After 24 years, Return to Castle Wolfenstein is finally distributed uncut in Germany — game was censored due to strict laws regarding Nazi symbolism</title>
-    <link href="https://www.tomshardware.com/video-games/retro-gaming/after-24-years-return-to-castle-wolfenstein-is-finally-distributed-uncut-in-germany-game-was-censored-due-to-strict-laws-regarding-nazi-symbolism"/>
-    <id>https://www.tomshardware.com/video-games/retro-gaming/after-24-years-return-to-castle-wolfenstein-is-finally-distributed-uncut-in-germany-game-was-censored-due-to-strict-laws-regarding-nazi-symbolism</id>
-    <updated>2026-08-09T10:40:00.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
-    <category term="HARDWARE"/>
-    <summary>Germany's strict laws surrounding depictions of Nazis meant the game had to be altered, giving it an arguably more interesting story as a result.</summary>
   </entry>
 </feed>
