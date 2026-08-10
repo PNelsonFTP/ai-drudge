@@ -5,7 +5,16 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-10T10:25:50.189Z</updated>
+  <updated>2026-08-10T11:54:55.725Z</updated>
+  <entry>
+    <title>llama.cpp b10338 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10338"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10338</id>
+    <updated>2026-08-10T10:53:20.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>model-saver : fix expert shared/chunk FFN length key clobber ( #26693 ) The saver called add_kv with LLM_KV_EXPERT_SHARED_FEED_FORWARD_LENGTH twice, the second time passing n_ff_chexp. gguf_set_val_u32 removes-then-appends, so the second call clobbers the first: the saved shared_feed_forward_length ends up as n_ff_chex — Also covered by: ggml-org/whisper.cpp</summary>
+  </entry>
   <entry>
     <title>Anthropic is turning Claude Code’s auto mode on by default</title>
     <link href="https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/"/>
@@ -16,85 +25,58 @@
     <summary>Programming with Claude Code will soon require even less human oversight.</summary>
   </entry>
   <entry>
-    <title>DSpark + DeepSeek-V4 Flash 0731</title>
-    <link href="https://github.com/unslothai/unsloth/releases/tag/v0.1.526-beta"/>
-    <id>https://github.com/unslothai/unsloth/releases/tag/v0.1.526-beta</id>
-    <updated>2026-08-10T04:02:17.000Z</updated>
-    <author><name>unslothai/unsloth</name></author>
+    <title>ollama v0.32.7 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.32.7"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.32.7</id>
+    <updated>2026-08-10T11:13:46.000Z</updated>
+    <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Hey everyone! For folks who missed the news - Kimi K3 &amp; DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs! We now added more efficient and faster downloading for Colab, low memory systems and also high memory and CPU systems - we auto fallback to HTTP as well if XET is stuck August 7th Update Many bug fi</summary>
+    <summary>Muse Glimmer Note: Muse Glimmer is currently available via initial support via Ollama's MLX engine on Apple Silicon. Additional support and optimizations for Apple Silicon, NVIDIA, AMD, and other platforms will be available in the coming days. Muse Glimmer , Meta's newest open model and the first released by Meta Super</summary>
   </entry>
   <entry>
-    <title>OpenAI acquires NextSlide to bring AI-generated presentations into ChatGPT</title>
-    <link href="https://the-decoder.com/openai-acquires-nextslide-to-bring-ai-generated-presentations-into-chatgpt/"/>
-    <id>https://the-decoder.com/openai-acquires-nextslide-to-bring-ai-generated-presentations-into-chatgpt/</id>
-    <updated>2026-08-10T10:08:14.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>OpenAI acquired NextSlide, the startup that turned prompts, notes, documents, and research into editable presentations. The article OpenAI acquires NextSlide to bring AI-generated presentations into ChatGPT appeared first on The Decoder .</summary>
-  </entry>
-  <entry>
-    <title>Meta releases Muse Glimmer, a new open-weight model, and will release an open-weight version of its most advanced model, Muse Spark 1.2, in the coming weeks (Meghan Bobrowsky/Wall Street Journal)</title>
-    <link href="https://www.techmeme.com/260810/p11#a260810p11"/>
-    <id>https://www.techmeme.com/260810/p11#a260810p11</id>
-    <updated>2026-08-10T10:14:25.000Z</updated>
+    <title>South Korea plans to launch a ~$3.5B chip fund for promising materials, parts, equipment, and fabless companies, and speed the development of domestic chip hubs (Reuters)</title>
+    <link href="https://www.techmeme.com/260810/p19#a260810p19"/>
+    <id>https://www.techmeme.com/260810/p19#a260810p19</id>
+    <updated>2026-08-10T11:25:00.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Meghan Bobrowsky / Wall Street Journal : Meta releases Muse Glimmer, a new open-weight model, and will release an open-weight version of its most advanced model, Muse Spark 1.2, in the coming weeks — Mark Zuckerberg has a new game plan for winning over hearts and minds to his company's artificial-intelligence efforts: </summary>
-  </entry>
-  <entry>
-    <title>Meta open sources new on-device model Muse Glimmer &amp; Muse spark 1.2 also coming soon!</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vkgqnn/meta_open_sources_new_ondevice_model_muse_glimmer/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vkgqnn/meta_open_sources_new_ondevice_model_muse_glimmer/</id>
-    <updated>2026-08-10T10:10:46.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>submitted by /u/provoloner09 [link] [comments]</summary>
-  </entry>
-  <entry>
-    <title>OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause</title>
-    <link href="https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html"/>
-    <id>https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html</id>
-    <updated>2026-08-10T05:50:03.000Z</updated>
-    <author><name>The Hacker News</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>OpenAI has announced that it's pausing some &quot;internal activities&quot; involving its upcoming artificial intelligence (AI) model Astra after an internal evaluation found it had made significant advancements in agentic coding and cybersecurity. In response to the discovery, the AI upstart said it's implementing security cont</summary>
-  </entry>
-  <entry>
-    <title>Fed Rate Hike in December Is Possible, Macquarie's Wizman Says</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-10/fed-rate-hike-in-december-is-possible-macquarie-says-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-10/fed-rate-hike-in-december-is-possible-macquarie-says-video</id>
-    <updated>2026-08-10T10:22:39.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Thierry Wizman, global FX and rates strategist at Macquarie, discusses the outlook for the US economy, inflation and the possibility of a Federal Reserve interest-rate hike this year. &quot;December doesn't look like the wrong time to do it,&quot; Wizman says. &quot;You'll have a new Summary of Economic Projections, and the Fed likes</summary>
+    <summary>Reuters : South Korea plans to launch a ~$3.5B chip fund for promising materials, parts, equipment, and fabless companies, and speed the development of domestic chip hubs — South Korea will launch a 5 trillion won ($3.52 billion) semiconductor fund targeting promising chip materials, parts …</summary>
   </entry>
   <entry>
     <title>transformers v5.15.0 released</title>
     <link href="https://github.com/huggingface/transformers/releases/tag/v5.15.0"/>
     <id>https://github.com/huggingface/transformers/releases/tag/v5.15.0</id>
-    <updated>2026-08-10T10:23:02.000Z</updated>
+    <updated>2026-08-10T10:28:13.000Z</updated>
     <author><name>huggingface/transformers</name></author>
-    <category term="RESEARCH"/>
-    <summary>add tag v5.15.0</summary>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Release v5.15.0 New Model additions Meta Muse Glimmer Muse Glimmer, released today, is Meta’s new multimodal model, especially designed for agentic use cases. Distilled from Muse to 30B parameters, and released under the Apache 2.0 license, it can be deployed to local setups for privacy-aware applications such as codin</summary>
   </entry>
   <entry>
-    <title>Europe expands its Starlink rival to 348 satellites as IRIS² moves into implementation — €15.6 billion network will boost EU government capacity by 60%, with launches starting in 2029</title>
-    <link href="https://www.tomshardware.com/tech-industry/space/europe-expands-its-starlink-rival-to-348-satellites-as-iris2-moves-into-implementation-eur15-6-billion-network-will-boost-eu-government-capacity-by-60-percent-with-launches-starting-in-2029"/>
-    <id>https://www.tomshardware.com/tech-industry/space/europe-expands-its-starlink-rival-to-348-satellites-as-iris2-moves-into-implementation-eur15-6-billion-network-will-boost-eu-government-capacity-by-60-percent-with-launches-starting-in-2029</id>
-    <updated>2026-08-10T09:30:00.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
+    <title>Cloudflare Seeks to Sell $2.175 Billion in Convertible Notes</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-10/cloudflare-seeks-to-sell-2-175-billion-in-convertible-notes"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-10/cloudflare-seeks-to-sell-2-175-billion-in-convertible-notes</id>
+    <updated>2026-08-10T11:38:30.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Cloudflare Inc. announced plans for a private offering of $2.175 billion of senior convertible notes, after the cybersecurity firm’s guidance boost last week sent shares to an intraday high.</summary>
+  </entry>
+  <entry>
+    <title>Muse Glimmer from Meta Superintelligence Labs is now available</title>
+    <link href="https://ollama.com/blog/muse-glimmer"/>
+    <id>https://ollama.com/blog/muse-glimmer</id>
+    <updated>2026-08-10T00:00:00.000Z</updated>
+    <author><name>Ollama Blog</name></author>
     <category term="PRODUCTS"/>
-    <summary>Europe has finalized plans for its €15.6 billion IRIS² satellite network, expanding it to 348 satellites with first launches scheduled for 2029.</summary>
+    <summary>Meta's Muse Glimmer, the first open model released by Meta Superintelligence Labs, is now available. Muse Glimmer is a 30B multimodal model released under the Apache 2.0 license, designed for local coding agents, and accelerated by Ollama's MLX engine with new native DFlash and image input support.</summary>
   </entry>
   <entry>
-    <title>llama.cpp b10336 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10336"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10336</id>
-    <updated>2026-08-10T08:19:57.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>HoverAir unveils the Versa modular pocket gimbal camera that transforms into a self-flying drone — Modular camera transforms into an auto-tracking drone by magnetically snapping together for instant palm launch and AI tracking</title>
+    <link href="https://www.tomshardware.com/tech-industry/drones/hoverair-unveils-the-versa-modular-pocket-gimbal-camera-that-transforms-into-a-self-flying-drone-modular-camera-transforms-into-an-auto-tracking-drone-by-magnetically-snapping-together-for-instant-palm-launch-and-ai-tracking"/>
+    <id>https://www.tomshardware.com/tech-industry/drones/hoverair-unveils-the-versa-modular-pocket-gimbal-camera-that-transforms-into-a-self-flying-drone-modular-camera-transforms-into-an-auto-tracking-drone-by-magnetically-snapping-together-for-instant-palm-launch-and-ai-tracking</id>
+    <updated>2026-08-10T11:20:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
     <category term="HARDWARE"/>
-    <summary>ggml-webgpu : refactor several wgsl files and simplify flash_attn wgsl. ( #26134 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) </summary>
+    <summary>Have you ever wanted a pocket gimbal camera and a selfie drone that follows your around autonomously in one device? That's what the HoverAir Versa offers with a transforming, two-in-one body that can make filming yourself from all sorts of angles as convenient as possible.</summary>
   </entry>
   <entry>
     <title>Separating Decision-Rule Misalignment from Readout-Coverage Limitations in Speech Language Models</title>
@@ -107,12 +89,21 @@
   </entry>
   <entry>
     <title>Claude Opus 5 Cuts Indirect Prompt Injection Attack Success to 2% in New Benchmark Analysis - CyberSecurityNews</title>
-    <link href="https://news.google.com/rss/articles/CBMiggFBVV95cUxOcGxvenl3MWxXSmVUSndZQjJKVFRzMnVRQndUUGczb3hTS3UyOTFzb3k5bS0tSEs3ZnJWempFMzg4ZjVTLXNaTjFQaWJGVTVicU9ST21vcWNsTXo1NUJtUlRfSGNLbklHS2hJMldlY1lfT0llbGtUSHhWVloyQXFFN1hn?oc=5"/>
-    <id>https://news.google.com/rss/articles/CBMiggFBVV95cUxOcGxvenl3MWxXSmVUSndZQjJKVFRzMnVRQndUUGczb3hTS3UyOTFzb3k5bS0tSEs3ZnJWempFMzg4ZjVTLXNaTjFQaWJGVTVicU9ST21vcWNsTXo1NUJtUlRfSGNLbklHS2hJMldlY1lfT0llbGtUSHhWVloyQXFFN1hn?oc=5</id>
+    <link href="https://news.google.com/rss/articles/CBMiggFBVV95cUxOcGxvenl3MWxXSmVUSndZQjJKVFRzMnVRQndUUGczb3hTS3UyOTFzb3k5bS0tSEs3ZnJWempFMzg4ZjVTLXNaTjFQaWJGVTVicU9ST21vcWNsTXo1NUJtUlRfSGNLbklHS2hJMldlY1lfT0llbGtUSHhWVloyQXFFN1hn0gGHAUFVX3lxTE9rc3d0M1d4U3BnUTFUMHYzUXJlSHMycGdGLTNJbW5qRDlOVUJWcURZZUwzcXphcy1yd2YyVXNuYUVZaHlJZ0gxa2c5aGlaMThKR1oteHBPOUVBQTU1bjU0UWhVMDlXcjJud2lHQ1R4RDZyMWR3MWVzZ0hlWW5rY3hvY3ZyLW0wOA?oc=5"/>
+    <id>https://news.google.com/rss/articles/CBMiggFBVV95cUxOcGxvenl3MWxXSmVUSndZQjJKVFRzMnVRQndUUGczb3hTS3UyOTFzb3k5bS0tSEs3ZnJWempFMzg4ZjVTLXNaTjFQaWJGVTVicU9ST21vcWNsTXo1NUJtUlRfSGNLbklHS2hJMldlY1lfT0llbGtUSHhWVloyQXFFN1hn0gGHAUFVX3lxTE9rc3d0M1d4U3BnUTFUMHYzUXJlSHMycGdGLTNJbW5qRDlOVUJWcURZZUwzcXphcy1yd2YyVXNuYUVZaHlJZ0gxa2c5aGlaMThKR1oteHBPOUVBQTU1bjU0UWhVMDlXcjJud2lHQ1R4RDZyMWR3MWVzZ0hlWW5rY3hvY3ZyLW0wOA?oc=5</id>
     <updated>2026-08-10T05:41:46.000Z</updated>
     <author><name>GN: Prompt Injection</name></author>
     <category term="AI SECURITY"/>
     <summary>Claude Opus 5 Cuts Indirect Prompt Injection Attack Success to 2% in New Benchmark Analysis CyberSecurityNews</summary>
+  </entry>
+  <entry>
+    <title>Valve notifies Steam hardware customers of a data breach</title>
+    <link href="https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/"/>
+    <id>https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/</id>
+    <updated>2026-08-10T11:47:55.000Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>Video game publisher and digital distribution giant Valve is notifying Steam hardware customers in Europe that hackers stole their data after hacking its shipping partner, CEVA Logistics. [...]</summary>
   </entry>
   <entry>
     <title>EntropyMoE: Entropy-Aware Sparse Expert Routing for Tokenizer-Free LLMs</title>
@@ -124,6 +115,15 @@
     <summary>arXiv:2608.06398v1 Announce Type: new Abstract: Recent byte-level large language models (LLMs) have made tokenizer-free modeling increasingly competitive by grouping bytes into dynamically sized patches. However, existing byte-patch architectures still apply the same dense feed-forward computation to every patch. This </summary>
   </entry>
   <entry>
+    <title>The Biggest Consequence Of An AI IPO Isn’t The IPO Itself. It’s What Happens Afterward.</title>
+    <link href="https://news.crunchbase.com/public/ai-ipo-results-lp-liquidity-gershfeld-flint/"/>
+    <id>https://news.crunchbase.com/public/ai-ipo-results-lp-liquidity-gershfeld-flint/</id>
+    <updated>2026-08-10T11:00:36.000Z</updated>
+    <author><name>Crunchbase News AI</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>A wave of major AI IPOs could return significant liquidity to limited partners, fueling a new venture fundraising cycle rather than simply affecting public-market valuations. That capital is likely to flow disproportionately to the largest, established VC firms, writes guest author Andrew Gershfeld of Flint Capital, cr</summary>
+  </entry>
+  <entry>
     <title>Quoting Claude Opus 5 system prompt</title>
     <link href="https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything"/>
     <id>https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything</id>
@@ -133,22 +133,31 @@
     <summary>Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on July 1, 2026 (Anthropic's statement: htt</summary>
   </entry>
   <entry>
-    <title>Smart Analytics: Chinese humanoid robot makers were 97%+ of global shipments in H1 2026, reaching ~19,100 unit shipments globally, up from 5,100 in H1 2025 (Saritha Rai/Bloomberg)</title>
-    <link href="https://www.techmeme.com/260810/p9#a260810p9"/>
-    <id>https://www.techmeme.com/260810/p9#a260810p9</id>
-    <updated>2026-08-10T09:55:01.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Unitree’s Shanghai IPO 5,526 Times Subscribed by Retail Buyers</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-10/unitree-s-shanghai-ipo-5-526-times-subscribed-by-retail-buyers"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-10/unitree-s-shanghai-ipo-5-526-times-subscribed-by-retail-buyers</id>
+    <updated>2026-08-10T11:30:10.000Z</updated>
+    <author><name>Bloomberg Tech</name></author>
     <category term="ROBOTICS"/>
-    <summary>Saritha Rai / Bloomberg : Smart Analytics: Chinese humanoid robot makers were 97%+ of global shipments in H1 2026, reaching ~19,100 unit shipments globally, up from 5,100 in H1 2025 — China's humanoid robot makers commanded more than 97% of global shipments in the first half of 2026, according to new industry data affi</summary>
+    <summary>The highly anticipated initial public offering of Yushu Technology Co., known as Unitree Robotics, drew huge demand from retail investors as China’s leading humanoid robot maker opened books in Shanghai.</summary>
   </entry>
   <entry>
-    <title>Dissipation Can Be a Tool For Entanglement</title>
-    <link href="https://thequantuminsider.com/2026/08/10/dissipation-can-be-a-tool-for-entanglement/"/>
-    <id>https://thequantuminsider.com/2026/08/10/dissipation-can-be-a-tool-for-entanglement/</id>
-    <updated>2026-08-10T08:05:37.000Z</updated>
-    <author><name>The Quantum Insider</name></author>
+    <title>Python Now Has a Post-Quantum Encryption Library</title>
+    <link href="https://www.schneier.com/blog/archives/2026/08/python-now-has-a-post-quantum-encryption-library.html"/>
+    <id>https://www.schneier.com/blog/archives/2026/08/python-now-has-a-post-quantum-encryption-library.html</id>
+    <updated>2026-08-10T11:02:26.000Z</updated>
+    <author><name>Schneier on Security</name></author>
     <category term="QUANTUM"/>
-    <summary>Insider Brief PRESS RELEASE — The inevitable leakage of energy and information from a quantum system into its surrounding environment is the enemy of quantum technology. Now, researchers have demonstrated that it can be exploited to generate entanglement — the “resource” that quantum technologies use to perform tasks i</summary>
+    <summary>This is good : Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency , we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/cryptography. Remember,</summary>
+  </entry>
+  <entry>
+    <title>OpenAI acquires NextSlide to bring AI-generated presentations into ChatGPT</title>
+    <link href="https://the-decoder.com/openai-acquires-nextslide-to-bring-ai-generated-presentations-into-chatgpt/"/>
+    <id>https://the-decoder.com/openai-acquires-nextslide-to-bring-ai-generated-presentations-into-chatgpt/</id>
+    <updated>2026-08-10T10:08:14.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>OpenAI acquired NextSlide, the startup that turned prompts, notes, documents, and research into editable presentations. The article OpenAI acquires NextSlide to bring AI-generated presentations into ChatGPT appeared first on The Decoder .</summary>
   </entry>
   <entry>
     <title>The Future is for Everyone</title>
@@ -160,30 +169,49 @@
     <summary>A letter from Mark Zuckerberg on the path to a positive AI future. The post The Future is for Everyone appeared first on Meta Newsroom .</summary>
   </entry>
   <entry>
-    <title>Making Knowledge Distillation Cheap Enough to Run at Scale</title>
-    <link href="https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation"/>
-    <id>https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation</id>
-    <updated>2026-08-10T10:05:36.000Z</updated>
-    <author><name>Hugging Face Blog</name></author>
-    <category term="MODEL RELEASES"/>
-  </entry>
-  <entry>
-    <title>SA premier announces royal commission into AI – as it happened</title>
-    <link href="https://www.theguardian.com/australia-news/live/2026/aug/10/australia-news-live-transport-minister-sydney-airport-air-traffic-control-catherine-king-aukus-public-inquiry-malcolm-turnbull-alan-jones-trial-ntwnfb"/>
-    <id>https://www.theguardian.com/australia-news/live/2026/aug/10/australia-news-live-transport-minister-sydney-airport-air-traffic-control-catherine-king-aukus-public-inquiry-malcolm-turnbull-alan-jones-trial-ntwnfb</id>
-    <updated>2026-08-10T07:56:39.000Z</updated>
-    <author><name>The Guardian AI</name></author>
+    <title>Sources: Palmer Luckey's Erebor, a lender that aims to fill the gap left by Silicon Valley Bank, is in advanced talks to raise ~$1.5B at an $8B valuation (Financial Times)</title>
+    <link href="https://www.techmeme.com/260810/p18#a260810p18"/>
+    <id>https://www.techmeme.com/260810/p18#a260810p18</id>
+    <updated>2026-08-10T11:15:01.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>This blog is now closed Get our breaking news email , free app or daily news podcast Police say the remains found in a suitcase near Goulburn are not human. Supt Linda Bradbury with NSW police said: Some good news here that we don’t have a suspicious death of a human on our hands. … We are still undertaking more forens</summary>
+    <summary>Financial Times : Sources: Palmer Luckey's Erebor, a lender that aims to fill the gap left by Silicon Valley Bank, is in advanced talks to raise ~$1.5B at an $8B valuation — Funding values Erebor at $8bn, underscoring growth of lender supported by Silicon Valley investors — A start-up bank backed …</summary>
   </entry>
   <entry>
-    <title>Introducing Muse Glimmer: an open-weight model optimized for always-on local agent workflows</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vkgsum/introducing_muse_glimmer_an_openweight_model/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vkgsum/introducing_muse_glimmer_an_openweight_model/</id>
-    <updated>2026-08-10T10:14:15.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Hi r/LocalLLaMA 👋 Today we’re excited to release Muse Glimmer, a 30B open-weight model built specifically for local agent workflows. We’re releasing the weights to the community under a permissive Apache 2.0 license. A few specs 30B params, dense Multimodal: interleaved text + images via a dedicated perception encoder</summary>
+    <title>These startups are chasing the next big thing in LLMs</title>
+    <link href="https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/"/>
+    <id>https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/</id>
+    <updated>2026-08-10T09:00:00.000Z</updated>
+    <author><name>MIT Tech Review AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them here. Way back in the summer of 2017, AI researchers at Google put out a paper called “Attention Is All You Need,” in which they described a new…</summary>
+  </entry>
+  <entry>
+    <title>OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause</title>
+    <link href="https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html"/>
+    <id>https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html</id>
+    <updated>2026-08-10T05:50:03.000Z</updated>
+    <author><name>The Hacker News</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>OpenAI has announced that it's pausing some &quot;internal activities&quot; involving its upcoming artificial intelligence (AI) model Astra after an internal evaluation found it had made significant advancements in agentic coding and cybersecurity. In response to the discovery, the AI upstart said it's implementing security cont</summary>
+  </entry>
+  <entry>
+    <title>Duke Energy Seeks $1.75 Billion in Equity Units Offering</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-10/duke-energy-plans-to-raise-1-75-million-from-equity-units-sale"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-10/duke-energy-plans-to-raise-1-75-million-from-equity-units-sale</id>
+    <updated>2026-08-10T11:22:28.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Duke Energy Corp. plans to raise about $1.75 billion by selling equity units, in an effort to pay down debt.</summary>
+  </entry>
+  <entry>
+    <title>Trump’s Low-Key Pivot Leaves Hormuz Oil in Limbo</title>
+    <link href="https://www.bloomberg.com/news/newsletters/2026-08-10/trump-s-low-key-pivot-leaves-hormuz-oil-in-limbo"/>
+    <id>https://www.bloomberg.com/news/newsletters/2026-08-10/trump-s-low-key-pivot-leaves-hormuz-oil-in-limbo</id>
+    <updated>2026-08-10T11:34:24.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>The US President is betting he can wait Iran out, prolonging uncertainty for oil markets.</summary>
   </entry>
   <entry>
     <title>ADIAS: Automated Design of Interactive Agentic Systems</title>
@@ -191,44 +219,17 @@
     <id>https://arxiv.org/abs/2608.06410</id>
     <updated>2026-08-10T04:00:00.000Z</updated>
     <author><name>arXiv cs.AI</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
+    <category term="RESEARCH"/>
     <summary>arXiv:2608.06410v1 Announce Type: new Abstract: Automated agent design improves agent harnesses through iterative revision, evaluation, and feedback summarization. Existing methods are largely candidate-centric: cross-round experience is organized around candidate agents, which leaves the repair progress implicit. This</summary>
   </entry>
   <entry>
-    <title>Do AI Personas Grow? Analyzing and Benchmarking Personality Evolution in LLM Agents After Life Events</title>
-    <link href="https://arxiv.org/abs/2608.06485"/>
-    <id>https://arxiv.org/abs/2608.06485</id>
-    <updated>2026-08-10T04:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>arXiv:2608.06485v1 Announce Type: new Abstract: Personality-conditioned LLM agents (PC-Agents) are increasingly used in emotional support, social simulation, and role-playing, motivating the development of lifelong agents that remain coherent over extended interactions. A key component of such coherence is personality </summary>
-  </entry>
-  <entry>
-    <title>Gold Is Rallying Again Thanks to Some Deep-Pocketed Buyers</title>
-    <link href="https://www.bloomberg.com/news/newsletters/2026-08-10/gold-is-rallying-again-thanks-to-some-deep-pocketed-buyers"/>
-    <id>https://www.bloomberg.com/news/newsletters/2026-08-10/gold-is-rallying-again-thanks-to-some-deep-pocketed-buyers</id>
-    <updated>2026-08-10T10:20:18.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>ETFs are pouring money into bullion on the heels of central banks.</summary>
-  </entry>
-  <entry>
-    <title>Inside Businessweek's Screentime Issue</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-10/inside-businessweek-s-screentime-issue"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-10/inside-businessweek-s-screentime-issue</id>
-    <updated>2026-08-10T10:00:06.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Brad Stone gives a sneak peek at Businessweek's annual Screentime issue (Source: Bloomberg)</summary>
-  </entry>
-  <entry>
-    <title>Top LLM Observability and Evaluation Platforms in 2026: Langfuse, LangSmith, Braintrust, Arize, and More Compared</title>
-    <link href="https://www.marktechpost.com/2026/08/09/top-llm-observability-and-evaluation-platforms-in-2026-langfuse-langsmith-braintrust-arize-and-more-compared/"/>
-    <id>https://www.marktechpost.com/2026/08/09/top-llm-observability-and-evaluation-platforms-in-2026-langfuse-langsmith-braintrust-arize-and-more-compared/</id>
-    <updated>2026-08-09T18:15:30.000Z</updated>
-    <author><name>MarkTechPost</name></author>
+    <title>Meta launches new AI model as Zuckerberg champions open-weight push - Reuters</title>
+    <link href="https://news.google.com/rss/articles/CBMisgFBVV95cUxOR21CNUV6bEJhdkl2SU1sOTRiM0N2MnVJTjhJV3YyY20wcFdHUmNOUW1lWUlVcnZLeGpnNlhYQkZCTGhpR0ZIOEp0U0VZWDlQLVdZZFFqQ196X241R1hLVXpXMU5Xclo3SFBxWHRRY1pFeTFHeEFEVDlCbDdwbWpRQUhROTFKRGFZSGE2QkhZSjdLVmJqVGdUWmFRT2R3WjhxZXptdEt3UG1KNVVqRWZOZUpR?oc=5"/>
+    <id>https://news.google.com/rss/articles/CBMisgFBVV95cUxOR21CNUV6bEJhdkl2SU1sOTRiM0N2MnVJTjhJV3YyY20wcFdHUmNOUW1lWUlVcnZLeGpnNlhYQkZCTGhpR0ZIOEp0U0VZWDlQLVdZZFFqQ196X241R1hLVXpXMU5Xclo3SFBxWHRRY1pFeTFHeEFEVDlCbDdwbWpRQUhROTFKRGFZSGE2QkhZSjdLVmJqVGdUWmFRT2R3WjhxZXptdEt3UG1KNVVqRWZOZUpR?oc=5</id>
+    <updated>2026-08-10T10:14:28.000Z</updated>
+    <author><name>Reuters AI (Google News)</name></author>
     <category term="PRODUCTS"/>
-    <summary>A verified 2026 comparison of LLM observability platforms covering tracing depth, evaluation capability, production monitoring, and pricing. The post Top LLM Observability and Evaluation Platforms in 2026: Langfuse, LangSmith, Braintrust, Arize, and More Compared appeared first on MarkTechPost .</summary>
+    <summary>Meta launches new AI model as Zuckerberg champions open-weight push Reuters</summary>
   </entry>
   <entry>
     <title>unsloth v0.1.527-beta released</title>
@@ -240,39 +241,39 @@
     <summary>What's Changed Studio: judge the cached-pipeline signals on the snapshot the row actually loads by @danielhanchen in #7851 Bump install.sh / install.ps1 pin to unsloth&gt;=2026.8.3 by @danielhanchen in #7860 Studio: make the sidebar menu separators visible in dark mode by @shimmyshimmer in #7865 Studio: run sandbox matplo</summary>
   </entry>
   <entry>
-    <title>NTDH: Complex Reasoning for Comprehensive Affective Analysis</title>
-    <link href="https://arxiv.org/abs/2608.06425"/>
-    <id>https://arxiv.org/abs/2608.06425</id>
-    <updated>2026-08-10T04:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
+    <title>Steam hardware distributor hit by cyberattack, 'expect fake messages,' Valve warns — Europe vendor has personal information and hardware purchase details stolen</title>
+    <link href="https://www.tomshardware.com/tech-industry/cyber-security/steam-hardware-distributor-hit-by-cyberattack-expect-fake-messages-valve-warns-europe-vendor-has-personal-information-and-hardware-purchase-details-stolen"/>
+    <id>https://www.tomshardware.com/tech-industry/cyber-security/steam-hardware-distributor-hit-by-cyberattack-expect-fake-messages-valve-warns-europe-vendor-has-personal-information-and-hardware-purchase-details-stolen</id>
+    <updated>2026-08-10T11:49:06.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
     <category term="HARDWARE"/>
-    <summary>arXiv:2608.06425v1 Announce Type: new Abstract: Comprehensive affective analysis is challenging for two reasons: it spans heterogeneous prediction tasks with continuous, ordinal, and multi-label outputs, and affective meaning is context-dependent, requiring conflicting cues to be reconciled rather than mapped directly </summary>
+    <summary>Steam hardware customers in Europe should 'expect fake messages' said Valve in an email bulletin, after a distributor's security was breached.</summary>
   </entry>
   <entry>
-    <title>Google Deepmind's WeatherNext predicts cyclone tracks and intensity at the same time</title>
-    <link href="https://the-decoder.com/google-deepminds-weathernext-predicts-cyclone-tracks-and-intensity-at-the-same-time/"/>
-    <id>https://the-decoder.com/google-deepminds-weathernext-predicts-cyclone-tracks-and-intensity-at-the-same-time/</id>
-    <updated>2026-08-09T12:29:06.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Deepmind's new weather AI forecasts tropical cyclones about a day further ahead than leading operational models, matching a decade of progress in traditional weather forecasting. Code and model weights are open-source on GitHub. The article Google Deepmind's WeatherNext predicts cyclone tracks and intensity at the same</summary>
+    <title>The only current-generation graphics card on sale below MSRP — AMD's Radeon RX 9070 GRE GPU with 12GB of VRAM returns to its lowest-ever price of $499</title>
+    <link href="https://www.tomshardware.com/pc-components/gpus/the-only-current-generation-graphics-card-on-sale-below-msrp-amds-radeon-rx-9070-gre-gpu-with-12gb-of-vram-returns-to-its-lowest-ever-price-of-usd499"/>
+    <id>https://www.tomshardware.com/pc-components/gpus/the-only-current-generation-graphics-card-on-sale-below-msrp-amds-radeon-rx-9070-gre-gpu-with-12gb-of-vram-returns-to-its-lowest-ever-price-of-usd499</id>
+    <updated>2026-08-10T10:58:38.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <category term="HARDWARE"/>
+    <summary>Grab a new GPU for less than the MSRP launch price. Gigabyte's Gaming RX 9070 GRE falls to its lowest-ever price.</summary>
   </entry>
   <entry>
-    <title>The Agentic Clusterfuck</title>
-    <link href="https://www.lesswrong.com/posts/n8B2bxYhkjhjzyrgh/the-agentic-clusterfuck"/>
-    <id>https://www.lesswrong.com/posts/n8B2bxYhkjhjzyrgh/the-agentic-clusterfuck</id>
-    <updated>2026-08-10T01:27:09.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Epistemic status: I consider the following future quite plausible in the next few years (~35% chance that something vaguely like this occurs), perhaps as soon as a year from now. Imagine an open-source LLM agent good enough to cover its own compute costs and turn a modest profit on average when allowed to run with full</summary>
-  </entry>
-  <entry>
-    <title>AI Safety Fears Grow After Multiple Breaches</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-10/ai-safety-fears-grow-after-multiple-breaches-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-10/ai-safety-fears-grow-after-multiple-breaches-video</id>
-    <updated>2026-08-10T06:17:28.000Z</updated>
-    <author><name>Bloomberg Tech</name></author>
+    <title>Q&amp;A with Kalshi CEO Tarek Mansour on his vision to &quot;financialize everything&quot;, sports betting, Kalshi's &quot;philosophical misalignment&quot; with Polymarket, and more (Jordyn Holman/New York Times)</title>
+    <link href="https://www.techmeme.com/260810/p15#a260810p15"/>
+    <id>https://www.techmeme.com/260810/p15#a260810p15</id>
+    <updated>2026-08-10T10:50:00.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>The infiltration of Hugging Face by OpenAI's agents has put AI-enabled cyber attacks into the spotlight. The incident and similar breaches reported by Anthropic PBC and Meta Platforms Inc. have fueled calls in Washington and Silicon Valley for more thorough safety reviews of artificial intelligence models. Bloomberg's </summary>
+    <summary>Jordyn Holman / New York Times : Q&amp;A with Kalshi CEO Tarek Mansour on his vision to “financialize everything”, sports betting, Kalshi's “philosophical misalignment” with Polymarket, and more — Tarek Mansour co-founded the fast-growing prediction market company shortly after graduating from M.I.T. …</summary>
+  </entry>
+  <entry>
+    <title>Is Eval Gaming Downstream of Verbalized Eval Awareness? Not when it's reflexive.</title>
+    <link href="https://www.lesswrong.com/posts/gvNYAHcWiezZs8QvD/is-eval-gaming-downstream-of-verbalized-eval-awareness-not"/>
+    <id>https://www.lesswrong.com/posts/gvNYAHcWiezZs8QvD/is-eval-gaming-downstream-of-verbalized-eval-awareness-not</id>
+    <updated>2026-08-10T08:24:50.000Z</updated>
+    <author><name>LessWrong</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>Code and data available at github.com/KieronKretschmar/latent-awareness TL;DR We take two eval-gaming model organisms ( Hua et al.'s (2025) organism and RogueQwen ) and apply direct preference optimization (DPO) to their chain-of-thought (CoT) to reduce how often they verbalize situational awareness (vSA): reasoning al</summary>
   </entry>
 </feed>
