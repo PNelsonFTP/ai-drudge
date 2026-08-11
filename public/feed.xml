@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-11T02:20:35.865Z</updated>
+  <updated>2026-08-11T04:35:03.599Z</updated>
   <entry>
     <title>Introducing Muse Glimmer</title>
     <link href="https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything"/>
@@ -16,13 +16,13 @@
     <summary>Introducing Muse Glimmer Meta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old). They claim to have optimized it for exactly the kind of things I'm looking for in a local model: End-to-end Agentic Task Completion. M</summary>
   </entry>
   <entry>
-    <title>llama.cpp b10355 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10355"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10355</id>
-    <updated>2026-08-10T23:17:02.000Z</updated>
+    <title>llama.cpp b10356 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10356"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10356</id>
+    <updated>2026-08-11T02:47:58.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>llama : support multi-output backend sampling ( #25532 ) Enable backend sampling with token speculation Clamp the mask sum before converting it into the sampled index Add a numeric context parameter declaring the maximum outputs one sequence More fixes Don't reuse memory for output views. Match dist between CPU and GPU — Also covered by: ggml-org/whisper.cpp</summary>
+    <category term="LOCAL MODELS"/>
+    <summary>ci : target ROCm 7.14 for build and release ( #25775 ) Switch ROCm from 7.2.1 to 7.14 ROCm 7.14 is the first production release using TheRock build system. It can be installed using multi-arch deliverables from wheels, debs, rpms, tarballs or runfiles. Adjust ROCm targets for Linux and Windows to use this instead. ci:  — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
     <title>Hadrian raises $1.37B to accelerate U.S. defense, aerospace manufacturing</title>
@@ -37,7 +37,7 @@
     <title>Nvidia teams with Wall Street firms to help finance $500 billion for AI infrastructure</title>
     <link href="https://www.marketwatch.com/story/nvidia-teams-with-wall-street-firms-to-help-finance-500-billion-for-ai-infrastructure-2c4805a5?mod=mw_rss_topstories"/>
     <id>https://www.marketwatch.com/story/nvidia-teams-with-wall-street-firms-to-help-finance-500-billion-for-ai-infrastructure-2c4805a5?mod=mw_rss_topstories</id>
-    <updated>2026-08-11T02:03:00.000Z</updated>
+    <updated>2026-08-11T02:28:00.000Z</updated>
     <author><name>MarketWatch</name></author>
     <category term="INDUSTRY NEWS"/>
     <summary>Nvidia late Monday announced a partnership with seven Wall Street financial institutions designed to raise more than $500 billion of third-party capital to fund the buildout of AI infrastructure.</summary>
@@ -61,31 +61,49 @@
     <summary>What's Changed Add Muse Glimmer support for NVIDIA, AMD, and additional platforms Full Changelog : v0.32.7...v0.32.8-rc0</summary>
   </entry>
   <entry>
-    <title>Anthropic makes Claude Sonnet 5's introductory pricing permanent at $2/1M input tokens and $10/1M output tokens, canceling a planned September 1 increase (Claude/@claudeai)</title>
-    <link href="https://www.techmeme.com/260810/p42#a260810p42"/>
-    <id>https://www.techmeme.com/260810/p42#a260810p42</id>
-    <updated>2026-08-10T23:10:08.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>As AI-led attacks multiply, OpenAI launches a new cyber model</title>
+    <link href="https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/"/>
+    <id>https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/</id>
+    <updated>2026-08-10T23:56:15.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Claude / @claudeai : Anthropic makes Claude Sonnet 5's introductory pricing permanent at $2/1M input tokens and $10/1M output tokens, canceling a planned September 1 increase — We're making Claude Sonnet 5's introductory pricing permanent. We launched Sonnet 5 in June at $2 per million input tokens and $10 per million </summary>
+    <summary>OpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it.</summary>
   </entry>
   <entry>
-    <title>OpenAI’s head of ethics leaves start-up less than one year after joining</title>
-    <link href="https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0?syn-25a6b1a6=1</id>
-    <updated>2026-08-10T22:35:18.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
+    <title>SkillConsist: Detecting Inconsistencies in Agent Skills via Bidirectional Graph Alignment</title>
+    <link href="https://arxiv.org/abs/2608.07639"/>
+    <id>https://arxiv.org/abs/2608.07639</id>
+    <updated>2026-08-11T04:00:00.000Z</updated>
+    <author><name>arXiv cs.LG</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>arXiv:2608.07639v1 Announce Type: new Abstract: Agent Skills provide reusable capabilities to LLM agents. Agent Skill inconsistencies can expose undisclosed dangerous behavior or cause wrong Skill selection. Recent Agent Skill research has increasingly examined Agent Skill consistency detection. Existing methods evalua</summary>
+  </entry>
+  <entry>
+    <title>Hong Kong Tech Index Set for Overhaul With More Firms, AI Focus</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-11/hong-kong-tech-index-set-for-overhaul-with-more-firms-ai-focus"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-11/hong-kong-tech-index-set-for-overhaul-with-more-firms-ai-focus</id>
+    <updated>2026-08-11T03:35:06.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Chloé Bakalar’s departure is one of several high-profile exits at the group in recent weeks as safety concerns mount</summary>
+    <summary>Hong Kong’s main technology stock benchmark is set for a revamp to include more companies representing the fast-growing artificial intelligence and robotics sectors, a long‑awaited move for investors eager to better capture China’s technological advances.</summary>
   </entry>
   <entry>
-    <title>transformers v5.15.0 released</title>
-    <link href="https://github.com/huggingface/transformers/releases/tag/v5.15.0"/>
-    <id>https://github.com/huggingface/transformers/releases/tag/v5.15.0</id>
-    <updated>2026-08-10T10:28:13.000Z</updated>
-    <author><name>huggingface/transformers</name></author>
+    <title>Unified Hallucination Fuzzing for Multimodal Large Language Models</title>
+    <link href="https://arxiv.org/abs/2608.07525"/>
+    <id>https://arxiv.org/abs/2608.07525</id>
+    <updated>2026-08-11T04:00:00.000Z</updated>
+    <author><name>arXiv cs.CL</name></author>
     <category term="RESEARCH"/>
-    <summary>Release v5.15.0 New Model additions Meta Muse Glimmer Muse Glimmer, released today, is Meta’s new multimodal model, especially designed for agentic use cases. Distilled from Muse to 30B parameters, and released under the Apache 2.0 license, it can be deployed to local setups for privacy-aware applications such as codin</summary>
+    <summary>arXiv:2608.07525v1 Announce Type: new Abstract: Hallucination remains a persistent challenge for Multimodal Large Language Models (MLLMs), severely limiting their reliability in high-stakes applications. Existing evaluations, predominantly based on static benchmarks, suffer from narrow taxonomical coverage and rapid pe</summary>
+  </entry>
+  <entry>
+    <title>Flow-by-Flow:Content-Judgment Bypass for Governing AI Output in High-Loss Domains</title>
+    <link href="https://arxiv.org/abs/2608.07474"/>
+    <id>https://arxiv.org/abs/2608.07474</id>
+    <updated>2026-08-11T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
+    <category term="HARDWARE"/>
+    <summary>arXiv:2608.07474v1 Announce Type: new Abstract: Prior work showed that human-in-the-loop oversight becomes structurally untenable in high-loss domains when AI output velocity V exceeds human cognitive capacity C_max. The operative constraint, however, is not V alone but V x L, where L denotes per-item cognitive load. L</summary>
   </entry>
   <entry>
     <title>Zuckerberg pushes ‘superintelligent’ AI for all as Meta drops open-source model</title>
@@ -97,22 +115,22 @@
     <summary>Meta CEO presents utopian vision of AI in 6,000-word essay amid Silicon Valley debate over government regulation Mark Zuckerberg published a lengthy essay on Monday detailing his views on artificial intelligence and announced several plans for how Meta would develop the technology in the future. The CEO’s essay went on</summary>
   </entry>
   <entry>
-    <title>OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas</title>
-    <link href="https://openai.com/index/responsible-ai-infrastructure-texas"/>
-    <id>https://openai.com/index/responsible-ai-infrastructure-texas</id>
-    <updated>2026-08-10T14:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
+    <title>Evolving Safety Landscape of Multi-modal Large Language Models: A Survey of Emerging Threats and Safeguards</title>
+    <link href="https://arxiv.org/abs/2608.07535"/>
+    <id>https://arxiv.org/abs/2608.07535</id>
+    <updated>2026-08-11T04:00:00.000Z</updated>
+    <author><name>arXiv cs.LG</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.</summary>
+    <summary>arXiv:2608.07535v1 Announce Type: new Abstract: Multi-modal large language models (MLLMs) integrate heterogeneous modalities through modality alignment and fusion, enabling stronger understanding and reasoning. However, this architectural shift reshapes the safety landscape of machine learning. Increased model complexi</summary>
   </entry>
   <entry>
-    <title>Claude Opus 5 Most Resistant to Indirect Prompt Injection Attacks, With Just 2% Success Rate - gbhackers.com</title>
-    <link href="https://news.google.com/rss/articles/CBMikgFBVV95cUxQM3hvanJBNHNrVFNhNUxmTzRJT3ZoN2pTemtmQlJQN0N1bkQ4SGNnYTlUR3JGZ0JkOHp0d2FiSjFYcjRobWVwSlJqSEROeXNTU2RmNmNQa0JuaGJGWmhJYW1Xd1k4dXVNLXRLT0pQRVFvMjRYRGtDSTRkb19oT1BEWlJDVUxFZWRoS29iS29DNFhBZ9IBlwFBVV95cUxONmZLaW1DN2d6TUIzX0N2WnYzZERyVVZBVlBOdmxHLUUzdHpFaHJfZmpDbENjM0pOMjNYbzBzTlZabi1Wekw4em9MUzcxS0FkTEc2NTd3QnBwVHprT2hzbzdLTWxUQ2xUd2xDWGVZNm5SYWlaZnJWTlFuSGRlN29LVnd3RHdna3VUXzQyOHJEWkI0SDBmQ2Vn?oc=5"/>
-    <id>https://news.google.com/rss/articles/CBMikgFBVV95cUxQM3hvanJBNHNrVFNhNUxmTzRJT3ZoN2pTemtmQlJQN0N1bkQ4SGNnYTlUR3JGZ0JkOHp0d2FiSjFYcjRobWVwSlJqSEROeXNTU2RmNmNQa0JuaGJGWmhJYW1Xd1k4dXVNLXRLT0pQRVFvMjRYRGtDSTRkb19oT1BEWlJDVUxFZWRoS29iS29DNFhBZ9IBlwFBVV95cUxONmZLaW1DN2d6TUIzX0N2WnYzZERyVVZBVlBOdmxHLUUzdHpFaHJfZmpDbENjM0pOMjNYbzBzTlZabi1Wekw4em9MUzcxS0FkTEc2NTd3QnBwVHprT2hzbzdLTWxUQ2xUd2xDWGVZNm5SYWlaZnJWTlFuSGRlN29LVnd3RHdna3VUXzQyOHJEWkI0SDBmQ2Vn?oc=5</id>
-    <updated>2026-08-10T14:46:22.000Z</updated>
+    <title>Study Finds Four Major AI Labs Use Incompatible Prompt Injection Metrics - Yellow.com</title>
+    <link href="https://news.google.com/rss/articles/CBMimgFBVV95cUxQVmhTZkluUjNJUGFzaWpaTE1Db2Z6X3JITjhQTXhSZ3FhbXZncXI1T1diN2c4cktDNm4yZldRaXFBUnhmWkxMWjRoYzBuc0RwTDFNMXA0SFNCWjRQU0RfRUF5MHhzU0tiejRTblBuSGtzQ2ZMUTFrcVNQZi11cmczRFEzR2h2RFk5TnlOSUFxMWh3SEFycDl1VUJ3?oc=5"/>
+    <id>https://news.google.com/rss/articles/CBMimgFBVV95cUxQVmhTZkluUjNJUGFzaWpaTE1Db2Z6X3JITjhQTXhSZ3FhbXZncXI1T1diN2c4cktDNm4yZldRaXFBUnhmWkxMWjRoYzBuc0RwTDFNMXA0SFNCWjRQU0RfRUF5MHhzU0tiejRTblBuSGtzQ2ZMUTFrcVNQZi11cmczRFEzR2h2RFk5TnlOSUFxMWh3SEFycDl1VUJ3?oc=5</id>
+    <updated>2026-08-11T00:42:09.000Z</updated>
     <author><name>GN: Prompt Injection</name></author>
     <category term="AI SECURITY"/>
-    <summary>Claude Opus 5 Most Resistant to Indirect Prompt Injection Attacks, With Just 2% Success Rate gbhackers.com</summary>
+    <summary>Study Finds Four Major AI Labs Use Incompatible Prompt Injection Metrics Yellow.com</summary>
   </entry>
   <entry>
     <title>OpenAI releases ChatGPT 5.6 Cyber, but it's only for approved users</title>
@@ -124,49 +142,49 @@
     <summary>OpenAI has developed a new model called &quot;GPT 5.6 Cyber,&quot; designed for vulnerability research, penetration testing, incident response, and remediation. [...]</summary>
   </entry>
   <entry>
-    <title>The Permanent Threat: Analyzing Aeternum’s Blockchain-Based C2 Operations and Communications</title>
-    <link href="https://unit42.paloaltonetworks.com/aeternum-blockchain-c2-analysis/"/>
-    <id>https://unit42.paloaltonetworks.com/aeternum-blockchain-c2-analysis/</id>
-    <updated>2026-08-10T22:00:02.000Z</updated>
-    <author><name>Palo Alto Unit 42</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>Analysis of the Aeternum botnet loader, a threat leveraging Polygon blockchain smart contracts for decentralized C2 infrastructure and payload execution. The post The Permanent Threat: Analyzing Aeternum’s Blockchain-Based C2 Operations and Communications appeared first on Unit 42 .</summary>
-  </entry>
-  <entry>
-    <title>SpaceX's earnings show X's Q2 ad revenue at $367M, down from $1.08B at Twitter in Q2 2022; Musk once said he would take its annual ad revenue to $12B in 2027 (Mike Masnick/Techdirt)</title>
-    <link href="https://www.techmeme.com/260810/p44#a260810p44"/>
-    <id>https://www.techmeme.com/260810/p44#a260810p44</id>
-    <updated>2026-08-11T01:05:03.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>Mike Masnick / Techdirt : SpaceX's earnings show X's Q2 ad revenue at $367M, down from $1.08B at Twitter in Q2 2022; Musk once said he would take its annual ad revenue to $12B in 2027 — When SpaceX filed for its IPO, we went through the S-1 to point out just how far off the mark Elon Musk's predictions about his Twitte</summary>
-  </entry>
-  <entry>
-    <title>Quantum Optics Jena’s ELVIS System Completes First ISO/IEC 23837 Hardware Security Evaluation</title>
-    <link href="https://quantumcomputingreport.com/quantum-optics-jenas-elvis-system-completes-first-iso-iec-23837-hardware-security-evaluation/"/>
-    <id>https://quantumcomputingreport.com/quantum-optics-jenas-elvis-system-completes-first-iso-iec-23837-hardware-security-evaluation/</id>
-    <updated>2026-08-10T12:54:13.000Z</updated>
+    <title>Utah Governor Spencer Cox Signs Executive Order Launching Statewide Quantum Initiative</title>
+    <link href="https://quantumcomputingreport.com/utah-governor-spencer-cox-signs-executive-order-launching-statewide-quantum-initiative/"/>
+    <id>https://quantumcomputingreport.com/utah-governor-spencer-cox-signs-executive-order-launching-statewide-quantum-initiative/</id>
+    <updated>2026-08-11T01:57:37.000Z</updated>
     <author><name>Quantum Computing Report</name></author>
     <category term="QUANTUM"/>
-    <summary>German quantum communications developer Quantum Optics Jena GmbH (QOJ) has announced that its ELVIS quantum key distribution (QKD) system has completed an independent security evaluation under the ISO/IEC 23837 international standard. Conducted over a three-month testing period by independent cybersecurity assessment f</summary>
+    <summary>Utah Governor Spencer J. Cox has signed Executive Order 2026-06, formally launching the Utah Quantum Initiative to establish the state as a regional and national hub for quantum research, advanced manufacturing, and commercialization. Led by the Governor’s Office of Economic Development (GOED) in partnership with the N</summary>
   </entry>
   <entry>
-    <title>As AI-led attacks multiply, OpenAI launches a new cyber model</title>
-    <link href="https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/"/>
-    <id>https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/</id>
-    <updated>2026-08-10T23:56:15.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>OpenAI launches GPT-5.6-Cyber to help defenders find vulnerabilities before attackers do</title>
+    <link href="https://the-decoder.com/openai-launches-gpt-5-6-cyber-to-help-defenders-find-vulnerabilities-before-attackers-do/"/>
+    <id>https://the-decoder.com/openai-launches-gpt-5-6-cyber-to-help-defenders-find-vulnerabilities-before-attackers-do/</id>
+    <updated>2026-08-10T18:01:30.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>OpenAI aims to give cybersecurity defenders a head start: The new GPT-5.6-Cyber model answers up to 98.5 percent of security queries that would otherwise be blocked and has already uncovered two previously unknown Chrome vulnerabilities. According to OpenAI, the window of opportunity for defenders is shrinking. Access </summary>
+  </entry>
+  <entry>
+    <title>What building an AI-native finance function taught me</title>
+    <link href="https://openai.com/index/building-an-ai-native-finance-function"/>
+    <id>https://openai.com/index/building-an-ai-native-finance-function</id>
+    <updated>2026-08-10T17:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.</summary>
+  </entry>
+  <entry>
+    <title>Sources: Anthropic agreed to a 20-year, $9.1B compute deal with Riot Platforms for 191 MW of capacity at a Rockdale, TX campus; RIOT jumps ~25% after hours (Shirin Ghaffary/Bloomberg)</title>
+    <link href="https://www.techmeme.com/260810/p48#a260810p48"/>
+    <id>https://www.techmeme.com/260810/p48#a260810p48</id>
+    <updated>2026-08-11T02:31:08.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>OpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it.</summary>
+    <summary>Shirin Ghaffary / Bloomberg : Sources: Anthropic agreed to a 20-year, $9.1B compute deal with Riot Platforms for 191 MW of capacity at a Rockdale, TX campus; RIOT jumps ~25% after hours — Anthropic PBC has struck a $9.1 billion deal with Riot Platforms Inc., a Bitcoin mining company that recently began selling AI data </summary>
   </entry>
   <entry>
-    <title>I made a web-design benchmark for local models (Muse Glimmer 30B vs Qwen 3.6 27b vs Deepseek V4 Flash 0731)</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vkvdg0/i_made_a_webdesign_benchmark_for_local_models/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vkvdg0/i_made_a_webdesign_benchmark_for_local_models/</id>
-    <updated>2026-08-10T19:52:40.000Z</updated>
+    <title>1 Day in and I feel okay saying Muse-Glimmer-30B finally beats 3.6-27B for the size in some use-cases</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vl64et/1_day_in_and_i_feel_okay_saying_museglimmer30b/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vl64et/1_day_in_and_i_feel_okay_saying_museglimmer30b/</id>
+    <updated>2026-08-11T03:25:38.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by /u/ShadyShroomz [link] [comments]</summary>
+    <summary>A few things right off the bat: it reasons very efficiently. Like Grok 4.5 levels of efficient thinking it quantizes very well. My first few tests with iq3_xxs were better than Qwen/Gemma behaved at that size its knowledge depth is amazing. It beats Qwen3.6 27B on no-tools trivia. in OpenCode it is a much more efficien</summary>
   </entry>
   <entry>
     <title>Muse Spark 1.2 Open Source before Llama 4 Behemoth!!?</title>
@@ -178,102 +196,84 @@
     <summary>I can’t believe it!! When Muse Spark just came out, I was already thinking they might consider open sourcing this. And now they’re actually gonna open source it!! And ever since Alexandr Wang took over, they’d be releasing anything but Llama 4 Behemoth! What’s next? Llama 5 release before Llama 4 Behemoth? submitted by</summary>
   </entry>
   <entry>
+    <title>DocAtlas: Long-Document Understanding as Mutable-State Interaction</title>
+    <link href="https://arxiv.org/abs/2608.07527"/>
+    <id>https://arxiv.org/abs/2608.07527</id>
+    <updated>2026-08-11T04:00:00.000Z</updated>
+    <author><name>arXiv cs.CL</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>arXiv:2608.07527v1 Announce Type: new Abstract: Long-document understanding requires models to find and combine evidence across many pages, layouts, tables, figures, and charts. Existing retrieval-augmented systems usually select evidence from a static index before generation, while recent agentic systems add multi-tur</summary>
+  </entry>
+  <entry>
+    <title>Search-G1: Grounded Search Agents via Representation-Based Intrinsic Rewards</title>
+    <link href="https://arxiv.org/abs/2608.07531"/>
+    <id>https://arxiv.org/abs/2608.07531</id>
+    <updated>2026-08-11T04:00:00.000Z</updated>
+    <author><name>arXiv cs.CL</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>arXiv:2608.07531v1 Announce Type: new Abstract: Search-augmented language agents should retrieve external information only when necessary and ground their answers in retrieved evidence. Existing external rewards provide either sparse outcome supervision or richer feedback from process annotations and LLM judges. Outcom</summary>
+  </entry>
+  <entry>
+    <title>Why Is the Yen Losing Gains From Intervention?</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-11/why-is-the-yen-losing-gains-from-intervention-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-11/why-is-the-yen-losing-gains-from-intervention-video</id>
+    <updated>2026-08-11T04:27:54.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Recent declined have wiped out half of the yen’s recent intervention rally, with traders remaining on alert for further official support. Bloomberg's Insight With Haslinda Amin breaks down the factors at stake. (Source: Bloomberg)</summary>
+  </entry>
+  <entry>
+    <title>HSH CEO: China Shows Resilience for Luxury Hotels</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-11/hsh-ceo-china-shows-resilience-for-luxury-hotels-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-11/hsh-ceo-china-shows-resilience-for-luxury-hotels-video</id>
+    <updated>2026-08-11T04:27:49.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Benjamin Vuchot, CEO of The Hongkong and Shanghai Hotels, sees luxury travel as being more resilient as tourists return to China and Hong Kong. He speaks exclusively on &quot;Bloomberg: The China Show.&quot; (Source: Bloomberg)</summary>
+  </entry>
+  <entry>
+    <title>WuYuEval: A Multi-Level Benchmark for Large Language Models in Solid Waste Management</title>
+    <link href="https://arxiv.org/abs/2608.07529"/>
+    <id>https://arxiv.org/abs/2608.07529</id>
+    <updated>2026-08-11T04:00:00.000Z</updated>
+    <author><name>arXiv cs.CL</name></author>
+    <category term="RESEARCH"/>
+    <summary>arXiv:2608.07529v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used as technical assistants, but their competence in solid waste management (SWM) remains difficult to assess because existing benchmarks emphasize general knowledge rather than professional decisions under engineering, envir</summary>
+  </entry>
+  <entry>
+    <title>Towards an Argumentative Foundation for Evaluative AI</title>
+    <link href="https://arxiv.org/abs/2608.07473"/>
+    <id>https://arxiv.org/abs/2608.07473</id>
+    <updated>2026-08-11T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
+    <category term="RESEARCH"/>
+    <summary>arXiv:2608.07473v1 Announce Type: new Abstract: Evaluative AI (EAI) has been recently proposed as a way to support human decision-making, not by producing a single recommendation, but by presenting competing hypotheses together with evidence for and against each. In this position paper, we advocate (computational) argu</summary>
+  </entry>
+  <entry>
     <title>Muse Glimmer from Meta Superintelligence Labs is now available</title>
     <link href="https://ollama.com/blog/muse-glimmer"/>
     <id>https://ollama.com/blog/muse-glimmer</id>
     <updated>2026-08-10T00:00:00.000Z</updated>
     <author><name>Ollama Blog</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
+    <category term="PRODUCTS"/>
     <summary>Meta's Muse Glimmer, the first open model released by Meta Superintelligence Labs, is now available. Muse Glimmer is a 30B multimodal model released under the Apache 2.0 license, designed for local coding agents, and accelerated by Ollama's MLX engine with new native DFlash and image input support.</summary>
   </entry>
   <entry>
-    <title>SEC Alleges Fund Adviser Misled Investors in Pre-IPO Schemes</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-10/sec-alleges-fund-adviser-misled-investors-in-pre-ipo-schemes"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-10/sec-alleges-fund-adviser-misled-investors-in-pre-ipo-schemes</id>
-    <updated>2026-08-10T22:27:20.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Investment adviser Adit Ventures and co-founder Eric Munson were accused by the US Securities and Exchange Commission of making false claims about investments and overcharging clients with millions of dollars in undisclosed fees to buy shares of companies including SpaceX and Klarna before they were offered to the publ</summary>
-  </entry>
-  <entry>
-    <title>With a feel for physics, AI models simulate a wider range of real-world scenarios</title>
-    <link href="https://news.mit.edu/2026/ai-models-simulate-wider-range-of-real-world-scenarios-0810"/>
-    <id>https://news.mit.edu/2026/ai-models-simulate-wider-range-of-real-world-scenarios-0810</id>
-    <updated>2026-08-10T19:25:00.000Z</updated>
-    <author><name>MIT News AI</name></author>
-    <category term="RESEARCH"/>
-    <summary>“GeoPT” helps AI models understand the basics of physics so they can simulate how objects respond to things like wind and water more efficiently and accurately.</summary>
-  </entry>
-  <entry>
-    <title>OpenAI launches GPT-5.6-Cyber to help defenders find vulnerabilities before attackers do</title>
-    <link href="https://the-decoder.com/openai-launches-gpt-5-6-cyber-to-help-defenders-find-vulnerabilities-before-attackers-do/"/>
-    <id>https://the-decoder.com/openai-launches-gpt-5-6-cyber-to-help-defenders-find-vulnerabilities-before-attackers-do/</id>
-    <updated>2026-08-10T18:01:30.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="PRODUCTS"/>
-    <summary>OpenAI aims to give cybersecurity defenders a head start: The new GPT-5.6-Cyber model answers up to 98.5 percent of security queries that would otherwise be blocked and has already uncovered two previously unknown Chrome vulnerabilities. According to OpenAI, the window of opportunity for defenders is shrinking. Access </summary>
-  </entry>
-  <entry>
-    <title>Amazon backs power plant that may become top source of US climate pollution</title>
-    <link href="https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/"/>
-    <id>https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/</id>
-    <updated>2026-08-10T20:45:52.000Z</updated>
-    <author><name>Ars Technica AI</name></author>
+    <title>Anthropic Strikes $9 Billion Cloud Deal With Riot Platforms</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-11/anthropic-strikes-9-billion-deal-with-cloud-computing-firm-riot"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-11/anthropic-strikes-9-billion-deal-with-cloud-computing-firm-riot</id>
+    <updated>2026-08-11T00:00:59.000Z</updated>
+    <author><name>Bloomberg Tech</name></author>
     <category term="HARDWARE"/>
-    <summary>Amazon announces first off-the-grid data center in race to reap AI profits.</summary>
+    <summary>Anthropic PBC has struck a $9.1 billion deal with Riot Platforms Inc., a Bitcoin mining company that recently began selling AI data center capacity, people familiar with the matter said, underscoring the Claude maker’s efforts to secure enough computing power to meet its customers’ demand.</summary>
   </entry>
   <entry>
-    <title>Source: OpenAI head of ethics Chloé Bakalar departs after less than a year, following exits by the head of safety systems and a former head of mission alignment (Financial Times)</title>
-    <link href="https://www.techmeme.com/260810/p43#a260810p43"/>
-    <id>https://www.techmeme.com/260810/p43#a260810p43</id>
-    <updated>2026-08-10T23:47:42.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>Financial Times : Source: OpenAI head of ethics Chlo&amp;eacute; Bakalar departs after less than a year, following exits by the head of safety systems and a former head of mission alignment — Chlo&amp;eacute; Bakalar's departure is one of several high-profile exits at the group in recent weeks as safety concerns mount</summary>
-  </entry>
-  <entry>
-    <title>A study on instability of LLM responses as a behavioral signature of self-Referential reports.</title>
-    <link href="https://www.lesswrong.com/posts/PLLFERpgE9Bs4Xf32/a-study-on-instability-of-llm-responses-as-a-behavioral"/>
-    <id>https://www.lesswrong.com/posts/PLLFERpgE9Bs4Xf32/a-study-on-instability-of-llm-responses-as-a-behavioral</id>
-    <updated>2026-08-11T01:02:46.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>Introduction and Related work The first person perspective of various experiences are subjective experiences. For Large language models, the study of subjective experiences was recently studied by Berg et al. (2025) who found out that self-referential prompting increases first person reports resembling subjective exper</summary>
-  </entry>
-  <entry>
-    <title>Study Finds Four Major AI Labs Use Incompatible Prompt Injection Metrics - Yellow.com</title>
-    <link href="https://news.google.com/rss/articles/CBMikwFBVV95cUxPcUtMYV9naWJ2QkxYMHNBSUVOV0dPdUVKWXcxSVJWYTNOemZaTkhwc3R2MTN1Nmo1dmhVbTZSQVo0SlhIdTN5dEZhTlBLRF9nc2lqMXFGQUxEQjhmbHB2SE14bUVvLXJXT21vaFVhbnV6MG9YZW5EY0RSdGpWdGRjNko0U2tUMkpoRkhzTlFHTW40bTA?oc=5"/>
-    <id>https://news.google.com/rss/articles/CBMikwFBVV95cUxPcUtMYV9naWJ2QkxYMHNBSUVOV0dPdUVKWXcxSVJWYTNOemZaTkhwc3R2MTN1Nmo1dmhVbTZSQVo0SlhIdTN5dEZhTlBLRF9nc2lqMXFGQUxEQjhmbHB2SE14bUVvLXJXT21vaFVhbnV6MG9YZW5EY0RSdGpWdGRjNko0U2tUMkpoRkhzTlFHTW40bTA?oc=5</id>
-    <updated>2026-08-10T18:41:48.000Z</updated>
-    <author><name>GN: Prompt Injection</name></author>
-    <category term="AI SECURITY"/>
-    <summary>Study Finds Four Major AI Labs Use Incompatible Prompt Injection Metrics Yellow.com</summary>
-  </entry>
-  <entry>
-    <title>Tricking AI in the Job Hunt - Duke Today</title>
-    <link href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE9uSFZPVHo3ckY2Z19aZTVRVmZfclNnck4xRGVVNlFGV28xQ2pBSHBuOVJKc2xsdmo2YVlud29jT2N1ZEpsbzRzU25VTjg2Y3JkVDlSN3F2WGRRcmN0OHh2Qg?oc=5"/>
-    <id>https://news.google.com/rss/articles/CBMiYEFVX3lxTE9uSFZPVHo3ckY2Z19aZTVRVmZfclNnck4xRGVVNlFGV28xQ2pBSHBuOVJKc2xsdmo2YVlud29jT2N1ZEpsbzRzU25VTjg2Y3JkVDlSN3F2WGRRcmN0OHh2Qg?oc=5</id>
-    <updated>2026-08-10T13:55:27.000Z</updated>
-    <author><name>GN: Prompt Injection</name></author>
-    <category term="AI SECURITY"/>
-    <summary>Tricking AI in the Job Hunt Duke Today</summary>
-  </entry>
-  <entry>
-    <title>Hackers breached a small Polish energy plant via private APN last year</title>
-    <link href="https://www.bleepingcomputer.com/news/security/hackers-breached-a-small-polish-energy-plant-via-private-apn-last-year/"/>
-    <id>https://www.bleepingcomputer.com/news/security/hackers-breached-a-small-polish-energy-plant-via-private-apn-last-year/</id>
-    <updated>2026-08-10T23:07:21.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>Hackers breached a heat-and-power plant facility in Poland, which supplies heat to about 50,000 residents, using a private APN (Access Point Name) to access an OT (Operational Technology) network. [...]</summary>
-  </entry>
-  <entry>
-    <title>Senate Democrats introduce bill to distribute $300 million annually to shore up water system cybersecurity</title>
-    <link href="https://therecord.media/senate-water-cybersecurity-legislation"/>
-    <id>https://therecord.media/senate-water-cybersecurity-legislation</id>
-    <updated>2026-08-10T15:45:00.000Z</updated>
-    <author><name>The Record</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>Two Democratic senators introduced legislation that would allocate $300 million each year to fund cybersecurity improvements for the water and wastewater sector.</summary>
+    <title>Xbox PC and Game Pass titles are coming to Linux through 'Xodus' — Heroic Launcher devs embark on new open-source reverse-engineering project</title>
+    <link href="https://www.tomshardware.com/software/linux/xbox-pc-and-game-pass-titles-are-coming-to-linux-through-xodus-heroic-launcher-devs-embark-on-new-open-source-reverse-engineering-project"/>
+    <id>https://www.tomshardware.com/software/linux/xbox-pc-and-game-pass-titles-are-coming-to-linux-through-xodus-heroic-launcher-devs-embark-on-new-open-source-reverse-engineering-project</id>
+    <updated>2026-08-10T18:11:48.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <category term="HARDWARE"/>
+    <summary>You might be able to enjoy Xbox PC and PC Game Pass titles on Linux very soon thanks to the efforts of the Xodus team, who're emulating the entire Xbox PC stack through open-source implementations of Microsoft's proprietary components and dependencies.</summary>
   </entry>
 </feed>
