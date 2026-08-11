@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-11T13:24:35.751Z</updated>
+  <updated>2026-08-11T15:08:49.419Z</updated>
   <entry>
     <title>Introducing Muse Glimmer</title>
     <link href="https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything"/>
@@ -25,6 +25,15 @@
     <summary>common/peg : suppress incomplete escape sequences ( #26780 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan)  — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
+    <title>qwen-code v0.21.10 released</title>
+    <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.21.10"/>
+    <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.21.10</id>
+    <updated>2026-08-11T14:28:35.000Z</updated>
+    <author><name>QwenLM/qwen-code</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Highlights Added ACP support for configuring reasoning effort levels from Default to Max via session configuration. ( #8526 ) Clicking uploaded or pasted images in the Web Shell now opens a preview in the artifact panel with download support. ( #8930 ) Fixed AutoFix timeouts by enabling streamed progress output to dete — Also covered by: anthropics/claude-code</summary>
+  </entry>
+  <entry>
     <title>US and South Korea warn of Gunra ransomware targeting govt agencies</title>
     <link href="https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/"/>
     <id>https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/</id>
@@ -34,13 +43,12 @@
     <summary>U.S. federal agencies and South Korea's National Policy Agency warned government and critical infrastructure organizations worldwide to secure their systems against Gunra ransomware attacks. [...] — Also covered by: The Record</summary>
   </entry>
   <entry>
-    <title>Run Local Agentic AI Workflows with Meta’s Muse Glimmer on NVIDIA</title>
-    <link href="https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/"/>
-    <id>https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/</id>
-    <updated>2026-08-10T13:27:19.000Z</updated>
-    <author><name>NVIDIA Dev Blog</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Meta returns to the open source ecosystem with the release of Muse Glimmer, a 30B open-weight dense model with a 120K+ context window built for local AI... — Also covered by: Hugging Face Blog</summary>
+    <title>Meta is back with Muse Glimmer: local, agentic, multimodal, and open source</title>
+    <link href="https://huggingface.co/blog/muse-glimmer"/>
+    <id>https://huggingface.co/blog/muse-glimmer</id>
+    <updated>2026-08-10T00:00:00.000Z</updated>
+    <author><name>Hugging Face Blog</name></author>
+    <category term="RESEARCH"/>
   </entry>
   <entry>
     <title>ollama v0.32.9 released</title>
@@ -52,22 +60,31 @@
     <summary>NVIDIA Nemotron 3.5 Lightning NVIDIA Nemotron 3.5 Lightning is an open 30B mixture-of-experts (MoE) model with 3B active parameters built for that execution layer of always-on agents. It is designed for harnesses like OpenClaw and Hermes Agent – all supported by the NVIDIA NemoClaw open source security and management s</summary>
   </entry>
   <entry>
-    <title>Nvidia releases Nemotron 3.5 Lightning, an open 30B-parameter MoE model that it says delivers up to 4x faster output speeds, and an agentic AI model router (Kyt Dotson/SiliconANGLE)</title>
-    <link href="https://www.techmeme.com/260811/p18#a260811p18"/>
-    <id>https://www.techmeme.com/260811/p18#a260811p18</id>
-    <updated>2026-08-11T13:20:05.000Z</updated>
+    <title>Source: Trajectory, founded by ex-DeepMind, Apple, OpenAI, and Meta staffers to build continual learning models, raised $40M led by Sequoia at a $300M valuation (Stephanie Palazzolo/The Information)</title>
+    <link href="https://www.techmeme.com/260811/p22#a260811p22"/>
+    <id>https://www.techmeme.com/260811/p22#a260811p22</id>
+    <updated>2026-08-11T14:30:02.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Kyt Dotson / SiliconANGLE : Nvidia releases Nemotron 3.5 Lightning, an open 30B-parameter MoE model that it says delivers up to 4x faster output speeds, and an agentic AI model router — Artificial intelligence silicon and software giant Nvidia Corp. today announced two new services: a highly customizable Nemotron model</summary>
+    <summary>Stephanie Palazzolo / The Information : Source: Trajectory, founded by ex-DeepMind, Apple, OpenAI, and Meta staffers to build continual learning models, raised $40M led by Sequoia at a $300M valuation — As closed-source models have gotten more expensive, businesses have found workarounds by customizing open-source AI f</summary>
   </entry>
   <entry>
-    <title>Chinese robot maker’s IPO 5,500 times oversubscribed by retail investors</title>
-    <link href="https://www.ft.com/content/99824437-8173-4320-b84b-242c726ab437?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/99824437-8173-4320-b84b-242c726ab437?syn-25a6b1a6=1</id>
-    <updated>2026-08-11T07:12:05.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
+    <title>Introducing Unsloth Desktop app</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vlj87v/introducing_unsloth_desktop_app/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vlj87v/introducing_unsloth_desktop_app/</id>
+    <updated>2026-08-11T14:36:02.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Hi LocalLlama, we're super excited to release Unsloth Desktop today! 🦥 It's the first desktop app that enables you to run and train models locally. Open-source. Available on Mac, Windows, and Linux Supports MLX, diffusion image/video models, audio models, and GGUF You can run MiniMax-H3, Muse Glimmer, soon Qwen 3.8 et</summary>
+  </entry>
+  <entry>
+    <title>NYSE Parent ICE Looks to Raise About $3.5 Billion From Bond Sale</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-11/nyse-parent-ice-kicks-off-bond-sale-for-marketaxess-takeover"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-11/nyse-parent-ice-kicks-off-bond-sale-for-marketaxess-takeover</id>
+    <updated>2026-08-11T13:18:02.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Unitree raises $900mn ahead of Shanghai listing expected later this month</summary>
+    <summary>Intercontinental Exchange Inc. has begun the sale of US investment-grade bonds two weeks after announcing a $6 billion deal to acquire MarketAxess Holdings Inc.</summary>
   </entry>
   <entry>
     <title>Unified Hallucination Fuzzing for Multimodal Large Language Models</title>
@@ -79,58 +96,58 @@
     <summary>arXiv:2608.07525v1 Announce Type: new Abstract: Hallucination remains a persistent challenge for Multimodal Large Language Models (MLLMs), severely limiting their reliability in high-stakes applications. Existing evaluations, predominantly based on static benchmarks, suffer from narrow taxonomical coverage and rapid pe</summary>
   </entry>
   <entry>
-    <title>OpenAI introduces $125 Premium Seats for ChatGPT Business as agentic AI burns through more tokens</title>
-    <link href="https://the-decoder.com/openai-introduces-125-premium-seats-for-chatgpt-business-as-agentic-ai-burns-through-more-tokens/"/>
-    <id>https://the-decoder.com/openai-introduces-125-premium-seats-for-chatgpt-business-as-agentic-ai-burns-through-more-tokens/</id>
-    <updated>2026-08-11T11:51:01.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development</title>
+    <link href="https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html"/>
+    <id>https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html</id>
+    <updated>2026-08-11T13:11:23.000Z</updated>
+    <author><name>The Hacker News</name></author>
     <category term="PRODUCTS"/>
-    <summary>OpenAI is rolling out &quot;Premium Seats&quot; for ChatGPT Business customers at $125 per user per month, five times the price of the existing Standard Seats. In return, users get significantly more capacity and no five-hour usage limit. The move signals that the flat-rate pricing AI providers have offered so far was never goin</summary>
+    <summary>OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability research, penetration testing, and incident response. &quot;Built on GPT‑5.6 Sol, it is trained to improve capabilities on several specialized cybersecurity tasks (e.g., finding zero-day vulnerabilities </summary>
   </entry>
   <entry>
-    <title>Evolving Safety Landscape of Multi-modal Large Language Models: A Survey of Emerging Threats and Safeguards</title>
-    <link href="https://arxiv.org/abs/2608.07535"/>
-    <id>https://arxiv.org/abs/2608.07535</id>
-    <updated>2026-08-11T04:00:00.000Z</updated>
-    <author><name>arXiv cs.LG</name></author>
+    <title>Nvidia releases Nemotron 3.5 Lightning, an open 30B-parameter MoE model that it says offers up to 4x faster output, and agentic AI model router NeMo Switchyard (Kyt Dotson/SiliconANGLE)</title>
+    <link href="https://www.techmeme.com/260811/p18#a260811p18"/>
+    <id>https://www.techmeme.com/260811/p18#a260811p18</id>
+    <updated>2026-08-11T13:20:05.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="HARDWARE"/>
+    <summary>Kyt Dotson / SiliconANGLE : Nvidia releases Nemotron 3.5 Lightning, an open 30B-parameter MoE model that it says offers up to 4x faster output, and agentic AI model router NeMo Switchyard — Artificial intelligence silicon and software giant Nvidia Corp. today announced two new services: a highly customizable Nemotron m</summary>
+  </entry>
+  <entry>
+    <title>How many of your agent's calls actually need a frontier model?</title>
+    <link href="https://www.langchain.com/blog/switchyard-agent-routing-benchmark"/>
+    <id>https://www.langchain.com/blog/switchyard-agent-routing-benchmark</id>
+    <updated>2026-08-11T14:08:56.000Z</updated>
+    <author><name>LangChain Blog</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>arXiv:2608.07535v1 Announce Type: new Abstract: Multi-modal large language models (MLLMs) integrate heterogeneous modalities through modality alignment and fusion, enabling stronger understanding and reasoning. However, this architectural shift reshapes the safety landscape of machine learning. Increased model complexi</summary>
+    <summary>We benchmarked NVIDIA NeMo Switchyard on 145 agent tasks. Only 7% of turns needed a frontier model, and routing cut cost 74% for six points of accuracy.</summary>
   </entry>
   <entry>
-    <title>OpenAI Launches Lockdown Mode To Block Prompt Injection Attacks - Yellow.com</title>
-    <link href="https://news.google.com/rss/articles/CBMijAFBVV95cUxOVER3cmdNdHdqSkZDbXVEYU9sWXFsb201U2ZZdnBnZFpoNjUxWEJYS0UyblM4eTRBUTdQS1UtYnZsekp4S1dfZVhpbmIzRmRjY2lvRXVPTVdqWkRLamVVOGU1clJZTXlMaG5Ic3M0UUVETDRoWmV1Vmh3WTAyQzQ3NUpsQVNXOUVHbm0wbg?oc=5"/>
-    <id>https://news.google.com/rss/articles/CBMijAFBVV95cUxOVER3cmdNdHdqSkZDbXVEYU9sWXFsb201U2ZZdnBnZFpoNjUxWEJYS0UyblM4eTRBUTdQS1UtYnZsekp4S1dfZVhpbmIzRmRjY2lvRXVPTVdqWkRLamVVOGU1clJZTXlMaG5Ic3M0UUVETDRoWmV1Vmh3WTAyQzQ3NUpsQVNXOUVHbm0wbg?oc=5</id>
-    <updated>2026-08-11T05:38:43.000Z</updated>
+    <title>Study Finds Four Major AI Labs Use Incompatible Prompt Injection Metrics - Yellow.com</title>
+    <link href="https://news.google.com/rss/articles/CBMinAFBVV95cUxQN3gwTTNZRkdkYjlFZWhJSVU4TERnM2ZoSjVSWG5xUFVrZlZTa2djU1JvWm5wSGg2WFJfb3czVE5QWTdiRXhtdVlIZWR6T0xYWlZVUEhmNVhyYnZHVW85WDVfcURHWXhuV2RCejNpLXVEUVByWXY5Y21PZVYzc1pyMmhtdU9UaGtfNGlpaXJmWERVTFB3SWZpSzhJYjE?oc=5"/>
+    <id>https://news.google.com/rss/articles/CBMinAFBVV95cUxQN3gwTTNZRkdkYjlFZWhJSVU4TERnM2ZoSjVSWG5xUFVrZlZTa2djU1JvWm5wSGg2WFJfb3czVE5QWTdiRXhtdVlIZWR6T0xYWlZVUEhmNVhyYnZHVW85WDVfcURHWXhuV2RCejNpLXVEUVByWXY5Y21PZVYzc1pyMmhtdU9UaGtfNGlpaXJmWERVTFB3SWZpSzhJYjE?oc=5</id>
+    <updated>2026-08-11T12:33:51.000Z</updated>
     <author><name>GN: Prompt Injection</name></author>
     <category term="AI SECURITY"/>
-    <summary>OpenAI Launches Lockdown Mode To Block Prompt Injection Attacks Yellow.com</summary>
+    <summary>Study Finds Four Major AI Labs Use Incompatible Prompt Injection Metrics Yellow.com</summary>
   </entry>
   <entry>
-    <title>Mozilla updates GPG signing key for Firefox releases after exposure</title>
-    <link href="https://www.bleepingcomputer.com/news/security/mozilla-updates-gpg-key-for-signing-firefox-thunderbird-releases-after-exposure/"/>
-    <id>https://www.bleepingcomputer.com/news/security/mozilla-updates-gpg-key-for-signing-firefox-thunderbird-releases-after-exposure/</id>
-    <updated>2026-08-11T13:20:28.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>Mozilla announced today that it updated the GPG key used to sign Firefox and Thunderbird releases after it was accidentally exposed on GitHub. [...]</summary>
+    <title>The 370-billion-dollar race: How integrated design can help humanoid manufacturers succeed in a rapidly growing market</title>
+    <link href="https://www.therobotreport.com/the-370-billion-dollar-race-how-integrated-design-can-help-humanoid-manufacturers-succeed-in-a-rapidly-growing-market/"/>
+    <id>https://www.therobotreport.com/the-370-billion-dollar-race-how-integrated-design-can-help-humanoid-manufacturers-succeed-in-a-rapidly-growing-market/</id>
+    <updated>2026-08-11T14:17:22.000Z</updated>
+    <author><name>The Robot Report</name></author>
+    <category term="ROBOTICS"/>
+    <summary>The future of humanoid robotics is closer than most people realize. The post The 370-billion-dollar race: How integrated design can help humanoid manufacturers succeed in a rapidly growing market appeared first on The Robot Report .</summary>
   </entry>
   <entry>
-    <title>Kimwolf v7: An Evolution of the Kimwolf Botnet</title>
-    <link href="https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/"/>
-    <id>https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/</id>
-    <updated>2026-08-11T10:00:16.000Z</updated>
-    <author><name>Palo Alto Unit 42</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>Discover how Kimwolf v7 targets Android IoT devices with HTTP/2 DDoS fingerprinting, Ethereum ENS C2 resolution and Tor backup routing. The post Kimwolf v7: An Evolution of the Kimwolf Botnet appeared first on Unit 42 .</summary>
-  </entry>
-  <entry>
-    <title>Morgan Stanley Launches U.S. Innovation Initiative Supporting Quantum and Strategic Technologies</title>
-    <link href="https://thequantuminsider.com/2026/08/11/morgan-stanley-us-innovation-initiative-quantum-ai-technologies/"/>
-    <id>https://thequantuminsider.com/2026/08/11/morgan-stanley-us-innovation-initiative-quantum-ai-technologies/</id>
-    <updated>2026-08-11T07:30:00.000Z</updated>
+    <title>QuSecure Adds Post-Quantum Cryptography Platform to Carahsoft GSA Schedule</title>
+    <link href="https://thequantuminsider.com/2026/08/11/qusecure-post-quantum-cryptography-solutions-carahsoft-gsa-schedule/"/>
+    <id>https://thequantuminsider.com/2026/08/11/qusecure-post-quantum-cryptography-solutions-carahsoft-gsa-schedule/</id>
+    <updated>2026-08-11T14:39:03.000Z</updated>
     <author><name>The Quantum Insider</name></author>
     <category term="QUANTUM"/>
-    <summary>Insider Brief Press release – Morgan Stanley today announced the launch of the U.S. Innovation Infrastructure Initiative to finance and enable America’s next era of growth. In recognition of having recently celebrated America’s 250th anniversary, the Firm intends to facilitate approximately $1.5 trillion of capital rai</summary>
+    <summary>Insider Brief Press release – QuSecure™, Inc., a leader in post-quantum cryptography (PQC) and cryptographic agility, and Carahsoft Technology Corp., The Trusted Government IT Solutions Provider®, today announced that QuSecure’s post-quantum cryptography (PQC) and cryptographic-agility solutions have been added to Cara</summary>
   </entry>
   <entry>
     <title>Anthropic's planned mega-IPO faces investor skepticism over Chinese rivals and political headwinds</title>
@@ -142,76 +159,40 @@
     <summary>Anthropic is preparing an IPO for September or October, according to the Wall Street Journal, potentially the largest ever. During investor meetings, the company, valued at $965 billion, is fielding tough questions about Chinese competition, tensions with the Trump administration, and protests against data center const</summary>
   </entry>
   <entry>
-    <title>Anthropic signs $9.1 billion data center deal with Bitcoin miner Riot Platforms</title>
-    <link href="https://the-decoder.com/anthropic-signs-9-1-billion-data-center-deal-with-bitcoin-miner-riot-platforms/"/>
-    <id>https://the-decoder.com/anthropic-signs-9-1-billion-data-center-deal-with-bitcoin-miner-riot-platforms/</id>
-    <updated>2026-08-11T11:33:00.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Anthropic is leasing $9.1 billion worth of data center capacity from Bitcoin miner Riot Platforms in Texas, according to Bloomberg. The deal covers 191 megawatts at Riot's Rockdale site, with extension options that could push the total value to $16.1 billion. It's the latest in an aggressive infrastructure push that sp</summary>
-  </entry>
-  <entry>
-    <title>Bumble rolls out a global update letting any user send an opening message after matching, a major reversal from its signature women-go-first model (Samantha Kelly/Bloomberg)</title>
-    <link href="https://www.techmeme.com/260811/p16#a260811p16"/>
-    <id>https://www.techmeme.com/260811/p16#a260811p16</id>
-    <updated>2026-08-11T13:00:54.000Z</updated>
+    <title>TSMC and Sony plan to form Advanced Vision Semiconductor Manufacturing Corp, a $4.69B joint venture in Japan to make next-gen smartphone image sensors from 2029 (Reuters)</title>
+    <link href="https://www.techmeme.com/260811/p19#a260811p19"/>
+    <id>https://www.techmeme.com/260811/p19#a260811p19</id>
+    <updated>2026-08-11T13:35:05.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Samantha Kelly / Bloomberg : Bumble rolls out a global update letting any user send an opening message after matching, a major reversal from its signature women-go-first model — Bumble Inc. will allow men to make the first move in messaging on its dating app, marking a major reversal from the company's signature women </summary>
+    <summary>Reuters : TSMC and Sony plan to form Advanced Vision Semiconductor Manufacturing Corp, a $4.69B joint venture in Japan to make next-gen smartphone image sensors from 2029 — Taiwanese chipmaker TSMC (2330.TW) and Sony Group (6758.T) said on Tuesday they will form a $4.69 billion joint venture to develop …</summary>
   </entry>
   <entry>
-    <title>Spotify will label ‘AI Persona’ profiles and exclude their music from recommendations</title>
-    <link href="https://techcrunch.com/2026/08/11/spotify-will-label-ai-persona-profiles-and-exclude-their-music-from-recommendations/"/>
-    <id>https://techcrunch.com/2026/08/11/spotify-will-label-ai-persona-profiles-and-exclude-their-music-from-recommendations/</id>
-    <updated>2026-08-11T13:00:00.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Spotify is introducing “AI Persona” labels for artist profiles that represent AI-generated identities and will exclude their music from editorial, algorithmic, and personalized recommendations by default.</summary>
-  </entry>
-  <entry>
-    <title>vllm v0.27.1 released</title>
-    <link href="https://github.com/vllm-project/vllm/releases/tag/v0.27.1"/>
-    <id>https://github.com/vllm-project/vllm/releases/tag/v0.27.1</id>
-    <updated>2026-08-11T10:49:10.000Z</updated>
-    <author><name>vllm-project/vllm</name></author>
+    <title>Luth-2: New State-of-the-Art French Small Language Models</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vlbto8/luth2_new_stateoftheart_french_small_language/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vlbto8/luth2_new_stateoftheart_french_small_language/</id>
+    <updated>2026-08-11T08:41:13.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>This is a patch release on top of v0.27.0. Support quantized DSpark Markov heads ( #50424 )</summary>
+    <summary>Hey everyone, Today we release Luth-2-0.8B and Luth2-2-2B , two non-reasoning models that set a new state of the art for French across a wide variety of tasks for their size 🚀 A few notable scores on French benchmarks compared to models 〜3 times their size: - Luth-2-2B scores 69.67 vs Gemma-4-E2B-it at 65.17 on Multi-</summary>
   </entry>
   <entry>
-    <title>Glimmer 30B first impressions (vs Qwen 3.6 27B)</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vld8uz/glimmer_30b_first_impressions_vs_qwen_36_27b/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vld8uz/glimmer_30b_first_impressions_vs_qwen_36_27b/</id>
-    <updated>2026-08-11T10:04:26.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>I've been testing out Glimmer since yesterday afternoon for coding, and I wanted to share my first impressions. Details on my setup: - GPU: R9700 - Agent: pi - quant: kquant-dynamic (meta release) - k/v cache: q8_0 - context: 131k - DFlash w/16 draft tokens I'm comparing to Qwen 3.6 27B (normal daily driver): - quant: </summary>
-  </entry>
-  <entry>
-    <title>NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents</title>
-    <link href="https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/"/>
-    <id>https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/</id>
-    <updated>2026-08-11T13:00:25.000Z</updated>
-    <author><name>NVIDIA Blog</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>The open source ecosystem is making it easier for AI enthusiasts and developers to build, customize and run increasingly capable agents locally. Throughout August, NVIDIA is celebrating the partners and open source communities moving local AI forward, along with the models, applications and tools emerging across the ec</summary>
-  </entry>
-  <entry>
-    <title>Humans cannot remain passengers in the back of the AGI car</title>
-    <link href="https://www.ft.com/content/33094bff-546e-4ac2-a949-af2e9daaa3f0?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/33094bff-546e-4ac2-a949-af2e9daaa3f0?syn-25a6b1a6=1</id>
-    <updated>2026-08-11T12:44:32.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
-    <category term="AI FINANCE"/>
-    <summary>A sense of fatalistic inevitability about the technology’s evolution is triggering something close to despair</summary>
-  </entry>
-  <entry>
-    <title>Veritas-Backed Gainwell Kicks Off Bond Part of $5.8 Billion Deal</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-11/veritas-backed-gainwell-kicks-off-bond-part-of-5-8-billion-deal"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-11/veritas-backed-gainwell-kicks-off-bond-part-of-5-8-billion-deal</id>
-    <updated>2026-08-11T12:31:15.000Z</updated>
+    <title>Apollo Inks $2.6 Billion Financing Deal With the Yankees</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-11/apollo-inks-2-6-billion-financing-deal-with-the-yankees-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-11/apollo-inks-2-6-billion-financing-deal-with-the-yankees-video</id>
+    <updated>2026-08-11T15:01:39.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Gainwell Technologies has started the next leg of a broader $5.8 billion debt overhaul that marks the US software sector’s biggest financing of 2026 in the junk-debt market.</summary>
+    <summary>Apollo Global Management is providing $2.6 billion of financing to the owners of the New York Yankees, the private capital giant’s largest investment to date in US sports. Randall Williams has more on &quot;Bloomberg Open Interest.&quot; (Source: Bloomberg)</summary>
+  </entry>
+  <entry>
+    <title>Atlanta Airport Taps Munis for $1.1 Billion as Sector Sales Lag</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-11/atlanta-airport-taps-munis-for-1-1-billion-as-sector-sales-lag"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-11/atlanta-airport-taps-munis-for-1-1-billion-as-sector-sales-lag</id>
+    <updated>2026-08-11T14:36:41.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>The world’s busiest airport is coming to market with a more than $1 billion municipal bond sale, boosting issuance in the lagging airport sector.</summary>
   </entry>
   <entry>
     <title>WuYuEval: A Multi-Level Benchmark for Large Language Models in Solid Waste Management</title>
@@ -223,31 +204,31 @@
     <summary>arXiv:2608.07529v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used as technical assistants, but their competence in solid waste management (SWM) remains difficult to assess because existing benchmarks emphasize general knowledge rather than professional decisions under engineering, envir</summary>
   </entry>
   <entry>
-    <title>Towards an Argumentative Foundation for Evaluative AI</title>
-    <link href="https://arxiv.org/abs/2608.07473"/>
-    <id>https://arxiv.org/abs/2608.07473</id>
-    <updated>2026-08-11T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
-    <category term="RESEARCH"/>
-    <summary>arXiv:2608.07473v1 Announce Type: new Abstract: Evaluative AI (EAI) has been recently proposed as a way to support human decision-making, not by producing a single recommendation, but by presenting competing hypotheses together with evidence for and against each. In this position paper, we advocate (computational) argu</summary>
+    <title>OpenAI introduces $125 Premium Seats for ChatGPT Business as agentic AI burns through more tokens</title>
+    <link href="https://the-decoder.com/openai-introduces-125-premium-seats-for-chatgpt-business-as-agentic-ai-burns-through-more-tokens/"/>
+    <id>https://the-decoder.com/openai-introduces-125-premium-seats-for-chatgpt-business-as-agentic-ai-burns-through-more-tokens/</id>
+    <updated>2026-08-11T11:51:01.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="PRODUCTS"/>
+    <summary>OpenAI is rolling out &quot;Premium Seats&quot; for ChatGPT Business customers at $125 per user per month, five times the price of the existing Standard Seats. In return, users get significantly more capacity and no five-hour usage limit. The move signals that the flat-rate pricing AI providers have offered so far was never goin</summary>
   </entry>
   <entry>
-    <title>Apple's iOS 27 beta 5 contains references to six unreleased iPhones: iPhone Air 2, iPhone 18 Pro, iPhone 18 Pro Max, iPhone 18, iPhone Ultra, and iPhone 18e (Filipe Esposito/Macworld)</title>
-    <link href="https://www.techmeme.com/260811/p15#a260811p15"/>
-    <id>https://www.techmeme.com/260811/p15#a260811p15</id>
-    <updated>2026-08-11T12:50:02.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Per-model token breakdown in the usage report</title>
+    <link href="https://github.blog/changelog/2026-08-11-per-model-token-breakdown-in-the-usage-report"/>
+    <id>https://github.blog/changelog/2026-08-11-per-model-token-breakdown-in-the-usage-report</id>
+    <updated>2026-08-11T14:41:52.000Z</updated>
+    <author><name>GitHub Copilot Changelog</name></author>
     <category term="PRODUCTS"/>
-    <summary>Filipe Esposito / Macworld : Apple's iOS 27 beta 5 contains references to six unreleased iPhones: iPhone Air 2, iPhone 18 Pro, iPhone 18 Pro Max, iPhone 18, iPhone Ultra, and iPhone 18e — Hidden references in Apple's latest beta reveal unreleased iPhones, including the iPhone Ultra. — On Monday, Apple released iOS 27 b</summary>
+    <summary>You can now see a per-model breakdown of the tokens behind your AI credits in the usage report. For each model, the AI usage report shows the input, output, cache… The post Per-model token breakdown in the usage report appeared first on The GitHub Blog .</summary>
   </entry>
   <entry>
-    <title>As AI-led attacks multiply, OpenAI launches a new cyber model</title>
-    <link href="https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/"/>
-    <id>https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/</id>
-    <updated>2026-08-10T23:56:15.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="PRODUCTS"/>
-    <summary>OpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it.</summary>
+    <title>NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents</title>
+    <link href="https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/"/>
+    <id>https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/</id>
+    <updated>2026-08-11T13:00:25.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
+    <category term="HARDWARE"/>
+    <summary>The open source ecosystem is making it easier for AI enthusiasts and developers to build, customize and run increasingly capable agents locally. Throughout August, NVIDIA is celebrating the partners and open source communities moving local AI forward, along with the models, applications and tools emerging across the ec</summary>
   </entry>
   <entry>
     <title>b10362: tests : disable backend sampler hip multi output (#26878)</title>
@@ -259,13 +240,13 @@
     <summary>test-backend-sampler: skip multi_output_sampling_chain on HIP The new multi_output_sampling_chain test uses top_k, whose backend probs path needs CUB (unavailable on HIP), so sampled_probs is null and the test aborts. Add it to the existing HIP skip list alongside the other TOP_K tests. ci: keep gpu-rocm logs in a per-</summary>
   </entry>
   <entry>
-    <title>IBM and Together AI sign a $240M, multi-year deal to build an AI inference cluster on IBM Cloud, using Nvidia's HGX B300 systems, to support open-source models (Anhata Rooprai/Reuters)</title>
-    <link href="https://www.techmeme.com/260811/p14#a260811p14"/>
-    <id>https://www.techmeme.com/260811/p14#a260811p14</id>
-    <updated>2026-08-11T12:40:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Anhata Rooprai / Reuters : IBM and Together AI sign a $240M, multi-year deal to build an AI inference cluster on IBM Cloud, using Nvidia's HGX B300 systems, to support open-source models — IBM (IBM.N) and startup Together AI have signed a $240 million multi-year agreement to build a large-scale artificial intelligence </summary>
+    <title>Evolving Safety Landscape of Multi-modal Large Language Models: A Survey of Emerging Threats and Safeguards</title>
+    <link href="https://arxiv.org/abs/2608.07535"/>
+    <id>https://arxiv.org/abs/2608.07535</id>
+    <updated>2026-08-11T04:00:00.000Z</updated>
+    <author><name>arXiv cs.LG</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>arXiv:2608.07535v1 Announce Type: new Abstract: Multi-modal large language models (MLLMs) integrate heterogeneous modalities through modality alignment and fusion, enabling stronger understanding and reasoning. However, this architectural shift reshapes the safety landscape of machine learning. Increased model complexi</summary>
   </entry>
   <entry>
     <title>SkillConsist: Detecting Inconsistencies in Agent Skills via Bidirectional Graph Alignment</title>
@@ -275,5 +256,23 @@
     <author><name>arXiv cs.LG</name></author>
     <category term="SAFETY &amp; POLICY"/>
     <summary>arXiv:2608.07639v1 Announce Type: new Abstract: Agent Skills provide reusable capabilities to LLM agents. Agent Skill inconsistencies can expose undisclosed dangerous behavior or cause wrong Skill selection. Recent Agent Skill research has increasingly examined Agent Skill consistency detection. Existing methods evalua</summary>
+  </entry>
+  <entry>
+    <title>Straiker Named an OpenAI Select Partner | Straiker</title>
+    <link href="https://www.straiker.ai/blog/straiker-named-an-openai-select-partner"/>
+    <id>https://www.straiker.ai/blog/straiker-named-an-openai-select-partner</id>
+    <updated>2026-08-11T12:00:00.000Z</updated>
+    <author><name>Straiker STAR</name></author>
+    <category term="AI SECURITY"/>
+    <summary>Straiker has been named an OpenAI Select Partner, helping enterprises securely build, deploy, and scale AI agents with testing, runtime protection, and policy enforcement.</summary>
+  </entry>
+  <entry>
+    <title>Claude Code Auto Mode Blocks 89% of Dangerous Commands and Prompt Injection Attacks - gbhackers.com</title>
+    <link href="https://news.google.com/rss/articles/CBMia0FVX3lxTE5wVVJobHVoNEdFQnZvZjFfZElFT2tkcm1MSUppckpwVVdCd18xdzNlMDRvUHhyWENtT3lBSFJJNVVuWnF6Q1UyYTFOc2cyVE93d05iRVRHZ1JzQ2lFUWRLSXVOc1ZtUGQySXU00gFwQVVfeXFMUDJsYVlodW1yR2JKNFFFWE1JTDJFSWw5aThNZjBGakh6VWVwbVhzZHZqejltM3p4Q1B3by1MMVlGTkd4UjlGVjVnUE5FSFpvVEtTbm4wLU5XcE12RjFIRWNOME90bmZ4aFZZQTA1c2hVaQ?oc=5"/>
+    <id>https://news.google.com/rss/articles/CBMia0FVX3lxTE5wVVJobHVoNEdFQnZvZjFfZElFT2tkcm1MSUppckpwVVdCd18xdzNlMDRvUHhyWENtT3lBSFJJNVVuWnF6Q1UyYTFOc2cyVE93d05iRVRHZ1JzQ2lFUWRLSXVOc1ZtUGQySXU00gFwQVVfeXFMUDJsYVlodW1yR2JKNFFFWE1JTDJFSWw5aThNZjBGakh6VWVwbVhzZHZqejltM3p4Q1B3by1MMVlGTkd4UjlGVjVnUE5FSFpvVEtTbm4wLU5XcE12RjFIRWNOME90bmZ4aFZZQTA1c2hVaQ?oc=5</id>
+    <updated>2026-08-11T05:39:01.000Z</updated>
+    <author><name>GN: Prompt Injection</name></author>
+    <category term="AI SECURITY"/>
+    <summary>Claude Code Auto Mode Blocks 89% of Dangerous Commands and Prompt Injection Attacks gbhackers.com</summary>
   </entry>
 </feed>
