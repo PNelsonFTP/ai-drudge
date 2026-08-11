@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-10T23:44:26.545Z</updated>
+  <updated>2026-08-11T02:20:35.865Z</updated>
   <entry>
-    <title>Muse Glimmer from Meta Superintelligence Labs is now available</title>
-    <link href="https://ollama.com/blog/muse-glimmer"/>
-    <id>https://ollama.com/blog/muse-glimmer</id>
-    <updated>2026-08-10T00:00:00.000Z</updated>
-    <author><name>Ollama Blog</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Meta's Muse Glimmer, the first open model released by Meta Superintelligence Labs, is now available. Muse Glimmer is a 30B multimodal model released under the Apache 2.0 license, designed for local coding agents, and accelerated by Ollama's MLX engine with new native DFlash and image input support.</summary>
+    <title>Introducing Muse Glimmer</title>
+    <link href="https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything"/>
+    <id>https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything</id>
+    <updated>2026-08-10T23:56:03.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Introducing Muse Glimmer Meta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old). They claim to have optimized it for exactly the kind of things I'm looking for in a local model: End-to-end Agentic Task Completion. M</summary>
   </entry>
   <entry>
     <title>llama.cpp b10355 released</title>
@@ -25,13 +25,22 @@
     <summary>llama : support multi-output backend sampling ( #25532 ) Enable backend sampling with token speculation Clamp the mask sum before converting it into the sampled index Add a numeric context parameter declaring the maximum outputs one sequence More fixes Don't reuse memory for output views. Match dist between CPU and GPU — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
-    <title>claude-code v2.1.227 released</title>
-    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.227"/>
-    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.227</id>
-    <updated>2026-08-10T22:56:53.000Z</updated>
-    <author><name>anthropics/claude-code</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>What's changed Fixed feature flags being evaluated without the user's subscription tier when a session started with an expired login token, which could wrongly prompt Max plan users to enable usage credits for Fable Fixed every Bash command failing under claude-code-action with allowed_non_write_users on GitHub-hosted  — Also covered by: QwenLM/qwen-code</summary>
+    <title>Hadrian raises $1.37B to accelerate U.S. defense, aerospace manufacturing</title>
+    <link href="https://www.therobotreport.com/hadrian-raises-1-37b-accelerate-u-s-manufacturing/"/>
+    <id>https://www.therobotreport.com/hadrian-raises-1-37b-accelerate-u-s-manufacturing/</id>
+    <updated>2026-08-10T22:33:12.000Z</updated>
+    <author><name>The Robot Report</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>The raise values Hadrian at $7.87 billion. It is Hadrian's second funding round this year, following a round in January 2026. The post Hadrian raises $1.37B to accelerate U.S. defense, aerospace manufacturing appeared first on The Robot Report .</summary>
+  </entry>
+  <entry>
+    <title>Nvidia teams with Wall Street firms to help finance $500 billion for AI infrastructure</title>
+    <link href="https://www.marketwatch.com/story/nvidia-teams-with-wall-street-firms-to-help-finance-500-billion-for-ai-infrastructure-2c4805a5?mod=mw_rss_topstories"/>
+    <id>https://www.marketwatch.com/story/nvidia-teams-with-wall-street-firms-to-help-finance-500-billion-for-ai-infrastructure-2c4805a5?mod=mw_rss_topstories</id>
+    <updated>2026-08-11T02:03:00.000Z</updated>
+    <author><name>MarketWatch</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Nvidia late Monday announced a partnership with seven Wall Street financial institutions designed to raise more than $500 billion of third-party capital to fund the buildout of AI infrastructure.</summary>
   </entry>
   <entry>
     <title>Run Local Agentic AI Workflows with Meta’s Muse Glimmer on NVIDIA</title>
@@ -43,6 +52,15 @@
     <summary>Meta returns to the open source ecosystem with the release of Muse Glimmer, a 30B open-weight dense model with a 120K+ context window built for local AI...</summary>
   </entry>
   <entry>
+    <title>ollama v0.32.8 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.32.8-rc0"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.32.8-rc0</id>
+    <updated>2026-08-10T23:49:29.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>What's Changed Add Muse Glimmer support for NVIDIA, AMD, and additional platforms Full Changelog : v0.32.7...v0.32.8-rc0</summary>
+  </entry>
+  <entry>
     <title>Anthropic makes Claude Sonnet 5's introductory pricing permanent at $2/1M input tokens and $10/1M output tokens, canceling a planned September 1 increase (Claude/@claudeai)</title>
     <link href="https://www.techmeme.com/260810/p42#a260810p42"/>
     <id>https://www.techmeme.com/260810/p42#a260810p42</id>
@@ -52,22 +70,22 @@
     <summary>Claude / @claudeai : Anthropic makes Claude Sonnet 5's introductory pricing permanent at $2/1M input tokens and $10/1M output tokens, canceling a planned September 1 increase — We're making Claude Sonnet 5's introductory pricing permanent. We launched Sonnet 5 in June at $2 per million input tokens and $10 per million </summary>
   </entry>
   <entry>
+    <title>OpenAI’s head of ethics leaves start-up less than one year after joining</title>
+    <link href="https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0?syn-25a6b1a6=1</id>
+    <updated>2026-08-10T22:35:18.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Chloé Bakalar’s departure is one of several high-profile exits at the group in recent weeks as safety concerns mount</summary>
+  </entry>
+  <entry>
     <title>transformers v5.15.0 released</title>
     <link href="https://github.com/huggingface/transformers/releases/tag/v5.15.0"/>
     <id>https://github.com/huggingface/transformers/releases/tag/v5.15.0</id>
     <updated>2026-08-10T10:28:13.000Z</updated>
     <author><name>huggingface/transformers</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
+    <category term="RESEARCH"/>
     <summary>Release v5.15.0 New Model additions Meta Muse Glimmer Muse Glimmer, released today, is Meta’s new multimodal model, especially designed for agentic use cases. Distilled from Muse to 30B parameters, and released under the Apache 2.0 license, it can be deployed to local setups for privacy-aware applications such as codin</summary>
-  </entry>
-  <entry>
-    <title>SEC Alleges Fund Adviser Misled Investors in Pre-IPO Schemes</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-10/sec-alleges-fund-adviser-misled-investors-in-pre-ipo-schemes"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-10/sec-alleges-fund-adviser-misled-investors-in-pre-ipo-schemes</id>
-    <updated>2026-08-10T22:27:20.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Investment adviser Adit Ventures and co-founder Eric Munson were accused by the US Securities and Exchange Commission of making false claims about investments and overcharging clients with millions of dollars in undisclosed fees to buy shares of companies including SpaceX and Klarna before they were offered to the publ</summary>
   </entry>
   <entry>
     <title>Zuckerberg pushes ‘superintelligent’ AI for all as Meta drops open-source model</title>
@@ -88,13 +106,13 @@
     <summary>OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.</summary>
   </entry>
   <entry>
-    <title>[tl;dr sec] #340 - Anthropic and Meta Agents be Hackin', Agentic Incident Response Notebooks, Figma's AI Code Scanning</title>
-    <link href="https://tldrsec.com/p/tldr-sec-340"/>
-    <id>https://tldrsec.com/p/tldr-sec-340</id>
-    <updated>2026-08-07T14:30:00.000Z</updated>
-    <author><name>tl;dr sec</name></author>
+    <title>Claude Opus 5 Most Resistant to Indirect Prompt Injection Attacks, With Just 2% Success Rate - gbhackers.com</title>
+    <link href="https://news.google.com/rss/articles/CBMikgFBVV95cUxQM3hvanJBNHNrVFNhNUxmTzRJT3ZoN2pTemtmQlJQN0N1bkQ4SGNnYTlUR3JGZ0JkOHp0d2FiSjFYcjRobWVwSlJqSEROeXNTU2RmNmNQa0JuaGJGWmhJYW1Xd1k4dXVNLXRLT0pQRVFvMjRYRGtDSTRkb19oT1BEWlJDVUxFZWRoS29iS29DNFhBZ9IBlwFBVV95cUxONmZLaW1DN2d6TUIzX0N2WnYzZERyVVZBVlBOdmxHLUUzdHpFaHJfZmpDbENjM0pOMjNYbzBzTlZabi1Wekw4em9MUzcxS0FkTEc2NTd3QnBwVHprT2hzbzdLTWxUQ2xUd2xDWGVZNm5SYWlaZnJWTlFuSGRlN29LVnd3RHdna3VUXzQyOHJEWkI0SDBmQ2Vn?oc=5"/>
+    <id>https://news.google.com/rss/articles/CBMikgFBVV95cUxQM3hvanJBNHNrVFNhNUxmTzRJT3ZoN2pTemtmQlJQN0N1bkQ4SGNnYTlUR3JGZ0JkOHp0d2FiSjFYcjRobWVwSlJqSEROeXNTU2RmNmNQa0JuaGJGWmhJYW1Xd1k4dXVNLXRLT0pQRVFvMjRYRGtDSTRkb19oT1BEWlJDVUxFZWRoS29iS29DNFhBZ9IBlwFBVV95cUxONmZLaW1DN2d6TUIzX0N2WnYzZERyVVZBVlBOdmxHLUUzdHpFaHJfZmpDbENjM0pOMjNYbzBzTlZabi1Wekw4em9MUzcxS0FkTEc2NTd3QnBwVHprT2hzbzdLTWxUQ2xUd2xDWGVZNm5SYWlaZnJWTlFuSGRlN29LVnd3RHdna3VUXzQyOHJEWkI0SDBmQ2Vn?oc=5</id>
+    <updated>2026-08-10T14:46:22.000Z</updated>
+    <author><name>GN: Prompt Injection</name></author>
     <category term="AI SECURITY"/>
-    <summary>Anthropic and Meta models hacked third parties during testing, #collab-ing with an agent in an IR notebook, deep dive post on Figma's AI-powered code scanning</summary>
+    <summary>Claude Opus 5 Most Resistant to Indirect Prompt Injection Attacks, With Just 2% Success Rate gbhackers.com</summary>
   </entry>
   <entry>
     <title>OpenAI releases ChatGPT 5.6 Cyber, but it's only for approved users</title>
@@ -115,31 +133,13 @@
     <summary>Analysis of the Aeternum botnet loader, a threat leveraging Polygon blockchain smart contracts for decentralized C2 infrastructure and payload execution. The post The Permanent Threat: Analyzing Aeternum’s Blockchain-Based C2 Operations and Communications appeared first on Unit 42 .</summary>
   </entry>
   <entry>
-    <title>Source: Applied Compute, which helps companies customize models with their data, is in talks to raise &quot;hundreds of millions&quot; led by Elad Gil at a ~$3B valuation (The Information)</title>
-    <link href="https://www.techmeme.com/260810/p39#a260810p39"/>
-    <id>https://www.techmeme.com/260810/p39#a260810p39</id>
-    <updated>2026-08-10T20:55:01.000Z</updated>
+    <title>SpaceX's earnings show X's Q2 ad revenue at $367M, down from $1.08B at Twitter in Q2 2022; Musk once said he would take its annual ad revenue to $12B in 2027 (Mike Masnick/Techdirt)</title>
+    <link href="https://www.techmeme.com/260810/p44#a260810p44"/>
+    <id>https://www.techmeme.com/260810/p44#a260810p44</id>
+    <updated>2026-08-11T01:05:03.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="FUNDING &amp; DEALS"/>
-    <summary>The Information : Source: Applied Compute, which helps companies customize models with their data, is in talks to raise “hundreds of millions” led by Elad Gil at a ~$3B valuation — Applied Compute, a year-old startup that helps companies run and customize open-source models with their own data …</summary>
-  </entry>
-  <entry>
-    <title>5 useful things you'll learn in my new post-training textbook (shipping now!)</title>
-    <link href="https://www.interconnects.ai/p/5-useful-things-youll-learn-in-my"/>
-    <id>https://www.interconnects.ai/p/5-useful-things-youll-learn-in-my</id>
-    <updated>2026-08-10T13:02:42.000Z</updated>
-    <author><name>Interconnects (Lambert)</name></author>
-    <category term="ANALYSIS"/>
-    <summary>After a few long years of finding time to document my lessons from training open models, my post-training book is done!</summary>
-  </entry>
-  <entry>
-    <title>Hadrian raises $1.37B to accelerate U.S. defense, aerospace manufacturing</title>
-    <link href="https://www.therobotreport.com/hadrian-raises-1-37b-accelerate-u-s-manufacturing/"/>
-    <id>https://www.therobotreport.com/hadrian-raises-1-37b-accelerate-u-s-manufacturing/</id>
-    <updated>2026-08-10T22:33:12.000Z</updated>
-    <author><name>The Robot Report</name></author>
-    <category term="ROBOTICS"/>
-    <summary>The raise values Hadrian at $7.87 billion. It is Hadrian's second funding round this year, following a round in January 2026. The post Hadrian raises $1.37B to accelerate U.S. defense, aerospace manufacturing appeared first on The Robot Report .</summary>
+    <summary>Mike Masnick / Techdirt : SpaceX's earnings show X's Q2 ad revenue at $367M, down from $1.08B at Twitter in Q2 2022; Musk once said he would take its annual ad revenue to $12B in 2027 — When SpaceX filed for its IPO, we went through the S-1 to point out just how far off the mark Elon Musk's predictions about his Twitte</summary>
   </entry>
   <entry>
     <title>Quantum Optics Jena’s ELVIS System Completes First ISO/IEC 23837 Hardware Security Evaluation</title>
@@ -151,48 +151,49 @@
     <summary>German quantum communications developer Quantum Optics Jena GmbH (QOJ) has announced that its ELVIS quantum key distribution (QKD) system has completed an independent security evaluation under the ISO/IEC 23837 international standard. Conducted over a three-month testing period by independent cybersecurity assessment f</summary>
   </entry>
   <entry>
-    <title>ollama v0.32.8-rc0 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.32.8-rc0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.32.8-rc0</id>
-    <updated>2026-08-10T22:48:32.000Z</updated>
-    <author><name>ollama/ollama</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>llama.cpp update ( #17659 )</summary>
-  </entry>
-  <entry>
-    <title>Tech industry is buzzing after a Claude agent hacked into a gym</title>
-    <link href="https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/"/>
-    <id>https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/</id>
-    <updated>2026-08-10T20:04:24.000Z</updated>
+    <title>As AI-led attacks multiply, OpenAI launches a new cyber model</title>
+    <link href="https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/"/>
+    <id>https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/</id>
+    <updated>2026-08-10T23:56:15.000Z</updated>
     <author><name>TechCrunch AI</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>An OpenClaw agent hacked into a gym's reservation system to bump its human boss higher on a class' waitlist. And the tech industry took notice.</summary>
+    <category term="INDUSTRY NEWS"/>
+    <summary>OpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it.</summary>
   </entry>
   <entry>
-    <title>A sandbox without a network boundary is only half a sandbox</title>
-    <link href="https://vercel.com/blog/a-sandbox-without-a-network-boundary-is-only-half-a-sandbox"/>
-    <id>https://vercel.com/blog/a-sandbox-without-a-network-boundary-is-only-half-a-sandbox</id>
-    <updated>2026-08-11T00:00:00.000Z</updated>
-    <author><name>Vercel Blog</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
+    <title>I made a web-design benchmark for local models (Muse Glimmer 30B vs Qwen 3.6 27b vs Deepseek V4 Flash 0731)</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vkvdg0/i_made_a_webdesign_benchmark_for_local_models/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vkvdg0/i_made_a_webdesign_benchmark_for_local_models/</id>
+    <updated>2026-08-10T19:52:40.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>submitted by /u/ShadyShroomz [link] [comments]</summary>
   </entry>
   <entry>
-    <title>Traders Are Piling Into Taiwan Dollar Options to Bet on Rebound</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-10/traders-are-piling-into-taiwan-dollar-options-to-bet-on-rebound"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-10/traders-are-piling-into-taiwan-dollar-options-to-bet-on-rebound</id>
-    <updated>2026-08-10T23:00:00.000Z</updated>
+    <title>Muse Spark 1.2 Open Source before Llama 4 Behemoth!!?</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vkw0f7/muse_spark_12_open_source_before_llama_4_behemoth/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vkw0f7/muse_spark_12_open_source_before_llama_4_behemoth/</id>
+    <updated>2026-08-10T20:15:26.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>I can’t believe it!! When Muse Spark just came out, I was already thinking they might consider open sourcing this. And now they’re actually gonna open source it!! And ever since Alexandr Wang took over, they’d be releasing anything but Llama 4 Behemoth! What’s next? Llama 5 release before Llama 4 Behemoth? submitted by</summary>
+  </entry>
+  <entry>
+    <title>Muse Glimmer from Meta Superintelligence Labs is now available</title>
+    <link href="https://ollama.com/blog/muse-glimmer"/>
+    <id>https://ollama.com/blog/muse-glimmer</id>
+    <updated>2026-08-10T00:00:00.000Z</updated>
+    <author><name>Ollama Blog</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Meta's Muse Glimmer, the first open model released by Meta Superintelligence Labs, is now available. Muse Glimmer is a 30B multimodal model released under the Apache 2.0 license, designed for local coding agents, and accelerated by Ollama's MLX engine with new native DFlash and image input support.</summary>
+  </entry>
+  <entry>
+    <title>SEC Alleges Fund Adviser Misled Investors in Pre-IPO Schemes</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-10/sec-alleges-fund-adviser-misled-investors-in-pre-ipo-schemes"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-10/sec-alleges-fund-adviser-misled-investors-in-pre-ipo-schemes</id>
+    <updated>2026-08-10T22:27:20.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Currency traders are stepping up bullish options bets on the Taiwan dollar, signaling a shift in sentiment after the currency suffered its worst July since 2015.</summary>
-  </entry>
-  <entry>
-    <title>Mark Zuckerberg attacks ‘closed’ AI rivals as Meta returns to open models</title>
-    <link href="https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878?syn-25a6b1a6=1</id>
-    <updated>2026-08-10T10:00:02.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Meta’s founder casts OpenAI and Anthropic as foils in his pitch for powerful AI to become more freely available</summary>
+    <summary>Investment adviser Adit Ventures and co-founder Eric Munson were accused by the US Securities and Exchange Commission of making false claims about investments and overcharging clients with millions of dollars in undisclosed fees to buy shares of companies including SpaceX and Klarna before they were offered to the publ</summary>
   </entry>
   <entry>
     <title>With a feel for physics, AI models simulate a wider range of real-world scenarios</title>
@@ -222,40 +223,40 @@
     <summary>Amazon announces first off-the-grid data center in race to reap AI profits.</summary>
   </entry>
   <entry>
-    <title>Separating Decision-Rule Misalignment from Readout-Coverage Limitations in Speech Language Models</title>
-    <link href="https://arxiv.org/abs/2608.06409"/>
-    <id>https://arxiv.org/abs/2608.06409</id>
-    <updated>2026-08-10T04:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
+    <title>Source: OpenAI head of ethics Chloé Bakalar departs after less than a year, following exits by the head of safety systems and a former head of mission alignment (Financial Times)</title>
+    <link href="https://www.techmeme.com/260810/p43#a260810p43"/>
+    <id>https://www.techmeme.com/260810/p43#a260810p43</id>
+    <updated>2026-08-10T23:47:42.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>arXiv:2608.06409v1 Announce Type: new Abstract: Speech language models are increasingly evaluated on paralinguistic tasks by the accuracy of prompted answers, but answer accuracy combines failures at different stages of the audio-to-answer computation. We introduce a generation-aligned diagnostic ladder that compares t</summary>
+    <summary>Financial Times : Source: OpenAI head of ethics Chlo&amp;eacute; Bakalar departs after less than a year, following exits by the head of safety systems and a former head of mission alignment — Chlo&amp;eacute; Bakalar's departure is one of several high-profile exits at the group in recent weeks as safety concerns mount</summary>
   </entry>
   <entry>
-    <title>Q: Is dual-use alignment-complete problem?</title>
-    <link href="https://www.lesswrong.com/posts/LmqNzQQpE6rbdQn2k/q-is-dual-use-alignment-complete-problem"/>
-    <id>https://www.lesswrong.com/posts/LmqNzQQpE6rbdQn2k/q-is-dual-use-alignment-complete-problem</id>
-    <updated>2026-08-10T22:05:56.000Z</updated>
+    <title>A study on instability of LLM responses as a behavioral signature of self-Referential reports.</title>
+    <link href="https://www.lesswrong.com/posts/PLLFERpgE9Bs4Xf32/a-study-on-instability-of-llm-responses-as-a-behavioral"/>
+    <id>https://www.lesswrong.com/posts/PLLFERpgE9Bs4Xf32/a-study-on-instability-of-llm-responses-as-a-behavioral</id>
+    <updated>2026-08-11T01:02:46.000Z</updated>
     <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Personally, I believe it would be helpful for the alignment community to somehow quantify how much of a given piece of research goes directly into alignment versus capabilities. But I have recently heard that this task might itself be an alignment-complete problem, which would mean it cannot be solved before the alignm</summary>
+    <summary>Introduction and Related work The first person perspective of various experiences are subjective experiences. For Large language models, the study of subjective experiences was recently studied by Berg et al. (2025) who found out that self-referential prompting increases first person reports resembling subjective exper</summary>
   </entry>
   <entry>
-    <title>A few notes on AWS Nitro Enclaves: KMS integration</title>
-    <link href="https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/"/>
-    <id>https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/</id>
-    <updated>2026-08-05T11:00:00.000Z</updated>
-    <author><name>Trail of Bits</name></author>
+    <title>Study Finds Four Major AI Labs Use Incompatible Prompt Injection Metrics - Yellow.com</title>
+    <link href="https://news.google.com/rss/articles/CBMikwFBVV95cUxPcUtMYV9naWJ2QkxYMHNBSUVOV0dPdUVKWXcxSVJWYTNOemZaTkhwc3R2MTN1Nmo1dmhVbTZSQVo0SlhIdTN5dEZhTlBLRF9nc2lqMXFGQUxEQjhmbHB2SE14bUVvLXJXT21vaFVhbnV6MG9YZW5EY0RSdGpWdGRjNko0U2tUMkpoRkhzTlFHTW40bTA?oc=5"/>
+    <id>https://news.google.com/rss/articles/CBMikwFBVV95cUxPcUtMYV9naWJ2QkxYMHNBSUVOV0dPdUVKWXcxSVJWYTNOemZaTkhwc3R2MTN1Nmo1dmhVbTZSQVo0SlhIdTN5dEZhTlBLRF9nc2lqMXFGQUxEQjhmbHB2SE14bUVvLXJXT21vaFVhbnV6MG9YZW5EY0RSdGpWdGRjNko0U2tUMkpoRkhzTlFHTW40bTA?oc=5</id>
+    <updated>2026-08-10T18:41:48.000Z</updated>
+    <author><name>GN: Prompt Injection</name></author>
     <category term="AI SECURITY"/>
-    <summary>Nitro Enclaves and Key Management Service (KMS) feel like a natural fit: since the KMS can verify attestation documents generated by the enclaves, developers can offload key management tasks from their applications to the AWS-managed service. But integrating an external service with your trusted enclaves comes with new</summary>
+    <summary>Study Finds Four Major AI Labs Use Incompatible Prompt Injection Metrics Yellow.com</summary>
   </entry>
   <entry>
-    <title>CodeRelay: 12 VS Code Extensions Disguised as Developer Tools</title>
-    <link href="https://www.knostic.ai/blog/coderelay-12-vs-code-extensions-disguised-as-developer-tools"/>
-    <id>https://www.knostic.ai/blog/coderelay-12-vs-code-extensions-disguised-as-developer-tools</id>
-    <updated>2026-08-04T15:57:17.000Z</updated>
-    <author><name>Knostic</name></author>
+    <title>Tricking AI in the Job Hunt - Duke Today</title>
+    <link href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE9uSFZPVHo3ckY2Z19aZTVRVmZfclNnck4xRGVVNlFGV28xQ2pBSHBuOVJKc2xsdmo2YVlud29jT2N1ZEpsbzRzU25VTjg2Y3JkVDlSN3F2WGRRcmN0OHh2Qg?oc=5"/>
+    <id>https://news.google.com/rss/articles/CBMiYEFVX3lxTE9uSFZPVHo3ckY2Z19aZTVRVmZfclNnck4xRGVVNlFGV28xQ2pBSHBuOVJKc2xsdmo2YVlud29jT2N1ZEpsbzRzU25VTjg2Y3JkVDlSN3F2WGRRcmN0OHh2Qg?oc=5</id>
+    <updated>2026-08-10T13:55:27.000Z</updated>
+    <author><name>GN: Prompt Injection</name></author>
     <category term="AI SECURITY"/>
-    <summary>CodeRelay is the name we gave to a coordinated campaign involving 13 malicious VSIX packages across 12 VS Code extensions. Most look like compiler, code-runner, or “timeline” tools, but their code is designed to send developer chat data to external LLM services. This report is based on static analysis only: we did not </summary>
+    <summary>Tricking AI in the Job Hunt Duke Today</summary>
   </entry>
   <entry>
     <title>Hackers breached a small Polish energy plant via private APN last year</title>
