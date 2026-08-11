@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-11T15:08:49.419Z</updated>
+  <updated>2026-08-11T17:07:31.669Z</updated>
   <entry>
     <title>Introducing Muse Glimmer</title>
     <link href="https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything"/>
@@ -14,15 +14,6 @@
     <author><name>Simon Willison</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Introducing Muse Glimmer Meta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old). They claim to have optimized it for exactly the kind of things I'm looking for in a local model: End-to-end Agentic Task Completion. M</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp b10360 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10360"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10360</id>
-    <updated>2026-08-11T13:19:20.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>common/peg : suppress incomplete escape sequences ( #26780 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan)  — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
     <title>qwen-code v0.21.10 released</title>
@@ -34,21 +25,31 @@
     <summary>Highlights Added ACP support for configuring reasoning effort levels from Default to Max via session configuration. ( #8526 ) Clicking uploaded or pasted images in the Web Shell now opens a preview in the artifact panel with download support. ( #8930 ) Fixed AutoFix timeouts by enabling streamed progress output to dete — Also covered by: anthropics/claude-code</summary>
   </entry>
   <entry>
-    <title>US and South Korea warn of Gunra ransomware targeting govt agencies</title>
-    <link href="https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/"/>
-    <id>https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/</id>
-    <updated>2026-08-11T09:47:06.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>U.S. federal agencies and South Korea's National Policy Agency warned government and critical infrastructure organizations worldwide to secure their systems against Gunra ransomware attacks. [...] — Also covered by: The Record</summary>
+    <title>NVIDIA Nemotron 3.5 Lightning just landed in Cline</title>
+    <link href="https://cline.ghost.io/nvidia-nemotron-3-5-lightning-available-in-cline/"/>
+    <id>https://cline.ghost.io/nvidia-nemotron-3-5-lightning-available-in-cline/</id>
+    <updated>2026-08-11T14:36:23.000Z</updated>
+    <author><name>Cline Blog</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>NVIDIA Nemotron 3.5 Lightning is now available in Cline, bringing a 30B MoE model with 3B active parameters, up to 1M context, and high throughput for agentic coding workflows. — Also covered by: Ollama Blog</summary>
   </entry>
   <entry>
-    <title>Meta is back with Muse Glimmer: local, agentic, multimodal, and open source</title>
-    <link href="https://huggingface.co/blog/muse-glimmer"/>
-    <id>https://huggingface.co/blog/muse-glimmer</id>
-    <updated>2026-08-10T00:00:00.000Z</updated>
-    <author><name>Hugging Face Blog</name></author>
-    <category term="RESEARCH"/>
+    <title>Nemotron 3.5 Lightning NVFP4</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1vllg29/nemotron_35_lightning_nvfp4/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1vllg29/nemotron_35_lightning_nvfp4/</id>
+    <updated>2026-08-11T15:56:55.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>So I ran today's release Nemotron 3.5 Lightning on one DGX Spark (GB10, 128 GB unified) via the official ARM64 vLLM 0.27.1 path, target-only against the published DSpark draft at depth 3. The nemotron_v3 reasoning separation and native qwen3_coder tool calls worked without changes. Throughput, single deterministic prom — Also covered by: Ollama Blog</summary>
+  </entry>
+  <entry>
+    <title>Run Local Agentic AI Workflows with Meta’s Muse Glimmer on NVIDIA</title>
+    <link href="https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/"/>
+    <id>https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/</id>
+    <updated>2026-08-10T13:27:19.000Z</updated>
+    <author><name>NVIDIA Dev Blog</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Meta returns to the open source ecosystem with the release of Muse Glimmer, a 30B open-weight dense model with a 120K+ context window built for local AI... — Also covered by: Hugging Face Blog</summary>
   </entry>
   <entry>
     <title>ollama v0.32.9 released</title>
@@ -69,22 +70,22 @@
     <summary>Stephanie Palazzolo / The Information : Source: Trajectory, founded by ex-DeepMind, Apple, OpenAI, and Meta staffers to build continual learning models, raised $40M led by Sequoia at a $300M valuation — As closed-source models have gotten more expensive, businesses have found workarounds by customizing open-source AI f</summary>
   </entry>
   <entry>
-    <title>Introducing Unsloth Desktop app</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vlj87v/introducing_unsloth_desktop_app/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vlj87v/introducing_unsloth_desktop_app/</id>
-    <updated>2026-08-11T14:36:02.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>llama.cpp b10360 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10360"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10360</id>
+    <updated>2026-08-11T13:19:20.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Hi LocalLlama, we're super excited to release Unsloth Desktop today! 🦥 It's the first desktop app that enables you to run and train models locally. Open-source. Available on Mac, Windows, and Linux Supports MLX, diffusion image/video models, audio models, and GGUF You can run MiniMax-H3, Muse Glimmer, soon Qwen 3.8 et</summary>
+    <summary>common/peg : suppress incomplete escape sequences ( #26780 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) </summary>
   </entry>
   <entry>
-    <title>NYSE Parent ICE Looks to Raise About $3.5 Billion From Bond Sale</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-11/nyse-parent-ice-kicks-off-bond-sale-for-marketaxess-takeover"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-11/nyse-parent-ice-kicks-off-bond-sale-for-marketaxess-takeover</id>
-    <updated>2026-08-11T13:18:02.000Z</updated>
+    <title>'Guac Signal' Sparked Chipotle's Frantic Bid to Recall Jalapeños</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-11/-guac-signal-sparked-chipotle-s-bid-to-recall-jalapenos-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-11/-guac-signal-sparked-chipotle-s-bid-to-recall-jalapenos-video</id>
+    <updated>2026-08-11T16:52:29.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Intercontinental Exchange Inc. has begun the sale of US investment-grade bonds two weeks after announcing a $6 billion deal to acquire MarketAxess Holdings Inc.</summary>
+    <summary>Chipotle Mexican Grill Inc. figured out that jalapeños were the source of a salmonella outbreak and began an automated recall system to notify restaurants and destroy the tainted peppers. The company was able to identify the problematic ingredient before health agencies announced nationwide recalls, and it quickly repl</summary>
   </entry>
   <entry>
     <title>Unified Hallucination Fuzzing for Multimodal Large Language Models</title>
@@ -105,13 +106,13 @@
     <summary>OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability research, penetration testing, and incident response. &quot;Built on GPT‑5.6 Sol, it is trained to improve capabilities on several specialized cybersecurity tasks (e.g., finding zero-day vulnerabilities </summary>
   </entry>
   <entry>
-    <title>Nvidia releases Nemotron 3.5 Lightning, an open 30B-parameter MoE model that it says offers up to 4x faster output, and agentic AI model router NeMo Switchyard (Kyt Dotson/SiliconANGLE)</title>
-    <link href="https://www.techmeme.com/260811/p18#a260811p18"/>
-    <id>https://www.techmeme.com/260811/p18#a260811p18</id>
-    <updated>2026-08-11T13:20:05.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents</title>
+    <link href="https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/"/>
+    <id>https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/</id>
+    <updated>2026-08-11T13:00:25.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
     <category term="HARDWARE"/>
-    <summary>Kyt Dotson / SiliconANGLE : Nvidia releases Nemotron 3.5 Lightning, an open 30B-parameter MoE model that it says offers up to 4x faster output, and agentic AI model router NeMo Switchyard — Artificial intelligence silicon and software giant Nvidia Corp. today announced two new services: a highly customizable Nemotron m</summary>
+    <summary>The open source ecosystem is making it easier for AI enthusiasts and developers to build, customize and run increasingly capable agents locally. Throughout August, NVIDIA is celebrating the partners and open source communities moving local AI forward, along with the models, applications and tools emerging across the ec</summary>
   </entry>
   <entry>
     <title>How many of your agent's calls actually need a frontier model?</title>
@@ -141,58 +142,85 @@
     <summary>The future of humanoid robotics is closer than most people realize. The post The 370-billion-dollar race: How integrated design can help humanoid manufacturers succeed in a rapidly growing market appeared first on The Robot Report .</summary>
   </entry>
   <entry>
-    <title>QuSecure Adds Post-Quantum Cryptography Platform to Carahsoft GSA Schedule</title>
-    <link href="https://thequantuminsider.com/2026/08/11/qusecure-post-quantum-cryptography-solutions-carahsoft-gsa-schedule/"/>
-    <id>https://thequantuminsider.com/2026/08/11/qusecure-post-quantum-cryptography-solutions-carahsoft-gsa-schedule/</id>
-    <updated>2026-08-11T14:39:03.000Z</updated>
+    <title>Honda Invests in Quemix to Advance Quantum Computing Applications for Materials Research</title>
+    <link href="https://thequantuminsider.com/2026/08/11/honda-invests-quemix-quantum-computing-materials-research/"/>
+    <id>https://thequantuminsider.com/2026/08/11/honda-invests-quemix-quantum-computing-materials-research/</id>
+    <updated>2026-08-11T16:29:01.000Z</updated>
     <author><name>The Quantum Insider</name></author>
     <category term="QUANTUM"/>
-    <summary>Insider Brief Press release – QuSecure™, Inc., a leader in post-quantum cryptography (PQC) and cryptographic agility, and Carahsoft Technology Corp., The Trusted Government IT Solutions Provider®, today announced that QuSecure’s post-quantum cryptography (PQC) and cryptographic-agility solutions have been added to Cara</summary>
+    <summary>Insider Brief Press release – Quemix Inc. (Head Office: Chuo-ku, Tokyo; President and CEO: Yu-ichiro Matsushita; hereinafter “Quemix“), a company engaged in the research and development of quantum computer algorithms and software, is pleased to announce that it has received an investment from Honda Motor Co., Ltd. (Hea</summary>
   </entry>
   <entry>
-    <title>Anthropic's planned mega-IPO faces investor skepticism over Chinese rivals and political headwinds</title>
-    <link href="https://the-decoder.com/anthropics-planned-mega-ipo-faces-investor-skepticism-over-chinese-rivals-and-political-headwinds/"/>
-    <id>https://the-decoder.com/anthropics-planned-mega-ipo-faces-investor-skepticism-over-chinese-rivals-and-political-headwinds/</id>
-    <updated>2026-08-11T12:49:15.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>In-region inference, open models, and new European infrastructure for sovereign AI.</title>
+    <link href="https://mistral.ai/news/regional-inference-open-models-new-compute/"/>
+    <id>https://mistral.ai/news/regional-inference-open-models-new-compute/</id>
+    <updated>2026-08-11T12:00:27.000Z</updated>
+    <author><name>Mistral AI</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Anthropic is preparing an IPO for September or October, according to the Wall Street Journal, potentially the largest ever. During investor meetings, the company, valued at $965 billion, is fielding tough questions about Chinese competition, tensions with the Trump administration, and protests against data center const</summary>
+    <summary>Mistral is bringing together the inference infrastructure, open models, and long-term commitments Europe needs to control its AI future, and setting a roadmap for the world.</summary>
   </entry>
   <entry>
-    <title>TSMC and Sony plan to form Advanced Vision Semiconductor Manufacturing Corp, a $4.69B joint venture in Japan to make next-gen smartphone image sensors from 2029 (Reuters)</title>
-    <link href="https://www.techmeme.com/260811/p19#a260811p19"/>
-    <id>https://www.techmeme.com/260811/p19#a260811p19</id>
-    <updated>2026-08-11T13:35:05.000Z</updated>
+    <title>AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.</title>
+    <link href="https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/"/>
+    <id>https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/</id>
+    <updated>2026-08-11T17:00:00.000Z</updated>
+    <author><name>Google AI Blog</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Google introduces AMIE for real-time clinical video consultations in simulated settings.</summary>
+  </entry>
+  <entry>
+    <title>Flight tracking platform FlightAware sues Kalshi in New York, alleging Kalshi is using its data without permission to let users bet on flight cancellations (Jack Morphet/Wall Street Journal)</title>
+    <link href="https://www.techmeme.com/260811/p25#a260811p25"/>
+    <id>https://www.techmeme.com/260811/p25#a260811p25</id>
+    <updated>2026-08-11T16:30:02.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Reuters : TSMC and Sony plan to form Advanced Vision Semiconductor Manufacturing Corp, a $4.69B joint venture in Japan to make next-gen smartphone image sensors from 2029 — Taiwanese chipmaker TSMC (2330.TW) and Sony Group (6758.T) said on Tuesday they will form a $4.69 billion joint venture to develop …</summary>
+    <summary>Jack Morphet / Wall Street Journal : Flight tracking platform FlightAware sues Kalshi in New York, alleging Kalshi is using its data without permission to let users bet on flight cancellations — FlightAware says such markets could incentivize unsafe tactics to impact cancellations and create the potential for disruptio</summary>
   </entry>
   <entry>
-    <title>Luth-2: New State-of-the-Art French Small Language Models</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vlbto8/luth2_new_stateoftheart_french_small_language/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vlbto8/luth2_new_stateoftheart_french_small_language/</id>
-    <updated>2026-08-11T08:41:13.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>Spotify will label ‘AI Persona’ profiles and exclude their music from recommendations</title>
+    <link href="https://techcrunch.com/2026/08/11/spotify-will-label-ai-persona-profiles-and-exclude-their-music-from-recommendations/"/>
+    <id>https://techcrunch.com/2026/08/11/spotify-will-label-ai-persona-profiles-and-exclude-their-music-from-recommendations/</id>
+    <updated>2026-08-11T13:00:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Spotify is introducing “AI Persona” labels for artist profiles that represent AI-generated identities and will exclude their music from editorial, algorithmic, and personalized recommendations by default.</summary>
+  </entry>
+  <entry>
+    <title>A custom Qwen 35B that can run on just a 4GB GPU</title>
+    <link href="https://sh.itjust.works/post/64928427"/>
+    <id>https://sh.itjust.works/post/64928427</id>
+    <updated>2026-08-11T15:49:38.000Z</updated>
+    <author><name>Lemmy c/localllama</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Hey everyone, Today we release Luth-2-0.8B and Luth2-2-2B , two non-reasoning models that set a new state of the art for French across a wide variety of tasks for their size 🚀 A few notable scores on French benchmarks compared to models 〜3 times their size: - Luth-2-2B scores 69.67 vs Gemma-4-E2B-it at 65.17 on Multi-</summary>
+    <summary>submitted by ZephyrXero to localllama 1 points | 0 comments https://microflare.bearblog.dev/introducing-microflare-v1/</summary>
   </entry>
   <entry>
-    <title>Apollo Inks $2.6 Billion Financing Deal With the Yankees</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-11/apollo-inks-2-6-billion-financing-deal-with-the-yankees-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-11/apollo-inks-2-6-billion-financing-deal-with-the-yankees-video</id>
-    <updated>2026-08-11T15:01:39.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Apollo Global Management is providing $2.6 billion of financing to the owners of the New York Yankees, the private capital giant’s largest investment to date in US sports. Randall Williams has more on &quot;Bloomberg Open Interest.&quot; (Source: Bloomberg)</summary>
+    <title>vllm v0.27.1 released</title>
+    <link href="https://github.com/vllm-project/vllm/releases/tag/v0.27.1"/>
+    <id>https://github.com/vllm-project/vllm/releases/tag/v0.27.1</id>
+    <updated>2026-08-11T10:49:10.000Z</updated>
+    <author><name>vllm-project/vllm</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>This is a patch release on top of v0.27.0. Support quantized DSpark Markov heads ( #50424 )</summary>
   </entry>
   <entry>
-    <title>Atlanta Airport Taps Munis for $1.1 Billion as Sector Sales Lag</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-11/atlanta-airport-taps-munis-for-1-1-billion-as-sector-sales-lag"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-11/atlanta-airport-taps-munis-for-1-1-billion-as-sector-sales-lag</id>
-    <updated>2026-08-11T14:36:41.000Z</updated>
+    <title>AI Billions, Oil Swings and an Inflation Test | Open Interest 8/11/2026</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-11/open-interest-8-11-2026-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-11/open-interest-8-11-2026-video</id>
+    <updated>2026-08-11T16:38:44.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The world’s busiest airport is coming to market with a more than $1 billion municipal bond sale, boosting issuance in the lagging airport sector.</summary>
+    <summary>Get a jump start on the US trading day with David Gura and Vonnie Quinn on &quot;Bloomberg Open Interest.&quot; The AI money machine keeps rolling as Intel, Nvidia and Anthropic line up billions. Meanwhile, oil erases earlier gains as Pakistan signals optimism over a US-Iran deal. And an inflation test looms as investors brace f</summary>
+  </entry>
+  <entry>
+    <title>Apollo Inks $2.6 Billion Financing Deal With NY Yankees</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-11/apollo-inks-2-6-billion-financing-deal-with-ny-yankees-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-11/apollo-inks-2-6-billion-financing-deal-with-ny-yankees-video</id>
+    <updated>2026-08-11T16:24:05.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Apollo Global Management Inc. is providing $2.6 billion of financing to the owners of the New York Yankees, the private capital giant’s largest investment to date in US sports. Bloomberg Sports Reporter Randall Williams joins to break down the deal, and what it means for the Yankees and future sports financing. (Source</summary>
   </entry>
   <entry>
     <title>WuYuEval: A Multi-Level Benchmark for Large Language Models in Solid Waste Management</title>
@@ -213,22 +241,13 @@
     <summary>OpenAI is rolling out &quot;Premium Seats&quot; for ChatGPT Business customers at $125 per user per month, five times the price of the existing Standard Seats. In return, users get significantly more capacity and no five-hour usage limit. The move signals that the flat-rate pricing AI providers have offered so far was never goin</summary>
   </entry>
   <entry>
-    <title>Per-model token breakdown in the usage report</title>
-    <link href="https://github.blog/changelog/2026-08-11-per-model-token-breakdown-in-the-usage-report"/>
-    <id>https://github.blog/changelog/2026-08-11-per-model-token-breakdown-in-the-usage-report</id>
-    <updated>2026-08-11T14:41:52.000Z</updated>
-    <author><name>GitHub Copilot Changelog</name></author>
+    <title>How Pixieset achieved 35% AI feature adoption by solving the right problem with Amazon Bedrock</title>
+    <link href="https://aws.amazon.com/blogs/machine-learning/how-pixieset-achieved-35-ai-feature-adoption-by-solving-the-right-problem-with-amazon-bedrock/"/>
+    <id>https://aws.amazon.com/blogs/machine-learning/how-pixieset-achieved-35-ai-feature-adoption-by-solving-the-right-problem-with-amazon-bedrock/</id>
+    <updated>2026-08-11T16:11:15.000Z</updated>
+    <author><name>AWS ML Blog</name></author>
     <category term="PRODUCTS"/>
-    <summary>You can now see a per-model breakdown of the tokens behind your AI credits in the usage report. For each model, the AI usage report shows the input, output, cache… The post Per-model token breakdown in the usage report appeared first on The GitHub Blog .</summary>
-  </entry>
-  <entry>
-    <title>NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents</title>
-    <link href="https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/"/>
-    <id>https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/</id>
-    <updated>2026-08-11T13:00:25.000Z</updated>
-    <author><name>NVIDIA Blog</name></author>
-    <category term="HARDWARE"/>
-    <summary>The open source ecosystem is making it easier for AI enthusiasts and developers to build, customize and run increasingly capable agents locally. Throughout August, NVIDIA is celebrating the partners and open source communities moving local AI forward, along with the models, applications and tools emerging across the ec</summary>
+    <summary>Photographers are among the most skeptical audiences for generative AI. Learn how Pixieset used Amazon Bedrock to launch an AI-generated alt text feature to millions of users in four months, reaching 35% adoption by automating the tedious image SEO work photographers avoid, without touching the creative craft they take</summary>
   </entry>
   <entry>
     <title>b10362: tests : disable backend sampler hip multi output (#26878)</title>
@@ -240,39 +259,21 @@
     <summary>test-backend-sampler: skip multi_output_sampling_chain on HIP The new multi_output_sampling_chain test uses top_k, whose backend probs path needs CUB (unavailable on HIP), so sampled_probs is null and the test aborts. Add it to the existing HIP skip list alongside the other TOP_K tests. ci: keep gpu-rocm logs in a per-</summary>
   </entry>
   <entry>
-    <title>Evolving Safety Landscape of Multi-modal Large Language Models: A Survey of Emerging Threats and Safeguards</title>
-    <link href="https://arxiv.org/abs/2608.07535"/>
-    <id>https://arxiv.org/abs/2608.07535</id>
-    <updated>2026-08-11T04:00:00.000Z</updated>
-    <author><name>arXiv cs.LG</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>arXiv:2608.07535v1 Announce Type: new Abstract: Multi-modal large language models (MLLMs) integrate heterogeneous modalities through modality alignment and fusion, enabling stronger understanding and reasoning. However, this architectural shift reshapes the safety landscape of machine learning. Increased model complexi</summary>
+    <title>Talking with Synopsys about the Physics of Chip Design at DAC 2026</title>
+    <link href="https://chipsandcheese.com/p/talking-with-synopsys-about-the-physics"/>
+    <id>https://chipsandcheese.com/p/talking-with-synopsys-about-the-physics</id>
+    <updated>2026-08-11T16:52:16.000Z</updated>
+    <author><name>Chips and Cheese</name></author>
+    <category term="HARDWARE"/>
+    <summary>Hello you fine Internet folks,</summary>
   </entry>
   <entry>
-    <title>SkillConsist: Detecting Inconsistencies in Agent Skills via Bidirectional Graph Alignment</title>
-    <link href="https://arxiv.org/abs/2608.07639"/>
-    <id>https://arxiv.org/abs/2608.07639</id>
-    <updated>2026-08-11T04:00:00.000Z</updated>
-    <author><name>arXiv cs.LG</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>arXiv:2608.07639v1 Announce Type: new Abstract: Agent Skills provide reusable capabilities to LLM agents. Agent Skill inconsistencies can expose undisclosed dangerous behavior or cause wrong Skill selection. Recent Agent Skill research has increasingly examined Agent Skill consistency detection. Existing methods evalua</summary>
-  </entry>
-  <entry>
-    <title>Straiker Named an OpenAI Select Partner | Straiker</title>
-    <link href="https://www.straiker.ai/blog/straiker-named-an-openai-select-partner"/>
-    <id>https://www.straiker.ai/blog/straiker-named-an-openai-select-partner</id>
-    <updated>2026-08-11T12:00:00.000Z</updated>
-    <author><name>Straiker STAR</name></author>
-    <category term="AI SECURITY"/>
-    <summary>Straiker has been named an OpenAI Select Partner, helping enterprises securely build, deploy, and scale AI agents with testing, runtime protection, and policy enforcement.</summary>
-  </entry>
-  <entry>
-    <title>Claude Code Auto Mode Blocks 89% of Dangerous Commands and Prompt Injection Attacks - gbhackers.com</title>
-    <link href="https://news.google.com/rss/articles/CBMia0FVX3lxTE5wVVJobHVoNEdFQnZvZjFfZElFT2tkcm1MSUppckpwVVdCd18xdzNlMDRvUHhyWENtT3lBSFJJNVVuWnF6Q1UyYTFOc2cyVE93d05iRVRHZ1JzQ2lFUWRLSXVOc1ZtUGQySXU00gFwQVVfeXFMUDJsYVlodW1yR2JKNFFFWE1JTDJFSWw5aThNZjBGakh6VWVwbVhzZHZqejltM3p4Q1B3by1MMVlGTkd4UjlGVjVnUE5FSFpvVEtTbm4wLU5XcE12RjFIRWNOME90bmZ4aFZZQTA1c2hVaQ?oc=5"/>
-    <id>https://news.google.com/rss/articles/CBMia0FVX3lxTE5wVVJobHVoNEdFQnZvZjFfZElFT2tkcm1MSUppckpwVVdCd18xdzNlMDRvUHhyWENtT3lBSFJJNVVuWnF6Q1UyYTFOc2cyVE93d05iRVRHZ1JzQ2lFUWRLSXVOc1ZtUGQySXU00gFwQVVfeXFMUDJsYVlodW1yR2JKNFFFWE1JTDJFSWw5aThNZjBGakh6VWVwbVhzZHZqejltM3p4Q1B3by1MMVlGTkd4UjlGVjVnUE5FSFpvVEtTbm4wLU5XcE12RjFIRWNOME90bmZ4aFZZQTA1c2hVaQ?oc=5</id>
-    <updated>2026-08-11T05:39:01.000Z</updated>
-    <author><name>GN: Prompt Injection</name></author>
-    <category term="AI SECURITY"/>
-    <summary>Claude Code Auto Mode Blocks 89% of Dangerous Commands and Prompt Injection Attacks gbhackers.com</summary>
+    <title>Nvidia's open-weight Nemotron 3.5 Lightning prioritizes speed over maximum intelligence</title>
+    <link href="https://the-decoder.com/nvidias-open-weight-nemotron-3-5-lightning-prioritizes-speed-over-maximum-intelligence/"/>
+    <id>https://the-decoder.com/nvidias-open-weight-nemotron-3-5-lightning-prioritizes-speed-over-maximum-intelligence/</id>
+    <updated>2026-08-11T15:07:44.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Nvidia's Nemotron 3.5 Lightning is an open-weights model with just 3.6 billion active parameters that matches OpenAI's gpt-oss-120b on the Intelligence Index despite being four times smaller. At nearly 670 tokens per second, it's also the fastest model in the comparison, showing Nvidia is betting on efficiency over raw</summary>
   </entry>
 </feed>
