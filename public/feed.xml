@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-11T11:51:28.486Z</updated>
+  <updated>2026-08-11T13:24:35.751Z</updated>
   <entry>
     <title>Introducing Muse Glimmer</title>
     <link href="https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything"/>
@@ -16,13 +16,13 @@
     <summary>Introducing Muse Glimmer Meta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old). They claim to have optimized it for exactly the kind of things I'm looking for in a local model: End-to-end Agentic Task Completion. M</summary>
   </entry>
   <entry>
-    <title>llama.cpp b10359 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10359"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10359</id>
-    <updated>2026-08-11T10:51:07.000Z</updated>
+    <title>llama.cpp b10360 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10360"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10360</id>
+    <updated>2026-08-11T13:19:20.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>ggml-webgpu: fix CI errors from #25025 and #25262 ( #26566 ) test new flash_attn test rebase and fix to disable subgrou matrices when max_kv_tile == 0 delete log output Add i32 support to cpy and enables the all ops test restore the non target ci tests comment out of TODO of build-cpu.yml fix format Website: https://ll — Also covered by: ggml-org/whisper.cpp</summary>
+    <summary>common/peg : suppress incomplete escape sequences ( #26780 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan)  — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
     <title>US and South Korea warn of Gunra ransomware targeting govt agencies</title>
@@ -34,39 +34,31 @@
     <summary>U.S. federal agencies and South Korea's National Policy Agency warned government and critical infrastructure organizations worldwide to secure their systems against Gunra ransomware attacks. [...] — Also covered by: The Record</summary>
   </entry>
   <entry>
-    <title>BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins</title>
-    <link href="https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html"/>
-    <id>https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html</id>
-    <updated>2026-08-11T05:48:44.000Z</updated>
-    <author><name>The Hacker News</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>Cybersecurity researchers have warned of a supply chain compromise impacting WordPress plugin vendor BdThemes, prompting the content management systems (CMS) platform's plugins team to temporarily disable their downloads. &quot;Unlike traditional software supply chain attacks, zero source code files were modified within the — Also covered by: BleepingComputer</summary>
+    <title>Run Local Agentic AI Workflows with Meta’s Muse Glimmer on NVIDIA</title>
+    <link href="https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/"/>
+    <id>https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/</id>
+    <updated>2026-08-10T13:27:19.000Z</updated>
+    <author><name>NVIDIA Dev Blog</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Meta returns to the open source ecosystem with the release of Muse Glimmer, a 30B open-weight dense model with a 120K+ context window built for local AI... — Also covered by: Hugging Face Blog</summary>
   </entry>
   <entry>
-    <title>Meta is back with Muse Glimmer: local, agentic, multimodal, and open source</title>
-    <link href="https://huggingface.co/blog/muse-glimmer"/>
-    <id>https://huggingface.co/blog/muse-glimmer</id>
-    <updated>2026-08-10T00:00:00.000Z</updated>
-    <author><name>Hugging Face Blog</name></author>
-    <category term="RESEARCH"/>
-  </entry>
-  <entry>
-    <title>ollama v0.32.8 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.32.8"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.32.8</id>
-    <updated>2026-08-11T06:39:00.000Z</updated>
+    <title>ollama v0.32.9 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.32.9"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.32.9</id>
+    <updated>2026-08-11T13:24:14.000Z</updated>
     <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Muse Glimmer Muse Glimmer is now available on all platforms. Muse Glimmer can power coding agent applications such as Claude Code, Codex, Pi and more, as well as long-running personal assistants such as OpenClaw and Hermes. Ollama's MLX engine provides state-of-the-art performance on Apple Silicon for this model, with </summary>
+    <summary>NVIDIA Nemotron 3.5 Lightning NVIDIA Nemotron 3.5 Lightning is an open 30B mixture-of-experts (MoE) model with 3B active parameters built for that execution layer of always-on agents. It is designed for harnesses like OpenClaw and Hermes Agent – all supported by the NVIDIA NemoClaw open source security and management s</summary>
   </entry>
   <entry>
-    <title>xAI co-founder Igor Babuschkin's River AI raised $1B led by General Catalyst to build home or small business computer servers capable of running AI locally (Cade Metz/New York Times)</title>
-    <link href="https://www.techmeme.com/260811/p11#a260811p11"/>
-    <id>https://www.techmeme.com/260811/p11#a260811p11</id>
-    <updated>2026-08-11T11:20:00.000Z</updated>
+    <title>Nvidia releases Nemotron 3.5 Lightning, an open 30B-parameter MoE model that it says delivers up to 4x faster output speeds, and an agentic AI model router (Kyt Dotson/SiliconANGLE)</title>
+    <link href="https://www.techmeme.com/260811/p18#a260811p18"/>
+    <id>https://www.techmeme.com/260811/p18#a260811p18</id>
+    <updated>2026-08-11T13:20:05.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Cade Metz / New York Times : xAI co-founder Igor Babuschkin's River AI raised $1B led by General Catalyst to build home or small business computer servers capable of running AI locally — Igor Babuschkin built a new start-up, River AI, and hopes to provide ways for people to “retrain,” or modify, artificial intelligence</summary>
+    <summary>Kyt Dotson / SiliconANGLE : Nvidia releases Nemotron 3.5 Lightning, an open 30B-parameter MoE model that it says delivers up to 4x faster output speeds, and an agentic AI model router — Artificial intelligence silicon and software giant Nvidia Corp. today announced two new services: a highly customizable Nemotron model</summary>
   </entry>
   <entry>
     <title>Chinese robot maker’s IPO 5,500 times oversubscribed by retail investors</title>
@@ -87,13 +79,13 @@
     <summary>arXiv:2608.07525v1 Announce Type: new Abstract: Hallucination remains a persistent challenge for Multimodal Large Language Models (MLLMs), severely limiting their reliability in high-stakes applications. Existing evaluations, predominantly based on static benchmarks, suffer from narrow taxonomical coverage and rapid pe</summary>
   </entry>
   <entry>
-    <title>transformers v5.15.0 released</title>
-    <link href="https://github.com/huggingface/transformers/releases/tag/v5.15.0"/>
-    <id>https://github.com/huggingface/transformers/releases/tag/v5.15.0</id>
-    <updated>2026-08-10T10:28:13.000Z</updated>
-    <author><name>huggingface/transformers</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Release v5.15.0 New Model additions Meta Muse Glimmer Muse Glimmer, released today, is Meta’s new multimodal model, especially designed for agentic use cases. Distilled from Muse to 30B parameters, and released under the Apache 2.0 license, it can be deployed to local setups for privacy-aware applications such as codin</summary>
+    <title>OpenAI introduces $125 Premium Seats for ChatGPT Business as agentic AI burns through more tokens</title>
+    <link href="https://the-decoder.com/openai-introduces-125-premium-seats-for-chatgpt-business-as-agentic-ai-burns-through-more-tokens/"/>
+    <id>https://the-decoder.com/openai-introduces-125-premium-seats-for-chatgpt-business-as-agentic-ai-burns-through-more-tokens/</id>
+    <updated>2026-08-11T11:51:01.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="PRODUCTS"/>
+    <summary>OpenAI is rolling out &quot;Premium Seats&quot; for ChatGPT Business customers at $125 per user per month, five times the price of the existing Standard Seats. In return, users get significantly more capacity and no five-hour usage limit. The move signals that the flat-rate pricing AI providers have offered so far was never goin</summary>
   </entry>
   <entry>
     <title>Evolving Safety Landscape of Multi-modal Large Language Models: A Survey of Emerging Threats and Safeguards</title>
@@ -114,13 +106,13 @@
     <summary>OpenAI Launches Lockdown Mode To Block Prompt Injection Attacks Yellow.com</summary>
   </entry>
   <entry>
-    <title>Gunra Ransomware Exploits Fortinet and Schneider Electric Flaws to Breach Networks</title>
-    <link href="https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html"/>
-    <id>https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html</id>
-    <updated>2026-08-11T09:16:24.000Z</updated>
-    <author><name>The Hacker News</name></author>
+    <title>Mozilla updates GPG signing key for Firefox releases after exposure</title>
+    <link href="https://www.bleepingcomputer.com/news/security/mozilla-updates-gpg-key-for-signing-firefox-thunderbird-releases-after-exposure/"/>
+    <id>https://www.bleepingcomputer.com/news/security/mozilla-updates-gpg-key-for-signing-firefox-thunderbird-releases-after-exposure/</id>
+    <updated>2026-08-11T13:20:28.000Z</updated>
+    <author><name>BleepingComputer</name></author>
     <category term="CYBER THREATS"/>
-    <summary>Cybersecurity and intelligence agencies from South Korea and the U.S. warned of Gunra ransomware attacks targeting critical infrastructure sectors and organizations across the world. Targets of these attacks include healthcare and public health, financial services, government services and facilities, and professional a</summary>
+    <summary>Mozilla announced today that it updated the GPG key used to sign Firefox and Thunderbird releases after it was accidentally exposed on GitHub. [...]</summary>
   </entry>
   <entry>
     <title>Kimwolf v7: An Evolution of the Kimwolf Botnet</title>
@@ -141,6 +133,15 @@
     <summary>Insider Brief Press release – Morgan Stanley today announced the launch of the U.S. Innovation Infrastructure Initiative to finance and enable America’s next era of growth. In recognition of having recently celebrated America’s 250th anniversary, the Firm intends to facilitate approximately $1.5 trillion of capital rai</summary>
   </entry>
   <entry>
+    <title>Anthropic's planned mega-IPO faces investor skepticism over Chinese rivals and political headwinds</title>
+    <link href="https://the-decoder.com/anthropics-planned-mega-ipo-faces-investor-skepticism-over-chinese-rivals-and-political-headwinds/"/>
+    <id>https://the-decoder.com/anthropics-planned-mega-ipo-faces-investor-skepticism-over-chinese-rivals-and-political-headwinds/</id>
+    <updated>2026-08-11T12:49:15.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Anthropic is preparing an IPO for September or October, according to the Wall Street Journal, potentially the largest ever. During investor meetings, the company, valued at $965 billion, is fielding tough questions about Chinese competition, tensions with the Trump administration, and protests against data center const</summary>
+  </entry>
+  <entry>
     <title>Anthropic signs $9.1 billion data center deal with Bitcoin miner Riot Platforms</title>
     <link href="https://the-decoder.com/anthropic-signs-9-1-billion-data-center-deal-with-bitcoin-miner-riot-platforms/"/>
     <id>https://the-decoder.com/anthropic-signs-9-1-billion-data-center-deal-with-bitcoin-miner-riot-platforms/</id>
@@ -150,67 +151,67 @@
     <summary>Anthropic is leasing $9.1 billion worth of data center capacity from Bitcoin miner Riot Platforms in Texas, according to Bloomberg. The deal covers 191 megawatts at Riot's Rockdale site, with extension options that could push the total value to $16.1 billion. It's the latest in an aggressive infrastructure push that sp</summary>
   </entry>
   <entry>
-    <title>Nvidia guarantees its own chips' value to unlock $500 billion in AI infrastructure financing</title>
-    <link href="https://the-decoder.com/nvidia-guarantees-its-own-chips-value-to-unlock-500-billion-in-ai-infrastructure-financing/"/>
-    <id>https://the-decoder.com/nvidia-guarantees-its-own-chips-value-to-unlock-500-billion-in-ai-infrastructure-financing/</id>
-    <updated>2026-08-11T09:41:03.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Nvidia is teaming up with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR to mobilize over $500 billion for AI infrastructure. To win over investors, the chipmaker is guaranteeing up to 25 percent of the residual value of its own hardware. The Bank of England is already warning of systemic risks if th</summary>
-  </entry>
-  <entry>
-    <title>Big Tech's AI boom echoes the 1870s railroad expansion, and Nvidia shifting risk to institutional capital may expose investors if revenues fail to materialize (Ben Thompson/Stratechery)</title>
-    <link href="https://www.techmeme.com/260811/p13#a260811p13"/>
-    <id>https://www.techmeme.com/260811/p13#a260811p13</id>
-    <updated>2026-08-11T11:45:01.000Z</updated>
+    <title>Bumble rolls out a global update letting any user send an opening message after matching, a major reversal from its signature women-go-first model (Samantha Kelly/Bloomberg)</title>
+    <link href="https://www.techmeme.com/260811/p16#a260811p16"/>
+    <id>https://www.techmeme.com/260811/p16#a260811p16</id>
+    <updated>2026-08-11T13:00:54.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Ben Thompson / Stratechery : Big Tech's AI boom echoes the 1870s railroad expansion, and Nvidia shifting risk to institutional capital may expose investors if revenues fail to materialize — On January 1, 1870, Jay Cooke, hailed as an American hero for his role in financing the Union effort in the Civil War …</summary>
+    <summary>Samantha Kelly / Bloomberg : Bumble rolls out a global update letting any user send an opening message after matching, a major reversal from its signature women-go-first model — Bumble Inc. will allow men to make the first move in messaging on its dating app, marking a major reversal from the company's signature women </summary>
   </entry>
   <entry>
-    <title>An NYC bill, backed by Mayor Zohran Mamdani, calls for Amazon, FedEx, and others to directly employ thousands of delivery workers; the bill could pass this fall (Bloomberg)</title>
-    <link href="https://www.techmeme.com/260811/p12#a260811p12"/>
-    <id>https://www.techmeme.com/260811/p12#a260811p12</id>
-    <updated>2026-08-11T11:35:00.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Spotify will label ‘AI Persona’ profiles and exclude their music from recommendations</title>
+    <link href="https://techcrunch.com/2026/08/11/spotify-will-label-ai-persona-profiles-and-exclude-their-music-from-recommendations/"/>
+    <id>https://techcrunch.com/2026/08/11/spotify-will-label-ai-persona-profiles-and-exclude-their-music-from-recommendations/</id>
+    <updated>2026-08-11T13:00:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Bloomberg : An NYC bill, backed by Mayor Zohran Mamdani, calls for Amazon, FedEx, and others to directly employ thousands of delivery workers; the bill could pass this fall — A New York City bill calls for the company to hire thousands of contract couriers. Amazon says the proposal will make delivery pricier and slower</summary>
+    <summary>Spotify is introducing “AI Persona” labels for artist profiles that represent AI-generated identities and will exclude their music from editorial, algorithmic, and personalized recommendations by default.</summary>
   </entry>
   <entry>
-    <title>Luth-2: New State-of-the-Art French Small Language Models</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vlbto8/luth2_new_stateoftheart_french_small_language/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vlbto8/luth2_new_stateoftheart_french_small_language/</id>
-    <updated>2026-08-11T08:41:13.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>vllm v0.27.1 released</title>
+    <link href="https://github.com/vllm-project/vllm/releases/tag/v0.27.1"/>
+    <id>https://github.com/vllm-project/vllm/releases/tag/v0.27.1</id>
+    <updated>2026-08-11T10:49:10.000Z</updated>
+    <author><name>vllm-project/vllm</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Hey everyone, Today we release Luth-2-0.8B and Luth2-2-2B , two non-reasoning models that set a new state of the art for French across a wide variety of tasks for their size 🚀 A few notable scores on French benchmarks compared to models 〜3 times their size: - Luth-2-2B scores 69.67 vs Gemma-4-E2B-it at 65.17 on Multi-</summary>
+    <summary>This is a patch release on top of v0.27.0. Support quantized DSpark Markov heads ( #50424 )</summary>
   </entry>
   <entry>
-    <title>Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets</title>
-    <link href="https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html"/>
-    <id>https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html</id>
-    <updated>2026-08-11T10:24:00.000Z</updated>
-    <author><name>The Hacker News</name></author>
+    <title>Glimmer 30B first impressions (vs Qwen 3.6 27B)</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1vld8uz/glimmer_30b_first_impressions_vs_qwen_36_27b/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1vld8uz/glimmer_30b_first_impressions_vs_qwen_36_27b/</id>
+    <updated>2026-08-11T10:04:26.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>I've been testing out Glimmer since yesterday afternoon for coding, and I wanted to share my first impressions. Details on my setup: - GPU: R9700 - Agent: pi - quant: kquant-dynamic (meta release) - k/v cache: q8_0 - context: 131k - DFlash w/16 draft tokens I'm comparing to Qwen 3.6 27B (normal daily driver): - quant: </summary>
+  </entry>
+  <entry>
+    <title>NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents</title>
+    <link href="https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/"/>
+    <id>https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/</id>
+    <updated>2026-08-11T13:00:25.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>A malicious tool server connected to an AI coding assistant can quietly walk off with SSH keys, environment secrets, source code, and customer data without ever sending one obviously harmful instruction. The trick can work even after a blunt version of the same theft is refused: split the request into fragments that ea</summary>
+    <summary>The open source ecosystem is making it easier for AI enthusiasts and developers to build, customize and run increasingly capable agents locally. Throughout August, NVIDIA is celebrating the partners and open source communities moving local AI forward, along with the models, applications and tools emerging across the ec</summary>
   </entry>
   <entry>
-    <title>India’s Retail Traders Lost $9.6 Billion in Equity Derivatives</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-11/india-s-retail-traders-lost-9-6-billion-in-equity-derivatives"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-11/india-s-retail-traders-lost-9-6-billion-in-equity-derivatives</id>
-    <updated>2026-08-11T10:37:26.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
+    <title>Humans cannot remain passengers in the back of the AGI car</title>
+    <link href="https://www.ft.com/content/33094bff-546e-4ac2-a949-af2e9daaa3f0?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/33094bff-546e-4ac2-a949-af2e9daaa3f0?syn-25a6b1a6=1</id>
+    <updated>2026-08-11T12:44:32.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
     <category term="AI FINANCE"/>
-    <summary>Individuals in India lost 916.85 billion rupees ($9.6 billion) buying and selling equity futures and options in the year ended March, down from 1.1 trillion rupees a year earlier, the government told lawmakers on Tuesday.</summary>
+    <summary>A sense of fatalistic inevitability about the technology’s evolution is triggering something close to despair</summary>
   </entry>
   <entry>
-    <title>Turkish Funds Urge Action as Stock Swings Threaten MSCI Status</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-11/turkish-funds-urge-action-as-stock-swings-threaten-msci-status"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-11/turkish-funds-urge-action-as-stock-swings-threaten-msci-status</id>
-    <updated>2026-08-11T11:05:32.000Z</updated>
+    <title>Veritas-Backed Gainwell Kicks Off Bond Part of $5.8 Billion Deal</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-11/veritas-backed-gainwell-kicks-off-bond-part-of-5-8-billion-deal"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-11/veritas-backed-gainwell-kicks-off-bond-part-of-5-8-billion-deal</id>
+    <updated>2026-08-11T12:31:15.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Turkish investment funds are urging authorities to crack down on unusual trading activity that’s sent some stock prices soaring and has put the nation at risk of exclusion from major equity benchmarks.</summary>
+    <summary>Gainwell Technologies has started the next leg of a broader $5.8 billion debt overhaul that marks the US software sector’s biggest financing of 2026 in the junk-debt market.</summary>
   </entry>
   <entry>
     <title>WuYuEval: A Multi-Level Benchmark for Large Language Models in Solid Waste Management</title>
@@ -222,6 +223,24 @@
     <summary>arXiv:2608.07529v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used as technical assistants, but their competence in solid waste management (SWM) remains difficult to assess because existing benchmarks emphasize general knowledge rather than professional decisions under engineering, envir</summary>
   </entry>
   <entry>
+    <title>Towards an Argumentative Foundation for Evaluative AI</title>
+    <link href="https://arxiv.org/abs/2608.07473"/>
+    <id>https://arxiv.org/abs/2608.07473</id>
+    <updated>2026-08-11T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
+    <category term="RESEARCH"/>
+    <summary>arXiv:2608.07473v1 Announce Type: new Abstract: Evaluative AI (EAI) has been recently proposed as a way to support human decision-making, not by producing a single recommendation, but by presenting competing hypotheses together with evidence for and against each. In this position paper, we advocate (computational) argu</summary>
+  </entry>
+  <entry>
+    <title>Apple's iOS 27 beta 5 contains references to six unreleased iPhones: iPhone Air 2, iPhone 18 Pro, iPhone 18 Pro Max, iPhone 18, iPhone Ultra, and iPhone 18e (Filipe Esposito/Macworld)</title>
+    <link href="https://www.techmeme.com/260811/p15#a260811p15"/>
+    <id>https://www.techmeme.com/260811/p15#a260811p15</id>
+    <updated>2026-08-11T12:50:02.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Filipe Esposito / Macworld : Apple's iOS 27 beta 5 contains references to six unreleased iPhones: iPhone Air 2, iPhone 18 Pro, iPhone 18 Pro Max, iPhone 18, iPhone Ultra, and iPhone 18e — Hidden references in Apple's latest beta reveal unreleased iPhones, including the iPhone Ultra. — On Monday, Apple released iOS 27 b</summary>
+  </entry>
+  <entry>
     <title>As AI-led attacks multiply, OpenAI launches a new cyber model</title>
     <link href="https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/"/>
     <id>https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/</id>
@@ -229,15 +248,6 @@
     <author><name>TechCrunch AI</name></author>
     <category term="PRODUCTS"/>
     <summary>OpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it.</summary>
-  </entry>
-  <entry>
-    <title>OpenAI launches GPT-5.6-Cyber to help defenders find vulnerabilities before attackers do</title>
-    <link href="https://the-decoder.com/openai-launches-gpt-5-6-cyber-to-help-defenders-find-vulnerabilities-before-attackers-do/"/>
-    <id>https://the-decoder.com/openai-launches-gpt-5-6-cyber-to-help-defenders-find-vulnerabilities-before-attackers-do/</id>
-    <updated>2026-08-10T18:01:30.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="PRODUCTS"/>
-    <summary>OpenAI aims to give cybersecurity defenders a head start: The new GPT-5.6-Cyber model answers up to 98.5 percent of security queries that would otherwise be blocked and has already uncovered two previously unknown Chrome vulnerabilities. According to OpenAI, the window of opportunity for defenders is shrinking. Access </summary>
   </entry>
   <entry>
     <title>b10362: tests : disable backend sampler hip multi output (#26878)</title>
@@ -249,13 +259,13 @@
     <summary>test-backend-sampler: skip multi_output_sampling_chain on HIP The new multi_output_sampling_chain test uses top_k, whose backend probs path needs CUB (unavailable on HIP), so sampled_probs is null and the test aborts. Add it to the existing HIP skip list alongside the other TOP_K tests. ci: keep gpu-rocm logs in a per-</summary>
   </entry>
   <entry>
-    <title>Zuckerberg pushes ‘superintelligent’ AI for all as Meta drops open-source model</title>
-    <link href="https://www.theguardian.com/technology/2026/aug/10/mark-zuckerberg-superintelligent-ai-essay-meta"/>
-    <id>https://www.theguardian.com/technology/2026/aug/10/mark-zuckerberg-superintelligent-ai-essay-meta</id>
-    <updated>2026-08-10T22:57:57.000Z</updated>
-    <author><name>The Guardian AI</name></author>
+    <title>IBM and Together AI sign a $240M, multi-year deal to build an AI inference cluster on IBM Cloud, using Nvidia's HGX B300 systems, to support open-source models (Anhata Rooprai/Reuters)</title>
+    <link href="https://www.techmeme.com/260811/p14#a260811p14"/>
+    <id>https://www.techmeme.com/260811/p14#a260811p14</id>
+    <updated>2026-08-11T12:40:01.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>Meta CEO presents utopian vision of AI in 6,000-word essay amid Silicon Valley debate over government regulation Mark Zuckerberg published a lengthy essay on Monday detailing his views on artificial intelligence and announced several plans for how Meta would develop the technology in the future. The CEO’s essay went on</summary>
+    <summary>Anhata Rooprai / Reuters : IBM and Together AI sign a $240M, multi-year deal to build an AI inference cluster on IBM Cloud, using Nvidia's HGX B300 systems, to support open-source models — IBM (IBM.N) and startup Together AI have signed a $240 million multi-year agreement to build a large-scale artificial intelligence </summary>
   </entry>
   <entry>
     <title>SkillConsist: Detecting Inconsistencies in Agent Skills via Bidirectional Graph Alignment</title>
@@ -265,14 +275,5 @@
     <author><name>arXiv cs.LG</name></author>
     <category term="SAFETY &amp; POLICY"/>
     <summary>arXiv:2608.07639v1 Announce Type: new Abstract: Agent Skills provide reusable capabilities to LLM agents. Agent Skill inconsistencies can expose undisclosed dangerous behavior or cause wrong Skill selection. Recent Agent Skill research has increasingly examined Agent Skill consistency detection. Existing methods evalua</summary>
-  </entry>
-  <entry>
-    <title>OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas</title>
-    <link href="https://openai.com/index/responsible-ai-infrastructure-texas"/>
-    <id>https://openai.com/index/responsible-ai-infrastructure-texas</id>
-    <updated>2026-08-10T14:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.</summary>
   </entry>
 </feed>
