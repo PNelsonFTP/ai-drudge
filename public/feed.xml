@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-11T20:57:22.668Z</updated>
+  <updated>2026-08-11T21:57:33.937Z</updated>
   <entry>
     <title>Introducing Muse Glimmer</title>
     <link href="https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything"/>
@@ -23,15 +23,6 @@
     <author><name>anthropics/claude-code</name></author>
     <category term="MODEL RELEASES"/>
     <summary>What's changed Fixed interactive sessions that could stop redrawing entirely, while the process kept running, after a rare internal layout error Fixed git / Git Bash not being found on Windows when Claude Code is launched from a parent folder of the git installation Fixed /tui reverting the session to an earlier model  — Also covered by: QwenLM/qwen-code</summary>
-  </entry>
-  <entry>
-    <title>DeepSeek V4 Flash 0731 at 27+ t/s decode on Strix Halo — Vulkan + DSpark full guide</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vlmh0b/deepseek_v4_flash_0731_at_27_ts_decode_on_strix/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vlmh0b/deepseek_v4_flash_0731_at_27_ts_decode_on_strix/</id>
-    <updated>2026-08-11T16:33:30.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Been benchmarking DSv4 Flash 0731 on a Flow Z13 (Ryzen AI MAX+ 395, Radeon 8060S / gfx1151, 128GB LPDDR5X) for the past week. Figured I'd share what actually works and what doesn't — there are a lot of gotchas on this hardware. Results Best client-side observation (bench-kv.sh streaming, 4096-token generation). Server-</summary>
   </entry>
   <entry>
     <title>NVIDIA Nemotron 3.5 Lightning just landed in Cline</title>
@@ -79,13 +70,13 @@
     <summary>model : fix SWA not being enabled for EXAONE 4.5 ( #26848 ) model : fix SWA not being enabled for EXAONE 4.5 load_arch_hparams tests hparams.n_layer() == 64 before LLM_KV_NEXTN_PREDICT_LAYERS has been read. n_layer() returns n_layer_all - n_layer_nextn and n_layer_nextn defaults to 0, so a GGUF carrying the MTP head (b</summary>
   </entry>
   <entry>
-    <title>Nvidia’s Show of Financial Force Soothes Jittery Credit Markets</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-11/nvidia-s-show-of-financial-force-soothes-jittery-credit-markets"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-11/nvidia-s-show-of-financial-force-soothes-jittery-credit-markets</id>
-    <updated>2026-08-11T20:38:08.000Z</updated>
+    <title>Deep Dive Into The US' Critical Minerals Investment</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-11/deep-dive-into-the-us-critical-minerals-investment-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-11/deep-dive-into-the-us-critical-minerals-investment-video</id>
+    <updated>2026-08-11T21:24:34.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Nvidia Corp.’s commitments to backstop the artificial intelligence boom seemed to be swelling by the day. There was the reported $250 billion to help kickstart a massive data center for OpenAI in Ohio, the latest in a string of big financings it was involved with.</summary>
+    <summary>Bloomberg Senior Economic Statecraft Reporter Joe Deaux joins Tim Stenovec and Kristine Aquino for a one-hour special of Businessweek Daily to answer all your questions about rare earths and the $3 Billion US investment in the critical minerals industry. Investigative Reporter Polly Mosendz discusses her report on how </summary>
   </entry>
   <entry>
     <title>Unified Hallucination Fuzzing for Multimodal Large Language Models</title>
@@ -95,6 +86,15 @@
     <author><name>arXiv cs.CL</name></author>
     <category term="RESEARCH"/>
     <summary>arXiv:2608.07525v1 Announce Type: new Abstract: Hallucination remains a persistent challenge for Multimodal Large Language Models (MLLMs), severely limiting their reliability in high-stakes applications. Existing evaluations, predominantly based on static benchmarks, suffer from narrow taxonomical coverage and rapid pe</summary>
+  </entry>
+  <entry>
+    <title>Nvidia’s Show of Financial Force Soothes Jittery Credit Markets</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-11/nvidia-s-show-of-financial-force-soothes-jittery-credit-markets"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-11/nvidia-s-show-of-financial-force-soothes-jittery-credit-markets</id>
+    <updated>2026-08-11T20:38:08.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="HARDWARE"/>
+    <summary>Nvidia Corp.’s commitments to backstop the artificial intelligence boom seemed to be swelling by the day. There was the reported $250 billion to help kickstart a massive data center for OpenAI in Ohio, the latest in a string of big financings it was involved with.</summary>
   </entry>
   <entry>
     <title>Claude Opus 5 Just Beat My Text-Based Adventure Game Benchmark</title>
@@ -124,22 +124,13 @@
     <summary>Microsoft has released Windows 10 KB5120249 Extended Security Updates for versions 22H2 and 21H2 to fix security vulnerabilities and bugs. [...]</summary>
   </entry>
   <entry>
-    <title>Sources: former OpenAI Chief Product Officer Kevin Weil is aiming to raise $150M for a new AI science startup, seeking a valuation of at least $750M (Business Insider)</title>
-    <link href="https://www.techmeme.com/260811/p36#a260811p36"/>
-    <id>https://www.techmeme.com/260811/p36#a260811p36</id>
-    <updated>2026-08-11T20:55:02.000Z</updated>
+    <title>Accel raised $3.5B in funds for early-stage investments, including a $1.35B global expansion fund for larger early-stage rounds and rapid follow-on investments (Natasha Mascarenhas/Bloomberg)</title>
+    <link href="https://www.techmeme.com/260811/p38#a260811p38"/>
+    <id>https://www.techmeme.com/260811/p38#a260811p38</id>
+    <updated>2026-08-11T21:45:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="FUNDING &amp; DEALS"/>
-    <summary>Business Insider : Sources: former OpenAI Chief Product Officer Kevin Weil is aiming to raise $150M for a new AI science startup, seeking a valuation of at least $750M — Kevin Weil, the former chief product officer of OpenAI, has sought a valuation of at least $750 million for a new AI science startup …</summary>
-  </entry>
-  <entry>
-    <title>Nvidia’s Risky Business</title>
-    <link href="https://stratechery.com/2026/nvidias-risky-business/"/>
-    <id>https://stratechery.com/2026/nvidias-risky-business/</id>
-    <updated>2026-08-11T10:00:00.000Z</updated>
-    <author><name>Stratechery</name></author>
-    <category term="ANALYSIS"/>
-    <summary>Nvidia is finding new ways for its customers to raise money, and it's expanding the risk of the AI buildout significantly.</summary>
+    <summary>Natasha Mascarenhas / Bloomberg : Accel raised $3.5B in funds for early-stage investments, including a $1.35B global expansion fund for larger early-stage rounds and rapid follow-on investments — Accel, a global venture capital firm with offices in Silicon Valley, London and Bangalore, India, has raised $3.5 billion …</summary>
   </entry>
   <entry>
     <title>Defense drone developer Cambridge Aerospace raises $300M</title>
@@ -160,22 +151,31 @@
     <summary>Post-quantum cryptography (PQC) and crypto-agility software provider QuSecure, Inc. and government IT aggregator Carahsoft Technology Corp. have announced the addition of QuSecure’s QuProtect R3 encryption modernization platform to Carahsoft’s GSA Schedule contract (Contract No. 47QSWA18D008F). The contract addition si</summary>
   </entry>
   <entry>
-    <title>In-region inference, open models, and new European infrastructure for sovereign AI.</title>
-    <link href="https://mistral.ai/news/regional-inference-open-models-new-compute/"/>
-    <id>https://mistral.ai/news/regional-inference-open-models-new-compute/</id>
-    <updated>2026-08-11T12:00:27.000Z</updated>
-    <author><name>Mistral AI</name></author>
+    <title>Daybreak models are now available on AWS</title>
+    <link href="https://openai.com/index/daybreak-models-are-now-available-on-aws"/>
+    <id>https://openai.com/index/daybreak-models-are-now-available-on-aws</id>
+    <updated>2026-08-11T10:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Mistral is bringing together the inference infrastructure, open models, and long-term commitments Europe needs to control its AI future, and setting a roadmap for the world.</summary>
+    <summary>OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.</summary>
   </entry>
   <entry>
-    <title>Google’s Gemini app surges to one billion users</title>
-    <link href="https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/"/>
-    <id>https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/</id>
-    <updated>2026-08-11T18:49:12.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>Source: Kalshi's annualized revenue topped $4B in July, up from $2B+ two months earlier, and its operating expenses totaled $300M in June (Yueqi Yang/The Information)</title>
+    <link href="https://www.techmeme.com/260811/p39#a260811p39"/>
+    <id>https://www.techmeme.com/260811/p39#a260811p39</id>
+    <updated>2026-08-11T21:55:00.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Gemini is keeping pace with OpenAI’s ChatGPT, which hit 1 billion monthly active users back in June.</summary>
+    <summary>Yueqi Yang / The Information : Source: Kalshi's annualized revenue topped $4B in July, up from $2B+ two months earlier, and its operating expenses totaled $300M in June — World Cup wagers helped double Kalshi's revenue to a more than $4 billion annualized rate in July, from a pace of over $2 billion two months earlier,</summary>
+  </entry>
+  <entry>
+    <title>366 t/s Qwen3.6 27B NVFP4 on v100s</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vlt0lj/366_ts_qwen36_27b_nvfp4_on_v100s/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vlt0lj/366_ts_qwen36_27b_nvfp4_on_v100s/</id>
+    <updated>2026-08-11T20:28:19.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>These are single stream numbers Following on from my previous post about v100s ( here ) and inspired by this comment ( here ) I decided to work on kernels that allow for an extremely fast path for Nvfp4 weights on sm70 and almost free deep speculation on sm70 as well. Which leads me excitedly on to the launch of “v100-</summary>
   </entry>
   <entry>
     <title>Local Benchmark : Muse Glimmer 30B vs Qwen 3.6 27B vs Gemma4 31B (and many other models and finetunes)</title>
@@ -196,22 +196,13 @@
     <summary>We benchmarked NVIDIA NeMo Switchyard on 145 agent tasks. Only 7% of turns needed a frontier model, and routing cut cost 74% for six points of accuracy.</summary>
   </entry>
   <entry>
-    <title>Phoebe Gates Knew Phia App Took Credit For Sales It Didn’t Drive</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-11/gates-knew-phia-took-credit-for-sales-it-didn-t-drive-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-11/gates-knew-phia-took-credit-for-sales-it-didn-t-drive-video</id>
-    <updated>2026-08-11T20:07:34.000Z</updated>
+    <title>Fmr. FDA, CDC Official on Cyclospora, Food Safety Issues</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-11/fmr-fda-cdc-official-on-cyclospora-food-safety-issues-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-11/fmr-fda-cdc-official-on-cyclospora-food-safety-issues-video</id>
+    <updated>2026-08-11T21:31:34.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Phia co-founders Phoebe Gates and Sophia Kianni pushed for features in the startup’s software that took credit for sales it didn’t drive. The founders were aware of the practice for at least seven months. Olivia Solon reports. (Source: Bloomberg)</summary>
-  </entry>
-  <entry>
-    <title>Former Hedge Fund CFO Pleads Guilty to Embezzling $3 Million</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-11/former-hedge-fund-cfo-pleads-guilty-to-embezzling-3-million"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-11/former-hedge-fund-cfo-pleads-guilty-to-embezzling-3-million</id>
-    <updated>2026-08-11T20:01:51.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>The former chief financial officer of a Miami Beach hedge fund admitted he embezzled more than $3 million over four years at the firm, approving phony invoices and using corporate credit cards for adult entertainment and personal travel.</summary>
+    <summary>Steve Ostroff, Former Acting Commissioner of the FDA and Former Deputy Director of the National Center for Infectious Diseases at the CDC, joined the program to discuss the public awareness timeline of the cyclospora outbreak. The conversation highlighted that while the outbreak became widely known in early to mid-July</summary>
   </entry>
   <entry>
     <title>The Video Production Stack Now Fits on One Desk: LTX-2.5 Launches as NVIDIA-Accelerated Open Weights World Model</title>
@@ -268,12 +259,21 @@
     <summary>Nvidia's Nemotron 3.5 Lightning is an open-weights model with just 3.6 billion active parameters that matches OpenAI's gpt-oss-120b on the Intelligence Index despite being four times smaller. At nearly 670 tokens per second, it's also the fastest model in the comparison, showing Nvidia is betting on efficiency over raw</summary>
   </entry>
   <entry>
-    <title>LLMs Are Starting To Noticeably Accelerate Our Work</title>
-    <link href="https://www.lesswrong.com/posts/7QvKqpGJwqXrQcMgx/llms-are-starting-to-noticeably-accelerate-our-work"/>
-    <id>https://www.lesswrong.com/posts/7QvKqpGJwqXrQcMgx/llms-are-starting-to-noticeably-accelerate-our-work</id>
-    <updated>2026-08-11T17:06:32.000Z</updated>
-    <author><name>LessWrong</name></author>
+    <title>Researchers find that feeding a frontier model's encrypted reasoning traces to a weaker model from the same provider can make it output the traces in plaintext (Will Knight/Wired)</title>
+    <link href="https://www.techmeme.com/260811/p37#a260811p37"/>
+    <id>https://www.techmeme.com/260811/p37#a260811p37</id>
+    <updated>2026-08-11T21:10:02.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>About a year ago, David and I put up two bounty problems involving natural latents. I am now about 80% confident that both have been resolved, both within the past couple months. Both cases made heavy use of LLMs and Lean. The first to land was Grisha Pochuev's counterexample to the &quot; Existence of a Deterministic Maxim</summary>
+    <summary>Will Knight / Wired : Researchers find that feeding a frontier model's encrypted reasoning traces to a weaker model from the same provider can make it output the traces in plaintext — Researchers devised a way to extract “reasoning traces” from Claude, GPT, and Gemini. What they found, they say …</summary>
+  </entry>
+  <entry>
+    <title>Study Finds Four Major AI Labs Use Incompatible Prompt Injection Metrics - Yellow.com</title>
+    <link href="https://news.google.com/rss/articles/CBMinAFBVV95cUxQN3gwTTNZRkdkYjlFZWhJSVU4TERnM2ZoSjVSWG5xUFVrZlZTa2djU1JvWm5wSGg2WFJfb3czVE5QWTdiRXhtdVlIZWR6T0xYWlZVUEhmNVhyYnZHVW85WDVfcURHWXhuV2RCejNpLXVEUVByWXY5Y21PZVYzc1pyMmhtdU9UaGtfNGlpaXJmWERVTFB3SWZpSzhJYjE?oc=5"/>
+    <id>https://news.google.com/rss/articles/CBMinAFBVV95cUxQN3gwTTNZRkdkYjlFZWhJSVU4TERnM2ZoSjVSWG5xUFVrZlZTa2djU1JvWm5wSGg2WFJfb3czVE5QWTdiRXhtdVlIZWR6T0xYWlZVUEhmNVhyYnZHVW85WDVfcURHWXhuV2RCejNpLXVEUVByWXY5Y21PZVYzc1pyMmhtdU9UaGtfNGlpaXJmWERVTFB3SWZpSzhJYjE?oc=5</id>
+    <updated>2026-08-11T12:33:51.000Z</updated>
+    <author><name>GN: Prompt Injection</name></author>
+    <category term="AI SECURITY"/>
+    <summary>Study Finds Four Major AI Labs Use Incompatible Prompt Injection Metrics Yellow.com</summary>
   </entry>
 </feed>
