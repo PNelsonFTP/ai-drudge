@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-11T09:09:44.927Z</updated>
+  <updated>2026-08-11T10:58:51.906Z</updated>
   <entry>
     <title>Introducing Muse Glimmer</title>
     <link href="https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything"/>
@@ -14,6 +14,24 @@
     <author><name>Simon Willison</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Introducing Muse Glimmer Meta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old). They claim to have optimized it for exactly the kind of things I'm looking for in a local model: End-to-end Agentic Task Completion. M</summary>
+  </entry>
+  <entry>
+    <title>llama.cpp b10359 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10359"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10359</id>
+    <updated>2026-08-11T10:51:07.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>ggml-webgpu: fix CI errors from #25025 and #25262 ( #26566 ) test new flash_attn test rebase and fix to disable subgrou matrices when max_kv_tile == 0 delete log output Add i32 support to cpy and enables the all ops test restore the non target ci tests comment out of TODO of build-cpu.yml fix format Website: https://ll — Also covered by: ggml-org/whisper.cpp</summary>
+  </entry>
+  <entry>
+    <title>US and South Korea warn of Gunra ransomware targeting govt agencies</title>
+    <link href="https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/"/>
+    <id>https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/</id>
+    <updated>2026-08-11T09:47:06.000Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>U.S. federal agencies and South Korea's National Policy Agency warned government and critical infrastructure organizations worldwide to secure their systems against Gunra ransomware attacks. [...] — Also covered by: The Record</summary>
   </entry>
   <entry>
     <title>BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins</title>
@@ -25,13 +43,12 @@
     <summary>Cybersecurity researchers have warned of a supply chain compromise impacting WordPress plugin vendor BdThemes, prompting the content management systems (CMS) platform's plugins team to temporarily disable their downloads. &quot;Unlike traditional software supply chain attacks, zero source code files were modified within the — Also covered by: BleepingComputer</summary>
   </entry>
   <entry>
-    <title>Run Local Agentic AI Workflows with Meta’s Muse Glimmer on NVIDIA</title>
-    <link href="https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/"/>
-    <id>https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/</id>
-    <updated>2026-08-10T13:27:19.000Z</updated>
-    <author><name>NVIDIA Dev Blog</name></author>
+    <title>Meta is back with Muse Glimmer: local, agentic, multimodal, and open source</title>
+    <link href="https://huggingface.co/blog/muse-glimmer"/>
+    <id>https://huggingface.co/blog/muse-glimmer</id>
+    <updated>2026-08-10T00:00:00.000Z</updated>
+    <author><name>Hugging Face Blog</name></author>
     <category term="RESEARCH"/>
-    <summary>Meta returns to the open source ecosystem with the release of Muse Glimmer, a 30B open-weight dense model with a 120K+ context window built for local AI...</summary>
   </entry>
   <entry>
     <title>ollama v0.32.8 released</title>
@@ -70,6 +87,168 @@
     <summary>arXiv:2608.07525v1 Announce Type: new Abstract: Hallucination remains a persistent challenge for Multimodal Large Language Models (MLLMs), severely limiting their reliability in high-stakes applications. Existing evaluations, predominantly based on static benchmarks, suffer from narrow taxonomical coverage and rapid pe</summary>
   </entry>
   <entry>
+    <title>transformers v5.15.0 released</title>
+    <link href="https://github.com/huggingface/transformers/releases/tag/v5.15.0"/>
+    <id>https://github.com/huggingface/transformers/releases/tag/v5.15.0</id>
+    <updated>2026-08-10T10:28:13.000Z</updated>
+    <author><name>huggingface/transformers</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Release v5.15.0 New Model additions Meta Muse Glimmer Muse Glimmer, released today, is Meta’s new multimodal model, especially designed for agentic use cases. Distilled from Muse to 30B parameters, and released under the Apache 2.0 license, it can be deployed to local setups for privacy-aware applications such as codin</summary>
+  </entry>
+  <entry>
+    <title>A look at London-based AI startup Cosine, which is building a frontier model with UK government backing, as some question if it has the talent and resources (Financial Times)</title>
+    <link href="https://www.techmeme.com/260811/p7#a260811p7"/>
+    <id>https://www.techmeme.com/260811/p7#a260811p7</id>
+    <updated>2026-08-11T09:55:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>Financial Times : A look at London-based AI startup Cosine, which is building a frontier model with UK government backing, as some question if it has the talent and resources — Britain's bid to build a “sovereign” AI model rests with a London start-up of about 30 employees that has raised just $15mn.</summary>
+  </entry>
+  <entry>
+    <title>Claude Code Auto Mode Blocks 89% of Dangerous Commands and Prompt Injection Attacks - gbhackers.com</title>
+    <link href="https://news.google.com/rss/articles/CBMia0FVX3lxTE5wVVJobHVoNEdFQnZvZjFfZElFT2tkcm1MSUppckpwVVdCd18xdzNlMDRvUHhyWENtT3lBSFJJNVVuWnF6Q1UyYTFOc2cyVE93d05iRVRHZ1JzQ2lFUWRLSXVOc1ZtUGQySXU00gFwQVVfeXFMUDJsYVlodW1yR2JKNFFFWE1JTDJFSWw5aThNZjBGakh6VWVwbVhzZHZqejltM3p4Q1B3by1MMVlGTkd4UjlGVjVnUE5FSFpvVEtTbm4wLU5XcE12RjFIRWNOME90bmZ4aFZZQTA1c2hVaQ?oc=5"/>
+    <id>https://news.google.com/rss/articles/CBMia0FVX3lxTE5wVVJobHVoNEdFQnZvZjFfZElFT2tkcm1MSUppckpwVVdCd18xdzNlMDRvUHhyWENtT3lBSFJJNVVuWnF6Q1UyYTFOc2cyVE93d05iRVRHZ1JzQ2lFUWRLSXVOc1ZtUGQySXU00gFwQVVfeXFMUDJsYVlodW1yR2JKNFFFWE1JTDJFSWw5aThNZjBGakh6VWVwbVhzZHZqejltM3p4Q1B3by1MMVlGTkd4UjlGVjVnUE5FSFpvVEtTbm4wLU5XcE12RjFIRWNOME90bmZ4aFZZQTA1c2hVaQ?oc=5</id>
+    <updated>2026-08-11T05:39:01.000Z</updated>
+    <author><name>GN: Prompt Injection</name></author>
+    <category term="AI SECURITY"/>
+    <summary>Claude Code Auto Mode Blocks 89% of Dangerous Commands and Prompt Injection Attacks gbhackers.com</summary>
+  </entry>
+  <entry>
+    <title>Gunra Ransomware Exploits Fortinet and Schneider Electric Flaws to Breach Networks</title>
+    <link href="https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html"/>
+    <id>https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html</id>
+    <updated>2026-08-11T09:16:24.000Z</updated>
+    <author><name>The Hacker News</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>Cybersecurity and intelligence agencies from South Korea and the U.S. warned of Gunra ransomware attacks targeting critical infrastructure sectors and organizations across the world. Targets of these attacks include healthcare and public health, financial services, government services and facilities, and professional a</summary>
+  </entry>
+  <entry>
+    <title>Kimwolf v7: An Evolution of the Kimwolf Botnet</title>
+    <link href="https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/"/>
+    <id>https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/</id>
+    <updated>2026-08-11T10:00:16.000Z</updated>
+    <author><name>Palo Alto Unit 42</name></author>
+    <category term="CYBER DEFENSE"/>
+    <summary>Discover how Kimwolf v7 targets Android IoT devices with HTTP/2 DDoS fingerprinting, Ethereum ENS C2 resolution and Tor backup routing. The post Kimwolf v7: An Evolution of the Kimwolf Botnet appeared first on Unit 42 .</summary>
+  </entry>
+  <entry>
+    <title>Morgan Stanley Launches U.S. Innovation Initiative Supporting Quantum and Strategic Technologies</title>
+    <link href="https://thequantuminsider.com/2026/08/11/morgan-stanley-us-innovation-initiative-quantum-ai-technologies/"/>
+    <id>https://thequantuminsider.com/2026/08/11/morgan-stanley-us-innovation-initiative-quantum-ai-technologies/</id>
+    <updated>2026-08-11T07:30:00.000Z</updated>
+    <author><name>The Quantum Insider</name></author>
+    <category term="QUANTUM"/>
+    <summary>Insider Brief Press release – Morgan Stanley today announced the launch of the U.S. Innovation Infrastructure Initiative to finance and enable America’s next era of growth. In recognition of having recently celebrated America’s 250th anniversary, the Firm intends to facilitate approximately $1.5 trillion of capital rai</summary>
+  </entry>
+  <entry>
+    <title>Nvidia guarantees its own chips' value to unlock $500 billion in AI infrastructure financing</title>
+    <link href="https://the-decoder.com/nvidia-guarantees-its-own-chips-value-to-unlock-500-billion-in-ai-infrastructure-financing/"/>
+    <id>https://the-decoder.com/nvidia-guarantees-its-own-chips-value-to-unlock-500-billion-in-ai-infrastructure-financing/</id>
+    <updated>2026-08-11T09:41:03.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Nvidia is teaming up with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR to mobilize over $500 billion for AI infrastructure. To win over investors, the chipmaker is guaranteeing up to 25 percent of the residual value of its own hardware. The Bank of England is already warning of systemic risks if th</summary>
+  </entry>
+  <entry>
+    <title>Anthropic watermarks all Claude outputs globally with marks that &quot;may persist through some editing&quot;</title>
+    <link href="https://the-decoder.com/anthropic-watermarks-all-claude-outputs-globally-with-marks-that-may-persist-through-some-editing/"/>
+    <id>https://the-decoder.com/anthropic-watermarks-all-claude-outputs-globally-with-marks-that-may-persist-through-some-editing/</id>
+    <updated>2026-08-11T08:45:06.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Anthropic will embed invisible watermarks in all Claude-generated text and sign files using the C2PA standard. New models shipping from August 2026 onward will have labeling built in from day one. The policy applies worldwide, and Anthropic plans to provide detection tools for third-party verification. The article Anth</summary>
+  </entry>
+  <entry>
+    <title>Intel raised $20B in an upsized share sale, up from the $15B it was targeting; sources say the sale drew $100B+ in demand; INTC is up ~146% in 2026 so far (Bloomberg)</title>
+    <link href="https://www.techmeme.com/260811/p6#a260811p6"/>
+    <id>https://www.techmeme.com/260811/p6#a260811p6</id>
+    <updated>2026-08-11T09:40:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Bloomberg : Intel raised $20B in an upsized share sale, up from the $15B it was targeting; sources say the sale drew $100B+ in demand; INTC is up ~146% in 2026 so far — Making Sense of the Multibillion-Dollar Numbers of Nvidia Deal, Intel Share Sale — Video Player is loading. — Unmute</summary>
+  </entry>
+  <entry>
+    <title>How India's IT services sector, which employs 6M people, contributes ~7% of GDP, and generates $300B+ annually, is shedding jobs as AI automates formulaic work (Financial Times)</title>
+    <link href="https://www.techmeme.com/260811/p10#a260811p10"/>
+    <id>https://www.techmeme.com/260811/p10#a260811p10</id>
+    <updated>2026-08-11T10:50:02.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Financial Times : How India's IT services sector, which employs 6M people, contributes ~7% of GDP, and generates $300B+ annually, is shedding jobs as AI automates formulaic work — It was around 1.30am by the time Rakesh, a 45-year-old Oracle employee in the Indian technology hub of Bengaluru …</summary>
+  </entry>
+  <entry>
+    <title>vllm v0.27.1 released</title>
+    <link href="https://github.com/vllm-project/vllm/releases/tag/v0.27.1"/>
+    <id>https://github.com/vllm-project/vllm/releases/tag/v0.27.1</id>
+    <updated>2026-08-11T10:49:10.000Z</updated>
+    <author><name>vllm-project/vllm</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>This is a patch release on top of v0.27.0. Support quantized DSpark Markov heads ( #50424 )</summary>
+  </entry>
+  <entry>
+    <title>Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets</title>
+    <link href="https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html"/>
+    <id>https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html</id>
+    <updated>2026-08-11T10:24:00.000Z</updated>
+    <author><name>The Hacker News</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>A malicious tool server connected to an AI coding assistant can quietly walk off with SSH keys, environment secrets, source code, and customer data without ever sending one obviously harmful instruction. The trick can work even after a blunt version of the same theft is refused: split the request into fragments that ea</summary>
+  </entry>
+  <entry>
+    <title>Adani Wins Dismissal in US Fraud Case</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-11/adani-wins-dismissal-in-us-fraud-case-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-11/adani-wins-dismissal-in-us-fraud-case-video</id>
+    <updated>2026-08-11T09:24:59.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Gautam Adani has won the dismissal of US fraud charges that threatened his global ambitions. After months of legal maneuvering, a major hurdle is gone, potentially clearing the way for the Indian billionaire to expand in the US. (Source: Bloomberg)</summary>
+  </entry>
+  <entry>
+    <title>Yen Slides Toward 160 per Dollar, Raising Intervention Concerns</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-11/yen-slides-toward-160-per-dollar-raising-intervention-concerns"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-11/yen-slides-toward-160-per-dollar-raising-intervention-concerns</id>
+    <updated>2026-08-11T10:03:19.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>The yen was slightly weaker and approaching a key level against the dollar that could raise speculation Japanese authorities may intervene again to prop up the Japanese currency.</summary>
+  </entry>
+  <entry>
+    <title>WuYuEval: A Multi-Level Benchmark for Large Language Models in Solid Waste Management</title>
+    <link href="https://arxiv.org/abs/2608.07529"/>
+    <id>https://arxiv.org/abs/2608.07529</id>
+    <updated>2026-08-11T04:00:00.000Z</updated>
+    <author><name>arXiv cs.CL</name></author>
+    <category term="RESEARCH"/>
+    <summary>arXiv:2608.07529v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used as technical assistants, but their competence in solid waste management (SWM) remains difficult to assess because existing benchmarks emphasize general knowledge rather than professional decisions under engineering, envir</summary>
+  </entry>
+  <entry>
+    <title>Towards an Argumentative Foundation for Evaluative AI</title>
+    <link href="https://arxiv.org/abs/2608.07473"/>
+    <id>https://arxiv.org/abs/2608.07473</id>
+    <updated>2026-08-11T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
+    <category term="RESEARCH"/>
+    <summary>arXiv:2608.07473v1 Announce Type: new Abstract: Evaluative AI (EAI) has been recently proposed as a way to support human decision-making, not by producing a single recommendation, but by presenting competing hypotheses together with evidence for and against each. In this position paper, we advocate (computational) argu</summary>
+  </entry>
+  <entry>
+    <title>As AI-led attacks multiply, OpenAI launches a new cyber model</title>
+    <link href="https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/"/>
+    <id>https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/</id>
+    <updated>2026-08-10T23:56:15.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="PRODUCTS"/>
+    <summary>OpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI launches GPT-5.6-Cyber to help defenders find vulnerabilities before attackers do</title>
+    <link href="https://the-decoder.com/openai-launches-gpt-5-6-cyber-to-help-defenders-find-vulnerabilities-before-attackers-do/"/>
+    <id>https://the-decoder.com/openai-launches-gpt-5-6-cyber-to-help-defenders-find-vulnerabilities-before-attackers-do/</id>
+    <updated>2026-08-10T18:01:30.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="PRODUCTS"/>
+    <summary>OpenAI aims to give cybersecurity defenders a head start: The new GPT-5.6-Cyber model answers up to 98.5 percent of security queries that would otherwise be blocked and has already uncovered two previously unknown Chrome vulnerabilities. According to OpenAI, the window of opportunity for defenders is shrinking. Access </summary>
+  </entry>
+  <entry>
     <title>b10362: tests : disable backend sampler hip multi output (#26878)</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10362"/>
     <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10362</id>
@@ -95,185 +274,5 @@
     <author><name>arXiv cs.LG</name></author>
     <category term="SAFETY &amp; POLICY"/>
     <summary>arXiv:2608.07535v1 Announce Type: new Abstract: Multi-modal large language models (MLLMs) integrate heterogeneous modalities through modality alignment and fusion, enabling stronger understanding and reasoning. However, this architectural shift reshapes the safety landscape of machine learning. Increased model complexi</summary>
-  </entry>
-  <entry>
-    <title>Claude Code Auto Mode Blocks 89% of Dangerous Commands and Prompt Injection Attacks - gbhackers.com</title>
-    <link href="https://news.google.com/rss/articles/CBMia0FVX3lxTE5wVVJobHVoNEdFQnZvZjFfZElFT2tkcm1MSUppckpwVVdCd18xdzNlMDRvUHhyWENtT3lBSFJJNVVuWnF6Q1UyYTFOc2cyVE93d05iRVRHZ1JzQ2lFUWRLSXVOc1ZtUGQySXU00gFwQVVfeXFMUDJsYVlodW1yR2JKNFFFWE1JTDJFSWw5aThNZjBGakh6VWVwbVhzZHZqejltM3p4Q1B3by1MMVlGTkd4UjlGVjVnUE5FSFpvVEtTbm4wLU5XcE12RjFIRWNOME90bmZ4aFZZQTA1c2hVaQ?oc=5"/>
-    <id>https://news.google.com/rss/articles/CBMia0FVX3lxTE5wVVJobHVoNEdFQnZvZjFfZElFT2tkcm1MSUppckpwVVdCd18xdzNlMDRvUHhyWENtT3lBSFJJNVVuWnF6Q1UyYTFOc2cyVE93d05iRVRHZ1JzQ2lFUWRLSXVOc1ZtUGQySXU00gFwQVVfeXFMUDJsYVlodW1yR2JKNFFFWE1JTDJFSWw5aThNZjBGakh6VWVwbVhzZHZqejltM3p4Q1B3by1MMVlGTkd4UjlGVjVnUE5FSFpvVEtTbm4wLU5XcE12RjFIRWNOME90bmZ4aFZZQTA1c2hVaQ?oc=5</id>
-    <updated>2026-08-11T05:39:01.000Z</updated>
-    <author><name>GN: Prompt Injection</name></author>
-    <category term="AI SECURITY"/>
-    <summary>Claude Code Auto Mode Blocks 89% of Dangerous Commands and Prompt Injection Attacks gbhackers.com</summary>
-  </entry>
-  <entry>
-    <title>Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine</title>
-    <link href="https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html"/>
-    <id>https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html</id>
-    <updated>2026-08-11T06:55:45.000Z</updated>
-    <author><name>The Hacker News</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>Attackers shut down a steam turbine and the process-water treatment system at a Polish combined heat and power plant by coming in over the private cellular network the local grid operator uses to reach remote equipment. The plant supplies heat to roughly 50,000 residents. Recovery began at about 7:30 a.m. while the int</summary>
-  </entry>
-  <entry>
-    <title>Anthropic watermarks all Claude outputs globally with marks that &quot;may persist through some editing&quot;</title>
-    <link href="https://the-decoder.com/anthropic-watermarks-all-claude-outputs-globally-with-marks-that-may-persist-through-some-editing/"/>
-    <id>https://the-decoder.com/anthropic-watermarks-all-claude-outputs-globally-with-marks-that-may-persist-through-some-editing/</id>
-    <updated>2026-08-11T08:45:06.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>Anthropic will embed invisible watermarks in all Claude-generated text and sign files using the C2PA standard. New models shipping from August 2026 onward will have labeling built in from day one. The policy applies worldwide, and Anthropic plans to provide detection tools for third-party verification. The article Anth</summary>
-  </entry>
-  <entry>
-    <title>Morgan Stanley Launches U.S. Innovation Initiative Supporting Quantum and Strategic Technologies</title>
-    <link href="https://thequantuminsider.com/2026/08/11/morgan-stanley-us-innovation-initiative-quantum-ai-technologies/"/>
-    <id>https://thequantuminsider.com/2026/08/11/morgan-stanley-us-innovation-initiative-quantum-ai-technologies/</id>
-    <updated>2026-08-11T07:30:00.000Z</updated>
-    <author><name>The Quantum Insider</name></author>
-    <category term="QUANTUM"/>
-    <summary>Insider Brief Press release – Morgan Stanley today announced the launch of the U.S. Innovation Infrastructure Initiative to finance and enable America’s next era of growth. In recognition of having recently celebrated America’s 250th anniversary, the Firm intends to facilitate approximately $1.5 trillion of capital rai</summary>
-  </entry>
-  <entry>
-    <title>OpenAI launches GPT-5.6-Cyber to help defenders find vulnerabilities before attackers do</title>
-    <link href="https://the-decoder.com/openai-launches-gpt-5-6-cyber-to-help-defenders-find-vulnerabilities-before-attackers-do/"/>
-    <id>https://the-decoder.com/openai-launches-gpt-5-6-cyber-to-help-defenders-find-vulnerabilities-before-attackers-do/</id>
-    <updated>2026-08-10T18:01:30.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>OpenAI aims to give cybersecurity defenders a head start: The new GPT-5.6-Cyber model answers up to 98.5 percent of security queries that would otherwise be blocked and has already uncovered two previously unknown Chrome vulnerabilities. According to OpenAI, the window of opportunity for defenders is shrinking. Access </summary>
-  </entry>
-  <entry>
-    <title>Sources: Anthropic is courting investors for what could be the biggest IPO ever, touting rapid growth and plans to address mounting public backlash against AI (Wall Street Journal)</title>
-    <link href="https://www.techmeme.com/260811/p1#a260811p1"/>
-    <id>https://www.techmeme.com/260811/p1#a260811p1</id>
-    <updated>2026-08-11T04:45:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Wall Street Journal : Sources: Anthropic is courting investors for what could be the biggest IPO ever, touting rapid growth and plans to address mounting public backlash against AI — Company is racing to public markets this fall and has fielded tough investor questions on Chinese rivals, Trump-era tensions and AI infra</summary>
-  </entry>
-  <entry>
-    <title>As AI-led attacks multiply, OpenAI launches a new cyber model</title>
-    <link href="https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/"/>
-    <id>https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/</id>
-    <updated>2026-08-10T23:56:15.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>OpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it.</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp b10358 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10358"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10358</id>
-    <updated>2026-08-11T09:06:33.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Address review comment of PR 25532 ( #26852 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROC</summary>
-  </entry>
-  <entry>
-    <title>SkillConsist: Detecting Inconsistencies in Agent Skills via Bidirectional Graph Alignment</title>
-    <link href="https://arxiv.org/abs/2608.07639"/>
-    <id>https://arxiv.org/abs/2608.07639</id>
-    <updated>2026-08-11T04:00:00.000Z</updated>
-    <author><name>arXiv cs.LG</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>arXiv:2608.07639v1 Announce Type: new Abstract: Agent Skills provide reusable capabilities to LLM agents. Agent Skill inconsistencies can expose undisclosed dangerous behavior or cause wrong Skill selection. Recent Agent Skill research has increasingly examined Agent Skill consistency detection. Existing methods evalua</summary>
-  </entry>
-  <entry>
-    <title>DocAtlas: Long-Document Understanding as Mutable-State Interaction</title>
-    <link href="https://arxiv.org/abs/2608.07527"/>
-    <id>https://arxiv.org/abs/2608.07527</id>
-    <updated>2026-08-11T04:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>arXiv:2608.07527v1 Announce Type: new Abstract: Long-document understanding requires models to find and combine evidence across many pages, layouts, tables, figures, and charts. Existing retrieval-augmented systems usually select evidence from a static index before generation, while recent agentic systems add multi-tur</summary>
-  </entry>
-  <entry>
-    <title>DayOne Data Centers Is Said to Confidentially File for $5 Billion IPO in US</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-11/dayone-data-centers-said-to-confidentially-file-for-5-billion-ipo-us"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-11/dayone-data-centers-said-to-confidentially-file-for-5-billion-ipo-us</id>
-    <updated>2026-08-11T07:37:15.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>DayOne Data Centers has confidentially filed for a US initial public offering, according to people familiar with the matter.</summary>
-  </entry>
-  <entry>
-    <title>Nvidia becomes the bank of AI</title>
-    <link href="https://www.ft.com/content/4c93c894-04b8-49dc-be41-98ae79f540f8?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/4c93c894-04b8-49dc-be41-98ae79f540f8?syn-25a6b1a6=1</id>
-    <updated>2026-08-11T04:00:21.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Wall Street groups are working with the chipmaker to assemble a $500bn funding package for AI infrastructure</summary>
-  </entry>
-  <entry>
-    <title>WuYuEval: A Multi-Level Benchmark for Large Language Models in Solid Waste Management</title>
-    <link href="https://arxiv.org/abs/2608.07529"/>
-    <id>https://arxiv.org/abs/2608.07529</id>
-    <updated>2026-08-11T04:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
-    <category term="RESEARCH"/>
-    <summary>arXiv:2608.07529v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used as technical assistants, but their competence in solid waste management (SWM) remains difficult to assess because existing benchmarks emphasize general knowledge rather than professional decisions under engineering, envir</summary>
-  </entry>
-  <entry>
-    <title>Towards an Argumentative Foundation for Evaluative AI</title>
-    <link href="https://arxiv.org/abs/2608.07473"/>
-    <id>https://arxiv.org/abs/2608.07473</id>
-    <updated>2026-08-11T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
-    <category term="RESEARCH"/>
-    <summary>arXiv:2608.07473v1 Announce Type: new Abstract: Evaluative AI (EAI) has been recently proposed as a way to support human decision-making, not by producing a single recommendation, but by presenting competing hypotheses together with evidence for and against each. In this position paper, we advocate (computational) argu</summary>
-  </entry>
-  <entry>
-    <title>transformers v5.15.0 released</title>
-    <link href="https://github.com/huggingface/transformers/releases/tag/v5.15.0"/>
-    <id>https://github.com/huggingface/transformers/releases/tag/v5.15.0</id>
-    <updated>2026-08-10T10:28:13.000Z</updated>
-    <author><name>huggingface/transformers</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Release v5.15.0 New Model additions Meta Muse Glimmer Muse Glimmer, released today, is Meta’s new multimodal model, especially designed for agentic use cases. Distilled from Muse to 30B parameters, and released under the Apache 2.0 license, it can be deployed to local setups for privacy-aware applications such as codin</summary>
-  </entry>
-  <entry>
-    <title>Anthropic says new Claude models in the EU will add watermarks to text and C2PA metadata to files, to comply with the EU AI Act, and it will update older models (Thomas Claburn/The Register)</title>
-    <link href="https://www.techmeme.com/260811/p2#a260811p2"/>
-    <id>https://www.techmeme.com/260811/p2#a260811p2</id>
-    <updated>2026-08-11T05:00:54.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>Thomas Claburn / The Register : Anthropic says new Claude models in the EU will add watermarks to text and C2PA metadata to files, to comply with the EU AI Act, and it will update older models — EU rules cited as reason for effort to trace AI output ancestry — Anthropic will embed watermarks in the text and files gener</summary>
-  </entry>
-  <entry>
-    <title>Study Finds Four Major AI Labs Use Incompatible Prompt Injection Metrics - Yellow.com</title>
-    <link href="https://news.google.com/rss/articles/CBMimgFBVV95cUxQVmhTZkluUjNJUGFzaWpaTE1Db2Z6X3JITjhQTXhSZ3FhbXZncXI1T1diN2c4cktDNm4yZldRaXFBUnhmWkxMWjRoYzBuc0RwTDFNMXA0SFNCWjRQU0RfRUF5MHhzU0tiejRTblBuSGtzQ2ZMUTFrcVNQZi11cmczRFEzR2h2RFk5TnlOSUFxMWh3SEFycDl1VUJ3?oc=5"/>
-    <id>https://news.google.com/rss/articles/CBMimgFBVV95cUxQVmhTZkluUjNJUGFzaWpaTE1Db2Z6X3JITjhQTXhSZ3FhbXZncXI1T1diN2c4cktDNm4yZldRaXFBUnhmWkxMWjRoYzBuc0RwTDFNMXA0SFNCWjRQU0RfRUF5MHhzU0tiejRTblBuSGtzQ2ZMUTFrcVNQZi11cmczRFEzR2h2RFk5TnlOSUFxMWh3SEFycDl1VUJ3?oc=5</id>
-    <updated>2026-08-11T00:42:09.000Z</updated>
-    <author><name>GN: Prompt Injection</name></author>
-    <category term="AI SECURITY"/>
-    <summary>Study Finds Four Major AI Labs Use Incompatible Prompt Injection Metrics Yellow.com</summary>
-  </entry>
-  <entry>
-    <title>Tricking AI in the Job Hunt - Duke Today</title>
-    <link href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE9uSFZPVHo3ckY2Z19aZTVRVmZfclNnck4xRGVVNlFGV28xQ2pBSHBuOVJKc2xsdmo2YVlud29jT2N1ZEpsbzRzU25VTjg2Y3JkVDlSN3F2WGRRcmN0OHh2Qg?oc=5"/>
-    <id>https://news.google.com/rss/articles/CBMiYEFVX3lxTE9uSFZPVHo3ckY2Z19aZTVRVmZfclNnck4xRGVVNlFGV28xQ2pBSHBuOVJKc2xsdmo2YVlud29jT2N1ZEpsbzRzU25VTjg2Y3JkVDlSN3F2WGRRcmN0OHh2Qg?oc=5</id>
-    <updated>2026-08-10T13:55:27.000Z</updated>
-    <author><name>GN: Prompt Injection</name></author>
-    <category term="AI SECURITY"/>
-    <summary>Tricking AI in the Job Hunt Duke Today</summary>
-  </entry>
-  <entry>
-    <title>OpenAI releases ChatGPT 5.6 Cyber, but it's only for approved users</title>
-    <link href="https://www.bleepingcomputer.com/news/security/openai-releases-chatgpt-56-cyber-but-its-only-for-approved-users/"/>
-    <id>https://www.bleepingcomputer.com/news/security/openai-releases-chatgpt-56-cyber-but-its-only-for-approved-users/</id>
-    <updated>2026-08-10T19:24:40.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>OpenAI has developed a new model called &quot;GPT 5.6 Cyber,&quot; designed for vulnerability research, penetration testing, incident response, and remediation. [...]</summary>
-  </entry>
-  <entry>
-    <title>PhysAttNet: Enhancing Predictive Performance in Industrial and Astrophysical Time Series via Physics-Informed Attention</title>
-    <link href="https://arxiv.org/abs/2608.07681"/>
-    <id>https://arxiv.org/abs/2608.07681</id>
-    <updated>2026-08-11T04:00:00.000Z</updated>
-    <author><name>arXiv cs.LG</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>arXiv:2608.07681v1 Announce Type: new Abstract: Accurate and robust time series forecasting is essential in many applications involving physical processes, such as manufacturing monitoring and astrophysical event detection. In these settings, predictive models must remain reliable under noise, variability, and measurem</summary>
   </entry>
 </feed>
