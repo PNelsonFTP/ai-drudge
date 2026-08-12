@@ -5,11 +5,11 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-12T21:55:52.581Z</updated>
+  <updated>2026-08-12T22:53:19.086Z</updated>
   <entry>
     <title>Introducing Muse Glimmer</title>
-    <link href="https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything"/>
-    <id>https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything</id>
+    <link href="https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/"/>
+    <id>https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/</id>
     <updated>2026-08-10T23:56:03.000Z</updated>
     <author><name>Simon Willison</name></author>
     <category term="LOCAL MODELS"/>
@@ -43,31 +43,22 @@
     <summary>Meta returns to the open source ecosystem with the release of Muse Glimmer, a 30B open-weight dense model with a 120K+ context window built for local AI... — Also covered by: Hugging Face Blog</summary>
   </entry>
   <entry>
-    <title>DeepSeek V4 Pro 0813</title>
-    <link href="https://openrouter.ai/deepseek/deepseek-v4-pro-0813"/>
-    <id>https://openrouter.ai/deepseek/deepseek-v4-pro-0813</id>
-    <updated>2026-08-12T16:04:50.000Z</updated>
-    <author><name>HN: Chinese Frontier Labs</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Article URL: https://openrouter.ai/deepseek/deepseek-v4-pro-0813 Comments URL: https://news.ycombinator.com/item?id=49274600 Points: 611 # Comments: 217</summary>
-  </entry>
-  <entry>
-    <title>Sources: Kalshi is in advanced talks to raise $750M+ co-led by Sequoia Capital and Wellington Management at a $40B valuation; Kalshi was valued at $22B in May (Yueqi Yang/The Information)</title>
-    <link href="https://www.techmeme.com/260812/p45#a260812p45"/>
-    <id>https://www.techmeme.com/260812/p45#a260812p45</id>
-    <updated>2026-08-12T18:50:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Yueqi Yang / The Information : Sources: Kalshi is in advanced talks to raise $750M+ co-led by Sequoia Capital and Wellington Management at a $40B valuation; Kalshi was valued at $22B in May — Kalshi, the biggest prediction market, is in advanced talks to raise at least $750 million in a new financing round at a $40 bil</summary>
-  </entry>
-  <entry>
-    <title>nn: speed up prefill on double-scale nvfp4 models</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.32.10-rc0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.32.10-rc0</id>
-    <updated>2026-08-12T20:25:33.000Z</updated>
+    <title>ollama v0.32.10 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.32.10-rc1"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.32.10-rc1</id>
+    <updated>2026-08-12T22:36:49.000Z</updated>
     <author><name>ollama/ollama</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>ModelOpt checkpoints apply a float32 global scale to every projection output on top of the per-group quantization scales. Running the multiply and the cast back to the activation dtype as separate eager ops costs an extra kernel launch and a materialized intermediate per projection. Compile the multiply and cast into o</summary>
+    <category term="MODEL RELEASES"/>
+    <summary>What's Changed Models that don't set a repeat_penalty now default to 1.0 (off) instead of 1.1, matching other engines and speeding up speculative decoding; set a per-model parameter if an older model repeats itself. Faster prefill on NVFP4 MLX models with a global scale, about 7–8% on Qwen3.6 and Muse Glimmer. Fixed bl</summary>
+  </entry>
+  <entry>
+    <title>Some Claude users are mad that Anthropic’s new watermarks will catch them using it at their jobs, classes</title>
+    <link href="https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/"/>
+    <id>https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/</id>
+    <updated>2026-08-12T22:26:37.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Is Anthropic's new watermarking system a travesty? Some have taken to social media to complain that it is.</summary>
   </entry>
   <entry>
     <title>LangSmith BYOC on AWS is generally available</title>
@@ -106,6 +97,15 @@
     <summary>Cognition may be looking to raise another mega round just a few months after raising $1 billion at a $26 billion valuation.</summary>
   </entry>
   <entry>
+    <title>nn: speed up prefill on double-scale nvfp4 models</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.32.10-rc0"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.32.10-rc0</id>
+    <updated>2026-08-12T20:25:33.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="HARDWARE"/>
+    <summary>ModelOpt checkpoints apply a float32 global scale to every projection output on top of the per-group quantization scales. Running the multiply and the cast back to the activation dtype as separate eager ops costs an extra kernel launch and a materialized intermediate per projection. Compile the multiply and cast into o</summary>
+  </entry>
+  <entry>
     <title>As AI safety concerns mount, three pioneers make the case for staying open</title>
     <link href="https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/"/>
     <id>https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/</id>
@@ -124,13 +124,13 @@
     <summary>Study Finds Four Major AI Labs Use Incompatible Prompt Injection Metrics Yellow.com</summary>
   </entry>
   <entry>
-    <title>FBI: Hackers using social engineering to breach accounts and steal explicit content</title>
-    <link href="https://therecord.media/social-engineering-hackers-explicit-photos-fbi-alert"/>
-    <id>https://therecord.media/social-engineering-hackers-explicit-photos-fbi-alert</id>
-    <updated>2026-08-12T17:28:00.000Z</updated>
-    <author><name>The Record</name></author>
+    <title>Android malware combo takes out loans and relays victims' credit cards</title>
+    <link href="https://www.bleepingcomputer.com/news/security/android-malware-combo-takes-out-loans-and-relays-victims-credit-cards/"/>
+    <id>https://www.bleepingcomputer.com/news/security/android-malware-combo-takes-out-loans-and-relays-victims-credit-cards/</id>
+    <updated>2026-08-12T22:22:57.000Z</updated>
+    <author><name>BleepingComputer</name></author>
     <category term="CYBER THREATS"/>
-    <summary>Leaked passwords, social engineering and spoofed social media sites are among the tools hackers are using to gather individuals' private content and sell it online, the FBI said.</summary>
+    <summary>A new Android NFC relay malware called WindRelay is being used alongside the SpyNote remote administration tool (RAT) to steal live card data and send it to attackers in real time. [...]</summary>
   </entry>
   <entry>
     <title>AI tools for breast cancer detection fall short of radiologists' expectations</title>
@@ -152,8 +152,8 @@
   </entry>
   <entry>
     <title>Quoting Florian Herrengt</title>
-    <link href="https://simonwillison.net/2026/Aug/12/florian-herrengt/#atom-everything"/>
-    <id>https://simonwillison.net/2026/Aug/12/florian-herrengt/#atom-everything</id>
+    <link href="https://simonwillison.net/2026/Aug/12/florian-herrengt/"/>
+    <id>https://simonwillison.net/2026/Aug/12/florian-herrengt/</id>
     <updated>2026-08-12T15:08:47.000Z</updated>
     <author><name>Simon Willison</name></author>
     <category term="ANALYSIS"/>
@@ -195,22 +195,13 @@
     <category term="MODEL RELEASES"/>
   </entry>
   <entry>
-    <title>Freedom of the Press Foundation and The Intercept sue Trump after Trump Media &amp; Technology offered a subscription service for faster access to Trump's posts (Bernard Condon/Associated Press)</title>
-    <link href="https://www.techmeme.com/260812/p47#a260812p47"/>
-    <id>https://www.techmeme.com/260812/p47#a260812p47</id>
-    <updated>2026-08-12T19:45:04.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise</title>
+    <link href="https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/"/>
+    <id>https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/</id>
+    <updated>2026-08-12T17:41:29.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Bernard Condon / Associated Press : Freedom of the Press Foundation and The Intercept sue Trump after Trump Media &amp; Technology offered a subscription service for faster access to Trump's posts — President Donald Trump was sued in federal court Wednesday to stop him from making money off a new, paid service …</summary>
-  </entry>
-  <entry>
-    <title>mlx: avoid pulling MLX models when MLX is missing (#17710)</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.32.10-rc1"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.32.10-rc1</id>
-    <updated>2026-08-12T21:42:17.000Z</updated>
-    <author><name>ollama/ollama</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>As we look to bring Linux and Windows MLX support online, instead of blocking downloads at the registry to avoid users wasting time downloading a model they can't run, shift the logic to the local side which knows if MLX is present or not.</summary>
+    <summary>Thrive Holdings has raised $2 billion in new funding at a $12 billion valuation from investors like SoftBank, D1 Capital Partners, and Altimeter Capital.</summary>
   </entry>
   <entry>
     <title>llama.cpp b10375 released</title>
@@ -240,22 +231,22 @@
     <summary>xAI's Grok 4.6 scores 61 points on the Artificial Analysis Intelligence Index, tying GPT-5.6 Sol and trailing only Anthropic's Claude Opus 5. On agentic tasks, it completes complex workflows in about 53 steps where Claude Opus 5 needs 103, at a price more than 60 percent lower. The article SpaceXAI's Grok 4.6 matches O</summary>
   </entry>
   <entry>
-    <title>Rio Tinto Aluminum Smelter Gets $1.8 Billion Australian Bailout</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-12/rio-tinto-aluminum-smelter-gets-1-8-billion-australian-bailout"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-12/rio-tinto-aluminum-smelter-gets-1-8-billion-australian-bailout</id>
-    <updated>2026-08-12T21:21:39.000Z</updated>
+    <title>Atlas Merchant Invests in Edge Focus</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-12/atlas-merchant-invests-in-edge-focus-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-12/atlas-merchant-invests-in-edge-focus-video</id>
+    <updated>2026-08-12T22:08:21.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The owners of Australia’s biggest aluminum smelter, including Rio Tinto Group, have secured a government bailout of A$2.5 billion ($1.8 billion) to keep the plant operating as it grapples with high energy costs.</summary>
+    <summary>Bob Diamond, CEO of Atlas Merchant Capital &amp; Elliott Lorenz, Co-Founder &amp; CEO of Edge Focus discuss the new minority investment. They also discussed the role of private credit in consumer debt. (Source: Bloomberg)</summary>
   </entry>
   <entry>
-    <title>Singer Vehicle Founder on Louis Vuitton Partnership</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-12/singer-vehicle-founder-on-louis-vuitton-partnership-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-12/singer-vehicle-founder-on-louis-vuitton-partnership-video</id>
-    <updated>2026-08-12T21:35:10.000Z</updated>
+    <title>Asian Stocks Poised to Gain on Benign US Inflation: Markets Wrap</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-12/stock-market-today-dow-s-p-live-updates"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-12/stock-market-today-dow-s-p-live-updates</id>
+    <updated>2026-08-12T22:08:18.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>In a groundbreaking collaboration, luxury fashion house Louis Vuitton and high-end automotive restoration company Singer have teamed up to create custom Porsche cars. This marks a first for both brands, as Louis Vuitton has never engaged in co-branding before, and Singer has not previously partnered on such a project. </summary>
+    <summary>Stocks in Asia were poised for gains Thursday after the latest US inflation report matched expectations, easing concerns about imminent Federal Reserve rate increases.</summary>
   </entry>
   <entry>
     <title>MindTopo reveals VLMs’ spatial reasoning abilities</title>
@@ -274,5 +265,14 @@
     <author><name>arXiv cs.LG</name></author>
     <category term="RESEARCH"/>
     <summary>arXiv:2608.10007v1 Announce Type: new Abstract: The current state-of-the-art (SOTA) deep randomized neural networks, such as deep Random Vector Functional Link (dRVFL) and ensemble deep RVFL (edRVFL), treat all training samples uniformly, which limits their robustness and effectiveness when applied to real-world datase</summary>
+  </entry>
+  <entry>
+    <title>GitHub availability report: July 2026</title>
+    <link href="https://github.blog/news-insights/company-news/github-availability-report-july-2026/"/>
+    <id>https://github.blog/news-insights/company-news/github-availability-report-july-2026/</id>
+    <updated>2026-08-12T22:17:32.000Z</updated>
+    <author><name>GitHub Blog</name></author>
+    <category term="PRODUCTS"/>
+    <summary>In July, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: July 2026 appeared first on The GitHub Blog .</summary>
   </entry>
 </feed>
