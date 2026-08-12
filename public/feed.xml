@@ -5,7 +5,16 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-12T02:35:45.528Z</updated>
+  <updated>2026-08-12T04:55:02.689Z</updated>
+  <entry>
+    <title>Introducing Muse Glimmer</title>
+    <link href="https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything"/>
+    <id>https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything</id>
+    <updated>2026-08-10T23:56:03.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Introducing Muse Glimmer Meta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old). They claim to have optimized it for exactly the kind of things I'm looking for in a local model: End-to-end Agentic Task Completion. M</summary>
+  </entry>
   <entry>
     <title>NVIDIA Nemotron 3.5 Lightning</title>
     <link href="https://ollama.com/blog/nemotron-3-5-lightning"/>
@@ -13,16 +22,16 @@
     <updated>2026-08-11T00:00:00.000Z</updated>
     <author><name>Ollama Blog</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>NVIDIA Nemotron 3.5 Lightning is now available on Ollama. It's a 30 billion parameter (3B active) open model built for agents that stay running, gathering context, calling tools, and working through multi-step tasks on your own hardware. — Also covered by: vLLM Blog</summary>
+    <summary>NVIDIA Nemotron 3.5 Lightning is now available on Ollama. It's a 30 billion parameter (3B active) open model built for agents that stay running, gathering context, calling tools, and working through multi-step tasks on your own hardware.</summary>
   </entry>
   <entry>
-    <title>Introducing Muse Glimmer</title>
-    <link href="https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything"/>
-    <id>https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything</id>
-    <updated>2026-08-10T23:56:03.000Z</updated>
-    <author><name>Simon Willison</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Introducing Muse Glimmer Meta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old). They claim to have optimized it for exactly the kind of things I'm looking for in a local model: End-to-end Agentic Task Completion. M</summary>
+    <title>Muse Glimmer from Meta Superintelligence Labs is now available</title>
+    <link href="https://ollama.com/blog/muse-glimmer"/>
+    <id>https://ollama.com/blog/muse-glimmer</id>
+    <updated>2026-08-10T00:00:00.000Z</updated>
+    <author><name>Ollama Blog</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Meta's Muse Glimmer, the first open model released by Meta Superintelligence Labs, is now available. Muse Glimmer is a 30B multimodal model released under the Apache 2.0 license, designed for local coding agents, and accelerated by Ollama's MLX engine with new native DFlash and image input support.</summary>
   </entry>
   <entry>
     <title>Run Local Agentic AI Workflows with Meta’s Muse Glimmer on NVIDIA</title>
@@ -52,31 +61,31 @@
     <summary>Bloomberg : A profile of Suno, which has been used by more than 100M people since 2023 and has 2M+ paid subscribers, as it faces copyright lawsuits from UMG and Sony Music — Investors are betting the $5 billion company will be the next Spotify. — Mikey Shulman stands in the middle of a dark concert hall …</summary>
   </entry>
   <entry>
-    <title>llama.cpp b10362 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10362"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10362</id>
-    <updated>2026-08-11T22:59:42.000Z</updated>
+    <title>llama.cpp b10369 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10369"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10369</id>
+    <updated>2026-08-12T04:54:59.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>tests : disable backend sampler hip multi output ( #26878 ) test-backend-sampler: skip multi_output_sampling_chain on HIP The new multi_output_sampling_chain test uses top_k, whose backend probs path needs CUB (unavailable on HIP), so sampled_probs is null and the test aborts. Add it to the existing HIP skip list along</summary>
+    <summary>mtmd: support pocket-tts ( #26871 ) adapt the api text model ok working impl, need verify and clean up mtmd: build the pocket-tts transposed convolutions as GEMM + col2im ggml_conv_transpose_1d has no grouped mode, so the depthwise upsample was built as one convolution and one concat per channel, which floods the graph</summary>
   </entry>
   <entry>
-    <title>Sanrio Shares Plunge Most Since 2014 After 1Q Earnings Miss</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-12/sanrio-shares-plunge-most-since-2014-after-1q-earnings-miss"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-12/sanrio-shares-plunge-most-since-2014-after-1q-earnings-miss</id>
-    <updated>2026-08-12T01:56:10.000Z</updated>
+    <title>JPMorgan Boosts Singapore Stocks Target as Economic Growth Holds</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-12/jpmorgan-boosts-singapore-stocks-target-as-economic-growth-holds"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-12/jpmorgan-boosts-singapore-stocks-target-as-economic-growth-holds</id>
+    <updated>2026-08-12T03:46:02.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Sanrio Co. shares tumbled as much as 20%, the most in more than 12 years, after the company’s first quarter operating income missed market estimates.</summary>
+    <summary>JPMorgan Chase &amp; Co. raised its target for Singapore stocks as robust economic growth and a narrowing valuation gap with developed-market peers bolster their outlook.</summary>
   </entry>
   <entry>
-    <title>Unified Hallucination Fuzzing for Multimodal Large Language Models</title>
-    <link href="https://arxiv.org/abs/2608.07525"/>
-    <id>https://arxiv.org/abs/2608.07525</id>
-    <updated>2026-08-11T04:00:00.000Z</updated>
+    <title>The Multilingual Quantization Tax: Structural Collapse and Typological Fragility in Edge SLMs</title>
+    <link href="https://arxiv.org/abs/2608.09941"/>
+    <id>https://arxiv.org/abs/2608.09941</id>
+    <updated>2026-08-12T04:00:00.000Z</updated>
     <author><name>arXiv cs.CL</name></author>
     <category term="RESEARCH"/>
-    <summary>arXiv:2608.07525v1 Announce Type: new Abstract: Hallucination remains a persistent challenge for Multimodal Large Language Models (MLLMs), severely limiting their reliability in high-stakes applications. Existing evaluations, predominantly based on static benchmarks, suffer from narrow taxonomical coverage and rapid pe</summary>
+    <summary>arXiv:2608.09941v1 Announce Type: new Abstract: While 4-bit weight quantization is critical for deploying Small Language Models (SLMs) on edge devices, evaluations of the resulting performance degradation-the quantization tax-remain overwhelmingly English-centric. We present a zero-shot multilingual evaluation of 4-bit</summary>
   </entry>
   <entry>
     <title>OpenAI launches a ChatGPT desktop app for Linux in preview, supporting ChatGPT Work, Codex, and more; Computer Use outside the in-app browser is not available (Frederic Lardinois/The New Stack)</title>
@@ -97,22 +106,22 @@
     <summary>We announced partnerships with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to establish independent financing platforms designed to mobilize over $500 billion of third-party capital to support the buildout of AI infrastructure over time. This is a major milestone for NVIDIA and the AI industry. We </summary>
   </entry>
   <entry>
-    <title>Claude Opus 5 Just Beat My Text-Based Adventure Game Benchmark</title>
-    <link href="https://www.lesswrong.com/posts/rWiXxHGggxZKxyGEq/claude-opus-5-just-beat-my-text-based-adventure-game"/>
-    <id>https://www.lesswrong.com/posts/rWiXxHGggxZKxyGEq/claude-opus-5-just-beat-my-text-based-adventure-game</id>
-    <updated>2026-08-11T20:19:51.000Z</updated>
-    <author><name>LessWrong</name></author>
+    <title>Carefully Considering Culture: Analyzing LLM Alignment in Single- and Multi-Cultural Settings using Cultural Consensus Theory</title>
+    <link href="https://arxiv.org/abs/2608.09937"/>
+    <id>https://arxiv.org/abs/2608.09937</id>
+    <updated>2026-08-12T04:00:00.000Z</updated>
+    <author><name>arXiv cs.CL</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Cross-posted from my Substack . Basically, I created a text-based adventure game benchmark in April, and this morning my agent harness using Claude Opus 5 solved it for the first time. I thought the details might be interesting to this community. First, here are my previous articles on this subject: You’re Standing in </summary>
+    <summary>arXiv:2608.09937v1 Announce Type: new Abstract: Recent work in NLP has probed large language models for their understanding of cultural norms across countries. However, this work typically considers distributional patterns, ignoring group consensus or possible multicultural environments within a country. In this work, </summary>
   </entry>
   <entry>
-    <title>How Trail of Bits helps verify the integrity of your Signal chats</title>
-    <link href="https://blog.trailofbits.com/2026/08/11/how-trail-of-bits-helps-verify-the-integrity-of-your-signal-chats/"/>
-    <id>https://blog.trailofbits.com/2026/08/11/how-trail-of-bits-helps-verify-the-integrity-of-your-signal-chats/</id>
-    <updated>2026-08-11T17:30:00.000Z</updated>
-    <author><name>Trail of Bits</name></author>
+    <title>OpenAI Launches Lockdown Mode To Block Prompt Injection Attacks - Yellow.com</title>
+    <link href="https://news.google.com/rss/articles/CBMijAFBVV95cUxNbmF3OUUyamVwNmpnR1JIVDY2NGdzQlpMMXFwUjRWQjdvTk0yTVMxMFJKZHVwRWhxdWVUcWd1ZHhBQ1NlSk5mU0NLR2psa3h6ekhUMzZGY084UkdFZElkajFvOHJCekxweGdoZTNmaXVXQ2xEV3RuWmdmXzVLNjdVS0ZDZ1hwTUZfbDczMA?oc=5"/>
+    <id>https://news.google.com/rss/articles/CBMijAFBVV95cUxNbmF3OUUyamVwNmpnR1JIVDY2NGdzQlpMMXFwUjRWQjdvTk0yTVMxMFJKZHVwRWhxdWVUcWd1ZHhBQ1NlSk5mU0NLR2psa3h6ekhUMzZGY084UkdFZElkajFvOHJCekxweGdoZTNmaXVXQ2xEV3RuWmdmXzVLNjdVS0ZDZ1hwTUZfbDczMA?oc=5</id>
+    <updated>2026-08-11T22:34:04.000Z</updated>
+    <author><name>GN: Prompt Injection</name></author>
     <category term="AI SECURITY"/>
-    <summary>Every Signal chat starts the same way: the client asks the Signal server for the public key associated with your contact’s phone number. But how do you know the server gave you the right key? A compromised server could provide a false public key, allowing the client to encrypt messages to an attacker rather than the in</summary>
+    <summary>OpenAI Launches Lockdown Mode To Block Prompt Injection Attacks Yellow.com</summary>
   </entry>
   <entry>
     <title>Google says Chrome cuts 7 billion unwanted Android notifications a day to fight abuse</title>
@@ -124,22 +133,13 @@
     <summary>Google says Chrome's anti-abuse systems reduced unwanted notifications on Android by more than 7 billion per day during the first quarter of 2026. [...]</summary>
   </entry>
   <entry>
-    <title>Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities</title>
-    <link href="https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/"/>
-    <id>https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/</id>
-    <updated>2026-08-11T22:21:02.000Z</updated>
-    <author><name>Talos Intelligence</name></author>
+    <title>Uncertainty-Aware Ensemble Deep Randomized Neural Networks for Classification</title>
+    <link href="https://arxiv.org/abs/2608.10007"/>
+    <id>https://arxiv.org/abs/2608.10007</id>
+    <updated>2026-08-12T04:00:00.000Z</updated>
+    <author><name>arXiv cs.LG</name></author>
     <category term="CYBER DEFENSE"/>
-    <summary>Microsoft has released its monthly security update for August 2026, which includes 421 vulnerabilities affecting a range of products, including 62 that Microsoft marked as &quot;critical.&quot;</summary>
-  </entry>
-  <entry>
-    <title>Accel raised $3.5B in funds for early-stage investments, including a $1.35B global expansion fund for larger early-stage rounds and rapid follow-on investments (Natasha Mascarenhas/Bloomberg)</title>
-    <link href="https://www.techmeme.com/260811/p38#a260811p38"/>
-    <id>https://www.techmeme.com/260811/p38#a260811p38</id>
-    <updated>2026-08-11T21:45:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>Natasha Mascarenhas / Bloomberg : Accel raised $3.5B in funds for early-stage investments, including a $1.35B global expansion fund for larger early-stage rounds and rapid follow-on investments — Accel, a global venture capital firm with offices in Silicon Valley, London and Bangalore, India, has raised $3.5 billion …</summary>
+    <summary>arXiv:2608.10007v1 Announce Type: new Abstract: The current state-of-the-art (SOTA) deep randomized neural networks, such as deep Random Vector Functional Link (dRVFL) and ensemble deep RVFL (edRVFL), treat all training samples uniformly, which limits their robustness and effectiveness when applied to real-world datase</summary>
   </entry>
   <entry>
     <title>There are no lossless transformations of natural-language text</title>
@@ -196,67 +196,67 @@
     <summary>Nikhilesh De / CoinDesk : The CFTC uses its “emergency authority” to order Kalshi to continue operating in New York after the state filed a lawsuit in July seeking to shutter Kalshi — The U.S. Commodity Futures Trading Commission announced it had ordered prediction market operator Kalshi to continue operating …</summary>
   </entry>
   <entry>
-    <title>Dual a770 in Aug 2026?</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vm17lu/dual_a770_in_aug_2026/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vm17lu/dual_a770_in_aug_2026/</id>
-    <updated>2026-08-12T02:10:31.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>We quantized DeepSeek V4 0731 and benchmarked it against popular quants on 8× RTX 5090</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vlurlv/we_quantized_deepseek_v4_0731_and_benchmarked_it/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vlurlv/we_quantized_deepseek_v4_0731_and_benchmarked_it/</id>
+    <updated>2026-08-11T21:34:13.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Hi all, I wonder how is the experience for using dual a770 in 2026? I want to run ~30b models such as nemotron flash or meta muse. Intel card has honestly been disappointing for me, despite the hardware have a higher spec on paper. Neither sycl or Vulkan backend llama cpp can beat 2060s on e4b (about 2/3 decode speed).</summary>
+    <summary>We converted the model from the original safetensors and found two issues. The first one made our quantization fail several times, the second one does not fail at all, it just quietly ruins the base 1) You must use the --no-lazy option, otherwise token_embd.weight will take on the value NaN. 2) By default, the converte</summary>
   </entry>
   <entry>
-    <title>claude-code v2.1.228 released</title>
-    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.228"/>
-    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.228</id>
-    <updated>2026-08-11T19:50:59.000Z</updated>
-    <author><name>anthropics/claude-code</name></author>
+    <title>New Muse-Glimmer-30B SoTA Quants - hopefully a new lineup :)</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vm2116/new_museglimmer30b_sota_quants_hopefully_a_new/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vm2116/new_museglimmer30b_sota_quants_hopefully_a_new/</id>
+    <updated>2026-08-12T02:49:13.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Hey Folks, I've been making quants for a while - recently I took a short break to get into hardcore research (submitted my first EMNLP paper during it!). Along the way, I built up a little arsenal of quant-optim techniques: everything from novel, paper-pending tricks to some genuinely sick tensor-mapping algos. I threw</summary>
+  </entry>
+  <entry>
+    <title>Sheaf-Based Federated Representation Learning</title>
+    <link href="https://arxiv.org/abs/2608.10016"/>
+    <id>https://arxiv.org/abs/2608.10016</id>
+    <updated>2026-08-12T04:00:00.000Z</updated>
+    <author><name>arXiv cs.LG</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>What's changed Fixed interactive sessions that could stop redrawing entirely, while the process kept running, after a rare internal layout error Fixed git / Git Bash not being found on Windows when Claude Code is launched from a parent folder of the git installation Fixed /tui reverting the session to an earlier model </summary>
+    <summary>arXiv:2608.10016v1 Announce Type: new Abstract: Heterogeneous federated systems require agents to learn and exchange informative representations despite differences in data distributions, sensing modalities, model architectures, latent dimensionalities, and local learning objectives. To address this challenge, we propo</summary>
   </entry>
   <entry>
-    <title>How many of your agent's calls actually need a frontier model?</title>
-    <link href="https://www.langchain.com/blog/switchyard-agent-routing-benchmark"/>
-    <id>https://www.langchain.com/blog/switchyard-agent-routing-benchmark</id>
-    <updated>2026-08-11T15:25:30.000Z</updated>
-    <author><name>LangChain Blog</name></author>
+    <title>DOCSCHISEL: Adaptive Tool Documentation Optimization Framework for LLM Agents</title>
+    <link href="https://arxiv.org/abs/2608.10037"/>
+    <id>https://arxiv.org/abs/2608.10037</id>
+    <updated>2026-08-12T04:00:00.000Z</updated>
+    <author><name>arXiv cs.LG</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>We benchmarked NVIDIA NeMo Switchyard on 145 agent tasks. Only 7% of turns needed a frontier model, and routing cut cost 74% for six points of accuracy.</summary>
+    <summary>arXiv:2608.10037v1 Announce Type: new Abstract: Large language models (LLMs) increasingly rely on external tools to accomplish complex real-world tasks, making tool documentation a critical grounding resource for LLM agents. Existing studies mainly focus on improving the tool-use capabilities of LLM agents, while large</summary>
   </entry>
   <entry>
-    <title>Jane Street Repaying $5.5 Billion Loan in Overhaul of Debt Load</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-12/jane-street-repaying-5-5-billion-loan-in-overhaul-of-debt-load"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-12/jane-street-repaying-5-5-billion-loan-in-overhaul-of-debt-load</id>
-    <updated>2026-08-12T00:19:31.000Z</updated>
+    <title>Indonesian Tech Firm GoTo Faces MSCI Index Exclusion in Review</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-12/indonesian-e-commerce-giant-faces-msci-index-exclusion-in-review"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-12/indonesian-e-commerce-giant-faces-msci-index-exclusion-in-review</id>
+    <updated>2026-08-12T03:43:34.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Jane Street is repaying $5.5 billion of floating-rate loans as part of a broader overhaul of its $11 billion debt load.</summary>
+    <summary>GoTo Group, the Indonesian ride-hailing and food delivery platform once valued at more than $32 billion, faces the prospect of being dropped from MSCI Inc.’s indexes on Wednesday after a plunge in its share price left the stock difficult to trade.</summary>
   </entry>
   <entry>
-    <title>China Revives Free-Trade Zone Bond Market After 2023 Crackdown</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-12/china-revives-free-trade-zone-bond-market-after-2023-crackdown"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-12/china-revives-free-trade-zone-bond-market-after-2023-crackdown</id>
-    <updated>2026-08-12T01:26:26.000Z</updated>
+    <title>AGL Jumps Most in Six Months on Strong Battery Performance</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-12/agl-jumps-most-in-six-months-on-strong-battery-performance"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-12/agl-jumps-most-in-six-months-on-strong-battery-performance</id>
+    <updated>2026-08-12T04:46:32.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Signs of life are returning to the Shanghai free-trade zone’s bond market, which went quiet in late 2023 after Chinese authorities clamped down on excessive borrowing by local governments.</summary>
+    <summary>AGL Energy Ltd. shares jumped the most in six months as Australia’s largest power producer’s batteries helped offset declining wholesale electricity prices.</summary>
   </entry>
   <entry>
-    <title>The Video Production Stack Now Fits on One Desk: LTX-2.5 Launches as NVIDIA-Accelerated Open Weights World Model</title>
-    <link href="https://www.marktechpost.com/2026/08/11/the-video-production-stack-now-fits-on-one-desk-ltx-2-5-launches-as-nvidia-accelerated-open-weights-world-model/"/>
-    <id>https://www.marktechpost.com/2026/08/11/the-video-production-stack-now-fits-on-one-desk-ltx-2-5-launches-as-nvidia-accelerated-open-weights-world-model/</id>
-    <updated>2026-08-11T20:02:03.000Z</updated>
-    <author><name>MarkTechPost</name></author>
+    <title>CurveFP: Rational-Radix Logarithmic Datatypes with Closed Products for Language Models</title>
+    <link href="https://arxiv.org/abs/2608.10010"/>
+    <id>https://arxiv.org/abs/2608.10010</id>
+    <updated>2026-08-12T04:00:00.000Z</updated>
+    <author><name>arXiv cs.LG</name></author>
     <category term="RESEARCH"/>
-    <summary>LTX-2.5 brings frontier video generation to local NVIDIA hardware: 6.8-second clips, native multishot, day-one ComfyUI, open weights. The post The Video Production Stack Now Fits on One Desk: LTX-2.5 Launches as NVIDIA-Accelerated Open Weights World Model appeared first on MarkTechPost .</summary>
-  </entry>
-  <entry>
-    <title>DSW EAS infrastructure smoke 2026-08-12</title>
-    <link href="https://github.com/QwenLM/qwen-code/releases/tag/dsw-eas-smoke-20260812-281542bfdc"/>
-    <id>https://github.com/QwenLM/qwen-code/releases/tag/dsw-eas-smoke-20260812-281542bfdc</id>
-    <updated>2026-08-12T02:04:01.000Z</updated>
-    <author><name>QwenLM/qwen-code</name></author>
-    <category term="RESEARCH"/>
-    <summary>Non-production infrastructure smoke. No SWE score will be published. Benchmark-Qwen-Ref: v0.21.2</summary>
+    <summary>arXiv:2608.10010v1 Announce Type: new Abstract: Low-precision datatypes reduce language-model cost, but most formats optimize scalar fidelity while leaving the arithmetic induced by their products unchanged. We introduce CurveFP, a closed-product codebook family that distributes quantized magnitudes across interleaved </summary>
   </entry>
   <entry>
     <title>OpenAI launches ChatGPT desktop app for Linux</title>
@@ -268,12 +268,12 @@
     <summary>OpenAI is finally bringing a dedicated ChatGPT desktop app to Linux operating systems.</summary>
   </entry>
   <entry>
-    <title>NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents</title>
-    <link href="https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/"/>
-    <id>https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/</id>
-    <updated>2026-08-11T13:00:25.000Z</updated>
-    <author><name>NVIDIA Blog</name></author>
+    <title>Flow-by-Flow:Content-Judgment Bypass for Governing AI Output in High-Loss Domains</title>
+    <link href="https://arxiv.org/abs/2608.07474"/>
+    <id>https://arxiv.org/abs/2608.07474</id>
+    <updated>2026-08-12T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
     <category term="HARDWARE"/>
-    <summary>The open source ecosystem is making it easier for AI enthusiasts and developers to build, customize and run increasingly capable agents locally. Throughout August, NVIDIA is celebrating the partners and open source communities moving local AI forward, along with the models, applications and tools emerging across the ec</summary>
+    <summary>arXiv:2608.07474v1 Announce Type: new Abstract: Prior work showed that human-in-the-loop oversight becomes structurally untenable in high-loss domains when AI output velocity V exceeds human cognitive capacity C_max. The operative constraint, however, is not V alone but V x L, where L denotes per-item cognitive load. L</summary>
   </entry>
 </feed>
