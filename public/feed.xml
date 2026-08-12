@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-11T23:52:00.205Z</updated>
+  <updated>2026-08-12T02:35:45.528Z</updated>
   <entry>
     <title>NVIDIA Nemotron 3.5 Lightning</title>
     <link href="https://ollama.com/blog/nemotron-3-5-lightning"/>
@@ -23,15 +23,6 @@
     <author><name>Simon Willison</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Introducing Muse Glimmer Meta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old). They claim to have optimized it for exactly the kind of things I'm looking for in a local model: End-to-end Agentic Task Completion. M</summary>
-  </entry>
-  <entry>
-    <title>claude-code v2.1.228 released</title>
-    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.228"/>
-    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.228</id>
-    <updated>2026-08-11T19:50:59.000Z</updated>
-    <author><name>anthropics/claude-code</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>What's changed Fixed interactive sessions that could stop redrawing entirely, while the process kept running, after a rare internal layout error Fixed git / Git Bash not being found on Windows when Claude Code is launched from a parent folder of the git installation Fixed /tui reverting the session to an earlier model  — Also covered by: QwenLM/qwen-code</summary>
   </entry>
   <entry>
     <title>Run Local Agentic AI Workflows with Meta’s Muse Glimmer on NVIDIA</title>
@@ -52,31 +43,31 @@
     <summary>NVIDIA Nemotron 3.5 Lightning NVIDIA Nemotron 3.5 Lightning is an open 30B mixture-of-experts (MoE) model with 3B active parameters built for that execution layer of always-on agents. It is designed for harnesses like OpenClaw and Hermes Agent – all supported by the NVIDIA NemoClaw open source security and management s</summary>
   </entry>
   <entry>
-    <title>OpenAI launches a ChatGPT desktop app for Linux in preview, supporting ChatGPT Work, Codex, and more; Computer Use outside the in-app browser is not available (Frederic Lardinois/The New Stack)</title>
-    <link href="https://www.techmeme.com/260811/p41#a260811p41"/>
-    <id>https://www.techmeme.com/260811/p41#a260811p41</id>
-    <updated>2026-08-11T22:55:01.000Z</updated>
+    <title>A profile of Suno, which has been used by more than 100M people since 2023 and has 2M+ paid subscribers, as it faces copyright lawsuits from UMG and Sony Music (Bloomberg)</title>
+    <link href="https://www.techmeme.com/260811/p42#a260811p42"/>
+    <id>https://www.techmeme.com/260811/p42#a260811p42</id>
+    <updated>2026-08-11T23:55:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Frederic Lardinois / The New Stack : OpenAI launches a ChatGPT desktop app for Linux in preview, supporting ChatGPT Work, Codex, and more; Computer Use outside the in-app browser is not available — On Tuesday, OpenAI launched its ChatGPT desktop for Linux. — Now in preview, the app, which combines ChatGPT, ChatGPT Work</summary>
+    <summary>Bloomberg : A profile of Suno, which has been used by more than 100M people since 2023 and has 2M+ paid subscribers, as it faces copyright lawsuits from UMG and Sony Music — Investors are betting the $5 billion company will be the next Spotify. — Mikey Shulman stands in the middle of a dark concert hall …</summary>
   </entry>
   <entry>
-    <title>We quantized DeepSeek V4 0731 and benchmarked it against popular quants on 8× RTX 5090</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vlurlv/we_quantized_deepseek_v4_0731_and_benchmarked_it/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vlurlv/we_quantized_deepseek_v4_0731_and_benchmarked_it/</id>
-    <updated>2026-08-11T21:34:13.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>llama.cpp b10362 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10362"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10362</id>
+    <updated>2026-08-11T22:59:42.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>We converted the model from the original safetensors and found two issues. The first one made our quantization fail several times, the second one does not fail at all, it just quietly ruins the base 1) You must use the --no-lazy option, otherwise token_embd.weight will take on the value NaN. 2) By default, the converte</summary>
+    <summary>tests : disable backend sampler hip multi output ( #26878 ) test-backend-sampler: skip multi_output_sampling_chain on HIP The new multi_output_sampling_chain test uses top_k, whose backend probs path needs CUB (unavailable on HIP), so sampled_probs is null and the test aborts. Add it to the existing HIP skip list along</summary>
   </entry>
   <entry>
-    <title>China's Real Estate Market Races to Defuse a $148 Billion Time Bomb</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-11/china-s-real-estate-market-races-to-defuse-a-148-billion-time-bomb"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-11/china-s-real-estate-market-races-to-defuse-a-148-billion-time-bomb</id>
-    <updated>2026-08-11T23:00:17.000Z</updated>
+    <title>Sanrio Shares Plunge Most Since 2014 After 1Q Earnings Miss</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-12/sanrio-shares-plunge-most-since-2014-after-1q-earnings-miss"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-12/sanrio-shares-plunge-most-since-2014-after-1q-earnings-miss</id>
+    <updated>2026-08-12T01:56:10.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Officials are trying to fix a problem that has hung over the sector for years.</summary>
+    <summary>Sanrio Co. shares tumbled as much as 20%, the most in more than 12 years, after the company’s first quarter operating income missed market estimates.</summary>
   </entry>
   <entry>
     <title>Unified Hallucination Fuzzing for Multimodal Large Language Models</title>
@@ -88,22 +79,31 @@
     <summary>arXiv:2608.07525v1 Announce Type: new Abstract: Hallucination remains a persistent challenge for Multimodal Large Language Models (MLLMs), severely limiting their reliability in high-stakes applications. Existing evaluations, predominantly based on static benchmarks, suffer from narrow taxonomical coverage and rapid pe</summary>
   </entry>
   <entry>
-    <title>llama.cpp b10362 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10362"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10362</id>
-    <updated>2026-08-11T22:59:42.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="HARDWARE"/>
-    <summary>tests : disable backend sampler hip multi output ( #26878 ) test-backend-sampler: skip multi_output_sampling_chain on HIP The new multi_output_sampling_chain test uses top_k, whose backend probs path needs CUB (unavailable on HIP), so sampled_probs is null and the test aborts. Add it to the existing HIP skip list along</summary>
+    <title>OpenAI launches a ChatGPT desktop app for Linux in preview, supporting ChatGPT Work, Codex, and more; Computer Use outside the in-app browser is not available (Frederic Lardinois/The New Stack)</title>
+    <link href="https://www.techmeme.com/260811/p41#a260811p41"/>
+    <id>https://www.techmeme.com/260811/p41#a260811p41</id>
+    <updated>2026-08-11T22:55:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Frederic Lardinois / The New Stack : OpenAI launches a ChatGPT desktop app for Linux in preview, supporting ChatGPT Work, Codex, and more; Computer Use outside the in-app browser is not available — On Tuesday, OpenAI launched its ChatGPT desktop for Linux. — Now in preview, the app, which combines ChatGPT, ChatGPT Work</summary>
   </entry>
   <entry>
-    <title>Stealing Reasoning Traces from Proprietary LLM APIs</title>
-    <link href="https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything"/>
-    <id>https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything</id>
-    <updated>2026-08-11T22:40:45.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>NVIDIA AI Factory Compute Is Becoming an Investable Asset Class</title>
+    <link href="https://blogs.nvidia.com/blog/nvidia-ai-factory-compute/"/>
+    <id>https://blogs.nvidia.com/blog/nvidia-ai-factory-compute/</id>
+    <updated>2026-08-12T00:38:21.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
+    <category term="HARDWARE"/>
+    <summary>We announced partnerships with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to establish independent financing platforms designed to mobilize over $500 billion of third-party capital to support the buildout of AI infrastructure over time. This is a major milestone for NVIDIA and the AI industry. We </summary>
+  </entry>
+  <entry>
+    <title>Claude Opus 5 Just Beat My Text-Based Adventure Game Benchmark</title>
+    <link href="https://www.lesswrong.com/posts/rWiXxHGggxZKxyGEq/claude-opus-5-just-beat-my-text-based-adventure-game"/>
+    <id>https://www.lesswrong.com/posts/rWiXxHGggxZKxyGEq/claude-opus-5-just-beat-my-text-based-adventure-game</id>
+    <updated>2026-08-11T20:19:51.000Z</updated>
+    <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Stealing Reasoning Traces from Proprietary LLM APIs A vanity domain name ( stolen-thoughts.com ) for a neat paper : Anthropic, OpenAI, and Google return encrypted chain-of-thought blocks to clients that can be replayed across sessions, users, and models. We take a trace produced by a frontier model, replay it into a we</summary>
+    <summary>Cross-posted from my Substack . Basically, I created a text-based adventure game benchmark in April, and this morning my agent harness using Claude Opus 5 solved it for the first time. I thought the details might be interesting to this community. First, here are my previous articles on this subject: You’re Standing in </summary>
   </entry>
   <entry>
     <title>How Trail of Bits helps verify the integrity of your Signal chats</title>
@@ -115,13 +115,22 @@
     <summary>Every Signal chat starts the same way: the client asks the Signal server for the public key associated with your contact’s phone number. But how do you know the server gave you the right key? A compromised server could provide a false public key, allowing the client to encrypt messages to an attacker rather than the in</summary>
   </entry>
   <entry>
-    <title>Microsoft releases Windows 10 KB5120249 extended security update</title>
-    <link href="https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5120249-cumulative-update-released-with-fixes/"/>
-    <id>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5120249-cumulative-update-released-with-fixes/</id>
-    <updated>2026-08-11T18:26:03.000Z</updated>
+    <title>Google says Chrome cuts 7 billion unwanted Android notifications a day to fight abuse</title>
+    <link href="https://www.bleepingcomputer.com/news/security/google-says-chrome-cuts-7-billion-unwanted-android-notifications-a-day-to-fight-abuse/"/>
+    <id>https://www.bleepingcomputer.com/news/security/google-says-chrome-cuts-7-billion-unwanted-android-notifications-a-day-to-fight-abuse/</id>
+    <updated>2026-08-12T01:15:55.000Z</updated>
     <author><name>BleepingComputer</name></author>
     <category term="CYBER THREATS"/>
-    <summary>Microsoft has released Windows 10 KB5120249 Extended Security Updates for versions 22H2 and 21H2 to fix security vulnerabilities and bugs. [...]</summary>
+    <summary>Google says Chrome's anti-abuse systems reduced unwanted notifications on Android by more than 7 billion per day during the first quarter of 2026. [...]</summary>
+  </entry>
+  <entry>
+    <title>Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities</title>
+    <link href="https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/"/>
+    <id>https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/</id>
+    <updated>2026-08-11T22:21:02.000Z</updated>
+    <author><name>Talos Intelligence</name></author>
+    <category term="CYBER DEFENSE"/>
+    <summary>Microsoft has released its monthly security update for August 2026, which includes 421 vulnerabilities affecting a range of products, including 62 that Microsoft marked as &quot;critical.&quot;</summary>
   </entry>
   <entry>
     <title>Accel raised $3.5B in funds for early-stage investments, including a $1.35B global expansion fund for larger early-stage rounds and rapid follow-on investments (Natasha Mascarenhas/Bloomberg)</title>
@@ -131,6 +140,15 @@
     <author><name>Techmeme</name></author>
     <category term="FUNDING &amp; DEALS"/>
     <summary>Natasha Mascarenhas / Bloomberg : Accel raised $3.5B in funds for early-stage investments, including a $1.35B global expansion fund for larger early-stage rounds and rapid follow-on investments — Accel, a global venture capital firm with offices in Silicon Valley, London and Bangalore, India, has raised $3.5 billion …</summary>
+  </entry>
+  <entry>
+    <title>There are no lossless transformations of natural-language text</title>
+    <link href="https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/#atom-everything"/>
+    <id>https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/#atom-everything</id>
+    <updated>2026-08-11T23:48:35.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="ANALYSIS"/>
+    <summary>There are no lossless transformations of natural-language text Sophie Alpert shares her &quot;internal policy on acceptable use of AI writing by engineers&quot;. It's a short read (supporting its own recommendations) and really good. If you chose to have LLMs help massage your writing the following rule seems crucial to me: You </summary>
   </entry>
   <entry>
     <title>Defense drone developer Cambridge Aerospace raises $300M</title>
@@ -160,6 +178,15 @@
     <summary>OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.</summary>
   </entry>
   <entry>
+    <title>In-region inference, open models, and new European infrastructure for sovereign AI.</title>
+    <link href="https://mistral.ai/news/regional-inference-open-models-new-compute/"/>
+    <id>https://mistral.ai/news/regional-inference-open-models-new-compute/</id>
+    <updated>2026-08-11T12:00:27.000Z</updated>
+    <author><name>Mistral AI</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Mistral is bringing together the inference infrastructure, open models, and long-term commitments Europe needs to control its AI future, and setting a roadmap for the world.</summary>
+  </entry>
+  <entry>
     <title>The CFTC uses its &quot;emergency authority&quot; to order Kalshi to continue operating in New York after the state filed a lawsuit in July seeking to shutter Kalshi (Nikhilesh De/CoinDesk)</title>
     <link href="https://www.techmeme.com/260811/p40#a260811p40"/>
     <id>https://www.techmeme.com/260811/p40#a260811p40</id>
@@ -169,22 +196,22 @@
     <summary>Nikhilesh De / CoinDesk : The CFTC uses its “emergency authority” to order Kalshi to continue operating in New York after the state filed a lawsuit in July seeking to shutter Kalshi — The U.S. Commodity Futures Trading Commission announced it had ordered prediction market operator Kalshi to continue operating …</summary>
   </entry>
   <entry>
-    <title>OpenAI launches ChatGPT desktop app for Linux</title>
-    <link href="https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/"/>
-    <id>https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/</id>
-    <updated>2026-08-11T19:15:35.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>OpenAI is finally bringing a dedicated ChatGPT desktop app to Linux operating systems.</summary>
+    <title>Dual a770 in Aug 2026?</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1vm17lu/dual_a770_in_aug_2026/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1vm17lu/dual_a770_in_aug_2026/</id>
+    <updated>2026-08-12T02:10:31.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Hi all, I wonder how is the experience for using dual a770 in 2026? I want to run ~30b models such as nemotron flash or meta muse. Intel card has honestly been disappointing for me, despite the hardware have a higher spec on paper. Neither sycl or Vulkan backend llama cpp can beat 2060s on e4b (about 2/3 decode speed).</summary>
   </entry>
   <entry>
-    <title>366 t/s Qwen3.6 27B NVFP4 on v100s</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vlt0lj/366_ts_qwen36_27b_nvfp4_on_v100s/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vlt0lj/366_ts_qwen36_27b_nvfp4_on_v100s/</id>
-    <updated>2026-08-11T20:28:19.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>These are single stream numbers Following on from my previous post about v100s ( here ) and inspired by this comment ( here ) I decided to work on kernels that allow for an extremely fast path for Nvfp4 weights on sm70 and almost free deep speculation on sm70 as well. Which leads me excitedly on to the launch of “v100-</summary>
+    <title>claude-code v2.1.228 released</title>
+    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.228"/>
+    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.228</id>
+    <updated>2026-08-11T19:50:59.000Z</updated>
+    <author><name>anthropics/claude-code</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>What's changed Fixed interactive sessions that could stop redrawing entirely, while the process kept running, after a rare internal layout error Fixed git / Git Bash not being found on Windows when Claude Code is launched from a parent folder of the git installation Fixed /tui reverting the session to an earlier model </summary>
   </entry>
   <entry>
     <title>How many of your agent's calls actually need a frontier model?</title>
@@ -196,22 +223,22 @@
     <summary>We benchmarked NVIDIA NeMo Switchyard on 145 agent tasks. Only 7% of turns needed a frontier model, and routing cut cost 74% for six points of accuracy.</summary>
   </entry>
   <entry>
-    <title>China Earnings to Test Rotation From AI to Internet Stocks</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-11/china-earnings-to-test-rotation-from-ai-to-internet-stocks"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-11/china-earnings-to-test-rotation-from-ai-to-internet-stocks</id>
-    <updated>2026-08-11T23:30:00.000Z</updated>
+    <title>Jane Street Repaying $5.5 Billion Loan in Overhaul of Debt Load</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-12/jane-street-repaying-5-5-billion-loan-in-overhaul-of-debt-load"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-12/jane-street-repaying-5-5-billion-loan-in-overhaul-of-debt-load</id>
+    <updated>2026-08-12T00:19:31.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>A rotation into China’s biggest tech firms from AI infrastructure stocks will be tested this week as earnings are due.</summary>
+    <summary>Jane Street is repaying $5.5 billion of floating-rate loans as part of a broader overhaul of its $11 billion debt load.</summary>
   </entry>
   <entry>
-    <title>Global Investors Favor Taiwan Over Korea Stocks After AI Selloff</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-11/global-investors-favor-taiwan-over-korea-stocks-after-ai-selloff"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-11/global-investors-favor-taiwan-over-korea-stocks-after-ai-selloff</id>
-    <updated>2026-08-11T23:00:00.000Z</updated>
+    <title>China Revives Free-Trade Zone Bond Market After 2023 Crackdown</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-12/china-revives-free-trade-zone-bond-market-after-2023-crackdown"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-12/china-revives-free-trade-zone-bond-market-after-2023-crackdown</id>
+    <updated>2026-08-12T01:26:26.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Taiwanese stocks are gaining favor over South Korea’s on steadier earnings prospects, as the two AI-bellwether markets look to recover from July’s rout.</summary>
+    <summary>Signs of life are returning to the Shanghai free-trade zone’s bond market, which went quiet in late 2023 after Chinese authorities clamped down on excessive borrowing by local governments.</summary>
   </entry>
   <entry>
     <title>The Video Production Stack Now Fits on One Desk: LTX-2.5 Launches as NVIDIA-Accelerated Open Weights World Model</title>
@@ -223,13 +250,22 @@
     <summary>LTX-2.5 brings frontier video generation to local NVIDIA hardware: 6.8-second clips, native multishot, day-one ComfyUI, open weights. The post The Video Production Stack Now Fits on One Desk: LTX-2.5 Launches as NVIDIA-Accelerated Open Weights World Model appeared first on MarkTechPost .</summary>
   </entry>
   <entry>
-    <title>Copilot memory and Ollama in GitHub Copilot for JetBrains</title>
-    <link href="https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains"/>
-    <id>https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains</id>
-    <updated>2026-08-11T20:15:55.000Z</updated>
-    <author><name>GitHub Copilot Changelog</name></author>
+    <title>DSW EAS infrastructure smoke 2026-08-12</title>
+    <link href="https://github.com/QwenLM/qwen-code/releases/tag/dsw-eas-smoke-20260812-281542bfdc"/>
+    <id>https://github.com/QwenLM/qwen-code/releases/tag/dsw-eas-smoke-20260812-281542bfdc</id>
+    <updated>2026-08-12T02:04:01.000Z</updated>
+    <author><name>QwenLM/qwen-code</name></author>
+    <category term="RESEARCH"/>
+    <summary>Non-production infrastructure smoke. No SWE score will be published. Benchmark-Qwen-Ref: v0.21.2</summary>
+  </entry>
+  <entry>
+    <title>OpenAI launches ChatGPT desktop app for Linux</title>
+    <link href="https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/"/>
+    <id>https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/</id>
+    <updated>2026-08-11T19:15:35.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="PRODUCTS"/>
-    <summary>This update brings persistent memory, local model access, and more enterprise controls to GitHub Copilot for JetBrains. It also improves everyday chat workflows and resolves reliability issues across MCP servers,… The post Copilot memory and Ollama in GitHub Copilot for JetBrains appeared first on The GitHub Blog .</summary>
+    <summary>OpenAI is finally bringing a dedicated ChatGPT desktop app to Linux operating systems.</summary>
   </entry>
   <entry>
     <title>NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents</title>
@@ -239,41 +275,5 @@
     <author><name>NVIDIA Blog</name></author>
     <category term="HARDWARE"/>
     <summary>The open source ecosystem is making it easier for AI enthusiasts and developers to build, customize and run increasingly capable agents locally. Throughout August, NVIDIA is celebrating the partners and open source communities moving local AI forward, along with the models, applications and tools emerging across the ec</summary>
-  </entry>
-  <entry>
-    <title>NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI</title>
-    <link href="https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/"/>
-    <id>https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/</id>
-    <updated>2026-08-11T13:00:05.000Z</updated>
-    <author><name>NVIDIA Blog</name></author>
-    <category term="HARDWARE"/>
-    <summary>As AI shifts from chatbots to autonomous agents, open models are serving market demands for full control over where AI runs and how it’s deployed and evolves. Today, NVIDIA is expanding its Nemotron 3 model family with Nemotron 3.5 Lightning, the highest-efficiency model in its class for long-running agentic AI workloa</summary>
-  </entry>
-  <entry>
-    <title>Introducing Unsloth Desktop 🦥</title>
-    <link href="https://github.com/unslothai/unsloth/releases/tag/v0.1.701-beta"/>
-    <id>https://github.com/unslothai/unsloth/releases/tag/v0.1.701-beta</id>
-    <updated>2026-08-11T20:10:26.000Z</updated>
-    <author><name>unslothai/unsloth</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Unsloth Desktop is here! The first desktop app to run and train AI models locally. Research, export and deploy from the same open-source app on Windows, macOS and Linux. 🦥 Download Unsloth Desktop for Linux, Windows, MacOS Here's what you can do with Unsloth Desktop: Get up to 50% more accurate tool calling with self-</summary>
-  </entry>
-  <entry>
-    <title>Nvidia's open-weight Nemotron 3.5 Lightning prioritizes speed over maximum intelligence</title>
-    <link href="https://the-decoder.com/nvidias-open-weight-nemotron-3-5-lightning-prioritizes-speed-over-maximum-intelligence/"/>
-    <id>https://the-decoder.com/nvidias-open-weight-nemotron-3-5-lightning-prioritizes-speed-over-maximum-intelligence/</id>
-    <updated>2026-08-11T15:07:44.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Nvidia's Nemotron 3.5 Lightning is an open-weights model with just 3.6 billion active parameters that matches OpenAI's gpt-oss-120b on the Intelligence Index despite being four times smaller. At nearly 670 tokens per second, it's also the fastest model in the comparison, showing Nvidia is betting on efficiency over raw</summary>
-  </entry>
-  <entry>
-    <title>Claude Opus 5 Just Beat My Text-Based Adventure Game Benchmark</title>
-    <link href="https://www.lesswrong.com/posts/rWiXxHGggxZKxyGEq/claude-opus-5-just-beat-my-text-based-adventure-game"/>
-    <id>https://www.lesswrong.com/posts/rWiXxHGggxZKxyGEq/claude-opus-5-just-beat-my-text-based-adventure-game</id>
-    <updated>2026-08-11T20:19:51.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>Cross-posted from my Substack . Basically, I created a text-based adventure game benchmark in April, and this morning my agent harness using Claude Opus 5 solved it for the first time. I thought the details might be interesting to this community. First, here are my previous articles on this subject: You’re Standing in </summary>
   </entry>
 </feed>
