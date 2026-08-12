@@ -5,16 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-12T17:05:58.853Z</updated>
-  <entry>
-    <title>NVIDIA Nemotron 3.5 Lightning</title>
-    <link href="https://ollama.com/blog/nemotron-3-5-lightning"/>
-    <id>https://ollama.com/blog/nemotron-3-5-lightning</id>
-    <updated>2026-08-11T00:00:00.000Z</updated>
-    <author><name>Ollama Blog</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>NVIDIA Nemotron 3.5 Lightning is now available on Ollama. It's a 30 billion parameter (3B active) open model built for agents that stay running, gathering context, calling tools, and working through multi-step tasks on your own hardware. — Also covered by: vLLM Blog</summary>
-  </entry>
+  <updated>2026-08-12T19:14:25.731Z</updated>
   <entry>
     <title>Introducing Muse Glimmer</title>
     <link href="https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything"/>
@@ -23,6 +14,24 @@
     <author><name>Simon Willison</name></author>
     <category term="LOCAL MODELS"/>
     <summary>Introducing Muse Glimmer Meta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old). They claim to have optimized it for exactly the kind of things I'm looking for in a local model: End-to-end Agentic Task Completion. M — Also covered by: LM Studio Blog</summary>
+  </entry>
+  <entry>
+    <title>DeepSeek V4 Pro 0813</title>
+    <link href="https://openrouter.ai/deepseek/deepseek-v4-pro-0813"/>
+    <id>https://openrouter.ai/deepseek/deepseek-v4-pro-0813</id>
+    <updated>2026-08-12T16:04:50.000Z</updated>
+    <author><name>HN: Chinese Frontier Labs</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Article URL: https://openrouter.ai/deepseek/deepseek-v4-pro-0813 Comments URL: https://news.ycombinator.com/item?id=49274600 Points: 423 # Comments: 147</summary>
+  </entry>
+  <entry>
+    <title>NVIDIA Nemotron 3.5 Lightning</title>
+    <link href="https://ollama.com/blog/nemotron-3-5-lightning"/>
+    <id>https://ollama.com/blog/nemotron-3-5-lightning</id>
+    <updated>2026-08-11T00:00:00.000Z</updated>
+    <author><name>Ollama Blog</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>NVIDIA Nemotron 3.5 Lightning is now available on Ollama. It's a 30 billion parameter (3B active) open model built for agents that stay running, gathering context, calling tools, and working through multi-step tasks on your own hardware. — Also covered by: vLLM Blog</summary>
   </entry>
   <entry>
     <title>Muse Glimmer from Meta Superintelligence Labs is now available</title>
@@ -43,22 +52,13 @@
     <summary>Meta returns to the open source ecosystem with the release of Muse Glimmer, a 30B open-weight dense model with a 120K+ context window built for local AI... — Also covered by: Hugging Face Blog</summary>
   </entry>
   <entry>
-    <title>Putting sign language AI into users’ hands</title>
-    <link href="https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/"/>
-    <id>https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/</id>
-    <updated>2026-08-12T14:01:59.000Z</updated>
-    <author><name>Google DeepMind Blog</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.</summary>
-  </entry>
-  <entry>
-    <title>Everything announced at Made by Google ’26: Pixel 11, Pixel Watch 5, Pixel Tag, and tons of Gemini features</title>
-    <link href="https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026/"/>
-    <id>https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026/</id>
-    <updated>2026-08-12T14:20:33.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>Sources: Kalshi is in advanced talks to raise $750M+ co-led by Sequoia Capital and Wellington Management at a $40B valuation; Kalshi was valued at $22B in May (Yueqi Yang/The Information)</title>
+    <link href="https://www.techmeme.com/260812/p45#a260812p45"/>
+    <id>https://www.techmeme.com/260812/p45#a260812p45</id>
+    <updated>2026-08-12T18:50:01.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>From the Pixel 11 series and a brand new competitor to Apple’s AirTag, here are all the announcements from the Made by Google 2026 event.</summary>
+    <summary>Yueqi Yang / The Information : Sources: Kalshi is in advanced talks to raise $750M+ co-led by Sequoia Capital and Wellington Management at a $40B valuation; Kalshi was valued at $22B in May — Kalshi, the biggest prediction market, is in advanced talks to raise at least $750 million in a new financing round at a $40 bil</summary>
   </entry>
   <entry>
     <title>llama.cpp b10375 released</title>
@@ -70,76 +70,76 @@
     <summary>chat : tighten bare function parsing for Qwen models ( #26793 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulka</summary>
   </entry>
   <entry>
+    <title>LangSmith BYOC on AWS is generally available</title>
+    <link href="https://www.langchain.com/blog/langsmith-byoc-is-now-generally-available-on-aws"/>
+    <id>https://www.langchain.com/blog/langsmith-byoc-is-now-generally-available-on-aws</id>
+    <updated>2026-08-12T18:50:08.000Z</updated>
+    <author><name>LangChain Blog</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>LangSmith Bring Your Own Cloud is now generally available on AWS, giving Enterprise teams managed observability, evaluation, and deployment inside their own VPC.</summary>
+  </entry>
+  <entry>
+    <title>'Terrific Tail Winds' In Secondaries: Dawn</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-12/-terrific-tail-winds-in-secondaries-dawn-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-12/-terrific-tail-winds-in-secondaries-dawn-video</id>
+    <updated>2026-08-12T19:04:54.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Nigel Dawn, global head of private capital at Evercore, joins Romaine Bostick on &quot;Bloomberg Deals.&quot; Secondaries deals for private assets surged to a record $121 billion in the first half of 2026, driven by fund managers seeking to hold onto single “trophy” assets longer, according to Evercore. (Source: Bloomberg)</summary>
+  </entry>
+  <entry>
+    <title>Silicon Data Raises $30.5M to Benchmark AI Compute</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-12/silicon-data-raises-30-5m-to-benchmark-ai-compute-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-12/silicon-data-raises-30-5m-to-benchmark-ai-compute-video</id>
+    <updated>2026-08-12T19:07:04.000Z</updated>
+    <author><name>Bloomberg Tech</name></author>
+    <category term="RESEARCH"/>
+    <summary>Silicon Data has raised $30.5 million to expand its pricing and performance benchmarks for the rapidly growing AI compute market. CEO Carmen Li joins Bloomberg to discuss the company’s ambition to become an &quot;independent referee&quot; for compute, CME’s planned GPU futures tied to Silicon Data benchmarks, and what its data s</summary>
+  </entry>
+  <entry>
+    <title>AI coding startup Cognition reportedly already in talks to raise at $40B valuation</title>
+    <link href="https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/"/>
+    <id>https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/</id>
+    <updated>2026-08-12T18:19:12.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Cognition may be looking to raise another mega round just a few months after raising $1 billion at a $26 billion valuation.</summary>
+  </entry>
+  <entry>
     <title>SpaceXAI releases Grok 4.6, saying it matches GPT-5.6 Sol on the Artificial Analysis Intelligence Index, and prices it at $2/1M input and $6/1M output tokens (xAI)</title>
     <link href="https://www.techmeme.com/260812/p39#a260812p39"/>
     <id>https://www.techmeme.com/260812/p39#a260812p39</id>
     <updated>2026-08-12T15:35:01.000Z</updated>
     <author><name>Techmeme</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
+    <category term="HARDWARE"/>
     <summary>xAI : SpaceXAI releases Grok 4.6, saying it matches GPT-5.6 Sol on the Artificial Analysis Intelligence Index, and prices it at $2/1M input and $6/1M output tokens — Grok 4.6 builds on Grok 4.5 with a particular focus on long-running agents and more ambitious interactive and visual work. — Try for free</summary>
   </entry>
   <entry>
-    <title>Lakers Owner Walter Seeks Cash to Pay Down Loans Amid DOJ Probe</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-12/lakers-owner-walter-seeks-cash-to-pay-down-loans-amid-doj-probe"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-12/lakers-owner-walter-seeks-cash-to-pay-down-loans-amid-doj-probe</id>
-    <updated>2026-08-12T16:59:07.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Billionaire Mark Walter’s firm is in talks with investors to raise money to help pay down loans on the books of its insurers that had drawn scrutiny from the Justice Department, according to people familiar with the matter.</summary>
-  </entry>
-  <entry>
-    <title>MindTopo reveals VLMs’ spatial reasoning abilities</title>
-    <link href="https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/"/>
-    <id>https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/</id>
-    <updated>2026-08-12T16:00:00.000Z</updated>
-    <author><name>Microsoft Research Blog</name></author>
-    <category term="RESEARCH"/>
-    <summary>A path, a fence, a knot. MindTopo sets a new benchmark for testing how AI understands topological relationships and highlights new opportunities to strengthen spatial reasoning and planning. The post MindTopo reveals VLMs’ spatial reasoning abilities appeared first on Microsoft Research .</summary>
-  </entry>
-  <entry>
-    <title>Silicon Data, which offers real-time compute pricing data to financial institutions and exchanges, raised a $30.5M Series A led by the Valor Atreides AI Fund (Chris Metinko/Axios)</title>
-    <link href="https://www.techmeme.com/260812/p40#a260812p40"/>
-    <id>https://www.techmeme.com/260812/p40#a260812p40</id>
-    <updated>2026-08-12T15:35:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Chris Metinko / Axios : Silicon Data, which offers real-time compute pricing data to financial institutions and exchanges, raised a $30.5M Series A led by the Valor Atreides AI Fund — Silicon Data, a financial data platform for the AI economy, raised $30.5 million in Series A funding led by the Valor Atreides AI Fund, </summary>
-  </entry>
-  <entry>
-    <title>Nvidia's Nemotron 4 aims for one trillion parameters, a scale Chinese labs already surpassed</title>
-    <link href="https://the-decoder.com/nvidias-nemotron-4-aims-for-one-trillion-parameters-a-scale-chinese-labs-already-surpassed/"/>
-    <id>https://the-decoder.com/nvidias-nemotron-4-aims-for-one-trillion-parameters-a-scale-chinese-labs-already-surpassed/</id>
-    <updated>2026-08-12T12:37:58.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>As AI safety concerns mount, three pioneers make the case for staying open</title>
+    <link href="https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/"/>
+    <id>https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/</id>
+    <updated>2026-08-12T17:51:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>Nvidia is working on Nemotron 4, a new open-weight model designed to rival the world’s best freely available models. The article Nvidia's Nemotron 4 aims for one trillion parameters, a scale Chinese labs already surpassed appeared first on The Decoder .</summary>
+    <summary>At Ai4, three of the world's most respected AI experts—Geoffrey Hinton, Fei-Fei Li, and Andrew Ng—debated regulation, open-source access, and how America can compete as China advances in Asia.</summary>
   </entry>
   <entry>
-    <title>AI testing is dangerous. Can it be fixed?</title>
-    <link href="https://www.transformernews.ai/p/ai-testing-is-dangerous-can-it-be-fixed"/>
-    <id>https://www.transformernews.ai/p/ai-testing-is-dangerous-can-it-be-fixed</id>
-    <updated>2026-08-12T15:04:10.000Z</updated>
-    <author><name>Transformer</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>The capability of models is outpacing ways to safely evaluate and contain them</summary>
-  </entry>
-  <entry>
-    <title>OpenAI Launches Lockdown Mode To Block Prompt Injection Attacks - Yellow.com</title>
-    <link href="https://news.google.com/rss/articles/CBMihgFBVV95cUxNS3pJb0NncnlsODhDT2FkOGVhNFpidEVVc2VQVnVTaFZXS1V2UFRBRkpFM3VPU09sdVFBekw2S015LWo4dDNfbGN5MWJ1OV9ZRGRURDRfMG5MWkdacTlpQnZCbE5qOTdocG81WHdhSUloTnhETXl6Mng2NUJlRUhsOGt0RjMwQQ?oc=5"/>
-    <id>https://news.google.com/rss/articles/CBMihgFBVV95cUxNS3pJb0NncnlsODhDT2FkOGVhNFpidEVVc2VQVnVTaFZXS1V2UFRBRkpFM3VPU09sdVFBekw2S015LWo4dDNfbGN5MWJ1OV9ZRGRURDRfMG5MWkdacTlpQnZCbE5qOTdocG81WHdhSUloTnhETXl6Mng2NUJlRUhsOGt0RjMwQQ?oc=5</id>
-    <updated>2026-08-12T01:51:57.000Z</updated>
+    <title>Study Finds Four Major AI Labs Use Incompatible Prompt Injection Metrics - Yellow.com</title>
+    <link href="https://news.google.com/rss/articles/CBMimAFBVV95cUxNZjBwNE11UWRfZ0E1dE1CaE51bEtrOGlmVnRXQzJBdlMtckdjX1Vfa3l2UmdXWDhlMTFzM2tLTjJyNm9FXzZCZUNJOEI4ZWtoRlpkclVfLTZTSzd5SXhIcVdHNVE2ejNVLUZvbUVwLTNSVENKNmJBWmVla2NpMGNkSmVtMW9zZVdRcnpoZnFySUhxVmxQcmpiaQ?oc=5"/>
+    <id>https://news.google.com/rss/articles/CBMimAFBVV95cUxNZjBwNE11UWRfZ0E1dE1CaE51bEtrOGlmVnRXQzJBdlMtckdjX1Vfa3l2UmdXWDhlMTFzM2tLTjJyNm9FXzZCZUNJOEI4ZWtoRlpkclVfLTZTSzd5SXhIcVdHNVE2ejNVLUZvbUVwLTNSVENKNmJBWmVla2NpMGNkSmVtMW9zZVdRcnpoZnFySUhxVmxQcmpiaQ?oc=5</id>
+    <updated>2026-08-12T16:37:09.000Z</updated>
     <author><name>GN: Prompt Injection</name></author>
     <category term="AI SECURITY"/>
-    <summary>OpenAI Launches Lockdown Mode To Block Prompt Injection Attacks Yellow.com</summary>
+    <summary>Study Finds Four Major AI Labs Use Incompatible Prompt Injection Metrics Yellow.com</summary>
   </entry>
   <entry>
-    <title>Three intrusions at UK criminal records office went undetected for two years</title>
-    <link href="https://therecord.media/uk-criminal-records-office-acro-data-breaches"/>
-    <id>https://therecord.media/uk-criminal-records-office-acro-data-breaches</id>
-    <updated>2026-08-12T13:00:00.000Z</updated>
+    <title>FBI: Hackers using social engineering to breach accounts and steal explicit content</title>
+    <link href="https://therecord.media/social-engineering-hackers-explicit-photos-fbi-alert"/>
+    <id>https://therecord.media/social-engineering-hackers-explicit-photos-fbi-alert</id>
+    <updated>2026-08-12T17:28:00.000Z</updated>
     <author><name>The Record</name></author>
     <category term="CYBER THREATS"/>
-    <summary>Unread antivirus alerts and an unpatched content management system exposed Britain's ACRO to three separate data breaches, according to a reprimand notice.</summary>
+    <summary>Leaked passwords, social engineering and spoofed social media sites are among the tools hackers are using to gather individuals' private content and sell it online, the FBI said.</summary>
   </entry>
   <entry>
     <title>AI tools for breast cancer detection fall short of radiologists' expectations</title>
@@ -149,6 +149,15 @@
     <author><name>The Decoder</name></author>
     <category term="CYBER DEFENSE"/>
     <summary>About half of 215 surveyed members of the Society of Breast Imaging already use FDA-approved AI tools for breast cancer detection, but the results fall short of expectations. Only 35 percent report lower recall rates, while 59 percent had expected them. The gap between promise and reality runs through every category me</summary>
+  </entry>
+  <entry>
+    <title>Sector Snapshot: Fitness Startup Funding Is Rebounding, But Investors Want AI And Data, Not Treadmills</title>
+    <link href="https://news.crunchbase.com/health-wellness-biotech/fitness-startup-funding-rebounding-ai-data-h1-2026/"/>
+    <id>https://news.crunchbase.com/health-wellness-biotech/fitness-startup-funding-rebounding-ai-data-h1-2026/</id>
+    <updated>2026-08-12T11:00:21.000Z</updated>
+    <author><name>Crunchbase News AI</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>Venture investors seem to be more upbeat than they have been in years about the future of fitness and wellness. Startup investment in those categories totaled more than $3.6 billion in the first half of this year, putting 2026 on pace to come in about a third higher than 2025.</summary>
   </entry>
   <entry>
     <title>Quoting Florian Herrengt</title>
@@ -178,22 +187,30 @@
     <summary>These are the stocks posting the largest moves midday.</summary>
   </entry>
   <entry>
-    <title>NABTU and Meta Announce New Partnership to Invest In Skilled Trades for the AI Era</title>
-    <link href="https://about.fb.com/news/2026/08/nabtu-and-meta-partnership-to-invest-in-skilled-trades-for-ai-era/"/>
-    <id>https://about.fb.com/news/2026/08/nabtu-and-meta-partnership-to-invest-in-skilled-trades-for-ai-era/</id>
-    <updated>2026-08-12T13:51:19.000Z</updated>
-    <author><name>Meta AI Blog</name></author>
+    <title>Putting sign language AI into users’ hands</title>
+    <link href="https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/"/>
+    <id>https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/</id>
+    <updated>2026-08-12T14:01:59.000Z</updated>
+    <author><name>Google DeepMind Blog</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Meta and North America's Building Trades Unions (NABTU) are partnering to invest in skilled trades workers building America's AI infrastructure. The post NABTU and Meta Announce New Partnership to Invest In Skilled Trades for the AI Era appeared first on Meta Newsroom .</summary>
+    <summary>Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.</summary>
   </entry>
   <entry>
-    <title>Bank of America says it plans to deploy $250B by July 2027 to support US digital and infrastructure projects, including data centers and energy infrastructure (Reuters)</title>
-    <link href="https://www.techmeme.com/260812/p41#a260812p41"/>
-    <id>https://www.techmeme.com/260812/p41#a260812p41</id>
-    <updated>2026-08-12T16:10:00.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis</title>
+    <link href="https://huggingface.co/blog/allenai/olmoearth-embeddings"/>
+    <id>https://huggingface.co/blog/allenai/olmoearth-embeddings</id>
+    <updated>2026-08-12T16:14:36.000Z</updated>
+    <author><name>Hugging Face Blog</name></author>
+    <category term="MODEL RELEASES"/>
+  </entry>
+  <entry>
+    <title>OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise</title>
+    <link href="https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/"/>
+    <id>https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/</id>
+    <updated>2026-08-12T17:41:29.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Reuters : Bank of America says it plans to deploy $250B by July 2027 to support US digital and infrastructure projects, including data centers and energy infrastructure — Bank of America (BAC.N) said on Wednesday it plans to deploy $250 billion by July 2027 to support U.S. digital and infrastructure projects …</summary>
+    <summary>Thrive Holdings has raised $2 billion in new funding at a $12 billion valuation from investors like SoftBank, D1 Capital Partners, and Altimeter Capital.</summary>
   </entry>
   <entry>
     <title>North Micro Vision Launch</title>
@@ -205,49 +222,40 @@
     <summary>Hey guys! El from Cohere here. Just wanted to drop in and say today we released North Micro Vision, our smallest vision-language model to date (2.4B). It outperforms Gemma 4 E2B and Ministral 3 3B across a bunch of different benchmarks, plus it’s open source under Apache 2.0 with weights on Hugging Face. The model is b</summary>
   </entry>
   <entry>
-    <title>Llama CPP is giving me 2x to 3x speed of LMStudio on same settings</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vmjq48/llama_cpp_is_giving_me_2x_to_3x_speed_of_lmstudio/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vmjq48/llama_cpp_is_giving_me_2x_to_3x_speed_of_lmstudio/</id>
-    <updated>2026-08-12T16:53:50.000Z</updated>
+    <title>Same 6GB GPU + 16GB RAM: a 110B that crawls at ~1 tok/s, or a 30B at 22 tok/s that actually works. The difference is where you spend the bit</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1vmm4hl/same_6gb_gpu_16gb_ram_a_110b_that_crawls_at_1/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1vmm4hl/same_6gb_gpu_16gb_ram_a_110b_that_crawls_at_1/</id>
+    <updated>2026-08-12T18:18:13.000Z</updated>
     <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>My rig is i9 14900ks, 64GB DDR4 and 16GB 9070xt, I was running Qwen3 Coder Next and never had good tps, so decided to try direct llama and now I am getting 13 to 14 tps, as opposed to 3-5 on LMS My settings are as follows. Llama CPP. (13 -14 tps)(llama-server) — fit on — ngpulayers 48 — ncpumoe 48 — kv-unified — flash-</summary>
+    <summary>Everyone quantizes uniformly every layer gets the same bits. Ok, maybe everyone is a little bit extreme but follow me! We measured what that costs, layer by layer, and the result surprised us: the fragile layers move between models. Mistral-7B breaks at the front ( its first 8 layers cost 27× more perplexity than its m</summary>
   </entry>
   <entry>
-    <title>AI agents aren’t legally responsible for any harm that they cause, experts say. So who is?</title>
-    <link href="https://www.theguardian.com/technology/2026/aug/13/ai-agents-arent-legally-responsible-for-any-harm-that-they-cause-experts-say-so-who-is"/>
-    <id>https://www.theguardian.com/technology/2026/aug/13/ai-agents-arent-legally-responsible-for-any-harm-that-they-cause-experts-say-so-who-is</id>
-    <updated>2026-08-12T15:00:34.000Z</updated>
-    <author><name>The Guardian AI</name></author>
+    <title>SpaceXAI's Grok 4.6 matches OpenAI's best model and undercuts it on price</title>
+    <link href="https://the-decoder.com/spacexais-grok-4-6-matches-openais-best-model-and-undercuts-it-on-price/"/>
+    <id>https://the-decoder.com/spacexais-grok-4-6-matches-openais-best-model-and-undercuts-it-on-price/</id>
+    <updated>2026-08-12T18:33:21.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Following Australia’s first reported automated hacking accident, experts warn deployers – and possibly developers – of AI agents could be held liable for the actions of their bots Get our breaking news email , free app or daily news podcast The law is clear, says Prof Jeannie Paterson. “If I deploy an AI agent and it c</summary>
+    <summary>xAI's Grok 4.6 scores 61 points on the Artificial Analysis Intelligence Index, tying GPT-5.6 Sol and trailing only Anthropic's Claude Opus 5. On agentic tasks, it completes complex workflows in about 53 steps where Claude Opus 5 needs 103, at a price more than 60 percent lower. The article SpaceXAI's Grok 4.6 matches O</summary>
   </entry>
   <entry>
-    <title>From assistance to execution: How enterprises put AI to work</title>
-    <link href="https://openai.com/index/how-enterprises-put-ai-to-work"/>
-    <id>https://openai.com/index/how-enterprises-put-ai-to-work</id>
-    <updated>2026-08-12T06:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.</summary>
-  </entry>
-  <entry>
-    <title>Goldman Sachs to Acquire ETF Provider Neos in $2.3 Billion Deal</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-12/goldman-sachs-to-acquire-etf-provider-neos-in-2-3b-deal-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-12/goldman-sachs-to-acquire-etf-provider-neos-in-2-3b-deal-video</id>
-    <updated>2026-08-12T16:49:03.000Z</updated>
+    <title>Ancora Comfortable With Its Offer for H.B. Fuller Unit</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-12/ancora-comfortable-with-its-offer-for-h-b-fuller-unit-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-12/ancora-comfortable-with-its-offer-for-h-b-fuller-unit-video</id>
+    <updated>2026-08-12T19:09:27.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Goldman Sachs Group will pay as much as $2.25 billion to buy Neos Investments, expanding its asset manager’s reach in the actively managed exchange-traded fund market. Bloomberg's Neil Sipes joins to discuss. (Source: Bloomberg)</summary>
+    <summary>Ancora Holdings Group is pushing to acquire H.B. Fuller Co.'s building adhesives unit for as much as $1.2 billion. James Chadwick is the president of Ancora's alternatives arm. He says the activist investor is comfortable with the offer and it would be a &quot;win-win&quot; for shareholders. He speaks on &quot;Bloomberg Deals.&quot; (Sour</summary>
   </entry>
   <entry>
-    <title>Yardeni Raises S&amp;P 500 Target on 'Fabulous Earnings Momentum'</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-12/yardeni-raises-s-p-500-target-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-12/yardeni-raises-s-p-500-target-video</id>
-    <updated>2026-08-12T16:31:29.000Z</updated>
+    <title>Sweetgreen CEO Says Cyclospora Hurt Sales</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-12/sweetgreen-ceo-says-cyclospora-hurt-sales-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-12/sweetgreen-ceo-says-cyclospora-hurt-sales-video</id>
+    <updated>2026-08-12T19:05:44.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>An in-line inflation reading spurred gains in both stocks and bonds, easing concern about imminent Federal Reserve interest-rate increases despite elevated oil prices. Ed Yardeni, Founder at Yardeni Research, talks about raising his S&amp;P target and the market melt up. (Source: Bloomberg)</summary>
+    <summary>Sweetgreen Inc. CEO Jonathan Neman says the cyclospora outbreak had an impact on the business but the US FDA now says it's safe to eat iceberg lettuce again. He says Sweetgreen's supply chain isn’t affected by the cyclospora outbreak and its restaurants don’t serve that kind of lettuce. Neman speaks to Bloomberg's Roma</summary>
   </entry>
   <entry>
     <title>The Multilingual Quantization Tax: Structural Collapse and Typological Fragility in Edge SLMs</title>
@@ -259,21 +267,12 @@
     <summary>arXiv:2608.09941v1 Announce Type: new Abstract: While 4-bit weight quantization is critical for deploying Small Language Models (SLMs) on edge devices, evaluations of the resulting performance degradation-the quantization tax-remain overwhelmingly English-centric. We present a zero-shot multilingual evaluation of 4-bit</summary>
   </entry>
   <entry>
-    <title>Uncertainty-Aware Ensemble Deep Randomized Neural Networks for Classification</title>
-    <link href="https://arxiv.org/abs/2608.10007"/>
-    <id>https://arxiv.org/abs/2608.10007</id>
-    <updated>2026-08-12T04:00:00.000Z</updated>
-    <author><name>arXiv cs.LG</name></author>
+    <title>MindTopo reveals VLMs’ spatial reasoning abilities</title>
+    <link href="https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/"/>
+    <id>https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/</id>
+    <updated>2026-08-12T16:00:00.000Z</updated>
+    <author><name>Microsoft Research Blog</name></author>
     <category term="RESEARCH"/>
-    <summary>arXiv:2608.10007v1 Announce Type: new Abstract: The current state-of-the-art (SOTA) deep randomized neural networks, such as deep Random Vector Functional Link (dRVFL) and ensemble deep RVFL (edRVFL), treat all training samples uniformly, which limits their robustness and effectiveness when applied to real-world datase</summary>
-  </entry>
-  <entry>
-    <title>OpenAI launches ChatGPT desktop app for Linux</title>
-    <link href="https://the-decoder.com/openai-launches-chatgpt-desktop-app-for-linux/"/>
-    <id>https://the-decoder.com/openai-launches-chatgpt-desktop-app-for-linux/</id>
-    <updated>2026-08-12T11:53:31.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="PRODUCTS"/>
-    <summary>OpenAI brings its ChatGPT desktop app to Linux. The article OpenAI launches ChatGPT desktop app for Linux appeared first on The Decoder .</summary>
+    <summary>A path, a fence, a knot. MindTopo sets a new benchmark for testing how AI understands topological relationships and highlights new opportunities to strengthen spatial reasoning and planning. The post MindTopo reveals VLMs’ spatial reasoning abilities appeared first on Microsoft Research .</summary>
   </entry>
 </feed>
