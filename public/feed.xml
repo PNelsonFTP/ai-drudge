@@ -5,16 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-13T21:56:03.390Z</updated>
-  <entry>
-    <title>Introducing Muse Glimmer</title>
-    <link href="https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/"/>
-    <id>https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/</id>
-    <updated>2026-08-10T23:56:03.000Z</updated>
-    <author><name>Simon Willison</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Introducing Muse Glimmer Meta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old). They claim to have optimized it for exactly the kind of things I'm looking for in a local model: End-to-end Agentic Task Completion. M</summary>
-  </entry>
+  <updated>2026-08-13T22:54:02.863Z</updated>
   <entry>
     <title>OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed</title>
     <link href="https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/"/>
@@ -32,6 +23,15 @@
     <author><name>GitHub Copilot Changelog</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Gemini 3.7 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. From our early testing, the model has made improvements in web and app development and agentic… The post Gemini 3.7 Flash is now available in GitHub Copilot appeared first on The GitHub Blog . — Also covered by: Vercel Blog</summary>
+  </entry>
+  <entry>
+    <title>Google unveils Gemini 3.7 Flash AI model for coding, agent workflows - Reuters</title>
+    <link href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdlZyeUlWQWJSd1dqa0pMcjIxUE9wYTlBbGxna3g5QWt5aXIzSENaOWsxYTk4RkE1NXhfdmd0eEVSckF6ak9mQThZbHo3LXlFZHRGcVhRcHZtWUxoOF8tR3laa0xQalI0eWFxSGVqR0ZXTkpJVkVlUmwtRmFpMS1aeDRnY3F6Q0liN0E1Y1BkSi1oUWZJTTd3SmhzLXprZFB0SHNGY2NZbmE1bW8?oc=5"/>
+    <id>https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdlZyeUlWQWJSd1dqa0pMcjIxUE9wYTlBbGxna3g5QWt5aXIzSENaOWsxYTk4RkE1NXhfdmd0eEVSckF6ak9mQThZbHo3LXlFZHRGcVhRcHZtWUxoOF8tR3laa0xQalI0eWFxSGVqR0ZXTkpJVkVlUmwtRmFpMS1aeDRnY3F6Q0liN0E1Y1BkSi1oUWZJTTd3SmhzLXprZFB0SHNGY2NZbmE1bW8?oc=5</id>
+    <updated>2026-08-13T17:06:47.000Z</updated>
+    <author><name>Reuters AI (Google News)</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Google unveils Gemini 3.7 Flash AI model for coding, agent workflows Reuters</summary>
   </entry>
   <entry>
     <title>Person Hides Prompt Injection in Legal Filing Telling AI to Side With Them</title>
@@ -57,17 +57,17 @@
     <id>https://quantumcomputingreport.com/btq-technologies-signs-mou-with-itcenglobal-subsidiary-itcen-pns-to-deploy-post-quantum-security-in-south-korea/</id>
     <updated>2026-08-13T13:32:15.000Z</updated>
     <author><name>Quantum Computing Report</name></author>
-    <category term="AI FINANCE"/>
+    <category term="QUANTUM"/>
     <summary>Quantum technology provider BTQ Technologies Corp. (NASDAQ: BTQ) has signed a Memorandum of Understanding (MOU) with ITCENGLOBAL CO., Ltd. (KOSDAQ: 124500) through its listed security platform subsidiary, ITCEN PNS Co., Ltd. (KOSDAQ: 232830). The partnership establishes a commercial framework to integrate post-quantum  — Also covered by: The Quantum Insider</summary>
   </entry>
   <entry>
-    <title>ollama v0.32.10 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.32.10"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.32.10</id>
-    <updated>2026-08-13T18:32:55.000Z</updated>
+    <title>ollama v0.32.11 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.32.11"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.32.11</id>
+    <updated>2026-08-13T22:19:02.000Z</updated>
     <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>What's Changed Models that don't set a repeat_penalty now default to 1.0 (off) instead of 1.1, matching other engines and speeding up speculative decoding; set a per-model parameter if an older model repeats itself. Faster prefill on NVFP4 MLX models with a global scale, about 7–8% on Qwen3.6 and Muse Glimmer. Fixed bl</summary>
+    <summary>launch: add DeepSeek Harness integration ( #17733 )</summary>
   </entry>
   <entry>
     <title>OpenAI launches Computer History, an opt-in feature that turns recent computer activity on macOS into memories and a timeline that ChatGPT and Codex can use (Frederic Lardinois/The New Stack)</title>
@@ -79,6 +79,15 @@
     <summary>Frederic Lardinois / The New Stack : OpenAI launches Computer History, an opt-in feature that turns recent computer activity on macOS into memories and a timeline that ChatGPT and Codex can use — OpenAI's opt-in Computer History captures a local timeline of Mac activity so ChatGPT Work can recover context across select</summary>
   </entry>
   <entry>
+    <title>llama.cpp b10423 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10423"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10423</id>
+    <updated>2026-08-13T22:45:45.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>common: apply CPU parameters across tools ( #27026 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x</summary>
+  </entry>
+  <entry>
     <title>Gemini 3.7 Flash lands with coding gains and undercuts its three-week-old predecessor's price by 50%</title>
     <link href="https://the-decoder.com/gemini-3-7-flash-lands-with-coding-gains-and-undercuts-its-three-week-old-predecessors-price-by-50/"/>
     <id>https://the-decoder.com/gemini-3-7-flash-lands-with-coding-gains-and-undercuts-its-three-week-old-predecessors-price-by-50/</id>
@@ -88,22 +97,22 @@
     <summary>Google shipped Gemini 3.7 Flash just three weeks after 3.6 Flash. The new model is supposed to be Google's most capable workhorse yet for coding and AI agents, and according to the company's own benchmarks, it beats Claude Sonnet 5 and GPT-5.6 Terra at half the price. The article Gemini 3.7 Flash lands with coding gain</summary>
   </entry>
   <entry>
-    <title>Winklevosses’ Gemini Posts Another Loss, Revenue Increases</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-13/winklevosses-gemini-posts-another-loss-revenue-increases"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-13/winklevosses-gemini-posts-another-loss-revenue-increases</id>
-    <updated>2026-08-13T21:01:19.000Z</updated>
+    <title>SEC Delays Crypto Regulation Meeting in Latest Industry Setback</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-13/sec-delays-crypto-regulation-meeting-in-latest-industry-setback"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-13/sec-delays-crypto-regulation-meeting-in-latest-industry-setback</id>
+    <updated>2026-08-13T21:53:17.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Gemini Space Station Inc., the digital-asset platform led by the billionaires Tyler and Cameron Winklevoss that went public last year just before the crypto market tumbled from record highs, posted a fourth consecutive quarterly loss since the IPO.</summary>
+    <summary>The Securities and Exchange Commission canceled a Friday meeting where the agency was expected to unveil new plans for digital assets as landmark crypto legislation remains stalled in Congress.</summary>
   </entry>
   <entry>
-    <title>Sources: Vantage Data Centers, a major hyperscale developer, is exploring options including a sale or an IPO at a valuation of about $100B as soon as next year (Reuters)</title>
-    <link href="https://www.techmeme.com/260813/p41#a260813p41"/>
-    <id>https://www.techmeme.com/260813/p41#a260813p41</id>
-    <updated>2026-08-13T19:01:22.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed</title>
+    <link href="https://openai.com/index/previewing-ultrafast"/>
+    <id>https://openai.com/index/previewing-ultrafast</id>
+    <updated>2026-08-13T10:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
     <category term="HARDWARE"/>
-    <summary>Reuters : Sources: Vantage Data Centers, a major hyperscale developer, is exploring options including a sale or an IPO at a valuation of about $100B as soon as next year — Vantage Data Centers, a major hyperscale developer and operator, is exploring options including an IPO or sale as soon as next year …</summary>
+    <summary>Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.</summary>
   </entry>
   <entry>
     <title>Writer introduces new AI model and upgraded harness to contain token costs</title>
@@ -151,6 +160,15 @@
     <summary>In this edition of the Threat Source newsletter, William reflects on the “Make Hazel a Hacker” segment in Beers with Talos, and how cybersecurity is a field where questions can lead to multiple correct answers.</summary>
   </entry>
   <entry>
+    <title>Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.</title>
+    <link href="https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/"/>
+    <id>https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/</id>
+    <updated>2026-08-13T20:14:39.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>AI is expensive, Ali Ghodsi tells TechCrunch. With so many investors wanting into his latest round, he said yes to more than planned.</summary>
+  </entry>
+  <entry>
     <title>Labs are struggling to keep frontier models under control</title>
     <link href="https://www.understandingai.org/p/labs-are-struggling-to-keep-frontier"/>
     <id>https://www.understandingai.org/p/labs-are-struggling-to-keep-frontier</id>
@@ -185,31 +203,22 @@
     <category term="MODEL RELEASES"/>
   </entry>
   <entry>
-    <title>DeepSeek Harness developer preview</title>
-    <link href="https://deepseek.com/harness/en/"/>
-    <id>https://deepseek.com/harness/en/</id>
-    <updated>2026-08-13T12:58:02.000Z</updated>
-    <author><name>HN: Chinese Frontier Labs</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>https://github.com/deepseek-ai/deepseek-harness https://deepseek-harness.github.io/deepseek-harness/en/guide... Comments URL: https://news.ycombinator.com/item?id=49285244 Points: 509 # Comments: 230</summary>
+    <title>I’m still 15 - G1 Nano is out, and this community helped me move beyond my 8GB Jetson</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1vnnclo/im_still_15_g1_nano_is_out_and_this_community/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1vnnclo/im_still_15_g1_nano_is_out_and_this_community/</id>
+    <updated>2026-08-13T21:06:07.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Hi r/LocalLLaMA , I’m Jules, a 15-year-old high-school student from France. A few weeks ago, I posted here after training and releasing my first small language model, G0-nano-instruct, entirely on an 8GB NVIDIA Jetson. That first post was about finding access to a DGX Spark so I could take the next step with G1. Since </summary>
   </entry>
   <entry>
-    <title>llama.cpp b10418 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10418"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10418</id>
-    <updated>2026-08-13T21:38:17.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>nn: speed up prefill on double-scale nvfp4 models</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.32.10-rc0"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.32.10-rc0</id>
+    <updated>2026-08-12T20:25:33.000Z</updated>
+    <author><name>ollama/ollama</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>[SYCL] Support host pinned mem to improve SYCL Host-to-Device Memory Access ( #26789 ) support host pinned mem, ggml_backend_sycl_host_buffer_type_get_max_size, fix the thread-safe issue Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel </summary>
-  </entry>
-  <entry>
-    <title>Fixed Jinja chat template for Qwen 3.5, 3.6, and the new 3.8 release</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vnm7le/fixed_jinja_chat_template_for_qwen_35_36_and_the/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vnm7le/fixed_jinja_chat_template_for_qwen_35_36_and_the/</id>
-    <updated>2026-08-13T20:22:56.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Qwen just released their first 3.8 model. The main addition in 3.8 is prompt-steered reasoning effort. You can tell the model how deeply to think by setting reasoning_effort to xhigh , medium , or low . However, the official template still has some serious problems: You cannot disable thinking. If you pass enable_think</summary>
+    <summary>ModelOpt checkpoints apply a float32 global scale to every projection output on top of the per-group quantization scales. Running the multiply and the cast back to the activation dtype as separate eager ops costs an extra kernel launch and a materialized intermediate per projection. Compile the multiply and cast into o</summary>
   </entry>
   <entry>
     <title>The builder’s guide to GPT‑5.6</title>
@@ -221,31 +230,31 @@
     <summary>Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.</summary>
   </entry>
   <entry>
-    <title>Anthropic details multiagent experiments showing Claude agents can wage a &quot;turf war&quot; over incompatible goals, fail to coordinate, collude on prices, and more (Rebecca Bellan/TechCrunch)</title>
-    <link href="https://www.techmeme.com/260813/p44#a260813p44"/>
-    <id>https://www.techmeme.com/260813/p44#a260813p44</id>
-    <updated>2026-08-13T20:50:01.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Deepseek ships improved V4 Pro, open-sources its agent software, and raises API prices</title>
+    <link href="https://the-decoder.com/deepseek-launches-an-improved-v4-pro-model-raises-api-prices-and-makes-its-agent-software-open-source/"/>
+    <id>https://the-decoder.com/deepseek-launches-an-improved-v4-pro-model-raises-api-prices-and-makes-its-agent-software-open-source/</id>
+    <updated>2026-08-13T16:27:32.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Rebecca Bellan / TechCrunch : Anthropic details multiagent experiments showing Claude agents can wage a “turf war” over incompatible goals, fail to coordinate, collude on prices, and more — What happens when you pit AI agents against each other? According to Anthropic's testing, things get messy fast.</summary>
+    <summary>Deepseek has moved its flagship V4-Pro out of the testing phase and released its agent software, Harness v0.1, under the MIT license. API prices are going up at the same time, with cache hits jumping to six times their current cost. For agent workflows that repeatedly read the same files, that's the biggest price incre</summary>
   </entry>
   <entry>
-    <title>Fmr. NBA Executive: Lakers a ‘Special Asset’ in Sports</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-13/fmr-nba-executive-lakers-a-special-asset-in-sports-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-13/fmr-nba-executive-lakers-a-special-asset-in-sports-video</id>
-    <updated>2026-08-13T20:46:20.000Z</updated>
+    <title>Asian Stocks Set for Gains as US Inflation Cools: Markets Wrap</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-13/asian-stocks-set-for-gains-as-us-inflation-cools-markets-wrap"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-13/asian-stocks-set-for-gains-as-us-inflation-cools-markets-wrap</id>
+    <updated>2026-08-13T22:10:41.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Bobby Sharma, Founder and Managing Partner at Bluestone Equity Partners, discussed the recent $12.5 billion valuation of the Los Angeles Lakers, highlighting the extraordinary price and the broader trend of sports becoming institutionalized investment assets. Sharma emphasized that the Lakers represent a unique global </summary>
+    <summary>Asian stocks were poised to extend gains Friday as further evidence of moderating US inflation and a pullback in oil prices reinforced bets that the Federal Reserve will refrain from raising interest rates next month.</summary>
   </entry>
   <entry>
-    <title>Judge Orders Kalshi to Stop Offering Most Wagers in Washington</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-13/judge-orders-kalshi-to-stop-offering-most-wagers-in-washington"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-13/judge-orders-kalshi-to-stop-offering-most-wagers-in-washington</id>
-    <updated>2026-08-13T21:46:16.000Z</updated>
+    <title>Reddit Shares Surge on S&amp;P 500 Inclusion Later This Month</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-13/reddit-shares-surge-on-s-p-500-inclusion-later-this-month"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-13/reddit-shares-surge-on-s-p-500-inclusion-later-this-month</id>
+    <updated>2026-08-13T22:09:37.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Kalshi was told by a judge to stop offering most of its prediction market contracts in Washington state, after regulators said they likely constituted an illegal gambling operation.</summary>
+    <summary>Reddit Inc. will join the S&amp;P 500 next week as part of an off-cycle change, S&amp;P Dow Jones Indices said Thursday, sending the social networking platform’s shares surging more than 10% after the bell.</summary>
   </entry>
   <entry>
     <title>DSW EAS Harbor full E2E 2026-08-13 r3</title>
@@ -264,14 +273,5 @@
     <author><name>arXiv cs.CL</name></author>
     <category term="RESEARCH"/>
     <summary>arXiv:2608.11236v1 Announce Type: new Abstract: Roleplay evaluation should do more than assign a single score: it should reveal which role requirements were tested, which failed, and which dialogue evidence supports the judgment. We propose TRACE Bench, a task-driven agentic checklist evaluation framework. It decompose</summary>
-  </entry>
-  <entry>
-    <title>Your guide to GitHub Universe 2026 is here: The schedule just launched!</title>
-    <link href="https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/"/>
-    <id>https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/</id>
-    <updated>2026-08-13T19:00:00.000Z</updated>
-    <author><name>GitHub Blog</name></author>
-    <category term="PRODUCTS"/>
-    <summary>The GitHub Universe session catalog is live. Explore interactive workshops, community talks, demos, and panels. Plus, register before August 19 to save $300. The post Your guide to GitHub Universe 2026 is here: The schedule just launched! appeared first on The GitHub Blog .</summary>
   </entry>
 </feed>
