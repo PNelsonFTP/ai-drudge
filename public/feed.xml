@@ -5,7 +5,16 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-14T10:12:55.060Z</updated>
+  <updated>2026-08-14T13:25:00.449Z</updated>
+  <entry>
+    <title>DeepSeek V4 Pro 0813 Weights Released!</title>
+    <link href="https://sh.itjust.works/post/65060852"/>
+    <id>https://sh.itjust.works/post/65060852</id>
+    <updated>2026-08-14T10:42:17.000Z</updated>
+    <author><name>Lemmy c/localllama</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>submitted by SirDimples to localllama 20 points | 2 comments https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813 This is an MoE model with 1.6T-A49B The weights were up briefly then taken down due to some issues in the repo files apparently, now they’re back up: ModelScope HuggingFace GGUFs are out as well: Unsloth</summary>
+  </entry>
   <entry>
     <title>OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed</title>
     <link href="https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/"/>
@@ -16,12 +25,21 @@
     <summary>OpenAI is launching a preview of a sped up version of its latest, most powerful model, in an effort to court enterprise users.</summary>
   </entry>
   <entry>
+    <title>Plaintiff busted trying to use AI prompt injection to win court case, hides text instruction in filing — demands AI model reviewing the text should side with him, rumbled because of strange white spaces in text</title>
+    <link href="https://www.tomshardware.com/tech-industry/artificial-intelligence/plaintiff-busted-trying-to-use-ai-prompt-injection-to-win-court-case-hides-text-instruction-in-filing-demands-ai-model-reviewing-the-text-should-side-with-him-rumbled-because-of-strange-white-spaces-in-text"/>
+    <id>https://www.tomshardware.com/tech-industry/artificial-intelligence/plaintiff-busted-trying-to-use-ai-prompt-injection-to-win-court-case-hides-text-instruction-in-filing-demands-ai-model-reviewing-the-text-should-side-with-him-rumbled-because-of-strange-white-spaces-in-text</id>
+    <updated>2026-08-14T12:23:35.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <category term="HARDWARE"/>
+    <summary>A self-represented plaintiff in a Connecticut court added a hidden AI prompt injection attack in their filing in a failed attempt to influence a decision. The court bars them from submitting documents electronically and instead must print them and hand to the clerk of court.</summary>
+  </entry>
+  <entry>
     <title>Gemini 3.7 Flash is now available in GitHub Copilot</title>
     <link href="https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot"/>
     <id>https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot</id>
     <updated>2026-08-13T14:00:53.000Z</updated>
     <author><name>GitHub Copilot Changelog</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
+    <category term="PRODUCTS"/>
     <summary>Gemini 3.7 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. From our early testing, the model has made improvements in web and app development and agentic… The post Gemini 3.7 Flash is now available in GitHub Copilot appeared first on The GitHub Blog . — Also covered by: Vercel Blog</summary>
   </entry>
   <entry>
@@ -43,24 +61,6 @@
     <summary>Person Hides Prompt Injection in Legal Filing Telling AI to Side With Them 404 Media — Also covered by: 404 Media</summary>
   </entry>
   <entry>
-    <title>Xanadu and University of Alberta Partner to Accelerate Photodynamic Cancer Drug Discovery</title>
-    <link href="https://quantumcomputingreport.com/xanadu-and-university-of-alberta-partner-to-accelerate-photodynamic-cancer-drug-discovery/"/>
-    <id>https://quantumcomputingreport.com/xanadu-and-university-of-alberta-partner-to-accelerate-photodynamic-cancer-drug-discovery/</id>
-    <updated>2026-08-13T13:41:55.000Z</updated>
-    <author><name>Quantum Computing Report</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Photonic quantum computing developer Xanadu Quantum Technologies Limited (NASDAQ/TSX: XNDU) has announced a strategic research partnership with the University of Alberta to engineer novel quantum algorithms for oncology and pharmaceutical drug design. Led by Xanadu's algorithms team and Professor Alex Brown, Chair of t — Also covered by: The Quantum Insider</summary>
-  </entry>
-  <entry>
-    <title>BTQ Technologies Signs MOU with ITCENGLOBAL Subsidiary ITCEN PNS to Deploy Post-Quantum Security in South Korea</title>
-    <link href="https://quantumcomputingreport.com/btq-technologies-signs-mou-with-itcenglobal-subsidiary-itcen-pns-to-deploy-post-quantum-security-in-south-korea/"/>
-    <id>https://quantumcomputingreport.com/btq-technologies-signs-mou-with-itcenglobal-subsidiary-itcen-pns-to-deploy-post-quantum-security-in-south-korea/</id>
-    <updated>2026-08-13T13:32:15.000Z</updated>
-    <author><name>Quantum Computing Report</name></author>
-    <category term="QUANTUM"/>
-    <summary>Quantum technology provider BTQ Technologies Corp. (NASDAQ: BTQ) has signed a Memorandum of Understanding (MOU) with ITCENGLOBAL CO., Ltd. (KOSDAQ: 124500) through its listed security platform subsidiary, ITCEN PNS Co., Ltd. (KOSDAQ: 232830). The partnership establishes a commercial framework to integrate post-quantum  — Also covered by: The Quantum Insider</summary>
-  </entry>
-  <entry>
     <title>ollama v0.32.11 released</title>
     <link href="https://github.com/ollama/ollama/releases/tag/v0.32.11"/>
     <id>https://github.com/ollama/ollama/releases/tag/v0.32.11</id>
@@ -70,76 +70,67 @@
     <summary>What's Changed ollama launch dsh now supports DeepSeek Harness, DeepSeek's open-source agent harness ollama launch muse now supports Muse Code , Meta's agentic coding CLI The OpenAI-compatible Responses API now supports web search Muse Glimmer template updates Full Changelog : v0.32.10...v0.32.11</summary>
   </entry>
   <entry>
-    <title>Sources: JPMorgan Chase terminated its banking relationship with Polymarket in 2025 over regulatory concerns, though it still maintains some ties to the company (Financial Times)</title>
-    <link href="https://www.techmeme.com/260814/p7#a260814p7"/>
-    <id>https://www.techmeme.com/260814/p7#a260814p7</id>
-    <updated>2026-08-14T10:00:01.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>As online dating goes into ‘salvage mode’, can AI solve all its problems?</title>
+    <link href="https://www.theguardian.com/lifeandstyle/2026/aug/14/online-dating-salvage-mode--ai-bumble-app"/>
+    <id>https://www.theguardian.com/lifeandstyle/2026/aug/14/online-dating-salvage-mode--ai-bumble-app</id>
+    <updated>2026-08-14T13:00:28.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Financial Times : Sources: JPMorgan Chase terminated its banking relationship with Polymarket in 2025 over regulatory concerns, though it still maintains some ties to the company — Largest US bank has continued to cultivate ties with prediction platform as it seeks $20bn valuation</summary>
+    <summary>Dating apps such as Bumble forced to adapt as ‘swipe fatigue’ grows Bumble was supposed to be different. When it launched in 2014, it offered women a simple proposition: if you matched with a man, you had to make the first move. The rule was meant to make online dating safer and less intimidating, while giving women co</summary>
   </entry>
   <entry>
-    <title>llama.cpp b10428 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10428"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10428</id>
-    <updated>2026-08-14T09:08:06.000Z</updated>
+    <title>llama.cpp b10430 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10430"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10430</id>
+    <updated>2026-08-14T12:59:40.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>tests : replace personal home directory paths with generic placeholders ( #27043 ) Scrub developer-specific /home// paths from example docs and test fixtures so they don't leak into the tree. examples/test-cmake/README.md: /home/danbev/... -&gt; /path/to/llama.cpp/... tests/test-chat.cpp: /home/jarvis/... -&gt; /home/user/..</summary>
+    <summary>llama : allow virtual igpu devices ( #26953 ) llama : allow virtual igpu devices cont : better comment Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) </summary>
   </entry>
   <entry>
-    <title>Bessent Gets a Warning on Deficits From the Bond Market</title>
-    <link href="https://www.bloomberg.com/news/newsletters/2026-08-14/bessent-gets-a-warning-on-deficits-from-the-bond-market"/>
-    <id>https://www.bloomberg.com/news/newsletters/2026-08-14/bessent-gets-a-warning-on-deficits-from-the-bond-market</id>
-    <updated>2026-08-14T10:10:01.000Z</updated>
+    <title>EdgeConneX Seeks $2.5 Billion Bank Pledge for Data Center Power</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-14/edgeconnex-seeks-2-5-billion-bank-pledge-for-data-center-power"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-14/edgeconnex-seeks-2-5-billion-bank-pledge-for-data-center-power</id>
+    <updated>2026-08-14T12:52:58.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Auction results in highest 30-year yield since 2001.</summary>
+    <summary>EQT-backed EdgeConneX Inc. is asking banks to guarantee as much as $2.5 billion in power costs, joining a wave of data center builders turning to new financing playbooks to fuel growth.</summary>
   </entry>
   <entry>
-    <title>Unifying Generative Models with Path Integrals</title>
-    <link href="https://arxiv.org/abs/2608.12438"/>
-    <id>https://arxiv.org/abs/2608.12438</id>
-    <updated>2026-08-14T04:00:00.000Z</updated>
-    <author><name>arXiv cs.LG</name></author>
+    <title>Zhipu AI releases GLM-5.3, claims it's the strongest open-weights coding model</title>
+    <link href="https://the-decoder.com/zhipu-ai-releases-glm-5-3-claims-its-the-strongest-open-weights-coding-model/"/>
+    <id>https://the-decoder.com/zhipu-ai-releases-glm-5-3-claims-its-the-strongest-open-weights-coding-model/</id>
+    <updated>2026-08-14T10:21:34.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="RESEARCH"/>
-    <summary>arXiv:2608.12438v1 Announce Type: new Abstract: We formulate generative modeling as a path integral in which flow-based, diffusion-based, variational, and adversarial models arise as different evaluation principles for a single master action. Its Martin-Siggia-Rose-Janssen-de~Dominicis (MSRJD) form separates free from </summary>
+    <summary>Zhipu AI has released GLM-5.3, a model that, according to its own benchmarks, is the most powerful open-weights coding model, with a 50 percent improvement over its predecessor through post-training alone. Trained for cybersecurity, GLM-5.3 helped security teams find 2,436 vulnerabilities across 269 projects. The model</summary>
   </entry>
   <entry>
-    <title>AMD borrows $4.75 billion for 'general corporate purposes' — company gives no insight into how it plans to spend cash injection</title>
-    <link href="https://www.tomshardware.com/pc-components/cpus/amd-borrows-usd4-75-billion-for-general-corporate-purposes-company-gives-no-insight-into-how-it-plans-to-spend-cash-injection"/>
-    <id>https://www.tomshardware.com/pc-components/cpus/amd-borrows-usd4-75-billion-for-general-corporate-purposes-company-gives-no-insight-into-how-it-plans-to-spend-cash-injection</id>
-    <updated>2026-08-14T09:48:59.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
-    <category term="HARDWARE"/>
-    <summary>In a surprising move, AMD announces plans to raise $4.75 billion and does not give a clue how it plans to spend them.</summary>
-  </entry>
-  <entry>
-    <title>The Jan 6 organizer getting conservatives riled up about AI</title>
-    <link href="https://www.transformernews.ai/p/the-jan-6-organizer-getting-conservatives-angry-about-ai"/>
-    <id>https://www.transformernews.ai/p/the-jan-6-organizer-getting-conservatives-angry-about-ai</id>
-    <updated>2026-08-13T15:58:31.000Z</updated>
-    <author><name>Transformer</name></author>
+    <title>Avoiding the corporate treacherous turn: crowd-sourcing design ideas</title>
+    <link href="https://www.lesswrong.com/posts/XdCgGadph2f25Kya3/avoiding-the-corporate-treacherous-turn-crowd-sourcing"/>
+    <id>https://www.lesswrong.com/posts/XdCgGadph2f25Kya3/avoiding-the-corporate-treacherous-turn-crowd-sourcing</id>
+    <updated>2026-08-14T13:10:18.000Z</updated>
+    <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Amy Kremer’s resume makes her loyalty to Trump impossible to question. Humans First is banking that will help mobilize the right</summary>
+    <summary>OpenAI was founded as a non-profit with a clear commitment to avoiding AI dangers and a unique structure to prevent investor control or excessive pressure from profit motives. This failed . I'm considering launching a commercial venture (possibly named &quot; Prealign &quot;) to solve value generalisation and contribute to AI al</summary>
   </entry>
   <entry>
-    <title>Connecticut Court Sanctions Self-Represented Litigant over Prompt Injection in a Court Filing - lawnews.co.uk</title>
-    <link href="https://news.google.com/rss/articles/CBMiywFBVV95cUxNczNxdXpIUG9FeUxxakM1QU5JZEtpSnJtTklMak9wYXVMMjNEenNzVjVvUXNNN1Q2dHBmNVdPZzNmMXRGX0VBZDhaRno4TndDQ3MyR18yRmllcW5mZmtsLXA5ZmdIa3Jwd1hpOHhwX1UxTzlwSVQzeFd0MGZmX3RUeUEyTllRT1FET1NLWnUxZGo0ZkctdUhCbENxM2Iwa2c3S0hVMklYLTJQamkxUzBxWkdHOEJCLTNnZGM0amtCNjRkTXBjN2xlc3U5WQ?oc=5"/>
-    <id>https://news.google.com/rss/articles/CBMiywFBVV95cUxNczNxdXpIUG9FeUxxakM1QU5JZEtpSnJtTklMak9wYXVMMjNEenNzVjVvUXNNN1Q2dHBmNVdPZzNmMXRGX0VBZDhaRno4TndDQ3MyR18yRmllcW5mZmtsLXA5ZmdIa3Jwd1hpOHhwX1UxTzlwSVQzeFd0MGZmX3RUeUEyTllRT1FET1NLWnUxZGo0ZkctdUhCbENxM2Iwa2c3S0hVMklYLTJQamkxUzBxWkdHOEJCLTNnZGM0amtCNjRkTXBjN2xlc3U5WQ?oc=5</id>
-    <updated>2026-08-14T10:07:16.000Z</updated>
+    <title>Plaintiff busted trying to use AI prompt injection to win court case, hides text instruction in filing — demands AI model reviewing the text should side with him, rumbled because of strange white spaces in text - Tom's Hardware</title>
+    <link href="https://news.google.com/rss/articles/CBMiiANBVV95cUxPSUJCTzVjOWJsdVlWZjVzMERxY1dMQkRRS3ZRM1p0dVprRkU2TUxoRnBVT1gxdWUtaXJVd1l2dXN6NkN0eU93Y0lOVl9rNjI5eVluYUJlc090YmJvazNKRXBVaDJ4T1NPTFlPY3FfMEVoZkVyVW9FOGRCeXNTb1hWNEZBYmhyMFh5WTl6SkVCb0piU21xN3k4RzJ2aVJleDd4cFlndVJIMmt3SllQcWZKdUxmMHVJcE50amNKY2oxY2NySktLdEVJMGJva2N2X1U5RnB3VElGUDdOOFpFMm1iOVJud2dOYlpkci1iXzNGcHk2RHlmWkY0dFJIRGstWks1VTdFUTI3Vi1Od3hyQ29xT0VBVVUyY19mUy1hRUwtZzlWZFBTLTgxcmstUUtRelZaeElPN2JaSWhmMV81S0dLd3d4N05mTHVGc1dyNHFhSkJjbVRPWU1neGd5ZXNOai01Y25wZF9odDFVN2h0V2l1MTA4cmpBMDF1THRGZk9nUXRqZnZHT3Q0MA?oc=5"/>
+    <id>https://news.google.com/rss/articles/CBMiiANBVV95cUxPSUJCTzVjOWJsdVlWZjVzMERxY1dMQkRRS3ZRM1p0dVprRkU2TUxoRnBVT1gxdWUtaXJVd1l2dXN6NkN0eU93Y0lOVl9rNjI5eVluYUJlc090YmJvazNKRXBVaDJ4T1NPTFlPY3FfMEVoZkVyVW9FOGRCeXNTb1hWNEZBYmhyMFh5WTl6SkVCb0piU21xN3k4RzJ2aVJleDd4cFlndVJIMmt3SllQcWZKdUxmMHVJcE50amNKY2oxY2NySktLdEVJMGJva2N2X1U5RnB3VElGUDdOOFpFMm1iOVJud2dOYlpkci1iXzNGcHk2RHlmWkY0dFJIRGstWks1VTdFUTI3Vi1Od3hyQ29xT0VBVVUyY19mUy1hRUwtZzlWZFBTLTgxcmstUUtRelZaeElPN2JaSWhmMV81S0dLd3d4N05mTHVGc1dyNHFhSkJjbVRPWU1neGd5ZXNOai01Y25wZF9odDFVN2h0V2l1MTA4cmpBMDF1THRGZk9nUXRqZnZHT3Q0MA?oc=5</id>
+    <updated>2026-08-14T12:23:35.000Z</updated>
     <author><name>GN: Prompt Injection</name></author>
     <category term="AI SECURITY"/>
-    <summary>Connecticut Court Sanctions Self-Represented Litigant over Prompt Injection in a Court Filing lawnews.co.uk</summary>
+    <summary>Plaintiff busted trying to use AI prompt injection to win court case, hides text instruction in filing — demands AI model reviewing the text should side with him, rumbled because of strange white spaces in text Tom's Hardware — Also covered by: Tom's Hardware</summary>
   </entry>
   <entry>
-    <title>Data analyst sent to prison for stealing data, extorting employer</title>
-    <link href="https://www.bleepingcomputer.com/news/security/data-analyst-sent-to-prison-for-stealing-data-extorting-employer/"/>
-    <id>https://www.bleepingcomputer.com/news/security/data-analyst-sent-to-prison-for-stealing-data-extorting-employer/</id>
-    <updated>2026-08-14T08:27:18.000Z</updated>
-    <author><name>BleepingComputer</name></author>
+    <title>France investigates tax authority breach after hacker claims 600,000 victims</title>
+    <link href="https://therecord.media/french-tax-authority-dgfip-confirms-data-breach"/>
+    <id>https://therecord.media/french-tax-authority-dgfip-confirms-data-breach</id>
+    <updated>2026-08-14T13:14:15.000Z</updated>
+    <author><name>The Record</name></author>
     <category term="CYBER THREATS"/>
-    <summary>A former data analyst contractor for Brightly Software has been sentenced to two years in prison for targeting his employer in a $2.5 million extortion scheme. [...]</summary>
+    <summary>French authorities confirmed that someone gained unauthorized access to systems at the Directorate General of Public Finances in late June after stealing or misusing someone’s identity.</summary>
   </entry>
   <entry>
     <title>DSW EAS SWE + Terminal-Bench E2E r3</title>
@@ -151,6 +142,15 @@
     <summary>Isolated GitHub Actions workflow-dispatch end-to-end validation. Benchmark-Qwen-Ref: v0.21.2</summary>
   </entry>
   <entry>
+    <title>Sources: stablecoin payments company RedotPay delays plans for a US IPO to 2027 or later, as it seeks regulatory approvals and deals with legal issues (Bloomberg)</title>
+    <link href="https://www.techmeme.com/260814/p12#a260814p12"/>
+    <id>https://www.techmeme.com/260814/p12#a260814p12</id>
+    <updated>2026-08-14T11:15:00.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>Bloomberg : Sources: stablecoin payments company RedotPay delays plans for a US IPO to 2027 or later, as it seeks regulatory approvals and deals with legal issues — RedotPay has delayed plans for an initial public offering in the US as the stablecoin payments company seeks regulatory approvals and deals …</summary>
+  </entry>
+  <entry>
     <title>sqlite-utils 4.2.1</title>
     <link href="https://simonwillison.net/2026/Aug/13/sqlite-utils-2/"/>
     <id>https://simonwillison.net/2026/Aug/13/sqlite-utils-2/</id>
@@ -160,57 +160,40 @@
     <summary>Release: sqlite-utils 4.2.1 Fixes a crashing bug in sqlite-utils 4.2 . I'd introduced code that looks like this: from typing_extensions import Self It turned out the typing-extensions package was not listed as a dependency for sqlite-utils - it was installed by one of the other dependencies in the dev dependency group  — Also covered by: Simon Willison</summary>
   </entry>
   <entry>
-    <title>The Great Dexterity Divide: Why Robotics Leaders Are Warring Over Tendon vs. Direct-Drive Hands</title>
-    <link href="https://www.humanoidsdaily.com/news/the-great-dexterity-divide-why-robotics-leaders-are-warring-over-tendon-vs-direct-drive-hands"/>
-    <id>https://www.humanoidsdaily.com/news/the-great-dexterity-divide-why-robotics-leaders-are-warring-over-tendon-vs-direct-drive-hands</id>
-    <updated>2026-08-14T07:29:49.000Z</updated>
-    <author><name>Humanoids Daily</name></author>
+    <title>Robots on Wall Street: Non-traditional paths to public markets for robotics companies</title>
+    <link href="https://www.therobotreport.com/robots-on-wall-street-non-traditional-paths-public-markets-robotics-companies/"/>
+    <id>https://www.therobotreport.com/robots-on-wall-street-non-traditional-paths-public-markets-robotics-companies/</id>
+    <updated>2026-08-14T12:30:40.000Z</updated>
+    <author><name>The Robot Report</name></author>
     <category term="ROBOTICS"/>
-    <summary>Figure CEO Brett Adcock dismissed tendon-driven hands as a &quot;complete local maximum,&quot; igniting a fierce debate with Foundation over friction, force, and the future of humanoid manipulation.</summary>
+    <summary>Agility’s SPAC deal shows there is no one route to a robotics public listing, with SPAC mergers, reverse mergers, and traditional IPOs offering different advantages. The post Robots on Wall Street: Non-traditional paths to public markets for robotics companies appeared first on The Robot Report .</summary>
   </entry>
   <entry>
-    <title>Researcher Rodney Bartlett Publishes Book Exploring Quantum Physics and Cosmology</title>
-    <link href="https://thequantuminsider.com/2026/08/14/researcher-rodney-bartlett-book-quantum-physics-philosophy/"/>
-    <id>https://thequantuminsider.com/2026/08/14/researcher-rodney-bartlett-book-quantum-physics-philosophy/</id>
-    <updated>2026-08-14T07:00:00.000Z</updated>
+    <title>Florida State University Launches Quantum Science and Technology Graduate Certificate</title>
+    <link href="https://thequantuminsider.com/2026/08/14/florida-state-university-quantum-science-technology-graduate-certificate/"/>
+    <id>https://thequantuminsider.com/2026/08/14/florida-state-university-quantum-science-technology-graduate-certificate/</id>
+    <updated>2026-08-14T10:48:20.000Z</updated>
     <author><name>The Quantum Insider</name></author>
     <category term="QUANTUM"/>
-    <summary>Insider Brief Independent Researcher Rodney Bartlett Unveils “Theoretical Horizons,” Merging Quantum Physics and Philosophy to Propose a Utopian Future. The book is backed by a recently published article in a peer-reviewed scientific journal, Bartlett’s new book challenges the Big Bang and presents a universe built on </summary>
+    <summary>Insider Brief Press release – Florida State University is launching Florida’s first formal graduate-level credential in quantum information science and engineering, opening a new pathway for students and professionals to enter one of the world’s fastest-growing technology fields. The Graduate Certificate in Quantum Sci</summary>
   </entry>
   <entry>
-    <title>GLM-5.3: Frontier coding with emergent cyber capabilities</title>
-    <link href="https://z.ai/blog/glm-5.3"/>
-    <id>https://z.ai/blog/glm-5.3</id>
-    <updated>2026-08-14T05:19:59.000Z</updated>
-    <author><name>HN: Chinese Frontier Labs</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Article URL: https://z.ai/blog/glm-5.3 Comments URL: https://news.ycombinator.com/item?id=49294997 Points: 476 # Comments: 199</summary>
-  </entry>
-  <entry>
-    <title>Introducing Gemini 3.7 Flash</title>
-    <link href="https://deepmind.google/blog/introducing-gemini-3-7-flash/"/>
-    <id>https://deepmind.google/blog/introducing-gemini-3-7-flash/</id>
-    <updated>2026-08-13T17:04:18.000Z</updated>
-    <author><name>Google DeepMind Blog</name></author>
-    <category term="MODEL RELEASES"/>
-  </entry>
-  <entry>
-    <title>Blackbird and Airtree revalue Canva at $34.9B, down from $42B in 2025, as it struggles in the AI era; Canva's internal valuation falls to $31B, down from $38.9B (Australian Financial Review)</title>
-    <link href="https://www.techmeme.com/260814/p6#a260814p6"/>
-    <id>https://www.techmeme.com/260814/p6#a260814p6</id>
-    <updated>2026-08-14T08:30:01.000Z</updated>
+    <title>Chip equipment maker Lam Research plans to invest $3B+ over five years to expand its global R&amp;D network, aiming to increase its experiment capacity by 50%+ (Anzar Mehraj/Reuters)</title>
+    <link href="https://www.techmeme.com/260814/p11#a260814p11"/>
+    <id>https://www.techmeme.com/260814/p11#a260814p11</id>
+    <updated>2026-08-14T11:05:13.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Australian Financial Review : Blackbird and Airtree revalue Canva at $34.9B, down from $42B in 2025, as it struggles in the AI era; Canva's internal valuation falls to $31B, down from $38.9B — Canva and two of its longest-standing Australian backers have wiped over $10 billion ($US7.1 billion) off the design software g</summary>
+    <summary>Anzar Mehraj / Reuters : Chip equipment maker Lam Research plans to invest $3B+ over five years to expand its global R&amp;D network, aiming to increase its experiment capacity by 50%+ — Lam Research (LRCX.O) said on Thursday it intends to invest more than $3 billion in the next five years to expand its global research …</summary>
   </entry>
   <entry>
-    <title>Epic v. Google: in a compliance hearing, a judge orders Google to remove &quot;anticompetitive friction&quot; for installing third-party app stores from its Play Store (Sean Hollister/The Verge)</title>
-    <link href="https://www.techmeme.com/260814/p8#a260814p8"/>
-    <id>https://www.techmeme.com/260814/p8#a260814p8</id>
-    <updated>2026-08-14T10:05:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Sean Hollister / The Verge : Epic v. Google: in a compliance hearing, a judge orders Google to remove “anticompetitive friction” for installing third-party app stores from its Play Store — Judge Donato was not having Google's ‘anticompetitive friction.’ — One month after Epic Games and Google seemingly stopped fighting</summary>
+    <title>fantastic: latest llama.cpp server webui can now run commands for tools into rootless sandboxed containers</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vo6fra/fantastic_latest_llamacpp_server_webui_can_now/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vo6fra/fantastic_latest_llamacpp_server_webui_can_now/</id>
+    <updated>2026-08-14T12:51:34.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>while having much fun testing LLMs Houdini-like attitudes and abilities to evade, excalate and escape from carefully reciprocally arranged security enhancing sandboxing VMs, containers, namespaces and jails, I've discovered a new revolutionary option to let llama-server (build 10423) to launch guest containers (running</summary>
   </entry>
   <entry>
     <title>A preliminary Qwen3.8-27B model card is live!</title>
@@ -222,13 +205,13 @@
     <summary>If you scroll down from the countdown at https://huggingface.co/Qwen/Qwen3.8-27B , you see a big model card with a bunch of sections: Highlights, Model Overview, Quickstart, Best Practices, Citation, etc! No benchmarks on this yet as far as I can tell. We'll still need to wait another 5.5 hours for those I reckon. subm</summary>
   </entry>
   <entry>
-    <title>GLM 5.3 Released</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vny9zs/glm_53_released/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vny9zs/glm_53_released/</id>
-    <updated>2026-08-14T05:23:43.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Official Announcement https://z.ai/blog/glm-5.3 submitted by /u/jmorant555 [link] [comments]</summary>
+    <title>Claude Code now runs daily maintenance on Anthropic's software with a 46 percent merge rate</title>
+    <link href="https://the-decoder.com/claude-code-now-runs-daily-maintenance-on-anthropics-software-with-a-46-percent-merge-rate/"/>
+    <id>https://the-decoder.com/claude-code-now-runs-daily-maintenance-on-anthropics-software-with-a-46-percent-merge-rate/</id>
+    <updated>2026-08-14T11:44:38.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Anthropic is testing whether Claude Code can handle daily maintenance of the company's own apps, from crash fuzzing to dead-code removal. In a few weeks, the AI created 388 pull requests, and 46 percent were merged after human review. Claude Code inventor Boris Cherny sees this as &quot;early signs of life that this might b</summary>
   </entry>
   <entry>
     <title>AutoWorldModel-Bench: A State-Centric Benchmark for Automated World-Model Research</title>
@@ -240,39 +223,57 @@
     <summary>arXiv:2608.11216v1 Announce Type: new Abstract: World modeling is an unsettled field: architectures, training objectives, and state representations interact in complex ways, and no single recipe dominates across environments. This makes it an ideal testbed for AI coding agents acting as autonomous researchers--a settin</summary>
   </entry>
   <entry>
-    <title>Why managed agents are the next big thing in agent building</title>
-    <link href="https://www.langchain.com/blog/why-managed-agents-are-the-next-big-thing-in-agent-building"/>
-    <id>https://www.langchain.com/blog/why-managed-agents-are-the-next-big-thing-in-agent-building</id>
-    <updated>2026-08-14T04:46:25.000Z</updated>
-    <author><name>LangChain Blog</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Managed Deep Agents gives developers a managed way to build, run, and deploy Deep Agents with built-in runtime, streaming, sandboxes, evals, memory, and auth.</summary>
-  </entry>
-  <entry>
-    <title>Making 'Significant' Progress on Robotics: Deepmind's Parada</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-14/humanoid-robots-will-become-useful-deepmind-s-parada-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-14/humanoid-robots-will-become-useful-deepmind-s-parada-video</id>
-    <updated>2026-08-14T10:01:20.000Z</updated>
+    <title>Radiant World Said to Sell Aluminum Stockpile to STG Group</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-14/radiant-world-said-to-sell-aluminum-stockpile-to-stg-group"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-14/radiant-world-said-to-sell-aluminum-stockpile-to-stg-group</id>
+    <updated>2026-08-14T12:46:19.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Google Deepmind's Head of Robotics believes humanoid robots will become useful over time. However, Carolina Parada says the technology is not quite at the stage to deliver on its full potential. She spoke to Tom Mackenzie on the latest episode of Bloomberg Tech: Europe. (Source: Bloomberg)</summary>
+    <summary>Metals trader Radiant World agreed to sell a stockpile of aluminum to STG Group, according to people familiar with the matter, in a move that will bring in liquidity to the firm.</summary>
   </entry>
   <entry>
-    <title>Beaten-Down Ocado Shares Show Signs of Revival with 45% Rally</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-14/beaten-down-ocado-shares-show-signs-of-revival-with-45-rally"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-14/beaten-down-ocado-shares-show-signs-of-revival-with-45-rally</id>
-    <updated>2026-08-14T09:59:28.000Z</updated>
+    <title>White Sugar Rally Boosts Refining as Supply Outlook Tightens</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-14/white-sugar-rally-boosts-refining-as-supply-outlook-tightens"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-14/white-sugar-rally-boosts-refining-as-supply-outlook-tightens</id>
+    <updated>2026-08-14T12:33:55.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Once a market standout, Ocado Group Plc shares are showing signs of life again after a bruising decline.</summary>
+    <summary>White sugar futures in London headed for a third straight weekly gain, boosting refining margins as concerns over tightening supplies stay in focus.</summary>
   </entry>
   <entry>
-    <title>Dynamic Governance of Multi-LLM Agent Systems for Collaborative Conversational Outcomes</title>
-    <link href="https://arxiv.org/abs/2608.11207"/>
-    <id>https://arxiv.org/abs/2608.11207</id>
+    <title>Unifying Generative Models with Path Integrals</title>
+    <link href="https://arxiv.org/abs/2608.12438"/>
+    <id>https://arxiv.org/abs/2608.12438</id>
     <updated>2026-08-14T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
+    <author><name>arXiv cs.LG</name></author>
     <category term="RESEARCH"/>
-    <summary>arXiv:2608.11207v1 Announce Type: new Abstract: When two LLM agents with structurally opposed objectives interact across multiple turns, the absence of a shared goal function produces not competition but collapse: the visitor capitulates, the site agent stops varying its approach, and the conversation terminates withou</summary>
+    <summary>arXiv:2608.12438v1 Announce Type: new Abstract: We formulate generative modeling as a path integral in which flow-based, diffusion-based, variational, and adversarial models arise as different evaluation principles for a single master action. Its Martin-Siggia-Rose-Janssen-de~Dominicis (MSRJD) form separates free from </summary>
+  </entry>
+  <entry>
+    <title>UK retailer AO launches 5G mobile service</title>
+    <link href="https://www.datacenterdynamics.com/en/news/uk-retailer-ao-launches-5g-mobile-service/"/>
+    <id>https://www.datacenterdynamics.com/en/news/uk-retailer-ao-launches-5g-mobile-service/</id>
+    <updated>2026-08-14T13:00:28.000Z</updated>
+    <author><name>Data Center Dynamics</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Will utilize Vodafone's mobile network</summary>
+  </entry>
+  <entry>
+    <title>DeepSeek debuts DeepSeek Harness under the MIT license in developer preview, touting a design where &quot;everything is a plugin&quot; that can be swapped out as a plugin (Carl Franzen/VentureBeat)</title>
+    <link href="https://www.techmeme.com/260814/p10#a260814p10"/>
+    <id>https://www.techmeme.com/260814/p10#a260814p10</id>
+    <updated>2026-08-14T10:40:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Carl Franzen / VentureBeat : DeepSeek debuts DeepSeek Harness under the MIT license in developer preview, touting a design where “everything is a plugin” that can be swapped out as a plugin — DeepSeek is expanding beyond the model layer and deeper into the software developers use to put AI agents to work.</summary>
+  </entry>
+  <entry>
+    <title>What If We Enforced AI Model Safety At the Level Of GPUs?</title>
+    <link href="https://www.lesswrong.com/posts/jT2GmiFsmG8yK8zTP/what-if-we-enforced-ai-model-safety-at-the-level-of-gpus"/>
+    <id>https://www.lesswrong.com/posts/jT2GmiFsmG8yK8zTP/what-if-we-enforced-ai-model-safety-at-the-level-of-gpus</id>
+    <updated>2026-08-14T10:40:06.000Z</updated>
+    <author><name>LessWrong</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>Tldr: AI Agents (e.g. based on models like Claude Opus and Fable) are now powerful enough to be used as autonomous tools for large-scale cyberattacks. This most powerful class of agents generally tends to be based on closed-weight (closed source) models (like Claude and Fable), which generally have significant safety g</summary>
   </entry>
 </feed>
