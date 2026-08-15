@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-15T06:52:09.950Z</updated>
+  <updated>2026-08-15T07:37:04.478Z</updated>
   <entry>
     <title>unsloth v3.8-27B released</title>
     <link href="https://github.com/unslothai/unsloth/releases/tag/v0.1.800-beta"/>
@@ -79,13 +79,13 @@
     <summary>arXiv:2608.12368v1 Announce Type: new Abstract: Agreement with human judgments is a common proxy for evaluating the alignment of large language models (LLMs). Yet agreement in final labels does not show that human annotators and models rely on the same moral grounds. Two agents may reach the same judgment while appeali</summary>
   </entry>
   <entry>
-    <title>OpenAI upheaval mounts as Sam Altman readies IPO push</title>
-    <link href="https://www.ft.com/content/53082739-7714-4aae-9816-e55ab423cbee?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/53082739-7714-4aae-9816-e55ab423cbee?syn-25a6b1a6=1</id>
-    <updated>2026-08-15T04:00:31.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
+    <title>Money Managers Chase €500 Billion Historic German Pension Shift</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-15/money-managers-chase-500-billion-historic-german-pension-shift"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-15/money-managers-chase-500-billion-historic-german-pension-shift</id>
+    <updated>2026-08-15T05:00:00.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Executive exits and safety team changes unsettle staff as the ChatGPT maker prepares for a blockbuster listing</summary>
+    <summary>One of the biggest reforms in Germany’s pension system since Chancellor Otto von Bismarck founded it in the late 19th century is about to hand modern fund managers a new empire of cash to deploy.</summary>
   </entry>
   <entry>
     <title>Diagnostic Foundation for Evaluating LLMs' Research Integrity as Co-Scientists</title>
@@ -187,22 +187,22 @@
     <summary>Financial Times : Effective Altruism, hit by the SBF turmoil, is drawing record funding as Anthropic and OpenAI IPOs are set to mint new millionaires wedded to “effective giving” — Expected IPOs for Anthropic and OpenAI are set to mint a new generation of philanthropists wedded to ‘effective giving’</summary>
   </entry>
   <entry>
-    <title>I ran Qwen3.8-27B on medical benchmarks (including MedQA, MedXpertQA and MMLU). It lost 7/10 to Qwen3.6-27B, 3/10 to Pestle-27B-Ternary and 2/10 to MedGemma-27B</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1voqrm7/i_ran_qwen3827b_on_medical_benchmarks_including/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1voqrm7/i_ran_qwen3827b_on_medical_benchmarks_including/</id>
-    <updated>2026-08-15T02:27:36.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>[Megathread] Qwen 3.8 27B Release Day</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1voojjz/megathread_qwen_38_27b_release_day/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1voojjz/megathread_qwen_38_27b_release_day/</id>
+    <updated>2026-08-15T00:41:13.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>One pass. Settings were greedy decoding, temperature 0 and thinking disabled for Qwen3.8, 3.6, Pestle-27B-Ternary, and Bonsai. MedGemma-27B results are from the official model card. Qwen3.8-27B BF16 Qwen3.6-27B BF16 Pestle-27B-Ternary MedQA 92.62 93.87 89.79 MedMCQA 71.34 73.70 68.85 MedXpertQA 38.20 41.10 32.49 MMLU m</summary>
+    <summary>Megathread to help with the influx of duplicate / similar posts around the release of the Qwen 3.8 27B release. Quants Fine-Tunes &amp; Abliterations Chat Templates Inference Server Support &amp; Configuration Experiences, Benchmarks &amp; Model Comparisons Official: https://huggingface.co/Qwen/Qwen3.8-27B https://huggingface.co/Q</summary>
   </entry>
   <entry>
-    <title>how Qwen 3.8 adjusts the reasoning_effort</title>
-    <link href="https://sh.itjust.works/post/65099157"/>
-    <id>https://sh.itjust.works/post/65099157</id>
-    <updated>2026-08-15T00:29:39.000Z</updated>
-    <author><name>Lemmy c/localllama</name></author>
+    <title>Qwen3.8-27B is now up to ~3× faster on Apple Silicon with mlx-dspark</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vokrcy/qwen3827b_is_now_up_to_3_faster_on_apple_silicon/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vokrcy/qwen3827b_is_now_up_to_3_faster_on_apple_silicon/</id>
+    <updated>2026-08-14T21:54:36.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by BeefAndPoultry to localllama 10 points | 0 comments It’s actually really simple, it just adds text to the system prompt section of the template. huggingface.co/Qwen/…/chat_template.jinja#L45-L87 {%- set resolved_reasoning_effort = reasoning_effort|default('xhigh') %} {%- if resolved_reasoning_effort not in</summary>
+    <summary>mlx-dspark is an MLX port of DeepSeek's DSpark speculative-decoding drafters (the DeepSpec release), plus z-lab's DFlash, with one lossless verify loop. v0.10.0 adds Qwen3.8-27B via RadixArk's drafter, the first SpecForge/SGLang-packaged head it loads. Numbers (M4 Pro 48 GB, medians of 3 , greedy, output ids identical </summary>
   </entry>
   <entry>
     <title>Multi-Agent Scheduling with LLM-Assisted Contract Net Negotiation for Stream Processing in Mobile Edge Computing</title>
@@ -223,15 +223,6 @@
     <summary>What's changed Added GitLab merge request URL support to the --worktree flag and the claude agents view (where MRs display as !N ) Added an opt-in forward_user_identity apps gateway setting on Anthropic upstreams that sends the signed-in user's identity as headers, so a proxy behind the gateway can attribute spend per </summary>
   </entry>
   <entry>
-    <title>Money Managers Chase €500 Billion Historic German Pension Shift</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-15/money-managers-chase-500-billion-historic-german-pension-shift"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-15/money-managers-chase-500-billion-historic-german-pension-shift</id>
-    <updated>2026-08-15T05:00:00.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>One of the biggest reforms in Germany’s pension system since Chancellor Otto von Bismarck founded it in the late 19th century is about to hand modern fund managers a new empire of cash to deploy.</summary>
-  </entry>
-  <entry>
     <title>China poised to lift travel ban on Manus founders</title>
     <link href="https://www.ft.com/content/fa479d50-7c79-4b6d-99c3-3830e37c1503?syn-25a6b1a6=1"/>
     <id>https://www.ft.com/content/fa479d50-7c79-4b6d-99c3-3830e37c1503?syn-25a6b1a6=1</id>
@@ -239,6 +230,15 @@
     <author><name>FT Artificial Intelligence</name></author>
     <category term="AI FINANCE"/>
     <summary>Chief executive Xiao Hong plans to return to Singapore as AI company nears resolution of Meta separation</summary>
+  </entry>
+  <entry>
+    <title>OpenAI upheaval mounts as Sam Altman readies IPO push</title>
+    <link href="https://www.ft.com/content/53082739-7714-4aae-9816-e55ab423cbee?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/53082739-7714-4aae-9816-e55ab423cbee?syn-25a6b1a6=1</id>
+    <updated>2026-08-15T04:00:31.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Executive exits and safety team changes unsettle staff as the ChatGPT maker prepares for a blockbuster listing</summary>
   </entry>
   <entry>
     <title>Position: Reasoning is a Learnable Rule-Based Process</title>
