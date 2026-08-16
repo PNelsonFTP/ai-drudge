@@ -5,7 +5,16 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-16T06:53:43.943Z</updated>
+  <updated>2026-08-16T07:38:39.818Z</updated>
+  <entry>
+    <title>Looking for insights on qwen 3.8 27b : M5,128gb</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1vpnfp9/looking_for_insights_on_qwen_38_27b_m5128gb/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1vpnfp9/looking_for_insights_on_qwen_38_27b_m5128gb/</id>
+    <updated>2026-08-16T04:32:40.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>I see that the model takes about 30 gb to load, but with a long running task (30 ish hours) it can use 120+gb for the kv cache when the context length is 160k tokens. (Model max is 262) I also see the prefill speed/decode speed drops drastically from 500/40 to 300/22 with bigger contexts. I am using MTPLX+Opencode. I w</summary>
+  </entry>
   <entry>
     <title>unsloth v3.8-27B released</title>
     <link href="https://github.com/unslothai/unsloth/releases/tag/v0.1.800-beta"/>
@@ -34,22 +43,22 @@
     <summary>The Government of Tamil Nadu has signed Memoranda of Understanding (MoUs) with four quantum technology ventures during the Vetri Tamil Nadu Investment Conclave 2026 in Chennai. The strategic agreements establish operational bases, R&amp;D centers, and control system manufacturing facilities across the state, strengthening  — Also covered by: The Quantum Insider</summary>
   </entry>
   <entry>
-    <title>Person Hides Prompt Injection in Legal Filing Telling AI to Side With Them - 404 Media</title>
+    <title>Person Hides Prompt Injection in Legal Filing Telling AI to Side With Them - 404media.co</title>
     <link href="https://news.google.com/rss/articles/CBMioAFBVV95cUxPdC1jaVZrNHRZRFRiUEktWU5WRmdNMDRpWTJxRVhZekoxVnRmcmdLNTlrU2VxYmRpU3JqMDg4MW11YV8zMjVVb0JWbmM1cDVxaGZGR1dLMzEzQVpuUzdqUUdGZEo4VDAtY3plT0I5RXlYdGY5YXhEUjZRX0pUN0xwZm1halRCa3hWQ3dDUnNXRnhNNnlibXBqOUYtdXV2Qk45?oc=5"/>
     <id>https://news.google.com/rss/articles/CBMioAFBVV95cUxPdC1jaVZrNHRZRFRiUEktWU5WRmdNMDRpWTJxRVhZekoxVnRmcmdLNTlrU2VxYmRpU3JqMDg4MW11YV8zMjVVb0JWbmM1cDVxaGZGR1dLMzEzQVpuUzdqUUdGZEo4VDAtY3plT0I5RXlYdGY5YXhEUjZRX0pUN0xwZm1halRCa3hWQ3dDUnNXRnhNNnlibXBqOUYtdXV2Qk45?oc=5</id>
     <updated>2026-08-13T17:59:59.000Z</updated>
     <author><name>GN: Prompt Injection</name></author>
     <category term="AI SECURITY"/>
-    <summary>Person Hides Prompt Injection in Legal Filing Telling AI to Side With Them 404 Media — Also covered by: 404 Media</summary>
+    <summary>Person Hides Prompt Injection in Legal Filing Telling AI to Side With Them 404media.co — Also covered by: 404 Media</summary>
   </entry>
   <entry>
-    <title>Optima tackles AI benchmarking's biggest flaw by letting users test models against their own data</title>
-    <link href="https://the-decoder.com/optima-tackles-ai-benchmarkings-biggest-flaw-by-letting-users-test-models-against-their-own-data/"/>
-    <id>https://the-decoder.com/optima-tackles-ai-benchmarkings-biggest-flaw-by-letting-users-test-models-against-their-own-data/</id>
-    <updated>2026-08-16T05:50:50.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>llama.cpp b10451 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10451"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10451</id>
+    <updated>2026-08-16T07:26:01.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Artificial Analysis has launched Optima, a platform that lets users build custom AI benchmarks from their own data and workflows. Models can be compared not just on quality but also on cost and time per task. For agent-based applications, those metrics often tell you more than raw token pricing. The article Optima tack</summary>
+    <summary>llama : check LoRA tensor data is within file bounds ( #27056 ) llama : check LoRA tensor data is within file bounds Update src/llama-adapter.cpp Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Website: https://llama.app macOS/iOS: macO</summary>
   </entry>
   <entry>
     <title>Pathway, which is developing AI models based on what it calls its &quot;Post-Transformer&quot; BDH architecture, raised a $30M seed at a $500M valuation (Antoine Tardif/Unite.AI)</title>
@@ -61,13 +70,13 @@
     <summary>Antoine Tardif / Unite.AI : Pathway, which is developing AI models based on what it calls its “Post-Transformer” BDH architecture, raised a $30M seed at a $500M valuation — AI research company Pathway has secured additional funding at a $500 million valuation, bringing its total seed financing to $30 million …</summary>
   </entry>
   <entry>
-    <title>Qwen3.8-27B abliterated FP8: refusal 64–99% → 0–6%, and MMLU/GSM8K move less than 1.3 points</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vppox6/qwen3827b_abliterated_fp8_refusal_6499_06_and/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vppox6/qwen3827b_abliterated_fp8_refusal_6499_06_and/</id>
-    <updated>2026-08-16T06:37:02.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Been reading the eval table on the abliterated Qwen3.8-27B FP8 build instead of the release notes. It's published as red-team material, disclaimer and all, so the numbers are the interesting part. Refusal across the usual harmful-instruction sets (AdvBench, HarmBench, StrongREJECT and friends) reads 0–6% with thinking </summary>
+    <title>Optima tackles AI benchmarking's biggest flaw by letting users test models against their own data</title>
+    <link href="https://the-decoder.com/optima-tackles-ai-benchmarkings-biggest-flaw-by-letting-users-test-models-against-their-own-data/"/>
+    <id>https://the-decoder.com/optima-tackles-ai-benchmarkings-biggest-flaw-by-letting-users-test-models-against-their-own-data/</id>
+    <updated>2026-08-16T05:50:50.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Artificial Analysis has launched Optima, a platform that lets users build custom AI benchmarks from their own data and workflows. Models can be compared not just on quality but also on cost and time per task. For agent-based applications, those metrics often tell you more than raw token pricing. The article Optima tack</summary>
   </entry>
   <entry>
     <title>Hong Kong’s First-Half Air Passenger Traffic Up 11.7%, Chan Says</title>
@@ -97,13 +106,13 @@
     <summary>Dario Amodei / @darioamodei : Dario Amodei defends his policy proposals, warns open weights won't decentralize power, endorses pre-launch vetting, says real accomplishments will earn trust — 1/2 Thanks Gavin for an especially thoughtful exchange. I don't usually spend much time on social media but I wanted to engage he</summary>
   </entry>
   <entry>
-    <title>Does DiffusionGemma do latent reasoning?</title>
-    <link href="https://www.lesswrong.com/posts/QBuJ3suRZxrrxSTtv/does-diffusiongemma-do-latent-reasoning"/>
-    <id>https://www.lesswrong.com/posts/QBuJ3suRZxrrxSTtv/does-diffusiongemma-do-latent-reasoning</id>
-    <updated>2026-08-16T04:22:18.000Z</updated>
+    <title>Are questions allowed on LessWrong?</title>
+    <link href="https://www.lesswrong.com/posts/ewYEAoxEqCqED9pYY/are-questions-allowed-on-lesswrong"/>
+    <id>https://www.lesswrong.com/posts/ewYEAoxEqCqED9pYY/are-questions-allowed-on-lesswrong</id>
+    <updated>2026-08-16T07:04:02.000Z</updated>
     <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>TL;DR Google DeepMind's recent model DiffusionGemma (DG) generates text via diffusion, meaning many diffusion steps happen before generating the final output. In particular, these diffusion steps carry vectors in addition to tokens. If we cannot interpret these tokens and vectors, the model has significant opaque seria</summary>
+    <summary>I would love to post things like: [thing i'm wondering about] [here’s my initial stab at it] [but i have no idea if this is right or wrong] [i'm sure people on LW would love to tell me where i can find the answer or how they think about it] How to properly defer to someone else’s belief instead of their evidence? If Al</summary>
   </entry>
   <entry>
     <title>Plaintiff hid invisible AI instructions in court filings to secretly influence automated review</title>
@@ -151,22 +160,13 @@
     <summary>LG has formalized a strategic partnership with NVIDIA to co-develop a bipedal humanoid robot, deploy wheel-based systems in U.S. factories, and build next-generation AI infrastructure.</summary>
   </entry>
   <entry>
-    <title>Quantinuum to Partner with the Singapore Institute of Technology to Help Develop Singapore’s Future Quantum Workforce</title>
+    <title>Quantinuum to Partner with the Singapore Institute of Technology to Help Develop Singapore’s Future Quantum Workforce.</title>
     <link href="https://quantumcomputingreport.com/quantinuum-to-partner-with-the-singapore-institute-of-technology-to-help-develop-singapores-future-quantum-workforce/"/>
     <id>https://quantumcomputingreport.com/quantinuum-to-partner-with-the-singapore-institute-of-technology-to-help-develop-singapores-future-quantum-workforce/</id>
     <updated>2026-08-16T03:43:34.000Z</updated>
     <author><name>Quantum Computing Report</name></author>
     <category term="QUANTUM"/>
     <summary>Quantinuum has signed a Memorandum of Understanding (MoU) with the Singapore Institute of Technology (SIT) to train and expand Singapore’s quantum workforce. Building on Quantinuum’s existing R&amp;D footprint and the planned deployment of its Helios quantum processor in Singapore, the collaboration aims to prepare an indu</summary>
-  </entry>
-  <entry>
-    <title>ollama v0.32.14 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.32.14-rc0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.32.14-rc0</id>
-    <updated>2026-08-15T19:41:23.000Z</updated>
-    <author><name>ollama/ollama</name></author>
-    <category term="GITHUB REPOS"/>
-    <summary>What's Changed llm: transcode WebP images for llama-server renderers/qwen: tolerate non-leading system messages Full Changelog : v0.32.13...v0.32.14-rc0</summary>
   </entry>
   <entry>
     <title>BlackBerry posted a positive cash position in Q1, its first cash-positive first quarter in any fiscal year since 2017, driven by its QNX and Secusmart products (Ilya Gridneff/Financial Times)</title>
@@ -187,22 +187,22 @@
     <summary>Hugging Face : Hugging Face says developers made 151K+ derivatives based on Qwen models, topping others, making Qwen one of the largest foundations in the open model ecosystem — In the AI world, time feels compressed. A few months after our spring report in our biannual analysis worked through the ecosystem …</summary>
   </entry>
   <entry>
-    <title>How many people have 24gb over gpu here?</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vpm70f/how_many_people_have_24gb_over_gpu_here/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vpm70f/how_many_people_have_24gb_over_gpu_here/</id>
-    <updated>2026-08-16T03:27:29.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>Qwen3.8 27b - Holy crap!!</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1vppcbk/qwen38_27b_holy_crap/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1vppcbk/qwen38_27b_holy_crap/</id>
+    <updated>2026-08-16T06:17:11.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>I was surprised by the fact that the qwen 3.8 27b download count is about 1 million (globally). This means that even on this subreddit, very few people have used 27b. At most 50k–100k active users, and once you break down the hardware distribution, 8GB, 16GB, 24GB, 32GB cards, Macs, whatever, it's probably under a thou</summary>
+    <summary>I'm absolutely blown away by Qwen3.8 27b IQ4 NL @ medium reasoning effort. I have an ageing system but still decent. 4060 8gb @ 4x, 5060ti 16gb @ 8x - 24gb vram total. I'm stuck at gen 2 because of a gen 3 compatibility issue with my motherboard (B460M Aorus Pro). 32gb ram, i9 10900, nvme. I've managed to get Qwen runn</summary>
   </entry>
   <entry>
-    <title>llama.cpp b10450 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10450"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10450</id>
-    <updated>2026-08-15T20:52:55.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>Qwen3.8-27B on an Intel Arc Pro B70: 53-55 tok/s with INT4 and MTP3</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1vpp5b5/qwen3827b_on_an_intel_arc_pro_b70_5355_toks_with/"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1vpp5b5/qwen3827b_on_an_intel_arc_pro_b70_5355_toks_with/</id>
+    <updated>2026-08-16T06:06:05.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>ui: mask API Key field in settings and error splash to stop browser a…</summary>
+    <summary>I've been testing Qwen3.8-27B on a single Intel Arc Pro B70 (while waiting to test the official Intel qwen3.8 27b INT4 Autoround release) and wanted to see whether other people are getting similar speeds. Hardware - CPU: Intel Core i9-9980XE on X299 - RAM: 64 GiB - GPU: Intel Arc Pro B70, 32 GB VRAM - One GPU, one acti</summary>
   </entry>
   <entry>
     <title>SpaceX officially closes its Cursor acquisition</title>
@@ -214,6 +214,15 @@
     <summary>AI coding startup Cursor is now officially a part of SpaceX.</summary>
   </entry>
   <entry>
+    <title>India Readies Big LPG Output Boost as Hormuz Uncertainty Lingers</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-16/india-readies-big-lpg-output-boost-as-hormuz-uncertainty-lingers"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-16/india-readies-big-lpg-output-boost-as-hormuz-uncertainty-lingers</id>
+    <updated>2026-08-16T07:13:57.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>India has directed its state companies and private refiners to prepare for a sharp increase in cooking gas production, seeking to bolster domestic supplies as the Iran war prolongs uncertainty over the Strait of Hormuz, the key waterway for about 90% of the country’s liquefied petroleum gas imports.</summary>
+  </entry>
+  <entry>
     <title>China Plans to Speed Up New Energy Recycling, Waste Rules: CCTV</title>
     <link href="https://www.bloomberg.com/news/articles/2026-08-16/china-plans-to-speed-up-new-energy-recycling-waste-rules-cctv"/>
     <id>https://www.bloomberg.com/news/articles/2026-08-16/china-plans-to-speed-up-new-energy-recycling-waste-rules-cctv</id>
@@ -221,15 +230,6 @@
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
     <summary>China is accelerating the establishment of rules governing the recycling and reuse of wind and solar equipment and aims to set up a closed-loop system for waste from the industry before 2030, China Central Television reported on Sunday.</summary>
-  </entry>
-  <entry>
-    <title>China Revises Timing of July Economic Data Release, Briefing</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-16/china-to-hold-july-economic-briefing-after-official-data-release"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-16/china-to-hold-july-economic-briefing-after-official-data-release</id>
-    <updated>2026-08-16T03:45:10.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>China revised the release time for its July economic data to 3 p.m. Monday, breaking with recent practice.</summary>
   </entry>
   <entry>
     <title>DSW EAS full E2E r3</title>
@@ -268,12 +268,12 @@
     <summary>Nvidia has cut its guarantee for OpenAI's planned data center in Ohio nearly in half, from $250 billion to just under $120 billion, after investors pushed back on the risk. Meanwhile, Anthropic is complicating the AI bubble debate with revenue that jumped from $4.7 billion to $11.5 billion in a single quarter. The arti</summary>
   </entry>
   <entry>
-    <title>KYY X90D “Triple” Portable Monitor Review</title>
-    <link href="https://www.servethehome.com/kyy-x90d-triple-portable-monitor-review/"/>
-    <id>https://www.servethehome.com/kyy-x90d-triple-portable-monitor-review/</id>
-    <updated>2026-08-15T17:00:35.000Z</updated>
-    <author><name>ServeTheHome</name></author>
-    <category term="HARDWARE"/>
-    <summary>Taking two 15.6&quot; IPS monitors with you and only one cable to surround your laptop is a huge productivity boost as we found in our KYY X90D review The post KYY X90D “Triple” Portable Monitor Review appeared first on ServeTheHome .</summary>
+    <title>Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-15/alibaba-ai-models-hit-3-billion-downloads-passing-meta-google"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-15/alibaba-ai-models-hit-3-billion-downloads-passing-meta-google</id>
+    <updated>2026-08-15T09:16:06.000Z</updated>
+    <author><name>Bloomberg Tech</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Alibaba Group Holding’s open-weight models have accumulated more than 3 billion global downloads in the past six months, eclipsing Meta Platforms Inc., Alphabet Inc. and domestic peers to become the world’s No. 1 artificial-intelligence model.</summary>
   </entry>
 </feed>
