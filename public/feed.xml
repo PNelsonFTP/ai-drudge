@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-17T22:33:41.541Z</updated>
+  <updated>2026-08-17T23:30:52.180Z</updated>
   <entry>
     <title>OpenAI signs record Ohio data center lease with Nvidia backing up to $105 billion</title>
     <link href="https://the-decoder.com/openai-signs-record-ohio-data-center-lease-with-nvidia-backing-up-to-105-billion/"/>
@@ -52,13 +52,13 @@
     <summary>Alan Neuhauser / Axios : Sources: Crusoe is in IPO talks with at least four Wall Street banks, including JPMorgan, which is advising on its $3B pre-IPO fundraise set to value it at $35B — Crusoe, a data center developer and power supplier, is in IPO talks with at least four Wall Street banks, Axios Pro has learned.</summary>
   </entry>
   <entry>
-    <title>Weirdly, no one talks about Temperature setting for the Qwen3.8 27b</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vr3cma/weirdly_no_one_talks_about_temperature_setting/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vr3cma/weirdly_no_one_talks_about_temperature_setting/</id>
-    <updated>2026-08-17T20:09:26.000Z</updated>
+    <title>we benchmark models nobody actually runs</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vr643w/we_benchmark_models_nobody_actually_runs/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vr643w/we_benchmark_models_nobody_actually_runs/</id>
+    <updated>2026-08-17T21:53:54.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Mind you, it is 1.0 by default, yet everyone is focused on how much the new model thinks, restricting the reasoning budget and/or dropping the reasoning level. Set the temperature to 0.7 and the model will no longer write a whole book of thoughts before trying to make a small edit in the file. The question is - how muc</summary>
+    <summary>qwen3.8-27b looks genuinely impressive on the benchmark tables - beating models many times its size on some of them. but those numbers come from bf16 weights, and nobody here is running a 27b at bf16. we're running the 4-bit at ~17gb because that's what fits on a 4090 or a 24gb mac. so the model that got measured and t</summary>
   </entry>
   <entry>
     <title>langchain v1.5.6 released</title>
@@ -70,13 +70,13 @@
     <summary>Changes since langchain-core==1.5.5 chore(core): release 1.5.6 ( #39704 ) feat(core): incorporate gateway metadata to traces ( #39703 )</summary>
   </entry>
   <entry>
-    <title>We Will Take Risks If Clients Willing: Legum</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-17/we-will-take-risks-if-clients-willing-legum-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-17/we-will-take-risks-if-clients-willing-legum-video</id>
-    <updated>2026-08-17T20:54:02.000Z</updated>
+    <title>Gold Holds Two-Day Gain on Reduced Rate-Hike Expectations</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-17/gold-holds-two-day-gain-on-reduced-rate-hike-expectations"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-17/gold-holds-two-day-gain-on-reduced-rate-hike-expectations</id>
+    <updated>2026-08-17T23:20:40.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Maital Legum, head of ETF solutions at Teucrium, joins Scarlet Fu and James Seyffart on &quot;ETF IQ.&quot; They discuss the process the firm goes through as they decide to launch ETFs or not. (Source: Bloomberg)</summary>
+    <summary>Gold held a two-day gain as reduced expectations for an interest-rate hike by the Federal Reserve weighed on the US dollar, making bullion cheaper for most buyers.</summary>
   </entry>
   <entry>
     <title>Don't Claim Benchmark-Oriented Optimization Improves General Coding Capability -- Diverse Evaluation Is Required</title>
@@ -195,13 +195,22 @@
     <summary>Samantha Cole / 404 Media : Pornhub's parent company, Aylo, will pay $120M to settle two 2021 class action lawsuits in California and Alabama alleging it profited from child abuse material — The deal settles class action lawsuits claiming Mindgeek's sites hosted and profited from abuse videos of minors.</summary>
   </entry>
   <entry>
-    <title>AI automation startup Relay shuts down, staff joins Google’s Chrome team</title>
-    <link href="https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/"/>
-    <id>https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/</id>
-    <updated>2026-08-17T21:27:05.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>Sources: Anthropic's revenue run rate reached $65B by the end of July, up from $47B in May and $9B in late 2025 (Bloomberg)</title>
+    <link href="https://www.techmeme.com/260817/p31#a260817p31"/>
+    <id>https://www.techmeme.com/260817/p31#a260817p31</id>
+    <updated>2026-08-17T20:00:55.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>&quot;We have some really ambitious plans to help you work with AI in Chrome to get things done, and I’ll have more to share soon,&quot; Jacob Bank, Relay founder and CEO, said.</summary>
+    <summary>Bloomberg : Sources: Anthropic's revenue run rate reached $65B by the end of July, up from $47B in May and $9B in late 2025 — Anthropic PBC is on track to generate annualized revenue of more than $65 billion based on its current performance, according to people familiar with the matter …</summary>
+  </entry>
+  <entry>
+    <title>Weirdly, no one talks about Temperature setting for the Qwen3.8 27b</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vr3cma/weirdly_no_one_talks_about_temperature_setting/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vr3cma/weirdly_no_one_talks_about_temperature_setting/</id>
+    <updated>2026-08-17T20:09:26.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Mind you, it is 1.0 by default, yet everyone is focused on how much the new model thinks, restricting the reasoning budget and/or dropping the reasoning level. Set the temperature to 0.7 and the model will no longer write a whole book of thoughts before trying to make a small edit in the file. The question is - how muc</summary>
   </entry>
   <entry>
     <title>Artificial Analysis' Qwen3.8-27B benchmarks put it neck and neck with DeepSeek V4 and GPT-5.6 Luna Max</title>
@@ -211,15 +220,6 @@
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
     <summary>submitted by /u/anderspitman [link] [comments]</summary>
-  </entry>
-  <entry>
-    <title>&quot;Opus 4.8 thinks too much&quot;, &quot;Muse Glimmer sits between Gemma and Qwen, that's boring&quot;, &quot;Gemma 4 is too lazy&quot;</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vr2oq8/opus_48_thinks_too_much_muse_glimmer_sits_between/"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vr2oq8/opus_48_thinks_too_much_muse_glimmer_sits_between/</id>
-    <updated>2026-08-17T19:45:37.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>I'm starting to think there's no way to make a reasoning model that won't draw persistent vocal complaints on here. EDIT: Qwen 3.8 not Opus 4.8*, freudian slip lol submitted by /u/MerePotato [link] [comments]</summary>
   </entry>
   <entry>
     <title>AgentCore Payments middleware for LangChain agents</title>
@@ -240,22 +240,22 @@
     <summary>arXiv:2608.13564v1 Announce Type: new Abstract: Evaluating language-model agents at scale increasingly relies on a second language model as an automatic judge, because the gold signal, an executable environment reward, is expensive, slow, or unavailable at deployment time. Such a judge is a reward-free proxy whose valu</summary>
   </entry>
   <entry>
-    <title>Asia Stocks to Fall, Oil Extends Gains on Mid East: Markets Wrap</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-17/stock-market-today-dow-s-p-live-updates"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-17/stock-market-today-dow-s-p-live-updates</id>
-    <updated>2026-08-17T22:07:13.000Z</updated>
+    <title>Hedge Fund Tax Break Grips Hong Kong as Banks Fear Exodus</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-17/hedge-fund-tax-break-grips-hong-kong-as-banks-fear-exodus"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-17/hedge-fund-tax-break-grips-hong-kong-as-banks-fear-exodus</id>
+    <updated>2026-08-17T23:00:00.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Stocks in Asia were set to follow Wall Street lower as elevated oil prices stoked inflation concerns and hopes faded for a deal to end the Iran war.</summary>
+    <summary>Hong Kong’s move to cut taxes for hedge funds has set off a frenzied wave of maneuvering across the city’s financial sector, with investment banks fearing an exodus of prop traders and one fund even considering rebranding a receptionist as an investor relations official to make the most of the potential windfall.</summary>
   </entry>
   <entry>
-    <title>Latest Oil Market News and Analysis for Aug. 18</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-17/latest-oil-market-news-and-analysis-for-aug-18"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-17/latest-oil-market-news-and-analysis-for-aug-18</id>
-    <updated>2026-08-17T22:01:31.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
+    <title>Nvidia pledges $100bn backing for OpenAI data centre in Ohio</title>
+    <link href="https://www.ft.com/content/82a4b183-7201-4789-95b7-e39e81c827bc?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/82a4b183-7201-4789-95b7-e39e81c827bc?syn-25a6b1a6=1</id>
+    <updated>2026-08-17T22:36:04.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
     <category term="AI FINANCE"/>
-    <summary>Oil ticked higher as prospects for a resolution of the US-Iran war receded, with President Donald Trump saying he’s not interested in extending an expiring agreement with Tehran.</summary>
+    <summary>Chipmaker also invests $1.5bn into SB Energy, an energy company founded as part of SoftBank Group</summary>
   </entry>
   <entry>
     <title>Q&amp;A: Rethinking how innovation happens</title>
