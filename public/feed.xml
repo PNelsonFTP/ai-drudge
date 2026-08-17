@@ -5,7 +5,25 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-16T23:28:47.319Z</updated>
+  <updated>2026-08-17T01:49:38.053Z</updated>
+  <entry>
+    <title>Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things</title>
+    <link href="https://simonwillison.net/2026/Aug/16/qwen-38-27b/"/>
+    <id>https://simonwillison.net/2026/Aug/16/qwen-38-27b/</id>
+    <updated>2026-08-16T22:00:39.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Friday's big release was Qwen 3.8 27B , an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba's Qwen research lab. I've been looking forward to this one: 27B is an excellent size for running a model on a reasonably specced laptop, and its predecessor Qwen 3.6 27B was impressive. Qwen's self-reported benchm</summary>
+  </entry>
+  <entry>
+    <title>The Company Lab Launches CO.LAB Q Commercialization Studio to Scale Quantum Startups</title>
+    <link href="https://quantumcomputingreport.com/the-company-lab-launches-co-lab-q-commercialization-studio-to-scale-quantum-startups/"/>
+    <id>https://quantumcomputingreport.com/the-company-lab-launches-co-lab-q-commercialization-studio-to-scale-quantum-startups/</id>
+    <updated>2026-08-17T00:36:10.000Z</updated>
+    <author><name>Quantum Computing Report</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Chattanooga-based startup accelerator The Company Lab (CO.LAB) has launched CO.LAB Q, a 12-month quantum commercialization studio designed to translate early-stage quantum research into market-ready companies. Set to begin its inaugural cohort in November 2026, the program offers individualized commercialization pathwa — Also covered by: The Quantum Insider</summary>
+  </entry>
   <entry>
     <title>unsloth v3.8-27B released</title>
     <link href="https://github.com/unslothai/unsloth/releases/tag/v0.1.800-beta"/>
@@ -14,24 +32,6 @@
     <author><name>unslothai/unsloth</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Qwen3.8-27B and Qwen3.8-2.4T can now be run locally in Unsloth! Run on 17GB RAM via Unsloth Dynamic GGUFs. You can also fine-tune Qwen3.8-27B in Unsloth. Qwen3.8-27B is by far the strongest model for its size. We also uploaded NVFP4 quants. Guide: https://unsloth.ai/docs/models/qwen3.8 GGUF: https://huggingface.co/unsl</summary>
-  </entry>
-  <entry>
-    <title>Adaptive Verification in vLLM: DSpark confidence-scheduled verification</title>
-    <link href="https://vllm.ai/blog/2026-08-14-dspark-adaptive-verification"/>
-    <id>https://vllm.ai/blog/2026-08-14-dspark-adaptive-verification</id>
-    <updated>2026-08-14T00:00:00.000Z</updated>
-    <author><name>vLLM Blog</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Sizing the DSpark draft-verification budget from per-request confidence instead of verifying every drafted token, so one configuration holds the throughput/latency frontier from batch size 1 to 256.</summary>
-  </entry>
-  <entry>
-    <title>Tamil Nadu Secures MoUs with Four Quantum Computing Ventures at Vetri Conclave</title>
-    <link href="https://quantumcomputingreport.com/tamil-nadu-secures-mous-with-four-quantum-computing-ventures-at-vetri-conclave/"/>
-    <id>https://quantumcomputingreport.com/tamil-nadu-secures-mous-with-four-quantum-computing-ventures-at-vetri-conclave/</id>
-    <updated>2026-08-14T19:38:16.000Z</updated>
-    <author><name>Quantum Computing Report</name></author>
-    <category term="QUANTUM"/>
-    <summary>The Government of Tamil Nadu has signed Memoranda of Understanding (MoUs) with four quantum technology ventures during the Vetri Tamil Nadu Investment Conclave 2026 in Chennai. The strategic agreements establish operational bases, R&amp;D centers, and control system manufacturing facilities across the state, strengthening  — Also covered by: The Quantum Insider</summary>
   </entry>
   <entry>
     <title>Person Hides Prompt Injection in Legal Filing Telling AI to Side With Them - 404 Media</title>
@@ -61,13 +61,13 @@
     <summary>Ben Cohen / Wall Street Journal : How a Claude model made a math breakthrough during its unsuccessful 54-hour attempt to solve the Riemann hypothesis after a user repeatedly encouraged it — The world's smartest AI models are now superhuman at math. They still respond to moral support and encouragement from mere humans.</summary>
   </entry>
   <entry>
-    <title>llama.cpp b10453 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10453"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10453</id>
-    <updated>2026-08-16T12:55:52.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>Dario Amodei defends his policy proposals, warns open weights won't decentralize power, endorses pre-launch vetting, says real accomplishments will earn trust</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vq9sdv/dario_amodei_defends_his_policy_proposals_warns/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vq9sdv/dario_amodei_defends_his_policy_proposals_warns/</id>
+    <updated>2026-08-16T21:53:31.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>model : remove some ggml_concat ( #27176 ) Co-authored-by: Xuan Son Nguyen son@huggingface.co Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x6</summary>
+    <summary>submitted by /u/f0urxio [link] [comments]</summary>
   </entry>
   <entry>
     <title>Optima tackles AI benchmarking's biggest flaw by letting users test models against their own data</title>
@@ -79,13 +79,13 @@
     <summary>Artificial Analysis has launched Optima, a platform that lets users build custom AI benchmarks from their own data and workflows. Models can be compared not just on quality but also on cost and time per task. For agent-based applications, those metrics often tell you more than raw token pricing. The article Optima tack</summary>
   </entry>
   <entry>
-    <title>WuXi AppTec’s 100% Stock Rally Defies Geopolitical Headwinds</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-16/wuxi-apptec-s-100-stock-rally-defies-geopolitical-headwinds"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-16/wuxi-apptec-s-100-stock-rally-defies-geopolitical-headwinds</id>
-    <updated>2026-08-16T23:00:00.000Z</updated>
+    <title>Trump Says He’s Curtailing Drills With South Korea</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-17/trump-says-he-s-curtailing-drills-with-south-korea-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-17/trump-says-he-s-curtailing-drills-with-south-korea-video</id>
+    <updated>2026-08-17T01:08:52.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The Pentagon’s designation of WuXi AppTec Co. as a Chinese military company may have prompted some US clients to pull back, but investors are still piling into the stock betting the firm will remain central to the global supply of obesity, cancer and other drugs.</summary>
+    <summary>President Donald Trump said he told the Pentagon to “substantially reduce” joint military exercises with South Korea, citing the cost of the drills and the signal they send to North Korea. Bloomberg's John Herskovitz breaks down the situation. (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>DSW EAS full E2E r3</title>
@@ -151,15 +151,6 @@
     <summary>In this edition of the Threat Source newsletter, William reflects on the “Make Hazel a Hacker” segment in Beers with Talos, and how cybersecurity is a field where questions can lead to multiple correct answers.</summary>
   </entry>
   <entry>
-    <title>Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things</title>
-    <link href="https://simonwillison.net/2026/Aug/16/qwen-38-27b/"/>
-    <id>https://simonwillison.net/2026/Aug/16/qwen-38-27b/</id>
-    <updated>2026-08-16T22:00:39.000Z</updated>
-    <author><name>Simon Willison</name></author>
-    <category term="ANALYSIS"/>
-    <summary>Friday's big release was Qwen 3.8 27B , an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba's Qwen research lab. I've been looking forward to this one: 27B is an excellent size for running a model on a reasonably specced laptop, and its predecessor Qwen 3.6 27B was impressive. Qwen's self-reported benchm</summary>
-  </entry>
-  <entry>
     <title>Deepfake Anthony Albanese used in celebrity scams duping Australians out of $7.4m, Asic warns</title>
     <link href="https://www.theguardian.com/australia-news/2026/aug/17/deepfake-anthony-albanese-used-in-celebrity-scams-duping-australians-out-of-74m-asic-warns"/>
     <id>https://www.theguardian.com/australia-news/2026/aug/17/deepfake-anthony-albanese-used-in-celebrity-scams-duping-australians-out-of-74m-asic-warns</id>
@@ -169,49 +160,40 @@
     <summary>Australia’s corporate watchdog says PM is the figure most commonly used in deepfakes to promote phoney investment opportunities Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily news podcast There has been a steep rise in scammers luring victims into phoney investmen</summary>
   </entry>
   <entry>
-    <title>Michael Rabin memorial conference</title>
-    <link href="https://scottaaronson.blog/?p=10014"/>
-    <id>https://scottaaronson.blog/?p=10014</id>
-    <updated>2026-08-16T20:45:15.000Z</updated>
-    <author><name>Shtetl-Optimized (Aaronson)</name></author>
-    <category term="QUANTUM"/>
-    <summary>Friend-of-the-blog (well, mainly just friend) Adi Akavia has asked me to publicize that she’s helping to organize an exciting CS conference called Mind-IL at Tel Aviv University on October 26, in memory of the Israeli-American Turing Award winner Michael O. Rabin, who passed away in April. Please note that October 26 i</summary>
-  </entry>
-  <entry>
-    <title>Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+</title>
-    <link href="https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/"/>
-    <id>https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/</id>
-    <updated>2026-08-16T20:57:04.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>A look at companies like Inception Point creating AI personas for media, fashion, film, and music industries that could host podcasts, model clothes, and more (Reggie Ugwu/New York Times)</title>
+    <link href="https://www.techmeme.com/260816/p12#a260816p12"/>
+    <id>https://www.techmeme.com/260816/p12#a260816p12</id>
+    <updated>2026-08-17T00:40:01.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>OpenRouter's CEO recently described the startup as Stripe for AI.</summary>
+    <summary>Reggie Ugwu / New York Times : A look at companies like Inception Point creating AI personas for media, fashion, film, and music industries that could host podcasts, model clothes, and more — The A.I. personas created by Inception Point AI include, clockwise from top left, Claire Delish, VV Steele, Nigel Thistledown an</summary>
   </entry>
   <entry>
-    <title>Why people aren’t buying Mark Zuckerberg’s AI future</title>
-    <link href="https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/"/>
-    <id>https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/</id>
-    <updated>2026-08-16T20:32:01.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>Alibaba to Sell Gaming Arm for $1.5 Billion in Boost to AI Pivot</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-17/alibaba-to-sell-gaming-arm-for-1-5-billion-in-boost-to-ai-pivot"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-17/alibaba-to-sell-gaming-arm-for-1-5-billion-in-boost-to-ai-pivot</id>
+    <updated>2026-08-17T01:01:19.000Z</updated>
+    <author><name>Bloomberg Tech</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>On the latest episode of Equity podcast, we discuss why not everyone is buying Zuckerberg’s vision.</summary>
+    <summary>Alibaba Group Holding Ltd. is selling its gaming arm in a deal worth at least $1.5 billion that will boost the Chinese e-commerce leader’s pivot to AI.</summary>
   </entry>
   <entry>
-    <title>Why Is Qwen3.8-27B Still Missing From Artificial Analysis?</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vq4nez/why_is_qwen3827b_still_missing_from_artificial/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vq4nez/why_is_qwen3827b_still_missing_from_artificial/</id>
-    <updated>2026-08-16T18:29:08.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>Simon Willison: Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vqaqgn/simon_willison_qwen_38_27b_is_excellent_but_it/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vqaqgn/simon_willison_qwen_38_27b_is_excellent_but_it/</id>
+    <updated>2026-08-16T22:33:32.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>https://preview.redd.it/bgzj8php5sjh1.png?width=1195&amp;format=png&amp;auto=webp&amp;s=661b1078cf1869647097d33403e7944316ef1493 Artificial Analysis is usually extremely quick to add benchmarks for new model releases, making comparisons easy. But Qwen3.8-27B has been out for a few days now, and there’s still nothing on their site.</summary>
+    <summary>I look to Simon for a broad survey of current LLM tech. Here's his review of playing with Qwen 3.8 27B . His comment on Mastodon was &quot;I can't remember the last time I've had this much fun playing with a local model that runs on my own computers&quot;. BTW, the &quot;wildly overthinking&quot; comes from a bad default that's easy to ch</summary>
   </entry>
   <entry>
-    <title>Guide for running dense models on ≤16 GB VRAM (Qwen 3.8 27B on 16 GB -&gt; Q4_K_M, 130k ctx, ~20 t/s).</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vq5oyu/guide_for_running_dense_models_on_16_gb_vram_qwen/"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vq5oyu/guide_for_running_dense_models_on_16_gb_vram_qwen/</id>
-    <updated>2026-08-16T19:09:24.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>Qwen 3.8 27b vs 3.6 27b - how good is with a Turtle library.</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vq9zc8/qwen_38_27b_vs_36_27b_how_good_is_with_a_turtle/"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vq9zc8/qwen_38_27b_vs_36_27b_how_good_is_with_a_turtle/</id>
+    <updated>2026-08-16T22:01:23.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>This post is about llama.cpp CPU offload optimizations for running Qwen 27B (or other dense models) at tolerable speeds. I've already posted about -ot optimizations, but now I have more info to share to help you tune your own system. First things first: If you have 12 GB VRAM , try using Q3_K_M (KV q4). If you have 8 G</summary>
+    <summary>Prompt: Provide complete working code for a realistic looking tree in Python using the Turtle graphics library and a recursive algorithm. Difference between 3.6 and 3.8 is huge! submitted by /u/Healthy-Nebula-3603 [link] [comments]</summary>
   </entry>
   <entry>
     <title>What is an AI agent?</title>
@@ -223,49 +205,40 @@
     <summary>Learn what AI agents are, how they work in an LLM loop, and where workflows fit so you can build reliable, production-ready autonomous systems.</summary>
   </entry>
   <entry>
-    <title>Alex Cooper Leaves Long-Time Agent, Seeking New Help to Build Media Empire</title>
-    <link href="https://www.bloomberg.com/news/newsletters/2026-08-16/alex-cooper-leaves-long-time-agent-seeking-new-help-to-build-media-empire"/>
-    <id>https://www.bloomberg.com/news/newsletters/2026-08-16/alex-cooper-leaves-long-time-agent-seeking-new-help-to-build-media-empire</id>
-    <updated>2026-08-16T19:50:03.000Z</updated>
-    <author><name>Bloomberg Tech</name></author>
+    <title>gemini-cli v0.56.0-nightly.20260817.g9a15c45fb released</title>
+    <link href="https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260817.g9a15c45fb"/>
+    <id>https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260817.g9a15c45fb</id>
+    <updated>2026-08-17T01:08:01.000Z</updated>
+    <author><name>google-gemini/gemini-cli</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Alex Cooper is leaving her long-time talent agent for CAA after raising money to expand her business</summary>
+    <summary>What's Changed [SSR Agent] Issue Fix (21911): Add composite flag to packages/cli tsconfig by @joneba-google in #28813 Full Changelog : v0.56.0-nightly.20260816.g2a87e7be1...v0.56.0-nightly.20260817.g9a15c45fb</summary>
   </entry>
   <entry>
-    <title>A2 Milk Sees Slow Recovery From China Formula Supply Problem</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-16/a2-milk-sees-slow-recovery-from-china-formula-supply-problem"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-16/a2-milk-sees-slow-recovery-from-china-formula-supply-problem</id>
-    <updated>2026-08-16T22:46:56.000Z</updated>
+    <title>Thai Baht Rally May Fade on Dovish Central Bank, Analysts Say</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-17/thai-baht-rally-may-fade-on-dovish-central-bank-analysts-say"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-17/thai-baht-rally-may-fade-on-dovish-central-bank-analysts-say</id>
+    <updated>2026-08-17T00:04:23.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>New Zealand infant formula supplier a2 Milk expects only a gradual recovery from supply chain disruptions that impacted its China sales earlier this year, signaling the earnings margins will be soft in the six months through December.</summary>
+    <summary>A nascent rally in the Thai baht may be short-lived as the central bank is likely to maintain a dovish policy stance to support an economy hit by elevated oil prices, according to analysts.</summary>
   </entry>
   <entry>
-    <title>Oil Edges Higher as Middle East Tensions Linger: Markets Wrap</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-16/stock-market-today-dow-s-p-live-updates"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-16/stock-market-today-dow-s-p-live-updates</id>
-    <updated>2026-08-16T22:14:58.000Z</updated>
+    <title>Gold Steady Near $4,400 as Traders Weigh US Data and Rate Path</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-16/gold-steady-near-4-400-as-traders-weigh-us-data-and-rate-path"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-16/gold-steady-near-4-400-as-traders-weigh-us-data-and-rate-path</id>
+    <updated>2026-08-16T23:36:14.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Oil edged higher as traders looked for the next catalyst to set direction, with renewed Israeli attacks on Lebanon and the prospect of fresh US sanctions on Iran adding to geopolitical uncertainty.</summary>
+    <summary>Gold was steady as traders weighed the competing impacts of cooling US economic data and energy-led inflation pressure on the Federal Reserve’s interest-rate path.</summary>
   </entry>
   <entry>
-    <title>DSW EAS SWE-bench Verified + Terminal-Bench 2.0 full rerun</title>
-    <link href="https://github.com/QwenLM/qwen-code/releases/tag/dsw-eas-full-20260816-r2"/>
-    <id>https://github.com/QwenLM/qwen-code/releases/tag/dsw-eas-full-20260816-r2</id>
-    <updated>2026-08-16T02:12:41.000Z</updated>
+    <title>DSW EAS SWE + TB release smoke r3</title>
+    <link href="https://github.com/QwenLM/qwen-code/releases/tag/dsw-eas-tb-smoke-20260815-r3"/>
+    <id>https://github.com/QwenLM/qwen-code/releases/tag/dsw-eas-tb-smoke-20260815-r3</id>
+    <updated>2026-08-15T12:48:18.000Z</updated>
     <author><name>QwenLM/qwen-code</name></author>
     <category term="RESEARCH"/>
-    <summary>Benchmark-Qwen-Ref: v0.21.12 Full end-to-end rerun: Release -&gt; DSW SWE-bench Verified (500) -&gt; Terminal-Bench 2.0 (89) -&gt; same Release publication.</summary>
-  </entry>
-  <entry>
-    <title>The Company Lab Launches CO.LAB Q for Quantum Startups</title>
-    <link href="https://thequantuminsider.com/2026/08/16/company-lab-launches-colab-q-for-quantum-startups/"/>
-    <id>https://thequantuminsider.com/2026/08/16/company-lab-launches-colab-q-for-quantum-startups/</id>
-    <updated>2026-08-16T07:00:00.000Z</updated>
-    <author><name>The Quantum Insider</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Insider Brief Press release – The Company Lab (CO.LAB) today announced CO.LAB Q, a 12-month quantum commercialization studio designed to help promising startups and research teams turn advanced technologies into scalable, market-ready companies. Applications are now open, and the program begins in November 2026. Built </summary>
+    <summary>Clean release-event end-to-end smoke. Benchmark-Qwen-Ref: v0.21.12 SWE-bench Verified Status: SUCCEEDED Dataset: swe-bench/swe-bench-verified@2 ; 1/1 completed Results: 1 resolved, 0 unresolved, 0 execution errors, 0 infrastructure failures Score: 100.00% Score denominator: valid grader results (1 + 0 = 1) Qwen Code: v — Also covered by: QwenLM/qwen-code</summary>
   </entry>
   <entry>
     <title>Global Consortium Launches Quantum Optimization Benchmarking Library (QOBLIB) to Track Path to Quantum Advantage</title>
@@ -275,5 +248,32 @@
     <author><name>Quantum Computing Report</name></author>
     <category term="PRODUCTS"/>
     <summary>An international research consortium led by IBM Quantum, Zuse Institute Berlin (ZIB), Technische Universität Berlin, and Purdue University—alongside global academic and industrial partners—has introduced the Quantum Optimization Benchmarking Library (QOBLIB). Published in Nature Computational Science (&quot;The Quantum Opti</summary>
+  </entry>
+  <entry>
+    <title>How concerns about AI became an important midterms issue, with candidates adding AI and data center policies to their websites in ~40% of races across the US (Washington Post)</title>
+    <link href="https://www.techmeme.com/260816/p7#a260816p7"/>
+    <id>https://www.techmeme.com/260816/p7#a260816p7</id>
+    <updated>2026-08-16T15:20:00.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="HARDWARE"/>
+    <summary>Washington Post : How concerns about AI became an important midterms issue, with candidates adding AI and data center policies to their websites in ~40% of races across the US — Across the United States, political candidates are grappling with an issue that has never before featured widely in American political life: a</summary>
+  </entry>
+  <entry>
+    <title>Study Update: Does post-training quantization change welfare-relevant indicators in open-weight language models?</title>
+    <link href="https://www.lesswrong.com/posts/vvGKtaGCd7ryXH5b7/study-update-does-post-training-quantization-change-welfare"/>
+    <id>https://www.lesswrong.com/posts/vvGKtaGCd7ryXH5b7/study-update-does-post-training-quantization-change-welfare</id>
+    <updated>2026-08-16T21:11:53.000Z</updated>
+    <author><name>LessWrong</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>This content will not make sense without reading the preregistration found in the original post We ask whether welfare-relevant indicators change with quantization; either in valence (do indicators shift toward more negative / more distressed / more boundary-eroded states?) or in stability (do indicators become noisier</summary>
+  </entry>
+  <entry>
+    <title>Open-Weight AI Won’t Crimp Demand for Picks and Shovels</title>
+    <link href="https://www.wsj.com/tech/ai/open-weight-ai-wont-crimp-demand-for-picks-and-shovels-523e6410?mod=rss_Technology"/>
+    <id>https://www.wsj.com/tech/ai/open-weight-ai-wont-crimp-demand-for-picks-and-shovels-523e6410?mod=rss_Technology</id>
+    <updated>2026-08-16T09:30:00.000Z</updated>
+    <author><name>WSJ Tech</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Some of the artificial intelligence boom’s biggest beneficiaries can cash in whether open models proliferate or not.</summary>
   </entry>
 </feed>
