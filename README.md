@@ -35,7 +35,7 @@ ai-drudge/
 │   ├── HANDOFF.md                  # Operations and troubleshooting
 │   ├── PROJECT_HISTORY.md          # What was built and when
 │   ├── SBOM.md / SBOM.json         # Dependency bill of materials
-│   └── FUTURE_IMPROVEMENTS.md      # Next-cycle roadmap (16 items)
+│   └── FUTURE_IMPROVEMENTS.md      # Roadmap (P1 shipped 2026-08-18)
 ├── .github/workflows/
 │   ├── refresh.yml                 # Hourly: fetch → quality gate → deploy
 │   └── feed-audit.yml              # Weekly: validate every feed URL
@@ -46,7 +46,7 @@ ai-drudge/
 │   ├── fetch-hn.ts                 # Hacker News velocity signal
 │   ├── fetch-stocks.ts             # NVDA MSFT GOOG META AMZN AMD TSM AVGO
 │   ├── generate-brief.ts           # Claude Sonnet 5 brief or curated fallback
-│   ├── build-data.ts               # Orchestrator → public/data/*.json + feed.xml
+│   ├── build-data.ts               # Orchestrator → public/data/*.json + preview + feed.xml
 │   ├── validate-feeds.ts           # Feed liveness/freshness/redirect audit
 │   ├── generate-sbom.ts            # CycloneDX SBOM from the lockfile
 │   ├── check-data.ts               # CI quality gate
@@ -73,6 +73,7 @@ npm run dev            # http://localhost:5173/ai-drudge/
 | Command | Purpose |
 |---------|---------|
 | `npm run validate:feeds` | Audit every feed URL (liveness, freshness, moved URLs) |
+| `npm run test` | Unit tests for URL unwrap and trending-lead preference |
 | `npm run build:check` | Quality gate on generated data |
 | `npm run sbom` | Regenerate the SBOM after dependency changes |
 
@@ -110,6 +111,7 @@ cross-category sampling.
 | Mute sources / categories | `ManageMutes.tsx` |
 | Dark/light theme, search, hover cards, mobile accordion | `src/` |
 | Stock ticker (8 symbols) | `StockTicker.tsx` |
+| Homepage preview JSON, full file hydrates after | `useHeadlines.ts` + `headlines-preview.json` |
 | Hourly refresh, graceful degradation | `.github/workflows/refresh.yml` |
 | Weekly feed audit | `.github/workflows/feed-audit.yml` |
 
@@ -121,7 +123,7 @@ cross-category sampling.
 | [docs/HANDOFF.md](./docs/HANDOFF.md) | Operator handoff and troubleshooting |
 | [docs/PROJECT_HISTORY.md](./docs/PROJECT_HISTORY.md) | Build history incl. the 2026-07 overhaul |
 | [docs/SBOM.md](./docs/SBOM.md) | Dependency bill of materials |
-| [docs/FUTURE_IMPROVEMENTS.md](./docs/FUTURE_IMPROVEMENTS.md) | Next-cycle roadmap |
+| [docs/FUTURE_IMPROVEMENTS.md](./docs/FUTURE_IMPROVEMENTS.md) | Roadmap (P1 shipped 2026-08-18) |
 
 ## What was deliberately NOT carried over
 

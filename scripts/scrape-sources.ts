@@ -1,7 +1,7 @@
 // Build-time HTML scraper for sites that have NO public RSS feed.
 //
-// These are SPA-only sites (Anthropic, Mistral, xAI, Cognition, Stability AI,
-// Center for AI Safety, etc.). They publish server-rendered HTML we can scrape.
+// These are sites with no usable public RSS. They publish server-rendered
+// HTML cards we can scrape (Anthropic, UK AISI, Gray Swan).
 //
 // Each site config provides:
 //   - listing URL (the page that lists recent posts)
@@ -49,6 +49,25 @@ const SCRAPE_SOURCES: ScrapeSource[] = [
     defaultPriority: "high",
     cardPattern: /<a href="(\/research\/[a-z0-9-]+)"[^>]*>([\s\S]{0,1500}?)<\/a>/g,
     maxItems: 10,
+  },
+  {
+    name: "UK AISI Blog",
+    listingUrl: "https://www.aisi.gov.uk/blog",
+    homeUrl: "https://www.aisi.gov.uk",
+    defaultCategory: "safety_policy",
+    defaultPriority: "high",
+    // Webflow cards: <a href="/blog/SLUG"><h3>TITLE</h3></a> (no <time>).
+    cardPattern: /<a href="(\/blog\/[a-z0-9-]+)"[^>]*>([\s\S]{0,1500}?)<\/a>/g,
+    maxItems: 10,
+  },
+  {
+    name: "Gray Swan",
+    listingUrl: "https://www.grayswan.ai/blog",
+    homeUrl: "https://www.grayswan.ai",
+    defaultCategory: "ai_security",
+    defaultPriority: "medium",
+    cardPattern: /<a href="(\/blog\/[a-z0-9-]+)"[^>]*>([\s\S]{0,1500}?)<\/a>/g,
+    maxItems: 8,
   },
 ];
 

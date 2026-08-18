@@ -2,9 +2,10 @@
 //
 // Resilience rules (this is the fix for every failure mode the z.ai site hit):
 //   1. Per-feed 8s timeout via AbortController
-//   2. One retry with a rotated User-Agent
-//   3. Parallel via Promise.allSettled — one bad feed never blocks others
-//   4. Returns [] on total failure; the caller keeps the previous JSON
+//   2. Three attempts with a rotated User-Agent and jittered backoff
+//   3. Per-host concurrency cap (Substack/Reddit/hnrss share one bucket)
+//   4. Parallel via a host pool — one bad feed never blocks others
+//   5. Returns [] on total failure; the caller keeps the previous JSON
 //
 // Output: a flat Article[] ready for grouping/dedup.
 
@@ -12,6 +13,12 @@ import { XMLParser } from "fast-xml-parser";
 import type { Article } from "./types";
 import { type FeedSource, PRIORITY_WEIGHT, SOURCES } from "./sources";
 import { extractDate } from "./lib/timeAgo";
+import {
+  isGoogleNewsUrl,
+  resolveGoogleNewsUrls,
+  stripGoogleNewsTitle,
+  unwrapSync,
+} from "./lib/unwrapUrl";
 
 const PARSER = new XMLParser({
   ignoreAttributes: false,
@@ -157,6 +164,8 @@ function firstStr(...vals: unknown[]): string | null {
 interface ParsedItem {
   title?: unknown;
   link?: unknown;
+  comments?: unknown;
+  source?: unknown;
   pubDate?: unknown;
   published?: unknown;
   updated?: unknown;
@@ -166,6 +175,73 @@ interface ParsedItem {
   content?: unknown;
   "content:encoded"?: unknown;
 }
+
+function publisherFromItem(item: ParsedItem): string | null {
+  const src = item.source;
+  if (typeof src === "string" && src.trim()) return src.trim();
+  if (src && typeof src === "object") {
+    const named = firstStr((src as { "#text"?: unknown })["#text"]);
+    if (named) return named;
+  }
+  return null;
+}
+
+function rateLimitKey(url: string): string {
+  try {
+    const host = new URL(url).hostname.replace(/^www\./, "");
+    if (host === "substack.com" || host.endsWith(".substack.com")) return "substack.com";
+    if (host === "reddit.com" || host.endsWith(".reddit.com")) return "reddit.com";
+    if (host === "hnrss.org") return "hnrss.org";
+    if (host === "news.google.com") return "news.google.com";
+    return host;
+  } catch {
+    return "unknown";
+  }
+}
+
+// Shared-host cap so Substack/Reddit/hnrss don't 429 when 176 feeds fire at once.
+class HostPool {
+  private inflight = new Map<string, number>();
+  private waiters = new Map<string, Array<() => void>>();
+  constructor(private maxPerHost: number) {}
+
+  async run<T>(key: string, fn: () => Promise<T>): Promise<T> {
+    await this.acquire(key);
+    try {
+      return await fn();
+    } finally {
+      this.release(key);
+    }
+  }
+
+  private acquire(key: string): Promise<void> {
+    const n = this.inflight.get(key) ?? 0;
+    if (n < this.maxPerHost) {
+      this.inflight.set(key, n + 1);
+      return Promise.resolve();
+    }
+    return new Promise((resolve) => {
+      const q = this.waiters.get(key) ?? [];
+      q.push(resolve);
+      this.waiters.set(key, q);
+    });
+  }
+
+  private release(key: string): void {
+    const q = this.waiters.get(key) ?? [];
+    const next = q.shift();
+    if (next) {
+      this.waiters.set(key, q);
+      next();
+    } else {
+      const n = (this.inflight.get(key) ?? 1) - 1;
+      if (n <= 0) this.inflight.delete(key);
+      else this.inflight.set(key, n);
+    }
+  }
+}
+
+const HOST_POOL = new HostPool(2);
 
 function extractItems(json: any): ParsedItem[] {
   // RSS 2.0
@@ -297,13 +373,20 @@ async function fetchOneFeed(src: FeedSource): Promise<{ articles: Article[]; ok:
 
   for (const item of cappedItems) {
     const rawTitle = cleanText(firstStr(item.title));
-    const link = linkFromItem(item);
-    if (!rawTitle || !link) continue;
+    const rawLink = linkFromItem(item);
+    if (!rawTitle || !rawLink) continue;
+    const descForUnwrap = firstStr(item.description, item.summary, item.content, item["content:encoded"]);
+    const link = unwrapSync(rawLink, {
+      description: descForUnwrap,
+      comments: firstStr(item.comments),
+    });
 
     // For tag-only release titles (b9637, v0.30.4), synthesize a headline
     // from the repo name — but keep only the newest one per feed so busy
     // repos don't publish 15 near-identical lines per build.
-    let title = rawTitle;
+    let title = isGoogleNewsUrl(rawLink)
+      ? stripGoogleNewsTitle(rawTitle, publisherFromItem(item))
+      : rawTitle;
     if (isGitHubRelease) {
       const cleaned = cleanGitHubReleaseTitle(rawTitle, src.name);
       if (!cleaned.title) continue;
@@ -353,10 +436,10 @@ export async function fetchAllFeeds(): Promise<{
   articles: Article[];
   feedStats: { source: string; ok: boolean; count: number }[];
 }> {
-  console.log(`Fetching ${SOURCES.length} feeds in parallel…`);
+  console.log(`Fetching ${SOURCES.length} feeds (2 concurrent per host)…`);
   const results = await Promise.all(
     SOURCES.map(async (src) => {
-      const r = await fetchOneFeed(src);
+      const r = await HOST_POOL.run(rateLimitKey(src.url), () => fetchOneFeed(src));
       console.log(`  ${r.ok ? "OK" : "FAIL"}  ${src.name.padEnd(28)} ${r.articles.length} items`);
       return { src, ...r };
     })
@@ -364,6 +447,21 @@ export async function fetchAllFeeds(): Promise<{
 
   const feedStats = results.map((r) => ({ source: r.src.name, ok: r.ok, count: r.articles.length }));
   let articles = results.flatMap((r) => r.articles);
+
+  // Resolve remaining Google News wrappers so they dedupe against publisher feeds.
+  const gnUrls = articles.filter((a) => isGoogleNewsUrl(a.url)).map((a) => a.url);
+  if (gnUrls.length > 0) {
+    console.log(`Unwrapping ${gnUrls.length} Google News URLs…`);
+    const resolved = await resolveGoogleNewsUrls(gnUrls);
+    let hits = 0;
+    articles = articles.map((a) => {
+      const next = resolved.get(a.url);
+      if (!next) return a;
+      hits++;
+      return { ...a, url: next, id: hashId(next) };
+    });
+    console.log(`  resolved ${hits}/${gnUrls.length} Google News URLs to publisher links`);
+  }
 
   // Dedup by URL first, then by title (case-insensitive).
   const seenUrl = new Set<string>();

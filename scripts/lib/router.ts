@@ -23,12 +23,53 @@ import { groupStories } from "./groupStories";
 // their home category, because their post titles are generic and match too
 // broadly. (The hnrss/Google News query feeds carry real article titles, so
 // they route normally.)
-const KEYWORD_AGNOSTIC_SOURCES = new Set([
+export const KEYWORD_AGNOSTIC_SOURCES = new Set([
   "LocalLLaMA Subreddit",
   "r/LocalLLM",
   "Lemmy c/localllama",
   "Hacker News",
 ]);
+
+// Aggregator titles are often repo names or terse HN posts. Prefer a press
+// headline as the trending lead when one exists within ~10% of the top score.
+export function isAggregatorSource(name: string): boolean {
+  if (KEYWORD_AGNOSTIC_SOURCES.has(name)) return true;
+  if (name.startsWith("HN:") || name.startsWith("GN:")) return true;
+  if (name.includes("Google News") || name.includes("Subreddit")) return true;
+  return false;
+}
+
+function toPlain(g: GroupedArticle): Article {
+  const { related: _related, ...plain } = g;
+  return plain;
+}
+
+export function pickTrendingLead(
+  members: { article: GroupedArticle; score: number }[],
+): GroupedArticle {
+  if (members.length === 0) {
+    throw new Error("pickTrendingLead: empty cluster");
+  }
+  const sorted = [...members].sort((a, b) => b.score - a.score);
+  const top = sorted[0];
+  const threshold = top.score * 0.9;
+  const press = sorted.find((m) => !isAggregatorSource(m.article.source) && m.score >= threshold);
+  const chosen = press?.article ?? top.article;
+  const others = members.map((m) => m.article).filter((a) => a.url !== chosen.url);
+  const seen = new Set<string>([chosen.url]);
+  const related: Article[] = [];
+  const add = (a: Article) => {
+    if (seen.has(a.url)) return;
+    seen.add(a.url);
+    related.push(a);
+  };
+  for (const r of chosen.related) add(r);
+  for (const o of others) {
+    add(toPlain(o));
+    for (const r of o.related) add(r);
+  }
+  return { ...chosen, related };
+}
 
 function routesFor(article: Article): Set<CategoryId> {
   const cats = new Set<CategoryId>([article.category]);
@@ -155,11 +196,11 @@ export function buildCategories(
   // Track every appearance of every article URL across categories so we can
   // compute the Trending section (stories covered by many distinct sources).
   const storyCoverage = new Map<string, {
-    lead: GroupedArticle;
+    members: { article: GroupedArticle; score: number }[];
     sources: Set<string>;
     categories: Set<CategoryId>;
     maxScore: number;
-    leadAgeH: number;
+    title: string;
   }>();
 
   // #7: pick the highest-scoring <72h article as the Lead Story.
@@ -247,7 +288,7 @@ export function buildCategories(
       if (!existing) {
         const gTok = titleTokens(g.title);
         for (const [, ev] of storyCoverage) {
-          if (jaccard(gTok, titleTokens(ev.lead.title)) >= 0.4) {
+          if (jaccard(gTok, titleTokens(ev.title)) >= 0.4) {
             existing = ev;
             break;
           }
@@ -256,18 +297,15 @@ export function buildCategories(
       if (existing) {
         allSources.forEach((s) => existing!.sources.add(s));
         existing.categories.add(meta.id);
-        if (score > existing.maxScore) {
-          existing.maxScore = score;
-          existing.lead = g;
-          existing.leadAgeH = ageH;
-        }
+        existing.members.push({ article: g, score });
+        if (score > existing.maxScore) existing.maxScore = score;
       } else {
         storyCoverage.set(g.url, {
-          lead: g,
+          members: [{ article: g, score }],
           sources: allSources,
           categories: new Set([meta.id]),
           maxScore: score,
-          leadAgeH: ageH,
+          title: g.title,
         });
       }
     }
@@ -280,11 +318,19 @@ export function buildCategories(
   const TRENDING_RELAXED_H = 120;
   const TRENDING_MIN = 4;
 
-  let trending = [...storyCoverage.values()]
-    .filter((s) => s.sources.size >= 2 && s.leadAgeH <= TRENDING_FRESH_H);
+  const withLead = [...storyCoverage.values()]
+    .filter((s) => s.sources.size >= 2)
+    .map((s) => {
+      const lead = pickTrendingLead(s.members);
+      const clusterAgeH = Math.min(
+        ...s.members.map((m) => ageHours(m.article.publishedAt, now)),
+      );
+      return { ...s, lead, clusterAgeH };
+    });
+
+  let trending = withLead.filter((s) => s.clusterAgeH <= TRENDING_FRESH_H);
   if (trending.length < TRENDING_MIN) {
-    trending = [...storyCoverage.values()]
-      .filter((s) => s.sources.size >= 2 && s.leadAgeH <= TRENDING_RELAXED_H);
+    trending = withLead.filter((s) => s.clusterAgeH <= TRENDING_RELAXED_H);
   }
   trending.sort((a, b) => {
     if (b.sources.size !== a.sources.size) return b.sources.size - a.sources.size;

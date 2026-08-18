@@ -12,7 +12,8 @@
     "preview": "vite preview",
     "data:once": "tsx scripts/build-data.ts",
     "validate:feeds": "tsx scripts/validate-feeds.ts",
-    "sbom": "tsx scripts/generate-sbom.ts"
+    "sbom": "tsx scripts/generate-sbom.ts",
+    "test": "tsx --test scripts/lib/unwrapUrl.test.ts scripts/lib/router.test.ts"
   },
   "dependencies": {
     "react": "^19.1.0",

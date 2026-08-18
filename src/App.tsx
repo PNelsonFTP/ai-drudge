@@ -61,7 +61,7 @@ function useLastVisit(loaded: boolean): number | null {
 }
 
 export default function App() {
-  const { headlines, stocks, brief, error } = useHeadlines();
+  const { headlines, stocks, brief, error, loadFull } = useHeadlines();
   const { theme, toggle: toggleTheme } = useTheme();
   const { bookmarks, toggle: toggleBookmark } = useBookmarks();
   const { queue, toggle: toggleQueue, remove: removeFromQueue } = useReadLater();
@@ -79,13 +79,19 @@ export default function App() {
 
   const searchLc = search.trim().toLowerCase();
 
+  // Search and View All need the full payload; preview omits View-All tails.
+  useEffect(() => {
+    if (searchLc) loadFull();
+  }, [searchLc, loadFull]);
+
   // ID -> live article, for snapshotting bookmarks/queue items before they
   // age out of the payload.
   const articleById = useMemo<Map<string, Article>>(() => {
     const m = new Map<string, Article>();
     if (!headlines) return m;
     for (const c of headlines.categories) {
-      for (const a of c.articlesAll) {
+      const pool = c.articlesAll.length > 0 ? c.articlesAll : c.articles;
+      for (const a of pool) {
         if (!m.has(a.id)) {
           const { related: _related, ...plain } = a;
           m.set(a.id, plain);
@@ -107,7 +113,8 @@ export default function App() {
     const seen = new Set<string>();
     let n = 0;
     for (const c of headlines.categories) {
-      for (const a of c.articlesAll) {
+      const pool = c.articlesAll.length > 0 ? c.articlesAll : c.articles;
+      for (const a of pool) {
         if (seen.has(a.url)) continue;
         seen.add(a.url);
         if (a.publishedAt && new Date(a.publishedAt).getTime() > prevVisit) n++;
@@ -160,7 +167,7 @@ export default function App() {
     const out: GroupedArticle[] = [];
     if (headlines) {
       for (const c of headlines.categories) {
-        for (const a of c.articlesAll) {
+        for (const a of (c.articlesAll.length > 0 ? c.articlesAll : c.articles)) {
           if (ids.has(a.id) && !seen.has(a.id)) {
             seen.add(a.id);
             out.push(a);
@@ -211,7 +218,8 @@ export default function App() {
     const seen = new Set<string>();
     const out: GroupedArticle[] = [];
     for (const c of filteredCategories) {
-      for (const a of c.articlesAll) {
+      const pool = c.articlesAll.length > 0 ? c.articlesAll : c.articles;
+      for (const a of pool) {
         if (!seen.has(a.url)) {
           seen.add(a.url);
           out.push(a);
@@ -320,6 +328,7 @@ export default function App() {
                         onMuteCategory={toggleMuteCategory}
                         onHover={showHover}
                         onHoverEnd={hideHover}
+                        onRequestFull={loadFull}
                       />
                     ))}
                   </div>

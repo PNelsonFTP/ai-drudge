@@ -1,7 +1,7 @@
 # AI DRUDGE — Design Document
 
 Architecture, data flow, algorithms, and design decisions for the static AI
-news aggregator. Last updated: 2026-07-06.
+news aggregator. Last updated: 2026-08-18.
 
 ## 1. System overview
 
@@ -17,7 +17,7 @@ news aggregator. Last updated: 2026-07-06.
 │                     GitHub Pages (static hosting)                        │
 │   https://pnelsonftp.github.io/ai-drudge/                                │
 │   ├── index.html + JS/CSS bundles                                        │
-│   ├── data/headlines.json, stocks.json, brief.json                       │
+│   ├── data/headlines-preview.json, headlines.json, stocks.json, brief.json │
 │   └── feed.xml  (Atom feed of the aggregator itself)                     │
 └──────────────────────────────────────────────────────────────────────────┘
                                     │
@@ -59,7 +59,7 @@ and data URLs are relative to this base.
 1. `fetchAllFeeds()` (RSS/Atom/RDF), `scrapeAllSources()` (HTML), and
    `fetchHn()` (HN velocity index) run in parallel
 2. Merge articles → `buildCategories()` (routing, scoring, windows, trending)
-3. Write minified `headlines.json`
+3. Write minified `headlines.json` and `headlines-preview.json` (homepage lists only)
 4. `buildSiteFeed()` → `public/feed.xml` (Atom, top ~30: trending + category leads)
 5. Stocks (`stocks.json`) and Claude/fallback brief (`brief.json`)
 
@@ -69,7 +69,7 @@ blank.
 
 ### 3.2 RSS fetch (`scripts/fetch-feeds.ts`)
 
-- ~170 feeds fetched in parallel (`Promise.all`), 8s timeout, 3 attempts with
+- ~176 feeds fetched with a per-host pool (max 2), 8s timeout, 3 attempts with
   jittered backoff and rotating User-Agent
 - **Format support:** RSS 2.0, Atom, and RDF/RSS 1.0 (`rdf:RDF` root — Nature
   journals); item dates read from `pubDate`/`published`/`updated`/`dc:date`
@@ -82,7 +82,12 @@ blank.
   while releases with real headlines keep them (version prefix stripped)
 - **Entity decoding** after HTML stripping; parser configured with raised
   entity-expansion limits (large GitHub/Simon Willison feeds trip defaults)
+- **URL unwrap:** hnrss description `Article URL:` and Google News
+  `url=` query / batchexecute resolve, then normalize (strip `utm_*` / `oc`)
+  so query-feed items dedupe against the publisher's own feed
 - **Dedup:** by normalized URL, then by lowercased title
+- **Per-host concurrency:** max 2 in-flight per shared host bucket
+  (Substack, Reddit, hnrss, Google News) so CI IPs don't 429 the cluster
 
 ### 3.3 HTML scraper (`scripts/scrape-sources.ts`)
 
@@ -120,7 +125,9 @@ Recency dominating priority is intentional: a fresh medium-priority item
    per-source diversity cap (2–5 depending on source count)
 4. **Trending:** clusters covered by ≥2 distinct sources and <72h old (relaxed
    to <120h if fewer than 4 qualify), unified across categories by URL or
-   title-Jaccard ≥ 0.4, capped at 12
+   title-Jaccard ≥ 0.4, capped at 12. Cluster lead prefers a non-aggregator
+   member (`KEYWORD_AGNOSTIC_SOURCES`, `HN:` / `GN:` / Google News) when one
+   exists within 10% of the top score; the aggregator item stays in `related`.
 5. **Lead story:** highest-scoring article under 72h
 
 ### 3.6 Story grouping (`scripts/lib/groupStories.ts`)
@@ -158,8 +165,10 @@ Warns on: median age >96h, feed health <90%, zero-item OK feeds, thin trending.
 `npm run validate:feeds` checks every configured URL: HTTP status, feed
 sniffing, parse, item count, newest-item age (STALE >60d), and cross-host
 redirects (permanently moved feeds). Runs weekly in CI
-(`.github/workflows/feed-audit.yml`); also accepts a JSON candidate list as
-argv for vetting new sources.
+(`.github/workflows/feed-audit.yml` — also runs `npm audit` and upserts a
+`Feed audit:` GitHub issue). Exits 1 on actionable failures (STALE / EMPTY /
+NOT_FEED / 404); Reddit, hnrss, and Substack 429/403/502 are treated as
+transient. Also accepts a JSON candidate list as argv for vetting new sources.
 
 ## 4. Data contracts
 
@@ -170,10 +179,13 @@ argv for vetting new sources.
   generatedAt: string;          // ISO 8601 build time
   totalCount: number;
   trending: TrendingStory[];    // ≥2-source clusters, fresh-gated
-  categories: CategoryBucket[]; // articles (preview) + articlesAll (view-all)
+  categories: CategoryBucket[]; // articles (homepage) + articlesAll (view-all)
   feedStats: { source, ok, count }[];
   leadUrl?: string | null;      // lead story (<72h at build)
+  partial?: boolean;            // true on headlines-preview.json
 }
+// CategoryBucket also has optional fullCount (articlesAll length in the full file).
+// headlines-preview.json keeps homepage `articles` and sets articlesAll = [].
 ```
 
 ### localStorage keys (client)
@@ -213,9 +225,11 @@ Mobile: single column, tap-to-collapse sections.
 
 ### 5.3 Data loading (`useHeadlines.ts`)
 
-Stale-while-revalidate: render sessionStorage copy instantly, fetch fresh JSON
-in background, swap in. Fetch failure with a cache present is silent.
-`index.html` preloads all three JSON files.
+Stale-while-revalidate: render sessionStorage copy instantly. First-time
+visitors load `headlines-preview.json` (~150 KB, homepage lists) then hydrate
+`headlines.json` in the background. Returning users with a full cache skip
+the preview. Fetch failure with a cache present is silent.
+`index.html` preloads the preview + stocks + brief.
 
 ## 6. Category taxonomy (18)
 
@@ -253,7 +267,8 @@ github_repos` — labels in `scripts/sources.ts`.
 
 | Asset | Current |
 |-------|---------|
-| `headlines.json` | ~300 KB minified (258 visible stories; `articlesAll` is the driver) |
+| `headlines.json` | ~380 KB minified (`articlesAll` is the driver) |
+| `headlines-preview.json` | ~150 KB (homepage `articles` only) |
 | JS bundle | ~69 KB gzip |
 | CSS | ~4.7 KB gzip |
 | Repeat visit | Sub-second (SWR cache) |

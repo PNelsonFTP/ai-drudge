@@ -1,7 +1,7 @@
 # AI DRUDGE — Handoff Document
 
 Operations guide for maintaining, deploying, and troubleshooting the live site.
-Last updated: 2026-07-06 (post-overhaul — see [PROJECT_HISTORY.md](./PROJECT_HISTORY.md)).
+Last updated: 2026-08-18 (P1 + feed-rot — see [PROJECT_HISTORY.md](./PROJECT_HISTORY.md)).
 
 ## Quick reference
 
@@ -13,7 +13,7 @@ Last updated: 2026-07-06 (post-overhaul — see [PROJECT_HISTORY.md](./PROJECT_H
 | Default branch | `main` |
 | Local path | `/Users/paulnelson/Documents/Development/ai-drudge` |
 | Hourly workflow | `.github/workflows/refresh.yml` (cron `5 * * * *`) |
-| Weekly feed audit | `.github/workflows/feed-audit.yml` (Mondays 12:00 UTC) |
+| Weekly feed audit | `.github/workflows/feed-audit.yml` (Mondays 12:00 UTC; opens/updates a "Feed audit:" issue) |
 | Node version (CI) | 22 |
 | GitHub secret (optional) | `ANTHROPIC_API_KEY` — Claude daily brief; curated fallback without it |
 
@@ -49,7 +49,8 @@ npm run preview
 | `build` | Typecheck + static bundle to `dist/` |
 | `build:data` | Fetch all feeds + stocks + HN + brief → `public/data/*.json` + `public/feed.xml` |
 | `build:check` | Quality gate on the generated data (feed health, age distribution) |
-| `validate:feeds` | Check every feed URL: liveness, parseability, item count, freshness, redirects |
+| `validate:feeds` | Check every feed URL: liveness, parseability, item count, freshness, redirects. Exits 1 on actionable (non-transient) failures. |
+| `test` | Unit tests for URL unwrap and trending-lead preference |
 | `sbom` | Regenerate `docs/SBOM.json` and the table in `docs/SBOM.md` from the lockfile |
 | `typecheck` | `tsc --noEmit` |
 | `preview` | Serve `dist/` locally |
@@ -121,6 +122,7 @@ Reorder the `CATEGORIES` array in `scripts/sources.ts`. Columns fill top-to-bott
 | `HN: …` feeds FAIL with HTTP 502 | hnrss.org throws transient 502s. Self-heals on the next hourly run. |
 | `arXiv cs.*` OK but 0 items on weekends | arXiv publishes weekdays only. |
 | `Nature Machine Intelligence` low volume | Journal publishes a handful of items per month. |
+| Several Substack feeds FAIL together | Substack rate-limits burst fetches from Actions IPs. The fetcher now caps 2 concurrent requests per shared host. Residual 403/429/TIMEOUT are treated as transient by the weekly audit. |
 
 ## Troubleshooting
 
@@ -213,10 +215,10 @@ workflow temporarily in the GitHub UI.
 | Area | Primary files |
 |------|---------------|
 | Feeds, categories, routing keywords | `scripts/sources.ts` |
-| Fetch resilience, title cleanup | `scripts/fetch-feeds.ts` |
+| Fetch resilience, title cleanup, URL unwrap | `scripts/fetch-feeds.ts`, `scripts/lib/unwrapUrl.ts` |
 | Scoring / routing / trending | `scripts/lib/score.ts`, `scripts/lib/router.ts`, `scripts/lib/groupStories.ts` |
 | Site Atom feed | `scripts/lib/emitFeed.ts` |
-| Feed validation | `scripts/validate-feeds.ts` |
+| Feed validation + weekly issue | `scripts/validate-feeds.ts`, `scripts/report-feed-audit.ts` |
 | SBOM | `scripts/generate-sbom.ts`, `docs/SBOM.*` |
 | Homepage layout & views | `src/App.tsx` |
 | Client persistence (bookmarks/queue/mutes/read-state) | `src/hooks/*` |
@@ -228,6 +230,6 @@ workflow temporarily in the GitHub UI.
 |----------|---------|
 | [DESIGN.md](./DESIGN.md) | Architecture and algorithms |
 | [PROJECT_HISTORY.md](./PROJECT_HISTORY.md) | Build chronology incl. the 2026-07 overhaul |
-| [FUTURE_IMPROVEMENTS.md](./FUTURE_IMPROVEMENTS.md) | Next cycle roadmap (16 items) |
+| [FUTURE_IMPROVEMENTS.md](./FUTURE_IMPROVEMENTS.md) | Roadmap (P1 shipped 2026-08-18) |
 | [SBOM.md](./SBOM.md) / [SBOM.json](./SBOM.json) | Dependencies |
 | [../README.md](../README.md) | Quick start |

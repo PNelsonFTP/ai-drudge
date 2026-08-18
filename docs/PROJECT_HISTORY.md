@@ -145,6 +145,23 @@ was fetch-verified twice before inclusion).
 258 visible stories (was ~170), median age 12.7h, 60% under 24h, trending 4
 clusters (was 1), zero empty sections, ai_security 2 → 14 articles.
 
+### Phase 6 — P1 + feed-rot (August 18, 2026)
+
+Shipped the five P1 items from [FUTURE_IMPROVEMENTS.md](./FUTURE_IMPROVEMENTS.md)
+without changing the homepage layout:
+
+- Trending cluster lead prefers a press/publisher title over HN/Reddit/GN
+  when one exists within 10% of the top score
+- Google News / hnrss wrapper URLs unwrapped at fetch time so they dedupe
+  against publisher feeds; GN titles drop the ` - Publisher` suffix
+- `headlines-preview.json` for first paint (~150 KB); full file hydrates
+  immediately after. View All / search unchanged
+- Weekly `feed-audit.yml` now hard-fails `npm audit --omit=dev --audit-level=high`
+  and opens/updates a single `Feed audit: N problems` issue
+- Feed-rot: Prompt Security (404) → Promptfoo Blog; Next Platform URL updated
+  to the Labrador RSS viewport; per-host fetch cap (2) for Substack/Reddit/hnrss
+  so CI bursts stop looking like mass feed death
+
 ## Feature inventory (current)
 
 ### Build pipeline (`scripts/`)

@@ -41,6 +41,7 @@ export interface CategoryBucket {
   articles: GroupedArticle[];
   articlesAll: GroupedArticle[];
   sourceCount: number;
+  fullCount?: number;
 }
 
 export interface FeedStat {
@@ -56,6 +57,7 @@ export interface HeadlinesPayload {
   categories: CategoryBucket[];
   feedStats: FeedStat[];
   leadUrl?: string | null;
+  partial?: boolean;
 }
 
 export interface StockQuote {

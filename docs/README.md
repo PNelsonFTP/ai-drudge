@@ -1,7 +1,7 @@
 # AI DRUDGE — Documentation Index
 
 Complete documentation for the static AI news aggregator.
-Last full refresh: 2026-07-06 (project overhaul).
+Last full refresh: 2026-08-18 (P1 + feed-rot). Overhaul: 2026-07-06.
 
 ## Live site
 
@@ -16,7 +16,7 @@ Last full refresh: 2026-07-06 (project overhaul).
 | [HANDOFF.md](./HANDOFF.md) | Operators | Deploy, local dev, troubleshooting, known-benign failures |
 | [SBOM.md](./SBOM.md) | Security / compliance | Human-readable dependency bill of materials |
 | [SBOM.json](./SBOM.json) | Automation | CycloneDX 1.5 machine-readable BOM (regenerate: `npm run sbom`) |
-| [FUTURE_IMPROVEMENTS.md](./FUTURE_IMPROVEMENTS.md) | Product / engineering | 16-item prioritized roadmap + tech-debt register |
+| [FUTURE_IMPROVEMENTS.md](./FUTURE_IMPROVEMENTS.md) | Product / engineering | Roadmap (P1 shipped 2026-08-18) + tech-debt register |
 | [UPGRADE_PLAN.md](./UPGRADE_PLAN.md) | Historical | Plan for the June 2026 cycle (executed; kept for reference) |
 
 ## Quick start

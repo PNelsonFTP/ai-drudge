@@ -88,6 +88,21 @@ async function main() {
     `Wrote headlines.json — ${payload.totalCount} grouped stories across ${categories.length} categories, ${trending.length} trending.`
   );
 
+  // Preview keeps the homepage `articles` lists intact (no layout shift) and
+  // omits the View-All tails. The client hydrates headlines.json right after.
+  const preview: HeadlinesPayload = {
+    ...payload,
+    partial: true,
+    categories: payload.categories.map((c) => ({
+      ...c,
+      fullCount: c.articlesAll.length,
+      // Omit View-All tails so the preview is the homepage, not a second copy.
+      articlesAll: [],
+    })),
+  };
+  await writeJsonMin(resolve(DATA_DIR, "headlines-preview.json"), preview);
+  console.log(`Wrote headlines-preview.json`);
+
   // Site Atom feed so readers can subscribe to the aggregator itself.
   const siteFeed = buildSiteFeed(trending, categories, payload.generatedAt);
   await writeFile(resolve(PUBLIC_DIR, "feed.xml"), siteFeed);
