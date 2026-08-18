@@ -17,9 +17,12 @@ impact vs. effort.
 
 ---
 
-## P1 — Next session
+## P1 — Shipped 2026-08-18
 
-### 1. Trending lead-title quality
+Items 1–5 below shipped in the August 18 cycle. Kept here as the record of
+what landed; current open work starts at P2.
+
+### 1. Trending lead-title quality ✅
 
 **Problem:** When a story cluster's highest-scoring member comes from an
 aggregator (Reddit/Lemmy/HN), the trending headline can be a terse post title
@@ -32,7 +35,7 @@ aggregator item in `related`.
 **Acceptance:** No trending lead sourced from `KEYWORD_AGNOSTIC_SOURCES` when a
 press alternative exists in the cluster.
 
-### 2. Canonicalize Google News / hnrss article links
+### 2. Canonicalize Google News / hnrss article links ✅
 
 **Problem:** The new query feeds (`news.google.com/rss/search`, `hnrss.org`)
 return redirect/tracking URLs. Clicks resolve fine, but URL-based dedup can't
@@ -45,17 +48,19 @@ from the `url` query param or resolved once at build time (bounded, cached).
 
 **Acceptance:** ≥90% of query-feed items dedupe against their direct-feed twin.
 
-### 3. Payload split: preview + full
+### 3. Payload split: preview + full ✅
 
 **Problem:** `headlines.json` is a single ~250–400 KB fetch that blocks first
 paint on slow networks.
 
-**Proposal:** Emit `headlines-preview.json` (trending + lead + first 5 per
-category, ~80 KB) and load the full file lazily on idle / "view all".
+**Shipped:** `headlines-preview.json` is the homepage (`articles` lists +
+trending + lead + feedStats) without View-All tails. The full file hydrates
+immediately after; View All / search call `loadFull()`. Homepage article
+counts stay identical so the layout does not shift. Preview is ~140–180 KB
+vs ~380 KB full — under the original 100 KB target would have meant 5 items
+per category and a visible density change, which we declined.
 
-**Acceptance:** First-paint fetch under 100 KB; no UX regression in View All.
-
-### 4. CI dependency-audit gate
+### 4. CI dependency-audit gate ✅
 
 **Problem:** `npm audit` is run manually; a new advisory could sit unnoticed
 between sessions.
@@ -66,7 +71,7 @@ refresh).
 
 **Acceptance:** Weekly run fails visibly on any high/critical advisory.
 
-### 5. Feed-audit auto-issue
+### 5. Feed-audit auto-issue ✅
 
 **Problem:** The weekly feed audit fails red in Actions but nobody is paged;
 dead feeds still rely on someone reading logs.
@@ -162,13 +167,13 @@ the research-agent source list from this cycle as the starting corpus.
 | Item | Location | Notes |
 |------|----------|-------|
 | Duplicate `types.ts` | `scripts/types.ts` + `src/lib/types.ts` | Kept in sync manually; consider a shared package or codegen |
-| No automated tests | — | `groupStories`, `router`, `cleanGitHubReleaseTitle`, and `extractDate` are pure functions begging for unit tests |
+| Limited automated tests | `scripts/lib/*.test.ts` | URL unwrap + trending-lead preference shipped 2026-08-18; `groupStories`, `cleanGitHubReleaseTitle`, and `extractDate` still untested |
 | Scraper fragility | `scrape-sources.ts` | Breaks silently on Anthropic HTML redesign; weekly audit doesn't cover scrapers yet |
 | Reddit feeds fail from CI IPs | `sources.ts` | 403/429 most runs; Lemmy mirror + HN query added as backups — consider dropping Reddit if consistently dead |
 | hnrss.org transient 502s | `sources.ts` | Tolerated (3 retries, hourly refresh); feeds self-heal next run |
 | arXiv feeds empty on weekends | `sources.ts` | Expected — arXiv publishes weekdays; don't "fix" |
 | Cron commits clutter history | `public/data/` | Consider a data-only orphan branch |
-| Google News titles carry " - Publisher" suffix | query feeds | Cosmetic; strip in `fetch-feeds.ts` if it bothers |
+| Google News titles carry " - Publisher" suffix | query feeds | **Done 2026-08-18** — stripped via `<source>` publisher label |
 
 ---
 

@@ -57,6 +57,20 @@ const UA =
 const STALE_DAYS = 60;
 const CONCURRENCY = 8;
 
+function isTransient(v: Verdict): boolean {
+  if (["TIMEOUT", "HTTP_429", "HTTP_502", "HTTP_503"].includes(v.verdict)) return true;
+  let host = "";
+  try {
+    host = new URL(v.url).hostname;
+  } catch {
+    /* ignore */
+  }
+  if (host.includes("reddit.com") && (v.verdict === "HTTP_403" || v.verdict === "HTTP_429")) return true;
+  if (host.includes("hnrss.org")) return true;
+  if (host.includes("substack.com") && ["HTTP_403", "HTTP_429", "TIMEOUT"].includes(v.verdict)) return true;
+  return false;
+}
+
 function looksLikeFeed(body: string, contentType: string): boolean {
   const ct = contentType.split(";")[0].trim();
   if (ct.includes("xml") || ct.includes("rss") || ct.includes("atom")) return true;
@@ -178,9 +192,12 @@ async function main() {
   verdicts.sort((a, b) => a.verdict.localeCompare(b.verdict) || a.name.localeCompare(b.name));
 
   const bad = verdicts.filter((v) => v.verdict !== "OK");
+  const transient = bad.filter(isTransient);
+  const actionable = bad.filter((v) => !isTransient(v));
   console.log(`\n=== FEED VALIDATION: ${verdicts.length - bad.length}/${verdicts.length} OK ===`);
   for (const v of bad) {
-    console.log(`  ${v.verdict.padEnd(10)} ${v.name.padEnd(30)} ${v.url}${v.note ? `  (${v.note})` : ""}`);
+    const tag = isTransient(v) ? " (transient)" : "";
+    console.log(`  ${v.verdict.padEnd(10)} ${v.name.padEnd(30)} ${v.url}${v.note ? `  (${v.note})` : ""}${tag}`);
   }
   const moved = verdicts.filter((v) => v.redirected && v.verdict === "OK");
   if (moved.length) {
@@ -192,6 +209,14 @@ async function main() {
   if (outPath) {
     await writeFile(outPath, JSON.stringify(verdicts, null, 2));
     console.log(`\nWrote ${outPath}`);
+  }
+
+  if (actionable.length > 0) {
+    console.error(`\n❌ ${actionable.length} actionable feed problem${actionable.length === 1 ? "" : "s"} (excluding transient Reddit/hnrss/Substack)`);
+    process.exit(1);
+  }
+  if (transient.length > 0) {
+    console.log(`\n⚠ ${transient.length} transient failures ignored for the exit code`);
   }
 }
 

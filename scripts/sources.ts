@@ -18,7 +18,7 @@
 // category enforces a per-source diversity cap so no single source can
 // dominate the top of a section.
 //
-// Feeds with NO working RSS as of 2026-07-06 (checked, do not re-add blindly):
+// Feeds with NO working RSS as of 2026-08-18 (checked, do not re-add blindly):
 //   Anthropic (scraped via scrape-sources.ts; claude-code releases.atom is the
 //   feed proxy), xAI (Cloudflare-blocked), Cohere, Perplexity, Groq, Cerebras,
 //   Nous Research, Runway, ElevenLabs, Midjourney, Stanford HAI, Epoch AI main
@@ -26,7 +26,8 @@
 //   LMSYS, Unsloth blog (releases work), Jan.ai, Figure AI, 1X, Boston
 //   Dynamics (feed exists but empty), IBM Quantum, The Information (403),
 //   SemiAnalysis (all feeds stale since Sep 2025), LlamaIndex blog (Medium
-//   feed abandoned), Google Research blog (blogspot feed stale since 2024).
+//   feed abandoned), Google Research blog (blogspot feed stale since 2024),
+//   Prompt Security (blog/rss.xml 404 as of 2026-08-18 — replaced by Promptfoo).
 
 export type CategoryId =
   | "model_releases"
@@ -152,7 +153,7 @@ export const SOURCES: FeedSource[] = [
   { name: "tl;dr sec", url: "https://tldrsec.com/feed.xml", category: "ai_security", priority: "high" },
   { name: "Trail of Bits", url: "https://blog.trailofbits.com/feed/", category: "ai_security", priority: "high" },
   { name: "OWASP GenAI Security", url: "https://genai.owasp.org/feed/", category: "ai_security", priority: "medium" },
-  { name: "Prompt Security", url: "https://www.prompt.security/blog/rss.xml", category: "ai_security", priority: "medium" },
+  { name: "Promptfoo Blog", url: "https://www.promptfoo.dev/blog/rss.xml", category: "ai_security", priority: "medium" },
   { name: "Straiker STAR", url: "https://www.straiker.ai/blog/rss.xml", category: "ai_security", priority: "medium" },
   { name: "Knostic", url: "https://www.knostic.ai/blog/rss.xml", category: "ai_security", priority: "medium" },
   { name: "JFrog Security Research", url: "https://jfrog.com/blog/category/security/feed/", category: "ai_security", priority: "medium" },
@@ -203,7 +204,7 @@ export const SOURCES: FeedSource[] = [
   { name: "NVIDIA Dev Blog", url: "https://developer.nvidia.com/blog/feed", category: "hardware", priority: "medium" },
   { name: "More Than Moore (Cutress)", url: "https://morethanmoore.substack.com/feed", category: "hardware", priority: "medium" },
   { name: "Fabricated Knowledge", url: "https://www.fabricatedknowledge.com/feed", category: "hardware", priority: "medium" },
-  { name: "The Next Platform", url: "https://www.nextplatform.com/feed/", category: "hardware", priority: "medium" },
+  { name: "The Next Platform", url: "https://www.nextplatform.com/index?lab_viewport=rss", category: "hardware", priority: "medium" },
   { name: "ServeTheHome", url: "https://www.servethehome.com/feed/", category: "hardware", priority: "medium" },
   { name: "Tom's Hardware", url: "https://www.tomshardware.com/feeds/news", category: "hardware", priority: "medium" },
   { name: "Data Center Dynamics", url: "https://www.datacenterdynamics.com/rss/", category: "hardware", priority: "low" },

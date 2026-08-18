@@ -33,6 +33,7 @@ export interface CategoryBucket {
   articles: GroupedArticle[];       // capped preview shown by default
   articlesAll: GroupedArticle[];    // full list for "View all" expansion
   sourceCount: number;              // distinct sources in this category
+  fullCount?: number;               // articlesAll length in the full payload (preview file)
 }
 
 export interface HeadlinesPayload {
@@ -42,6 +43,7 @@ export interface HeadlinesPayload {
   categories: CategoryBucket[];
   feedStats: { source: string; ok: boolean; count: number }[];
   leadUrl?: string | null;      // chosen lead story URL (always < 72h at build)
+  partial?: boolean;            // true on headlines-preview.json
 }
 
 export interface StockQuote {

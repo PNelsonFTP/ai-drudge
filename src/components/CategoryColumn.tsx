@@ -13,6 +13,7 @@ interface CategoryColumnProps {
   onMuteCategory: (id: string) => void;
   onHover: (article: GroupedArticle, e: React.MouseEvent) => void;
   onHoverEnd: () => void;
+  onRequestFull?: () => void;
 }
 
 export function CategoryColumn({
@@ -26,6 +27,7 @@ export function CategoryColumn({
   onMuteCategory,
   onHover,
   onHoverEnd,
+  onRequestFull,
 }: CategoryColumnProps) {
   // expanded = the "View all" toggle (applies on every screen size).
   const [expanded, setExpanded] = useState(false);
@@ -35,7 +37,8 @@ export function CategoryColumn({
   const [open, setOpen] = useState(true);
 
   const list = expanded ? bucket.articlesAll : bucket.articles;
-  const hasMore = bucket.articlesAll.length > bucket.articles.length;
+  const fullCount = bucket.fullCount ?? bucket.articlesAll.length;
+  const hasMore = fullCount > bucket.articles.length;
 
   return (
     <section>
@@ -78,12 +81,15 @@ export function CategoryColumn({
         ))}
         {hasMore && (
           <button
-            onClick={() => setExpanded((v) => !v)}
+            onClick={() => {
+              if (!expanded) onRequestFull?.();
+              setExpanded((v) => !v);
+            }}
             className="text-[11px] opacity-60 hover:opacity-100 underline mt-2 ml-7"
           >
             {expanded
               ? "▲ show less"
-              : `▼ view all ${bucket.articlesAll.length}`}
+              : `▼ view all ${fullCount}`}
           </button>
         )}
       </div>
