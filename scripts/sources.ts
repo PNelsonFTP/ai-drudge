@@ -28,6 +28,25 @@
 //   SemiAnalysis (all feeds stale since Sep 2025), LlamaIndex blog (Medium
 //   feed abandoned), Google Research blog (blogspot feed stale since 2024),
 //   Prompt Security (blog/rss.xml 404 as of 2026-08-18 — replaced by Promptfoo).
+//
+// Collector pass 2026-08-18 (quality-first; probed live):
+//   ADDED RSS: Modal Blog, Replicate Blog, Cloudflare AI, NVIDIA Research,
+//     Platformer, AI Now Institute, NIST AI News.
+//   ADDED scrape: UK AISI Blog, Gray Swan (no RSS; card regex extracts titles).
+//   SKIPPED: OpenAI Developer Blog (newest 105d — docs changelog, won't survive
+//     the 5-day agents_tools window), Qwen Blog (329d stale; HN Chinese-labs +
+//     qwen-code releases already cover), Modal /blog/rss.xml (404; atom works),
+//     LlamaIndex Medium (896d abandoned; llama_index releases.atom kept),
+//     Google Research blog.research.google (871d, still the dead blogspot
+//     FeedBurner; blog.google/technology/ai already covers Google),
+//     MIT CSAIL rss.xml (dead since 2019; news.mit.edu AI kept),
+//     SemiAnalysis (335d, still stale since Sep 2025),
+//     The Gradient (180d; wouldn't survive safety_policy 21-day window),
+//     METR /blog/rss.xml (redirects to existing metr.org/feed.xml — kept one),
+//     arXiv cs.MA (optional; not adding another firehose),
+//     xAI / Frontier Security (403 / Cloudflare), Cognition / Transluce /
+//     Physical Intelligence (no extractable article cards), Anthropic
+//     news/research (already scraped).
 
 export type CategoryId =
   | "model_releases"
@@ -82,6 +101,7 @@ export const SOURCES: FeedSource[] = [
   { name: "MIT News AI", url: "https://news.mit.edu/topic/mitartificial-intelligence2-rss.xml", category: "research", priority: "high" },
   { name: "Epoch AI", url: "https://epochai.substack.com/feed", category: "research", priority: "high" },
   { name: "Microsoft Research Blog", url: "https://www.microsoft.com/en-us/research/feed/", category: "research", priority: "medium" },
+  { name: "NVIDIA Research", url: "https://research.nvidia.com/rss.xml", category: "research", priority: "medium" },
   { name: "IBM Research Blog", url: "https://research.ibm.com/rss", category: "research", priority: "medium" },
   { name: "BAIR Blog", url: "https://bair.berkeley.edu/blog/feed.xml", category: "research", priority: "medium" },
   { name: "ML@CMU", url: "https://blog.ml.cmu.edu/feed/", category: "research", priority: "medium" },
@@ -98,6 +118,7 @@ export const SOURCES: FeedSource[] = [
 
   // ---------- agents_tools ----------
   { name: "LangChain Blog", url: "https://blog.langchain.com/rss.xml", category: "agents_tools", priority: "high" },
+  { name: "Modal Blog", url: "https://modal.com/blog/atom.xml", category: "agents_tools", priority: "high" },
   { name: "Cline Blog", url: "https://cline.ghost.io/rss/", category: "agents_tools", priority: "medium" },
   { name: "Vercel Blog", url: "https://vercel.com/atom", category: "agents_tools", priority: "medium" },
   { name: "Amp (Sourcegraph)", url: "https://ampcode.com/news.rss", category: "agents_tools", priority: "low" },
@@ -107,6 +128,8 @@ export const SOURCES: FeedSource[] = [
   { name: "Cursor Changelog", url: "https://cursor.com/changelog/rss.xml", category: "products", priority: "high" },
   { name: "OpenRouter Blog", url: "https://openrouter.ai/blog/feed.xml", category: "products", priority: "high" },
   { name: "Together AI Blog", url: "https://www.together.ai/blog/rss.xml", category: "products", priority: "high" },
+  { name: "Replicate Blog", url: "https://replicate.com/blog/rss", category: "products", priority: "medium" },
+  { name: "Cloudflare AI", url: "https://blog.cloudflare.com/tag/ai/rss/", category: "products", priority: "medium" },
   { name: "GitHub Copilot Changelog", url: "https://github.blog/changelog/label/copilot/feed/", category: "products", priority: "medium" },
   { name: "GitHub Blog", url: "https://github.blog/feed/", category: "products", priority: "medium" },
   { name: "AWS ML Blog", url: "https://aws.amazon.com/blogs/machine-learning/feed/", category: "products", priority: "medium" },
@@ -119,6 +142,7 @@ export const SOURCES: FeedSource[] = [
   { name: "The Guardian AI", url: "https://www.theguardian.com/technology/artificialintelligenceai/rss", category: "industry_news", priority: "high" },
   { name: "The Register AI/ML", url: "https://www.theregister.com/software/ai_ml/headlines.atom", category: "industry_news", priority: "high" },
   { name: "AI News (smol.ai)", url: "https://news.smol.ai/rss.xml", category: "industry_news", priority: "high" },
+  { name: "Platformer", url: "https://www.platformer.news/rss/", category: "industry_news", priority: "high" },
   { name: "Ars Technica AI", url: "https://arstechnica.com/ai/feed/", category: "industry_news", priority: "medium" },
   { name: "The Verge AI", url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", category: "industry_news", priority: "medium" },
   { name: "Wired AI", url: "https://www.wired.com/feed/tag/ai/latest/rss", category: "industry_news", priority: "medium" },
@@ -139,6 +163,8 @@ export const SOURCES: FeedSource[] = [
   { name: "AI Safety Newsletter (CAIS)", url: "https://newsletter.safe.ai/feed", category: "safety_policy", priority: "high" },
   { name: "Transformer", url: "https://www.transformernews.ai/feed", category: "safety_policy", priority: "high" },
   { name: "METR", url: "https://metr.org/feed.xml", category: "safety_policy", priority: "high" },
+  { name: "NIST AI News", url: "https://www.nist.gov/news-events/artificial%20intelligence/rss.xml", category: "safety_policy", priority: "high" },
+  { name: "AI Now Institute", url: "https://ainowinstitute.org/feed", category: "safety_policy", priority: "medium" },
   { name: "CSET Georgetown", url: "https://cset.georgetown.edu/feed/", category: "safety_policy", priority: "medium" },
   { name: "EU AI Act Newsletter", url: "https://artificialintelligenceact.eu/feed/", category: "safety_policy", priority: "medium" },
   { name: "Redwood Research", url: "https://blog.redwoodresearch.org/feed", category: "safety_policy", priority: "medium" },
