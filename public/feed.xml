@@ -5,7 +5,16 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-19T19:33:21.220Z</updated>
+  <updated>2026-08-19T20:38:06.808Z</updated>
+  <entry>
+    <title>claude-code v2.1.236 released</title>
+    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.236"/>
+    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.236</id>
+    <updated>2026-08-19T20:02:05.000Z</updated>
+    <author><name>anthropics/claude-code</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>What's changed Added ANTHROPIC_DEFAULT_MODEL environment variable: sets the model new sessions start on, while a /model pick still overrides it and persists across restarts (unlike ANTHROPIC_MODEL ) Added notify_when_idle to cross-session SendMessage : ask another Claude Code session on this machine to send one notice  — Also covered by: QwenLM/qwen-code</summary>
+  </entry>
   <entry>
     <title>llama.cpp b10502 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10502"/>
@@ -14,15 +23,6 @@
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
     <summary>ci : add attestation for signed release artifacts ( #25933 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/41614541 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu — Also covered by: run-llama/llama_index</summary>
-  </entry>
-  <entry>
-    <title>Fed Minutes Show Many Officials Wanted Rate Hike in July</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-19/fed-minutes-show-many-officials-wanted-a-rate-hike-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-19/fed-minutes-show-many-officials-wanted-a-rate-hike-video</id>
-    <updated>2026-08-19T18:29:57.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Several Federal Reserve officials favored an interest-rate hike last month and many indicated that policy tightening would be necessary if inflation didn’t decline, a record of the central bank’s most recent policy debate showed. The next Fed decision comes in September. Bloomberg's Michael McKee reports. (Source: Bloo — Also covered by: CNBC Tech</summary>
   </entry>
   <entry>
     <title>OpenRouter is Joining Stripe</title>
@@ -79,15 +79,6 @@
     <summary>Qualcomm's Modular software is now open-source as a big announcement from ModCon 2026 and an unexpected guest made an appearance The post Qualcomm Modular Open-Sourced at ModCon 2026 appeared first on ServeTheHome . — Also covered by: ModularML</summary>
   </entry>
   <entry>
-    <title>qwen-code v0.21.14 released</title>
-    <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.21.14"/>
-    <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.21.14</id>
-    <updated>2026-08-19T03:05:23.000Z</updated>
-    <author><name>QwenLM/qwen-code</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Highlights Adds qwen sessions ps command and live-session registry to list and manage running interactive sessions with JSON output. ( #8969 , #9261 , #9366 ) Improves Web Shell reliability by decoupling input from SSE streams, fixing image format crashes, and preventing duplicate messages. ( #9323 , #9295 , #9407 ) Mi — Also covered by: anthropics/claude-code</summary>
-  </entry>
-  <entry>
     <title>ollama v0.32.15 released</title>
     <link href="https://github.com/ollama/ollama/releases/tag/v0.32.15-rc1"/>
     <id>https://github.com/ollama/ollama/releases/tag/v0.32.15-rc1</id>
@@ -97,13 +88,13 @@
     <summary>What's Changed Add a model metadata cache to reduce Ollama’s per-request overhead New Contributors @gaugarg-nv made their first contribution in #17752 Full Changelog : v0.32.14...v0.32.15-rc1</summary>
   </entry>
   <entry>
-    <title>Meta launches a Mac app for Meta AI and says Meta AI can now work directly with Instagram and Facebook accounts, Meta ad campaigns, and Google Workspace (Emma Roth/The Verge)</title>
-    <link href="https://www.techmeme.com/260819/p36"/>
-    <id>https://www.techmeme.com/260819/p36</id>
-    <updated>2026-08-19T17:25:00.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Google packs Search and Gemini with new AI study tools</title>
+    <link href="https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini"/>
+    <id>https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini</id>
+    <updated>2026-08-19T19:00:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Emma Roth / The Verge : Meta launches a Mac app for Meta AI and says Meta AI can now work directly with Instagram and Facebook accounts, Meta ad campaigns, and Google Workspace — You can share your window with the new Meta AI app, as well as connect it to Google Workspace. … Meta is launching a new Mac app dedicated to</summary>
+    <summary>The launch of the new study features marks Google's latest effort to make Gemini the AI assistant that students turn to when learning and studying, as it continues to compete with companies like OpenAI.</summary>
   </entry>
   <entry>
     <title>Introducing Qwen3.8-27B Dynamic v3 Unsloth GGUFs</title>
@@ -115,22 +106,13 @@
     <summary>Hey everyone! We’re releasing new Qwen3.8-27B GGUFs with 10% higher accuracy for the same size. This uses a new version of Dynamic v3.0 Unsloth Dynamic V3 outperforms others by &gt;10% on Div-300, KLD &amp; more benchmarks. We also release 1-bit quants that retain 77% accuracy. Run on 8GB RAM. Some of you already saw we updat</summary>
   </entry>
   <entry>
-    <title>Introducing LangSmith Tuned Evaluators</title>
-    <link href="https://www.langchain.com/blog/introducing-langsmith-tuned-evaluators-starting-with-perceived-error"/>
-    <id>https://www.langchain.com/blog/introducing-langsmith-tuned-evaluators-starting-with-perceived-error</id>
-    <updated>2026-08-19T12:59:39.000Z</updated>
-    <author><name>LangChain Blog</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>LangSmith Tuned Evaluators attach quality feedback to production traces, starting with Perceived Error, to help teams find and fix agent mistakes.</summary>
-  </entry>
-  <entry>
-    <title>Shein Is Said to Target Up to $27B Valuation in HK IPO</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-19/shein-is-said-to-target-up-to-27b-valuation-in-hk-ipo-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-19/shein-is-said-to-target-up-to-27b-valuation-in-hk-ipo-video</id>
-    <updated>2026-08-19T19:22:56.000Z</updated>
+    <title>Mark Walter Explores Selling Stake in Chelsea FC</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-19/mark-walter-explores-selling-stake-in-chelsea-fc-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-19/mark-walter-explores-selling-stake-in-chelsea-fc-video</id>
+    <updated>2026-08-19T20:30:49.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Bloomberg's Norah Mulinda joins Dani Burger on &quot;Bloomberg Deals.&quot; Fast-fashion retailer Shein is targeting a valuation in the range of $26 billion to $27 billion in its initial public offering in Hong Kong, according to people familiar with the matter, a sharp drop from its peak value. (Source: Bloomberg)</summary>
+    <summary>Bloomberg's Randall Williams joins Dani Burger on &quot;Bloomberg Deals.&quot; Billionaire CEO of Guggenheim, Mark Walter, has explored selling his stake in Chelsea FC to Clearlake Capital, the majority owner of the London-based football club. This comes just after Walter's record-breaking sale of the Los Angeles Lakers to Josh </summary>
   </entry>
   <entry>
     <title>transformers v5.15.1 released</title>
@@ -161,8 +143,8 @@
   </entry>
   <entry>
     <title>Offering Zero Data Retention for frontier models</title>
-    <link href="https://openai.com/index/our-commitment-to-zero-data-retention"/>
-    <id>https://openai.com/index/our-commitment-to-zero-data-retention</id>
+    <link href="https://openai.com/index/offering-zero-data-retention-for-frontier-models"/>
+    <id>https://openai.com/index/offering-zero-data-retention-for-frontier-models</id>
     <updated>2026-08-19T19:00:00.000Z</updated>
     <author><name>OpenAI News</name></author>
     <category term="SAFETY &amp; POLICY"/>
@@ -178,13 +160,22 @@
     <summary>RaonSecure Joins Upstage's 'Dokpamo' Final Round — Strengthening South Korea's LLM Security Sovereignty finance.biggo.com</summary>
   </entry>
   <entry>
-    <title>Electronic health record company CareCloud says 3.7 million people affected by breach</title>
-    <link href="https://therecord.media/electronic-health-record-company-carecloud-data-breach"/>
-    <id>https://therecord.media/electronic-health-record-company-carecloud-data-breach</id>
-    <updated>2026-08-19T18:10:00.000Z</updated>
-    <author><name>The Record</name></author>
+    <title>Healthtech firm CareCloud data breach impacts 3.7 million patients</title>
+    <link href="https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients"/>
+    <id>https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients</id>
+    <updated>2026-08-19T20:07:12.000Z</updated>
+    <author><name>BleepingComputer</name></author>
     <category term="CYBER THREATS"/>
-    <summary>Healthcare software firm CareCloud filed documents with the Department of Health and Human Services confirming that 3,756,469 people had information leaked after a hacker spent eight hours in one of the company’s electronic health record environments.</summary>
+    <summary>U.S. healthcare IT company CareCloud disclosed that the data breach incident it suffered earlier this year has impacted more than 3.7 million individuals. [...]</summary>
+  </entry>
+  <entry>
+    <title>Stripe declares we're living in the singularity and uses it as a reason not to IPO</title>
+    <link href="https://the-decoder.com/stripe-declares-were-living-in-the-singularity-and-uses-it-as-a-reason-not-to-ipo"/>
+    <id>https://the-decoder.com/stripe-declares-were-living-in-the-singularity-and-uses-it-as-a-reason-not-to-ipo</id>
+    <updated>2026-08-19T20:03:20.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>In a letter to investors, Stripe declares January 1 the &quot;beginning of the singularity&quot; and uses that as a reason to stay private. Not that it needs one: revenue grew 41 percent in the first half of the year, and the company confirmed its $8 billion-plus acquisition of OpenRouter. Declaring the singularity is in vogue r</summary>
   </entry>
   <entry>
     <title>What does Unitree Robotics’ IPO mean for the humanoid industry?</title>
@@ -205,24 +196,6 @@
     <summary>Two connected modular cryostat prototypes operating in Poughkeepsie, NY. IBM (NYSE: IBM) has announced the successful linking and cooldown of its first modular cryogenic cells, completing a key hardware milestone toward its planned fault-tolerant quantum computer, IBM Quantum Starling, scheduled for delivery in 2029. O</summary>
   </entry>
   <entry>
-    <title>Replit expands access to software creation with GPT-5.6 Luna</title>
-    <link href="https://openai.com/index/replit"/>
-    <id>https://openai.com/index/replit</id>
-    <updated>2026-08-19T07:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.</summary>
-  </entry>
-  <entry>
-    <title>Google packs Search and Gemini with new AI study tools</title>
-    <link href="https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini"/>
-    <id>https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini</id>
-    <updated>2026-08-19T19:00:00.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>The launch of the new study features marks Google's latest effort to make Gemini the AI assistant that students turn to when learning and studying, as it continues to compete with companies like OpenAI.</summary>
-  </entry>
-  <entry>
     <title>Sources: AI chip startup Fractile is in talks to raise ~$600M at a $6.5B pre-money valuation, up from ~$1B in May, and has an initial ~$250M deal with Anthropic (Bloomberg)</title>
     <link href="https://www.techmeme.com/260819/p41"/>
     <id>https://www.techmeme.com/260819/p41</id>
@@ -241,6 +214,15 @@
     <summary>llama.cpp pr #27342 adds dflash2, so i rented an rtx 6000 and ran the same four prompts through four decoding setups on qwen3.8 27B median results over the four tasks: baseline 47.4 tok/s mtp 114.7 tok/s dflash 99.3 tok/s dflash2 140.6. tok/s so on average 3x for dflash2 though i have to point out that it's far from a </summary>
   </entry>
   <entry>
+    <title>Introducing LangSmith Tuned Evaluators</title>
+    <link href="https://www.langchain.com/blog/introducing-langsmith-tuned-evaluators-starting-with-perceived-error"/>
+    <id>https://www.langchain.com/blog/introducing-langsmith-tuned-evaluators-starting-with-perceived-error</id>
+    <updated>2026-08-19T12:59:39.000Z</updated>
+    <author><name>LangChain Blog</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>LangSmith Tuned Evaluators attach quality feedback to production traces, starting with Perceived Error, to help teams find and fix agent mistakes.</summary>
+  </entry>
+  <entry>
     <title>langchain v1.6.0 released</title>
     <link href="https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.0"/>
     <id>https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.0</id>
@@ -250,24 +232,6 @@
     <summary>Changes since langchain-core==1.5.6 release(core): 1.6.0 ( #39760 ) fix(core): resolve postponed annotations in StructuredTool._injected_args_keys ( #39602 ) feat(core): add standard model exception types ( #39538 ) fix(core): allow deserializing RunnablePick ( #39753 ) fix(core): make convert_to_openai_function handle</summary>
   </entry>
   <entry>
-    <title>Anthropic says any lab can now let a language model agent run the whole protein design stack</title>
-    <link href="https://the-decoder.com/anthropic-says-any-lab-can-now-let-a-language-model-agent-run-the-whole-protein-design-stack"/>
-    <id>https://the-decoder.com/anthropic-says-any-lab-can-now-let-a-language-model-agent-run-the-whole-protein-design-stack</id>
-    <updated>2026-08-19T13:07:56.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Anthropic had its Claude models design small proteins on their own that dock onto target structures in the body, a key step in early drug development. The hit rate reached up to 35 percent, far above the industry average of 10 to 15 percent. Claude only steered existing specialized tools, and an independent review is s</summary>
-  </entry>
-  <entry>
-    <title>Mark Walter Dangled Guggenheim Stake to Secure Loans</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-19/mark-walter-dangled-guggenheim-stake-to-secure-loans-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-19/mark-walter-dangled-guggenheim-stake-to-secure-loans-video</id>
-    <updated>2026-08-19T19:15:06.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Bloomberg's Sridhar Natarajan joins Dani Burger on &quot;Bloomberg Deals.&quot; Mark Walter offered to pledge his stake in his prized financial assets as part of a broader effort to raise billions of dollars in quick order. (Source: Bloomberg)</summary>
-  </entry>
-  <entry>
     <title>Humanoid robots don’t deserve their superhuman valuations</title>
     <link href="https://www.ft.com/content/ba2a65de-7b9a-4938-bde6-91d41722ea08?syn-25a6b1a6=1"/>
     <id>https://www.ft.com/content/ba2a65de-7b9a-4938-bde6-91d41722ea08?syn-25a6b1a6=1</id>
@@ -275,5 +239,41 @@
     <author><name>FT Artificial Intelligence</name></author>
     <category term="AI FINANCE"/>
     <summary>Machines are currently far too pricey for industrial viability, let alone consumers</summary>
+  </entry>
+  <entry>
+    <title>Moderna Surges as Stocks Rise &amp; Long-Term Yields Retreat | Closing Bell</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-19/moderna-surges-long-term-yields-retreat-closing-bell-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-19/moderna-surges-long-term-yields-retreat-closing-bell-video</id>
+    <updated>2026-08-19T20:25:45.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Isabelle Lee, Carol Massar and Emily Graffeo. (Source: Bloomberg)</summary>
+  </entry>
+  <entry>
+    <title>Geometry Is Not Robustness: A Trajectory-Level Study of PGD Evaluation</title>
+    <link href="https://arxiv.org/abs/2608.14594"/>
+    <id>https://arxiv.org/abs/2608.14594</id>
+    <updated>2026-08-19T04:00:00.000Z</updated>
+    <author><name>arXiv cs.LG</name></author>
+    <category term="RESEARCH"/>
+    <summary>arXiv:2608.14594v1 Announce Type: new Abstract: Projected Gradient Descent (PGD) is widely used to evaluate adversarial robustness, typically via final adversarial accuracy, which does not capture model behaviour throughout the attack. Recent work proposes trajectory-level diagnostics, such as loss evolution, gradient </summary>
+  </entry>
+  <entry>
+    <title>Runtime Governance for Agentic AI: Action-Boundary Control with Trusted Provenance and Fail-Closed Execution</title>
+    <link href="https://arxiv.org/abs/2608.16891"/>
+    <id>https://arxiv.org/abs/2608.16891</id>
+    <updated>2026-08-19T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
+    <category term="RESEARCH"/>
+    <summary>arXiv:2608.16891v1 Announce Type: new Abstract: Agentic AI systems request tool actions that can modify files, send messages, launch jobs, or change workflow state. This shifts the safety problem from harmful text generation to harmful operational side effects. Prompt-level governance can shape model behavior, but it d</summary>
+  </entry>
+  <entry>
+    <title>Launching ‘Meta Startup School’ to Accelerate Growth For Early-Stage Startups</title>
+    <link href="https://about.fb.com/news/2026/08/launching-meta-startup-school-to-accelerate-growth-for-early-stage-startups"/>
+    <id>https://about.fb.com/news/2026/08/launching-meta-startup-school-to-accelerate-growth-for-early-stage-startups</id>
+    <updated>2026-08-19T11:00:22.000Z</updated>
+    <author><name>Meta AI Blog</name></author>
+    <category term="PRODUCTS"/>
+    <summary>We are launching Meta Startup School, a three-month programme designed to help early-stage consumer brands accelerate growth. The first cohort will see 200 startups get exclusive access to support and training from venture capital firms and industry experts. The post Launching ‘Meta Startup School’ to Accelerate Growth</summary>
   </entry>
 </feed>
