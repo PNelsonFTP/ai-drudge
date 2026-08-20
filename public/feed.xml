@@ -5,7 +5,16 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-19T23:31:13.059Z</updated>
+  <updated>2026-08-20T01:45:30.737Z</updated>
+  <entry>
+    <title>claude-code v2.1.237 released</title>
+    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.237"/>
+    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.237</id>
+    <updated>2026-08-20T00:54:41.000Z</updated>
+    <author><name>anthropics/claude-code</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>What's changed Fixed prompt caching for sessions using an LLM gateway or custom base URL Added a built-in &quot;Concise&quot; output style: Claude leads with results and skips preamble and narration, while doing the work just as thoroughly. Select it under Output style in /config. — Also covered by: QwenLM/qwen-code</summary>
+  </entry>
   <entry>
     <title>OpenRouter is Joining Stripe</title>
     <link href="https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe"/>
@@ -14,15 +23,6 @@
     <author><name>OpenRouter Blog</name></author>
     <category term="PRODUCTS"/>
     <summary>Today, we are excited to announce that we are joining forces with Stripe, to power the next wave of GDP growth globally. — Also covered by: Latent Space</summary>
-  </entry>
-  <entry>
-    <title>claude-code v2.1.236 released</title>
-    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.236"/>
-    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.236</id>
-    <updated>2026-08-19T20:02:05.000Z</updated>
-    <author><name>anthropics/claude-code</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>What's changed Added ANTHROPIC_DEFAULT_MODEL environment variable: sets the model new sessions start on, while a /model pick still overrides it and persists across restarts (unlike ANTHROPIC_MODEL ) Added notify_when_idle to cross-session SendMessage : ask another Claude Code session on this machine to send one notice  — Also covered by: QwenLM/qwen-code</summary>
   </entry>
   <entry>
     <title>llama.cpp b10502 released</title>
@@ -80,21 +80,21 @@
   </entry>
   <entry>
     <title>ollama v0.32.15 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.32.15-rc2"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.32.15-rc2</id>
-    <updated>2026-08-19T23:24:58.000Z</updated>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.32.15"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.32.15</id>
+    <updated>2026-08-20T00:49:25.000Z</updated>
     <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
     <summary>What's Changed Add a model metadata cache to reduce Ollama’s per-request overhead New Contributors @gaugarg-nv made their first contribution in #17752 Full Changelog : v0.32.14...v0.32.15-rc1</summary>
   </entry>
   <entry>
-    <title>Trump urges Congress to pass the Clarity Act at a White House event with execs including the CEOs of Coinbase and Robinhood; the bill has stalled in the Senate (Bloomberg)</title>
-    <link href="https://www.techmeme.com/260819/p48"/>
-    <id>https://www.techmeme.com/260819/p48</id>
-    <updated>2026-08-19T23:05:01.000Z</updated>
+    <title>Samsung announces a virtual Galaxy event for August 27 at 8am ET, where the Galaxy S26 FE is expected (Alan Friedman/PhoneArena)</title>
+    <link href="https://www.techmeme.com/260819/p50"/>
+    <id>https://www.techmeme.com/260819/p50</id>
+    <updated>2026-08-20T01:15:10.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Bloomberg : Trump urges Congress to pass the Clarity Act at a White House event with execs including the CEOs of Coinbase and Robinhood; the bill has stalled in the Senate — President Donald Trump pressed Congress to pass digital asset market structure legislation that is a top priority for the industry …</summary>
+    <summary>Alan Friedman / PhoneArena : Samsung announces a virtual Galaxy event for August 27 at 8am ET, where the Galaxy S26 FE is expected — Samsung has announced that it will hold an event next week and Gemini might have told us what to expect. — Samsung Galaxy S Series — Add us as a preferred source on Google Search</summary>
   </entry>
   <entry>
     <title>ci: plumb temporary MLX patch through to docker stages (#17874)</title>
@@ -106,13 +106,22 @@
     <summary>Follow up to #17850</summary>
   </entry>
   <entry>
-    <title>AIA Posts Growth in New Business Value on Hong Kong, China</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-19/aia-posts-growth-in-new-business-value-on-hong-kong-china"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-19/aia-posts-growth-in-new-business-value-on-hong-kong-china</id>
-    <updated>2026-08-19T22:11:04.000Z</updated>
+    <title>smolmachines / smolvm as a sandbox for untrusted Python &amp; JavaScript</title>
+    <link href="https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox"/>
+    <id>https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox</id>
+    <updated>2026-08-19T23:16:00.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Research: smolmachines / smolvm as a sandbox for untrusted Python &amp; JavaScript I tasked Claude Fable 5 running in Claude Code for web with the following research task: Put https://smolmachines.com through its paces as a fast secure sandbox. Explore what it would take to use this to run untrusted Python and JavaScript c</summary>
+  </entry>
+  <entry>
+    <title>India Bars JPMorgan Unit Over Alleged Stock Market Manipulation</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-20/india-bars-jpmorgan-unit-over-alleged-stock-market-manipulation"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-20/india-bars-jpmorgan-unit-over-alleged-stock-market-manipulation</id>
+    <updated>2026-08-20T01:29:25.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>AIA Group Ltd. reported 13% growth in new business value in the first half of this year, led by strong sales in key markets including Hong Kong and China.</summary>
+    <summary>India’s market regulator banned a Mauritius-based unit of JPMorgan Chase &amp; Co. from the capital market over allegations of alleged manipulative trading in the South Asian nation’s newly introduced auction-based system for share price discovery.</summary>
   </entry>
   <entry>
     <title>transformers v5.15.1 released</title>
@@ -122,15 +131,6 @@
     <author><name>huggingface/transformers</name></author>
     <category term="RESEARCH"/>
     <summary>Patch release v5.15.1 This patch most notably solves a few issues with DFlash and MTP candidate generators, as well as an issue where images could sometimes not be processed on accelerator if using Lanczos filter. It contains the following commits: Fix DFlash candidate token device mismatch with device_map=&quot;auto&quot; ( #47</summary>
-  </entry>
-  <entry>
-    <title>Meet the startup helping Wall Street put a price on AI compute</title>
-    <link href="https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute"/>
-    <id>https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute</id>
-    <updated>2026-08-19T17:26:48.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="HARDWARE"/>
-    <summary>The AI buildout shows no signs of slowing. And with hundreds of billions of dollars a year going into data centers and GPUs, compute has become the single biggest cost for anyone building AI products. But for all that spending, there still isn’t a straightforward way to put a price on compute — or for firms to hedge th</summary>
   </entry>
   <entry>
     <title>OpenAI hit the brakes. Now what?</title>
@@ -157,34 +157,25 @@
     <updated>2026-08-19T20:37:30.000Z</updated>
     <author><name>GN: Prompt Injection</name></author>
     <category term="AI SECURITY"/>
-    <summary>News - The overlooked risk of prompt injection teiss.co.uk</summary>
+    <summary>News - The overlooked risk of prompt injection teiss</summary>
   </entry>
   <entry>
-    <title>Healthtech firm CareCloud data breach impacts 3.7 million patients</title>
-    <link href="https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients"/>
-    <id>https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients</id>
-    <updated>2026-08-19T20:07:12.000Z</updated>
+    <title>OpenAI confirms ChatGPT is down as logins and signups fail</title>
+    <link href="https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-as-logins-and-signups-fail"/>
+    <id>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-as-logins-and-signups-fail</id>
+    <updated>2026-08-20T00:20:55.000Z</updated>
     <author><name>BleepingComputer</name></author>
     <category term="CYBER THREATS"/>
-    <summary>U.S. healthcare IT company CareCloud disclosed that the data breach incident it suffered earlier this year has impacted more than 3.7 million individuals. [...]</summary>
+    <summary>ChatGPT is experiencing a major outage, and users are unable to sign in, create accounts, or load chats, including previous conversations. [...]</summary>
   </entry>
   <entry>
-    <title>Stripe declares we're living in the singularity and uses it as a reason not to IPO</title>
-    <link href="https://the-decoder.com/stripe-declares-were-living-in-the-singularity-and-uses-it-as-a-reason-not-to-ipo"/>
-    <id>https://the-decoder.com/stripe-declares-were-living-in-the-singularity-and-uses-it-as-a-reason-not-to-ipo</id>
-    <updated>2026-08-19T20:03:20.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>German insurance giant Munich Re agrees to acquire cyber insurance provider At-Bay for $575M; At-Bay has raised $276M and was last valued at $1.35B in 2021 (Meir Orbach/CTech)</title>
+    <link href="https://www.techmeme.com/260819/p49"/>
+    <id>https://www.techmeme.com/260819/p49</id>
+    <updated>2026-08-20T00:40:01.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="FUNDING &amp; DEALS"/>
-    <summary>In a letter to investors, Stripe declares January 1 the &quot;beginning of the singularity&quot; and uses that as a reason to stay private. Not that it needs one: revenue grew 41 percent in the first half of the year, and the company confirmed its $8 billion-plus acquisition of OpenRouter. Declaring the singularity is in vogue r</summary>
-  </entry>
-  <entry>
-    <title>Quoting Jeremy Morrell</title>
-    <link href="https://simonwillison.net/2026/Aug/19/jeremy-morrell"/>
-    <id>https://simonwillison.net/2026/Aug/19/jeremy-morrell</id>
-    <updated>2026-08-19T22:56:31.000Z</updated>
-    <author><name>Simon Willison</name></author>
-    <category term="ANALYSIS"/>
-    <summary>My hypothesis is that there is a new opportunity for Extensible Software on the web . LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good security boundaries. We can build our app as a solid, accountable core, and allow users to safely extend i</summary>
+    <summary>Meir Orbach / CTech : German insurance giant Munich Re agrees to acquire cyber insurance provider At-Bay for $575M; At-Bay has raised $276M and was last valued at $1.35B in 2021 — The German insurance giant is buying the cyber insurtech at less than half its 2021 valuation, as insurers increasingly seek …</summary>
   </entry>
   <entry>
     <title>From Marathons to the Factory Floor: Beijing’s World Humanoid Robot Games Pivot to Real-World Utility</title>
@@ -205,31 +196,31 @@
     <summary>Two connected modular cryostat prototypes operating in Poughkeepsie, NY. IBM (NYSE: IBM) has announced the successful linking and cooldown of its first modular cryogenic cells, completing a key hardware milestone toward its planned fault-tolerant quantum computer, IBM Quantum Starling, scheduled for delivery in 2029. O</summary>
   </entry>
   <entry>
-    <title>Google packs Search and Gemini with new AI study tools</title>
-    <link href="https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini"/>
-    <id>https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini</id>
-    <updated>2026-08-19T19:00:00.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>The launch of the new study features marks Google's latest effort to make Gemini the AI assistant that students turn to when learning and studying, as it continues to compete with companies like OpenAI.</summary>
+    <title>Stripe declares we're living in the singularity and uses it as a reason not to IPO</title>
+    <link href="https://the-decoder.com/stripe-declares-were-living-in-the-singularity-and-uses-it-as-a-reason-not-to-ipo"/>
+    <id>https://the-decoder.com/stripe-declares-were-living-in-the-singularity-and-uses-it-as-a-reason-not-to-ipo</id>
+    <updated>2026-08-19T20:03:20.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>In a letter to investors, Stripe declares January 1 the &quot;beginning of the singularity&quot; and uses that as a reason to stay private. Not that it needs one: revenue grew 41 percent in the first half of the year, and the company confirmed its $8 billion-plus acquisition of OpenRouter. Declaring the singularity is in vogue r</summary>
   </entry>
   <entry>
-    <title>Google announces new study tools, including a student hub, notebooks, and interactive 3D visualizations in Gemini, plus student offers for Google AI plans (Amanda Caswell/Tom's Guide)</title>
-    <link href="https://www.techmeme.com/260819/p45"/>
-    <id>https://www.techmeme.com/260819/p45</id>
-    <updated>2026-08-19T21:00:52.000Z</updated>
+    <title>Trump urges Congress to pass the Clarity Act at a White House event with execs including the CEOs of Coinbase and Robinhood; the bill has stalled in the Senate (Bloomberg)</title>
+    <link href="https://www.techmeme.com/260819/p48"/>
+    <id>https://www.techmeme.com/260819/p48</id>
+    <updated>2026-08-19T23:05:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Amanda Caswell / Tom's Guide : Google announces new study tools, including a student hub, notebooks, and interactive 3D visualizations in Gemini, plus student offers for Google AI plans — Head back to school equipped with AI tools for studying, researching and more — Once again, Google is giving eligible college studen</summary>
+    <summary>Bloomberg : Trump urges Congress to pass the Clarity Act at a White House event with execs including the CEOs of Coinbase and Robinhood; the bill has stalled in the Senate — President Donald Trump pressed Congress to pass digital asset market structure legislation that is a top priority for the industry …</summary>
   </entry>
   <entry>
-    <title>I re-ran Qwen3.8 27b browsing benchmarks after messing up my config. It's now on par with GPT 5.6 Luna (xhigh)</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vsxcxx/i_reran_qwen38_27b_browsing_benchmarks_after"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vsxcxx/i_reran_qwen38_27b_browsing_benchmarks_after</id>
-    <updated>2026-08-19T20:00:18.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>Introducing Qwen3.8-27B Dynamic v3 Unsloth GGUFs</title>
+    <link href="https://sh.itjust.works/post/65356269"/>
+    <id>https://sh.itjust.works/post/65356269</id>
+    <updated>2026-08-19T19:08:29.000Z</updated>
+    <author><name>Lemmy c/localllama</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>I previously reported a result of 74% on BU bench v1, with the open-source BrowserAgent harness , but I forgot to set the temperature to the default specified in the model card... Now the model performs neck to neck with GPT 5.6 Luna (xhigh) and beats all other affordable models that I tested. Qwen3.8 27B is insanely g</summary>
+    <summary>submitted by BeefAndPoultry to localllama 33 points | 4 comments https://huggingface.co/unsloth/Qwen3.8-27B-GGUF Seems like smarter and more efficient quants than normal</summary>
   </entry>
   <entry>
     <title>langchain v1.6.0 released</title>
@@ -250,22 +241,22 @@
     <summary>LangSmith Tuned Evaluators attach quality feedback to production traces, starting with Perceived Error, to help teams find and fix agent mistakes.</summary>
   </entry>
   <entry>
-    <title>Latest Oil Market News and Analysis for Aug. 19</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-19/latest-oil-market-news-and-analysis-for-aug-19"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-19/latest-oil-market-news-and-analysis-for-aug-19</id>
-    <updated>2026-08-19T22:03:53.000Z</updated>
+    <title>PBOC Moves to Slow Yuan Gains With Weaker-Than-Expected Fixing</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-20/pboc-moves-to-slow-yuan-gains-with-weaker-than-expected-fixing"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-20/pboc-moves-to-slow-yuan-gains-with-weaker-than-expected-fixing</id>
+    <updated>2026-08-20T01:26:40.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Oil held a four-day run of gains, as US President Donald Trump announced a fresh package of measures intended to crush Iran’s economy.</summary>
+    <summary>China’s central bank used the daily reference rate to signal a desire for slower currency gains, after the yuan climbed to its strongest against the dollar in over three years.</summary>
   </entry>
   <entry>
-    <title>Japan’s 20-Year Bond Auction Faces Test as Global Yields Surge</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-19/japan-s-20-year-bond-auction-faces-test-as-global-yields-surge"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-19/japan-s-20-year-bond-auction-faces-test-as-global-yields-surge</id>
-    <updated>2026-08-19T23:01:10.000Z</updated>
+    <title>Democratic Lawmakers Urge Fed’s Warsh to Disclose Trump Calls</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-20/democratic-lawmakers-urge-fed-s-warsh-to-disclose-trump-calls"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-20/democratic-lawmakers-urge-fed-s-warsh-to-disclose-trump-calls</id>
+    <updated>2026-08-20T01:12:10.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Japan’s sale of 20-year government bonds on Thursday will test whether elevated yields are enough to lure buyers back to the long end as a global debt selloff piles pressure on the market.</summary>
+    <summary>A group of Democratic lawmakers are urging Federal Reserve Chairman Kevin Warsh to disclose any conversations he has had with President Donald Trump since taking over the central bank in May.</summary>
   </entry>
   <entry>
     <title>Geometry Is Not Robustness: A Trajectory-Level Study of PGD Evaluation</title>
@@ -275,5 +266,14 @@
     <author><name>arXiv cs.LG</name></author>
     <category term="RESEARCH"/>
     <summary>arXiv:2608.14594v1 Announce Type: new Abstract: Projected Gradient Descent (PGD) is widely used to evaluate adversarial robustness, typically via final adversarial accuracy, which does not capture model behaviour throughout the attack. Recent work proposes trajectory-level diagnostics, such as loss evolution, gradient </summary>
+  </entry>
+  <entry>
+    <title>Runtime Governance for Agentic AI: Action-Boundary Control with Trusted Provenance and Fail-Closed Execution</title>
+    <link href="https://arxiv.org/abs/2608.16891"/>
+    <id>https://arxiv.org/abs/2608.16891</id>
+    <updated>2026-08-19T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
+    <category term="RESEARCH"/>
+    <summary>arXiv:2608.16891v1 Announce Type: new Abstract: Agentic AI systems request tool actions that can modify files, send messages, launch jobs, or change workflow state. This shifts the safety problem from harmful text generation to harmful operational side effects. Prompt-level governance can shape model behavior, but it d</summary>
   </entry>
 </feed>
