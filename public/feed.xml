@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-20T08:50:35.617Z</updated>
+  <updated>2026-08-20T09:43:47.994Z</updated>
   <entry>
     <title>llama.cpp b10524 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10524"/>
@@ -70,13 +70,22 @@
     <summary>What's Changed Add a model metadata cache to reduce Ollama’s per-request overhead New Contributors @gaugarg-nv made their first contribution in #17752 Full Changelog : v0.32.14...v0.32.15-rc1</summary>
   </entry>
   <entry>
-    <title>London-based Callosum, whose software matches AI tasks with different models and chips, raised a $100M seed from Atomico, UK Sovereign AI Fund, and others (Bloomberg)</title>
-    <link href="https://www.techmeme.com/260820/p7"/>
-    <id>https://www.techmeme.com/260820/p7</id>
-    <updated>2026-08-20T06:50:01.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Binance now lets AI agents trade, but keeping them in check is largely up to users</title>
+    <link href="https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users"/>
+    <id>https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users</id>
+    <updated>2026-08-20T09:30:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Bloomberg : London-based Callosum, whose software matches AI tasks with different models and chips, raised a $100M seed from Atomico, UK Sovereign AI Fund, and others — Callosum, a startup that makes software to match specific artificial intelligence tasks with different models and chips …</summary>
+    <summary>Binance's Agent OS works with tools including ChatGPT, Claude Code, and Cursor.</summary>
+  </entry>
+  <entry>
+    <title>3 days benchmarking most llama.cpp flags on my weird 40gb vram laptop + tb4 egpu setup. Got +70% generation, +40% prefill, 60k more context, and filed a bug in llama around MTP. What I learned.</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vtc0z7/3_days_benchmarking_most_llamacpp_flags_on_my"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vtc0z7/3_days_benchmarking_most_llamacpp_flags_on_my</id>
+    <updated>2026-08-20T06:56:49.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>tldr: went from 16~ t/s to 27~ t/s generation. got my usable context up from 220k to the full 262k without sacrificing anything. prefill also increased from 376 to 573 command I ended up with, fwiw: llama-server -m Qwen3.8-27B-UD-Q6_K_XL.gguf -c 262144 -ngl 999 -fa on \ -ctk q8_0 -ctv q8_0 --spec-type draft-mtp,ngram-m</summary>
   </entry>
   <entry>
     <title>Position: Behavioral Systems Require Behavioral Tests</title>
@@ -88,13 +97,13 @@
     <summary>arXiv:2608.18081v1 Announce Type: new Abstract: Artificial agentic systems increasingly operate as behavioral systems by interacting with dynamic environments, pursuing goals, and adapting over time. Yet, current evaluation methods largely focus on performance outcomes, not the underlying behavioral processes that prod</summary>
   </entry>
   <entry>
-    <title>Odd Lots: What Happens if AI Solves Every Problem (Podcast)</title>
-    <link href="https://www.bloomberg.com/news/audio/2026-08-20/odd-lots-what-happens-if-ai-solves-every-problem-podcast"/>
-    <id>https://www.bloomberg.com/news/audio/2026-08-20/odd-lots-what-happens-if-ai-solves-every-problem-podcast</id>
-    <updated>2026-08-20T08:00:00.000Z</updated>
+    <title>Jakarta Futures Exchange Eyes Role in Planned Commodities Bourse</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-20/jakarta-futures-exchange-eyes-role-in-planned-commodities-bourse"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-20/jakarta-futures-exchange-eyes-role-in-planned-commodities-bourse</id>
+    <updated>2026-08-20T08:47:21.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The philosopher Nick Bostrom was one of the first thinkers who mapped out the existential risk of AI. In his 2014 book, Superintelligence: Paths, Dangers, Strategies, he delved into various scenarios — like the now-famous “paperclip maximizer” — to show the dangers that unfettered and highly intelligent AI posed to hum</summary>
+    <summary>Indonesia’s ambition to launch a new commodities exchange by Jan. 1 is achievable if it uses existing platforms rather than starting from scratch, according to the deputy chief of the Jakarta Futures Exchange.</summary>
   </entry>
   <entry>
     <title>Benchmarking Classical and Transformer-Based Models for Document Sensitivity Classification</title>
@@ -178,13 +187,22 @@
     <summary>A new report from Counterpoint Research reveals global humanoid shipments surged nearly 300% in the first half of 2026, with AGIBOT capturing top market share while the industry grapples with how to define humanoid form factors.</summary>
   </entry>
   <entry>
-    <title>Caltech Team Uses Quantum Simulator to Probe Universal Rules of Quantum Matter</title>
-    <link href="https://thequantuminsider.com/2026/08/20/caltech-team-uses-quantum-simulator-to-probe-universal-rules-of-quantum-matter"/>
-    <id>https://thequantuminsider.com/2026/08/20/caltech-team-uses-quantum-simulator-to-probe-universal-rules-of-quantum-matter</id>
-    <updated>2026-08-20T07:36:22.000Z</updated>
+    <title>GMV Builds Broad Quantum Portfolio Across Computing, Space, Communications and Cybersecurity</title>
+    <link href="https://thequantuminsider.com/2026/08/20/gmv-builds-broad-quantum-portfolio-across-computing-space-communications-and-cybersecurity"/>
+    <id>https://thequantuminsider.com/2026/08/20/gmv-builds-broad-quantum-portfolio-across-computing-space-communications-and-cybersecurity</id>
+    <updated>2026-08-20T08:03:31.000Z</updated>
     <author><name>The Quantum Insider</name></author>
     <category term="QUANTUM"/>
-    <summary>Insider Brief PRESS RELEASE — When different materials transition from one phase to another, such a water coming to a boil or a magnet losing its ability to attract metals, something remarkable can happen: They begin to behave identically, following the same mathematical rules. “Physicists call this trait universality—</summary>
+    <summary>Insider Brief European technology group GMV is expanding its quantum technology efforts across computing, communications, space, sensing and cybersecurity. It’s a portfolio approach that positions the company as an integrator of emerging quantum systems rather than a developer focused on a single type of quantum hardwa</summary>
+  </entry>
+  <entry>
+    <title>China now has its own AI circular financing scheme</title>
+    <link href="https://the-decoder.com/china-now-has-its-own-ai-circular-financing-scheme"/>
+    <id>https://the-decoder.com/china-now-has-its-own-ai-circular-financing-scheme</id>
+    <updated>2026-08-20T09:23:37.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Unitree Robotics rose 460 percent in its Shanghai IPO, hitting a valuation of around $50 billion. But an FT report shows much of the demand for its robots comes from state-backed training centers that buy the machines and sell the resulting data back to the manufacturers, a circular business model that echoes the Nvidi</summary>
   </entry>
   <entry>
     <title>OpenAI builds safety system that catches misuse without storing customer data</title>
@@ -196,49 +214,31 @@
     <summary>OpenAI plans to offer its most advanced AI models to corporate customers without storing their data, while still detecting misuse. The article OpenAI builds safety system that catches misuse without storing customer data appeared first on The Decoder .</summary>
   </entry>
   <entry>
-    <title>Offering Zero Data Retention for frontier models</title>
-    <link href="https://openai.com/index/offering-zero-data-retention-for-frontier-models"/>
-    <id>https://openai.com/index/offering-zero-data-retention-for-frontier-models</id>
-    <updated>2026-08-19T19:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.</summary>
-  </entry>
-  <entry>
-    <title>Virginia's Loudoun County hosts more than 250 data centers generating huge tax revenues, as it moves to slow construction in response to pushback from residents (Cecilia Kang/New York Times)</title>
-    <link href="https://www.techmeme.com/260820/p6"/>
-    <id>https://www.techmeme.com/260820/p6</id>
-    <updated>2026-08-20T06:35:02.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>California’s AI Dominance Fuels $366 Billion Venture Capital Bonanza</title>
+    <link href="https://www.wsj.com/tech/ai/californias-ai-dominance-fuels-366-billion-venture-capital-bonanza-820e9bde?mod=rss_Technology"/>
+    <id>https://www.wsj.com/tech/ai/californias-ai-dominance-fuels-366-billion-venture-capital-bonanza-820e9bde?mod=rss_Technology</id>
+    <updated>2026-08-20T09:30:00.000Z</updated>
+    <author><name>WSJ Tech</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Cecilia Kang / New York Times : Virginia's Loudoun County hosts more than 250 data centers generating huge tax revenues, as it moves to slow construction in response to pushback from residents — Loudoun County, Va., hosts more than 250 data centers that bring in huge tax revenues. But some officials and residents worry</summary>
+    <summary>California-based companies have announced a record haul in startup funding, despite billionaire-tax fears.</summary>
   </entry>
   <entry>
-    <title>A look at Backstory, an experimental AI image authentication tool from Google DeepMind, offered for testing to journalists, researchers, and other fact checkers (Andrew Deck/Nieman Lab)</title>
-    <link href="https://www.techmeme.com/260820/p5"/>
-    <id>https://www.techmeme.com/260820/p5</id>
-    <updated>2026-08-20T06:20:01.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Patients in Yorkshire complain AI GP receptionist cannot understand accent</title>
+    <link href="https://www.theguardian.com/society/2026/aug/20/yorkshire-rotherham-ai-gp-receptionist-cannot-understand-accent"/>
+    <id>https://www.theguardian.com/society/2026/aug/20/yorkshire-rotherham-ai-gp-receptionist-cannot-understand-accent</id>
+    <updated>2026-08-20T09:25:57.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Andrew Deck / Nieman Lab : A look at Backstory, an experimental AI image authentication tool from Google DeepMind, offered for testing to journalists, researchers, and other fact checkers — Every day the fact-checking team for one of India's largest news organizations works to debunk a slew of false and misleading imag</summary>
+    <summary>Healthwatch Rotherham says Emma AI system’s failure to grasp local ‘twangs’ is leaving people frustrated Patients in a South Yorkshire town are frustrated by AI GP receptionists not understanding their “broad accents”, a health watchdog has said. Healthwatch Rotherham , a local health and social care watchdog, said a n</summary>
   </entry>
   <entry>
-    <title>ci: plumb temporary MLX patch through to docker stages (#17874)</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.32.15-rc1"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.32.15-rc1</id>
-    <updated>2026-08-19T15:33:53.000Z</updated>
-    <author><name>ollama/ollama</name></author>
+    <title>The &quot;local frontier&quot; is now smarter than Sonnet 4.5</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vtecbq/the_local_frontier_is_now_smarter_than_sonnet_45"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vtecbq/the_local_frontier_is_now_smarter_than_sonnet_45</id>
+    <updated>2026-08-20T09:14:23.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Follow up to #17850</summary>
-  </entry>
-  <entry>
-    <title>We have here people saying 3.8 27b replaced claude, look at the other side of the spectrum here 😂</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vtckf8/we_have_here_people_saying_38_27b_replaced_claude"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vtckf8/we_have_here_people_saying_38_27b_replaced_claude</id>
-    <updated>2026-08-20T07:27:24.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>&quot;10k required to run it&quot; ( this is interesting, people dont understand R9700 exists ) &quot;Local llms are slow&quot; &quot;its good only for solving bugs not planning&quot; To be fair i am on the &quot;qwen 3.8 27b replaced claude&quot; side but makes me think the 2 sides of it objectivelly the qwen is at opus 4.6 level is more true than the other</summary>
+    <summary>IMO the most interesting graph in AI right now. Orange = frontier. Blue = what you can run on a 32GB RAM laptop. That means a few things: The models that can run on your laptop are only ~9 months behind the frontier models. The cost of automating most tasks is going to zero faster than I could have imagined. Anything t</summary>
   </entry>
   <entry>
     <title>Position: Collusion Risks Among AI Reasoning Agents Justify Certification Requirements for Making Market Decisions</title>
@@ -250,22 +250,22 @@
     <summary>arXiv:2608.18078v1 Announce Type: new Abstract: This position paper argues that AI agents with chain-of-thought reasoning capabilities are predisposed to exhibit collusive behavior and should be required to obtain behavioral certification before making decisions that affect economic markets. This is because integrating</summary>
   </entry>
   <entry>
-    <title>Large Language Models in Mental Health: A Systematic Review of Applications, Innovations, and Ethical Challenges</title>
-    <link href="https://arxiv.org/abs/2608.18080"/>
-    <id>https://arxiv.org/abs/2608.18080</id>
-    <updated>2026-08-20T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>arXiv:2608.18080v1 Announce Type: new Abstract: We present a review on the applications of large language models (LLMs) in health, e.g., social media analysis, clinical conversational agents, therapy support tools, prompt engineering, multimodal learning, and ethical considerations. We integrate findings from interdisc</summary>
-  </entry>
-  <entry>
-    <title>NSE Said to Plan Allowing Trading Its Shares on Own Platform</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-20/nse-said-to-plan-allowing-trading-its-shares-on-own-platform"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-20/nse-said-to-plan-allowing-trading-its-shares-on-own-platform</id>
-    <updated>2026-08-20T07:24:34.000Z</updated>
+    <title>Bessent’s Plan at Best ‘Circuit Breaker’ for Global Bond Slump</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-20/bessent-s-plan-at-best-circuit-breaker-for-global-bond-slump"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-20/bessent-s-plan-at-best-circuit-breaker-for-global-bond-slump</id>
+    <updated>2026-08-20T09:23:46.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>National Stock Exchange of India Ltd. may allow its shares to trade on its own platform after listing them on rival BSE Ltd., people familiar with the matter said, a move that could eventually shift trading volumes and pave the way for the stock’s inclusion in NSE’s benchmark indexes.</summary>
+    <summary>The global bond rally triggered by Treasury Secretary Scott Bessent’s plan to increase buybacks of longer-dated debt may prove short lived, with analysts citing persistent worries about fiscal woes and sticky inflation globally.</summary>
+  </entry>
+  <entry>
+    <title>Thales Selling Bonds to Help Fund Deal for Sea-Drone Maker Exail</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-20/thales-selling-bonds-to-help-fund-deal-for-sea-drone-maker-exail"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-20/thales-selling-bonds-to-help-fund-deal-for-sea-drone-maker-exail</id>
+    <updated>2026-08-20T09:16:19.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>French defense company Thales SA is set to sell a dual-tranche bond offering on Thursday to help fund its acquisition of maritime robotics firm Exail Technologies SA.</summary>
   </entry>
   <entry>
     <title>Entity tracking emerges in sub-billion parameter language models and exceeds human performance in naturalistic narratives</title>
