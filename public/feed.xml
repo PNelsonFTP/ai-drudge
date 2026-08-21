@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-21T01:50:53.504Z</updated>
+  <updated>2026-08-21T03:11:39.761Z</updated>
   <entry>
-    <title>llama.cpp b10534 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10534"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10534</id>
-    <updated>2026-08-21T01:43:16.000Z</updated>
+    <title>llama.cpp b10539 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10539"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10539</id>
+    <updated>2026-08-21T03:05:34.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>CUDA: adding switch points per HW and quant type to tune the mvq-&gt;MMQ decode crossover ( #26079 ) CUDA: runtime GGML_CUDA_MMVQ_MAX to tune the mvq-&gt;MMQ decode crossover Add a runtime override of the mul_mat_vec_q -&gt; MMQ batch crossover (default MMVQ_MAX_BATCH_SIZE). Lowering it routes batches above the threshold from t — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
+    <summary>vulkan: FA MMQ should use fp32 for Q quantization calculations ( #27413 ) Codex found that qd could be a denorm and 1/qd would overflow. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42034841 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enable — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
   </entry>
   <entry>
     <title>Dirac Labs Raises $1.8M Pre-Seed Round to Scale Diamond-Based Quantum Navigation Sensors</title>
@@ -25,13 +25,13 @@
     <summary>University of Wisconsin-Madison spinout Dirac Labs Inc. has raised $1.8 million USD in pre-seed funding to prototype and field-test its diamond-based quantum positioning sensors. Led by venture firm TitletownTech (a joint initiative of Microsoft and the Green Bay Packers), the round included participation from Automoti — Also covered by: The Quantum Insider</summary>
   </entry>
   <entry>
-    <title>Mojo🔥 is now open source</title>
-    <link href="https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source"/>
-    <id>https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source</id>
-    <updated>2026-08-18T21:39:20.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>Modular: Mojo🔥 is now open source!</title>
+    <link href="https://www.modular.com/blog/mojo-open-source"/>
+    <id>https://www.modular.com/blog/mojo-open-source</id>
+    <updated>2026-08-18T14:30:00.000Z</updated>
+    <author><name>ModularML</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Mojo🔥 is now open source The Mojo programming language has been promising an open source release since May 2023 . Last week they shipped their 1.0 and today they have followed through on that original promise, releasing the compiler and toolchain under an Apache 2 license. When Mojo first launched the stated goal was  — Also covered by: ModularML</summary>
+    <summary>Mojo🔥 is now open source! — Also covered by: Simon Willison</summary>
   </entry>
   <entry>
     <title>Qualcomm Modular Open-Sourced at ModCon 2026</title>
@@ -70,13 +70,13 @@
     <summary>Every CEO Dan Shipper on doubling headcount while automating everything, building an agent out of 30,000 copyedits, and the “dirty secret” of writing with AI</summary>
   </entry>
   <entry>
-    <title>Evergrande Creditors Owed $45 Billion Now Face More Complex Path</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-21/evergrande-creditors-owed-45-billion-now-face-more-complex-path"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-21/evergrande-creditors-owed-45-billion-now-face-more-complex-path</id>
-    <updated>2026-08-21T01:25:12.000Z</updated>
+    <title>What Are Kangaroo Bonds? Why Alphabet Is Borrowing Billions in Australia</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-21/what-are-kangaroo-bonds-why-alphabet-is-borrowing-billions-in-australia"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-21/what-are-kangaroo-bonds-why-alphabet-is-borrowing-billions-in-australia</id>
+    <updated>2026-08-21T03:03:17.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>China Evergrande Group’s creditors have known for years they’ll only get pennies on the dollar back in one of the country’s biggest ever liquidations. Now, getting even just that has become more complex.</summary>
+    <summary>Australia’s bond market is drawing increased interest from overseas borrowers. That includes Google’s parent Alphabet Inc., which issued debt in the country for the first time in August to help fund its AI spending. The technology giant raised A$5.5 billion ($3.9 billion) by selling so-called Kangaroo bonds.</summary>
   </entry>
   <entry>
     <title>The August 17 outage, and the work ahead</title>
@@ -241,31 +241,31 @@
     <summary>Preview Builds let teams test pull request branches in temporary, production-like LangSmith deployments before merging agent changes.</summary>
   </entry>
   <entry>
-    <title>India’s Mazumdar-Shaw Is On A Mission to Save Lives</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-21/mazumdar-shaw-s-mission-to-expand-access-to-medicines-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-21/mazumdar-shaw-s-mission-to-expand-access-to-medicines-video</id>
-    <updated>2026-08-21T00:06:00.000Z</updated>
+    <title>CME CEO Spars With CFTC Chair About Prediction Market Oversight</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-21/cme-ceo-spars-with-cftc-chair-about-prediction-market-oversight"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-21/cme-ceo-spars-with-cftc-chair-about-prediction-market-oversight</id>
+    <updated>2026-08-21T02:15:27.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Known as India’s ‘Queen of Biotech’, Kiran Mazumdar-Shaw built Biocon from a rented garage almost 50 years ago. Today, her multibillion-dollar company is one of the world’s biggest producers of insulin, and a leading force in biosimilars. As she looks at handing over her life’s work to successors, Mazumdar-Shaw talks t</summary>
+    <summary>The head of CME Group Inc. told the chairman of the Commodity Futures Trading Commission that the agency needed to do more to prevent manipulation on prediction markets as the trading startups grow into multibillion-dollar businesses.</summary>
   </entry>
   <entry>
-    <title>India’s ‘Biotech Queen’ Doubles Down on Drug Access</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-21/mazumdar-shaw-s-mission-to-expand-access-to-vital-drugs-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-21/mazumdar-shaw-s-mission-to-expand-access-to-vital-drugs-video</id>
-    <updated>2026-08-21T00:01:37.000Z</updated>
+    <title>Swift Indian Ban on JPMorgan Unit Seen as Warning to Traders</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-21/india-s-quick-rebuke-of-jpmorgan-unit-seen-as-warning-to-traders"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-21/india-s-quick-rebuke-of-jpmorgan-unit-seen-as-warning-to-traders</id>
+    <updated>2026-08-21T01:51:07.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Known as India’s ‘Queen of Biotech’, Kiran Mazumdar-Shaw built Biocon from a rented garage almost 50 years ago. Today, her multibillion-dollar company is one of the world’s biggest producers of insulin, and a leading force in biosimilars. As she looks at handing over her life’s work to successors, Mazumdar-Shaw talks t</summary>
+    <summary>India’s securities regulator issued an interim order against a JPMorgan Chase &amp; Co. unit in record time, a move market watchers say could deter attempts to manipulate the country’s new closing stock auction.</summary>
   </entry>
   <entry>
-    <title>Paving the way for greener ammonia production</title>
-    <link href="https://news.mit.edu/2026/paving-way-for-greener-ammonia-production-0820"/>
-    <id>https://news.mit.edu/2026/paving-way-for-greener-ammonia-production-0820</id>
-    <updated>2026-08-20T18:45:00.000Z</updated>
-    <author><name>MIT News AI</name></author>
+    <title>DSW EAS SWE + TB smoke 2026-08-21 r1</title>
+    <link href="https://github.com/QwenLM/qwen-code/releases/tag/dsw-eas-tb-smoke-20260821-r1"/>
+    <id>https://github.com/QwenLM/qwen-code/releases/tag/dsw-eas-tb-smoke-20260821-r1</id>
+    <updated>2026-08-21T02:38:07.000Z</updated>
+    <author><name>QwenLM/qwen-code</name></author>
     <category term="RESEARCH"/>
-    <summary>New MIT research could lead to better materials for a fossil-fuel-free process for making the chemical that's essential to fertilizer and other products.</summary>
+    <summary>Benchmark-Qwen-Ref: v0.21.15 End-to-end 1 SWE + 1 Terminal-Bench smoke for release-trigger, DSW Harbor execution, and GitHub Release result writeback validation. — Also covered by: QwenLM/qwen-code, QwenLM/qwen-code</summary>
   </entry>
   <entry>
     <title>Introducing cross-Region inference for OpenAI GPT-5.6 models on Amazon Bedrock</title>
