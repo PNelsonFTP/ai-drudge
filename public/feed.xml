@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-21T04:49:04.864Z</updated>
+  <updated>2026-08-21T05:40:40.491Z</updated>
   <entry>
-    <title>llama.cpp b10545 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10545"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10545</id>
-    <updated>2026-08-21T03:50:44.000Z</updated>
+    <title>llama.cpp b10548 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10548"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10548</id>
+    <updated>2026-08-21T04:36:59.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>metal : clamp K extent in tensor API mat-mat kernel for K not a multiple of 32 ( #27450 ) The Tensor API mat-mat path of kernel_mul_mm (GGML_METAL_HAS_TENSOR) fed a static K=32 tile to the matmul2d op on every iteration. On the last, partial K tile (ne00 % 32 != 0) the src1 slice extends past the K extent of the tensor — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
+    <summary>docs: fix typos in ET.md ( #27457 ) — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
   </entry>
   <entry>
     <title>Dirac Labs Raises $1.8M Pre-Seed Round to Scale Diamond-Based Quantum Navigation Sensors</title>
@@ -70,13 +70,13 @@
     <summary>arXiv:2608.18081v1 Announce Type: new Abstract: Artificial agentic systems increasingly operate as behavioral systems by interacting with dynamic environments, pursuing goals, and adapting over time. Yet, current evaluation methods largely focus on performance outcomes, not the underlying behavioral processes that prod</summary>
   </entry>
   <entry>
-    <title>What Are Kangaroo Bonds? Why Alphabet Is Borrowing Billions in Australia</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-21/what-are-kangaroo-bonds-why-alphabet-is-borrowing-billions-in-australia"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-21/what-are-kangaroo-bonds-why-alphabet-is-borrowing-billions-in-australia</id>
-    <updated>2026-08-21T03:03:17.000Z</updated>
+    <title>Alibaba-Backed Robot Firm Seeks $3 Billion Value in New Funding</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-21/alibaba-backed-robot-firm-seeks-3-billion-value-in-new-funding"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-21/alibaba-backed-robot-firm-seeks-3-billion-value-in-new-funding</id>
+    <updated>2026-08-21T05:31:41.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Australia’s bond market is drawing increased interest from overseas borrowers. That includes Google’s parent Alphabet Inc., which issued debt in the country for the first time in August to help fund its AI spending. The technology giant raised A$5.5 billion ($3.9 billion) by selling so-called Kangaroo bonds.</summary>
+    <summary>Chinese robotics startup Dexmal is seeking a valuation of around 20 billion yuan ($3 billion) in an ongoing funding round, demonstrating strong investor interest in the country’s firms chasing a breakthrough in physical artificial intelligence.</summary>
   </entry>
   <entry>
     <title>A Virtual Member of a Community of Practice for the Society of Petroleum Engineers: From Prototype to Deployment</title>
@@ -151,15 +151,6 @@
     <summary>Research: A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView Today saw the long awaited release of Bun 1.4 , the first stable version since the infamous Rust rewrite a few months ago . Interestingly, the Rust rewrite was downplayed in the release notes, which introduced a bewildering array of new features and c</summary>
   </entry>
   <entry>
-    <title>Generalist AI Unveils GEN-1.5: One-Shot Robot Learning and the End of Heavy Fine-Tuning</title>
-    <link href="https://www.humanoidsdaily.com/news/generalist-ai-unveils-gen-1-5-one-shot-robot-learning-and-the-end-of-heavy-fine-tuning"/>
-    <id>https://www.humanoidsdaily.com/news/generalist-ai-unveils-gen-1-5-one-shot-robot-learning-and-the-end-of-heavy-fine-tuning</id>
-    <updated>2026-08-20T20:24:12.000Z</updated>
-    <author><name>Humanoids Daily</name></author>
-    <category term="ROBOTICS"/>
-    <summary>Generalist AI claims a GPT-3 moment for robotics, demonstrating a foundation model that learns new physical tasks in seconds from a single prompt.</summary>
-  </entry>
-  <entry>
     <title>Introducing AI Futures</title>
     <link href="https://openai.com/index/introducing-ai-futures"/>
     <id>https://openai.com/index/introducing-ai-futures</id>
@@ -196,22 +187,22 @@
     <summary>Kirsten Korosec / TechCrunch : Nevada approves permits letting Tesla deploy up to 5,000 robotaxis in the Las Vegas area over the next year, while Waymo and Uber are each allowed up to 1,000 — Nevada, get ready for the robotaxis. — The Nevada Transportation Authority unanimously approved three permits Thursday that will</summary>
   </entry>
   <entry>
-    <title>SenseNova U1.5-Lite full release: expert training, OPD distillation, one model at inference</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vu5dzi/sensenova_u15lite_full_release_expert_training"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vu5dzi/sensenova_u15lite_full_release_expert_training</id>
-    <updated>2026-08-21T03:52:03.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>Behold the unbridled power of Qwen 3.8 27B</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1vu5x42/behold_the_unbridled_power_of_qwen_38_27b"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1vu5x42/behold_the_unbridled_power_of_qwen_38_27b</id>
+    <updated>2026-08-21T04:17:18.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Benchmarks: Benchmark U1 Preview Full Qwen-Image-Bench 47.14 55.20 (PE) 60.18 (PE) ImgEdit 3.9 4.37 4.59 GEdit-Bench-EN 7.47 8.14 8.26 Instead of just scaling up, they train task-specialized expert models for text rendering and infographics, aesthetic quality, and image editing. Then OPD consolidates those experts back</summary>
+    <summary>submitted by /u/dogwithakeyboard1 [link] [comments]</summary>
   </entry>
   <entry>
-    <title>This benchmark is getting out of hand</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vtzyl9/this_benchmark_is_getting_out_of_hand"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vtzyl9/this_benchmark_is_getting_out_of_hand</id>
-    <updated>2026-08-20T23:42:34.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>Oprah; you get a harness, you get a harness, and YOU get a harness</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1vu6juj/oprah_you_get_a_harness_you_get_a_harness_and_you"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1vu6juj/oprah_you_get_a_harness_you_get_a_harness_and_you</id>
+    <updated>2026-08-21T04:50:27.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by /u/Nefilim314 [link] [comments]</summary>
+    <summary>submitted by /u/ConstructionNext3430 [link] [comments]</summary>
   </entry>
   <entry>
     <title>Position: Collusion Risks Among AI Reasoning Agents Justify Certification Requirements for Making Market Decisions</title>
@@ -232,22 +223,22 @@
     <summary>arXiv:2608.18080v1 Announce Type: new Abstract: We present a review on the applications of large language models (LLMs) in health, e.g., social media analysis, clinical conversational agents, therapy support tools, prompt engineering, multimodal learning, and ethical considerations. We integrate findings from interdisc</summary>
   </entry>
   <entry>
-    <title>India Economic Growth May Beat RBI’s 6.7% Forecast, Gupta Says</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-21/india-economic-growth-may-beat-rbi-s-6-7-forecast-gupta-says"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-21/india-economic-growth-may-beat-rbi-s-6-7-forecast-gupta-says</id>
-    <updated>2026-08-21T04:37:01.000Z</updated>
+    <title>Monte Paschi Offers to Buy BPM, Banca Generali for €34 Billion</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-21/monte-paschi-offers-to-buy-bpm-banca-generali-for-34-billion"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-21/monte-paschi-offers-to-buy-bpm-banca-generali-for-34-billion</id>
+    <updated>2026-08-21T05:29:21.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>India may grow closer to 7% in the financial year through March, stronger than the central bank’s 6.7% forecast, Deputy Governor Poonam Gupta said on Thursday, a pace that would keep it among the world’s fastest-growing major economies.</summary>
+    <summary>Banca Monte dei Paschi di Siena SpA is seeking to buy two separate banks for a combined value of €34 billion ($40 billion) as it seeks to prevent being bought by rival Intesa Sanpaolo SpA.</summary>
   </entry>
   <entry>
-    <title>PNJ’s Diamond Operations Cleared by Police in Wider Vietnam Gem-Smuggling Probe</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-21/pnj-s-diamond-operations-cleared-by-police-in-wider-vietnam-gem-smuggling-probe"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-21/pnj-s-diamond-operations-cleared-by-police-in-wider-vietnam-gem-smuggling-probe</id>
-    <updated>2026-08-21T04:30:37.000Z</updated>
+    <title>DayOne Seeks Loan to Fund Hong Kong Data Center Ahead of US IPO</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-21/dayone-seeks-loan-to-fund-hong-kong-data-center-ahead-of-us-ipo"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-21/dayone-seeks-loan-to-fund-hong-kong-data-center-ahead-of-us-ipo</id>
+    <updated>2026-08-21T05:29:12.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Phu Nhuan Jewelry JSC, known as PNJ, was cleared of wrongdoing in its diamond import and distribution operations according to the preliminary findings of a probe into cross-border smuggling that has shaken the nation’s gemstone sector. The stock surged.</summary>
+    <summary>DayOne Data Centers is seeking a HK$1.86 billion ($237 million) loan, according to people familiar with the matter, adding to the company’s recent borrowing spree ahead of a planned US initial public offering.</summary>
   </entry>
   <entry>
     <title>Introducing cross-Region inference for OpenAI GPT-5.6 models on Amazon Bedrock</title>
@@ -259,21 +250,30 @@
     <summary>Amazon Bedrock now offers OpenAI GPT-5.6 models (Sol, Terra, and Luna) in more than 25 AWS Regions with cross-Region inference. Learn how US geographic and global inference profiles route requests for higher throughput, how to call the models with the OpenAI and Converse APIs, and how to configure IAM, quotas, and moni</summary>
   </entry>
   <entry>
-    <title>Build a no-code ML workflow with Snowflake, Amazon SageMaker Canvas and Amazon Quick – Part 1: Setting up your Snowflake environment</title>
-    <link href="https://aws.amazon.com/blogs/machine-learning/build-a-no-code-ml-workflow-with-snowflake-amazon-sagemaker-canvas-and-amazon-quick-part-1-setting-up-your-snowflake-environment"/>
-    <id>https://aws.amazon.com/blogs/machine-learning/build-a-no-code-ml-workflow-with-snowflake-amazon-sagemaker-canvas-and-amazon-quick-part-1-setting-up-your-snowflake-environment</id>
-    <updated>2026-08-20T21:23:38.000Z</updated>
-    <author><name>AWS ML Blog</name></author>
+    <title>Brazil launches AI supercomputer push, splits projects between Chinese, US firms</title>
+    <link href="https://www.reuters.com/world/americas/brazil-launches-ai-supercomputer-push-splits-projects-between-chinese-us-firms-2026-08-20"/>
+    <id>https://www.reuters.com/world/americas/brazil-launches-ai-supercomputer-push-splits-projects-between-chinese-us-firms-2026-08-20</id>
+    <updated>2026-08-20T21:17:57.000Z</updated>
+    <author><name>Reuters AI (Google News)</name></author>
     <category term="PRODUCTS"/>
-    <summary>Healthcare, retail, and life sciences teams store large volumes of operational data in Snowflake, but turning it into predictions is hard. In Part 1 of this series, you set up your AWS account and Snowflake environment for a no-code ML workflow with Amazon SageMaker Canvas, laying the foundation for building a fraud de — Also covered by: AWS ML Blog, AWS ML Blog</summary>
+    <summary>Brazil launches AI supercomputer push, splits projects between Chinese, US firms Reuters</summary>
   </entry>
   <entry>
-    <title>Asia’s Smaller AI Firms Are Leading EM’s Bounce Back This Month</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-21/asia-s-smaller-ai-firms-are-leading-em-s-bounce-back-this-month"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-21/asia-s-smaller-ai-firms-are-leading-em-s-bounce-back-this-month</id>
-    <updated>2026-08-21T04:15:00.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
+    <title>Kioxia CD9P 7.68TB E3.S NVMe SSD Review Fast Gen5 Storage</title>
+    <link href="https://www.servethehome.com/kioxia-cd9p-7-68tb-e3-s-nvme-ssd-review-fast-gen5-storage"/>
+    <id>https://www.servethehome.com/kioxia-cd9p-7-68tb-e3-s-nvme-ssd-review-fast-gen5-storage</id>
+    <updated>2026-08-20T22:02:41.000Z</updated>
+    <author><name>ServeTheHome</name></author>
     <category term="HARDWARE"/>
-    <summary>The tech rally in emerging-market stocks is spreading across new companies as investors rotate beyond chipmaking heavyweights into smaller names poised to power data centers.</summary>
+    <summary>We test the Kioxia CD9P (CD9P-R) in its 7.68TB E3.S configuration to see how the new PCIe Gen5 NVMe SSD performs on different architectures The post Kioxia CD9P 7.68TB E3.S NVMe SSD Review Fast Gen5 Storage appeared first on ServeTheHome .</summary>
+  </entry>
+  <entry>
+    <title>Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE</title>
+    <link href="https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html"/>
+    <id>https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html</id>
+    <updated>2026-08-20T13:48:24.000Z</updated>
+    <author><name>The Hacker News</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability (&quot;GHSA-864f-rcv7-6rh4&quot;), which has yet to be assigned a CVE</summary>
   </entry>
 </feed>
