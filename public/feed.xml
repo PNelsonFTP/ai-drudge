@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-21T03:11:39.761Z</updated>
+  <updated>2026-08-21T04:49:04.864Z</updated>
   <entry>
-    <title>llama.cpp b10539 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10539"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10539</id>
-    <updated>2026-08-21T03:05:34.000Z</updated>
+    <title>llama.cpp b10545 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10545"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10545</id>
+    <updated>2026-08-21T03:50:44.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>vulkan: FA MMQ should use fp32 for Q quantization calculations ( #27413 ) Codex found that qd could be a denorm and 1/qd would overflow. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42034841 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enable — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
+    <category term="LOCAL MODELS"/>
+    <summary>metal : clamp K extent in tensor API mat-mat kernel for K not a multiple of 32 ( #27450 ) The Tensor API mat-mat path of kernel_mul_mm (GGML_METAL_HAS_TENSOR) fed a static K=32 tile to the matmul2d op on every iteration. On the last, partial K tile (ne00 % 32 != 0) the src1 slice extends past the K extent of the tensor — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
   </entry>
   <entry>
     <title>Dirac Labs Raises $1.8M Pre-Seed Round to Scale Diamond-Based Quantum Navigation Sensors</title>
@@ -52,22 +52,22 @@
     <summary>What's Changed New desktop onboarding flow on first launch Caches resolved model metadata between requests, cutting time-to-first-token by roughly half (TTFT dropped from ~995 ms to ~524 ms in benchmarks) Fixes a bug where chat and generate could wedge after a mid-stream parser error Qwen 3.8 system messages are now no</summary>
   </entry>
   <entry>
-    <title>OpenAI is gaining on Anthropic with business users, new data indicates</title>
-    <link href="https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates"/>
-    <id>https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates</id>
-    <updated>2026-08-20T22:36:37.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>Brazil announces ~$444.2M in AI investments split between US and Chinese companies, including ~$250.3M for a supercomputing project with Huawei and iFlytek (Marcela Ayres/Reuters)</title>
+    <link href="https://www.techmeme.com/260820/p48"/>
+    <id>https://www.techmeme.com/260820/p48</id>
+    <updated>2026-08-21T03:35:02.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Businesses are willing to flop back and forth as each lab releases new models, volatility that should give both companies' investors pause about how &quot;sticky&quot; enterprise AI spending really is.</summary>
+    <summary>Marcela Ayres / Reuters : Brazil announces ~$444.2M in AI investments split between US and Chinese companies, including ~$250.3M for a supercomputing project with Huawei and iFlytek — Brazil's government announced on Thursday investments of about 2.3 billion reais ($444.2 million) to bolster its artificial intelligence</summary>
   </entry>
   <entry>
-    <title>The website that created an AI clone of its editor in chief</title>
-    <link href="https://www.platformer.news/every-dan-shipper-interview-ai-writing"/>
-    <id>https://www.platformer.news/every-dan-shipper-interview-ai-writing</id>
-    <updated>2026-08-21T00:00:50.000Z</updated>
-    <author><name>Platformer</name></author>
+    <title>Position: Behavioral Systems Require Behavioral Tests</title>
+    <link href="https://arxiv.org/abs/2608.18081"/>
+    <id>https://arxiv.org/abs/2608.18081</id>
+    <updated>2026-08-21T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Every CEO Dan Shipper on doubling headcount while automating everything, building an agent out of 30,000 copyedits, and the “dirty secret” of writing with AI</summary>
+    <summary>arXiv:2608.18081v1 Announce Type: new Abstract: Artificial agentic systems increasingly operate as behavioral systems by interacting with dynamic environments, pursuing goals, and adapting over time. Yet, current evaluation methods largely focus on performance outcomes, not the underlying behavioral processes that prod</summary>
   </entry>
   <entry>
     <title>What Are Kangaroo Bonds? Why Alphabet Is Borrowing Billions in Australia</title>
@@ -79,6 +79,15 @@
     <summary>Australia’s bond market is drawing increased interest from overseas borrowers. That includes Google’s parent Alphabet Inc., which issued debt in the country for the first time in August to help fund its AI spending. The technology giant raised A$5.5 billion ($3.9 billion) by selling so-called Kangaroo bonds.</summary>
   </entry>
   <entry>
+    <title>A Virtual Member of a Community of Practice for the Society of Petroleum Engineers: From Prototype to Deployment</title>
+    <link href="https://arxiv.org/abs/2608.19199"/>
+    <id>https://arxiv.org/abs/2608.19199</id>
+    <updated>2026-08-21T04:00:00.000Z</updated>
+    <author><name>arXiv cs.CL</name></author>
+    <category term="RESEARCH"/>
+    <summary>arXiv:2608.19199v1 Announce Type: new Abstract: We describe the evolution of a virtual assistant, called ATHENA, designed to support the capture, retrieval, and dissemination of knowledge for members of a Community of Practice (CoP) related to the Oil and Gas sector. An evaluation of a first prototype involving 75 prof</summary>
+  </entry>
+  <entry>
     <title>The August 17 outage, and the work ahead</title>
     <link href="https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead"/>
     <id>https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead</id>
@@ -88,31 +97,22 @@
     <summary>An update on the August 17 outage and the steps we're taking to improve reliability. The post The August 17 outage, and the work ahead appeared first on The GitHub Blog .</summary>
   </entry>
   <entry>
-    <title>Kioxia CD9P 7.68TB E3.S NVMe SSD Review Fast Gen5 Storage</title>
-    <link href="https://www.servethehome.com/kioxia-cd9p-7-68tb-e3-s-nvme-ssd-review-fast-gen5-storage"/>
-    <id>https://www.servethehome.com/kioxia-cd9p-7-68tb-e3-s-nvme-ssd-review-fast-gen5-storage</id>
-    <updated>2026-08-20T22:02:41.000Z</updated>
-    <author><name>ServeTheHome</name></author>
+    <title>Hallucination as a Feature, not a Defect: Evaluating a multi-agent architecture to transform speculative language-model outputs into testable scientific hypotheses</title>
+    <link href="https://arxiv.org/abs/2608.19206"/>
+    <id>https://arxiv.org/abs/2608.19206</id>
+    <updated>2026-08-21T04:00:00.000Z</updated>
+    <author><name>arXiv cs.CL</name></author>
     <category term="HARDWARE"/>
-    <summary>We test the Kioxia CD9P (CD9P-R) in its 7.68TB E3.S configuration to see how the new PCIe Gen5 NVMe SSD performs on different architectures The post Kioxia CD9P 7.68TB E3.S NVMe SSD Review Fast Gen5 Storage appeared first on ServeTheHome .</summary>
+    <summary>arXiv:2608.19206v1 Announce Type: new Abstract: Contemporary Large Language Models (LLMs) are increasingly aligned to suppress hallucinations, prioritizing factual retrieval over combinatorial creativity. While crucial for mitigating misinformation, this alignment may also restrict speculative Research and Development </summary>
   </entry>
   <entry>
-    <title>Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE</title>
-    <link href="https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html"/>
-    <id>https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html</id>
-    <updated>2026-08-20T13:48:24.000Z</updated>
-    <author><name>The Hacker News</name></author>
+    <title>Position: Current Model Cards Are Insufficient for Downstream Governance of Open-Weight Foundation Models</title>
+    <link href="https://arxiv.org/abs/2608.18086"/>
+    <id>https://arxiv.org/abs/2608.18086</id>
+    <updated>2026-08-21T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability (&quot;GHSA-864f-rcv7-6rh4&quot;), which has yet to be assigned a CVE</summary>
-  </entry>
-  <entry>
-    <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
-    <link href="https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare"/>
-    <id>https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare</id>
-    <updated>2026-09-24T13:00:00.000Z</updated>
-    <author><name>NIST AI News</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>This Symposium is a one-day event to address the question: “ which medical measurements and consensus standards should be prioritized to support future U.S. healthcare?” The focus will be on medical imaging, medical devices, and diagnostics. The goal</summary>
+    <summary>arXiv:2608.18086v1 Announce Type: new Abstract: The growth of open-weight foundation models (OWFMs) has prompted the AI community to re-evaluate strategies for effective downstream governance. Although model cards have been widely adopted as transparency artifacts in model repositories, existing frameworks often fail t</summary>
   </entry>
   <entry>
     <title>[tl;dr sec] #342 - Figma's Agentic Detection, Agent Identity, Uber's Agent-(E)DR</title>
@@ -133,22 +133,13 @@
     <summary>The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account published releases that added a typosquatted dependency whose build script downloaded and executed a remote payload during compilation. The affected releases are arrayref 0.3.10, intern</summary>
   </entry>
   <entry>
-    <title>Is Cyber missing the Marque?</title>
-    <link href="https://blog.talosintelligence.com/is-cyber-missing-the-marque"/>
-    <id>https://blog.talosintelligence.com/is-cyber-missing-the-marque</id>
-    <updated>2026-08-20T18:00:18.000Z</updated>
-    <author><name>Talos Intelligence</name></author>
+    <title>Quantum Kernel Estimation for the Discovery of Early Lung Cancer Detection</title>
+    <link href="https://arxiv.org/abs/2608.19304"/>
+    <id>https://arxiv.org/abs/2608.19304</id>
+    <updated>2026-08-21T04:00:00.000Z</updated>
+    <author><name>arXiv cs.LG</name></author>
     <category term="CYBER DEFENSE"/>
-    <summary>In this week's newsletter, new author Mick Baccio introduces himself and explores the operational and security implications of the new White House memorandum regarding private sector participation in government-authorized offensive cyber operations.</summary>
-  </entry>
-  <entry>
-    <title>gemini-cli v0.56.0-nightly.20260821.g30573d2e4 released</title>
-    <link href="https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260821.g30573d2e4"/>
-    <id>https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260821.g30573d2e4</id>
-    <updated>2026-08-21T01:08:09.000Z</updated>
-    <author><name>google-gemini/gemini-cli</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>What's Changed fix(core): ensure consistent symlink evaluation in ignore path handling by @luisfelipe-alt in #28915 refactor(core): remove eslint-disable and type-asserts from shellExecutionService by @DavidAPierce in #28862 Full Changelog : v0.56.0-nightly.20260820.ge90c63fa1...v0.56.0-nightly.20260821.g30573d2e4</summary>
+    <summary>arXiv:2608.19304v1 Announce Type: new Abstract: Lung cancer screening with low-dose chest computed tomography reduces mortality, but its impact is limited by uptake, adherence, and management challenges. Blood-based cell-free DNA (cfDNA) biomarkers offer a complementary approach, although early detection remains diffic</summary>
   </entry>
   <entry>
     <title>A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView</title>
@@ -169,15 +160,6 @@
     <summary>Generalist AI claims a GPT-3 moment for robotics, demonstrating a foundation model that learns new physical tasks in seconds from a single prompt.</summary>
   </entry>
   <entry>
-    <title>Crypto4A Achieves World-First FIPS 140-3 Level 3 Validation for Quantum-Safe HSM Module</title>
-    <link href="https://quantumcomputingreport.com/crypto4a-achieves-world-first-fips-140-3-level-3-validation-for-quantum-safe-hsm-module"/>
-    <id>https://quantumcomputingreport.com/crypto4a-achieves-world-first-fips-140-3-level-3-validation-for-quantum-safe-hsm-module</id>
-    <updated>2026-08-20T23:09:18.000Z</updated>
-    <author><name>Quantum Computing Report</name></author>
-    <category term="QUANTUM"/>
-    <summary>Canadian cybersecurity developer Crypto4A Technologies Inc. has received NIST FIPS 140-3 Level 3 validation for QASM™, the core cryptographic module integrated into its QxHSM™ hardware security module platform. Supporting the full suite of NIST-standardized Post-Quantum Cryptography (PQC) algorithms, the certification </summary>
-  </entry>
-  <entry>
     <title>Introducing AI Futures</title>
     <link href="https://openai.com/index/introducing-ai-futures"/>
     <id>https://openai.com/index/introducing-ai-futures</id>
@@ -196,6 +178,15 @@
     <summary>The retrieval layer that helps AI systems navigate, read, and verify information inside even the most complex documents</summary>
   </entry>
   <entry>
+    <title>OpenAI is gaining on Anthropic with business users, new data indicates</title>
+    <link href="https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates"/>
+    <id>https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates</id>
+    <updated>2026-08-20T22:36:37.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Businesses are willing to flop back and forth as each lab releases new models, volatility that should give both companies' investors pause about how &quot;sticky&quot; enterprise AI spending really is.</summary>
+  </entry>
+  <entry>
     <title>Nevada approves permits letting Tesla deploy up to 5,000 robotaxis in the Las Vegas area over the next year, while Waymo and Uber are each allowed up to 1,000 (Kirsten Korosec/TechCrunch)</title>
     <link href="https://www.techmeme.com/260820/p46"/>
     <id>https://www.techmeme.com/260820/p46</id>
@@ -205,13 +196,13 @@
     <summary>Kirsten Korosec / TechCrunch : Nevada approves permits letting Tesla deploy up to 5,000 robotaxis in the Las Vegas area over the next year, while Waymo and Uber are each allowed up to 1,000 — Nevada, get ready for the robotaxis. — The Nevada Transportation Authority unanimously approved three permits Thursday that will</summary>
   </entry>
   <entry>
-    <title>A NJ teenager drops her lawsuit against Meta, Google, and Snap over alleged social media addiction, without any payment; TikTok previously settled her claims (Diana Novak Jones/Reuters)</title>
-    <link href="https://www.techmeme.com/260820/p45"/>
-    <id>https://www.techmeme.com/260820/p45</id>
-    <updated>2026-08-21T01:00:49.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Diana Novak Jones / Reuters : A NJ teenager drops her lawsuit against Meta, Google, and Snap over alleged social media addiction, without any payment; TikTok previously settled her claims — A teen girl whose lawsuit was a test case in litigation accusing social media companies of deliberately addicting young people …</summary>
+    <title>SenseNova U1.5-Lite full release: expert training, OPD distillation, one model at inference</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vu5dzi/sensenova_u15lite_full_release_expert_training"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vu5dzi/sensenova_u15lite_full_release_expert_training</id>
+    <updated>2026-08-21T03:52:03.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Benchmarks: Benchmark U1 Preview Full Qwen-Image-Bench 47.14 55.20 (PE) 60.18 (PE) ImgEdit 3.9 4.37 4.59 GEdit-Bench-EN 7.47 8.14 8.26 Instead of just scaling up, they train task-specialized expert models for text rendering and infographics, aesthetic quality, and image editing. Then OPD consolidates those experts back</summary>
   </entry>
   <entry>
     <title>This benchmark is getting out of hand</title>
@@ -223,49 +214,40 @@
     <summary>submitted by /u/Nefilim314 [link] [comments]</summary>
   </entry>
   <entry>
-    <title>Gonna be huge for US open source</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vtz1o1/gonna_be_huge_for_us_open_source"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vtz1o1/gonna_be_huge_for_us_open_source</id>
-    <updated>2026-08-20T23:03:37.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>submitted by /u/pmv143 [link] [comments]</summary>
-  </entry>
-  <entry>
-    <title>Test Agent Changes with LangSmith Preview Builds</title>
-    <link href="https://www.langchain.com/blog/langsmith-preview-builds-test-agent-changes-before-production"/>
-    <id>https://www.langchain.com/blog/langsmith-preview-builds-test-agent-changes-before-production</id>
-    <updated>2026-08-20T19:20:50.000Z</updated>
-    <author><name>LangChain Blog</name></author>
+    <title>Position: Collusion Risks Among AI Reasoning Agents Justify Certification Requirements for Making Market Decisions</title>
+    <link href="https://arxiv.org/abs/2608.18078"/>
+    <id>https://arxiv.org/abs/2608.18078</id>
+    <updated>2026-08-21T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Preview Builds let teams test pull request branches in temporary, production-like LangSmith deployments before merging agent changes.</summary>
+    <summary>arXiv:2608.18078v1 Announce Type: new Abstract: This position paper argues that AI agents with chain-of-thought reasoning capabilities are predisposed to exhibit collusive behavior and should be required to obtain behavioral certification before making decisions that affect economic markets. This is because integrating</summary>
   </entry>
   <entry>
-    <title>CME CEO Spars With CFTC Chair About Prediction Market Oversight</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-21/cme-ceo-spars-with-cftc-chair-about-prediction-market-oversight"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-21/cme-ceo-spars-with-cftc-chair-about-prediction-market-oversight</id>
-    <updated>2026-08-21T02:15:27.000Z</updated>
+    <title>Large Language Models in Mental Health: A Systematic Review of Applications, Innovations, and Ethical Challenges</title>
+    <link href="https://arxiv.org/abs/2608.18080"/>
+    <id>https://arxiv.org/abs/2608.18080</id>
+    <updated>2026-08-21T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>arXiv:2608.18080v1 Announce Type: new Abstract: We present a review on the applications of large language models (LLMs) in health, e.g., social media analysis, clinical conversational agents, therapy support tools, prompt engineering, multimodal learning, and ethical considerations. We integrate findings from interdisc</summary>
+  </entry>
+  <entry>
+    <title>India Economic Growth May Beat RBI’s 6.7% Forecast, Gupta Says</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-21/india-economic-growth-may-beat-rbi-s-6-7-forecast-gupta-says"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-21/india-economic-growth-may-beat-rbi-s-6-7-forecast-gupta-says</id>
+    <updated>2026-08-21T04:37:01.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The head of CME Group Inc. told the chairman of the Commodity Futures Trading Commission that the agency needed to do more to prevent manipulation on prediction markets as the trading startups grow into multibillion-dollar businesses.</summary>
+    <summary>India may grow closer to 7% in the financial year through March, stronger than the central bank’s 6.7% forecast, Deputy Governor Poonam Gupta said on Thursday, a pace that would keep it among the world’s fastest-growing major economies.</summary>
   </entry>
   <entry>
-    <title>Swift Indian Ban on JPMorgan Unit Seen as Warning to Traders</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-21/india-s-quick-rebuke-of-jpmorgan-unit-seen-as-warning-to-traders"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-21/india-s-quick-rebuke-of-jpmorgan-unit-seen-as-warning-to-traders</id>
-    <updated>2026-08-21T01:51:07.000Z</updated>
+    <title>PNJ’s Diamond Operations Cleared by Police in Wider Vietnam Gem-Smuggling Probe</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-21/pnj-s-diamond-operations-cleared-by-police-in-wider-vietnam-gem-smuggling-probe"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-21/pnj-s-diamond-operations-cleared-by-police-in-wider-vietnam-gem-smuggling-probe</id>
+    <updated>2026-08-21T04:30:37.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>India’s securities regulator issued an interim order against a JPMorgan Chase &amp; Co. unit in record time, a move market watchers say could deter attempts to manipulate the country’s new closing stock auction.</summary>
-  </entry>
-  <entry>
-    <title>DSW EAS SWE + TB smoke 2026-08-21 r1</title>
-    <link href="https://github.com/QwenLM/qwen-code/releases/tag/dsw-eas-tb-smoke-20260821-r1"/>
-    <id>https://github.com/QwenLM/qwen-code/releases/tag/dsw-eas-tb-smoke-20260821-r1</id>
-    <updated>2026-08-21T02:38:07.000Z</updated>
-    <author><name>QwenLM/qwen-code</name></author>
-    <category term="RESEARCH"/>
-    <summary>Benchmark-Qwen-Ref: v0.21.15 End-to-end 1 SWE + 1 Terminal-Bench smoke for release-trigger, DSW Harbor execution, and GitHub Release result writeback validation. — Also covered by: QwenLM/qwen-code, QwenLM/qwen-code</summary>
+    <summary>Phu Nhuan Jewelry JSC, known as PNJ, was cleared of wrongdoing in its diamond import and distribution operations according to the preliminary findings of a probe into cross-border smuggling that has shaken the nation’s gemstone sector. The stock surged.</summary>
   </entry>
   <entry>
     <title>Introducing cross-Region inference for OpenAI GPT-5.6 models on Amazon Bedrock</title>
@@ -275,5 +257,23 @@
     <author><name>AWS ML Blog</name></author>
     <category term="PRODUCTS"/>
     <summary>Amazon Bedrock now offers OpenAI GPT-5.6 models (Sol, Terra, and Luna) in more than 25 AWS Regions with cross-Region inference. Learn how US geographic and global inference profiles route requests for higher throughput, how to call the models with the OpenAI and Converse APIs, and how to configure IAM, quotas, and moni</summary>
+  </entry>
+  <entry>
+    <title>Build a no-code ML workflow with Snowflake, Amazon SageMaker Canvas and Amazon Quick – Part 1: Setting up your Snowflake environment</title>
+    <link href="https://aws.amazon.com/blogs/machine-learning/build-a-no-code-ml-workflow-with-snowflake-amazon-sagemaker-canvas-and-amazon-quick-part-1-setting-up-your-snowflake-environment"/>
+    <id>https://aws.amazon.com/blogs/machine-learning/build-a-no-code-ml-workflow-with-snowflake-amazon-sagemaker-canvas-and-amazon-quick-part-1-setting-up-your-snowflake-environment</id>
+    <updated>2026-08-20T21:23:38.000Z</updated>
+    <author><name>AWS ML Blog</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Healthcare, retail, and life sciences teams store large volumes of operational data in Snowflake, but turning it into predictions is hard. In Part 1 of this series, you set up your AWS account and Snowflake environment for a no-code ML workflow with Amazon SageMaker Canvas, laying the foundation for building a fraud de — Also covered by: AWS ML Blog, AWS ML Blog</summary>
+  </entry>
+  <entry>
+    <title>Asia’s Smaller AI Firms Are Leading EM’s Bounce Back This Month</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-21/asia-s-smaller-ai-firms-are-leading-em-s-bounce-back-this-month"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-21/asia-s-smaller-ai-firms-are-leading-em-s-bounce-back-this-month</id>
+    <updated>2026-08-21T04:15:00.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="HARDWARE"/>
+    <summary>The tech rally in emerging-market stocks is spreading across new companies as investors rotate beyond chipmaking heavyweights into smaller names poised to power data centers.</summary>
   </entry>
 </feed>
