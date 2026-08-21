@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-20T23:34:21.143Z</updated>
+  <updated>2026-08-21T01:50:53.504Z</updated>
   <entry>
-    <title>claude-code v2.1.238 released</title>
-    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.238"/>
-    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.238</id>
-    <updated>2026-08-20T20:33:51.000Z</updated>
-    <author><name>anthropics/claude-code</name></author>
+    <title>llama.cpp b10534 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10534"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10534</id>
+    <updated>2026-08-21T01:43:16.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>What's changed Added a keybindingFlavor setting: set it to &quot;readline&quot; to make Ctrl+W in the prompt delete back to the previous whitespace, as in Bash; the default ( &quot;classic&quot; ) is unchanged Plugin marketplaces: headersHelper on a url marketplace or a catalog entry runs a command that mints HTTP headers (e.g. a short-li — Also covered by: QwenLM/qwen-code</summary>
+    <summary>CUDA: adding switch points per HW and quant type to tune the mvq-&gt;MMQ decode crossover ( #26079 ) CUDA: runtime GGML_CUDA_MMVQ_MAX to tune the mvq-&gt;MMQ decode crossover Add a runtime override of the mul_mat_vec_q -&gt; MMQ batch crossover (default MMVQ_MAX_BATCH_SIZE). Lowering it routes batches above the threshold from t — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
   </entry>
   <entry>
     <title>Dirac Labs Raises $1.8M Pre-Seed Round to Scale Diamond-Based Quantum Navigation Sensors</title>
@@ -23,24 +23,6 @@
     <author><name>Quantum Computing Report</name></author>
     <category term="FUNDING &amp; DEALS"/>
     <summary>University of Wisconsin-Madison spinout Dirac Labs Inc. has raised $1.8 million USD in pre-seed funding to prototype and field-test its diamond-based quantum positioning sensors. Led by venture firm TitletownTech (a joint initiative of Microsoft and the Green Bay Packers), the round included participation from Automoti — Also covered by: The Quantum Insider</summary>
-  </entry>
-  <entry>
-    <title>whisper.cpp v1.9.3 released</title>
-    <link href="https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.3"/>
-    <id>https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.3</id>
-    <updated>2026-08-20T11:42:23.000Z</updated>
-    <author><name>ggml-org/whisper.cpp</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Note Semantic versioning is still work in progress. More info can be found in https://github.com/ggml-org/ggml/discussions/1579 Nightly build: b4938 Change log since v1.9.2 371b5a7 release : v1.9.3 ( #4000 ) 81c1905 cmake : update semver and release process [no ci] ( #3996 ) 4834a23 talk-llama : sync llama.cpp 6b014cf  — Also covered by: ggml-org/llama.cpp</summary>
-  </entry>
-  <entry>
-    <title>CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar™: Cloud Workload Protection Platforms</title>
-    <link href="https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp"/>
-    <id>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp</id>
-    <updated>2026-08-20T05:00:00.000Z</updated>
-    <author><name>CrowdStrike Blog</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>Also covered by: Microsoft Security</summary>
   </entry>
   <entry>
     <title>Mojo🔥 is now open source</title>
@@ -57,7 +39,7 @@
     <id>https://www.servethehome.com/qualcomm-modular-amd-open-sourced-at-modcon-2026</id>
     <updated>2026-08-18T21:45:38.000Z</updated>
     <author><name>ServeTheHome</name></author>
-    <category term="LOCAL MODELS"/>
+    <category term="OPEN SOURCE"/>
     <summary>Qualcomm's Modular software is now open-source as a big announcement from ModCon 2026 and an unexpected guest made an appearance The post Qualcomm Modular Open-Sourced at ModCon 2026 appeared first on ServeTheHome . — Also covered by: ModularML</summary>
   </entry>
   <entry>
@@ -79,31 +61,22 @@
     <summary>Businesses are willing to flop back and forth as each lab releases new models, volatility that should give both companies' investors pause about how &quot;sticky&quot; enterprise AI spending really is.</summary>
   </entry>
   <entry>
-    <title>Any speculation on whether or not Google will announce a new Gemma model at the Gemma SF Celebration tonight?</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vttdss/any_speculation_on_whether_or_not_google_will"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vttdss/any_speculation_on_whether_or_not_google_will</id>
-    <updated>2026-08-20T19:27:12.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>From the Digg article ( https://digg.com/tech/3pf3046j ) “Google Gemma posted that the family of open models has achieved 1 billion downloads. The account is hosting an exclusive evening in San Francisco on August 20 to honor open-source builders, researchers, and contributors. Space at the event is limited and applica</summary>
-  </entry>
-  <entry>
-    <title>Test Agent Changes with LangSmith Preview Builds</title>
-    <link href="https://www.langchain.com/blog/langsmith-preview-builds-test-agent-changes-before-production"/>
-    <id>https://www.langchain.com/blog/langsmith-preview-builds-test-agent-changes-before-production</id>
-    <updated>2026-08-20T19:20:50.000Z</updated>
-    <author><name>LangChain Blog</name></author>
+    <title>The website that created an AI clone of its editor in chief</title>
+    <link href="https://www.platformer.news/every-dan-shipper-interview-ai-writing"/>
+    <id>https://www.platformer.news/every-dan-shipper-interview-ai-writing</id>
+    <updated>2026-08-21T00:00:50.000Z</updated>
+    <author><name>Platformer</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Preview Builds let teams test pull request branches in temporary, production-like LangSmith deployments before merging agent changes.</summary>
+    <summary>Every CEO Dan Shipper on doubling headcount while automating everything, building an agent out of 30,000 copyedits, and the “dirty secret” of writing with AI</summary>
   </entry>
   <entry>
-    <title>Broadcom Seeking $60B in AI Debt Deal</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-20/broadcom-seeking-60b-in-ai-debt-deal-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-20/broadcom-seeking-60b-in-ai-debt-deal-video</id>
-    <updated>2026-08-20T22:02:29.000Z</updated>
+    <title>Evergrande Creditors Owed $45 Billion Now Face More Complex Path</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-21/evergrande-creditors-owed-45-billion-now-face-more-complex-path"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-21/evergrande-creditors-owed-45-billion-now-face-more-complex-path</id>
+    <updated>2026-08-21T01:25:12.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Broadcom Inc. is in talks with a group of lenders to raise more than $60 billion in debt for an AI chip financing deal that will benefit Anthropic PBC and other companies, according to people with knowledge of the matter. The financing, which is still being ironed out, may also include a roughly $30 billion junior debt</summary>
+    <summary>China Evergrande Group’s creditors have known for years they’ll only get pennies on the dollar back in one of the country’s biggest ever liquidations. Now, getting even just that has become more complex.</summary>
   </entry>
   <entry>
     <title>The August 17 outage, and the work ahead</title>
@@ -115,13 +88,13 @@
     <summary>An update on the August 17 outage and the steps we're taking to improve reliability. The post The August 17 outage, and the work ahead appeared first on The GitHub Blog .</summary>
   </entry>
   <entry>
-    <title>GitHub says its 7+ hour August 17 outage was caused by a capacity failure when peak traffic overwhelmed an infrastructure component in a Central US data center (Vlad Fedorov/The GitHub Blog)</title>
-    <link href="https://www.techmeme.com/260820/p40"/>
-    <id>https://www.techmeme.com/260820/p40</id>
-    <updated>2026-08-20T20:55:01.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Kioxia CD9P 7.68TB E3.S NVMe SSD Review Fast Gen5 Storage</title>
+    <link href="https://www.servethehome.com/kioxia-cd9p-7-68tb-e3-s-nvme-ssd-review-fast-gen5-storage"/>
+    <id>https://www.servethehome.com/kioxia-cd9p-7-68tb-e3-s-nvme-ssd-review-fast-gen5-storage</id>
+    <updated>2026-08-20T22:02:41.000Z</updated>
+    <author><name>ServeTheHome</name></author>
     <category term="HARDWARE"/>
-    <summary>Vlad Fedorov / The GitHub Blog : GitHub says its 7+ hour August 17 outage was caused by a capacity failure when peak traffic overwhelmed an infrastructure component in a Central US data center — An update on the August 17 outage and the steps we're taking to improve reliability. — On August 17, GitHub experienced an ou</summary>
+    <summary>We test the Kioxia CD9P (CD9P-R) in its 7.68TB E3.S configuration to see how the new PCIe Gen5 NVMe SSD performs on different architectures The post Kioxia CD9P 7.68TB E3.S NVMe SSD Review Fast Gen5 Storage appeared first on ServeTheHome .</summary>
   </entry>
   <entry>
     <title>Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE</title>
@@ -169,13 +142,13 @@
     <summary>In this week's newsletter, new author Mick Baccio introduces himself and explores the operational and security implications of the new White House memorandum regarding private sector participation in government-authorized offensive cyber operations.</summary>
   </entry>
   <entry>
-    <title>Anthropic Set to Add Citigroup to Top IPO Banks on Mega-Listing</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-20/anthropic-set-to-add-citigroup-to-top-ipo-banks-on-mega-listing"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-20/anthropic-set-to-add-citigroup-to-top-ipo-banks-on-mega-listing</id>
-    <updated>2026-08-20T21:29:58.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
+    <title>gemini-cli v0.56.0-nightly.20260821.g30573d2e4 released</title>
+    <link href="https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260821.g30573d2e4"/>
+    <id>https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260821.g30573d2e4</id>
+    <updated>2026-08-21T01:08:09.000Z</updated>
+    <author><name>google-gemini/gemini-cli</name></author>
     <category term="FUNDING &amp; DEALS"/>
-    <summary>Anthropic PBC is set to add Citigroup Inc. to the banks working on its initial public offering, according to people familiar with the matter, as Wall Street jostles for roles on the artificial intelligence firm’s debut.</summary>
+    <summary>What's Changed fix(core): ensure consistent symlink evaluation in ignore path handling by @luisfelipe-alt in #28915 refactor(core): remove eslint-disable and type-asserts from shellExecutionService by @DavidAPierce in #28862 Full Changelog : v0.56.0-nightly.20260820.ge90c63fa1...v0.56.0-nightly.20260821.g30573d2e4</summary>
   </entry>
   <entry>
     <title>A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView</title>
@@ -223,22 +196,31 @@
     <summary>The retrieval layer that helps AI systems navigate, read, and verify information inside even the most complex documents</summary>
   </entry>
   <entry>
-    <title>Super Micro says its independent probe found no evidence its CEO or senior management knew of an alleged scheme to smuggle $2.5B worth of Nvidia chips to China (Amanda Gerut/Fortune)</title>
-    <link href="https://www.techmeme.com/260820/p42"/>
-    <id>https://www.techmeme.com/260820/p42</id>
-    <updated>2026-08-20T22:21:07.000Z</updated>
+    <title>Nevada approves permits letting Tesla deploy up to 5,000 robotaxis in the Las Vegas area over the next year, while Waymo and Uber are each allowed up to 1,000 (Kirsten Korosec/TechCrunch)</title>
+    <link href="https://www.techmeme.com/260820/p46"/>
+    <id>https://www.techmeme.com/260820/p46</id>
+    <updated>2026-08-21T01:30:00.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Amanda Gerut / Fortune : Super Micro says its independent probe found no evidence its CEO or senior management knew of an alleged scheme to smuggle $2.5B worth of Nvidia chips to China — Super Micro Computer said on Thursday that an independent investigation led by its board found no evidence that current members …</summary>
+    <summary>Kirsten Korosec / TechCrunch : Nevada approves permits letting Tesla deploy up to 5,000 robotaxis in the Las Vegas area over the next year, while Waymo and Uber are each allowed up to 1,000 — Nevada, get ready for the robotaxis. — The Nevada Transportation Authority unanimously approved three permits Thursday that will</summary>
   </entry>
   <entry>
-    <title>Sources: Broadcom is in talks with a group of lenders to raise $60B+ in debt for an AI chip financing deal that will benefit Anthropic and other companies (Bloomberg)</title>
-    <link href="https://www.techmeme.com/260820/p39"/>
-    <id>https://www.techmeme.com/260820/p39</id>
-    <updated>2026-08-20T20:40:01.000Z</updated>
+    <title>A NJ teenager drops her lawsuit against Meta, Google, and Snap over alleged social media addiction, without any payment; TikTok previously settled her claims (Diana Novak Jones/Reuters)</title>
+    <link href="https://www.techmeme.com/260820/p45"/>
+    <id>https://www.techmeme.com/260820/p45</id>
+    <updated>2026-08-21T01:00:49.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Bloomberg : Sources: Broadcom is in talks with a group of lenders to raise $60B+ in debt for an AI chip financing deal that will benefit Anthropic and other companies — Broadcom Inc. is in talks with a group of lenders to raise more than $60 billion in debt for an AI chip financing deal …</summary>
+    <summary>Diana Novak Jones / Reuters : A NJ teenager drops her lawsuit against Meta, Google, and Snap over alleged social media addiction, without any payment; TikTok previously settled her claims — A teen girl whose lawsuit was a test case in litigation accusing social media companies of deliberately addicting young people …</summary>
+  </entry>
+  <entry>
+    <title>This benchmark is getting out of hand</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vtzyl9/this_benchmark_is_getting_out_of_hand"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vtzyl9/this_benchmark_is_getting_out_of_hand</id>
+    <updated>2026-08-20T23:42:34.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>submitted by /u/Nefilim314 [link] [comments]</summary>
   </entry>
   <entry>
     <title>Gonna be huge for US open source</title>
@@ -250,30 +232,48 @@
     <summary>submitted by /u/pmv143 [link] [comments]</summary>
   </entry>
   <entry>
-    <title>Qwen3.8-27B scored 29/30 on AIME 2026 with FP8 + xhigh reasoning — BF16 vs FP8 results</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vtsjsr/qwen3827b_scored_2930_on_aime_2026_with_fp8_xhigh"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vtsjsr/qwen3827b_scored_2930_on_aime_2026_with_fp8_xhigh</id>
-    <updated>2026-08-20T18:59:31.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>I benchmarked Qwen3.8-27B on MathArena/aime_2026 dataset, comparing BF16 and FP8 weights at medium and xhigh reasoning effort. Interesting findings are: quantized FP8 xhigh is better than BF 16 medium equally good as 16 BF xhigh with better speed. On problem 7, both BF16 xhigh and quantized FP8 xhigh exhausted the full</summary>
-  </entry>
-  <entry>
-    <title>langchain v1.6.0 released</title>
-    <link href="https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.0"/>
-    <id>https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.0</id>
-    <updated>2026-08-20T17:47:20.000Z</updated>
-    <author><name>langchain-ai/langchain</name></author>
+    <title>Test Agent Changes with LangSmith Preview Builds</title>
+    <link href="https://www.langchain.com/blog/langsmith-preview-builds-test-agent-changes-before-production"/>
+    <id>https://www.langchain.com/blog/langsmith-preview-builds-test-agent-changes-before-production</id>
+    <updated>2026-08-20T19:20:50.000Z</updated>
+    <author><name>LangChain Blog</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Changes since langchain-fireworks==1.5.2 release(fireworks): 1.6.0 ( #39810 ) feat(fireworks): add document reranking ( #39732 ) fix(fireworks): filter invalid tool calls from v1 content ( #39805 ) feat(core): add standard model exception types ( #39538 ) chore(model-profiles): refresh model profile data ( #39646 ) fix</summary>
+    <summary>Preview Builds let teams test pull request branches in temporary, production-like LangSmith deployments before merging agent changes.</summary>
   </entry>
   <entry>
-    <title>Hua Hong, Kingboard, Zijin Gold May Join Hong Kong’s Stock Index</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-20/hua-hong-kingboard-zijin-gold-may-join-hong-kong-s-stock-index"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-20/hua-hong-kingboard-zijin-gold-may-join-hong-kong-s-stock-index</id>
-    <updated>2026-08-20T23:00:00.000Z</updated>
+    <title>India’s Mazumdar-Shaw Is On A Mission to Save Lives</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-21/mazumdar-shaw-s-mission-to-expand-access-to-medicines-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-21/mazumdar-shaw-s-mission-to-expand-access-to-medicines-video</id>
+    <updated>2026-08-21T00:06:00.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Hang Seng Indexes Co. may add chipmaker Hua Hong Grace Semiconductor Ltd., AI-related firm Kingboard Laminates Holdings Ltd. and miner Zijin Gold International Co. to Hong Kong’s equity benchmark, according to analysts.</summary>
+    <summary>Known as India’s ‘Queen of Biotech’, Kiran Mazumdar-Shaw built Biocon from a rented garage almost 50 years ago. Today, her multibillion-dollar company is one of the world’s biggest producers of insulin, and a leading force in biosimilars. As she looks at handing over her life’s work to successors, Mazumdar-Shaw talks t</summary>
+  </entry>
+  <entry>
+    <title>India’s ‘Biotech Queen’ Doubles Down on Drug Access</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-21/mazumdar-shaw-s-mission-to-expand-access-to-vital-drugs-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-21/mazumdar-shaw-s-mission-to-expand-access-to-vital-drugs-video</id>
+    <updated>2026-08-21T00:01:37.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Known as India’s ‘Queen of Biotech’, Kiran Mazumdar-Shaw built Biocon from a rented garage almost 50 years ago. Today, her multibillion-dollar company is one of the world’s biggest producers of insulin, and a leading force in biosimilars. As she looks at handing over her life’s work to successors, Mazumdar-Shaw talks t</summary>
+  </entry>
+  <entry>
+    <title>Paving the way for greener ammonia production</title>
+    <link href="https://news.mit.edu/2026/paving-way-for-greener-ammonia-production-0820"/>
+    <id>https://news.mit.edu/2026/paving-way-for-greener-ammonia-production-0820</id>
+    <updated>2026-08-20T18:45:00.000Z</updated>
+    <author><name>MIT News AI</name></author>
+    <category term="RESEARCH"/>
+    <summary>New MIT research could lead to better materials for a fossil-fuel-free process for making the chemical that's essential to fertilizer and other products.</summary>
+  </entry>
+  <entry>
+    <title>Introducing cross-Region inference for OpenAI GPT-5.6 models on Amazon Bedrock</title>
+    <link href="https://aws.amazon.com/blogs/machine-learning/introducing-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock"/>
+    <id>https://aws.amazon.com/blogs/machine-learning/introducing-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock</id>
+    <updated>2026-08-20T21:46:03.000Z</updated>
+    <author><name>AWS ML Blog</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Amazon Bedrock now offers OpenAI GPT-5.6 models (Sol, Terra, and Luna) in more than 25 AWS Regions with cross-Region inference. Learn how US geographic and global inference profiles route requests for higher throughput, how to call the models with the OpenAI and Converse APIs, and how to configure IAM, quotas, and moni</summary>
   </entry>
 </feed>
