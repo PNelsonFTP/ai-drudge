@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-22T15:30:16.630Z</updated>
+  <updated>2026-08-22T16:34:45.676Z</updated>
   <entry>
-    <title>llama.cpp b10584 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10584"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10584</id>
-    <updated>2026-08-22T15:07:40.000Z</updated>
+    <title>llama.cpp b10586 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10586"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10586</id>
+    <updated>2026-08-22T16:05:44.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>fit: also take into account n_streams ( #27496 ) fit: also take into account n_streams server: make the draft context follow the target context With a non-unified KV cache the target context now holds n_ctx_train tokens per sequence, while the draft context was still created with n_ctx = 0 and fell back to n_ctx_train  — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
+    <summary>mtmd: use ggml_rope_set_offset ( #27521 ) mtmd: use ggml_rope_set_offset add comment Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42334609 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
   </entry>
   <entry>
     <title>qwen-code v0.22.0 released</title>
@@ -52,13 +52,13 @@
     <summary>Rohail Saleem / Wccftech : Ox Alpha, a “stealth model” from an unknown AI lab with a 1M-token multimodal context and capacity for 100T tokens/day, goes viral after launching on OpenRouter — When an unknown AI lab drops an anonymous model - Ox Alpha - for free, while declaring that they have the capacity …</summary>
   </entry>
   <entry>
-    <title>Study explains why AI agents benefit from &quot;skills&quot; and when they fail</title>
-    <link href="https://the-decoder.com/study-explains-why-ai-agents-benefit-from-skills-and-when-they-fail"/>
-    <id>https://the-decoder.com/study-explains-why-ai-agents-benefit-from-skills-and-when-they-fail</id>
-    <updated>2026-08-22T12:15:10.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>More than just code review</title>
+    <link href="https://simonwillison.net/2026/Aug/22/more-than-just-code-review"/>
+    <id>https://simonwillison.net/2026/Aug/22/more-than-just-code-review</id>
+    <updated>2026-08-22T15:56:54.000Z</updated>
+    <author><name>Simon Willison</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>A study from researchers at Princeton University and UC San Diego finds that so-called skills make AI agents better mainly through structured workflows, not through added knowledge. But as the skill library grows, agents have a harder and harder time finding the right set of instructions. The article Study explains why</summary>
+    <summary>The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way. Sometimes this involves reviewing every line of code they have written, but there are other ways to achiev</summary>
   </entry>
   <entry>
     <title>Study Shows AI Hitting Paychecks, Not Payrolls</title>
@@ -79,13 +79,13 @@
     <summary>Zeyi Yang / Wired : Cheap energy, abundant land, and proximity to Beijing have made Ulanqab, Inner Mongolia, a data center hub, with ~100 data centers built or under construction — Cheap energy, abundant land, and proximity to Beijing have turned a city in Inner Mongolia into a crucial hub for data centers.</summary>
   </entry>
   <entry>
-    <title>How a Georgia Tech team used the open Olmo stack to trace social reasoning</title>
-    <link href="https://allenai.org/blog/olmo-capability-tracing"/>
-    <id>https://allenai.org/blog/olmo-capability-tracing</id>
-    <updated>2026-08-21T08:00:00.000Z</updated>
-    <author><name>Ai2 (Allen Institute)</name></author>
+    <title>Decoding AI’s Open-Source Course Maps Three Ways to Run an Agent Loop and the Provider Economics Behind Each</title>
+    <link href="https://www.marktechpost.com/2026/08/22/decoding-ais-open-source-course-maps-three-ways-to-run-an-agent-loop-and-the-provider-economics-behind-each"/>
+    <id>https://www.marktechpost.com/2026/08/22/decoding-ais-open-source-course-maps-three-ways-to-run-an-agent-loop-and-the-provider-economics-behind-each</id>
+    <updated>2026-08-22T13:43:13.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>A Georgia Tech team used Ai2’s fully open Olmo stack to trace social reasoning back to the training data that shaped it, finding that dialogue-rich, interpersonal writing had an outsized influence on the capability.</summary>
+    <summary>Most teams treat ‘which model’ as the important decision. The harness engineering literature keeps pointing somewhere else. In LangChain’s Terminal-Bench experiment, changing only the harness—same model throughout—moved a coding agent from roughly 30th place into the top 5. That result reframes the question. If the har</summary>
   </entry>
   <entry>
     <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
@@ -133,13 +133,13 @@
     <summary>Mike Wheatley / SiliconANGLE : Rundoo, a provider of AI-powered business operations software for independent supply stores, raised a $30M Series B led by Battery Ventures — Rundoo Inc., the creator of an artificial intelligence-native system-of-record for independent supply stores, said today it has closed …</summary>
   </entry>
   <entry>
-    <title>The technology that could bring robot mowers to one in two American lawns</title>
-    <link href="https://www.therobotreport.com/technology-could-bring-robot-mowers-one-half-american-lawns"/>
-    <id>https://www.therobotreport.com/technology-could-bring-robot-mowers-one-half-american-lawns</id>
-    <updated>2026-08-22T12:30:08.000Z</updated>
+    <title>Robots don’t run themselves: The workforce powering physical AI</title>
+    <link href="https://www.therobotreport.com/robots-dont-run-themselves-the-workforce-powering-physical-ai"/>
+    <id>https://www.therobotreport.com/robots-dont-run-themselves-the-workforce-powering-physical-ai</id>
+    <updated>2026-08-22T14:30:21.000Z</updated>
     <author><name>The Robot Report</name></author>
     <category term="ROBOTICS"/>
-    <summary>Improvements in AI, satellite navigation, and machine vision are helping robotic lawn mowers spread in the U.S., writes Sunseeker's founder. The post The technology that could bring robot mowers to one in two American lawns appeared first on The Robot Report .</summary>
+    <summary>The addition of physical AI to the workforce requires more key performance indicators than throughput, according to the president of HireArt. The post Robots don’t run themselves: The workforce powering physical AI appeared first on The Robot Report .</summary>
   </entry>
   <entry>
     <title>Brookhaven Lab and Stony Brook Demonstrate First US Free-Space Quantum Network Link Across 13 Miles</title>
@@ -169,13 +169,40 @@
     <summary>Current world models like Sora or Genie only simulate physics and ignore what people think, want, or feel. The new &quot;Mental World Modeling&quot; framework adds mental variables like beliefs and intentions. Even weaker language models using this approach outperform stronger models without mental modeling. The biggest bottlene</summary>
   </entry>
   <entry>
-    <title>Got Qwen3.8-27B-FP8 running on a DGX Spark via lmstack</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vvdwke/got_qwen3827bfp8_running_on_a_dgx_spark_via"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vvdwke/got_qwen3827bfp8_running_on_a_dgx_spark_via</id>
-    <updated>2026-08-22T14:28:55.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>OpenAI says California should strengthen its AI safety bill</title>
+    <link href="https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill"/>
+    <id>https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill</id>
+    <updated>2026-08-22T16:30:34.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed.</summary>
+  </entry>
+  <entry>
+    <title>Frontier AI labs still won’t say how they’d contain a rogue model</title>
+    <link href="https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model"/>
+    <id>https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model</id>
+    <updated>2026-08-22T16:00:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions about preparedness as AI systems increasingly demonstrate unexpected and potentially dangerous behavior.</summary>
+  </entry>
+  <entry>
+    <title>Artificial Analysis &quot;Intelligence&quot;: A meaningless benchmark</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vv80xa/artificial_analysis_intelligence_a_meaningless"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vv80xa/artificial_analysis_intelligence_a_meaningless</id>
+    <updated>2026-08-22T09:43:38.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Spent this weekend turning a DGX Spark into an actual local inference box instead of hand-SSHing in and fighting vLLM flags myself. Used Claude Code to drive the whole thing through lmstack ( https://github.com/ric03uec/lmstack ), an open-source Ansible stack that puts vLLM behind a LiteLLM gateway. Writing this up bec</summary>
+    <summary>https://preview.redd.it/84zi5nsdawkh1.png?width=2368&amp;format=png&amp;auto=webp&amp;s=1109e69db807b153064b1f5b61d22cf1e9fbca05 Another user posted the benchmarks for Qwen 3.8 27B today, and while I think Qwen 27B is a really powerful model, I can't help but notice just how meaningless these Artificial Analysis benchmarks are and</summary>
+  </entry>
+  <entry>
+    <title>Study explains why AI agents benefit from &quot;skills&quot; and when they fail</title>
+    <link href="https://the-decoder.com/study-explains-why-ai-agents-benefit-from-skills-and-when-they-fail"/>
+    <id>https://the-decoder.com/study-explains-why-ai-agents-benefit-from-skills-and-when-they-fail</id>
+    <updated>2026-08-22T12:15:10.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>A study from researchers at Princeton University and UC San Diego finds that so-called skills make AI agents better mainly through structured workflows, not through added knowledge. But as the skill library grows, agents have a harder and harder time finding the right set of instructions. The article Study explains why</summary>
   </entry>
   <entry>
     <title>With each successive era of LLMs, from early scaling, to reasoning, to agentic, open models have taken half as long to catch up to the first closed model (SemiAnalysis)</title>
@@ -185,15 +212,6 @@
     <author><name>Techmeme</name></author>
     <category term="AGENTS &amp; TOOLS"/>
     <summary>SemiAnalysis : With each successive era of LLMs, from early scaling, to reasoning, to agentic, open models have taken half as long to catch up to the first closed model — Comparing open vs. closed models across the eras of frontier models, Is the gap narrowing? — ∙ Paid</summary>
-  </entry>
-  <entry>
-    <title>Desktop Canary v2.2.15-canary.48</title>
-    <link href="https://github.com/lobehub/lobehub/releases/tag/v2.2.15-canary.48"/>
-    <id>https://github.com/lobehub/lobehub/releases/tag/v2.2.15-canary.48</id>
-    <updated>2026-08-22T12:44:15.000Z</updated>
-    <author><name>lobehub/lobe-chat</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>🐤 Canary Build — v2.2.15-canary.48 Automated canary build from canary branch. Commit Information Based on changes since v2.2.15-canary.47 Commit count: 2 388773ab53 🐛 fix(messenger): make pushed attachments actually reach Telegram and WeChat ( #18561 ) (Rdmclin2) e93f3c2394 🐛 fix(heterogeneous-agent): persist server — Also covered by: lobehub/lobe-chat, lobehub/lobe-chat</summary>
   </entry>
   <entry>
     <title>Pointed! Bloomberg's Weekly News Quiz For Risk-Takers</title>
@@ -214,22 +232,13 @@
     <summary>US colleges are confronting a prolonged demographic squeeze as the number of high school graduates, after peaking in 2025, is projected to decline 13% through 2041, putting particular pressure on regional schools with limited endowments. Joining David Gura and Christina Ruffini on Bloomberg This Weekend is Carleton Col</summary>
   </entry>
   <entry>
-    <title>How Claude Watermarks AI-Generated Text</title>
-    <link href="https://magazine.sebastianraschka.com/p/claude-watermarking"/>
-    <id>https://magazine.sebastianraschka.com/p/claude-watermarking</id>
-    <updated>2026-08-22T11:11:39.000Z</updated>
-    <author><name>Ahead of AI (Raschka)</name></author>
-    <category term="RESEARCH"/>
-    <summary>A 48-minute video walkthrough of token sampling, watermark detection, and removal</summary>
-  </entry>
-  <entry>
-    <title>GLM-5.3 vs. GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing</title>
-    <link href="https://www.together.ai/blog/glm-5-3-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing"/>
-    <id>https://www.together.ai/blog/glm-5-3-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing</id>
-    <updated>2026-08-21T00:00:00.000Z</updated>
-    <author><name>Together AI Blog</name></author>
+    <title>Best GPU Neoclouds 2026: CoreWeave, Nebius, Lambda, Crusoe, and Groq Ranked by Published Pricing and Contracted Power</title>
+    <link href="https://www.marktechpost.com/2026/08/21/best-gpu-neoclouds-2026"/>
+    <id>https://www.marktechpost.com/2026/08/21/best-gpu-neoclouds-2026</id>
+    <updated>2026-08-21T23:20:12.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="PRODUCTS"/>
-    <summary>We ran 904 DeepSWE rollouts on GLM-5.3 and GPT-5.6 Sol. Sol leads pass@1 by 3.7 points; GLM-5.3 wins pass@4 at half the cost, and a GLM-first cascade hits 85.9%. — Also covered by: Together AI Blog</summary>
+    <summary>The five largest GPU neoclouds now run on very different models. CoreWeave and Nebius report to the SEC; Lambda and Crusoe are private and heading toward IPOs; Groq rebuilt itself as an inference cloud after licensing its LPU technology to NVIDIA. This comparison checks each provider's live rate card, Q2 2026 financial</summary>
   </entry>
   <entry>
     <title>Logitech faces lawsuit for withholding $61M in tariff refunds from customers — lawsuit claims company extracted up to $97M from consumers in 2026 through tariff-justified price increases</title>
@@ -250,30 +259,21 @@
     <summary>Patrick and Jeff Geerling are at the Micro Center in Columbus, Ohio for the new store's grand reopening today The post Patrick at Micro Center Columbus Ohio Grand Reopening with Jeff Geerling appeared first on ServeTheHome .</summary>
   </entry>
   <entry>
-    <title>When a model reads a drug's class from its name—not its knowledge</title>
-    <link href="https://allenai.org/blog/olmo-drug-morphology"/>
-    <id>https://allenai.org/blog/olmo-drug-morphology</id>
-    <updated>2026-08-18T08:00:00.000Z</updated>
+    <title>How a Georgia Tech team used the open Olmo stack to trace social reasoning</title>
+    <link href="https://allenai.org/blog/olmo-capability-tracing"/>
+    <id>https://allenai.org/blog/olmo-capability-tracing</id>
+    <updated>2026-08-21T08:00:00.000Z</updated>
     <author><name>Ai2 (Allen Institute)</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>Researchers used Olmo 3 and its open training data to show that models can infer a drug’s class from its name instead of knowing the specific medication, and traced that shortcut to how often drugs appeared in training.</summary>
+    <summary>A Georgia Tech team used Ai2’s fully open Olmo stack to trace social reasoning back to the training data that shaped it, finding that dialogue-rich, interpersonal writing had an outsized influence on the capability.</summary>
   </entry>
   <entry>
-    <title>The Instrumental Convergence of Crowds</title>
-    <link href="https://www.lesswrong.com/posts/F4pWwtMFTebKZzxFL/the-instrumental-convergence-of-crowds"/>
-    <id>https://www.lesswrong.com/posts/F4pWwtMFTebKZzxFL/the-instrumental-convergence-of-crowds</id>
-    <updated>2026-08-22T13:20:06.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>tldr : There seems to be a dynamic closely related to instrumental convergence that occurs when many agents with diverse goals interact. Epistemic Status : I think there is a version of this that is trivial and obvious, and a version that is empirically false. But somewhere in between the two there is a useful concept.</summary>
-  </entry>
-  <entry>
-    <title>The AI Agent Execution Gap: Securing What Happens After an Agent Decides to Act | Straiker</title>
-    <link href="https://www.straiker.ai/blog/ai-agent-execution-gap-runtime-security"/>
-    <id>https://www.straiker.ai/blog/ai-agent-execution-gap-runtime-security</id>
-    <updated>2026-08-21T21:30:00.000Z</updated>
-    <author><name>Straiker STAR</name></author>
-    <category term="AI SECURITY"/>
-    <summary>Learn how AI agent runtime security uses context to protect tool calls, MCP servers, Skills, APIs, and agent actions, securing agents before they create impact.</summary>
+    <title>Meet S1-mini: Superwhisper’s 462 MB Open-Weights Text Normalizer That Turns Raw ASR Transcripts Into Clean Written Text</title>
+    <link href="https://www.marktechpost.com/2026/08/20/meet-s1-mini-superwhispers-462-mb-open-weights-text-normalizer-that-turns-raw-asr-transcripts-into-clean-written-text"/>
+    <id>https://www.marktechpost.com/2026/08/20/meet-s1-mini-superwhispers-462-mb-open-weights-text-normalizer-that-turns-raw-asr-transcripts-into-clean-written-text</id>
+    <updated>2026-08-20T22:23:17.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>S1-mini is a 462 MB open-weights normalizer that sits after ASR, removing fillers and resolving self-corrections locally. The post Meet S1-mini: Superwhisper’s 462 MB Open-Weights Text Normalizer That Turns Raw ASR Transcripts Into Clean Written Text appeared first on MarkTechPost .</summary>
   </entry>
 </feed>
