@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-22T12:55:03.613Z</updated>
+  <updated>2026-08-22T13:38:42.547Z</updated>
   <entry>
-    <title>llama.cpp b10581 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10581"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10581</id>
-    <updated>2026-08-22T10:14:49.000Z</updated>
+    <title>llama.cpp b10582 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10582"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10582</id>
+    <updated>2026-08-22T12:59:19.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>model : support DSpark for bailingmoe3 ( #27508 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42309942 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
+    <summary>ci : Restore ROCm job for Ubuntu ( #27399 ) Revert &quot;ci : disable ubuntu-rocm ( #26969 )&quot; This reverts commit 9558fa4 . ci: set ccache compiler_check=content for ROCm build The ROCm toolchain is pip-installed fresh on every run, so the clang binary's mtime changes each time. With ccache's default compiler_check=mtime th — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
   </entry>
   <entry>
     <title>Qualcomm Modular Open-Sourced at ModCon 2026</title>
@@ -52,13 +52,13 @@
     <summary>A study from researchers at Princeton University and UC San Diego finds that so-called skills make AI agents better mainly through structured workflows, not through added knowledge. But as the skill library grows, agents have a harder and harder time finding the right set of instructions. The article Study explains why</summary>
   </entry>
   <entry>
-    <title>Supreme Court Keeps Trump Ballroom Work Going</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-22/supreme-court-keeps-trump-ballroom-work-going-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-22/supreme-court-keeps-trump-ballroom-work-going-video</id>
-    <updated>2026-08-22T12:06:08.000Z</updated>
+    <title>Canada Pushes Back as US Trade Talks Collapse</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-22/canada-pushes-back-as-us-trade-talks-collapse-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-22/canada-pushes-back-as-us-trade-talks-collapse-video</id>
+    <updated>2026-08-22T13:22:41.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Chief Justice John Roberts temporarily allowed construction of President Donald Trump’s White House ballroom to continue while the Supreme Court considers whether to grant a longer stay, after lower courts said the project required congressional authorization. Bloomberg News Supreme Court Reporter Greg Stohr joins host</summary>
+    <summary>Bloomberg News Executive Editor for Canada Derek Decloet joins David Gura and Christina Ruffini on Bloomberg This Weekend and explains that Canadians are frustrated but not necessarily surprised after last-minute US-Canada negotiations collapsed, triggering 50% US tariffs on about $20 billion of Canadian goods and a do</summary>
   </entry>
   <entry>
     <title>Psychological methods reveal major weaknesses in AI security testing</title>
@@ -79,13 +79,22 @@
     <summary>RayNeo is launching a new headset without a camera or speakers. The article RayNeo's new AI glasses skip the camera, focus on text overlays appeared first on The Decoder .</summary>
   </entry>
   <entry>
-    <title>The AI Spending Spree Comes With a Catch</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-22/the-ai-spending-spree-comes-with-a-catch-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-22/the-ai-spending-spree-comes-with-a-catch-video</id>
-    <updated>2026-08-22T12:03:21.000Z</updated>
+    <title>BTW: Headlines You May Have Missed</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-22/btw-headlines-you-may-have-missed-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-22/btw-headlines-you-may-have-missed-video</id>
+    <updated>2026-08-22T12:48:13.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="HARDWARE"/>
-    <summary>Sam Palmisano says the AI boom is built on long-cycle bets in data centers, chips and energy, even as AI software changes at breakneck speed. If adoption slows or cheaper Chinese open-source models gain traction, Big Tech may have to rethink the spending plans behind today’s AI race. (Source: Bloomberg)</summary>
+    <summary>LinkedIn becoming a dating site, ghost jobs, fun at home, and farmers saying no to data centers: Alexis Christoforous joins David Gura and Christina Ruffini on Bloomberg This Weekend to share headlines from this week that may have gone under the radar. (Source: Bloomberg)</summary>
+  </entry>
+  <entry>
+    <title>Chinese AI Models Gain Ground on Price and Use</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-22/chinese-ai-models-gain-ground-on-price-and-use-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-22/chinese-ai-models-gain-ground-on-price-and-use-video</id>
+    <updated>2026-08-22T12:18:06.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Chinese AI models are rapidly narrowing the performance gap with US rivals while gaining users with lower prices and open-weight technology that lets companies deploy them locally. Bloomberg News Tech Reporter Luz Ding is on Bloomberg This Weekend and explains to hosts David Gura and Christina Ruffini that Chinese AI M</summary>
   </entry>
   <entry>
     <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
@@ -97,13 +106,13 @@
     <summary>This Symposium is a one-day event to address the question: “ which medical measurements and consensus standards should be prioritized to support future U.S. healthcare?” The focus will be on medical imaging, medical devices, and diagnostics. The goal</summary>
   </entry>
   <entry>
-    <title>Microsoft blames Windows gaming issues on RGB lighting devices</title>
-    <link href="https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-windows-gaming-issues-on-rgb-lighting-devices"/>
-    <id>https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-windows-gaming-issues-on-rgb-lighting-devices</id>
-    <updated>2026-08-21T14:54:49.000Z</updated>
+    <title>Named Pipes Under Attack: Securing Windows Interprocess Communication</title>
+    <link href="https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication"/>
+    <id>https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication</id>
+    <updated>2026-08-22T13:00:09.000Z</updated>
     <author><name>BleepingComputer</name></author>
     <category term="CYBER THREATS"/>
-    <summary>Microsoft says ongoing issues causing games to crash or fail to launch after installing the August 2026 Windows updates may be caused by peripherals with RGB lighting. [...]</summary>
+    <summary>Windows named pipes provide fast interprocess communication, but weak access controls can expose privileged services to untrusted processes. ThreatLocker explains how endpoint verification, command authorization, strict input validation, and narrowly scoped privileges can help secure named-pipe communication. [...]</summary>
   </entry>
   <entry>
     <title>Connecting the Dots: Securing the Overlooked Corners of the Software Development Lifecycle (SDLC) Supply Chain</title>
@@ -124,13 +133,13 @@
     <summary>Improvements in AI, satellite navigation, and machine vision are helping robotic lawn mowers spread in the U.S., writes Sunseeker's founder. The post The technology that could bring robot mowers to one in two American lawns appeared first on The Robot Report .</summary>
   </entry>
   <entry>
-    <title>Lionel Martellini (EDHEC Quantum Institute): Why business leaders need quantum awareness, not quantum washing</title>
-    <link href="https://thequantuminsider.com/2026/08/22/lionel-martellini-edhec-quantum-institute-why-business-leaders-need-quantum-awareness-not-quantum-washing"/>
-    <id>https://thequantuminsider.com/2026/08/22/lionel-martellini-edhec-quantum-institute-why-business-leaders-need-quantum-awareness-not-quantum-washing</id>
-    <updated>2026-08-22T07:30:00.000Z</updated>
-    <author><name>The Quantum Insider</name></author>
+    <title>Brookhaven Lab and Stony Brook Demonstrate First US Free-Space Quantum Network Link Across 13 Miles</title>
+    <link href="https://quantumcomputingreport.com/brookhaven-lab-and-stony-brook-demonstrate-first-us-free-space-quantum-network-link-across-13-miles"/>
+    <id>https://quantumcomputingreport.com/brookhaven-lab-and-stony-brook-demonstrate-first-us-free-space-quantum-network-link-across-13-miles</id>
+    <updated>2026-08-22T02:48:24.000Z</updated>
+    <author><name>Quantum Computing Report</name></author>
     <category term="QUANTUM"/>
-    <summary>Yuval Boger interviews Lionel Martellini, finance professor at the EDHEC and founding director of the EDHEC Quantum Institute. Lionel describes his unusual path from finance to astrophysics and why business schools should teach quantum awareness to future leaders. They discuss core quantum concepts, the danger of overh</summary>
+    <summary>A map shows Brookhaven National Laboratory, Stony Brook University, and Yale University — the three institutions hosting facilities that form a free-space optical (FSO) link. Researchers at the U.S. Department of Energy’s (DOE) Brookhaven National Laboratory and Stony Brook University (SUNY) have demonstrated the first</summary>
   </entry>
   <entry>
     <title>World models that ignore human beliefs predict the wrong actions, new research shows</title>
@@ -178,13 +187,22 @@
     <summary>🐤 Canary Build — v2.2.15-canary.48 Automated canary build from canary branch. Commit Information Based on changes since v2.2.15-canary.47 Commit count: 2 388773ab53 🐛 fix(messenger): make pushed attachments actually reach Telegram and WeChat ( #18561 ) (Rdmclin2) e93f3c2394 🐛 fix(heterogeneous-agent): persist server — Also covered by: lobehub/lobe-chat, lobehub/lobe-chat</summary>
   </entry>
   <entry>
-    <title>BTW: Headlines You May Have Missed</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-22/btw-headlines-you-may-have-missed-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-22/btw-headlines-you-may-have-missed-video</id>
-    <updated>2026-08-22T12:48:13.000Z</updated>
+    <title>Supreme Court Keeps Trump Ballroom Work Going</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-22/supreme-court-keeps-trump-ballroom-work-going-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-22/supreme-court-keeps-trump-ballroom-work-going-video</id>
+    <updated>2026-08-22T12:06:08.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>LinkedIn becoming a dating site, ghost jobs, fun at home, and farmers saying no to data centers: Alexis Christoforous joins David Gura and Christina Ruffini on Bloomberg This Weekend to share headlines from this week that may have gone under the radar. (Source: Bloomberg)</summary>
+    <summary>Chief Justice John Roberts temporarily allowed construction of President Donald Trump’s White House ballroom to continue while the Supreme Court considers whether to grant a longer stay, after lower courts said the project required congressional authorization. Bloomberg News Supreme Court Reporter Greg Stohr joins host</summary>
+  </entry>
+  <entry>
+    <title>Russia’s Rosatom Returns Workers to Iran’s Bushehr Nuclear Plant</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-22/russia-s-rosatom-returns-workers-to-iran-s-bushehr-nuclear-plant"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-22/russia-s-rosatom-returns-workers-to-iran-s-bushehr-nuclear-plant</id>
+    <updated>2026-08-22T13:15:26.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Russia state-owned atomic energy company Rosatom is continuing to return employees to Iran’s Bushehr nuclear power plant, Interfax reported, citing the company’s Chief Executive Officer Alexey Likhachev.</summary>
   </entry>
   <entry>
     <title>How Claude Watermarks AI-Generated Text</title>
@@ -196,13 +214,13 @@
     <summary>A 48-minute video walkthrough of token sampling, watermark detection, and removal</summary>
   </entry>
   <entry>
-    <title>sglang v0.5.18 released</title>
-    <link href="https://github.com/sgl-project/sglang/releases/tag/v0.5.18"/>
-    <id>https://github.com/sgl-project/sglang/releases/tag/v0.5.18</id>
-    <updated>2026-08-22T00:09:15.000Z</updated>
-    <author><name>sgl-project/sglang</name></author>
+    <title>Best GPU Neoclouds 2026: CoreWeave, Nebius, Lambda, Crusoe, and Groq Ranked by Published Pricing and Contracted Power</title>
+    <link href="https://www.marktechpost.com/2026/08/21/best-gpu-neoclouds-2026"/>
+    <id>https://www.marktechpost.com/2026/08/21/best-gpu-neoclouds-2026</id>
+    <updated>2026-08-21T23:20:12.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
-    <summary>Highlights 710 PRs from 212 contributors. New models in this release (see the cookbook for all supported models): Model Type PRs Cookbook Muse Glimmer Autoregressive (Multimodal) #34262 link Intern-S2-Mobius Autoregressive #33691 link SANA-Video Diffusion #32921 link LingBot-Video-MoE Diffusion #32341 link LTX-2.5 Diff</summary>
+    <summary>The five largest GPU neoclouds now run on very different models. CoreWeave and Nebius report to the SEC; Lambda and Crusoe are private and heading toward IPOs; Groq rebuilt itself as an inference cloud after licensing its LPU technology to NVIDIA. This comparison checks each provider's live rate card, Q2 2026 financial</summary>
   </entry>
   <entry>
     <title>Accelerating aircraft IFEC diagnostics with agentic AI on AWS</title>
@@ -214,13 +232,13 @@
     <summary>Panasonic Avionics worked with AWS and the AWS Generative AI Innovation Center to build an agentic AI system on Amazon Bedrock, Amazon SageMaker, and AWS Glue that diagnoses in-flight entertainment and connectivity (IFEC) issues across a global fleet, reducing diagnosis time from hours to minutes while maintaining accu</summary>
   </entry>
   <entry>
-    <title>GLM-5.3 vs. GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing</title>
-    <link href="https://www.together.ai/blog/glm-5-3-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing"/>
-    <id>https://www.together.ai/blog/glm-5-3-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing</id>
-    <updated>2026-08-21T00:00:00.000Z</updated>
-    <author><name>Together AI Blog</name></author>
-    <category term="PRODUCTS"/>
-    <summary>We ran 904 DeepSWE rollouts on GLM-5.3 and GPT-5.6 Sol. Sol leads pass@1 by 3.7 points; GLM-5.3 wins pass@4 at half the cost, and a GLM-first cascade hits 85.9%. — Also covered by: Together AI Blog</summary>
+    <title>This week on Tom's Hardware Premium: August 22, 2026 — foundries, supercomputers, China, and how to not overpay on a motherboard</title>
+    <link href="https://www.tomshardware.com/tech-industry/this-week-on-toms-hardware-premium-august-22-2026-foundries-supercomputers-china-and-how-to-not-overpay-on-a-motherboard"/>
+    <id>https://www.tomshardware.com/tech-industry/this-week-on-toms-hardware-premium-august-22-2026-foundries-supercomputers-china-and-how-to-not-overpay-on-a-motherboard</id>
+    <updated>2026-08-22T13:00:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <category term="HARDWARE"/>
+    <summary>We recap this week's Tom's Hardware Premium articles, including our latest advice on your next motherboard purchase, a look inside Samsung's Fab roadmaps, and much more.</summary>
   </entry>
   <entry>
     <title>Desktop CPU shipments crater 20% amid high component costs, but AMD gains record share despite 'ugly' desktop processor market — Intel floods laptop market with millions of CPUs, but AMD still sets all-time share records</title>
@@ -232,15 +250,6 @@
     <summary>As Intel boosts output of data center and notebook CPUs, AMD manages to outgrow it and keep capturing market share from its arch-rival.</summary>
   </entry>
   <entry>
-    <title>Chinese AI Models Gain Ground on Price and Use</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-22/chinese-ai-models-gain-ground-on-price-and-use-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-22/chinese-ai-models-gain-ground-on-price-and-use-video</id>
-    <updated>2026-08-22T12:18:06.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Chinese AI models are rapidly narrowing the performance gap with US rivals while gaining users with lower prices and open-weight technology that lets companies deploy them locally. Bloomberg News Tech Reporter Luz Ding is on Bloomberg This Weekend and explains to hosts David Gura and Christina Ruffini that Chinese AI M</summary>
-  </entry>
-  <entry>
     <title>How a Georgia Tech team used the open Olmo stack to trace social reasoning</title>
     <link href="https://allenai.org/blog/olmo-capability-tracing"/>
     <id>https://allenai.org/blog/olmo-capability-tracing</id>
@@ -250,30 +259,21 @@
     <summary>A Georgia Tech team used Ai2’s fully open Olmo stack to trace social reasoning back to the training data that shaped it, finding that dialogue-rich, interpersonal writing had an outsized influence on the capability.</summary>
   </entry>
   <entry>
-    <title>Building a 100x Cheaper Trace Judge with Fireworks</title>
-    <link href="https://www.langchain.com/blog/building-a-100x-cheaper-trace-judge-with-fireworks"/>
-    <id>https://www.langchain.com/blog/building-a-100x-cheaper-trace-judge-with-fireworks</id>
-    <updated>2026-08-21T23:08:46.000Z</updated>
-    <author><name>LangChain Blog</name></author>
+    <title>Meet S1-mini: Superwhisper’s 462 MB Open-Weights Text Normalizer That Turns Raw ASR Transcripts Into Clean Written Text</title>
+    <link href="https://www.marktechpost.com/2026/08/20/meet-s1-mini-superwhispers-462-mb-open-weights-text-normalizer-that-turns-raw-asr-transcripts-into-clean-written-text"/>
+    <id>https://www.marktechpost.com/2026/08/20/meet-s1-mini-superwhispers-462-mb-open-weights-text-normalizer-that-turns-raw-asr-transcripts-into-clean-written-text</id>
+    <updated>2026-08-20T22:23:17.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>S1-mini is a 462 MB open-weights normalizer that sits after ASR, removing fillers and resolving self-corrections locally. The post Meet S1-mini: Superwhisper’s 462 MB Open-Weights Text Normalizer That Turns Raw ASR Transcripts Into Clean Written Text appeared first on MarkTechPost .</summary>
+  </entry>
+  <entry>
+    <title>The Instrumental Convergance of Crowds</title>
+    <link href="https://www.lesswrong.com/posts/F4pWwtMFTebKZzxFL/the-instrumental-convergance-of-crowds"/>
+    <id>https://www.lesswrong.com/posts/F4pWwtMFTebKZzxFL/the-instrumental-convergance-of-crowds</id>
+    <updated>2026-08-22T13:20:06.000Z</updated>
+    <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>LangChain and Fireworks fine-tuned an open model to mine perceived error signals from production traces, matching frontier model performance at a fraction of the cost.</summary>
-  </entry>
-  <entry>
-    <title>Grok Zero-Click Attack Steals Chat Data Using Encrypted Prompt Injection</title>
-    <link href="https://cybersecuritynews.com/grok-zero-click-attack"/>
-    <id>https://cybersecuritynews.com/grok-zero-click-attack</id>
-    <updated>2026-08-22T07:41:15.000Z</updated>
-    <author><name>GN: Prompt Injection</name></author>
-    <category term="AI SECURITY"/>
-    <summary>Grok Zero-Click Attack Steals Chat Data Using Encrypted Prompt Injection CyberSecurityNews — Also covered by: GN: Prompt Injection, GN: Prompt Injection</summary>
-  </entry>
-  <entry>
-    <title>The AI Agent Execution Gap: Securing What Happens After an Agent Decides to Act | Straiker</title>
-    <link href="https://www.straiker.ai/blog/ai-agent-execution-gap-runtime-security"/>
-    <id>https://www.straiker.ai/blog/ai-agent-execution-gap-runtime-security</id>
-    <updated>2026-08-21T21:30:00.000Z</updated>
-    <author><name>Straiker STAR</name></author>
-    <category term="AI SECURITY"/>
-    <summary>Learn how AI agent runtime security uses context to protect tool calls, MCP servers, Skills, APIs, and agent actions, securing agents before they create impact.</summary>
+    <summary>tldr : There seems to be a dynamic closely related to instrumental convergence that occurs when many agents with diverse goals interact. Epistemic Status : I think there is a version of this that is trivial and obvious, and a version that is empirically false. But somewhere in between the two there is a useful concept.</summary>
   </entry>
 </feed>
