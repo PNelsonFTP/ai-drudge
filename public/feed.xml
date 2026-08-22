@@ -5,15 +5,24 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-22T19:29:56.492Z</updated>
+  <updated>2026-08-22T20:33:25.326Z</updated>
   <entry>
-    <title>llama.cpp b10586 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10586"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10586</id>
-    <updated>2026-08-22T16:05:44.000Z</updated>
+    <title>llama.cpp b10587 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10587"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10587</id>
+    <updated>2026-08-22T20:13:41.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>mtmd: use ggml_rope_set_offset ( #27521 ) mtmd: use ggml_rope_set_offset add comment Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42334609 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
+    <summary>vulkan : added the PAD_REFLECT_1D operation ( #26586 ) vulkan : added PAD_REFLECT_1D operation Implemented the GGML_OP_PAD_REFLECT_1D operation for the Vulkan backend Changes: pad_reflect_1d.comp: implemented the GLSL compute shader with reflection logic vulkan-shaders-gen.cpp: register the shader for SPIR-V compilatio — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
+  </entry>
+  <entry>
+    <title>Nvidia customers notified about AI-related price hikes above 15%, Bloomberg News reports</title>
+    <link href="https://www.reuters.com/business/nvidia-customers-notified-about-ai-related-price-hikes-above-15-bloomberg-news-2026-08-22"/>
+    <id>https://www.reuters.com/business/nvidia-customers-notified-about-ai-related-price-hikes-above-15-bloomberg-news-2026-08-22</id>
+    <updated>2026-08-22T19:21:41.000Z</updated>
+    <author><name>Reuters AI (Google News)</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Nvidia customers notified about AI-related price hikes above 15%, Bloomberg News reports Reuters — Also covered by: Bloomberg Tech</summary>
   </entry>
   <entry>
     <title>qwen-code v0.22.0 released</title>
@@ -34,15 +43,6 @@
     <summary>Also covered by: Microsoft Security</summary>
   </entry>
   <entry>
-    <title>Qualcomm Modular Open-Sourced at ModCon 2026</title>
-    <link href="https://www.servethehome.com/qualcomm-modular-amd-open-sourced-at-modcon-2026"/>
-    <id>https://www.servethehome.com/qualcomm-modular-amd-open-sourced-at-modcon-2026</id>
-    <updated>2026-08-18T21:45:38.000Z</updated>
-    <author><name>ServeTheHome</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Qualcomm's Modular software is now open-source as a big announcement from ModCon 2026 and an unexpected guest made an appearance The post Qualcomm Modular Open-Sourced at ModCon 2026 appeared first on ServeTheHome . — Also covered by: ModularML</summary>
-  </entry>
-  <entry>
     <title>ollama v0.33.0 released</title>
     <link href="https://github.com/ollama/ollama/releases/tag/v0.33.0-rc2"/>
     <id>https://github.com/ollama/ollama/releases/tag/v0.33.0-rc2</id>
@@ -52,13 +52,13 @@
     <summary>What's Changed Claude Desktop Ollama now integrates with Claude Turn individual Ollama models on or off for use in Claude, directly from the menu bar Choose from your available Ollama models from within Claude; cloud models appear only when you're signed in A new Apps view manages app integrations with copyable command</summary>
   </entry>
   <entry>
-    <title>Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research</title>
-    <link href="https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research"/>
-    <id>https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research</id>
-    <updated>2026-08-22T19:00:00.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>London-based Inherent, founded by DeepMind alumni and with $50M in seed funding, says its new Faraday agent beats GPT-5.5 at reproducing research paper findings (Anna Heim/TechCrunch)</title>
+    <link href="https://www.techmeme.com/260822/p12"/>
+    <id>https://www.techmeme.com/260822/p12</id>
+    <updated>2026-08-22T20:00:13.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.</summary>
+    <summary>Anna Heim / TechCrunch : London-based Inherent, founded by DeepMind alumni and with $50M in seed funding, says its new Faraday agent beats GPT-5.5 at reproducing research paper findings — Inherent, a London AI lab founded by Google DeepMind alumni, says its AI agent just outperformed much larger models from Anthropic a</summary>
   </entry>
   <entry>
     <title>Juicy Yields Draw Junk Bond Buyers to Investment-Grade AI Debt</title>
@@ -169,40 +169,31 @@
     <summary>RayNeo is launching a new headset without a camera or speakers. The article RayNeo's new AI glasses skip the camera, focus on text overlays appeared first on The Decoder .</summary>
   </entry>
   <entry>
-    <title>World models that ignore human beliefs predict the wrong actions, new research shows</title>
-    <link href="https://the-decoder.com/world-models-that-ignore-human-beliefs-predict-the-wrong-actions-new-research-shows"/>
-    <id>https://the-decoder.com/world-models-that-ignore-human-beliefs-predict-the-wrong-actions-new-research-shows</id>
-    <updated>2026-08-22T09:00:20.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Current world models like Sora or Genie only simulate physics and ignore what people think, want, or feel. The new &quot;Mental World Modeling&quot; framework adds mental variables like beliefs and intentions. Even weaker language models using this approach outperform stronger models without mental modeling. The biggest bottlene</summary>
-  </entry>
-  <entry>
-    <title>A look at the narrowing US-China AI gap, as a spate of compelling, low-cost releases makes Chinese AI models increasingly attractive to businesses (Bloomberg)</title>
-    <link href="https://www.techmeme.com/260822/p8"/>
-    <id>https://www.techmeme.com/260822/p8</id>
-    <updated>2026-08-22T16:40:01.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research</title>
+    <link href="https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research"/>
+    <id>https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research</id>
+    <updated>2026-08-22T19:00:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Bloomberg : A look at the narrowing US-China AI gap, as a spate of compelling, low-cost releases makes Chinese AI models increasingly attractive to businesses — A spate of compelling releases at budget prices have made China the frontrunner in the race for global adoption.</summary>
+    <summary>Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.</summary>
   </entry>
   <entry>
-    <title>Got Qwen3.8-27B-FP8 running on a DGX Spark via lmstack</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vvdwke/got_qwen3827bfp8_running_on_a_dgx_spark_via"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vvdwke/got_qwen3827bfp8_running_on_a_dgx_spark_via</id>
-    <updated>2026-08-22T14:28:55.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>Single RTX 5090: Qwen3.8-27B NVFP4 at a real 262K context in vLLM — 77 tok/s short-context, 64.7 tok/s at 128K</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vvl7pc/single_rtx_5090_qwen3827b_nvfp4_at_a_real_262k"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vvl7pc/single_rtx_5090_qwen3827b_nvfp4_at_a_real_262k</id>
+    <updated>2026-08-22T19:16:31.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Spent this weekend turning a DGX Spark into an actual local inference box instead of hand-SSHing in and fighting vLLM flags myself. Used Claude Code to drive the whole thing through lmstack ( https://github.com/ric03uec/lmstack ), an open-source Ansible stack that puts vLLM behind a LiteLLM gateway. Writing this up bec</summary>
+    <summary>This is the Qwen3.8-27B setup I actually use every day on one RTX 5090. I wanted to write it down with enough detail that another 5090 owner can reproduce it instead of guessing which memory knobs I used. The short version: the full 262,144-token window fits together with vision, FP8 KV, prefix caching, tool calling, a</summary>
   </entry>
   <entry>
-    <title>Your Open Source Model Could Have a Hidden Time-Release Backdoor</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vvgia0/your_open_source_model_could_have_a_hidden"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vvgia0/your_open_source_model_could_have_a_hidden</id>
-    <updated>2026-08-22T16:13:46.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>I forked Ninfer 3090 and converted it to run on the CMP170HX - doubled my Qwen3.6-35B from llama.cpp</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vvjxg1/i_forked_ninfer_3090_and_converted_it_to_run_on"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vvjxg1/i_forked_ninfer_3090_and_converted_it_to_run_on</id>
+    <updated>2026-08-22T18:27:18.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>You can train a backdoor into local models that trigger from the timestamp in Opencode's system prompt. submitted by /u/niwak84329 [link] [comments]</summary>
+    <summary>Good afternoon, everyone! I wanted to show the work I've been doing around porting Ninfer over to the CMP170HX ( Github ) So, first, I do want to call out the amazing work that Neroued , Sergiuszm and specifically Don-Chad have all done, to not take away from vLLM, Llama.cpp and SGLang, but to enable local AI to squeez</summary>
   </entry>
   <entry>
     <title>More than just code review</title>
@@ -214,13 +205,13 @@
     <summary>The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way. Sometimes this involves reviewing every line of code they have written, but there are other ways to achiev</summary>
   </entry>
   <entry>
-    <title>Study explains why AI agents benefit from &quot;skills&quot; and when they fail</title>
-    <link href="https://the-decoder.com/study-explains-why-ai-agents-benefit-from-skills-and-when-they-fail"/>
-    <id>https://the-decoder.com/study-explains-why-ai-agents-benefit-from-skills-and-when-they-fail</id>
-    <updated>2026-08-22T12:15:10.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>A study from researchers at Princeton University and UC San Diego finds that so-called skills make AI agents better mainly through structured workflows, not through added knowledge. But as the skill library grows, agents have a harder and harder time finding the right set of instructions. The article Study explains why</summary>
+    <title>Bloomberg Previews Jackson Hole Symposium</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-22/bloomberg-previews-jackson-hole-symposium-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-22/bloomberg-previews-jackson-hole-symposium-video</id>
+    <updated>2026-08-22T19:40:52.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Bloomberg's Joe Weisenthal, Lisa Abramowicz, Tracy Alloway and Tom Keene preview the Jackson Hole Symposium as all eyes will be on Fed Chairman Kevin Marsh and his first annual symposium address. (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>Bloomberg This Weekend 8/22/2026</title>
@@ -230,15 +221,6 @@
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
     <summary>The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Alexis Christoforous bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Former MI6 Chief Sir Richard Dearlove, American Whiskey Association President &amp; CEO Michael Bilello, The Atla</summary>
-  </entry>
-  <entry>
-    <title>Pointed! Bloomberg's Weekly News Quiz For Risk-Takers</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-22/pointed-bloomberg-s-weekly-news-quiz-for-risk-takers-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-22/pointed-bloomberg-s-weekly-news-quiz-for-risk-takers-video</id>
-    <updated>2026-08-22T15:06:32.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Pointed offers a strategic twist to the news quiz format, testing not just players’ knowledge of the news but also their confidence in their answers. Join Bloomberg's Alexis Christoforous, David Gura, and Christina Ruffini as they play and check out the quiz for yourself at Bloomberg.com (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>Best GPU Neoclouds 2026: CoreWeave, Nebius, Lambda, Crusoe, and Groq Ranked by Published Pricing and Contracted Power</title>
@@ -259,13 +241,13 @@
     <summary>Bloomberg : Sources: some of Nvidia's top customers have been told that prices will jump 15%+ on systems, including Vera Rubin and Grace Blackwell, starting in early 2027 — Some of Nvidia Corp.'s biggest customers have been told that the prices of servers containing its artificial intelligence chips …</summary>
   </entry>
   <entry>
-    <title>Cheap energy, abundant land, and proximity to Beijing have made Ulanqab, Inner Mongolia, a data center hub, with ~100 data centers built or under construction (Zeyi Yang/Wired)</title>
-    <link href="https://www.techmeme.com/260822/p6"/>
-    <id>https://www.techmeme.com/260822/p6</id>
-    <updated>2026-08-22T13:50:01.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Logitech faces lawsuit for withholding $61M in tariff refunds from customers — lawsuit claims company extracted up to $97M from consumers in 2026 through tariff-justified price increases</title>
+    <link href="https://www.tomshardware.com/peripherals/logitech-faces-lawsuit-for-withholding-usd61m-in-tariff-refunds-from-customers-lawsuit-claims-company-extracted-up-to-usd97m-from-consumers-in-2026-through-tariff-justified-price-increases"/>
+    <id>https://www.tomshardware.com/peripherals/logitech-faces-lawsuit-for-withholding-usd61m-in-tariff-refunds-from-customers-lawsuit-claims-company-extracted-up-to-usd97m-from-consumers-in-2026-through-tariff-justified-price-increases</id>
+    <updated>2026-08-22T14:13:50.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
     <category term="HARDWARE"/>
-    <summary>Zeyi Yang / Wired : Cheap energy, abundant land, and proximity to Beijing have made Ulanqab, Inner Mongolia, a data center hub, with ~100 data centers built or under construction — Cheap energy, abundant land, and proximity to Beijing have turned a city in Inner Mongolia into a crucial hub for data centers.</summary>
+    <summary>Consumers who bought products from Logitech after it increased its prices due to tariffs still haven't received their refunds, even after the U.S. government returned $61 million to the company. Now they're suing for their refunds, saying that 'Company extracted approximately $73 million to $97 million from consumers.'</summary>
   </entry>
   <entry>
     <title>Study 2 Registration: Exploring representational counterparts of welfare-relevant indicators under post-training quantization</title>
@@ -275,5 +257,23 @@
     <author><name>LessWrong</name></author>
     <category term="OPEN SOURCE"/>
     <summary>Epistemic status: this is intended as a higher-quality preregistration for the next study in a series originally described in &quot;Does post-training quantization change welfare-relevant indicators in open-weight language models?&quot; ; I have tried to avoid making any claims I cannot support from the results of Study 1 and to</summary>
+  </entry>
+  <entry>
+    <title>How a Georgia Tech team used the open Olmo stack to trace social reasoning</title>
+    <link href="https://allenai.org/blog/olmo-capability-tracing"/>
+    <id>https://allenai.org/blog/olmo-capability-tracing</id>
+    <updated>2026-08-21T08:00:00.000Z</updated>
+    <author><name>Ai2 (Allen Institute)</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>A Georgia Tech team used Ai2’s fully open Olmo stack to trace social reasoning back to the training data that shaped it, finding that dialogue-rich, interpersonal writing had an outsized influence on the capability.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI says California should strengthen its AI safety bill</title>
+    <link href="https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill"/>
+    <id>https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill</id>
+    <updated>2026-08-22T16:30:34.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed.</summary>
   </entry>
 </feed>
