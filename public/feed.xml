@@ -5,24 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-22T08:40:46.282Z</updated>
+  <updated>2026-08-22T09:35:42.668Z</updated>
   <entry>
-    <title>llama.cpp b10577 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10577"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10577</id>
-    <updated>2026-08-22T08:15:13.000Z</updated>
+    <title>llama.cpp b10580 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10580"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10580</id>
+    <updated>2026-08-22T09:35:10.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>common : fix draft-mtp with embeddings ( #26352 , #27299 ) ( #27400 ) common: fix draft-mtp with embeddings ( #26352 ) --whitespace Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42302233 macOS/iOS: macOS Appl — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
-  </entry>
-  <entry>
-    <title>Nvidia partners with data center developer Cloverleaf</title>
-    <link href="https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf"/>
-    <id>https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf</id>
-    <updated>2026-08-21T22:37:38.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Nvidia continues to pour money into data center development — just as AI data centers bring lots of money into Nvidia. — Also covered by: Reuters AI (Google News)</summary>
+    <summary>mtmd: support dots3-note vision+audio ( #27524 ) text: conversion init impl mtmd: conversion impl mtmd cpp Update gguf-py/gguf/tensor_mapping.py Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Website: https://llama.app Attestations: ht — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
   </entry>
   <entry>
     <title>Qualcomm Modular Open-Sourced at ModCon 2026</title>
@@ -151,6 +142,15 @@
     <summary>Yuval Boger interviews Lionel Martellini, finance professor at the EDHEC and founding director of the EDHEC Quantum Institute. Lionel describes his unusual path from finance to astrophysics and why business schools should teach quantum awareness to future leaders. They discuss core quantum concepts, the danger of overh</summary>
   </entry>
   <entry>
+    <title>World models that ignore human beliefs predict the wrong actions, new research shows</title>
+    <link href="https://the-decoder.com/world-models-that-ignore-human-beliefs-predict-the-wrong-actions-new-research-shows"/>
+    <id>https://the-decoder.com/world-models-that-ignore-human-beliefs-predict-the-wrong-actions-new-research-shows</id>
+    <updated>2026-08-22T09:00:20.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Current world models like Sora or Genie only simulate physics and ignore what people think, want, or feel. The new &quot;Mental World Modeling&quot; framework adds mental variables like beliefs and intentions. Even weaker language models using this approach outperform stronger models without mental modeling. The biggest bottlene</summary>
+  </entry>
+  <entry>
     <title>Following abandoned IPO attempts in NYC and London, Shein is struggling to grow as it nears a Hong Kong listing at a fraction of its peak valuation of $100B (Sui-Lee Wee/New York Times)</title>
     <link href="https://www.techmeme.com/260822/p1"/>
     <id>https://www.techmeme.com/260822/p1</id>
@@ -160,13 +160,13 @@
     <summary>Sui-Lee Wee / New York Times : Following abandoned IPO attempts in NYC and London, Shein is struggling to grow as it nears a Hong Kong listing at a fraction of its peak valuation of $100B — Facing pressure in the United States and Europe, Shein is struggling to find new ways to grow ahead of its much-delayed initial pu</summary>
   </entry>
   <entry>
-    <title>Bro wtf, Qwen Lab cooked with Qwen 3.8 27B, it's so fucking good</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vv47sr/bro_wtf_qwen_lab_cooked_with_qwen_38_27b_its_so"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vv47sr/bro_wtf_qwen_lab_cooked_with_qwen_38_27b_its_so</id>
-    <updated>2026-08-22T06:01:31.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>5090 + vLLM: Qwen3.8-27B NVFP4, 196k ctx, ~143 t/s bench / 90–115 live, 44 GB CPU KV offload — full config inside, what would you change?</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1vv5j3y/5090_vllm_qwen3827b_nvfp4_196k_ctx_143_ts_bench"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1vv5j3y/5090_vllm_qwen3827b_nvfp4_196k_ctx_143_ts_bench</id>
+    <updated>2026-08-22T07:15:01.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Context: Earlier, open-source large models like Mimo V2.5 Pro, DeepSeek V4 Pro (first version), and Kimi K2.5 used to struggle with this prompt, and Qwen 3.6 27B couldn't even render the globe properly. But now, Qwen 3.8 27B is so much better than the previous model. I hope qwen publishes some papers that may help othe</summary>
+    <summary>I've been running Qwen3.8-27B on a single RTX 5090 (32 GB) with vLLM and I think I've squeezed it close to what the card can do. Posting the full setup + measured numbers because the shared benchmark tables online don't say which quant/kernel path produced them. The box RTX 5090 32 GB (SM120), 64 GB DDR5, Ubuntu, Docke</summary>
   </entry>
   <entry>
     <title>Deepseek releases experimental Flash vision model that rivals Opus 4.8 on agent benchmarks</title>
@@ -232,13 +232,13 @@
     <summary>There's about to be a big fight to secure access to space.</summary>
   </entry>
   <entry>
-    <title>Data center opposition surged from 42 to 75 percent in just one year, survey finds</title>
-    <link href="https://the-decoder.com/data-center-opposition-surged-from-42-to-75-percent-in-just-one-year-survey-finds"/>
-    <id>https://the-decoder.com/data-center-opposition-surged-from-42-to-75-percent-in-just-one-year-survey-finds</id>
-    <updated>2026-08-21T18:25:44.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>Nvidia partners with data center developer Cloverleaf</title>
+    <link href="https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf"/>
+    <id>https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf</id>
+    <updated>2026-08-21T22:37:38.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="HARDWARE"/>
-    <summary>Three out of four Americans now oppose having a data center built near them, up from an even split just a year ago, according to a Heatmap News survey. 61 percent are &quot;strongly opposed.&quot; The article Data center opposition surged from 42 to 75 percent in just one year, survey finds appeared first on The Decoder .</summary>
+    <summary>Nvidia continues to pour money into data center development — just as AI data centers bring lots of money into Nvidia.</summary>
   </entry>
   <entry>
     <title>Meet S1-mini: Superwhisper’s 462 MB Open-Weights Text Normalizer That Turns Raw ASR Transcripts Into Clean Written Text</title>
