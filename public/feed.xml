@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-23T12:56:23.518Z</updated>
+  <updated>2026-08-23T13:39:18.937Z</updated>
   <entry>
-    <title>llama.cpp b10593 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10593"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10593</id>
-    <updated>2026-08-23T11:41:45.000Z</updated>
+    <title>llama.cpp b10594 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10594"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10594</id>
+    <updated>2026-08-23T13:23:17.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>DeepseekV4: fix rollback with multi-seq ( #26756 ) DeepseekV4: fix rollback with multi-seq fix model loading make pending rollback single use only clear cache for seq_id for full load add assert for compress ratio make graph topology static pass true instead of flags in clear_compressed cont : clean-up + TODOs Co-autho — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
+    <category term="LOCAL MODELS"/>
+    <summary>common : skip device_info loop if it's not going to be printed ( #26692 ) The device_info loop iterates over the discovered devices and gets the available and total memory counts. With the CUDA backend (and possibly others too) this requires creating a GPU context, which, in case of CUDA, results in a 550 MB VRAM alloc — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
   </entry>
   <entry>
     <title>Nvidia customers notified about AI-related price hikes above 15%, Bloomberg News reports</title>
@@ -43,6 +43,15 @@
     <summary>Qualcomm's Modular software is now open-source as a big announcement from ModCon 2026 and an unexpected guest made an appearance The post Qualcomm Modular Open-Sourced at ModCon 2026 appeared first on ServeTheHome . — Also covered by: ModularML</summary>
   </entry>
   <entry>
+    <title>An AI boss fired its first employee but only after humans reminded it of its own rules</title>
+    <link href="https://the-decoder.com/an-ai-boss-fired-its-first-employee-but-only-after-humans-reminded-it-of-its-own-rules"/>
+    <id>https://the-decoder.com/an-ai-boss-fired-its-first-employee-but-only-after-humans-reminded-it-of-its-own-rules</id>
+    <updated>2026-08-23T12:31:59.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Andon Labs' AI agent Luna fired a human employee at a San Francisco store for the first time but needed a clear push from the operators to do it. When the scenario was replayed with seven models, more capable AIs recommended termination more consistently, while weaker ones hesitated. When it came to hiring, nearly all </summary>
+  </entry>
+  <entry>
     <title>Alibaba launches $10 billion Hong Kong share placement to fund AI spending</title>
     <link href="https://www.reuters.com/business/retail-consumer/alibaba-proposes-hong-kong-share-placement-worth-10-billion-2026-08-23"/>
     <id>https://www.reuters.com/business/retail-consumer/alibaba-proposes-hong-kong-share-placement-worth-10-billion-2026-08-23</id>
@@ -52,40 +61,22 @@
     <summary>Alibaba launches $10 billion Hong Kong share placement to fund AI spending Reuters</summary>
   </entry>
   <entry>
-    <title>An AI boss fired its first employee but only after humans reminded it of its own rules</title>
-    <link href="https://the-decoder.com/an-ai-boss-fired-its-first-employee-but-only-after-humans-reminded-it-of-its-own-rules"/>
-    <id>https://the-decoder.com/an-ai-boss-fired-its-first-employee-but-only-after-humans-reminded-it-of-its-own-rules</id>
-    <updated>2026-08-23T12:31:59.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Andon Labs' AI agent Luna fired a human employee at a San Francisco store for the first time but needed a clear push from the operators to do it. When the scenario was replayed with seven models, more capable AIs recommended termination more consistently, while weaker ones hesitated. When it came to hiring, nearly all </summary>
-  </entry>
-  <entry>
-    <title>Can Canada Still Trust America on Trade?</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-23/can-canada-still-trust-america-on-trade-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-23/can-canada-still-trust-america-on-trade-video</id>
-    <updated>2026-08-23T12:03:59.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
+    <title>Alibaba announces $10.2bn share placement as Chinese companies expand AI investment</title>
+    <link href="https://www.ft.com/content/e4ab027e-ed41-48b7-89ac-8250d3054ae6?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/e4ab027e-ed41-48b7-89ac-8250d3054ae6?syn-25a6b1a6=1</id>
+    <updated>2026-08-23T08:33:27.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
     <category term="AI FINANCE"/>
-    <summary>Chrystia Freeland says a tentative US-Canada trade agreement may prevent new US tariffs from taking effect, but only if Canada makes major concessions including easing retaliation, allowing US alcohol back into provincial stores and aligning with Washington on some digital issues. Existing US tariffs on Canadian steel,</summary>
+    <summary>Equity issuance follows a strong reception for its latest Qwen 3.8-Max model</summary>
   </entry>
   <entry>
-    <title>Exploring Speculative Decoding in vLLM on AMD GPUs</title>
-    <link href="https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus"/>
-    <id>https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus</id>
-    <updated>2026-08-23T00:00:00.000Z</updated>
-    <author><name>vLLM Blog</name></author>
+    <title>Vercel Introduces ‘Is Agentic’, a Free Agent-Readiness Scoring Tool That Audits Public Websites Using Ora’s 100+ Checks</title>
+    <link href="https://www.marktechpost.com/2026/08/23/vercel-introduces-is-agentic-a-free-agent-readiness-scoring-tool-that-audits-public-websites-using-oras-100-checks"/>
+    <id>https://www.marktechpost.com/2026/08/23/vercel-introduces-is-agentic-a-free-agent-readiness-scoring-tool-that-audits-public-websites-using-oras-100-checks</id>
+    <updated>2026-08-23T07:37:14.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
-    <summary>A practical guide to speculative decoding in vLLM on AMD GPUs, covering draft-and-verify mechanics, MTP, EAGLE-3, DFlash, DSpark, configuration, tuning, and benchmark results.</summary>
-  </entry>
-  <entry>
-    <title>Memory shortage reportedly drives Nvidia AI server prices up about 15 percent</title>
-    <link href="https://the-decoder.com/memory-shortage-reportedly-drives-nvidia-ai-server-prices-up-about-15-percent"/>
-    <id>https://the-decoder.com/memory-shortage-reportedly-drives-nvidia-ai-server-prices-up-about-15-percent</id>
-    <updated>2026-08-23T08:15:28.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="HARDWARE"/>
-    <summary>Nvidia servers with Vera Rubin and Grace Blackwell chips are set to cost about 15 percent more due to an ongoing DRAM shortage from Samsung, SK Hynix, and Micron, Bloomberg reports. The price hikes hit cloud giants like Microsoft, Google, and Meta, which are pouring billions into AI infrastructure while bankrolling the</summary>
+    <summary>Vercel and Ora launched Is Agentic, a free audit scoring website readiness for AI agents across 118 checks. The post Vercel Introduces ‘Is Agentic’, a Free Agent-Readiness Scoring Tool That Audits Public Websites Using Ora’s 100+ Checks appeared first on MarkTechPost .</summary>
   </entry>
   <entry>
     <title>Sources: Nvidia plans to use its $6B deal with Poolside to build an open-weight AI model to compete with Chinese models like DeepSeek and Kimi (Robbie Whelan/Wall Street Journal)</title>
@@ -115,13 +106,13 @@
     <summary>How AI Guardrails Get Bypassed: Jailbreaks, Prompt Injection and 2026 Defenses Pasquale Pillitteri</summary>
   </entry>
   <entry>
-    <title>Fake GTA VI ISO circulates on the internet a few days after leak, internet sleuths claim 113GB download is padded malware — testers claim file is 99.99% empty zeroes with 50KB virus embedded</title>
-    <link href="https://www.tomshardware.com/video-games/fake-gta-vi-iso-circulates-on-the-internet-a-few-days-after-leak-internet-sleuths-claim-113gb-download-is-padded-malware-testers-claim-file-is-99-99-percent-empty-zeroes-with-50kb-virus-embedded"/>
-    <id>https://www.tomshardware.com/video-games/fake-gta-vi-iso-circulates-on-the-internet-a-few-days-after-leak-internet-sleuths-claim-113gb-download-is-padded-malware-testers-claim-file-is-99-99-percent-empty-zeroes-with-50kb-virus-embedded</id>
-    <updated>2026-08-23T12:45:00.000Z</updated>
+    <title>Self-driving Ford F-250 truck with shotgun-equipped drone-killing turret tested by US Army — autonomous system designed to blast fast-moving drones at between 10 and 100 meters range</title>
+    <link href="https://www.tomshardware.com/tech-industry/drones/self-driving-ford-f-250-truck-with-shotgun-equipped-drone-killing-turret-tested-by-us-army-autonomous-system-designed-to-blast-fast-moving-drones-at-between-10-and-100-meters-range"/>
+    <id>https://www.tomshardware.com/tech-industry/drones/self-driving-ford-f-250-truck-with-shotgun-equipped-drone-killing-turret-tested-by-us-army-autonomous-system-designed-to-blast-fast-moving-drones-at-between-10-and-100-meters-range</id>
+    <updated>2026-08-23T13:19:17.000Z</updated>
     <author><name>Tom's Hardware</name></author>
     <category term="CYBER THREATS"/>
-    <summary>A 113GB GTA VI ISO file is circulating on the internet, with its file name making it seem like it was the game build that Cyberleek is allegedly in possession of. But upon further investigation, it appears to just be a 50KB virus padded with zeroes to make it look like the real thing.</summary>
+    <summary>The US Army tested an autonomous breaching vehicle with an onboard counter-UAS turret during a live-fire exercise at Fort Bragg on August 18.</summary>
   </entry>
   <entry>
     <title>Connecting the Dots: Securing the Overlooked Corners of the Software Development Lifecycle (SDLC) Supply Chain</title>
@@ -169,6 +160,15 @@
     <summary>So yeah, Anthropic has announced that it’s now watermarking the outputs of Claude, using a scheme based on Google’s SynthID, which is in turn based on the Gumbel Softmax scheme that I proposed at OpenAI back in 2022—as far as I know, the first LLM watermarking proposal, though far from the last one. I’m gratified […]</summary>
   </entry>
   <entry>
+    <title>Memory shortage reportedly drives Nvidia AI server prices up about 15 percent</title>
+    <link href="https://the-decoder.com/memory-shortage-reportedly-drives-nvidia-ai-server-prices-up-about-15-percent"/>
+    <id>https://the-decoder.com/memory-shortage-reportedly-drives-nvidia-ai-server-prices-up-about-15-percent</id>
+    <updated>2026-08-23T08:15:28.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Nvidia servers with Vera Rubin and Grace Blackwell chips are set to cost about 15 percent more due to an ongoing DRAM shortage from Samsung, SK Hynix, and Micron, Bloomberg reports. The price hikes hit cloud giants like Microsoft, Google, and Meta, which are pouring billions into AI infrastructure while bankrolling the</summary>
+  </entry>
+  <entry>
     <title>A profile of Judge Yvonne Gonzalez Rogers, who is presiding over US state AGs' social media addiction lawsuit against Meta and oversaw the Musk v. Altman trial (Jeffrey Kopp/CNBC)</title>
     <link href="https://www.techmeme.com/260823/p4"/>
     <id>https://www.techmeme.com/260823/p4</id>
@@ -214,49 +214,49 @@
     <summary>AI agents have consumed more tokens than humans on OpenRouter since February 6, 2025. Agentic usage has grown 14x since then, while human usage is up just 2.8x. Nearly 70 percent of agent token consumption comes from cheap cached prompts, though, so actual costs are rising far more slowly than the raw numbers suggest. </summary>
   </entry>
   <entry>
-    <title>Desktop Canary v2.2.15-canary.56</title>
-    <link href="https://github.com/lobehub/lobehub/releases/tag/v2.2.15-canary.56"/>
-    <id>https://github.com/lobehub/lobehub/releases/tag/v2.2.15-canary.56</id>
-    <updated>2026-08-23T10:27:53.000Z</updated>
-    <author><name>lobehub/lobe-chat</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>🐤 Canary Build — v2.2.15-canary.56 Automated canary build from canary branch. Commit Information Based on changes since v2.2.15-canary.55 Commit count: 12 5cf4638a1c 🐛 fix(heterogeneous-agent): make the server-default binding usable end to end ( #18621 ) (LiJian) 9031535652 🔖 chore(cli): bump version to 0.0.49 ( #18 — Also covered by: lobehub/lobe-chat, lobehub/lobe-chat, lobehub/lobe-chat, lobehub/lobe-chat</summary>
-  </entry>
-  <entry>
-    <title>Alibaba announces $10.2bn share placement as Chinese companies expand AI investment</title>
-    <link href="https://www.ft.com/content/e4ab027e-ed41-48b7-89ac-8250d3054ae6?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/e4ab027e-ed41-48b7-89ac-8250d3054ae6?syn-25a6b1a6=1</id>
-    <updated>2026-08-23T08:33:27.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Equity issuance follows a strong reception for its latest Qwen 3.8-Max model</summary>
-  </entry>
-  <entry>
-    <title>US Push to Isolate Iran Runs Into China</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-23/us-push-to-isolate-iran-runs-into-china-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-23/us-push-to-isolate-iran-runs-into-china-video</id>
-    <updated>2026-08-23T12:30:34.000Z</updated>
+    <title>Treasury Buybacks Fail to Calm Bond Market</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-23/treasury-buybacks-fail-to-calm-bond-market-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-23/treasury-buybacks-fail-to-calm-bond-market-video</id>
+    <updated>2026-08-23T13:26:19.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The Trump administration is preparing additional measures to isolate Iran’s economy, but further pressure could mean targeting China, the dominant buyer of Iranian oil. Joining Bloomberg This Weekend to discuss the situation with hosts David Gura and Christina Ruffini is Bloomberg News Senior Editor Wendy Benjaminson. </summary>
+    <summary>The Treasury’s surprise decision to at least double buybacks of longer-dated US debt briefly pushed yields lower, but much of that move quickly reversed as investors questioned whether the intervention can overcome inflation and fiscal concerns. PIMCO Executive VP, Market Strategist and Generalist Portfolio Manger Tony</summary>
   </entry>
   <entry>
-    <title>How Claude Watermarks AI-Generated Text</title>
-    <link href="https://magazine.sebastianraschka.com/p/claude-watermarking"/>
-    <id>https://magazine.sebastianraschka.com/p/claude-watermarking</id>
-    <updated>2026-08-22T11:11:39.000Z</updated>
-    <author><name>Ahead of AI (Raschka)</name></author>
-    <category term="RESEARCH"/>
-    <summary>A 48-minute video walkthrough of token sampling, watermark detection, and removal</summary>
+    <title>Iceland Faces Close Vote on EU Talks</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-23/iceland-faces-close-vote-on-eu-talks-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-23/iceland-faces-close-vote-on-eu-talks-video</id>
+    <updated>2026-08-23T13:11:34.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Iceland will vote August 29th on whether to resume accession talks with the European Union, with recent polling showing a narrow advantage for the “yes” side. RUV Correspondent Ingólfur Bjarni Sigfússon joins Christina Ruffini on Bloomberg This Weekend and explains that debate is being shaped by security concerns, econ</summary>
   </entry>
   <entry>
-    <title>Building a 100x Cheaper Trace Judge with Fireworks</title>
-    <link href="https://www.langchain.com/blog/building-a-100x-cheaper-trace-judge-with-fireworks"/>
-    <id>https://www.langchain.com/blog/building-a-100x-cheaper-trace-judge-with-fireworks</id>
-    <updated>2026-08-21T23:08:46.000Z</updated>
-    <author><name>LangChain Blog</name></author>
+    <title>Meet FreeToken: An Edge-Native MoE Serving Engine that Runs 753B GLM-5.2 on a Single Workstation GPU</title>
+    <link href="https://www.marktechpost.com/2026/08/23/meet-freetoken-an-edge-native-moe-serving-engine-that-runs-753b-glm-5-2-on-a-single-workstation-gpu"/>
+    <id>https://www.marktechpost.com/2026/08/23/meet-freetoken-an-edge-native-moe-serving-engine-that-runs-753b-glm-5-2-on-a-single-workstation-gpu</id>
+    <updated>2026-08-23T10:44:59.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
-    <summary>LangChain and Fireworks fine-tuned an open model to mine perceived error signals from production traces, matching frontier model performance at a fraction of the cost.</summary>
+    <summary>FreeToken splits MoE cache misses between PCIe fills and CPU execution using measured bandwidths, unlocking frontier models locally The post Meet FreeToken: An Edge-Native MoE Serving Engine that Runs 753B GLM-5.2 on a Single Workstation GPU appeared first on MarkTechPost .</summary>
+  </entry>
+  <entry>
+    <title>Exploring Speculative Decoding in vLLM on AMD GPUs</title>
+    <link href="https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus"/>
+    <id>https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus</id>
+    <updated>2026-08-23T00:00:00.000Z</updated>
+    <author><name>vLLM Blog</name></author>
+    <category term="RESEARCH"/>
+    <summary>A practical guide to speculative decoding in vLLM on AMD GPUs, covering draft-and-verify mechanics, MTP, EAGLE-3, DFlash, DSpark, configuration, tuning, and benchmark results.</summary>
+  </entry>
+  <entry>
+    <title>Nvidia’s GB300-powered DGX Station desktop tower listed for nearly $100,000 online — Enterprise AI powerhouse now available to buy for mere mortals with lots of cash</title>
+    <link href="https://www.tomshardware.com/desktops/nvidias-gb300-powered-dgx-station-desktop-tower-listed-for-nearly-usd100-000-online-enterprise-ai-powerhouse-now-available-to-buy-for-mere-mortals-with-lots-of-cash"/>
+    <id>https://www.tomshardware.com/desktops/nvidias-gb300-powered-dgx-station-desktop-tower-listed-for-nearly-usd100-000-online-enterprise-ai-powerhouse-now-available-to-buy-for-mere-mortals-with-lots-of-cash</id>
+    <updated>2026-08-23T13:00:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Nvidia's most powerful desktop offering, the GB300 DGX Station, is available to buy starting from just $94,930 and you can spec it up to $108,350. It offers 748GB of unified memory shared across the 72-core Grace CPU and Blackwell Ultra GPU, and it can be yours in a pretty standard-looking desktop chassis today.</summary>
   </entry>
   <entry>
     <title>DeepSeek Ends Weekend Peak Pricing for API Users From Today</title>
@@ -268,12 +268,12 @@
     <summary>DeepSeek will stop distinguishing between peak and off-peak API pricing on weekends from Aug. 23, with usage on Saturdays and Sundays charged at off-peak rates, the company said in a notice Saturday.</summary>
   </entry>
   <entry>
-    <title>GLM-5.3 vs. GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing</title>
-    <link href="https://www.together.ai/blog/glm-5-3-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing"/>
-    <id>https://www.together.ai/blog/glm-5-3-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing</id>
-    <updated>2026-08-21T00:00:00.000Z</updated>
-    <author><name>Together AI Blog</name></author>
-    <category term="PRODUCTS"/>
-    <summary>We ran 904 DeepSWE rollouts on GLM-5.3 and GPT-5.6 Sol. Sol leads pass@1 by 3.7 points; GLM-5.3 wins pass@4 at half the cost, and a GLM-first cascade hits 85.9%. — Also covered by: Together AI Blog</summary>
+    <title>Decoding AI’s Open-Source Course Maps Three Ways to Run an Agent Loop and the Provider Economics Behind Each</title>
+    <link href="https://www.marktechpost.com/2026/08/22/decoding-ais-open-source-course-maps-three-ways-to-run-an-agent-loop-and-the-provider-economics-behind-each"/>
+    <id>https://www.marktechpost.com/2026/08/22/decoding-ais-open-source-course-maps-three-ways-to-run-an-agent-loop-and-the-provider-economics-behind-each</id>
+    <updated>2026-08-22T13:43:13.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Most teams treat ‘which model’ as the important decision. The harness engineering literature keeps pointing somewhere else. In LangChain’s Terminal-Bench experiment, changing only the harness—same model throughout—moved a coding agent from roughly 30th place into the top 5. That result reframes the question. If the har</summary>
   </entry>
 </feed>
