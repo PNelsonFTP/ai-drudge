@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-23T16:36:41.571Z</updated>
+  <updated>2026-08-23T17:28:30.950Z</updated>
   <entry>
-    <title>llama.cpp b10595 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10595"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10595</id>
-    <updated>2026-08-23T13:45:46.000Z</updated>
+    <title>llama.cpp b10598 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10598"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10598</id>
+    <updated>2026-08-23T17:18:03.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>server : add LLAMA_SERVER_SLOTS_N_DIFF ( #27600 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42423433 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
+    <summary>mtmd: use pillow-accurate algo, correct resize_algo for all models ( #27594 ) mtmd: use pillow-accurate resize algo, correct resize_algo for all models speed optimization Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42440726 macOS/iOS: macOS Apple Silicon (arm64) macOS App — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
   </entry>
   <entry>
     <title>Data-Center Disenchantment</title>
@@ -91,7 +91,7 @@
     <title>Alibaba launches $10 billion Hong Kong share placement to fund AI spending</title>
     <link href="https://www.reuters.com/business/retail-consumer/alibaba-proposes-hong-kong-share-placement-worth-10-billion-2026-08-23"/>
     <id>https://www.reuters.com/business/retail-consumer/alibaba-proposes-hong-kong-share-placement-worth-10-billion-2026-08-23</id>
-    <updated>2026-08-23T13:46:29.000Z</updated>
+    <updated>2026-08-23T04:47:00.000Z</updated>
     <author><name>Reuters AI (Google News)</name></author>
     <category term="PRODUCTS"/>
     <summary>Alibaba launches $10 billion Hong Kong share placement to fund AI spending Reuters</summary>
@@ -196,6 +196,15 @@
     <summary>Nvidia servers with Vera Rubin and Grace Blackwell chips are set to cost about 15 percent more due to an ongoing DRAM shortage from Samsung, SK Hynix, and Micron, Bloomberg reports. The price hikes hit cloud giants like Microsoft, Google, and Meta, which are pouring billions into AI infrastructure while bankrolling the</summary>
   </entry>
   <entry>
+    <title>Sources: foldable iPhone feels durable, fits well in a pocket, has useful iPad-like app layouts, excels as a camera viewfinder but lacks telephoto and Face ID (Mark Gurman/Bloomberg)</title>
+    <link href="https://www.techmeme.com/260823/p6"/>
+    <id>https://www.techmeme.com/260823/p6</id>
+    <updated>2026-08-23T14:45:22.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Mark Gurman / Bloomberg : Sources: foldable iPhone feels durable, fits well in a pocket, has useful iPad-like app layouts, excels as a camera viewfinder but lacks telephoto and Face ID — Also: Get ready for iPhone price hikes. — Apple is about to bring some of its product magic back with its first foldable iPhone.</summary>
+  </entry>
+  <entry>
     <title>First Time Build</title>
     <link href="https://www.reddit.com/r/LocalLLM/comments/1vwan0w/first_time_build"/>
     <id>https://www.reddit.com/r/LocalLLM/comments/1vwan0w/first_time_build</id>
@@ -205,13 +214,13 @@
     <summary>Hey y'all. I am dipping my toes into the LocalLLM space just to see if it would be useful to me. Is there a spot I can go for like FAQ type stuff or like a definitions page? For the people who use it for coding, are y'all not worried about the agent escaping the project and doing shit on your computer? submitted by /u/</summary>
   </entry>
   <entry>
-    <title>I pushed Qwen3.8-27B Q4 to 7.31 tok/s on an RTX 3070 8GB — here’s everything I tested</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vw95x6/i_pushed_qwen3827b_q4_to_731_toks_on_an_rtx_3070"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vw95x6/i_pushed_qwen3827b_q4_to_731_toks_on_an_rtx_3070</id>
-    <updated>2026-08-23T14:49:35.000Z</updated>
+    <title>Qwen3.8-27B on an M5 Pro 64GB: from 13 tok/s to 20 tok/s at ~57k context</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1vwcm0r/qwen3827b_on_an_m5_pro_64gb_from_13_toks_to_20"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1vwcm0r/qwen3827b_on_an_m5_pro_64gb_from_13_toks_to_20</id>
+    <updated>2026-08-23T17:02:28.000Z</updated>
     <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>I’ve spent a lot of time trying to squeeze Qwen3.8-27B UD-Q4_K_M into a pretty hostile setup: GPU: RTX 3070 8GB CPU: Intel i5-11400F, 6C/12T RAM: 16GB DDR4 Motherboard: ASUS B560 OS: Windows Model: Qwen3.8-27B UD-Q4_K_M (~15.3 GiB GGUF) Runtime: ik_llama.cpp Use case: Codex-style / agentic coding, mostly PowerShell and</summary>
+    <summary>I am writing this post in hope I get some good tips on improving my setup and to share what worked for me so far. When Qwen3.8-27B dropped I immediately wanted it on my MacBook Pro (M5 Pro, 64GB) as many redditors here. Lets start with where I ended up , am using the template provided by a previous summary post for com</summary>
   </entry>
   <entry>
     <title>AI is becoming AI's biggest customer as agentic token usage jumps 14x on OpenRouter</title>
@@ -221,6 +230,15 @@
     <author><name>The Decoder</name></author>
     <category term="AGENTS &amp; TOOLS"/>
     <summary>AI agents have consumed more tokens than humans on OpenRouter since February 6, 2025. Agentic usage has grown 14x since then, while human usage is up just 2.8x. Nearly 70 percent of agent token consumption comes from cheap cached prompts, though, so actual costs are rising far more slowly than the raw numbers suggest. </summary>
+  </entry>
+  <entry>
+    <title>Desktop Canary v2.2.15-canary.58</title>
+    <link href="https://github.com/lobehub/lobehub/releases/tag/v2.2.15-canary.58"/>
+    <id>https://github.com/lobehub/lobehub/releases/tag/v2.2.15-canary.58</id>
+    <updated>2026-08-23T17:16:02.000Z</updated>
+    <author><name>lobehub/lobe-chat</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>🐤 Canary Build — v2.2.15-canary.58 Automated canary build from canary branch. Commit Information Based on changes since v2.2.15-canary.57 Commit count: 4 452a0896b2 ♻️ refactor(tasks): streamline database list queries ( #18618 ) (Arvin Xu) 718a960fb3 🐛 fix(agent-runtime): prevent repeated context compression ( #18626 — Also covered by: lobehub/lobe-chat, lobehub/lobe-chat, lobehub/lobe-chat</summary>
   </entry>
   <entry>
     <title>BTW: Headlines You May Have Missed</title>
@@ -257,23 +275,5 @@
     <author><name>vLLM Blog</name></author>
     <category term="RESEARCH"/>
     <summary>A practical guide to speculative decoding in vLLM on AMD GPUs, covering draft-and-verify mechanics, MTP, EAGLE-3, DFlash, DSpark, configuration, tuning, and benchmark results.</summary>
-  </entry>
-  <entry>
-    <title>Nvidia’s GB300-powered DGX Station desktop tower listed for nearly $100,000 online — Enterprise AI powerhouse now available to buy for mere mortals with lots of cash</title>
-    <link href="https://www.tomshardware.com/desktops/nvidias-gb300-powered-dgx-station-desktop-tower-listed-for-nearly-usd100-000-online-enterprise-ai-powerhouse-now-available-to-buy-for-mere-mortals-with-lots-of-cash"/>
-    <id>https://www.tomshardware.com/desktops/nvidias-gb300-powered-dgx-station-desktop-tower-listed-for-nearly-usd100-000-online-enterprise-ai-powerhouse-now-available-to-buy-for-mere-mortals-with-lots-of-cash</id>
-    <updated>2026-08-23T13:00:00.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Nvidia's most powerful desktop offering, the GB300 DGX Station, is available to buy starting from just $94,930 and you can spec it up to $108,350. It offers 748GB of unified memory shared across the 72-core Grace CPU and Blackwell Ultra GPU, and it can be yours in a pretty standard-looking desktop chassis today.</summary>
-  </entry>
-  <entry>
-    <title>DeepSeek Ends Weekend Peak Pricing for API Users From Today</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-23/deepseek-ends-weekend-peak-pricing-for-api-users-from-today"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-23/deepseek-ends-weekend-peak-pricing-for-api-users-from-today</id>
-    <updated>2026-08-23T05:57:57.000Z</updated>
-    <author><name>Bloomberg Tech</name></author>
-    <category term="PRODUCTS"/>
-    <summary>DeepSeek will stop distinguishing between peak and off-peak API pricing on weekends from Aug. 23, with usage on Saturdays and Sundays charged at off-peak rates, the company said in a notice Saturday.</summary>
   </entry>
 </feed>
