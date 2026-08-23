@@ -5,24 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-23T13:39:18.937Z</updated>
+  <updated>2026-08-23T14:32:11.849Z</updated>
   <entry>
-    <title>llama.cpp b10594 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10594"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10594</id>
-    <updated>2026-08-23T13:23:17.000Z</updated>
+    <title>llama.cpp b10595 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10595"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10595</id>
+    <updated>2026-08-23T13:45:46.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>common : skip device_info loop if it's not going to be printed ( #26692 ) The device_info loop iterates over the discovered devices and gets the available and total memory counts. With the CUDA backend (and possibly others too) this requires creating a GPU context, which, in case of CUDA, results in a 550 MB VRAM alloc — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
-  </entry>
-  <entry>
-    <title>Nvidia customers notified about AI-related price hikes above 15%, Bloomberg News reports</title>
-    <link href="https://www.reuters.com/business/nvidia-customers-notified-about-ai-related-price-hikes-above-15-bloomberg-news-2026-08-22"/>
-    <id>https://www.reuters.com/business/nvidia-customers-notified-about-ai-related-price-hikes-above-15-bloomberg-news-2026-08-22</id>
-    <updated>2026-08-22T20:00:21.000Z</updated>
-    <author><name>Reuters AI (Google News)</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Nvidia customers notified about AI-related price hikes above 15%, Bloomberg News reports Reuters — Also covered by: Bloomberg Tech</summary>
+    <summary>server : add LLAMA_SERVER_SLOTS_N_DIFF ( #27600 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42423433 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
   </entry>
   <entry>
     <title>CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar™: Cloud Workload Protection Platforms</title>
@@ -52,13 +43,13 @@
     <summary>Andon Labs' AI agent Luna fired a human employee at a San Francisco store for the first time but needed a clear push from the operators to do it. When the scenario was replayed with seven models, more capable AIs recommended termination more consistently, while weaker ones hesitated. When it came to hiring, nearly all </summary>
   </entry>
   <entry>
-    <title>Alibaba launches $10 billion Hong Kong share placement to fund AI spending</title>
-    <link href="https://www.reuters.com/business/retail-consumer/alibaba-proposes-hong-kong-share-placement-worth-10-billion-2026-08-23"/>
-    <id>https://www.reuters.com/business/retail-consumer/alibaba-proposes-hong-kong-share-placement-worth-10-billion-2026-08-23</id>
-    <updated>2026-08-23T04:47:00.000Z</updated>
-    <author><name>Reuters AI (Google News)</name></author>
+    <title>An AI ‘debt bomb’ crisis? No. This isn’t Enron 2.0 | Gene Marks</title>
+    <link href="https://www.theguardian.com/technology/2026/aug/23/ai-debt-bomb-crisis"/>
+    <id>https://www.theguardian.com/technology/2026/aug/23/ai-debt-bomb-crisis</id>
+    <updated>2026-08-23T14:00:34.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Alibaba launches $10 billion Hong Kong share placement to fund AI spending Reuters</summary>
+    <summary>Fears of a datacenter buildout debt crisis are exaggerated. The risks are different than in the past and they are recoverable Some experts are warning of a looming “debt bomb” crisis because big datacenter builders such as Meta , Oracle , xAI and CoreWeave are not only raising billions to construct these facilities but</summary>
   </entry>
   <entry>
     <title>Alibaba announces $10.2bn share placement as Chinese companies expand AI investment</title>
@@ -70,13 +61,22 @@
     <summary>Equity issuance follows a strong reception for its latest Qwen 3.8-Max model</summary>
   </entry>
   <entry>
-    <title>Vercel Introduces ‘Is Agentic’, a Free Agent-Readiness Scoring Tool That Audits Public Websites Using Ora’s 100+ Checks</title>
-    <link href="https://www.marktechpost.com/2026/08/23/vercel-introduces-is-agentic-a-free-agent-readiness-scoring-tool-that-audits-public-websites-using-oras-100-checks"/>
-    <id>https://www.marktechpost.com/2026/08/23/vercel-introduces-is-agentic-a-free-agent-readiness-scoring-tool-that-audits-public-websites-using-oras-100-checks</id>
-    <updated>2026-08-23T07:37:14.000Z</updated>
-    <author><name>MarkTechPost</name></author>
+    <title>Exploring Speculative Decoding in vLLM on AMD GPUs</title>
+    <link href="https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus"/>
+    <id>https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus</id>
+    <updated>2026-08-23T00:00:00.000Z</updated>
+    <author><name>vLLM Blog</name></author>
     <category term="RESEARCH"/>
-    <summary>Vercel and Ora launched Is Agentic, a free audit scoring website readiness for AI agents across 118 checks. The post Vercel Introduces ‘Is Agentic’, a Free Agent-Readiness Scoring Tool That Audits Public Websites Using Ora’s 100+ Checks appeared first on MarkTechPost .</summary>
+    <summary>A practical guide to speculative decoding in vLLM on AMD GPUs, covering draft-and-verify mechanics, MTP, EAGLE-3, DFlash, DSpark, configuration, tuning, and benchmark results.</summary>
+  </entry>
+  <entry>
+    <title>Alibaba launches $10 billion Hong Kong share placement to fund AI spending</title>
+    <link href="https://www.reuters.com/business/retail-consumer/alibaba-proposes-hong-kong-share-placement-worth-10-billion-2026-08-23"/>
+    <id>https://www.reuters.com/business/retail-consumer/alibaba-proposes-hong-kong-share-placement-worth-10-billion-2026-08-23</id>
+    <updated>2026-08-23T04:47:00.000Z</updated>
+    <author><name>Reuters AI (Google News)</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Alibaba launches $10 billion Hong Kong share placement to fund AI spending Reuters</summary>
   </entry>
   <entry>
     <title>Sources: Nvidia plans to use its $6B deal with Poolside to build an open-weight AI model to compete with Chinese models like DeepSeek and Kimi (Robbie Whelan/Wall Street Journal)</title>
@@ -106,13 +106,13 @@
     <summary>How AI Guardrails Get Bypassed: Jailbreaks, Prompt Injection and 2026 Defenses Pasquale Pillitteri</summary>
   </entry>
   <entry>
-    <title>Self-driving Ford F-250 truck with shotgun-equipped drone-killing turret tested by US Army — autonomous system designed to blast fast-moving drones at between 10 and 100 meters range</title>
-    <link href="https://www.tomshardware.com/tech-industry/drones/self-driving-ford-f-250-truck-with-shotgun-equipped-drone-killing-turret-tested-by-us-army-autonomous-system-designed-to-blast-fast-moving-drones-at-between-10-and-100-meters-range"/>
-    <id>https://www.tomshardware.com/tech-industry/drones/self-driving-ford-f-250-truck-with-shotgun-equipped-drone-killing-turret-tested-by-us-army-autonomous-system-designed-to-blast-fast-moving-drones-at-between-10-and-100-meters-range</id>
-    <updated>2026-08-23T13:19:17.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
+    <title>ToxicPanda Android malware uses VPN permissions to block Google Play</title>
+    <link href="https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play"/>
+    <id>https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play</id>
+    <updated>2026-08-23T14:23:46.000Z</updated>
+    <author><name>BleepingComputer</name></author>
     <category term="CYBER THREATS"/>
-    <summary>The US Army tested an autonomous breaching vehicle with an onboard counter-UAS turret during a live-fire exercise at Fort Bragg on August 18.</summary>
+    <summary>The ToxicPanda Android malware has evolved with new malicious functionality, expanding its targeting to 349 applications and adding support for 167 remote commands. [...]</summary>
   </entry>
   <entry>
     <title>Connecting the Dots: Securing the Overlooked Corners of the Software Development Lifecycle (SDLC) Supply Chain</title>
@@ -169,40 +169,31 @@
     <summary>Nvidia servers with Vera Rubin and Grace Blackwell chips are set to cost about 15 percent more due to an ongoing DRAM shortage from Samsung, SK Hynix, and Micron, Bloomberg reports. The price hikes hit cloud giants like Microsoft, Google, and Meta, which are pouring billions into AI infrastructure while bankrolling the</summary>
   </entry>
   <entry>
-    <title>A profile of Judge Yvonne Gonzalez Rogers, who is presiding over US state AGs' social media addiction lawsuit against Meta and oversaw the Musk v. Altman trial (Jeffrey Kopp/CNBC)</title>
-    <link href="https://www.techmeme.com/260823/p4"/>
-    <id>https://www.techmeme.com/260823/p4</id>
-    <updated>2026-08-23T08:05:29.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Meta Trial: How Social Media Lawsuits Threaten Big Tech</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-23/meta-trial-how-social-media-lawsuits-threaten-big-tech"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-23/meta-trial-how-social-media-lawsuits-threaten-big-tech</id>
+    <updated>2026-08-23T14:00:00.000Z</updated>
+    <author><name>Bloomberg Tech</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Jeffrey Kopp / CNBC : A profile of Judge Yvonne Gonzalez Rogers, who is presiding over US state AGs' social media addiction lawsuit against Meta and oversaw the Musk v. Altman trial — It's been a crazy four months for Yvonne Gonzalez Rogers. — The judge in the Northern District of California spent late April …</summary>
+    <summary>A flood of lawsuits against social media giants claim that by engineering their platforms to be hard to resist, the companies are causing serious harm to young users. In the first personal injury case to go to trial, a Los Angeles jury in March found Meta Platforms Inc. and Google negligent in the design and operation </summary>
   </entry>
   <entry>
-    <title>The careers of Z.ai's Tang Jie and Moonshot AI's Yang Zhilin, once teacher and pupil at Tsinghua University, show that China's AI leap is no sudden development (Raffaele Huang/Wall Street Journal)</title>
-    <link href="https://www.techmeme.com/260823/p5"/>
-    <id>https://www.techmeme.com/260823/p5</id>
-    <updated>2026-08-23T12:05:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Raffaele Huang / Wall Street Journal : The careers of Z.ai's Tang Jie and Moonshot AI's Yang Zhilin, once teacher and pupil at Tsinghua University, show that China's AI leap is no sudden development — University lab nurtured the computer scientists who are using ingenuity and imitation to chase down Anthropic and OpenA</summary>
-  </entry>
-  <entry>
-    <title>Qwen3.8-27B on a single RTX 5060 Ti 16GB</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vw49t5/qwen3827b_on_a_single_rtx_5060_ti_16gb"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vw49t5/qwen3827b_on_a_single_rtx_5060_ti_16gb</id>
-    <updated>2026-08-23T11:03:21.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>GMKtec is going to launch new hardware with Ryzen AI Max+ PRO 495 at IFA Berlin 2026</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vw55zn/gmktec_is_going_to_launch_new_hardware_with_ryzen"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vw55zn/gmktec_is_going_to_launch_new_hardware_with_ryzen</id>
+    <updated>2026-08-23T11:51:22.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Hi everyone, First of all, thanks for all the configs, reviews, comments and experience shared in this space over the past weeks. My setup is genuinely built on top of your posts, almost every non-obvious value below came from someone posting a measurement or correcting someone else's assumption. Most of that came from</summary>
+    <summary>submitted by /u/fairydreaming [link] [comments]</summary>
   </entry>
   <entry>
-    <title>Tested various finetunes of Qwen 3.8-27B Q4 on single RTX 3090</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vw2zax/tested_various_finetunes_of_qwen_3827b_q4_on"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vw2zax/tested_various_finetunes_of_qwen_3827b_q4_on</id>
-    <updated>2026-08-23T09:50:27.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>Qwen3.8-27B KLDs</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vw2ayp/qwen3827b_klds"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vw2ayp/qwen3827b_klds</id>
+    <updated>2026-08-23T09:10:44.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Small disclaimer- we've never done something like this so I apologize in advance if this data is worthless. I'm open to any critiquing to better create useful benchmarking so better test questions/use cases are greatly appreciated! I'm no software engineer or anything like that, just a random guy who enjoys tinkering w</summary>
+    <summary>I have been lurking on reddit for like 6 years, and this is the first time posting, so apologies for the mistakes. I'm not a native English speaker, so sorry for the bad English too. I used LLM to translate / refine my post, including images. This is my attempt to compare the Qwen3.8-27B quants. Qwen is a coding and ST</summary>
   </entry>
   <entry>
     <title>AI is becoming AI's biggest customer as agentic token usage jumps 14x on OpenRouter</title>
@@ -214,40 +205,49 @@
     <summary>AI agents have consumed more tokens than humans on OpenRouter since February 6, 2025. Agentic usage has grown 14x since then, while human usage is up just 2.8x. Nearly 70 percent of agent token consumption comes from cheap cached prompts, though, so actual costs are rising far more slowly than the raw numbers suggest. </summary>
   </entry>
   <entry>
-    <title>Treasury Buybacks Fail to Calm Bond Market</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-23/treasury-buybacks-fail-to-calm-bond-market-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-23/treasury-buybacks-fail-to-calm-bond-market-video</id>
-    <updated>2026-08-23T13:26:19.000Z</updated>
+    <title>Desktop Canary v2.2.15-canary.56</title>
+    <link href="https://github.com/lobehub/lobehub/releases/tag/v2.2.15-canary.56"/>
+    <id>https://github.com/lobehub/lobehub/releases/tag/v2.2.15-canary.56</id>
+    <updated>2026-08-23T10:27:53.000Z</updated>
+    <author><name>lobehub/lobe-chat</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>🐤 Canary Build — v2.2.15-canary.56 Automated canary build from canary branch. Commit Information Based on changes since v2.2.15-canary.55 Commit count: 12 5cf4638a1c 🐛 fix(heterogeneous-agent): make the server-default binding usable end to end ( #18621 ) (LiJian) 9031535652 🔖 chore(cli): bump version to 0.0.49 ( #18 — Also covered by: lobehub/lobe-chat, lobehub/lobe-chat, lobehub/lobe-chat</summary>
+  </entry>
+  <entry>
+    <title>Rep. McCormick Warns Against Slowing AI Buildout</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-23/rep-mccormick-warns-against-slowing-ai-buildout-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-23/rep-mccormick-warns-against-slowing-ai-buildout-video</id>
+    <updated>2026-08-23T14:29:34.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The Treasury’s surprise decision to at least double buybacks of longer-dated US debt briefly pushed yields lower, but much of that move quickly reversed as investors questioned whether the intervention can overcome inflation and fiscal concerns. PIMCO Executive VP, Market Strategist and Generalist Portfolio Manger Tony</summary>
+    <summary>Representative Rich McCormick is on Bloomberg This Weekend with David Gura and Christina Ruffini and says the US should continue expanding data centers to support its leadership in artificial intelligence, arguing they can be built responsibly while benefiting local economies. (Source: Bloomberg)</summary>
   </entry>
   <entry>
-    <title>Iceland Faces Close Vote on EU Talks</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-23/iceland-faces-close-vote-on-eu-talks-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-23/iceland-faces-close-vote-on-eu-talks-video</id>
-    <updated>2026-08-23T13:11:34.000Z</updated>
+    <title>Data Center Expansion Tests Voter Patience</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-23/data-center-expansion-tests-voter-patience-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-23/data-center-expansion-tests-voter-patience-video</id>
+    <updated>2026-08-23T14:14:06.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Iceland will vote August 29th on whether to resume accession talks with the European Union, with recent polling showing a narrow advantage for the “yes” side. RUV Correspondent Ingólfur Bjarni Sigfússon joins Christina Ruffini on Bloomberg This Weekend and explains that debate is being shaped by security concerns, econ</summary>
+    <summary>The rapid expansion of AI data centers is becoming a political issue in Ohio as residents raise concerns about higher electricity bills, tax incentives and secrecy around local development deals. Representative Greg Landsman joins Bloomberg This Weekend to discuss the issue with hosts David Gura and Christina Ruffini. </summary>
   </entry>
   <entry>
-    <title>Meet FreeToken: An Edge-Native MoE Serving Engine that Runs 753B GLM-5.2 on a Single Workstation GPU</title>
-    <link href="https://www.marktechpost.com/2026/08/23/meet-freetoken-an-edge-native-moe-serving-engine-that-runs-753b-glm-5-2-on-a-single-workstation-gpu"/>
-    <id>https://www.marktechpost.com/2026/08/23/meet-freetoken-an-edge-native-moe-serving-engine-that-runs-753b-glm-5-2-on-a-single-workstation-gpu</id>
-    <updated>2026-08-23T10:44:59.000Z</updated>
-    <author><name>MarkTechPost</name></author>
+    <title>How Claude Watermarks AI-Generated Text</title>
+    <link href="https://magazine.sebastianraschka.com/p/claude-watermarking"/>
+    <id>https://magazine.sebastianraschka.com/p/claude-watermarking</id>
+    <updated>2026-08-22T11:11:39.000Z</updated>
+    <author><name>Ahead of AI (Raschka)</name></author>
     <category term="RESEARCH"/>
-    <summary>FreeToken splits MoE cache misses between PCIe fills and CPU execution using measured bandwidths, unlocking frontier models locally The post Meet FreeToken: An Edge-Native MoE Serving Engine that Runs 753B GLM-5.2 on a Single Workstation GPU appeared first on MarkTechPost .</summary>
+    <summary>A 48-minute video walkthrough of token sampling, watermark detection, and removal</summary>
   </entry>
   <entry>
-    <title>Exploring Speculative Decoding in vLLM on AMD GPUs</title>
-    <link href="https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus"/>
-    <id>https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus</id>
-    <updated>2026-08-23T00:00:00.000Z</updated>
-    <author><name>vLLM Blog</name></author>
+    <title>Building a 100x Cheaper Trace Judge with Fireworks</title>
+    <link href="https://www.langchain.com/blog/building-a-100x-cheaper-trace-judge-with-fireworks"/>
+    <id>https://www.langchain.com/blog/building-a-100x-cheaper-trace-judge-with-fireworks</id>
+    <updated>2026-08-21T23:08:46.000Z</updated>
+    <author><name>LangChain Blog</name></author>
     <category term="RESEARCH"/>
-    <summary>A practical guide to speculative decoding in vLLM on AMD GPUs, covering draft-and-verify mechanics, MTP, EAGLE-3, DFlash, DSpark, configuration, tuning, and benchmark results.</summary>
+    <summary>LangChain and Fireworks fine-tuned an open model to mine perceived error signals from production traces, matching frontier model performance at a fraction of the cost.</summary>
   </entry>
   <entry>
     <title>Nvidia’s GB300-powered DGX Station desktop tower listed for nearly $100,000 online — Enterprise AI powerhouse now available to buy for mere mortals with lots of cash</title>
@@ -268,12 +268,12 @@
     <summary>DeepSeek will stop distinguishing between peak and off-peak API pricing on weekends from Aug. 23, with usage on Saturdays and Sundays charged at off-peak rates, the company said in a notice Saturday.</summary>
   </entry>
   <entry>
-    <title>Decoding AI’s Open-Source Course Maps Three Ways to Run an Agent Loop and the Provider Economics Behind Each</title>
-    <link href="https://www.marktechpost.com/2026/08/22/decoding-ais-open-source-course-maps-three-ways-to-run-an-agent-loop-and-the-provider-economics-behind-each"/>
-    <id>https://www.marktechpost.com/2026/08/22/decoding-ais-open-source-course-maps-three-ways-to-run-an-agent-loop-and-the-provider-economics-behind-each</id>
-    <updated>2026-08-22T13:43:13.000Z</updated>
-    <author><name>MarkTechPost</name></author>
+    <title>How a Georgia Tech team used the open Olmo stack to trace social reasoning</title>
+    <link href="https://allenai.org/blog/olmo-capability-tracing"/>
+    <id>https://allenai.org/blog/olmo-capability-tracing</id>
+    <updated>2026-08-21T08:00:00.000Z</updated>
+    <author><name>Ai2 (Allen Institute)</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>Most teams treat ‘which model’ as the important decision. The harness engineering literature keeps pointing somewhere else. In LangChain’s Terminal-Bench experiment, changing only the harness—same model throughout—moved a coding agent from roughly 30th place into the top 5. That result reframes the question. If the har</summary>
+    <summary>A Georgia Tech team used Ai2’s fully open Olmo stack to trace social reasoning back to the training data that shaped it, finding that dialogue-rich, interpersonal writing had an outsized influence on the capability.</summary>
   </entry>
 </feed>
