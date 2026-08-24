@@ -5,24 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-24T08:58:28.137Z</updated>
+  <updated>2026-08-24T09:57:32.288Z</updated>
   <entry>
     <title>llama.cpp b10605 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10605"/>
     <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10605</id>
-    <updated>2026-08-24T08:58:16.000Z</updated>
+    <updated>2026-08-24T08:59:34.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
     <summary>mamba2 : Flatten in/out projections to dispatch GEMM instead of GEMV ( #27513 ) mamba2 : flatten mamba2 in/out projections to dispatch gemm instead of gemv mamba2 : remove redundant output reshape Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42533776 macOS/iOS: macOS Apple — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
-  </entry>
-  <entry>
-    <title>Alibaba plunges after announcing $10.2 billion share placement to fund AI push</title>
-    <link href="https://www.cnbc.com/2026/08/24/alibaba-share-placement-drop-ai-hong-kong.html"/>
-    <id>https://www.cnbc.com/2026/08/24/alibaba-share-placement-drop-ai-hong-kong.html</id>
-    <updated>2026-08-24T08:21:17.000Z</updated>
-    <author><name>CNBC Tech</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Alibaba shares plunged 10% after the tech giant priced a $10.2 billion share placement to fund its growing AI investments. — Also covered by: WSJ Tech, Reuters AI (Google News)</summary>
   </entry>
   <entry>
     <title>Nvidia in talks to invest in Perplexity at $30 billion-plus valuation</title>
@@ -31,7 +22,16 @@
     <updated>2026-08-24T08:44:48.000Z</updated>
     <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Nvidia is negotiating an investment in Perplexity at a valuation above $30 billion, more than 50 percent higher than its last funding round, The Information reports. Perplexity's annualized revenue has tripled to over $750 million. Much of Nvidia's investment money tends to flow back as revenue when portfolio companies — Also covered by: Reuters AI (Google News)</summary>
+    <summary>Nvidia is negotiating an investment in Perplexity at a valuation above $30 billion, more than 50 percent higher than its last funding round, The Information reports. Perplexity's annualized revenue has tripled to over $750 million. Much of Nvidia's investment money tends to flow back as revenue when portfolio companies</summary>
+  </entry>
+  <entry>
+    <title>Alibaba plunges after announcing $10.2 billion share placement to fund AI push</title>
+    <link href="https://www.cnbc.com/2026/08/24/alibaba-share-placement-drop-ai-hong-kong.html"/>
+    <id>https://www.cnbc.com/2026/08/24/alibaba-share-placement-drop-ai-hong-kong.html</id>
+    <updated>2026-08-24T08:21:17.000Z</updated>
+    <author><name>CNBC Tech</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Alibaba shares plunged 10% after the tech giant priced a $10.2 billion share placement to fund its growing AI investments. — Also covered by: WSJ Tech</summary>
   </entry>
   <entry>
     <title>SK hynix HBM Packaging at Hot Chips 2026</title>
@@ -52,13 +52,22 @@
     <summary>Plus, buying a refurbished phone, OpenAI’s shaky finances, the $3 trillion in off-balance-sheet AI debt and more. — Also covered by: Transformer</summary>
   </entry>
   <entry>
-    <title>Sources: Nvidia is in talks to invest in Perplexity's new equity round valuing it at $30B+; Nvidia considered a tech licensing deal and hiring some of its staff (The Information)</title>
-    <link href="https://www.techmeme.com/260823/p18"/>
-    <id>https://www.techmeme.com/260823/p18</id>
-    <updated>2026-08-24T03:50:00.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Alibaba launches Wan3.0 AI video model after $10 billion share sale</title>
+    <link href="https://www.reuters.com/business/retail-consumer/alibaba-launches-wan30-ai-video-model-after-10-billion-share-sale-2026-08-24"/>
+    <id>https://www.reuters.com/business/retail-consumer/alibaba-launches-wan30-ai-video-model-after-10-billion-share-sale-2026-08-24</id>
+    <updated>2026-08-24T08:23:44.000Z</updated>
+    <author><name>Reuters AI (Google News)</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>The Information : Sources: Nvidia is in talks to invest in Perplexity's new equity round valuing it at $30B+; Nvidia considered a tech licensing deal and hiring some of its staff — Nvidia is discussing investing in Perplexity as part of an equity round that would value the AI startup at more than $30 billion …</summary>
+    <summary>Alibaba launches Wan3.0 AI video model after $10 billion share sale Reuters</summary>
+  </entry>
+  <entry>
+    <title>Qwen 3.8 27B Aider score</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vwwc31/qwen_38_27b_aider_score"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vwwc31/qwen_38_27b_aider_score</id>
+    <updated>2026-08-24T07:56:50.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>I ran the Aider benchmark on Qwen 3.8 27B FP8 with FP8 KV cache 256K context vLLM. The score: 72.9 This matches Gemini 2.5 Pro from 2025-04-12 which also scored 72.9. Beats Claude Opus 4 from 2025-05-25 which scored 72.0. DeepSeek R1 2025-06-06 scored 71.4. It may just be a random benchmark, an old one at that, but it </summary>
   </entry>
   <entry>
     <title>PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure</title>
@@ -70,13 +79,13 @@
     <summary>arXiv:2608.20342v1 Announce Type: new Abstract: Large language model (LLM) coding agents start each session with an empty context window, discarding accumulated knowledge from prior work. We present PrimeAgentOrchestrator (PAO), a system that spawns new instances of Claude Code -- Anthropic's terminal-based coding agen</summary>
   </entry>
   <entry>
-    <title>Here's What's Behind Alibaba's $10 Billion Share Sale</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-24/here-s-what-s-behind-alibaba-s-10-billion-share-sale-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-24/here-s-what-s-behind-alibaba-s-10-billion-share-sale-video</id>
-    <updated>2026-08-24T08:41:09.000Z</updated>
+    <title>Saudi Capital Markets Shakeup Puts Foreign Inflows Back in Focus</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-24/saudi-capital-markets-shakeup-puts-foreign-inflows-back-in-focus"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-24/saudi-capital-markets-shakeup-puts-foreign-inflows-back-in-focus</id>
+    <updated>2026-08-24T09:43:08.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Alibaba raised HK$80 billion ($10.2 billion) in Hong Kong’s biggest secondary share sale. Bloomberg reporters and Bloomberg Intelligence talk about what this means and why it's sparked backlash from some investors like Michael Burry. (Source: Bloomberg)</summary>
+    <summary>Leadership changes at Saudi Arabia’s capital markets regulator have revived investor and banker hopes for further liberalization, including a much-awaited easing of foreign-ownership limits that could attract billions to the kingdom’s equity markets.</summary>
   </entry>
   <entry>
     <title>Machine Learning and ARIMA Model Averaging for Adaptive Public Health Forecasting: Comparative Evaluation and an Ontario COVID-19 Case Study</title>
@@ -86,15 +95,6 @@
     <author><name>arXiv cs.LG</name></author>
     <category term="RESEARCH"/>
     <summary>arXiv:2608.20406v1 Announce Type: new Abstract: Public health forecasts must respond to abrupt changes in surveillance data without over-extrapolating noise, reporting artifacts, or temporary trends. We evaluated autoregressive integrated moving average (ARIMA), random forest, and extreme gradient boosting (XGBoost) mo</summary>
-  </entry>
-  <entry>
-    <title>Best GPU Neoclouds 2026: CoreWeave, Nebius, Lambda, Crusoe, and Groq Ranked by Published Pricing and Contracted Power</title>
-    <link href="https://www.marktechpost.com/2026/08/23/best-gpu-neoclouds-2026"/>
-    <id>https://www.marktechpost.com/2026/08/23/best-gpu-neoclouds-2026</id>
-    <updated>2026-08-24T05:26:43.000Z</updated>
-    <author><name>MarkTechPost</name></author>
-    <category term="PRODUCTS"/>
-    <summary>The five largest GPU neoclouds now run on very different models. CoreWeave and Nebius report to the SEC; Lambda and Crusoe are private and heading toward IPOs; Groq rebuilt itself as an inference cloud after licensing its LPU technology to NVIDIA. This comparison checks each provider's live rate card, Q2 2026 financial</summary>
   </entry>
   <entry>
     <title>How a Georgia Tech team used the open Olmo stack to trace social reasoning</title>
@@ -124,13 +124,13 @@
     <summary>Prompt Injection Is Now an RCE Primitive HackerNoon</summary>
   </entry>
   <entry>
-    <title>UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit</title>
-    <link href="https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html"/>
-    <id>https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html</id>
-    <updated>2026-08-24T08:08:31.000Z</updated>
-    <author><name>The Hacker News</name></author>
+    <title>Microsoft shares temporary fix for Windows 11 gaming issues</title>
+    <link href="https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-temporary-fix-for-windows-11-gaming-issues"/>
+    <id>https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-temporary-fix-for-windows-11-gaming-issues</id>
+    <updated>2026-08-24T09:42:05.000Z</updated>
+    <author><name>BleepingComputer</name></author>
     <category term="CYBER THREATS"/>
-    <summary>Cybersecurity researchers have disclosed details of a Chinese-speaking cybercrime group dubbed UAT-10147 that's targeting Windows and Linux web servers globally across the education, media, technology, and gaming sectors. The vast majority of the targets are located in Brazil, Bolivia, China, Canada, and Vietnam. Detai</summary>
+    <summary>Microsoft has shared a temporary fix for ongoing gaming issues caused by Windows 11 updates released during the August 2026 Patch Tuesday. [...]</summary>
   </entry>
   <entry>
     <title>Quoting Drew Breunig</title>
@@ -151,7 +151,7 @@
     <summary>While a digital twin does not necessarily replace a systems integrator, it can help manufacturers evaluate robots and plan applications, says RoboDK. The post Use a digital twin to explore automation before committing capital appeared first on The Robot Report .</summary>
   </entry>
   <entry>
-    <title>Japan’s Full-Stack Neutral-Atom Quantum Computer Is Operational</title>
+    <title>Japan’s Full-Stack Neutral-Atom Quantum Computer is Operational</title>
     <link href="https://thequantuminsider.com/2026/08/24/japans-full-stack-neutral-atom-quantum-computer-is-operational"/>
     <id>https://thequantuminsider.com/2026/08/24/japans-full-stack-neutral-atom-quantum-computer-is-operational</id>
     <updated>2026-08-24T07:51:08.000Z</updated>
@@ -169,31 +169,31 @@
     <summary>What's Changed Claude Desktop Turn individual Ollama models on or off for use in Claude, directly from the menu bar Choose from your available Ollama models from within Claude; cloud models appear only when you're signed in A new Apps view manages app integrations with copyable commands Improved caching Fixed a hang wh</summary>
   </entry>
   <entry>
-    <title>New Zealand plans a bill to ban social media for under-16s, requiring &quot;high risk&quot; platforms to check user ages or face penalties of up to 10% of global revenue (Tracy Withers/Bloomberg)</title>
-    <link href="https://www.techmeme.com/260824/p2"/>
-    <id>https://www.techmeme.com/260824/p2</id>
-    <updated>2026-08-24T05:01:38.000Z</updated>
+    <title>US business schools are racing to prepare students to become chief AI officers, even as companies are still figuring out what the newest C-suite role entails (Rthvika Suvarna/Bloomberg)</title>
+    <link href="https://www.techmeme.com/260824/p6"/>
+    <id>https://www.techmeme.com/260824/p6</id>
+    <updated>2026-08-24T09:46:06.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Tracy Withers / Bloomberg : New Zealand plans a bill to ban social media for under-16s, requiring “high risk” platforms to check user ages or face penalties of up to 10% of global revenue — New Zealand plans to ban under-16s from social media, joining a throng of countries worldwide seeking to limit online harm to chil</summary>
+    <summary>Rthvika Suvarna / Bloomberg : US business schools are racing to prepare students to become chief AI officers, even as companies are still figuring out what the newest C-suite role entails — Business schools are racing to prepare executives for the newest C-suite role, even as companies are still figuring out what the j</summary>
   </entry>
   <entry>
-    <title>What can I realistically expect from MBP M5 Max 64gb?</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vww4v2/what_can_i_realistically_expect_from_mbp_m5_max"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vww4v2/what_can_i_realistically_expect_from_mbp_m5_max</id>
-    <updated>2026-08-24T07:44:46.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>For context - I'm a SWE on a huge product and using claude max daily for everything, sometimes hitting the limits. My context size usually goes to around 400k before I compact and cloude just does the job really well when it comes to exploring in a big code bases. Before pulling a trigger and getting a better macbook, </summary>
+    <title>Canonical backs quest to translate mountains of C into safe Rust with AI</title>
+    <link href="https://www.theregister.com/software/2026/08/24/canonical-backs-quest-to-translate-mountains-of-c-into-safe-rust-with-ai/5290959"/>
+    <id>https://www.theregister.com/software/2026/08/24/canonical-backs-quest-to-translate-mountains-of-c-into-safe-rust-with-ai/5290959</id>
+    <updated>2026-08-24T09:27:00.000Z</updated>
+    <author><name>The Register AI/ML</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Bungs banknotes at Bristol boffins to find out if mature code survives the machine</summary>
   </entry>
   <entry>
-    <title>sglang v0.5.18 released</title>
-    <link href="https://github.com/sgl-project/sglang/releases/tag/v0.5.18"/>
-    <id>https://github.com/sgl-project/sglang/releases/tag/v0.5.18</id>
-    <updated>2026-08-24T07:42:37.000Z</updated>
-    <author><name>sgl-project/sglang</name></author>
+    <title>Xiaomi AI Cube announced with 1.2TB/s memory bandwidth</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vwvghi/xiaomi_ai_cube_announced_with_12tbs_memory"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vwvghi/xiaomi_ai_cube_announced_with_12tbs_memory</id>
+    <updated>2026-08-24T07:04:32.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Highlights 710 PRs from 212 contributors. New models in this release (see the cookbook for all supported models): Model Type PRs Cookbook Muse Glimmer Autoregressive (Multimodal) #34262 link Intern-S2-Mobius Autoregressive #33691 link SANA-Video Diffusion #32921 link LingBot-Video-MoE Diffusion #32341 link LTX-2.5 Diff</summary>
+    <summary>Xiaomi announced a prototype for their Xiaomi AI Cube. 3 chip system: - Xiaomi Xuanjie O3 - Xiaomi Xuanjie O100 - Xiaomi Xuanjie D100 The specs are impressive, but a bit confusing. The D100 chip (originally for their EVs) supports up to 160GB of RAM, but O100 has the 1.22TB/s memory bandwidth. Perhaps the 1.22TB/s figu</summary>
   </entry>
   <entry>
     <title>SDAD: Spec-Driven Agentic Development for the AI-Native SDLC</title>
@@ -214,22 +214,22 @@
     <summary>arXiv:2608.20379v1 Announce Type: new Abstract: Advances in large language models (LLMs) have fueled a wave of research into agency: the ability to reason, plan, and act. This effort has produced agentic frameworks that orchestrate perception, memory, and decision-making around powerful LLM backbones. With the advent o</summary>
   </entry>
   <entry>
-    <title>The Nigerian Industrial Behemoth That Could Reshape the African Economy</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-24/how-nigeria-could-reshape-the-african-economy-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-24/how-nigeria-could-reshape-the-african-economy-video</id>
-    <updated>2026-08-24T08:12:42.000Z</updated>
+    <title>India Lifts Wheat Export Ban in Boost to War Hit Global Supply</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-24/india-lifts-wheat-export-ban-in-boost-to-war-hit-global-supply"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-24/india-lifts-wheat-export-ban-in-boost-to-war-hit-global-supply</id>
+    <updated>2026-08-24T09:08:09.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Earlier in August, it was reported that Nigeria's Dangote Refinery secured a $1 billion underwriting for its upcoming stock market listing, set to become Africa's largest IPO. According to the UN, growth across Africa was expected to reach 4.0% in 2026. The history of economic development in Africa is a vexed one; acce</summary>
+    <summary>India, the world’s second-biggest wheat producer, has scrapped a years-long ban on exports of the grain, a move that could ease global supplies that are under strain from escalating attacks between Russia and Ukraine.</summary>
   </entry>
   <entry>
-    <title>Will Singapore’s Baby Push Work as Births Tumble?</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-24/will-singapore-s-baby-push-work-as-births-tumble-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-24/will-singapore-s-baby-push-work-as-births-tumble-video</id>
-    <updated>2026-08-24T08:53:37.000Z</updated>
+    <title>Treasuries Gain With Bessent and Warsh Due to Set Direction</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-24/treasuries-gain-with-bessent-and-warsh-due-to-set-direction"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-24/treasuries-gain-with-bessent-and-warsh-due-to-set-direction</id>
+    <updated>2026-08-24T09:22:16.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Prime Minister Lawrence Wong’s latest family support package is a familiar strategy for Singapore: make parenthood cheaper and easier in the hope that people will have more children. The record shows there are limits to how much that can actually achieve. (Source: Bloomberg)</summary>
+    <summary>Treasuries gained at the start of a potentially pivotal week for the US bond market, with remarks from US Treasury Secretary Scott Bessent and Federal Reserve Chairman Kevin Warsh likely to determine where yields go next.</summary>
   </entry>
   <entry>
     <title>Who Do Language Models Think Is Competent? A Mechanistic Analysis of Occupational Bias</title>
@@ -250,6 +250,15 @@
     <summary>arXiv:2608.20427v1 Announce Type: new Abstract: Dense causal attention remains expensive at long context even when implemented with highly optimized exact kernels. We study BF1, a deterministic block-aligned dyadic sparse-attention route that combines a small exact local neighborhood, a global first block, and logarith</summary>
   </entry>
   <entry>
+    <title>Best GPU Neoclouds 2026: CoreWeave, Nebius, Lambda, Crusoe, and Groq Ranked by Published Pricing and Contracted Power</title>
+    <link href="https://www.marktechpost.com/2026/08/23/best-gpu-neoclouds-2026"/>
+    <id>https://www.marktechpost.com/2026/08/23/best-gpu-neoclouds-2026</id>
+    <updated>2026-08-24T05:26:43.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="PRODUCTS"/>
+    <summary>The five largest GPU neoclouds now run on very different models. CoreWeave and Nebius report to the SEC; Lambda and Crusoe are private and heading toward IPOs; Groq rebuilt itself as an inference cloud after licensing its LPU technology to NVIDIA. This comparison checks each provider's live rate card, Q2 2026 financial</summary>
+  </entry>
+  <entry>
     <title>Microsoft’s Skala AI Model Joins CP2K to Improve Quantum Mechanical Simulations</title>
     <link href="https://thequantuminsider.com/2026/08/24/microsofts-skala-ai-model-joins-cp2k-to-improve-quantum-mechanical-simulations"/>
     <id>https://thequantuminsider.com/2026/08/24/microsofts-skala-ai-model-joins-cp2k-to-improve-quantum-mechanical-simulations</id>
@@ -259,16 +268,7 @@
     <summary>Insider Brief PRESS RELEASE — The Skala AI model, developed by Microsoft Research AI for Science, is now available through the CP2K software ecosystem. Thanks to Skala, researchers can perform quantum mechanical simulations of larger molecular systems while achieving a higher level of accuracy. In early 2026, Microsoft</summary>
   </entry>
   <entry>
-    <title>Alibaba launches $10 billion Hong Kong share placement to fund AI spending</title>
-    <link href="https://www.reuters.com/business/retail-consumer/alibaba-proposes-hong-kong-share-placement-worth-10-billion-2026-08-23"/>
-    <id>https://www.reuters.com/business/retail-consumer/alibaba-proposes-hong-kong-share-placement-worth-10-billion-2026-08-23</id>
-    <updated>2026-08-23T04:47:00.000Z</updated>
-    <author><name>Reuters AI (Google News)</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Alibaba launches $10 billion Hong Kong share placement to fund AI spending Reuters</summary>
-  </entry>
-  <entry>
-    <title>UK statistics agency turns to AI to cut costs and improve data</title>
+    <title>UK statistics agency turns to AI to fix faulty surveys</title>
     <link href="https://www.ft.com/content/b153db68-a361-4217-9cc5-b766a15c1922?syn-25a6b1a6=1"/>
     <id>https://www.ft.com/content/b153db68-a361-4217-9cc5-b766a15c1922?syn-25a6b1a6=1</id>
     <updated>2026-08-24T04:00:14.000Z</updated>
