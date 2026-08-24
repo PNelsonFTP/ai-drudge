@@ -5,24 +5,33 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-24T07:14:29.044Z</updated>
+  <updated>2026-08-24T08:58:28.137Z</updated>
   <entry>
-    <title>llama.cpp b10603 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10603"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10603</id>
-    <updated>2026-08-23T18:47:30.000Z</updated>
+    <title>llama.cpp b10605 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10605"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10605</id>
+    <updated>2026-08-24T08:58:16.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>model : support MTP in GLM-4.5-Air ( #26534 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42447665 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ub — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
+    <category term="LOCAL MODELS"/>
+    <summary>mamba2 : Flatten in/out projections to dispatch GEMM instead of GEMV ( #27513 ) mamba2 : flatten mamba2 in/out projections to dispatch gemm instead of gemv mamba2 : remove redundant output reshape Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42533776 macOS/iOS: macOS Apple — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
   </entry>
   <entry>
-    <title>Alibaba to Raise $10.20 Billion for AI Investment With Share Placement</title>
-    <link href="https://www.wsj.com/tech/alibaba-to-bulk-up-ai-investment-via-10-20-billion-share-placement-72b9bdac?mod=rss_Technology"/>
-    <id>https://www.wsj.com/tech/alibaba-to-bulk-up-ai-investment-via-10-20-billion-share-placement-72b9bdac?mod=rss_Technology</id>
-    <updated>2026-08-24T03:58:00.000Z</updated>
-    <author><name>WSJ Tech</name></author>
+    <title>Alibaba plunges after announcing $10.2 billion share placement to fund AI push</title>
+    <link href="https://www.cnbc.com/2026/08/24/alibaba-share-placement-drop-ai-hong-kong.html"/>
+    <id>https://www.cnbc.com/2026/08/24/alibaba-share-placement-drop-ai-hong-kong.html</id>
+    <updated>2026-08-24T08:21:17.000Z</updated>
+    <author><name>CNBC Tech</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>The Chinese company has been spending heavily on the technology as it jostles with rivals for dominance in the rapidly growing AI sector. — Also covered by: CNBC Tech</summary>
+    <summary>Alibaba shares plunged 10% after the tech giant priced a $10.2 billion share placement to fund its growing AI investments. — Also covered by: WSJ Tech, Reuters AI (Google News)</summary>
+  </entry>
+  <entry>
+    <title>Nvidia in talks to invest in Perplexity at $30 billion-plus valuation</title>
+    <link href="https://the-decoder.com/nvidia-in-talks-to-invest-in-perplexity-at-30-billion-plus-valuation"/>
+    <id>https://the-decoder.com/nvidia-in-talks-to-invest-in-perplexity-at-30-billion-plus-valuation</id>
+    <updated>2026-08-24T08:44:48.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Nvidia is negotiating an investment in Perplexity at a valuation above $30 billion, more than 50 percent higher than its last funding round, The Information reports. Perplexity's annualized revenue has tripled to over $750 million. Much of Nvidia's investment money tends to flow back as revenue when portfolio companies — Also covered by: Reuters AI (Google News)</summary>
   </entry>
   <entry>
     <title>SK hynix HBM Packaging at Hot Chips 2026</title>
@@ -43,15 +52,6 @@
     <summary>Plus, buying a refurbished phone, OpenAI’s shaky finances, the $3 trillion in off-balance-sheet AI debt and more. — Also covered by: Transformer</summary>
   </entry>
   <entry>
-    <title>ollama v0.33.0 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.33.0-rc2"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.33.0-rc2</id>
-    <updated>2026-08-23T19:19:20.000Z</updated>
-    <author><name>ollama/ollama</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>What's Changed Claude Desktop Turn individual Ollama models on or off for use in Claude, directly from the menu bar Choose from your available Ollama models from within Claude; cloud models appear only when you're signed in A new Apps view manages app integrations with copyable commands Improved caching Fixed a hang wh</summary>
-  </entry>
-  <entry>
     <title>Sources: Nvidia is in talks to invest in Perplexity's new equity round valuing it at $30B+; Nvidia considered a tech licensing deal and hiring some of its staff (The Information)</title>
     <link href="https://www.techmeme.com/260823/p18"/>
     <id>https://www.techmeme.com/260823/p18</id>
@@ -59,15 +59,6 @@
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
     <summary>The Information : Sources: Nvidia is in talks to invest in Perplexity's new equity round valuing it at $30B+; Nvidia considered a tech licensing deal and hiring some of its staff — Nvidia is discussing investing in Perplexity as part of an equity round that would value the AI startup at more than $30 billion …</summary>
-  </entry>
-  <entry>
-    <title>Xiaomi AI Cube announced with 1.2TB/s memory bandwidth</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vwvghi/xiaomi_ai_cube_announced_with_12tbs_memory"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vwvghi/xiaomi_ai_cube_announced_with_12tbs_memory</id>
-    <updated>2026-08-24T07:04:32.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Xiaomi announced a prototype for their Xiaomi AI Cube. 3 chip system: - Xiaomi Xuanjie O3 - Xiaomi Xuanjie O100 - Xiaomi Xuanjie D100 The specs are impressive, but a bit confusing. The D100 chip (originally for their EVs) supports up to 160GB of RAM, but O100 has the 1.22TB/s memory bandwidth. Perhaps the 1.22TB/s figu</summary>
   </entry>
   <entry>
     <title>PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure</title>
@@ -79,13 +70,13 @@
     <summary>arXiv:2608.20342v1 Announce Type: new Abstract: Large language model (LLM) coding agents start each session with an empty context window, discarding accumulated knowledge from prior work. We present PrimeAgentOrchestrator (PAO), a system that spawns new instances of Claude Code -- Anthropic's terminal-based coding agen</summary>
   </entry>
   <entry>
-    <title>Tetra Pak Tycoons Slash US Stocks in $17 Billion Portfolio</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-24/tetra-pak-tycoons-slash-us-stocks-in-17-billion-portfolio"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-24/tetra-pak-tycoons-slash-us-stocks-in-17-billion-portfolio</id>
-    <updated>2026-08-24T06:33:33.000Z</updated>
+    <title>Here's What's Behind Alibaba's $10 Billion Share Sale</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-24/here-s-what-s-behind-alibaba-s-10-billion-share-sale-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-24/here-s-what-s-behind-alibaba-s-10-billion-share-sale-video</id>
+    <updated>2026-08-24T08:41:09.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The Rausing family, which made a fortune from Tetra Pak cartons, sold more than $1 billion of US equities in the second quarter, joining the global rich that are trimming bets in the world’s biggest stock market.</summary>
+    <summary>Alibaba raised HK$80 billion ($10.2 billion) in Hong Kong’s biggest secondary share sale. Bloomberg reporters and Bloomberg Intelligence talk about what this means and why it's sparked backlash from some investors like Michael Burry. (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>Machine Learning and ARIMA Model Averaging for Adaptive Public Health Forecasting: Comparative Evaluation and an Ontario COVID-19 Case Study</title>
@@ -104,15 +95,6 @@
     <author><name>MarkTechPost</name></author>
     <category term="PRODUCTS"/>
     <summary>The five largest GPU neoclouds now run on very different models. CoreWeave and Nebius report to the SEC; Lambda and Crusoe are private and heading toward IPOs; Groq rebuilt itself as an inference cloud after licensing its LPU technology to NVIDIA. This comparison checks each provider's live rate card, Q2 2026 financial</summary>
-  </entry>
-  <entry>
-    <title>UK statistics agency turns to AI to cut costs and improve data</title>
-    <link href="https://www.ft.com/content/b153db68-a361-4217-9cc5-b766a15c1922?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/b153db68-a361-4217-9cc5-b766a15c1922?syn-25a6b1a6=1</id>
-    <updated>2026-08-24T04:00:14.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
-    <category term="HARDWARE"/>
-    <summary>ONS says technology will help save thousands of hours a year as it seeks to strengthen core output</summary>
   </entry>
   <entry>
     <title>How a Georgia Tech team used the open Olmo stack to trace social reasoning</title>
@@ -142,22 +124,13 @@
     <summary>Prompt Injection Is Now an RCE Primitive HackerNoon</summary>
   </entry>
   <entry>
-    <title>ToxicPanda Android malware uses VPN permissions to block Google Play</title>
-    <link href="https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play"/>
-    <id>https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play</id>
-    <updated>2026-08-23T14:23:46.000Z</updated>
-    <author><name>BleepingComputer</name></author>
+    <title>UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit</title>
+    <link href="https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html"/>
+    <id>https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html</id>
+    <updated>2026-08-24T08:08:31.000Z</updated>
+    <author><name>The Hacker News</name></author>
     <category term="CYBER THREATS"/>
-    <summary>The ToxicPanda Android malware has evolved with new malicious functionality, expanding its targeting to 349 applications and adding support for 167 remote commands. [...]</summary>
-  </entry>
-  <entry>
-    <title>Bankruptcy Prediction via Hybrid Resampling and Stacking Ensemble Techniques with Explainable Artificial Intelligence (XAI)-Driven Analysis</title>
-    <link href="https://arxiv.org/abs/2608.20343"/>
-    <id>https://arxiv.org/abs/2608.20343</id>
-    <updated>2026-08-24T04:00:00.000Z</updated>
-    <author><name>arXiv cs.LG</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>arXiv:2608.20343v1 Announce Type: new Abstract: This study develops and evaluates a bankruptcy prediction framework that integrates consensus-based feature selection, hybrid resampling, stacking ensembles, and explainable artificial intelligence to improve minority-class detection in severely imbalanced financial data.</summary>
+    <summary>Cybersecurity researchers have disclosed details of a Chinese-speaking cybercrime group dubbed UAT-10147 that's targeting Windows and Linux web servers globally across the education, media, technology, and gaming sectors. The vast majority of the targets are located in Brazil, Bolivia, China, Canada, and Vietnam. Detai</summary>
   </entry>
   <entry>
     <title>Quoting Drew Breunig</title>
@@ -169,22 +142,31 @@
     <summary>Prior to Fable, it felt silly to waste too much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over most of your problems. But then Fable landed. It was (and still is!) incredible . But the cost was so high and Opus was good enough (as was 5.</summary>
   </entry>
   <entry>
-    <title>At Beijing's World Humanoid Robot Games, a robot made by Honor ran 100m in 9.39s, and another Chinese robot finished 400m in 38.16s, both beating human records (Telegraph)</title>
-    <link href="https://www.techmeme.com/260823/p16"/>
-    <id>https://www.techmeme.com/260823/p16</id>
-    <updated>2026-08-24T03:10:00.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Use a digital twin to explore automation before committing capital</title>
+    <link href="https://www.therobotreport.com/use-digital-twin-explore-automation-before-committing-capital"/>
+    <id>https://www.therobotreport.com/use-digital-twin-explore-automation-before-committing-capital</id>
+    <updated>2026-08-23T12:30:14.000Z</updated>
+    <author><name>The Robot Report</name></author>
     <category term="ROBOTICS"/>
-    <summary>Telegraph : At Beijing's World Humanoid Robot Games, a robot made by Honor ran 100m in 9.39s, and another Chinese robot finished 400m in 38.16s, both beating human records — Chinese humanoid called Tiangong Ultra nearly five seconds faster than 2016 Rio Olympic time — It may have stumpy arms …</summary>
+    <summary>While a digital twin does not necessarily replace a systems integrator, it can help manufacturers evaluate robots and plan applications, says RoboDK. The post Use a digital twin to explore automation before committing capital appeared first on The Robot Report .</summary>
   </entry>
   <entry>
-    <title>Anthropic’s LLM watermarking</title>
-    <link href="https://scottaaronson.blog/?p=10032"/>
-    <id>https://scottaaronson.blog/?p=10032</id>
-    <updated>2026-08-22T21:31:52.000Z</updated>
-    <author><name>Shtetl-Optimized (Aaronson)</name></author>
+    <title>Japan’s Full-Stack Neutral-Atom Quantum Computer Is Operational</title>
+    <link href="https://thequantuminsider.com/2026/08/24/japans-full-stack-neutral-atom-quantum-computer-is-operational"/>
+    <id>https://thequantuminsider.com/2026/08/24/japans-full-stack-neutral-atom-quantum-computer-is-operational</id>
+    <updated>2026-08-24T07:51:08.000Z</updated>
+    <author><name>The Quantum Insider</name></author>
     <category term="QUANTUM"/>
-    <summary>So yeah, Anthropic has announced that it’s now watermarking the outputs of Claude, using a scheme based on Google’s SynthID, which is in turn based on the Gumbel Softmax scheme that I proposed at OpenAI back in 2022—as far as I know, the first LLM watermarking proposal, though far from the last one. I’m gratified […]</summary>
+    <summary>Insider Brief PRESS RELEASE — Institute for Molecular Science (IMS), National Institutes of Natural Sciences, announced on Aug. 24 that Japan’s first full-stack neutral-atom quantum computer “Shunkai,” developed by a research team led by Professor Kenji Ohmori, is now operational. Quantum computers are being developed </summary>
+  </entry>
+  <entry>
+    <title>ollama v0.33.0 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.33.0-rc2"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.33.0-rc2</id>
+    <updated>2026-08-23T19:19:20.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>What's Changed Claude Desktop Turn individual Ollama models on or off for use in Claude, directly from the menu bar Choose from your available Ollama models from within Claude; cloud models appear only when you're signed in A new Apps view manages app integrations with copyable commands Improved caching Fixed a hang wh</summary>
   </entry>
   <entry>
     <title>New Zealand plans a bill to ban social media for under-16s, requiring &quot;high risk&quot; platforms to check user ages or face penalties of up to 10% of global revenue (Tracy Withers/Bloomberg)</title>
@@ -196,31 +178,22 @@
     <summary>Tracy Withers / Bloomberg : New Zealand plans a bill to ban social media for under-16s, requiring “high risk” platforms to check user ages or face penalties of up to 10% of global revenue — New Zealand plans to ban under-16s from social media, joining a throng of countries worldwide seeking to limit online harm to chil</summary>
   </entry>
   <entry>
-    <title>Black Box: episode 1 – The connectionists – podcast</title>
-    <link href="https://www.theguardian.com/news/audio/2026/aug/24/black-box-episode-1-the-connectionists-podcast"/>
-    <id>https://www.theguardian.com/news/audio/2026/aug/24/black-box-episode-1-the-connectionists-podcast</id>
-    <updated>2026-08-24T02:00:48.000Z</updated>
-    <author><name>The Guardian AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Revisited: Guardian journalist Michael Safi looks into the world of artificial intelligence, exploring the dangers and promises it holds for society Today in Focus is on a summer break and will be back with new episodes from 1 September. In the meantime, we are bringing you season one of Black Box, before the launch of</summary>
+    <title>What can I realistically expect from MBP M5 Max 64gb?</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1vww4v2/what_can_i_realistically_expect_from_mbp_m5_max"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1vww4v2/what_can_i_realistically_expect_from_mbp_m5_max</id>
+    <updated>2026-08-24T07:44:46.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>For context - I'm a SWE on a huge product and using claude max daily for everything, sometimes hitting the limits. My context size usually goes to around 400k before I compact and cloude just does the job really well when it comes to exploring in a big code bases. Before pulling a trigger and getting a better macbook, </summary>
   </entry>
   <entry>
-    <title>I trained a 1.57B-parameter Dreamer 4 World Model from scratch for under $150</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vwrc6i/i_trained_a_157bparameter_dreamer_4_world_model"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vwrc6i/i_trained_a_157bparameter_dreamer_4_world_model</id>
-    <updated>2026-08-24T03:19:01.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>sglang v0.5.18 released</title>
+    <link href="https://github.com/sgl-project/sglang/releases/tag/v0.5.18"/>
+    <id>https://github.com/sgl-project/sglang/releases/tag/v0.5.18</id>
+    <updated>2026-08-24T07:42:37.000Z</updated>
+    <author><name>sgl-project/sglang</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>My first attempt didn't work. I built on Genie's architecture and the videos looked great, but the controls barely did anything. The effect of a keypress was basically zero. Genie learns its actions unsupervised into 8 codes, and that was too loose a grip for us. So I scrapped it and started again with Dreamer 4. The s</summary>
-  </entry>
-  <entry>
-    <title>deepseek-v4-flash-0731 - surprisingly usable</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vwsjut/deepseekv4flash0731_surprisingly_usable"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vwsjut/deepseekv4flash0731_surprisingly_usable</id>
-    <updated>2026-08-24T04:20:37.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>I just finished building my (relatively) low rent local inference machine: * Epyc 7663 * 256GB ECC DDR4-3200 * 1x RTX 5090 32GB Yeah I realize it's weird to throw a 5090 and 256GB of anything together and call it low end, but relative to ~151GB of weights it is. I'm running UD-Q8_K_XL and getting 23.8-24.6 tokens/sec, </summary>
+    <summary>Highlights 710 PRs from 212 contributors. New models in this release (see the cookbook for all supported models): Model Type PRs Cookbook Muse Glimmer Autoregressive (Multimodal) #34262 link Intern-S2-Mobius Autoregressive #33691 link SANA-Video Diffusion #32921 link LingBot-Video-MoE Diffusion #32341 link LTX-2.5 Diff</summary>
   </entry>
   <entry>
     <title>SDAD: Spec-Driven Agentic Development for the AI-Native SDLC</title>
@@ -241,22 +214,22 @@
     <summary>arXiv:2608.20379v1 Announce Type: new Abstract: Advances in large language models (LLMs) have fueled a wave of research into agency: the ability to reason, plan, and act. This effort has produced agentic frameworks that orchestrate perception, memory, and decision-making around powerful LLM backbones. With the advent o</summary>
   </entry>
   <entry>
-    <title>Iran Oil Cargoes Dry Up Even Before US Acts on Tehran Threats</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-24/iran-oil-cargoes-dry-up-even-before-us-acts-on-tehran-threats"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-24/iran-oil-cargoes-dry-up-even-before-us-acts-on-tehran-threats</id>
-    <updated>2026-08-24T06:56:13.000Z</updated>
+    <title>The Nigerian Industrial Behemoth That Could Reshape the African Economy</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-24/how-nigeria-could-reshape-the-african-economy-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-24/how-nigeria-could-reshape-the-african-economy-video</id>
+    <updated>2026-08-24T08:12:42.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Iran’s oil shipments to Asia have all but dried up, driving the cost of those cargoes to the highest levels in years even before the US administration announces fresh moves to isolate Tehran and its trading partners.</summary>
+    <summary>Earlier in August, it was reported that Nigeria's Dangote Refinery secured a $1 billion underwriting for its upcoming stock market listing, set to become Africa's largest IPO. According to the UN, growth across Africa was expected to reach 4.0% in 2026. The history of economic development in Africa is a vexed one; acce</summary>
   </entry>
   <entry>
-    <title>Two Japan Bond Auctions Pose Next Threat to US Treasury Yields</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-24/two-japan-bond-auctions-pose-next-threat-to-us-treasury-yields"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-24/two-japan-bond-auctions-pose-next-threat-to-us-treasury-yields</id>
-    <updated>2026-08-24T06:51:49.000Z</updated>
+    <title>Will Singapore’s Baby Push Work as Births Tumble?</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-24/will-singapore-s-baby-push-work-as-births-tumble-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-24/will-singapore-s-baby-push-work-as-births-tumble-video</id>
+    <updated>2026-08-24T08:53:37.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Two Japanese bond auctions next week may challenge US Treasury Secretary Scott Bessent’s efforts to subdue longer-maturity Treasury yields.</summary>
+    <summary>Prime Minister Lawrence Wong’s latest family support package is a familiar strategy for Singapore: make parenthood cheaper and easier in the hope that people will have more children. The record shows there are limits to how much that can actually achieve. (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>Who Do Language Models Think Is Competent? A Mechanistic Analysis of Occupational Bias</title>
@@ -275,5 +248,32 @@
     <author><name>arXiv cs.LG</name></author>
     <category term="RESEARCH"/>
     <summary>arXiv:2608.20427v1 Announce Type: new Abstract: Dense causal attention remains expensive at long context even when implemented with highly optimized exact kernels. We study BF1, a deterministic block-aligned dyadic sparse-attention route that combines a small exact local neighborhood, a global first block, and logarith</summary>
+  </entry>
+  <entry>
+    <title>Microsoft’s Skala AI Model Joins CP2K to Improve Quantum Mechanical Simulations</title>
+    <link href="https://thequantuminsider.com/2026/08/24/microsofts-skala-ai-model-joins-cp2k-to-improve-quantum-mechanical-simulations"/>
+    <id>https://thequantuminsider.com/2026/08/24/microsofts-skala-ai-model-joins-cp2k-to-improve-quantum-mechanical-simulations</id>
+    <updated>2026-08-24T08:04:47.000Z</updated>
+    <author><name>The Quantum Insider</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Insider Brief PRESS RELEASE — The Skala AI model, developed by Microsoft Research AI for Science, is now available through the CP2K software ecosystem. Thanks to Skala, researchers can perform quantum mechanical simulations of larger molecular systems while achieving a higher level of accuracy. In early 2026, Microsoft</summary>
+  </entry>
+  <entry>
+    <title>Alibaba launches $10 billion Hong Kong share placement to fund AI spending</title>
+    <link href="https://www.reuters.com/business/retail-consumer/alibaba-proposes-hong-kong-share-placement-worth-10-billion-2026-08-23"/>
+    <id>https://www.reuters.com/business/retail-consumer/alibaba-proposes-hong-kong-share-placement-worth-10-billion-2026-08-23</id>
+    <updated>2026-08-23T04:47:00.000Z</updated>
+    <author><name>Reuters AI (Google News)</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Alibaba launches $10 billion Hong Kong share placement to fund AI spending Reuters</summary>
+  </entry>
+  <entry>
+    <title>UK statistics agency turns to AI to cut costs and improve data</title>
+    <link href="https://www.ft.com/content/b153db68-a361-4217-9cc5-b766a15c1922?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/b153db68-a361-4217-9cc5-b766a15c1922?syn-25a6b1a6=1</id>
+    <updated>2026-08-24T04:00:14.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="HARDWARE"/>
+    <summary>ONS says technology will help save thousands of hours a year as it seeks to strengthen core output</summary>
   </entry>
 </feed>
