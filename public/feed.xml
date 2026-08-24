@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-24T21:38:04.717Z</updated>
+  <updated>2026-08-24T22:36:16.700Z</updated>
   <entry>
-    <title>llama.cpp b10614 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10614"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10614</id>
-    <updated>2026-08-24T21:25:13.000Z</updated>
+    <title>llama.cpp b10615 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10615"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10615</id>
+    <updated>2026-08-24T21:54:42.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>metal: per-op source split + parallel compile ( #26561 ) metal : per-op source split + parallel compile ( #24021 ) preliminary extract common header op source split split metallib into 8 libs &amp;&amp; load in parallel derive kernel-&gt;library routing from functionNames x-macro lib list + underscore filenames, dedup QK_NL, MRC  — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
+    <summary>metal : per-device tuned (Q, NE) for flash-attn vec ( #26570 ) metal : per-device tuned (Q, NE) for flash-attn vec ( #25750 ) rebase Q-generic FA vec body from 01dc936 ( #23114 ) add 53 f16 (Q,NE) flash-attn vec instantiations (vec 80 -&gt; 133) add FA vec (Q,NE) tuning table + dispatch wiring + SMEM cap fallback add FA v — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
   </entry>
   <entry>
     <title>Hot Chips 2026: Intel’s Wildcat Lake</title>
@@ -43,15 +43,6 @@
     <summary>Insider Brief Press release – Infleqtion (NYSE: INFQ), a global leader in quantum computing and quantum sensing powered by neutral-atom technology, has helped Japan reach a major quantum milestone, supporting a research team led by Professor Kenji Ohmori at the Institute for Molecular Science (IMS), part of the Nationa — Also covered by: Quantum Computing Report</summary>
   </entry>
   <entry>
-    <title>Pasqal and Eleven Ventures Form Joint Venture to Scale Neutral-Atom Quantum Systems Across Saudi Arabia and MENA Region</title>
-    <link href="https://quantumcomputingreport.com/pasqal-and-eleven-ventures-form-joint-venture-to-scale-neutral-atom-quantum-systems-across-saudi-arabia-and-mena-region"/>
-    <id>https://quantumcomputingreport.com/pasqal-and-eleven-ventures-form-joint-venture-to-scale-neutral-atom-quantum-systems-across-saudi-arabia-and-mena-region</id>
-    <updated>2026-08-24T14:17:01.000Z</updated>
-    <author><name>Quantum Computing Report</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>Neutral-atom quantum computing developer Pasqal and Saudi Arabian investment platform Eleven Ventures have signed an agreement to establish a commercial joint venture—Pasqal Arabia—to deploy, commercialize, and scale neutral-atom quantum processors across the Kingdom of Saudi Arabia and the broader Middle East and Nort — Also covered by: The Quantum Insider</summary>
-  </entry>
-  <entry>
     <title>Mistral x HUMAIN</title>
     <link href="https://mistral.ai/news/mistral-x-humain"/>
     <id>https://mistral.ai/news/mistral-x-humain</id>
@@ -69,13 +60,13 @@
     <summary>Grace Kay / The Information : At his first Cursor all-hands, Musk said Grok needs to catch up, AI will become impossible for humans to control, Anthropic is leading the AI race, and more — Earlier this month, on the day SpaceX announced it had completed its $60 billion acquisition of Cursor, Elon Musk called …</summary>
   </entry>
   <entry>
-    <title>UK Power Equipment Rental Firm Aggreko Files for New York IPO</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-24/uk-power-equipment-rental-firm-aggreko-files-for-new-york-ipo"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-24/uk-power-equipment-rental-firm-aggreko-files-for-new-york-ipo</id>
-    <updated>2026-08-24T20:41:18.000Z</updated>
+    <title>Copy Trading Offers Alternative to Traditional Investing</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-24/copy-trading-offers-alternative-to-traditional-investing-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-24/copy-trading-offers-alternative-to-traditional-investing-video</id>
+    <updated>2026-08-24T21:36:08.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Aggreko Plc filed for a US initial public offering, revealing the private equity-backed power equipment rental company turned profitable as revenue increased.</summary>
+    <summary>Steven Wang, Founder &amp; CEO of Dub, launched the copy trading platform 3 years ago after dropping out of Harvard to become an entrepreneur. He says the app offers a unique alternative to sports betting, and fresh opportunities for the increasing number of young Americans who say they are now investing their money to gro</summary>
   </entry>
   <entry>
     <title>Thomson Reuters bets $40M on owning its AI instead of renting from OpenAI or Anthropic</title>
@@ -114,13 +105,13 @@
     <summary>This Symposium is a one-day event to address the question: “ which medical measurements and consensus standards should be prioritized to support future U.S. healthcare?” The focus will be on medical imaging, medical devices, and diagnostics. The goal</summary>
   </entry>
   <entry>
-    <title>The HackerNoon Newsletter: Prompt Injection Is Now an RCE Primitive (8/24/2026)</title>
-    <link href="https://hackernoon.com/8-24-2026-newsletter"/>
-    <id>https://hackernoon.com/8-24-2026-newsletter</id>
-    <updated>2026-08-24T16:17:59.000Z</updated>
+    <title>Job Seekers Use Hidden Resume Prompts To Outsmart AI Screeners -</title>
+    <link href="https://www.blackenterprise.com/job-seekers-use-hidden-resumes-prompts-outsmart-ai-screeners"/>
+    <id>https://www.blackenterprise.com/job-seekers-use-hidden-resumes-prompts-outsmart-ai-screeners</id>
+    <updated>2026-08-24T18:41:06.000Z</updated>
     <author><name>GN: Prompt Injection</name></author>
     <category term="AI SECURITY"/>
-    <summary>The HackerNoon Newsletter: Prompt Injection Is Now an RCE Primitive (8/24/2026) HackerNoon — Also covered by: GN: Prompt Injection</summary>
+    <summary>Job Seekers Use Hidden Resume Prompts To Outsmart AI Screeners - Black Enterprise</summary>
   </entry>
   <entry>
     <title>New Zealand to pursue social media ban for children under 16</title>
@@ -130,15 +121,6 @@
     <author><name>The Record</name></author>
     <category term="CYBER THREATS"/>
     <summary>The legislation would mandate that high-risk social media platforms such as Instagram, TikTok, Snapchat and Facebook take “reasonable steps” to ensure users are over age 16 by using tools like facial age estimation, digital ID services, formal IDs and existing account information for verification.</summary>
-  </entry>
-  <entry>
-    <title>Unpatched Calix flaw lets hackers bypass NAT to expose internal devices</title>
-    <link href="https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices"/>
-    <id>https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices</id>
-    <updated>2026-08-24T21:14:30.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>An unpatched vulnerability in Calix GS7 XGS (GS5239XG) residential routers used by multiple U.S. broadband providers allows remote, unauthenticated attackers to create port-forwarding rules that can expose local network devices to the public internet. [...]</summary>
   </entry>
   <entry>
     <title>Canada-based logistics software company Descartes acquires Tai, a California-based transportation management system provider, for $100M in cash (Colin Campbell/Axios)</title>
@@ -159,6 +141,15 @@
     <summary>Researchers from Shanghai AI Lab, Dobot, SJTU, and Noitom introduce AdaPT, an adaptive planning and tracking framework that extracts stylized tennis rallying and serving from broadcast footage.</summary>
   </entry>
   <entry>
+    <title>U.S. Treasury Announces the Quantum-Readiness Task Force</title>
+    <link href="https://thequantuminsider.com/2026/08/24/u-s-treasury-announces-the-quantum-readiness-task-force"/>
+    <id>https://thequantuminsider.com/2026/08/24/u-s-treasury-announces-the-quantum-readiness-task-force</id>
+    <updated>2026-08-24T21:09:02.000Z</updated>
+    <author><name>The Quantum Insider</name></author>
+    <category term="QUANTUM"/>
+    <summary>Insider Brief PRESS RELEASE — The U.S. Department of the Treasury today announced the launch of the Quantum-Readiness Task Force, following President Donald J. Trump’s Executive Order 14412 establishing guidelines to strengthen cryptographic protections for America’s sensitive data, critical infrastructure, and digital</summary>
+  </entry>
+  <entry>
     <title>Trump bought SpaceX shares two weeks after blockbuster IPO</title>
     <link href="https://techcrunch.com/2026/08/24/trump-bought-spacex-shares-two-weeks-after-blockbuster-ipo"/>
     <id>https://techcrunch.com/2026/08/24/trump-bought-spacex-shares-two-weeks-after-blockbuster-ipo</id>
@@ -168,22 +159,22 @@
     <summary>The president bought when the stock was in the mid-$150 range. SpaceX finished trading on Monday back at its IPO price of $135.</summary>
   </entry>
   <entry>
-    <title>JetBrains local AI (using Qwen3.6 27B)</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vxdvmv/jetbrains_local_ai_using_qwen36_27b"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vxdvmv/jetbrains_local_ai_using_qwen36_27b</id>
-    <updated>2026-08-24T20:06:20.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>What's so bad about Ollama</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1vxgxc1/whats_so_bad_about_ollama"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1vxgxc1/whats_so_bad_about_ollama</id>
+    <updated>2026-08-24T21:59:44.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Sounds quite interesting, a big IDE provider optimizing for local AI with their coding harness. Especially that they picked Qwen3.6 over Qwen3.8 because of the thinking needs. Haven't read the full article yet, but sounds really cool. submitted by /u/Danmoreng [link] [comments]</summary>
+    <summary>Super new to local models and I keep seeing posts that you shouldn't use Ollama because you'll get worse performance. That's what I picked at random to run on and so far seems ok with qwen3.8. Can someone explain what's so bad about it exactly? Would I get better performance if I switched to something else? submitted b</summary>
   </entry>
   <entry>
-    <title>Do not blindly delete your older models, some are still precious</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vx9xt0/do_not_blindly_delete_your_older_models_some_are"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vx9xt0/do_not_blindly_delete_your_older_models_some_are</id>
-    <updated>2026-08-24T17:48:23.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>Tiel-Coder-35B-A3B another finetune of Qwen/Ornith 35b-a3b</title>
+    <link href="https://sh.itjust.works/post/65618118"/>
+    <id>https://sh.itjust.works/post/65618118</id>
+    <updated>2026-08-24T16:52:59.000Z</updated>
+    <author><name>Lemmy c/localllama</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>I have deleted tons and tons of older models to make space since I can't afford storage anymore. Easily 10TB... Anyways, I have been considering deleting DeepSeekV3.2 but decide to run it one more time. I have a problem I have been brainstorming about and have chatted locally with K3, Qwen3.8-2.4T, MiniMaxM3, GLM5.2 an</summary>
+    <summary>submitted by BeefAndPoultry to localllama 7 points | 0 comments https://huggingface.co/peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF Tiel is the fast coder of the arsenal. At 4-bit quantization and 22 GB it fixes real codebase issues at the rate (and speed, with the right GPU) of Opus 4.6 medium, while holding the best mult</summary>
   </entry>
   <entry>
     <title>Toyota Scales Enterprise AI with Deep Agents and LangSmith</title>
@@ -274,5 +265,14 @@
     <author><name>LangChain Blog</name></author>
     <category term="SAFETY &amp; POLICY"/>
     <summary>LangChain and Fireworks fine-tuned an open model to mine perceived error signals from production traces, matching frontier model performance at a fraction of the cost.</summary>
+  </entry>
+  <entry>
+    <title>SaassyCode Repackaged: Four New VS Code Extensions and a New Delivery Chain</title>
+    <link href="https://www.knostic.ai/blog/saassycode-repackaged-four-new-vs-code-extensions-and-a-new-delivery-chain"/>
+    <id>https://www.knostic.ai/blog/saassycode-repackaged-four-new-vs-code-extensions-and-a-new-delivery-chain</id>
+    <updated>2026-08-24T14:53:56.000Z</updated>
+    <author><name>Knostic</name></author>
+    <category term="AI SECURITY"/>
+    <summary>Knostic identified four VS Code extensions that reuse malicious code from the SaassyCode family. They reveal two distinct forms of reuse: one package was republished almost unchanged, while three others were rebuilt around reused source code.</summary>
   </entry>
 </feed>
