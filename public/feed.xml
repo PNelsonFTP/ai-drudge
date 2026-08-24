@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-24T11:37:17.542Z</updated>
+  <updated>2026-08-24T13:06:26.003Z</updated>
   <entry>
-    <title>llama.cpp b10605 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10605"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10605</id>
-    <updated>2026-08-24T08:59:34.000Z</updated>
+    <title>llama.cpp b10608 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10608"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10608</id>
+    <updated>2026-08-24T12:56:57.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>mamba2 : Flatten in/out projections to dispatch GEMM instead of GEMV ( #27513 ) mamba2 : flatten mamba2 in/out projections to dispatch gemm instead of gemv mamba2 : remove redundant output reshape Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42533776 macOS/iOS: macOS Apple — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
+    <summary>mtmd: video: fix moov atom at the end of file ( #27596 ) mtmd: video: fix moov at the end of file Co-authored-by: rkfg rkfg@rkfg.me fix SIGPIPE windows: handle broken pipe case Co-authored-by: rkfg rkfg@rkfg.me Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42581317 macOS/iO — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
   </entry>
   <entry>
     <title>Nvidia in talks to invest in Perplexity at $30 billion-plus valuation</title>
@@ -23,6 +23,15 @@
     <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Nvidia is negotiating an investment in Perplexity at a valuation above $30 billion, more than 50 percent higher than its last funding round, The Information reports. Perplexity's annualized revenue has tripled to over $750 million. Much of Nvidia's investment money tends to flow back as revenue when portfolio companies — Also covered by: Reuters AI (Google News)</summary>
+  </entry>
+  <entry>
+    <title>Hackers infecting Android car systems to build proxy botnet</title>
+    <link href="https://therecord.media/android-botnet-china-hackers"/>
+    <id>https://therecord.media/android-botnet-china-hackers</id>
+    <updated>2026-08-24T12:15:00.000Z</updated>
+    <author><name>The Record</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>A new strain of malware is being used to infect Android-based car systems, turning the devices into part of a botnet. — Also covered by: BleepingComputer</summary>
   </entry>
   <entry>
     <title>Alibaba plunges after announcing $10.2 billion share placement to fund AI push</title>
@@ -43,139 +52,13 @@
     <summary>At Hot Chips 2026 SK hynix presented some of the challenges around HBM and packaging the memory for AI accelerators The post SK hynix HBM Packaging at Hot Chips 2026 appeared first on ServeTheHome . — Also covered by: Chips and Cheese, ServeTheHome</summary>
   </entry>
   <entry>
-    <title>Cerebras unveils CS-4 with double the performance on the same chip</title>
-    <link href="https://the-decoder.com/cerebras-unveils-cs-4-with-double-the-performance-on-the-same-chip"/>
-    <id>https://the-decoder.com/cerebras-unveils-cs-4-with-double-the-performance-on-the-same-chip</id>
-    <updated>2026-08-24T10:16:06.000Z</updated>
+    <title>Thomson Reuters bets $40M on owning its AI instead of renting from OpenAI or Anthropic</title>
+    <link href="https://the-decoder.com/thomson-reuters-bets-40m-on-owning-its-ai-instead-of-renting-from-openai-or-anthropic"/>
+    <id>https://the-decoder.com/thomson-reuters-bets-40m-on-owning-its-ai-instead-of-renting-from-openai-or-anthropic</id>
+    <updated>2026-08-24T12:59:43.000Z</updated>
     <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Cerebras has introduced its CS-4 AI accelerator, which CEO Andrew Feldman calls the fastest system in the industry. The article Cerebras unveils CS-4 with double the performance on the same chip appeared first on The Decoder .</summary>
-  </entry>
-  <entry>
-    <title>Xiaomi launches the Xring O3, a 3nm SoC for its mobile devices, as the company seeks to reduce reliance on longtime suppliers Qualcomm and MediaTek (Gao Yuan/Bloomberg)</title>
-    <link href="https://www.techmeme.com/260824/p8"/>
-    <id>https://www.techmeme.com/260824/p8</id>
-    <updated>2026-08-24T10:05:00.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Gao Yuan / Bloomberg : Xiaomi launches the Xring O3, a 3nm SoC for its mobile devices, as the company seeks to reduce reliance on longtime suppliers Qualcomm and MediaTek — Xiaomi Corp. launched a mobile processor for its marquee devices, putting pressure on Qualcomm Inc. and MediaTek Inc., which for years supplied the</summary>
-  </entry>
-  <entry>
-    <title>Qwen 3.8 27B Aider score</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vwwc31/qwen_38_27b_aider_score"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vwwc31/qwen_38_27b_aider_score</id>
-    <updated>2026-08-24T07:56:50.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>I ran the Aider benchmark on Qwen 3.8 27B FP8 with FP8 KV cache 256K context vLLM. The score: 72.9 This matches Gemini 2.5 Pro from 2025-04-12 which also scored 72.9. Beats Claude Opus 4 from 2025-05-25 which scored 72.0. DeepSeek R1 2025-06-06 scored 71.4. It may just be a random benchmark, an old one at that, but it </summary>
-  </entry>
-  <entry>
-    <title>Sources: ByteDance is merging coding platform Trae and agent-building tool Coze into Doubao, and plans to launch Doubao Work to compete with Tencent's WorkBuddy (Bloomberg)</title>
-    <link href="https://www.techmeme.com/260824/p12"/>
-    <id>https://www.techmeme.com/260824/p12</id>
-    <updated>2026-08-24T10:50:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Bloomberg : Sources: ByteDance is merging coding platform Trae and agent-building tool Coze into Doubao, and plans to launch Doubao Work to compete with Tencent's WorkBuddy — ByteDance Ltd. is consolidating the resources behind two of its artificial intelligence developer products to bolster China's …</summary>
-  </entry>
-  <entry>
-    <title>Treasury’s Bessent to Detail US Plan to Economically Isolate Iran</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-24/bessent-to-detail-us-plan-to-economically-isolate-iran-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-24/bessent-to-detail-us-plan-to-economically-isolate-iran-video</id>
-    <updated>2026-08-24T11:34:30.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Treasury Secretary Scott Bessent is due to unveil details of the US plan to economically isolate Iran and its trading partners during a press conference Monday. Tyler Kendall reports on Bloomberg Television. (Source: Bloomberg)</summary>
-  </entry>
-  <entry>
-    <title>Machine Learning and ARIMA Model Averaging for Adaptive Public Health Forecasting: Comparative Evaluation and an Ontario COVID-19 Case Study</title>
-    <link href="https://arxiv.org/abs/2608.20406"/>
-    <id>https://arxiv.org/abs/2608.20406</id>
-    <updated>2026-08-24T04:00:00.000Z</updated>
-    <author><name>arXiv cs.LG</name></author>
-    <category term="RESEARCH"/>
-    <summary>arXiv:2608.20406v1 Announce Type: new Abstract: Public health forecasts must respond to abrupt changes in surveillance data without over-extrapolating noise, reporting artifacts, or temporary trends. We evaluated autoregressive integrated moving average (ARIMA), random forest, and extreme gradient boosting (XGBoost) mo</summary>
-  </entry>
-  <entry>
-    <title>How a Georgia Tech team used the open Olmo stack to trace social reasoning</title>
-    <link href="https://allenai.org/blog/olmo-capability-tracing"/>
-    <id>https://allenai.org/blog/olmo-capability-tracing</id>
-    <updated>2026-08-21T08:00:00.000Z</updated>
-    <author><name>Ai2 (Allen Institute)</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>A Georgia Tech team used Ai2’s fully open Olmo stack to trace social reasoning back to the training data that shaped it, finding that dialogue-rich, interpersonal writing had an outsized influence on the capability.</summary>
-  </entry>
-  <entry>
-    <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
-    <link href="https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare"/>
-    <id>https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare</id>
-    <updated>2026-09-24T13:00:00.000Z</updated>
-    <author><name>NIST AI News</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>This Symposium is a one-day event to address the question: “ which medical measurements and consensus standards should be prioritized to support future U.S. healthcare?” The focus will be on medical imaging, medical devices, and diagnostics. The goal</summary>
-  </entry>
-  <entry>
-    <title>Prompt Injection Is Now an RCE Primitive</title>
-    <link href="https://hackernoon.com/prompt-injection-is-now-an-rce-primitive"/>
-    <id>https://hackernoon.com/prompt-injection-is-now-an-rce-primitive</id>
-    <updated>2026-08-23T23:17:41.000Z</updated>
-    <author><name>GN: Prompt Injection</name></author>
-    <category term="AI SECURITY"/>
-    <summary>Prompt Injection Is Now an RCE Primitive HackerNoon</summary>
-  </entry>
-  <entry>
-    <title>Microsoft shares temporary fix for Windows 11 gaming issues</title>
-    <link href="https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-temporary-fix-for-windows-11-gaming-issues"/>
-    <id>https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-temporary-fix-for-windows-11-gaming-issues</id>
-    <updated>2026-08-24T09:42:05.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>Microsoft has shared a temporary fix for ongoing gaming issues caused by Windows 11 updates released during the August 2026 Patch Tuesday. [...]</summary>
-  </entry>
-  <entry>
-    <title>Startups Are Still Acquiring Startups, Led By Ultra-High-Valuation Unicorns</title>
-    <link href="https://news.crunchbase.com/ma/startup-unicorns-acquisitions-ai-fintech-biotech"/>
-    <id>https://news.crunchbase.com/ma/startup-unicorns-acquisitions-ai-fintech-biotech</id>
-    <updated>2026-08-24T11:00:12.000Z</updated>
-    <author><name>Crunchbase News AI</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>Amid fierce competition for an edge in the AI race, well-funded startups commonly find it’s simply faster to buy another company than try to build out certain technologies themselves.</summary>
-  </entry>
-  <entry>
-    <title>Quoting Drew Breunig</title>
-    <link href="https://simonwillison.net/2026/Aug/23/drew-breunig"/>
-    <id>https://simonwillison.net/2026/Aug/23/drew-breunig</id>
-    <updated>2026-08-23T19:55:30.000Z</updated>
-    <author><name>Simon Willison</name></author>
-    <category term="ANALYSIS"/>
-    <summary>Prior to Fable, it felt silly to waste too much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over most of your problems. But then Fable landed. It was (and still is!) incredible . But the cost was so high and Opus was good enough (as was 5.</summary>
-  </entry>
-  <entry>
-    <title>Chinese EV maker XPeng says its robotics business raised $900M+ led by IDG and Gaorong Ventures at a $6.3B valuation, with Tencent and Alibaba participating (Reuters)</title>
-    <link href="https://www.techmeme.com/260824/p9"/>
-    <id>https://www.techmeme.com/260824/p9</id>
-    <updated>2026-08-24T10:10:00.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="ROBOTICS"/>
-    <summary>Reuters : Chinese EV maker XPeng says its robotics business raised $900M+ led by IDG and Gaorong Ventures at a $6.3B valuation, with Tencent and Alibaba participating — China's Xpeng said on Monday its robotics business raised over $900 million in its first funding round, led by IDG and Gaorong Ventures …</summary>
-  </entry>
-  <entry>
-    <title>Japan’s Full-Stack Neutral-Atom Quantum Computer is Operational</title>
-    <link href="https://thequantuminsider.com/2026/08/24/japans-full-stack-neutral-atom-quantum-computer-is-operational"/>
-    <id>https://thequantuminsider.com/2026/08/24/japans-full-stack-neutral-atom-quantum-computer-is-operational</id>
-    <updated>2026-08-24T07:51:08.000Z</updated>
-    <author><name>The Quantum Insider</name></author>
-    <category term="QUANTUM"/>
-    <summary>Insider Brief PRESS RELEASE — Institute for Molecular Science (IMS), National Institutes of Natural Sciences, announced on Aug. 24 that Japan’s first full-stack neutral-atom quantum computer “Shunkai,” developed by a research team led by Professor Kenji Ohmori, is now operational. Quantum computers are being developed </summary>
-  </entry>
-  <entry>
-    <title>AI chatbots regularly link pregnant users to anti-abortion websites without disclosure</title>
-    <link href="https://the-decoder.com/ai-chatbots-regularly-link-pregnant-users-to-anti-abortion-websites-without-disclosure"/>
-    <id>https://the-decoder.com/ai-chatbots-regularly-link-pregnant-users-to-anti-abortion-websites-without-disclosure</id>
-    <updated>2026-08-24T10:00:51.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>When asked about unplanned pregnancies, AI chatbots regularly link to anti-abortion groups without disclosing their stance. In an AlgorithmWatch investigation of 270 responses from ChatGPT, Gemini, Grok, and Claude, the anti-abortion organization Profemina appeared in 17 percent of answers. In Germany, the chatbots als</summary>
+    <summary>Thomson Reuters is launching &quot;Thomson,&quot; its own language model built on Alibaba's Qwen, at a cost of about $40 million over two years. But the benchmarks only show top marks when the model can tap into the company's own content, like Westlaw. CTO Joel Hron makes the point that what matters isn't intelligence itself, bu</summary>
   </entry>
   <entry>
     <title>Fasset, which offers stablecoin-powered banking services across Asia and other emerging markets, raised $68M at a $1B valuation, after raising $51M in May (Krisztian Sandor/CoinDesk)</title>
@@ -187,13 +70,148 @@
     <summary>Krisztian Sandor / CoinDesk : Fasset, which offers stablecoin-powered banking services across Asia and other emerging markets, raised $68M at a $1B valuation, after raising $51M in May — Stablecoin-focused digital bank Fasset said Monday it has raised $68 million in a funding round led by Japan's SBI Group …</summary>
   </entry>
   <entry>
-    <title>Xiaomi AI Cube announced with 1.2TB/s memory bandwidth</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vwvghi/xiaomi_ai_cube_announced_with_12tbs_memory"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vwvghi/xiaomi_ai_cube_announced_with_12tbs_memory</id>
-    <updated>2026-08-24T07:04:32.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>Sources: ByteDance is merging coding platform Trae and agent-building tool Coze into Doubao, and plans to launch Doubao Work to compete with Tencent's WorkBuddy (Bloomberg)</title>
+    <link href="https://www.techmeme.com/260824/p12"/>
+    <id>https://www.techmeme.com/260824/p12</id>
+    <updated>2026-08-24T10:50:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Bloomberg : Sources: ByteDance is merging coding platform Trae and agent-building tool Coze into Doubao, and plans to launch Doubao Work to compete with Tencent's WorkBuddy — ByteDance Ltd. is consolidating the resources behind two of its artificial intelligence developer products to bolster China's …</summary>
+  </entry>
+  <entry>
+    <title>Zambia’s Bond Sale Draws Robust Demand After Hichilema Wins Vote</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-24/zambia-s-bond-sale-draws-robust-demand-after-hichilema-wins-vote"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-24/zambia-s-bond-sale-draws-robust-demand-after-hichilema-wins-vote</id>
+    <updated>2026-08-24T12:07:02.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Zambia’s borrowing costs fell in the first bond auction since this month’s elections as investors bet that political continuity will bolster the prospects of Africa’s second-biggest copper producer.</summary>
+  </entry>
+  <entry>
+    <title>Irish lawmakers reconsider the country's 1999 ban on nuclear power as data centers' growing power demands account for ~25% of the country's electricity use (Jude Webber/Financial Times)</title>
+    <link href="https://www.techmeme.com/260824/p14"/>
+    <id>https://www.techmeme.com/260824/p14</id>
+    <updated>2026-08-24T11:45:53.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="HARDWARE"/>
+    <summary>Jude Webber / Financial Times : Irish lawmakers reconsider the country's 1999 ban on nuclear power as data centers' growing power demands account for ~25% of the country's electricity use — Banned by law since 1999, Dublin reconsiders atomic energy — Rising electricity consumption by Ireland's insatiable data centres …</summary>
+  </entry>
+  <entry>
+    <title>Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt</title>
+    <link href="https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html"/>
+    <id>https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html</id>
+    <updated>2026-08-24T11:58:00.000Z</updated>
+    <author><name>The Hacker News</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>If your developers are using AI coding tools, you are probably already seeing the upside: faster development, more code, and less time spent on routine work. The harder part is what comes after. AI can also introduce open-source packages at a pace your security team was never built to handle. More dependencies mean mor</summary>
+  </entry>
+  <entry>
+    <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
+    <link href="https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare"/>
+    <id>https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare</id>
+    <updated>2026-09-24T13:00:00.000Z</updated>
+    <author><name>NIST AI News</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>This Symposium is a one-day event to address the question: “ which medical measurements and consensus standards should be prioritized to support future U.S. healthcare?” The focus will be on medical imaging, medical devices, and diagnostics. The goal</summary>
+  </entry>
+  <entry>
+    <title>Escape from Pod 9: How Prompt Injection Turned an AI SRE Agent into a Kubernetes Ransomware Attack Vector | Straiker</title>
+    <link href="https://www.straiker.ai/blog/ai-sre-agent-prompt-injection-kubernetes-ransomware"/>
+    <id>https://www.straiker.ai/blog/ai-sre-agent-prompt-injection-kubernetes-ransomware</id>
+    <updated>2026-08-24T12:00:00.000Z</updated>
+    <author><name>Straiker STAR</name></author>
+    <category term="AI SECURITY"/>
+    <summary>See how poisoned OpenTelemetry telemetry manipulated an AI SRE agent into deploying a privileged Kubernetes container, escaping to an EKS host, and executing ransomware.</summary>
+  </entry>
+  <entry>
+    <title>Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account</title>
+    <link href="https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html"/>
+    <id>https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html</id>
+    <updated>2026-08-24T11:56:34.000Z</updated>
+    <author><name>The Hacker News</name></author>
+    <category term="CYBER DEFENSE"/>
+    <summary>Red Hat and the Keycloak project have released patches to address a critical security flaw in the open-source identity and access management server that could allow an unauthenticated remote attacker to take over any user account by forcing a password reset. The vulnerability, assigned the CVE identifier CVE-2026-18963</summary>
+  </entry>
+  <entry>
+    <title>Startups Are Still Acquiring Startups, Led By Ultra-High-Valuation Unicorns</title>
+    <link href="https://news.crunchbase.com/ma/startup-unicorns-acquisitions-ai-fintech-biotech"/>
+    <id>https://news.crunchbase.com/ma/startup-unicorns-acquisitions-ai-fintech-biotech</id>
+    <updated>2026-08-24T11:00:12.000Z</updated>
+    <author><name>Crunchbase News AI</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>Amid fierce competition for an edge in the AI race, well-funded startups commonly find it’s simply faster to buy another company than try to build out certain technologies themselves.</summary>
+  </entry>
+  <entry>
+    <title>Your executable is a SQLite database</title>
+    <link href="https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database"/>
+    <id>https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database</id>
+    <updated>2026-08-24T11:38:15.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="ANALYSIS"/>
+    <summary>Your executable is a SQLite database Farid Zakaria describes a neat Linux pattern for creating a SQLite database file that can be directly used as an executable binary. The trick sets the SQLite file format's 4-byte application ID (68 bytes into the file) to SELF, standing for Structured Executable &amp; Linkable Format. T</summary>
+  </entry>
+  <entry>
+    <title>XPENG Robotics Raises Over $900 Million at $6.3 Billion Valuation to Industrialize IRON Humanoid</title>
+    <link href="https://www.humanoidsdaily.com/news/xpeng-robotics-raises-over-900-million-at-6-3-billion-valuation-to-industrialize-iron-humanoid"/>
+    <id>https://www.humanoidsdaily.com/news/xpeng-robotics-raises-over-900-million-at-6-3-billion-valuation-to-industrialize-iron-humanoid</id>
+    <updated>2026-08-24T10:59:29.000Z</updated>
+    <author><name>Humanoids Daily</name></author>
+    <category term="ROBOTICS"/>
+    <summary>XPENG has closed a record-breaking $900 million financing round for its humanoid robotics division, backed by IDG Capital, Alibaba, and Tencent, ahead of late-2026 mass production.</summary>
+  </entry>
+  <entry>
+    <title>Sweden Sets 2036 Deadline for National Quantum Technology Strategy</title>
+    <link href="https://thequantuminsider.com/2026/08/24/sweden-sets-2036-deadline-for-national-quantum-technology-strategy"/>
+    <id>https://thequantuminsider.com/2026/08/24/sweden-sets-2036-deadline-for-national-quantum-technology-strategy</id>
+    <updated>2026-08-24T12:39:15.000Z</updated>
+    <author><name>The Quantum Insider</name></author>
+    <category term="QUANTUM"/>
+    <summary>Insider Brief Sweden has laid out a decade-long plan to turn its strong quantum research base into a more coordinated industry while preparing government and businesses for the security risks posed by future quantum computers. The Swedish government published its first national quantum technology strategy, setting five</summary>
+  </entry>
+  <entry>
+    <title>Cerebras unveils CS-4 with double the performance on the same chip</title>
+    <link href="https://the-decoder.com/cerebras-unveils-cs-4-with-double-the-performance-on-the-same-chip"/>
+    <id>https://the-decoder.com/cerebras-unveils-cs-4-with-double-the-performance-on-the-same-chip</id>
+    <updated>2026-08-24T10:16:06.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Cerebras has introduced its CS-4 AI accelerator, which CEO Andrew Feldman calls the fastest system in the industry. The article Cerebras unveils CS-4 with double the performance on the same chip appeared first on The Decoder .</summary>
+  </entry>
+  <entry>
+    <title>Alibaba launches Wan3.0 AI video model after $10 billion share sale</title>
+    <link href="https://www.reuters.com/business/retail-consumer/alibaba-launches-wan30-ai-video-model-after-10-billion-share-sale-2026-08-24"/>
+    <id>https://www.reuters.com/business/retail-consumer/alibaba-launches-wan30-ai-video-model-after-10-billion-share-sale-2026-08-24</id>
+    <updated>2026-08-24T08:23:44.000Z</updated>
+    <author><name>Reuters AI (Google News)</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Alibaba launches Wan3.0 AI video model after $10 billion share sale Reuters</summary>
+  </entry>
+  <entry>
+    <title>Six base checkpoints are more interesting than one finished endpoint</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1vx1wr8/six_base_checkpoints_are_more_interesting_than"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1vx1wr8/six_base_checkpoints_are_more_interesting_than</id>
+    <updated>2026-08-24T12:50:08.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Xiaomi announced a prototype for their Xiaomi AI Cube. 3 chip system: - Xiaomi Xuanjie O3 - Xiaomi Xuanjie O100 - Xiaomi Xuanjie D100 The specs are impressive, but a bit confusing. The D100 chip (originally for their EVs) supports up to 160GB of RAM, but O100 has the 1.22TB/s memory bandwidth. Perhaps the 1.22TB/s figu</summary>
+    <summary>I actually prefer releases like this. With six base checkpoints, you can look at what changed between stages instead of treating the final model as a black box. It also makes for a much better experiment: same prompts, same evals, different checkpoints. I’d be curious to see where the biggest jump happens. Early traini</summary>
+  </entry>
+  <entry>
+    <title>Update: I turned my Lenovo Yoga into the world's stupidest 7900 XT desktop for local LLMs 🤣</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1vwz3dq/update_i_turned_my_lenovo_yoga_into_the_worlds"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1vwz3dq/update_i_turned_my_lenovo_yoga_into_the_worlds</id>
+    <updated>2026-08-24T10:36:26.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Original Post: I bought the forbidden rectangle https://www.reddit.com/r/LocalLLM/s/QNvxFUgEMe And ... Update on this cursed setup: I originally wanted to run an RX 7900 XT on my Lenovo M910Q. For some reason, it didn't work on my old M910Q due to BIOS-level issues that I couldn't figure out. Naturally, I made the comp</summary>
+  </entry>
+  <entry>
+    <title>Operation QUICSILVER Targets Myanmar Government and IT with QUICAgent Backdoor</title>
+    <link href="https://thehackernews.com/2026/08/operation-quicsilver-targets-myanmar.html"/>
+    <id>https://thehackernews.com/2026/08/operation-quicsilver-targets-myanmar.html</id>
+    <updated>2026-08-24T11:51:36.000Z</updated>
+    <author><name>The Hacker News</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Cybersecurity researchers have flagged a cyber espionage campaign targeting Myanmar that uses graduation ceremony invitation lures to deliver a Go backdoor called QUICAgent. The campaign, codenamed Operation QUICSILVER, has been found to target government and information technology sectors, per Seqrite Labs. The activi</summary>
   </entry>
   <entry>
     <title>PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure</title>
@@ -205,31 +223,31 @@
     <summary>arXiv:2608.20342v1 Announce Type: new Abstract: Large language model (LLM) coding agents start each session with an empty context window, discarding accumulated knowledge from prior work. We present PrimeAgentOrchestrator (PAO), a system that spawns new instances of Claude Code -- Anthropic's terminal-based coding agen</summary>
   </entry>
   <entry>
-    <title>SDAD: Spec-Driven Agentic Development for the AI-Native SDLC</title>
-    <link href="https://arxiv.org/abs/2608.20341"/>
-    <id>https://arxiv.org/abs/2608.20341</id>
+    <title>Strategy Sets Up Reserve That Can Be Used to Buy Bitcoin</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-24/strategy-sets-up-new-reserve-that-can-be-used-to-buy-bitcoin"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-24/strategy-sets-up-new-reserve-that-can-be-used-to-buy-bitcoin</id>
+    <updated>2026-08-24T12:26:14.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Michael Saylor’s Strategy Inc. is adding a new pool of cash to its balance-sheet toolkit, part of an effort to preserve flexibility as its once-powerful financing model remains under pressure.</summary>
+  </entry>
+  <entry>
+    <title>US Futures Drop as Investors Prep for Busy Week, Nvidia Earnings</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-24/us-futures-drop-as-investors-prep-for-busy-week-nvidia-earnings"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-24/us-futures-drop-as-investors-prep-for-busy-week-nvidia-earnings</id>
+    <updated>2026-08-24T12:23:19.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>US stocks traded lower before the bell on Monday as investors prepared for a busy week of economic data and important earnings from Nvidia Corp.</summary>
+  </entry>
+  <entry>
+    <title>Machine Learning and ARIMA Model Averaging for Adaptive Public Health Forecasting: Comparative Evaluation and an Ontario COVID-19 Case Study</title>
+    <link href="https://arxiv.org/abs/2608.20406"/>
+    <id>https://arxiv.org/abs/2608.20406</id>
     <updated>2026-08-24T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>arXiv:2608.20341v1 Announce Type: new Abstract: Frontier coding agents backed by large language models with context windows from hundreds of thousands to millions of tokens are restructuring the Software Development Life Cycle (SDLC). Rich context handling and multi-step reasoning now allow substantial Functional Requi</summary>
-  </entry>
-  <entry>
-    <title>Indonesian Commodity Oversight Plan to Include Ship-Tracking</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-24/indonesian-commodity-oversight-plan-to-include-ship-tracking"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-24/indonesian-commodity-oversight-plan-to-include-ship-tracking</id>
-    <updated>2026-08-24T11:24:42.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>The state-backed company set up to oversee Indonesia’s vast commodity industry said it aimed to strengthen oversight of export flows, including a plan to track ships serving the world’s largest archipelago.</summary>
-  </entry>
-  <entry>
-    <title>Brazil’s Braskem Files for Out-of-Court Debt Rework, Estado Says</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-24/brazil-s-braskem-files-for-out-of-court-debt-rework-estado-says"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-24/brazil-s-braskem-files-for-out-of-court-debt-rework-estado-says</id>
-    <updated>2026-08-24T11:01:14.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Braskem SA reached an agreement with its main creditors to pursue an out-of-court debt restructuring, according to newspaper O Estado de Sao Paulo.</summary>
+    <author><name>arXiv cs.LG</name></author>
+    <category term="RESEARCH"/>
+    <summary>arXiv:2608.20406v1 Announce Type: new Abstract: Public health forecasts must respond to abrupt changes in surveillance data without over-extrapolating noise, reporting artifacts, or temporary trends. We evaluated autoregressive integrated moving average (ARIMA), random forest, and extreme gradient boosting (XGBoost) mo</summary>
   </entry>
   <entry>
     <title>Who Do Language Models Think Is Competent? A Mechanistic Analysis of Occupational Bias</title>
@@ -241,39 +259,21 @@
     <summary>arXiv:2608.20347v1 Announce Type: new Abstract: Language models (LMs) often pass behavioral bias evaluations, but it remains unclear whether they no longer represent the underlying associations that give rise to biases, or have merely learned not to express them. In this study, we show that representational biases are </summary>
   </entry>
   <entry>
-    <title>BF1: A Causal Dyadic Sparse-Attention Retrofit for Efficient Long-Context Transformers</title>
-    <link href="https://arxiv.org/abs/2608.20427"/>
-    <id>https://arxiv.org/abs/2608.20427</id>
-    <updated>2026-08-24T04:00:00.000Z</updated>
-    <author><name>arXiv cs.LG</name></author>
-    <category term="RESEARCH"/>
-    <summary>arXiv:2608.20427v1 Announce Type: new Abstract: Dense causal attention remains expensive at long context even when implemented with highly optimized exact kernels. We study BF1, a deterministic block-aligned dyadic sparse-attention route that combines a small exact local neighborhood, a global first block, and logarith</summary>
-  </entry>
-  <entry>
-    <title>Alibaba launches Wan3.0 AI video model after $10 billion share sale</title>
-    <link href="https://www.reuters.com/business/retail-consumer/alibaba-launches-wan30-ai-video-model-after-10-billion-share-sale-2026-08-24"/>
-    <id>https://www.reuters.com/business/retail-consumer/alibaba-launches-wan30-ai-video-model-after-10-billion-share-sale-2026-08-24</id>
-    <updated>2026-08-24T08:23:44.000Z</updated>
-    <author><name>Reuters AI (Google News)</name></author>
+    <title>Best GPU Neoclouds 2026: CoreWeave, Nebius, Lambda, Crusoe, and Groq Ranked by Published Pricing and Contracted Power</title>
+    <link href="https://www.marktechpost.com/2026/08/23/best-gpu-neoclouds-2026"/>
+    <id>https://www.marktechpost.com/2026/08/23/best-gpu-neoclouds-2026</id>
+    <updated>2026-08-24T05:26:43.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="PRODUCTS"/>
-    <summary>Alibaba launches Wan3.0 AI video model after $10 billion share sale Reuters</summary>
+    <summary>The five largest GPU neoclouds now run on very different models. CoreWeave and Nebius report to the SEC; Lambda and Crusoe are private and heading toward IPOs; Groq rebuilt itself as an inference cloud after licensing its LPU technology to NVIDIA. This comparison checks each provider's live rate card, Q2 2026 financial</summary>
   </entry>
   <entry>
-    <title>Nvidia-backed FlexSysAI launches AI workload orchestration platform to reduce stress on the grid</title>
-    <link href="https://www.datacenterdynamics.com/en/news/nvidia-backed-flexsysai-launches-ai-workload-orchestration-platform-to-reduce-stress-on-the-grid"/>
-    <id>https://www.datacenterdynamics.com/en/news/nvidia-backed-flexsysai-launches-ai-workload-orchestration-platform-to-reduce-stress-on-the-grid</id>
-    <updated>2026-08-24T11:05:40.000Z</updated>
-    <author><name>Data Center Dynamics</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Will begin deployments in the Australian market</summary>
-  </entry>
-  <entry>
-    <title>Valve was founded 30 years ago today — changed PC gaming forever with Half-Life, then Steam</title>
-    <link href="https://www.tomshardware.com/video-games/pc-gaming/valve-was-founded-30-years-ago-today-changed-pc-gaming-forever-with-half-life-then-steam"/>
-    <id>https://www.tomshardware.com/video-games/pc-gaming/valve-was-founded-30-years-ago-today-changed-pc-gaming-forever-with-half-life-then-steam</id>
-    <updated>2026-08-24T10:31:08.000Z</updated>
+    <title>Undersea cable to Antarctica through Drake Passage is viable, researchers find — 1,600km route to Chile could spell an end to research data leaving in 'suitcases full of hard drives'</title>
+    <link href="https://www.tomshardware.com/networking/researcgers-find-a-drake-passage-cable-to-antarctica-is-buildable"/>
+    <id>https://www.tomshardware.com/networking/researcgers-find-a-drake-passage-cable-to-antarctica-is-buildable</id>
+    <updated>2026-08-24T12:03:28.000Z</updated>
     <author><name>Tom's Hardware</name></author>
     <category term="HARDWARE"/>
-    <summary>Today marks Valve’s 30th birthday. The company was founded on August 24, 1996, by Gabe Newell and Mike Harrington, both Microsoft veterans.</summary>
+    <summary>Antarctic research data still leaves the continent physically, on hard drives ferried out by ship and plane &quot;in suitcases full of hard drives.&quot;</summary>
   </entry>
 </feed>
