@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-25T14:55:20.490Z</updated>
+  <updated>2026-08-25T15:53:18.995Z</updated>
   <entry>
     <title>llama.cpp v0.3.0 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/v0.3.0"/>
@@ -14,6 +14,15 @@
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Overview llama.cpp 0.3.0 introduces the dots3-note multimodal model (with a new DSA-ISWA KV cache), MTP support for GLM-4.5-Air, and tensor-split ( -sm tensor ) plus multi-sequence rollback fixes for DeepSeek 4. ggml is bumped to v0.22.0 (meta-backend tensor split, per-op Metal kernels with parallel compilation, non-in — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
+  </entry>
+  <entry>
+    <title>Granite 4.2 LLMs: How They're Built</title>
+    <link href="https://huggingface.co/blog/ibm-granite/granite-4-2"/>
+    <id>https://huggingface.co/blog/ibm-granite/granite-4-2</id>
+    <updated>2026-08-25T15:14:14.000Z</updated>
+    <author><name>Hugging Face Blog</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Also covered by: Ben's Bites</summary>
   </entry>
   <entry>
     <title>llm-anthropic 0.27</title>
@@ -25,13 +34,13 @@
     <summary>Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2 . OpenAI made the same change in their v3.0.0 release two weeks ago. Anthropic provide this migration guide for upgrading — Also covered by: Simon Willison, Shtetl-Optimized (Aaronson)</summary>
   </entry>
   <entry>
-    <title>OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips across GPT-OSS, DeepSeek R1, Kimi K2.5 1T (Emma Roth/The Verge)</title>
-    <link href="https://www.techmeme.com/260825/p24"/>
-    <id>https://www.techmeme.com/260825/p24</id>
-    <updated>2026-08-25T14:25:00.000Z</updated>
+    <title>Uber launches an optional safety feature allowing parents or guardians to watch a livestream of their teen's ride via the driver's front-facing phone camera (Natalie Lung/Bloomberg)</title>
+    <link href="https://www.techmeme.com/260825/p30"/>
+    <id>https://www.techmeme.com/260825/p30</id>
+    <updated>2026-08-25T15:05:03.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Emma Roth / The Verge : OpenAI says its Jalape&amp;ntilde;o chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips across GPT-OSS, DeepSeek R1, Kimi K2.5 1T — Jalape&amp;ntilde;o outperformed Nvidia's superchips on an AI inference benchmark test.</summary>
+    <summary>Natalie Lung / Bloomberg : Uber launches an optional safety feature allowing parents or guardians to watch a livestream of their teen's ride via the driver's front-facing phone camera — Uber Technologies Inc. is rolling out a new safety feature that lets parents or guardians view a video livestream of their teenager's </summary>
   </entry>
   <entry>
     <title>Perplexity launches Portable Computer, a local AI agent platform running fully on-device with zero token costs, starting with Nvidia DGX Spark and RTX Linux PCs (Michael Nuñez/VentureBeat)</title>
@@ -61,13 +70,13 @@
     <summary>Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.</summary>
   </entry>
   <entry>
-    <title>Rogue AI Agents: Is Surface-Level Monitoring Enough?</title>
-    <link href="https://www.lesswrong.com/posts/Zd4zNxHoJwZmmuLrq/rogue-ai-agents-is-surface-level-monitoring-enough"/>
-    <id>https://www.lesswrong.com/posts/Zd4zNxHoJwZmmuLrq/rogue-ai-agents-is-surface-level-monitoring-enough</id>
-    <updated>2026-08-25T01:12:21.000Z</updated>
-    <author><name>LessWrong</name></author>
+    <title>A detailed look at Jalapeño, OpenAI's ASIC developed with Broadcom in 16 months, which beat Nvidia, AMD, and Google chips on multiple top open-weight models (SemiAnalysis)</title>
+    <link href="https://www.techmeme.com/260825/p31"/>
+    <id>https://www.techmeme.com/260825/p31</id>
+    <updated>2026-08-25T15:15:02.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>Disclaimer: I work on AI interpretability research. These are my own opinions. In ‌an ‌ AISI evaluation , a frontier model, acting as an agent, attempted to insert malicious code into an open-source project, created fake identities to influence a human maintainer, and then tried to hide its actions, exhibiting goal-dir</summary>
+    <summary>SemiAnalysis : A detailed look at Jalape&amp;ntilde;o, OpenAI's ASIC developed with Broadcom in 16 months, which beat Nvidia, AMD, and Google chips on multiple top open-weight models — OpenAI's self-designed ASIC compared with Rubin, Jalape&amp;ntilde;o's TCO, throughput per MW, and spicy deets</summary>
   </entry>
   <entry>
     <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
@@ -106,31 +115,40 @@
     <summary>arXiv:2608.21369v1 Announce Type: new Abstract: Nigerian Pidgin is one of Africa's most widely spoken languages, yet remains severely underrepresented in language model evaluation. Existing benchmarks primarily focus on translation, transcription, or generic sentiment analysis, leaving critical aspects of culturally gr</summary>
   </entry>
   <entry>
-    <title>Autonomous trucking startup Gatik raised $200M, two months after striking a multi-year commercial agreement with PepsiCo, bringing its total funding to ~$500M (Kirsten Korosec/TechCrunch)</title>
-    <link href="https://www.techmeme.com/260825/p25"/>
-    <id>https://www.techmeme.com/260825/p25</id>
-    <updated>2026-08-25T14:30:00.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Inside The Private-Market Divide: EquityZen’s Phil Haslett On AI, SaaS And Secondaries</title>
+    <link href="https://news.crunchbase.com/liquidity/ai-ipo-ma-secondaries-haslett-equityzen"/>
+    <id>https://news.crunchbase.com/liquidity/ai-ipo-ma-secondaries-haslett-equityzen</id>
+    <updated>2026-08-25T11:00:33.000Z</updated>
+    <author><name>Crunchbase News AI</name></author>
     <category term="FUNDING &amp; DEALS"/>
-    <summary>Kirsten Korosec / TechCrunch : Autonomous trucking startup Gatik raised $200M, two months after striking a multi-year commercial agreement with PepsiCo, bringing its total funding to ~$500M — Gatik, the autonomous vehicle startup known for its self-driving box trucks, has raised $200 million just two months after strik</summary>
+    <summary>The market for private-company shares has become a much bigger part of the startup ecosystem. In this Crunchbase News Q&amp;A, EquityZen co-founder Phil Haslett discusses why startups are offering employees and investors liquidity earlier, and why secondary prices can be more revealing than headline valuations.</summary>
   </entry>
   <entry>
-    <title>Agents on your mobile</title>
-    <link href="https://www.bensbites.com/p/agents-on-your-mobile"/>
-    <id>https://www.bensbites.com/p/agents-on-your-mobile</id>
-    <updated>2026-08-25T13:03:32.000Z</updated>
-    <author><name>Ben's Bites</name></author>
+    <title>Dylan Patel – Anthropic &amp; OpenAI will have most of the world’s compute by 2028</title>
+    <link href="https://www.dwarkesh.com/p/dylan-patel-3"/>
+    <id>https://www.dwarkesh.com/p/dylan-patel-3</id>
+    <updated>2026-08-25T15:32:57.000Z</updated>
+    <author><name>Dwarkesh Podcast</name></author>
     <category term="ANALYSIS"/>
-    <summary>learn claude with claude</summary>
+    <summary>&quot;Every force is screeching towards centralization.&quot;</summary>
   </entry>
   <entry>
-    <title>Sitehop Launches National Security Unit to Secure Legacy Defence Networks</title>
-    <link href="https://thequantuminsider.com/2026/08/25/sitehop-unit-secure-legacy-defence-networks"/>
-    <id>https://thequantuminsider.com/2026/08/25/sitehop-unit-secure-legacy-defence-networks</id>
-    <updated>2026-08-25T11:29:56.000Z</updated>
+    <title>Nvidia unveils the Jetson Orin Nano 2 edge AI computer that it says doubles inference performance, with 78 TOPS of AI compute and an eight-core Arm CPU (Eugene Demaitre/The Robot Report)</title>
+    <link href="https://www.techmeme.com/260825/p32"/>
+    <id>https://www.techmeme.com/260825/p32</id>
+    <updated>2026-08-25T15:35:00.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="ROBOTICS"/>
+    <summary>Eugene Demaitre / The Robot Report : Nvidia unveils the Jetson Orin Nano 2 edge AI computer that it says doubles inference performance, with 78 TOPS of AI compute and an eight-core Arm CPU — As AI models become more efficient, more devices can become autonomous, but developers need compact, energy-efficient computers b</summary>
+  </entry>
+  <entry>
+    <title>Quantum Sky Appoints Sean Thompson as Chief Growth Officer</title>
+    <link href="https://thequantuminsider.com/2026/08/25/quantum-sky-sean-thompson-chief-growth-officer"/>
+    <id>https://thequantuminsider.com/2026/08/25/quantum-sky-sean-thompson-chief-growth-officer</id>
+    <updated>2026-08-25T14:16:27.000Z</updated>
     <author><name>The Quantum Insider</name></author>
     <category term="QUANTUM"/>
-    <summary>Insider Brief Press release – Sitehop, the UK-based post-quantum cybersecurity specialist, has launched a national security unit to help the UK and its Five Eyes allies secure ageing defence networks without disrupting critical systems already in service. The launch comes as defence and security bodies across the West </summary>
+    <summary>Insider Brief Press release – Quantum Sky (“Company,” formerly Tyto Athene, LLC), a mission technology integrator building quantum-ready capabilities for government agencies and a portfolio company of Arlington Capital Partners (“Arlington”), today announced the appointment of Sean Thompson as Chief Growth Officer (“CG</summary>
   </entry>
   <entry>
     <title>Meta's paid AI agent Hatch launches soon, with a new model called Watermelon due in October</title>
@@ -142,22 +160,39 @@
     <summary>Meta Platforms will launch its AI agent Hatch in the coming weeks and release a new AI model called Watermelon in October. The article Meta's paid AI agent Hatch launches soon, with a new model called Watermelon due in October appeared first on The Decoder .</summary>
   </entry>
   <entry>
-    <title>Apple unveils a more powerful Mac mini featuring the all-new M6 and M5 Pro</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vy09xv/apple_unveils_a_more_powerful_mac_mini_featuring"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vy09xv/apple_unveils_a_more_powerful_mac_mini_featuring</id>
-    <updated>2026-08-25T13:44:25.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>&quot;A 12-core GPU, also with two more cores than before, now includes Neural Accelerators in each core for the first time on Mac mini, resulting in up to 4x faster AI performance and 2x faster graphics than Mac mini with M4. In addition, the all-new Dual 16-core Neural Engine delivers up to 2x faster performance than the </summary>
+    <title>Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute</title>
+    <link href="https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute"/>
+    <id>https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute</id>
+    <updated>2026-08-25T13:01:22.000Z</updated>
+    <author><name>HN: AI (150+ points)</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Article URL: https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/ Comments URL: https://news.ycombinator.com/item?id=49433292 Points: 394 # Comments: 342</summary>
   </entry>
   <entry>
-    <title>The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution</title>
-    <link href="https://unit42.paloaltonetworks.com/ai-enabled-malware-analysis"/>
-    <id>https://unit42.paloaltonetworks.com/ai-enabled-malware-analysis</id>
-    <updated>2026-08-25T10:00:57.000Z</updated>
-    <author><name>Palo Alto Unit 42</name></author>
+    <title>Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original</title>
+    <link href="https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing"/>
+    <id>https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing</id>
+    <updated>2026-08-25T11:39:24.000Z</updated>
+    <author><name>Hugging Face Blog</name></author>
+    <category term="LOCAL MODELS"/>
+  </entry>
+  <entry>
+    <title>Building Self-Correcting Memory in OpenWiki</title>
+    <link href="https://www.langchain.com/blog/self-correcting-memory-openwiki"/>
+    <id>https://www.langchain.com/blog/self-correcting-memory-openwiki</id>
+    <updated>2026-08-25T15:28:02.000Z</updated>
+    <author><name>LangChain Blog</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Explore Unit 42 research on AI-enabled malware. Learn how existing behavioral detection and endpoint analytics stop AI-authored code before execution. The post The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution appeared first on Unit 42 .</summary>
+    <summary>Learn how OpenWiki uses evidence-backed claims to detect stale knowledge, reduce hallucinations, and build self-correcting memory for evolving codebases.</summary>
+  </entry>
+  <entry>
+    <title>The Pro Sports Liquidity Escape Hatch</title>
+    <link href="https://www.bloomberg.com/news/newsletters/2026-08-25/the-pro-sports-liquidity-escape-hatch"/>
+    <id>https://www.bloomberg.com/news/newsletters/2026-08-25/the-pro-sports-liquidity-escape-hatch</id>
+    <updated>2026-08-25T15:31:11.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>What if you don’t have the Lakers?</summary>
   </entry>
   <entry>
     <title>Ukraine's Double-Barreled Drone Strikes Snarl Russian Oil Flows</title>
@@ -169,13 +204,22 @@
     <summary>Black Sea strikes hamper oil flows from Novorossiysk, while crude processing tumbles</summary>
   </entry>
   <entry>
-    <title>AI Revenue Slowdown Would Be the Market's Big Test</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-25/ai-revenue-slowdown-would-be-the-market-s-big-test-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-25/ai-revenue-slowdown-would-be-the-market-s-big-test-video</id>
-    <updated>2026-08-25T14:33:55.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Kelly Covley, senior investment analyst at Manning &amp; Napier Advisors, says the market has become increasingly dependent on the AI trade, leaving stocks more vulnerable if demand begins to weaken. With AI spending now feeding through to industries across the economy, “the biggest test would be if you had a deceleration </summary>
+    <title>OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show</title>
+    <link href="https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show"/>
+    <id>https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show</id>
+    <updated>2026-08-25T14:22:04.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="RESEARCH"/>
+    <summary>Tested on SemiAnalysis’ InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.</summary>
+  </entry>
+  <entry>
+    <title>Leading Publishers Bring Blockbuster PC Games and Technology to NVIDIA RTX Spark</title>
+    <link href="https://blogs.nvidia.com/blog/gamescom-rtx-spark-pc-games-technology"/>
+    <id>https://blogs.nvidia.com/blog/gamescom-rtx-spark-pc-games-technology</id>
+    <updated>2026-08-25T15:30:48.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
+    <category term="HARDWARE"/>
+    <summary>NVIDIA is bringing the next wave of RTX gaming to the Gamescom conference running this week in Cologne, Germany, with support for new games, anti-cheat technologies and increased visual quality. Electronic Arts, Embark and Ubisoft are among the latest game publishers and developers bringing their blockbuster titles to </summary>
   </entry>
   <entry>
     <title>Apple launches new M6 and M5 Ultra Apple silicon chips — debuting in new Mac Mini and Mac Studio</title>
@@ -183,17 +227,8 @@
     <id>https://www.tomshardware.com/pc-components/cpus/apple-launches-new-m6-and-m5-ultra-apple-silicon-chips-debuting-in-new-mac-mini-and-mac-studio</id>
     <updated>2026-08-25T13:26:19.000Z</updated>
     <author><name>Tom's Hardware</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Apple has announced new M6 and M5 Ultra chips, a new Mac mini, and a new Mac Studio.</summary>
-  </entry>
-  <entry>
-    <title>SiFive’s First Server Platform</title>
-    <link href="https://chipsandcheese.com/p/sifives-first-server-platform"/>
-    <id>https://chipsandcheese.com/p/sifives-first-server-platform</id>
-    <updated>2026-08-25T01:48:39.000Z</updated>
-    <author><name>Chips and Cheese</name></author>
     <category term="HARDWARE"/>
-    <summary>Hello you fine Internet folks,</summary>
+    <summary>Apple has announced new M6 and M5 Ultra chips, a new Mac mini, and a new Mac Studio.</summary>
   </entry>
   <entry>
     <title>Introducing new Ray capabilities on SageMaker HyperPod</title>
@@ -214,13 +249,22 @@
     <summary>Fastino released GLiNER2.5, replacing span enumeration with boundary prediction so entity width no longer costs compute. Three Apache 2.0 checkpoints ship at 74M, 194M, and 287M parameters, all CPU-runnable. The release adds joint entity-relation decoding, constrained classification, span attributes, and 4,096-word con</summary>
   </entry>
   <entry>
-    <title>AI Alignment at Which Abstraction Level?</title>
-    <link href="https://www.lesswrong.com/posts/hQHCMHtRDPRkyQgfd/ai-alignment-at-which-abstraction-level"/>
-    <id>https://www.lesswrong.com/posts/hQHCMHtRDPRkyQgfd/ai-alignment-at-which-abstraction-level</id>
-    <updated>2026-08-25T12:37:13.000Z</updated>
+    <title>We’re sleepwalking into an AI surveillance dystopia</title>
+    <link href="https://www.transformernews.ai/p/ai-surveillance-dystopian-nightmare"/>
+    <id>https://www.transformernews.ai/p/ai-surveillance-dystopian-nightmare</id>
+    <updated>2026-08-25T15:00:39.000Z</updated>
+    <author><name>Transformer</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>The technology needed for industrial-scale observation exists — and is already in widespread use</summary>
+  </entry>
+  <entry>
+    <title>The Reified Referent: How the Saturation View Values the Taste of Someone Who Does Not Exist</title>
+    <link href="https://www.lesswrong.com/posts/2JaiDAYcPaW3X7Fd2/the-reified-referent-how-the-saturation-view-values-the"/>
+    <id>https://www.lesswrong.com/posts/2JaiDAYcPaW3X7Fd2/the-reified-referent-how-the-saturation-view-values-the</id>
+    <updated>2026-08-25T15:31:04.000Z</updated>
     <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>This post is crossposted from my Substack, Structure and Guarantees , where I explore how formal verification and related ideas might scale to more complex intelligent systems. Here I start from the observation that AI alignment usually takes for granted a privileged role for human values, without asking why values sho</summary>
+    <summary>TLDR The Saturation View holds that a world of varied joys is better than a world of equal but identical joys. Elliott Thornley objected that no one benefits from this variety, and Will MacAskill answered that it is a claim about the pattern of value in the world, rather than about individuals' experiences. This post e</summary>
   </entry>
   <entry>
     <title>KAN-Robust-Bench: A Benchmark for Evaluating the Robustness of Kolmogorov-Arnold Networks</title>
@@ -230,50 +274,5 @@
     <author><name>arXiv cs.LG</name></author>
     <category term="AI SECURITY"/>
     <summary>arXiv:2608.21488v1 Announce Type: new Abstract: While machine learning models have demonstrated strong performance in many domains, these models have shown profound vulnerabilities when they are exposed to adversarial threats. While adversarial attacks fall into various categories, the most prominent category in resear</summary>
-  </entry>
-  <entry>
-    <title>Job Seekers Use Hidden Resume Prompts To Outsmart AI Screeners -</title>
-    <link href="https://www.blackenterprise.com/job-seekers-use-hidden-resumes-prompts-outsmart-ai-screeners"/>
-    <id>https://www.blackenterprise.com/job-seekers-use-hidden-resumes-prompts-outsmart-ai-screeners</id>
-    <updated>2026-08-24T18:41:06.000Z</updated>
-    <author><name>GN: Prompt Injection</name></author>
-    <category term="AI SECURITY"/>
-    <summary>Job Seekers Use Hidden Resume Prompts To Outsmart AI Screeners - Black Enterprise</summary>
-  </entry>
-  <entry>
-    <title>Hospital operator Nutex Health says data stolen in cyberattack</title>
-    <link href="https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack"/>
-    <id>https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack</id>
-    <updated>2026-08-25T14:44:16.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>Healthcare and services provider Nutex is investigating a data breach incident where an unauthorized third party exfiltrated information from company servers. [...]</summary>
-  </entry>
-  <entry>
-    <title>UK government seeks powers to secretly block risky tech suppliers</title>
-    <link href="https://therecord.media/uk-technology-national-security"/>
-    <id>https://therecord.media/uk-technology-national-security</id>
-    <updated>2026-08-25T12:45:00.000Z</updated>
-    <author><name>The Record</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>The British government is seeking new powers to ban certain technology vendors from supplying companies working in the country’s critical sectors — potentially doing so in secret.</summary>
-  </entry>
-  <entry>
-    <title>The safety penalty: Reclaiming operational sovereignty in the age of AI</title>
-    <link href="https://blog.talosintelligence.com/the-safety-penalty-reclaiming-operational-sovereignty-in-the-age-of-ai"/>
-    <id>https://blog.talosintelligence.com/the-safety-penalty-reclaiming-operational-sovereignty-in-the-age-of-ai</id>
-    <updated>2026-08-25T10:00:22.000Z</updated>
-    <author><name>Talos Intelligence</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>As frontier AI models become increasingly restrictive, security teams are facing a &quot;safety penalty&quot; that hampers real-time incident response. Discover how organizations can move toward operational sovereignty to ensure their defensive AI keeps pace with unconstrained adversaries.</summary>
-  </entry>
-  <entry>
-    <title>Inside The Private-Market Divide: EquityZen’s Phil Haslett On AI, SaaS And Secondaries</title>
-    <link href="https://news.crunchbase.com/liquidity/ai-ipo-ma-secondaries-haslett-equityzen"/>
-    <id>https://news.crunchbase.com/liquidity/ai-ipo-ma-secondaries-haslett-equityzen</id>
-    <updated>2026-08-25T11:00:33.000Z</updated>
-    <author><name>Crunchbase News AI</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>The market for private-company shares has become a much bigger part of the startup ecosystem. In this Crunchbase News Q&amp;A, EquityZen co-founder Phil Haslett discusses why startups are offering employees and investors liquidity earlier, and why secondary prices can be more revealing than headline valuations.</summary>
   </entry>
 </feed>
