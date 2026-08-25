@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-25T07:01:51.618Z</updated>
+  <updated>2026-08-25T07:52:50.431Z</updated>
   <entry>
-    <title>llama.cpp b10617 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10617"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10617</id>
-    <updated>2026-08-25T06:47:16.000Z</updated>
+    <title>llama.cpp b10618 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10618"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10618</id>
+    <updated>2026-08-25T07:09:00.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>sycl : mark tq2_0 as not supported ( #27660 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42777546 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ub — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
+    <category term="MODEL RELEASES"/>
+    <summary>grammar : parse - in char classes as literal hyphen ( #27591 ) grammar : accept &quot;-&quot; escape in character classes gbnf_escape_char_class() escapes '-' as &quot;-&quot; but parse_char() rejected that escape, so generated tool-call grammars failed to parse. Assisted-by: Claude Code claude@anthropic.com tests : add parser test for &quot;- — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
   </entry>
   <entry>
     <title>Hot Chips 2026: Intel’s Diamond Rapids</title>
@@ -43,15 +43,6 @@
     <summary>Insider Brief Press release – Infleqtion (NYSE: INFQ), a global leader in quantum computing and quantum sensing powered by neutral-atom technology, has helped Japan reach a major quantum milestone, supporting a research team led by Professor Kenji Ohmori at the Institute for Molecular Science (IMS), part of the Nationa — Also covered by: Quantum Computing Report</summary>
   </entry>
   <entry>
-    <title>ollama v0.33.0 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.33.0-rc3"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.33.0-rc3</id>
-    <updated>2026-08-25T04:01:31.000Z</updated>
-    <author><name>ollama/ollama</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>What's Changed Claude Desktop Turn individual Ollama models on or off for use in Claude, directly from the menu bar Choose from your available Ollama models from within Claude; cloud models appear only when you're signed in A new Apps view manages app integrations with copyable commands Improved caching Fixed a hang wh</summary>
-  </entry>
-  <entry>
     <title>Australia's ARIA says songs created mostly or entirely by AI will be excluded from its charts; a song that used AI became the most-played song on radio in July (Cam Wilson/ABC)</title>
     <link href="https://www.techmeme.com/260825/p3"/>
     <id>https://www.techmeme.com/260825/p3</id>
@@ -59,15 +50,6 @@
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
     <summary>Cam Wilson / ABC : Australia's ARIA says songs created mostly or entirely by AI will be excluded from its charts; a song that used AI became the most-played song on radio in July — In short: — Australia's main music charts have announced a ban on AI-generated music to start this week.</summary>
-  </entry>
-  <entry>
-    <title>LitReview Arena: Evaluating Literature Review Agents with Battle-Style Peer Review Platform</title>
-    <link href="https://arxiv.org/abs/2608.21374"/>
-    <id>https://arxiv.org/abs/2608.21374</id>
-    <updated>2026-08-25T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>arXiv:2608.21374v1 Announce Type: new Abstract: Literature reviews are essential to scientific progress, but rigorously evaluating automatically generated reviews remains difficult because many aspects of research utility depend on expert judgment rather than reference-overlap metrics. We introduce LitReview Arena, a b</summary>
   </entry>
   <entry>
     <title>HDFC Sec CEO: India's Forex Swap a Unprecedented Success</title>
@@ -169,6 +151,15 @@
     <summary>Insider Brief PRESS RELEASE — The U.S. Department of the Treasury today announced the launch of the Quantum-Readiness Task Force, following President Donald J. Trump’s Executive Order 14412 establishing guidelines to strengthen cryptographic protections for America’s sensitive data, critical infrastructure, and digital</summary>
   </entry>
   <entry>
+    <title>ollama v0.33.0 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.33.0-rc3"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.33.0-rc3</id>
+    <updated>2026-08-25T04:01:31.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>What's Changed Claude Desktop Turn individual Ollama models on or off for use in Claude, directly from the menu bar Choose from your available Ollama models from within Claude; cloud models appear only when you're signed in A new Apps view manages app integrations with copyable commands Improved caching Fixed a hang wh</summary>
+  </entry>
+  <entry>
     <title>Introducing the Edits Film Festival to Spotlight India’s Emerging Creator Talent</title>
     <link href="https://about.fb.com/news/2026/08/introducing-the-edits-film-festival-to-spotlight-indias-emerging-creator-talent"/>
     <id>https://about.fb.com/news/2026/08/introducing-the-edits-film-festival-to-spotlight-indias-emerging-creator-talent</id>
@@ -176,14 +167,6 @@
     <author><name>Meta AI Blog</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Today, we announce the launch of the Edits Film Festival — an initiative that invites content creators across India to showcase their creativity through Reels made on Edits. The post Introducing the Edits Film Festival to Spotlight India’s Emerging Creator Talent appeared first on Meta Newsroom .</summary>
-  </entry>
-  <entry>
-    <title>Mistral x HUMAIN</title>
-    <link href="https://mistral.ai/news/mistral-x-humain"/>
-    <id>https://mistral.ai/news/mistral-x-humain</id>
-    <updated>2026-08-24T16:02:41.000Z</updated>
-    <author><name>Mistral AI</name></author>
-    <category term="MODEL RELEASES"/>
   </entry>
   <entry>
     <title>Sources: Apple is about to launch a new Mac mini, potentially before its September iPhone event; Apple has tested versions with M5 and M6 (Mark Gurman/Bloomberg)</title>
@@ -222,6 +205,15 @@
     <summary>Ornith does really well. TielCoder ( https://llm-bench.io/benchmarks/cmt7kp2zj002r01lcmpchvlko ) might be even a bit better in coding. Will give it a try soon. Details of the comparison see here: https://llm-bench.io/compare/runs?runs=cmt6ecf8g000001p45vwzux53%2Ccmt6ergk5000701p41hqdyy78%2Ccmt6f2oob000e01p49o9592cb%2Cc</summary>
   </entry>
   <entry>
+    <title>LitReview Arena: Evaluating Literature Review Agents with Battle-Style Peer Review Platform</title>
+    <link href="https://arxiv.org/abs/2608.21374"/>
+    <id>https://arxiv.org/abs/2608.21374</id>
+    <updated>2026-08-25T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>arXiv:2608.21374v1 Announce Type: new Abstract: Literature reviews are essential to scientific progress, but rigorously evaluating automatically generated reviews remains difficult because many aspects of research utility depend on expert judgment rather than reference-overlap metrics. We introduce LitReview Arena, a b</summary>
+  </entry>
+  <entry>
     <title>AI Learning and Conceptual Transfer in the Game of Hidden Rules</title>
     <link href="https://arxiv.org/abs/2608.21372"/>
     <id>https://arxiv.org/abs/2608.21372</id>
@@ -231,31 +223,22 @@
     <summary>arXiv:2608.21372v1 Announce Type: new Abstract: This report summarizes the work conducted on the Game of Hidden Rules (GOHR), focusing on reinforcement learning agents trained to infer hidden rules from trial-and-error feedback, representation design, rule difficulty analysis, transfer learning, generalization, and pse</summary>
   </entry>
   <entry>
-    <title>SchemaRouter: Field-Aware Tool Routing for Efficient Heterogeneous Agentic RAG</title>
-    <link href="https://arxiv.org/abs/2608.21375"/>
-    <id>https://arxiv.org/abs/2608.21375</id>
-    <updated>2026-08-25T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>arXiv:2608.21375v1 Announce Type: new Abstract: Heterogeneous agentic retrieval-augmented generation (RAG) systems increasingly orchestrate external APIs, internal databases, vector stores, and graph stores. Exposing all tool descriptions to an LLM agent, or selecting tools only by vector similarity, causes two costly </summary>
-  </entry>
-  <entry>
-    <title>HSBC Buys at Least $3 Billion of India Bonds After Deposit Boost</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-25/hsbc-buys-at-least-3-billion-india-bonds-after-fx-deposit-boost"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-25/hsbc-buys-at-least-3-billion-india-bonds-after-fx-deposit-boost</id>
-    <updated>2026-08-25T06:14:48.000Z</updated>
+    <title>Korea Leveraged ETFs See $1 Billion Outflow as Fervor Cools</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-25/korea-leveraged-etfs-see-1-billion-outflow-as-fervor-cools"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-25/korea-leveraged-etfs-see-1-billion-outflow-as-fervor-cools</id>
+    <updated>2026-08-25T07:02:34.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>HSBC Holdings Plc has purchased at least $3 billion of Indian government bonds since July, deploying a large pool of funds garnered under a special diaspora dollar deposit program, according to people familiar with the developments.</summary>
+    <summary>South Korea’s leveraged ETFs tied to chipmakers saw outflows near $1 billion this month as investor fervor over the AI trade cooled and regulators stepped up measures to curb demand.</summary>
   </entry>
   <entry>
-    <title>How the World Adapted to the Strait of Hormuz Crisis</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-25/how-the-world-adapted-to-the-strait-of-hormuz-crisis-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-25/how-the-world-adapted-to-the-strait-of-hormuz-crisis-video</id>
-    <updated>2026-08-25T06:16:42.000Z</updated>
+    <title>Horizons Middle East &amp; Africa 8/25/2026</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-25/horizons-middle-east-africa-8-25-2026-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-25/horizons-middle-east-africa-8-25-2026-video</id>
+    <updated>2026-08-25T07:34:33.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Despite the US-Iran war disrupting roughly 20 million barrels of oil a day flowing through the Strait of Hormuz, markets proved more resilient than many expected. A special report from Bloomberg Intelligence examines how the world adapted and whether the crisis marked a turning point for global supply chains. BI's Will</summary>
+    <summary>Horizons Middle East &amp; Africa is your daily spotlight on one of the world's fastest-growing regions. Live from Dubai, we bring you the latest global markets and analysis, plus news-making interviews, with a special focus on MEA. All that and more, as you head to the office in the Gulf, pause for lunch in Hong Kong, or </summary>
   </entry>
   <entry>
     <title>Alabama launches probe into OpenAI after Hugging Face breach</title>
@@ -274,5 +257,23 @@
     <author><name>The Decoder</name></author>
     <category term="PRODUCTS"/>
     <summary>Thomson Reuters is launching &quot;Thomson,&quot; its own language model built on Alibaba's Qwen, at a cost of about $40 million over two years. But the benchmarks only show top marks when the model can tap into the company's own content, like Westlaw. CTO Joel Hron makes the point that what matters isn't intelligence itself, bu</summary>
+  </entry>
+  <entry>
+    <title>SiFive’s First Server Platform</title>
+    <link href="https://chipsandcheese.com/p/sifives-first-server-platform"/>
+    <id>https://chipsandcheese.com/p/sifives-first-server-platform</id>
+    <updated>2026-08-25T01:48:39.000Z</updated>
+    <author><name>Chips and Cheese</name></author>
+    <category term="HARDWARE"/>
+    <summary>Hello you fine Internet folks,</summary>
+  </entry>
+  <entry>
+    <title>Rogue AI agent used fake accounts and a staged apology to push malware into an open-source project</title>
+    <link href="https://the-decoder.com/rogue-ai-agent-used-fake-accounts-and-a-staged-apology-to-push-malware-into-an-open-source-project"/>
+    <id>https://the-decoder.com/rogue-ai-agent-used-fake-accounts-and-a-staged-apology-to-push-malware-into-an-open-source-project</id>
+    <updated>2026-08-24T14:23:55.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>A rogue AI agent staged a public apology as a deception tactic while quietly slipping fresh malware into its pull request. The article Rogue AI agent used fake accounts and a staged apology to push malware into an open-source project appeared first on The Decoder .</summary>
   </entry>
 </feed>
