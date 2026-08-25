@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-25T21:37:09.872Z</updated>
+  <updated>2026-08-25T22:37:08.846Z</updated>
   <entry>
     <title>llama.cpp v0.3.0 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/v0.3.0"/>
@@ -14,24 +14,6 @@
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Overview llama.cpp 0.3.0 introduces the dots3-note multimodal model (with a new DSA-ISWA KV cache), MTP support for GLM-4.5-Air, and tensor-split ( -sm tensor ) plus multi-sequence rollback fixes for DeepSeek 4. ggml is bumped to v0.22.0 (meta-backend tensor split, per-op Metal kernels with parallel compilation, non-in — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index, Lemmy c/localllama</summary>
-  </entry>
-  <entry>
-    <title>35B-A3B tool calling benchmark: Original Qwen vs. KAT Coder, Ornith and Tiel-Coder</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vyaxip/35ba3b_tool_calling_benchmark_original_qwen_vs"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vyaxip/35ba3b_tool_calling_benchmark_original_qwen_vs</id>
-    <updated>2026-08-25T20:07:51.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>With hopes of a Qwen3.8-35B-A3B release now mostly dashed, many people including myself are looking at fine-tunes and other variants of Qwen3.6-35B-A3B to run on VRAM-limited hardware. I decided to try to benchmark some of the top contenders: KAT-Coder, Ornith 1.5 and the very recent Tiel-Coder. I used the tool-eval-be — Also covered by: Lemmy c/localllama</summary>
-  </entry>
-  <entry>
-    <title>Taiwan charges nine people for smuggling ‘high-end’ AI servers to China</title>
-    <link href="https://www.theguardian.com/technology/2026/aug/25/taiwan-china-ai-smugglers"/>
-    <id>https://www.theguardian.com/technology/2026/aug/25/taiwan-china-ai-smugglers</id>
-    <updated>2026-08-25T19:02:42.000Z</updated>
-    <author><name>The Guardian AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Among those charged are two Super Micro employees and one from Nvidia, marking another flashpoint in US-China AI rivalry Taiwanese prosecutors charged nine people Monday, including one from Nvidia and two from Super Micro, for illegally exporting “high-end AI servers” to mainland China, adding another wave of turbulenc — Also covered by: WSJ Tech</summary>
   </entry>
   <entry>
     <title>Granite 4.2 LLMs: How They're Built</title>
@@ -52,6 +34,15 @@
     <summary>Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2 . OpenAI made the same change in their v3.0.0 release two weeks ago. Anthropic provide this migration guide for upgrading — Also covered by: Simon Willison, Shtetl-Optimized (Aaronson)</summary>
   </entry>
   <entry>
+    <title>ollama v0.33.0-rc4 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.33.0-rc4"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.33.0-rc4</id>
+    <updated>2026-08-25T22:03:57.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>proxy: preserve string content during image fallback ( #18002 )</summary>
+  </entry>
+  <entry>
     <title>Trump-backed Ken Paxton unveils ‘Texas first’ datacenter plan aimed at ‘negative impact’</title>
     <link href="https://www.theguardian.com/us-news/2026/aug/25/ken-paxton-datacenters-plan-texas"/>
     <id>https://www.theguardian.com/us-news/2026/aug/25/ken-paxton-datacenters-plan-texas</id>
@@ -59,6 +50,15 @@
     <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
     <summary>The Republican Senate candidate announced the plan with a graphic flagged as ‘Made with AI’ US politics live – latest updates Ken Paxton , a Republican candidate for the US Senate in Texas, has unveiled plans to tackle the “negative impact” of datacenters amid a growing backlash across the political spectrum. Paxton, e</summary>
+  </entry>
+  <entry>
+    <title>llama.cpp v0.3.0 has been released</title>
+    <link href="https://sh.itjust.works/post/65672662"/>
+    <id>https://sh.itjust.works/post/65672662</id>
+    <updated>2026-08-25T16:24:27.000Z</updated>
+    <author><name>Lemmy c/localllama</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>submitted by BeefAndPoultry to localllama 18 points | 0 comments https://github.com/ggml-org/llama.cpp/releases/tag/v0.3.0 Wow llama.cpp has actual release notes now! — Also covered by: ggml-org/llama.cpp</summary>
   </entry>
   <entry>
     <title>Benchmarking Question/Answering Over CSV Data</title>
@@ -70,13 +70,13 @@
     <summary>Build better Q&amp;A systems for CSV data using LangChain agents, retrieval, and LLM evaluation. Includes benchmarks, debugging insights, and open-source code.</summary>
   </entry>
   <entry>
-    <title>The Mormon Church Is Putting Its Real Estate Empire to Work</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-25/the-mormon-church-is-putting-its-real-estate-empire-to-work"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-25/the-mormon-church-is-putting-its-real-estate-empire-to-work</id>
-    <updated>2026-08-25T21:00:07.000Z</updated>
+    <title>Fusion Firm Gets Major Monetary Boost</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-25/fusion-firm-gets-major-monetary-boost-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-25/fusion-firm-gets-major-monetary-boost-video</id>
+    <updated>2026-08-25T21:51:58.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>After decades of quietly amassing billions of dollars in land, the institution is investing in more deals and planning massive projects that stand to reshape communities. Bloomberg's Natalie Wong, Ann Choi and Katie Meyer explain. (Source: Bloomberg)</summary>
+    <summary>Commonwealth Fusion Systems has raised around $4 billion in order to work toward commercializing fusion energy, that's about 30% of the total capital raised by the fusion industry to-date, according to CFS. In explaining on Bloomberg Businessweek what fusion is, the company's CEO Bob Mumgaard says the goal &quot;is to build</summary>
   </entry>
   <entry>
     <title>U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches</title>
@@ -151,13 +151,13 @@
     <summary>With Gemini Enterprise for Legal, Google launches an AI solution for the legal industry that connects to systems like iManage, DocuSign, and Everlaw through MCP connectors. Partners like Deloitte sell ready-made AI agents for tasks like contract review. Anthropic already offers similar solutions. All providers use the </summary>
   </entry>
   <entry>
-    <title>OpenAI's first custom chip &quot;Jalapeño&quot; reportedly beats Nvidia's Blackwell and Rubin in inference benchmarks</title>
-    <link href="https://the-decoder.com/openais-first-custom-chip-jalapeno-reportedly-beats-nvidias-blackwell-and-rubin-in-inference-benchmarks"/>
-    <id>https://the-decoder.com/openais-first-custom-chip-jalapeno-reportedly-beats-nvidias-blackwell-and-rubin-in-inference-benchmarks</id>
-    <updated>2026-08-25T18:00:50.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>OpenAI showed off &quot;Jalapeño,&quot; its first in-house inference chip, with benchmarks at the Hot Chips conference. According to SemiAnalysis tests, the chip beats Nvidia's Blackwell and even Rubin in throughput and energy efficiency. &quot;Usually first generation chips aren't competitive, but OpenAI is beating Nvidia Blackwell </summary>
+    <title>Nitter, an open-source front end that let users read X without an account, says X sent cease-and-desist letters demanding a takedown; Nitter.net is now offline (Sarah Perez/TechCrunch)</title>
+    <link href="https://www.techmeme.com/260825/p44"/>
+    <id>https://www.techmeme.com/260825/p44</id>
+    <updated>2026-08-25T22:20:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Sarah Perez / TechCrunch : Nitter, an open-source front end that let users read X without an account, says X sent cease-and-desist letters demanding a takedown; Nitter.net is now offline — Nitter, an open source project that allowed people to read X posts without logging into or even opening the X app …</summary>
   </entry>
   <entry>
     <title>Sources: Chris Malone, who joined OpenAI as head of data centers in March 2025, left the company last week amid a broader exodus (Anissa Gardizy/Wall Street Journal)</title>
@@ -169,31 +169,22 @@
     <summary>Anissa Gardizy / Wall Street Journal : Sources: Chris Malone, who joined OpenAI as head of data centers in March 2025, left the company last week amid a broader exodus — Chris Malone joins a string of recent high-level executive departures as the AI giant heads toward an IPO and ramps up its spending on computing power</summary>
   </entry>
   <entry>
-    <title>Stability AI, maker of image generator Stable Diffusion, raises $76 million in fresh funding</title>
-    <link href="https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding"/>
-    <id>https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding</id>
-    <updated>2026-08-25T19:03:47.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>The company's new fundraising total now stands at $232 million.</summary>
+    <title>What is the current best agentic llm to run with a 16gb vram gpu?</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1vybn44/what_is_the_current_best_agentic_llm_to_run_with"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1vybn44/what_is_the_current_best_agentic_llm_to_run_with</id>
+    <updated>2026-08-25T20:32:16.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>In particular I have a 4080 super. I can't get a 27b model to work reasonably to save my life. They usually bench well, but suffer in actual use cases. This space is moving fast and i'd like to know what you guys are running so I can try to squeeze as much performance as possible out of this baby. Qwen 3.8 9b in partic</summary>
   </entry>
   <entry>
-    <title>It's here!</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vycbqw/its_here"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vycbqw/its_here</id>
-    <updated>2026-08-25T20:57:18.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>Join a community-run AI Discord: open discussion, transparent moderation, local model quants</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1vye5hi/join_a_communityrun_ai_discord_open_discussion"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1vye5hi/join_a_communityrun_ai_discord_open_discussion</id>
+    <updated>2026-08-25T22:06:29.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>mrburns_excellent.gif submitted by /u/funding__secured [link] [comments]</summary>
-  </entry>
-  <entry>
-    <title>Mac Studio M5 Max Cost Analysis</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vy3lsp/mac_studio_m5_max_cost_analysis"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vy3lsp/mac_studio_m5_max_cost_analysis</id>
-    <updated>2026-08-25T15:49:20.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>At $10k, you could get - 6.2B tokens with Qwen 3.8 Max (Qwen Pro plan) - 5.7B tokens with DeepSeek V4 Pro OpenRouter - 100B tokens with DeepSeek V4 Flash OpenRouter As a firm believer of local inference, unless you need it for data sovereignty, it's much more cost effect to wait for smaller models to keep getting bette</summary>
+    <summary>I made a Discord for people who are genuinely into AI and want a decent place to talk about it. It’s still new, but the idea is to build a large community without arbitrary bans, hidden moderation decisions, or people getting shut down for disagreeing. Rules should be clear, moderation should be explainable, and member</summary>
   </entry>
   <entry>
     <title>Announcing our $10M seed round led by Benchmark</title>
@@ -214,22 +205,22 @@
     <summary>Learn how to fine-tune and evaluate LLMs with LangSmith for dataset management. Complete guide covers LLaMA2 and GPT-3.5 fine-tuning with practical examples.</summary>
   </entry>
   <entry>
-    <title>EchoStar Deals Worth $1.5 Billion Must be Investigated, US Says</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-25/echostar-deals-worth-1-5-billion-must-be-investigated-us-says"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-25/echostar-deals-worth-1-5-billion-must-be-investigated-us-says</id>
-    <updated>2026-08-25T20:59:30.000Z</updated>
+    <title>Asian Stocks Set to Gain as Oil Extends Declines: Markets Wrap</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-25/asian-stocks-set-to-gain-as-oil-extends-declines-markets-wrap"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-25/asian-stocks-set-to-gain-as-oil-extends-declines-markets-wrap</id>
+    <updated>2026-08-25T22:08:45.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>EchoStar Corp. allegedly engaged in $1.5 billion of “unusual transactions” with its bankrupt subsidiary, Hughes Satellite Systems Corp., according to the US Trustee, who urged the court to appoint an examiner to investigate the deals.</summary>
+    <summary>Asian stocks were set to advance as falling oil prices eased inflation concerns and pushed bond yields lower, while traders awaited Nvidia Corp.’s earnings for fresh clues on the outlook for artificial intelligence.</summary>
   </entry>
   <entry>
-    <title>2026 Best Cities for Work Revealed</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-25/2026-best-cities-for-work-revealed-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-25/2026-best-cities-for-work-revealed-video</id>
-    <updated>2026-08-25T21:27:59.000Z</updated>
+    <title>Latest Oil Market News and Analysis for Aug. 26</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-25/latest-oil-market-news-and-analysis-for-aug-26"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-25/latest-oil-market-news-and-analysis-for-aug-26</id>
+    <updated>2026-08-25T22:06:21.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Indeed Hiring Lab measured 40 metrics across six pillars against hundreds of US metro-areas to determine which cities are the best for workers in 2026. Laura Ullrich, Director of Economic Research at Indeed Hiring Lab, explains that its not about where company's are headquartered or where its best to run a company, but</summary>
+    <summary>Oil extended declines as Iran and Oman discussed an “interim framework” aimed at resuming shipping through the Strait of Hormuz.</summary>
   </entry>
   <entry>
     <title>Meta's paid AI agent Hatch launches soon, with a new model called Watermelon due in October</title>
@@ -241,13 +232,13 @@
     <summary>Meta Platforms will launch its AI agent Hatch in the coming weeks and release a new AI model called Watermelon in October. The article Meta's paid AI agent Hatch launches soon, with a new model called Watermelon due in October appeared first on The Decoder .</summary>
   </entry>
   <entry>
-    <title>Brain Drain Hits OpenAI and Google, But the Impact Isn’t Equal</title>
-    <link href="https://www.wsj.com/tech/ai/brain-drain-hits-openai-and-google-but-the-impact-isnt-equal-dedea586?mod=rss_Technology"/>
-    <id>https://www.wsj.com/tech/ai/brain-drain-hits-openai-and-google-but-the-impact-isnt-equal-dedea586?mod=rss_Technology</id>
-    <updated>2026-08-25T16:00:00.000Z</updated>
-    <author><name>WSJ Tech</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Plus, Nvidia puts $6 billion more behind open-weight models, and rare-book dealers are conflicted about AI-era sales boost.</summary>
+    <title>OpenAI's first custom chip &quot;Jalapeño&quot; reportedly beats Nvidia's Blackwell and Rubin in inference benchmarks</title>
+    <link href="https://the-decoder.com/openais-first-custom-chip-jalapeno-reportedly-beats-nvidias-blackwell-and-rubin-in-inference-benchmarks"/>
+    <id>https://the-decoder.com/openais-first-custom-chip-jalapeno-reportedly-beats-nvidias-blackwell-and-rubin-in-inference-benchmarks</id>
+    <updated>2026-08-25T18:00:50.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="HARDWARE"/>
+    <summary>OpenAI showed off &quot;Jalapeño,&quot; its first in-house inference chip, with benchmarks at the Hot Chips conference. According to SemiAnalysis tests, the chip beats Nvidia's Blackwell and even Rubin in throughput and energy efficiency. &quot;Usually first generation chips aren't competitive, but OpenAI is beating Nvidia Blackwell </summary>
   </entry>
   <entry>
     <title>We’re sleepwalking into an AI surveillance dystopia</title>
@@ -275,5 +266,14 @@
     <author><name>Trail of Bits</name></author>
     <category term="AI SECURITY"/>
     <summary>We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK , that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bri</summary>
+  </entry>
+  <entry>
+    <title>“Court Sanction for Plaintiff’s Use of Prompt-Injection” | EDRM - Electronic Discovery Reference Model</title>
+    <link href="https://www.jdsupra.com/legalnews/court-sanction-for-plaintiff-s-use-of-6292904"/>
+    <id>https://www.jdsupra.com/legalnews/court-sanction-for-plaintiff-s-use-of-6292904</id>
+    <updated>2026-08-25T18:53:43.000Z</updated>
+    <author><name>GN: Prompt Injection</name></author>
+    <category term="AI SECURITY"/>
+    <summary>“Court Sanction for Plaintiff’s Use of Prompt-Injection” | EDRM - Electronic Discovery Reference Model JD Supra</summary>
   </entry>
 </feed>
