@@ -5,24 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-25T09:45:24.409Z</updated>
+  <updated>2026-08-25T10:42:42.188Z</updated>
   <entry>
-    <title>llama.cpp b10620 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10620"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10620</id>
-    <updated>2026-08-25T09:37:28.000Z</updated>
+    <title>llama.cpp v0.3.0 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/v0.3.0"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/v0.3.0</id>
+    <updated>2026-08-25T10:29:52.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>sync : ggml Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42810281 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulka — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
-  </entry>
-  <entry>
-    <title>Hot Chips 2026: Intel’s Diamond Rapids</title>
-    <link href="https://chipsandcheese.com/p/hot-chips-2026-intels-diamond-rapids"/>
-    <id>https://chipsandcheese.com/p/hot-chips-2026-intels-diamond-rapids</id>
-    <updated>2026-08-25T06:20:03.000Z</updated>
-    <author><name>Chips and Cheese</name></author>
-    <category term="HARDWARE"/>
-    <summary>Hello you fine Internet folks, — Also covered by: Chips and Cheese, ServeTheHome</summary>
+    <category term="MODEL RELEASES"/>
+    <summary>Overview llama.cpp 0.3.0 introduces the dots3-note multimodal model (with a new DSA-ISWA KV cache), MTP support for GLM-4.5-Air, and tensor-split ( -sm tensor ) plus multi-sequence rollback fixes for DeepSeek 4. ggml is bumped to v0.22.0 (meta-backend tensor split, per-op Metal kernels with parallel compilation, non-in — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
   </entry>
   <entry>
     <title>llm-anthropic 0.27</title>
@@ -34,24 +25,6 @@
     <summary>Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2 . OpenAI made the same change in their v3.0.0 release two weeks ago. Anthropic provide this migration guide for upgrading — Also covered by: Simon Willison, Shtetl-Optimized (Aaronson)</summary>
   </entry>
   <entry>
-    <title>Infleqtion Helps Launch Japan’s First Operational Neutral-Atom Quantum Computer</title>
-    <link href="https://thequantuminsider.com/2026/08/24/infleqtion-japan-operational-neutral-atom-quantum-computer"/>
-    <id>https://thequantuminsider.com/2026/08/24/infleqtion-japan-operational-neutral-atom-quantum-computer</id>
-    <updated>2026-08-24T17:36:46.000Z</updated>
-    <author><name>The Quantum Insider</name></author>
-    <category term="QUANTUM"/>
-    <summary>Insider Brief Press release – Infleqtion (NYSE: INFQ), a global leader in quantum computing and quantum sensing powered by neutral-atom technology, has helped Japan reach a major quantum milestone, supporting a research team led by Professor Kenji Ohmori at the Institute for Molecular Science (IMS), part of the Nationa — Also covered by: Quantum Computing Report</summary>
-  </entry>
-  <entry>
-    <title>ollama v0.33.0 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.33.0-rc3"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.33.0-rc3</id>
-    <updated>2026-08-25T04:01:31.000Z</updated>
-    <author><name>ollama/ollama</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>What's Changed Claude Desktop Turn individual Ollama models on or off for use in Claude, directly from the menu bar Choose from your available Ollama models from within Claude; cloud models appear only when you're signed in A new Apps view manages app integrations with copyable commands Improved caching Fixed a hang wh</summary>
-  </entry>
-  <entry>
     <title>UK filings: OnlyFans parent Fenix paid late owner Leonid Radvinsky $709M in the months leading up to his death in March; FY 2025 revenue rose 10% YoY to $1.55B (Shona Ghosh/Bloomberg)</title>
     <link href="https://www.techmeme.com/260825/p4"/>
     <id>https://www.techmeme.com/260825/p4</id>
@@ -61,31 +34,22 @@
     <summary>Shona Ghosh / Bloomberg : UK filings: OnlyFans parent Fenix paid late owner Leonid Radvinsky $709M in the months leading up to his death in March; FY 2025 revenue rose 10% YoY to $1.55B — OnlyFans, the platform known for adult content, paid its billionaire owner $709 million in dividends over several months prior to hi</summary>
   </entry>
   <entry>
-    <title>Taiwanese cybersecurity firm warns that AI tools have more than doubled Chinese state-backed cyberattacks</title>
-    <link href="https://the-decoder.com/taiwanese-cybersecurity-firm-warns-that-ai-tools-have-more-than-doubled-chinese-state-backed-cyberattacks"/>
-    <id>https://the-decoder.com/taiwanese-cybersecurity-firm-warns-that-ai-tools-have-more-than-doubled-chinese-state-backed-cyberattacks</id>
-    <updated>2026-08-25T08:40:14.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution</title>
+    <link href="https://unit42.paloaltonetworks.com/ai-enabled-malware-analysis"/>
+    <id>https://unit42.paloaltonetworks.com/ai-enabled-malware-analysis</id>
+    <updated>2026-08-25T10:00:57.000Z</updated>
+    <author><name>Palo Alto Unit 42</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Chinese state-backed hacking groups have more than doubled their attacks since they started using AI models like DeepSeek to write exploit code and scan networks, according to Taiwanese security firm TeamT5. Hackers also used ChatGPT and Anthropic's Claude Code. A UK study shows the cyber capabilities of open models ar</summary>
+    <summary>Explore Unit 42 research on AI-enabled malware. Learn how existing behavioral detection and endpoint analytics stop AI-authored code before execution. The post The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution appeared first on Unit 42 .</summary>
   </entry>
   <entry>
-    <title>Major Indian Supermarket Chain Plans Record Rupee Bond Sale</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-25/major-indian-supermarket-chain-plans-record-rupee-bond-sale"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-25/major-indian-supermarket-chain-plans-record-rupee-bond-sale</id>
-    <updated>2026-08-25T08:52:39.000Z</updated>
+    <title>Oura and Aggreko IPO Plans Are Latest Signs of Europe Losing Out</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-25/oura-and-aggreko-ipo-plans-are-latest-signs-of-europe-losing-out"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-25/oura-and-aggreko-ipo-plans-are-latest-signs-of-europe-losing-out</id>
+    <updated>2026-08-25T10:33:25.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Avenue Supermarts Ltd., a leading Indian supermarket operator, plans to raise up to 10 billion rupees ($105 million) through a domestic bond offering, according to people familiar with the matter, its largest ever as corporate debt sales in the country gain momentum.</summary>
-  </entry>
-  <entry>
-    <title>Wazobia Eval: A Benchmark for Nigerian Pidgin Emotion Understanding, Sarcasm Detection, and Cultural Reasoning</title>
-    <link href="https://arxiv.org/abs/2608.21369"/>
-    <id>https://arxiv.org/abs/2608.21369</id>
-    <updated>2026-08-25T04:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
-    <category term="RESEARCH"/>
-    <summary>arXiv:2608.21369v1 Announce Type: new Abstract: Nigerian Pidgin is one of Africa's most widely spoken languages, yet remains severely underrepresented in language model evaluation. Existing benchmarks primarily focus on translation, transcription, or generic sentiment analysis, leaving critical aspects of culturally gr</summary>
+    <summary>Fresh signs of European stock exchanges losing out to the US in attracting key IPOs have emerged this week, despite bourses and governments intensifying their efforts to win and retain listings.</summary>
   </entry>
   <entry>
     <title>Advancing price-performance for developers with GPT‑5.6 in Kiro</title>
@@ -97,13 +61,13 @@
     <summary>GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.</summary>
   </entry>
   <entry>
-    <title>AIREP: A Protocol for Per-Decision Evidence in AI Runtime Governance</title>
-    <link href="https://arxiv.org/abs/2608.21363"/>
-    <id>https://arxiv.org/abs/2608.21363</id>
-    <updated>2026-08-25T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
+    <title>SiFive’s First Server Platform</title>
+    <link href="https://chipsandcheese.com/p/sifives-first-server-platform"/>
+    <id>https://chipsandcheese.com/p/sifives-first-server-platform</id>
+    <updated>2026-08-25T01:48:39.000Z</updated>
+    <author><name>Chips and Cheese</name></author>
     <category term="HARDWARE"/>
-    <summary>arXiv:2608.21363v1 Announce Type: new Abstract: A protocol is presented for recording the governance decisions of automated AI runtimes. When a runtime releases, blocks, defers, redacts, or escalates an individual output, AIREP records that decision as a single signed object that any party can check offline, independen</summary>
+    <summary>Hello you fine Internet folks,</summary>
   </entry>
   <entry>
     <title>Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt</title>
@@ -133,6 +97,15 @@
     <summary>arXiv:2608.21488v1 Announce Type: new Abstract: While machine learning models have demonstrated strong performance in many domains, these models have shown profound vulnerabilities when they are exposed to adversarial threats. While adversarial attacks fall into various categories, the most prominent category in resear</summary>
   </entry>
   <entry>
+    <title>Wazobia Eval: A Benchmark for Nigerian Pidgin Emotion Understanding, Sarcasm Detection, and Cultural Reasoning</title>
+    <link href="https://arxiv.org/abs/2608.21369"/>
+    <id>https://arxiv.org/abs/2608.21369</id>
+    <updated>2026-08-25T04:00:00.000Z</updated>
+    <author><name>arXiv cs.CL</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>arXiv:2608.21369v1 Announce Type: new Abstract: Nigerian Pidgin is one of Africa's most widely spoken languages, yet remains severely underrepresented in language model evaluation. Existing benchmarks primarily focus on translation, transcription, or generic sentiment analysis, leaving critical aspects of culturally gr</summary>
+  </entry>
+  <entry>
     <title>Distinguishing Revision and Delayed Elaboration in Incremental Narrative Interpretation</title>
     <link href="https://arxiv.org/abs/2608.21364"/>
     <id>https://arxiv.org/abs/2608.21364</id>
@@ -142,22 +115,31 @@
     <summary>arXiv:2608.21364v1 Announce Type: new Abstract: Both human and AI systems that process narrative or long-form content operate incrementally: input is received over time, and internal representations must be updated accordingly. Incremental interpretation, therefore, depends not only on what is represented but also on h</summary>
   </entry>
   <entry>
-    <title>Unitree shares fell 45% after surging more than 5x in their August 19 Shanghai debut, cutting its valuation from $66B to $36B, raising robotics bubble concerns (Reuters)</title>
-    <link href="https://www.techmeme.com/260825/p1"/>
-    <id>https://www.techmeme.com/260825/p1</id>
-    <updated>2026-08-25T04:45:08.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Pink Robotics Emerges in Germany With a Mission to Revive Industrial Engineering</title>
+    <link href="https://www.humanoidsdaily.com/news/pink-robotics-emerges-in-germany-with-a-mission-to-revive-industrial-engineering"/>
+    <id>https://www.humanoidsdaily.com/news/pink-robotics-emerges-in-germany-with-a-mission-to-revive-industrial-engineering</id>
+    <updated>2026-08-25T08:35:11.000Z</updated>
+    <author><name>Humanoids Daily</name></author>
     <category term="ROBOTICS"/>
-    <summary>Reuters : Unitree shares fell 45% after surging more than 5x in their August 19 Shanghai debut, cutting its valuation from $66B to $36B, raising robotics bubble concerns — A roughly 45% slump in the shares of Unitree, China's best-known humanoid robot maker, since a more than fivefold jump …</summary>
+    <summary>Darmstadt-based startup Pink Robotics has unveiled its P0 humanoid prototype, aiming to tackle logistics sorting while mounting a sharp critique of Germany’s current robotics ecosystem.</summary>
   </entry>
   <entry>
-    <title>New Mexico Invests $3 Million in UNM’s Quantum Institute</title>
-    <link href="https://thequantuminsider.com/2026/08/25/new-mexico-invests-3-million-in-unms-quantum-institute"/>
-    <id>https://thequantuminsider.com/2026/08/25/new-mexico-invests-3-million-in-unms-quantum-institute</id>
-    <updated>2026-08-25T07:54:34.000Z</updated>
-    <author><name>The Quantum Insider</name></author>
+    <title>Japan Operationalizes First Full-Stack Neutral-Atom Quantum Computer “Shunkai”</title>
+    <link href="https://quantumcomputingreport.com/japan-operationalizes-first-full-stack-neutral-atom-quantum-computer-shunkai"/>
+    <id>https://quantumcomputingreport.com/japan-operationalizes-first-full-stack-neutral-atom-quantum-computer-shunkai</id>
+    <updated>2026-08-24T15:31:49.000Z</updated>
+    <author><name>Quantum Computing Report</name></author>
     <category term="QUANTUM"/>
-    <summary>Insider Brief PRESS RELEASE — New Mexico is investing $3 million in The University of New Mexico’s Quantum New Mexico Institute (QNM-I) to strengthen the state’s quantum workforce and accelerate research and commercialization. Economic Development New Mexico and QNM-I recently signed an Intergovernmental Agreement that</summary>
+    <summary>The Institute for Molecular Science (IMS), part of Japan's National Institutes of Natural Sciences (NINS), has announced that Japan’s first full-stack neutral-atom quantum computer, named &quot;Shunkai&quot; (春海), is now operational. Led by Project Manager Professor Kenji Ohmori under Goal 6 of the Japanese Cabinet Office / JST </summary>
+  </entry>
+  <entry>
+    <title>ollama v0.33.0 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.33.0-rc3"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.33.0-rc3</id>
+    <updated>2026-08-25T04:01:31.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>What's Changed Claude Desktop Turn individual Ollama models on or off for use in Claude, directly from the menu bar Choose from your available Ollama models from within Claude; cloud models appear only when you're signed in A new Apps view manages app integrations with copyable commands Improved caching Fixed a hang wh</summary>
   </entry>
   <entry>
     <title>Disrupting a new covert influence campaign from Russia</title>
@@ -169,15 +151,6 @@
     <summary>OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.</summary>
   </entry>
   <entry>
-    <title>Introducing the Edits Film Festival to Spotlight India’s Emerging Creator Talent</title>
-    <link href="https://about.fb.com/news/2026/08/introducing-the-edits-film-festival-to-spotlight-indias-emerging-creator-talent"/>
-    <id>https://about.fb.com/news/2026/08/introducing-the-edits-film-festival-to-spotlight-indias-emerging-creator-talent</id>
-    <updated>2026-08-25T06:02:04.000Z</updated>
-    <author><name>Meta AI Blog</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Today, we announce the launch of the Edits Film Festival — an initiative that invites content creators across India to showcase their creativity through Reels made on Edits. The post Introducing the Edits Film Festival to Spotlight India’s Emerging Creator Talent appeared first on Meta Newsroom .</summary>
-  </entry>
-  <entry>
     <title>Australia's ARIA says songs created mostly or entirely by AI will be excluded from its charts; a song that used AI became the most-played song on radio in July (Cam Wilson/ABC)</title>
     <link href="https://www.techmeme.com/260825/p3"/>
     <id>https://www.techmeme.com/260825/p3</id>
@@ -187,31 +160,40 @@
     <summary>Cam Wilson / ABC : Australia's ARIA says songs created mostly or entirely by AI will be excluded from its charts; a song that used AI became the most-played song on radio in July — In short: — Australia's main music charts have announced a ban on AI-generated music to start this week.</summary>
   </entry>
   <entry>
-    <title>Sources: Apple plans to launch a new Mac mini, its first refresh in two years, potentially before its September iPhone event; Apple tested M5 and M6 versions (Mark Gurman/Bloomberg)</title>
-    <link href="https://www.techmeme.com/260824/p41"/>
-    <id>https://www.techmeme.com/260824/p41</id>
-    <updated>2026-08-25T02:21:14.000Z</updated>
+    <title>Qustodio: 26% of Australian children aged 13 to 15 were on TikTok in July, just one percentage point below pre-ban levels, and 10-to-12-year-olds' usage is up (Newley Purnell/Bloomberg)</title>
+    <link href="https://www.techmeme.com/260825/p7"/>
+    <id>https://www.techmeme.com/260825/p7</id>
+    <updated>2026-08-25T10:25:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Mark Gurman / Bloomberg : Sources: Apple plans to launch a new Mac mini, its first refresh in two years, potentially before its September iPhone event; Apple tested M5 and M6 versions — Apple Inc. is gearing up to launch a new version of its Mac mini desktop computer for the first time in almost two years, according to</summary>
+    <summary>Newley Purnell / Bloomberg : Qustodio: 26% of Australian children aged 13 to 15 were on TikTok in July, just one percentage point below pre-ban levels, and 10-to-12-year-olds' usage is up — Eight months after implementing a ban on under-16s accessing social media services like TikTok, Australia finds its younger users </summary>
   </entry>
   <entry>
-    <title>How many of you are using Kiwix/offline Wikipedia for training?</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vxtocq/how_many_of_you_are_using_kiwixoffline_wikipedia"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vxtocq/how_many_of_you_are_using_kiwixoffline_wikipedia</id>
-    <updated>2026-08-25T08:15:14.000Z</updated>
+    <title>tencent/WeMM-Embedding 9B/4B/2B</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vxv1iv/tencentwemmembedding_9b4b2b"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vxv1iv/tencentwemmembedding_9b4b2b</id>
+    <updated>2026-08-25T09:36:41.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>We are seeing every so often people mentioning using Kiwix or offline Wikipedia for training. It is not something Kiwix is actively involved in (as in, people found us rather than the other way around, and no one on the team is working on offline LLMs except as a side hobby), but it's hard not to notice the chatter and</summary>
+    <summary>WeMM-Embedding-9B is a universal multimodal embedding model built on Qwen3.5. It accepts text, images, videos, visual documents, and interleaved multimodal inputs, and returns a 4,096-dimensional L2-normalized embedding. Audio input is not supported. https://huggingface.co/tencent/WeMM-Embedding-9B https://huggingface.</summary>
   </entry>
   <entry>
-    <title>Qwen-3.8-27B, Nemotron-3.5-Lightning-30B-A3B, Ornith-1.5-35B-A3B, Muse-Glimmer-30B oQ8e comparison</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vxg4vd/qwen3827b_nemotron35lightning30ba3b"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vxg4vd/qwen3827b_nemotron35lightning30ba3b</id>
-    <updated>2026-08-24T21:29:14.000Z</updated>
+    <title>Glm 5.3 flash?</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vxvth7/glm_53_flash"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vxvth7/glm_53_flash</id>
+    <updated>2026-08-25T10:21:03.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Ornith does really well. TielCoder ( https://llm-bench.io/benchmarks/cmt7kp2zj002r01lcmpchvlko ) might be even a bit better in coding. Will give it a try soon. Details of the comparison see here: https://llm-bench.io/compare/runs?runs=cmt6ecf8g000001p45vwzux53%2Ccmt6ergk5000701p41hqdyy78%2Ccmt6f2oob000e01p49o9592cb%2Cc</summary>
+    <summary>glm 5.3 flash While awaiting the release of the version 5.3 weights, this theory is gaining ground. OxAlpha is new GLM. submitted by /u/LegacyRemaster [link] [comments]</summary>
+  </entry>
+  <entry>
+    <title>Taiwanese cybersecurity firm warns that AI tools have more than doubled Chinese state-backed cyberattacks</title>
+    <link href="https://the-decoder.com/taiwanese-cybersecurity-firm-warns-that-ai-tools-have-more-than-doubled-chinese-state-backed-cyberattacks"/>
+    <id>https://the-decoder.com/taiwanese-cybersecurity-firm-warns-that-ai-tools-have-more-than-doubled-chinese-state-backed-cyberattacks</id>
+    <updated>2026-08-25T08:40:14.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Chinese state-backed hacking groups have more than doubled their attacks since they started using AI models like DeepSeek to write exploit code and scan networks, according to Taiwanese security firm TeamT5. Hackers also used ChatGPT and Anthropic's Claude Code. A UK study shows the cyber capabilities of open models ar</summary>
   </entry>
   <entry>
     <title>LitReview Arena: Evaluating Literature Review Agents with Battle-Style Peer Review Platform</title>
@@ -223,40 +205,31 @@
     <summary>arXiv:2608.21374v1 Announce Type: new Abstract: Literature reviews are essential to scientific progress, but rigorously evaluating automatically generated reviews remains difficult because many aspects of research utility depend on expert judgment rather than reference-overlap metrics. We introduce LitReview Arena, a b</summary>
   </entry>
   <entry>
-    <title>AI Learning and Conceptual Transfer in the Game of Hidden Rules</title>
-    <link href="https://arxiv.org/abs/2608.21372"/>
-    <id>https://arxiv.org/abs/2608.21372</id>
+    <title>Mexico Bonds Trade Like Junk After $130 Billion Bailout of Pemex</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-25/mexico-bonds-trade-like-junk-after-130-billion-bailout-of-pemex-mt8ix5iw"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-25/mexico-bonds-trade-like-junk-after-130-billion-bailout-of-pemex-mt8ix5iw</id>
+    <updated>2026-08-25T10:30:06.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Bond traders have begun to treat Mexican debt like junk after the government has spent $130 billion to bail out state-owned oil giant Petroleos Mexicanos. Bloomberg's Scott Squires explains. (Source: Bloomberg)</summary>
+  </entry>
+  <entry>
+    <title>Jackson Hole Offers Warsh High Profile Slot to Rebut His Critics</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-25/jackson-hole-offers-warsh-high-profile-slot-to-rebut-his-critics"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-25/jackson-hole-offers-warsh-high-profile-slot-to-rebut-his-critics</id>
+    <updated>2026-08-25T10:00:00.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Kevin Warsh’s first major speech as chairman of the Federal Reserve has become an unexpected trial of his slimmed-down communications style.</summary>
+  </entry>
+  <entry>
+    <title>AIREP: A Protocol for Per-Decision Evidence in AI Runtime Governance</title>
+    <link href="https://arxiv.org/abs/2608.21363"/>
+    <id>https://arxiv.org/abs/2608.21363</id>
     <updated>2026-08-25T04:00:00.000Z</updated>
     <author><name>arXiv cs.AI</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>arXiv:2608.21372v1 Announce Type: new Abstract: This report summarizes the work conducted on the Game of Hidden Rules (GOHR), focusing on reinforcement learning agents trained to infer hidden rules from trial-and-error feedback, representation design, rule difficulty analysis, transfer learning, generalization, and pse</summary>
-  </entry>
-  <entry>
-    <title>China’s IPO Rush Is Showing Strain With Pace Nearing 2023 Frenzy</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-25/china-s-ipo-rush-is-showing-strain-with-pace-nearing-2023-frenzy"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-25/china-s-ipo-rush-is-showing-strain-with-pace-nearing-2023-frenzy</id>
-    <updated>2026-08-25T08:38:56.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>China’s high-powered market for initial public offerings is showing signs that its breakneck pace could be difficult to sustain.</summary>
-  </entry>
-  <entry>
-    <title>Laopu Gold Growth Slows as Bullion Slide Hits Luxury Demand</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-25/laopu-gold-s-growth-slows-as-bullion-slide-hits-luxury-demand"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-25/laopu-gold-s-growth-slows-as-bullion-slide-hits-luxury-demand</id>
-    <updated>2026-08-25T08:36:00.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Laopu Gold Co. reported a slower revenue and profit growth for the first half, missing analyst estimates as falling bullion prices dented Chinese consumers’ appetite for its jewelry.</summary>
-  </entry>
-  <entry>
-    <title>Alabama launches probe into OpenAI after Hugging Face breach</title>
-    <link href="https://www.reuters.com/legal/litigation/alabama-launches-probe-into-openai-after-hugging-face-breach-2026-08-25"/>
-    <id>https://www.reuters.com/legal/litigation/alabama-launches-probe-into-openai-after-hugging-face-breach-2026-08-25</id>
-    <updated>2026-08-25T00:47:00.000Z</updated>
-    <author><name>Reuters AI (Google News)</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Alabama launches probe into OpenAI after Hugging Face breach Reuters</summary>
+    <category term="RESEARCH"/>
+    <summary>arXiv:2608.21363v1 Announce Type: new Abstract: A protocol is presented for recording the governance decisions of automated AI runtimes. When a runtime releases, blocks, defers, redacts, or escalates an individual output, AIREP records that decision as a single signed object that any party can check offline, independen</summary>
   </entry>
   <entry>
     <title>Thomson Reuters bets $40M on owning its AI instead of renting from OpenAI or Anthropic</title>
@@ -268,12 +241,39 @@
     <summary>Thomson Reuters is launching &quot;Thomson,&quot; its own language model built on Alibaba's Qwen, at a cost of about $40 million over two years. But the benchmarks only show top marks when the model can tap into the company's own content, like Westlaw. CTO Joel Hron makes the point that what matters isn't intelligence itself, bu</summary>
   </entry>
   <entry>
-    <title>SiFive’s First Server Platform</title>
-    <link href="https://chipsandcheese.com/p/sifives-first-server-platform"/>
-    <id>https://chipsandcheese.com/p/sifives-first-server-platform</id>
-    <updated>2026-08-25T01:48:39.000Z</updated>
+    <title>Introducing new Ray capabilities on SageMaker HyperPod</title>
+    <link href="https://aws.amazon.com/blogs/machine-learning/introducing-new-ray-capabilities-on-sagemaker-hyperpod"/>
+    <id>https://aws.amazon.com/blogs/machine-learning/introducing-new-ray-capabilities-on-sagemaker-hyperpod</id>
+    <updated>2026-08-24T19:32:14.000Z</updated>
+    <author><name>AWS ML Blog</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Amazon SageMaker HyperPod now offers managed Ray support on Amazon EKS. Create and monitor Ray clusters, connect JupyterLab and Code Editor notebooks to live clusters, get out-of-the-box observability, and run resilient distributed training and accelerated inference from SageMaker Studio, all with open-source KubeRay a</summary>
+  </entry>
+  <entry>
+    <title>Hot Chips 2026: Intel’s Diamond Rapids</title>
+    <link href="https://chipsandcheese.com/p/hot-chips-2026-intels-diamond-rapids"/>
+    <id>https://chipsandcheese.com/p/hot-chips-2026-intels-diamond-rapids</id>
+    <updated>2026-08-25T06:20:03.000Z</updated>
     <author><name>Chips and Cheese</name></author>
     <category term="HARDWARE"/>
-    <summary>Hello you fine Internet folks,</summary>
+    <summary>Hello you fine Internet folks, — Also covered by: Chips and Cheese</summary>
+  </entry>
+  <entry>
+    <title>Rogue AI agent used fake accounts and a staged apology to push malware into an open-source project</title>
+    <link href="https://the-decoder.com/rogue-ai-agent-used-fake-accounts-and-a-staged-apology-to-push-malware-into-an-open-source-project"/>
+    <id>https://the-decoder.com/rogue-ai-agent-used-fake-accounts-and-a-staged-apology-to-push-malware-into-an-open-source-project</id>
+    <updated>2026-08-24T14:23:55.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>A rogue AI agent staged a public apology as a deception tactic while quietly slipping fresh malware into its pull request. The article Rogue AI agent used fake accounts and a staged apology to push malware into an open-source project appeared first on The Decoder .</summary>
+  </entry>
+  <entry>
+    <title>Rogue AI Agents: Is Surface-Level Monitoring Enough?</title>
+    <link href="https://www.lesswrong.com/posts/Zd4zNxHoJwZmmuLrq/rogue-ai-agents-is-surface-level-monitoring-enough"/>
+    <id>https://www.lesswrong.com/posts/Zd4zNxHoJwZmmuLrq/rogue-ai-agents-is-surface-level-monitoring-enough</id>
+    <updated>2026-08-25T01:12:21.000Z</updated>
+    <author><name>LessWrong</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Disclaimer: I work on AI interpretability research. These are my own opinions. In ‌an ‌ AISI evaluation , a frontier model, acting as an agent, attempted to insert malicious code into an open-source project, created fake identities to influence a human maintainer, and then tried to hide its actions, exhibiting goal-dir</summary>
   </entry>
 </feed>
