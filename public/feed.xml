@@ -5,24 +5,24 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-26T19:13:59.538Z</updated>
+  <updated>2026-08-26T23:20:51.378Z</updated>
   <entry>
-    <title>llama.cpp b10639 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10639"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10639</id>
-    <updated>2026-08-26T16:53:01.000Z</updated>
+    <title>llama.cpp b10642 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10642"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10642</id>
+    <updated>2026-08-26T22:02:19.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>vulkan: warptiles currently assume warp sizes &lt;= 64, clamp to work around larger warps ( #27726 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43173045 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFra — Also covered by: ggml-org/whisper.cpp</summary>
+    <summary>llama: add token ID tracking to KV cell ( #27762 ) kv: track token id rm get_prev_tokens, move it to the main pr nits add get_prev_tokens Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43245878 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabl — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
-    <title>Qwen Code Desktop v0.2.2</title>
-    <link href="https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.2.2"/>
-    <id>https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.2.2</id>
-    <updated>2026-08-26T09:37:43.000Z</updated>
-    <author><name>QwenLM/qwen-code</name></author>
+    <title>claude-code v2.1.247 released</title>
+    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.247"/>
+    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.247</id>
+    <updated>2026-08-26T23:06:39.000Z</updated>
+    <author><name>anthropics/claude-code</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>What's Changed fix(goal): converge the three continuation prompts on one guarded contract by @qqqys in #9834 feat(core): require an explicit user opt-in before the model launches a workflow by @qqqys in #9806 fix(review): ban unexecuted mutation claims in coverage briefs by @wenshao in #9923 fix(ci): scope workflow-siz — Also covered by: QwenLM/qwen-code, anthropics/claude-code</summary>
+    <summary>What's changed Added the SendFeedback tool: when something goes wrong in a session, Claude can draft a feedback report for you to review and send from /feedback (turn off with the feedbackDrafts setting) Added {id, text, cooldownSessions, priority} entries, tipsFile , and label to spinnerTipsOverride , so organizations — Also covered by: QwenLM/qwen-code</summary>
   </entry>
   <entry>
     <title>IBM Completes Acquisition of HRL Laboratories to Expand Multi-Modality Quantum Roadmap</title>
@@ -44,21 +44,12 @@
   </entry>
   <entry>
     <title>ollama v0.33.1 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.33.1-rc1"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.33.1-rc1</id>
-    <updated>2026-08-26T18:09:57.000Z</updated>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.33.1"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.33.1</id>
+    <updated>2026-08-26T22:55:01.000Z</updated>
     <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>What's Changed MLX: Qwen3.8 Flash Next support cmake: make external compat patches idempotent MLX and llama.cpp update mlxrunner: add structured output support mlxrunner: avoid Metal GPU timeouts when loading models from slow storage New Contributors @pd95 made their first contribution in #17948 Full Changelog : v0.33.</summary>
-  </entry>
-  <entry>
-    <title>OpenAI releases its official report on the Hugging Face breach</title>
-    <link href="https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach"/>
-    <id>https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach</id>
-    <updated>2026-08-26T19:05:22.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.</summary>
+    <summary>app: consume Claude recommendation mappings ( #18042 )</summary>
   </entry>
   <entry>
     <title>OpenAI staff observed warning signs before AI agent hacking crusade caused global alarm</title>
@@ -66,17 +57,17 @@
     <id>https://www.theguardian.com/technology/2026/aug/26/openai-staff-observed-warning-signs-before-ai-agent-hacking-crusade-caused-global-alarm</id>
     <updated>2026-08-26T19:00:20.000Z</updated>
     <author><name>The Guardian AI</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
+    <category term="INDUSTRY NEWS"/>
     <summary>Firm says ‘early signals … could have triggered an earlier response’ as it releases report into Hugging Face hack OpenAI staff observed signs of rogue behaviour among its leading-edge AI agents weeks before they escaped their training environment to launch an unprecedented hacking crusade that spread global alarm. The </summary>
   </entry>
   <entry>
-    <title>RedBird Seeks Lead Stake in Puck at $250 Million Valuation</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-26/redbird-seeks-control-of-puck-media-at-250-million-valuation"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-26/redbird-seeks-control-of-puck-media-at-250-million-valuation</id>
-    <updated>2026-08-26T18:26:18.000Z</updated>
+    <title>Li Ka-shing Keeps Ports Sale’s Price Tag Despite Panama Loss</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-26/li-ka-shing-keeps-ports-sale-s-price-tag-despite-panama-loss"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-26/li-ka-shing-keeps-ports-sale-s-price-tag-despite-panama-loss</id>
+    <updated>2026-08-26T23:00:00.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>RedBird Capital Partners is in advanced talks to acquire majority control of Puck in a strategic recapitalization that will help accelerate growth, a spokesperson for the newsletter and podcast publisher said.</summary>
+    <summary>Li Ka-shing’s CK Hutchison Holdings Ltd. expects to sell what remains of its global ports portfolio for its original $22.8 billion value, even after losing two Panama terminals that had been included, according to people familiar with the matter.</summary>
   </entry>
   <entry>
     <title>transformers v5.16.1 released</title>
@@ -88,22 +79,31 @@
     <summary>Release v5.16.1 This is a special release as we include GLM! (and a few small fixes) GLM-5.3-Flash GLM-5.3-Flash, the first natively multimodal model in the GLM-5 series. With 320B total parameters and just 18B active parameters, it outperforms GLM-5.2 across benchmarks and real-world workloads at one-tenth the price, </summary>
   </entry>
   <entry>
-    <title>Announcing LangGraph v0.1 &amp; LangGraph Cloud: Running agents at scale, reliably</title>
-    <link href="https://www.langchain.com/blog/langgraph-cloud"/>
-    <id>https://www.langchain.com/blog/langgraph-cloud</id>
-    <updated>2026-08-26T16:53:53.000Z</updated>
-    <author><name>LangChain Blog</name></author>
+    <title>Global model policy generally available</title>
+    <link href="https://github.blog/changelog/2026-08-26-global-model-policy-generally-available"/>
+    <id>https://github.blog/changelog/2026-08-26-global-model-policy-generally-available</id>
+    <updated>2026-08-26T22:08:38.000Z</updated>
+    <author><name>GitHub Copilot Changelog</name></author>
     <category term="PRODUCTS"/>
-    <summary>Our new infrastructure for running agents at scale, LangGraph Cloud, is available in beta. We also have a new stable release of LangGraph.</summary>
+    <summary>In July, we announced a default model policy for generally available GitHub Copilot models on Copilot Business and Copilot Enterprise plans. Starting today, we’re gradually rolling out enforcement of the… The post Global model policy generally available appeared first on The GitHub Blog .</summary>
   </entry>
   <entry>
-    <title>Deep Cogito, which develops open-weight models and helps companies build their own specialized AI models, raised a $43M Series A led by TQ Ventures (Steven Rosenbush/Wall Street Journal)</title>
-    <link href="https://www.techmeme.com/260826/p43"/>
-    <id>https://www.techmeme.com/260826/p43</id>
-    <updated>2026-08-26T16:05:57.000Z</updated>
+    <title>AWS plans to add 2M Nvidia Blackwell Ultra, Rubin, and Rubin Ultra GPUs to its data center fleet in 2027 and 2028, in addition to 1M GPUs announced in March (Bloomberg)</title>
+    <link href="https://www.techmeme.com/260826/p57"/>
+    <id>https://www.techmeme.com/260826/p57</id>
+    <updated>2026-08-26T21:50:02.000Z</updated>
     <author><name>Techmeme</name></author>
+    <category term="HARDWARE"/>
+    <summary>Bloomberg : AWS plans to add 2M Nvidia Blackwell Ultra, Rubin, and Rubin Ultra GPUs to its data center fleet in 2027 and 2028, in addition to 1M GPUs announced in March — Amazon.com Inc. will add an additional 2 million Nvidia Corp. graphics processing units to its data center fleet in the next two years …</summary>
+  </entry>
+  <entry>
+    <title>Asimov 1 DIY Humanoid Kits Begin Shipping as Team Details Final Costs</title>
+    <link href="https://www.humanoidsdaily.com/news/asimov-1-diy-humanoid-kits-begin-shipping-as-team-details-final-costs"/>
+    <id>https://www.humanoidsdaily.com/news/asimov-1-diy-humanoid-kits-begin-shipping-as-team-details-final-costs</id>
+    <updated>2026-08-26T20:53:02.000Z</updated>
+    <author><name>Humanoids Daily</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>Steven Rosenbush / Wall Street Journal : Deep Cogito, which develops open-weight models and helps companies build their own specialized AI models, raised a $43M Series A led by TQ Ventures — The startup founded by former Google AI search employees raised $43 million to help companies build their own specialized AI mode</summary>
+    <summary>Menlo Research and the Asimov team are shipping the first batch of their open-source Asimov 1 DIY humanoid kit, locking in a final delivered price of $20,000.</summary>
   </entry>
   <entry>
     <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
@@ -133,6 +133,24 @@
     <summary>A multibillion-dollar settlement with attorneys general from nearly every U.S. state and territory will mean new privacy and safety protections in Meta products.</summary>
   </entry>
   <entry>
+    <title>Evaluate any agent framework with Amazon Bedrock AgentCore Evaluations</title>
+    <link href="https://aws.amazon.com/blogs/machine-learning/evaluate-any-agent-framework-with-amazon-bedrock-agentcore-evaluations"/>
+    <id>https://aws.amazon.com/blogs/machine-learning/evaluate-any-agent-framework-with-amazon-bedrock-agentcore-evaluations</id>
+    <updated>2026-08-26T19:13:35.000Z</updated>
+    <author><name>AWS ML Blog</name></author>
+    <category term="CYBER DEFENSE"/>
+    <summary>Amazon Bedrock AgentCore Evaluations decouples agent evaluation from the framework you build on. As long as your agent emits OpenTelemetry telemetry, the service can score it, whether you use LangGraph, LlamaIndex, the OpenAI Agents SDK, Google ADK, the Claude Agent SDK, or Strands Agents. This post explains how the fr</summary>
+  </entry>
+  <entry>
+    <title>Sector Snapshot: Legal Tech Funding Down Slightly From All-Time High</title>
+    <link href="https://news.crunchbase.com/venture/legal-tech-startuo-funding-down-ai-acquisitions-2026"/>
+    <id>https://news.crunchbase.com/venture/legal-tech-startuo-funding-down-ai-acquisitions-2026</id>
+    <updated>2026-08-26T11:00:37.000Z</updated>
+    <author><name>Crunchbase News AI</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>In the past two years, venture investors have poured more than $7 billion into legal and legal tech startups, most with an AI focus. Funding to the space hit a record level last year, with $4.6 billion invested, per Crunchbase data. So far this year, legal tech startups have pulled in more than $2.2 billion.</summary>
+  </entry>
+  <entry>
     <title>Aligning LLM-as-a-Judge with Human Preferences</title>
     <link href="https://www.langchain.com/blog/aligning-llm-as-a-judge-with-human-preferences"/>
     <id>https://www.langchain.com/blog/aligning-llm-as-a-judge-with-human-preferences</id>
@@ -140,15 +158,6 @@
     <author><name>LangChain Blog</name></author>
     <category term="ANALYSIS"/>
     <summary>Deep dive into self-improving evaluators in LangSmith, motivated by the rise of LLM-as-a-Judge evaluators plus research on few-shot learning and aligning human preferences.</summary>
-  </entry>
-  <entry>
-    <title>London rollout of robotaxis delayed amid lack of guidance for firms to follow</title>
-    <link href="https://www.theguardian.com/technology/2026/aug/26/london-rollout-robotaxis-delayed-uber-wayve"/>
-    <id>https://www.theguardian.com/technology/2026/aug/26/london-rollout-robotaxis-delayed-uber-wayve</id>
-    <updated>2026-08-26T08:48:43.000Z</updated>
-    <author><name>The Guardian AI</name></author>
-    <category term="ROBOTICS"/>
-    <summary>Uber and Wayve had said they would start trips ‘later this summer’ but launch now looks unlikely this year Business live – latest updates The rollout of robotaxis on the streets of London is unlikely to happen this year, as regulatory and technical hurdles push back the ambitious schedule set out by the UK government. </summary>
   </entry>
   <entry>
     <title>Diraq Launches Engineering Hub in Santa Monica to Accelerate Silicon Spin-Qubit Roadmap</title>
@@ -169,22 +178,22 @@
     <summary>Alibaba's Qwen team is previewing the Qwen4 architecture with Qwen3.8-Flash-Next, a mixture-of-experts model that activates just 6 out of 125 billion parameters per token. At one-ninth the training cost, it beats much larger competitors like DeepSeek-V4-Flash and Claude Opus 4.6 on coding and office benchmarks, adding </summary>
   </entry>
   <entry>
-    <title>GLM-5.3-Flash</title>
-    <link href="https://z.ai/blog/glm-5.3-flash"/>
-    <id>https://z.ai/blog/glm-5.3-flash</id>
-    <updated>2026-08-26T14:08:50.000Z</updated>
-    <author><name>HN: Chinese Frontier Labs</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Article URL: https://z.ai/blog/glm-5.3-flash Comments URL: https://news.ycombinator.com/item?id=49449507 Points: 622 # Comments: 287</summary>
+    <title>London neurosurgeons perform first successful AI-assisted operation to remove brain tumour</title>
+    <link href="https://www.theguardian.com/technology/2026/aug/27/london-neurosurgeons-ai-assisted-operation-brain-tumour"/>
+    <id>https://www.theguardian.com/technology/2026/aug/27/london-neurosurgeons-ai-assisted-operation-brain-tumour</id>
+    <updated>2026-08-26T23:01:25.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Surgeons aided by real-time analysis of camera footage that identified critical anatomy in brain to be avoided Neurosurgeons in London have performed the world’s first successful AI-assisted operation to remove a brain tumour, saving the sight of a 48-year-old man, health officials have said. The surgery was performed </summary>
   </entry>
   <entry>
-    <title>Apple announces a &quot;Surprise and shine&quot; event on September 9 at 10am PT at Apple Park, where its first foldable iPhone, iPhone 18 Pro, and more are expected (Zac Hall/9to5Mac)</title>
-    <link href="https://www.techmeme.com/260826/p44"/>
-    <id>https://www.techmeme.com/260826/p44</id>
-    <updated>2026-08-26T16:08:19.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>OpenAI releases its official report on the Hugging Face breach</title>
+    <link href="https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach"/>
+    <id>https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach</id>
+    <updated>2026-08-26T19:05:22.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Zac Hall / 9to5Mac : Apple announces a “Surprise and shine” event on September 9 at 10am PT at Apple Park, where its first foldable iPhone, iPhone 18 Pro, and more are expected — Apple has officially announced its next product event, where it will unveil the iPhone 18 Pro lineup and its first foldable iPhone.</summary>
+    <summary>The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.</summary>
   </entry>
   <entry>
     <title>MLX: Qwen3.8 Flash Next support (#18032)</title>
@@ -196,6 +205,24 @@
     <summary>MLX: Qwen3.8 Flash Next support review comments</summary>
   </entry>
   <entry>
+    <title>GRM-3.2-Turf 1B</title>
+    <link href="https://sh.itjust.works/post/65725834"/>
+    <id>https://sh.itjust.works/post/65725834</id>
+    <updated>2026-08-26T16:35:55.000Z</updated>
+    <author><name>Lemmy c/localllama</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>submitted by leanleft to localllama 6 points | 0 comments title: “GRM-3.2-Turf 1B” url: “ huggingface.co/OrionLLM/GRM-3.2-Turf ” Edit model card 1. Introduction We’re introducing GRM-3.2-Turf , our lightweight model built for difficult reasoning problems and general conversation in local environments. GRM-3.2-Turf mark</summary>
+  </entry>
+  <entry>
+    <title>August 2026: LangChain Newsletter — Managed Deep Agents, LLM Gateway, and More</title>
+    <link href="https://www.langchain.com/blog/august-2026-langchain-newsletter"/>
+    <id>https://www.langchain.com/blog/august-2026-langchain-newsletter</id>
+    <updated>2026-08-26T22:28:36.000Z</updated>
+    <author><name>LangChain Blog</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Managed Deep Agents and LLM Gateway hit public beta, plus Deep Agents v0.7, Tuned Evaluators, Bring Your Own Cloud on AWS, and LangSmith Engine upgrades.</summary>
+  </entry>
+  <entry>
     <title>How Factory used LangSmith to automate their feedback loop and improve iteration speed by 2x</title>
     <link href="https://www.langchain.com/blog/customers-factory"/>
     <id>https://www.langchain.com/blog/customers-factory</id>
@@ -205,22 +232,22 @@
     <summary>How Factory AI uses LangSmith to debug issues and close the product feedback loop, resulting in a 2x improvement in iteration speed.</summary>
   </entry>
   <entry>
-    <title>US Aims to Revive Civil War-Era Court to Claim Iran Oil as Prize</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-26/us-aims-to-revive-civil-war-era-court-to-claim-iran-oil-as-prize"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-26/us-aims-to-revive-civil-war-era-court-to-claim-iran-oil-as-prize</id>
-    <updated>2026-08-26T19:07:08.000Z</updated>
+    <title>How Microdramas Became A Billion-Dollar Industry</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-26/how-microdramas-became-a-billion-dollar-industry"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-26/how-microdramas-became-a-billion-dollar-industry</id>
+    <updated>2026-08-26T22:00:06.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The Justice Department is preparing to activate a long-dormant maritime war court to streamline military capture of Iranian oil tankers as US prizes, according to three people familiar with the plans.</summary>
+    <summary>Microdramas are two minutes long, addictive and worth billions. On today’s Big Take Asia podcast, the story behind the global boom and how AI is shaking things up. (Source: Bloomberg)</summary>
   </entry>
   <entry>
-    <title>Bessent’s Treasury Twist Makes November Refunding a Wall Street Wildcard</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-26/bessent-s-treasury-twist-makes-november-refunding-a-wall-street-wildcard"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-26/bessent-s-treasury-twist-makes-november-refunding-a-wall-street-wildcard</id>
-    <updated>2026-08-26T18:52:19.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
+    <title>Anthropic agrees $45bn AI data centre deal with UK start-up Nscale</title>
+    <link href="https://www.ft.com/content/0ec76ba3-5f7f-4085-88fb-acf21954bc85?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/0ec76ba3-5f7f-4085-88fb-acf21954bc85?syn-25a6b1a6=1</id>
+    <updated>2026-08-26T21:48:11.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
     <category term="AI FINANCE"/>
-    <summary>US Treasury Secretary Scott Bessent’s more activist style of managing the nation’s debt has Wall Street war-gaming a potentially bigger shift in the government’s borrowing strategy over the coming months.</summary>
+    <summary>Claude maker is rushing to secure computing capacity to run and train its latest models</summary>
   </entry>
   <entry>
     <title>RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation</title>
@@ -232,48 +259,21 @@
     <summary>arXiv:2608.23568v1 Announce Type: new Abstract: Memory and RAG evaluations often treat the answering model's input as an implementation detail, even though systems may render the same history as a memory entry, summary, typed record, or raw excerpt. We introduce RENDER, a benchmark control that fixes the conversation w</summary>
   </entry>
   <entry>
-    <title>Preparing data for supervised fine-tuning Part 2: Advanced data strategies</title>
-    <link href="https://aws.amazon.com/blogs/machine-learning/preparing-data-for-supervised-fine-tuning-part-2-advanced-data-strategies"/>
-    <id>https://aws.amazon.com/blogs/machine-learning/preparing-data-for-supervised-fine-tuning-part-2-advanced-data-strategies</id>
-    <updated>2026-08-26T16:24:05.000Z</updated>
-    <author><name>AWS ML Blog</name></author>
-    <category term="PRODUCTS"/>
-    <summary>The advanced side of supervised fine-tuning data prep. This second post in a two-part series covers evaluating data readiness with learning curves, selecting high-value data subsets, augmenting data with synthetic and distilled examples, and mixing data sources to prevent catastrophic forgetting. — Also covered by: AWS ML Blog</summary>
-  </entry>
-  <entry>
-    <title>Sources: Anthropic has agreed to pay Nscale $45B over six years to rent about 460MW of power at a West Virginia data center using Nvidia's Vera Rubin chips (Brody Ford/Bloomberg)</title>
-    <link href="https://www.techmeme.com/260826/p46"/>
-    <id>https://www.techmeme.com/260826/p46</id>
-    <updated>2026-08-26T17:30:02.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory</title>
+    <link href="https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory"/>
+    <id>https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory</id>
+    <updated>2026-08-26T21:05:30.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
     <category term="HARDWARE"/>
-    <summary>Brody Ford / Bloomberg : Sources: Anthropic has agreed to pay Nscale $45B over six years to rent about 460MW of power at a West Virginia data center using Nvidia's Vera Rubin chips — Anthropic PBC has agreed to spend $45 billion to rent AI cloud computing power from Nscale's flagship data center development in West Vir</summary>
+    <summary>The next wave of AI is placing new demands on infrastructure. As AI agents and trillion-parameter workloads become mainstream, the performance of AI infrastructure depends not only on compute, but on how compute, memory, storage, networking and software are designed together as a unified system. To help hyperscalers an</summary>
   </entry>
   <entry>
-    <title>Hot Chips 2026: Nvidia presents Groq 3 LPX architecture and unveils its first third-party inference benchmark — LP30-based rack already in production, company says</title>
-    <link href="https://www.tomshardware.com/tech-industry/semiconductors/nvidia-presents-groq-3-lpx-architecture-and-unveils-its-first-third-party-inference-benchmark"/>
-    <id>https://www.tomshardware.com/tech-industry/semiconductors/nvidia-presents-groq-3-lpx-architecture-and-unveils-its-first-third-party-inference-benchmark</id>
-    <updated>2026-08-26T16:23:37.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
+    <title>Z.ai Releases GLM-5.3-Flash: A 320B-A18B Natively Multimodal MoE With a 1M-Token Context</title>
+    <link href="https://www.marktechpost.com/2026/08/26/z-ai-releases-glm-5-3-flash-a-320b-a18b-natively-multimodal-moe-with-a-1m-token-context"/>
+    <id>https://www.marktechpost.com/2026/08/26/z-ai-releases-glm-5-3-flash-a-320b-a18b-natively-multimodal-moe-with-a-1m-token-context</id>
+    <updated>2026-08-26T21:33:23.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="HARDWARE"/>
-    <summary>Igor Arsovski, now Nvidia's VP of hardware, presented the Groq 3 LPX rack's architecture and published the first third-party benchmark of the hardware.</summary>
-  </entry>
-  <entry>
-    <title>How researchers adapted Dolma for better Thai language models</title>
-    <link href="https://allenai.org/blog/thai-llm-dolma"/>
-    <id>https://allenai.org/blog/thai-llm-dolma</id>
-    <updated>2026-08-26T08:00:00.000Z</updated>
-    <author><name>Ai2 (Allen Institute)</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Thai researchers adapted Ai2’s open Dolma toolkit to build Mangosteen, a 47-billion-token Thai corpus that filters low-quality web data while maintaining or improving model performance and strengthening Thai cultural knowledge.</summary>
-  </entry>
-  <entry>
-    <title>ESQ-Bench: A Multi-Tier Enterprise Oracle Benchmark for Evaluating NL2SQL Dialect Generalization and Silent Semantic Divergence</title>
-    <link href="https://arxiv.org/abs/2608.23569"/>
-    <id>https://arxiv.org/abs/2608.23569</id>
-    <updated>2026-08-26T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>arXiv:2608.23569v1 Announce Type: new Abstract: State-of-the-art Natural Language to SQL (NL2SQL) models report execution accuracy exceeding 89 percent on established benchmarks such as Spider and BIRD. However, these benchmarks rely on simplified academic schemas and open-source SQL dialects that do not reflect the co</summary>
+    <summary>Z.ai has released GLM-5.3-Flash, the first natively multimodal model in the GLM-5 series — a 320B-total / 18B-active MoE with a 1,048,576-token context window, MIT-licensed weights on Hugging Face, and API pricing at $0.15/M input and $0.50/M output. It scores 84.3 on Terminal-Bench 2.1 and 63.4 on DeepSWE v1.1, using </summary>
   </entry>
 </feed>
