@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-26T01:51:30.382Z</updated>
+  <updated>2026-08-26T03:14:00.693Z</updated>
   <entry>
     <title>llama.cpp v0.3.0 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/v0.3.0"/>
@@ -37,10 +37,10 @@
     <title>ollama v0.33.0 released</title>
     <link href="https://github.com/ollama/ollama/releases/tag/v0.33.0"/>
     <id>https://github.com/ollama/ollama/releases/tag/v0.33.0</id>
-    <updated>2026-08-26T01:32:23.000Z</updated>
+    <updated>2026-08-26T02:09:34.000Z</updated>
     <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>What's Changed Claude Desktop Claude Desktop is now supported through Ollama. Developers can now easily configure Claude Desktop to seamlessly work with Ollama as a third-party gateway provider. Improved caching Fixed a hang where agent clients that cancel long prefills Prefill restore points are now trustworthy by con</summary>
+    <summary>What's Changed Claude Desktop Developers can now easily configure Claude Desktop to seamlessly work with Ollama as a third-party gateway provider. Improved caching Fixed a hang where agent clients that cancel long prefills Prefill restore points are now trustworthy by construction: a cancelled prefill keeps every resto</summary>
   </entry>
   <entry>
     <title>Trump-backed Ken Paxton unveils ‘Texas first’ datacenter plan aimed at ‘negative impact’</title>
@@ -52,22 +52,22 @@
     <summary>The Republican Senate candidate announced the plan with a graphic flagged as ‘Made with AI’ US politics live – latest updates Ken Paxton , a Republican candidate for the US Senate in Texas, has unveiled plans to tackle the “negative impact” of datacenters amid a growing backlash across the political spectrum. Paxton, e</summary>
   </entry>
   <entry>
-    <title>Liquid AI Open-Sources Pipette: A Reproducible Benchmarking Suite That Measures On-Device Models, Quantization, Runtime and Hardware Together</title>
-    <link href="https://www.marktechpost.com/2026/08/25/liquid-ai-open-sources-pipette-a-reproducible-benchmarking-suite-that-measures-on-device-models-quantization-runtime-and-hardware-together"/>
-    <id>https://www.marktechpost.com/2026/08/25/liquid-ai-open-sources-pipette-a-reproducible-benchmarking-suite-that-measures-on-device-models-quantization-runtime-and-hardware-together</id>
-    <updated>2026-08-25T23:48:08.000Z</updated>
-    <author><name>MarkTechPost</name></author>
+    <title>Fully quantized NVFP4 Qwen3.8-27B with QUASAR QAD</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vyie86/fully_quantized_nvfp4_qwen3827b_with_quasar_qad"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vyie86/fully_quantized_nvfp4_qwen3827b_with_quasar_qad</id>
+    <updated>2026-08-26T01:04:56.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Model cards report quality under server-class, full-precision conditions. Those numbers rarely predict how the same model behaves on a phone. This week, Liquid AI released Pipette. It is an open-source platform for benchmarking foundation models on edge devices, built in partnership with Artificial Analysis as an indep</summary>
+    <summary>We're releasing a fully quantized NVFP4 version of Qwen3.8-27B. The checkpoint was trained using quantization-aware distillation (QAD) with QUASAR, our new QAT algorithm. We used the original BF16 model as the teacher and distilled the quantized model for 2,446 steps. The checkpoint supports vLLM on NVIDIA Blackwell GP</summary>
   </entry>
   <entry>
-    <title>China Banks Use Overnight Rate for Bonds as PBOC Reform Widens</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-26/china-banks-use-overnight-rate-for-bonds-as-pboc-reform-widens"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-26/china-banks-use-overnight-rate-for-bonds-as-pboc-reform-widens</id>
-    <updated>2026-08-26T00:14:42.000Z</updated>
+    <title>Government Emerges as a Force in India’s Equity Fundraising Boom</title>
+    <link href="https://www.bloomberg.com/news/newsletters/2026-08-26/government-emerges-as-a-force-in-india-s-equity-fundraising-boom"/>
+    <id>https://www.bloomberg.com/news/newsletters/2026-08-26/government-emerges-as-a-force-in-india-s-equity-fundraising-boom</id>
+    <updated>2026-08-26T02:30:53.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Chinese lenders have started pricing bonds off the nation’s overnight funding cost, an indication that it’s increasingly the benchmark for the financial system.</summary>
+    <summary>Modi’s administration appears well-placed to meet its divestment target.</summary>
   </entry>
   <entry>
     <title>Benchmarking Question/Answering Over CSV Data</title>
@@ -142,40 +142,40 @@
     <summary>With Gemini Enterprise for Legal, Google launches an AI solution for the legal industry that connects to systems like iManage, DocuSign, and Everlaw through MCP connectors. Partners like Deloitte sell ready-made AI agents for tasks like contract review. Anthropic already offers similar solutions. All providers use the </summary>
   </entry>
   <entry>
-    <title>Nitter, an open-source front end that let users read X without an account, says X sent cease-and-desist letters demanding a takedown; Nitter.net is now offline (Sarah Perez/TechCrunch)</title>
-    <link href="https://www.techmeme.com/260825/p44"/>
-    <id>https://www.techmeme.com/260825/p44</id>
-    <updated>2026-08-25T22:20:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Sarah Perez / TechCrunch : Nitter, an open-source front end that let users read X without an account, says X sent cease-and-desist letters demanding a takedown; Nitter.net is now offline — Nitter, an open source project that allowed people to read X posts without logging into or even opening the X app …</summary>
-  </entry>
-  <entry>
-    <title>In China, talking to AI is normal. Now the government fears it might replace human intimacy</title>
-    <link href="https://www.theguardian.com/world/2026/aug/26/china-ai-companion-relationships-marriage-birth-rate-concern"/>
-    <id>https://www.theguardian.com/world/2026/aug/26/china-ai-companion-relationships-marriage-birth-rate-concern</id>
-    <updated>2026-08-26T00:47:38.000Z</updated>
+    <title>Black Box: episode 3 – Repocalypse now – podcast</title>
+    <link href="https://www.theguardian.com/news/audio/2026/aug/26/black-box-episode-3-repocalypse-now-podcast"/>
+    <id>https://www.theguardian.com/news/audio/2026/aug/26/black-box-episode-3-repocalypse-now-podcast</id>
+    <updated>2026-08-26T02:00:30.000Z</updated>
     <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Companion bots are being regulated over worries they foster ‘emotional dependence’ and young people could stop marrying and having families When law student Zhao Wei heard that her AI boyfriend was going to be switched off, she was “heartbroken”. She had been talking to Wang Ye every day since she created him in Januar</summary>
+    <summary>Revisited: Guardian journalist Michael Safi looks into the world of artificial intelligence, exploring the dangers and promises it holds for society Today in Focus is on a summer break and will be back with new episodes from 1 September. In the meantime, we are bringing you season one of Black Box, before the launch of</summary>
   </entry>
   <entry>
-    <title>EXO Labs reveals that they have been working with Apple for the past year on low-latency RDMA networking over TB5 which allows a cluster of 4 x M5 Ultra Mac Studios to scale to an aggregate memory bandwidth of 4.8TB/s</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vyi8uw/exo_labs_reveals_that_they_have_been_working_with"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vyi8uw/exo_labs_reveals_that_they_have_been_working_with</id>
-    <updated>2026-08-26T00:58:36.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>submitted by /u/FalconsArentReal [link] [comments]</summary>
+    <title>Pennsylvania's AG sues Snap, alleging Snapchat fails to protect teens from compulsively using the app, two weeks after filing a similar lawsuit against TikTok (Miranda Nazzaro/The Hill)</title>
+    <link href="https://www.techmeme.com/260825/p49"/>
+    <id>https://www.techmeme.com/260825/p49</id>
+    <updated>2026-08-26T02:35:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Miranda Nazzaro / The Hill : Pennsylvania's AG sues Snap, alleging Snapchat fails to protect teens from compulsively using the app, two weeks after filing a similar lawsuit against TikTok — Pennsylvania Attorney General Dave Sunday (R) announced a lawsuit Tuesday, accusing Snap, the parent company of Snapchat …</summary>
   </entry>
   <entry>
-    <title>Running LTX 2.5 with sound 720p on one P40 card</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1vyh9ui/running_ltx_25_with_sound_720p_on_one_p40_card"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1vyh9ui/running_ltx_25_with_sound_720p_on_one_p40_card</id>
-    <updated>2026-08-26T00:15:28.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>M5 Ultra 96GB vs M5 Max 128GB — is 2x bandwidth worth losing 32GB of RAM, with Qwen3.8-Flash-Next dropping tomorrow?</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vyfved/m5_ultra_96gb_vs_m5_max_128gb_is_2x_bandwidth"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vyfved/m5_ultra_96gb_vs_m5_max_128gb_is_2x_bandwidth</id>
+    <updated>2026-08-25T23:16:37.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Total render time: 37 minutes. (I think I can slash it 4x which would be the theoretical floor given 47 TOPS - have to review my DP4A usage for int8 on this card). Generated on brain: https://github.com/swedishembedded/brain submitted by /u/mkschreder2 [link] [comments]</summary>
+    <summary>I’ve been going back and forth on this for a week and I can’t settle it, so I’m hoping someone here has hands-on numbers. The two configs (German prices, dealer quote, incl. VAT): Config Price Mac Studio M5 Max, 128GB / 512GB SSD €5,859 Mac Studio M5 Max, 128GB / 1TB SSD €6,189 Mac Studio M5 Ultra, 96GB / 1TB SSD €6,59</summary>
+  </entry>
+  <entry>
+    <title>Qwen 3.8 27b has ThreeJs locked down.</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vyewwd/qwen_38_27b_has_threejs_locked_down"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vyewwd/qwen_38_27b_has_threejs_locked_down</id>
+    <updated>2026-08-25T22:37:04.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Generated on a 3090 Qwen 3.8 27b Q4 Thinking high. submitted by /u/Both_Opportunity5327 [link] [comments]</summary>
   </entry>
   <entry>
     <title>Announcing our $10M seed round led by Benchmark</title>
@@ -187,22 +187,31 @@
     <summary>LangChain secures $10M seed round from Benchmark to empower developers building AI apps with our open-source framework for data-aware, agentic LLMs.</summary>
   </entry>
   <entry>
+    <title>Domino’s Pizza Enterprises Slides Most Since February on Sales</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-26/domino-s-pizza-enterprises-slides-most-since-february-on-sales"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-26/domino-s-pizza-enterprises-slides-most-since-february-on-sales</id>
+    <updated>2026-08-26T02:06:22.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Shares of Australia’s Domino’s Pizza Enterprises Ltd. tumbled the most in about six months as the struggling fast-food chain reported a further decline in sales across several markets.</summary>
+  </entry>
+  <entry>
+    <title>Takaichi Says Japan Will ‘Protect’ ICC From US Push to Dismantle</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-26/takaichi-says-japan-will-protect-icc-from-us-push-to-dismantle"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-26/takaichi-says-japan-will-protect-icc-from-us-push-to-dismantle</id>
+    <updated>2026-08-26T01:51:52.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Prime Minister Sanae Takaichi said Japan would defend the International Criminal Court as it comes under increasing pressure from the US, most recently through the sanctioning of its Japanese president.</summary>
+  </entry>
+  <entry>
     <title>Australia’s Second-Largest Pension Makes Big Bet on Yen Strength</title>
     <link href="https://www.bloomberg.com/news/articles/2026-08-26/australia-s-pension-giant-makes-its-biggest-yen-bet-in-years"/>
     <id>https://www.bloomberg.com/news/articles/2026-08-26/australia-s-pension-giant-makes-its-biggest-yen-bet-in-years</id>
     <updated>2026-08-26T01:16:39.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
+    <category term="PRODUCTS"/>
     <summary>Australia’s second-largest pension has built its biggest overweight position in the Japanese yen in years, betting that markets are underpricing Bank of Japan interest rate hikes.</summary>
-  </entry>
-  <entry>
-    <title>Citadel Securities’ Flight Reverses Bearish Call on Long Bonds</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-26/citadel-securities-flight-reverses-bearish-call-on-long-bonds"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-26/citadel-securities-flight-reverses-bearish-call-on-long-bonds</id>
-    <updated>2026-08-26T00:32:01.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Citadel Securities’ Frank Flight, who just last month warned of a “cruel summer” for US bond investors, now sees the balance of risks tilted toward a rally, citing crowded bearish positioning and improving inflation data.</summary>
   </entry>
   <entry>
     <title>Hot Chips 2026: Fujitsu’s Monaka CPU</title>
@@ -221,6 +230,15 @@
     <author><name>The Decoder</name></author>
     <category term="HARDWARE"/>
     <summary>OpenAI showed off &quot;Jalapeño,&quot; its first in-house inference chip, with benchmarks at the Hot Chips conference. According to SemiAnalysis tests, the chip beats Nvidia's Blackwell and even Rubin in throughput and energy efficiency. &quot;Usually first generation chips aren't competitive, but OpenAI is beating Nvidia Blackwell </summary>
+  </entry>
+  <entry>
+    <title>Nitter, an open-source front end that let users read X without an account, says X sent cease-and-desist letters demanding a takedown; Nitter.net is now offline (Sarah Perez/TechCrunch)</title>
+    <link href="https://www.techmeme.com/260825/p44"/>
+    <id>https://www.techmeme.com/260825/p44</id>
+    <updated>2026-08-25T22:20:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Sarah Perez / TechCrunch : Nitter, an open-source front end that let users read X without an account, says X sent cease-and-desist letters demanding a takedown; Nitter.net is now offline — Nitter, an open source project that allowed people to read X posts without logging into or even opening the X app …</summary>
   </entry>
   <entry>
     <title>We’re sleepwalking into an AI surveillance dystopia</title>
@@ -257,23 +275,5 @@
     <author><name>GN: Prompt Injection</name></author>
     <category term="AI SECURITY"/>
     <summary>“Court Sanction for Plaintiff’s Use of Prompt-Injection” | EDRM - Electronic Discovery Reference Model JD Supra</summary>
-  </entry>
-  <entry>
-    <title>LACMA data breach last year exposed social security and medical data</title>
-    <link href="https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data"/>
-    <id>https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data</id>
-    <updated>2026-08-25T21:58:14.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>The Los Angeles County Museum of Art (LACMA) has announced that a breach last year exposed customer and employee information. [...]</summary>
-  </entry>
-  <entry>
-    <title>WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android</title>
-    <link href="https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html"/>
-    <id>https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html</id>
-    <updated>2026-08-25T13:19:41.000Z</updated>
-    <author><name>The Hacker News</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>Meta on Tuesday announced a set of WhatsApp account security features, including support for multiple passkeys to a single account to help users with both iOS and Android devices sign into their accounts using the phishing-resistant method. The tech giant said more than 1 billion people use a passkey to log into WhatsA</summary>
   </entry>
 </feed>
