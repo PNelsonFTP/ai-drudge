@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-26T10:44:55.980Z</updated>
+  <updated>2026-08-26T11:38:00.095Z</updated>
   <entry>
-    <title>llama.cpp b10632 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10632"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10632</id>
-    <updated>2026-08-26T09:31:33.000Z</updated>
+    <title>llama.cpp b10635 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10635"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10635</id>
+    <updated>2026-08-26T11:34:34.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>ggml-metal: add chunked SSD MMA for Mamba-2 prefill optimization ( #26647 ) metal: WIP chunked SSD SSM_SCAN kernels for multi-token prefill metal: drop scalar SSD path; MMA + sequential tail drop WIP ssm scan test noise remove state_from_dst and rename CS and NSG constants remove unrelated added whitespace padding adde — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
+    <summary>cuda: unblock mmq for MoE on sm_60 ( #26264 ) cuda: unblock mmq for MoE on sm_60 cuda: duplicate mmq-config-pascal for dp4a and older cuda: reduce occupancy on non-dp4a pascal for Q2_K, Q4_K, Q5_K, Q6_K Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43111280 macOS/iOS: macOS — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
   </entry>
   <entry>
     <title>Bill Gates calls for ‘human reserved’ jobs to protect labour force from AI</title>
@@ -32,15 +32,6 @@
     <author><name>Techmeme</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Reuters : Sources: Moonshot AI is in early talks over revenue-sharing agreements with Microsoft, Amazon, and Google to host Kimi K3, and is seeking up to a 30% share — China's Moonshot AI is negotiating revenue-sharing agreements with Microsoft (MSFT.O), Amazon (AMZN.O) and Alphabet's Google (GOOGL.O) … — Also covered by: Reuters AI (Google News)</summary>
-  </entry>
-  <entry>
-    <title>Granite 4.2 LLMs: How They're Built</title>
-    <link href="https://huggingface.co/blog/ibm-granite/granite-4-2"/>
-    <id>https://huggingface.co/blog/ibm-granite/granite-4-2</id>
-    <updated>2026-08-25T15:14:14.000Z</updated>
-    <author><name>Hugging Face Blog</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Also covered by: Ben's Bites</summary>
   </entry>
   <entry>
     <title>llm-anthropic 0.27</title>
@@ -79,6 +70,15 @@
     <summary>What's Changed Claude Desktop Developers can now easily configure Claude Desktop to seamlessly work with Ollama as a third-party gateway provider. Improved caching Fixed a hang where agent clients that cancel long prefills Prefill restore points are now trustworthy by construction: a cancelled prefill keeps every resto</summary>
   </entry>
   <entry>
+    <title>Pimco’s Balls Points to Low Volatility in ‘Healthy’ Bond Market</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-26/pimco-points-to-low-volatility-in-healthy-bond-market-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-26/pimco-points-to-low-volatility-in-healthy-bond-market-video</id>
+    <updated>2026-08-26T11:31:16.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Andrew Balls, global fixed income CIO at Pimco, says it is “not 100% clear to me why” the US Treasury would increase the purchases of long-dated bonds as he explains the factors he finds healthy about the fixed income market. He speaks on “Bloomberg Surveillance.” (Source: Bloomberg)</summary>
+  </entry>
+  <entry>
     <title>RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation</title>
     <link href="https://arxiv.org/abs/2608.23568"/>
     <id>https://arxiv.org/abs/2608.23568</id>
@@ -115,13 +115,13 @@
     <summary>This Symposium is a one-day event to address the question: “ which medical measurements and consensus standards should be prioritized to support future U.S. healthcare?” The focus will be on medical imaging, medical devices, and diagnostics. The goal</summary>
   </entry>
   <entry>
-    <title>State divergence enables unauthorized access</title>
-    <link href="https://blog.trailofbits.com/2026/08/25/state-divergence-enables-unauthorized-access"/>
-    <id>https://blog.trailofbits.com/2026/08/25/state-divergence-enables-unauthorized-access</id>
-    <updated>2026-08-25T11:00:00.000Z</updated>
+    <title>VMs won't contain cyber-capable agents</title>
+    <link href="https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents"/>
+    <id>https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents</id>
+    <updated>2026-08-26T11:00:00.000Z</updated>
     <author><name>Trail of Bits</name></author>
     <category term="AI SECURITY"/>
-    <summary>We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK , that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bri</summary>
+    <summary>As part of Patch the Planet , we received preview access to GPT 5.6-Cyber with a simple task: evaluate its cyber capabilities. Recent events inspired me to give it a challenge to work through: escape the VM I’d normally use for sandboxing. The target was a QEMU/KVM VM on my Linux dev machine (Debian Linux 12, AMD Zen3)</summary>
   </entry>
   <entry>
     <title>Claude Opus 4.6 Bypasses Gym Booking Limit, Cancels Other Users' Reservations in Tests</title>
@@ -169,13 +169,13 @@
     <summary>What's Changed fix(goal): converge the three continuation prompts on one guarded contract by @qqqys in #9834 feat(core): require an explicit user opt-in before the model launches a workflow by @qqqys in #9806 fix(review): ban unexecuted mutation claims in coverage briefs by @wenshao in #9923 fix(ci): scope workflow-siz — Also covered by: QwenLM/qwen-code</summary>
   </entry>
   <entry>
-    <title>Z.ai confirms Ox Alpha is a new iteration of its GLM series and says it will release the weights for it tonight; Ox Alpha topped OpenRouter's leaderboard (Luz Ding/Bloomberg)</title>
-    <link href="https://www.techmeme.com/260826/p15"/>
-    <id>https://www.techmeme.com/260826/p15</id>
-    <updated>2026-08-26T09:41:48.000Z</updated>
+    <title>Investigation: Meta explored slashing many teams by ~60% to become &quot;AI native&quot;, but pulled back after staff revolted and data showed AI agents were ineffective (Katie Paul/Reuters)</title>
+    <link href="https://www.techmeme.com/260826/p21"/>
+    <id>https://www.techmeme.com/260826/p21</id>
+    <updated>2026-08-26T11:10:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Luz Ding / Bloomberg : Z.ai confirms Ox Alpha is a new iteration of its GLM series and says it will release the weights for it tonight; Ox Alpha topped OpenRouter's leaderboard — The new AI model that's swept to the top of online usage charts with high performance at zero cost was created by China's Z.AI Co., also know</summary>
+    <summary>Katie Paul / Reuters : Investigation: Meta explored slashing many teams by ~60% to become “AI native”, but pulled back after staff revolted and data showed AI agents were ineffective — To make its workforce “AI native,” Meta explored slashing the size of many teams across the company by as much as 60% in two waves, int</summary>
   </entry>
   <entry>
     <title>Confirmed: Z.AI Made Ox Alpha Stealth Model That Rivals DeepSeek</title>
@@ -205,22 +205,22 @@
     <summary>arXiv:2608.23631v1 Announce Type: new Abstract: Multi-objective materials discovery with LLM agents is often limited not only by how many candidates can be proposed, but by how effectively each costly property evaluation informs the next search step. Existing agents mainly store evaluated candidates and their scores, s</summary>
   </entry>
   <entry>
-    <title>Capital Economics' MacAdam on ECB, Kevin Warsh, Bessent</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-26/capital-economics-macadam-on-ecb-kevin-warsh-bessent-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-26/capital-economics-macadam-on-ecb-kevin-warsh-bessent-video</id>
-    <updated>2026-08-26T10:38:07.000Z</updated>
+    <title>Global Fuel Markets Have Little Margin for Error</title>
+    <link href="https://www.bloomberg.com/news/newsletters/2026-08-26/global-fuel-markets-have-little-margin-for-error"/>
+    <id>https://www.bloomberg.com/news/newsletters/2026-08-26/global-fuel-markets-have-little-margin-for-error</id>
+    <updated>2026-08-26T11:18:51.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Simon MacAdam, deputy chief global economist at Capital Economics, joins Bloomberg's Lizzy Burden on &quot;The Pulse&quot; to discuss his reaction to ECB Governing Council member Isabel Schnabel emphasizing the need for further interest rate increases due to upside inflation risks. He also talks about what he'd like to hear from</summary>
+    <summary>The world is relying heavily on US refineries just as those plants are being pushed to their limits.</summary>
   </entry>
   <entry>
-    <title>What Do Businesses Want From Burnham Prior to UK Budget?</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-26/what-do-businesses-want-from-burnham-prior-to-uk-budget-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-26/what-do-businesses-want-from-burnham-prior-to-uk-budget-video</id>
-    <updated>2026-08-26T10:36:23.000Z</updated>
+    <title>Ukrainian Tycoon Murder Plot Confounds Monaco Authorities</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-26/ukrainian-tycoon-murder-plot-confounds-authorities-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-26/ukrainian-tycoon-murder-plot-confounds-authorities-video</id>
+    <updated>2026-08-26T11:17:26.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Anna Leach, chief economist at the Institute of Directors, joins Bloomberg's Lizzy Burden on &quot;The Pulse&quot; to discuss the priorities of British businesses in the upcoming UK budget. Leach also talks about the Burnham government's approach to reshaping the Cabinet Office and the creation of a national economic council wit</summary>
+    <summary>Monaco authorities are trying to unravel the mysterious bomb attack against a Ukrainian tycoon. Stephanie Baker explains why accomplices could still be on the run. (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>The Limits of Automatic Evaluation of Creativity in Large Language Models</title>
@@ -241,22 +241,22 @@
     <summary>The founders of Swedish driverless truck group Einride AB are launching a Europe-focused investment company aimed at “enabling at least ten” new tech unicorns within a decade.</summary>
   </entry>
   <entry>
-    <title>Hot Chips 2026: Fujitsu’s Monaka CPU</title>
-    <link href="https://chipsandcheese.com/p/hot-chips-2026-fujitsus-monaka-cpu"/>
-    <id>https://chipsandcheese.com/p/hot-chips-2026-fujitsus-monaka-cpu</id>
-    <updated>2026-08-26T01:20:30.000Z</updated>
-    <author><name>Chips and Cheese</name></author>
+    <title>Bill Gates calls for some jobs to be ‘Human Reserved,’ suggests taxing AI tokens and robots — billionaire says that ‘AI era will be one of the most turbulent times in human history’</title>
+    <link href="https://www.tomshardware.com/tech-industry/artificial-intelligence/bill-gates-calls-for-some-jobs-to-be-human-reserved-suggests-taxing-ai-tokens-and-robots-billionaire-says-that-ai-era-will-be-one-of-the-most-turbulent-times-in-human-history"/>
+    <id>https://www.tomshardware.com/tech-industry/artificial-intelligence/bill-gates-calls-for-some-jobs-to-be-human-reserved-suggests-taxing-ai-tokens-and-robots-billionaire-says-that-ai-era-will-be-one-of-the-most-turbulent-times-in-human-history</id>
+    <updated>2026-08-26T11:34:04.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
     <category term="HARDWARE"/>
-    <summary>Building on a long history of HPC-focused cores, and looking beyond HPC</summary>
+    <summary>The billionaire philanthropist penned a 6,000-word essay raising the societal risks that AI bring and his proposed solutions to protect the average person.</summary>
   </entry>
   <entry>
-    <title>Emerald AI raises $150m in Series A funding to scale commercial deployments</title>
-    <link href="https://www.datacenterdynamics.com/en/news/emerald-ai-raises-150m-in-series-a-funding-to-scale-commercial-deployments"/>
-    <id>https://www.datacenterdynamics.com/en/news/emerald-ai-raises-150m-in-series-a-funding-to-scale-commercial-deployments</id>
-    <updated>2026-08-26T10:37:01.000Z</updated>
-    <author><name>Data Center Dynamics</name></author>
+    <title>Hot Chips 2026: Arm details AGI server CPU with two 70-core N3P chiplets — touts 2 TB/s UCIe fabric link and 12-channel memory controller</title>
+    <link href="https://www.tomshardware.com/pc-components/cpus/hot-chips-2026-arm-details-agi-server-cpu-with-two-70-core-n3p-chiplets-touts-2-tb-s-ucie-fabric-link-and-12-channel-memory-controller"/>
+    <id>https://www.tomshardware.com/pc-components/cpus/hot-chips-2026-arm-details-agi-server-cpu-with-two-70-core-n3p-chiplets-touts-2-tb-s-ucie-fabric-link-and-12-channel-memory-controller</id>
+    <updated>2026-08-26T11:00:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
     <category term="HARDWARE"/>
-    <summary>Follows the completion of its fifth demonstration project</summary>
+    <summary>Arm reveals more details about its AGI processors with up to 136 cores, but fails to disclose performance.</summary>
   </entry>
   <entry>
     <title>Benchmarking Question/Answering Over CSV Data</title>
