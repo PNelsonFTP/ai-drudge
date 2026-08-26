@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-26T13:09:19.284Z</updated>
+  <updated>2026-08-26T14:53:57.971Z</updated>
   <entry>
     <title>llama.cpp b10636 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10636"/>
@@ -14,6 +14,15 @@
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
     <summary>ci: Clean up UI builds from releases ( #27706 ) ci : inline UI version resolution into ui-build.yml ci : build UI once and reuse the artifact in release jobs Server jobs now extract the ui-build artifact into tools/ui/dist instead of npm-building the UI. Also removes the get-version job and the no-op -DHF_UI_VERSION fl — Also covered by: ggml-org/whisper.cpp, run-llama/llama_index</summary>
+  </entry>
+  <entry>
+    <title>GLM-5.3-Flash</title>
+    <link href="https://z.ai/blog/glm-5.3-flash"/>
+    <id>https://z.ai/blog/glm-5.3-flash</id>
+    <updated>2026-08-26T14:08:50.000Z</updated>
+    <author><name>HN: Chinese Frontier Labs</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Article URL: https://z.ai/blog/glm-5.3-flash Comments URL: https://news.ycombinator.com/item?id=49449507 Points: 170 # Comments: 49 — Also covered by: Vercel Blog</summary>
   </entry>
   <entry>
     <title>Qwen Code Desktop v0.2.2</title>
@@ -43,22 +52,22 @@
     <summary>Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2 . OpenAI made the same change in their v3.0.0 release two weeks ago. Anthropic provide this migration guide for upgrading — Also covered by: Shtetl-Optimized (Aaronson)</summary>
   </entry>
   <entry>
-    <title>transformers v5.16.0 released</title>
-    <link href="https://github.com/huggingface/transformers/releases/tag/v5.16.0"/>
-    <id>https://github.com/huggingface/transformers/releases/tag/v5.16.0</id>
-    <updated>2026-08-26T12:35:15.000Z</updated>
+    <title>transformers v5.16.1 released</title>
+    <link href="https://github.com/huggingface/transformers/releases/tag/v5.16.1"/>
+    <id>https://github.com/huggingface/transformers/releases/tag/v5.16.1</id>
+    <updated>2026-08-26T14:50:01.000Z</updated>
     <author><name>huggingface/transformers</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Release v5.16.0 New Model additions Qwen4-Exp Qwen4-Exp builds on Qwen3.5's hybrid text and multimodal architecture with three key components: GatedResidual (GR), Qwen Sparse Attention (QSA), and Per-Layer Embedding (PLE). GR is a Qwen-developed residual architecture that combines Hyper-Connection with GatedNorm. It mi</summary>
+    <summary>Release v5.16.1 This is a special release as we include GLM! (and a few small fixes) GLM-5.3-Flash GLM-5.3-Flash, the first natively multimodal model in the GLM-5 series. With 320B total parameters and just 18B active parameters, it outperforms GLM-5.2 across benchmarks and real-world workloads at one-tenth the price, </summary>
   </entry>
   <entry>
-    <title>Alibaba releases Qwen3.8-Flash, an open-weight, 125B-parameter model built on its next-gen Qwen 4 architecture, saying it rivals Opus 4.6 and V4-Flash (Luz Ding/Bloomberg)</title>
-    <link href="https://www.techmeme.com/260826/p26"/>
-    <id>https://www.techmeme.com/260826/p26</id>
-    <updated>2026-08-26T12:51:34.000Z</updated>
+    <title>Vanguard agrees to acquire RIA software startup Altruist, a source says for $4.6B in cash; Altruist raised $600M and had a $1.9B valuation in early 2025 (Dan Primack/Axios)</title>
+    <link href="https://www.techmeme.com/260826/p32"/>
+    <id>https://www.techmeme.com/260826/p32</id>
+    <updated>2026-08-26T14:15:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Luz Ding / Bloomberg : Alibaba releases Qwen3.8-Flash, an open-weight, 125B-parameter model built on its next-gen Qwen 4 architecture, saying it rivals Opus 4.6 and V4-Flash — Alibaba Group Holding Ltd. released the latest model under its popular Qwen series, a lower-priced platform aimed at driving adoption of its mar</summary>
+    <summary>Dan Primack / Axios : Vanguard agrees to acquire RIA software startup Altruist, a source says for $4.6B in cash; Altruist raised $600M and had a $1.9B valuation in early 2025 — Vanguard Group on Wednesday announced an agreement to acquire Altruist, a California-based provider of software for registered investment advis</summary>
   </entry>
   <entry>
     <title>ollama v0.33.0 released</title>
@@ -70,22 +79,31 @@
     <summary>What's Changed Claude Desktop Developers can now easily configure Claude Desktop to seamlessly work with Ollama as a third-party gateway provider. Improved caching Fixed a hang where agent clients that cancel long prefills Prefill restore points are now trustworthy by construction: a cancelled prefill keeps every resto</summary>
   </entry>
   <entry>
-    <title>BofA's Ike: Economic Stability Driving Africa IPO Boom</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-26/bofa-s-ike-economic-stability-driving-africa-ipo-boom-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-26/bofa-s-ike-economic-stability-driving-africa-ipo-boom-video</id>
-    <updated>2026-08-26T12:35:45.000Z</updated>
+    <title>Why Vanguard Is Buying Wealth Platform Altruist</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-26/why-vanguard-is-buying-wealth-platform-altruist-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-26/why-vanguard-is-buying-wealth-platform-altruist-video</id>
+    <updated>2026-08-26T14:25:20.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Improving economic conditions are driving renewed activity in Africa's capital markets according to Yvonne Ike at Bank of America. She spoke to Chief Africa correspondent Jennifer Zabasajja on Bloomberg's Next Africa program. (Source: Bloomberg)</summary>
+    <summary>Vanguard CEO Salim Ramji and Altruist CEO Jason Wenk explain why they decided to combine assets. Speaking with Dani Burger on &quot;Bloomberg Open Interest,&quot; Ramji and Wenk say they're focused on making financial advisors more accessible. (Source: Bloomberg)</summary>
   </entry>
   <entry>
-    <title>Bill Gates calls for some jobs to be ‘Human Reserved,’ suggests taxing AI tokens and robots — billionaire says that ‘AI era will be one of the most turbulent times in human history’</title>
-    <link href="https://www.tomshardware.com/tech-industry/artificial-intelligence/bill-gates-calls-for-some-jobs-to-be-human-reserved-suggests-taxing-ai-tokens-and-robots-billionaire-says-that-ai-era-will-be-one-of-the-most-turbulent-times-in-human-history"/>
-    <id>https://www.tomshardware.com/tech-industry/artificial-intelligence/bill-gates-calls-for-some-jobs-to-be-human-reserved-suggests-taxing-ai-tokens-and-robots-billionaire-says-that-ai-era-will-be-one-of-the-most-turbulent-times-in-human-history</id>
-    <updated>2026-08-26T11:34:04.000Z</updated>
+    <title>Hot Chips 2026: Fujitsu's Monaka CPU stacks its entire cache on a separate 5nm die and narrows to 256-bit SVE2 — 350W and 500W SKUs due in 2027</title>
+    <link href="https://www.tomshardware.com/pc-components/cpus/fujitsus-monaka-cpu-stacks-its-entire-cache-on-a-separate-5nm-die-and-narrows-to-256-bit-sve2"/>
+    <id>https://www.tomshardware.com/pc-components/cpus/fujitsus-monaka-cpu-stacks-its-entire-cache-on-a-separate-5nm-die-and-narrows-to-256-bit-sve2</id>
+    <updated>2026-08-26T13:30:00.000Z</updated>
     <author><name>Tom's Hardware</name></author>
     <category term="HARDWARE"/>
-    <summary>The billionaire philanthropist penned a 6,000-word essay raising the societal risks that AI bring and his proposed solutions to protect the average person.</summary>
+    <summary>Fujitsu gave us a detailed look at its 144-core Monaka server CPU at Hot Chips 2026 on August 24, confirming for the first time that the Arm chip runs dual 256-bit SVE2 vector units, down from the 512-bit SVE in its A64FX predecessor.</summary>
+  </entry>
+  <entry>
+    <title>ESQ-Bench: A Multi-Tier Enterprise Oracle Benchmark for Evaluating NL2SQL Dialect Generalization and Silent Semantic Divergence</title>
+    <link href="https://arxiv.org/abs/2608.23569"/>
+    <id>https://arxiv.org/abs/2608.23569</id>
+    <updated>2026-08-26T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>arXiv:2608.23569v1 Announce Type: new Abstract: State-of-the-art Natural Language to SQL (NL2SQL) models report execution accuracy exceeding 89 percent on established benchmarks such as Spider and BIRD. However, these benchmarks rely on simplified academic schemas and open-source SQL dialects that do not reflect the co</summary>
   </entry>
   <entry>
     <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
@@ -115,13 +133,13 @@
     <summary>Aikido Security has published research that recreates the Australian gym-booking incident in a synthetic environment, finding that Claude Opus 4.6, running on the OpenClaw agent harness, exploited a client-side-only booking restriction in 9 of 10 runs. The original incident was first reported by ABC News on August 10, </summary>
   </entry>
   <entry>
-    <title>RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation</title>
-    <link href="https://arxiv.org/abs/2608.23568"/>
-    <id>https://arxiv.org/abs/2608.23568</id>
-    <updated>2026-08-26T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>arXiv:2608.23568v1 Announce Type: new Abstract: Memory and RAG evaluations often treat the answering model's input as an implementation detail, even though systems may render the same history as a memory entry, summary, typed record, or raw excerpt. We introduce RENDER, a benchmark control that fixes the conversation w</summary>
+    <title>Hackers target Microsoft SharePoint RCE chain with PoC exploit</title>
+    <link href="https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-sharepoint-rce-chain-with-poc-exploit"/>
+    <id>https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-sharepoint-rce-chain-with-poc-exploit</id>
+    <updated>2026-08-26T14:47:51.000Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="CYBER DEFENSE"/>
+    <summary>Attackers are now targeting a chain of two Microsoft SharePoint vulnerabilities that can allow them to execute arbitrary code on unpatched servers, according to threat intelligence company Defused. [...]</summary>
   </entry>
   <entry>
     <title>Quoting Paul Dix</title>
@@ -133,146 +151,129 @@
     <summary>The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowing. And you can say, “well it’s not that impressive because they had an oracle to compare against, so</summary>
   </entry>
   <entry>
-    <title>Single-Spin Quantum Microscope Helps Researchers Tackle Processor-Memory Bottleneck</title>
-    <link href="https://thequantuminsider.com/2026/08/26/single-spin-quantum-microscope-helps-researchers-tackle-processor-memory-bottleneck"/>
-    <id>https://thequantuminsider.com/2026/08/26/single-spin-quantum-microscope-helps-researchers-tackle-processor-memory-bottleneck</id>
-    <updated>2026-08-26T07:57:05.000Z</updated>
+    <title>Quantum X Labs Launches Qatacomb for Quantum Security Research</title>
+    <link href="https://thequantuminsider.com/2026/08/26/quantum-x-labs-qatacomb-quantum-security-research"/>
+    <id>https://thequantuminsider.com/2026/08/26/quantum-x-labs-qatacomb-quantum-security-research</id>
+    <updated>2026-08-26T14:27:49.000Z</updated>
     <author><name>The Quantum Insider</name></author>
     <category term="QUANTUM"/>
-    <summary>Insider Brief PRESS RELEASE — Artificial intelligence faces an energy crisis, stemming from a physical traffic jam inside modern computer chips. Processors must continually shuffle data, such as the billions of parameters in complex models, between separate computing and memory nodes. This traffic jam, famously known a</summary>
+    <summary>Insider Brief Press release – Quantum X Labs Inc. (Nasdaq: QXL) (“QuantumX Labs” or the “Company”), today announced the launch of Qatacomb, a new research initiative being advanced through the Company’s QuantumQ Security operation, focused on exploring a quantum-native approach to protecting sensitive information. Qata</summary>
   </entry>
   <entry>
-    <title>Anthropic sees a market opportunity of more than $30 trillion ahead of its IPO</title>
-    <link href="https://the-decoder.com/anthropic-sees-a-market-opportunity-of-more-than-30-trillion-ahead-of-its-ipo"/>
-    <id>https://the-decoder.com/anthropic-sees-a-market-opportunity-of-more-than-30-trillion-ahead-of-its-ipo</id>
-    <updated>2026-08-26T10:02:39.000Z</updated>
+    <title>Alibaba releases Qwen3.8-Flash-Next, targeting &quot;ultimate cost efficiency&quot;</title>
+    <link href="https://the-decoder.com/alibaba-releases-qwen3-8-flash-next-targeting-ultimate-cost-efficiency"/>
+    <id>https://the-decoder.com/alibaba-releases-qwen3-8-flash-next-targeting-ultimate-cost-efficiency</id>
+    <updated>2026-08-26T14:40:09.000Z</updated>
     <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Anthropic wants to sell investors on a theoretical market opportunity worth more than $30 trillion ahead of its planned IPO. The article Anthropic sees a market opportunity of more than $30 trillion ahead of its IPO appeared first on The Decoder .</summary>
+    <summary>Alibaba's Qwen team is previewing the Qwen4 architecture with Qwen3.8-Flash-Next, a mixture-of-experts model that activates just 6 out of 125 billion parameters per token. At one-ninth the training cost, it beats much larger competitors like DeepSeek-V4-Flash and Claude Opus 4.6 on coding and office benchmarks, adding </summary>
   </entry>
   <entry>
-    <title>Volodymyr Zelenskyy awards Elon Musk with Ukraine's Order of Freedom; sources say Zelenskyy asked Musk to authorize Starlink use up to 200km inside Russia (Fabrice Deprez/Financial Times)</title>
-    <link href="https://www.techmeme.com/260826/p27"/>
-    <id>https://www.techmeme.com/260826/p27</id>
-    <updated>2026-08-26T13:01:59.000Z</updated>
+    <title>Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek</id>
+    <updated>2026-08-26T10:04:55.000Z</updated>
+    <author><name>HN: Chinese Frontier Labs</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Article URL: https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek Comments URL: https://news.ycombinator.com/item?id=49446422 Points: 321 # Comments: 118</summary>
+  </entry>
+  <entry>
+    <title>Z.ai releases GLM-5.3-Flash, the first natively multimodal GLM-5 series model, with 320B parameters, saying it outperforms GLM-5.2 at &quot;one-tenth the price&quot; (Z.ai)</title>
+    <link href="https://www.techmeme.com/260826/p35"/>
+    <id>https://www.techmeme.com/260826/p35</id>
+    <updated>2026-08-26T14:26:48.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Fabrice Deprez / Financial Times : Volodymyr Zelenskyy awards Elon Musk with Ukraine's Order of Freedom; sources say Zelenskyy asked Musk to authorize Starlink use up to 200km inside Russia — Tech billionaire reluctant to allow satellite system to be used for drone strikes deep inside Russia</summary>
+    <summary>Z.ai : Z.ai releases GLM-5.3-Flash, the first natively multimodal GLM-5 series model, with 320B parameters, saying it outperforms GLM-5.2 at “one-tenth the price” — We introduce GLM-5.3-Flash, the first natively multimodal model in the GLM-5 series. With 320B total parameters …</summary>
   </entry>
   <entry>
-    <title>Arga is building a better way to train enterprise AI agents</title>
+    <title>Sources: Sword Health plans to acquire mental health company Headspace for between $200M and $300M in cash, far below its ~$3B valuation in 2021 (Brock E.W. Turner/Axios)</title>
+    <link href="https://www.techmeme.com/260826/p34"/>
+    <id>https://www.techmeme.com/260826/p34</id>
+    <updated>2026-08-26T14:23:10.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Brock E.W. Turner / Axios : Sources: Sword Health plans to acquire mental health company Headspace for between $200M and $300M in cash, far below its ~$3B valuation in 2021 — Sword Health plans to acquire mental health company Headspace for between $200 million and $300 million in cash, Axios Pro has learned from multi</summary>
+  </entry>
+  <entry>
+    <title>Forget the Pelican, it's Weevil-Time! / Benchmaxxing-Proof SVG and Vision Benchmark</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vyw1wo/forget_the_pelican_its_weeviltime"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vyw1wo/forget_the_pelican_its_weeviltime</id>
+    <updated>2026-08-26T12:44:22.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>The Artist: Qwen3.8-27B-UD-Q3\ K_XL, q8_0 caches, xhigh, temp 1.0, image-min-tokens 1024, froggeric template) I was screwing around with different Qwen3.8-27B quants and thought of this very simplistic but seemingly bechmaxxing resistant combined SVG and vision test. Just let the model recreate any given image as SVG w</summary>
+  </entry>
+  <entry>
+    <title>A minecraft clone I fully vibecoded with Qwen3.8-27b Q4</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1vyw7e7/a_minecraft_clone_i_fully_vibecoded_with"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1vyw7e7/a_minecraft_clone_i_fully_vibecoded_with</id>
+    <updated>2026-08-26T12:50:47.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>I wanted to see just how capable Qwen3.8-27b is locally. I have a RTX 4090 and 96GB of RAM but the Q4 comfortably fits in the GPU with plenty of context, the few times I needed more than 130k context I just loaded it spilled into RAM and it's capable of not degrading even at larger context. I'm super impressed with thi</summary>
+  </entry>
+  <entry>
+    <title>Build an Auditable VC Research Agent with Perplexity</title>
+    <link href="https://www.langchain.com/blog/build-an-auditable-vc-research-agent-with-the-perplexity-agent-api-langgraph-and-langsmith"/>
+    <id>https://www.langchain.com/blog/build-an-auditable-vc-research-agent-with-the-perplexity-agent-api-langgraph-and-langsmith</id>
+    <updated>2026-08-26T14:47:43.000Z</updated>
+    <author><name>LangChain Blog</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Build a VC research agent that drafts a cited investment memo in about 90 seconds for $0.40, using the Perplexity Agent API, LangGraph, and LangSmith evals.</summary>
+  </entry>
+  <entry>
+    <title>LangSmith LLM Gateway: Runtime Controls for Agents</title>
+    <link href="https://www.langchain.com/blog/langsmith-llm-gateway-runtime-controls-for-production-agents"/>
+    <id>https://www.langchain.com/blog/langsmith-llm-gateway-runtime-controls-for-production-agents</id>
+    <updated>2026-08-26T14:47:15.000Z</updated>
+    <author><name>LangChain Blog</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>LangSmith LLM Gateway is in public beta: spend caps, rate limits, model fallbacks and PII redaction for production agents, without provider lock-in.</summary>
+  </entry>
+  <entry>
+    <title>Nordic Alliance Said to Explore Region-Wide Stock Exchange</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-26/nordic-alliance-said-to-explore-region-wide-stock-exchange"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-26/nordic-alliance-said-to-explore-region-wide-stock-exchange</id>
+    <updated>2026-08-26T13:46:26.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Some of the Nordic region’s biggest companies and wealthiest investors are working on a proposal to create a single, unified stock exchange.</summary>
+  </entry>
+  <entry>
+    <title>Fed Can Avoid Hiking on Cooler Data, Economist Roth Says</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-26/fed-can-avoid-hiking-on-cooler-data-economist-roth-says-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-26/fed-can-avoid-hiking-on-cooler-data-economist-roth-says-video</id>
+    <updated>2026-08-26T13:42:03.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Stephanie Roth, chief economist at Wolfe Research, expects to see cooler economic data ahead, giving the Federal Reserve cover to “credibly” avoid hiking interest rates in September. (Source: Bloomberg)</summary>
+  </entry>
+  <entry>
+    <title>RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation</title>
+    <link href="https://arxiv.org/abs/2608.23568"/>
+    <id>https://arxiv.org/abs/2608.23568</id>
+    <updated>2026-08-26T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
+    <category term="RESEARCH"/>
+    <summary>arXiv:2608.23568v1 Announce Type: new Abstract: Memory and RAG evaluations often treat the answering model's input as an implementation detail, even though systems may render the same history as a memory entry, summary, typed record, or raw excerpt. We introduce RENDER, a benchmark control that fixes the conversation w</summary>
+  </entry>
+  <entry>
+    <title>Arga Labs is building a better way to train enterprise AI agents</title>
     <link href="https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents"/>
     <id>https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents</id>
     <updated>2026-08-26T12:55:28.000Z</updated>
     <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
+    <category term="PRODUCTS"/>
     <summary>Arga has raised $10 million in a seed funding round that was led by General Catalyst, with participation from Box Group, Emergence, Gradient and SV Angel.</summary>
   </entry>
   <entry>
-    <title>Computer! Fully local tool capable voice assistant with clients on multiple platforms</title>
-    <link href="https://sh.itjust.works/post/65709986"/>
-    <id>https://sh.itjust.works/post/65709986</id>
-    <updated>2026-08-26T10:09:34.000Z</updated>
-    <author><name>Lemmy c/localllama</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>submitted by troed to localllama 13 points | 4 comments https://video.troed.se/w/vwTvn6qsVtQGsSW8TJMBDj Gemma 4 12B QAT + faster Qwen 3 TTS fits perfectly fine in 12GB VRAM and can be used to create a fully local voice assistant with … reconizeable traits ;) The project is fully open source and published here: https://</summary>
-  </entry>
-  <entry>
-    <title>Renormalization Group Flow Matching for Scalable Local Generative Modeling</title>
-    <link href="https://arxiv.org/abs/2608.23696"/>
-    <id>https://arxiv.org/abs/2608.23696</id>
-    <updated>2026-08-26T04:00:00.000Z</updated>
-    <author><name>arXiv cs.LG</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>arXiv:2608.23696v1 Announce Type: new Abstract: Despite their remarkable success in modeling complex data, generative models face a fundamental tradeoff. Global approaches can capture full structural coherence but suffer from high computational costs, while local models are efficient but often fail to reproduce long-ra</summary>
-  </entry>
-  <entry>
-    <title>US Core PCE Rises 0.2% in July, Consumer Spending Stalls</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-26/us-core-pce-rises-0-2-in-july-consumer-spending-stalls-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-26/us-core-pce-rises-0-2-in-july-consumer-spending-stalls-video</id>
-    <updated>2026-08-26T12:55:16.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>The Federal Reserve’s preferred inflation metric, the so-called core PCE price index, which excludes food and energy items, rose 0.2% in July and advanced 3.3% from a year ago. Inflation-adjusted consumer spending was flat last month. Michael McKee reports on Bloomberg Television. (Source: Bloomberg)</summary>
-  </entry>
-  <entry>
-    <title>Nike Stock on Pace for Worst Year Since Jordan’s ‘93 Retirement</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-26/nike-stock-on-pace-for-worst-year-since-jordan-s-93-retirement"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-26/nike-stock-on-pace-for-worst-year-since-jordan-s-93-retirement</id>
-    <updated>2026-08-26T12:48:34.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>When Michael Jordan quit pro basketball at just 30 years old, his exit created a headache for Nike Inc., the maker and massive beneficiary of his iconic line of sneakers.</summary>
-  </entry>
-  <entry>
-    <title>TRACE: Transition-Aware Residual Control for Multi-Objective Materials Discovery</title>
-    <link href="https://arxiv.org/abs/2608.23631"/>
-    <id>https://arxiv.org/abs/2608.23631</id>
-    <updated>2026-08-26T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
-    <category term="RESEARCH"/>
-    <summary>arXiv:2608.23631v1 Announce Type: new Abstract: Multi-objective materials discovery with LLM agents is often limited not only by how many candidates can be proposed, but by how effectively each costly property evaluation informs the next search step. Existing agents mainly store evaluated candidates and their scores, s</summary>
-  </entry>
-  <entry>
-    <title>How to evaluate LLMs before production</title>
-    <link href="https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production"/>
-    <id>https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production</id>
-    <updated>2026-08-25T21:35:11.000Z</updated>
-    <author><name>GitHub Blog</name></author>
-    <category term="PRODUCTS"/>
-    <summary>These are the lessons we learned evaluating LLMs for real-world secret scanning. The post How to evaluate LLMs before production appeared first on The GitHub Blog .</summary>
-  </entry>
-  <entry>
-    <title>Rockstar releases statement after a week of GTA VI leaks, avoids mentioning leaker's demands — says that gameplay leaks have been ‘heartbreaking for our team’</title>
-    <link href="https://www.tomshardware.com/video-games/rockstar-releases-statement-after-a-week-of-gta-vi-leaks-avoids-mentioning-leakers-demands-says-that-gameplay-leaks-have-been-heartbreaking-for-our-team"/>
-    <id>https://www.tomshardware.com/video-games/rockstar-releases-statement-after-a-week-of-gta-vi-leaks-avoids-mentioning-leakers-demands-says-that-gameplay-leaks-have-been-heartbreaking-for-our-team</id>
-    <updated>2026-08-26T12:19:49.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
+    <title>Armada launches 10MW modular data center, Orion</title>
+    <link href="https://www.datacenterdynamics.com/en/news/armada-launches-10mw-modular-data-center-orion"/>
+    <id>https://www.datacenterdynamics.com/en/news/armada-launches-10mw-modular-data-center-orion</id>
+    <updated>2026-08-26T13:10:00.000Z</updated>
+    <author><name>Data Center Dynamics</name></author>
     <category term="HARDWARE"/>
-    <summary>The statement comes a day before GTA VI extended look drops on Netflix and about a week after leaks of gameplay clips and the entire map of Leonidas appeared on the internet.</summary>
-  </entry>
-  <entry>
-    <title>Hot Chips 2026: d-Matrix stacks AI accelerator directly on custom DRAM for 100 TB/s per card — TSMC 4nm compute die bonded face-to-face at a 36-micron pitch on top of a custom-designed die</title>
-    <link href="https://www.tomshardware.com/tech-industry/semiconductors/d-matrix-stacks-its-ai-accelerator-directly-on-custom-dram-for-100-tbs-per-card"/>
-    <id>https://www.tomshardware.com/tech-industry/semiconductors/d-matrix-stacks-its-ai-accelerator-directly-on-custom-dram-for-100-tbs-per-card</id>
-    <updated>2026-08-26T12:00:00.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
-    <category term="HARDWARE"/>
-    <summary>d-Matrix presented Raptor, which it calls the first 3D DRAM accelerator for generative inference, showing a TSMC 4nm compute die bonded face-to-face at a 36-micron pitch on top of a custom-designed DRAM die.</summary>
-  </entry>
-  <entry>
-    <title>ESQ-Bench: A Multi-Tier Enterprise Oracle Benchmark for Evaluating NL2SQL Dialect Generalization and Silent Semantic Divergence</title>
-    <link href="https://arxiv.org/abs/2608.23569"/>
-    <id>https://arxiv.org/abs/2608.23569</id>
-    <updated>2026-08-26T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>arXiv:2608.23569v1 Announce Type: new Abstract: State-of-the-art Natural Language to SQL (NL2SQL) models report execution accuracy exceeding 89 percent on established benchmarks such as Spider and BIRD. However, these benchmarks rely on simplified academic schemas and open-source SQL dialects that do not reflect the co</summary>
-  </entry>
-  <entry>
-    <title>Benchmarking Question/Answering Over CSV Data</title>
-    <link href="https://www.langchain.com/blog/benchmarking-question-answering-over-csv-data"/>
-    <id>https://www.langchain.com/blog/benchmarking-question-answering-over-csv-data</id>
-    <updated>2026-08-25T21:16:24.000Z</updated>
-    <author><name>LangChain Blog</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Build better Q&amp;A systems for CSV data using LangChain agents, retrieval, and LLM evaluation. Includes benchmarks, debugging insights, and open-source code.</summary>
-  </entry>
-  <entry>
-    <title>Entrepreneur-in-Residence | GovAI Blog</title>
-    <link href="https://www.governance.ai/post/eir"/>
-    <id>https://www.governance.ai/post/eir</id>
-    <updated>2026-08-26T10:06:08.000Z</updated>
-    <author><name>GovAI</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-  </entry>
-  <entry>
-    <title>We’re sleepwalking into an AI surveillance dystopia</title>
-    <link href="https://www.transformernews.ai/p/ai-surveillance-dystopian-nightmare"/>
-    <id>https://www.transformernews.ai/p/ai-surveillance-dystopian-nightmare</id>
-    <updated>2026-08-25T15:00:39.000Z</updated>
-    <author><name>Transformer</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>The technology needed for industrial-scale observation exists — and is already in widespread use</summary>
+    <summary>The largest iteration of Armada's Galleon family</summary>
   </entry>
 </feed>
