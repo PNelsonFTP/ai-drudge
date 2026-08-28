@@ -5,15 +5,24 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-27T20:18:50.231Z</updated>
+  <updated>2026-08-28T05:17:34.434Z</updated>
   <entry>
-    <title>llama.cpp b10660 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10660"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10660</id>
-    <updated>2026-08-27T20:05:01.000Z</updated>
+    <title>llama.cpp b10665 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10665"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10665</id>
+    <updated>2026-08-28T00:19:35.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>model: add Qwen3.8-Flash-Next (qwen4exp) ( #27742 ) gguf: add qwen4exp (Qwen3.8-Flash-Next) arch and converter Adds the GGUF-side plumbing for HF model_type qwen4_exp: MODEL_ARCH.QWEN4EXP plus tensors for the low-rank hyper-connection variant (hc_ norm/down/up/inject) and the PLE n-gram hash embeddings. The DeepSeek-V4</summary>
+    <category term="LOCAL MODELS"/>
+    <summary>model: add DSpark support for Nemotron3.5 ( #27804 ) model: add DSpark support for Nemotron3.5 Update src/models/dflash.cpp Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Co-authored-by: Xuan Son Nguyen son@huggingface.co Website: http</summary>
+  </entry>
+  <entry>
+    <title>Pentagon’s blacklisting of Anthropic was unlawful, US judge rules</title>
+    <link href="https://www.theguardian.com/technology/2026/aug/28/us-court-rules-pentagon-anthropic-ban-illegal-trump-claude-ai"/>
+    <id>https://www.theguardian.com/technology/2026/aug/28/us-court-rules-pentagon-anthropic-ban-illegal-trump-claude-ai</id>
+    <updated>2026-08-28T03:34:35.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Anthropic ​argued designation as ‘supply chain risk’ could cost the company billions ‌of dollars in lost business ‌and reputational harm A US federal judge ruled Thursday that sanctions imposed in February by the Trump administration against AI giant Anthropic were illegal, finding that the government had punished the  — Also covered by: WSJ Tech</summary>
   </entry>
   <entry>
     <title>Australia arrests alleged TeamPCP hackers behind supply-chain attacks</title>
@@ -25,6 +34,15 @@
     <summary>Australian authorities have arrested and charged two young men accused of being part of the TeamPCP hacking group linked to a string of far-reaching developer supply chain attacks. [...] — Also covered by: The Hacker News</summary>
   </entry>
   <entry>
+    <title>Nvidia pauses revenue-sharing deals with AI cloud companies, WSJ reports</title>
+    <link href="https://www.reuters.com/business/nvidia-pauses-revenue-sharing-deals-with-ai-cloud-companies-wsj-reports-2026-08-27"/>
+    <id>https://www.reuters.com/business/nvidia-pauses-revenue-sharing-deals-with-ai-cloud-companies-wsj-reports-2026-08-27</id>
+    <updated>2026-08-27T23:22:11.000Z</updated>
+    <author><name>Reuters AI (Google News)</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Nvidia pauses revenue-sharing deals with AI cloud companies, WSJ reports Reuters — Also covered by: WSJ Tech</summary>
+  </entry>
+  <entry>
     <title>MLX: Qwen3.8 Flash Next support (#18032)</title>
     <link href="https://github.com/ollama/ollama/releases/tag/v0.33.1-rc0"/>
     <id>https://github.com/ollama/ollama/releases/tag/v0.33.1-rc0</id>
@@ -32,24 +50,6 @@
     <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
     <summary>MLX: Qwen3.8 Flash Next support review comments — Also covered by: Simon Willison</summary>
-  </entry>
-  <entry>
-    <title>claude-code v2.1.247 released</title>
-    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.247"/>
-    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.247</id>
-    <updated>2026-08-26T23:06:39.000Z</updated>
-    <author><name>anthropics/claude-code</name></author>
-    <category term="GITHUB REPOS"/>
-    <summary>What's changed Added the SendFeedback tool: when something goes wrong in a session, Claude can draft a feedback report for you to review and send from /feedback (turn off with the feedbackDrafts setting) Added {id, text, cooldownSessions, priority} entries, tipsFile , and label to spinnerTipsOverride , so organizations — Also covered by: QwenLM/qwen-code</summary>
-  </entry>
-  <entry>
-    <title>NASA Awards Infleqtion $20M Follow-On Contract for Quantum Gravity Gradiometer Pathfinder Mission</title>
-    <link href="https://quantumcomputingreport.com/nasa-awards-infleqtion-20m-follow-on-contract-for-quantum-gravity-gradiometer-pathfinder-mission"/>
-    <id>https://quantumcomputingreport.com/nasa-awards-infleqtion-20m-follow-on-contract-for-quantum-gravity-gradiometer-pathfinder-mission</id>
-    <updated>2026-08-27T18:47:28.000Z</updated>
-    <author><name>Quantum Computing Report</name></author>
-    <category term="QUANTUM"/>
-    <summary>Infleqtion (NYSE: INFQ) has received a $20 million follow-on contract from NASA to advance the Quantum Gravity Gradiometer Pathfinder (QGGPf) mission, led by NASA’s Jet Propulsion Laboratory (JPL). The award brings total NASA funding for the space-based quantum gravity sensing program to $40 million, moving the mission — Also covered by: The Quantum Insider</summary>
   </entry>
   <entry>
     <title>Piloting the world's first double-blind AI evaluations</title>
@@ -61,45 +61,206 @@
     <summary>Piloting the world's first double-blind AI evaluations</summary>
   </entry>
   <entry>
-    <title>Sources: Anthropic has been working on a plan to allow secondary stock sales in its IPO while also considering lockup periods longer than the standard 180 days (The Information)</title>
-    <link href="https://www.techmeme.com/260827/p45"/>
-    <id>https://www.techmeme.com/260827/p45</id>
-    <updated>2026-08-27T18:30:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>The Information : Sources: Anthropic has been working on a plan to allow secondary stock sales in its IPO while also considering lockup periods longer than the standard 180 days — Anthropic has been working on a plan to let existing shareholders sell some stock in its blockbuster initial public offering …</summary>
-  </entry>
-  <entry>
-    <title>Socure Secures $156M at $5.2B Valuation, Acquires AI Fraud Investigation Startup Fravity</title>
-    <link href="https://news.crunchbase.com/venture/socure-raises-acquires-agentic-ai-startup-fravity"/>
-    <id>https://news.crunchbase.com/venture/socure-raises-acquires-agentic-ai-startup-fravity</id>
-    <updated>2026-08-27T13:00:25.000Z</updated>
-    <author><name>Crunchbase News AI</name></author>
+    <title>Standalone LLM and a Pre-specified Agentic Pipeline for Explaining ICU Mortality Predictions: a Feasibility Study on the eICU Demo Dataset</title>
+    <link href="https://arxiv.org/abs/2608.26109"/>
+    <id>https://arxiv.org/abs/2608.26109</id>
+    <updated>2026-08-28T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Identity verification and fraud prevention company Socure announced Thursday that it raised $156 million in a strategic growth investment valuing it at $5.2 billion. The Incline Village, Nevada-based company also says it is acquiring agentic AI startup Fravity, which will be incorporated into its RiskOS platform as Ris</summary>
+    <summary>arXiv:2608.26109v1 Announce Type: new Abstract: Machine-learning models can predict ICU mortality accurately, but feature-attribution methods alone rarely provide the clinical narrative needed for bedside use. Large language models (LLMs) may bridge this gap, and multi-step agentic pipelines are a plausible extension b</summary>
   </entry>
   <entry>
-    <title>Sheinbaum Plan to Ban Dual-Citizen Presidents Draws Salinas’ Ire</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-27/sheinbaum-plan-to-ban-dual-citizen-presidents-draws-salinas-ire"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-27/sheinbaum-plan-to-ban-dual-citizen-presidents-draws-salinas-ire</id>
-    <updated>2026-08-27T19:58:25.000Z</updated>
+    <title>Nepal Billionaire Says Rebuilding After Flood to Cost $5 Billion</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-28/nepal-billionaire-says-rebuilding-after-flood-to-cost-5-billion"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-28/nepal-billionaire-says-rebuilding-after-flood-to-cost-5-billion</id>
+    <updated>2026-08-28T05:07:49.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Mexico’s Claudia Sheinbaum proposed barring dual citizens from running for president, drawing an immediate rebuke from billionaire Ricardo Salinas, one of her sharpest critics who has hinted at a bid for the top job.</summary>
+    <summary>Efforts to rebuild Nepal’s infrastructure after a devastating flash flood this week could cost at least $5 billion, according to the country’s only billionaire.</summary>
   </entry>
   <entry>
-    <title>RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation</title>
-    <link href="https://arxiv.org/abs/2608.23568"/>
-    <id>https://arxiv.org/abs/2608.23568</id>
-    <updated>2026-08-27T04:00:00.000Z</updated>
+    <title>NeuronFuzz: Safety Neuron Guided Fuzzing for LLM Safety Evaluation</title>
+    <link href="https://arxiv.org/abs/2608.26222"/>
+    <id>https://arxiv.org/abs/2608.26222</id>
+    <updated>2026-08-28T04:00:00.000Z</updated>
+    <author><name>arXiv cs.LG</name></author>
+    <category term="RESEARCH"/>
+    <summary>arXiv:2608.26222v1 Announce Type: new Abstract: Safety evaluation is critical for assessing whether aligned Large Language Models (LLMs) remain robust against jailbreak attacks. Existing automated testing methods, however, largely rely on response-level feedback: each candidate prompt typically requires generating a ta</summary>
+  </entry>
+  <entry>
+    <title>Anthropic launches AI tool that can conduct scientific experiments</title>
+    <link href="https://www.ft.com/content/dd069af7-a2a2-4984-8d9a-5edeaf54f2f8?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/dd069af7-a2a2-4984-8d9a-5edeaf54f2f8?syn-25a6b1a6=1</id>
+    <updated>2026-08-27T19:20:48.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Claude chatbot maker unveils a system that autonomously operates a wide range of devices in laboratories</summary>
+  </entry>
+  <entry>
+    <title>Yotta Plans IPO ‘Soon’ to Meet Demand, Chairman Says</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-28/yotta-plans-ipo-very-soon-to-keep-up-with-ai-demand-ceo-says"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-28/yotta-plans-ipo-very-soon-to-keep-up-with-ai-demand-ceo-says</id>
+    <updated>2026-08-28T02:44:58.000Z</updated>
+    <author><name>Bloomberg Tech</name></author>
+    <category term="HARDWARE"/>
+    <summary>Data center operator Yotta Data Services Pvt is in talks to tap capital markets “very soon” to meet surging demand for AI services, according to its chairman.</summary>
+  </entry>
+  <entry>
+    <title>Hugging Face is selling a cute $399 open source duck robot, Microduck</title>
+    <link href="https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck"/>
+    <id>https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck</id>
+    <updated>2026-08-27T14:56:52.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Clem Delangue, CEO of Hugging Face, said the Microduck is an “open-source robot you can teach new tricks with reinforcement learning.”</summary>
+  </entry>
+  <entry>
+    <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
+    <link href="https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare"/>
+    <id>https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare</id>
+    <updated>2026-09-24T13:00:00.000Z</updated>
+    <author><name>NIST AI News</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>This Symposium is a one-day event to address the question: “ which medical measurements and consensus standards should be prioritized to support future U.S. healthcare?” The focus will be on medical imaging, medical devices, and diagnostics. The goal</summary>
+  </entry>
+  <entry>
+    <title>OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face</title>
+    <link href="https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html"/>
+    <id>https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html</id>
+    <updated>2026-08-27T18:36:19.000Z</updated>
+    <author><name>The Hacker News</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>OpenAI on Wednesday revealed that reward hacking was a key driver behind the artificial intelligence (AI)-powered hack of Hugging Face last month, adding that it found evidence of misaligned behavior as early as late May. The incident, the company said, took place during cybersecurity evaluations of several OpenAI mode</summary>
+  </entry>
+  <entry>
+    <title>EduRiskX: A Neuro-Symbolic Framework with F-Logic Reasoning for Early Academic Risk Prediction</title>
+    <link href="https://arxiv.org/abs/2608.26107"/>
+    <id>https://arxiv.org/abs/2608.26107</id>
+    <updated>2026-08-28T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
+    <category term="CYBER DEFENSE"/>
+    <summary>arXiv:2608.26107v1 Announce Type: new Abstract: Predicting students' academic risk in online education is crucial for enabling timely interventions that can improve retention and learning outcomes. However, existing models often suffer from limited early detection capability and insufficient interpretability, leading t</summary>
+  </entry>
+  <entry>
+    <title>Qwen3.8-Flash-Next</title>
+    <link href="https://simonwillison.net/2026/Aug/26/qwen38-flash-next"/>
+    <id>https://simonwillison.net/2026/Aug/26/qwen38-flash-next</id>
+    <updated>2026-08-26T23:52:58.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="ANALYSIS"/>
+    <summary>Qwen3.8-Flash-Next Another open weights model from Qwen. This one is &quot;a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4&quot;. It's pretty big: 125B tokens, but only 6B active which means it gets a significant performance boost. I've been trying it out on a DGX Spark using these U</summary>
+  </entry>
+  <entry>
+    <title>Postquant Labs Launches QuipSwap Bridgeless Protocol for Quantum-Safe Cross-Chain Transactions</title>
+    <link href="https://quantumcomputingreport.com/postquant-labs-launches-quipswap-bridgeless-protocol-for-quantum-safe-cross-chain-transactions"/>
+    <id>https://quantumcomputingreport.com/postquant-labs-launches-quipswap-bridgeless-protocol-for-quantum-safe-cross-chain-transactions</id>
+    <updated>2026-08-27T19:57:23.000Z</updated>
+    <author><name>Quantum Computing Report</name></author>
+    <category term="QUANTUM"/>
+    <summary>Decentralized quantum network developer Postquant Labs has announced the public launch of QuipSwap, a trustless, bridgeless cross-chain swap protocol engineered to eliminate bridge vulnerabilities and mitigate quantum decryption risks across multi-blockchain workflows. Developed alongside quip.network, the protocol rem</summary>
+  </entry>
+  <entry>
+    <title>ollama v0.33.2 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.33.2-rc1"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.33.2-rc1</id>
+    <updated>2026-08-27T21:09:03.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>What's Changed app: restore system dark mode by @hoyyeva in #18049 proxy: continue requests when the model catalog changes by @ParthSareen in #18058 app: synchronize macOS app handoff by @ParthSareen in #18056 Full Changelog : v0.33.1...v0.33.2-rc0</summary>
+  </entry>
+  <entry>
+    <title>Gemini Omni 1.1 Flash lets you build with more control</title>
+    <link href="https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control"/>
+    <id>https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control</id>
+    <updated>2026-08-27T16:11:32.000Z</updated>
+    <author><name>Google DeepMind Blog</name></author>
+    <category term="MODEL RELEASES"/>
+  </entry>
+  <entry>
+    <title>Black Box: episode 5 – The white mask – podcast</title>
+    <link href="https://www.theguardian.com/news/audio/2026/aug/28/black-box-episode-5-the-white-mask-podcast"/>
+    <id>https://www.theguardian.com/news/audio/2026/aug/28/black-box-episode-5-the-white-mask-podcast</id>
+    <updated>2026-08-28T02:00:44.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Revisited: Guardian journalist Michael Safi looks into the world of artificial intelligence, exploring the dangers and promises it holds for society Today in Focus is on a summer break and will be back with new episodes from 1 September. In the meantime, we are bringing you season one of Black Box, before the launch of</summary>
+  </entry>
+  <entry>
+    <title>No special carve-out for states using fossil fuel to power datacentres, Chris Bowen insists, despite new conditions</title>
+    <link href="https://www.theguardian.com/technology/2026/aug/28/no-special-carve-out-for-states-using-fossil-fuel-to-power-datacentres-chris-bowen-insists-despite-new-conditions"/>
+    <id>https://www.theguardian.com/technology/2026/aug/28/no-special-carve-out-for-states-using-fossil-fuel-to-power-datacentres-chris-bowen-insists-despite-new-conditions</id>
+    <updated>2026-08-28T04:17:37.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Energy minister says states can apply to use coal and gas supply to power datacentres but must prove it is cheaper than renewables Chris Bowen insists federal Labor’s new national laws on datacentre power supply will not include carve-outs for Queensland and the Northern Territory, with states that are eager to use coa</summary>
+  </entry>
+  <entry>
+    <title>zai-org/GLM-5.3-Flash · Hugging Face 320b-a18b</title>
+    <link href="https://sh.itjust.works/post/65780993"/>
+    <id>https://sh.itjust.works/post/65780993</id>
+    <updated>2026-08-27T16:29:51.000Z</updated>
+    <author><name>Lemmy c/localllama</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>submitted by BeefAndPoultry to localllama 10 points | 0 comments https://huggingface.co/zai-org/GLM-5.3-Flash We introduce GLM-5.3-Flash, the first natively multimodal model in the GLM-5 series. With 320B total parameters and just 18B active parameters, it outperforms GLM-5.2 across benchmarks and real-world workloads </summary>
+  </entry>
+  <entry>
+    <title>CIFQA: A Deterministic Tool-Grounded Multi-Agent LLM Framework for Financial Query Answering</title>
+    <link href="https://arxiv.org/abs/2608.26114"/>
+    <id>https://arxiv.org/abs/2608.26114</id>
+    <updated>2026-08-28T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>arXiv:2608.26114v1 Announce Type: new Abstract: Calculation-intensive financial question answering requires exact reasoning over structured rates, temporal conditions, numerical formulas, and rule-based constraints. Although Large Language Models (LLMs) perform strongly on natural language tasks, they often produce num</summary>
+  </entry>
+  <entry>
+    <title>Top Sydney Builder’s $2.3 Billion Debt Woes Hit Private Credit</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-28/top-sydney-builder-s-2-3-billion-debt-woes-hit-private-credit"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-28/top-sydney-builder-s-2-3-billion-debt-woes-hit-private-credit</id>
+    <updated>2026-08-28T04:37:15.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Bathla Group, a major property developer in Sydney, is leaving private credit investors exposed after falling into insolvency earlier this week in the latest blow to Australia’s troubled housing market.</summary>
+  </entry>
+  <entry>
+    <title>Billionare and Philantropist Chaudhary on the Scale of Nepal's Flood Disaster</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-28/binod-chaudhary-on-the-scale-of-nepal-s-flood-disaster-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-28/binod-chaudhary-on-the-scale-of-nepal-s-flood-disaster-video</id>
+    <updated>2026-08-28T04:35:48.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Nepalese industrialist Binod Chaudhary speaks with Bloomberg's Haslinda Amin about the scale of the humanitarian disaster facing his country, and how his conglomerate is working with the government to improve the situation. (Source: Bloomberg)</summary>
+  </entry>
+  <entry>
+    <title>ElementCheck: Complexity-Aware Long-Form Text Factuality Evaluation via Sentence Elements</title>
+    <link href="https://arxiv.org/abs/2608.26118"/>
+    <id>https://arxiv.org/abs/2608.26118</id>
+    <updated>2026-08-28T04:00:00.000Z</updated>
+    <author><name>arXiv cs.CL</name></author>
+    <category term="RESEARCH"/>
+    <summary>arXiv:2608.26118v1 Announce Type: new Abstract: Existing long-form factuality evaluation relies on the decompose-retrieve-verify pipeline. However, the pipeline suffers from noise from claim decomposition and fixed verification granularity, resulting in unreliable results. We propose ElementCheck, a complexity-aware fr</summary>
+  </entry>
+  <entry>
+    <title>The Artificial Experimentalist: Discovery and Control of Self-Organizing Phenomena with Autotelic Reinforcement Learning</title>
+    <link href="https://arxiv.org/abs/2608.26116"/>
+    <id>https://arxiv.org/abs/2608.26116</id>
+    <updated>2026-08-28T04:00:00.000Z</updated>
     <author><name>arXiv cs.AI</name></author>
     <category term="RESEARCH"/>
-    <summary>arXiv:2608.23568v1 Announce Type: new Abstract: Memory and RAG evaluations often treat the answering model's input as an implementation detail, even though systems may render the same history as a memory entry, summary, typed record, or raw excerpt. We introduce RENDER, a benchmark control that fixes the conversation w</summary>
+    <summary>arXiv:2608.26116v1 Announce Type: new Abstract: Existing methods for exploring cellular automata and other complex systems mostly operate in open loop: they set initial conditions, execute a full simulation, and observe the outcome, without intervening during execution. We introduce a closed-loop framework based on aut</summary>
   </entry>
   <entry>
-    <title>Introducing India cross-Region inference for OpenAI GPT-5.6 models on Amazon Bedrock</title>
-    <link href="https://aws.amazon.com/blogs/machine-learning/introducing-india-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock"/>
-    <id>https://aws.amazon.com/blogs/machine-learning/introducing-india-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock</id>
+    <title>Copilot code review: Resolution reasons and expanded capabilities</title>
+    <link href="https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities"/>
+    <id>https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities</id>
+    <updated>2026-08-27T22:46:04.000Z</updated>
+    <author><name>GitHub Copilot Changelog</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Copilot code review can now review two types of pull requests it didn’t cover before: Reviews requested automatically on pull requests authored by bots, including Copilot cloud agent Very large… The post Copilot code review: Resolution reasons and expanded capabilities appeared first on The GitHub Blog .</summary>
+  </entry>
+  <entry>
+    <title>Introducing OpenAI models on Amazon Bedrock for in-country inferencing in India</title>
+    <link href="https://aws.amazon.com/blogs/machine-learning/introducing-openai-models-on-amazon-bedrock-for-in-country-inferencing-in-india"/>
+    <id>https://aws.amazon.com/blogs/machine-learning/introducing-openai-models-on-amazon-bedrock-for-in-country-inferencing-in-india</id>
     <updated>2026-08-27T18:36:08.000Z</updated>
     <author><name>AWS ML Blog</name></author>
     <category term="PRODUCTS"/>
@@ -113,166 +274,5 @@
     <author><name>NVIDIA Blog</name></author>
     <category term="HARDWARE"/>
     <summary>NVIDIA’s Gamescom announcements are revealing what’s next for GeForce NOW, with new ways to play, more supported devices and platforms, and even more big PC games headed to the cloud. New NVIDIA DLSS 4.5 technology controls give members more ways to fine-tune gameplay, while expanded support for new Steam devices, GOG </summary>
-  </entry>
-  <entry>
-    <title>Hugging Face is selling a cute $399 open source duck robot, Microduck</title>
-    <link href="https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck"/>
-    <id>https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck</id>
-    <updated>2026-08-27T14:56:52.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Clem Delangue, CEO of Hugging Face, said the Microduck is an “open-source robot you can teach new tricks with reinforcement learning.”</summary>
-  </entry>
-  <entry>
-    <title>The report into OpenAI’s escaping models reveals a deeper problem</title>
-    <link href="https://www.transformernews.ai/p/openai-escaping-models-report-reveals-deeper-problem"/>
-    <id>https://www.transformernews.ai/p/openai-escaping-models-report-reveals-deeper-problem</id>
-    <updated>2026-08-27T16:34:30.000Z</updated>
-    <author><name>Transformer</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>The new details from the OpenAI Hugging Face incident are scary. The limits of the investigation are terrifying</summary>
-  </entry>
-  <entry>
-    <title>Breaking Claude Code Opus 5 Auto Mode</title>
-    <link href="https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode"/>
-    <id>https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode</id>
-    <updated>2026-08-27T04:00:00.000Z</updated>
-    <author><name>Embrace The Red</name></author>
-    <category term="AI SECURITY"/>
-    <summary>In this post, we explore how a simple website summary request hijacks Claude Code Opus 5 in Auto Mode and achieves code execution with 60-80% attack success rate using a small sample size. This is interesting because a third-party evaluation commissioned by Anthropic showed a 0.00% prompt injection attack success rate </summary>
-  </entry>
-  <entry>
-    <title>Manchester Airports Group says hackers stole travelers' data</title>
-    <link href="https://www.bleepingcomputer.com/news/security/manchester-airports-group-says-hackers-stole-travelers-data"/>
-    <id>https://www.bleepingcomputer.com/news/security/manchester-airports-group-says-hackers-stole-travelers-data</id>
-    <updated>2026-08-27T16:12:26.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>The Manchester Airports Group (MAG) disclosed that hackers breached its systems and stole customer data, including Wi-Fi sign-ups from Manchester, Stansted, and East Midlands airports. [...]</summary>
-  </entry>
-  <entry>
-    <title>“Sorry, I can’t help with that”: How your guardrails might become the attacker’s best friend</title>
-    <link href="https://blog.talosintelligence.com/sorry-i-cant-help-with-that-how-your-guardrails-might-become-the-attackers-best-friend"/>
-    <id>https://blog.talosintelligence.com/sorry-i-cant-help-with-that-how-your-guardrails-might-become-the-attackers-best-friend</id>
-    <updated>2026-08-27T18:00:24.000Z</updated>
-    <author><name>Talos Intelligence</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>In his first Threat Source newsletter, David Bianco explores the critical need for operational sovereignty in customizing AI guardrails to maintain the defender’s advantage.</summary>
-  </entry>
-  <entry>
-    <title>Qwen3.8-Flash-Next</title>
-    <link href="https://simonwillison.net/2026/Aug/26/qwen38-flash-next"/>
-    <id>https://simonwillison.net/2026/Aug/26/qwen38-flash-next</id>
-    <updated>2026-08-26T23:52:58.000Z</updated>
-    <author><name>Simon Willison</name></author>
-    <category term="ANALYSIS"/>
-    <summary>Qwen3.8-Flash-Next Another open weights model from Qwen. This one is &quot;a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4&quot;. It's pretty big: 125B tokens, but only 6B active which means it gets a significant performance boost. I've been trying it out on a DGX Spark using these U</summary>
-  </entry>
-  <entry>
-    <title>Anthropic releases Model Hardware Standard, a framework to help AI agents use physical systems like microscopes, quantum computing hardware, and robot arms (Will Knight/Wired)</title>
-    <link href="https://www.techmeme.com/260827/p44"/>
-    <id>https://www.techmeme.com/260827/p44</id>
-    <updated>2026-08-27T18:25:04.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="QUANTUM"/>
-    <summary>Will Knight / Wired : Anthropic releases Model Hardware Standard, a framework to help AI agents use physical systems like microscopes, quantum computing hardware, and robot arms — The potential for AI to automate scientific research and manufacturing must be balanced with new risks, Anthropic says.</summary>
-  </entry>
-  <entry>
-    <title>Gemini Omni 1.1 Flash lets you build with more control</title>
-    <link href="https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control"/>
-    <id>https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control</id>
-    <updated>2026-08-27T16:11:32.000Z</updated>
-    <author><name>Google DeepMind Blog</name></author>
-    <category term="MODEL RELEASES"/>
-  </entry>
-  <entry>
-    <title>zai-org/GLM-5.3-Flash · Hugging Face 320b-a18b</title>
-    <link href="https://sh.itjust.works/post/65780993"/>
-    <id>https://sh.itjust.works/post/65780993</id>
-    <updated>2026-08-27T16:29:51.000Z</updated>
-    <author><name>Lemmy c/localllama</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>submitted by BeefAndPoultry to localllama 9 points | 0 comments https://huggingface.co/zai-org/GLM-5.3-Flash We introduce GLM-5.3-Flash, the first natively multimodal model in the GLM-5 series. With 320B total parameters and just 18B active parameters, it outperforms GLM-5.2 across benchmarks and real-world workloads a</summary>
-  </entry>
-  <entry>
-    <title>unsloth/Qwen3.8-Flash-Next-GGUF on NVIDIA GeForce RTX 5090 — 43.4 tok/s — llm-bench.io</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1w01naa/unslothqwen38flashnextgguf_on_nvidia_geforce_rtx"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1w01naa/unslothqwen38flashnextgguf_on_nvidia_geforce_rtx</id>
-    <updated>2026-08-27T18:10:19.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>🔥 How was this person able to run it on an RTX 5090?🔥 Hope some more benchmarks are coming in soon. submitted by /u/DerTomsn [link] [comments]</summary>
-  </entry>
-  <entry>
-    <title>Radiant World Leaves Top Banks, Glencore Probing Fake Invoices</title>
-    <link href="https://www.bloomberg.com/news/features/2026-08-27/radiant-world-leaves-top-banks-glencore-probing-fake-invoices"/>
-    <id>https://www.bloomberg.com/news/features/2026-08-27/radiant-world-leaves-top-banks-glencore-probing-fake-invoices</id>
-    <updated>2026-08-27T20:15:14.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Blue-chip firms lent their money, connections and reputations to the little-known iron ore trader. Now several of them are counting their losses.</summary>
-  </entry>
-  <entry>
-    <title>Thoma Bravo Concedes Deal Sweeteners Amid Debt Talks</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-27/thoma-bravo-concedes-deal-sweeteners-amid-debt-talks-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-27/thoma-bravo-concedes-deal-sweeteners-amid-debt-talks-video</id>
-    <updated>2026-08-27T20:11:27.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Bloomberg's Rachel Graf joins Scarlet Fu on &quot;Bloomberg Real Yield.&quot; According to Bloomberg News, Thoma Bravo recently had to make some 40 creditor-friendly changes to deal documents. With markets increasingly skittish about anything even remotely vulnerable to AI disruption, the lenders were determined to extract a ste</summary>
-  </entry>
-  <entry>
-    <title>Looking beyond natural sequences</title>
-    <link href="https://news.mit.edu/2026/looking-beyond-natural-sequences-0827"/>
-    <id>https://news.mit.edu/2026/looking-beyond-natural-sequences-0827</id>
-    <updated>2026-08-27T19:20:00.000Z</updated>
-    <author><name>MIT News AI</name></author>
-    <category term="RESEARCH"/>
-    <summary>A new machine-learning framework aims to improve the success rate of computational protein design while moving away from results that reproduce sequences found in nature.</summary>
-  </entry>
-  <entry>
-    <title>TRACE: Transition-Aware Residual Control for Multi-Objective Materials Discovery</title>
-    <link href="https://arxiv.org/abs/2608.23631"/>
-    <id>https://arxiv.org/abs/2608.23631</id>
-    <updated>2026-08-27T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
-    <category term="RESEARCH"/>
-    <summary>arXiv:2608.23631v1 Announce Type: new Abstract: Multi-objective materials discovery with LLM agents is often limited not only by how many candidates can be proposed, but by how effectively each costly property evaluation informs the next search step. Existing agents mainly store evaluated candidates and their scores, s</summary>
-  </entry>
-  <entry>
-    <title>OpenClaw went viral. Meet the maintainers building and securing it.</title>
-    <link href="https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it"/>
-    <id>https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it</id>
-    <updated>2026-08-27T16:00:00.000Z</updated>
-    <author><name>GitHub Blog</name></author>
-    <category term="PRODUCTS"/>
-    <summary>OpenClaw is the fastest-growing project in GitHub history. Peter Steinberger and several maintainers share what they learned in the project's first six months. The post OpenClaw went viral. Meet the maintainers building and securing it. appeared first on The GitHub Blog .</summary>
-  </entry>
-  <entry>
-    <title>Postquant Labs Launches QuipSwap Bridgeless Protocol for Quantum-Safe Cross-Chain Transactions</title>
-    <link href="https://quantumcomputingreport.com/postquant-labs-launches-quipswap-bridgeless-protocol-for-quantum-safe-cross-chain-transactions"/>
-    <id>https://quantumcomputingreport.com/postquant-labs-launches-quipswap-bridgeless-protocol-for-quantum-safe-cross-chain-transactions</id>
-    <updated>2026-08-27T19:57:23.000Z</updated>
-    <author><name>Quantum Computing Report</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Decentralized quantum network developer Postquant Labs has announced the public launch of QuipSwap, a trustless, bridgeless cross-chain swap protocol engineered to eliminate bridge vulnerabilities and mitigate quantum decryption risks across multi-blockchain workflows. Developed alongside quip.network, the protocol rem</summary>
-  </entry>
-  <entry>
-    <title>Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now</title>
-    <link href="https://blogs.nvidia.com/blog/vera-cpu-delivery"/>
-    <id>https://blogs.nvidia.com/blog/vera-cpu-delivery</id>
-    <updated>2026-08-27T13:00:17.000Z</updated>
-    <author><name>NVIDIA Blog</name></author>
-    <category term="HARDWARE"/>
-    <summary>NVIDIA Vice President of Hyperscale and HPC Ian Buck hand-delivers Vera CPU systems across the AI ecosystem as Vera begins shipping at scale.</summary>
-  </entry>
-  <entry>
-    <title>Nvidia expects to sell $20 billion of Vera Rubin systems in Q3 as shipments begin — figure would account for 20% of its data center revenue mix, marks fastest ramp in company history</title>
-    <link href="https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-expects-to-sell-usd20-billion-worth-of-vera-rubin-hardware-this-quarter-would-account-for-20-percent-of-data-center-revenue-its-fastest-ramp-in-company-history"/>
-    <id>https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-expects-to-sell-usd20-billion-worth-of-vera-rubin-hardware-this-quarter-would-account-for-20-percent-of-data-center-revenue-its-fastest-ramp-in-company-history</id>
-    <updated>2026-08-27T15:33:14.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
-    <category term="HARDWARE"/>
-    <summary>Nvidia expects Vera Rubin to become its fastest-ramping data center AI platform as it projects sales of Vera Rubin hardware to hit 20% of data center revenue in its third fiscal quarter.</summary>
   </entry>
 </feed>
