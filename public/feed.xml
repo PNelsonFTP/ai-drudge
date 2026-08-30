@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-30T17:20:47.541Z</updated>
+  <updated>2026-08-30T20:57:52.621Z</updated>
   <entry>
     <title>Qwen3.8-Flash-Next sounds like Claude and I hate it</title>
     <link href="https://sh.itjust.works/post/65941558"/>
@@ -13,7 +13,7 @@
     <updated>2026-08-30T15:24:32.000Z</updated>
     <author><name>Lemmy c/localllama</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by hok to localllama 6 points | 1 comments Qwen3.6-27B and Qwen3.8-27B are great. They are fast and quite accurate for not having to spend too much time thinking or searching, as other models with comparable scores have to. But Qwen3.8-Flash-Next, which tops a lot of benchmarks in its category, is the most ob — Also covered by: Simon Willison</summary>
+    <summary>submitted by hok to localllama 12 points | 1 comments Qwen3.6-27B and Qwen3.8-27B are great. They are fast and quite accurate for not having to spend too much time thinking or searching, as other models with comparable scores have to. But Qwen3.8-Flash-Next, which tops a lot of benchmarks in its category, is the most o — Also covered by: Simon Willison</summary>
   </entry>
   <entry>
     <title>Google Maps Changes Lake Ontario Label to Lake America in US</title>
@@ -25,13 +25,13 @@
     <summary>Google Maps relabeled Lake Ontario as “Lake America” for users in the US, Alphabet Inc. announced, after President Donald Trump said he would rename the lake amid a trade spat with Canada. — Also covered by: 404 Media</summary>
   </entry>
   <entry>
-    <title>Claude Code Opus 5 Auto Mode Hijacked via Prompt Injection to Execute Malicious Code</title>
-    <link href="https://cybersecuritynews.com/claude-code-opus-5-auto-mode-hijacked"/>
-    <id>https://cybersecuritynews.com/claude-code-opus-5-auto-mode-hijacked</id>
-    <updated>2026-08-29T15:07:46.000Z</updated>
-    <author><name>GN: Prompt Injection</name></author>
+    <title>Breaking Claude Code Opus 5 Auto Mode</title>
+    <link href="https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode"/>
+    <id>https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode</id>
+    <updated>2026-08-27T04:00:00.000Z</updated>
+    <author><name>Embrace The Red</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Claude Code Opus 5 Auto Mode Hijacked via Prompt Injection to Execute Malicious Code CyberSecurityNews — Also covered by: GN: Prompt Injection, Embrace The Red</summary>
+    <summary>In this post, we explore how a simple website summary request hijacks Claude Code Opus 5 in Auto Mode and achieves code execution with 60-80% attack success rate using a small sample size. This is interesting because a third-party evaluation commissioned by Anthropic showed a 0.00% prompt injection attack success rate  — Also covered by: GN: Prompt Injection, GN: Prompt Injection</summary>
   </entry>
   <entry>
     <title>Hundreds of OpenAI Agents Invaded Hugging Face Servers</title>
@@ -61,58 +61,40 @@
     <summary>The movement against datacenters is uniting Americans because they perfectly illustrate how a few individuals hold all the power to control decisions that impact our lives Bryce Gustafson has been knocking on doors in Indiana for more than a decade. The lead organizer with Citizens Action Coalition (CAC), a consumer an</summary>
   </entry>
   <entry>
-    <title>llama.cpp b10698 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10698"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10698</id>
-    <updated>2026-08-30T14:49:16.000Z</updated>
+    <title>llama.cpp b10701 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10701"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10701</id>
+    <updated>2026-08-30T18:58:42.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>rpc: fix apple rdma error spew on teardown ( #27908 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43970664 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 </summary>
+    <summary>dflash: pass missing NVFP4 scales to attention operations ( #28000 ) DFlash2 NVFP4 draft models produced almost no accepted speculative tokens because the Q, K, V, and output projection scales were not passed to the corresponding graph operations. Website: https://llama.app Attestations: https://github.com/ggml-org/lla</summary>
   </entry>
   <entry>
-    <title>AI agents have no sense of time and are not aware of it</title>
-    <link href="https://the-decoder.com/ai-agents-have-no-sense-of-time-and-are-not-aware-of-it"/>
-    <id>https://the-decoder.com/ai-agents-have-no-sense-of-time-and-are-not-aware-of-it</id>
-    <updated>2026-08-30T10:41:36.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>Google AI Introduces EnvHarness: A Programmable Layer That Turns Static Agent Environments Into Adaptive Training Worlds</title>
+    <link href="https://www.marktechpost.com/2026/08/30/google-ai-introduces-envharness-a-programmable-layer-that-turns-static-agent-environments-into-adaptive-training-worlds"/>
+    <id>https://www.marktechpost.com/2026/08/30/google-ai-introduces-envharness-a-programmable-layer-that-turns-static-agent-environments-into-adaptive-training-worlds</id>
+    <updated>2026-08-30T20:23:46.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>AI coding assistants like Claude Code and Codex have no sense of time, according to a new study. Both systematically overestimate how long tasks will take. Codex is off by as much as ten times the actual duration. They also rate their own work about 20 percentage points too high. For long, autonomous tasks, that create</summary>
+    <summary>Google Cloud AI Research, with Washington University in St. Louis and UNC Chapel Hill, has released EnvHarness, an Apache-2.0 layer that turns a static agent benchmark into one that adapts to the policy training on it. It wraps a frozen environment through the standard reset()/step() interface, so tasks and human-built</summary>
   </entry>
   <entry>
-    <title>Aon Nears Deal to Buy Insurance Brokerage From KKR, WSJ Reports</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-08-30/aon-nears-deal-to-buy-insurance-brokerage-from-kkr-wsj-reports"/>
-    <id>https://www.bloomberg.com/news/articles/2026-08-30/aon-nears-deal-to-buy-insurance-brokerage-from-kkr-wsj-reports</id>
-    <updated>2026-08-30T16:07:26.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
+    <title>Big Tech profits get $160bn boost from gains on stakes in other AI companies</title>
+    <link href="https://www.ft.com/content/a5a0081f-e998-4c80-b967-cc535cbc4933?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/a5a0081f-e998-4c80-b967-cc535cbc4933?syn-25a6b1a6=1</id>
+    <updated>2026-08-30T19:00:05.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
     <category term="AI FINANCE"/>
-    <summary>Aon is nearing an agreement to buy insurance brokerage USI Insurance from private equity firm KKR &amp; Co. for around $17 billion, the Wall Street Journal reported, citing people familiar with the matter.</summary>
+    <summary>Analysts say large paper windfalls on investments in OpenAI, Anthropic and SpaceX have muddied the tech sector’s earnings metrics</summary>
   </entry>
   <entry>
-    <title>Think people hate AI now? Wait until it takes their jobs</title>
-    <link href="https://www.transformernews.ai/p/think-people-hate-ai-now-wait-until-it-takes-their-jobs"/>
-    <id>https://www.transformernews.ai/p/think-people-hate-ai-now-wait-until-it-takes-their-jobs</id>
-    <updated>2026-08-28T15:03:28.000Z</updated>
-    <author><name>Transformer</name></author>
-    <category term="RESEARCH"/>
-    <summary>Transformer Weekly: Anthropic’s $100b IPO raise, frontier self-regulation EO and Hugging Face hack investigation</summary>
-  </entry>
-  <entry>
-    <title>GitHub Copilot weekly releases — August 24</title>
-    <link href="https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24"/>
-    <id>https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24</id>
-    <updated>2026-08-28T20:13:22.000Z</updated>
-    <author><name>GitHub Copilot Changelog</name></author>
+    <title>Speedy 34-inch 240 Hz ultrawide OLED monitor now $600 off — LG UltraGear 34GX900A-B only $599.99</title>
+    <link href="https://www.tomshardware.com/monitors/gaming-monitors/speedy-34-inch-240-hz-ultrawide-oled-monitor-now-usd600-off-lg-ultragear-34gx900a-b-only-usd599-99"/>
+    <id>https://www.tomshardware.com/monitors/gaming-monitors/speedy-34-inch-240-hz-ultrawide-oled-monitor-now-usd600-off-lg-ultragear-34gx900a-b-only-usd599-99</id>
+    <updated>2026-08-30T18:08:43.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
     <category term="PRODUCTS"/>
-    <summary>This week’s updates give you more control over how Copilot runs, from team sessions in Slack and Teams to customization across the app, CLI, and your IDE. GitHub Copilot in… The post GitHub Copilot weekly releases — August 24 appeared first on The GitHub Blog .</summary>
-  </entry>
-  <entry>
-    <title>🔮 Unbounded self-improvement and its limits #599</title>
-    <link href="https://www.exponentialview.co/p/ev-599"/>
-    <id>https://www.exponentialview.co/p/ev-599</id>
-    <updated>2026-08-30T02:51:35.000Z</updated>
-    <author><name>Exponential View (Azhar)</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Plus: The deceptive popularity of open-weight models &amp; DIY compute.</summary>
+    <summary>The LG UltraGear 34GX900A-B packs a fast 240 Hz OLED panel and 3440 x 1440 resolution into an immersive 800R curved display, now available for 50% off.</summary>
   </entry>
   <entry>
     <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
@@ -122,6 +104,15 @@
     <author><name>NIST AI News</name></author>
     <category term="SAFETY &amp; POLICY"/>
     <summary>This Symposium is a one-day event to address the question: “ which medical measurements and consensus standards should be prioritized to support future U.S. healthcare?” The focus will be on medical imaging, medical devices, and diagnostics. The goal</summary>
+  </entry>
+  <entry>
+    <title>Claude Code Opus 5 Auto Mode Hijacked via Prompt Injection to Execute Malicious Code</title>
+    <link href="https://cybersecuritynews.com/claude-code-opus-5-auto-mode-hijacked"/>
+    <id>https://cybersecuritynews.com/claude-code-opus-5-auto-mode-hijacked</id>
+    <updated>2026-08-29T15:07:46.000Z</updated>
+    <author><name>GN: Prompt Injection</name></author>
+    <category term="AI SECURITY"/>
+    <summary>Claude Code Opus 5 Auto Mode Hijacked via Prompt Injection to Execute Malicious Code CyberSecurityNews — Also covered by: GN: Prompt Injection, Embrace The Red</summary>
   </entry>
   <entry>
     <title>FulcrumSec claims Manchester Airports hack, theft of 86 GB of data</title>
@@ -142,13 +133,13 @@
     <summary>DLSS 5 now runs on Ampere GPUs thanks to a patched DLL, but performance is expectedly poor for the most part. You can get up to 30-40 FPS in edge cases with minimum in-game settings, but newer titles can tank FPS to single digits.</summary>
   </entry>
   <entry>
-    <title>Faro, which develops data models and AI tools to speed up clinical trials, raised a $37.3M Series B co-led by Merck Global Health Innovation Fund and S32 (Dealroom.co)</title>
-    <link href="https://www.techmeme.com/260830/p3"/>
-    <id>https://www.techmeme.com/260830/p3</id>
-    <updated>2026-08-30T05:55:02.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Liux’s Big microcar bets on sustainability to take on Chinese rivals</title>
+    <link href="https://techcrunch.com/2026/08/30/liuxs-big-microcar-bets-on-sustainability-to-take-on-chinese-rivals"/>
+    <id>https://techcrunch.com/2026/08/30/liuxs-big-microcar-bets-on-sustainability-to-take-on-chinese-rivals</id>
+    <updated>2026-08-30T18:33:44.000Z</updated>
+    <author><name>TechCrunch Startups</name></author>
     <category term="FUNDING &amp; DEALS"/>
-    <summary>Dealroom.co : Faro, which develops data models and AI tools to speed up clinical trials, raised a $37.3M Series B co-led by Merck Global Health Innovation Fund and S32 — What's the deal? Faro has raised a $37 million Series B round to develop AI tools aimed at speeding up clinical trials.</summary>
+    <summary>The Liux Big microcar is made in Spain. The startup thinks it can compete in a crowded market with its tiny electric car built around sustainability.</summary>
   </entry>
   <entry>
     <title>Introducing Hy4 Preview</title>
@@ -178,6 +169,15 @@
     <summary>Mark Bergen / Bloomberg : A look at the race to build quantum computers, as the tech becomes a geopolitical battleground with potential to transform cybersecurity, finance, and more — Companies are racing to create devices that could revolutionize finance, supercharge medical and climate research …</summary>
   </entry>
   <entry>
+    <title>AI agents have no sense of time and are not aware of it</title>
+    <link href="https://the-decoder.com/ai-agents-have-no-sense-of-time-and-are-not-aware-of-it"/>
+    <id>https://the-decoder.com/ai-agents-have-no-sense-of-time-and-are-not-aware-of-it</id>
+    <updated>2026-08-30T10:41:36.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>AI coding assistants like Claude Code and Codex have no sense of time, according to a new study. Both systematically overestimate how long tasks will take. Codex is off by as much as ten times the actual duration. They also rate their own work about 20 percentage points too high. For long, autonomous tasks, that create</summary>
+  </entry>
+  <entry>
     <title>The skills that earn top grades are the ones AI can fake best</title>
     <link href="https://the-decoder.com/the-skills-that-earn-top-grades-are-the-ones-ai-can-fake-best"/>
     <id>https://the-decoder.com/the-skills-that-earn-top-grades-are-the-ones-ai-can-fake-best</id>
@@ -205,31 +205,40 @@
     <summary>Dr Simon Nieder on the global efforts needed to curb the threats posed by AI. Plus letters from Dr Anthony Harris and David Kyler Timothy Garton Ash is right that serious artificial intelligence risks demand international action, but “AI Hiroshima” may be the wrong picture ( Would even an AI disaster on the scale of Hi</summary>
   </entry>
   <entry>
-    <title>Uncensored Multi-Model Releases, LongCat-Flash-Lite-Sparse with MTPs and LSAs, Qwen3.8-27B with MTPs, Qwen3.5-122B-A10B with MTPs, Qwen3-Coder-Next and Laguna-S2.1 with Vision, All Available in GGUF Format! Bonus: Links to my llama.cpp Fork for LongCat-Flash-Lite Support and J-Wash Enhanced Fork!</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1w2is3d/uncensored_multimodel_releases"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1w2is3d/uncensored_multimodel_releases</id>
-    <updated>2026-08-30T14:17:40.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>We used HFlow to evaluate the latest open weights VLMs for processing egocentric data</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1w2r6v8/we_used_hflow_to_evaluate_the_latest_open_weights"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1w2r6v8/we_used_hflow_to_evaluate_the_latest_open_weights</id>
+    <updated>2026-08-30T19:40:15.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Been working really hard for the past month to bring to the community all these models, the hardest was for sure LongCat-Flash-Lite-Sparse who required TONS of work, first I needed to have Heretic support created for it from scratch and had to create support for it on llama.cpp too, quite difficult and time consuming t</summary>
+    <summary>We used HFlow to evaluate the latest open weights VLMs for processing egocentric data. This was based on Build AI's Egocentric-10k evaluation , which used Gemini 2.5 Flash to measure hand visibility and active manipulation. We kept the same prompts and the same dataset, only varying the model. How much each model agree</summary>
   </entry>
   <entry>
-    <title>Anthropic's Claude Code limit change is a raise on paper but a cut in practice</title>
-    <link href="https://the-decoder.com/anthropics-claude-code-limit-change-is-a-raise-on-paper-but-a-cut-in-practice"/>
-    <id>https://the-decoder.com/anthropics-claude-code-limit-change-is-a-raise-on-paper-but-a-cut-in-practice</id>
-    <updated>2026-08-30T09:05:19.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Anthropic is effectively cutting Claude Code's weekly usage limits by 17 percent. A temporary 50 percent boost expires on September 14 and will be replaced by a permanent 25 percent increase. Anthropic promises more control and transparency over usage in return. The article Anthropic's Claude Code limit change is a rai</summary>
+    <title>Are there any interesting architectural innovations that we seem to be on the verge of for LLM models or AI models that might be a big deal? (Excluding maybe N-gram, since everyone is already well aware of that one)</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1w2r37q/are_there_any_interesting_architectural"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1w2r37q/are_there_any_interesting_architectural</id>
+    <updated>2026-08-30T19:36:21.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>So, ideally for this thread we exclude the ones that everyone on here is already well aware of and discussing on here a lot, like N-gram, quantization improvements, MTP, D-flash, and D-spark, since those are improvement areas that most people on here are already pretty familiar with. I'm more curious about any interest</summary>
   </entry>
   <entry>
-    <title>Desktop Canary v2.2.16-canary.10</title>
-    <link href="https://github.com/lobehub/lobehub/releases/tag/v2.2.16-canary.10"/>
-    <id>https://github.com/lobehub/lobehub/releases/tag/v2.2.16-canary.10</id>
-    <updated>2026-08-30T12:10:28.000Z</updated>
+    <title>Desktop Canary v2.2.16-canary.11</title>
+    <link href="https://github.com/lobehub/lobehub/releases/tag/v2.2.16-canary.11"/>
+    <id>https://github.com/lobehub/lobehub/releases/tag/v2.2.16-canary.11</id>
+    <updated>2026-08-30T19:45:11.000Z</updated>
     <author><name>lobehub/lobe-chat</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>🐤 Canary Build — v2.2.16-canary.10 Automated canary build from canary branch. Commit Information Based on changes since v2.2.16-canary.9 Commit count: 10 6bca070e17 💄 style(topic): replace draft label with icon ( #18882 ) (AmAzing-) e720c0af76 🐛 fix(openapi): relay Gemini part events to Claude Code ( #18880 ) (AmAzi — Also covered by: lobehub/lobe-chat, lobehub/lobe-chat</summary>
+    <summary>🐤 Canary Build — v2.2.16-canary.11 Automated canary build from canary branch. Commit Information Based on changes since v2.2.16-canary.10 Commit count: 8 d74e897191 ✨ feat: add Elasticsearch full-text search provider ( #18807 ) (YuTengjing) edbcbe3233 ✨ feat(cli): record local hetero agent runs as execution snapshots  — Also covered by: lobehub/lobe-chat, lobehub/lobe-chat</summary>
+  </entry>
+  <entry>
+    <title>Bond Investors Wary After Warsh Fans Wagers Fed Poised to Hike</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-30/bond-investors-wary-after-warsh-fans-wagers-fed-poised-to-hike"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-30/bond-investors-wary-after-warsh-fans-wagers-fed-poised-to-hike</id>
+    <updated>2026-08-30T19:00:00.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Bond investors at firms including ABN AMRO Investment Solutions and Brandywine Global Investment Management are voicing skepticism about mounting speculation that Federal Reserve Chairman Kevin Warsh is poised to raise interest rates.</summary>
   </entry>
   <entry>
     <title>Bloomberg This Weekend 08/30/2026</title>
@@ -241,39 +250,30 @@
     <summary>The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Space Network Co-Founder &amp; COO Ross Hamilton, RUV Iceland Correspondent Ingólfur Sigfússon, ABC News State Department R</summary>
   </entry>
   <entry>
-    <title>Pointed! Bloomberg's Weekly News Quiz For Risk-Takers</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-30/pointed-bloomberg-s-weekly-news-quiz-for-risk-takers-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-30/pointed-bloomberg-s-weekly-news-quiz-for-risk-takers-video</id>
-    <updated>2026-08-30T15:23:30.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Pointed offers a strategic twist to the news quiz format, testing not just players’ knowledge of the news but also their confidence in their answers. Join Bloomberg's Lisa Mateo, Christina Ruffini and Bailey Lipschultz as they play and check out the quiz for yourself at Bloomberg.com (Source: Bloomberg)</summary>
-  </entry>
-  <entry>
-    <title>Optimal Software Pipelining and Warp Specialization for Tensor Core GPUs</title>
-    <link href="https://research.nvidia.com/publication/2026-07_optimal-software-pipelining-and-warp-specialization-tensor-core-gpus"/>
-    <id>https://research.nvidia.com/publication/2026-07_optimal-software-pipelining-and-warp-specialization-tensor-core-gpus</id>
-    <updated>2026-08-28T19:52:57.000Z</updated>
-    <author><name>NVIDIA Research</name></author>
+    <title>Meet ‘Code-as-World’: An Agentic Loop That Rewrites Real Videos Into Executable MuJoCo Physics Programs</title>
+    <link href="https://www.marktechpost.com/2026/08/29/mirros-code-as-world-executable-world-representations"/>
+    <id>https://www.marktechpost.com/2026/08/29/mirros-code-as-world-executable-world-representations</id>
+    <updated>2026-08-30T01:35:02.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
-    <summary>Optimal Software Pipelining and Warp Specialization for Tensor Core GPUs GPU architectures have continued to grow in complexity, with recent incarnations introducing increasingly powerful fixed-function units for matrix multiplication and data movement to accompany highly parallel general-purpose cores. To fully levera</summary>
+    <summary>Code-as-World recovers editable MuJoCo scene code from real video, then uses those verified worlds to train physical reasoning. The post Meet ‘Code-as-World’: An Agentic Loop That Rewrites Real Videos Into Executable MuJoCo Physics Programs appeared first on MarkTechPost .</summary>
   </entry>
   <entry>
-    <title>Relight: Simple, User-Level Checkpointing and Fast Forward Replay for Distributed Task-Based Systems</title>
-    <link href="https://research.nvidia.com/publication/2026-10_relight-simple-user-level-checkpointing-and-fast-forward-replay-distributed"/>
-    <id>https://research.nvidia.com/publication/2026-10_relight-simple-user-level-checkpointing-and-fast-forward-replay-distributed</id>
-    <updated>2026-08-28T20:04:37.000Z</updated>
-    <author><name>NVIDIA Research</name></author>
+    <title>Anthropic Opens a Research Preview of the Model Hardware Standard (MHS): A Shared Specification for AI Agents to Safely Operate Physical Devices</title>
+    <link href="https://www.marktechpost.com/2026/08/29/anthropic-opens-a-research-preview-of-the-model-hardware-standard-mhs-a-shared-specification-for-ai-agents-to-safely-operate-physical-devices"/>
+    <id>https://www.marktechpost.com/2026/08/29/anthropic-opens-a-research-preview-of-the-model-hardware-standard-mhs-a-shared-specification-for-ai-agents-to-safely-operate-physical-devices</id>
+    <updated>2026-08-30T06:12:21.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
-    <summary>Relight: Simple, User-Level Checkpointing and Fast Forward Replay for Distributed Task-Based Systems Checkpointing, or periodic saving of program state to storage, is the de facto standard technique used to mitigate risks of nondeterministic bugs, hardware faults, and job wall-time limits in long-running programs. Trad</summary>
+    <summary>Anthropic has opened a research preview of the Model Hardware Standard (MHS), a shared driver specification that lets AI agents discover and safely operate physical devices. Instrument integration that normally takes weeks or months drops to hours: Carnegie Mellon went from raw equipment to a finished dose-response cur</summary>
   </entry>
   <entry>
-    <title>Anthropic launches AI tool that can conduct scientific experiments</title>
-    <link href="https://www.ft.com/content/dd069af7-a2a2-4984-8d9a-5edeaf54f2f8?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/dd069af7-a2a2-4984-8d9a-5edeaf54f2f8?syn-25a6b1a6=1</id>
-    <updated>2026-08-27T19:20:48.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
+    <title>GitHub Copilot weekly releases — August 24</title>
+    <link href="https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24"/>
+    <id>https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24</id>
+    <updated>2026-08-28T20:13:22.000Z</updated>
+    <author><name>GitHub Copilot Changelog</name></author>
     <category term="PRODUCTS"/>
-    <summary>Claude chatbot maker unveils a system that autonomously operates a wide range of devices in laboratories</summary>
+    <summary>This week’s updates give you more control over how Copilot runs, from team sessions in Slack and Teams to customization across the app, CLI, and your IDE. GitHub Copilot in… The post GitHub Copilot weekly releases — August 24 appeared first on The GitHub Blog .</summary>
   </entry>
 </feed>
