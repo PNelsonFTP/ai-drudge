@@ -5,24 +5,24 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-08-30T00:08:34.767Z</updated>
+  <updated>2026-08-30T06:31:07.462Z</updated>
+  <entry>
+    <title>Qwen3.8-Flash-Next optimised for Macs</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1w296bx/qwen38flashnext_optimised_for_macs"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1w296bx/qwen38flashnext_optimised_for_macs</id>
+    <updated>2026-08-30T05:54:00.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Running on a M1 Max 64 GB: - SSD streaming for tensors - SSD streaming for engrams - SSD streaming for MTP How is it possible? * Custom Q4 quant: benchmarked all metal tensors then picked and spliced tensors from multiple Unsloth and AtomicChat quants to achieve best performance/bit. * Developed custom metal-optimized  — Also covered by: Simon Willison</summary>
+  </entry>
   <entry>
     <title>Breaking Claude Code Opus 5 Auto Mode</title>
     <link href="https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode"/>
     <id>https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode</id>
     <updated>2026-08-27T04:00:00.000Z</updated>
     <author><name>Embrace The Red</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>In this post, we explore how a simple website summary request hijacks Claude Code Opus 5 in Auto Mode and achieves code execution with 60-80% attack success rate using a small sample size. This is interesting because a third-party evaluation commissioned by Anthropic showed a 0.00% prompt injection attack success rate  — Also covered by: GN: Prompt Injection</summary>
-  </entry>
-  <entry>
-    <title>MLX: Qwen3.8 Flash Next support (#18032)</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.33.1-rc0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.33.1-rc0</id>
-    <updated>2026-08-26T15:05:59.000Z</updated>
-    <author><name>ollama/ollama</name></author>
-    <category term="RESEARCH"/>
-    <summary>MLX: Qwen3.8 Flash Next support review comments — Also covered by: Simon Willison</summary>
+    <category term="AI SECURITY"/>
+    <summary>In this post, we explore how a simple website summary request hijacks Claude Code Opus 5 in Auto Mode and achieves code execution with 60-80% attack success rate using a small sample size. This is interesting because a third-party evaluation commissioned by Anthropic showed a 0.00% prompt injection attack success rate  — Also covered by: GN: Prompt Injection, GN: Prompt Injection</summary>
   </entry>
   <entry>
     <title>Hundreds of OpenAI Agents Invaded Hugging Face Servers</title>
@@ -30,35 +30,8 @@
     <id>https://www.darkreading.com/cyberattacks-data-breaches/hundreds-openai-agents-invaded-hugging-face-servers</id>
     <updated>2026-08-28T20:19:22.000Z</updated>
     <author><name>Dark Reading</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
+    <category term="CYBER THREATS"/>
     <summary>The Hugging Face incident was bigger and worse than previously thought, with approximately 700 agents collaborating on a sophisticated, multistage attack. — Also covered by: METR</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp b10687 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10687"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10687</id>
-    <updated>2026-08-29T18:24:45.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>opencl: use a better matmul path on two Adreno GPU generations ( #27640 ) opencl: default the Adreno xmem F16xF32 GEMM on for X2E kernel_mul_mm_f16_f32_l4_lm is the slowest matmul this backend has on Adreno: on the X2-90 it runs the gpt-oss-20b attention projections at roughly a quarter of what the tuned dense q4_0 GEM</summary>
-  </entry>
-  <entry>
-    <title>California's legislature passes a bill exempting open-source OSes like Linux from a 2025 age-verification law; Windows, macOS, iOS, and Android remain in scope (Luke James/Tom's Hardware)</title>
-    <link href="https://www.techmeme.com/260829/p16"/>
-    <id>https://www.techmeme.com/260829/p16</id>
-    <updated>2026-08-29T23:30:00.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Luke James / Tom's Hardware : California's legislature passes a bill exempting open-source OSes like Linux from a 2025 age-verification law; Windows, macOS, iOS, and Android remain in scope — AB 1856 excludes open-source operating systems from the upcoming Digital Age Assurance Act.</summary>
-  </entry>
-  <entry>
-    <title>Humaneval benchmark for Deepseek V4 Flash 0731 vs GLM5.3 Flash on 2x DGX Spark setup</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1w215qm/humaneval_benchmark_for_deepseek_v4_flash_0731_vs"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1w215qm/humaneval_benchmark_for_deepseek_v4_flash_0731_vs</id>
-    <updated>2026-08-29T23:18:13.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>I have a 2 DGX Spark setup recently and I have been happily running Deepseek V4 Flash 0731. Since the release of GLM5.3 Flash and Qwen 3.8 Flash Next this week, a lot of folks are still waiting to see what model to run given their own hardware situations. I am very interested in running a GLM model locally and looks li</summary>
   </entry>
   <entry>
     <title>Anthropic is cutting Claude Code's current weekly limits by 17%</title>
@@ -66,35 +39,80 @@
     <id>https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent</id>
     <updated>2026-08-29T23:11:51.000Z</updated>
     <author><name>BleepingComputer</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
+    <category term="MODEL RELEASES"/>
     <summary>Anthropic is permanently increasing Claude Code's standard weekly usage limits by 25% for Pro, Max, Team, and seat-based Enterprise plans, but it's not as good as it sounds. [...]</summary>
   </entry>
   <entry>
-    <title>Warsh Sets the Tone for Fed’s Road Ahead</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-29/warsh-sets-the-tone-for-fed-s-road-ahead-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-29/warsh-sets-the-tone-for-fed-s-road-ahead-video</id>
-    <updated>2026-08-29T14:33:53.000Z</updated>
+    <title>Faro, which develops data models and AI tools to speed up clinical trials, raised a $37.3M Series B co-led by Merck Global Health Innovation Fund and S32 (Dealroom.co)</title>
+    <link href="https://www.techmeme.com/260830/p3"/>
+    <id>https://www.techmeme.com/260830/p3</id>
+    <updated>2026-08-30T05:55:02.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Dealroom.co : Faro, which develops data models and AI tools to speed up clinical trials, raised a $37.3M Series B co-led by Merck Global Health Innovation Fund and S32 — What's the deal? Faro has raised a $37 million Series B round to develop AI tools aimed at speeding up clinical trials.</summary>
+  </entry>
+  <entry>
+    <title>llama.cpp b10689 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10689"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10689</id>
+    <updated>2026-08-30T04:04:30.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>ggml: allow passing alloc dependencies in graph_optimize ( #27301 ) ggml: allow passing alloc dependencies in graph_optimize add alloc dep tests add TODO about using flat array Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43919110 macOS/iOS: macOS Apple Silicon (arm64) mac</summary>
+  </entry>
+  <entry>
+    <title>OpenAI's Hugging Face incident report says AI agents used exploits to gain full admin access to OpenAI's own research cluster supporting its VM environments (Dwarkesh Patel/Dwarkesh Podcast)</title>
+    <link href="https://www.techmeme.com/260830/p4"/>
+    <id>https://www.techmeme.com/260830/p4</id>
+    <updated>2026-08-30T06:00:02.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Dwarkesh Patel / Dwarkesh Podcast : OpenAI's Hugging Face incident report says AI agents used exploits to gain full admin access to OpenAI's own research cluster supporting its VM environments — The whole OpenAI/Hugging Face story in plain English — Many thanks especially to Oak Hu, who paired with me for most of the w</summary>
+  </entry>
+  <entry>
+    <title>Day Traders Are Abandoning Korean Chip Leveraged ETFs in Droves</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-08-30/day-traders-are-abandoning-korean-chip-leveraged-etfs-in-droves"/>
+    <id>https://www.bloomberg.com/news/articles/2026-08-30/day-traders-are-abandoning-korean-chip-leveraged-etfs-in-droves</id>
+    <updated>2026-08-30T00:00:00.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Federal Reserve Chair Kevin Warsh’s first Jackson Hole speech gave central bankers and investors greater clarity on how he views the economy and the Fed’s path ahead, though questions remain about the timing and number of potential rate hikes. Bloomberg Odd Lots co-host Joe Weisenthal is on Bloomberg This Weekend to di</summary>
+    <summary>An onerous mock trading course is becoming an effective tool for South Korea to cool investor fervor over risky products that have turned the country’s $4.3 trillion stock market extremely volatile.</summary>
   </entry>
   <entry>
-    <title>LAION drops massive open video dataset with 10 million hours of footage for AI research</title>
-    <link href="https://the-decoder.com/laion-drops-massive-open-video-dataset-with-10-million-hours-of-footage-for-ai-research"/>
-    <id>https://the-decoder.com/laion-drops-massive-open-video-dataset-with-10-million-hours-of-footage-for-ai-research</id>
-    <updated>2026-08-29T09:36:48.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>Anthropic Opens a Research Preview of the Model Hardware Standard (MHS): A Shared Specification for AI Agents to Safely Operate Physical Devices</title>
+    <link href="https://www.marktechpost.com/2026/08/29/anthropic-opens-a-research-preview-of-the-model-hardware-standard-mhs-a-shared-specification-for-ai-agents-to-safely-operate-physical-devices"/>
+    <id>https://www.marktechpost.com/2026/08/29/anthropic-opens-a-research-preview-of-the-model-hardware-standard-mhs-a-shared-specification-for-ai-agents-to-safely-operate-physical-devices</id>
+    <updated>2026-08-30T06:12:21.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
-    <summary>LAION's Big Video Dataset (BVD) is one of the largest open video datasets for AI research, with 80 million videos, 10 million hours of runtime, and 55 million auto-described clips. Models trained on BVD beat the previous benchmark, InternVid, by up to 2.1 percentage points. Legally, LAION can likely point to a 2024 Ham</summary>
+    <summary>Anthropic has opened a research preview of the Model Hardware Standard (MHS), a shared driver specification that lets AI agents discover and safely operate physical devices. Instrument integration that normally takes weeks or months drops to hours: Carnegie Mellon went from raw equipment to a finished dose-response cur</summary>
   </entry>
   <entry>
-    <title>GitHub Copilot weekly releases — August 24</title>
-    <link href="https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24"/>
-    <id>https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24</id>
-    <updated>2026-08-28T20:13:22.000Z</updated>
-    <author><name>GitHub Copilot Changelog</name></author>
+    <title>How do I know whether my work is worth it?</title>
+    <link href="https://www.lesswrong.com/posts/npnic5AiRnaM6pgvT/how-do-i-know-whether-my-work-is-worth-it"/>
+    <id>https://www.lesswrong.com/posts/npnic5AiRnaM6pgvT/how-do-i-know-whether-my-work-is-worth-it</id>
+    <updated>2026-08-30T00:55:58.000Z</updated>
+    <author><name>LessWrong</name></author>
     <category term="PRODUCTS"/>
-    <summary>This week’s updates give you more control over how Copilot runs, from team sessions in Slack and Teams to customization across the app, CLI, and your IDE. GitHub Copilot in… The post GitHub Copilot weekly releases — August 24 appeared first on The GitHub Blog .</summary>
+    <summary>I am working on a fairly large (or large-seeming to me) project in the AI space. I've been soft launching it for a little bit but I've been working on a hard announcement post for LessWrong, Substack, X, LinkedIn, etc. but basically it's a 60 player live event AI governance game combining the wargaming work of D. Scott</summary>
+  </entry>
+  <entry>
+    <title>Hot Chips 2026: Samsung’s Processing-in-Memory (PIM)</title>
+    <link href="https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing"/>
+    <id>https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing</id>
+    <updated>2026-08-29T05:36:33.000Z</updated>
+    <author><name>Chips and Cheese</name></author>
+    <category term="HARDWARE"/>
+    <summary>In-memory compute with LPDDR5X</summary>
+  </entry>
+  <entry>
+    <title>🔮 Unbounded self-improvement and its limits #599</title>
+    <link href="https://www.exponentialview.co/p/ev-599"/>
+    <id>https://www.exponentialview.co/p/ev-599</id>
+    <updated>2026-08-30T02:51:35.000Z</updated>
+    <author><name>Exponential View (Azhar)</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Plus: The deceptive popularity of open-weight models &amp; DIY compute.</summary>
   </entry>
   <entry>
     <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
@@ -106,13 +124,12 @@
     <summary>This Symposium is a one-day event to address the question: “ which medical measurements and consensus standards should be prioritized to support future U.S. healthcare?” The focus will be on medical imaging, medical devices, and diagnostics. The goal</summary>
   </entry>
   <entry>
-    <title>You Can't Filter Your Way Out of Prompt Injection Attacks | Straiker</title>
-    <link href="https://www.straiker.ai/blog/why-input-filtering-wont-stop-prompt-injection"/>
-    <id>https://www.straiker.ai/blog/why-input-filtering-wont-stop-prompt-injection</id>
-    <updated>2026-08-28T20:45:00.000Z</updated>
-    <author><name>Straiker STAR</name></author>
+    <title>Conducting The First Live Enterprise Comparison Between Agents and Human Professionals</title>
+    <link href="https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals"/>
+    <id>https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals</id>
+    <updated>2026-08-30T06:30:40.073Z</updated>
+    <author><name>Gray Swan</name></author>
     <category term="AI SECURITY"/>
-    <summary>Why input filtering fails against indirect prompt injection in AI agents, and the security controls that actually contain attacks &amp; secure your AI agents.</summary>
   </entry>
   <entry>
     <title>Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE</title>
@@ -124,15 +141,6 @@
     <summary>Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code execution. The vulnerabilities, according to Wordfence and Patchstack, are listed be</summary>
   </entry>
   <entry>
-    <title>Startup raises $7 million to build backpack-portable 8.8-ounce drone interceptors — Mara claims 20x cost advantage over other interceptors, priced one-for-one against attack drones</title>
-    <link href="https://www.tomshardware.com/tech-industry/drones/startup-raises-usd7-million-to-build-backpack-portable-8-8-ounce-drone-interceptors-mara-claims-20x-cost-advantage-over-other-interceptors-priced-one-for-one-against-attack-drones"/>
-    <id>https://www.tomshardware.com/tech-industry/drones/startup-raises-usd7-million-to-build-backpack-portable-8-8-ounce-drone-interceptors-mara-claims-20x-cost-advantage-over-other-interceptors-priced-one-for-one-against-attack-drones</id>
-    <updated>2026-08-29T14:16:20.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>San Francisco defense startup Mara has secured $7 million in a pre-seed round to produce what it calls Spike, a portable counter-drone system housed inside a backpack.</summary>
-  </entry>
-  <entry>
     <title>Introducing Hy4 Preview</title>
     <link href="https://simonwillison.net/2026/Aug/29/hy4"/>
     <id>https://simonwillison.net/2026/Aug/29/hy4</id>
@@ -142,13 +150,13 @@
     <summary>Introducing Hy4 Preview New open weight text input (no vision) LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, 1.56TB on Hugging Face . This is a big size increase from their previous Hy3 in July, which was 295B, 21B active, 256,000 context, 598GB. I recent</summary>
   </entry>
   <entry>
-    <title>Lightberry Unveils Lumi: A $40k Interactive Humanoid Built on a Unitree Core</title>
-    <link href="https://www.humanoidsdaily.com/news/lightberry-unveils-lumi-a-40k-interactive-humanoid-built-on-a-unitree-core"/>
-    <id>https://www.humanoidsdaily.com/news/lightberry-unveils-lumi-a-40k-interactive-humanoid-built-on-a-unitree-core</id>
-    <updated>2026-08-29T11:46:16.000Z</updated>
+    <title>From AlphaGo to AstraTennis: Galbot Humanoids Complete 100+ Consecutive Rallies in Live Tennis Match</title>
+    <link href="https://www.humanoidsdaily.com/news/from-alphago-to-astratennis-galbot-humanoids-complete-100-consecutive-rallies-in-live-tennis-match"/>
+    <id>https://www.humanoidsdaily.com/news/from-alphago-to-astratennis-galbot-humanoids-complete-100-consecutive-rallies-in-live-tennis-match</id>
+    <updated>2026-08-30T05:46:57.000Z</updated>
     <author><name>Humanoids Daily</name></author>
     <category term="ROBOTICS"/>
-    <summary>San Francisco startup Lightberry has opened reservations for Lumi, a $39,990 bipedal robot pairing a Unitree mechanical baseline with custom American sensing, NVIDIA Thor compute, and a modular interaction engine.</summary>
+    <summary>During the opening ceremony of the second World Humanoid Robot Games, Galbot showcased autonomous humanoids completing over 100 consecutive tennis rallies against and alongside human athletes.</summary>
   </entry>
   <entry>
     <title>IBM Releases Open-Source Qiskit Fermions 0.1.0 to Preserve System Structure During Transpilation</title>
@@ -160,6 +168,15 @@
     <summary>IBM Quantum has officially launched Qiskit Fermions (v0.1.0), an open-source software library and transpiler extension designed to express fermionic operators, construct domain-specific fermionic circuits, and optimize mappings to qubit architectures. Built on a high-performance Rust core with Python and C bindings, th</summary>
   </entry>
   <entry>
+    <title>ollama v0.33.2 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.33.2"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.33.2</id>
+    <updated>2026-08-28T20:58:12.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>What's Changed Ollama's app now follows the system appearance again, restoring dark mode support Fixed the macOS app to properly hand off to an already-running instance instead of starting a second one The Claude Desktop proxy no longer interrupts in-flight requests when the model catalog updates Full Changelog : v0.33</summary>
+  </entry>
+  <entry>
     <title>Google's WikiSkill gives AI agents a persistent memory of past mistakes to sharpen future performance</title>
     <link href="https://the-decoder.com/google-gives-ai-agents-their-own-wiki-so-they-can-learn-from-mistakes-and-successes"/>
     <id>https://the-decoder.com/google-gives-ai-agents-their-own-wiki-so-they-can-learn-from-mistakes-and-successes</id>
@@ -169,40 +186,31 @@
     <summary>Google Research has introduced WikiSkill, a framework that gives AI agents a persistent knowledge base. Instead of discarding what they learned after each run, agents document both failures and successes in a wiki-like structure and use that knowledge to get better over time. Larger models benefit more, but smaller mod</summary>
   </entry>
   <entry>
-    <title>“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z</title>
-    <link href="https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z"/>
-    <id>https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z</id>
-    <updated>2026-08-29T17:36:47.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>Industry insiders say Chinese robot makers currently rely on Nvidia silicon and software; Nvidia's physical AI business generates ~$10B in annual revenue (Raffaele Huang/Wall Street Journal)</title>
+    <link href="https://www.techmeme.com/260830/p2"/>
+    <id>https://www.techmeme.com/260830/p2</id>
+    <updated>2026-08-30T05:15:02.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Vijay Pande — who left a16z's roughly $4 billion biotech practice last year to start the much smaller, AI-native VZVC — talks about why biology is finally shifting from a &quot;discovery&quot; science to an &quot;engineering&quot; one, why clinical trials are still brutally expensive, and why he thinks open, shared datasets (not walled-of</summary>
+    <summary>Raffaele Huang / Wall Street Journal : Industry insiders say Chinese robot makers currently rely on Nvidia silicon and software; Nvidia's physical AI business generates ~$10B in annual revenue — Business in ‘physical AI’ is growing, and Chinese companies rely on U.S. chips and software — Nvidia's chips aren't just for </summary>
   </entry>
   <entry>
-    <title>Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft</title>
-    <link href="https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft"/>
-    <id>https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft</id>
-    <updated>2026-08-29T18:41:59.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.</summary>
-  </entry>
-  <entry>
-    <title>Any reason to use Qwen 3.8 Next UD IQ1_S over Qwen 3.8 27B UD Q4?</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1w1zy1p/any_reason_to_use_qwen_38_next_ud_iq1_s_over_qwen"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1w1zy1p/any_reason_to_use_qwen_38_next_ud_iq1_s_over_qwen</id>
-    <updated>2026-08-29T22:25:26.000Z</updated>
+    <title>Humaneval benchmark for Deepseek V4 Flash 0731 vs GLM5.3 Flash on 2x DGX Spark setup</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1w215qm/humaneval_benchmark_for_deepseek_v4_flash_0731_vs"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1w215qm/humaneval_benchmark_for_deepseek_v4_flash_0731_vs</id>
+    <updated>2026-08-29T23:18:13.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>It is 6 times slower on my system, and at Q1 it’s about 70+ accuracy. submitted by /u/freedomachiever [link] [comments]</summary>
+    <summary>I have a 2 DGX Spark setup recently and I have been happily running Deepseek V4 Flash 0731. Since the release of GLM5.3 Flash and Qwen 3.8 Flash Next this week, a lot of folks are still waiting to see what model to run given their own hardware situations. I am very interested in running a GLM model locally and looks li</summary>
   </entry>
   <entry>
-    <title>Anthropic will &quot;permanently&quot; raise weekly Claude Code limits by 25% on Sept. 14 for most plans, which will work out a 17% reduction, given the current 50% boost (@claudedevs)</title>
-    <link href="https://www.techmeme.com/260829/p13"/>
-    <id>https://www.techmeme.com/260829/p13</id>
-    <updated>2026-08-29T18:05:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>@claudedevs : Anthropic will “permanently” raise weekly Claude Code limits by 25% on Sept. 14 for most plans, which will work out a 17% reduction, given the current 50% boost — Starting September 14, we're permanently raising standard weekly limits in Claude Code by 25% for Pro, Max, Team, and seat-based Enterprise pla</summary>
+    <title>Warsh Sets the Tone for Fed’s Road Ahead</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-08-29/warsh-sets-the-tone-for-fed-s-road-ahead-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-08-29/warsh-sets-the-tone-for-fed-s-road-ahead-video</id>
+    <updated>2026-08-29T14:33:53.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Federal Reserve Chair Kevin Warsh’s first Jackson Hole speech gave central bankers and investors greater clarity on how he views the economy and the Fed’s path ahead, though questions remain about the timing and number of potential rate hikes. Bloomberg Odd Lots co-host Joe Weisenthal is on Bloomberg This Weekend to di</summary>
   </entry>
   <entry>
     <title>Guggenheim Ties Weigh on Acrisure Debt, Dragging High-Yield Credit Markets</title>
@@ -214,31 +222,31 @@
     <summary>It had already been a tough 2026 for Acrisure. Part fintech, part insurance broker, the firm said in late May it would cut 11% of its workforce, or some 2,250 people, as part of a sweeping overhaul to modernize operations. Some of its bonds and loans had fallen, but still remained above levels typically deemed distress</summary>
   </entry>
   <entry>
-    <title>Can the US Defy Fiscal Gravity?</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-08-29/can-the-us-defy-fiscal-gravity-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-08-29/can-the-us-defy-fiscal-gravity-video</id>
-    <updated>2026-08-29T14:13:00.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>David Bianco of DWS says long-term Treasury yields and real rates have climbed to some of their highest levels in nearly 25 years, but he argues inflation is not the main driver. The bigger issues are structural: US deficits above 6% of GDP, a rising total debt-to-GDP ratio, and the need to fund more borrowing domestic</summary>
+    <title>Meet ‘Code-as-World’: An Agentic Loop That Rewrites Real Videos Into Executable MuJoCo Physics Programs</title>
+    <link href="https://www.marktechpost.com/2026/08/29/mirros-code-as-world-executable-world-representations"/>
+    <id>https://www.marktechpost.com/2026/08/29/mirros-code-as-world-executable-world-representations</id>
+    <updated>2026-08-30T01:35:02.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="RESEARCH"/>
+    <summary>Code-as-World recovers editable MuJoCo scene code from real video, then uses those verified worlds to train physical reasoning. The post Meet ‘Code-as-World’: An Agentic Loop That Rewrites Real Videos Into Executable MuJoCo Physics Programs appeared first on MarkTechPost .</summary>
   </entry>
   <entry>
-    <title>Think people hate AI now? Wait until it takes their jobs</title>
-    <link href="https://www.transformernews.ai/p/think-people-hate-ai-now-wait-until-it-takes-their-jobs"/>
-    <id>https://www.transformernews.ai/p/think-people-hate-ai-now-wait-until-it-takes-their-jobs</id>
-    <updated>2026-08-28T15:03:28.000Z</updated>
-    <author><name>Transformer</name></author>
+    <title>Google AI Releases Gemini Omni 1.1 Flash: 40-Second Scene Extension, First/Last Frame Control, and 4K Upscaling</title>
+    <link href="https://www.marktechpost.com/2026/08/29/google-ai-releases-gemini-omni-1-1-flash-40-second-scene-extension-first-last-frame-control-and-4k-upscaling"/>
+    <id>https://www.marktechpost.com/2026/08/29/google-ai-releases-gemini-omni-1-1-flash-40-second-scene-extension-first-last-frame-control-and-4k-upscaling</id>
+    <updated>2026-08-29T14:30:44.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
-    <summary>Transformer Weekly: Anthropic’s $100b IPO raise, frontier self-regulation EO and Hugging Face hack investigation</summary>
+    <summary>We look at Gemini Omni 1.1 Flash, Google's production update to its native multimodal video generation and editing model. We break down what changed: scene extension now reads up to 10 seconds of prior context instead of a single final frame, first and last frames can be pinned to control camera movement, and video cli</summary>
   </entry>
   <entry>
-    <title>An Anthropic researcher just gave us a peek at self-improving AI</title>
-    <link href="https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai"/>
-    <id>https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai</id>
-    <updated>2026-08-28T19:30:38.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="RESEARCH"/>
-    <summary>Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.</summary>
+    <title>GitHub Copilot weekly releases — August 24</title>
+    <link href="https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24"/>
+    <id>https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24</id>
+    <updated>2026-08-28T20:13:22.000Z</updated>
+    <author><name>GitHub Copilot Changelog</name></author>
+    <category term="PRODUCTS"/>
+    <summary>This week’s updates give you more control over how Copilot runs, from team sessions in Slack and Teams to customization across the app, CLI, and your IDE. GitHub Copilot in… The post GitHub Copilot weekly releases — August 24 appeared first on The GitHub Blog .</summary>
   </entry>
   <entry>
     <title>GitHub Copilot in Visual Studio — August update</title>
@@ -250,30 +258,21 @@
     <summary>August 2026 brought more control over how GitHub Copilot reasons, which models you use, how teams share specialized agents, and when you ask for a code review. Highlights Here’s what’s… The post GitHub Copilot in Visual Studio — August update appeared first on The GitHub Blog .</summary>
   </entry>
   <entry>
-    <title>ESDS Software Solution targets Rs 720 Crore IPO, will use proceeds to expand data center footprint</title>
-    <link href="https://www.datacenterdynamics.com/en/news/esds-software-solution-targets-rs-720-crore-ipo-will-use-proceeds-to-expand-data-center-footprint"/>
-    <id>https://www.datacenterdynamics.com/en/news/esds-software-solution-targets-rs-720-crore-ipo-will-use-proceeds-to-expand-data-center-footprint</id>
-    <updated>2026-08-28T16:00:23.000Z</updated>
-    <author><name>Data Center Dynamics</name></author>
-    <category term="PRODUCTS"/>
-    <summary>IPO launches today, August 28</summary>
+    <title>Cisco Secure AI Factory with NVIDIA Expands to Supermicro Rack-Scale Systems</title>
+    <link href="https://www.servethehome.com/cisco-secure-ai-factory-with-nvidia-expands-to-supermicro-rack-scale-systems"/>
+    <id>https://www.servethehome.com/cisco-secure-ai-factory-with-nvidia-expands-to-supermicro-rack-scale-systems</id>
+    <updated>2026-08-29T20:40:18.000Z</updated>
+    <author><name>ServeTheHome</name></author>
+    <category term="HARDWARE"/>
+    <summary>The Cisco Secure AI Factory with NVIDIA is expanding to include integrated racks from Supermicro to meet larger scale AI cluster needs The post Cisco Secure AI Factory with NVIDIA Expands to Supermicro Rack-Scale Systems appeared first on ServeTheHome .</summary>
   </entry>
   <entry>
-    <title>Data center development is driving demand for acoustic consultants, as developers and neighboring communities hire acousticians to assess noise emissions (Sheena Meng/Bloomberg)</title>
-    <link href="https://www.techmeme.com/260829/p15"/>
-    <id>https://www.techmeme.com/260829/p15</id>
-    <updated>2026-08-29T21:30:04.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>California lawmakers unanimously pass Linux exemption from age-verification law — software distributed under the GPL, MIT, BSD, and Apache licenses are exempt</title>
+    <link href="https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt"/>
+    <id>https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt</id>
+    <updated>2026-08-29T15:57:13.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
     <category term="HARDWARE"/>
-    <summary>Sheena Meng / Bloomberg : Data center development is driving demand for acoustic consultants, as developers and neighboring communities hire acousticians to assess noise emissions — The sprawling facilities get a lot of attention for their water and energy usage, but it's the threat of constant noise emission that has </summary>
-  </entry>
-  <entry>
-    <title>Hot Chips 2026: Samsung’s Processing-in-Memory (PIM)</title>
-    <link href="https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing"/>
-    <id>https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing</id>
-    <updated>2026-08-29T05:36:33.000Z</updated>
-    <author><name>Chips and Cheese</name></author>
-    <category term="HARDWARE"/>
-    <summary>In-memory compute with LPDDR5X</summary>
+    <summary>California’s legislature has passed Assembly Bill 1856, exempting open-source operating systems from the State’s Digital Age Assurance Act months before the law is due to take effect on January 1, 2027.</summary>
   </entry>
 </feed>
