@@ -5,33 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-09-01T21:42:54.329Z</updated>
+  <updated>2026-09-01T23:59:47.241Z</updated>
   <entry>
-    <title>claude-code v2.1.257 released</title>
-    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.257"/>
-    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.257</id>
-    <updated>2026-09-01T17:53:52.000Z</updated>
+    <title>claude-code v2.1.258 released</title>
+    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.258"/>
+    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.258</id>
+    <updated>2026-09-01T22:33:20.000Z</updated>
     <author><name>anthropics/claude-code</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>What's changed Added Claude Fable 5.1 ( claude-fable-5-1 ), now the default Fable model — 1M context, $10/$50 per Mtok with $0.25/Mtok cache reads Added &quot;Time format&quot; ( timeFormat ) and timeZone settings: 12-hour, 24-hour, 24-hour UTC, or a strftime pattern for the turn-end clock and transcript-view timestamps Added a  — Also covered by: QwenLM/qwen-code</summary>
-  </entry>
-  <entry>
-    <title>OpenAI delayed its new model’s development after the Hugging Face hack</title>
-    <link href="https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay"/>
-    <id>https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay</id>
-    <updated>2026-09-01T20:45:49.000Z</updated>
-    <author><name>The Verge AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>After an unreleased OpenAI model wreaked enough havoc to make international headlines, OpenAI delayed the development of a different unreleased model suite, Astra, in order to shore up its safety work, the company wrote Tuesday in a blog post. In July, an unreleased OpenAI model broke out of its restricted environment, — Also covered by: METR</summary>
-  </entry>
-  <entry>
-    <title>Apple Updates Maps to Show Lake America to U.S. Users</title>
-    <link href="https://www.wsj.com/tech/apple-updates-maps-to-show-lake-america-to-u-s-users-053d23ee?mod=rss_Technology"/>
-    <id>https://www.wsj.com/tech/apple-updates-maps-to-show-lake-america-to-u-s-users-053d23ee?mod=rss_Technology</id>
-    <updated>2026-09-01T21:14:00.000Z</updated>
-    <author><name>WSJ Tech</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>The iPhone-maker has followed Google on its maps app after President Trump’s order to rename Lake Ontario. — Also covered by: Techmeme</summary>
+    <summary>What's changed Fixed Claude Code failing to launch on macOS 12 (Monterey), a regression introduced in 2.1.255 Fixed remote and scheduled sessions failing with &quot;user messages must have non-empty content&quot; after a re-sent permission approval could not be applied — Also covered by: QwenLM/qwen-code</summary>
   </entry>
   <entry>
     <title>The rise of AI ‘civilizations’ and the fall of corporate responsibility</title>
@@ -70,39 +52,31 @@
     <summary>Anthropic is launching an API that lets regulators, media outlets, and researchers check whether text carries Claude's digital watermark. The EU AI Act now requires invisible watermarks in AI-generated text. Critics warn the technology could hurt text quality and create transparency problems where contracts ban AI use.</summary>
   </entry>
   <entry>
-    <title>Claude Fable 5.1 and Mythos 5.1 are Anthropic's first models to watermark text outputs; a detection API is available to eligible groups as required under EU law (Ben Patterson/PCWorld)</title>
-    <link href="https://www.techmeme.com/260901/p48"/>
-    <id>https://www.techmeme.com/260901/p48</id>
-    <updated>2026-09-01T20:55:02.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>AfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valued at $3.2B</title>
+    <link href="https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b"/>
+    <id>https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b</id>
+    <updated>2026-09-01T22:08:24.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Ben Patterson / PCWorld : Claude Fable 5.1 and Mythos 5.1 are Anthropic's first models to watermark text outputs; a detection API is available to eligible groups as required under EU law — Anthropic has announced the arrival of its latest Claude models, and just as it promised last month, the new models will add invisi</summary>
+    <summary>AI model-training startup AfterQuery has reportedly raised a round that valued it at $3.2 billion, just five months after announcing its $30 million Series A at a $300 million valuation in April.</summary>
   </entry>
   <entry>
-    <title>llama.cpp b10751 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10751"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10751</id>
-    <updated>2026-09-01T20:16:09.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>llama.cpp: version bump b10729 (#18160)</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.33.3-rc0"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.33.3-rc0</id>
+    <updated>2026-09-01T23:24:15.000Z</updated>
+    <author><name>ollama/ollama</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>cuda: fuse MoE weighted expert reduction ( #25952 ) cuda : fuse MoE weighted reduction (mul + view + add) The MoE combine tail currently writes weighted expert outputs to global memory before reducing them. That intermediate global-memory traffic is the main cost. The production baseline generally runs two physical fus</summary>
+    <summary>llama.cpp: version bump b10729 Regenerate the compat hooks patch for b10729: upstream removed the whole-tensor load_data_for read (last consumer was llama-quantize, which now reads slabs via load_data_range). Keep the existing hook surface (constructor, skip loops, load_all_data, mtmd/clip) unchanged and add maybe_load</summary>
   </entry>
   <entry>
-    <title>Introducing agentic video understanding with Gemini</title>
-    <link href="https://deepmind.google/blog/introducing-agentic-video-in-gemini"/>
-    <id>https://deepmind.google/blog/introducing-agentic-video-in-gemini</id>
-    <updated>2026-09-01T17:08:51.000Z</updated>
-    <author><name>Google DeepMind Blog</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-  </entry>
-  <entry>
-    <title>First Eagle Investments' Appio on Bond Market Selloff</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-01/first-eagle-investments-appio-on-bond-market-selloff-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-01/first-eagle-investments-appio-on-bond-market-selloff-video</id>
-    <updated>2026-09-01T20:48:27.000Z</updated>
+    <title>Seraphim Launches New ETF to Target Pure-Play Space Investors</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-01/seraphim-launches-new-etf-to-target-pure-play-space-investors"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-01/seraphim-launches-new-etf-to-target-pure-play-space-investors</id>
+    <updated>2026-09-01T23:01:00.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>First Eagle Investments' Idanna Appio discusses the ongoing rise in bond yields and the broad selloff across global fixed income markets. Appio says the move is not just a US story, but a global one driven by several factors. She speaks with David Ingles and Yvonne Man on August 1, 2026. (Source: Bloomberg)</summary>
+    <summary>Investors are being offered a new way to bet on space via a fund that focuses exclusively on a sector thrust into the limelight by the IPO of Elon Musk’s SpaceX.</summary>
   </entry>
   <entry>
     <title>BenchMIRT: What are LLM benchmarks actually measuring?</title>
@@ -111,6 +85,15 @@
     <updated>2026-09-01T21:39:07.000Z</updated>
     <author><name>Hugging Face Blog</name></author>
     <category term="RESEARCH"/>
+  </entry>
+  <entry>
+    <title>llama.cpp b10751 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10751"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10751</id>
+    <updated>2026-09-01T20:16:09.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="HARDWARE"/>
+    <summary>cuda: fuse MoE weighted expert reduction ( #25952 ) cuda : fuse MoE weighted reduction (mul + view + add) The MoE combine tail currently writes weighted expert outputs to global memory before reducing them. That intermediate global-memory traffic is the main cost. The production baseline generally runs two physical fus</summary>
   </entry>
   <entry>
     <title>Critical Langflow flaw exploited to steal OpenAI and AWS keys</title>
@@ -131,22 +114,13 @@
     <summary>arXiv:2608.28843v1 Announce Type: new Abstract: We show that smooth two-layer feed-forward networks (FFNs) expose an additional structural model extraction channel under a chosen-input raw-output oracle at the FFN branch; consider transformer FFN branches with GELU or SiLU activations under chosen-input raw-output acce</summary>
   </entry>
   <entry>
-    <title>Aesto Health says data breach affects over 9.5 million patients</title>
-    <link href="https://www.bleepingcomputer.com/news/security/aesto-health-says-data-breach-affects-over-95-million-patients"/>
-    <id>https://www.bleepingcomputer.com/news/security/aesto-health-says-data-breach-affects-over-95-million-patients</id>
-    <updated>2026-09-01T19:28:17.000Z</updated>
-    <author><name>BleepingComputer</name></author>
+    <title>FBI Probes Service Selling 153M+ Drivers Licenses</title>
+    <link href="https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses"/>
+    <id>https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses</id>
+    <updated>2026-09-01T22:40:28.000Z</updated>
+    <author><name>Krebs on Security</name></author>
     <category term="CYBER THREATS"/>
-    <summary>Aesto LLC, operating as Aesto Health, disclosed that a data breach discovered recently affects more than 9.5 million individuals. [...]</summary>
-  </entry>
-  <entry>
-    <title>Lumos Robotics Unveils MOS 2 Mobile Manipulator Backed by Mitsubishi Factory Deployment</title>
-    <link href="https://www.humanoidsdaily.com/news/lumos-robotics-unveils-mos-2-mobile-manipulator-backed-by-mitsubishi-factory-deployment"/>
-    <id>https://www.humanoidsdaily.com/news/lumos-robotics-unveils-mos-2-mobile-manipulator-backed-by-mitsubishi-factory-deployment</id>
-    <updated>2026-09-01T12:22:07.000Z</updated>
-    <author><name>Humanoids Daily</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>Lumos Robotics has launched MOS 2, a heavy-duty wheeled dual-arm &quot;AI Worker&quot; with a 50 kg payload capacity, deployed at Mitsubishi Electric facilities following a funding round exceeding 1 billion yuan.</summary>
+    <summary>A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a</summary>
   </entry>
   <entry>
     <title>Codex bundles LibreOffice</title>
@@ -158,6 +132,15 @@
     <summary>I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interesting. The OpenAI Codex desktop app (since rebranded to just ChatGPT) has 1.7GB of stuff in there in a folder called codex-primary-runtime , including a full Python installation, a full Node.js installation, and native binar</summary>
   </entry>
   <entry>
+    <title>Lumos Robotics Unveils MOS 2 Mobile Manipulator Backed by Mitsubishi Factory Deployment</title>
+    <link href="https://www.humanoidsdaily.com/news/lumos-robotics-unveils-mos-2-mobile-manipulator-backed-by-mitsubishi-factory-deployment"/>
+    <id>https://www.humanoidsdaily.com/news/lumos-robotics-unveils-mos-2-mobile-manipulator-backed-by-mitsubishi-factory-deployment</id>
+    <updated>2026-09-01T12:22:07.000Z</updated>
+    <author><name>Humanoids Daily</name></author>
+    <category term="ROBOTICS"/>
+    <summary>Lumos Robotics has launched MOS 2, a heavy-duty wheeled dual-arm &quot;AI Worker&quot; with a 50 kg payload capacity, deployed at Mitsubishi Electric facilities following a funding round exceeding 1 billion yuan.</summary>
+  </entry>
+  <entry>
     <title>Symmatrics Launches AI and Post-Quantum Readiness Pledge</title>
     <link href="https://thequantuminsider.com/2026/09/01/symmatrics-ai-post-quantum-readiness-pledge"/>
     <id>https://thequantuminsider.com/2026/09/01/symmatrics-ai-post-quantum-readiness-pledge</id>
@@ -167,67 +150,66 @@
     <summary>Insider Brief PRESS RELEASE – A new industry commitment convened by Symmatrics, the pioneer of Internet-scale One-Time Pad symmetric encryption and creator of a breakthrough quantum-secure trust layer, is bringing organizations together around a shared priority: preparing now for the security challenges of the AI and q</summary>
   </entry>
   <entry>
+    <title>Introducing agentic video understanding with Gemini</title>
+    <link href="https://deepmind.google/blog/introducing-agentic-video-in-gemini"/>
+    <id>https://deepmind.google/blog/introducing-agentic-video-in-gemini</id>
+    <updated>2026-09-01T17:08:51.000Z</updated>
+    <author><name>Google DeepMind Blog</name></author>
+    <category term="MODEL RELEASES"/>
+  </entry>
+  <entry>
+    <title>India's JioHotstar launches internationally without live sports, replacing Hotstar in the UK, Canada, and Singapore; the company says it has 500M+ MAUs in India (TechCrunch)</title>
+    <link href="https://www.techmeme.com/260901/p57"/>
+    <id>https://www.techmeme.com/260901/p57</id>
+    <updated>2026-09-01T23:30:08.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>TechCrunch : India's JioHotstar launches internationally without live sports, replacing Hotstar in the UK, Canada, and Singapore; the company says it has 500M+ MAUs in India — JioHotstar, the streaming platform controlled by Indian conglomerate Reliance Industries, is taking its brand outside India …</summary>
+  </entry>
+  <entry>
+    <title>Fermi Explorer Mission plans to launch a spacecraft to Alpha Centauri, the Sun's nearest star system, by 2029, using a trajectory discovered by PSI's AI system (Michelle Kim/MIT Technology Review)</title>
+    <link href="https://www.techmeme.com/260901/p55"/>
+    <id>https://www.techmeme.com/260901/p55</id>
+    <updated>2026-09-01T22:55:00.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Michelle Kim / MIT Technology Review : Fermi Explorer Mission plans to launch a spacecraft to Alpha Centauri, the Sun's nearest star system, by 2029, using a trajectory discovered by PSI's AI system — A nonprofit organization called the Fermi Explorer Mission announced today that it intends to launch a spacecraft to ou</summary>
+  </entry>
+  <entry>
+    <title>Offline AI ship's engineer on a 32 GB M2 Max. Works, but slow. What I've tried, and what I'm missing.</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1w4styo/offline_ai_ships_engineer_on_a_32_gb_m2_max_works"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1w4styo/offline_ai_ships_engineer_on_a_32_gb_m2_max_works</id>
+    <updated>2026-09-01T23:01:27.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Building a local AI that answers from my boat's manuals with no internet. A few days of work so far. It gives correct, sourced answers, but a question takes 12 minutes. Posting what I've tried so people can tell me what to try next. To clarify i dont have any clue if 12 minutes even is good or bad, but i give it a shot</summary>
+  </entry>
+  <entry>
     <title>Anthropic's Claude Fable 5.1 promises better coding and research at up to 45 percent less</title>
     <link href="https://the-decoder.com/anthropics-claude-fable-5-1-promises-better-coding-and-research-at-up-to-45-percent-less"/>
     <id>https://the-decoder.com/anthropics-claude-fable-5-1-promises-better-coding-and-research-at-up-to-45-percent-less</id>
     <updated>2026-09-01T20:32:55.000Z</updated>
     <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
+    <category term="AGENTS &amp; TOOLS"/>
     <summary>Anthropic launches Claude Fable 5.1 and Mythos 5.1, its most capable AI models yet. Fable 5.1 doubles its predecessor's score on Terminal-Bench-Science and improves agentic coding by over 30 percent. Costs drop by up to 45 percent for long, autonomous runs with many tool calls. The article Anthropic's Claude Fable 5.1 </summary>
   </entry>
   <entry>
-    <title>Sequoia-incubated Empirik launches with $21M to predict outages before they happen</title>
-    <link href="https://techcrunch.com/2026/09/01/sequoia-incubated-empirik-launches-with-21m-to-predict-outages-before-they-happen"/>
-    <id>https://techcrunch.com/2026/09/01/sequoia-incubated-empirik-launches-with-21m-to-predict-outages-before-they-happen</id>
-    <updated>2026-09-01T16:31:04.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>The startup wants to do for IT infrastructure what Cursor did for software engineering.</summary>
-  </entry>
-  <entry>
-    <title>Palo Alto Networks reports Q4 revenue up 34% YoY to $3.41B, vs. $3.35B est., and acquires Console, which provides AI-powered IT service management (Samantha Subin/CNBC)</title>
-    <link href="https://www.techmeme.com/260901/p49"/>
-    <id>https://www.techmeme.com/260901/p49</id>
-    <updated>2026-09-01T21:05:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Samantha Subin / CNBC : Palo Alto Networks reports Q4 revenue up 34% YoY to $3.41B, vs. $3.35B est., and acquires Console, which provides AI-powered IT service management — Palo Alto Networks surpassed fiscal fourth-quarter estimates as mounting artificial intelligence risks boost demand for its cybersecurity tools.</summary>
-  </entry>
-  <entry>
-    <title>Keeping up with model launches</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1w4kwyr/keeping_up_with_model_launches"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1w4kwyr/keeping_up_with_model_launches</id>
-    <updated>2026-09-01T18:42:36.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Feels like maybe we have one more present left, for Christmas. submitted by /u/Miserable-Dare5090 [link] [comments]</summary>
-  </entry>
-  <entry>
-    <title>Kaitchup posted Qwen3.8 27B Benchmarks for quants from Q4 to Q1</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1w4mevo/kaitchup_posted_qwen38_27b_benchmarks_for_quants"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1w4mevo/kaitchup_posted_qwen38_27b_benchmarks_for_quants</id>
-    <updated>2026-09-01T19:28:43.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Kaitchup just posted results of his benchmarks for Qwen3.8 27B for quants from different labs, Q4 to Q1, . All the details are hidden behind the paywall, but high level result is visible and looks like for people with 16GB cards UD Q3_K_XL is a winner - it has accuracy of 100% and size is only 12.8GB. submitted by /u/C</summary>
-  </entry>
-  <entry>
-    <title>Bessent’s Bond Gains Wiped Out as 30-Year Yields Jump Once Again</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-01/bessent-s-bond-gains-wiped-out-as-30-year-yields-jump-once-again"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-01/bessent-s-bond-gains-wiped-out-as-30-year-yields-jump-once-again</id>
-    <updated>2026-09-01T21:03:35.000Z</updated>
+    <title>Ambani’s Streaming Site Eyes Millions of Indian Diaspora</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-01/ambani-s-streaming-site-eyes-millions-of-indian-diaspora"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-01/ambani-s-streaming-site-eyes-millions-of-indian-diaspora</id>
+    <updated>2026-09-01T22:50:00.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The yields on the longest-dated US government bonds shot back to levels seen just before Treasury Secretary Scott Bessent shocked markets last month by expanding a buyback program in an effort to halt the rise.</summary>
+    <summary>India’s largest video streaming platform JioHotstar is expanding overseas for the first time, launching in the UK, Canada and Singapore as it seeks to tap millions of potential viewers in the growing South Asian diaspora.</summary>
   </entry>
   <entry>
-    <title>Vanguard, BlackRock ETF Shuffle Lets Foreign Investors Duck US Tax</title>
-    <link href="https://www.bloomberg.com/graphics/2026-etf-foreign-investors-tax-dodge"/>
-    <id>https://www.bloomberg.com/graphics/2026-etf-foreign-investors-tax-dodge</id>
-    <updated>2026-09-01T21:00:01.000Z</updated>
+    <title>Gold Holds Drop as Higher Oil, Bond Selloff Raise Rate-Hike Bets</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-01/gold-holds-drop-as-higher-oil-bond-selloff-raise-rate-hike-bets"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-01/gold-holds-drop-as-higher-oil-bond-selloff-raise-rate-hike-bets</id>
+    <updated>2026-09-01T23:40:28.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Major institutions are flipping between near-identical equity funds to avoid receiving dividends — and the 30% tax that comes with them.</summary>
+    <summary>Gold held a decline as attacks in the Middle East and a global bond selloff ratcheted up bets the Federal Reserve may need to raise interest rates to rein in inflation.</summary>
   </entry>
   <entry>
     <title>Walter Torous named executive director of MIT Center for Real Estate</title>
@@ -257,6 +239,15 @@
     <summary>“We’re at an inflection point in cybersecurity,” Jensen Huang told a sold-out crowd at CrowdStrike’s Fal.Con 2026 in Las Vegas Tuesday. Attacks are now automated. Defense has to be, too. The NVIDIA founder and CEO joined CrowdStrike CEO and founder George Kurtz to announce CrowdStrike SafeMind, its agentic cybersecurit</summary>
   </entry>
   <entry>
+    <title>IPO filing: SB Energy says it has 8.8GW of data center capacity contracted or under construction across Texas and Ohio and a $430B data center segment backlog (Monique Mulima/Bloomberg)</title>
+    <link href="https://www.techmeme.com/260901/p56"/>
+    <id>https://www.techmeme.com/260901/p56</id>
+    <updated>2026-09-01T23:20:00.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="HARDWARE"/>
+    <summary>Monique Mulima / Bloomberg : IPO filing: SB Energy says it has 8.8GW of data center capacity contracted or under construction across Texas and Ohio and a $430B data center segment backlog — SB Energy Inc., a data center firm backed by SoftBank Group Corp., filed for a US initial public offering to fund …</summary>
+  </entry>
+  <entry>
     <title>The hard parts of AI-assisted science</title>
     <link href="https://allenai.org/blog/swedish-autodiscovery-recap"/>
     <id>https://allenai.org/blog/swedish-autodiscovery-recap</id>
@@ -273,5 +264,14 @@
     <author><name>Latent Space</name></author>
     <category term="OPEN SOURCE"/>
     <summary>Vercel’s AI SDK, Astro, Flue and tldraw are replacing drive-by community PRs with software factories, where teams of agents apply fixes and features.</summary>
+  </entry>
+  <entry>
+    <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
+    <link href="https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare"/>
+    <id>https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare</id>
+    <updated>2026-09-24T13:00:00.000Z</updated>
+    <author><name>NIST AI News</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>This Symposium is a one-day event to address the question: “ which medical measurements and consensus standards should be prioritized to support future U.S. healthcare?” The focus will be on medical imaging, medical devices, and diagnostics. The goal</summary>
   </entry>
 </feed>
