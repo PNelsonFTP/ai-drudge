@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-09-01T23:59:47.241Z</updated>
+  <updated>2026-09-02T04:17:22.096Z</updated>
   <entry>
     <title>claude-code v2.1.258 released</title>
     <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.258"/>
@@ -14,6 +14,24 @@
     <author><name>anthropics/claude-code</name></author>
     <category term="MODEL RELEASES"/>
     <summary>What's changed Fixed Claude Code failing to launch on macOS 12 (Monterey), a regression introduced in 2.1.255 Fixed remote and scheduled sessions failing with &quot;user messages must have non-empty content&quot; after a re-sent permission approval could not be applied — Also covered by: QwenLM/qwen-code</summary>
+  </entry>
+  <entry>
+    <title>MIT Quantum Initiative Launches Gordon and Betty Moore Foundation-Backed Postdoctoral Fellowship</title>
+    <link href="https://quantumcomputingreport.com/mit-quantum-initiative-launches-gordon-and-betty-moore-foundation-backed-postdoctoral-fellowship"/>
+    <id>https://quantumcomputingreport.com/mit-quantum-initiative-launches-gordon-and-betty-moore-foundation-backed-postdoctoral-fellowship</id>
+    <updated>2026-09-01T23:21:53.000Z</updated>
+    <author><name>Quantum Computing Report</name></author>
+    <category term="RESEARCH"/>
+    <summary>The MIT Quantum Initiative (QMIT) has launched a new postdoctoral fellowship program supported by a grant from the Gordon and Betty Moore Foundation. Designed to accelerate interdisciplinary quantum research and cultivate early-career scientific leadership, the program embeds its inaugural 2026 cohort across MIT resear — Also covered by: MIT News AI</summary>
+  </entry>
+  <entry>
+    <title>OpenAI delayed its new model’s development after the Hugging Face hack</title>
+    <link href="https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay"/>
+    <id>https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay</id>
+    <updated>2026-09-01T20:45:49.000Z</updated>
+    <author><name>The Verge AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>After an unreleased OpenAI model wreaked enough havoc to make international headlines, OpenAI delayed the development of a different unreleased model suite, Astra, in order to shore up its safety work, the company wrote Tuesday in a blog post. In July, an unreleased OpenAI model broke out of its restricted environment, — Also covered by: METR</summary>
   </entry>
   <entry>
     <title>The rise of AI ‘civilizations’ and the fall of corporate responsibility</title>
@@ -43,13 +61,13 @@
     <summary>Quantum software developer QC Ware and trapped-ion hardware vendor IonQ (NYSE: IONQ) have demonstrated a hybrid quantum-classical chemistry workflow combining QC Ware’s Promethium® platform with the IonQ Forte quantum computer. Executed via Amazon Braket and supported by AWS cloud compute credits, the joint test calcul — Also covered by: The Quantum Insider</summary>
   </entry>
   <entry>
-    <title>Anthropic opens Claude AI text detection to regulators, media, fact-checkers, and others</title>
-    <link href="https://the-decoder.com/anthropic-opens-claude-ai-text-detection-to-regulators-media-fact-checkers-and-others"/>
-    <id>https://the-decoder.com/anthropic-opens-claude-ai-text-detection-to-regulators-media-fact-checkers-and-others</id>
-    <updated>2026-09-01T20:40:36.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>ollama v0.33.3 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.33.3-rc0"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.33.3-rc0</id>
+    <updated>2026-09-02T00:11:33.000Z</updated>
+    <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Anthropic is launching an API that lets regulators, media outlets, and researchers check whether text carries Claude's digital watermark. The EU AI Act now requires invisible watermarks in AI-generated text. Critics warn the technology could hurt text quality and create transparency problems where contracts ban AI use.</summary>
+    <summary>What's Changed Honor GGUF model defined default parameters MLX, MLX-C, llama.cpp update New Contributors @marcelpetrick made their first contribution in #17579 Full Changelog : v0.33.2...v0.33.3-rc0</summary>
   </entry>
   <entry>
     <title>AfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valued at $3.2B</title>
@@ -61,173 +79,40 @@
     <summary>AI model-training startup AfterQuery has reportedly raised a round that valued it at $3.2 billion, just five months after announcing its $30 million Series A at a $300 million valuation in April.</summary>
   </entry>
   <entry>
-    <title>llama.cpp: version bump b10729 (#18160)</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.33.3-rc0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.33.3-rc0</id>
-    <updated>2026-09-01T23:24:15.000Z</updated>
-    <author><name>ollama/ollama</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>llama.cpp: version bump b10729 Regenerate the compat hooks patch for b10729: upstream removed the whole-tensor load_data_for read (last consumer was llama-quantize, which now reads slabs via load_data_range). Keep the existing hook surface (constructor, skip loops, load_all_data, mtmd/clip) unchanged and add maybe_load</summary>
-  </entry>
-  <entry>
-    <title>Seraphim Launches New ETF to Target Pure-Play Space Investors</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-01/seraphim-launches-new-etf-to-target-pure-play-space-investors"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-01/seraphim-launches-new-etf-to-target-pure-play-space-investors</id>
-    <updated>2026-09-01T23:01:00.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Investors are being offered a new way to bet on space via a fund that focuses exclusively on a sector thrust into the limelight by the IPO of Elon Musk’s SpaceX.</summary>
-  </entry>
-  <entry>
-    <title>BenchMIRT: What are LLM benchmarks actually measuring?</title>
-    <link href="https://huggingface.co/blog/allenai/benchmirt"/>
-    <id>https://huggingface.co/blog/allenai/benchmirt</id>
-    <updated>2026-09-01T21:39:07.000Z</updated>
-    <author><name>Hugging Face Blog</name></author>
-    <category term="RESEARCH"/>
-  </entry>
-  <entry>
-    <title>llama.cpp b10751 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10751"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10751</id>
-    <updated>2026-09-01T20:16:09.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="HARDWARE"/>
-    <summary>cuda: fuse MoE weighted expert reduction ( #25952 ) cuda : fuse MoE weighted reduction (mul + view + add) The MoE combine tail currently writes weighted expert outputs to global memory before reducing them. That intermediate global-memory traffic is the main cost. The production baseline generally runs two physical fus</summary>
-  </entry>
-  <entry>
-    <title>Critical Langflow flaw exploited to steal OpenAI and AWS keys</title>
-    <link href="https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys"/>
-    <id>https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys</id>
-    <updated>2026-09-01T17:54:22.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Threat actors are exploiting an unauthenticated remote code execution vulnerability (CVE-2026-0768) in Langflow, an open-source framework for building AI applications, to steal credentials, tokens, and keys. [...]</summary>
-  </entry>
-  <entry>
-    <title>Curvature Cryptanalysis of Smooth Transformer Feed-Forward Networks</title>
-    <link href="https://arxiv.org/abs/2608.28843"/>
-    <id>https://arxiv.org/abs/2608.28843</id>
-    <updated>2026-09-01T04:00:00.000Z</updated>
-    <author><name>arXiv cs.LG</name></author>
-    <category term="AI SECURITY"/>
-    <summary>arXiv:2608.28843v1 Announce Type: new Abstract: We show that smooth two-layer feed-forward networks (FFNs) expose an additional structural model extraction channel under a chosen-input raw-output oracle at the FFN branch; consider transformer FFN branches with GELU or SiLU activations under chosen-input raw-output acce</summary>
-  </entry>
-  <entry>
-    <title>FBI Probes Service Selling 153M+ Drivers Licenses</title>
-    <link href="https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses"/>
-    <id>https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses</id>
-    <updated>2026-09-01T22:40:28.000Z</updated>
-    <author><name>Krebs on Security</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a</summary>
-  </entry>
-  <entry>
-    <title>Codex bundles LibreOffice</title>
-    <link href="https://simonwillison.net/2026/Sep/1/codex-libreoffice"/>
-    <id>https://simonwillison.net/2026/Sep/1/codex-libreoffice</id>
-    <updated>2026-09-01T19:03:01.000Z</updated>
-    <author><name>Simon Willison</name></author>
-    <category term="ANALYSIS"/>
-    <summary>I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interesting. The OpenAI Codex desktop app (since rebranded to just ChatGPT) has 1.7GB of stuff in there in a folder called codex-primary-runtime , including a full Python installation, a full Node.js installation, and native binar</summary>
-  </entry>
-  <entry>
-    <title>Lumos Robotics Unveils MOS 2 Mobile Manipulator Backed by Mitsubishi Factory Deployment</title>
-    <link href="https://www.humanoidsdaily.com/news/lumos-robotics-unveils-mos-2-mobile-manipulator-backed-by-mitsubishi-factory-deployment"/>
-    <id>https://www.humanoidsdaily.com/news/lumos-robotics-unveils-mos-2-mobile-manipulator-backed-by-mitsubishi-factory-deployment</id>
-    <updated>2026-09-01T12:22:07.000Z</updated>
-    <author><name>Humanoids Daily</name></author>
-    <category term="ROBOTICS"/>
-    <summary>Lumos Robotics has launched MOS 2, a heavy-duty wheeled dual-arm &quot;AI Worker&quot; with a 50 kg payload capacity, deployed at Mitsubishi Electric facilities following a funding round exceeding 1 billion yuan.</summary>
-  </entry>
-  <entry>
-    <title>Symmatrics Launches AI and Post-Quantum Readiness Pledge</title>
-    <link href="https://thequantuminsider.com/2026/09/01/symmatrics-ai-post-quantum-readiness-pledge"/>
-    <id>https://thequantuminsider.com/2026/09/01/symmatrics-ai-post-quantum-readiness-pledge</id>
-    <updated>2026-09-01T16:08:57.000Z</updated>
-    <author><name>The Quantum Insider</name></author>
-    <category term="QUANTUM"/>
-    <summary>Insider Brief PRESS RELEASE – A new industry commitment convened by Symmatrics, the pioneer of Internet-scale One-Time Pad symmetric encryption and creator of a breakthrough quantum-secure trust layer, is bringing organizations together around a shared priority: preparing now for the security challenges of the AI and q</summary>
-  </entry>
-  <entry>
-    <title>Introducing agentic video understanding with Gemini</title>
-    <link href="https://deepmind.google/blog/introducing-agentic-video-in-gemini"/>
-    <id>https://deepmind.google/blog/introducing-agentic-video-in-gemini</id>
-    <updated>2026-09-01T17:08:51.000Z</updated>
-    <author><name>Google DeepMind Blog</name></author>
-    <category term="MODEL RELEASES"/>
-  </entry>
-  <entry>
-    <title>India's JioHotstar launches internationally without live sports, replacing Hotstar in the UK, Canada, and Singapore; the company says it has 500M+ MAUs in India (TechCrunch)</title>
-    <link href="https://www.techmeme.com/260901/p57"/>
-    <id>https://www.techmeme.com/260901/p57</id>
-    <updated>2026-09-01T23:30:08.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>TechCrunch : India's JioHotstar launches internationally without live sports, replacing Hotstar in the UK, Canada, and Singapore; the company says it has 500M+ MAUs in India — JioHotstar, the streaming platform controlled by Indian conglomerate Reliance Industries, is taking its brand outside India …</summary>
-  </entry>
-  <entry>
-    <title>Fermi Explorer Mission plans to launch a spacecraft to Alpha Centauri, the Sun's nearest star system, by 2029, using a trajectory discovered by PSI's AI system (Michelle Kim/MIT Technology Review)</title>
-    <link href="https://www.techmeme.com/260901/p55"/>
-    <id>https://www.techmeme.com/260901/p55</id>
-    <updated>2026-09-01T22:55:00.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Michelle Kim / MIT Technology Review : Fermi Explorer Mission plans to launch a spacecraft to Alpha Centauri, the Sun's nearest star system, by 2029, using a trajectory discovered by PSI's AI system — A nonprofit organization called the Fermi Explorer Mission announced today that it intends to launch a spacecraft to ou</summary>
-  </entry>
-  <entry>
-    <title>Offline AI ship's engineer on a 32 GB M2 Max. Works, but slow. What I've tried, and what I'm missing.</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1w4styo/offline_ai_ships_engineer_on_a_32_gb_m2_max_works"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1w4styo/offline_ai_ships_engineer_on_a_32_gb_m2_max_works</id>
-    <updated>2026-09-01T23:01:27.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Building a local AI that answers from my boat's manuals with no internet. A few days of work so far. It gives correct, sourced answers, but a question takes 12 minutes. Posting what I've tried so people can tell me what to try next. To clarify i dont have any clue if 12 minutes even is good or bad, but i give it a shot</summary>
-  </entry>
-  <entry>
-    <title>Anthropic's Claude Fable 5.1 promises better coding and research at up to 45 percent less</title>
-    <link href="https://the-decoder.com/anthropics-claude-fable-5-1-promises-better-coding-and-research-at-up-to-45-percent-less"/>
-    <id>https://the-decoder.com/anthropics-claude-fable-5-1-promises-better-coding-and-research-at-up-to-45-percent-less</id>
-    <updated>2026-09-01T20:32:55.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>trajectory-judge: What Outcome-Only LLM Judges Miss on Agent Trajectories</title>
+    <link href="https://arxiv.org/abs/2609.00038"/>
+    <id>https://arxiv.org/abs/2609.00038</id>
+    <updated>2026-09-02T04:00:00.000Z</updated>
+    <author><name>arXiv cs.CL</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Anthropic launches Claude Fable 5.1 and Mythos 5.1, its most capable AI models yet. Fable 5.1 doubles its predecessor's score on Terminal-Bench-Science and improves agentic coding by over 30 percent. Costs drop by up to 45 percent for long, autonomous runs with many tool calls. The article Anthropic's Claude Fable 5.1 </summary>
+    <summary>arXiv:2609.00038v1 Announce Type: new Abstract: Outcome-only evaluation is the production default for LLM agents: show a judge the request and the final reply and ask whether it was handled well. The metric is structurally blind to an agent that reaches the right answer the wrong way. We measure that blind spot where g</summary>
   </entry>
   <entry>
-    <title>Ambani’s Streaming Site Eyes Millions of Indian Diaspora</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-01/ambani-s-streaming-site-eyes-millions-of-indian-diaspora"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-01/ambani-s-streaming-site-eyes-millions-of-indian-diaspora</id>
-    <updated>2026-09-01T22:50:00.000Z</updated>
+    <title>India’s Diaspora Deposit Flows Surpass $100 Billion, FE Reports</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-02/india-s-diaspora-deposit-flows-surpass-100-billion-fe-reports"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-02/india-s-diaspora-deposit-flows-surpass-100-billion-fe-reports</id>
+    <updated>2026-09-02T03:27:00.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>India’s largest video streaming platform JioHotstar is expanding overseas for the first time, launching in the UK, Canada and Singapore as it seeks to tap millions of potential viewers in the growing South Asian diaspora.</summary>
+    <summary>Inflows under the Reserve Bank of India’s special overseas deposit facility have topped the $100 billion mark, the Financial Express newspaper reported Wednesday, citing officials it did not identify.</summary>
   </entry>
   <entry>
-    <title>Gold Holds Drop as Higher Oil, Bond Selloff Raise Rate-Hike Bets</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-01/gold-holds-drop-as-higher-oil-bond-selloff-raise-rate-hike-bets"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-01/gold-holds-drop-as-higher-oil-bond-selloff-raise-rate-hike-bets</id>
-    <updated>2026-09-01T23:40:28.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Gold held a decline as attacks in the Middle East and a global bond selloff ratcheted up bets the Federal Reserve may need to raise interest rates to rein in inflation.</summary>
-  </entry>
-  <entry>
-    <title>Walter Torous named executive director of MIT Center for Real Estate</title>
-    <link href="https://news.mit.edu/2026/walter-torous-named-executive-director-mit-center-real-estate-0901"/>
-    <id>https://news.mit.edu/2026/walter-torous-named-executive-director-mit-center-real-estate-0901</id>
-    <updated>2026-09-01T21:25:00.000Z</updated>
-    <author><name>MIT News AI</name></author>
-    <category term="RESEARCH"/>
-    <summary>The senior lecturer, already director of the degree program, will now oversee all aspects of the center’s activities and operations.</summary>
-  </entry>
-  <entry>
-    <title>Rating the Raters: Rasch Measurement Theory for LLM Evaluation</title>
-    <link href="https://arxiv.org/abs/2608.27463"/>
-    <id>https://arxiv.org/abs/2608.27463</id>
-    <updated>2026-09-01T04:00:00.000Z</updated>
+    <title>Long-Horizon State Tracking in LLMs: Executing MD5 through a Deep Sequence of Dependent Tool Calls</title>
+    <link href="https://arxiv.org/abs/2609.00012"/>
+    <id>https://arxiv.org/abs/2609.00012</id>
+    <updated>2026-09-02T04:00:00.000Z</updated>
     <author><name>arXiv cs.AI</name></author>
     <category term="RESEARCH"/>
-    <summary>arXiv:2608.27463v1 Announce Type: new Abstract: LLMs now sit on every side of evaluation: as examinees scored on benchmarks, judges of other models' outputs, and raters of human-generated content. Each paradigm can be viewed as a measurement problem, where a latent property of an object is probed with items from an ins</summary>
+    <summary>arXiv:2609.00012v1 Announce Type: new Abstract: Long-horizon tasks remain uncommon in large language model (LLM) evaluation, and for a reason: when each step depends on the last, per-step accuracy that looks excellent in isolation decays catastrophically, as errors cascade and the end-to-end failure probability grows s</summary>
+  </entry>
+  <entry>
+    <title>Anthropic opens Claude AI text detection to regulators, media, fact-checkers, and others</title>
+    <link href="https://the-decoder.com/anthropic-opens-claude-ai-text-detection-to-regulators-media-fact-checkers-and-others"/>
+    <id>https://the-decoder.com/anthropic-opens-claude-ai-text-detection-to-regulators-media-fact-checkers-and-others</id>
+    <updated>2026-09-01T20:40:36.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Anthropic is launching an API that lets regulators, media outlets, and researchers check whether text carries Claude's digital watermark. The EU AI Act now requires invisible watermarks in AI-generated text. Critics warn the technology could hurt text quality and create transparency problems where contracts ban AI use.</summary>
   </entry>
   <entry>
     <title>NVIDIA and CrowdStrike Strengthen Agentic Cybersecurity Frontier</title>
@@ -239,39 +124,155 @@
     <summary>“We’re at an inflection point in cybersecurity,” Jensen Huang told a sold-out crowd at CrowdStrike’s Fal.Con 2026 in Las Vegas Tuesday. Attacks are now automated. Defense has to be, too. The NVIDIA founder and CEO joined CrowdStrike CEO and founder George Kurtz to announce CrowdStrike SafeMind, its agentic cybersecurit</summary>
   </entry>
   <entry>
-    <title>IPO filing: SB Energy says it has 8.8GW of data center capacity contracted or under construction across Texas and Ohio and a $430B data center segment backlog (Monique Mulima/Bloomberg)</title>
-    <link href="https://www.techmeme.com/260901/p56"/>
-    <id>https://www.techmeme.com/260901/p56</id>
-    <updated>2026-09-01T23:20:00.000Z</updated>
+    <title>Critical Langflow flaw exploited to steal OpenAI and AWS keys</title>
+    <link href="https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys"/>
+    <id>https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys</id>
+    <updated>2026-09-01T17:54:22.000Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Threat actors are exploiting an unauthenticated remote code execution vulnerability (CVE-2026-0768) in Langflow, an open-source framework for building AI applications, to steal credentials, tokens, and keys. [...]</summary>
+  </entry>
+  <entry>
+    <title>The Hugging Face hack could indicate cultural issues at OpenAI</title>
+    <link href="https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai"/>
+    <id>https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai</id>
+    <updated>2026-08-31T18:00:00.000Z</updated>
+    <author><name>MIT Tech Review AI</name></author>
+    <category term="AI SECURITY"/>
+    <summary>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. By now you’ve probably heard about last month’s major AI security incident, in which OpenAI agents escaped their sandbox and hacked into the AI platform Hugging Face while trying to </summary>
+  </entry>
+  <entry>
+    <title>FBI Probes Service Selling 153M+ Drivers Licenses</title>
+    <link href="https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses"/>
+    <id>https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses</id>
+    <updated>2026-09-01T22:40:28.000Z</updated>
+    <author><name>Krebs on Security</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a</summary>
+  </entry>
+  <entry>
+    <title>Claude Fable 5.1 made me a really nice animated pelican</title>
+    <link href="https://simonwillison.net/2026/Sep/1/claude-fable-5-1"/>
+    <id>https://simonwillison.net/2026/Sep/1/claude-fable-5-1</id>
+    <updated>2026-09-01T23:57:28.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="ANALYSIS"/>
+    <summary>Today is Claude Fable (and Mythos) 5.1 day . Anthropic say that Fable 5.1 &quot;sets a new standard for coding, knowledge work, and long-running problem-solving tasks&quot;. Their announcement spends a notable amount of time on scientific research, boasting of a 52.6% score on the brand new Terminal-Bench-Science 0.1 benchmark (</summary>
+  </entry>
+  <entry>
+    <title>Lumos Robotics Unveils MOS 2 Mobile Manipulator Backed by Mitsubishi Factory Deployment</title>
+    <link href="https://www.humanoidsdaily.com/news/lumos-robotics-unveils-mos-2-mobile-manipulator-backed-by-mitsubishi-factory-deployment"/>
+    <id>https://www.humanoidsdaily.com/news/lumos-robotics-unveils-mos-2-mobile-manipulator-backed-by-mitsubishi-factory-deployment</id>
+    <updated>2026-09-01T12:22:07.000Z</updated>
+    <author><name>Humanoids Daily</name></author>
+    <category term="ROBOTICS"/>
+    <summary>Lumos Robotics has launched MOS 2, a heavy-duty wheeled dual-arm &quot;AI Worker&quot; with a 50 kg payload capacity, deployed at Mitsubishi Electric facilities following a funding round exceeding 1 billion yuan.</summary>
+  </entry>
+  <entry>
+    <title>Congressman Langworthy Introduces American Quantum Competitiveness Act (H.R. 10163)</title>
+    <link href="https://quantumcomputingreport.com/congressman-langworthy-introduces-american-quantum-competitiveness-act-h-r-10163"/>
+    <id>https://quantumcomputingreport.com/congressman-langworthy-introduces-american-quantum-competitiveness-act-h-r-10163</id>
+    <updated>2026-09-01T23:56:55.000Z</updated>
+    <author><name>Quantum Computing Report</name></author>
+    <category term="QUANTUM"/>
+    <summary>U.S. Congressman Nick Langworthy (R-NY-23) has introduced H.R. 10163: The American Quantum Competitiveness Act, federal legislation establishing the U.S. Department of Commerce as the lead federal agency for commercial quantum technology, manufacturing, and supply chain resilience. Referred to the House Committee on En</summary>
+  </entry>
+  <entry>
+    <title>Introducing agentic video understanding with Gemini</title>
+    <link href="https://deepmind.google/blog/introducing-agentic-video-in-gemini"/>
+    <id>https://deepmind.google/blog/introducing-agentic-video-in-gemini</id>
+    <updated>2026-09-01T17:08:51.000Z</updated>
+    <author><name>Google DeepMind Blog</name></author>
+    <category term="MODEL RELEASES"/>
+  </entry>
+  <entry>
+    <title>SciFin, which helps revenue teams converge fragmented information to understand business needs, raised a $44M seed co-led by Altimeter and Madrona (Kyt Dotson/SiliconANGLE)</title>
+    <link href="https://www.techmeme.com/260901/p64"/>
+    <id>https://www.techmeme.com/260901/p64</id>
+    <updated>2026-09-02T03:25:03.000Z</updated>
     <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Kyt Dotson / SiliconANGLE : SciFin, which helps revenue teams converge fragmented information to understand business needs, raised a $44M seed co-led by Altimeter and Madrona — SciFin Tech Inc., a company that helps revenue teams converge context across disconnected systems to understand business needs, launched today </summary>
+  </entry>
+  <entry>
+    <title>Tech giants are trying to obliterate privacy. Australia has a rare chance to take back part of their power | Lizzie O'Shea</title>
+    <link href="https://www.theguardian.com/commentisfree/2026/sep/02/tech-giants-australia-privacy-act-legislation-laws"/>
+    <id>https://www.theguardian.com/commentisfree/2026/sep/02/tech-giants-australia-privacy-act-legislation-laws</id>
+    <updated>2026-09-02T03:00:05.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>‘Pervert glasses’ are selling out, tick-a-box consent is broken and the spectre of surveillance is invading all aspects of our lives Get our breaking news email , free app or daily news podcast A mere five years after the government first started talking about it, new changes have finally been proposed for the Privacy </summary>
+  </entry>
+  <entry>
+    <title>llama.cpp b10752 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10752"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10752</id>
+    <updated>2026-09-02T00:15:46.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>metal : add metallib build support for xcframework ( #28163 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44563342 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubunt</summary>
+  </entry>
+  <entry>
+    <title>REAL-Q: E2E LLM Quantization via Dynamic Gradient Descent</title>
+    <link href="https://arxiv.org/abs/2609.00049"/>
+    <id>https://arxiv.org/abs/2609.00049</id>
+    <updated>2026-09-02T04:00:00.000Z</updated>
+    <author><name>arXiv cs.LG</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>arXiv:2609.00049v1 Announce Type: new Abstract: Post-training quantization (PTQ) is essential for deploying large language models (LLMs) under strict resource constraints. State-of-the-art PTQ methods quantize each layer with a single closed-form second-order solver: to remain analytically tractable, they heavily appro</summary>
+  </entry>
+  <entry>
+    <title>GUI-CC: Benchmarking Contextual Consistency of GUI World Models as Agent Environments</title>
+    <link href="https://arxiv.org/abs/2609.00048"/>
+    <id>https://arxiv.org/abs/2609.00048</id>
+    <updated>2026-09-02T04:00:00.000Z</updated>
+    <author><name>arXiv cs.CL</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>arXiv:2609.00048v1 Announce Type: new Abstract: GUI world models are increasingly evaluated as one-step next-screen predictors, yet their intended use is often as multi-step environments for GUI agents. This mismatch leaves a key requirement under-tested: generated states must remain contextually consistent when they a</summary>
+  </entry>
+  <entry>
+    <title>China-US Yield Gap Nears Record High as Treasury Selloff Deepens</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-02/china-us-yield-gap-nears-record-high-as-treasury-selloff-deepens"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-02/china-us-yield-gap-nears-record-high-as-treasury-selloff-deepens</id>
+    <updated>2026-09-02T04:12:39.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>A fresh selloff in Treasuries has pushed the yield gap between US and Chinese 10-year bonds back toward an all-time high, raising the risk of capital outflow from the Asian nation.</summary>
+  </entry>
+  <entry>
+    <title>Corn Drops Most in Three Weeks as Profit-Taking Hits Grain Rally</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-02/corn-drops-most-in-three-weeks-as-profit-taking-hits-grain-rally"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-02/corn-drops-most-in-three-weeks-as-profit-taking-hits-grain-rally</id>
+    <updated>2026-09-02T04:08:15.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Corn futures fell the most in almost three weeks with a wave of profit-taking pulling down US grains markets after a weekslong rally fueled by geopolitical and weather risks.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic's Claude Fable 5.1 promises better coding and research at up to 45 percent less</title>
+    <link href="https://the-decoder.com/anthropics-claude-fable-5-1-promises-better-coding-and-research-at-up-to-45-percent-less"/>
+    <id>https://the-decoder.com/anthropics-claude-fable-5-1-promises-better-coding-and-research-at-up-to-45-percent-less</id>
+    <updated>2026-09-01T20:32:55.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Anthropic launches Claude Fable 5.1 and Mythos 5.1, its most capable AI models yet. Fable 5.1 doubles its predecessor's score on Terminal-Bench-Science and improves agentic coding by over 30 percent. Costs drop by up to 45 percent for long, autonomous runs with many tool calls. The article Anthropic's Claude Fable 5.1 </summary>
+  </entry>
+  <entry>
+    <title>Introducing Claude Fable 5.1 on AWS</title>
+    <link href="https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-1-on-aws"/>
+    <id>https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-1-on-aws</id>
+    <updated>2026-09-01T19:12:43.000Z</updated>
+    <author><name>AWS ML Blog</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Claude Fable 5.1 is now available on Amazon Bedrock and Claude Platform on AWS. This post covers Claude Fable 5.1's improvements, the Enterprise Frontier Safeguards for keeping your data in a cloud environment you control, and how to start building with the model on Amazon Bedrock.</summary>
+  </entry>
+  <entry>
+    <title>Nvidia Partner Gets Strong Demand for Rare GPU-Tied Loan in Asia</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-02/nvidia-partner-gets-strong-demand-for-rare-gpu-tied-loan-in-asia"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-02/nvidia-partner-gets-strong-demand-for-rare-gpu-tied-loan-in-asia</id>
+    <updated>2026-09-02T02:45:25.000Z</updated>
+    <author><name>Bloomberg Tech</name></author>
     <category term="HARDWARE"/>
-    <summary>Monique Mulima / Bloomberg : IPO filing: SB Energy says it has 8.8GW of data center capacity contracted or under construction across Texas and Ohio and a $430B data center segment backlog — SB Energy Inc., a data center firm backed by SoftBank Group Corp., filed for a US initial public offering to fund …</summary>
-  </entry>
-  <entry>
-    <title>The hard parts of AI-assisted science</title>
-    <link href="https://allenai.org/blog/swedish-autodiscovery-recap"/>
-    <id>https://allenai.org/blog/swedish-autodiscovery-recap</id>
-    <updated>2026-09-01T08:00:00.000Z</updated>
-    <author><name>Ai2 (Allen Institute)</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>At an Ai2 event marking our expanded collaboration with Providence Swedish, researchers explored the hardest problems in AI-assisted science: keeping systems steerable, grounded in human judgment and sound methods, and responsive to new evidence and experiments.</summary>
-  </entry>
-  <entry>
-    <title>PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors</title>
-    <link href="https://www.latent.space/p/pr-not-welcome"/>
-    <id>https://www.latent.space/p/pr-not-welcome</id>
-    <updated>2026-09-01T16:17:15.000Z</updated>
-    <author><name>Latent Space</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Vercel’s AI SDK, Astro, Flue and tldraw are replacing drive-by community PRs with software factories, where teams of agents apply fixes and features.</summary>
-  </entry>
-  <entry>
-    <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
-    <link href="https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare"/>
-    <id>https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare</id>
-    <updated>2026-09-24T13:00:00.000Z</updated>
-    <author><name>NIST AI News</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>This Symposium is a one-day event to address the question: “ which medical measurements and consensus standards should be prioritized to support future U.S. healthcare?” The focus will be on medical imaging, medical devices, and diagnostics. The goal</summary>
+    <summary>GMI Cloud, an Nvidia Corp. partner, secured commitments for more than double the amount it was seeking in a loan backed by the sale of computing power from advanced chips, underscoring strong demand for one of the first such deals in Asia.</summary>
   </entry>
 </feed>
