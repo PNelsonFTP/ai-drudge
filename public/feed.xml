@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-09-02T04:17:22.096Z</updated>
+  <updated>2026-09-02T09:28:47.830Z</updated>
   <entry>
     <title>claude-code v2.1.258 released</title>
     <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.258"/>
@@ -14,6 +14,15 @@
     <author><name>anthropics/claude-code</name></author>
     <category term="MODEL RELEASES"/>
     <summary>What's changed Fixed Claude Code failing to launch on macOS 12 (Monterey), a regression introduced in 2.1.255 Fixed remote and scheduled sessions failing with &quot;user messages must have non-empty content&quot; after a re-sent permission approval could not be applied — Also covered by: QwenLM/qwen-code</summary>
+  </entry>
+  <entry>
+    <title>Introducing Claude Fable 5.1 on AWS</title>
+    <link href="https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-1-on-aws"/>
+    <id>https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-1-on-aws</id>
+    <updated>2026-09-01T19:12:43.000Z</updated>
+    <author><name>AWS ML Blog</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Claude Fable 5.1 is now available on Amazon Bedrock and Claude Platform on AWS. This post covers Claude Fable 5.1's improvements, the Enterprise Frontier Safeguards for keeping your data in a cloud environment you control, and how to start building with the model on Amazon Bedrock. — Also covered by: AI News (smol.ai)</summary>
   </entry>
   <entry>
     <title>MIT Quantum Initiative Launches Gordon and Betty Moore Foundation-Backed Postdoctoral Fellowship</title>
@@ -61,22 +70,22 @@
     <summary>Quantum software developer QC Ware and trapped-ion hardware vendor IonQ (NYSE: IONQ) have demonstrated a hybrid quantum-classical chemistry workflow combining QC Ware’s Promethium® platform with the IonQ Forte quantum computer. Executed via Amazon Braket and supported by AWS cloud compute credits, the joint test calcul — Also covered by: The Quantum Insider</summary>
   </entry>
   <entry>
-    <title>ollama v0.33.3 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.33.3-rc0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.33.3-rc0</id>
-    <updated>2026-09-02T00:11:33.000Z</updated>
-    <author><name>ollama/ollama</name></author>
+    <title>llama.cpp b10757 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10757"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10757</id>
+    <updated>2026-09-02T08:44:51.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>What's Changed Honor GGUF model defined default parameters MLX, MLX-C, llama.cpp update New Contributors @marcelpetrick made their first contribution in #17579 Full Changelog : v0.33.2...v0.33.3-rc0</summary>
+    <summary>vulkan: handle larger batch sizes (&gt;4) efficiently for IQ3_S mat-vec ( #27449 ) vulkan: handle larger batch sizes (&gt;4) efficiently for IQ3_S mat-vec when NUM_COLS &gt; 4. 5x perf at n=8 Assisted-by: Claude Opus 5 adds 2 cases per quant type at k=16*256 to the all_types mat-vec sweep Co-authored-by: Marshall assistant@llam</summary>
   </entry>
   <entry>
-    <title>AfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valued at $3.2B</title>
-    <link href="https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b"/>
-    <id>https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b</id>
-    <updated>2026-09-01T22:08:24.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>OpenAI launches a ChatGPT Health integration with Epic's EHR system and a new Healthcare Public Data plug-in that can fetch info from sources including PubMed (Ivan Mehta/TechCrunch)</title>
+    <link href="https://www.techmeme.com/260902/p6"/>
+    <id>https://www.techmeme.com/260902/p6</id>
+    <updated>2026-09-02T07:55:00.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>AI model-training startup AfterQuery has reportedly raised a round that valued it at $3.2 billion, just five months after announcing its $30 million Series A at a $300 million valuation in April.</summary>
+    <summary>Ivan Mehta / TechCrunch : OpenAI launches a ChatGPT Health integration with Epic's EHR system and a new Healthcare Public Data plug-in that can fetch info from sources including PubMed — OpenAI said today that it is integrating ChatGPT Health with Epic's electronic health record (EHR) system, which holds data …</summary>
   </entry>
   <entry>
     <title>trajectory-judge: What Outcome-Only LLM Judges Miss on Agent Trajectories</title>
@@ -88,13 +97,13 @@
     <summary>arXiv:2609.00038v1 Announce Type: new Abstract: Outcome-only evaluation is the production default for LLM agents: show a judge the request and the final reply and ask whether it was handled well. The metric is structurally blind to an agent that reaches the right answer the wrong way. We measure that blind spot where g</summary>
   </entry>
   <entry>
-    <title>India’s Diaspora Deposit Flows Surpass $100 Billion, FE Reports</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-02/india-s-diaspora-deposit-flows-surpass-100-billion-fe-reports"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-02/india-s-diaspora-deposit-flows-surpass-100-billion-fe-reports</id>
-    <updated>2026-09-02T03:27:00.000Z</updated>
+    <title>TPG’s Asia OneHealthcare Is Said to Confidentially File for $2.5 Billion IPO</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-02/tpg-s-asia-onehealthcare-is-said-to-confidentially-file-for-2-5-billion-ipo"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-02/tpg-s-asia-onehealthcare-is-said-to-confidentially-file-for-2-5-billion-ipo</id>
+    <updated>2026-09-02T09:00:54.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Inflows under the Reserve Bank of India’s special overseas deposit facility have topped the $100 billion mark, the Financial Express newspaper reported Wednesday, citing officials it did not identify.</summary>
+    <summary>TPG Inc.-backed Asia OneHealthcare Sdn. has confidentially filed for an initial public offering in Kuala Lumpur to potentially raise as much as 10 billion ringgit ($2.5 billion), according to people with knowledge of the matter.</summary>
   </entry>
   <entry>
     <title>Long-Horizon State Tracking in LLMs: Executing MD5 through a Deep Sequence of Dependent Tool Calls</title>
@@ -106,49 +115,49 @@
     <summary>arXiv:2609.00012v1 Announce Type: new Abstract: Long-horizon tasks remain uncommon in large language model (LLM) evaluation, and for a reason: when each step depends on the last, per-step accuracy that looks excellent in isolation decays catastrophically, as errors cascade and the end-to-end failure probability grows s</summary>
   </entry>
   <entry>
+    <title>[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens</title>
+    <link href="https://www.latent.space/p/ainews-claude-fablemythos-51-new"/>
+    <id>https://www.latent.space/p/ainews-claude-fablemythos-51-new</id>
+    <updated>2026-09-02T07:46:08.000Z</updated>
+    <author><name>Latent Space</name></author>
+    <category term="HARDWARE"/>
+    <summary>Queue the usual rush of model launches...</summary>
+  </entry>
+  <entry>
+    <title>GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends</title>
+    <link href="https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html"/>
+    <id>https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html</id>
+    <updated>2026-09-02T09:18:02.000Z</updated>
+    <author><name>The Hacker News</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Two vulnerabilities in GeoNetwork can be chained to achieve unauthenticated remote code execution (RCE) on the open-source geospatial metadata catalog, which sits behind many government and agency geoportals. The project shipped fixes in versions 4.4.12 and 4.2.17 on July 8, 2026, and published the vulnerability detail</summary>
+  </entry>
+  <entry>
+    <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
+    <link href="https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare"/>
+    <id>https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare</id>
+    <updated>2026-09-24T13:00:00.000Z</updated>
+    <author><name>NIST AI News</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>This Symposium is a one-day event to address the question: “ which medical measurements and consensus standards should be prioritized to support future U.S. healthcare?” The focus will be on medical imaging, medical devices, and diagnostics. The goal</summary>
+  </entry>
+  <entry>
+    <title>OWASP GenAI Security Project Unveils 2026 Top 10 for LLM Applications, New Agent Control Standard and Sponsors as Community Tops 30,000 Members</title>
+    <link href="https://genai.owasp.org/2026/09/01/owasp-genai-security-project-unveils-2026-top-10-for-llm-applications-new-agent-control-standard-and-sponsors-as-community-tops-30000-members"/>
+    <id>https://genai.owasp.org/2026/09/01/owasp-genai-security-project-unveils-2026-top-10-for-llm-applications-new-agent-control-standard-and-sponsors-as-community-tops-30000-members</id>
+    <updated>2026-09-02T04:59:10.000Z</updated>
+    <author><name>OWASP GenAI Security</name></author>
+    <category term="AI SECURITY"/>
+    <summary>OWASP GenAI Security Project Releases 2026 Top 10 for LLM Applications, Debuts Agent Control Standard and New Resources for Securing Generative and Agentic AI F5, WitnessAI, Evoke Security and Mondoo Inc. join as new sponsors as community expands AI security solutions guidance and surpasses 30,000 members WILMINGTON, D</summary>
+  </entry>
+  <entry>
     <title>Anthropic opens Claude AI text detection to regulators, media, fact-checkers, and others</title>
     <link href="https://the-decoder.com/anthropic-opens-claude-ai-text-detection-to-regulators-media-fact-checkers-and-others"/>
     <id>https://the-decoder.com/anthropic-opens-claude-ai-text-detection-to-regulators-media-fact-checkers-and-others</id>
     <updated>2026-09-01T20:40:36.000Z</updated>
     <author><name>The Decoder</name></author>
-    <category term="PRODUCTS"/>
+    <category term="CYBER DEFENSE"/>
     <summary>Anthropic is launching an API that lets regulators, media outlets, and researchers check whether text carries Claude's digital watermark. The EU AI Act now requires invisible watermarks in AI-generated text. Critics warn the technology could hurt text quality and create transparency problems where contracts ban AI use.</summary>
-  </entry>
-  <entry>
-    <title>NVIDIA and CrowdStrike Strengthen Agentic Cybersecurity Frontier</title>
-    <link href="https://blogs.nvidia.com/blog/nvidia-crowdstrike-fal-con-2026"/>
-    <id>https://blogs.nvidia.com/blog/nvidia-crowdstrike-fal-con-2026</id>
-    <updated>2026-09-01T21:19:20.000Z</updated>
-    <author><name>NVIDIA Blog</name></author>
-    <category term="HARDWARE"/>
-    <summary>“We’re at an inflection point in cybersecurity,” Jensen Huang told a sold-out crowd at CrowdStrike’s Fal.Con 2026 in Las Vegas Tuesday. Attacks are now automated. Defense has to be, too. The NVIDIA founder and CEO joined CrowdStrike CEO and founder George Kurtz to announce CrowdStrike SafeMind, its agentic cybersecurit</summary>
-  </entry>
-  <entry>
-    <title>Critical Langflow flaw exploited to steal OpenAI and AWS keys</title>
-    <link href="https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys"/>
-    <id>https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys</id>
-    <updated>2026-09-01T17:54:22.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Threat actors are exploiting an unauthenticated remote code execution vulnerability (CVE-2026-0768) in Langflow, an open-source framework for building AI applications, to steal credentials, tokens, and keys. [...]</summary>
-  </entry>
-  <entry>
-    <title>The Hugging Face hack could indicate cultural issues at OpenAI</title>
-    <link href="https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai"/>
-    <id>https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai</id>
-    <updated>2026-08-31T18:00:00.000Z</updated>
-    <author><name>MIT Tech Review AI</name></author>
-    <category term="AI SECURITY"/>
-    <summary>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. By now you’ve probably heard about last month’s major AI security incident, in which OpenAI agents escaped their sandbox and hacked into the AI platform Hugging Face while trying to </summary>
-  </entry>
-  <entry>
-    <title>FBI Probes Service Selling 153M+ Drivers Licenses</title>
-    <link href="https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses"/>
-    <id>https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses</id>
-    <updated>2026-09-01T22:40:28.000Z</updated>
-    <author><name>Krebs on Security</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a</summary>
   </entry>
   <entry>
     <title>Claude Fable 5.1 made me a really nice animated pelican</title>
@@ -169,48 +178,40 @@
     <summary>Lumos Robotics has launched MOS 2, a heavy-duty wheeled dual-arm &quot;AI Worker&quot; with a 50 kg payload capacity, deployed at Mitsubishi Electric facilities following a funding round exceeding 1 billion yuan.</summary>
   </entry>
   <entry>
-    <title>Congressman Langworthy Introduces American Quantum Competitiveness Act (H.R. 10163)</title>
-    <link href="https://quantumcomputingreport.com/congressman-langworthy-introduces-american-quantum-competitiveness-act-h-r-10163"/>
-    <id>https://quantumcomputingreport.com/congressman-langworthy-introduces-american-quantum-competitiveness-act-h-r-10163</id>
-    <updated>2026-09-01T23:56:55.000Z</updated>
-    <author><name>Quantum Computing Report</name></author>
+    <title>Meissner Raises $2.6 Million to Search For New Superconducting Materials</title>
+    <link href="https://thequantuminsider.com/2026/09/02/meissner-raises-2-6-million-to-search-for-new-superconducting-materials"/>
+    <id>https://thequantuminsider.com/2026/09/02/meissner-raises-2-6-million-to-search-for-new-superconducting-materials</id>
+    <updated>2026-09-02T07:27:55.000Z</updated>
+    <author><name>The Quantum Insider</name></author>
     <category term="QUANTUM"/>
-    <summary>U.S. Congressman Nick Langworthy (R-NY-23) has introduced H.R. 10163: The American Quantum Competitiveness Act, federal legislation establishing the U.S. Department of Commerce as the lead federal agency for commercial quantum technology, manufacturing, and supply chain resilience. Referred to the House Committee on En</summary>
+    <summary>Insider Brief Toronto-based materials startup Meissner has raised $2.6 million in pre-seed financing to search for superconductors that could support advances in quantum computing, fusion energy and other emerging industries. The $2.6 million U.S. round, equivalent to about $3.6 million Canadian, included backing from </summary>
   </entry>
   <entry>
-    <title>Introducing agentic video understanding with Gemini</title>
-    <link href="https://deepmind.google/blog/introducing-agentic-video-in-gemini"/>
-    <id>https://deepmind.google/blog/introducing-agentic-video-in-gemini</id>
-    <updated>2026-09-01T17:08:51.000Z</updated>
-    <author><name>Google DeepMind Blog</name></author>
+    <title>ollama v0.33.3 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.33.3-rc0"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.33.3-rc0</id>
+    <updated>2026-09-02T00:11:33.000Z</updated>
+    <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
+    <summary>What's Changed Honor GGUF model defined default parameters MLX, MLX-C, llama.cpp update New Contributors @marcelpetrick made their first contribution in #17579 Full Changelog : v0.33.2...v0.33.3-rc0</summary>
   </entry>
   <entry>
-    <title>SciFin, which helps revenue teams converge fragmented information to understand business needs, raised a $44M seed co-led by Altimeter and Madrona (Kyt Dotson/SiliconANGLE)</title>
-    <link href="https://www.techmeme.com/260901/p64"/>
-    <id>https://www.techmeme.com/260901/p64</id>
-    <updated>2026-09-02T03:25:03.000Z</updated>
+    <title>A look at Kioxia's expansion in Japan's Kitakami, which helped stall the city's demographic decline and is a test of Japan's $640B AI and chips investment plan (Bloomberg)</title>
+    <link href="https://www.techmeme.com/260902/p7"/>
+    <id>https://www.techmeme.com/260902/p7</id>
+    <updated>2026-09-02T08:10:02.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Kyt Dotson / SiliconANGLE : SciFin, which helps revenue teams converge fragmented information to understand business needs, raised a $44M seed co-led by Altimeter and Madrona — SciFin Tech Inc., a company that helps revenue teams converge context across disconnected systems to understand business needs, launched today </summary>
+    <summary>Bloomberg : A look at Kioxia's expansion in Japan's Kitakami, which helped stall the city's demographic decline and is a test of Japan's $640B AI and chips investment plan — Japan is betting $640 billion on AI and chips. But this struggling city shows the limits of that investment.</summary>
   </entry>
   <entry>
-    <title>Tech giants are trying to obliterate privacy. Australia has a rare chance to take back part of their power | Lizzie O'Shea</title>
-    <link href="https://www.theguardian.com/commentisfree/2026/sep/02/tech-giants-australia-privacy-act-legislation-laws"/>
-    <id>https://www.theguardian.com/commentisfree/2026/sep/02/tech-giants-australia-privacy-act-legislation-laws</id>
-    <updated>2026-09-02T03:00:05.000Z</updated>
-    <author><name>The Guardian AI</name></author>
+    <title>The FBI is investigating a new ID theft service called Nexus, which claims to have digital scans of 153M+ drivers licenses from people in the US and Canada (Brian Krebs/Krebs on Security)</title>
+    <link href="https://www.techmeme.com/260902/p8"/>
+    <id>https://www.techmeme.com/260902/p8</id>
+    <updated>2026-09-02T08:30:00.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>‘Pervert glasses’ are selling out, tick-a-box consent is broken and the spectre of surveillance is invading all aspects of our lives Get our breaking news email , free app or daily news podcast A mere five years after the government first started talking about it, new changes have finally been proposed for the Privacy </summary>
-  </entry>
-  <entry>
-    <title>llama.cpp b10752 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10752"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10752</id>
-    <updated>2026-09-02T00:15:46.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>metal : add metallib build support for xcframework ( #28163 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44563342 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubunt</summary>
+    <summary>Brian Krebs / Krebs on Security : The FBI is investigating a new ID theft service called Nexus, which claims to have digital scans of 153M+ drivers licenses from people in the US and Canada — A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licens</summary>
   </entry>
   <entry>
     <title>REAL-Q: E2E LLM Quantization via Dynamic Gradient Descent</title>
@@ -231,48 +232,48 @@
     <summary>arXiv:2609.00048v1 Announce Type: new Abstract: GUI world models are increasingly evaluated as one-step next-screen predictors, yet their intended use is often as multi-step environments for GUI agents. This mismatch leaves a key requirement under-tested: generated states must remain contextually consistent when they a</summary>
   </entry>
   <entry>
-    <title>China-US Yield Gap Nears Record High as Treasury Selloff Deepens</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-02/china-us-yield-gap-nears-record-high-as-treasury-selloff-deepens"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-02/china-us-yield-gap-nears-record-high-as-treasury-selloff-deepens</id>
-    <updated>2026-09-02T04:12:39.000Z</updated>
+    <title>Greek Stocks Crown Comeback With Promotion to Europe’s Top Index</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-02/greek-stocks-crown-comeback-with-promotion-to-europe-s-top-index"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-02/greek-stocks-crown-comeback-with-promotion-to-europe-s-top-index</id>
+    <updated>2026-09-02T09:11:20.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>A fresh selloff in Treasuries has pushed the yield gap between US and Chinese 10-year bonds back toward an all-time high, raising the risk of capital outflow from the Asian nation.</summary>
+    <summary>Greece’s return to the top flight of European markets has opened the door for some of its biggest companies to join the region’s benchmark stocks index.</summary>
   </entry>
   <entry>
-    <title>Corn Drops Most in Three Weeks as Profit-Taking Hits Grain Rally</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-02/corn-drops-most-in-three-weeks-as-profit-taking-hits-grain-rally"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-02/corn-drops-most-in-three-weeks-as-profit-taking-hits-grain-rally</id>
-    <updated>2026-09-02T04:08:15.000Z</updated>
+    <title>India’s BSE Courts HFT Firms to Boost Closing Auction Liquidity</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-02/india-s-bse-courts-hft-firms-to-boost-closing-auction-liquidity"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-02/india-s-bse-courts-hft-firms-to-boost-closing-auction-liquidity</id>
+    <updated>2026-09-02T08:51:21.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Corn futures fell the most in almost three weeks with a wave of profit-taking pulling down US grains markets after a weekslong rally fueled by geopolitical and weather risks.</summary>
+    <summary>BSE Ltd. is engaging with high-frequency traders and other market participants to boost day-end trading volumes after thin liquidity under the newly introduced closing auction system triggered sharp price swings.</summary>
   </entry>
   <entry>
-    <title>Anthropic's Claude Fable 5.1 promises better coding and research at up to 45 percent less</title>
-    <link href="https://the-decoder.com/anthropics-claude-fable-5-1-promises-better-coding-and-research-at-up-to-45-percent-less"/>
-    <id>https://the-decoder.com/anthropics-claude-fable-5-1-promises-better-coding-and-research-at-up-to-45-percent-less</id>
-    <updated>2026-09-01T20:32:55.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Anthropic launches Claude Fable 5.1 and Mythos 5.1, its most capable AI models yet. Fable 5.1 doubles its predecessor's score on Terminal-Bench-Science and improves agentic coding by over 30 percent. Costs drop by up to 45 percent for long, autonomous runs with many tool calls. The article Anthropic's Claude Fable 5.1 </summary>
-  </entry>
-  <entry>
-    <title>Introducing Claude Fable 5.1 on AWS</title>
-    <link href="https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-1-on-aws"/>
-    <id>https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-1-on-aws</id>
-    <updated>2026-09-01T19:12:43.000Z</updated>
-    <author><name>AWS ML Blog</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Claude Fable 5.1 is now available on Amazon Bedrock and Claude Platform on AWS. This post covers Claude Fable 5.1's improvements, the Enterprise Frontier Safeguards for keeping your data in a cloud environment you control, and how to start building with the model on Amazon Bedrock.</summary>
-  </entry>
-  <entry>
-    <title>Nvidia Partner Gets Strong Demand for Rare GPU-Tied Loan in Asia</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-02/nvidia-partner-gets-strong-demand-for-rare-gpu-tied-loan-in-asia"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-02/nvidia-partner-gets-strong-demand-for-rare-gpu-tied-loan-in-asia</id>
-    <updated>2026-09-02T02:45:25.000Z</updated>
-    <author><name>Bloomberg Tech</name></author>
+    <title>NVIDIA and CrowdStrike Strengthen Agentic Cybersecurity Frontier</title>
+    <link href="https://blogs.nvidia.com/blog/nvidia-crowdstrike-fal-con-2026"/>
+    <id>https://blogs.nvidia.com/blog/nvidia-crowdstrike-fal-con-2026</id>
+    <updated>2026-09-01T21:19:20.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
     <category term="HARDWARE"/>
-    <summary>GMI Cloud, an Nvidia Corp. partner, secured commitments for more than double the amount it was seeking in a loan backed by the sale of computing power from advanced chips, underscoring strong demand for one of the first such deals in Asia.</summary>
+    <summary>“We’re at an inflection point in cybersecurity,” Jensen Huang told a sold-out crowd at CrowdStrike’s Fal.Con 2026 in Las Vegas Tuesday. Attacks are now automated. Defense has to be, too. The NVIDIA founder and CEO joined CrowdStrike CEO and founder George Kurtz to announce CrowdStrike SafeMind, its agentic cybersecurit</summary>
+  </entry>
+  <entry>
+    <title>Developer uses Claude Code to debloat Android smart TV for 'unbelievable' performance upgrade — TV now smoother than it was new as autonomous agent deactivates apps, shortens animations, all without root access</title>
+    <link href="https://www.tomshardware.com/tech-industry/artificial-intelligence/developer-uses-claude-code-to-debloat-android-smart-tv-for-unbelievable-performance-upgrade-tv-now-smoother-than-it-was-new-as-autonomous-agent-deactivates-apps-shortens-animations-all-without-root-access"/>
+    <id>https://www.tomshardware.com/tech-industry/artificial-intelligence/developer-uses-claude-code-to-debloat-android-smart-tv-for-unbelievable-performance-upgrade-tv-now-smoother-than-it-was-new-as-autonomous-agent-deactivates-apps-shortens-animations-all-without-root-access</id>
+    <updated>2026-09-02T09:00:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <category term="HARDWARE"/>
+    <summary>A developer revitalized his smart TV performance by using Claude Code to debloat it.</summary>
+  </entry>
+  <entry>
+    <title>A look at South Korea's sovereign AI efforts, including its planned $919B AI infrastructure investment and Nvidia's expanded ties with Samsung and SK Hynix (SemiAnalysis)</title>
+    <link href="https://www.techmeme.com/260902/p3"/>
+    <id>https://www.techmeme.com/260902/p3</id>
+    <updated>2026-09-02T06:30:00.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>SemiAnalysis : A look at South Korea's sovereign AI efforts, including its planned $919B AI infrastructure investment and Nvidia's expanded ties with Samsung and SK Hynix — Korea hosts a Squid Games, National AI Tournament, the best non-Chinese open source model gets eliminated, why Nvidia needs open source, implicatio</summary>
   </entry>
 </feed>
