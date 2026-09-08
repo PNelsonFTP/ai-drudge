@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-09-08T09:32:56.213Z</updated>
+  <updated>2026-09-08T14:23:55.488Z</updated>
   <entry>
-    <title>Arm debuts Neoverse CSS N4, its next-gen semi-custom chip design platform, and says it supports 8 to 128 Neoverse N4 cores at up to 3.8 GHz on TSMC's N3P node (Jake Roach/Tom's Hardware)</title>
-    <link href="https://www.techmeme.com/260908/p3"/>
-    <id>https://www.techmeme.com/260908/p3</id>
-    <updated>2026-09-08T04:55:55.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Jake Roach / Tom's Hardware : Arm debuts Neoverse CSS N4, its next-gen semi-custom chip design platform, and says it supports 8 to 128 Neoverse N4 cores at up to 3.8 GHz on TSMC's N3P node — Putting a little pep in Neoverse N-series' step. … Arm is bringing its next-gen Neoverse CSS N4 platforms to the cloud … — Also covered by: Tom's Hardware</summary>
+    <title>Adobe fixes critical Magento zero-day exploited to backdoor servers</title>
+    <link href="https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers"/>
+    <id>https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers</id>
+    <updated>2026-09-08T13:34:47.000Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Adobe has released an emergency fix for CVE-2026-75650, an actively exploited max-severity zero-day vulnerability dubbed StyleSmuggler, that impacts multiple versions of Magento and Adobe Commerce. [...] — Also covered by: The Hacker News, BleepingComputer</summary>
   </entry>
   <entry>
     <title>Seattle Times and Newsday sue OpenAI and Microsoft for infringement</title>
@@ -34,58 +34,67 @@
     <summary>Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion.</summary>
   </entry>
   <entry>
-    <title>Mistral raised a €3B Series D led by Samsung at a €21B valuation, up from €11.7B a year ago, as it expands into data centers beyond developing AI models (Adam Satariano/New York Times)</title>
-    <link href="https://www.techmeme.com/260908/p4"/>
-    <id>https://www.techmeme.com/260908/p4</id>
-    <updated>2026-09-08T05:25:52.000Z</updated>
+    <title>Poseidon Aerospace, which plans the first test flight of its pilotless cargo plane by year-end, raised a $60M Series A led by TQ Ventures, after an $11M seed (Sean O'Kane/TechCrunch)</title>
+    <link href="https://www.techmeme.com/260908/p20"/>
+    <id>https://www.techmeme.com/260908/p20</id>
+    <updated>2026-09-08T14:10:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Adam Satariano / New York Times : Mistral raised a &amp;euro;3B Series D led by Samsung at a &amp;euro;21B valuation, up from &amp;euro;11.7B a year ago, as it expands into data centers beyond developing AI models — Mistral is trying to keep pace with American and Chinese rivals while offering customers a European alternative for </summary>
+    <summary>Sean O'Kane / TechCrunch : Poseidon Aerospace, which plans the first test flight of its pilotless cargo plane by year-end, raised a $60M Series A led by TQ Ventures, after an $11M seed — Silicon Valley is known for embracing the ethos of “move fast and break things.” Poseidon Aerospace's co-founder and CEO David Zagayn</summary>
   </entry>
   <entry>
-    <title>I made a custom llama.cpp build optimized for 7900xtx (one or two). for qwen 3.8 next and 27B. includes optimizations for PciE x4 and tensor parallel. read inside! (no AI slop)</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1waif2b/i_made_a_custom_llamacpp_build_optimized_for"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1waif2b/i_made_a_custom_llamacpp_build_optimized_for</id>
-    <updated>2026-09-08T08:22:52.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>llama.cpp b10863 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10863"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10863</id>
+    <updated>2026-09-08T14:01:19.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>I found a lot of room on the table for these cards so I decided to make a specialized build to squeeze all I could. first The results: qwen 3.8 next Q3_K_XL: 920tk/s pp8192 (2 cards, ram offload), 24/27 tk/s on prose, 40+ tk/s on code with MTP but without MoE expert cache (which IS included if yuo want, read below) qwe</summary>
+    <summary>metal : fix idle threads in mul_mv_iq3_xxs for ne00 &lt; 1024 ( #28086 ) metal : fix half-idle simdgroup in kernel_mul_mv_iq3_xxs_f32 for ne00 &lt; 1024 metal : keep N_R0_IQ3_XXS = 4, dispatch a separate 8-row split kernel for ne00/32 &lt; 32 The plain kernel is unchanged from master (4 rows per simdgroup, one thread per chunk)</summary>
   </entry>
   <entry>
-    <title>ITL AI Webinar: The Development of an AI Agent Enrichment Workflow at the National Vulnerability Database</title>
-    <link href="https://www.nist.gov/news-events/events/2026/09/itl-ai-webinar-development-ai-agent-enrichment-workflow-national"/>
-    <id>https://www.nist.gov/news-events/events/2026/09/itl-ai-webinar-development-ai-agent-enrichment-workflow-national</id>
-    <updated>2026-09-17T15:00:00.000Z</updated>
-    <author><name>NIST AI News</name></author>
+    <title>OpenAI models went rogue. We urgently need a better ‘hugging face’ investigation | Mackenzie Arnold and Stephan Llerena</title>
+    <link href="https://www.theguardian.com/commentisfree/2026/sep/08/openai-rogue-models-hugging-face-investigation"/>
+    <id>https://www.theguardian.com/commentisfree/2026/sep/08/openai-rogue-models-hugging-face-investigation</id>
+    <updated>2026-09-08T10:00:00.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Join NIST on September 17, 2026 for an Information Technology Laboratory (ITL) AI Program hosted webinar on the development of an AI agent enrichment workflow at the National Vulnerability Database. The National Vulnerability Database (NVD)</summary>
+    <summary>The breach won’t be the last – or the most dangerous – of its kind. We need an agency capable of full investigations into AI incidents When OpenAI first revealed that its AI agents had autonomously hacked a major real-world company, Hugging Face, many assumed only one or two agents were involved. The truth, a new repor</summary>
   </entry>
   <entry>
-    <title>Mistral raises record €3bn as Europe strains to keep pace in AI race</title>
-    <link href="https://www.ft.com/content/adbf5262-c4d5-4312-a9b8-4d3cf30c9e00?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/adbf5262-c4d5-4312-a9b8-4d3cf30c9e00?syn-25a6b1a6=1</id>
-    <updated>2026-09-08T05:00:07.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
+    <title>Banks Offer €2.8 Billion Debt Sale for Nestle Water Buyout</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-08/banks-offer-2-8-billion-debt-sale-for-nestle-water-buyout"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-08/banks-offer-2-8-billion-debt-sale-for-nestle-water-buyout</id>
+    <updated>2026-09-08T14:02:09.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>New funding round led by Samsung comes as French AI model maker continues to challenge US and Chinese rivals</summary>
+    <summary>Lenders including Bank of America Corp. and Deutsche Bank AG have launched a €2.8 billion ($3.3 billion) debt sale to help finance Platinum Equity’s purchase of a stake in Nestle SA’s water business.</summary>
   </entry>
   <entry>
-    <title>Reducto Releases r-1: A Single Pass Document Parsing Model That Cuts Errors 20% at 1 Cent Per Page</title>
-    <link href="https://www.marktechpost.com/2026/09/07/reducto-releases-r-1-a-single-pass-document-parsing-model-that-cuts-errors-20-at-1-cent-per-page"/>
-    <id>https://www.marktechpost.com/2026/09/07/reducto-releases-r-1-a-single-pass-document-parsing-model-that-cuts-errors-20-at-1-cent-per-page</id>
-    <updated>2026-09-08T03:07:15.000Z</updated>
-    <author><name>MarkTechPost</name></author>
+    <title>Benchmarking Qwen 3.8 27B on RTX 5090 and beyond — VRAM capacity alone can't overcome severe software and inference engine bottlenecks</title>
+    <link href="https://www.tomshardware.com/tech-industry/artificial-intelligence/benchmarking-qwen-3-8-27b-on-rtx-5090-and-beyond-vram-capacity-alone-cant-overcome-severe-software-and-inference-engine-bottlenecks"/>
+    <id>https://www.tomshardware.com/tech-industry/artificial-intelligence/benchmarking-qwen-3-8-27b-on-rtx-5090-and-beyond-vram-capacity-alone-cant-overcome-severe-software-and-inference-engine-bottlenecks</id>
+    <updated>2026-09-08T13:30:02.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
     <category term="RESEARCH"/>
-    <summary>We look at r-1, the document parsing model Reducto released on September 1, 2026. We walk through how it folds OCR, layout detection, tables, formatting and grounding into one full page pass, replacing the multi stage agentic pipeline it ships alongside. We break down the two numbers that matter for a migration decisio</summary>
+    <summary>Following the release of Qwen 3.8 27B, we put our trusty hardware to the test to see which hardware might be best suited for running this open-weight AI model.</summary>
   </entry>
   <entry>
-    <title>Argentina's Patagonia region is drawing interest from hyperscalers and data center developers due to its cold climate, expanses of land, and renewable energy (Leila Miller/Reuters)</title>
-    <link href="https://www.techmeme.com/260908/p5"/>
-    <id>https://www.techmeme.com/260908/p5</id>
-    <updated>2026-09-08T08:56:11.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>XPENG Launches Mass Production of IRON Humanoid</title>
+    <link href="https://www.humanoidsdaily.com/news/xpeng-launches-mass-production-of-iron-humanoid"/>
+    <id>https://www.humanoidsdaily.com/news/xpeng-launches-mass-production-of-iron-humanoid</id>
+    <updated>2026-09-07T21:28:21.000Z</updated>
+    <author><name>Humanoids Daily</name></author>
     <category term="PRODUCTS"/>
-    <summary>Leila Miller / Reuters : Argentina's Patagonia region is drawing interest from hyperscalers and data center developers due to its cold climate, expanses of land, and renewable energy — Argentina's rugged Patagonia is drawing increasing interest from investors searching for sites for mega data centers who are enticed …</summary>
+    <summary>XPENG has officially launched its automotive-grade assembly line for the IRON humanoid, achieving a world-first autonomous walk-off milestone</summary>
+  </entry>
+  <entry>
+    <title>Qualcomm signs a deal with Amazon to provide &quot;multiple generations of customized silicon&quot; to help build AWS' AI infrastructure for inference; QCOM jumps ~5% (Ari Levy/CNBC)</title>
+    <link href="https://www.techmeme.com/260908/p17"/>
+    <id>https://www.techmeme.com/260908/p17</id>
+    <updated>2026-09-08T13:35:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="HARDWARE"/>
+    <summary>Ari Levy / CNBC : Qualcomm signs a deal with Amazon to provide “multiple generations of customized silicon” to help build AWS' AI infrastructure for inference; QCOM jumps ~5% — Qualcomm shares rose 4% on Tuesday after the company announced a data center infrastructure partnership with Amazon Web Services …</summary>
   </entry>
   <entry>
     <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
@@ -97,58 +106,58 @@
     <summary>This Symposium is a one-day event to address the question: “ which medical measurements and consensus standards should be prioritized to support future U.S. healthcare?” The focus will be on medical imaging, medical devices, and diagnostics. The goal</summary>
   </entry>
   <entry>
-    <title>Prompt injection protection: Detecting and blocking malicious AI instructions</title>
-    <link href="https://www.acronis.com/en/blog/posts/prompt-injection-protection-detecting-and-blocking-malicious-ai-instructions"/>
-    <id>https://www.acronis.com/en/blog/posts/prompt-injection-protection-detecting-and-blocking-malicious-ai-instructions</id>
-    <updated>2026-09-07T16:46:28.000Z</updated>
-    <author><name>GN: Prompt Injection</name></author>
+    <title>When “Auto-Signing” Sends Your Wallet: A Malicious MCP Server on npm</title>
+    <link href="https://www.knostic.ai/blog/when-auto-signing-sends-your-wallet-private-key-to-a-remote-server-a-malicious-mcp-package-on-npm"/>
+    <id>https://www.knostic.ai/blog/when-auto-signing-sends-your-wallet-private-key-to-a-remote-server-a-malicious-mcp-package-on-npm</id>
+    <updated>2026-09-08T11:00:00.000Z</updated>
+    <author><name>Knostic</name></author>
     <category term="AI SECURITY"/>
-    <summary>Prompt injection protection: Detecting and blocking malicious AI instructions Acronis</summary>
+    <summary>Software supply chain attacks are not new, but the rapid adoption of Model Context Protocol (MCP) expands the blast radius. When developers grant AI agents &quot;auto-signing&quot; capabilities, they remove one more human-in-the-loop safeguard. A newly discovered malicious MCP package on npm illustrates this scenario. By hijacki</summary>
   </entry>
   <entry>
-    <title>Grindr to Pay £26 Million to Settle U.K. Claims Over HIV Status Data Sharing</title>
-    <link href="https://thehackernews.com/2026/09/grindr-to-pay-26-million-to-settle-uk.html"/>
-    <id>https://thehackernews.com/2026/09/grindr-to-pay-26-million-to-settle-uk.html</id>
-    <updated>2026-09-08T07:00:43.000Z</updated>
+    <title>What It Took to Reach 1 Billion Build Manifests</title>
+    <link href="https://thehackernews.com/2026/09/what-it-took-to-reach-1-billion-build.html"/>
+    <id>https://thehackernews.com/2026/09/what-it-took-to-reach-1-billion-build.html</id>
+    <updated>2026-09-08T11:49:02.000Z</updated>
     <author><name>The Hacker News</name></author>
     <category term="CYBER THREATS"/>
-    <summary>Online dating app Grindr has opted to pay £26 million ($35.1 million) to settle a lawsuit in the U.K. over allegations that it shared users' personal information, including their HIV status, with third-parties. Grindr, which is the largest LGBTQ+ dating app, was sued in April 2024, accusing it of violating U.K. privacy</summary>
+    <summary>In the last six months, Chainguard doubled its output from 500 million to more than 1 billion container build manifests. We also surpassed 3,000 unique container images and 675,000 image versions in our catalog. Those are the headline numbers, but I want to share what's actually behind them. The number itself is less i</summary>
   </entry>
   <entry>
-    <title>llm 0.35</title>
-    <link href="https://simonwillison.net/2026/Sep/7/llm"/>
-    <id>https://simonwillison.net/2026/Sep/7/llm</id>
-    <updated>2026-09-07T23:54:54.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses</title>
+    <link href="https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3"/>
+    <id>https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3</id>
+    <updated>2026-09-08T14:15:25.000Z</updated>
+    <author><name>Interconnects (Lambert)</name></author>
     <category term="ANALYSIS"/>
-    <summary>Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra</summary>
+    <summary>The open model ecosystem continues to expand in its breadth</summary>
   </entry>
   <entry>
-    <title>XPENG Launches Mass Production of IRON Humanoid</title>
-    <link href="https://www.humanoidsdaily.com/news/xpeng-launches-mass-production-of-iron-humanoid"/>
-    <id>https://www.humanoidsdaily.com/news/xpeng-launches-mass-production-of-iron-humanoid</id>
-    <updated>2026-09-07T21:28:21.000Z</updated>
+    <title>From Stadiums to the Front Line: How China and the US Are Preparing Humanoids for Combat</title>
+    <link href="https://www.humanoidsdaily.com/news/from-stadiums-to-the-front-line-how-china-and-the-us-are-preparing-humanoids-for-combat"/>
+    <id>https://www.humanoidsdaily.com/news/from-stadiums-to-the-front-line-how-china-and-the-us-are-preparing-humanoids-for-combat</id>
+    <updated>2026-09-08T12:31:44.000Z</updated>
     <author><name>Humanoids Daily</name></author>
     <category term="ROBOTICS"/>
-    <summary>XPENG has officially launched its automotive-grade assembly line for the IRON humanoid, achieving a world-first autonomous walk-off milestone</summary>
+    <summary>An extensive investigation reveals China’s defense establishment is laying the operational groundwork for combat humanoids, spotlighting an asymmetric race against solitary US defense contenders like Foundation.</summary>
   </entry>
   <entry>
-    <title>Fujitsu develops diamond-spin quantum computer prototype</title>
-    <link href="https://thequantuminsider.com/2026/09/08/fujitsu-develops-diamond-spin-quantum-computer-prototype"/>
-    <id>https://thequantuminsider.com/2026/09/08/fujitsu-develops-diamond-spin-quantum-computer-prototype</id>
-    <updated>2026-09-08T07:23:37.000Z</updated>
+    <title>IonQ Launches Superion 256 Quantum Computing Platform</title>
+    <link href="https://thequantuminsider.com/2026/09/08/ionq-launches-superion-256-quantum-computing-platform"/>
+    <id>https://thequantuminsider.com/2026/09/08/ionq-launches-superion-256-quantum-computing-platform</id>
+    <updated>2026-09-08T13:20:27.000Z</updated>
     <author><name>The Quantum Insider</name></author>
     <category term="QUANTUM"/>
-    <summary>Insider Brief PRESS RELEASE — Fujitsu today announced that it has developed the world’s first working prototype of a diamond-spin quantum computer incorporating tin-vacancy (SnV) centers into photonic integrated circuits [1] [2]. The prototype can be operated at -271.6°C, higher than the typical operating temperature o</summary>
+    <summary>Insider Brief PRESS RELEASE — IonQ (NYSE: IONQ), the world’s leading full-stack quantum platform and foundry, today announced IonQ Superion 256, its sixth-generation quantum computing platform. This system is the first in the Superion platform that all future compute products are expected to be built on. The company al</summary>
   </entry>
   <entry>
-    <title>llama.cpp b10853 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10853"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10853</id>
-    <updated>2026-09-08T04:00:33.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="GITHUB REPOS"/>
-    <summary>model : support Kimi-K3 recurrent-state rollback ( #28466 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45866131 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu </summary>
+    <title>AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome</title>
+    <link href="https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome"/>
+    <id>https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome</id>
+    <updated>2026-09-08T14:00:15.000Z</updated>
+    <author><name>Google DeepMind Blog</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.</summary>
   </entry>
   <entry>
     <title>Mistral AI raises 3 billion euros in Europe's largest-ever tech funding round despite lagging behind rivals</title>
@@ -160,119 +169,111 @@
     <summary>Three years after launch, Mistral AI has closed a 3 billion euro Series D round, pushing its valuation past 21 billion euros. The article Mistral AI raises 3 billion euros in Europe's largest-ever tech funding round despite lagging behind rivals appeared first on The Decoder .</summary>
   </entry>
   <entry>
-    <title>What are some practical tasks I can assign to my local AI models?</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1waj4k4/what_are_some_practical_tasks_i_can_assign_to_my"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1waj4k4/what_are_some_practical_tasks_i_can_assign_to_my</id>
-    <updated>2026-09-08T09:05:02.000Z</updated>
+    <title>Mistral raises €3B as sovereign AI becomes big business</title>
+    <link href="https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business"/>
+    <id>https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business</id>
+    <updated>2026-09-08T14:17:48.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>The French AI lab has raised €3 billion at a €21 billion valuation in a Series D round led by Samsung, Scaleup Europe and PSG Equity.</summary>
+  </entry>
+  <entry>
+    <title>DeepSeek Flash 4.1 is already being tested via API and rolling out.</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wan3nl/deepseek_flash_41_is_already_being_tested_via_api"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wan3nl/deepseek_flash_41_is_already_being_tested_via_api</id>
+    <updated>2026-09-08T12:31:05.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>I'm looking for more information to expand my creativity around this. I don't really have a realistic idea of what people actually do with local AI yet, I mostly just want to explore the possibilities and see what others are using it for Right now, the main things I know about are using AI is to help with coding, creat</summary>
+    <summary>Translation: &quot;Internal beta testing for an intermediate version of DeepSeek V4.1 Flash is now open; you are welcome to try it out. It adopts a new model architecture featuring native multimodal support, stronger capabilities, faster speeds, and lower costs. Keep your base_url unchanged and set the model name to deepsee</summary>
   </entry>
   <entry>
-    <title>Quoting Jakub Pachocki</title>
-    <link href="https://simonwillison.net/2026/Sep/7/jakub-pachocki"/>
-    <id>https://simonwillison.net/2026/Sep/7/jakub-pachocki</id>
-    <updated>2026-09-07T22:26:25.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>XHToken/Spark-X2.5-4B VS inclusionAI/Ling-3.0-tiny VS Nanbeige/Nanbeige4.2-3B</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wao3d5/xhtokensparkx254b_vs_inclusionailing30tiny_vs"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wao3d5/xhtokensparkx254b_vs_inclusionailing30tiny_vs</id>
+    <updated>2026-09-08T13:14:23.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Which small model are you ppl finding the most useful rn? They all seem to compete for the same size class while actively avoiding each other in benchmark tables submitted by /u/Hot_Example_4456 [link] [comments]</summary>
+  </entry>
+  <entry>
+    <title>langchain v1.6.1 released</title>
+    <link href="https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.1"/>
+    <id>https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.1</id>
+    <updated>2026-09-08T14:20:42.000Z</updated>
+    <author><name>langchain-ai/langchain</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real time, and to invent entirely new protectiv</summary>
+    <summary>Changes since langchain-openai==1.6.0 fix(openai): bump max_completion_tokens in cache breakpoint integration test ( #40284 ) release(openai): 1.6.1 ( #40268 ) chore(model-profiles): refresh model profile data ( #40217 ) fix(openai): support Azure AD auth with OpenAI 3.8 ( #40190 ) feat(openai): support async tools ( #</summary>
   </entry>
   <entry>
-    <title>Art Worth €9 Million Stolen From Renoir Museum on French Riviera</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-08/art-worth-9-million-stolen-from-renoir-museum-on-french-riviera"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-08/art-worth-9-million-stolen-from-renoir-museum-on-french-riviera</id>
-    <updated>2026-09-08T09:27:26.000Z</updated>
+    <title>ITL AI Webinar: The Development of an AI Agent Enrichment Workflow at the National Vulnerability Database</title>
+    <link href="https://www.nist.gov/news-events/events/2026/09/itl-ai-webinar-development-ai-agent-enrichment-workflow-national"/>
+    <id>https://www.nist.gov/news-events/events/2026/09/itl-ai-webinar-development-ai-agent-enrichment-workflow-national</id>
+    <updated>2026-09-17T15:00:00.000Z</updated>
+    <author><name>NIST AI News</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Join NIST on September 17, 2026 for an Information Technology Laboratory (ITL) AI Program hosted webinar on the development of an AI agent enrichment workflow at the National Vulnerability Database. The National Vulnerability Database (NVD)</summary>
+  </entry>
+  <entry>
+    <title>Markets Bracing for PPI, CPI Reports This Week</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-09-08/markets-bracing-for-ppi-cpi-reports-this-week-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-09-08/markets-bracing-for-ppi-cpi-reports-this-week-video</id>
+    <updated>2026-09-08T13:43:43.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Thieves broke into a Renoir museum on the French Riviera and stole works of art worth €9 million ($10.5 million), the latest in a string of heists that has exposed security lapses at European galleries.</summary>
+    <summary>Even with a shortened trading week, two inflation reports could really move markets and impact the next Federal Reserve decision. First is the PPI report on Thursday, followed by the August CPI report that comes out Friday. Bloomberg's Michael McKee has a preview. (Source: Bloomberg)</summary>
   </entry>
   <entry>
-    <title>Hedge Fund Titan Rokos Said to Quit UK for Greece</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-08/hedge-fund-titan-rokos-said-to-quit-uk-for-greece-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-08/hedge-fund-titan-rokos-said-to-quit-uk-for-greece-video</id>
-    <updated>2026-09-08T09:25:24.000Z</updated>
+    <title>Volatility Limits Post-Labor Day US Bond Rush to Six-Year Low</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-08/volatility-limits-post-labor-day-us-bond-rush-to-six-year-low"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-08/volatility-limits-post-labor-day-us-bond-rush-to-six-year-low</id>
+    <updated>2026-09-08T14:05:00.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Chris Rokos, the founder of Rokos Capital Management, is set to leave the UK and switch his residency to Greece, people with knowledge of the arrangement said. Rokos will also open an office in Athens as part of the move, one of the people said. He is the latest in a string of high-profile financiers and business leade</summary>
+    <summary>The US investment-grade debt market is having its quietest post-Labor Day rush in six years, as fresh market volatility is keeping some borrowers on the sidelines.</summary>
   </entry>
   <entry>
-    <title>OpenBMB Releases MiniCPM5-2B: A 2.52B Dense Model Averaging 53.9 Across 34 Benchmarks and Built to Run On Device</title>
-    <link href="https://www.marktechpost.com/2026/09/07/openbmb-releases-minicpm5-2b-a-2-52b-dense-model-averaging-53-9-across-34-benchmarks-and-built-to-run-on-device"/>
-    <id>https://www.marktechpost.com/2026/09/07/openbmb-releases-minicpm5-2b-a-2-52b-dense-model-averaging-53-9-across-34-benchmarks-and-built-to-run-on-device</id>
-    <updated>2026-09-07T19:18:07.000Z</updated>
+    <title>How llm-d makes the most of the hardware you already have</title>
+    <link href="https://research.ibm.com/blog/running-open-models-on-h100-gpus-with-llmd"/>
+    <id>https://research.ibm.com/blog/running-open-models-on-h100-gpus-with-llmd</id>
+    <updated>2026-09-08T12:00:00.000Z</updated>
+    <author><name>IBM Research Blog</name></author>
+    <category term="RESEARCH"/>
+    <summary>IBM Research and Red Hat deployed a 753B open model on H100 GPUs, serving thousands of concurrent coding agents at 5-10x lower cost than commercial APIs.</summary>
+  </entry>
+  <entry>
+    <title>Reducto Releases r-1: A Single Pass Document Parsing Model That Cuts Errors 20% at 1 Cent Per Page</title>
+    <link href="https://www.marktechpost.com/2026/09/07/reducto-releases-r-1-a-single-pass-document-parsing-model-that-cuts-errors-20-at-1-cent-per-page"/>
+    <id>https://www.marktechpost.com/2026/09/07/reducto-releases-r-1-a-single-pass-document-parsing-model-that-cuts-errors-20-at-1-cent-per-page</id>
+    <updated>2026-09-08T03:07:15.000Z</updated>
     <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
-    <summary>OpenBMB has released MiniCPM5-2B, a dense causal language model with 2,516,756,480 parameters and a native 131,072 token context. It averages 53.9 across the 34 benchmarks in its model card, ahead of Qwen3.5-4B at 51.1, with its clearest leads in tool use, coding agents and long-context retrieval. Post-training pairs 4</summary>
+    <summary>We look at r-1, the document parsing model Reducto released on September 1, 2026. We walk through how it folds OCR, layout detection, tables, formatting and grounding into one full page pass, replacing the multi stage agentic pipeline it ships alongside. We break down the two numbers that matter for a migration decisio</summary>
   </entry>
   <entry>
-    <title>Axis Robotics Releases AXIS: A Browser-Based Data Engine With 207 Robot Manipulation Tasks and 50,129 Trajectories</title>
-    <link href="https://www.marktechpost.com/2026/09/07/axis-robotics-releases-axis-a-browser-based-data-engine-with-207-robot-manipulation-tasks-and-50129-trajectories"/>
-    <id>https://www.marktechpost.com/2026/09/07/axis-robotics-releases-axis-a-browser-based-data-engine-with-207-robot-manipulation-tasks-and-50129-trajectories</id>
-    <updated>2026-09-07T18:38:47.000Z</updated>
-    <author><name>MarkTechPost</name></author>
-    <category term="RESEARCH"/>
-    <summary>Robot datasets have grown far slower than the models trained on them, mostly because collection stays locked to lab hardware. AXIS moves demonstration collection into a web browser and pushes everything expensive to backend GPUs. The result is 207 tasks and 50,129 verified Franka trajectories, and continual pretraining</summary>
-  </entry>
-  <entry>
-    <title>Last Week in AI #343 - GPT-6, OpenAI’s agents chatted on a wiki, Fable 5.1</title>
-    <link href="https://lastweekin.ai/p/last-week-in-ai-343-gpt-6-openais"/>
-    <id>https://lastweekin.ai/p/last-week-in-ai-343-gpt-6-openais</id>
-    <updated>2026-09-07T13:02:49.000Z</updated>
-    <author><name>Last Week in AI</name></author>
+    <title>SkyWater Launches Quantum Semiconductor Manufacturing Business</title>
+    <link href="https://thequantuminsider.com/2026/09/08/skywater-launches-quantum-semiconductor-manufacturing-business"/>
+    <id>https://thequantuminsider.com/2026/09/08/skywater-launches-quantum-semiconductor-manufacturing-business</id>
+    <updated>2026-09-08T12:52:45.000Z</updated>
+    <author><name>The Quantum Insider</name></author>
     <category term="PRODUCTS"/>
-    <summary>GPT-6 Astra Is Here, Discovery of a new OpenAI agent message board, Anthropic launches Claude Fable 5.1 and says it’s up to 45 percent cheaper for agentic work, and more!</summary>
+    <summary>Insider Brief PRESS RELEASE — SkyWater Technology announced the launch of SkyWater Quantum Solutions, a dedicated merchant supplier offering focused on semiconductor process development, integration, and manufacturing. This unique offering will provide semiconductor solutions for quantum-computing, networking, and sens</summary>
   </entry>
   <entry>
-    <title>Arm’s C2-Ultra, G2-Ultra NX, and CSS N4 IP</title>
-    <link href="https://chipsandcheese.com/p/arms-c2-ultra-g2-ultra-nx-and-css"/>
-    <id>https://chipsandcheese.com/p/arms-c2-ultra-g2-ultra-nx-and-css</id>
-    <updated>2026-09-08T02:00:00.000Z</updated>
-    <author><name>Chips and Cheese</name></author>
+    <title>Sony threatens to cut off customer support and pursue legal action over harassment as backlash to PlayStation’s physical-disc phaseout intensifies — company to move forward with no disc decision despite several lawsuits</title>
+    <link href="https://www.tomshardware.com/video-games/playstation/sony-threatens-to-cut-off-customer-support-and-pursue-legal-action-over-harassment-as-backlash-to-playstations-physical-disc-phaseout-intensifies-company-to-move-forward-with-no-disc-decision-despite-several-lawsuits"/>
+    <id>https://www.tomshardware.com/video-games/playstation/sony-threatens-to-cut-off-customer-support-and-pursue-legal-action-over-harassment-as-backlash-to-playstations-physical-disc-phaseout-intensifies-company-to-move-forward-with-no-disc-decision-despite-several-lawsuits</id>
+    <updated>2026-09-08T12:20:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
     <category term="HARDWARE"/>
-    <summary>Editor’s Note (9/8/2026): Arm has reached out to clarify that the maximum IPC increase of the C2-Ultra core over the C1-Ultra core using the parameters shown in the endnotes is 7% along with the memory bandwidth improvement not factoring into the IPC improvement.</summary>
+    <summary>Sony Japan has introduced a customer-harassment policy as anger continues over PlayStation’s plan to phase out physical game discs by 2028.</summary>
   </entry>
   <entry>
-    <title>Canonical Evolution of Enterprise Open Source RISC-V at Hot Chips 2026</title>
-    <link href="https://www.servethehome.com/canonical-evolution-of-enterprise-open-source-risc-v-at-hot-chips-2026"/>
-    <id>https://www.servethehome.com/canonical-evolution-of-enterprise-open-source-risc-v-at-hot-chips-2026</id>
-    <updated>2026-09-07T17:00:05.000Z</updated>
-    <author><name>ServeTheHome</name></author>
+    <title>Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell</title>
+    <link href="https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html"/>
+    <id>https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html</id>
+    <updated>2026-09-08T09:13:47.000Z</updated>
+    <author><name>The Hacker News</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>Canonical gave a talk about the state of enterprise open source with RISC-V at Hot Chips 2026 as we move toward broader adoption The post Canonical Evolution of Enterprise Open Source RISC-V at Hot Chips 2026 appeared first on ServeTheHome .</summary>
-  </entry>
-  <entry>
-    <title>IFM Releases K2 Horizon: Six Apache 2.0 Models From 0.9B to 375B</title>
-    <link href="https://www.marktechpost.com/2026/09/06/ifm-releases-k2-horizon-six-apache-2-0-models-from-0-9b-to-375b"/>
-    <id>https://www.marktechpost.com/2026/09/06/ifm-releases-k2-horizon-six-apache-2-0-models-from-0-9b-to-375b</id>
-    <updated>2026-09-07T05:00:37.000Z</updated>
-    <author><name>MarkTechPost</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Most open model launches release one checkpoint and a benchmark table. The Institute of Foundation Models (IFM) released something wider last week. IFM is the frontier lab launched by MBZUAI in May 2025. K2 Horizon is a fleet of six models: 375B-A23B, 36B-A4B, 32B, 7B, 3.7B and 0.9B. Shipping alongside them are the pre</summary>
-  </entry>
-  <entry>
-    <title>Reward Sacrifice in the Hugging Face Incident May Generalize From Multi-Agent RL</title>
-    <link href="https://www.lesswrong.com/posts/RwnLuN8xECMeGeDLc/reward-sacrifice-in-the-hugging-face-incident-may-generalize"/>
-    <id>https://www.lesswrong.com/posts/RwnLuN8xECMeGeDLc/reward-sacrifice-in-the-hugging-face-incident-may-generalize</id>
-    <updated>2026-09-08T01:56:03.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>Epistemic status: Trying a bold and narrow hypothesis for my first LessWrong post. In the METR &amp; Redwood Research report about the Hugging Face Incident there are descriptions of agents willingly sacrificing their evaluation score to gain information that could be useful for the swarm. &quot;Many agents also made decisions </summary>
-  </entry>
-  <entry>
-    <title>Microsoft finds phishers using AI prompt-injection trick</title>
-    <link href="https://www.thenews.com.pk/latest/1415272-microsoft-finds-phishers-using-ai-prompt-injection-trick"/>
-    <id>https://www.thenews.com.pk/latest/1415272-microsoft-finds-phishers-using-ai-prompt-injection-trick</id>
-    <updated>2026-09-07T13:30:28.000Z</updated>
-    <author><name>GN: Prompt Injection</name></author>
-    <category term="AI SECURITY"/>
-    <summary>Microsoft finds phishers using AI prompt-injection trick The News International</summary>
-  </entry>
-  <entry>
-    <title>Conducting The First Live Enterprise Comparison Between Agents and Human Professionals</title>
-    <link href="https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals"/>
-    <id>https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals</id>
-    <updated>2026-09-08T09:32:28.495Z</updated>
-    <author><name>Gray Swan</name></author>
-    <category term="AI SECURITY"/>
+    <summary>Adobe on Monday released security patches to address a maximum-severity flaw impacting Adobe Commerce and Magento Open Source that has come under active exploitation in the wild. The vulnerability, now tracked as CVE-2026-75650 (CVSS score: 10.0), has been codenamed StyleSmuggler by Sansec, which discovered zero-day ex</summary>
   </entry>
 </feed>
