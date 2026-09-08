@@ -5,24 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-09-08T14:23:55.488Z</updated>
+  <updated>2026-09-08T18:32:08.693Z</updated>
   <entry>
-    <title>Adobe fixes critical Magento zero-day exploited to backdoor servers</title>
-    <link href="https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers"/>
-    <id>https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers</id>
-    <updated>2026-09-08T13:34:47.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Adobe has released an emergency fix for CVE-2026-75650, an actively exploited max-severity zero-day vulnerability dubbed StyleSmuggler, that impacts multiple versions of Magento and Adobe Commerce. [...] — Also covered by: The Hacker News, BleepingComputer</summary>
-  </entry>
-  <entry>
-    <title>Seattle Times and Newsday sue OpenAI and Microsoft for infringement</title>
-    <link href="https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft"/>
-    <id>https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft</id>
-    <updated>2026-09-06T23:36:04.000Z</updated>
-    <author><name>The Verge AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement. The two outlets say the company used their journalism as training data for its AI models without permission and often reproduces passages from their reporting in response to user queries. This is simil — Also covered by: TechCrunch AI</summary>
+    <title>D-Wave Finalizes Definitive $100 Million CHIPS Act Agreement with U.S. Department of Commerce</title>
+    <link href="https://quantumcomputingreport.com/d-wave-finalizes-definitive-100-million-chips-act-agreement-with-u-s-department-of-commerce"/>
+    <id>https://quantumcomputingreport.com/d-wave-finalizes-definitive-100-million-chips-act-agreement-with-u-s-department-of-commerce</id>
+    <updated>2026-09-08T16:46:22.000Z</updated>
+    <author><name>Quantum Computing Report</name></author>
+    <category term="QUANTUM"/>
+    <summary>D-Wave Quantum Inc. has finalized a $100 million CHIPS Act agreement with the U.S. Department of Commerce. This funding will accelerate hardware development for both superconducting quantum annealing and gate-model architectures, aiming for a 100,000-qubit system and a 10,000-physical-qubit QPU, respectively. In exchan — Also covered by: The Quantum Insider</summary>
   </entry>
   <entry>
     <title>Mistral raises €3B to make sovereign, open-weight AI the technology frontier</title>
@@ -34,67 +25,58 @@
     <summary>Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion.</summary>
   </entry>
   <entry>
-    <title>Poseidon Aerospace, which plans the first test flight of its pilotless cargo plane by year-end, raised a $60M Series A led by TQ Ventures, after an $11M seed (Sean O'Kane/TechCrunch)</title>
-    <link href="https://www.techmeme.com/260908/p20"/>
-    <id>https://www.techmeme.com/260908/p20</id>
-    <updated>2026-09-08T14:10:01.000Z</updated>
+    <title>Sources: Ramp is in early talks to raise about $1B at a ~$60B valuation, up from $44B in June; Ramp has raised $3B to date (Bloomberg)</title>
+    <link href="https://www.techmeme.com/260908/p32"/>
+    <id>https://www.techmeme.com/260908/p32</id>
+    <updated>2026-09-08T18:25:04.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Sean O'Kane / TechCrunch : Poseidon Aerospace, which plans the first test flight of its pilotless cargo plane by year-end, raised a $60M Series A led by TQ Ventures, after an $11M seed — Silicon Valley is known for embracing the ethos of “move fast and break things.” Poseidon Aerospace's co-founder and CEO David Zagayn</summary>
+    <summary>Bloomberg : Sources: Ramp is in early talks to raise about $1B at a ~$60B valuation, up from $44B in June; Ramp has raised $3B to date — Ramp is in early talks with investors for a new round of funding at a roughly $60 billion valuation, according to people familiar with the efforts …</summary>
   </entry>
   <entry>
-    <title>llama.cpp b10863 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10863"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10863</id>
-    <updated>2026-09-08T14:01:19.000Z</updated>
+    <title>llama.cpp b10867 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10867"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10867</id>
+    <updated>2026-09-08T17:33:23.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>metal : fix idle threads in mul_mv_iq3_xxs for ne00 &lt; 1024 ( #28086 ) metal : fix half-idle simdgroup in kernel_mul_mv_iq3_xxs_f32 for ne00 &lt; 1024 metal : keep N_R0_IQ3_XXS = 4, dispatch a separate 8-row split kernel for ne00/32 &lt; 32 The plain kernel is unchanged from master (4 rows per simdgroup, one thread per chunk)</summary>
+    <summary>llama: disable lazy tensor loading by default on iGPUs ( #28326 ) llama: add lazy mode auto, fix iGPU regression revert changes except disabling lazy load on iGPUs in AUTO Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46033570 macOS/iOS: macOS Apple Silicon (arm64) macOS Ap</summary>
   </entry>
   <entry>
-    <title>OpenAI models went rogue. We urgently need a better ‘hugging face’ investigation | Mackenzie Arnold and Stephan Llerena</title>
-    <link href="https://www.theguardian.com/commentisfree/2026/sep/08/openai-rogue-models-hugging-face-investigation"/>
-    <id>https://www.theguardian.com/commentisfree/2026/sep/08/openai-rogue-models-hugging-face-investigation</id>
-    <updated>2026-09-08T10:00:00.000Z</updated>
-    <author><name>The Guardian AI</name></author>
+    <title>Organizing Context in a Multi-Agent Harness</title>
+    <link href="https://www.langchain.com/blog/organizing-context-in-a-multi-agent-harness"/>
+    <id>https://www.langchain.com/blog/organizing-context-in-a-multi-agent-harness</id>
+    <updated>2026-09-08T18:07:23.000Z</updated>
+    <author><name>LangChain Blog</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>The breach won’t be the last – or the most dangerous – of its kind. We need an agency capable of full investigations into AI incidents When OpenAI first revealed that its AI agents had autonomously hacked a major real-world company, Hugging Face, many assumed only one or two agents were involved. The truth, a new repor</summary>
+    <summary>Learn how context modes in deepagents help subagents fork a supervisor's context or start isolated — for faster, cheaper, more focused multi-agent work.</summary>
   </entry>
   <entry>
-    <title>Banks Offer €2.8 Billion Debt Sale for Nestle Water Buyout</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-08/banks-offer-2-8-billion-debt-sale-for-nestle-water-buyout"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-08/banks-offer-2-8-billion-debt-sale-for-nestle-water-buyout</id>
-    <updated>2026-09-08T14:02:09.000Z</updated>
+    <title>NSE Set to Price India IPO at 1,700 to 1,785 Rupees a Share</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-08/nse-set-to-price-india-ipo-at-1-700-to-1-785-rupees-a-share"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-08/nse-set-to-price-india-ipo-at-1-700-to-1-785-rupees-a-share</id>
+    <updated>2026-09-08T17:18:10.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Lenders including Bank of America Corp. and Deutsche Bank AG have launched a €2.8 billion ($3.3 billion) debt sale to help finance Platinum Equity’s purchase of a stake in Nestle SA’s water business.</summary>
+    <summary>National Stock Exchange of India Ltd. is likely to price its long-awaited initial public offering at 1,700 rupees to 1,785 rupees a share, below an earlier marketed range of 2,000 rupees to 2,100 rupees, according to people familiar with the matter.</summary>
   </entry>
   <entry>
-    <title>Benchmarking Qwen 3.8 27B on RTX 5090 and beyond — VRAM capacity alone can't overcome severe software and inference engine bottlenecks</title>
-    <link href="https://www.tomshardware.com/tech-industry/artificial-intelligence/benchmarking-qwen-3-8-27b-on-rtx-5090-and-beyond-vram-capacity-alone-cant-overcome-severe-software-and-inference-engine-bottlenecks"/>
-    <id>https://www.tomshardware.com/tech-industry/artificial-intelligence/benchmarking-qwen-3-8-27b-on-rtx-5090-and-beyond-vram-capacity-alone-cant-overcome-severe-software-and-inference-engine-bottlenecks</id>
-    <updated>2026-09-08T13:30:02.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
+    <title>[tl;dr sec] #344 - VMs won't contain Cyber-capable Agents, AWS AI Security Analyst, Decompilers vs LLMs</title>
+    <link href="https://tldrsec.com/p/tldr-sec-344"/>
+    <id>https://tldrsec.com/p/tldr-sec-344</id>
+    <updated>2026-09-08T14:30:00.000Z</updated>
+    <author><name>tl;dr sec</name></author>
     <category term="RESEARCH"/>
-    <summary>Following the release of Qwen 3.8 27B, we put our trusty hardware to the test to see which hardware might be best suited for running this open-weight AI model.</summary>
+    <summary>Model finds 0-days to escape a QEMU/KVM VM, how to build a $500/month threat hunting agent, a decompiler benchmark and an experimental, LLM-written decompiler</summary>
   </entry>
   <entry>
-    <title>XPENG Launches Mass Production of IRON Humanoid</title>
-    <link href="https://www.humanoidsdaily.com/news/xpeng-launches-mass-production-of-iron-humanoid"/>
-    <id>https://www.humanoidsdaily.com/news/xpeng-launches-mass-production-of-iron-humanoid</id>
-    <updated>2026-09-07T21:28:21.000Z</updated>
+    <title>Dynamic Creatures Emerges From Stealth With Boston Dynamics Backing to Build Expressive Guest-Facing Robots</title>
+    <link href="https://www.humanoidsdaily.com/news/dynamic-creatures-emerges-from-stealth-with-boston-dynamics-backing-to-build-expressive-guest-facing-robots"/>
+    <id>https://www.humanoidsdaily.com/news/dynamic-creatures-emerges-from-stealth-with-boston-dynamics-backing-to-build-expressive-guest-facing-robots</id>
+    <updated>2026-09-08T13:45:45.000Z</updated>
     <author><name>Humanoids Daily</name></author>
     <category term="PRODUCTS"/>
-    <summary>XPENG has officially launched its automotive-grade assembly line for the IRON humanoid, achieving a world-first autonomous walk-off milestone</summary>
-  </entry>
-  <entry>
-    <title>Qualcomm signs a deal with Amazon to provide &quot;multiple generations of customized silicon&quot; to help build AWS' AI infrastructure for inference; QCOM jumps ~5% (Ari Levy/CNBC)</title>
-    <link href="https://www.techmeme.com/260908/p17"/>
-    <id>https://www.techmeme.com/260908/p17</id>
-    <updated>2026-09-08T13:35:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="HARDWARE"/>
-    <summary>Ari Levy / CNBC : Qualcomm signs a deal with Amazon to provide “multiple generations of customized silicon” to help build AWS' AI infrastructure for inference; QCOM jumps ~5% — Qualcomm shares rose 4% on Tuesday after the company announced a data center infrastructure partnership with Amazon Web Services …</summary>
+    <summary>Founded by former Boston Dynamics and Google leaders, Dynamic Creatures launches with a proprietary AI operating system, theme park partnerships, and a fresh take on character robotics.</summary>
   </entry>
   <entry>
     <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
@@ -106,22 +88,22 @@
     <summary>This Symposium is a one-day event to address the question: “ which medical measurements and consensus standards should be prioritized to support future U.S. healthcare?” The focus will be on medical imaging, medical devices, and diagnostics. The goal</summary>
   </entry>
   <entry>
-    <title>When “Auto-Signing” Sends Your Wallet: A Malicious MCP Server on npm</title>
-    <link href="https://www.knostic.ai/blog/when-auto-signing-sends-your-wallet-private-key-to-a-remote-server-a-malicious-mcp-package-on-npm"/>
-    <id>https://www.knostic.ai/blog/when-auto-signing-sends-your-wallet-private-key-to-a-remote-server-a-malicious-mcp-package-on-npm</id>
-    <updated>2026-09-08T11:00:00.000Z</updated>
-    <author><name>Knostic</name></author>
-    <category term="AI SECURITY"/>
-    <summary>Software supply chain attacks are not new, but the rapid adoption of Model Context Protocol (MCP) expands the blast radius. When developers grant AI agents &quot;auto-signing&quot; capabilities, they remove one more human-in-the-loop safeguard. A newly discovered malicious MCP package on npm illustrates this scenario. By hijacki</summary>
+    <title>ShinyHunters hackers claim breach of Florida &quot;DAVID&quot; DMV database</title>
+    <link href="https://www.bleepingcomputer.com/news/security/shinyhunters-hackers-claim-breach-of-florida-david-dmv-database"/>
+    <id>https://www.bleepingcomputer.com/news/security/shinyhunters-hackers-claim-breach-of-florida-david-dmv-database</id>
+    <updated>2026-09-08T16:35:47.000Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>The ShinyHunters extortion gang claims it breached an online platform for the Florida Department of Motor Vehicles database known as &quot;DAVID&quot; and stole over 200,000 records about drivers in the state. [...]</summary>
   </entry>
   <entry>
-    <title>What It Took to Reach 1 Billion Build Manifests</title>
-    <link href="https://thehackernews.com/2026/09/what-it-took-to-reach-1-billion-build.html"/>
-    <id>https://thehackernews.com/2026/09/what-it-took-to-reach-1-billion-build.html</id>
-    <updated>2026-09-08T11:49:02.000Z</updated>
-    <author><name>The Hacker News</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>In the last six months, Chainguard doubled its output from 500 million to more than 1 billion container build manifests. We also surpassed 3,000 unique container images and 675,000 image versions in our catalog. Those are the headline numbers, but I want to share what's actually behind them. The number itself is less i</summary>
+    <title>Testing race conditions with memory access tracing and stack-based delay injection</title>
+    <link href="https://projectzero.google/2026/09/maccconc-race-condition.html"/>
+    <id>https://projectzero.google/2026/09/maccconc-race-condition.html</id>
+    <updated>2026-09-08T07:00:00.000Z</updated>
+    <author><name>Google Project Zero</name></author>
+    <category term="CYBER DEFENSE"/>
+    <summary>Many security bugs are race conditions, where multi-threaded execution has to occur with the right interleaving for a negative effect to appear. This creates challenges for several use cases: Confirming bug candidates that have been discovered manually or through static analysis. Regression tests: After fixing a race c</summary>
   </entry>
   <entry>
     <title>Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses</title>
@@ -133,22 +115,22 @@
     <summary>The open model ecosystem continues to expand in its breadth</summary>
   </entry>
   <entry>
-    <title>From Stadiums to the Front Line: How China and the US Are Preparing Humanoids for Combat</title>
-    <link href="https://www.humanoidsdaily.com/news/from-stadiums-to-the-front-line-how-china-and-the-us-are-preparing-humanoids-for-combat"/>
-    <id>https://www.humanoidsdaily.com/news/from-stadiums-to-the-front-line-how-china-and-the-us-are-preparing-humanoids-for-combat</id>
-    <updated>2026-09-08T12:31:44.000Z</updated>
-    <author><name>Humanoids Daily</name></author>
-    <category term="ROBOTICS"/>
-    <summary>An extensive investigation reveals China’s defense establishment is laying the operational groundwork for combat humanoids, spotlighting an asymmetric race against solitary US defense contenders like Foundation.</summary>
+    <title>SkyWater Launches Dedicated Quantum Solutions Merchant Foundry Division</title>
+    <link href="https://quantumcomputingreport.com/skywater-launches-dedicated-quantum-solutions-merchant-foundry-division"/>
+    <id>https://quantumcomputingreport.com/skywater-launches-dedicated-quantum-solutions-merchant-foundry-division</id>
+    <updated>2026-09-08T17:07:09.000Z</updated>
+    <author><name>Quantum Computing Report</name></author>
+    <category term="QUANTUM"/>
+    <summary>SkyWater Technology has launched SkyWater Quantum Solutions, a new merchant foundry division focused on process development, chip integration, and manufacturing for quantum computing, networking, and sensing applications. The division offers two standardized process platforms, SC250 for superconducting circuits and SP9</summary>
   </entry>
   <entry>
-    <title>IonQ Launches Superion 256 Quantum Computing Platform</title>
-    <link href="https://thequantuminsider.com/2026/09/08/ionq-launches-superion-256-quantum-computing-platform"/>
-    <id>https://thequantuminsider.com/2026/09/08/ionq-launches-superion-256-quantum-computing-platform</id>
-    <updated>2026-09-08T13:20:27.000Z</updated>
-    <author><name>The Quantum Insider</name></author>
-    <category term="QUANTUM"/>
-    <summary>Insider Brief PRESS RELEASE — IonQ (NYSE: IONQ), the world’s leading full-stack quantum platform and foundry, today announced IonQ Superion 256, its sixth-generation quantum computing platform. This system is the first in the Superion platform that all future compute products are expected to be built on. The company al</summary>
+    <title>On the Navier–Stokes Millennium Prize Problem</title>
+    <link href="https://openai.com/index/navier-stokes-solution"/>
+    <id>https://openai.com/index/navier-stokes-solution</id>
+    <updated>2026-09-08T10:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.</summary>
   </entry>
   <entry>
     <title>AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome</title>
@@ -160,13 +142,13 @@
     <summary>AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.</summary>
   </entry>
   <entry>
-    <title>Mistral AI raises 3 billion euros in Europe's largest-ever tech funding round despite lagging behind rivals</title>
-    <link href="https://the-decoder.com/mistral-ai-raises-3-billion-euros-in-europes-largest-ever-tech-funding-round-despite-lagging-behind-rivals"/>
-    <id>https://the-decoder.com/mistral-ai-raises-3-billion-euros-in-europes-largest-ever-tech-funding-round-despite-lagging-behind-rivals</id>
-    <updated>2026-09-08T07:45:41.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Three years after launch, Mistral AI has closed a 3 billion euro Series D round, pushing its valuation past 21 billion euros. The article Mistral AI raises 3 billion euros in Europe's largest-ever tech funding round despite lagging behind rivals appeared first on The Decoder .</summary>
+    <title>AI coding startup Cognition raised $2B at a $48B valuation, up from $26B in May, and says its run-rate revenue grew from $492M in May to ~$900M (Samantha Oltman/Bloomberg)</title>
+    <link href="https://www.techmeme.com/260908/p31"/>
+    <id>https://www.techmeme.com/260908/p31</id>
+    <updated>2026-09-08T17:50:00.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Samantha Oltman / Bloomberg : AI coding startup Cognition raised $2B at a $48B valuation, up from $26B in May, and says its run-rate revenue grew from $492M in May to ~$900M — Artificial intelligence coding startup Cognition AI Inc. has raised $2 billion in a new round of funding that vaulted its valuation to $48 billi</summary>
   </entry>
   <entry>
     <title>Mistral raises €3B as sovereign AI becomes big business</title>
@@ -175,34 +157,115 @@
     <updated>2026-09-08T14:17:48.000Z</updated>
     <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>The French AI lab has raised €3 billion at a €21 billion valuation in a Series D round led by Samsung, Scaleup Europe and PSG Equity.</summary>
+    <summary>The French AI lab has raised €3 billion at a €21 billion valuation in a Series D round led by Samsung, Scaleup Europe, and PSG Equity.</summary>
   </entry>
   <entry>
-    <title>DeepSeek Flash 4.1 is already being tested via API and rolling out.</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wan3nl/deepseek_flash_41_is_already_being_tested_via_api"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wan3nl/deepseek_flash_41_is_already_being_tested_via_api</id>
-    <updated>2026-09-08T12:31:05.000Z</updated>
+    <title>Are there any (small, ~10B) models that you would say are a good collaborator?</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wau1zt/are_there_any_small_10b_models_that_you_would_say"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wau1zt/are_there_any_small_10b_models_that_you_would_say</id>
+    <updated>2026-09-08T16:56:55.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Translation: &quot;Internal beta testing for an intermediate version of DeepSeek V4.1 Flash is now open; you are welcome to try it out. It adopts a new model architecture featuring native multimodal support, stronger capabilities, faster speeds, and lower costs. Keep your base_url unchanged and set the model name to deepsee</summary>
+    <summary>Most of the new ~30B (and now ~10B, thankfully for my GPU) models we see score really high on benchmarks, but I feel like they don't push back on dumb ideas enough. I think most people don't being like told by an LLM that the premise is flawed but I certainly do. In my opinion they are optimised for like one-shotting s</summary>
   </entry>
   <entry>
-    <title>XHToken/Spark-X2.5-4B VS inclusionAI/Ling-3.0-tiny VS Nanbeige/Nanbeige4.2-3B</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wao3d5/xhtokensparkx254b_vs_inclusionailing30tiny_vs"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wao3d5/xhtokensparkx254b_vs_inclusionailing30tiny_vs</id>
-    <updated>2026-09-08T13:14:23.000Z</updated>
+    <title>Qwen/Qwen-Drive-1.0-4B · Hugging Face</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wauxg9/qwenqwendrive104b_hugging_face"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wauxg9/qwenqwendrive104b_hugging_face</id>
+    <updated>2026-09-08T17:27:16.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Which small model are you ppl finding the most useful rn? They all seem to compete for the same size class while actively avoiding each other in benchmark tables submitted by /u/Hot_Example_4456 [link] [comments]</summary>
+    <summary>I don't think anyone posted about this here, but Qwen released a finetuned version of 3.5 4 for driving. The full Bf16 checkpoint is 9B. This is a very interesting development of Chinese AI labs tackle self driving next with open weight models. submitted by /u/FullstackSensei [link] [comments]</summary>
   </entry>
   <entry>
-    <title>langchain v1.6.1 released</title>
-    <link href="https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.1"/>
-    <id>https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.1</id>
-    <updated>2026-09-08T14:20:42.000Z</updated>
-    <author><name>langchain-ai/langchain</name></author>
+    <title>OpenAI models went rogue. We urgently need a better ‘hugging face’ investigation | Mackenzie Arnold and Stephan Llerena</title>
+    <link href="https://www.theguardian.com/commentisfree/2026/sep/08/openai-rogue-models-hugging-face-investigation"/>
+    <id>https://www.theguardian.com/commentisfree/2026/sep/08/openai-rogue-models-hugging-face-investigation</id>
+    <updated>2026-09-08T10:00:00.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Changes since langchain-openai==1.6.0 fix(openai): bump max_completion_tokens in cache breakpoint integration test ( #40284 ) release(openai): 1.6.1 ( #40268 ) chore(model-profiles): refresh model profile data ( #40217 ) fix(openai): support Azure AD auth with OpenAI 3.8 ( #40190 ) feat(openai): support async tools ( #</summary>
+    <summary>The breach won’t be the last – or the most dangerous – of its kind. We need an agency capable of full investigations into AI incidents When OpenAI first revealed that its AI agents had autonomously hacked a major real-world company, Hugging Face, many assumed only one or two agents were involved. The truth, a new repor</summary>
+  </entry>
+  <entry>
+    <title>Millennium Nears $100 Billion in New Era for Giant Hedge Funds</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-09-08/millennium-nears-100b-in-new-era-for-giant-hedge-funds-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-09-08/millennium-nears-100b-in-new-era-for-giant-hedge-funds-video</id>
+    <updated>2026-09-08T16:29:38.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Millennium Management's assets have hit $97 billion, more than double what the firm oversaw six years ago, and is speeding toward $100 billion. The firm's founder, Izzy Englander, is ramping up an unusual model of seeding dozens of smaller would-be rivals to give his firm more capacity to take on investor cash, with $2</summary>
+  </entry>
+  <entry>
+    <title>From Nike to Starbucks, Tariff Relief for Stocks Is Fleeting</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-08/from-nike-to-starbucks-tariff-relief-for-stocks-is-fleeting"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-08/from-nike-to-starbucks-tariff-relief-for-stocks-is-fleeting</id>
+    <updated>2026-09-08T18:02:42.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>America’s top retailers and manufacturers are getting long-awaited relief from President Donald Trump’s sweeping global tariffs. But for some of the hardest hit companies, the share price benefits pale in comparison with the massive losses they suffered on Liberation Day.</summary>
+  </entry>
+  <entry>
+    <title>The Policy Is a Video: How Markov Robotics Runs Dexterous Manipulation on LTX-2.5</title>
+    <link href="https://www.humanoidsdaily.com/news/the-policy-is-a-video-how-markov-robotics-runs-dexterous-manipulation-on-ltx-2-5"/>
+    <id>https://www.humanoidsdaily.com/news/the-policy-is-a-video-how-markov-robotics-runs-dexterous-manipulation-on-ltx-2-5</id>
+    <updated>2026-09-08T14:10:44.000Z</updated>
+    <author><name>Humanoids Daily</name></author>
+    <category term="RESEARCH"/>
+    <summary>LTX-2.5 ships a raw pretrained checkpoint built for fine-tuning, and a robotics team is already using the open world model to generate the video of a task and execute what the video says.</summary>
+  </entry>
+  <entry>
+    <title>Benchmarking small LLM inference on SageMaker AI: G7 vs G5 and G6</title>
+    <link href="https://aws.amazon.com/blogs/machine-learning/benchmarking-small-llm-inference-on-sagemaker-ai-g7-vs-g5-and-g6"/>
+    <id>https://aws.amazon.com/blogs/machine-learning/benchmarking-small-llm-inference-on-sagemaker-ai-g7-vs-g5-and-g6</id>
+    <updated>2026-09-08T16:21:57.000Z</updated>
+    <author><name>AWS ML Blog</name></author>
+    <category term="RESEARCH"/>
+    <summary>Benchmark two 30B Mixture-of-Experts models, Qwen3-Coder-30B and NVIDIA Nemotron-3-Nano-30B, across G5, G6, G6e, and G7 GPU instances on Amazon SageMaker AI. Compare throughput, latency, and cost-per-token, and see how G7's NVIDIA Blackwell GPUs deliver measurable price-performance gains for real-time LLM inference.</summary>
+  </entry>
+  <entry>
+    <title>Amazon SageMaker Feature Store introduces UpdateRecord for feature-level writes</title>
+    <link href="https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-feature-store-introduces-updaterecord-for-feature-level-writes"/>
+    <id>https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-feature-store-introduces-updaterecord-for-feature-level-writes</id>
+    <updated>2026-09-08T18:29:15.000Z</updated>
+    <author><name>AWS ML Blog</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Amazon SageMaker Feature Store now supports feature-level writes. With the new UpdateRecord API, you can update one or more feature values in a single call without reading or rewriting the entire record. It is available for both the Standard (Amazon DynamoDB) and In-Memory (Amazon ElastiCache) online store tiers.</summary>
+  </entry>
+  <entry>
+    <title>Patagonia has what AI data centers want, including no resistance so far</title>
+    <link href="https://the-decoder.com/patagonia-has-what-ai-data-centers-want-including-no-resistance-so-far"/>
+    <id>https://the-decoder.com/patagonia-has-what-ai-data-centers-want-including-no-resistance-so-far</id>
+    <updated>2026-09-08T15:16:47.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="HARDWARE"/>
+    <summary>Argentina's Patagonia is drawing attention as a possible site for large AI data centers. The article Patagonia has what AI data centers want, including no resistance so far appeared first on The Decoder .</summary>
+  </entry>
+  <entry>
+    <title>What It Took to Reach 1 Billion Build Manifests</title>
+    <link href="https://thehackernews.com/2026/09/what-it-took-to-reach-1-billion-build.html"/>
+    <id>https://thehackernews.com/2026/09/what-it-took-to-reach-1-billion-build.html</id>
+    <updated>2026-09-08T11:49:02.000Z</updated>
+    <author><name>The Hacker News</name></author>
+    <category term="HARDWARE"/>
+    <summary>In the last six months, Chainguard doubled its output from 500 million to more than 1 billion container build manifests. We also surpassed 3,000 unique container images and 675,000 image versions in our catalog. Those are the headline numbers, but I want to share what's actually behind them. The number itself is less i</summary>
+  </entry>
+  <entry>
+    <title>Benchmarking Qwen 3.8 27B on RTX 5090 and beyond — VRAM capacity alone can't overcome severe software and inference engine bottlenecks</title>
+    <link href="https://www.tomshardware.com/tech-industry/artificial-intelligence/benchmarking-qwen-3-8-27b-on-rtx-5090-and-beyond-vram-capacity-alone-cant-overcome-severe-software-and-inference-engine-bottlenecks"/>
+    <id>https://www.tomshardware.com/tech-industry/artificial-intelligence/benchmarking-qwen-3-8-27b-on-rtx-5090-and-beyond-vram-capacity-alone-cant-overcome-severe-software-and-inference-engine-bottlenecks</id>
+    <updated>2026-09-08T13:30:02.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Following the release of Qwen 3.8 27B, we put our trusty hardware to the test to see which hardware might be best suited for running this open-weight AI model.</summary>
+  </entry>
+  <entry>
+    <title>Canonical Evolution of Enterprise Open Source RISC-V at Hot Chips 2026</title>
+    <link href="https://www.servethehome.com/canonical-evolution-of-enterprise-open-source-risc-v-at-hot-chips-2026"/>
+    <id>https://www.servethehome.com/canonical-evolution-of-enterprise-open-source-risc-v-at-hot-chips-2026</id>
+    <updated>2026-09-07T17:00:05.000Z</updated>
+    <author><name>ServeTheHome</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Canonical gave a talk about the state of enterprise open source with RISC-V at Hot Chips 2026 as we move toward broader adoption The post Canonical Evolution of Enterprise Open Source RISC-V at Hot Chips 2026 appeared first on ServeTheHome .</summary>
   </entry>
   <entry>
     <title>ITL AI Webinar: The Development of an AI Agent Enrichment Workflow at the National Vulnerability Database</title>
@@ -210,70 +273,7 @@
     <id>https://www.nist.gov/news-events/events/2026/09/itl-ai-webinar-development-ai-agent-enrichment-workflow-national</id>
     <updated>2026-09-17T15:00:00.000Z</updated>
     <author><name>NIST AI News</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
+    <category term="SAFETY &amp; POLICY"/>
     <summary>Join NIST on September 17, 2026 for an Information Technology Laboratory (ITL) AI Program hosted webinar on the development of an AI agent enrichment workflow at the National Vulnerability Database. The National Vulnerability Database (NVD)</summary>
-  </entry>
-  <entry>
-    <title>Markets Bracing for PPI, CPI Reports This Week</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-08/markets-bracing-for-ppi-cpi-reports-this-week-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-08/markets-bracing-for-ppi-cpi-reports-this-week-video</id>
-    <updated>2026-09-08T13:43:43.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Even with a shortened trading week, two inflation reports could really move markets and impact the next Federal Reserve decision. First is the PPI report on Thursday, followed by the August CPI report that comes out Friday. Bloomberg's Michael McKee has a preview. (Source: Bloomberg)</summary>
-  </entry>
-  <entry>
-    <title>Volatility Limits Post-Labor Day US Bond Rush to Six-Year Low</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-08/volatility-limits-post-labor-day-us-bond-rush-to-six-year-low"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-08/volatility-limits-post-labor-day-us-bond-rush-to-six-year-low</id>
-    <updated>2026-09-08T14:05:00.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>The US investment-grade debt market is having its quietest post-Labor Day rush in six years, as fresh market volatility is keeping some borrowers on the sidelines.</summary>
-  </entry>
-  <entry>
-    <title>How llm-d makes the most of the hardware you already have</title>
-    <link href="https://research.ibm.com/blog/running-open-models-on-h100-gpus-with-llmd"/>
-    <id>https://research.ibm.com/blog/running-open-models-on-h100-gpus-with-llmd</id>
-    <updated>2026-09-08T12:00:00.000Z</updated>
-    <author><name>IBM Research Blog</name></author>
-    <category term="RESEARCH"/>
-    <summary>IBM Research and Red Hat deployed a 753B open model on H100 GPUs, serving thousands of concurrent coding agents at 5-10x lower cost than commercial APIs.</summary>
-  </entry>
-  <entry>
-    <title>Reducto Releases r-1: A Single Pass Document Parsing Model That Cuts Errors 20% at 1 Cent Per Page</title>
-    <link href="https://www.marktechpost.com/2026/09/07/reducto-releases-r-1-a-single-pass-document-parsing-model-that-cuts-errors-20-at-1-cent-per-page"/>
-    <id>https://www.marktechpost.com/2026/09/07/reducto-releases-r-1-a-single-pass-document-parsing-model-that-cuts-errors-20-at-1-cent-per-page</id>
-    <updated>2026-09-08T03:07:15.000Z</updated>
-    <author><name>MarkTechPost</name></author>
-    <category term="RESEARCH"/>
-    <summary>We look at r-1, the document parsing model Reducto released on September 1, 2026. We walk through how it folds OCR, layout detection, tables, formatting and grounding into one full page pass, replacing the multi stage agentic pipeline it ships alongside. We break down the two numbers that matter for a migration decisio</summary>
-  </entry>
-  <entry>
-    <title>SkyWater Launches Quantum Semiconductor Manufacturing Business</title>
-    <link href="https://thequantuminsider.com/2026/09/08/skywater-launches-quantum-semiconductor-manufacturing-business"/>
-    <id>https://thequantuminsider.com/2026/09/08/skywater-launches-quantum-semiconductor-manufacturing-business</id>
-    <updated>2026-09-08T12:52:45.000Z</updated>
-    <author><name>The Quantum Insider</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Insider Brief PRESS RELEASE — SkyWater Technology announced the launch of SkyWater Quantum Solutions, a dedicated merchant supplier offering focused on semiconductor process development, integration, and manufacturing. This unique offering will provide semiconductor solutions for quantum-computing, networking, and sens</summary>
-  </entry>
-  <entry>
-    <title>Sony threatens to cut off customer support and pursue legal action over harassment as backlash to PlayStation’s physical-disc phaseout intensifies — company to move forward with no disc decision despite several lawsuits</title>
-    <link href="https://www.tomshardware.com/video-games/playstation/sony-threatens-to-cut-off-customer-support-and-pursue-legal-action-over-harassment-as-backlash-to-playstations-physical-disc-phaseout-intensifies-company-to-move-forward-with-no-disc-decision-despite-several-lawsuits"/>
-    <id>https://www.tomshardware.com/video-games/playstation/sony-threatens-to-cut-off-customer-support-and-pursue-legal-action-over-harassment-as-backlash-to-playstations-physical-disc-phaseout-intensifies-company-to-move-forward-with-no-disc-decision-despite-several-lawsuits</id>
-    <updated>2026-09-08T12:20:00.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
-    <category term="HARDWARE"/>
-    <summary>Sony Japan has introduced a customer-harassment policy as anger continues over PlayStation’s plan to phase out physical game discs by 2028.</summary>
-  </entry>
-  <entry>
-    <title>Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell</title>
-    <link href="https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html"/>
-    <id>https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html</id>
-    <updated>2026-09-08T09:13:47.000Z</updated>
-    <author><name>The Hacker News</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Adobe on Monday released security patches to address a maximum-severity flaw impacting Adobe Commerce and Magento Open Source that has come under active exploitation in the wild. The vulnerability, now tracked as CVE-2026-75650 (CVSS score: 10.0), has been codenamed StyleSmuggler by Sansec, which discovered zero-day ex</summary>
   </entry>
 </feed>
