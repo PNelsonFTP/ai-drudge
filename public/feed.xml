@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-09-11T00:00:40.783Z</updated>
+  <updated>2026-09-11T04:26:20.141Z</updated>
   <entry>
     <title>Introducing ChatGPT for Financial Services</title>
     <link href="https://openai.com/index/introducing-chatgpt-financial-services"/>
@@ -25,13 +25,13 @@
     <summary>What's changed Added to the Claude apps gateway: with pricing: set in gateway.yaml , signed-in Claude Code clients receive the same rates through managed settings, so /cost and telemetry match the spend meter Added a startup warning for gateways when access_control.allow_cidrs is empty, and a one-time warning the first — Also covered by: QwenLM/qwen-code</summary>
   </entry>
   <entry>
-    <title>Switzerland's first IBM Quantum System Two</title>
-    <link href="https://research.ibm.com/blog/swiss-innovation-hub"/>
-    <id>https://research.ibm.com/blog/swiss-innovation-hub</id>
-    <updated>2026-09-10T07:00:00.000Z</updated>
-    <author><name>IBM Research Blog</name></author>
-    <category term="RESEARCH"/>
-    <summary>Lockheed Martin and IBM are launching a Swiss quantum innovation hub at ETH Zurich to advance research, industry collaboration, and workforce development. — Also covered by: Quantum Computing Report</summary>
+    <title>DeepSeek v4.1 Flash</title>
+    <link href="https://twitter.com/deepseek_ai/status/2097930608790167907"/>
+    <id>https://twitter.com/deepseek_ai/status/2097930608790167907</id>
+    <updated>2026-09-10T06:11:05.000Z</updated>
+    <author><name>HN: Chinese Frontier Labs</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash Comments URL: https://news.ycombinator.com/item?id=49639090 Points: 949 # Comments: 532 — Also covered by: TLDR AI</summary>
   </entry>
   <entry>
     <title>New Deepseek model V4.1-Flash cuts memory needs for AI agents</title>
@@ -43,31 +43,49 @@
     <summary>Deepseek releases V4.1-Flash, a multimodal model with 552 billion parameters that cuts KV cache memory to a quarter of its predecessor. On the DeepSWE coding benchmark, it narrowly beats Opus 5 and GPT-5.6 Sol, even though only 16 billion parameters are active per token. The model ships under the MIT license and target</summary>
   </entry>
   <entry>
-    <title>London-based Xapien, which uses AI for background checks and due diligence, raised a $56M Series B led by Spectrum Equity (Lucinda Shen/Axios)</title>
-    <link href="https://www.techmeme.com/260910/p40"/>
-    <id>https://www.techmeme.com/260910/p40</id>
-    <updated>2026-09-10T23:10:00.000Z</updated>
+    <title>A US judge finds TikTok liable for lying about its safety standards and exposing minors to inappropriate content, in a 2025 lawsuit filed by Texas AG Ken Paxton (Christian Terry/Click2Houston.com)</title>
+    <link href="https://www.techmeme.com/260910/p48"/>
+    <id>https://www.techmeme.com/260910/p48</id>
+    <updated>2026-09-11T03:10:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Lucinda Shen / Axios : London-based Xapien, which uses AI for background checks and due diligence, raised a $56M Series B led by Spectrum Equity — Xapien, an AI background check and due diligence company, raised $56 million in Series B funding led by Spectrum Equity, CEO Chris Green tells Axios Pro exclusively.</summary>
+    <summary>Christian Terry / Click2Houston.com : A US judge finds TikTok liable for lying about its safety standards and exposing minors to inappropriate content, in a 2025 lawsuit filed by Texas AG Ken Paxton — State will now proceed to trial to determine relief and penalties — AUSTIN, Texas - A U.S. District Judge has found Tik</summary>
   </entry>
   <entry>
-    <title>llama.cpp b10901 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10901"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10901</id>
-    <updated>2026-09-10T22:42:42.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>Someone apparently managed to kind of replicate what V4.1 flash does on KV for fast prefill on Qwen</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wd4xxv/someone_apparently_managed_to_kind_of_replicate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wd4xxv/someone_apparently_managed_to_kind_of_replicate</id>
+    <updated>2026-09-11T03:36:45.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>vulkan: use CPU writes in ggml_backend_vk_cpy_tensor_async if the context is idle ( #28618 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46709648 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramewor</summary>
+    <summary>I wonder someone will figure out a way to do this with 27B? Throw Qwen3 on this page for demo https://kishida.github.io/webdemos/llkvapprox/ submitted by /u/T_rex2700 [link] [comments]</summary>
   </entry>
   <entry>
-    <title>UK Grid Needs £70 Billion Upgrade as Consumers Face Higher Bills</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-10/uk-grid-needs-70-billion-upgrade-as-consumers-face-higher-bills"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-10/uk-grid-needs-70-billion-upgrade-as-consumers-face-higher-bills</id>
-    <updated>2026-09-10T23:01:00.000Z</updated>
+    <title>Adaptive Entangled Game Modules in Artificial General Intelligence</title>
+    <link href="https://arxiv.org/abs/2609.09226"/>
+    <id>https://arxiv.org/abs/2609.09226</id>
+    <updated>2026-09-11T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>arXiv:2609.09226v1 Announce Type: new Abstract: We introduce a probability-wave framework for modeling the collective behavior of interacting adaptive agents, deriving testable eigenmodes through a generalized behavioral intelligence (GBI) nonlocal probability-wave equation. This framework captures a broad range of hum</summary>
+  </entry>
+  <entry>
+    <title>DeepSeek Hands Memory Stock Investors Fresh Reason for Caution</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-11/deepseek-hands-memory-stock-investors-fresh-reason-for-caution"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-11/deepseek-hands-memory-stock-investors-fresh-reason-for-caution</id>
+    <updated>2026-09-11T02:55:22.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The UK needs as much as £70 billion ($94.5 billion) of investment in its power grid by early next decade, with delays to upgrading aging infrastructure threatening to add billions of pounds to customer bills.</summary>
+    <summary>Fund managers wading back into South Korean memory makers’ stocks got a fresh gut check after DeepSeek’s latest artificial intelligence model raised doubts on the strength of demand.</summary>
+  </entry>
+  <entry>
+    <title>OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows</title>
+    <link href="https://arxiv.org/abs/2609.09203"/>
+    <id>https://arxiv.org/abs/2609.09203</id>
+    <updated>2026-09-11T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
+    <category term="RESEARCH"/>
+    <summary>arXiv:2609.09203v1 Announce Type: new Abstract: Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process by which those outputs were obtained. This makes it impossible to audit scientific methodology, diagnose failure modes,</summary>
   </entry>
   <entry>
     <title>Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference</title>
@@ -77,15 +95,6 @@
     <author><name>AWS ML Blog</name></author>
     <category term="PRODUCTS"/>
     <summary>Amazon SageMaker Inference now offers prefix-aware routing, a routing strategy that sends requests sharing the same prompt prefix to the same instance so the KV cache stays warm. In benchmarks on Llama 3.1 70B, it reduced P50 time-to-first-token by up to 77% and raised KV cache hit rates from about 25% to over 80%.</summary>
-  </entry>
-  <entry>
-    <title>Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies</title>
-    <link href="https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform"/>
-    <id>https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform</id>
-    <updated>2026-09-10T16:00:04.000Z</updated>
-    <author><name>NVIDIA Blog</name></author>
-    <category term="HARDWARE"/>
-    <summary>The global robotaxi market — physical AI’s first commercial breakthrough — is projected to reach $400 billion by 2035, with over 6 million commercial vehicles in operation as driverless fleets are already moving people through some of the world’s busiest and most complex streets. Deploying a driverless vehicle is one c</summary>
   </entry>
   <entry>
     <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
@@ -115,22 +124,13 @@
     <summary>As the cyber scam industry expands globally, the U.S. government wants banks to share more information about what's happening to their customers.</summary>
   </entry>
   <entry>
-    <title>We've got one word for it, and it's usually the wrong one</title>
-    <link href="https://blog.talosintelligence.com/weve-got-one-word-for-it-and-its-usually-the-wrong-one"/>
-    <id>https://blog.talosintelligence.com/weve-got-one-word-for-it-and-its-usually-the-wrong-one</id>
-    <updated>2026-09-10T18:00:15.000Z</updated>
-    <author><name>Talos Intelligence</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>In this week's Threat Source newsletter, Joe explores why the word &quot;burnout&quot; often fails to capture the true toll of working in the cybersecurity industry and why we need better language to address it.</summary>
-  </entry>
-  <entry>
-    <title>Any Nix package, live in your browser</title>
-    <link href="https://simonwillison.net/2026/Sep/10/trynix"/>
-    <id>https://simonwillison.net/2026/Sep/10/trynix</id>
-    <updated>2026-09-10T23:44:15.000Z</updated>
+    <title>Datasette 1.0a39 and 0.65.4 security releases</title>
+    <link href="https://simonwillison.net/2026/Sep/11/datasette-security"/>
+    <id>https://simonwillison.net/2026/Sep/11/datasette-security</id>
+    <updated>2026-09-11T03:27:16.000Z</updated>
     <author><name>Simon Willison</name></author>
-    <category term="ANALYSIS"/>
-    <summary>Any Nix package, live in your browser Farid Zakaria calls this his &quot; magnum opus of Nix work&quot;, and I can see why. trynix.dev provides a qemu-wasm powered x86_64 Linux virtual machine running entirely in your browser through WebAssembly. That VM can then be booted with any Nix package from the past 13 years. They are UR</summary>
+    <category term="CYBER DEFENSE"/>
+    <summary>Datasette 1.0a39 and 0.65.4 security releases Today we're releasing two new security patch versions of Datasette: 1.0a39 and 0.65.4 - one for the current alpha series and one for the stable 0.65.x family. These are security fixes which you should apply if you are running a Datasette instance on the public web - in part</summary>
   </entry>
   <entry>
     <title>Skild AI Crosses $100M ARR in 10 Months, Mounting an Enterprise Assault on Robotics &quot;Demo Culture&quot;</title>
@@ -142,13 +142,22 @@
     <summary>Ten months after its first commercial rollout, Skild AI has scaled to $100 million in annual recurring revenue across more than 60 customers, using its deployment milestone to issue a sharp critique of cherry-picked robotics demonstrations.</summary>
   </entry>
   <entry>
-    <title>Xanadu and AMD Launch Open-Source Backline Extension for PennyLane</title>
-    <link href="https://quantumcomputingreport.com/xanadu-and-amd-launch-open-source-backline-extension-for-pennylane"/>
-    <id>https://quantumcomputingreport.com/xanadu-and-amd-launch-open-source-backline-extension-for-pennylane</id>
-    <updated>2026-09-10T20:01:36.000Z</updated>
+    <title>Altera and Riverlane Partner on QEC Interfaces for Agilex FPGAs Following Post-Quantum Security Rollout</title>
+    <link href="https://quantumcomputingreport.com/altera-and-riverlane-partner-on-qec-interfaces-for-agilex-fpgas-following-post-quantum-security-rollout"/>
+    <id>https://quantumcomputingreport.com/altera-and-riverlane-partner-on-qec-interfaces-for-agilex-fpgas-following-post-quantum-security-rollout</id>
+    <updated>2026-09-11T03:11:03.000Z</updated>
     <author><name>Quantum Computing Report</name></author>
     <category term="QUANTUM"/>
-    <summary>Xanadu and AMD have launched Backline, an open-source framework integrated into Xanadu's PennyLane platform, to connect quantum and classical hardware. It provides ultra-low-latency links across CPUs, GPUs, FPGAs, and SmartNICs, resolving the classical-quantum data bottleneck for applications like quantum error correct</summary>
+    <summary>Altera and Riverlane have partnered to optimize quantum error correction (QEC) interfaces for Altera's Agilex FPGAs, enabling real-time QEC data movement and low-latency control. This collaboration, which includes an open-source QEC Interface (QECi) protocol, aims to standardize data exchange between quantum control el</summary>
+  </entry>
+  <entry>
+    <title>llama.cpp b10901 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10901"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10901</id>
+    <updated>2026-09-10T22:42:42.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="GITHUB REPOS"/>
+    <summary>vulkan: use CPU writes in ggml_backend_vk_cpy_tensor_async if the context is idle ( #28618 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46709648 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramewor</summary>
   </entry>
   <entry>
     <title>How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules</title>
@@ -160,31 +169,31 @@
     <summary>César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.</summary>
   </entry>
   <entry>
-    <title>OpenAI's GPT-Live-1 API lets developers build apps that talk and listen at the same time</title>
-    <link href="https://the-decoder.com/openais-gpt-live-1-api-lets-developers-build-apps-that-talk-and-listen-at-the-same-time"/>
-    <id>https://the-decoder.com/openais-gpt-live-1-api-lets-developers-build-apps-that-talk-and-listen-at-the-same-time</id>
-    <updated>2026-09-10T17:47:35.000Z</updated>
+    <title>Claude Fable 5.1's language is less &quot;load-bearing&quot; than its predecessor's</title>
+    <link href="https://the-decoder.com/claude-fable-5-1s-language-is-less-load-bearing-than-its-predecessors"/>
+    <id>https://the-decoder.com/claude-fable-5-1s-language-is-less-load-bearing-than-its-predecessors</id>
+    <updated>2026-09-10T15:26:58.000Z</updated>
     <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>OpenAI releases GPT-Live-1 as a developer API. The full-duplex speech model scores 80.1 percent in interactivity tests, up from 45.4 percent for its predecessor. At $0.05 per minute, it's not cheap. The article OpenAI's GPT-Live-1 API lets developers build apps that talk and listen at the same time appeared first on Th</summary>
+    <summary>Arena.ai analyzed how Claude's writing changed from Fable 5 to Fable 5.1 across tens of thousands of benchmark responses. Fable 5.1 writes more matter-of-fact but also more verbose. The article Claude Fable 5.1's language is less &quot;load-bearing&quot; than its predecessor's appeared first on The Decoder .</summary>
   </entry>
   <entry>
-    <title>Adobe reports Q3 revenue up 13% YoY to $6.76B, vs. $6.7B est., AI-first annual recurring revenue up 150% YoY, and forecasts Q4 revenue slightly below estimates (Anzar Mehraj/Reuters)</title>
-    <link href="https://www.techmeme.com/260910/p37"/>
-    <id>https://www.techmeme.com/260910/p37</id>
-    <updated>2026-09-10T21:45:01.000Z</updated>
+    <title>An interview with Apple CEO John Ternus and Greg Joswiak on making the iPhone Duo, minimizing the crease, uninspiring Android foldables, the price, and more (Mark Spoonauer/Tom's Guide)</title>
+    <link href="https://www.techmeme.com/260910/p46"/>
+    <id>https://www.techmeme.com/260910/p46</id>
+    <updated>2026-09-11T02:25:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Anzar Mehraj / Reuters : Adobe reports Q3 revenue up 13% YoY to $6.76B, vs. $6.7B est., AI-first annual recurring revenue up 150% YoY, and forecasts Q4 revenue slightly below estimates — Adobe (ADBE.O) beat Wall Street estimates for third-quarter revenue on Thursday, as demand for its AI-integrated products and tools c</summary>
+    <summary>Mark Spoonauer / Tom's Guide : An interview with Apple CEO John Ternus and Greg Joswiak on making the iPhone Duo, minimizing the crease, uninspiring Android foldables, the price, and more — 'I was like, yes, that's it...this is what I want' — Apple's first foldable phone is finally coming in the iPhone Duo …</summary>
   </entry>
   <entry>
-    <title>Oracle reports Q1 revenue up 30% YoY to $19.35B, vs. $19.14B est., cloud infrastructure revenue up 121% to $7.4B, vs. $7.09B est.; ORCL jumps 6%+ after hours (Jordan Novet/CNBC)</title>
-    <link href="https://www.techmeme.com/260910/p35"/>
-    <id>https://www.techmeme.com/260910/p35</id>
-    <updated>2026-09-10T20:30:00.000Z</updated>
+    <title>Sources: OpenAI asked members of Congress for guidance on whether orchestrating an industry-wide slowdown in AI development would be legal under antitrust law (Maxwell Zeff/Wired)</title>
+    <link href="https://www.techmeme.com/260910/p43"/>
+    <id>https://www.techmeme.com/260910/p43</id>
+    <updated>2026-09-11T01:15:00.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Jordan Novet / CNBC : Oracle reports Q1 revenue up 30% YoY to $19.35B, vs. $19.14B est., cloud infrastructure revenue up 121% to $7.4B, vs. $7.09B est.; ORCL jumps 6%+ after hours — Oracle shares moved 4% higher in extended trading on Thursday after the software vendor issued stronger-than-expected quarterly results.</summary>
+    <summary>Maxwell Zeff / Wired : Sources: OpenAI asked members of Congress for guidance on whether orchestrating an industry-wide slowdown in AI development would be legal under antitrust law — Substantive coordination on safety between AI labs may risk running afoul of antitrust law, the people say …</summary>
   </entry>
   <entry>
     <title>Artificial Analysis is not &quot;broken&quot;, and they prove it.</title>
@@ -196,67 +205,40 @@
     <summary>Like many of you, I have seen many posts and tweets in the last weeks complaining about Artificial Analysis being &quot;broken&quot;, &quot;meaningless&quot;, and &quot;bought out.&quot; People who say this have done no research and know very little about how benchmarks work and what they measure. Most people only care about Artificial Analysis Int</summary>
   </entry>
   <entry>
-    <title>I find it funny that a flash model is now 512GB</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wcvmuo/i_find_it_funny_that_a_flash_model_is_now_512gb"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wcvmuo/i_find_it_funny_that_a_flash_model_is_now_512gb</id>
-    <updated>2026-09-10T20:57:40.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>A few years ago a 100GB was considered a very large language model. What do we call under 100GB models now? Tiny models? haha submitted by /u/Terminator857 [link] [comments]</summary>
-  </entry>
-  <entry>
-    <title>Now everyone can put data to work</title>
-    <link href="https://openai.com/index/put-data-to-work"/>
-    <id>https://openai.com/index/put-data-to-work</id>
-    <updated>2026-09-10T15:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
+    <title>An Autonomous GeoAI Agent for Arctic Eco-Navigation</title>
+    <link href="https://arxiv.org/abs/2609.09374"/>
+    <id>https://arxiv.org/abs/2609.09374</id>
+    <updated>2026-09-11T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.</summary>
+    <summary>arXiv:2609.09374v1 Announce Type: new Abstract: Arctic maritime navigation is becoming increasingly important as changing sea-ice conditions expand seasonal accessibility while simultaneously introducing substantial operational, environmental, and community risks. Arctic route planning is inherently a multi-criteria pr</summary>
   </entry>
   <entry>
-    <title>ITL AI Webinar: The Development of an AI Agent Enrichment Workflow at the National Vulnerability Database</title>
-    <link href="https://www.nist.gov/news-events/events/2026/09/itl-ai-webinar-development-ai-agent-enrichment-workflow-national"/>
-    <id>https://www.nist.gov/news-events/events/2026/09/itl-ai-webinar-development-ai-agent-enrichment-workflow-national</id>
-    <updated>2026-09-17T15:00:00.000Z</updated>
-    <author><name>NIST AI News</name></author>
+    <title>The Menu Is an Execution Prior: State-Path Tool Menus for Online Agents</title>
+    <link href="https://arxiv.org/abs/2609.09395"/>
+    <id>https://arxiv.org/abs/2609.09395</id>
+    <updated>2026-09-11T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Join NIST on September 17, 2026 for an Information Technology Laboratory (ITL) AI Program hosted webinar on the development of an AI agent enrichment workflow at the National Vulnerability Database. The National Vulnerability Database (NVD)</summary>
+    <summary>arXiv:2609.09395v1 Announce Type: new Abstract: Language models act through tools, yet practical agents face libraries containing thousands of interfaces. We introduce the tool menu as the short, ordered subset of available tools shown to an agent before execution. The agent can call only tools in this menu. Multi-step</summary>
   </entry>
   <entry>
-    <title>SoftBank Rally Raises Short Squeeze Risk After Bearish Bets Jump</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-10/softbank-rally-raises-short-squeeze-risk-after-bearish-bets-jump"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-10/softbank-rally-raises-short-squeeze-risk-after-bearish-bets-jump</id>
-    <updated>2026-09-10T23:46:25.000Z</updated>
+    <title>Few Places to Hide as Bond Selloffs Continue</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-09-11/few-places-to-hide-as-bond-selloffs-continue-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-09-11/few-places-to-hide-as-bond-selloffs-continue-video</id>
+    <updated>2026-09-11T04:01:20.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>SoftBank Group’s recent rally exposes risks for investors with short positions that have risen to a one-year high.</summary>
+    <summary>AMP economist My Bui projects US 10-year Treasury yields could reach 5% as structural inflation drivers remain intact. She notes that sustained market pressures may keep Federal Reserve interest rates elevated as equities come under pressure, creating a situation where investors lack safe havens amidst market turmoil. </summary>
   </entry>
   <entry>
-    <title>Gold Set for Weekly Drop as Oil, Inflation Boost Rate-Hike Bets</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-10/gold-holds-drop-as-rising-oil-inflation-bolster-rate-hike-bets"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-10/gold-holds-drop-as-rising-oil-inflation-bolster-rate-hike-bets</id>
-    <updated>2026-09-10T23:34:43.000Z</updated>
+    <title>The Dutch Village in the Path of Europe’s Energy Transition</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-09-11/the-dutch-village-in-the-path-of-europe-s-energy-transition"/>
+    <id>https://www.bloomberg.com/news/videos/2026-09-11/the-dutch-village-in-the-path-of-europe-s-energy-transition</id>
+    <updated>2026-09-11T04:00:51.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Gold was on track for a third weekly decline, as surging oil prices and the latest US inflation report bolstered the case for the Federal Reserve to hike interest rates next week.</summary>
-  </entry>
-  <entry>
-    <title>transformers v5.17.0 released</title>
-    <link href="https://github.com/huggingface/transformers/releases/tag/v5.17.0"/>
-    <id>https://github.com/huggingface/transformers/releases/tag/v5.17.0</id>
-    <updated>2026-09-10T12:03:18.000Z</updated>
-    <author><name>huggingface/transformers</name></author>
-    <category term="RESEARCH"/>
-    <summary>Release v5.17.0 New Model additions HYV4 Hy4-Preview is a 780B-parameter mixture-of-experts language model that activates 49B parameters per token. Each MoE layer holds 256 routed experts plus one always-active shared expert and routes every token to 8 of them. The context window is 1M tokens. The architecture combines</summary>
-  </entry>
-  <entry>
-    <title>Claude Fable 5.1's language is less &quot;load-bearing&quot; than its predecessor's</title>
-    <link href="https://the-decoder.com/claude-fable-5-1s-language-is-less-load-bearing-than-its-predecessors"/>
-    <id>https://the-decoder.com/claude-fable-5-1s-language-is-less-load-bearing-than-its-predecessors</id>
-    <updated>2026-09-10T15:26:58.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="RESEARCH"/>
-    <summary>Arena.ai analyzed how Claude's writing changed from Fable 5 to Fable 5.1 across tens of thousands of benchmark responses. Fable 5.1 writes more matter-of-fact but also more verbose. The article Claude Fable 5.1's language is less &quot;load-bearing&quot; than its predecessor's appeared first on The Decoder .</summary>
+    <summary>Demand on the Netherlands’ power grid is outpacing its expansion. Charlotte Hughes-Morgan reports from Moerdijk, the village at risk of being razed for new infrastructure. (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>GitHub Copilot app for Beginners: Using the diff, terminal, and browser</title>
@@ -268,12 +250,30 @@
     <summary>Checking agent-generated code usually means hopping between tabs. Learn how to view diffs, run terminal commands, and preview web apps side by side in the GitHub Copilot app. The post GitHub Copilot app for Beginners: Using the diff, terminal, and browser appeared first on The GitHub Blog .</summary>
   </entry>
   <entry>
-    <title>Boots on the Ground: ‘WARDOGS’ Goes All Out on GeForce NOW at Early-Access Launch</title>
-    <link href="https://blogs.nvidia.com/blog/geforce-now-thursday-wardogs"/>
-    <id>https://blogs.nvidia.com/blog/geforce-now-thursday-wardogs</id>
-    <updated>2026-09-10T13:00:18.000Z</updated>
+    <title>Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies</title>
+    <link href="https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform"/>
+    <id>https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform</id>
+    <updated>2026-09-10T16:00:04.000Z</updated>
     <author><name>NVIDIA Blog</name></author>
     <category term="HARDWARE"/>
-    <summary>Gear up: The latest PC games and major updates are ready to play on GeForce NOW this week. WARDOGS drops onto the cloud at early-access launch, alongside the Valheim 1.0 Deep North update and Bus Simulator 27 — part of nine new titles joining the cloud. The newest PC releases can demand serious hardware, storage […]</summary>
+    <summary>The global robotaxi market — physical AI’s first commercial breakthrough — is projected to reach $400 billion by 2035, with over 6 million commercial vehicles in operation as driverless fleets are already moving people through some of the world’s busiest and most complex streets. Deploying a driverless vehicle is one c</summary>
+  </entry>
+  <entry>
+    <title>Iron Ore Heads For Weekly Loss With Margins Under Pressure</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-11/iron-ore-heads-for-weekly-loss-with-margins-under-pressure"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-11/iron-ore-heads-for-weekly-loss-with-margins-under-pressure</id>
+    <updated>2026-09-11T03:18:40.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="HARDWARE"/>
+    <summary>Iron ore was headed for its steepest weekly loss since June as steel mill margins deteriorated and hot metal output remained seasonally weak.</summary>
+  </entry>
+  <entry>
+    <title>Unitree Open-Sources UnifoLM-WLA-1.0 to Tackle Humanoid Generalization</title>
+    <link href="https://www.humanoidsdaily.com/news/unitree-open-sources-unifolm-wla-1-0-to-tackle-humanoid-generalization"/>
+    <id>https://www.humanoidsdaily.com/news/unitree-open-sources-unifolm-wla-1-0-to-tackle-humanoid-generalization</id>
+    <updated>2026-09-10T10:07:57.000Z</updated>
+    <author><name>Humanoids Daily</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Unitree Robotics has open-sourced UnifoLM-WLA-1.0, a 6-billion-parameter foundation model that combines an embodied reasoner, dynamic optical-flow world modeling, and an MMDiT action expert to drive whole-body manipulation.</summary>
   </entry>
 </feed>
