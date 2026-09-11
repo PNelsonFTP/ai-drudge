@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-09-11T04:26:20.141Z</updated>
+  <updated>2026-09-11T09:33:03.744Z</updated>
   <entry>
-    <title>Introducing ChatGPT for Financial Services</title>
-    <link href="https://openai.com/index/introducing-chatgpt-financial-services"/>
-    <id>https://openai.com/index/introducing-chatgpt-financial-services</id>
-    <updated>2026-09-10T07:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials. — Also covered by: Reuters AI (Google News)</summary>
+    <title>llama.cpp b10903 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10903"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10903</id>
+    <updated>2026-09-11T06:34:50.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>vulkan: fix data race and OOB access in argsort(large) ( #28705 ) argsort had a data race in the inner loop, which VVL caught. But I don't think this was causing failures in practice. argsort_large has OOB accesses which might explain the failures in CI, but I couldn't reproduce it locally and I don't think it's a conv — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
     <title>claude-code v2.1.268 released</title>
@@ -25,40 +25,22 @@
     <summary>What's changed Added to the Claude apps gateway: with pricing: set in gateway.yaml , signed-in Claude Code clients receive the same rates through managed settings, so /cost and telemetry match the spend meter Added a startup warning for gateways when access_control.allow_cidrs is empty, and a one-time warning the first — Also covered by: QwenLM/qwen-code</summary>
   </entry>
   <entry>
-    <title>DeepSeek v4.1 Flash</title>
-    <link href="https://twitter.com/deepseek_ai/status/2097930608790167907"/>
-    <id>https://twitter.com/deepseek_ai/status/2097930608790167907</id>
-    <updated>2026-09-10T06:11:05.000Z</updated>
-    <author><name>HN: Chinese Frontier Labs</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash Comments URL: https://news.ycombinator.com/item?id=49639090 Points: 949 # Comments: 532 — Also covered by: TLDR AI</summary>
-  </entry>
-  <entry>
-    <title>New Deepseek model V4.1-Flash cuts memory needs for AI agents</title>
-    <link href="https://the-decoder.com/new-deepseek-model-v4-1-flash-cuts-memory-needs-for-ai-agents"/>
-    <id>https://the-decoder.com/new-deepseek-model-v4-1-flash-cuts-memory-needs-for-ai-agents</id>
-    <updated>2026-09-10T12:40:51.000Z</updated>
+    <title>Anthropic's $1.5 billion book settlement descends into chaos as authors and publishers fight over who gets paid</title>
+    <link href="https://the-decoder.com/anthropics-1-5-billion-book-settlement-descends-into-chaos-as-authors-and-publishers-fight-over-who-gets-paid"/>
+    <id>https://the-decoder.com/anthropics-1-5-billion-book-settlement-descends-into-chaos-as-authors-and-publishers-fight-over-who-gets-paid</id>
+    <updated>2026-09-11T08:40:01.000Z</updated>
     <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Deepseek releases V4.1-Flash, a multimodal model with 552 billion parameters that cuts KV cache memory to a quarter of its predecessor. On the DeepSWE coding benchmark, it narrowly beats Opus 5 and GPT-5.6 Sol, even though only 16 billion parameters are active per token. The model ships under the MIT license and target</summary>
+    <summary>Authors and publishers fight over how to split Anthropic's $1.5 billion settlement, the largest copyright deal in US history. The article Anthropic's $1.5 billion book settlement descends into chaos as authors and publishers fight over who gets paid appeared first on The Decoder .</summary>
   </entry>
   <entry>
-    <title>A US judge finds TikTok liable for lying about its safety standards and exposing minors to inappropriate content, in a 2025 lawsuit filed by Texas AG Ken Paxton (Christian Terry/Click2Houston.com)</title>
-    <link href="https://www.techmeme.com/260910/p48"/>
-    <id>https://www.techmeme.com/260910/p48</id>
-    <updated>2026-09-11T03:10:01.000Z</updated>
+    <title>MIT launches the LLM Election Observatory, a dashboard tracking how nearly a dozen AI models tailor responses to political queries during the 2026 US midterms (Tiffany Hsu/New York Times)</title>
+    <link href="https://www.techmeme.com/260911/p5"/>
+    <id>https://www.techmeme.com/260911/p5</id>
+    <updated>2026-09-11T06:25:02.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Christian Terry / Click2Houston.com : A US judge finds TikTok liable for lying about its safety standards and exposing minors to inappropriate content, in a 2025 lawsuit filed by Texas AG Ken Paxton — State will now proceed to trial to determine relief and penalties — AUSTIN, Texas - A U.S. District Judge has found Tik</summary>
-  </entry>
-  <entry>
-    <title>Someone apparently managed to kind of replicate what V4.1 flash does on KV for fast prefill on Qwen</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wd4xxv/someone_apparently_managed_to_kind_of_replicate"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wd4xxv/someone_apparently_managed_to_kind_of_replicate</id>
-    <updated>2026-09-11T03:36:45.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>I wonder someone will figure out a way to do this with 27B? Throw Qwen3 on this page for demo https://kishida.github.io/webdemos/llkvapprox/ submitted by /u/T_rex2700 [link] [comments]</summary>
+    <summary>Tiffany Hsu / New York Times : MIT launches the LLM Election Observatory, a dashboard tracking how nearly a dozen AI models tailor responses to political queries during the 2026 US midterms — Artificial intelligence is quickly becoming a go-to stop for voters looking for information about political races. Researchers a</summary>
   </entry>
   <entry>
     <title>Adaptive Entangled Game Modules in Artificial General Intelligence</title>
@@ -70,13 +52,13 @@
     <summary>arXiv:2609.09226v1 Announce Type: new Abstract: We introduce a probability-wave framework for modeling the collective behavior of interacting adaptive agents, deriving testable eigenmodes through a generalized behavioral intelligence (GBI) nonlocal probability-wave equation. This framework captures a broad range of hum</summary>
   </entry>
   <entry>
-    <title>DeepSeek Hands Memory Stock Investors Fresh Reason for Caution</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-11/deepseek-hands-memory-stock-investors-fresh-reason-for-caution"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-11/deepseek-hands-memory-stock-investors-fresh-reason-for-caution</id>
-    <updated>2026-09-11T02:55:22.000Z</updated>
+    <title>MUFG Prices $1.3 Billion Perpetual AT1 Bond Amid Strong Demand</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-11/mufg-prices-1-3-billion-perpetual-at1-bond-amid-strong-demand"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-11/mufg-prices-1-3-billion-perpetual-at1-bond-amid-strong-demand</id>
+    <updated>2026-09-11T08:36:35.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Fund managers wading back into South Korean memory makers’ stocks got a fresh gut check after DeepSeek’s latest artificial intelligence model raised doubts on the strength of demand.</summary>
+    <summary>Mitsubishi UFJ Financial Group Inc. priced ¥200 billion ($1.3 billion) of perpetual debt at spreads tighter than its previous sale as investors gravitated toward subordinated issues.</summary>
   </entry>
   <entry>
     <title>OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows</title>
@@ -88,40 +70,40 @@
     <summary>arXiv:2609.09203v1 Announce Type: new Abstract: Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process by which those outputs were obtained. This makes it impossible to audit scientific methodology, diagnose failure modes,</summary>
   </entry>
   <entry>
-    <title>Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference</title>
-    <link href="https://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference"/>
-    <id>https://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference</id>
-    <updated>2026-09-10T21:58:09.000Z</updated>
-    <author><name>AWS ML Blog</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Amazon SageMaker Inference now offers prefix-aware routing, a routing strategy that sends requests sharing the same prompt prefix to the same instance so the KV cache stays warm. In benchmarks on Llama 3.1 70B, it reduced P50 time-to-first-token by up to 77% and raised KV cache hit rates from about 25% to over 80%.</summary>
+    <title>Cohere Releases North Small Translate: A 218B MoE Translation Model That Scores 83.6 on WMT26 Across 50 Languages</title>
+    <link href="https://www.marktechpost.com/2026/09/10/cohere-releases-north-small-translate-a-218b-moe-translation-model-that-scores-83-6-on-wmt26-across-50-languages"/>
+    <id>https://www.marktechpost.com/2026/09/10/cohere-releases-north-small-translate-a-218b-moe-translation-model-that-scores-83-6-on-wmt26-across-50-languages</id>
+    <updated>2026-09-11T06:57:22.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Cohere has released North Small Translate, an open-weight Mixture-of-Experts model built for machine translation across 50 languages. It uses 25B of its 218B parameters per token and scores 83.6 on Cohere's WMT26 evaluation. Weights are free for non-commercial use, with commercial access through Cohere Model Vault or R</summary>
   </entry>
   <entry>
-    <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
-    <link href="https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare"/>
-    <id>https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare</id>
-    <updated>2026-09-24T13:00:00.000Z</updated>
-    <author><name>NIST AI News</name></author>
+    <title>The Mathematical AI Safety Institute wants to prove AI is safe the way cryptographers prove codes are unbreakable</title>
+    <link href="https://the-decoder.com/the-mathematical-ai-safety-institute-wants-to-prove-ai-is-safe-the-way-cryptographers-prove-codes-are-unbreakable"/>
+    <id>https://the-decoder.com/the-mathematical-ai-safety-institute-wants-to-prove-ai-is-safe-the-way-cryptographers-prove-codes-are-unbreakable</id>
+    <updated>2026-09-11T09:15:10.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>This Symposium is a one-day event to address the question: “ which medical measurements and consensus standards should be prioritized to support future U.S. healthcare?” The focus will be on medical imaging, medical devices, and diagnostics. The goal</summary>
+    <summary>Canadian mathematician Jacob Tsimerman, a fresh Fields Medal recipient, has announced the founding of the Mathematical A.I. Safety Institute (MAISI). The article The Mathematical AI Safety Institute wants to prove AI is safe the way cryptographers prove codes are unbreakable appeared first on The Decoder .</summary>
   </entry>
   <entry>
-    <title>[tl;dr sec] #345 - Bug Rumors → Exploits, Version Control DFIR, Agentic Worms</title>
-    <link href="https://tldrsec.com/p/tldr-sec-345"/>
-    <id>https://tldrsec.com/p/tldr-sec-345</id>
-    <updated>2026-09-10T14:30:00.000Z</updated>
-    <author><name>tl;dr sec</name></author>
+    <title>AI Security Incident Case: Amazon Kiro Prompt Injection Vulnerability Analysis</title>
+    <link href="https://securityboulevard.com/2026/09/ai-security-incident-case-amazon-kiro-prompt-injection-vulnerability-analysis"/>
+    <id>https://securityboulevard.com/2026/09/ai-security-incident-case-amazon-kiro-prompt-injection-vulnerability-analysis</id>
+    <updated>2026-09-11T07:09:21.000Z</updated>
+    <author><name>GN: Prompt Injection</name></author>
     <category term="AI SECURITY"/>
-    <summary>A bug description is sufficient for AI to find it and write an exploit, cheat sheet on doing DFIR for GitHub, GitLab and more, and a paper on self-replicating, open weight agentic worms</summary>
+    <summary>AI Security Incident Case: Amazon Kiro Prompt Injection Vulnerability Analysis Security Boulevard</summary>
   </entry>
   <entry>
-    <title>Treasury urges banks to file cyber scam reports, noting nearly $13 billion in losses since 2023</title>
-    <link href="https://therecord.media/treasury-urges-banks-report-cyber-scams"/>
-    <id>https://therecord.media/treasury-urges-banks-report-cyber-scams</id>
-    <updated>2026-09-10T21:15:00.000Z</updated>
-    <author><name>The Record</name></author>
+    <title>Trezor: 347,000 users targeted in phishing attacks after Brevo breach</title>
+    <link href="https://www.bleepingcomputer.com/news/security/trezor-347-000-users-targeted-in-phishing-attacks-after-brevo-breach"/>
+    <id>https://www.bleepingcomputer.com/news/security/trezor-347-000-users-targeted-in-phishing-attacks-after-brevo-breach</id>
+    <updated>2026-09-11T07:55:15.000Z</updated>
+    <author><name>BleepingComputer</name></author>
     <category term="CYBER THREATS"/>
-    <summary>As the cyber scam industry expands globally, the U.S. government wants banks to share more information about what's happening to their customers.</summary>
+    <summary>Trezor has revealed that phishing attacks against its customers earlier this week targeted 347,000 email addresses and affected 2,500 users who clicked an embedded malicious link. [...]</summary>
   </entry>
   <entry>
     <title>Datasette 1.0a39 and 0.65.4 security releases</title>
@@ -133,76 +115,67 @@
     <summary>Datasette 1.0a39 and 0.65.4 security releases Today we're releasing two new security patch versions of Datasette: 1.0a39 and 0.65.4 - one for the current alpha series and one for the stable 0.65.x family. These are security fixes which you should apply if you are running a Datasette instance on the public web - in part</summary>
   </entry>
   <entry>
-    <title>Skild AI Crosses $100M ARR in 10 Months, Mounting an Enterprise Assault on Robotics &quot;Demo Culture&quot;</title>
-    <link href="https://www.humanoidsdaily.com/news/skild-ai-crosses-100m-arr-in-10-months-mounting-an-enterprise-assault-on-robotics-demo-culture"/>
-    <id>https://www.humanoidsdaily.com/news/skild-ai-crosses-100m-arr-in-10-months-mounting-an-enterprise-assault-on-robotics-demo-culture</id>
-    <updated>2026-09-10T18:34:03.000Z</updated>
-    <author><name>Humanoids Daily</name></author>
+    <title>A Chinese humanoid startup flips 'distillation' claim on OpenAI as it releases a new robotics model</title>
+    <link href="https://www.cnbc.com/2026/09/11/chinese-humanoid-robot-startup-distillation-claim-openai.html"/>
+    <id>https://www.cnbc.com/2026/09/11/chinese-humanoid-robot-startup-distillation-claim-openai.html</id>
+    <updated>2026-09-11T06:02:40.000Z</updated>
+    <author><name>CNBC Tech</name></author>
     <category term="ROBOTICS"/>
-    <summary>Ten months after its first commercial rollout, Skild AI has scaled to $100 million in annual recurring revenue across more than 60 customers, using its deployment milestone to issue a sharp critique of cherry-picked robotics demonstrations.</summary>
+    <summary>Ant-backed startup JoyIn's CEO published an article in Chinese that raised questions about similarities between his company's new model and OpenAI publications.</summary>
   </entry>
   <entry>
-    <title>Altera and Riverlane Partner on QEC Interfaces for Agilex FPGAs Following Post-Quantum Security Rollout</title>
-    <link href="https://quantumcomputingreport.com/altera-and-riverlane-partner-on-qec-interfaces-for-agilex-fpgas-following-post-quantum-security-rollout"/>
-    <id>https://quantumcomputingreport.com/altera-and-riverlane-partner-on-qec-interfaces-for-agilex-fpgas-following-post-quantum-security-rollout</id>
-    <updated>2026-09-11T03:11:03.000Z</updated>
+    <title>LUMI AI Factory Selects IQM’s Halocene Roadmap for Europe’s First Superconducting Logical Qubit System</title>
+    <link href="https://quantumcomputingreport.com/lumi-ai-factory-selects-iqms-halocene-roadmap-for-europes-first-superconducting-logical-qubit-system"/>
+    <id>https://quantumcomputingreport.com/lumi-ai-factory-selects-iqms-halocene-roadmap-for-europes-first-superconducting-logical-qubit-system</id>
+    <updated>2026-09-11T04:04:19.000Z</updated>
     <author><name>Quantum Computing Report</name></author>
     <category term="QUANTUM"/>
-    <summary>Altera and Riverlane have partnered to optimize quantum error correction (QEC) interfaces for Altera's Agilex FPGAs, enabling real-time QEC data movement and low-latency control. This collaboration, which includes an open-source QEC Interface (QECi) protocol, aims to standardize data exchange between quantum control el</summary>
+    <summary>IQM Quantum Computers will deploy Europe's first logical-qubit-capable superconducting quantum computer, LUMI-IQ, at CSC's Kajaani, Finland data center. This system, co-funded by the EuroHPC Joint Undertaking, will be integrated into the LUMI AI Factory, creating a hybrid HPC-AI-quantum supercomputing platform. LUMI-IQ</summary>
   </entry>
   <entry>
-    <title>llama.cpp b10901 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10901"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10901</id>
-    <updated>2026-09-10T22:42:42.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="GITHUB REPOS"/>
-    <summary>vulkan: use CPU writes in ggml_backend_vk_cpy_tensor_async if the context is idle ( #28618 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46709648 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramewor</summary>
-  </entry>
-  <entry>
-    <title>How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules</title>
-    <link href="https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials"/>
-    <id>https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials</id>
-    <updated>2026-09-10T16:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.</summary>
-  </entry>
-  <entry>
-    <title>Claude Fable 5.1's language is less &quot;load-bearing&quot; than its predecessor's</title>
-    <link href="https://the-decoder.com/claude-fable-5-1s-language-is-less-load-bearing-than-its-predecessors"/>
-    <id>https://the-decoder.com/claude-fable-5-1s-language-is-less-load-bearing-than-its-predecessors</id>
-    <updated>2026-09-10T15:26:58.000Z</updated>
+    <title>OpenAI's new Agents API gives developers the infrastructure behind Codex and ChatGPT</title>
+    <link href="https://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt"/>
+    <id>https://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt</id>
+    <updated>2026-09-11T08:11:46.000Z</updated>
     <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Arena.ai analyzed how Claude's writing changed from Fable 5 to Fable 5.1 across tens of thousands of benchmark responses. Fable 5.1 writes more matter-of-fact but also more verbose. The article Claude Fable 5.1's language is less &quot;load-bearing&quot; than its predecessor's appeared first on The Decoder .</summary>
+    <summary>OpenAI is releasing the Agents API as a public beta. It lets developers build cloud agents that run autonomously for hours, execute code, and hand off tasks to sub-agents. There are no extra fees beyond token usage. Cloudflare, Vercel, and Oracle offer additional sandbox environments. The article OpenAI's new Agents AP</summary>
   </entry>
   <entry>
-    <title>An interview with Apple CEO John Ternus and Greg Joswiak on making the iPhone Duo, minimizing the crease, uninspiring Android foldables, the price, and more (Mark Spoonauer/Tom's Guide)</title>
-    <link href="https://www.techmeme.com/260910/p46"/>
-    <id>https://www.techmeme.com/260910/p46</id>
-    <updated>2026-09-11T02:25:01.000Z</updated>
+    <title>Sources: TikTok rejects ads from Meta that call on competitors to join Meta in settling with US state attorneys general in a landmark child safety lawsuit (Sara Fischer/Axios)</title>
+    <link href="https://www.techmeme.com/260911/p6"/>
+    <id>https://www.techmeme.com/260911/p6</id>
+    <updated>2026-09-11T09:30:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Mark Spoonauer / Tom's Guide : An interview with Apple CEO John Ternus and Greg Joswiak on making the iPhone Duo, minimizing the crease, uninspiring Android foldables, the price, and more — 'I was like, yes, that's it...this is what I want' — Apple's first foldable phone is finally coming in the iPhone Duo …</summary>
+    <summary>Sara Fischer / Axios : Sources: TikTok rejects ads from Meta that call on competitors to join Meta in settling with US state attorneys general in a landmark child safety lawsuit — TikTok has rejected ads from Meta that call on TikTok and other tech platforms to join Meta in settling with U.S. state attorneys general …</summary>
   </entry>
   <entry>
-    <title>Sources: OpenAI asked members of Congress for guidance on whether orchestrating an industry-wide slowdown in AI development would be legal under antitrust law (Maxwell Zeff/Wired)</title>
-    <link href="https://www.techmeme.com/260910/p43"/>
-    <id>https://www.techmeme.com/260910/p43</id>
-    <updated>2026-09-11T01:15:00.000Z</updated>
+    <title>Tencent-backed AI chipmaker Enflame's shares surged 188% in their Shanghai debut, giving Enflame a market cap of $26.3B, after raising ~$910M in an IPO (Ann Cao/South China Morning Post)</title>
+    <link href="https://www.techmeme.com/260911/p1"/>
+    <id>https://www.techmeme.com/260911/p1</id>
+    <updated>2026-09-11T04:40:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Maxwell Zeff / Wired : Sources: OpenAI asked members of Congress for guidance on whether orchestrating an industry-wide slowdown in AI development would be legal under antitrust law — Substantive coordination on safety between AI labs may risk running afoul of antitrust law, the people say …</summary>
+    <summary>Ann Cao / South China Morning Post : Tencent-backed AI chipmaker Enflame's shares surged 188% in their Shanghai debut, giving Enflame a market cap of $26.3B, after raising ~$910M in an IPO — Tencent-backed company valued at US$25 billion, highlighting its role in Beijing's push for domestic chips amid US export restric</summary>
   </entry>
   <entry>
-    <title>Artificial Analysis is not &quot;broken&quot;, and they prove it.</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wcxxm8/artificial_analysis_is_not_broken_and_they_prove"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wcxxm8/artificial_analysis_is_not_broken_and_they_prove</id>
-    <updated>2026-09-10T22:26:51.000Z</updated>
+    <title>What can you run on 8GB VRAM?</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wd96dk/what_can_you_run_on_8gb_vram"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wd96dk/what_can_you_run_on_8gb_vram</id>
+    <updated>2026-09-11T07:23:05.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Like many of you, I have seen many posts and tweets in the last weeks complaining about Artificial Analysis being &quot;broken&quot;, &quot;meaningless&quot;, and &quot;bought out.&quot; People who say this have done no research and know very little about how benchmarks work and what they measure. Most people only care about Artificial Analysis Int</summary>
+    <summary>Can you still do something with a 2050 or something like it? I mean for office work, loading embedding, reranking and chat models not at the same time but is anyone still using smaller models and have any good ones come out? I feel like small models are abandoned, I don’t care much for world knowledge, I want tool use </summary>
+  </entry>
+  <entry>
+    <title>Someone apparently managed to kind of replicate what V4.1 flash does on KV for fast prefill on Qwen</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wd4xxv/someone_apparently_managed_to_kind_of_replicate"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wd4xxv/someone_apparently_managed_to_kind_of_replicate</id>
+    <updated>2026-09-11T03:36:45.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>I wonder someone will figure out a way to do this with 27B? Throw Qwen3 on this page for demo https://kishida.github.io/webdemos/llkvapprox/ submitted by /u/T_rex2700 [link] [comments]</summary>
   </entry>
   <entry>
     <title>An Autonomous GeoAI Agent for Arctic Eco-Navigation</title>
@@ -223,31 +196,31 @@
     <summary>arXiv:2609.09395v1 Announce Type: new Abstract: Language models act through tools, yet practical agents face libraries containing thousands of interfaces. We introduce the tool menu as the short, ordered subset of available tools shown to an agent before execution. The agent can call only tools in this menu. Multi-step</summary>
   </entry>
   <entry>
-    <title>Few Places to Hide as Bond Selloffs Continue</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-11/few-places-to-hide-as-bond-selloffs-continue-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-11/few-places-to-hide-as-bond-selloffs-continue-video</id>
-    <updated>2026-09-11T04:01:20.000Z</updated>
+    <title>The Man Spending $70,000 To Play 100 Top US Golf Courses</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-09-11/the-man-spending-70-000-to-play-100-top-us-golf-courses"/>
+    <id>https://www.bloomberg.com/news/videos/2026-09-11/the-man-spending-70-000-to-play-100-top-us-golf-courses</id>
+    <updated>2026-09-11T09:31:01.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>AMP economist My Bui projects US 10-year Treasury yields could reach 5% as structural inflation drivers remain intact. She notes that sustained market pressures may keep Federal Reserve interest rates elevated as equities come under pressure, creating a situation where investors lack safe havens amidst market turmoil. </summary>
+    <summary>Daniel Belk turned a pandemic-era career setback into two businesses. Then, in January, he sold his stake in one of them for $1 million. His next move: spending the year trying to play America’s top 100 public golf courses. (Source: Bloomberg)</summary>
   </entry>
   <entry>
-    <title>The Dutch Village in the Path of Europe’s Energy Transition</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-11/the-dutch-village-in-the-path-of-europe-s-energy-transition"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-11/the-dutch-village-in-the-path-of-europe-s-energy-transition</id>
-    <updated>2026-09-11T04:00:51.000Z</updated>
+    <title>Efron: Iran War Solved None of Israel’s Problems</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-09-11/efron-iran-war-solved-none-of-israel-s-problems-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-09-11/efron-iran-war-solved-none-of-israel-s-problems-video</id>
+    <updated>2026-09-11T09:20:53.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Demand on the Netherlands’ power grid is outpacing its expansion. Charlotte Hughes-Morgan reports from Moerdijk, the village at risk of being razed for new infrastructure. (Source: Bloomberg)</summary>
+    <summary>The UN's atomic watchdog IAEA says it has observed construction activity at Iran's Pickaxe Mountain. That's after President Trump drew attention to the suspected nuclear site in public comments at least twice in the last week. Shira Efron, Distinguished Chair for Israel Policy at RAND spoke to Bloomberg’s Abeer Abu Oma</summary>
   </entry>
   <entry>
-    <title>GitHub Copilot app for Beginners: Using the diff, terminal, and browser</title>
-    <link href="https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser"/>
-    <id>https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser</id>
-    <updated>2026-09-10T21:31:19.000Z</updated>
-    <author><name>GitHub Blog</name></author>
+    <title>PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws</title>
+    <link href="https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html"/>
+    <id>https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html</id>
+    <updated>2026-09-11T06:46:18.000Z</updated>
+    <author><name>The Hacker News</name></author>
     <category term="PRODUCTS"/>
-    <summary>Checking agent-generated code usually means hopping between tabs. Learn how to view diffs, run terminal commands, and preview web apps side by side in the GitHub Copilot app. The post GitHub Copilot app for Beginners: Using the diff, terminal, and browser appeared first on The GitHub Blog .</summary>
+    <summary>PaperCut on Thursday released a new security maintenance release that replaces all previously published emergency patches that were pushed to address two security flaws that have come under active exploitation. The software development company said PaperCut NG/MF versions 26.0.5, 25.0.13 and 24.1.10 are now available f</summary>
   </entry>
   <entry>
     <title>Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies</title>
@@ -259,13 +232,13 @@
     <summary>The global robotaxi market — physical AI’s first commercial breakthrough — is projected to reach $400 billion by 2035, with over 6 million commercial vehicles in operation as driverless fleets are already moving people through some of the world’s busiest and most complex streets. Deploying a driverless vehicle is one c</summary>
   </entry>
   <entry>
-    <title>Iron Ore Heads For Weekly Loss With Margins Under Pressure</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-11/iron-ore-heads-for-weekly-loss-with-margins-under-pressure"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-11/iron-ore-heads-for-weekly-loss-with-margins-under-pressure</id>
-    <updated>2026-09-11T03:18:40.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
+    <title>DISA launches tender for $21.6bn JWCC contracts</title>
+    <link href="https://www.datacenterdynamics.com/en/news/disa-launches-tender-for-216bn-jwcc-contracts"/>
+    <id>https://www.datacenterdynamics.com/en/news/disa-launches-tender-for-216bn-jwcc-contracts</id>
+    <updated>2026-09-11T08:19:15.000Z</updated>
+    <author><name>Data Center Dynamics</name></author>
     <category term="HARDWARE"/>
-    <summary>Iron ore was headed for its steepest weekly loss since June as steel mill margins deteriorated and hot metal output remained seasonally weak.</summary>
+    <summary>Cloud providers have until October 6 to submit bids</summary>
   </entry>
   <entry>
     <title>Unitree Open-Sources UnifoLM-WLA-1.0 to Tackle Humanoid Generalization</title>
@@ -275,5 +248,32 @@
     <author><name>Humanoids Daily</name></author>
     <category term="OPEN SOURCE"/>
     <summary>Unitree Robotics has open-sourced UnifoLM-WLA-1.0, a 6-billion-parameter foundation model that combines an embodied reasoner, dynamic optical-flow world modeling, and an MMDiT action expert to drive whole-body manipulation.</summary>
+  </entry>
+  <entry>
+    <title>Altera and Riverlane Partner on QEC Interfaces for Agilex FPGAs Following Post-Quantum Security Rollout</title>
+    <link href="https://quantumcomputingreport.com/altera-and-riverlane-partner-on-qec-interfaces-for-agilex-fpgas-following-post-quantum-security-rollout"/>
+    <id>https://quantumcomputingreport.com/altera-and-riverlane-partner-on-qec-interfaces-for-agilex-fpgas-following-post-quantum-security-rollout</id>
+    <updated>2026-09-11T03:11:03.000Z</updated>
+    <author><name>Quantum Computing Report</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Altera and Riverlane have partnered to optimize quantum error correction (QEC) interfaces for Altera's Agilex FPGAs, enabling real-time QEC data movement and low-latency control. This collaboration, which includes an open-source QEC Interface (QECi) protocol, aims to standardize data exchange between quantum control el</summary>
+  </entry>
+  <entry>
+    <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
+    <link href="https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare"/>
+    <id>https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare</id>
+    <updated>2026-09-24T13:00:00.000Z</updated>
+    <author><name>NIST AI News</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>This Symposium is a one-day event to address the question: “ which medical measurements and consensus standards should be prioritized to support future U.S. healthcare?” The focus will be on medical imaging, medical devices, and diagnostics. The goal</summary>
+  </entry>
+  <entry>
+    <title>ITL AI Webinar: The Development of an AI Agent Enrichment Workflow at the National Vulnerability Database</title>
+    <link href="https://www.nist.gov/news-events/events/2026/09/itl-ai-webinar-development-ai-agent-enrichment-workflow-national"/>
+    <id>https://www.nist.gov/news-events/events/2026/09/itl-ai-webinar-development-ai-agent-enrichment-workflow-national</id>
+    <updated>2026-09-17T15:00:00.000Z</updated>
+    <author><name>NIST AI News</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>Join NIST on September 17, 2026 for an Information Technology Laboratory (ITL) AI Program hosted webinar on the development of an AI agent enrichment workflow at the National Vulnerability Database. The National Vulnerability Database (NVD)</summary>
   </entry>
 </feed>
