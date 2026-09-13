@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-09-13T11:40:20.391Z</updated>
+  <updated>2026-09-13T16:08:29.753Z</updated>
   <entry>
     <title>llama.cpp b10941 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10941"/>
@@ -43,31 +43,40 @@
     <summary>Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.</summary>
   </entry>
   <entry>
-    <title>Dallas-based Perry Weather, a weather monitoring software provider, raised a $110M Series C led by Silversmith Capital Partners, taking total funding to ~$131M (John Egan/Dallas Innovates)</title>
-    <link href="https://www.techmeme.com/260913/p2"/>
-    <id>https://www.techmeme.com/260913/p2</id>
-    <updated>2026-09-13T05:45:01.000Z</updated>
+    <title>Speaker Johnson says Congress won't lead the charge on regulating AI safety and AI companies should take responsibility to ensure the safety of their products (Donica Phifer/Axios)</title>
+    <link href="https://www.techmeme.com/260913/p7"/>
+    <id>https://www.techmeme.com/260913/p7</id>
+    <updated>2026-09-13T15:45:00.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>John Egan / Dallas Innovates : Dallas-based Perry Weather, a weather monitoring software provider, raised a $110M Series C led by Silversmith Capital Partners, taking total funding to ~$131M — As rules about heat and lightning grow nationwide, the Uptown Dallas company is betting AI and automation can take the guesswor</summary>
+    <summary>Donica Phifer / Axios : Speaker Johnson says Congress won't lead the charge on regulating AI safety and AI companies should take responsibility to ensure the safety of their products — House Speaker Mike Johnson (R-La.) said Sunday that Congress won't lead the charge on regulating AI safety.</summary>
   </entry>
   <entry>
-    <title>GPT-6 Astra pilots a surveillance drone and runs a business on its own</title>
-    <link href="https://the-decoder.com/gpt-6-astra-pilots-a-surveillance-drone-and-runs-a-business-on-its-own"/>
-    <id>https://the-decoder.com/gpt-6-astra-pilots-a-surveillance-drone-and-runs-a-business-on-its-own</id>
-    <updated>2026-09-13T10:52:16.000Z</updated>
+    <title>Qwen 3.8 27B UD-IQ4_XS even faster on 16GB CUDA</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wfba8g/qwen_38_27b_udiq4_xs_even_faster_on_16gb_cuda"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wfba8g/qwen_38_27b_udiq4_xs_even_faster_on_16gb_cuda</id>
+    <updated>2026-09-13T15:50:25.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>This is an evolution on top of Raymond's KV cache streaming fork - all credits to what enabled this goes to him. The basic idea behind what he enabled was a pool of memory in VRAM that is used differently depending on the phase (prompt processing or decoding) and when total used context is larger than what fits in VRAM</summary>
+  </entry>
+  <entry>
+    <title>Iris-mini and Iris-pro are the strongest open-weight search agents in their class</title>
+    <link href="https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class"/>
+    <id>https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class</id>
+    <updated>2026-09-13T12:58:18.000Z</updated>
     <author><name>The Decoder</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>GPT-6 Astra earns nearly three times as much as Claude Fable 5.1 on Andon Labs' Vending-Bench agent benchmark and refuses illegal price-fixing deals that Fable agrees to. On drone control, Astra is the first model to beat the human baseline on all five subtasks, including finding and following individual people. The ar</summary>
+    <summary>The AllSpark team has released Iris-mini and Iris-pro, two open-source search agents built on Qwen models that lead benchmarks among open-weight models in their size classes. According to the paper, the training data and models also improved performance on tasks they were never trained for, including general tool use a</summary>
   </entry>
   <entry>
-    <title>Senegal Raises $179 Million as Debt Rework Tests Local Market</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-13/senegal-raises-179-million-as-debt-rework-tests-local-market"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-13/senegal-raises-179-million-as-debt-rework-tests-local-market</id>
-    <updated>2026-09-13T10:36:15.000Z</updated>
+    <title>LIV Golf’s $5 Billion Path to Bankruptcy</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-09-13/liv-golf-s-5-billion-path-to-bankruptcy"/>
+    <id>https://www.bloomberg.com/news/videos/2026-09-13/liv-golf-s-5-billion-path-to-bankruptcy</id>
+    <updated>2026-09-13T14:00:25.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Senegal raised 101 billion CFA francs ($179 million) in a government securities auction on Friday, its first sale since announcing plans to seek a reworking of its external debt.</summary>
+    <summary>LIV shook professional golf with flashy tournaments and big payouts, thanks to billions of dollars in backing from the Saudi sovereign wealth fund. On today’s Big Take podcast, David Gura and Golf.com senior writer Sean Zak look at why LIV Golf couldn’t make the cut — and how it changed pro golf. Listen wherever you ge</summary>
   </entry>
   <entry>
     <title>Monitoring production agent lifecycle with AWS DevOps Agent and AgentCore Evaluations</title>
@@ -79,22 +88,13 @@
     <summary>Multi-agent systems fail in ways traditional monitoring misses. This post presents a dual-layer approach to monitoring production agents: Amazon Bedrock AgentCore Evaluations for continuous quality scoring and AWS DevOps Agent for autonomous infrastructure investigation, shown on a four-agent airline reservation system</summary>
   </entry>
   <entry>
-    <title>Mexican cartel crypto farm seized in mountain raid — 300 GPUs, satellite links, and industrial transformers tapped hydroelectric power</title>
-    <link href="https://www.tomshardware.com/tech-industry/cryptomining/mexican-cartel-crypto-farm-seized-in-mountain-raid-300-gpus-satellite-links-and-industrial-transformers-tapped-hydroelectric-power"/>
-    <id>https://www.tomshardware.com/tech-industry/cryptomining/mexican-cartel-crypto-farm-seized-in-mountain-raid-300-gpus-satellite-links-and-industrial-transformers-tapped-hydroelectric-power</id>
-    <updated>2026-09-13T11:30:00.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
+    <title>Chatbots can exploit our most basic human drive for attachment. Here’s how to have healthier relationship with AI | Gaynor Parkin and Dave Winsborough</title>
+    <link href="https://www.theguardian.com/commentisfree/2026/sep/14/how-to-have-healthier-relationship-with-ai-chatbots-human-intimacy"/>
+    <id>https://www.theguardian.com/commentisfree/2026/sep/14/how-to-have-healthier-relationship-with-ai-chatbots-human-intimacy</id>
+    <updated>2026-09-13T15:00:09.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="HARDWARE"/>
-    <summary>There is increasing evidence that Mexican drug cartels are diversifying into cryptocurrency mining and are using crypto platforms to launder their ill-gotten gains.</summary>
-  </entry>
-  <entry>
-    <title>AGIBOT Open-Sources GE-Act 2.0, Challenging Unitree in the Open Embodied AI Race</title>
-    <link href="https://www.humanoidsdaily.com/news/agibot-open-sources-ge-act-2-0-challenging-unitree-in-the-open-embodied-ai-race"/>
-    <id>https://www.humanoidsdaily.com/news/agibot-open-sources-ge-act-2-0-challenging-unitree-in-the-open-embodied-ai-race</id>
-    <updated>2026-09-11T15:35:32.000Z</updated>
-    <author><name>Humanoids Daily</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Hot on the heels of Unitree’s UnifoLM release, AGIBOT has open-sourced GE-Act 2.0, a native World-Action Model pretrained from scratch across 30,000 hours of manipulation data to eliminate the &quot;validity gap.&quot;</summary>
+    <summary>This intimacy economy is tapping into the deepest parts of our intimate psychological infrastructure The modern mind is a column where experts discuss mental health issues they are seeing in their work Michael* is an engineer whose company embraced the AI wave. He enjoys testing ideas with chatbots. However, recently h</summary>
   </entry>
   <entry>
     <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
@@ -109,7 +109,7 @@
     <title>Conducting The First Live Enterprise Comparison Between Agents and Human Professionals</title>
     <link href="https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals"/>
     <id>https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals</id>
-    <updated>2026-09-13T11:39:53.363Z</updated>
+    <updated>2026-09-13T16:08:01.326Z</updated>
     <author><name>Gray Swan</name></author>
     <category term="AI SECURITY"/>
   </entry>
@@ -123,6 +123,24 @@
     <summary>Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using passkey-themed social engineering to breach cloud environments. The first campaign, per the tech giant, involved sending over a million scam emai</summary>
   </entry>
   <entry>
+    <title>Context Engineering Inside the Harness: 4 Mechanisms That Beat Context Overflow and Goal Loss on Long-Horizon Tasks</title>
+    <link href="https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks"/>
+    <id>https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks</id>
+    <updated>2026-09-13T05:56:03.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="CYBER DEFENSE"/>
+    <summary>A shallow agent is an LLM calling tools in a loop, and on long tasks it fails in 2 ways: context overflow and goal loss. This article opens the harness layer that fixes both, with the actual thresholds shipped by LangChain Deep Agents, Claude Code, Manus, OpenAI Codex and Amazon Bedrock AgentCore, plus an interactive s</summary>
+  </entry>
+  <entry>
+    <title>Altman, Musk, and Hassabis back Amodei's call to add independent oversight</title>
+    <link href="https://the-decoder.com/altman-musk-and-hassabis-back-amodeis-call-to-add-independent-oversight"/>
+    <id>https://the-decoder.com/altman-musk-and-hassabis-back-amodeis-call-to-add-independent-oversight</id>
+    <updated>2026-09-13T08:53:00.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>Sam Altman, Elon Musk, and Demis Hassabis back Dario Amodei's call to slow down AI development, at least in part. Altman says OpenAI is pushing its IPO to 2027 over safety concerns. The article Altman, Musk, and Hassabis back Amodei's call to add independent oversight appeared first on The Decoder .</summary>
+  </entry>
+  <entry>
     <title>Generating running routes with GPT-6 Astra and ChatGPT Work</title>
     <link href="https://simonwillison.net/2026/Sep/12/astra-running-routes"/>
     <id>https://simonwillison.net/2026/Sep/12/astra-running-routes</id>
@@ -132,13 +150,13 @@
     <summary>Here's a neat thing I had ChatGPT Work with GPT-6 Astra (Max) do this morning: I live at &lt;my address&gt;. Figure out 5K and 10K running routes from me that loop from my house. Use OSM data. It worked for 27 minutes and produced exactly what I'd asked for, as both an embedded visualization and downloadable GPX file and Geo</summary>
   </entry>
   <entry>
-    <title>Inside UBTECH’s 10,000-Unit Super Factory: How Robots Are Building Humanoids in Liuzhou</title>
-    <link href="https://www.humanoidsdaily.com/news/inside-ubtech-s-10-000-unit-super-factory-how-robots-are-building-humanoids-in-liuzhou"/>
-    <id>https://www.humanoidsdaily.com/news/inside-ubtech-s-10-000-unit-super-factory-how-robots-are-building-humanoids-in-liuzhou</id>
-    <updated>2026-09-13T06:32:43.000Z</updated>
-    <author><name>Humanoids Daily</name></author>
+    <title>The coming robotaxi revolution</title>
+    <link href="https://www.ft.com/content/2404d7db-002e-42d6-a746-183bb23c1234?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/2404d7db-002e-42d6-a746-183bb23c1234?syn-25a6b1a6=1</id>
+    <updated>2026-09-13T10:00:05.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
     <category term="ROBOTICS"/>
-    <summary>UBTECH has commissioned a 14,000-square-meter smart manufacturing facility in Guangxi engineered to produce a humanoid every 10 minutes, scaling up the industry’s hardware volume race.</summary>
+    <summary>Self-driving cars could transform urban transport, if they can win public trust</summary>
   </entry>
   <entry>
     <title>GÉANT and Quantum Internet Alliance Partner to Advance European Quantum Networking Architecture</title>
@@ -150,49 +168,31 @@
     <summary>GÉANT and the Quantum Internet Alliance (QIA) have partnered to advance European quantum networking by signing an MoU on September 8, 2026. This collaboration leverages GÉANT's optical network and QIA's quantum networking expertise to develop infrastructure, standards, and interoperability protocols, aiming to transiti</summary>
   </entry>
   <entry>
-    <title>Altman, Musk, and Hassabis back Amodei's call to add independent oversight</title>
-    <link href="https://the-decoder.com/altman-musk-and-hassabis-back-amodeis-call-to-add-independent-oversight"/>
-    <id>https://the-decoder.com/altman-musk-and-hassabis-back-amodeis-call-to-add-independent-oversight</id>
-    <updated>2026-09-13T08:53:00.000Z</updated>
+    <title>GPT-6 Astra pilots a surveillance drone and runs a business on its own</title>
+    <link href="https://the-decoder.com/gpt-6-astra-pilots-a-surveillance-drone-and-runs-a-business-on-its-own"/>
+    <id>https://the-decoder.com/gpt-6-astra-pilots-a-surveillance-drone-and-runs-a-business-on-its-own</id>
+    <updated>2026-09-13T10:52:16.000Z</updated>
     <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Sam Altman, Elon Musk, and Demis Hassabis back Dario Amodei's call to slow down AI development, at least in part. Altman says OpenAI is pushing its IPO to 2027 over safety concerns. The article Altman, Musk, and Hassabis back Amodei's call to add independent oversight appeared first on The Decoder .</summary>
+    <summary>GPT-6 Astra earns nearly three times as much as Claude Fable 5.1 on Andon Labs' Vending-Bench agent benchmark and refuses illegal price-fixing deals that Fable agrees to. On drone control, Astra is the first model to beat the human baseline on all five subtasks, including finding and following individual people. The ar</summary>
   </entry>
   <entry>
-    <title>AI will transform capitalism – but how?</title>
-    <link href="https://www.theguardian.com/technology/2026/sep/13/ai-will-transform-capitalism-but-how"/>
-    <id>https://www.theguardian.com/technology/2026/sep/13/ai-will-transform-capitalism-but-how</id>
-    <updated>2026-09-13T11:00:02.000Z</updated>
-    <author><name>The Guardian AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Technology is going to drastically reshape the economy, and it’s within our power to decide what that looks like The idea that autonomous, thinking machines may one day destroy property, hierarchy and inequality is as old as western political thought. In Aristotle’s Politics, the philosopher cites a fantasy from the Il</summary>
-  </entry>
-  <entry>
-    <title>Filing: Vy Capital owns a 3.4% SpaceX stake; Vy is also the largest outside investor in BoringCo and Neuralink and committed $700M to Musk's Twitter acquisition (Ivan Levingston/Financial Times)</title>
-    <link href="https://www.techmeme.com/260913/p4"/>
-    <id>https://www.techmeme.com/260913/p4</id>
-    <updated>2026-09-13T11:00:02.000Z</updated>
+    <title>iPhone Duo will usher foldables into the mainstream, just as iPhone did with smartphones; sources: iPhone game controllers will launch under the Beats brand (Mark Gurman/Bloomberg)</title>
+    <link href="https://www.techmeme.com/260913/p6"/>
+    <id>https://www.techmeme.com/260913/p6</id>
+    <updated>2026-09-13T14:55:02.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Ivan Levingston / Financial Times : Filing: Vy Capital owns a 3.4% SpaceX stake; Vy is also the largest outside investor in BoringCo and Neuralink and committed $700M to Musk's Twitter acquisition — Low-profile venture capital firm Vy Capital has emerged as one of the rocket maker's largest shareholders</summary>
+    <summary>Mark Gurman / Bloomberg : iPhone Duo will usher foldables into the mainstream, just as iPhone did with smartphones; sources: iPhone game controllers will launch under the Beats brand — Also: The company prepares a retail store shake-up. — Apple's iPhone Duo will go down as one of the company's historic products …</summary>
   </entry>
   <entry>
-    <title>internlm/Intern-S2 · Hugging Face</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wf3wt2/internlminterns2_hugging_face"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wf3wt2/internlminterns2_hugging_face</id>
-    <updated>2026-09-13T10:19:48.000Z</updated>
+    <title>Qwen3.8 flash next - untrained svg generation</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wf9uc5/qwen38_flash_next_untrained_svg_generation"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wf9uc5/qwen38_flash_next_untrained_svg_generation</id>
+    <updated>2026-09-13T14:54:04.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>from internlm: We introduce Intern-S2-397B , our most capable multimodal foundation model for scientific intelligence and long-horizon agents. Intern-S2-397B scales along three critical dimensions: pre-training, reinforcement-learning task coverage, and interactive agent environments. By combining a new vision-language</summary>
-  </entry>
-  <entry>
-    <title>The Local LLM community feels like the golden era of the internet all over again</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wf3i1m/the_local_llm_community_feels_like_the_golden_era"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wf3i1m/the_local_llm_community_feels_like_the_golden_era</id>
-    <updated>2026-09-13T09:56:52.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Lately because of the current hardware shortage, unfortunately or fortunately, we can’t just throw infinite cloud compute at our problems, but we’re forced to actually care about what’s happening under the hood. We’re tweaking inference engines, learning quantization math, and optimizing architecture just to squeeze as</summary>
+    <summary>&gt; &quot;make an svg of a frog playing on a chello on the back of a whale with carribean island in the back.&quot; interestingly the svg looks different in the OpenWebUi preview then when looked at in preview (osx). The palms and music notes are missing in the browser. I am pretty impressed by the result, is suggested to add some</summary>
   </entry>
   <entry>
     <title>ITL AI Webinar: The Development of an AI Agent Enrichment Workflow at the National Vulnerability Database</title>
@@ -204,49 +204,31 @@
     <summary>Join NIST on September 17, 2026 for an Information Technology Laboratory (ITL) AI Program hosted webinar on the development of an AI agent enrichment workflow at the National Vulnerability Database. The National Vulnerability Database (NVD)</summary>
   </entry>
   <entry>
-    <title>AI Agents Are Thirsty for Power</title>
-    <link href="https://www.wired.com/story/ai-agents-are-thirsty-for-power"/>
-    <id>https://www.wired.com/story/ai-agents-are-thirsty-for-power</id>
-    <updated>2026-09-13T10:00:00.000Z</updated>
-    <author><name>Wired AI</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Silicon Valley is shifting away from chatbot queries toward a future filled with resource-intensive agentic AI—and it's driving the data center buildout.</summary>
-  </entry>
-  <entry>
-    <title>Ukraine Says Passenger Train Headed to Warsaw Hit by Drone</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-13/ukraine-says-passenger-train-headed-to-warsaw-is-hit-by-drone"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-13/ukraine-says-passenger-train-headed-to-warsaw-is-hit-by-drone</id>
-    <updated>2026-09-13T10:52:02.000Z</updated>
+    <title>Shelton Eyes End to US Men’s Grand Slam Drought</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-09-13/shelton-eyes-end-to-us-men-s-grand-slam-drought-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-09-13/shelton-eyes-end-to-us-men-s-grand-slam-drought-video</id>
+    <updated>2026-09-13T14:04:25.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The locomotive of a passenger train traveling from Kyiv to Warsaw was hit by a Russian drone just kilometers from the Polish border on Sunday morning, Ukraine’s foreign minister said, as Moscow’s airstrikes push closer to NATO territory.</summary>
+    <summary>Ben Shelton heads into the US Open final with a chance to become the first American man to win a Grand Slam singles title since Andy Roddick in 2003, potentially giving US men’s tennis a new marquee star. Bloomberg News Business of Sports Reporter Vanessa Perdomo joins David Gura and Christina Ruffini on Bloomberg This</summary>
   </entry>
   <entry>
-    <title>18th BRICS Summit Wraps In New Delhi</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-13/18th-brics-summit-wraps-in-new-delhi-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-13/18th-brics-summit-wraps-in-new-delhi-video</id>
-    <updated>2026-09-13T08:53:11.000Z</updated>
+    <title>By The Way: Headlines You May Have Missed</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-09-13/by-the-way-headlines-you-may-have-missed-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-09-13/by-the-way-headlines-you-may-have-missed-video</id>
+    <updated>2026-09-13T15:42:29.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The 18th BRICS summit hosted in New Delhi comes to a wrap. (Source: Bloomberg)</summary>
+    <summary>The middle-class side-hustle, mean girl moms, and the 2026 Emmy awards: Watch Lisa Mateo, Christina Ruffini and Jeff Mason talk about headlines from this week you may have missed on Bloomberg This Weekend! (Source: Bloomberg)</summary>
   </entry>
   <entry>
-    <title>SpaceX to Get Weighting Boost in Nasdaq 100 After Rebalance</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-12/spacex-to-get-weighting-boost-in-nasdaq-100-after-rebalance"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-12/spacex-to-get-weighting-boost-in-nasdaq-100-after-rebalance</id>
-    <updated>2026-09-12T17:58:51.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
+    <title>AMD’s best gaming CPU drops below launch price and includes free 240mm AIO cooler and Onimusha: Way of the Sword — grab the Ryzen 7 9850X3D for $484</title>
+    <link href="https://www.tomshardware.com/pc-components/cpus/amds-best-gaming-cpu-drops-below-launch-price-and-includes-free-240mm-aio-cooler-and-onimusha-way-of-the-sword-grab-the-ryzen-7-9850x3d-for-usd484"/>
+    <id>https://www.tomshardware.com/pc-components/cpus/amds-best-gaming-cpu-drops-below-launch-price-and-includes-free-240mm-aio-cooler-and-onimusha-way-of-the-sword-grab-the-ryzen-7-9850x3d-for-usd484</id>
+    <updated>2026-09-13T14:28:06.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
     <category term="RESEARCH"/>
-    <summary>SpaceX is set to get a larger weighting in the Nasdaq 100 later this month, a change that could trigger billions of dollars of buying by passive funds tied to the benchmark.</summary>
-  </entry>
-  <entry>
-    <title>dspy v3.4.0 released</title>
-    <link href="https://github.com/stanfordnlp/dspy/releases/tag/3.4.0b1"/>
-    <id>https://github.com/stanfordnlp/dspy/releases/tag/3.4.0b1</id>
-    <updated>2026-09-11T22:24:51.000Z</updated>
-    <author><name>stanfordnlp/dspy</name></author>
-    <category term="PRODUCTS"/>
-    <summary>DSPy 3.4.0 Beta 1 DSPy 3.4.0b1 is the first beta of 3.4. It moves language-model execution to a shared engine interface, adds a local CPython interpreter for trusted code, and brings async execution to ReActV2. It also adds custom Flex code proposals in GEPA and fixes evaluation, streaming, and demonstration-sampling b</summary>
+    <summary>The Ryzen 7 9850X3D may only be a modest step up from the 9800X3D, but it still leads our gaming benchmarks and now comes with a couple of useful extras at a lower-than-launch price.</summary>
   </entry>
   <entry>
     <title>Beyond the price per token: Choosing the right OpenAI model on Amazon Bedrock for your workload</title>
@@ -258,21 +240,39 @@
     <summary>Comparing models on dollars per million tokens misses what production workloads actually pay for: outcomes. This post shares an open-source benchmarking harness that measures cost per correct answer, agent trajectory cost, and rubric-graded deliverable quality across OpenAI models on Amazon Bedrock.</summary>
   </entry>
   <entry>
-    <title>Waymo robotaxi calls cops on riders handling loaded AR-style ghost gun — Waymo alerted San Francisco police, then juvenile riders were stopped and arrested</title>
-    <link href="https://www.tomshardware.com/tech-industry/drones/waymo-robotaxi-calls-cops-on-riders-handling-loaded-ar-style-ghost-gun-waymo-alerted-san-francisco-police-then-juvenile-riders-were-stopped-and-arrested"/>
-    <id>https://www.tomshardware.com/tech-industry/drones/waymo-robotaxi-calls-cops-on-riders-handling-loaded-ar-style-ghost-gun-waymo-alerted-san-francisco-police-then-juvenile-riders-were-stopped-and-arrested</id>
-    <updated>2026-09-13T11:16:11.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
-    <category term="HARDWARE"/>
-    <summary>Following a tip-off from robotaxi firm Waymo, San Francisco police conducted a 'high-risk vehicle stop' and arrested two juveniles for illegal possession of a firearm.</summary>
+    <title>dspy v3.4.0 released</title>
+    <link href="https://github.com/stanfordnlp/dspy/releases/tag/3.4.0b1"/>
+    <id>https://github.com/stanfordnlp/dspy/releases/tag/3.4.0b1</id>
+    <updated>2026-09-11T22:24:51.000Z</updated>
+    <author><name>stanfordnlp/dspy</name></author>
+    <category term="PRODUCTS"/>
+    <summary>DSPy 3.4.0 Beta 1 DSPy 3.4.0b1 is the first beta of 3.4. It moves language-model execution to a shared engine interface, adds a local CPython interpreter for trusted code, and brings async execution to ReActV2. It also adds custom Flex code proposals in GEPA and fixes evaluation, streaming, and demonstration-sampling b</summary>
   </entry>
   <entry>
-    <title>Playable Tomb Raider runs on a humble 1-watt chip — $25 board with dual-core 400 MHz ESP32-P4 MCU scales OpenLara up to 1,024 x 600 playable pixels</title>
-    <link href="https://www.tomshardware.com/software/programming/playable-tomb-raider-runs-on-a-humble-1-watt-chip-usd25-board-with-dual-core-400-mhz-esp32-p4-mcu-scales-openlara-up-to-1-024-x-600-playable-pixels"/>
-    <id>https://www.tomshardware.com/software/programming/playable-tomb-raider-runs-on-a-humble-1-watt-chip-usd25-board-with-dual-core-400-mhz-esp32-p4-mcu-scales-openlara-up-to-1-024-x-600-playable-pixels</id>
-    <updated>2026-09-13T11:00:00.000Z</updated>
+    <title>Bernie Sanders proposes 20 year prison sentence for AI devs who plow ahead with Artificial Superintelligence plans — penalty on par with illegally developing rogue nuclear weapons</title>
+    <link href="https://www.tomshardware.com/tech-industry/artificial-intelligence/sanders-proposes-20-year-prison-sentence-for-ai-devs-who-plow-ahead-with-artificial-superintelligence-plans-penalty-on-par-with-illegally-developing-rogue-nuclear-weapons"/>
+    <id>https://www.tomshardware.com/tech-industry/artificial-intelligence/sanders-proposes-20-year-prison-sentence-for-ai-devs-who-plow-ahead-with-artificial-superintelligence-plans-penalty-on-par-with-illegally-developing-rogue-nuclear-weapons</id>
+    <updated>2026-09-13T14:10:00.000Z</updated>
     <author><name>Tom's Hardware</name></author>
     <category term="HARDWARE"/>
-    <summary>A retro video gaming devotee has showcased Lara Croft adventuring in and among ancient tombs on a humble ESP32-P4 microcontroller.</summary>
+    <summary>Senators Bernie Sanders and Greg Cezar have announced their Ban Artificial Superintelligence Act which threatens 20-year prison sentences for rule breakers.</summary>
+  </entry>
+  <entry>
+    <title>Intel revives One Mono font after brief retirement during open-source purge — typeface built to fight coder eyestrain gets reprieve</title>
+    <link href="https://www.tomshardware.com/tech-industry/intel-revives-one-mono-font-after-brief-retirement-typeface-built-to-fight-coder-eyestrain-gets-reprieve-from-open-source-purge"/>
+    <id>https://www.tomshardware.com/tech-industry/intel-revives-one-mono-font-after-brief-retirement-typeface-built-to-fight-coder-eyestrain-gets-reprieve-from-open-source-purge</id>
+    <updated>2026-09-13T13:00:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Intel’s decision to archive its developer-focused One Mono font lasted only two days, with the company now restoring the open-source project despite its relatively limited development activity.</summary>
+  </entry>
+  <entry>
+    <title>AWS Introduces Pizza Bot: An Open Source Inbox for Background AI Agents</title>
+    <link href="https://www.marktechpost.com/2026/09/13/aws-introduces-pizza-bot-an-open-source-inbox-for-background-ai-agents"/>
+    <id>https://www.marktechpost.com/2026/09/13/aws-introduces-pizza-bot-an-open-source-inbox-for-background-ai-agents</id>
+    <updated>2026-09-13T08:10:51.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Pizza Bot is an open source, self-hosted inbox for AI agents built on DeepAgents and LangGraph. It combines persistent task state, MCP integrations, configurable approvals, and scheduled workflows across multiple model providers. The post AWS Introduces Pizza Bot: An Open Source Inbox for Background AI Agents appeared </summary>
   </entry>
 </feed>
