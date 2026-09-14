@@ -5,24 +5,33 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-09-14T06:05:15.628Z</updated>
+  <updated>2026-09-14T12:37:28.149Z</updated>
   <entry>
-    <title>llama.cpp b10951 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10951"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10951</id>
-    <updated>2026-09-14T04:06:58.000Z</updated>
+    <title>llama.cpp b10955 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10955"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10955</id>
+    <updated>2026-09-14T10:45:12.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>common : move llama_n_rs_seq to before llama_decode ( #28749 ) This commit moves the llama_n_rs_seq function call to before the llama_decode call and returns directly if the check is true, removing the setting of res and the goto statement. The motivation for this change is to avoid the llama_decode call if it is not n — Also covered by: ggml-org/whisper.cpp</summary>
+    <summary>ggml-cpu : disable PCH and fix CACHE_LINE_SIZE ambiguity to fix heap corruption ( #28882 ) Disable the ggml-cpu precompiled header and remove the std::hardware_destructive_interference_size branch from CACHE_LINE_SIZE. The PCH force-includes ggml-impl.h before ops.h, which pulls in via / and defines __cpp_lib_hardware_ — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
-    <title>Ligent Technologies Seeks $727 Million in Hong Kong IPO</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-14/ligent-technologies-seeks-727-million-in-hong-kong-ipo"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-14/ligent-technologies-seeks-727-million-in-hong-kong-ipo</id>
-    <updated>2026-09-14T04:21:05.000Z</updated>
-    <author><name>Bloomberg Tech</name></author>
+    <title>AI-linked stocks fall after tech bosses call for slowdown in ‘reckless’ development</title>
+    <link href="https://www.theguardian.com/business/2026/sep/14/ai-linked-stocks-fall-tech-bosses-call-slowdown-anthropic-openai"/>
+    <id>https://www.theguardian.com/business/2026/sep/14/ai-linked-stocks-fall-tech-bosses-call-slowdown-anthropic-openai</id>
+    <updated>2026-09-14T11:46:34.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>AI computing networks maker Ligent Technologies Inc. is seeking to raise as much as HK$5.7 billion ($727 million) in a Hong Kong initial public offering, adding to a surge of listings this year tied to the global artificial intelligence buildout. — Also covered by: Reuters AI (Google News)</summary>
+    <summary>Shares in tech firms tumble across Asia with Nasdaq also likely to dip later after Anthropic, OpenAI and SpaceX leaders back call Business news – live updates AI-linked stocks tumbled on Monday after the bosses of Anthropic, OpenAI and SpaceX called for a slowdown in “reckless” development citing fears the technology c</summary>
+  </entry>
+  <entry>
+    <title>qwen-code v0.20.7 released</title>
+    <link href="https://github.com/QwenLM/qwen-code/releases/tag/cua-driver-rs-v0.20.7"/>
+    <id>https://github.com/QwenLM/qwen-code/releases/tag/cua-driver-rs-v0.20.7</id>
+    <updated>2026-09-14T12:11:21.000Z</updated>
+    <author><name>QwenLM/qwen-code</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Qwen CUA Driver prebuilt binaries (vendored under packages/cua-driver ). macOS : codesigned + notarized universal binary + QwenCuaDriver.app Linux : unsigned (x86_64 + arm64, glibc 2.31 floor) Windows : unsigned UIAccess worker + native SDK payload (x86_64 + arm64); deployments must sign and trust the worker on the tar — Also covered by: anthropics/claude-code</summary>
   </entry>
   <entry>
     <title>Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’</title>
@@ -34,31 +43,40 @@
     <summary>OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 2026 during an interview with Fortune. Over the course of 45 minutes, Altman discussed a variety of subjects including the Hugging Face hacking incident, recursive self-improvement, and the possibility of building an AI that was beyond human control.  — Also covered by: TechCrunch AI</summary>
   </entry>
   <entry>
-    <title>Perplexity trusts GPT-6 Astra with end-to-end systems</title>
-    <link href="https://openai.com/index/perplexity-improving-accuracy-with-astra"/>
-    <id>https://openai.com/index/perplexity-improving-accuracy-with-astra</id>
-    <updated>2026-09-14T00:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
+    <title>China fires back at U.S. AI safety warnings, calling them fearmongering to lock in American advantage</title>
+    <link href="https://the-decoder.com/china-fires-back-at-u-s-ai-safety-warnings-calling-them-fearmongering-to-lock-in-american-advantage"/>
+    <id>https://the-decoder.com/china-fires-back-at-u-s-ai-safety-warnings-calling-them-fearmongering-to-lock-in-american-advantage</id>
+    <updated>2026-09-14T12:20:22.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.</summary>
+    <summary>China has flatly rejected warnings about AI risks from Anthropic CEO Amodei and other U.S. AI leaders. Beijing's Foreign Ministry calls it &quot;fearmongering,&quot; while the state-run Global Times accuses Amodei of waging a &quot;silent AI Cold War.&quot; China's security minister isn't calling for a slowdown either but for faster AI in</summary>
   </entry>
   <entry>
-    <title>‘Tidal wave’ of Pfas being launched to satisfy AI industry, campaigners warn</title>
-    <link href="https://www.theguardian.com/environment/2026/sep/14/pfas-firms-tidal-wave-forever-chemicals-ai-industry-demand-datacentres"/>
-    <id>https://www.theguardian.com/environment/2026/sep/14/pfas-firms-tidal-wave-forever-chemicals-ai-industry-demand-datacentres</id>
-    <updated>2026-09-14T06:00:26.000Z</updated>
-    <author><name>The Guardian AI</name></author>
+    <title>Paris-based digital asset data provider Kaiko extends a funding round to $110M led by S&amp;P Global to support 24/7 continuous market data and asset tokenization (Anna Irrera/Bloomberg)</title>
+    <link href="https://www.techmeme.com/260914/p12"/>
+    <id>https://www.techmeme.com/260914/p12</id>
+    <updated>2026-09-14T12:35:01.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Big manufacturers planning to produce more of the forever chemicals to meet demand from datacentres Pfas companies are launching a “tidal wave” of forever chemicals production to meet demand from the AI industry, a campaign organisation has warned. Despite alarm over the chemicals, which have been linked to cancer, a s</summary>
+    <summary>Anna Irrera / Bloomberg : Paris-based digital asset data provider Kaiko extends a funding round to $110M led by S&amp;P Global to support 24/7 continuous market data and asset tokenization — A group of large financial firms including DRW Holdings LLC, Susquehanna and Royal Bank of Canada invested …</summary>
   </entry>
   <entry>
-    <title>Dangote's Fortune Set to Jump $23 Bln on Refinery IPO</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-14/dangote-s-fortune-set-to-jump-23-bln-on-refinery-ipo-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-14/dangote-s-fortune-set-to-jump-23-bln-on-refinery-ipo-video</id>
-    <updated>2026-09-14T05:31:44.000Z</updated>
+    <title>ITL AI Webinar: The Development of an AI Agent Enrichment Workflow at the National Vulnerability Database</title>
+    <link href="https://www.nist.gov/news-events/events/2026/09/itl-ai-webinar-development-ai-agent-enrichment-workflow-national"/>
+    <id>https://www.nist.gov/news-events/events/2026/09/itl-ai-webinar-development-ai-agent-enrichment-workflow-national</id>
+    <updated>2026-09-17T15:00:00.000Z</updated>
+    <author><name>NIST AI News</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Join NIST on September 17, 2026 for an Information Technology Laboratory (ITL) AI Program hosted webinar on the development of an AI agent enrichment workflow at the National Vulnerability Database. The National Vulnerability Database (NVD)</summary>
+  </entry>
+  <entry>
+    <title>Junk Firms Are Refinancing Debt Early on Fear Costs Will Rise</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-14/junk-firms-are-refinancing-debt-early-on-fear-costs-will-rise"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-14/junk-firms-are-refinancing-debt-early-on-fear-costs-will-rise</id>
+    <updated>2026-09-14T12:00:54.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Africa's richest man, Aliko Dangote, is poised to make a $23 billion leap up the list of the world’s wealthiest as he opens an initial public offering for his refinery. The tycoon’s net worth is projected to reach as much as $58.2 billion with the IPO of Dangote Petroleum Refinery and Petrochemicals Fze, according to B</summary>
+    <summary>Junk-rated borrowers lining up around €3.7 billion ($4.3 billion) in refinancing deals are willing to accept significantly higher rates, betting costs will rise even further if they wait.</summary>
   </entry>
   <entry>
     <title>Occamy-1.0: Open Pareto-frontier 35B Intelligence for Co-work</title>
@@ -70,22 +88,31 @@
     <summary>arXiv:2609.11977v1 Announce Type: new Abstract: Co-work agents execute complex workflows that combine information gathering, tool use, coding, and file manipulation across many model invocations. Because cost and latency accumulate over the full episode, their practical value depends not only on peak capability but als</summary>
   </entry>
   <entry>
-    <title>New method enables AI for safety-critical situations</title>
-    <link href="https://news.mit.edu/2026/new-method-enables-ai-safety-critical-situations-0914"/>
-    <id>https://news.mit.edu/2026/new-method-enables-ai-safety-critical-situations-0914</id>
-    <updated>2026-09-14T04:00:00.000Z</updated>
-    <author><name>MIT News AI</name></author>
-    <category term="HARDWARE"/>
-    <summary>The “HardFlow” algorithm could help generative AI models produce high-quality outputs that obey strict requirements when “pretty close” doesn’t cut it.</summary>
+    <title>‘Tidal wave’ of Pfas being launched to satisfy AI industry, campaigners warn</title>
+    <link href="https://www.theguardian.com/environment/2026/sep/14/pfas-firms-tidal-wave-forever-chemicals-ai-industry-demand-datacentres"/>
+    <id>https://www.theguardian.com/environment/2026/sep/14/pfas-firms-tidal-wave-forever-chemicals-ai-industry-demand-datacentres</id>
+    <updated>2026-09-14T06:00:26.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Big manufacturers planning to produce more of the forever chemicals to meet demand from datacentres Pfas companies are launching a “tidal wave” of forever chemicals production to meet demand from the AI industry, a campaign organisation has warned. Despite alarm over the chemicals, which have been linked to cancer, a s</summary>
   </entry>
   <entry>
-    <title>Iris-mini and Iris-pro are the strongest open-weight search agents in their class</title>
-    <link href="https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class"/>
-    <id>https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class</id>
-    <updated>2026-09-13T12:58:18.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>Labor unions must unite against AI datacenters | Tyler Turner</title>
+    <link href="https://www.theguardian.com/commentisfree/2026/sep/14/labor-unions-ai-datacenters"/>
+    <id>https://www.theguardian.com/commentisfree/2026/sep/14/labor-unions-ai-datacenters</id>
+    <updated>2026-09-14T12:00:57.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="HARDWARE"/>
+    <summary>Workers should start with a moratorium against building until our livelihoods and communities are protected For the surging number of Americans who now live alongside constantly humming computer-filled mega-warehouses, it is clear AI datacenters come with significant drawbacks. Opposition to datacenters grows on both s</summary>
+  </entry>
+  <entry>
+    <title>NVIDIA Open-Sources OSMO: One YAML Orchestrates Physical AI Training, Simulation, and Robot Testing</title>
+    <link href="https://www.marktechpost.com/2026/09/14/nvidia-open-sources-osmo-one-yaml-orchestrates-physical-ai-training-simulation-and-robot-testing"/>
+    <id>https://www.marktechpost.com/2026/09/14/nvidia-open-sources-osmo-one-yaml-orchestrates-physical-ai-training-simulation-and-robot-testing</id>
+    <updated>2026-09-14T08:04:27.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>The AllSpark team has released Iris-mini and Iris-pro, two open-source search agents built on Qwen models that lead benchmarks among open-weight models in their size classes. According to the paper, the training data and models also improved performance on tasks they were never trained for, including general tool use a</summary>
+    <summary>NVIDIA has open-sourced OSMO, the Kubernetes-native workflow orchestrator it uses internally for Project GR00T, Isaac Lab, and Isaac Sim. OSMO lets robotics teams define training, simulation, and hardware-in-the-loop tasks in a single YAML file and routes each one to the right compute tier, from GB200 clusters to Jetso</summary>
   </entry>
   <entry>
     <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
@@ -100,81 +127,81 @@
     <title>Conducting The First Live Enterprise Comparison Between Agents and Human Professionals</title>
     <link href="https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals"/>
     <id>https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals</id>
-    <updated>2026-09-14T06:04:48.064Z</updated>
+    <updated>2026-09-14T12:37:00.244Z</updated>
     <author><name>Gray Swan</name></author>
     <category term="AI SECURITY"/>
   </entry>
   <entry>
-    <title>ITL AI Webinar: The Development of an AI Agent Enrichment Workflow at the National Vulnerability Database</title>
-    <link href="https://www.nist.gov/news-events/events/2026/09/itl-ai-webinar-development-ai-agent-enrichment-workflow-national"/>
-    <id>https://www.nist.gov/news-events/events/2026/09/itl-ai-webinar-development-ai-agent-enrichment-workflow-national</id>
-    <updated>2026-09-17T15:00:00.000Z</updated>
-    <author><name>NIST AI News</name></author>
+    <title>Webinar: How malicious OAuth apps can lead to Google Workspace breaches</title>
+    <link href="https://www.bleepingcomputer.com/news/security/webinar-how-malicious-oauth-apps-can-lead-to-google-workspace-breaches"/>
+    <id>https://www.bleepingcomputer.com/news/security/webinar-how-malicious-oauth-apps-can-lead-to-google-workspace-breaches</id>
+    <updated>2026-09-14T12:15:23.000Z</updated>
+    <author><name>BleepingComputer</name></author>
     <category term="CYBER THREATS"/>
-    <summary>Join NIST on September 17, 2026 for an Information Technology Laboratory (ITL) AI Program hosted webinar on the development of an AI agent enrichment workflow at the National Vulnerability Database. The National Vulnerability Database (NVD)</summary>
+    <summary>Attackers can combine social engineering with malicious OAuth applications to gain access to Google Workspace data without relying solely on stolen passwords. This webinar examines two attacks to show how these breaches unfold and which security controls can help stop them. [...]</summary>
   </entry>
   <entry>
-    <title>Context Engineering Inside the Harness: 4 Mechanisms That Beat Context Overflow and Goal Loss on Long-Horizon Tasks</title>
-    <link href="https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks"/>
-    <id>https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks</id>
-    <updated>2026-09-13T05:56:03.000Z</updated>
-    <author><name>MarkTechPost</name></author>
+    <title>Unmasking Cloud Identities: From Behavioral Clustering to Automated Detection</title>
+    <link href="https://unit42.paloaltonetworks.com/behavioral-clustering-map-to-cloud-identities"/>
+    <id>https://unit42.paloaltonetworks.com/behavioral-clustering-map-to-cloud-identities</id>
+    <updated>2026-09-14T10:00:01.000Z</updated>
+    <author><name>Palo Alto Unit 42</name></author>
     <category term="CYBER DEFENSE"/>
-    <summary>A shallow agent is an LLM calling tools in a loop, and on long tasks it fails in 2 ways: context overflow and goal loss. This article opens the harness layer that fixes both, with the actual thresholds shipped by LangChain Deep Agents, Claude Code, Manus, OpenAI Codex and Amazon Bedrock AgentCore, plus an interactive s</summary>
+    <summary>We designed a behavioral clustering model to map cloud identity roles from audit logs, enabling continuous threat detection using standard SQL queries. The post Unmasking Cloud Identities: From Behavioral Clustering to Automated Detection appeared first on Unit 42 .</summary>
   </entry>
   <entry>
-    <title>commit-rewriter 0.1</title>
-    <link href="https://simonwillison.net/2026/Sep/14/commit-rewriter"/>
-    <id>https://simonwillison.net/2026/Sep/14/commit-rewriter</id>
-    <updated>2026-09-14T00:28:10.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>The AI-as-Normal-Technology view of loss-of-control incidents</title>
+    <link href="https://www.normaltech.ai/p/the-ai-as-normal-technology-view"/>
+    <id>https://www.normaltech.ai/p/the-ai-as-normal-technology-view</id>
+    <updated>2026-09-14T10:30:14.000Z</updated>
+    <author><name>AI Snake Oil</name></author>
     <category term="ANALYSIS"/>
-    <summary>Release: commit-rewriter 0.1 I built this little web app the other day to help edit the commit messages for the Datasette security releases . The initial commits were full of coding agent cruft and references to issue IDs from our private repository, so they weren't fit for publication. If you want to edit the commit m</summary>
+    <summary>A middle ground between the cybersecurity and AI safety communities</summary>
   </entry>
   <entry>
-    <title>Inside UBTECH’s 10,000-Unit Super Factory: How Robots Are Building Humanoids in Liuzhou</title>
-    <link href="https://www.humanoidsdaily.com/news/inside-ubtech-s-10-000-unit-super-factory-how-robots-are-building-humanoids-in-liuzhou"/>
-    <id>https://www.humanoidsdaily.com/news/inside-ubtech-s-10-000-unit-super-factory-how-robots-are-building-humanoids-in-liuzhou</id>
-    <updated>2026-09-13T06:32:43.000Z</updated>
-    <author><name>Humanoids Daily</name></author>
-    <category term="ROBOTICS"/>
-    <summary>UBTECH has commissioned a 14,000-square-meter smart manufacturing facility in Guangxi engineered to produce a humanoid every 10 minutes, scaling up the industry’s hardware volume race.</summary>
-  </entry>
-  <entry>
-    <title>GÉANT and Quantum Internet Alliance Partner to Advance European Quantum Networking Architecture</title>
-    <link href="https://quantumcomputingreport.com/geant-and-quantum-internet-alliance-partner-to-advance-european-quantum-networking-architecture"/>
-    <id>https://quantumcomputingreport.com/geant-and-quantum-internet-alliance-partner-to-advance-european-quantum-networking-architecture</id>
-    <updated>2026-09-12T23:03:31.000Z</updated>
-    <author><name>Quantum Computing Report</name></author>
+    <title>Fortaegis Raises $50 Million to Commercialize Chip-Based Security Technology</title>
+    <link href="https://thequantuminsider.com/2026/09/14/fortaegis-raises-50-million-to-commercialize-chip-based-security-technology"/>
+    <id>https://thequantuminsider.com/2026/09/14/fortaegis-raises-50-million-to-commercialize-chip-based-security-technology</id>
+    <updated>2026-09-14T07:33:26.000Z</updated>
+    <author><name>The Quantum Insider</name></author>
     <category term="QUANTUM"/>
-    <summary>GÉANT and the Quantum Internet Alliance (QIA) have partnered to advance European quantum networking by signing an MoU on September 8, 2026. This collaboration leverages GÉANT's optical network and QIA's quantum networking expertise to develop infrastructure, standards, and interoperability protocols, aiming to transiti</summary>
+    <summary>Insider Brief Dutch startup Fortaegis has raised $50 million to move its chip-based security technology into commercial production, targeting networks that connect AI systems, defense equipment, satellites and autonomous machines. The oversubscribed Series A was led by Singapore-based Serendipity Capital, according to </summary>
   </entry>
   <entry>
-    <title>Anthropic tells investors it will be profitable for second straight quarter</title>
-    <link href="https://www.ft.com/content/4564e6a5-69e9-40a6-bf0f-a888f2f4f002?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/4564e6a5-69e9-40a6-bf0f-a888f2f4f002?syn-25a6b1a6=1</id>
-    <updated>2026-09-13T22:29:46.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
+    <title>Perplexity trusts GPT-6 Astra with end-to-end systems</title>
+    <link href="https://openai.com/index/perplexity-improving-accuracy-with-astra"/>
+    <id>https://openai.com/index/perplexity-improving-accuracy-with-astra</id>
+    <updated>2026-09-14T00:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Claude maker seeks to ease cash burn concerns before blockbuster IPO amid fears over pace of AI development</summary>
+    <summary>Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.</summary>
   </entry>
   <entry>
-    <title>The US Senate digital assets subcommittee releases a revised &quot;final offer&quot; of the Clarity Act with Trump-backed ethics provisions, ahead of a September 15 vote (Felix Ng/Cointelegraph News)</title>
-    <link href="https://www.techmeme.com/260914/p3"/>
-    <id>https://www.techmeme.com/260914/p3</id>
-    <updated>2026-09-14T05:51:06.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Felix Ng / Cointelegraph News : The US Senate digital assets subcommittee releases a revised “final offer” of the Clarity Act with Trump-backed ethics provisions, ahead of a September 15 vote — The 635-page revised proposal includes Trump-backed ethics provisions and comes just two days before a key procedural vote.</summary>
+    <title>Sam Altman calls for pacing AI development but promises rapid progress will continue</title>
+    <link href="https://the-decoder.com/sam-altman-calls-for-pacing-ai-development-but-promises-rapid-progress-will-continue"/>
+    <id>https://the-decoder.com/sam-altman-calls-for-pacing-ai-development-but-promises-rapid-progress-will-continue</id>
+    <updated>2026-09-14T09:39:59.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Sam Altman is doubling down on slowing AI development. OpenAI now runs safety checks before major training runs, and according to The Information, the company has been talking with Anthropic and Google for months about joint self-regulation. The article Sam Altman calls for pacing AI development but promises rapid prog</summary>
   </entry>
   <entry>
-    <title>Sources: SoftBank sealed a two-year loan facility to support its OpenAI investment, securing $11.87B in commitments from ~20 banks, above its $10B target (Janice Huang/Bloomberg)</title>
-    <link href="https://www.techmeme.com/260913/p18"/>
-    <id>https://www.techmeme.com/260913/p18</id>
-    <updated>2026-09-14T03:06:01.000Z</updated>
+    <title>Z.ai says it plans to raise $5B+ via equity and debt to fund its AI investments, including ~$2B through a share placement, after raising $4B in July (P.R. Venkat/Wall Street Journal)</title>
+    <link href="https://www.techmeme.com/260914/p7"/>
+    <id>https://www.techmeme.com/260914/p7</id>
+    <updated>2026-09-14T10:00:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Janice Huang / Bloomberg : Sources: SoftBank sealed a two-year loan facility to support its OpenAI investment, securing $11.87B in commitments from ~20 banks, above its $10B target — SoftBank Group Corp. secured an $11.87 billion loan to support its investment in US artificial intelligence firm OpenAI …</summary>
+    <summary>P.R. Venkat / Wall Street Journal : Z.ai says it plans to raise $5B+ via equity and debt to fund its AI investments, including ~$2B through a share placement, after raising $4B in July — The company plans to raise $2.0 billion through a share placement and another $3.01 billion via zero-coupon convertible bonds</summary>
+  </entry>
+  <entry>
+    <title>One 128 GB Strix Halo box running a full offline RAG stack (8B embedder + 8B reranker + 122B-A10B answerer + 70B judge): what worked and what I'd change</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1wfzs4f/one_128_gb_strix_halo_box_running_a_full_offline"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1wfzs4f/one_128_gb_strix_halo_box_running_a_full_offline</id>
+    <updated>2026-09-14T10:36:11.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Sharing the setup because most &quot;can a 128 GB APU do real work&quot; threads end in speculation. This is a fully offline RAG over 27 technical books (~11k pages, 32k chunks), one machine, AMD Strix Halo, 128 GB unified memory, Ollama + embedded Qdrant. No cloud anywhere in the pipeline. Who does what Embedder: qwen3-embeddin</summary>
   </entry>
   <entry>
     <title>Efficient AI Model Deployment Using Quantization Analysis Tool</title>
@@ -186,15 +213,6 @@
     <summary>arXiv:2609.11954v1 Announce Type: new Abstract: As deep learning models are increasingly deployed on resource constrained devices, the demand for efficient model optimization techniques continues to grow. Effective deployment of AI models on edge and low power platforms requires optimization methods that reduce model s</summary>
   </entry>
   <entry>
-    <title>AWS Introduces Pizza Bot: An Open Source Inbox for Background AI Agents</title>
-    <link href="https://www.marktechpost.com/2026/09/13/aws-introduces-pizza-bot-an-open-source-inbox-for-background-ai-agents"/>
-    <id>https://www.marktechpost.com/2026/09/13/aws-introduces-pizza-bot-an-open-source-inbox-for-background-ai-agents</id>
-    <updated>2026-09-13T08:10:51.000Z</updated>
-    <author><name>MarkTechPost</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Pizza Bot is an open source, self-hosted inbox for AI agents built on DeepAgents and LangGraph. It combines persistent task state, MCP integrations, configurable approvals, and scheduled workflows across multiple model providers. The post AWS Introduces Pizza Bot: An Open Source Inbox for Background AI Agents appeared </summary>
-  </entry>
-  <entry>
     <title>Harness or Model? Isolating the Harness Effect in Agentic Coding with a Contamination-Controlled Private Suite</title>
     <link href="https://arxiv.org/abs/2609.11987"/>
     <id>https://arxiv.org/abs/2609.11987</id>
@@ -204,13 +222,22 @@
     <summary>arXiv:2609.11987v1 Announce Type: new Abstract: An agentic coding system couples a language model to a harness: the tools, prompts and control flow that turn a chat model into an autonomous software engineer. Vendors ship harnesses tuned to their own models, and practitioners assume the vendor-native pairing solves mor</summary>
   </entry>
   <entry>
-    <title>FTAV’s further reading</title>
-    <link href="https://www.ft.com/content/988e8cb5-da27-49a6-a9f5-377b515c02ba"/>
-    <id>https://www.ft.com/content/988e8cb5-da27-49a6-a9f5-377b515c02ba</id>
-    <updated>2026-09-14T05:00:03.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
+    <title>Crispin Odey Loses Bid to Overturn UK Financial Services Ban</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-14/crispin-odey-loses-bid-to-overturn-uk-financial-services-ban"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-14/crispin-odey-loses-bid-to-overturn-uk-financial-services-ban</id>
+    <updated>2026-09-14T12:33:26.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>AI and economic growth; tech lord trojan horses; IPOs of doom; Kallax Storageborn</summary>
+    <summary>Crispin Odey lost his bid to overturn a lifetime ban from managing money, capping a remarkable fall from grace for the once feted fund manager.</summary>
+  </entry>
+  <entry>
+    <title>Bonds Making It Clear the Fed Needs to Hike, Morgan Stanley’s Hornbach Says</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-09-14/bonds-making-it-clear-the-fed-needs-to-hike-hornbach-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-09-14/bonds-making-it-clear-the-fed-needs-to-hike-hornbach-video</id>
+    <updated>2026-09-14T12:34:14.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Matt Hornbach, global head of macro strategy at Morgan Stanley, expects the Federal Reserve to deliver a 25 basis-point rate hike on Wednesday. He says, “it’s certainly a possibility that the Fed is one and done but that’s not what the markets are pricing in at the moment.” (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>Reading the Whole Heart: Latent-Attention Masked Autoencoders for Multimodal Cardiac Representation Learning</title>
@@ -231,48 +258,21 @@
     <summary>arXiv:2609.12105v1 Announce Type: new Abstract: The prevailing assumption in applied machine learning is that progress on consequential quantitative decisions such as pricing risk, allocating capital, triaging patients, or containing a network intrusion will follow from progress in large language models (LLMs). A langu</summary>
   </entry>
   <entry>
-    <title>Prediction markets are becoming more professionalized, but also harder to beat</title>
-    <link href="https://www.cnbc.com/2026/09/14/prediction-markets-efficient-win-lose-beat.html"/>
-    <id>https://www.cnbc.com/2026/09/14/prediction-markets-efficient-win-lose-beat.html</id>
-    <updated>2026-09-14T01:37:44.000Z</updated>
-    <author><name>CNBC Tech</name></author>
-    <category term="PRODUCTS"/>
-    <summary>The institutionalization of prediction markets threatens to erode the edge of skilled traders who earn off mispricing and market inefficiencies, experts say.</summary>
-  </entry>
-  <entry>
-    <title>Infineon RISC-V for Automotive at Hot Chips 2026</title>
-    <link href="https://www.servethehome.com/infineon-risc-v-for-automotive-at-hot-chips-2026"/>
-    <id>https://www.servethehome.com/infineon-risc-v-for-automotive-at-hot-chips-2026</id>
-    <updated>2026-09-13T21:58:44.000Z</updated>
-    <author><name>ServeTheHome</name></author>
+    <title>Russian freelancers use Claude to program autonomous combat drone swarm — AI-enabled target selection and detonation without a human in the loop</title>
+    <link href="https://www.tomshardware.com/tech-industry/artificial-intelligence/russian-freelancers-use-claude-to-program-autonomous-combat-drone-swarm-ai-enabled-target-selection-and-detonation-without-a-human-in-the-loop"/>
+    <id>https://www.tomshardware.com/tech-industry/artificial-intelligence/russian-freelancers-use-claude-to-program-autonomous-combat-drone-swarm-ai-enabled-target-selection-and-detonation-without-a-human-in-the-loop</id>
+    <updated>2026-09-14T11:00:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
     <category term="HARDWARE"/>
-    <summary>At Hot Chips 2026, Infineon presented a case for using RISC-V in various automotive processors in next-generation cars The post Infineon RISC-V for Automotive at Hot Chips 2026 appeared first on ServeTheHome .</summary>
+    <summary>Russia turned Claude into a tool for weapons development, espionage, and propaganda, Anthropic's new threat report claims.</summary>
   </entry>
   <entry>
-    <title>I am refusing to work on Cloud TPUs</title>
-    <link href="https://www.lesswrong.com/posts/wM5vbT9evBhM3fP3x/i-am-refusing-to-work-on-cloud-tpus"/>
-    <id>https://www.lesswrong.com/posts/wM5vbT9evBhM3fP3x/i-am-refusing-to-work-on-cloud-tpus</id>
-    <updated>2026-09-14T05:48:33.000Z</updated>
-    <author><name>LessWrong</name></author>
+    <title>Intel-Backed Construction AI Firm Buildots Raises $130 Million</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-14/intel-backed-construction-ai-firm-buildots-raises-130-million"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-14/intel-backed-construction-ai-firm-buildots-raises-130-million</id>
+    <updated>2026-09-14T11:30:00.000Z</updated>
+    <author><name>Bloomberg Tech</name></author>
     <category term="HARDWARE"/>
-    <summary>I don't think this is particularly impressive or interesting for anyone else, but I think it may turn out to be useful in the future to have an easily visible public record of what happened, so here goes: I am an L5 SWE at Google Israel. I have been there since May 2021, was promoted once [1] , and have never received </summary>
-  </entry>
-  <entry>
-    <title>Talleyrand Tool: thinking as a tree of questions</title>
-    <link href="https://www.lesswrong.com/posts/G7RCGp8JKA2xxpcjj/talleyrand-tool-thinking-as-a-tree-of-questions"/>
-    <id>https://www.lesswrong.com/posts/G7RCGp8JKA2xxpcjj/talleyrand-tool-thinking-as-a-tree-of-questions</id>
-    <updated>2026-09-14T01:07:48.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>TL;DR: We ( Sage , a nonprofit) built Talleyrand, a free, open-source AI workspace for thinking through hard questions. Your questions are kept in a tree, not a linear chat. After each answer it suggests the next questions and learns from your reactions. Try it at talleyrand.app . Why we built it I like to discuss comp</summary>
-  </entry>
-  <entry>
-    <title>Retro on EA Community Choice (2024)</title>
-    <link href="https://www.lesswrong.com/posts/v4BcrEaDcd2EZhXEZ/retro-on-ea-community-choice-2024"/>
-    <id>https://www.lesswrong.com/posts/v4BcrEaDcd2EZhXEZ/retro-on-ea-community-choice-2024</id>
-    <updated>2026-09-14T01:14:39.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>Note from Austin: The EA Community Choice was an experimental funding round we ran in Fall 2024. We had 340 users help us distribute $200k to various community projects; $100k via a sliding-scale airdrop, $100k via quadratic funding match. See more in the launch post . Now, as a huge wave of funding is entering the sce</summary>
+    <summary>Buildots, a startup that uses artificial intelligence to help speed up construction of expensive mega-projects like data centers, chip factories and hospitals, has raised $130 million in new financing.</summary>
   </entry>
 </feed>
