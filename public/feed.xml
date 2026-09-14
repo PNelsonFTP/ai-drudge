@@ -5,24 +5,24 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-09-14T00:57:12.486Z</updated>
+  <updated>2026-09-14T06:05:15.628Z</updated>
   <entry>
-    <title>llama.cpp b10948 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10948"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10948</id>
-    <updated>2026-09-13T19:10:02.000Z</updated>
+    <title>llama.cpp b10951 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10951"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10951</id>
+    <updated>2026-09-14T04:06:58.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>tests : exclude HY_V4 from WebGPU test-llama-archs tests ( #28855 ) Co-authored-by: Stanisław Szymczyk sszymczy@gmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47194535 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED mac — Also covered by: ggml-org/whisper.cpp</summary>
+    <summary>common : move llama_n_rs_seq to before llama_decode ( #28749 ) This commit moves the llama_n_rs_seq function call to before the llama_decode call and returns directly if the check is true, removing the setting of res and the goto statement. The motivation for this change is to avoid the llama_decode call if it is not n — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
-    <title>Obama urges Democrats to have a ‘clear plan’ for AI safeguards</title>
-    <link href="https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards"/>
-    <id>https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards</id>
-    <updated>2026-09-13T16:30:00.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>Ligent Technologies Seeks $727 Million in Hong Kong IPO</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-14/ligent-technologies-seeks-727-million-in-hong-kong-ipo"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-14/ligent-technologies-seeks-727-million-in-hong-kong-ipo</id>
+    <updated>2026-09-14T04:21:05.000Z</updated>
+    <author><name>Bloomberg Tech</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safety. — Also covered by: The Guardian AI</summary>
+    <summary>AI computing networks maker Ligent Technologies Inc. is seeking to raise as much as HK$5.7 billion ($727 million) in a Hong Kong initial public offering, adding to a surge of listings this year tied to the global artificial intelligence buildout. — Also covered by: Reuters AI (Google News)</summary>
   </entry>
   <entry>
     <title>Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’</title>
@@ -43,31 +43,40 @@
     <summary>Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.</summary>
   </entry>
   <entry>
-    <title>Sources: Anthropic told investors it will be profitable for a second straight quarter, with 80%+ gross margins before partner revenue sharing and training costs (Financial Times)</title>
-    <link href="https://www.techmeme.com/260913/p14"/>
-    <id>https://www.techmeme.com/260913/p14</id>
-    <updated>2026-09-14T00:15:01.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>‘Tidal wave’ of Pfas being launched to satisfy AI industry, campaigners warn</title>
+    <link href="https://www.theguardian.com/environment/2026/sep/14/pfas-firms-tidal-wave-forever-chemicals-ai-industry-demand-datacentres"/>
+    <id>https://www.theguardian.com/environment/2026/sep/14/pfas-firms-tidal-wave-forever-chemicals-ai-industry-demand-datacentres</id>
+    <updated>2026-09-14T06:00:26.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Financial Times : Sources: Anthropic told investors it will be profitable for a second straight quarter, with 80%+ gross margins before partner revenue sharing and training costs — Claude maker seeks to ease cash burn concerns before blockbuster IPO amid fears over pace of AI development</summary>
+    <summary>Big manufacturers planning to produce more of the forever chemicals to meet demand from datacentres Pfas companies are launching a “tidal wave” of forever chemicals production to meet demand from the AI industry, a campaign organisation has warned. Despite alarm over the chemicals, which have been linked to cancer, a s</summary>
   </entry>
   <entry>
-    <title>commit-rewriter 0.1</title>
-    <link href="https://simonwillison.net/2026/Sep/14/commit-rewriter"/>
-    <id>https://simonwillison.net/2026/Sep/14/commit-rewriter</id>
-    <updated>2026-09-14T00:28:10.000Z</updated>
-    <author><name>Simon Willison</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Release: commit-rewriter 0.1 I built this little web app the other day to help edit the commit messages for the Datasette security releases . The initial commits were full of coding agent cruft and references to issue IDs from our private repository, so they weren't fit for publication. If you want to edit the commit m</summary>
-  </entry>
-  <entry>
-    <title>A $7 Billion Gas Bill Sees Developing Asian Nations Sour on LNG</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-13/a-7-billion-gas-bill-sees-developing-asian-nations-sour-on-lng"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-13/a-7-billion-gas-bill-sees-developing-asian-nations-sour-on-lng</id>
-    <updated>2026-09-13T23:00:00.000Z</updated>
+    <title>Dangote's Fortune Set to Jump $23 Bln on Refinery IPO</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-09-14/dangote-s-fortune-set-to-jump-23-bln-on-refinery-ipo-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-09-14/dangote-s-fortune-set-to-jump-23-bln-on-refinery-ipo-video</id>
+    <updated>2026-09-14T05:31:44.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The loss of a fifth of liquefied natural gas supply due to the US-Iran war is blowing out costs for Asia’s developing markets, and forcing a rethink of the fuel’s long-term future in the region.</summary>
+    <summary>Africa's richest man, Aliko Dangote, is poised to make a $23 billion leap up the list of the world’s wealthiest as he opens an initial public offering for his refinery. The tycoon’s net worth is projected to reach as much as $58.2 billion with the IPO of Dangote Petroleum Refinery and Petrochemicals Fze, according to B</summary>
+  </entry>
+  <entry>
+    <title>Occamy-1.0: Open Pareto-frontier 35B Intelligence for Co-work</title>
+    <link href="https://arxiv.org/abs/2609.11977"/>
+    <id>https://arxiv.org/abs/2609.11977</id>
+    <updated>2026-09-14T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
+    <category term="RESEARCH"/>
+    <summary>arXiv:2609.11977v1 Announce Type: new Abstract: Co-work agents execute complex workflows that combine information gathering, tool use, coding, and file manipulation across many model invocations. Because cost and latency accumulate over the full episode, their practical value depends not only on peak capability but als</summary>
+  </entry>
+  <entry>
+    <title>New method enables AI for safety-critical situations</title>
+    <link href="https://news.mit.edu/2026/new-method-enables-ai-safety-critical-situations-0914"/>
+    <id>https://news.mit.edu/2026/new-method-enables-ai-safety-critical-situations-0914</id>
+    <updated>2026-09-14T04:00:00.000Z</updated>
+    <author><name>MIT News AI</name></author>
+    <category term="HARDWARE"/>
+    <summary>The “HardFlow” algorithm could help generative AI models produce high-quality outputs that obey strict requirements when “pretty close” doesn’t cut it.</summary>
   </entry>
   <entry>
     <title>Iris-mini and Iris-pro are the strongest open-weight search agents in their class</title>
@@ -75,17 +84,8 @@
     <id>https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class</id>
     <updated>2026-09-13T12:58:18.000Z</updated>
     <author><name>The Decoder</name></author>
-    <category term="RESEARCH"/>
+    <category term="OPEN SOURCE"/>
     <summary>The AllSpark team has released Iris-mini and Iris-pro, two open-source search agents built on Qwen models that lead benchmarks among open-weight models in their size classes. According to the paper, the training data and models also improved performance on tasks they were never trained for, including general tool use a</summary>
-  </entry>
-  <entry>
-    <title>Trump’s Drug-Pricing Push to Cut Access Outside US, Study Finds</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-13/trump-s-drug-pricing-push-to-cut-access-outside-us-study-finds"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-13/trump-s-drug-pricing-push-to-cut-access-outside-us-study-finds</id>
-    <updated>2026-09-13T22:30:00.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="PRODUCTS"/>
-    <summary>The Trump administration’s push to bring US drug spending down is a powerful incentive for pharmaceutical companies to boost prices and reduce access elsewhere in the world, a study found.</summary>
   </entry>
   <entry>
     <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
@@ -97,22 +97,21 @@
     <summary>This Symposium is a one-day event to address the question: “ which medical measurements and consensus standards should be prioritized to support future U.S. healthcare?” The focus will be on medical imaging, medical devices, and diagnostics. The goal</summary>
   </entry>
   <entry>
-    <title>OpenAI Launches Lockdown Mode To Block Prompt Injection Attacks</title>
-    <link href="https://yellow.com/011.htm/news/openai-lockdown-mode-prompt-injection-security"/>
-    <id>https://yellow.com/011.htm/news/openai-lockdown-mode-prompt-injection-security</id>
-    <updated>2026-09-12T09:25:01.000Z</updated>
-    <author><name>GN: Prompt Injection</name></author>
+    <title>Conducting The First Live Enterprise Comparison Between Agents and Human Professionals</title>
+    <link href="https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals"/>
+    <id>https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals</id>
+    <updated>2026-09-14T06:04:48.064Z</updated>
+    <author><name>Gray Swan</name></author>
     <category term="AI SECURITY"/>
-    <summary>OpenAI Launches Lockdown Mode To Block Prompt Injection Attacks Yellow.com</summary>
   </entry>
   <entry>
-    <title>Thorough reorganization at NSA will create five 'mission centers,' including cyber and AI</title>
-    <link href="https://therecord.media/nsa-reorganization-five-mission-centers"/>
-    <id>https://therecord.media/nsa-reorganization-five-mission-centers</id>
-    <updated>2026-09-13T21:36:00.000Z</updated>
-    <author><name>The Record</name></author>
+    <title>ITL AI Webinar: The Development of an AI Agent Enrichment Workflow at the National Vulnerability Database</title>
+    <link href="https://www.nist.gov/news-events/events/2026/09/itl-ai-webinar-development-ai-agent-enrichment-workflow-national"/>
+    <id>https://www.nist.gov/news-events/events/2026/09/itl-ai-webinar-development-ai-agent-enrichment-workflow-national</id>
+    <updated>2026-09-17T15:00:00.000Z</updated>
+    <author><name>NIST AI News</name></author>
     <category term="CYBER THREATS"/>
-    <summary>The largest electronic spy agency in the world is reorganizing. And fast.</summary>
+    <summary>Join NIST on September 17, 2026 for an Information Technology Laboratory (ITL) AI Program hosted webinar on the development of an AI agent enrichment workflow at the National Vulnerability Database. The National Vulnerability Database (NVD)</summary>
   </entry>
   <entry>
     <title>Context Engineering Inside the Harness: 4 Mechanisms That Beat Context Overflow and Goal Loss on Long-Horizon Tasks</title>
@@ -124,13 +123,22 @@
     <summary>A shallow agent is an LLM calling tools in a loop, and on long tasks it fails in 2 ways: context overflow and goal loss. This article opens the harness layer that fixes both, with the actual thresholds shipped by LangChain Deep Agents, Claude Code, Manus, OpenAI Codex and Amazon Bedrock AgentCore, plus an interactive s</summary>
   </entry>
   <entry>
-    <title>The coming robotaxi revolution</title>
-    <link href="https://www.ft.com/content/2404d7db-002e-42d6-a746-183bb23c1234?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/2404d7db-002e-42d6-a746-183bb23c1234?syn-25a6b1a6=1</id>
-    <updated>2026-09-13T10:00:05.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
+    <title>commit-rewriter 0.1</title>
+    <link href="https://simonwillison.net/2026/Sep/14/commit-rewriter"/>
+    <id>https://simonwillison.net/2026/Sep/14/commit-rewriter</id>
+    <updated>2026-09-14T00:28:10.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="ANALYSIS"/>
+    <summary>Release: commit-rewriter 0.1 I built this little web app the other day to help edit the commit messages for the Datasette security releases . The initial commits were full of coding agent cruft and references to issue IDs from our private repository, so they weren't fit for publication. If you want to edit the commit m</summary>
+  </entry>
+  <entry>
+    <title>Inside UBTECH’s 10,000-Unit Super Factory: How Robots Are Building Humanoids in Liuzhou</title>
+    <link href="https://www.humanoidsdaily.com/news/inside-ubtech-s-10-000-unit-super-factory-how-robots-are-building-humanoids-in-liuzhou"/>
+    <id>https://www.humanoidsdaily.com/news/inside-ubtech-s-10-000-unit-super-factory-how-robots-are-building-humanoids-in-liuzhou</id>
+    <updated>2026-09-13T06:32:43.000Z</updated>
+    <author><name>Humanoids Daily</name></author>
     <category term="ROBOTICS"/>
-    <summary>Self-driving cars could transform urban transport, if they can win public trust</summary>
+    <summary>UBTECH has commissioned a 14,000-square-meter smart manufacturing facility in Guangxi engineered to produce a humanoid every 10 minutes, scaling up the industry’s hardware volume race.</summary>
   </entry>
   <entry>
     <title>GÉANT and Quantum Internet Alliance Partner to Advance European Quantum Networking Architecture</title>
@@ -142,22 +150,40 @@
     <summary>GÉANT and the Quantum Internet Alliance (QIA) have partnered to advance European quantum networking by signing an MoU on September 8, 2026. This collaboration leverages GÉANT's optical network and QIA's quantum networking expertise to develop infrastructure, standards, and interoperability protocols, aiming to transiti</summary>
   </entry>
   <entry>
-    <title>Satya Nadella says &quot;we welcome&quot; the &quot;deliberate pacing needed to get alignment right&quot;, and announces a &quot;Code of Conduct&quot; for Microsoft's MAI models (Satya Nadella/@satyanadella)</title>
-    <link href="https://www.techmeme.com/260913/p13"/>
-    <id>https://www.techmeme.com/260913/p13</id>
-    <updated>2026-09-13T22:40:02.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Satya Nadella / @satyanadella : Satya Nadella says “we welcome” the “deliberate pacing needed to get alignment right”, and announces a “Code of Conduct” for Microsoft's MAI models — Any pursuit of superintelligence has to be grounded in the core principle that if the AI we build is not helping humanity and under human </summary>
+    <title>Anthropic tells investors it will be profitable for second straight quarter</title>
+    <link href="https://www.ft.com/content/4564e6a5-69e9-40a6-bf0f-a888f2f4f002?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/4564e6a5-69e9-40a6-bf0f-a888f2f4f002?syn-25a6b1a6=1</id>
+    <updated>2026-09-13T22:29:46.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Claude maker seeks to ease cash burn concerns before blockbuster IPO amid fears over pace of AI development</summary>
   </entry>
   <entry>
-    <title>What’s behind the AI industry’s latest warnings of doom?</title>
-    <link href="https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom"/>
-    <id>https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom</id>
-    <updated>2026-09-13T19:40:15.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>The US Senate digital assets subcommittee releases a revised &quot;final offer&quot; of the Clarity Act with Trump-backed ethics provisions, ahead of a September 15 vote (Felix Ng/Cointelegraph News)</title>
+    <link href="https://www.techmeme.com/260914/p3"/>
+    <id>https://www.techmeme.com/260914/p3</id>
+    <updated>2026-09-14T05:51:06.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>On Equity, we discussed the AI industry's latest debate about whether it poses an existential threat to humanity.</summary>
+    <summary>Felix Ng / Cointelegraph News : The US Senate digital assets subcommittee releases a revised “final offer” of the Clarity Act with Trump-backed ethics provisions, ahead of a September 15 vote — The 635-page revised proposal includes Trump-backed ethics provisions and comes just two days before a key procedural vote.</summary>
+  </entry>
+  <entry>
+    <title>Sources: SoftBank sealed a two-year loan facility to support its OpenAI investment, securing $11.87B in commitments from ~20 banks, above its $10B target (Janice Huang/Bloomberg)</title>
+    <link href="https://www.techmeme.com/260913/p18"/>
+    <id>https://www.techmeme.com/260913/p18</id>
+    <updated>2026-09-14T03:06:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Janice Huang / Bloomberg : Sources: SoftBank sealed a two-year loan facility to support its OpenAI investment, securing $11.87B in commitments from ~20 banks, above its $10B target — SoftBank Group Corp. secured an $11.87 billion loan to support its investment in US artificial intelligence firm OpenAI …</summary>
+  </entry>
+  <entry>
+    <title>Efficient AI Model Deployment Using Quantization Analysis Tool</title>
+    <link href="https://arxiv.org/abs/2609.11954"/>
+    <id>https://arxiv.org/abs/2609.11954</id>
+    <updated>2026-09-14T04:00:00.000Z</updated>
+    <author><name>arXiv cs.LG</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>arXiv:2609.11954v1 Announce Type: new Abstract: As deep learning models are increasingly deployed on resource constrained devices, the demand for efficient model optimization techniques continues to grow. Effective deployment of AI models on edge and low power platforms requires optimization methods that reduce model s</summary>
   </entry>
   <entry>
     <title>AWS Introduces Pizza Bot: An Open Source Inbox for Background AI Agents</title>
@@ -169,76 +195,49 @@
     <summary>Pizza Bot is an open source, self-hosted inbox for AI agents built on DeepAgents and LangGraph. It combines persistent task state, MCP integrations, configurable approvals, and scheduled workflows across multiple model providers. The post AWS Introduces Pizza Bot: An Open Source Inbox for Background AI Agents appeared </summary>
   </entry>
   <entry>
-    <title>Artifactory flaws chained in attacks deploying backdoor malware</title>
-    <link href="https://www.bleepingcomputer.com/news/security/artifactory-flaws-chained-in-attacks-deploying-backdoor-malware"/>
-    <id>https://www.bleepingcomputer.com/news/security/artifactory-flaws-chained-in-attacks-deploying-backdoor-malware</id>
-    <updated>2026-09-11T16:29:44.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Threat actors are exploiting critical and high-severity vulnerabilities in JFrog Artifactory to bypass authentication, gain administrative privileges, and deploy a Rust backdoor on vulnerable self-hosted servers. [...]</summary>
-  </entry>
-  <entry>
-    <title>How Credit Genie keeps codebase docs fresh with OpenWiki</title>
-    <link href="https://www.langchain.com/blog/how-credit-genie-uses-openwiki-to-keep-codebase-knowledge-fresh-searchable-and-automated"/>
-    <id>https://www.langchain.com/blog/how-credit-genie-uses-openwiki-to-keep-codebase-knowledge-fresh-searchable-and-automated</id>
-    <updated>2026-09-14T00:20:13.000Z</updated>
-    <author><name>LangChain Blog</name></author>
+    <title>Harness or Model? Isolating the Harness Effect in Agentic Coding with a Contamination-Controlled Private Suite</title>
+    <link href="https://arxiv.org/abs/2609.11987"/>
+    <id>https://arxiv.org/abs/2609.11987</id>
+    <updated>2026-09-14T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>See how Credit Genie uses OpenWiki to automate repo documentation, reduce tribal knowledge, and give engineers and coding agents searchable codebase context.</summary>
+    <summary>arXiv:2609.11987v1 Announce Type: new Abstract: An agentic coding system couples a language model to a harness: the tools, prompts and control flow that turn a chat model into an autonomous software engineer. Vendors ship harnesses tuned to their own models, and practitioners assume the vendor-native pairing solves mor</summary>
   </entry>
   <entry>
-    <title>Connections: managed credentials and per-caller identity for Managed Deep Agents</title>
-    <link href="https://www.langchain.com/blog/connections-managed-credentials-and-per-caller-identity-for-managed-deep-agents"/>
-    <id>https://www.langchain.com/blog/connections-managed-credentials-and-per-caller-identity-for-managed-deep-agents</id>
-    <updated>2026-09-13T23:30:49.000Z</updated>
-    <author><name>LangChain Blog</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Learn how Connections in Managed Deep Agents securely manage credentials, support per-user OAuth, and let agents act with each caller’s identity.</summary>
-  </entry>
-  <entry>
-    <title>Dutch start-up completes funding round for encrypted silicon technology</title>
-    <link href="https://www.ft.com/content/a6574d9d-5e75-4b9c-b4d7-b05f7008e48e?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/a6574d9d-5e75-4b9c-b4d7-b05f7008e48e?syn-25a6b1a6=1</id>
-    <updated>2026-09-13T19:51:43.000Z</updated>
+    <title>FTAV’s further reading</title>
+    <link href="https://www.ft.com/content/988e8cb5-da27-49a6-a9f5-377b515c02ba"/>
+    <id>https://www.ft.com/content/988e8cb5-da27-49a6-a9f5-377b515c02ba</id>
+    <updated>2026-09-14T05:00:03.000Z</updated>
     <author><name>FT Artificial Intelligence</name></author>
     <category term="AI FINANCE"/>
-    <summary>Fortaegis claims it can create ultra-secure computer networks by harnessing the unique digital fingerprint of chips</summary>
+    <summary>AI and economic growth; tech lord trojan horses; IPOs of doom; Kallax Storageborn</summary>
   </entry>
   <entry>
-    <title>Anthropic’s AI Warning Seen as Setback for Chip Stocks</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-14/anthropic-s-ai-warning-seen-as-setback-for-chip-stocks-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-14/anthropic-s-ai-warning-seen-as-setback-for-chip-stocks-video</id>
-    <updated>2026-09-14T00:45:49.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>AI executives' calls to slow development of the technology are likely to weigh on chipmaker and supply-chain stocks in the near term. Bloomberg's Sunny Bangia and Anthony Stephens break down the news. (Source: Bloomberg)</summary>
-  </entry>
-  <entry>
-    <title>GPT-6 Astra pilots a surveillance drone and runs a business on its own</title>
-    <link href="https://the-decoder.com/gpt-6-astra-pilots-a-surveillance-drone-and-runs-a-business-on-its-own"/>
-    <id>https://the-decoder.com/gpt-6-astra-pilots-a-surveillance-drone-and-runs-a-business-on-its-own</id>
-    <updated>2026-09-13T10:52:16.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>Reading the Whole Heart: Latent-Attention Masked Autoencoders for Multimodal Cardiac Representation Learning</title>
+    <link href="https://arxiv.org/abs/2609.12035"/>
+    <id>https://arxiv.org/abs/2609.12035</id>
+    <updated>2026-09-14T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
     <category term="RESEARCH"/>
-    <summary>GPT-6 Astra earns nearly three times as much as Claude Fable 5.1 on Andon Labs' Vending-Bench agent benchmark and refuses illegal price-fixing deals that Fable agrees to. On drone control, Astra is the first model to beat the human baseline on all five subtasks, including finding and following individual people. The ar</summary>
+    <summary>arXiv:2609.12035v1 Announce Type: new Abstract: Cardiovascular diagnosis rests on integrating complementary modalities, like ECG, echocardiography, chest radiographs, and clinical variables, each capturing distinct but correlated aspects of cardiac physiology. Yet most medical foundation models remain modality-specific</summary>
   </entry>
   <entry>
-    <title>Hierarchical NeRF with JAX3D for Volumetric Rendering, Novel-View Synthesis, and 3D Reconstruction</title>
-    <link href="https://www.marktechpost.com/2026/09/13/hierarchical-nerf-with-jax3d-for-volumetric-rendering-novel-view-synthesis-and-3d-reconstruction"/>
-    <id>https://www.marktechpost.com/2026/09/13/hierarchical-nerf-with-jax3d-for-volumetric-rendering-novel-view-synthesis-and-3d-reconstruction</id>
-    <updated>2026-09-13T19:46:38.000Z</updated>
-    <author><name>MarkTechPost</name></author>
-    <category term="RESEARCH"/>
-    <summary>In this tutorial, we build an end-to-end hierarchical Neural Radiance Field (NeRF) using JAX, Flax, Optax, and the volume-rendering primitives provided by jax3d. We first construct a synthetic multi-view dataset from an analytic scene containing volumetric geometry and view-dependent radiance, using sample_along_rays a</summary>
-  </entry>
-  <entry>
-    <title>Monitoring production agent lifecycle with AWS DevOps Agent and AgentCore Evaluations</title>
-    <link href="https://aws.amazon.com/blogs/machine-learning/monitoring-production-agent-lifecycle-with-aws-devops-agent-and-agentcore-evaluations"/>
-    <id>https://aws.amazon.com/blogs/machine-learning/monitoring-production-agent-lifecycle-with-aws-devops-agent-and-agentcore-evaluations</id>
-    <updated>2026-09-11T18:26:38.000Z</updated>
-    <author><name>AWS ML Blog</name></author>
+    <title>Language Is an Insufficient Substrate for Quantitative Reasoning, and Consequential Domains Need Large Quantitative Models</title>
+    <link href="https://arxiv.org/abs/2609.12105"/>
+    <id>https://arxiv.org/abs/2609.12105</id>
+    <updated>2026-09-14T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
     <category term="PRODUCTS"/>
-    <summary>Multi-agent systems fail in ways traditional monitoring misses. This post presents a dual-layer approach to monitoring production agents: Amazon Bedrock AgentCore Evaluations for continuous quality scoring and AWS DevOps Agent for autonomous infrastructure investigation, shown on a four-agent airline reservation system</summary>
+    <summary>arXiv:2609.12105v1 Announce Type: new Abstract: The prevailing assumption in applied machine learning is that progress on consequential quantitative decisions such as pricing risk, allocating capital, triaging patients, or containing a network intrusion will follow from progress in large language models (LLMs). A langu</summary>
+  </entry>
+  <entry>
+    <title>Prediction markets are becoming more professionalized, but also harder to beat</title>
+    <link href="https://www.cnbc.com/2026/09/14/prediction-markets-efficient-win-lose-beat.html"/>
+    <id>https://www.cnbc.com/2026/09/14/prediction-markets-efficient-win-lose-beat.html</id>
+    <updated>2026-09-14T01:37:44.000Z</updated>
+    <author><name>CNBC Tech</name></author>
+    <category term="PRODUCTS"/>
+    <summary>The institutionalization of prediction markets threatens to erode the edge of skilled traders who earn off mispricing and market inefficiencies, experts say.</summary>
   </entry>
   <entry>
     <title>Infineon RISC-V for Automotive at Hot Chips 2026</title>
@@ -250,30 +249,30 @@
     <summary>At Hot Chips 2026, Infineon presented a case for using RISC-V in various automotive processors in next-generation cars The post Infineon RISC-V for Automotive at Hot Chips 2026 appeared first on ServeTheHome .</summary>
   </entry>
   <entry>
-    <title>Chatbots can exploit our most basic human drive for attachment. Here’s how to have healthier relationship with AI | Gaynor Parkin and Dave Winsborough</title>
-    <link href="https://www.theguardian.com/commentisfree/2026/sep/14/how-to-have-healthier-relationship-with-ai-chatbots-human-intimacy"/>
-    <id>https://www.theguardian.com/commentisfree/2026/sep/14/how-to-have-healthier-relationship-with-ai-chatbots-human-intimacy</id>
-    <updated>2026-09-13T15:00:09.000Z</updated>
-    <author><name>The Guardian AI</name></author>
+    <title>I am refusing to work on Cloud TPUs</title>
+    <link href="https://www.lesswrong.com/posts/wM5vbT9evBhM3fP3x/i-am-refusing-to-work-on-cloud-tpus"/>
+    <id>https://www.lesswrong.com/posts/wM5vbT9evBhM3fP3x/i-am-refusing-to-work-on-cloud-tpus</id>
+    <updated>2026-09-14T05:48:33.000Z</updated>
+    <author><name>LessWrong</name></author>
     <category term="HARDWARE"/>
-    <summary>This intimacy economy is tapping into the deepest parts of our intimate psychological infrastructure The modern mind is a column where experts discuss mental health issues they are seeing in their work Michael* is an engineer whose company embraced the AI wave. He enjoys testing ideas with chatbots. However, recently h</summary>
+    <summary>I don't think this is particularly impressive or interesting for anyone else, but I think it may turn out to be useful in the future to have an easily visible public record of what happened, so here goes: I am an L5 SWE at Google Israel. I have been there since May 2021, was promoted once [1] , and have never received </summary>
   </entry>
   <entry>
-    <title>Xi Jinping calls for a &quot;consensus-based global AI governance framework&quot; and says China will pioneer the establishment of a BRICS AI open-source community (Joanna Ossinger/CNBC)</title>
-    <link href="https://www.techmeme.com/260913/p11"/>
-    <id>https://www.techmeme.com/260913/p11</id>
-    <updated>2026-09-13T19:25:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Joanna Ossinger / CNBC : Xi Jinping calls for a “consensus-based global AI governance framework” and says China will pioneer the establishment of a BRICS AI open-source community — China will take the lead to help foster artificial-intelligence collaboration and development among developing countries …</summary>
-  </entry>
-  <entry>
-    <title>Yet another concerning result on Astra's no-CoT capabilities</title>
-    <link href="https://www.lesswrong.com/posts/tz5WvDouXKbiWJG8B/yet-another-concerning-result-on-astra-s-no-cot-capabilities"/>
-    <id>https://www.lesswrong.com/posts/tz5WvDouXKbiWJG8B/yet-another-concerning-result-on-astra-s-no-cot-capabilities</id>
-    <updated>2026-09-14T00:35:54.000Z</updated>
+    <title>Talleyrand Tool: thinking as a tree of questions</title>
+    <link href="https://www.lesswrong.com/posts/G7RCGp8JKA2xxpcjj/talleyrand-tool-thinking-as-a-tree-of-questions"/>
+    <id>https://www.lesswrong.com/posts/G7RCGp8JKA2xxpcjj/talleyrand-tool-thinking-as-a-tree-of-questions</id>
+    <updated>2026-09-14T01:07:48.000Z</updated>
     <author><name>LessWrong</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>This is a research update for an on-going replication of no-CoT [1] evals done as part of the Second Look Fellowship . In following posts, we will run more comprehensive replications of previous work and release open source tooling for no-CoT eval elicitation. Code can be found here . tl;dr We replicate experiments fro</summary>
+    <summary>TL;DR: We ( Sage , a nonprofit) built Talleyrand, a free, open-source AI workspace for thinking through hard questions. Your questions are kept in a tree, not a linear chat. After each answer it suggests the next questions and learns from your reactions. Try it at talleyrand.app . Why we built it I like to discuss comp</summary>
+  </entry>
+  <entry>
+    <title>Retro on EA Community Choice (2024)</title>
+    <link href="https://www.lesswrong.com/posts/v4BcrEaDcd2EZhXEZ/retro-on-ea-community-choice-2024"/>
+    <id>https://www.lesswrong.com/posts/v4BcrEaDcd2EZhXEZ/retro-on-ea-community-choice-2024</id>
+    <updated>2026-09-14T01:14:39.000Z</updated>
+    <author><name>LessWrong</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>Note from Austin: The EA Community Choice was an experimental funding round we ran in Fall 2024. We had 340 users help us distribute $200k to various community projects; $100k via a sliding-scale airdrop, $100k via quadratic funding match. See more in the launch post . Now, as a huge wave of funding is entering the sce</summary>
   </entry>
 </feed>
