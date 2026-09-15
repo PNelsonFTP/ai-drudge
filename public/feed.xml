@@ -5,15 +5,24 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-09-15T18:06:51.285Z</updated>
+  <updated>2026-09-15T22:06:45.033Z</updated>
   <entry>
-    <title>llama.cpp b10985 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10985"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10985</id>
-    <updated>2026-09-15T14:25:47.000Z</updated>
+    <title>llama.cpp b10988 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10988"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10988</id>
+    <updated>2026-09-15T18:53:55.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>rpc : hash-cache only weights ( #28789 ) rpc : hash-cache only weights ggml_backend_rpc_buffer_set_tensor and ggml_backend_rpc_set_tensor_async hashed every transfer above HASH_THRESHOLD and let rpc-server -c serve it from its file cache. The cache is meant for weights, but the activations ggml_backend_sched copies bet — Also covered by: ggml-org/whisper.cpp</summary>
+    <summary>opencl: choose the MoE expert matmul by batch size for speculative decoding/MTP ( #27637 ) opencl: gate the prebuilt q4_0 MoE GEMM on routing count opencl: stop writing zeros into the padded MoE activation slots opencl: rephrase claude's comments Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Att — Also covered by: ggml-org/whisper.cpp</summary>
+  </entry>
+  <entry>
+    <title>claude-code v2.1.273 released</title>
+    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.273"/>
+    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.273</id>
+    <updated>2026-09-15T20:23:03.000Z</updated>
+    <author><name>anthropics/claude-code</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>What's changed Added x-claude-code-request-class , x-claude-code-agent-type , x-claude-code-prev-tool-durations , x-claude-code-compaction and x-claude-code-context-compacted request headers for LLM gateways; opt in with CLAUDE_CODE_GATEWAY_HINT_HEADERS=1 Added a notification when an MCP server disconnects mid-session  — Also covered by: QwenLM/qwen-code</summary>
   </entry>
   <entry>
     <title>BambooToken Malware Uses MQTT to Control Windows and Linux Systems</title>
@@ -25,24 +34,6 @@
     <summary>Cybersecurity researchers have disclosed details of a multi-platform campaign that uses the Message Queueing Telemetry Transport (MQTT) protocol as a communication channel to control Windows and Linux systems. The emerging malware family, codenamed BambooToken, is assessed to be active since at least February 2023 and  — Also covered by: BleepingComputer</summary>
   </entry>
   <entry>
-    <title>OpenAI, Anthropic, Google have been in talks on AI safety for weeks</title>
-    <link href="https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks"/>
-    <id>https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks</id>
-    <updated>2026-09-15T15:47:03.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>OpenAI confirms weeks of AI safety talks with Anthropic and Google DeepMind, as Trump's team dismisses safety concerns and pushes to keep pace with China. — Also covered by: Reuters AI (Google News)</summary>
-  </entry>
-  <entry>
-    <title>qwen-code v0.20.9 released</title>
-    <link href="https://github.com/QwenLM/qwen-code/releases/tag/cua-driver-rs-v0.20.9"/>
-    <id>https://github.com/QwenLM/qwen-code/releases/tag/cua-driver-rs-v0.20.9</id>
-    <updated>2026-09-15T05:38:00.000Z</updated>
-    <author><name>QwenLM/qwen-code</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Qwen CUA Driver prebuilt binaries (vendored under packages/cua-driver ). macOS : codesigned + notarized universal binary + QwenCuaDriver.app Linux : unsigned (x86_64 + arm64, glibc 2.31 floor) Windows : unsigned UIAccess worker + native SDK payload (x86_64 + arm64); deployments must sign and trust the worker on the tar — Also covered by: anthropics/claude-code</summary>
-  </entry>
-  <entry>
     <title>QC Design Integrates Plaquette With NVIDIA CUDA-Q Logical for Hardware-Realistic QEC Simulation</title>
     <link href="https://thequantuminsider.com/2026/09/15/qc-design-plaquette-nvidia-cuda-q-logical-qec-simulation"/>
     <id>https://thequantuminsider.com/2026/09/15/qc-design-plaquette-nvidia-cuda-q-logical-qec-simulation</id>
@@ -52,39 +43,31 @@
     <summary>Insider Brief PRESS RELEASE — QC Design today announced an integration between Plaquette, its design-automation platform for fault-tolerant quantum computing (FTQC), and NVIDIA CUDA-Q Logical, the open, extensible logical layer of the CUDA-Q platform. This collaboration enables quantum hardware teams to perform accurat — Also covered by: Quantum Computing Report</summary>
   </entry>
   <entry>
-    <title>Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking</title>
-    <link href="https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking"/>
-    <id>https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking</id>
-    <updated>2026-09-15T17:05:57.000Z</updated>
-    <author><name>Google DeepMind Blog</name></author>
+    <title>ollama v0.34.2 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.34.2-rc0"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.34.2-rc0</id>
+    <updated>2026-09-15T21:21:07.000Z</updated>
+    <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
+    <summary>What's Changed llama.cpp updates Full Changelog : v0.34.1...v0.34.2-rc0</summary>
   </entry>
   <entry>
-    <title>UMG sues DistroKid, alleging it distributes AI-generated music masquerading as artist-backed releases and knowingly &quot;proliferates&quot; copyright-infringing tracks (Tim Ingham/Music Business Worldwide)</title>
-    <link href="https://www.techmeme.com/260915/p38"/>
-    <id>https://www.techmeme.com/260915/p38</id>
-    <updated>2026-09-15T16:40:47.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Blanche defends Trump’s tirade against supreme court after it blocked mail-in voting executive order – US politics live</title>
+    <link href="https://www.theguardian.com/us-news/live/2026/sep/15/supreme-court-mail-ballot-restrictions-midterm-elections-trump-ai-politics-latest-news-updates"/>
+    <id>https://www.theguardian.com/us-news/live/2026/sep/15/supreme-court-mail-ballot-restrictions-midterm-elections-trump-ai-politics-latest-news-updates</id>
+    <updated>2026-09-15T22:06:05.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Tim Ingham / Music Business Worldwide : UMG sues DistroKid, alleging it distributes AI-generated music masquerading as artist-backed releases and knowingly “proliferates” copyright-infringing tracks — Universal Music Group is suing the world's biggest music distributor by volume, DistroKid.</summary>
+    <summary>Attorney general says president ‘should communicate his concerns with the supreme court’ after Trump said justices ‘really let our country down’ Sign up for US Breaking News emails Kash Patel , the FBI director, is now testifying before lawmakers on the Senate judiciary committee. A reminder that the last time he appea</summary>
   </entry>
   <entry>
-    <title>Factory, whose AI coding agents, called Droids, switch between models depending on a task's complexity, raised $200M at a $5B valuation, up from $1.5B in April (Angel Au-Yeung/Wall Street Journal)</title>
-    <link href="https://www.techmeme.com/260915/p37"/>
-    <id>https://www.techmeme.com/260915/p37</id>
-    <updated>2026-09-15T16:15:43.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Angel Au-Yeung / Wall Street Journal : Factory, whose AI coding agents, called Droids, switch between models depending on a task's complexity, raised $200M at a $5B valuation, up from $1.5B in April — Khosla Ventures, Blackstone and Marc Benioff are among the investors putting $200 million into the startup</summary>
-  </entry>
-  <entry>
-    <title>Glencore Faces $2 Billion Suit as It Alleges Radiant World Fraud</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-15/glencore-says-radiant-world-sent-falsified-invoices-to-lenders"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-15/glencore-says-radiant-world-sent-falsified-invoices-to-lenders</id>
-    <updated>2026-09-15T15:48:13.000Z</updated>
+    <title>Market Attractive But Issues Lurk, Oaktree's Poli Says</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-09-15/market-attractive-but-issues-lurk-oaktree-s-poli-says-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-09-15/market-attractive-but-issues-lurk-oaktree-s-poli-says-video</id>
+    <updated>2026-09-15T21:42:22.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Glencore Plc accused Radiant World and associated companies of sending falsified invoices to lenders — just as a senior executive at the group of traders said they had filed a $2 billion lawsuit against Glencore.</summary>
+    <summary>Oaktree Portfolio Manager Danielle Poli says markets may continue to see upward pressure on yields because investors do not yet believe inflation will be fully tamed. She speaks with Romaine Bostick on &quot;Bloomberg The Close.&quot; (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>Vibe Patenting: Evaluating LLM Judges for Professional Patent-Drafting Agents</title>
@@ -96,21 +79,31 @@
     <summary>arXiv:2609.13422v1 Announce Type: new Abstract: LLM judges are increasingly used to evaluate and improve AI-generated outputs, yet their reliability for complex professional work remains unclear. We study this problem through Vibe Patenting, an end-to-end patent-drafting testbed for AI-agent evaluation. A separately-in</summary>
   </entry>
   <entry>
+    <title>Google launches Gemini 3.8 Live to take on OpenAI's GPT-Live-1 at a fraction of the cost</title>
+    <link href="https://the-decoder.com/google-launches-gemini-3-8-live-to-take-on-openais-gpt-live-1-at-a-fraction-of-the-cost"/>
+    <id>https://the-decoder.com/google-launches-gemini-3-8-live-to-take-on-openais-gpt-live-1-at-a-fraction-of-the-cost</id>
+    <updated>2026-09-15T18:23:20.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Google Deepmind released Gemini 3.8 Live and 3.8 Live Extended Thinking, two new audio models for developers that top the Artificial Analysis speech-to-speech leaderboard. At $1.38 per hour of voice conversation, Google significantly undercuts OpenAI's GPT-Live-1, which should still sound more natural thanks to full du</summary>
+  </entry>
+  <entry>
     <title>Astera Labs Releases Leo 2 CXL Memory Controllers and Leo X Controller for Rackscale Fabric-Attached Memory</title>
     <link href="https://www.servethehome.com/astera-labs-releases-leo-2-cxl-memory-controllers-and-leo-x-controller-for-rackscale-fabric-attached-memory"/>
     <id>https://www.servethehome.com/astera-labs-releases-leo-2-cxl-memory-controllers-and-leo-x-controller-for-rackscale-fabric-attached-memory</id>
     <updated>2026-09-15T17:00:48.000Z</updated>
     <author><name>ServeTheHome</name></author>
-    <category term="PRODUCTS"/>
+    <category term="HARDWARE"/>
     <summary>Astera Labs is launching a new generation of Leo smart memory controllers. The Leo 2 series adds support for CXL 3.2 and PCIe Gen6, while the ambitious Leo X brings the ability to attach memory expanders directly to the fabric networks of AI accelerators The post Astera Labs Releases Leo 2 CXL Memory Controllers and Le</summary>
   </entry>
   <entry>
-    <title>Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care</title>
-    <link href="https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care"/>
-    <id>https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care</id>
-    <updated>2026-09-15T09:00:42.000Z</updated>
-    <author><name>NVIDIA Blog</name></author>
+    <title>At a US House hearing, Treasury Secretary Scott Bessent said AI labs should get no liability exemptions and called for more open-source models built in the US (Matt Bracken/FedScoop)</title>
+    <link href="https://www.techmeme.com/260915/p49"/>
+    <id>https://www.techmeme.com/260915/p49</id>
+    <updated>2026-09-15T22:00:38.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="OPEN SOURCE"/>
+    <summary>Matt Bracken / FedScoop : At a US House hearing, Treasury Secretary Scott Bessent said AI labs should get no liability exemptions and called for more open-source models built in the US — The secretary told House Financial Services Committee lawmakers that the “best way to guarantee safety” is for AI creators to be held</summary>
   </entry>
   <entry>
     <title>AISN #81: Anthropic Researcher’s Resignation Propels AI Risk into the Public Eye</title>
@@ -131,13 +124,13 @@
     <summary>1Password’s FLAWED report , published on August 6, 2026, gives defenders a misleading picture of AI patching. Its headline says models produced clean fixes only 26% of the time. That figure includes experiments that deliberately instructed agents to apply the wrong fix, along with experiments in which agents could not </summary>
   </entry>
   <entry>
-    <title>CenterPoint Energy confirms customer data stolen in cyberattack</title>
-    <link href="https://www.bleepingcomputer.com/news/security/centerpoint-energy-confirms-customer-data-stolen-in-cyberattack"/>
-    <id>https://www.bleepingcomputer.com/news/security/centerpoint-energy-confirms-customer-data-stolen-in-cyberattack</id>
-    <updated>2026-09-15T16:40:14.000Z</updated>
-    <author><name>BleepingComputer</name></author>
+    <title>Norway announces investigations into telecom Telenor’s work with Myanmar junta</title>
+    <link href="https://therecord.media/norway-investigations-telenor-telecom-myanmar-regime"/>
+    <id>https://therecord.media/norway-investigations-telenor-telecom-myanmar-regime</id>
+    <updated>2026-09-15T20:01:00.000Z</updated>
+    <author><name>The Record</name></author>
     <category term="CYBER THREATS"/>
-    <summary>CenterPoint Energy disclosed a breach compromising some customers' personal information after an attacker leaked data allegedly stolen from the utility company. [...]</summary>
+    <summary>Oslo-based Telenor potentially enabled crimes against humanity and violated sanctions in its dealings with the military regime that took over Myanmar in 2021, Norwegian authorities said.</summary>
   </entry>
   <entry>
     <title>Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point</title>
@@ -149,112 +142,93 @@
     <summary>Introduction Security teams have gotten pretty good at testing against what can hurt them. Can this EDR agent catch this payload? Will my organization fail the phishing simulation? Does this SIEM rule fire on this particular technique? And, in more mature organizations, this testing happens continuously rather than as </summary>
   </entry>
   <entry>
-    <title>Thatch, a healthcare plan marketplace where employers set a fixed budget that employees can use for individual plans, raised a $108M Series C at a $1B valuation (Marina Temkin/TechCrunch)</title>
-    <link href="https://www.techmeme.com/260915/p39"/>
-    <id>https://www.techmeme.com/260915/p39</id>
-    <updated>2026-09-15T17:25:54.000Z</updated>
+    <title>Pulley, which offers cap table management software, says it will cease operations after December 8; it had raised $50M+ from investors, including Founders Fund (Melia Robinson/Business Insider)</title>
+    <link href="https://www.techmeme.com/260915/p47"/>
+    <id>https://www.techmeme.com/260915/p47</id>
+    <updated>2026-09-15T20:45:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="FUNDING &amp; DEALS"/>
-    <summary>Marina Temkin / TechCrunch : Thatch, a healthcare plan marketplace where employers set a fixed budget that employees can use for individual plans, raised a $108M Series C at a $1B valuation — Thatch, a platform that lowers healthcare costs for employers while expanding plan choices for workers, has raised $108 million </summary>
+    <summary>Melia Robinson / Business Insider : Pulley, which offers cap table management software, says it will cease operations after December 8; it had raised $50M+ from investors, including Founders Fund — Pulley, a software that startups rely on to track their funding, is shutting down after seven years.</summary>
   </entry>
   <entry>
-    <title>Our investment in Jack &amp; Jill: a job market that works for you</title>
-    <link href="https://press.airstreet.com/p/jack-and-jill-series-a"/>
-    <id>https://press.airstreet.com/p/jack-and-jill-series-a</id>
-    <updated>2026-09-15T13:29:12.000Z</updated>
-    <author><name>Air Street Press (Benaich)</name></author>
+    <title>Can Skills Learned in Games Transfer to Real-World Work?</title>
+    <link href="https://www.latent.space/p/good-start-labs"/>
+    <id>https://www.latent.space/p/good-start-labs</id>
+    <updated>2026-09-15T20:11:54.000Z</updated>
+    <author><name>Latent Space</name></author>
     <category term="ANALYSIS"/>
-    <summary>Air Street Capital leads Jack &amp; Jill’s $40M Series A to put an agent on both sides of the job market.</summary>
+    <summary>Good Start Labs trained an AI on a railroad game — and one version improved at financial research. The difference was the training design.</summary>
   </entry>
   <entry>
-    <title>Agility unveils Digit 5, designed to work closer to people</title>
-    <link href="https://www.humanoidsdaily.com/news/agility-unveils-digit-5-designed-to-work-closer-to-people"/>
-    <id>https://www.humanoidsdaily.com/news/agility-unveils-digit-5-designed-to-work-closer-to-people</id>
-    <updated>2026-09-15T10:55:08.000Z</updated>
+    <title>Odyssey Unveils Odyssey-3, With Flexion Building Humanoid Control on Its World Model</title>
+    <link href="https://www.humanoidsdaily.com/news/odyssey-unveils-odyssey-3-with-flexion-building-humanoid-control-on-its-world-model"/>
+    <id>https://www.humanoidsdaily.com/news/odyssey-unveils-odyssey-3-with-flexion-building-humanoid-control-on-its-world-model</id>
+    <updated>2026-09-15T20:38:43.000Z</updated>
     <author><name>Humanoids Daily</name></author>
     <category term="ROBOTICS"/>
-    <summary>Agility’s Digit 5 adds a 50 lb payload, nine-minute charging and a new safety architecture. Early access is planned for 2027, with EU and UK deployment ahead.</summary>
+    <summary>Flexion has built humanoid policies on Odyssey’s new foundation world model using tens of hours of teleoperation data, with reported gains in resilience to lighting changes.</summary>
   </entry>
   <entry>
-    <title>The Age of Wonders and Terrors</title>
-    <link href="https://scottaaronson.blog/?p=10062"/>
-    <id>https://scottaaronson.blog/?p=10062</id>
-    <updated>2026-09-15T17:09:44.000Z</updated>
-    <author><name>Shtetl-Optimized (Aaronson)</name></author>
+    <title>Q*Bird becomes Falqon® Systems, Building the Infrastructure for Quantum Secure Networks</title>
+    <link href="https://thequantuminsider.com/2026/09/15/qbird-becomes-falqon-systems-quantum-secure-networks"/>
+    <id>https://thequantuminsider.com/2026/09/15/qbird-becomes-falqon-systems-quantum-secure-networks</id>
+    <updated>2026-09-15T17:41:23.000Z</updated>
+    <author><name>The Quantum Insider</name></author>
     <category term="QUANTUM"/>
-    <summary>Twenty years ago, when the idea of AI taking over the world in our lifetimes still struck most of us as the unconstrained fantasy of those who knew too much science fiction and too little science, many of us would say things like: Look, the part of the story that’s wildly implausible is that a […]</summary>
+    <summary>Insider Brief PRESS RELEASE — Q*Bird announced today its transition into Falqon® Systems, introducing a new corporate identity that reflects the company’s strategic evolution from pioneering scalable quantum communication technologies to building the infrastructure required for operational Quantum Secure Networks (QSN)</summary>
   </entry>
   <entry>
-    <title>ollama v0.34.1 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.34.1-rc2"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.34.1-rc2</id>
-    <updated>2026-09-15T05:08:21.000Z</updated>
-    <author><name>ollama/ollama</name></author>
+    <title>Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking</title>
+    <link href="https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking"/>
+    <id>https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking</id>
+    <updated>2026-09-15T17:05:57.000Z</updated>
+    <author><name>Google DeepMind Blog</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>What's Changed app: fix ChatGPT model selector spacing mlxrunner: Evict prefix cache snapshots from the active conversation mlxrunner: check system free memory and wait for evicted runners before loading the next MLX model llm: raise token repeat limit to 100 and return error instead of incomplete result mlx: scope arr</summary>
   </entry>
   <entry>
-    <title>After warning AI is too dangerous, Bill Gates bets a billion on its upside</title>
-    <link href="https://the-decoder.com/after-warning-ai-is-too-dangerous-bill-gates-bets-a-billion-on-its-upside"/>
-    <id>https://the-decoder.com/after-warning-ai-is-too-dangerous-bill-gates-bets-a-billion-on-its-upside</id>
-    <updated>2026-09-15T14:26:48.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>The Gates Foundation is investing at least a billion dollars over two years to make AI tools more widely available in health, education, and agriculture. Bill Gates warns that more than 90 percent of the training data behind early language models came from English sources, and that speech recognition fails 60 percent o</summary>
-  </entry>
-  <entry>
-    <title>Congress has been ‘asleep at the wheel’ over AI, says Bernie Sanders – US politics live</title>
-    <link href="https://www.theguardian.com/us-news/live/2026/sep/15/supreme-court-mail-ballot-restrictions-midterm-elections-trump-ai-politics-latest-news-updates"/>
-    <id>https://www.theguardian.com/us-news/live/2026/sep/15/supreme-court-mail-ballot-restrictions-midterm-elections-trump-ai-politics-latest-news-updates</id>
-    <updated>2026-09-15T18:05:37.000Z</updated>
-    <author><name>The Guardian AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Senator says ‘ignorance of president regarding this issue is truly embarrassing’ at conference on artificial intelligence Trump facing AI backlash in Congress as push for guardrails intensifies Sign up for US Breaking News emails Kash Patel , the FBI director, is now testifying before lawmakers on the Senate judiciary </summary>
-  </entry>
-  <entry>
-    <title>MLX: version bump (#18235)</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.34.1-rc0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.34.1-rc0</id>
-    <updated>2026-09-14T16:49:46.000Z</updated>
-    <author><name>ollama/ollama</name></author>
+    <title>I benchmarked IFM/K2-Horizon-7B on 16GB VRAM</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wha6sv/i_benchmarked_ifmk2horizon7b_on_16gb_vram"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wha6sv/i_benchmarked_ifmk2horizon7b_on_16gb_vram</id>
+    <updated>2026-09-15T19:25:53.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>MLX: version bump mlx: support ModelOpt global scales in MoE models address comments address comments</summary>
+    <summary>After two days of fighting with benchmarking infrastructure, I finally benchmarked IFM/K2-Horizon-7B on 16GB VRAM. TL/DR: it works, but far behind Qwen-3.8-27B. Setup I compared 3 models - Qwen3.8-27B, Ornith-1.5-9B and new IFM/K2-Horizon-7B - on the following setup: All models were fit completely to 16GB VRAM (AMD RX7</summary>
   </entry>
   <entry>
-    <title>Some developers are using the Claude Code harness to access cheaper non-Anthropic models, including GPT-5.6 Sol, via proxies and services like OpenRouter (Alix Coutures/The Information)</title>
-    <link href="https://www.techmeme.com/260915/p40"/>
-    <id>https://www.techmeme.com/260915/p40</id>
-    <updated>2026-09-15T17:35:01.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>ITL AI Webinar: The Development of an AI Agent Enrichment Workflow at the National Vulnerability Database</title>
+    <link href="https://www.nist.gov/news-events/events/2026/09/itl-ai-webinar-development-ai-agent-enrichment-workflow-national"/>
+    <id>https://www.nist.gov/news-events/events/2026/09/itl-ai-webinar-development-ai-agent-enrichment-workflow-national</id>
+    <updated>2026-09-17T15:00:00.000Z</updated>
+    <author><name>NIST AI News</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Alix Coutures / The Information : Some developers are using the Claude Code harness to access cheaper non-Anthropic models, including GPT-5.6 Sol, via proxies and services like OpenRouter — Boris Cherney, the head of Anthropic's coding tool Claude Code, last month found himself in the middle of an online spat that high</summary>
+    <summary>Join NIST on September 17, 2026 for an Information Technology Laboratory (ITL) AI Program hosted webinar on the development of an AI agent enrichment workflow at the National Vulnerability Database. The National Vulnerability Database (NVD)</summary>
   </entry>
   <entry>
-    <title>Scaling Agents in Healthcare &amp; Life Sciences: Lessons from Madrigal Pharmaceuticals, Abridge, and Vizient</title>
-    <link href="https://www.langchain.com/blog/scaling-agents-in-healthcare-life-sciences-lessons-from-madrigal-pharmaceuticals-abridge-and-vizient"/>
-    <id>https://www.langchain.com/blog/scaling-agents-in-healthcare-life-sciences-lessons-from-madrigal-pharmaceuticals-abridge-and-vizient</id>
-    <updated>2026-09-15T14:00:02.000Z</updated>
-    <author><name>LangChain Blog</name></author>
+    <title>Spanish data watchdog publicises first AI agent-linked data breach report</title>
+    <link href="https://www.reuters.com/business/spanish-data-watchdog-publicises-first-ai-agent-linked-data-breach-report-2026-09-15"/>
+    <id>https://www.reuters.com/business/spanish-data-watchdog-publicises-first-ai-agent-linked-data-breach-report-2026-09-15</id>
+    <updated>2026-09-15T21:07:15.000Z</updated>
+    <author><name>Reuters AI (Google News)</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Agent programs in healthcare and life sciences are being built under a different set of constraints than those in most industries. There’s plenty of upside if the constraints can be resolved. Success can mean hours of manual review compressed into minutes, data spread across a dozen systems finally queryable in one pla</summary>
+    <summary>Spanish data watchdog publicises first AI agent-linked data breach report Reuters</summary>
   </entry>
   <entry>
-    <title>AI Will Be Biggest 'Misallocation' of Capital, Says Noble</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-15/ai-will-be-biggest-reallocation-of-capital-says-noble-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-15/ai-will-be-biggest-reallocation-of-capital-says-noble-video</id>
-    <updated>2026-09-15T15:04:08.000Z</updated>
+    <title>Retirement Math Difficult for Investors, says BlackRock's Magyera</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-09-15/anthropic-deepens-finance-industry-ties-with-blackrock-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-09-15/anthropic-deepens-finance-industry-ties-with-blackrock-video</id>
+    <updated>2026-09-15T20:54:53.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The debate over how far, and how fast, artificial intelligence is advancing poses a serious dilemma for tech executives. They’re keen to telegraph their concerns, but having plowed hundreds of billions of dollars into AI, they’re trying to calm people down without spooking investors and customers. George Noble, Managin</summary>
+    <summary>Jaime Magyera, BlackRock senior managing director and head of US Wealth and head of Retirement, said advisers are using artificial intelligence to help parse increasingly complex capital markets after AI company Anthropic announces new ties with Blackrock. Magyera also said that AI is helping create more strategic cust</summary>
   </entry>
   <entry>
-    <title>History Won’t Help Us Understand Kevin Warsh</title>
-    <link href="https://www.bloomberg.com/news/newsletters/2026-09-15/history-won-t-help-us-understand-kevin-warsh"/>
-    <id>https://www.bloomberg.com/news/newsletters/2026-09-15/history-won-t-help-us-understand-kevin-warsh</id>
-    <updated>2026-09-15T17:39:10.000Z</updated>
+    <title>Dutch Bros CEO Christine Barone on Expansion &amp; Inflation</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-09-15/dutch-bros-ceo-christine-barone-on-expansion-inflation-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-09-15/dutch-bros-ceo-christine-barone-on-expansion-inflation-video</id>
+    <updated>2026-09-15T21:23:45.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Why he might surprise us tomorrow.</summary>
+    <summary>Christine Barone, President &amp; CEO of Dutch Bros, discussed the company’s aggressive growth strategy, saying the chain aims to reach 2,029 shops by 2029 and expects to add at least 185 locations this year. She said that pace is supported by a strong internal talent pipeline, with more than 500 operators ready to move in</summary>
   </entry>
   <entry>
     <title>BudgetBench: A Budget-Tiered Protocol and Pilot Harness for Memory Strategy Evaluation in Local Large Language Model Agents</title>
@@ -273,5 +247,32 @@
     <author><name>arXiv cs.LG</name></author>
     <category term="RESEARCH"/>
     <summary>arXiv:2609.13171v1 Announce Type: new Abstract: Physics-informed neural networks (PINNs) use automatic differentiation to impose differential-equation residuals, but good agreement in function values does not necessarily imply accurate derivatives. This paper formulates derivative fidelity as a failure mode of PINNs an</summary>
+  </entry>
+  <entry>
+    <title>Announcing instance preference lists for Amazon SageMaker AI training jobs</title>
+    <link href="https://aws.amazon.com/blogs/machine-learning/announcing-instance-preference-lists-for-amazon-sagemaker-ai-training-jobs"/>
+    <id>https://aws.amazon.com/blogs/machine-learning/announcing-instance-preference-lists-for-amazon-sagemaker-ai-training-jobs</id>
+    <updated>2026-09-15T16:01:47.000Z</updated>
+    <author><name>AWS ML Blog</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Amazon SageMaker AI now offers instance preference lists for training and processing jobs. Specify an ordered list of up to five instance types, and SageMaker AI automatically launches on the first type with available capacity, eliminating manual retry loops and capacity-watching scripts.</summary>
+  </entry>
+  <entry>
+    <title>The AI data center boom is colliding with cities scarred by big industry</title>
+    <link href="https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry"/>
+    <id>https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry</id>
+    <updated>2026-09-15T21:47:38.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="HARDWARE"/>
+    <summary>National outcry against data center construction has spread to Philadelphia, where officials suggested possible construction in a neighborhood already impacted by a now-defunct oil refinery.</summary>
+  </entry>
+  <entry>
+    <title>From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production</title>
+    <link href="https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production"/>
+    <id>https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production</id>
+    <updated>2026-09-15T16:55:59.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
+    <category term="HARDWARE"/>
+    <summary>On a sweltering August evening in Silicon Valley, as the sun dropped and air conditioning loads spiked, Silicon Valley Power sent a signal to an AI factory to adjust its power consumption. Varun Sivaram was watching on Zoom with about forty others — his team at Emerald AI in their San Francisco conference room, enginee</summary>
   </entry>
 </feed>
