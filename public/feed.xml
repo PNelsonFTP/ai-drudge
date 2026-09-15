@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-09-15T07:37:31.563Z</updated>
+  <updated>2026-09-15T13:26:37.241Z</updated>
   <entry>
-    <title>llama.cpp b10976 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10976"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10976</id>
-    <updated>2026-09-15T07:26:24.000Z</updated>
+    <title>llama.cpp b10983 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10983"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10983</id>
+    <updated>2026-09-15T13:13:38.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>ci : fix android release ( #28936 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47548995 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x — Also covered by: ggml-org/whisper.cpp</summary>
+    <summary>models : move build_arch_graph() after graph() template specialization ( #28934 ) Move build_arch_graph()'s function definitions after the graph and graph template specializations have been explicitly defined. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47624834 macOS/iOS — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
     <title>qwen-code v0.20.9 released</title>
@@ -25,13 +25,13 @@
     <summary>Qwen CUA Driver prebuilt binaries (vendored under packages/cua-driver ). macOS : codesigned + notarized universal binary + QwenCuaDriver.app Linux : unsigned (x86_64 + arm64, glibc 2.31 floor) Windows : unsigned UIAccess worker + native SDK payload (x86_64 + arm64); deployments must sign and trust the worker on the tar — Also covered by: anthropics/claude-code</summary>
   </entry>
   <entry>
-    <title>Quandela and NVIDIA Outline Photonic QPU Integration Architecture via NVQLink</title>
-    <link href="https://quantumcomputingreport.com/quandela-and-nvidia-outline-photonic-qpu-integration-architecture-via-nvqlink"/>
-    <id>https://quantumcomputingreport.com/quandela-and-nvidia-outline-photonic-qpu-integration-architecture-via-nvqlink</id>
-    <updated>2026-09-15T05:32:44.000Z</updated>
-    <author><name>Quantum Computing Report</name></author>
-    <category term="HARDWARE"/>
-    <summary>Quandela and NVIDIA have collaborated on a technical white paper outlining an architecture to integrate photonic Quantum Processing Units (QPUs) with classical AI and HPC environments using NVIDIA NVQLink. This framework connects Quandela's Quantum System Controller (QSC) to NVIDIA GPU nodes via a low-latency interconn — Also covered by: The Quantum Insider</summary>
+    <title>IQM sells second quantum computer to Japan’s Toyo</title>
+    <link href="https://www.datacenterdynamics.com/en/news/iqm-sells-second-quantum-computer-to-japans-toyo"/>
+    <id>https://www.datacenterdynamics.com/en/news/iqm-sells-second-quantum-computer-to-japans-toyo</id>
+    <updated>2026-09-15T12:49:41.000Z</updated>
+    <author><name>Data Center Dynamics</name></author>
+    <category term="QUANTUM"/>
+    <summary>The Spark system is expected to be operational in early 2027 — Also covered by: The Quantum Insider</summary>
   </entry>
   <entry>
     <title>New York Seizes 12 Celebrity Deepfake Websites</title>
@@ -43,40 +43,31 @@
     <summary>New York District Attorney Alvin Bragg said in a press conference on Monday that the sites included 1,200 people’s likenesses in “hyper-realistic” sexual imagery. — Also covered by: Wired AI</summary>
   </entry>
   <entry>
-    <title>ollama v0.34.1 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.34.1-rc2"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.34.1-rc2</id>
-    <updated>2026-09-15T05:08:21.000Z</updated>
-    <author><name>ollama/ollama</name></author>
+    <title>Agility Robotics says its new Digit 5 robot can work next to people without safety fences</title>
+    <link href="https://the-decoder.com/agility-robotics-says-its-new-digit-5-robot-can-work-next-to-people-without-safety-fences"/>
+    <id>https://the-decoder.com/agility-robotics-says-its-new-digit-5-robot-can-work-next-to-people-without-safety-fences</id>
+    <updated>2026-09-15T12:57:10.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>What's Changed app: fix ChatGPT model selector spacing mlxrunner: Evict prefix cache snapshots from the active conversation mlxrunner: check system free memory and wait for evicted runners before loading the next MLX model llm: raise token repeat limit to 100 and return error instead of incomplete result mlx: scope arr</summary>
+    <summary>Agility Robotics has unveiled Digit 5, the next version of its humanoid robot for warehouses and factories. The article Agility Robotics says its new Digit 5 robot can work next to people without safety fences appeared first on The Decoder .</summary>
   </entry>
   <entry>
-    <title>Sources: Tokyo-based memory maker Kioxia is considering raising $10B+ through a 2027 US ADR listing as it seeks liquidity after billions in share buybacks (Bloomberg)</title>
-    <link href="https://www.techmeme.com/260915/p2"/>
-    <id>https://www.techmeme.com/260915/p2</id>
-    <updated>2026-09-15T06:01:20.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents</title>
+    <link href="https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents"/>
+    <id>https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents</id>
+    <updated>2026-09-15T13:00:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Bloomberg : Sources: Tokyo-based memory maker Kioxia is considering raising $10B+ through a 2027 US ADR listing as it seeks liquidity after billions in share buybacks — Kioxia Holdings Corp. is considering raising at least $10 billion by listing American depositary receipts, people familiar with the matter said …</summary>
+    <summary>Their startup, Artificial Intelligence Underwriting Company (AIUC) has raised $40 million in a Series A lound led by Ribbit Capital, with participation from First Harmonic.</summary>
   </entry>
   <entry>
-    <title>Scaling Agents in Europe &amp; The Middle East: Lessons from Schneider Electric, Vodafone, and monday.com</title>
-    <link href="https://www.langchain.com/blog/scaling-agents-in-europe-the-middle-east-lessons-from-schneider-electric-vodafone-and-monday-com"/>
-    <id>https://www.langchain.com/blog/scaling-agents-in-europe-the-middle-east-lessons-from-schneider-electric-vodafone-and-monday-com</id>
-    <updated>2026-09-15T04:52:58.000Z</updated>
-    <author><name>LangChain Blog</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>A guide on scaling agents in Europe &amp; the Middle East to see how Schneider Electric, Vodafone, and monday.com are approaching production AI at scale, from establishing shared agent platforms and LLMOps practices to designing multi-agent architectures with stronger observability, evaluation, and control.</summary>
-  </entry>
-  <entry>
-    <title>Asian PE Firms Circle €1 Billion Racing Brand Alpinestars</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-15/asia-pe-firms-circle-1-billion-italian-racing-brand-alpinestars"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-15/asia-pe-firms-circle-1-billion-italian-racing-brand-alpinestars</id>
-    <updated>2026-09-15T06:44:45.000Z</updated>
+    <title>Iran Squeezing Saudi Oil on East and West, Schork Says</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-09-15/iran-squeezing-saudi-oil-on-east-and-west-schork-says-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-09-15/iran-squeezing-saudi-oil-on-east-and-west-schork-says-video</id>
+    <updated>2026-09-15T13:05:33.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Alpinestars, the Italian maker of protection gear used by motorcycle racers, is attracting takeover interest from Asian private equity firms including FountainVest and HSG, people familiar with the matter said.</summary>
+    <summary>Stephen Schork, principal and editor at The Schork Group, explains Iran’s expanded control of Middle East oil flows and says the US strategic petroleum reserve “will be drawn down, by November, to its operational limits.” (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>Vibe Patenting: Evaluating LLM Judges for Professional Patent-Drafting Agents</title>
@@ -88,112 +79,147 @@
     <summary>arXiv:2609.13422v1 Announce Type: new Abstract: LLM judges are increasingly used to evaluate and improve AI-generated outputs, yet their reliability for complex professional work remains unclear. We study this problem through Vibe Patenting, an end-to-end patent-drafting testbed for AI-agent evaluation. A separately-in</summary>
   </entry>
   <entry>
-    <title>Unitree launches G1+ with stronger motors, a moving neck and a $15,000 price</title>
-    <link href="https://www.humanoidsdaily.com/news/unitree-launches-g1-plus-humanoid-with-stronger-motors-and-moving-neck"/>
-    <id>https://www.humanoidsdaily.com/news/unitree-launches-g1-plus-humanoid-with-stronger-motors-and-moving-neck</id>
-    <updated>2026-09-14T14:16:37.000Z</updated>
-    <author><name>Humanoids Daily</name></author>
+    <title>Have it both ways: stay discoverable in search while disallowing AI training</title>
+    <link href="https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers"/>
+    <id>https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers</id>
+    <updated>2026-09-15T13:00:00.000Z</updated>
+    <author><name>Cloudflare AI</name></author>
     <category term="PRODUCTS"/>
-    <summary>Unitree’s G1+ adds two neck joints, stronger motors and revised sensing. The base model lists at $15,000 before tax and shipping.</summary>
+    <summary>Cloudflare is giving site owners a way to stay discoverable while disallowing AI training. New controls and an Accountable designation establish a shared model with Apple, Google, and Microsoft.</summary>
   </entry>
   <entry>
-    <title>Agent-net Open Sources Webagent: A Go Harness That Turns Any Website into a Guarded AI Agent</title>
-    <link href="https://www.marktechpost.com/2026/09/14/agent-net-open-sources-webagent-a-go-harness-that-turns-any-website-into-a-guarded-ai-agent"/>
-    <id>https://www.marktechpost.com/2026/09/14/agent-net-open-sources-webagent-a-go-harness-that-turns-any-website-into-a-guarded-ai-agent</id>
-    <updated>2026-09-15T04:03:20.000Z</updated>
-    <author><name>MarkTechPost</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Agent-net, the team building an agent-to-agent marketplace where AI agents discover, trust, and pay each other, has released Webagent, an open source harness for standing up public-facing business agents. So, basically you give it your website, get an agent, and let it talk to other agents. Instead of writing orchestra</summary>
-  </entry>
-  <entry>
-    <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
-    <link href="https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare"/>
-    <id>https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare</id>
-    <updated>2026-09-24T13:00:00.000Z</updated>
-    <author><name>NIST AI News</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>This Symposium is a one-day event to address the question: “ which medical measurements and consensus standards should be prioritized to support future U.S. healthcare?” The focus will be on medical imaging, medical devices, and diagnostics. The goal</summary>
-  </entry>
-  <entry>
-    <title>OpenAI Launches Lockdown Mode To Block Prompt Injection Attacks</title>
-    <link href="https://yellow.com/001thmgggg51-fimv935.vip/news/openai-lockdown-mode-prompt-injection-security"/>
-    <id>https://yellow.com/001thmgggg51-fimv935.vip/news/openai-lockdown-mode-prompt-injection-security</id>
-    <updated>2026-09-13T23:33:47.000Z</updated>
-    <author><name>GN: Prompt Injection</name></author>
-    <category term="AI SECURITY"/>
-    <summary>OpenAI Launches Lockdown Mode To Block Prompt Injection Attacks yellow.com</summary>
-  </entry>
-  <entry>
-    <title>Cisco patches Secure Email Gateway zero-day exploited in attacks</title>
-    <link href="https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root"/>
-    <id>https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root</id>
-    <updated>2026-09-15T07:31:09.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>Cisco warned customers to patch a critical Secure Email Gateway zero-day security flaw that threat actors have been exploiting in attacks. [...]</summary>
-  </entry>
-  <entry>
-    <title>The contagion of fear</title>
-    <link href="https://simonwillison.net/2026/Sep/14/the-contagion-of-fear"/>
-    <id>https://simonwillison.net/2026/Sep/14/the-contagion-of-fear</id>
-    <updated>2026-09-14T21:18:13.000Z</updated>
-    <author><name>Simon Willison</name></author>
-    <category term="ANALYSIS"/>
-    <summary>The contagion of fear Bryan Cantrill responds to the tweet by former Anthropic employee Jacob Coxon confirming that many Anthropic researchers believe AI &quot;could kill us all by the end of the decade&quot;. Bryan shares a story of his own youthful mistakes causing unjustified panic among less technical peers, and warns agains</summary>
-  </entry>
-  <entry>
-    <title>Rome-based Exein, which offers cybersecurity tools for connected devices including cars and home routers, raised $270M led by Headline at a $1.7B valuation (Tom Wilson/Financial Times)</title>
-    <link href="https://www.techmeme.com/260915/p1"/>
-    <id>https://www.techmeme.com/260915/p1</id>
-    <updated>2026-09-15T04:45:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="ROBOTICS"/>
-    <summary>Tom Wilson / Financial Times : Rome-based Exein, which offers cybersecurity tools for connected devices including cars and home routers, raised $270M led by Headline at a $1.7B valuation — Rome-based company is developing a foundation model to protect billions of internet-connected devices, from robots to lightbulbs</summary>
-  </entry>
-  <entry>
-    <title>Fujitsu Releases Open Quantum Application Research Package as Open Source</title>
-    <link href="https://thequantuminsider.com/2026/09/15/fujitsu-releases-open-quantum-application-research-package-as-open-source"/>
-    <id>https://thequantuminsider.com/2026/09/15/fujitsu-releases-open-quantum-application-research-package-as-open-source</id>
-    <updated>2026-09-15T07:20:08.000Z</updated>
-    <author><name>The Quantum Insider</name></author>
-    <category term="QUANTUM"/>
-    <summary>Insider Brief PRESS RELEASE — Fujitsu Limited today announced the global open-source release of its quantum application development software, Open Quantum Application Research Package (OpenQARP (code name)). The software offers over 100 software components, including Fujitsu-developed quantum algorithms. These componen</summary>
-  </entry>
-  <entry>
-    <title>How Fyxer built an AI executive assistant people trust</title>
-    <link href="https://openai.com/index/fyxer"/>
-    <id>https://openai.com/index/fyxer</id>
-    <updated>2026-09-14T12:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.</summary>
-  </entry>
-  <entry>
-    <title>Anthropic eyes Nasdaq listing as a second profitable quarter aims to win over investors ahead of a mega-IPO</title>
-    <link href="https://the-decoder.com/anthropic-eyes-nasdaq-listing-as-a-second-profitable-quarter-aims-to-win-over-investors-ahead-of-a-mega-ipo"/>
-    <id>https://the-decoder.com/anthropic-eyes-nasdaq-listing-as-a-second-profitable-quarter-aims-to-win-over-investors-ahead-of-a-mega-ipo</id>
-    <updated>2026-09-14T15:46:45.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Anthropic has told investors it will turn a profit for the second straight quarter, but the claim rests on an adjusted metric that leaves out costs like stock-based compensation. The article Anthropic eyes Nasdaq listing as a second profitable quarter aims to win over investors ahead of a mega-IPO appeared first on The</summary>
-  </entry>
-  <entry>
-    <title>Trump facing AI backlash in Congress as push for guardrails intensifies</title>
-    <link href="https://www.theguardian.com/technology/2026/sep/15/trump-ai-guardrails-democrats-republicans"/>
-    <id>https://www.theguardian.com/technology/2026/sep/15/trump-ai-guardrails-democrats-republicans</id>
-    <updated>2026-09-15T06:39:40.000Z</updated>
+    <title>They fought against datacenters. Now they are running for local offices</title>
+    <link href="https://www.theguardian.com/us-news/2026/sep/15/datacenters-local-elections"/>
+    <id>https://www.theguardian.com/us-news/2026/sep/15/datacenters-local-elections</id>
+    <updated>2026-09-15T10:00:40.000Z</updated>
     <author><name>The Guardian AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>President has dismissed anxieties over AI’s dangerous potential even as Democrats and some Republicans acknowledge risks Donald Trump is facing a rare backlash from the US Congress as Democrats and some Republicans push for guardrails on the world’s most powerful AI companies. Concerns over the dangerous potential of A</summary>
+    <category term="HARDWARE"/>
+    <summary>Across the US, anti-datacenter organizers are harnessing community anger to win local elections After four months of teach-ins and canvassing, Steven Kung helped Monterey Park, just east of Los Angeles, become the first US city to ban datacenter construction. Now, the organizer is running for city council – and he’s ta</summary>
   </entry>
   <entry>
-    <title>MLX: version bump (#18235)</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.34.1-rc0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.34.1-rc0</id>
-    <updated>2026-09-14T16:49:46.000Z</updated>
+    <title>Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care</title>
+    <link href="https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care"/>
+    <id>https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care</id>
+    <updated>2026-09-15T09:00:42.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
+    <category term="OPEN SOURCE"/>
+  </entry>
+  <entry>
+    <title>Why this AI doomsday warning from former Anthropic researcher broke through</title>
+    <link href="https://www.theguardian.com/global/2026/sep/15/ai-doomsday-warning-jacob-coxon-anthropic"/>
+    <id>https://www.theguardian.com/global/2026/sep/15/ai-doomsday-warning-jacob-coxon-anthropic</id>
+    <updated>2026-09-15T12:21:06.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>Last week, researcher Jacob Coxon announced his resignation from Anthropic, stating that AI ‘could kill us all by the end of the decade’ Hello, and welcome to TechScape. I’m Blake Montgomery, US tech editor at the Guardian. Today in tech, we’re discussing the past week’s all-consuming apoplexy over AI safety. AI CEOs s</summary>
+  </entry>
+  <entry>
+    <title>1Password's AI patching benchmark is misleading</title>
+    <link href="https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading"/>
+    <id>https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading</id>
+    <updated>2026-09-15T11:00:00.000Z</updated>
+    <author><name>Trail of Bits</name></author>
+    <category term="AI SECURITY"/>
+    <summary>1Password’s FLAWED report , published on August 6, 2026, gives defenders a misleading picture of AI patching. Its headline says models produced clean fixes only 26% of the time. That figure includes experiments that deliberately instructed agents to apply the wrong fix, along with experiments in which agents could not </summary>
+  </entry>
+  <entry>
+    <title>China spy chief points at US AI models in cyber threat warning</title>
+    <link href="https://therecord.media/china-spy-chief-warns-of-us-ai-models"/>
+    <id>https://therecord.media/china-spy-chief-warns-of-us-ai-models</id>
+    <updated>2026-09-15T12:54:00.000Z</updated>
+    <author><name>The Record</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>China's spy chief identified Anthropic’s Claude Mythos and OpenAI’s GPT-5.5-Cyber as signs of what he called a “disruptive upgrade” in cyber capabilities, increasing the speed and potential weaponization of vulnerability discovery and malware development.</summary>
+  </entry>
+  <entry>
+    <title>Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point</title>
+    <link href="https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html"/>
+    <id>https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html</id>
+    <updated>2026-09-15T11:26:36.000Z</updated>
+    <author><name>The Hacker News</name></author>
+    <category term="CYBER DEFENSE"/>
+    <summary>Introduction Security teams have gotten pretty good at testing against what can hurt them. Can this EDR agent catch this payload? Will my organization fail the phishing simulation? Does this SIEM rule fire on this particular technique? And, in more mature organizations, this testing happens continuously rather than as </summary>
+  </entry>
+  <entry>
+    <title>Good luck slowing this down</title>
+    <link href="https://www.bensbites.com/p/good-luck-slowing-this-down"/>
+    <id>https://www.bensbites.com/p/good-luck-slowing-this-down</id>
+    <updated>2026-09-15T13:02:52.000Z</updated>
+    <author><name>Ben's Bites</name></author>
+    <category term="ANALYSIS"/>
+    <summary>plus what’s new in AI this week</summary>
+  </entry>
+  <entry>
+    <title>Agility unveils Digit 5, designed to work closer to people</title>
+    <link href="https://www.humanoidsdaily.com/news/agility-unveils-digit-5-designed-to-work-closer-to-people"/>
+    <id>https://www.humanoidsdaily.com/news/agility-unveils-digit-5-designed-to-work-closer-to-people</id>
+    <updated>2026-09-15T10:55:08.000Z</updated>
+    <author><name>Humanoids Daily</name></author>
+    <category term="ROBOTICS"/>
+    <summary>Agility’s Digit 5 adds a 50 lb payload, nine-minute charging and a new safety architecture. Early access is planned for 2027, with EU and UK deployment ahead.</summary>
+  </entry>
+  <entry>
+    <title>NVIDIA Unveils CUDA-Q Logical to Accelerate Fault-Tolerant System Orchestration Across Hardware Modalities</title>
+    <link href="https://quantumcomputingreport.com/nvidia-unveils-cuda-q-logical-to-accelerate-fault-tolerant-system-orchestration-across-hardware-modalities"/>
+    <id>https://quantumcomputingreport.com/nvidia-unveils-cuda-q-logical-to-accelerate-fault-tolerant-system-orchestration-across-hardware-modalities</id>
+    <updated>2026-09-15T08:03:17.000Z</updated>
+    <author><name>Quantum Computing Report</name></author>
+    <category term="QUANTUM"/>
+    <summary>NVIDIA has launched CUDA-Q Logical, an extension to its open-source accelerated quantum computing platform, aimed at accelerating fault-tolerant quantum computing by unifying the design of high-level algorithms, quantum error correction codes, and QPU micro-architectures. This framework, detailed in a new research publ</summary>
+  </entry>
+  <entry>
+    <title>ollama v0.34.1 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.34.1-rc2"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.34.1-rc2</id>
+    <updated>2026-09-15T05:08:21.000Z</updated>
     <author><name>ollama/ollama</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>What's Changed app: fix ChatGPT model selector spacing mlxrunner: Evict prefix cache snapshots from the active conversation mlxrunner: check system free memory and wait for evicted runners before loading the next MLX model llm: raise token repeat limit to 100 and return error instead of incomplete result mlx: scope arr</summary>
+  </entry>
+  <entry>
+    <title>New insights from Google’s AI &amp; Economy ATLAS</title>
+    <link href="https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026"/>
+    <id>https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026</id>
+    <updated>2026-09-15T13:00:00.000Z</updated>
+    <author><name>Google AI Blog</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>We’ve translated ATLAS’s millions of global data points into an interactive, open-access experience.</summary>
+  </entry>
+  <entry>
+    <title>Sources: ByteDance's H1 2026 net profit dropped by a single-digit percentage YoY to $20B and revenue rose ~30% to $120B; its 2025 revenue rose 29% to ~$200B (The Information)</title>
+    <link href="https://www.techmeme.com/260915/p18"/>
+    <id>https://www.techmeme.com/260915/p18</id>
+    <updated>2026-09-15T12:20:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>The Information : Sources: ByteDance's H1 2026 net profit dropped by a single-digit percentage YoY to $20B and revenue rose ~30% to $120B; its 2025 revenue rose 29% to ~$200B — ByteDance's net profit in the first half of this year declined by a single-digit percentage to $20 billion, as the Chinese tech giant ramped …</summary>
+  </entry>
+  <entry>
+    <title>What's your personal take on running dense models for code at nvfp4 vs fp8. I don't even bother running heavily quantized models unless its on brand new hw.</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1wh02ei/whats_your_personal_take_on_running_dense_models"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1wh02ei/whats_your_personal_take_on_running_dense_models</id>
+    <updated>2026-09-15T13:13:40.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>MLX: version bump mlx: support ModelOpt global scales in MoE models address comments address comments</summary>
+    <summary>Spent the last four months (learning) deploying nvidia nim models on an air gapped OCP environment ( 40X L40s cards across 10 dell r870's). The guardrails and limited model profiles available on ngc annoyed me at first until I realized you can do damn near anything with vllm and hugging face model profiles. Which is a </summary>
+  </entry>
+  <entry>
+    <title>Carney Expands Business Tax Break to Broad Range of Investments</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-15/carney-expands-business-tax-break-to-broad-range-of-investments"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-15/carney-expands-business-tax-break-to-broad-range-of-investments</id>
+    <updated>2026-09-15T13:01:20.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Prime Minister Mark Carney is expanding the scope of a major investment tax write-off, adding oil and gas pipelines, mining property and more to the list of assets eligible for accelerated deductions in Canada.</summary>
+  </entry>
+  <entry>
+    <title>AMC-Robinhood Feud Tests Who Gets to Put Stocks on Blockchains</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-15/amc-robinhood-feud-tests-who-gets-to-put-stocks-on-blockchains"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-15/amc-robinhood-feud-tests-who-gets-to-put-stocks-on-blockchains</id>
+    <updated>2026-09-15T13:00:00.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Five years after Adam Aron and Vlad Tenev became two of the defining figures of the meme-stock boom, the AMC Entertainment Holdings Inc. chief and Robinhood Markets Inc. co-founder are clashing over a new question: who gets to create a tradable version of a public company’s stock?</summary>
   </entry>
   <entry>
     <title>BudgetBench: A Budget-Tiered Protocol and Pilot Harness for Memory Strategy Evaluation in Local Large Language Model Agents</title>
@@ -201,26 +227,8 @@
     <id>https://arxiv.org/abs/2609.13149</id>
     <updated>2026-09-15T04:00:00.000Z</updated>
     <author><name>arXiv cs.LG</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
+    <category term="RESEARCH"/>
     <summary>arXiv:2609.13149v1 Announce Type: new Abstract: For local large language model agents, active context is a scarce resource: memory capacity, prefill latency, cache growth, and service objectives all constrain how many input tokens each call can afford. We present BudgetBench, an active-budget protocol and reference har</summary>
-  </entry>
-  <entry>
-    <title>Hong Kong Set To Unveil First Five-Year Plan</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-15/hong-kong-set-to-unveil-first-five-year-plan-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-15/hong-kong-set-to-unveil-first-five-year-plan-video</id>
-    <updated>2026-09-15T06:34:50.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Hong Kong is preparing to unveil its first five-year development blueprint on Wednesday, as it seeks to align its priorities with those of mainland China. “Bloomberg: The China Show” co-anchor Yvonne Man reports on what's expected in the master plan and what it could mean for the city's future. (Source: Bloomberg)</summary>
-  </entry>
-  <entry>
-    <title>Italian start-up Exein raises $270mn to fight AI hackers with AI</title>
-    <link href="https://www.ft.com/content/9fca2d3f-b689-4f08-801c-ee7f8475e7bc?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/9fca2d3f-b689-4f08-801c-ee7f8475e7bc?syn-25a6b1a6=1</id>
-    <updated>2026-09-15T04:00:28.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Rome-based company is developing a foundation model to protect billions of internet-connected devices, from robots to lightbulbs</summary>
   </entry>
   <entry>
     <title>A derivative-fidelity failure mode in physics-informed neural networks: strengthened benchmark evidence from function-value training</title>
@@ -232,48 +240,39 @@
     <summary>arXiv:2609.13171v1 Announce Type: new Abstract: Physics-informed neural networks (PINNs) use automatic differentiation to impose differential-equation residuals, but good agreement in function values does not necessarily imply accurate derivatives. This paper formulates derivative fidelity as a failure mode of PINNs an</summary>
   </entry>
   <entry>
-    <title>BlueQubit Launches $150,000 “Quantum Flywheel” Compute Grant Program Supported by AWS, IBM, and NVIDIA</title>
-    <link href="https://quantumcomputingreport.com/bluequbit-launches-150000-quantum-flywheel-compute-grant-program-supported-by-aws-ibm-and-nvidia"/>
-    <id>https://quantumcomputingreport.com/bluequbit-launches-150000-quantum-flywheel-compute-grant-program-supported-by-aws-ibm-and-nvidia</id>
-    <updated>2026-09-15T05:39:15.000Z</updated>
-    <author><name>Quantum Computing Report</name></author>
+    <title>iOS 27 is finally here, with the new Siri AI beta – and 120 security patches</title>
+    <link href="https://www.zdnet.com/business/ios-27-siri-ai-beta-how-to-try"/>
+    <id>https://www.zdnet.com/business/ios-27-siri-ai-beta-how-to-try</id>
+    <updated>2026-09-15T13:13:10.000Z</updated>
+    <author><name>ZDNet AI</name></author>
     <category term="PRODUCTS"/>
-    <summary>BlueQubit has launched the &quot;Quantum Flywheel&quot; grant program, offering $150,000 in compute credits over three months for quantum algorithm discovery, adversarial classical simulation, and quantum error correction research. Supported by IBM, AWS, and NVIDIA, the program provides access to QPU, GPU, and CPU hardware, alon</summary>
+    <summary>Even if you’re not ready for iOS 27, there’s an important new update for you too. Here’s what’s new.</summary>
   </entry>
   <entry>
-    <title>Abnormal AI: Amazon Bedrock AgentCore for agentic email security at scale</title>
-    <link href="https://aws.amazon.com/blogs/machine-learning/abnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale"/>
-    <id>https://aws.amazon.com/blogs/machine-learning/abnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale</id>
-    <updated>2026-09-14T21:22:45.000Z</updated>
-    <author><name>AWS ML Blog</name></author>
+    <title>Unitree launches G1+ with stronger motors, a moving neck and a $15,000 price</title>
+    <link href="https://www.humanoidsdaily.com/news/unitree-launches-g1-plus-humanoid-with-stronger-motors-and-moving-neck"/>
+    <id>https://www.humanoidsdaily.com/news/unitree-launches-g1-plus-humanoid-with-stronger-motors-and-moving-neck</id>
+    <updated>2026-09-14T14:16:37.000Z</updated>
+    <author><name>Humanoids Daily</name></author>
     <category term="PRODUCTS"/>
-    <summary>Learn how Abnormal AI deployed Amazon Bedrock AgentCore Code Interpreter as an ephemeral compute scratch pad for the agents behind its real-time email threat detection at billion-message scale, plus the sandbox design decisions and practical lessons for builders deploying Code Interpreter in production.</summary>
+    <summary>Unitree’s G1+ adds two neck joints, stronger motors and revised sensing. The base model lists at $15,000 before tax and shipping.</summary>
   </entry>
   <entry>
-    <title>Voting rights advocates welcome supreme court decision to stop Trump administration from restricting mail ballots– as it happened</title>
-    <link href="https://www.theguardian.com/us-news/live/2026/sep/14/donald-trump-mail-in-voting-supreme-court-blocked-ukraine-oil-diplomat-latest-news-updates"/>
-    <id>https://www.theguardian.com/us-news/live/2026/sep/14/donald-trump-mail-in-voting-supreme-court-blocked-ukraine-oil-diplomat-latest-news-updates</id>
-    <updated>2026-09-15T01:59:45.000Z</updated>
-    <author><name>The Guardian AI</name></author>
-    <category term="HARDWARE"/>
-    <summary>This live blog is now closed. Supreme court rejects Trump’s mail ballot restrictions for midterm elections Sign up for the Breaking News US email Donald Trump has claimed there is a “SICK conspiracy” against artificial intelligence and data centers in response to the growing calls for greater checks on AI development. </summary>
-  </entry>
-  <entry>
-    <title>Teaching future scientists to interrogate AI tools for scientific discovery</title>
-    <link href="https://allenai.org/blog/autodiscovery-student-challenge"/>
-    <id>https://allenai.org/blog/autodiscovery-student-challenge</id>
-    <updated>2026-09-14T08:00:00.000Z</updated>
-    <author><name>Ai2 (Allen Institute)</name></author>
+    <title>Salesforce and Nvidia’s new reasoning model is everything the AI labs should fear</title>
+    <link href="https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear"/>
+    <id>https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear</id>
+    <updated>2026-09-15T12:00:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>University of Washington students put Ai2’s AutoDiscovery to the test, showing how AI can surface promising scientific leads while making human judgment, domain expertise, and rigorous validation more important than ever.</summary>
+    <summary>Salesforce Koa is built on Nvidia's open-weight Nemotron model and is trained to do sales, marketing, and customer-support tasks.</summary>
   </entry>
   <entry>
-    <title>ITL AI Webinar: The Development of an AI Agent Enrichment Workflow at the National Vulnerability Database</title>
-    <link href="https://www.nist.gov/news-events/events/2026/09/itl-ai-webinar-development-ai-agent-enrichment-workflow-national"/>
-    <id>https://www.nist.gov/news-events/events/2026/09/itl-ai-webinar-development-ai-agent-enrichment-workflow-national</id>
-    <updated>2026-09-17T15:00:00.000Z</updated>
-    <author><name>NIST AI News</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>Join NIST on September 17, 2026 for an Information Technology Laboratory (ITL) AI Program hosted webinar on the development of an AI agent enrichment workflow at the National Vulnerability Database. The National Vulnerability Database (NVD)</summary>
+    <title>Agent-net Open Sources Webagent: A Go Harness That Turns Any Website into a Guarded AI Agent</title>
+    <link href="https://www.marktechpost.com/2026/09/14/agent-net-open-sources-webagent-a-go-harness-that-turns-any-website-into-a-guarded-ai-agent"/>
+    <id>https://www.marktechpost.com/2026/09/14/agent-net-open-sources-webagent-a-go-harness-that-turns-any-website-into-a-guarded-ai-agent</id>
+    <updated>2026-09-15T04:03:20.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Agent-net, the team building an agent-to-agent marketplace where AI agents discover, trust, and pay each other, has released Webagent, an open source harness for standing up public-facing business agents. So, basically you give it your website, get an agent, and let it talk to other agents. Instead of writing orchestra</summary>
   </entry>
 </feed>
