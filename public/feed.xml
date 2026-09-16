@@ -5,15 +5,42 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-09-16T18:08:26.217Z</updated>
+  <updated>2026-09-16T22:03:49.484Z</updated>
   <entry>
-    <title>llama.cpp b11007 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11007"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11007</id>
-    <updated>2026-09-16T17:49:22.000Z</updated>
+    <title>Claude Cowork and chat are now one Claude</title>
+    <link href="https://simonwillison.net/2026/Sep/16/one-claude"/>
+    <id>https://simonwillison.net/2026/Sep/16/one-claude</id>
+    <updated>2026-09-16T18:09:49.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Claude Cowork and chat are now one Claude In hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s. Claude v.s. Claude Code: Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question, or hand over a report due at noon, and Claude takes it from there, even  — Also covered by: ZDNet AI, TechCrunch AI</summary>
+  </entry>
+  <entry>
+    <title>llama.cpp b11009 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11009"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11009</id>
+    <updated>2026-09-16T19:41:12.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Enable CUDA graph for MTP draft ( #28549 ) Improve CUDA graph usage for MTP Rename field Address review feedback Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47982528 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel  — Also covered by: ggml-org/whisper.cpp</summary>
+    <category term="MODEL RELEASES"/>
+    <summary>TP: fix split state and granularity for fused QKV gemma4, qwen35 ( #28965 ) model: calculate split states for attn_qkv from n_head * n_embd_head_k required for gemma4 with --fuse-qkv, where n_embd is 5376 but Q is 8192. model: handle fused full attention layers for qwen35/qwen35moe model: add TODO: [TAG_SPLIT_QGATE_QWE — Also covered by: ggml-org/whisper.cpp</summary>
+  </entry>
+  <entry>
+    <title>Sources: drone delivery startup Zipline is in talks to raise around $1B at a roughly $20B valuation, up from a $7.6B valuation in January (Bloomberg)</title>
+    <link href="https://www.techmeme.com/260916/p46"/>
+    <id>https://www.techmeme.com/260916/p46</id>
+    <updated>2026-09-16T22:02:06.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Bloomberg : Sources: drone delivery startup Zipline is in talks to raise around $1B at a roughly $20B valuation, up from a $7.6B valuation in January — Zipline is in talks to raise around $1 billion in a funding round that would value the drone delivery and logistics startup at roughly $20 billion, nearly tripling its  — Also covered by: Bloomberg Tech</summary>
+  </entry>
+  <entry>
+    <title>Fed Issues First Rate Hike Since 2023</title>
+    <link href="https://www.wsj.com/finance/investing/fed-issues-first-rate-hike-since-2023-10eea80d?mod=rss_Technology"/>
+    <id>https://www.wsj.com/finance/investing/fed-issues-first-rate-hike-since-2023-10eea80d?mod=rss_Technology</id>
+    <updated>2026-09-16T20:21:00.000Z</updated>
+    <author><name>WSJ Tech</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Plus, Treasury yields climb and OpenAI holds talks about new funding round — Also covered by: Bloomberg Tech</summary>
   </entry>
   <entry>
     <title>qwen-code v0.24.0 released</title>
@@ -21,17 +48,8 @@
     <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.24.0</id>
     <updated>2026-09-16T13:16:38.000Z</updated>
     <author><name>QwenLM/qwen-code</name></author>
-    <category term="MODEL RELEASES"/>
+    <category term="GITHUB REPOS"/>
     <summary>Highlights See the complete change list below. Breaking Changes fix(core)!: let bash expand project directory variables in command hooks ( #11864 ) by @qqqys Complete Change List Features feat(core): cap web_search calls per session ( #11852 ) by @qqqys feat: track background result execution across daemon and web shel — Also covered by: anthropics/claude-code</summary>
-  </entry>
-  <entry>
-    <title>Goodbye, Claude Cowork: Anthropic merges its two Claudes into one</title>
-    <link href="https://www.zdnet.com/innovation/claude-chat-absorbs-cowork-anthropic"/>
-    <id>https://www.zdnet.com/innovation/claude-chat-absorbs-cowork-anthropic</id>
-    <updated>2026-09-16T16:30:44.000Z</updated>
-    <author><name>ZDNet AI</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>From Claude to Cowork and back again – plus, Anthropic’s all-new Claude Docs. — Also covered by: TechCrunch AI</summary>
   </entry>
   <entry>
     <title>Mistral and Mozilla are bringing open, private and multilingual AI to your web browser</title>
@@ -43,13 +61,13 @@
     <summary>Open, private and multilingual AI is coming to your web browser. Mistral and Mozilla team up to put powerful, trustworthy AI where you already browse.</summary>
   </entry>
   <entry>
-    <title>Your AI agents can now control your Google Home devices</title>
-    <link href="https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices"/>
-    <id>https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices</id>
-    <updated>2026-09-16T17:00:00.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Google is launching early access to a new MCP server for Google Home, allowing AI agents like Claude, ChatGPT, and others to control connected devices, review camera summaries, and access smart home activity using natural language.</summary>
+    <title>ollama v0.34.2 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.34.2-rc1"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.34.2-rc1</id>
+    <updated>2026-09-16T21:42:41.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>What's Changed llama.cpp updates Full Changelog : v0.34.1...v0.34.2-rc0</summary>
   </entry>
   <entry>
     <title>Spain's data agency gets first report of AI-powered data breach</title>
@@ -70,22 +88,22 @@
     <summary>Shane Legg speaks to FT as new DeepMind Institute launches to explore implications of artificial general intelligence, amid growing calls for industry slowdown</summary>
   </entry>
   <entry>
-    <title>Vibe Patenting: Evaluating LLM Judges for Professional Patent-Drafting Agents</title>
-    <link href="https://arxiv.org/abs/2609.13422"/>
-    <id>https://arxiv.org/abs/2609.13422</id>
-    <updated>2026-09-16T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
+    <title>Knowledgator Releases GLiFormer: A 575M-Parameter Encoder That Hits 91.10 F1 on Nested JSON Extraction Without Generating Tokens</title>
+    <link href="https://www.marktechpost.com/2026/09/16/knowledgator-releases-gliformer-a-575m-parameter-encoder-that-hits-91-10-f1-on-nested-json-extraction-without-generating-tokens"/>
+    <id>https://www.marktechpost.com/2026/09/16/knowledgator-releases-gliformer-a-575m-parameter-encoder-that-hits-91-10-f1-on-nested-json-extraction-without-generating-tokens</id>
+    <updated>2026-09-16T21:19:32.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
-    <summary>arXiv:2609.13422v1 Announce Type: new Abstract: LLM judges are increasingly used to evaluate and improve AI-generated outputs, yet their reliability for complex professional work remains unclear. We study this problem through Vibe Patenting, an end-to-end patent-drafting testbed for AI-agent evaluation. A separately-in</summary>
+    <summary>GLiFormer Large scores 91.10 F1 on nested JSON, near GPT-5.6-luna's 91.96, while grounding every value in source spans. The post Knowledgator Releases GLiFormer: A 575M-Parameter Encoder That Hits 91.10 F1 on Nested JSON Extraction Without Generating Tokens appeared first on MarkTechPost .</summary>
   </entry>
   <entry>
-    <title>Google Deepmind launches interdisciplinary institute to tackle the big questions around AGI</title>
-    <link href="https://the-decoder.com/google-deepmind-launches-interdisciplinary-institute-to-tackle-the-big-questions-around-agi"/>
-    <id>https://the-decoder.com/google-deepmind-launches-interdisciplinary-institute-to-tackle-the-big-questions-around-agi</id>
-    <updated>2026-09-16T17:00:28.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>Your AI agents can now control your Google Home devices</title>
+    <link href="https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices"/>
+    <id>https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices</id>
+    <updated>2026-09-16T17:00:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="PRODUCTS"/>
-    <summary>Google Deepmind has founded the Deepmind Institute (DMI), an interdisciplinary research platform focused on AGI. Led by Demis Hassabis, Shane Legg, and James Manyika, the institute tackles questions around safety, governance, and control risks, drawing on experts from the arts, humanities, and policy alongside technolo</summary>
+    <summary>Google is launching early access to a new MCP server for Google Home, allowing AI agents like Claude, ChatGPT, and others to control connected devices, review camera summaries, and access smart home activity using natural language.</summary>
   </entry>
   <entry>
     <title>Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers</title>
@@ -115,13 +133,13 @@
     <summary>This Symposium is a one-day event to address the question: “ which medical measurements and consensus standards should be prioritized to support future U.S. healthcare?” The focus will be on medical imaging, medical devices, and diagnostics. The goal</summary>
   </entry>
   <entry>
-    <title>Nine Questions That Tell You Whether Your AI Security Vendor Is Selling Theater | Straiker</title>
-    <link href="https://www.straiker.ai/blog/agentic-ai-security-vendor-evaluation-questions"/>
-    <id>https://www.straiker.ai/blog/agentic-ai-security-vendor-evaluation-questions</id>
-    <updated>2026-09-16T12:00:00.000Z</updated>
-    <author><name>Straiker STAR</name></author>
+    <title>AI Security Spending Jumps as Fear Outpaces Proof of Value</title>
+    <link href="https://www.darkreading.com/cybersecurity-operations/ai-security-spending-jumps-fear-outpaces-proof-value"/>
+    <id>https://www.darkreading.com/cybersecurity-operations/ai-security-spending-jumps-fear-outpaces-proof-value</id>
+    <updated>2026-09-16T21:26:55.000Z</updated>
+    <author><name>Dark Reading</name></author>
     <category term="AI SECURITY"/>
-    <summary>Not every AI security control reduces real-world risk. Ask these nine questions about tool calls, runtime enforcement, detection, and agent containment.</summary>
+    <summary>CISOs are not waiting for AI to prove its cybersecurity value before investing in the technology. Is it the right move?</summary>
   </entry>
   <entry>
     <title>Atomic macOS (AMOS) Stealer Activity</title>
@@ -133,76 +151,40 @@
     <summary>Modern macOS malware uses deceptive setup guides to steal credentials and sensitive user data. Learn how to identify and block these threats. The post Atomic macOS (AMOS) Stealer Activity appeared first on Unit 42 .</summary>
   </entry>
   <entry>
-    <title>Delos Data, which develops network chips and software to connect AI chips in a data center, raised $100M from Matrix, Playground, Socratic Partners, and others (Stephen Nellis/Reuters)</title>
-    <link href="https://www.techmeme.com/260916/p40"/>
-    <id>https://www.techmeme.com/260916/p40</id>
-    <updated>2026-09-16T16:50:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>Stephen Nellis / Reuters : Delos Data, which develops network chips and software to connect AI chips in a data center, raised $100M from Matrix, Playground, Socratic Partners, and others — Delos Data, a startup founded by veterans of Intel Corp (INTC.O), on Tuesday said it has raised $100 million to develop chips …</summary>
-  </entry>
-  <entry>
-    <title>Quoting Mustafa Suleyman</title>
-    <link href="https://simonwillison.net/2026/Sep/16/mustafa-suleyman"/>
-    <id>https://simonwillison.net/2026/Sep/16/mustafa-suleyman</id>
-    <updated>2026-09-16T16:00:54.000Z</updated>
-    <author><name>Simon Willison</name></author>
-    <category term="ANALYSIS"/>
-    <summary>We should not treat models as though they have feelings, preferences, rights, or any entitlement to our welfare. Consciousness is the foundation of our ethical, legal, and political systems. To invite another entity to share any flavor of these rights isn’t justified by the evidence and will make the AI containment and</summary>
-  </entry>
-  <entry>
-    <title>The evolution of Digit: Agility Robotics’ journey from Cassie to Digit 5</title>
-    <link href="https://www.therobotreport.com/the-evolution-of-digit-agility-robotics-journey-from-cassie-to-digit-5"/>
-    <id>https://www.therobotreport.com/the-evolution-of-digit-agility-robotics-journey-from-cassie-to-digit-5</id>
-    <updated>2026-09-16T17:45:50.000Z</updated>
-    <author><name>The Robot Report</name></author>
+    <title>Agility’s Digit 5 Reveal Includes a Wheeled Robot Concept</title>
+    <link href="https://www.humanoidsdaily.com/news/agility-digit-5-wheeled-robot-concept"/>
+    <id>https://www.humanoidsdaily.com/news/agility-digit-5-wheeled-robot-concept</id>
+    <updated>2026-09-16T17:46:26.000Z</updated>
+    <author><name>Humanoids Daily</name></author>
     <category term="ROBOTICS"/>
-    <summary>From Cassie, to five different versions of Digit, Agility Robotics has adapted its technology to fit industrial tasks. The post The evolution of Digit: Agility Robotics’ journey from Cassie to Digit 5 appeared first on The Robot Report .</summary>
+    <summary>Animations spotted in Agility’s Digit 5 launch material have a written counterpart: its website lists a Wheeled Base Concept. Product details remain unannounced.</summary>
   </entry>
   <entry>
-    <title>Anderon Finalizes $1 Billion CHIPS Award for Quantum Wafer Manufacturing</title>
-    <link href="https://thequantuminsider.com/2026/09/16/anderon-1-billion-chips-award-quantum-wafer-manufacturing"/>
-    <id>https://thequantuminsider.com/2026/09/16/anderon-1-billion-chips-award-quantum-wafer-manufacturing</id>
-    <updated>2026-09-16T11:30:12.000Z</updated>
-    <author><name>The Quantum Insider</name></author>
+    <title>Anderon Finalizes $1 Billion CHIPS Act Award to Scale 300mm Pure-Play Quantum Wafer Foundry</title>
+    <link href="https://quantumcomputingreport.com/anderon-finalizes-1-billion-chips-act-award-to-scale-300mm-pure-play-quantum-wafer-foundry"/>
+    <id>https://quantumcomputingreport.com/anderon-finalizes-1-billion-chips-act-award-to-scale-300mm-pure-play-quantum-wafer-foundry</id>
+    <updated>2026-09-16T18:14:27.000Z</updated>
+    <author><name>Quantum Computing Report</name></author>
     <category term="QUANTUM"/>
-    <summary>Insider Brief PRESS RELEASE — Today, Anderon LLC (“Anderon”), an IBM (NYSE: IBM) company, announced the finalization of a $1 billion award under the CHIPS and Science Act with the U.S. Department of Commerce (the “Department”). The award will accelerate Anderon’s R&amp;D efforts to advance the nation’s quantum wafer manufa</summary>
+    <summary>Anderon LLC, an IBM subsidiary, secured $1 billion in CHIPS Act funding, supplemented by another $1 billion from IBM, to expand its 300mm pure-play quantum wafer fabrication facility at Albany NanoTech. This investment aims to scale production of superconducting qubit arrays and other quantum components, addressing QPU</summary>
   </entry>
   <entry>
-    <title>Helping older adults use AI in everyday life</title>
-    <link href="https://openai.com/index/helping-older-adults-use-ai-in-everyday-life"/>
-    <id>https://openai.com/index/helping-older-adults-use-ai-in-everyday-life</id>
-    <updated>2026-09-16T16:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.</summary>
-  </entry>
-  <entry>
-    <title>Anthropic merges Claude chat and Cowork, and adds a feature for making presentations and documents, rolling out to Pro and Max plans first (Ivan Mehta/TechCrunch)</title>
-    <link href="https://www.techmeme.com/260916/p39"/>
-    <id>https://www.techmeme.com/260916/p39</id>
-    <updated>2026-09-16T16:42:10.000Z</updated>
+    <title>X adds a &quot;Trade&quot; option to its Cashtag feature, letting US users complete trades at brokerages including Interactive Brokers, Gemini, Kraken, and Coinbase (Sarah Perez/TechCrunch)</title>
+    <link href="https://www.techmeme.com/260916/p44"/>
+    <id>https://www.techmeme.com/260916/p44</id>
+    <updated>2026-09-16T21:01:58.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Ivan Mehta / TechCrunch : Anthropic merges Claude chat and Cowork, and adds a feature for making presentations and documents, rolling out to Pro and Max plans first — Anthropic is merging its front-end for Claude chat and Cowork, making it less confusing for people to decide which tab to use for different tasks.</summary>
+    <summary>Sarah Perez / TechCrunch : X adds a “Trade” option to its Cashtag feature, letting US users complete trades at brokerages including Interactive Brokers, Gemini, Kraken, and Coinbase — X will now allow users to trade from their timelines. The Elon Musk-owned social network on Wednesday launched …</summary>
   </entry>
   <entry>
-    <title>Qwen3.5 4B + grabbing logits is almost &quot;Jev&quot;? Or even just Qwen Reranker?</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1whzy7j/qwen35_4b_grabbing_logits_is_almost_jev_or_even"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1whzy7j/qwen35_4b_grabbing_logits_is_almost_jev_or_even</id>
-    <updated>2026-09-16T15:10:28.000Z</updated>
+    <title>Qwen 3.8 27B Running for 63 hours on a RTX 3090 to solve the Riemann hypothesis</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wi9fau/qwen_38_27b_running_for_63_hours_on_a_rtx_3090_to"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wi9fau/qwen_38_27b_running_for_63_hours_on_a_rtx_3090_to</id>
+    <updated>2026-09-16T20:50:22.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Saw the new Introducing System One Models &amp; Jev - TypeSafe AI Blog Jev model which just outputs probabilities given choices and I thought it sounded a something the Qwen reranker models could do? Then I tried implementing it and got even better results with Qwen 4B + just assign each option to a letter and grab the log</summary>
-  </entry>
-  <entry>
-    <title>Qwen3.8 Flash on 12GB VRAM - 15 tokens/s</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wi46on/qwen38_flash_on_12gb_vram_15_tokenss"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wi46on/qwen38_flash_on_12gb_vram_15_tokenss</id>
-    <updated>2026-09-16T17:41:49.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Achieved steady 15 tokens/second output and 100-120 promp processing per second with 12GB GPU (RTX 5070 SFF) with Qwen3.8-Flash-Next-GSQ-RCO-GGUF at 3 bpw (IQ3_XXS which maches BF16 on AIME25). Around 76GB full gguf - while only 47GB needs to be sharded (loaded into VRAM+RAM) rest is done in SSD. Output quality is real</summary>
+    <summary>I let Qwen 3.8 27B 4bit quantized with 100K context window run autonomously for 63 hours (50 million+ tokens) to try to solve the RH. Of course it did not solve it, but the experiment still shows it's internal work, memory organization, strategies used and more. The interesting thing is that it never hallucinated an an</summary>
   </entry>
   <entry>
     <title>Reimagining advertising with AI</title>
@@ -214,58 +196,76 @@
     <summary>Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.</summary>
   </entry>
   <entry>
-    <title>Fed Raises Rates as Warsh Bucks Trump to Contain Inflation</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-16/fed-raises-rates-as-warsh-bucks-trump-to-contain-inflation"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-16/fed-raises-rates-as-warsh-bucks-trump-to-contain-inflation</id>
-    <updated>2026-09-16T18:00:01.000Z</updated>
+    <title>Highlights From Fed Chairman Warsh’s News Conference</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-09-16/highlights-from-fed-chairman-warsh-s-news-conference-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-09-16/highlights-from-fed-chairman-warsh-s-news-conference-video</id>
+    <updated>2026-09-16T21:47:30.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The Federal Reserve raised interest rates by a quarter percentage point and penciled in an additional hike later this year, steps aimed at containing inflation that will test Chairman Kevin Warsh’s relationship with President Donald Trump.</summary>
+    <summary>Federal Reserve Chairman Kevin Warsh speaks after the central bank's decision to raise interest rates by 25 basis points. Here are some of the key moments from Warsh's news conference. (Source: Bloomberg)</summary>
   </entry>
   <entry>
-    <title>JPMorgan's Michele on Bonds: 'The Dominoes Are Starting to Fall'</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-16/jpm-s-michele-on-bonds-dominoes-are-starting-to-fall-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-16/jpm-s-michele-on-bonds-dominoes-are-starting-to-fall-video</id>
-    <updated>2026-09-16T18:00:55.000Z</updated>
+    <title>'Direct Indexing' to Diversity Portfolios</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-09-16/-direct-indexing-to-diversity-portfolios-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-09-16/-direct-indexing-to-diversity-portfolios-video</id>
+    <updated>2026-09-16T21:45:19.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Bob Michele, JPMorgan Asset Management's global head of fixed income, says the bond market has reached a point of &quot;maximum pain&quot; on &quot;Bloomberg Surveillance: The Fed Decides.&quot; (Source: Bloomberg)</summary>
+    <summary>Manju Boraiah, Senior PM and Head of Systematic Fixed Income at Allspring Global Investment, reacts to Wednesday's Fed rate decision saying fundamentally, 'we needed the hike.' He also discusses how investors can break out from frozen positions, arguing that trillions of dollars of wealth is sitting in concentrated pos</summary>
   </entry>
   <entry>
-    <title>New AI technique could make minimally invasive surgeries safer and more precise</title>
-    <link href="https://news.mit.edu/2026/new-ai-technique-could-make-minimally-invasive-surgeries-safer-more-precise-0916"/>
-    <id>https://news.mit.edu/2026/new-ai-technique-could-make-minimally-invasive-surgeries-safer-more-precise-0916</id>
-    <updated>2026-09-16T15:00:00.000Z</updated>
-    <author><name>MIT News AI</name></author>
-    <category term="RESEARCH"/>
-    <summary>This patient-specific method, called xvr, helps doctors use X-rays for surgical navigation in fields such as orthopedics and neurosurgery.</summary>
-  </entry>
-  <entry>
-    <title>ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search</title>
-    <link href="https://arxiv.org/abs/2609.13356"/>
-    <id>https://arxiv.org/abs/2609.13356</id>
+    <title>Vibe Patenting: Evaluating LLM Judges for Professional Patent-Drafting Agents</title>
+    <link href="https://arxiv.org/abs/2609.13422"/>
+    <id>https://arxiv.org/abs/2609.13422</id>
     <updated>2026-09-16T04:00:00.000Z</updated>
     <author><name>arXiv cs.AI</name></author>
     <category term="RESEARCH"/>
-    <summary>arXiv:2609.13356v1 Announce Type: new Abstract: In this work, we present ZGCM-1, a fully open 7B dense foundation model trained from scratch with extreme data, system, and algorithmic efficiency. ZGCM-1 is founded on a core premise: compact models cannot passively memorize the open web, but can overcome parametric capa</summary>
+    <summary>arXiv:2609.13422v1 Announce Type: new Abstract: LLM judges are increasingly used to evaluate and improve AI-generated outputs, yet their reliability for complex professional work remains unclear. We study this problem through Vibe Patenting, an end-to-end patent-drafting testbed for AI-agent evaluation. A separately-in</summary>
   </entry>
   <entry>
-    <title>Micron announces 512GB DDR5-9200 memory modules with 16W power draw — up to 12TB per server, claims 60% less energy-intensive than four 128GB modules</title>
-    <link href="https://www.tomshardware.com/pc-components/dram/micron-announces-512gb-ddr5-9200-memory-modules-with-16w-power-draw-up-to-12tb-per-server-claims-60-percent-less-energy-intensive-than-four-128gb-modules"/>
-    <id>https://www.tomshardware.com/pc-components/dram/micron-announces-512gb-ddr5-9200-memory-modules-with-16w-power-draw-up-to-12tb-per-server-claims-60-percent-less-energy-intensive-than-four-128gb-modules</id>
-    <updated>2026-09-16T14:07:31.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
+    <title>Stanford Researchers Release Paper2Agent: Turning Research Papers Into AI Agents That Reproduce Results and Run on New Data</title>
+    <link href="https://www.marktechpost.com/2026/09/16/stanford-researchers-release-paper2agent-turning-research-papers-into-ai-agents-that-reproduce-results-and-run-on-new-data"/>
+    <id>https://www.marktechpost.com/2026/09/16/stanford-researchers-release-paper2agent-turning-research-papers-into-ai-agents-that-reproduce-results-and-run-on-new-data</id>
+    <updated>2026-09-16T21:59:26.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="RESEARCH"/>
+    <summary>Paper2Agent, published in Nature, converts papers into validated MCP tools, scoring 91.2% on 300 questions across 74 papers. The post Stanford Researchers Release Paper2Agent: Turning Research Papers Into AI Agents That Reproduce Results and Run on New Data appeared first on MarkTechPost .</summary>
+  </entry>
+  <entry>
+    <title>Google Deepmind launches interdisciplinary institute to tackle the big questions around AGI</title>
+    <link href="https://the-decoder.com/google-deepmind-launches-interdisciplinary-institute-to-tackle-the-big-questions-around-agi"/>
+    <id>https://the-decoder.com/google-deepmind-launches-interdisciplinary-institute-to-tackle-the-big-questions-around-agi</id>
+    <updated>2026-09-16T17:00:28.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Google Deepmind has founded the Deepmind Institute (DMI), an interdisciplinary research platform focused on AGI. Led by Demis Hassabis, Shane Legg, and James Manyika, the institute tackles questions around safety, governance, and control risks, drawing on experts from the arts, humanities, and policy alongside technolo</summary>
+  </entry>
+  <entry>
+    <title>Improving HCLS AI reasoning with open-source agent skills</title>
+    <link href="https://aws.amazon.com/blogs/machine-learning/improving-hcls-ai-reasoning-with-open-source-agent-skills"/>
+    <id>https://aws.amazon.com/blogs/machine-learning/improving-hcls-ai-reasoning-with-open-source-agent-skills</id>
+    <updated>2026-09-16T19:00:00.000Z</updated>
+    <author><name>AWS ML Blog</name></author>
+    <category term="PRODUCTS"/>
+    <summary>AI agents on foundation models often misapply healthcare and life sciences decision frameworks, citing the right guideline but applying it incorrectly. This post shares 38 open-source agent skills across 11 HCLS domains that close this gap, with installation steps, three worked use cases, and a 410-prompt evaluation sh</summary>
+  </entry>
+  <entry>
+    <title>TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor</title>
+    <link href="https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor"/>
+    <id>https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor</id>
+    <updated>2026-09-16T20:37:07.000Z</updated>
+    <author><name>NVIDIA Dev Blog</name></author>
     <category term="HARDWARE"/>
-    <summary>After five years, Samsung's 512GB DDR5 memory modules get their first direct rival from Micron, which also promises to offer speed bins up to 9200 MT/s. But their prices could be way too high even for hyperscalers.</summary>
+    <summary>AI agents are moving from cloud data centers to vehicles, robots, and other edge devices. Unlike a chatbot that answers a single prompt, an agent works through...</summary>
   </entry>
   <entry>
-    <title>Arcee AI, which develops open-weight models in the US, raised a Series B at a $1B pre-money valuation; a source says Arcee raised at least $150M (Allie Garfinkle/Fortune)</title>
-    <link href="https://www.techmeme.com/260916/p36"/>
-    <id>https://www.techmeme.com/260916/p36</id>
-    <updated>2026-09-16T16:25:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Allie Garfinkle / Fortune : Arcee AI, which develops open-weight models in the US, raised a Series B at a $1B pre-money valuation; a source says Arcee raised at least $150M — In 2025, Mark McQuade took a gamble wholly specific to the AI era. — Arcee AI, the startup he founded in 2023, was focusing on post-training …</summary>
+    <title>NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut</title>
+    <link href="https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference"/>
+    <id>https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference</id>
+    <updated>2026-09-16T15:00:48.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
+    <category term="HARDWARE"/>
+    <summary>System performance, efficient infrastructure scaling and continuous software optimization are key levers that determine AI inference economics. Higher system performance means more tokens generated, resulting in higher revenue. Efficient scaling means throughput grows proportionally as hardware gets added, requiring fe</summary>
   </entry>
   <entry>
     <title>Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution</title>
