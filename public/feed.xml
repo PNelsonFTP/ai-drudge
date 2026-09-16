@@ -5,15 +5,24 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-09-15T22:06:45.033Z</updated>
+  <updated>2026-09-16T01:19:26.316Z</updated>
   <entry>
-    <title>llama.cpp b10988 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10988"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10988</id>
-    <updated>2026-09-15T18:53:55.000Z</updated>
+    <title>llama.cpp b10991 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b10991"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b10991</id>
+    <updated>2026-09-15T23:46:09.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>opencl: choose the MoE expert matmul by batch size for speculative decoding/MTP ( #27637 ) opencl: gate the prebuilt q4_0 MoE GEMM on routing count opencl: stop writing zeros into the padded MoE activation slots opencl: rephrase claude's comments Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Att — Also covered by: ggml-org/whisper.cpp</summary>
+    <summary>hexagon: add back missing contiguous fast-path and hvx_copy_uu for each run ( #28886 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47775478 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linu — Also covered by: ggml-org/whisper.cpp</summary>
+  </entry>
+  <entry>
+    <title>OpenAI weighs funding round at $1.2tn valuation before IPO</title>
+    <link href="https://www.ft.com/content/27509db8-b032-4437-9b2a-e909f466022f?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/27509db8-b032-4437-9b2a-e909f466022f?syn-25a6b1a6=1</id>
+    <updated>2026-09-15T21:54:39.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Sam Altman’s start-up could capitalise on demand for its technology after new model launches — Also covered by: Bloomberg Tech</summary>
   </entry>
   <entry>
     <title>claude-code v2.1.273 released</title>
@@ -21,7 +30,7 @@
     <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.273</id>
     <updated>2026-09-15T20:23:03.000Z</updated>
     <author><name>anthropics/claude-code</name></author>
-    <category term="MODEL RELEASES"/>
+    <category term="AGENTS &amp; TOOLS"/>
     <summary>What's changed Added x-claude-code-request-class , x-claude-code-agent-type , x-claude-code-prev-tool-durations , x-claude-code-compaction and x-claude-code-context-compacted request headers for LLM gateways; opt in with CLAUDE_CODE_GATEWAY_HINT_HEADERS=1 Added a notification when an MCP server disconnects mid-session  — Also covered by: QwenLM/qwen-code</summary>
   </entry>
   <entry>
@@ -32,6 +41,15 @@
     <author><name>The Hacker News</name></author>
     <category term="CYBER THREATS"/>
     <summary>Cybersecurity researchers have disclosed details of a multi-platform campaign that uses the Message Queueing Telemetry Transport (MQTT) protocol as a communication channel to control Windows and Linux systems. The emerging malware family, codenamed BambooToken, is assessed to be active since at least February 2023 and  — Also covered by: BleepingComputer</summary>
+  </entry>
+  <entry>
+    <title>AI coding agent startup Factory triples valuation to $5 billion in latest funding round</title>
+    <link href="https://www.reuters.com/business/ai-coding-agent-startup-factory-triples-valuation-5-billion-latest-funding-round-2026-09-15"/>
+    <id>https://www.reuters.com/business/ai-coding-agent-startup-factory-triples-valuation-5-billion-latest-funding-round-2026-09-15</id>
+    <updated>2026-09-15T18:23:20.000Z</updated>
+    <author><name>Reuters AI (Google News)</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>AI coding agent startup Factory triples valuation to $5 billion in latest funding round reuters.com — Also covered by: WSJ Tech</summary>
   </entry>
   <entry>
     <title>QC Design Integrates Plaquette With NVIDIA CUDA-Q Logical for Hardware-Realistic QEC Simulation</title>
@@ -52,67 +70,48 @@
     <summary>What's Changed llama.cpp updates Full Changelog : v0.34.1...v0.34.2-rc0</summary>
   </entry>
   <entry>
-    <title>Blanche defends Trump’s tirade against supreme court after it blocked mail-in voting executive order – US politics live</title>
+    <title>Six green card holders in Texas charged in federal crackdown on illegal voting – US politics live</title>
     <link href="https://www.theguardian.com/us-news/live/2026/sep/15/supreme-court-mail-ballot-restrictions-midterm-elections-trump-ai-politics-latest-news-updates"/>
     <id>https://www.theguardian.com/us-news/live/2026/sep/15/supreme-court-mail-ballot-restrictions-midterm-elections-trump-ai-politics-latest-news-updates</id>
-    <updated>2026-09-15T22:06:05.000Z</updated>
+    <updated>2026-09-16T00:38:06.000Z</updated>
     <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Attorney general says president ‘should communicate his concerns with the supreme court’ after Trump said justices ‘really let our country down’ Sign up for US Breaking News emails Kash Patel , the FBI director, is now testifying before lawmakers on the Senate judiciary committee. A reminder that the last time he appea</summary>
+    <summary>Four illegal votes were apparently counted in error out of 11,388,670 votes placed in 2024 general election in Texas Sign up for US Breaking News emails Kash Patel , the FBI director, is now testifying before lawmakers on the Senate judiciary committee. A reminder that the last time he appeared before Congress was in M</summary>
   </entry>
   <entry>
-    <title>Market Attractive But Issues Lurk, Oaktree's Poli Says</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-15/market-attractive-but-issues-lurk-oaktree-s-poli-says-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-15/market-attractive-but-issues-lurk-oaktree-s-poli-says-video</id>
-    <updated>2026-09-15T21:42:22.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Oaktree Portfolio Manager Danielle Poli says markets may continue to see upward pressure on yields because investors do not yet believe inflation will be fully tamed. She speaks with Romaine Bostick on &quot;Bloomberg The Close.&quot; (Source: Bloomberg)</summary>
-  </entry>
-  <entry>
-    <title>Vibe Patenting: Evaluating LLM Judges for Professional Patent-Drafting Agents</title>
-    <link href="https://arxiv.org/abs/2609.13422"/>
-    <id>https://arxiv.org/abs/2609.13422</id>
-    <updated>2026-09-15T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
+    <title>Google Releases Gemini 3.8 Live and 3.8 Live Extended Thinking for Production Grade Voice Agents</title>
+    <link href="https://www.marktechpost.com/2026/09/15/google-releases-gemini-3-8-live-and-3-8-live-extended-thinking-for-production-grade-voice-agents"/>
+    <id>https://www.marktechpost.com/2026/09/15/google-releases-gemini-3-8-live-and-3-8-live-extended-thinking-for-production-grade-voice-agents</id>
+    <updated>2026-09-15T20:53:09.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
-    <summary>arXiv:2609.13422v1 Announce Type: new Abstract: LLM judges are increasingly used to evaluate and improve AI-generated outputs, yet their reliability for complex professional work remains unclear. We study this problem through Vibe Patenting, an end-to-end patent-drafting testbed for AI-agent evaluation. A separately-in</summary>
+    <summary>Google has released Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking, its most advanced live dialogue models to date. The models execute tools and API calls in the background while the conversation keeps flowing, process live visual inputs, and switch between 97 languages mid conversation. Extended Thinking ranks </summary>
   </entry>
   <entry>
-    <title>Google launches Gemini 3.8 Live to take on OpenAI's GPT-Live-1 at a fraction of the cost</title>
-    <link href="https://the-decoder.com/google-launches-gemini-3-8-live-to-take-on-openais-gpt-live-1-at-a-fraction-of-the-cost"/>
-    <id>https://the-decoder.com/google-launches-gemini-3-8-live-to-take-on-openais-gpt-live-1-at-a-fraction-of-the-cost</id>
-    <updated>2026-09-15T18:23:20.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Google Deepmind released Gemini 3.8 Live and 3.8 Live Extended Thinking, two new audio models for developers that top the Artificial Analysis speech-to-speech leaderboard. At $1.38 per hour of voice conversation, Google significantly undercuts OpenAI's GPT-Live-1, which should still sound more natural thanks to full du</summary>
-  </entry>
-  <entry>
-    <title>Astera Labs Releases Leo 2 CXL Memory Controllers and Leo X Controller for Rackscale Fabric-Attached Memory</title>
-    <link href="https://www.servethehome.com/astera-labs-releases-leo-2-cxl-memory-controllers-and-leo-x-controller-for-rackscale-fabric-attached-memory"/>
-    <id>https://www.servethehome.com/astera-labs-releases-leo-2-cxl-memory-controllers-and-leo-x-controller-for-rackscale-fabric-attached-memory</id>
-    <updated>2026-09-15T17:00:48.000Z</updated>
-    <author><name>ServeTheHome</name></author>
+    <title>‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce</title>
+    <link href="https://blogs.nvidia.com/blog/jensen-huang-dreamforce"/>
+    <id>https://blogs.nvidia.com/blog/jensen-huang-dreamforce</id>
+    <updated>2026-09-15T22:24:34.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
     <category term="HARDWARE"/>
-    <summary>Astera Labs is launching a new generation of Leo smart memory controllers. The Leo 2 series adds support for CXL 3.2 and PCIe Gen6, while the ambitious Leo X brings the ability to attach memory expanders directly to the fabric networks of AI accelerators The post Astera Labs Releases Leo 2 CXL Memory Controllers and Le</summary>
+    <summary>Know everything. Do anything. That was the message NVIDIA founder and CEO Jensen Huang brought to Salesforce Dreamforce Tuesday, joining CEO Marc Benioff onstage in an appearance that coincided with the announcement of Koa — Salesforce’s first CRM reasoning model, built on NVIDIA Nemotron 3 Super. Huang didn’t just tak</summary>
   </entry>
   <entry>
-    <title>At a US House hearing, Treasury Secretary Scott Bessent said AI labs should get no liability exemptions and called for more open-source models built in the US (Matt Bracken/FedScoop)</title>
-    <link href="https://www.techmeme.com/260915/p49"/>
-    <id>https://www.techmeme.com/260915/p49</id>
-    <updated>2026-09-15T22:00:38.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care</title>
+    <link href="https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care"/>
+    <id>https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care</id>
+    <updated>2026-09-15T09:00:42.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>Matt Bracken / FedScoop : At a US House hearing, Treasury Secretary Scott Bessent said AI labs should get no liability exemptions and called for more open-source models built in the US — The secretary told House Financial Services Committee lawmakers that the “best way to guarantee safety” is for AI creators to be held</summary>
   </entry>
   <entry>
-    <title>AISN #81: Anthropic Researcher’s Resignation Propels AI Risk into the Public Eye</title>
-    <link href="https://newsletter.safe.ai/p/aisn-81-anthropic-researchers-resignation"/>
-    <id>https://newsletter.safe.ai/p/aisn-81-anthropic-researchers-resignation</id>
-    <updated>2026-09-15T13:32:41.000Z</updated>
-    <author><name>AI Safety Newsletter (CAIS)</name></author>
+    <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
+    <link href="https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare"/>
+    <id>https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare</id>
+    <updated>2026-09-24T13:00:00.000Z</updated>
+    <author><name>NIST AI News</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Also, OpenAI releases GPT-6 Astra.</summary>
+    <summary>This Symposium is a one-day event to address the question: “ which medical measurements and consensus standards should be prioritized to support future U.S. healthcare?” The focus will be on medical imaging, medical devices, and diagnostics. The goal</summary>
   </entry>
   <entry>
     <title>1Password's AI patching benchmark is misleading</title>
@@ -142,22 +141,22 @@
     <summary>Introduction Security teams have gotten pretty good at testing against what can hurt them. Can this EDR agent catch this payload? Will my organization fail the phishing simulation? Does this SIEM rule fire on this particular technique? And, in more mature organizations, this testing happens continuously rather than as </summary>
   </entry>
   <entry>
-    <title>Pulley, which offers cap table management software, says it will cease operations after December 8; it had raised $50M+ from investors, including Founders Fund (Melia Robinson/Business Insider)</title>
-    <link href="https://www.techmeme.com/260915/p47"/>
-    <id>https://www.techmeme.com/260915/p47</id>
-    <updated>2026-09-15T20:45:01.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Astera Labs Releases Leo 2 CXL Memory Controllers and Leo X Controller for Rackscale Fabric-Attached Memory</title>
+    <link href="https://www.servethehome.com/astera-labs-releases-leo-2-cxl-memory-controllers-and-leo-x-controller-for-rackscale-fabric-attached-memory"/>
+    <id>https://www.servethehome.com/astera-labs-releases-leo-2-cxl-memory-controllers-and-leo-x-controller-for-rackscale-fabric-attached-memory</id>
+    <updated>2026-09-15T17:00:48.000Z</updated>
+    <author><name>ServeTheHome</name></author>
     <category term="FUNDING &amp; DEALS"/>
-    <summary>Melia Robinson / Business Insider : Pulley, which offers cap table management software, says it will cease operations after December 8; it had raised $50M+ from investors, including Founders Fund — Pulley, a software that startups rely on to track their funding, is shutting down after seven years.</summary>
+    <summary>Astera Labs is launching a new generation of Leo smart memory controllers. The Leo 2 series adds support for CXL 3.2 and PCIe Gen6, while the ambitious Leo X brings the ability to attach memory expanders directly to the fabric networks of AI accelerators The post Astera Labs Releases Leo 2 CXL Memory Controllers and Le</summary>
   </entry>
   <entry>
-    <title>Can Skills Learned in Games Transfer to Real-World Work?</title>
-    <link href="https://www.latent.space/p/good-start-labs"/>
-    <id>https://www.latent.space/p/good-start-labs</id>
-    <updated>2026-09-15T20:11:54.000Z</updated>
-    <author><name>Latent Space</name></author>
+    <title>Gemini Live audio</title>
+    <link href="https://simonwillison.net/2026/Sep/15/gemini-live"/>
+    <id>https://simonwillison.net/2026/Sep/15/gemini-live</id>
+    <updated>2026-09-15T22:47:07.000Z</updated>
+    <author><name>Simon Willison</name></author>
     <category term="ANALYSIS"/>
-    <summary>Good Start Labs trained an AI on a railroad game — and one version improved at financial research. The difference was the training design.</summary>
+    <summary>Tool: Gemini Live audio Google released Gemini 3.8 Live and 3.8 Live Extended Thinking today - two new speech-to-speech models that are a similar shape to OpenAI's GPT-Live family. I pointed GPT-6 Astra Extra High at the documentation and had it build me this web UI for trying out the new models. You can select a model</summary>
   </entry>
   <entry>
     <title>Odyssey Unveils Odyssey-3, With Flexion Building Humanoid Control on Its World Model</title>
@@ -186,13 +185,40 @@
     <category term="MODEL RELEASES"/>
   </entry>
   <entry>
-    <title>I benchmarked IFM/K2-Horizon-7B on 16GB VRAM</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wha6sv/i_benchmarked_ifmk2horizon7b_on_16gb_vram"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wha6sv/i_benchmarked_ifmk2horizon7b_on_16gb_vram</id>
-    <updated>2026-09-15T19:25:53.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>Threads Introduces Parental Supervision for Teens in APAC</title>
+    <link href="https://about.fb.com/news/2026/09/threads-introduces-parental-supervision-for-teens-in-apac"/>
+    <id>https://about.fb.com/news/2026/09/threads-introduces-parental-supervision-for-teens-in-apac</id>
+    <updated>2026-09-16T01:05:49.000Z</updated>
+    <author><name>Meta AI Blog</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Teens in Asia Pacific APAC on Threads Get Added Protections with Parental Supervision The post Threads Introduces Parental Supervision for Teens in APAC appeared first on Meta Newsroom .</summary>
+  </entry>
+  <entry>
+    <title>Why the real AI apocalypse is already here – Stateside with Kai and Carter</title>
+    <link href="https://www.theguardian.com/us-news/video/2026/sep/15/why-the-real-ai-apocalypse-is-already-here-stateside-with-kai-and-carter"/>
+    <id>https://www.theguardian.com/us-news/video/2026/sep/15/why-the-real-ai-apocalypse-is-already-here-stateside-with-kai-and-carter</id>
+    <updated>2026-09-15T22:39:14.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>A former Anthropic researcher’s apocalyptic declaration about artificial intelligence has led to a global panic that the technology might be the end of us all. At an event in Washington today to warn about the dangers of AI, US senator Bernie Sanders said that Congress has been ‘asleep at the wheel'. Oddly, Steve Banno</summary>
+  </entry>
+  <entry>
+    <title>Sources: Meta plans to release a camera-free pair of smart glasses this fall; the new model has six mics to let users speak with Meta's AI chatbot and Muse (Jyoti Mann/The Information)</title>
+    <link href="https://www.techmeme.com/260915/p52"/>
+    <id>https://www.techmeme.com/260915/p52</id>
+    <updated>2026-09-15T22:50:00.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Jyoti Mann / The Information : Sources: Meta plans to release a camera-free pair of smart glasses this fall; the new model has six mics to let users speak with Meta's AI chatbot and Muse — Meta Platforms plans to release a camera-free pair of smart glasses this fall, according to people familiar with the matter …</summary>
+  </entry>
+  <entry>
+    <title>API: Deprecate typical_p (#18448)</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.34.1-rc2"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.34.1-rc2</id>
+    <updated>2026-09-15T04:24:26.000Z</updated>
+    <author><name>ollama/ollama</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>After two days of fighting with benchmarking infrastructure, I finally benchmarked IFM/K2-Horizon-7B on 16GB VRAM. TL/DR: it works, but far behind Qwen-3.8-27B. Setup I compared 3 models - Qwen3.8-27B, Ornith-1.5-9B and new IFM/K2-Horizon-7B - on the following setup: All models were fit completely to 16GB VRAM (AMD RX7</summary>
+    <summary>Drop support for creating new models with typical_p parameters, while retaining support for existing GGUF models with the setting.</summary>
   </entry>
   <entry>
     <title>ITL AI Webinar: The Development of an AI Agent Enrichment Workflow at the National Vulnerability Database</title>
@@ -210,25 +236,34 @@
     <updated>2026-09-15T21:07:15.000Z</updated>
     <author><name>Reuters AI (Google News)</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Spanish data watchdog publicises first AI agent-linked data breach report Reuters</summary>
+    <summary>Spanish data watchdog publicises first AI agent-linked data breach report reuters.com</summary>
   </entry>
   <entry>
-    <title>Retirement Math Difficult for Investors, says BlackRock's Magyera</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-15/anthropic-deepens-finance-industry-ties-with-blackrock-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-15/anthropic-deepens-finance-industry-ties-with-blackrock-video</id>
-    <updated>2026-09-15T20:54:53.000Z</updated>
+    <title>New Zealand’s World-Beating Sovereign Wealth Fund Returns 14.2%</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-16/new-zealand-s-world-beating-sovereign-wealth-fund-returns-14-2"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-16/new-zealand-s-world-beating-sovereign-wealth-fund-returns-14-2</id>
+    <updated>2026-09-16T00:24:51.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Jaime Magyera, BlackRock senior managing director and head of US Wealth and head of Retirement, said advisers are using artificial intelligence to help parse increasingly complex capital markets after AI company Anthropic announces new ties with Blackrock. Magyera also said that AI is helping create more strategic cust</summary>
+    <summary>The New Zealand Superannuation Fund, one of the world’s top-performing sovereign wealth funds, returned 14.2% in the year through June, powered by a rally in global equity markets despite being underweight in outperforming tech stocks.</summary>
   </entry>
   <entry>
-    <title>Dutch Bros CEO Christine Barone on Expansion &amp; Inflation</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-15/dutch-bros-ceo-christine-barone-on-expansion-inflation-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-15/dutch-bros-ceo-christine-barone-on-expansion-inflation-video</id>
-    <updated>2026-09-15T21:23:45.000Z</updated>
+    <title>Traders Brace for Fed Hike With Equities Under Pressure</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-09-16/traders-brace-for-fed-hike-with-equities-under-pressure-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-09-16/traders-brace-for-fed-hike-with-equities-under-pressure-video</id>
+    <updated>2026-09-16T00:58:43.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Christine Barone, President &amp; CEO of Dutch Bros, discussed the company’s aggressive growth strategy, saying the chain aims to reach 2,029 shops by 2029 and expects to add at least 185 locations this year. She said that pace is supported by a strong internal talent pipeline, with more than 500 operators ready to move in</summary>
+    <summary>Bond traders have piled into bearish positions ahead of Wednesday’s Federal Reserve meeting. Bloomberg's Sunny Bangia and Tom Orlik break down the pressures weighing on equities as traders await the Fed's rate decision. (Source: Bloomberg)</summary>
+  </entry>
+  <entry>
+    <title>Vibe Patenting: Evaluating LLM Judges for Professional Patent-Drafting Agents</title>
+    <link href="https://arxiv.org/abs/2609.13422"/>
+    <id>https://arxiv.org/abs/2609.13422</id>
+    <updated>2026-09-15T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
+    <category term="RESEARCH"/>
+    <summary>arXiv:2609.13422v1 Announce Type: new Abstract: LLM judges are increasingly used to evaluate and improve AI-generated outputs, yet their reliability for complex professional work remains unclear. We study this problem through Vibe Patenting, an end-to-end patent-drafting testbed for AI-agent evaluation. A separately-in</summary>
   </entry>
   <entry>
     <title>BudgetBench: A Budget-Tiered Protocol and Pilot Harness for Memory Strategy Evaluation in Local Large Language Model Agents</title>
@@ -238,41 +273,5 @@
     <author><name>arXiv cs.LG</name></author>
     <category term="RESEARCH"/>
     <summary>arXiv:2609.13149v1 Announce Type: new Abstract: For local large language model agents, active context is a scarce resource: memory capacity, prefill latency, cache growth, and service objectives all constrain how many input tokens each call can afford. We present BudgetBench, an active-budget protocol and reference har</summary>
-  </entry>
-  <entry>
-    <title>A derivative-fidelity failure mode in physics-informed neural networks: strengthened benchmark evidence from function-value training</title>
-    <link href="https://arxiv.org/abs/2609.13171"/>
-    <id>https://arxiv.org/abs/2609.13171</id>
-    <updated>2026-09-15T04:00:00.000Z</updated>
-    <author><name>arXiv cs.LG</name></author>
-    <category term="RESEARCH"/>
-    <summary>arXiv:2609.13171v1 Announce Type: new Abstract: Physics-informed neural networks (PINNs) use automatic differentiation to impose differential-equation residuals, but good agreement in function values does not necessarily imply accurate derivatives. This paper formulates derivative fidelity as a failure mode of PINNs an</summary>
-  </entry>
-  <entry>
-    <title>Announcing instance preference lists for Amazon SageMaker AI training jobs</title>
-    <link href="https://aws.amazon.com/blogs/machine-learning/announcing-instance-preference-lists-for-amazon-sagemaker-ai-training-jobs"/>
-    <id>https://aws.amazon.com/blogs/machine-learning/announcing-instance-preference-lists-for-amazon-sagemaker-ai-training-jobs</id>
-    <updated>2026-09-15T16:01:47.000Z</updated>
-    <author><name>AWS ML Blog</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Amazon SageMaker AI now offers instance preference lists for training and processing jobs. Specify an ordered list of up to five instance types, and SageMaker AI automatically launches on the first type with available capacity, eliminating manual retry loops and capacity-watching scripts.</summary>
-  </entry>
-  <entry>
-    <title>The AI data center boom is colliding with cities scarred by big industry</title>
-    <link href="https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry"/>
-    <id>https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry</id>
-    <updated>2026-09-15T21:47:38.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="HARDWARE"/>
-    <summary>National outcry against data center construction has spread to Philadelphia, where officials suggested possible construction in a neighborhood already impacted by a now-defunct oil refinery.</summary>
-  </entry>
-  <entry>
-    <title>From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production</title>
-    <link href="https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production"/>
-    <id>https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production</id>
-    <updated>2026-09-15T16:55:59.000Z</updated>
-    <author><name>NVIDIA Blog</name></author>
-    <category term="HARDWARE"/>
-    <summary>On a sweltering August evening in Silicon Valley, as the sun dropped and air conditioning loads spiked, Silicon Valley Power sent a signal to an AI factory to adjust its power consumption. Varun Sivaram was watching on Zoom with about forty others — his team at Emerald AI in their San Francisco conference room, enginee</summary>
   </entry>
 </feed>
