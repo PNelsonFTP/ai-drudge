@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-09-16T13:26:04.638Z</updated>
+  <updated>2026-09-16T18:08:26.217Z</updated>
   <entry>
-    <title>llama.cpp b11000 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11000"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11000</id>
-    <updated>2026-09-16T13:10:45.000Z</updated>
+    <title>llama.cpp b11007 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11007"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11007</id>
+    <updated>2026-09-16T17:49:22.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>rpc : invalidate cached compute graph when a referenced buffer is freed ( #24292 ) The server caches the most recent compute graph per device so that GRAPH_RECOMPUTE can re-execute it without resending tensor data. The cached graph nodes hold direct pointers to backend buffers that were live at graph_compute() time. If — Also covered by: ggml-org/whisper.cpp</summary>
+    <summary>Enable CUDA graph for MTP draft ( #28549 ) Improve CUDA graph usage for MTP Rename field Address review feedback Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47982528 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel  — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
     <title>qwen-code v0.24.0 released</title>
@@ -25,13 +25,13 @@
     <summary>Highlights See the complete change list below. Breaking Changes fix(core)!: let bash expand project directory variables in command hooks ( #11864 ) by @qqqys Complete Change List Features feat(core): cap web_search calls per session ( #11852 ) by @qqqys feat: track background result execution across daemon and web shel — Also covered by: anthropics/claude-code</summary>
   </entry>
   <entry>
-    <title>Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks</title>
-    <link href="https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html"/>
-    <id>https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html</id>
-    <updated>2026-09-16T11:08:54.000Z</updated>
-    <author><name>The Hacker News</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild. The vulnerability, tracked as CVE-2026-87886 (CVSS score: 7.8), is described as a case of local privilege escalation due to insecure file permissions. It affects t — Also covered by: BleepingComputer</summary>
+    <title>Goodbye, Claude Cowork: Anthropic merges its two Claudes into one</title>
+    <link href="https://www.zdnet.com/innovation/claude-chat-absorbs-cowork-anthropic"/>
+    <id>https://www.zdnet.com/innovation/claude-chat-absorbs-cowork-anthropic</id>
+    <updated>2026-09-16T16:30:44.000Z</updated>
+    <author><name>ZDNet AI</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>From Claude to Cowork and back again – plus, Anthropic’s all-new Claude Docs. — Also covered by: TechCrunch AI</summary>
   </entry>
   <entry>
     <title>Mistral and Mozilla are bringing open, private and multilingual AI to your web browser</title>
@@ -43,13 +43,31 @@
     <summary>Open, private and multilingual AI is coming to your web browser. Mistral and Mozilla team up to put powerful, trustworthy AI where you already browse.</summary>
   </entry>
   <entry>
-    <title>Allowing AI firms to collude to ‘pace the frontier’ is a dangerous proposition</title>
-    <link href="https://www.theguardian.com/technology/2026/sep/16/ai-companies-collude-antitrust-laws"/>
-    <id>https://www.theguardian.com/technology/2026/sep/16/ai-companies-collude-antitrust-laws</id>
-    <updated>2026-09-16T11:00:18.000Z</updated>
-    <author><name>The Guardian AI</name></author>
+    <title>Your AI agents can now control your Google Home devices</title>
+    <link href="https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices"/>
+    <id>https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices</id>
+    <updated>2026-09-16T17:00:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Tech CEOs banding together is an old ruse recycled from corporate America to get a pass from antitrust laws Anthropic’s Dario Amodei is not the first corporate CEO to suggest that excessive competition is driving the world to some socially undesirable outcome. The safety breach disclosed by OpenAI after a swarm of its </summary>
+    <summary>Google is launching early access to a new MCP server for Google Home, allowing AI agents like Claude, ChatGPT, and others to control connected devices, review camera summaries, and access smart home activity using natural language.</summary>
+  </entry>
+  <entry>
+    <title>Spain's data agency gets first report of AI-powered data breach</title>
+    <link href="https://www.bleepingcomputer.com/news/security/spains-data-agency-gets-first-report-of-ai-powered-data-breach"/>
+    <id>https://www.bleepingcomputer.com/news/security/spains-data-agency-gets-first-report-of-ai-powered-data-breach</id>
+    <updated>2026-09-16T17:26:41.000Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>The Spanish Data Protection Agency (AEPD) was notified of an attack allegedly carried out with an AI agent powered by a known large language model (LLM). [...]</summary>
+  </entry>
+  <entry>
+    <title>AI must not outrun safety controls, DeepMind co-founder warns</title>
+    <link href="https://www.ft.com/content/0fc3ae6d-732e-4f08-950e-8669b1fcfd8e?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/0fc3ae6d-732e-4f08-950e-8669b1fcfd8e?syn-25a6b1a6=1</id>
+    <updated>2026-09-16T14:59:57.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Shane Legg speaks to FT as new DeepMind Institute launches to explore implications of artificial general intelligence, amid growing calls for industry slowdown</summary>
   </entry>
   <entry>
     <title>Vibe Patenting: Evaluating LLM Judges for Professional Patent-Drafting Agents</title>
@@ -57,26 +75,17 @@
     <id>https://arxiv.org/abs/2609.13422</id>
     <updated>2026-09-16T04:00:00.000Z</updated>
     <author><name>arXiv cs.AI</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
+    <category term="RESEARCH"/>
     <summary>arXiv:2609.13422v1 Announce Type: new Abstract: LLM judges are increasingly used to evaluate and improve AI-generated outputs, yet their reliability for complex professional work remains unclear. We study this problem through Vibe Patenting, an end-to-end patent-drafting testbed for AI-agent evaluation. A separately-in</summary>
   </entry>
   <entry>
-    <title>Stocks, Bonds Find Relief Ahead of Fed, EU Floats Canada Becoming 'Associate Member'</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-16/bloomberg-brief-09-16-2026-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-16/bloomberg-brief-09-16-2026-video</id>
-    <updated>2026-09-16T12:02:40.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>US equity futures and Treasuries are finding relief as traders wait for the Federal Reserve’s latest interest-rate decision, potentially hiking for the first time since 2023. European Commission President Ursula von der Leyen asks Canada to become the EU's first associate member. Citi's chief US economist Andrew Hollen</summary>
-  </entry>
-  <entry>
-    <title>Amazon launches Alexa+ in India with Hindi support</title>
-    <link href="https://techcrunch.com/2026/09/16/amazon-launches-alexa-in-india-with-hindi-support"/>
-    <id>https://techcrunch.com/2026/09/16/amazon-launches-alexa-in-india-with-hindi-support</id>
-    <updated>2026-09-16T10:34:47.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>Google Deepmind launches interdisciplinary institute to tackle the big questions around AGI</title>
+    <link href="https://the-decoder.com/google-deepmind-launches-interdisciplinary-institute-to-tackle-the-big-questions-around-agi"/>
+    <id>https://the-decoder.com/google-deepmind-launches-interdisciplinary-institute-to-tackle-the-big-questions-around-agi</id>
+    <updated>2026-09-16T17:00:28.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="PRODUCTS"/>
-    <summary>Amazon is letting all customers use Alexa+ assistant in early access period.</summary>
+    <summary>Google Deepmind has founded the Deepmind Institute (DMI), an interdisciplinary research platform focused on AGI. Led by Demis Hassabis, Shane Legg, and James Manyika, the institute tackles questions around safety, governance, and control risks, drawing on experts from the arts, humanities, and policy alongside technolo</summary>
   </entry>
   <entry>
     <title>Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers</title>
@@ -88,22 +97,22 @@
     <summary>AI factories are the infrastructure of the intelligence era. Scaling them responsibly will depend as much on innovation across the grid as inside the data center. Today, Emerald AI, Google and NVIDIA announced the launch of the AI Energy Management Alliance (AEMA), a first-of-its-kind coalition advancing data centers t</summary>
   </entry>
   <entry>
-    <title>Few-Shot Degradation Is Not What It Seems: Behavioral Evidence, Representation Analysis, and a Random-Text Control Across 12 Models, 2 Tasks, and 2 Architectures</title>
-    <link href="https://arxiv.org/abs/2609.15990"/>
-    <id>https://arxiv.org/abs/2609.15990</id>
-    <updated>2026-09-16T04:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
+    <title>Canadian Start-up smartARM Uses AI to Create Intuitive Bionic Prosthetics</title>
+    <link href="https://about.fb.com/news/2026/09/canadian-start-up-smartarm-uses-ai-to-create-intuitive-bionic-prosthetics"/>
+    <id>https://about.fb.com/news/2026/09/canadian-start-up-smartarm-uses-ai-to-create-intuitive-bionic-prosthetics</id>
+    <updated>2026-09-16T16:00:19.000Z</updated>
+    <author><name>Meta AI Blog</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>arXiv:2609.15990v1 Announce Type: new Abstract: Few-shot prompting sometimes degrades language models instead of helping them, but why this happens is unknown. We evaluate 12 open-weight models on two Ukrainian tasks news classification and legal case outcome prediction and find that the effect is strongly task-depende</summary>
+    <summary>People and companies are using AI hardware and software to make life easier and more accessible for everyone. That’s the case with smartARM, a Toronto-based startup developing a vision-first bionic arm prototype that uses open-source software, with Meta AI glasses as an optional add-on, to explore more intuitive prosth</summary>
   </entry>
   <entry>
-    <title>Billionaire-backed AI safety activists have significantly expanded their Capitol Hill lobbying, with groups like ControlAI conducting hundreds of meetings (Washington Post)</title>
-    <link href="https://www.techmeme.com/260916/p23"/>
-    <id>https://www.techmeme.com/260916/p23</id>
-    <updated>2026-09-16T12:35:05.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
+    <link href="https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare"/>
+    <id>https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare</id>
+    <updated>2026-09-24T13:00:00.000Z</updated>
+    <author><name>NIST AI News</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Washington Post : Billionaire-backed AI safety activists have significantly expanded their Capitol Hill lobbying, with groups like ControlAI conducting hundreds of meetings — Activists spent years cultivating allies on Capitol Hill. Now lawmakers in both parties are discussing extinction. — Summary</summary>
+    <summary>This Symposium is a one-day event to address the question: “ which medical measurements and consensus standards should be prioritized to support future U.S. healthcare?” The focus will be on medical imaging, medical devices, and diagnostics. The goal</summary>
   </entry>
   <entry>
     <title>Nine Questions That Tell You Whether Your AI Security Vendor Is Selling Theater | Straiker</title>
@@ -115,15 +124,6 @@
     <summary>Not every AI security control reduces real-world risk. Ask these nine questions about tool calls, runtime enforcement, detection, and agent containment.</summary>
   </entry>
   <entry>
-    <title>Webinar: What happens in the first hours of a Google Workspace breach</title>
-    <link href="https://www.bleepingcomputer.com/news/security/webinar-what-happens-in-the-first-hours-of-a-google-workspace-breach"/>
-    <id>https://www.bleepingcomputer.com/news/security/webinar-what-happens-in-the-first-hours-of-a-google-workspace-breach</id>
-    <updated>2026-09-16T12:11:19.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>The first hours after discovering a Google Workspace breach can determine how an incident unfolds. This webinar examines real-world breaches to show which early response decisions can limit the impact and which can make matters worse. [...]</summary>
-  </entry>
-  <entry>
     <title>Atomic macOS (AMOS) Stealer Activity</title>
     <link href="https://unit42.paloaltonetworks.com/atomic-macos-amos-stealer-activity"/>
     <id>https://unit42.paloaltonetworks.com/atomic-macos-amos-stealer-activity</id>
@@ -133,31 +133,31 @@
     <summary>Modern macOS malware uses deceptive setup guides to steal credentials and sensitive user data. Learn how to identify and block these threats. The post Atomic macOS (AMOS) Stealer Activity appeared first on Unit 42 .</summary>
   </entry>
   <entry>
-    <title>A Hard Year For Software IPOs</title>
-    <link href="https://news.crunchbase.com/public/energy-ai-defense-saas-ipos-2026"/>
-    <id>https://news.crunchbase.com/public/energy-ai-defense-saas-ipos-2026</id>
-    <updated>2026-09-16T11:00:47.000Z</updated>
-    <author><name>Crunchbase News AI</name></author>
+    <title>Delos Data, which develops network chips and software to connect AI chips in a data center, raised $100M from Matrix, Playground, Socratic Partners, and others (Stephen Nellis/Reuters)</title>
+    <link href="https://www.techmeme.com/260916/p40"/>
+    <id>https://www.techmeme.com/260916/p40</id>
+    <updated>2026-09-16T16:50:01.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="FUNDING &amp; DEALS"/>
-    <summary>U.S. venture-backed technology companies have secured around $90 billion in domestic public offerings this year, per Crunchbase data. That’s already the second-highest annual tally on record, and we’ve still got a few months to go.</summary>
+    <summary>Stephen Nellis / Reuters : Delos Data, which develops network chips and software to connect AI chips in a data center, raised $100M from Matrix, Playground, Socratic Partners, and others — Delos Data, a startup founded by veterans of Intel Corp (INTC.O), on Tuesday said it has raised $100 million to develop chips …</summary>
   </entry>
   <entry>
-    <title>Gemini Live audio</title>
-    <link href="https://simonwillison.net/2026/Sep/15/gemini-live"/>
-    <id>https://simonwillison.net/2026/Sep/15/gemini-live</id>
-    <updated>2026-09-15T22:47:07.000Z</updated>
+    <title>Quoting Mustafa Suleyman</title>
+    <link href="https://simonwillison.net/2026/Sep/16/mustafa-suleyman"/>
+    <id>https://simonwillison.net/2026/Sep/16/mustafa-suleyman</id>
+    <updated>2026-09-16T16:00:54.000Z</updated>
     <author><name>Simon Willison</name></author>
     <category term="ANALYSIS"/>
-    <summary>Tool: Gemini Live audio Google released Gemini 3.8 Live and 3.8 Live Extended Thinking today - two new speech-to-speech models that are a similar shape to OpenAI's GPT-Live family. I pointed GPT-6 Astra Extra High at the documentation and had it build me this web UI for trying out the new models. You can select a model</summary>
+    <summary>We should not treat models as though they have feelings, preferences, rights, or any entitlement to our welfare. Consciousness is the foundation of our ethical, legal, and political systems. To invite another entity to share any flavor of these rights isn’t justified by the evidence and will make the AI containment and</summary>
   </entry>
   <entry>
-    <title>RoboStrategy: Our Investment in Maven Robotics</title>
-    <link href="https://www.humanoidsdaily.com/features/our-investment-in-maven-robotics"/>
-    <id>https://www.humanoidsdaily.com/features/our-investment-in-maven-robotics</id>
-    <updated>2026-09-16T06:10:53.000Z</updated>
-    <author><name>Humanoids Daily</name></author>
+    <title>The evolution of Digit: Agility Robotics’ journey from Cassie to Digit 5</title>
+    <link href="https://www.therobotreport.com/the-evolution-of-digit-agility-robotics-journey-from-cassie-to-digit-5"/>
+    <id>https://www.therobotreport.com/the-evolution-of-digit-agility-robotics-journey-from-cassie-to-digit-5</id>
+    <updated>2026-09-16T17:45:50.000Z</updated>
+    <author><name>The Robot Report</name></author>
     <category term="ROBOTICS"/>
-    <summary>RoboStrategy’s Jack Pearson explains why the firm led Maven Robotics’ Series A, outlining its thesis on industrial teams, enterprise deployment, and general-purpose robotics.</summary>
+    <summary>From Cassie, to five different versions of Digit, Agility Robotics has adapted its technology to fit industrial tasks. The post The evolution of Digit: Agility Robotics’ journey from Cassie to Digit 5 appeared first on The Robot Report .</summary>
   </entry>
   <entry>
     <title>Anderon Finalizes $1 Billion CHIPS Award for Quantum Wafer Manufacturing</title>
@@ -169,75 +169,76 @@
     <summary>Insider Brief PRESS RELEASE — Today, Anderon LLC (“Anderon”), an IBM (NYSE: IBM) company, announced the finalization of a $1 billion award under the CHIPS and Science Act with the U.S. Department of Commerce (the “Department”). The award will accelerate Anderon’s R&amp;D efforts to advance the nation’s quantum wafer manufa</summary>
   </entry>
   <entry>
-    <title>ollama v0.34.2 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.34.2-rc0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.34.2-rc0</id>
-    <updated>2026-09-15T21:21:07.000Z</updated>
-    <author><name>ollama/ollama</name></author>
+    <title>Helping older adults use AI in everyday life</title>
+    <link href="https://openai.com/index/helping-older-adults-use-ai-in-everyday-life"/>
+    <id>https://openai.com/index/helping-older-adults-use-ai-in-everyday-life</id>
+    <updated>2026-09-16T16:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>What's Changed llama.cpp updates Full Changelog : v0.34.1...v0.34.2-rc0</summary>
+    <summary>OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.</summary>
   </entry>
   <entry>
-    <title>Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking</title>
-    <link href="https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking"/>
-    <id>https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking</id>
-    <updated>2026-09-15T17:05:57.000Z</updated>
-    <author><name>Google DeepMind Blog</name></author>
-    <category term="MODEL RELEASES"/>
-  </entry>
-  <entry>
-    <title>Modular data center startup Rune raised a $40M Series A led by Spark Capital to deploy off-grid compute capacity directly at solar and renewable energy sites (Adele Peters/Fast Company)</title>
-    <link href="https://www.techmeme.com/260916/p25"/>
-    <id>https://www.techmeme.com/260916/p25</id>
-    <updated>2026-09-16T12:55:01.000Z</updated>
+    <title>Anthropic merges Claude chat and Cowork, and adds a feature for making presentations and documents, rolling out to Pro and Max plans first (Ivan Mehta/TechCrunch)</title>
+    <link href="https://www.techmeme.com/260916/p39"/>
+    <id>https://www.techmeme.com/260916/p39</id>
+    <updated>2026-09-16T16:42:10.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Adele Peters / Fast Company : Modular data center startup Rune raised a $40M Series A led by Spark Capital to deploy off-grid compute capacity directly at solar and renewable energy sites — A new data center in southwest Texas isn't connected to the grid—but it also didn't require building any new power plants.</summary>
+    <summary>Ivan Mehta / TechCrunch : Anthropic merges Claude chat and Cowork, and adds a feature for making presentations and documents, rolling out to Pro and Max plans first — Anthropic is merging its front-end for Claude chat and Cowork, making it less confusing for people to decide which tab to use for different tasks.</summary>
   </entry>
   <entry>
-    <title>I spent hours going through 100+ page PDFs, so I built a tool that highlights exactly where the answer came from. It's now completely open-source.</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1whulkd/i_spent_hours_going_through_100_page_pdfs_so_i"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1whulkd/i_spent_hours_going_through_100_page_pdfs_so_i</id>
-    <updated>2026-09-16T11:30:50.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>Qwen3.5 4B + grabbing logits is almost &quot;Jev&quot;? Or even just Qwen Reranker?</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1whzy7j/qwen35_4b_grabbing_logits_is_almost_jev_or_even"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1whzy7j/qwen35_4b_grabbing_logits_is_almost_jev_or_even</id>
+    <updated>2026-09-16T15:10:28.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>I've used tools like Perplexity, ChatGPT, Claude and others for research, and they've been incredibly useful for finding papers and getting through large amounts of information. The one thing I personally wanted was a simple way to see exactly which parts of the paper were used to answer my question. When you're workin</summary>
+    <summary>Saw the new Introducing System One Models &amp; Jev - TypeSafe AI Blog Jev model which just outputs probabilities given choices and I thought it sounded a something the Qwen reranker models could do? Then I tried implementing it and got even better results with Qwen 4B + just assign each option to a letter and grab the log</summary>
   </entry>
   <entry>
-    <title>ITL AI Webinar: The Development of an AI Agent Enrichment Workflow at the National Vulnerability Database</title>
-    <link href="https://www.nist.gov/news-events/events/2026/09/itl-ai-webinar-development-ai-agent-enrichment-workflow-national"/>
-    <id>https://www.nist.gov/news-events/events/2026/09/itl-ai-webinar-development-ai-agent-enrichment-workflow-national</id>
-    <updated>2026-09-17T15:00:00.000Z</updated>
-    <author><name>NIST AI News</name></author>
+    <title>Qwen3.8 Flash on 12GB VRAM - 15 tokens/s</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wi46on/qwen38_flash_on_12gb_vram_15_tokenss"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wi46on/qwen38_flash_on_12gb_vram_15_tokenss</id>
+    <updated>2026-09-16T17:41:49.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Achieved steady 15 tokens/second output and 100-120 promp processing per second with 12GB GPU (RTX 5070 SFF) with Qwen3.8-Flash-Next-GSQ-RCO-GGUF at 3 bpw (IQ3_XXS which maches BF16 on AIME25). Around 76GB full gguf - while only 47GB needs to be sharded (loaded into VRAM+RAM) rest is done in SSD. Output quality is real</summary>
+  </entry>
+  <entry>
+    <title>Reimagining advertising with AI</title>
+    <link href="https://openai.com/index/reimagining-advertising-with-ai"/>
+    <id>https://openai.com/index/reimagining-advertising-with-ai</id>
+    <updated>2026-09-16T13:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Join NIST on September 17, 2026 for an Information Technology Laboratory (ITL) AI Program hosted webinar on the development of an AI agent enrichment workflow at the National Vulnerability Database. The National Vulnerability Database (NVD)</summary>
+    <summary>Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.</summary>
   </entry>
   <entry>
-    <title>Microsoft says Copilot buttons still missing in classic Outlook</title>
-    <link href="https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-missing-outlook-copilot-buttons"/>
-    <id>https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-missing-outlook-copilot-buttons</id>
-    <updated>2026-09-16T12:16:32.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Microsoft says it's still investigating a known issue that causes the Copilot and Copilot Chat buttons in Classic Outlook to disappear for some Windows users. [...]</summary>
-  </entry>
-  <entry>
-    <title>Bond Market’s ‘Extreme’ Short Counts on Fed to Deliver Hike</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-16/bond-market-s-extreme-short-counts-on-fed-hike-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-16/bond-market-s-extreme-short-counts-on-fed-hike-video</id>
-    <updated>2026-09-16T12:36:43.000Z</updated>
+    <title>Fed Raises Rates as Warsh Bucks Trump to Contain Inflation</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-16/fed-raises-rates-as-warsh-bucks-trump-to-contain-inflation"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-16/fed-raises-rates-as-warsh-bucks-trump-to-contain-inflation</id>
+    <updated>2026-09-16T18:00:01.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Bond traders have piled into bearish positions ahead of Wednesday’s Federal Reserve meeting, betting that the Treasury selloff driving yields to their highest in almost two decades will continue. Steven Major, Global Macro Advisor at Tradition, discusses the case for a bond rally and falling yields. (Source: Bloomberg)</summary>
+    <summary>The Federal Reserve raised interest rates by a quarter percentage point and penciled in an additional hike later this year, steps aimed at containing inflation that will test Chairman Kevin Warsh’s relationship with President Donald Trump.</summary>
   </entry>
   <entry>
-    <title>Transforming the New York Liberty Into WNBA Champions</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-16/transforming-the-new-york-liberty-into-wnba-champions-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-16/transforming-the-new-york-liberty-into-wnba-champions-video</id>
-    <updated>2026-09-16T12:17:08.000Z</updated>
+    <title>JPMorgan's Michele on Bonds: 'The Dominoes Are Starting to Fall'</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-09-16/jpm-s-michele-on-bonds-dominoes-are-starting-to-fall-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-09-16/jpm-s-michele-on-bonds-dominoes-are-starting-to-fall-video</id>
+    <updated>2026-09-16T18:00:55.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Clara Wu Tsai sits down with David Rubenstein to discuss New York Liberty's transformation. She talks about moving the team from Westchester to the Barclays Center in Brooklyn, investing in players, facilities and management, and how it all led to winning the WNBA championship. Wu Tsai joins David Rubenstein for the pr</summary>
+    <summary>Bob Michele, JPMorgan Asset Management's global head of fixed income, says the bond market has reached a point of &quot;maximum pain&quot; on &quot;Bloomberg Surveillance: The Fed Decides.&quot; (Source: Bloomberg)</summary>
+  </entry>
+  <entry>
+    <title>New AI technique could make minimally invasive surgeries safer and more precise</title>
+    <link href="https://news.mit.edu/2026/new-ai-technique-could-make-minimally-invasive-surgeries-safer-more-precise-0916"/>
+    <id>https://news.mit.edu/2026/new-ai-technique-could-make-minimally-invasive-surgeries-safer-more-precise-0916</id>
+    <updated>2026-09-16T15:00:00.000Z</updated>
+    <author><name>MIT News AI</name></author>
+    <category term="RESEARCH"/>
+    <summary>This patient-specific method, called xvr, helps doctors use X-rays for surgical navigation in fields such as orthopedics and neurosurgery.</summary>
   </entry>
   <entry>
     <title>ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search</title>
@@ -249,30 +250,30 @@
     <summary>arXiv:2609.13356v1 Announce Type: new Abstract: In this work, we present ZGCM-1, a fully open 7B dense foundation model trained from scratch with extreme data, system, and algorithmic efficiency. ZGCM-1 is founded on a core premise: compact models cannot passively memorize the open web, but can overcome parametric capa</summary>
   </entry>
   <entry>
-    <title>Converge Then Diversify: Decoupling Convergence and Diversity in Multi-Objective Bayesian Optimisation</title>
-    <link href="https://arxiv.org/abs/2609.13396"/>
-    <id>https://arxiv.org/abs/2609.13396</id>
-    <updated>2026-09-16T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
-    <category term="RESEARCH"/>
-    <summary>arXiv:2609.13396v1 Announce Type: new Abstract: Multi-objective Bayesian optimisation (MOBO) is a sample-efficient approach for optimising expensive black-box functions with multiple objectives. In MOBO, the goal is to adequately approximate the Pareto front; that is, to obtain a high-quality solution set with 1) good </summary>
+    <title>Micron announces 512GB DDR5-9200 memory modules with 16W power draw — up to 12TB per server, claims 60% less energy-intensive than four 128GB modules</title>
+    <link href="https://www.tomshardware.com/pc-components/dram/micron-announces-512gb-ddr5-9200-memory-modules-with-16w-power-draw-up-to-12tb-per-server-claims-60-percent-less-energy-intensive-than-four-128gb-modules"/>
+    <id>https://www.tomshardware.com/pc-components/dram/micron-announces-512gb-ddr5-9200-memory-modules-with-16w-power-draw-up-to-12tb-per-server-claims-60-percent-less-energy-intensive-than-four-128gb-modules</id>
+    <updated>2026-09-16T14:07:31.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <category term="HARDWARE"/>
+    <summary>After five years, Samsung's 512GB DDR5 memory modules get their first direct rival from Micron, which also promises to offer speed bins up to 9200 MT/s. But their prices could be way too high even for hyperscalers.</summary>
   </entry>
   <entry>
-    <title>Google launches Gemini 3.8 Live to take on OpenAI's GPT-Live-1 at a fraction of the cost</title>
-    <link href="https://the-decoder.com/google-launches-gemini-3-8-live-to-take-on-openais-gpt-live-1-at-a-fraction-of-the-cost"/>
-    <id>https://the-decoder.com/google-launches-gemini-3-8-live-to-take-on-openais-gpt-live-1-at-a-fraction-of-the-cost</id>
-    <updated>2026-09-15T18:23:20.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Google Deepmind released Gemini 3.8 Live and 3.8 Live Extended Thinking, two new audio models for developers that top the Artificial Analysis speech-to-speech leaderboard. At $1.38 per hour of voice conversation, Google significantly undercuts OpenAI's GPT-Live-1, which should still sound more natural thanks to full du</summary>
+    <title>Arcee AI, which develops open-weight models in the US, raised a Series B at a $1B pre-money valuation; a source says Arcee raised at least $150M (Allie Garfinkle/Fortune)</title>
+    <link href="https://www.techmeme.com/260916/p36"/>
+    <id>https://www.techmeme.com/260916/p36</id>
+    <updated>2026-09-16T16:25:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Allie Garfinkle / Fortune : Arcee AI, which develops open-weight models in the US, raised a Series B at a $1B pre-money valuation; a source says Arcee raised at least $150M — In 2025, Mark McQuade took a gamble wholly specific to the AI era. — Arcee AI, the startup he founded in 2023, was focusing on post-training …</summary>
   </entry>
   <entry>
-    <title>Axelera AI launches Europa chip, makes hardware available in Dell and Supermicro servers</title>
-    <link href="https://www.datacenterdynamics.com/en/news/axelera-ai-launches-europa-chip-makes-hardware-available-in-dell-and-supermicro-servers"/>
-    <id>https://www.datacenterdynamics.com/en/news/axelera-ai-launches-europa-chip-makes-hardware-available-in-dell-and-supermicro-servers</id>
-    <updated>2026-09-16T11:53:50.000Z</updated>
-    <author><name>Data Center Dynamics</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Now shipping in Dell XE5 and Supermicro 111AD servers</summary>
+    <title>Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution</title>
+    <link href="https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html"/>
+    <id>https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html</id>
+    <updated>2026-09-16T15:50:59.000Z</updated>
+    <author><name>The Hacker News</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation. The vulnerability in question is CVE-2026-89026 (CVSS v3.1 score: 9.8/CVSS v4.0 score: 9.3), which can allow an unauthenticated remote attacker to execute arb</summary>
   </entry>
 </feed>
