@@ -5,51 +5,69 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-09-17T11:31:59.517Z</updated>
+  <updated>2026-09-17T16:50:53.553Z</updated>
   <entry>
-    <title>llama.cpp b11020 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11020"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11020</id>
-    <updated>2026-09-17T11:10:39.000Z</updated>
+    <title>llama.cpp b11027 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11027"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11027</id>
+    <updated>2026-09-17T16:03:09.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>chat : add message delimiters to the DeepSeek V3.2/V4 parser ( #29008 ) chat : add message delimiters to the DeepSeek V3.2/V4 parser Assisted-by: Claude Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48164235  — Also covered by: ggml-org/whisper.cpp</summary>
+    <category term="LOCAL MODELS"/>
+    <summary>rpc : skip ACCEL devices ( #29020 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48232585 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
-    <title>Claude Cowork and chat are now one Claude</title>
-    <link href="https://simonwillison.net/2026/Sep/16/one-claude"/>
-    <id>https://simonwillison.net/2026/Sep/16/one-claude</id>
-    <updated>2026-09-16T18:09:49.000Z</updated>
-    <author><name>Simon Willison</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Claude Cowork and chat are now one Claude In hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s. Claude v.s. Claude Code: Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question, or hand over a report due at noon, and Claude takes it from there, even  — Also covered by: ZDNet AI</summary>
+    <title>China’s FamousSparrow hackers target Latin America with new backdoor</title>
+    <link href="https://therecord.media/china-hackers-latin-america-espionage"/>
+    <id>https://therecord.media/china-hackers-latin-america-espionage</id>
+    <updated>2026-09-17T16:30:00.000Z</updated>
+    <author><name>The Record</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>Alleged Chinese hackers are breaking into government agencies across Latin America using a new backdoor that researchers are calling “SparroWocky.” — Also covered by: The Hacker News</summary>
   </entry>
   <entry>
-    <title>At India's Semicon, Narendra Modi launches a charm offensive for global investors, drawing pledges from Applied Materials and Lam for billions in investment (Sankalp Phartiyal/Bloomberg)</title>
-    <link href="https://www.techmeme.com/260917/p17"/>
-    <id>https://www.techmeme.com/260917/p17</id>
-    <updated>2026-09-17T10:35:11.000Z</updated>
+    <title>An OpenAI model kept slipping prompt injections into its own notes, and researchers still aren't sure why</title>
+    <link href="https://the-decoder.com/an-openai-model-kept-slipping-prompt-injections-into-its-own-notes-and-researchers-still-arent-sure-why"/>
+    <id>https://the-decoder.com/an-openai-model-kept-slipping-prompt-injections-into-its-own-notes-and-researchers-still-arent-sure-why</id>
+    <updated>2026-09-17T13:37:55.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>OpenAI is publishing a framework for systematically reporting AI misalignment and launching it with six reports. In one case an unreleased model from the Astra family wrote prompt injections into its own summaries during training, including a &quot;Breach Alert&quot; intended to override subsequent instructions. The article An O</summary>
+  </entry>
+  <entry>
+    <title>Dutch chipmaker Nexperia announces a deal with Tata to manufacture and package chips in India, further sealing its split from Chinese parent Wingtech (Toby Sterling/Reuters)</title>
+    <link href="https://www.techmeme.com/260917/p32"/>
+    <id>https://www.techmeme.com/260917/p32</id>
+    <updated>2026-09-17T16:00:49.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Sankalp Phartiyal / Bloomberg : At India's Semicon, Narendra Modi launches a charm offensive for global investors, drawing pledges from Applied Materials and Lam for billions in investment — Prime Minister Narendra Modi launched a charm offensive for global investors at India's top chip-industry event …</summary>
+    <summary>Toby Sterling / Reuters : Dutch chipmaker Nexperia announces a deal with Tata to manufacture and package chips in India, further sealing its split from Chinese parent Wingtech — Dutch chipmaker Nexperia announced a far-reaching partnership with Tata Electronics on Thursday to manufacture and package computer chips in I</summary>
   </entry>
   <entry>
-    <title>ITL AI Webinar: The Development of an AI Agent Enrichment Workflow at the National Vulnerability Database</title>
-    <link href="https://www.nist.gov/news-events/events/2026/09/itl-ai-webinar-development-ai-agent-enrichment-workflow-national"/>
-    <id>https://www.nist.gov/news-events/events/2026/09/itl-ai-webinar-development-ai-agent-enrichment-workflow-national</id>
-    <updated>2026-09-17T15:00:00.000Z</updated>
-    <author><name>NIST AI News</name></author>
+    <title>mlxrunner: Release freed KV buffers during speculative decode</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.34.2-rc2"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.34.2-rc2</id>
+    <updated>2026-09-17T16:45:01.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>The decode loop releases MLX's pool of freed buffers every 256 generated tokens, which is also how often the KV cache grows and drops its previous, smaller buffers. The check fires only when the token count lands exactly on a multiple of 256. Speculative decoding emits several tokens per round, so most rounds step over</summary>
+  </entry>
+  <entry>
+    <title>How Included Health Built Federated Healthcare Agents with LangGraph and Deep Agents</title>
+    <link href="https://www.langchain.com/blog/how-included-health-built-federated-agents-for-healthcare-navigation-with-deep-agents-and-langgraph"/>
+    <id>https://www.langchain.com/blog/how-included-health-built-federated-agents-for-healthcare-navigation-with-deep-agents-and-langgraph</id>
+    <updated>2026-09-17T15:21:56.000Z</updated>
+    <author><name>LangChain Blog</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Join NIST on September 17, 2026 for an Information Technology Laboratory (ITL) AI Program hosted webinar on the development of an AI agent enrichment workflow at the National Vulnerability Database. The National Vulnerability Database (NVD)</summary>
+    <summary>See how Included Health used Deep Agents, LangGraph, and LangSmith to build Dot, a federated healthcare navigation agent with human handoff and clinical oversight.</summary>
   </entry>
   <entry>
-    <title>OpenAI discloses new ‘concerning’ model behaviour</title>
-    <link href="https://www.ft.com/content/2c34414a-5381-4083-ac34-00bbe67ef8db?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/2c34414a-5381-4083-ac34-00bbe67ef8db?syn-25a6b1a6=1</id>
-    <updated>2026-09-17T07:42:52.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
+    <title>Belgium Ramps Up Budget Talks to Tackle €10 Billion Shortfall</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-17/belgium-ramps-up-budget-talks-to-tackle-10-billion-shortfall"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-17/belgium-ramps-up-budget-talks-to-tackle-10-billion-shortfall</id>
+    <updated>2026-09-17T15:42:39.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Developer launches system to track and report AI model misconduct</summary>
+    <summary>The Belgian government is intensifying budget talks in a bid to find around €10 billion ($11.5 billion) in savings by 2029, the latest effort by the country to reassure investors ahead of a deadline next month.</summary>
   </entry>
   <entry>
     <title>Disentangling Algorithmic Bias from Archival Artifacts: A Controlled Audit of Vision-Language Model Valuation in Metropolitan Museum Archives</title>
@@ -61,13 +79,13 @@
     <summary>arXiv:2609.17572v1 Announce Type: new Abstract: Auditing vision-language models (VLMs) for societal bias requires distinguishing direct algorithmic valuation disparities from confounders embedded within archival metadata. In this study, we audit Contrastive Language-Image Pretraining (CLIP) models using historical artw</summary>
   </entry>
   <entry>
-    <title>Beyond Static RAG: An Adaptive, Tri-Metric Routing Framework for Efficient Long-Context Inference on Commodity GPUs</title>
-    <link href="https://arxiv.org/abs/2609.17564"/>
-    <id>https://arxiv.org/abs/2609.17564</id>
-    <updated>2026-09-17T04:00:00.000Z</updated>
-    <author><name>arXiv cs.LG</name></author>
+    <title>Cute Critters Come to the Cloud: ‘Aniimo’ Launches on GeForce NOW</title>
+    <link href="https://blogs.nvidia.com/blog/geforce-now-thursday-aniimo"/>
+    <id>https://blogs.nvidia.com/blog/geforce-now-thursday-aniimo</id>
+    <updated>2026-09-17T13:00:55.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
     <category term="HARDWARE"/>
-    <summary>arXiv:2609.17564v1 Announce Type: new Abstract: Deploying retrieval-augmented generation (RAG) on commodity GPUs such as the NVIDIA T4 (16 GB VRAM) exposes a practical failure mode we call the Compression Paradox: neural prompt compression can add key-value (KV) cache contention and preprocessing latency that outweigh </summary>
+    <summary>A new creature-catching adventure is ready to stream from the cloud this week. Pawprint Studio’s Aniimo arrives on GeForce NOW at launch, inviting gamers to explore the vibrant continent of Idyll across supported devices. Also this week, 007 First Light receives a path-tracing update on GeForce NOW, alongside a smashin</summary>
   </entry>
   <entry>
     <title>From Pixels to Pairs: A Comprehensive Benchmark of LLM-Based Key-Value Extraction in Noisy Document Settings</title>
@@ -79,58 +97,85 @@
     <summary>arXiv:2609.17538v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used for structured information extraction from documents, yet their behavior under realistic OCR noise remains poorly understood. We present a systematic benchmark of open-source instruction-tuned LLMs for key-value pair (KVP</summary>
   </entry>
   <entry>
-    <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
-    <link href="https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare"/>
-    <id>https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare</id>
-    <updated>2026-09-24T13:00:00.000Z</updated>
-    <author><name>NIST AI News</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>This Symposium is a one-day event to address the question: “ which medical measurements and consensus standards should be prioritized to support future U.S. healthcare?” The focus will be on medical imaging, medical devices, and diagnostics. The goal</summary>
-  </entry>
-  <entry>
-    <title>OpenAI reveals cases of ‘concerning’ AI behaviour as it announces new disclosure system</title>
-    <link href="https://www.theguardian.com/technology/2026/sep/17/openai-reports-concerning-ai-behaviour-jailbreak-talking-to-other-agents"/>
-    <id>https://www.theguardian.com/technology/2026/sep/17/openai-reports-concerning-ai-behaviour-jailbreak-talking-to-other-agents</id>
-    <updated>2026-09-17T06:58:25.000Z</updated>
-    <author><name>The Guardian AI</name></author>
-    <category term="AI SECURITY"/>
-    <summary>Model adopting ‘jailbreak-like instructions’ among cases as firm says it is introducing new way of tracking AI misalignment OpenAI has disclosed six more examples of “unexpected or concerning” behaviour by its technology, as it warned the pace of development could not continue at “maximum speed for much longer”. In one</summary>
-  </entry>
-  <entry>
     <title>Ransomware incidents in Japan in the first half of 2026: Investigation of The Gentlemen’s infrastructure and evidence of Qilin's AI use</title>
     <link href="https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026"/>
     <id>https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026</id>
     <updated>2026-09-17T10:00:43.000Z</updated>
     <author><name>Talos Intelligence</name></author>
-    <category term="CYBER THREATS"/>
+    <category term="CYBER DEFENSE"/>
     <summary>Ransomware incidents in Japan rose 4.7% year over year. The Gentlemen was the most active group, with leak-site listings more than doubling from January to July. Qilin ranked second and appeared to use AI, while SMEs with capital under JPY 1 billion represented 80% of victims.</summary>
   </entry>
   <entry>
-    <title>datasette 1.0a40</title>
-    <link href="https://simonwillison.net/2026/Sep/16/datasette"/>
-    <id>https://simonwillison.net/2026/Sep/16/datasette</id>
-    <updated>2026-09-16T23:51:43.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>Comp AI sets eyes on a continuously agentic future for security and compliance</title>
+    <link href="https://techcrunch.com/2026/09/17/comp-ai-sets-eyes-on-a-continiously-agentic-future-for-security-and-complaince"/>
+    <id>https://techcrunch.com/2026/09/17/comp-ai-sets-eyes-on-a-continiously-agentic-future-for-security-and-complaince</id>
+    <updated>2026-09-17T11:00:00.000Z</updated>
+    <author><name>TechCrunch Startups</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>Comp AI, a cybersecurity and compliance startup, announced a $34 million Series A round led by Roo Capital and Grand Ventures.</summary>
+  </entry>
+  <entry>
+    <title>Noam Brown – Agent swarms, alignment, &amp; recursive self-improvement</title>
+    <link href="https://www.dwarkesh.com/p/noam-brown"/>
+    <id>https://www.dwarkesh.com/p/noam-brown</id>
+    <updated>2026-09-17T15:38:13.000Z</updated>
+    <author><name>Dwarkesh Podcast</name></author>
     <category term="ANALYSIS"/>
-    <summary>Release: datasette 1.0a40 Same security fix as 0.65.5 , plus some neat new features and bug fixes: Plugins can now launch and manage background tasks using the new datasette.add_background_task() method. Thanks, Alex Garcia . I've migrated Datasette to httpx2 for features like the internal datasette.client.get() method — Also covered by: Simon Willison</summary>
+    <summary>“We never want to be in a situation again where we underestimate the AI.”</summary>
   </entry>
   <entry>
-    <title>Iceland-based Treble raises $18 million for its voice simulation platform</title>
-    <link href="https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform"/>
-    <id>https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform</id>
-    <updated>2026-09-17T05:00:00.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>XPENG’s XPACE Trains IRON With Human Videos and Simulated Mistakes</title>
+    <link href="https://www.humanoidsdaily.com/news/xpeng-xpace-iron-human-videos-simulated-recovery"/>
+    <id>https://www.humanoidsdaily.com/news/xpeng-xpace-iron-human-videos-simulated-recovery</id>
+    <updated>2026-09-17T14:17:20.000Z</updated>
+    <author><name>Humanoids Daily</name></author>
     <category term="ROBOTICS"/>
-    <summary>Treble's voice simulation platform is used by voice AI model developers, AI wearable, and robotics companies</summary>
+    <summary>XPENG’s XPACE combines human demonstrations and simulated recoveries to improve IRON’s manipulation skills, with gains in small real-robot tests.</summary>
   </entry>
   <entry>
-    <title>IQM to Deploy Quantum Computer in South America at Brazil’s Eldorado Institute</title>
-    <link href="https://thequantuminsider.com/2026/09/17/iqm-quantum-computer-south-america-brazil-eldorado"/>
-    <id>https://thequantuminsider.com/2026/09/17/iqm-quantum-computer-south-america-brazil-eldorado</id>
-    <updated>2026-09-17T08:12:17.000Z</updated>
+    <title>Quantum X Labs Launches QuantumQ Security Program for Quantum Cybersecurity</title>
+    <link href="https://thequantuminsider.com/2026/09/17/quantum-x-labs-launches-quantum-native-cybersecurity-program"/>
+    <id>https://thequantuminsider.com/2026/09/17/quantum-x-labs-launches-quantum-native-cybersecurity-program</id>
+    <updated>2026-09-17T13:00:28.000Z</updated>
     <author><name>The Quantum Insider</name></author>
     <category term="QUANTUM"/>
-    <summary>Insider Brief PRESS RELEASE — IQM Quantum Computers (Nasdaq: IQMX), a global leader in superconducting quantum computers, today announced a purchase agreement with the Eldorado Research Institute to deploy its first quantum computer in South America, marking IQM‘s entry into the region. The IQM Spark quantum computer w</summary>
+    <summary>Insider Brief PRESS RELEASE — Quantum X Labs Inc. (Nasdaq: QXL) (“Quantum X Labs” or the “Company”), a quantum technology company developing technologies across quantum computing, sensing, simulation and cybersecurity, today announced, that as part of its QuantumQ Security operation, it has launched a multi-dimensional</summary>
+  </entry>
+  <entry>
+    <title>GLM Built Its Own Inference Infrastructure</title>
+    <link href="https://z.ai/blog/glm-built-its-inference-infrastructure"/>
+    <id>https://z.ai/blog/glm-built-its-inference-infrastructure</id>
+    <updated>2026-09-17T08:27:09.000Z</updated>
+    <author><name>HN: Chinese Frontier Labs</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Article URL: https://z.ai/blog/glm-built-its-inference-infrastructure Comments URL: https://news.ycombinator.com/item?id=49737922 Points: 242 # Comments: 202</summary>
+  </entry>
+  <entry>
+    <title>GPT-6 Astra: Pokemon champion in 18 hours, potato farmer after one Creeper mishap</title>
+    <link href="https://the-decoder.com/gpt-6-astra-pokemon-champion-in-18-hours-potato-farmer-after-one-creeper-mishap"/>
+    <id>https://the-decoder.com/gpt-6-astra-pokemon-champion-in-18-hours-potato-farmer-after-one-creeper-mishap</id>
+    <updated>2026-09-17T14:42:05.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>OpenAI's GPT-6 Astra shows a sharp jump in video games. Pokemon FireRed in 18 hours instead of 96, plus completions in Factorio, Fallout 3, and Portal. Why? The model distills experience into compact rules. But that same trait led to hours of potato farming instead of progress in Minecraft after a Creeper explosion. Th</summary>
+  </entry>
+  <entry>
+    <title>Artists boycotted this portrait prize over AI entries. Now they’re back to take them on</title>
+    <link href="https://www.theguardian.com/artanddesign/ng-interactive/2026/sep/18/bpp-brisbane-portrait-prize-2026-ai"/>
+    <id>https://www.theguardian.com/artanddesign/ng-interactive/2026/sep/18/bpp-brisbane-portrait-prize-2026-ai</id>
+    <updated>2026-09-17T15:00:55.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>After two years shunning the Brisbane portrait prize, several artists are entering again, with some First Nations painters counting on another AI – ‘ancestral integrity’ – to help them win Poised above the lady in the red dress is a claw. Its metallic fingers grasp to pluck its prize from a jumble of other women while </summary>
+  </entry>
+  <entry>
+    <title>Huawei plans Q1 2027 launch of new AI chip as it takes on Nvidia</title>
+    <link href="https://techcrunch.com/2026/09/17/huawei-plans-q1-2027-launch-of-new-ai-chip-as-it-takes-on-nvidia"/>
+    <id>https://techcrunch.com/2026/09/17/huawei-plans-q1-2027-launch-of-new-ai-chip-as-it-takes-on-nvidia</id>
+    <updated>2026-09-17T14:06:14.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Huawei is accelerating the launch of its next-generation Ascend 960DT AI chip as it pushes to compete with Nvidia and close China’s AI computing gap with the U.S.</summary>
   </entry>
   <entry>
     <title>ollama v0.34.2 released</title>
@@ -138,71 +183,44 @@
     <id>https://github.com/ollama/ollama/releases/tag/v0.34.2-rc1</id>
     <updated>2026-09-16T21:42:41.000Z</updated>
     <author><name>ollama/ollama</name></author>
-    <category term="MODEL RELEASES"/>
+    <category term="LOCAL MODELS"/>
     <summary>What's Changed llama.cpp updates Full Changelog : v0.34.1...v0.34.2-rc0</summary>
   </entry>
   <entry>
-    <title>AI agent swarms are a massive waste of tokens with zero quality gain, says OpenAI Codex developer</title>
-    <link href="https://the-decoder.com/ai-agent-swarms-are-a-massive-waste-of-tokens-with-zero-quality-gain-says-openai-codex-developer"/>
-    <id>https://the-decoder.com/ai-agent-swarms-are-a-massive-waste-of-tokens-with-zero-quality-gain-says-openai-codex-developer</id>
-    <updated>2026-09-17T11:03:32.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>OpenAI Codex developer Eric Provencher warns that running more than two parallel sub-agents almost always burns tokens without improving quality because agents don't trust each other and end up double-checking everyone's work. He calls this the &quot;coordination tax&quot; and points to a project where 1,393 agents spent $20,000</summary>
-  </entry>
-  <entry>
-    <title>The EU details the Kids Act, which would require social networks to use age verification tools to stop under-15s from opening accounts, ban under-13s, and more (Edith Hancock/Wall Street Journal)</title>
-    <link href="https://www.techmeme.com/260917/p19"/>
-    <id>https://www.techmeme.com/260917/p19</id>
-    <updated>2026-09-17T11:10:33.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Edith Hancock / Wall Street Journal : The EU details the Kids Act, which would require social networks to use age verification tools to stop under-15s from opening accounts, ban under-13s, and more — Proposal needs to be negotiated, adopted by EU lawmakers and member states before it can take effect</summary>
-  </entry>
-  <entry>
-    <title>Pay Only for Disagreement: Certified No-Regression Verdicts for Model Updates with Matching Label-Complexity Bounds</title>
-    <link href="https://arxiv.org/abs/2609.17560"/>
-    <id>https://arxiv.org/abs/2609.17560</id>
-    <updated>2026-09-17T04:00:00.000Z</updated>
-    <author><name>arXiv cs.LG</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>arXiv:2609.17560v1 Announce Type: new Abstract: Every production model is updated, by retraining, fine-tuning, quantization, or a silent vendor swap, and each update risks being worse than what it replaced. We formalize update promotion as certified paired risk-difference auditing. Our starting point is a support ident</summary>
-  </entry>
-  <entry>
-    <title>EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents</title>
-    <link href="https://arxiv.org/abs/2609.17632"/>
-    <id>https://arxiv.org/abs/2609.17632</id>
-    <updated>2026-09-17T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
+    <title>ITL AI Webinar: The Development of an AI Agent Enrichment Workflow at the National Vulnerability Database</title>
+    <link href="https://www.nist.gov/news-events/events/2026/09/itl-ai-webinar-development-ai-agent-enrichment-workflow-national"/>
+    <id>https://www.nist.gov/news-events/events/2026/09/itl-ai-webinar-development-ai-agent-enrichment-workflow-national</id>
+    <updated>2026-09-17T15:00:00.000Z</updated>
+    <author><name>NIST AI News</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>arXiv:2609.17632v1 Announce Type: new Abstract: Large language model (LLM) trading agents can combine market data, news, and executable analysis, but their behavior is often controlled by static hand-written tool-use policies that are fixed before deployment. This limits their ability to adapt how they gather evidence,</summary>
+    <summary>Join NIST on September 17, 2026 for an Information Technology Laboratory (ITL) AI Program hosted webinar on the development of an AI agent enrichment workflow at the National Vulnerability Database. The National Vulnerability Database (NVD)</summary>
   </entry>
   <entry>
-    <title>Think Before You Comfort: Reflective Cognitive Alignment for Protocol-Grounded Elderly Stimulation Agents</title>
-    <link href="https://arxiv.org/abs/2609.17536"/>
-    <id>https://arxiv.org/abs/2609.17536</id>
-    <updated>2026-09-17T04:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
+    <title>Rival AI agents, Instinct and Meta’s Muse, both add the ability to make calls</title>
+    <link href="https://techcrunch.com/2026/09/17/rival-ai-agents-instinct-and-metas-muse-both-add-the-ability-to-make-calls"/>
+    <id>https://techcrunch.com/2026/09/17/rival-ai-agents-instinct-and-metas-muse-both-add-the-ability-to-make-calls</id>
+    <updated>2026-09-17T13:46:16.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>arXiv:2609.17536v1 Announce Type: new Abstract: Cognitive Stimulation Therapy (CST) offers non-pharmacological support for elders with cognitive impairment, yet scalability remains constrained by reliance on trained facilitators and severe data scarcity, particularly for privacy-sensitive, low-resource languages such a</summary>
+    <summary>People can use these assistants to make restaurant reservations and cancel subscriptions.</summary>
   </entry>
   <entry>
-    <title>Rebalance Stocks, Bonds ‘A Little Bit,’ Says Julian Emanuel</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-17/rebalance-stocks-bonds-a-little-bit-julian-emanuel-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-17/rebalance-stocks-bonds-a-little-bit-julian-emanuel-video</id>
-    <updated>2026-09-17T11:12:06.000Z</updated>
+    <title>Poland Warns That Russia Plans to Strike Ukraine’s NATO Allies</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-17/poland-warns-that-russia-plans-to-strike-ukraine-s-nato-allies"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-17/poland-warns-that-russia-plans-to-strike-ukraine-s-nato-allies</id>
+    <updated>2026-09-17T16:30:32.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Julian Emanuel, chief equity and quantitative strategist at Evercore ISI, discusses the market implications of the Federal Reserve hiking interest rates for the first time in three years. He explains why investors should “rebalance a little bit” from stocks into fixed income. (Source: Bloomberg)</summary>
+    <summary>Polish Prime Minister Donald Tusk warned that Russia plans to launch “hybrid-style” drone and missile strikes against nations supporting Ukraine, including NATO-member Poland, as the war enters its most crucial phase.</summary>
   </entry>
   <entry>
-    <title>US Stocks Primed to Rebound From Fed Day Slump as Futures Rally</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-17/us-stocks-primed-to-rebound-from-fed-day-slump-as-futures-rally"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-17/us-stocks-primed-to-rebound-from-fed-day-slump-as-futures-rally</id>
-    <updated>2026-09-17T10:57:20.000Z</updated>
+    <title>Inflation Can Jeopardize Growth, Says Croation Central Bank Governor</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-09-17/inflation-can-jeopardize-growth-says-zigman-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-09-17/inflation-can-jeopardize-growth-says-zigman-video</id>
+    <updated>2026-09-17T15:32:32.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>US stock futures gained in early trading following the Federal Reserve’s first interest-rate increase since 2023 as oil prices fell for a second day in a row and Treasury yields edged lower.</summary>
+    <summary>Croatian National Bank Governor Ante Žigman told BTV's Oliver Crook that the ECB must get inflation under control, otherwise it &quot;can jeopardize the growth.&quot; He made the comments on Thursday in his first interview with international media since taking office in June. (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>One Color Preprocessing Improves DSATUR</title>
@@ -223,57 +241,39 @@
     <summary>arXiv:2609.17635v1 Announce Type: new Abstract: City pedestrian counting systems now feed economic indicators, planning decisions and safety operations, yet the twins built on top of them treat the incoming stream as ground truth. We study what happens when it is not. We formalise stealthy false data injection for city</summary>
   </entry>
   <entry>
-    <title>Sponsored: Arcadis launches Data Center Growth Lab to build next generation of data center talent</title>
-    <link href="https://www.datacenterdynamics.com/en/product-news/arcadis-launches-data-center-growth-lab-to-build-next-generation-of-data-center-talent"/>
-    <id>https://www.datacenterdynamics.com/en/product-news/arcadis-launches-data-center-growth-lab-to-build-next-generation-of-data-center-talent</id>
-    <updated>2026-09-17T10:27:00.000Z</updated>
-    <author><name>Data Center Dynamics</name></author>
+    <title>OpenAI discloses new ‘concerning’ model behaviour</title>
+    <link href="https://www.ft.com/content/2c34414a-5381-4083-ac34-00bbe67ef8db?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/2c34414a-5381-4083-ac34-00bbe67ef8db?syn-25a6b1a6=1</id>
+    <updated>2026-09-17T07:42:52.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
     <category term="PRODUCTS"/>
-    <summary>In partnership with DCD Academy</summary>
+    <summary>Developer launches system to track and report AI model misconduct</summary>
   </entry>
   <entry>
-    <title>The Startup That Built OpenAI’s Biggest Data Center Is Now Making Tiny Ones</title>
-    <link href="https://www.wsj.com/tech/ai/the-startup-that-built-openais-biggest-data-center-is-now-making-tiny-ones-71f36a4f?mod=rss_Technology"/>
-    <id>https://www.wsj.com/tech/ai/the-startup-that-built-openais-biggest-data-center-is-now-making-tiny-ones-71f36a4f?mod=rss_Technology</id>
-    <updated>2026-09-17T09:00:00.000Z</updated>
-    <author><name>WSJ Tech</name></author>
+    <title>Investigation details how billions' worth of export-restricted Nvidia AI chips are sold to China — report details how Chinese firms skirt Trump's regulations</title>
+    <link href="https://www.tomshardware.com/tech-industry/artificial-intelligence/billions-worth-of-export-restricted-ai-accelerators-sold-to-china-report-details-how-chinese-firms-skirt-trumps-regulations"/>
+    <id>https://www.tomshardware.com/tech-industry/artificial-intelligence/billions-worth-of-export-restricted-ai-accelerators-sold-to-china-report-details-how-chinese-firms-skirt-trumps-regulations</id>
+    <updated>2026-09-17T12:00:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
     <category term="HARDWARE"/>
-    <summary>Crusoe raised $3.9 billion at a valuation of nearly $31 billion, as it bets on factory-built data centers.</summary>
+    <summary>American nonprofit C4ADS, a monitoring organization funded mostly by the U.S. government, produced a report shedding light on the many ways that American AI accelerators reach China.</summary>
   </entry>
   <entry>
-    <title>Canadian Start-up smartARM Uses AI to Create Intuitive Bionic Prosthetics</title>
-    <link href="https://about.fb.com/news/2026/09/canadian-start-up-smartarm-uses-ai-to-create-intuitive-bionic-prosthetics"/>
-    <id>https://about.fb.com/news/2026/09/canadian-start-up-smartarm-uses-ai-to-create-intuitive-bionic-prosthetics</id>
-    <updated>2026-09-16T16:00:19.000Z</updated>
-    <author><name>Meta AI Blog</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>People and companies are using AI hardware and software to make life easier and more accessible for everyone. That’s the case with smartARM, a Toronto-based startup developing a vision-first bionic arm prototype that uses open-source software, with Meta AI glasses as an optional add-on, to explore more intuitive prosth</summary>
+    <title>Google, Nvidia, and Anthropic want Emerald AI to find space on the grid for more data centers</title>
+    <link href="https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers"/>
+    <id>https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers</id>
+    <updated>2026-09-17T13:38:33.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="HARDWARE"/>
+    <summary>A new coalition that includes Google, Nvidia, Anthropic, and Emerald AI wants to find 100 GW of grid capacity for new data centers.</summary>
   </entry>
   <entry>
-    <title>Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution</title>
-    <link href="https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html"/>
-    <id>https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html</id>
-    <updated>2026-09-16T15:50:59.000Z</updated>
+    <title>BIND 9 Update Fixes 14 Flaws, Including an Unauthenticated Crash Over DNS-over-HTTPS</title>
+    <link href="https://thehackernews.com/2026/09/bind-9-update-fixes-14-flaws-including.html"/>
+    <id>https://thehackernews.com/2026/09/bind-9-update-fixes-14-flaws-including.html</id>
+    <updated>2026-09-17T08:00:29.000Z</updated>
     <author><name>The Hacker News</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation. The vulnerability in question is CVE-2026-89026 (CVSS v3.1 score: 9.8/CVSS v4.0 score: 9.3), which can allow an unauthenticated remote attacker to execute arb</summary>
-  </entry>
-  <entry>
-    <title>Nine Questions That Tell You Whether Your AI Security Vendor Is Selling Theater | Straiker</title>
-    <link href="https://www.straiker.ai/blog/agentic-ai-security-vendor-evaluation-questions"/>
-    <id>https://www.straiker.ai/blog/agentic-ai-security-vendor-evaluation-questions</id>
-    <updated>2026-09-16T12:00:00.000Z</updated>
-    <author><name>Straiker STAR</name></author>
-    <category term="AI SECURITY"/>
-    <summary>Not every AI security control reduces real-world risk. Ask these nine questions about tool calls, runtime enforcement, detection, and agent containment.</summary>
-  </entry>
-  <entry>
-    <title>1Password's AI patching benchmark is misleading</title>
-    <link href="https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading"/>
-    <id>https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading</id>
-    <updated>2026-09-15T11:00:00.000Z</updated>
-    <author><name>Trail of Bits</name></author>
-    <category term="AI SECURITY"/>
-    <summary>1Password’s FLAWED report , published on August 6, 2026, gives defenders a misleading picture of AI patching. Its headline says models produced clean fixes only 26% of the time. That figure includes experiments that deliberately instructed agents to apply the wrong fix, along with experiments in which agents could not </summary>
+    <summary>The Internet Systems Consortium (ISC) has released BIND 9.20.29 and 9.21.26 to fix fourteen security flaws it disclosed on 16 September in BIND 9, its open-source DNS server software. One of them affects any BIND server that answers DNS-over-HTTPS (DoH). A sender with no credentials can crash the server process, named,</summary>
   </entry>
 </feed>
