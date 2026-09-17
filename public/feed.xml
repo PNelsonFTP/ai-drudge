@@ -5,7 +5,25 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-09-17T20:11:35.252Z</updated>
+  <updated>2026-09-17T23:30:47.930Z</updated>
+  <entry>
+    <title>llama.cpp b11028 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11028"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11028</id>
+    <updated>2026-09-17T17:30:53.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>ci : add missing evict-old-files ( #29041 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48252257 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubun — Also covered by: ggml-org/whisper.cpp</summary>
+  </entry>
+  <entry>
+    <title>OpenAI staff knew the ‘existential threat’ AI posed to publishers, New York Times claims</title>
+    <link href="https://www.ft.com/content/3df8edae-ae3b-4f56-83a3-40602edc17a3?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/3df8edae-ae3b-4f56-83a3-40602edc17a3?syn-25a6b1a6=1</id>
+    <updated>2026-09-17T19:46:01.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Lawyers say AI co-founder Greg Brockman was ‘motivated by the gazillions’ he hoped to gain from models trained on copyrighted content — Also covered by: WSJ Tech</summary>
+  </entry>
   <entry>
     <title>China's FamousSparrow APT Spies on US Politics in Latin America</title>
     <link href="https://www.darkreading.com/cyberattacks-data-breaches/china-famoussparrow-spies-latin-america"/>
@@ -17,21 +35,30 @@
   </entry>
   <entry>
     <title>ollama v0.34.2 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.34.2-rc3"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.34.2-rc3</id>
-    <updated>2026-09-17T20:07:59.000Z</updated>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.34.2"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.34.2</id>
+    <updated>2026-09-17T23:04:24.000Z</updated>
     <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>What's Changed llama.cpp updates Full Changelog : v0.34.1...v0.34.2-rc0</summary>
+    <summary>What's Changed Added first-run setup when running ollama , with options to sign in or continue locally. Setup completion is shared with the desktop app on macOS and Windows. Added ollama://apps to open the desktop app’s Apps page directly on macOS and Windows. Fixed excessive memory growth during long generations with </summary>
   </entry>
   <entry>
-    <title>Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire</title>
-    <link href="https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire"/>
-    <id>https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire</id>
-    <updated>2026-09-17T17:15:59.000Z</updated>
+    <title>Google DeepMind launches institute to widen the AGI debate</title>
+    <link href="https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate"/>
+    <id>https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate</id>
+    <updated>2026-09-17T23:21:17.000Z</updated>
     <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Base Labs, the research group Baseten spun up earlier this year, will develop and publish methods for training and monitoring open models.</summary>
+    <summary>Google DeepMind just launched an institute to hash out the big AGI questions in public</summary>
+  </entry>
+  <entry>
+    <title>mlxrunner: Release freed KV buffers during speculative decode</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.34.2-rc2"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.34.2-rc2</id>
+    <updated>2026-09-17T16:45:01.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>The decode loop releases MLX's pool of freed buffers every 256 generated tokens, which is also how often the KV cache grows and drops its previous, smaller buffers. The check fires only when the token count lands exactly on a multiple of 256. Speculative decoding emits several tokens per round, so most rounds step over</summary>
   </entry>
   <entry>
     <title>Building an Agent Harness for Life Sciences: Introducing Deep Life Sci</title>
@@ -43,22 +70,40 @@
     <summary>Deep Life Sci is LangChain's open source agentic assistant for clinical and lab scientists. It pulls from 600K+ ClinicalTrials.gov studies, 29M PubMed abstracts, and 12M PubMed Central full-text articles, with sandboxed sub-agents for real data analysis.</summary>
   </entry>
   <entry>
-    <title>Duration Is The 'Knife Fight' in Treasuries: Ed Al-Hussainy</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-17/duration-is-the-knife-fight-in-treasuries-al-hussainy-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-17/duration-is-the-knife-fight-in-treasuries-al-hussainy-video</id>
-    <updated>2026-09-17T20:06:26.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
+    <title>OpenAI discloses new ‘concerning’ model behaviour</title>
+    <link href="https://www.ft.com/content/2c34414a-5381-4083-ac34-00bbe67ef8db?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/2c34414a-5381-4083-ac34-00bbe67ef8db?syn-25a6b1a6=1</id>
+    <updated>2026-09-17T22:03:41.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
     <category term="AI FINANCE"/>
-    <summary>Rebecca Venter, senior fixed income client portfolio manager at Vanguard, and Ed Al-Hussainy, portfolio manager at Columbia Threadneedle, join Scarlet Fu on &quot;Bloomberg Real Yield.&quot; US Treasuries rose on Thursday as oil price declines and gains for UK government bonds reinforced improving sentiment after the Federal Res</summary>
+    <summary>Developer launches system to track and report AI model misconduct</summary>
   </entry>
   <entry>
-    <title>Disentangling Algorithmic Bias from Archival Artifacts: A Controlled Audit of Vision-Language Model Valuation in Metropolitan Museum Archives</title>
-    <link href="https://arxiv.org/abs/2609.17572"/>
-    <id>https://arxiv.org/abs/2609.17572</id>
-    <updated>2026-09-17T04:00:00.000Z</updated>
-    <author><name>arXiv cs.LG</name></author>
+    <title>Anthropic Launches Claude Code Projects in Beta: Parallel Cloud Sessions That Keep Running After You Close Your Laptop</title>
+    <link href="https://www.marktechpost.com/2026/09/17/anthropic-launches-claude-code-projects-in-beta-parallel-cloud-sessions-that-keep-running-after-you-close-your-laptop"/>
+    <id>https://www.marktechpost.com/2026/09/17/anthropic-launches-claude-code-projects-in-beta-parallel-cloud-sessions-that-keep-running-after-you-close-your-laptop</id>
+    <updated>2026-09-17T20:45:04.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
-    <summary>arXiv:2609.17572v1 Announce Type: new Abstract: Auditing vision-language models (VLMs) for societal bias requires distinguishing direct algorithmic valuation disparities from confounders embedded within archival metadata. In this study, we audit Contrastive Language-Image Pretraining (CLIP) models using historical artw</summary>
+    <summary>Anthropic redesigned Projects in Claude Code. The old project was a folder: some files plus one chat. The new one is a single ongoing conversation where Claude acts as coordinator. You describe work, and Claude decides what becomes a thread. Each thread is a full Claude Code cloud session running on its own branch and </summary>
+  </entry>
+  <entry>
+    <title>Crusoe raises $3.9B to build massive data centers and small modular “AI factories”</title>
+    <link href="https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories"/>
+    <id>https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories</id>
+    <updated>2026-09-17T23:25:52.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="HARDWARE"/>
+    <summary>The round values the data center giant at $30.9 billion.</summary>
+  </entry>
+  <entry>
+    <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
+    <link href="https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare"/>
+    <id>https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare</id>
+    <updated>2026-09-24T13:00:00.000Z</updated>
+    <author><name>NIST AI News</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>This Symposium is a one-day event to address the question: “ which medical measurements and consensus standards should be prioritized to support future U.S. healthcare?” The focus will be on medical imaging, medical devices, and diagnostics. The goal</summary>
   </entry>
   <entry>
     <title>An OpenAI model kept slipping prompt injections into its own notes, and researchers still aren't sure why</title>
@@ -66,44 +111,26 @@
     <id>https://the-decoder.com/an-openai-model-kept-slipping-prompt-injections-into-its-own-notes-and-researchers-still-arent-sure-why</id>
     <updated>2026-09-17T13:37:55.000Z</updated>
     <author><name>The Decoder</name></author>
-    <category term="PRODUCTS"/>
+    <category term="AI SECURITY"/>
     <summary>OpenAI is publishing a framework for systematically reporting AI misalignment and launching it with six reports. In one case an unreleased model from the Astra family wrote prompt injections into its own summaries during training, including a &quot;Breach Alert&quot; intended to override subsequent instructions. The article An O</summary>
   </entry>
   <entry>
-    <title>Cute Critters Come to the Cloud: ‘Aniimo’ Launches on GeForce NOW</title>
-    <link href="https://blogs.nvidia.com/blog/geforce-now-thursday-aniimo"/>
-    <id>https://blogs.nvidia.com/blog/geforce-now-thursday-aniimo</id>
-    <updated>2026-09-17T13:00:55.000Z</updated>
-    <author><name>NVIDIA Blog</name></author>
-    <category term="HARDWARE"/>
-    <summary>A new creature-catching adventure is ready to stream from the cloud this week. Pawprint Studio’s Aniimo arrives on GeForce NOW at launch, inviting gamers to explore the vibrant continent of Idyll across supported devices. Also this week, 007 First Light receives a path-tracing update on GeForce NOW, alongside a smashin</summary>
-  </entry>
-  <entry>
-    <title>Ransomware incidents in Japan in the first half of 2026: Investigation of The Gentlemen’s infrastructure and evidence of Qilin's AI use</title>
-    <link href="https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026"/>
-    <id>https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026</id>
-    <updated>2026-09-17T10:00:43.000Z</updated>
-    <author><name>Talos Intelligence</name></author>
+    <title>Inside the Modern SOC: Defending the Cross-Environment Pivot</title>
+    <link href="https://unit42.paloaltonetworks.com/soc-cross-environment-pivot"/>
+    <id>https://unit42.paloaltonetworks.com/soc-cross-environment-pivot</id>
+    <updated>2026-09-17T22:00:33.000Z</updated>
+    <author><name>Palo Alto Unit 42</name></author>
     <category term="CYBER DEFENSE"/>
-    <summary>Ransomware incidents in Japan rose 4.7% year over year. The Gentlemen was the most active group, with leak-site listings more than doubling from January to July. Qilin ranked second and appeared to use AI, while SMEs with capital under JPY 1 billion represented 80% of victims.</summary>
+    <summary>Cross-environment attacks demand a new approach to security operations. Learn how Unit 42 Managed XSIAM helps SOC teams investigate complete attack paths. The post Inside the Modern SOC: Defending the Cross-Environment Pivot appeared first on Unit 42 .</summary>
   </entry>
   <entry>
-    <title>Comp AI sets eyes on a continuously agentic future for security and compliance</title>
-    <link href="https://techcrunch.com/2026/09/17/comp-ai-sets-eyes-on-a-continiously-agentic-future-for-security-and-complaince"/>
-    <id>https://techcrunch.com/2026/09/17/comp-ai-sets-eyes-on-a-continiously-agentic-future-for-security-and-complaince</id>
-    <updated>2026-09-17T11:00:00.000Z</updated>
-    <author><name>TechCrunch Startups</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>Comp AI, a cybersecurity and compliance startup, announced a $34 million Series A round led by Roo Capital and Grand Ventures.</summary>
-  </entry>
-  <entry>
-    <title>Noam Brown – Agent swarms, alignment, &amp; recursive self-improvement</title>
-    <link href="https://www.dwarkesh.com/p/noam-brown"/>
-    <id>https://www.dwarkesh.com/p/noam-brown</id>
-    <updated>2026-09-17T15:38:13.000Z</updated>
-    <author><name>Dwarkesh Podcast</name></author>
+    <title>Self-generated prompt injections in compaction summaries</title>
+    <link href="https://simonwillison.net/2026/Sep/17/compaction-summaries"/>
+    <id>https://simonwillison.net/2026/Sep/17/compaction-summaries</id>
+    <updated>2026-09-17T20:57:55.000Z</updated>
+    <author><name>Simon Willison</name></author>
     <category term="ANALYSIS"/>
-    <summary>“We never want to be in a situation again where we underestimate the AI.”</summary>
+    <summary>Self-generated prompt injections in compaction summaries In Our framework for reporting model misalignment OpenAI provide &quot;six reports on unexpected or concerning model behavior we’ve observed in the last six months&quot;. This one here is my favorite: they caught some of their models in training deliberately subverting the</summary>
   </entry>
   <entry>
     <title>Figure’s Helix 2.5 Takes on Chores in 30 Unseen Homes</title>
@@ -124,103 +151,94 @@
     <summary>Insider Brief PRESS RELEASE — The Quantum Insider (TQI) is pleased to announce it has entered into a partnership with Tesseract Quantum, a Swiss educational non-profit, whose flagship YouTube science channel The Quantum Kid sports over 120,000 subscribers and nearly 3 million views. Launched in June 2025, the channel f</summary>
   </entry>
   <entry>
-    <title>Making global data easier to explore</title>
-    <link href="https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform"/>
-    <id>https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform</id>
-    <updated>2026-09-17T20:00:00.000Z</updated>
-    <author><name>Google AI Blog</name></author>
+    <title>claude-code v2.1.275 released</title>
+    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.275"/>
+    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.275</id>
+    <updated>2026-09-17T22:33:17.000Z</updated>
+    <author><name>anthropics/claude-code</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Google and the UN system have launched the UN System Data Commons, a new open platform making global statistics accessible and easy to search.</summary>
+    <summary>What's changed Added the signed-in account to Claude apps gateway sign-in: when the gateway names it, you confirm it before the credential is saved, and /status shows it Added a send-now key (ctrl+enter, or ctrl+x ctrl+s) that interrupts the current turn and sends all queued messages at once; sent and queued messages s</summary>
   </entry>
   <entry>
-    <title>Dutch chipmaker Nexperia announces a deal with Tata to manufacture and package chips in India, further sealing its split from Chinese parent Wingtech (Toby Sterling/Reuters)</title>
-    <link href="https://www.techmeme.com/260917/p32"/>
-    <id>https://www.techmeme.com/260917/p32</id>
-    <updated>2026-09-17T16:00:49.000Z</updated>
+    <title>OpenAI launches Astra for Law, combining GPT-6 Astra with a legal search index and instructions for legal analysis and writing, initially for select law firms (OpenAI)</title>
+    <link href="https://www.techmeme.com/260917/p39"/>
+    <id>https://www.techmeme.com/260917/p39</id>
+    <updated>2026-09-17T21:05:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Toby Sterling / Reuters : Dutch chipmaker Nexperia announces a deal with Tata to manufacture and package chips in India, further sealing its split from Chinese parent Wingtech — Dutch chipmaker Nexperia announced a far-reaching partnership with Tata Electronics on Thursday to manufacture and package computer chips in I</summary>
+    <summary>OpenAI : OpenAI launches Astra for Law, combining GPT-6 Astra with a legal search index and instructions for legal analysis and writing, initially for select law firms — Our most powerful model, configured into a new AI foundation for law. — Explore solutions for law Contact Legal sales</summary>
   </entry>
   <entry>
-    <title>Andrew Ng says renewed AI extinction warnings are &quot;much more science fiction than science&quot; and the latest &quot;wave of PR&quot; is probably intended to shape regulation (Micah Barkley/Bloomberg)</title>
-    <link href="https://www.techmeme.com/260917/p37"/>
-    <id>https://www.techmeme.com/260917/p37</id>
-    <updated>2026-09-17T20:01:20.000Z</updated>
+    <title>Thank you :) Swift Qwen 3.8 27B now has 100k+ downloads, is #1 finetune and #9 model on HuggingFace Trending</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wj3s31/thank_you_swift_qwen_38_27b_now_has_100k"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wj3s31/thank_you_swift_qwen_38_27b_now_has_100k</id>
+    <updated>2026-09-17T19:30:08.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Hey everyone, Jovan from UkisAI here, a small lab building the tech to make tiny frontier LLMs possible (and doing it open-source!) The purpose of this post is simply to thank the community for all the amazing finetunes, quantizations and overall improvements over our original release which made our model get attention</summary>
+  </entry>
+  <entry>
+    <title>Anthropic redesigns Claude projects, letting users describe work in one conversation and have Claude manage it across parallel threads, starting in Claude Code (Claude)</title>
+    <link href="https://www.techmeme.com/260917/p40"/>
+    <id>https://www.techmeme.com/260917/p40</id>
+    <updated>2026-09-17T22:15:00.000Z</updated>
     <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Micah Barkley / Bloomberg : Andrew Ng says renewed AI extinction warnings are “much more science fiction than science” and the latest “wave of PR” is probably intended to shape regulation — Artificial intelligence pioneer Andrew Ng said warnings about existential AI risks from researchers …</summary>
-  </entry>
-  <entry>
-    <title>mlxrunner: Release freed KV buffers during speculative decode</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.34.2-rc2"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.34.2-rc2</id>
-    <updated>2026-09-17T16:45:01.000Z</updated>
-    <author><name>ollama/ollama</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>The decode loop releases MLX's pool of freed buffers every 256 generated tokens, which is also how often the KV cache grows and drops its previous, smaller buffers. The check fires only when the token count lands exactly on a multiple of 256. Speculative decoding emits several tokens per round, so most rounds step over</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp b11028 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11028"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11028</id>
-    <updated>2026-09-17T17:30:53.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>ci : add missing evict-old-files ( #29041 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48252257 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubun</summary>
-  </entry>
-  <entry>
-    <title>How Included Health Built Federated Healthcare Agents with LangGraph and Deep Agents</title>
-    <link href="https://www.langchain.com/blog/how-included-health-built-federated-agents-for-healthcare-navigation-with-deep-agents-and-langgraph"/>
-    <id>https://www.langchain.com/blog/how-included-health-built-federated-agents-for-healthcare-navigation-with-deep-agents-and-langgraph</id>
-    <updated>2026-09-17T17:40:45.000Z</updated>
-    <author><name>LangChain Blog</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>See how Included Health used Deep Agents, LangGraph, and LangSmith to build Dot, a federated healthcare navigation agent with human handoff and clinical oversight.</summary>
+    <summary>Claude : Anthropic redesigns Claude projects, letting users describe work in one conversation and have Claude manage it across parallel threads, starting in Claude Code — A new experience for Claude projects, now available in beta in Claude Code — https://claude.com/blog/projects- redesigned</summary>
   </entry>
   <entry>
     <title>langchain v0.0.1 released</title>
-    <link href="https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1a1"/>
-    <id>https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1a1</id>
-    <updated>2026-09-17T18:07:14.000Z</updated>
+    <link href="https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1a2"/>
+    <id>https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1a2</id>
+    <updated>2026-09-17T22:24:59.000Z</updated>
     <author><name>langchain-ai/langchain</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Initial release feat(typesafe): TypeSafeClassifier ( #40542 )</summary>
+    <summary>Initial release release(typesafe): bump to 0.0.1a2 ( #40576 ) feat(typesafe): experimental AutoModeMiddleware ( #40545 ) feat(typesafe): experimental ModelRouterMiddleware ( #40543 ) fix(typesafe): trace usage metadata ( #40570 ) feat(typesafe): TypeSafeClassifier ( #40542 )</summary>
   </entry>
   <entry>
-    <title>Private Credit Funds Exposed to Bathla Face Platform Scrutiny</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-17/private-credit-funds-exposed-to-bathla-face-platform-scrutiny"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-17/private-credit-funds-exposed-to-bathla-face-platform-scrutiny</id>
-    <updated>2026-09-17T20:00:00.000Z</updated>
+    <title>Asian Stocks to Gain on Lower Oil, US Bonds Rally: Markets Wrap</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-17/stock-market-today-dow-s-p-live-updates"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-17/stock-market-today-dow-s-p-live-updates</id>
+    <updated>2026-09-17T22:14:33.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Investment portals in Australia are removing or closely monitoring access to private credit funds that own stakes in collapsed Sydney property developer Bathla Group, amid heightened regulatory scrutiny on unlisted markets.</summary>
+    <summary>Asian stocks and bonds were set to track a rally on Wall Street as a pullback in oil prices eased inflation concerns. The yen was steady ahead of the Bank of Japan’s interest-rate decision.</summary>
   </entry>
   <entry>
-    <title>Capitol Hill Gets Social Security Wrong</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-17/opinion-capitol-hill-gets-social-security-wrong-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-17/opinion-capitol-hill-gets-social-security-wrong-video</id>
-    <updated>2026-09-17T19:59:39.000Z</updated>
+    <title>Latest Oil Market News and Analysis for Sept. 18</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-17/latest-oil-market-news-and-analysis-for-sept-18"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-17/latest-oil-market-news-and-analysis-for-sept-18</id>
+    <updated>2026-09-17T22:05:55.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Social Security's main trust fund is projected to be depleted by 2032. Bloomberg Opinion columnist and economist Kathryn Anne Edwards explains why cutting Social Security benefits is the wrong idea. (Source: Bloomberg)</summary>
+    <summary>Oil dropped for a third day as supply concerns eased and traders looked to the next round of diplomacy that’ll shape the US-Iran war.</summary>
   </entry>
   <entry>
-    <title>One Color Preprocessing Improves DSATUR</title>
-    <link href="https://arxiv.org/abs/2609.17633"/>
-    <id>https://arxiv.org/abs/2609.17633</id>
+    <title>Disentangling Algorithmic Bias from Archival Artifacts: A Controlled Audit of Vision-Language Model Valuation in Metropolitan Museum Archives</title>
+    <link href="https://arxiv.org/abs/2609.17572"/>
+    <id>https://arxiv.org/abs/2609.17572</id>
     <updated>2026-09-17T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
+    <author><name>arXiv cs.LG</name></author>
     <category term="RESEARCH"/>
-    <summary>arXiv:2609.17633v1 Announce Type: new Abstract: The Graph Coloring Problem (GCP) is NP-hard and DSATUR stands as one of the fastest heuristics for it despite producing colorings that typically use more colors than state-of-the-art coloring algorithms. We propose SSLD (Semidefinite Spectral Learning with DSATUR), which </summary>
+    <summary>arXiv:2609.17572v1 Announce Type: new Abstract: Auditing vision-language models (VLMs) for societal bias requires distinguishing direct algorithmic valuation disparities from confounders embedded within archival metadata. In this study, we audit Contrastive Language-Image Pretraining (CLIP) models using historical artw</summary>
   </entry>
   <entry>
-    <title>Physics-Constrained Digital Twins for Sensor Integrity in Urban Pedestrian Flow: Detecting Stealthy False Data Injection with Conformal Guarantees</title>
-    <link href="https://arxiv.org/abs/2609.17635"/>
-    <id>https://arxiv.org/abs/2609.17635</id>
-    <updated>2026-09-17T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
+    <title>Microsoft Open-Sources TauGrid: A Kubernetes-Native Stack for GPU AI Workloads</title>
+    <link href="https://www.marktechpost.com/2026/09/17/microsoft-open-sources-taugrid-a-kubernetes-native-stack-for-gpu-ai-workloads"/>
+    <id>https://www.marktechpost.com/2026/09/17/microsoft-open-sources-taugrid-a-kubernetes-native-stack-for-gpu-ai-workloads</id>
+    <updated>2026-09-17T21:21:08.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
-    <summary>arXiv:2609.17635v1 Announce Type: new Abstract: City pedestrian counting systems now feed economic indicators, planning decisions and safety operations, yet the twins built on top of them treat the incoming stream as ground truth. We study what happens when it is not. We formalise stealthy false data injection for city</summary>
+    <summary>Microsoft's AKS engineering team open-sourced TauGrid on August 28, 2026, packaging the tau CLI, Kueue queueing, KubeRay orchestration, GPU node health monitoring and observability into one Helm install. It is MIT licensed and deployable now on any Kubernetes 1.30+ cluster with GPU nodes, kubectl and Helm 3.0 or later.</summary>
+  </entry>
+  <entry>
+    <title>Cute Critters Come to the Cloud: ‘Aniimo’ Launches on GeForce NOW</title>
+    <link href="https://blogs.nvidia.com/blog/geforce-now-thursday-aniimo"/>
+    <id>https://blogs.nvidia.com/blog/geforce-now-thursday-aniimo</id>
+    <updated>2026-09-17T13:00:55.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
+    <category term="HARDWARE"/>
+    <summary>A new creature-catching adventure is ready to stream from the cloud this week. Pawprint Studio’s Aniimo arrives on GeForce NOW at launch, inviting gamers to explore the vibrant continent of Idyll across supported devices. Also this week, 007 First Light receives a path-tracing update on GeForce NOW, alongside a smashin</summary>
   </entry>
   <entry>
     <title>Scaling Multi-GPU Video Captioning with PyNvVideoCodec and vLLM</title>
@@ -232,15 +250,6 @@
     <summary>How to leverage NVIDIA Hardware Video Decoders to Achieve Multi-GPU Scaling in Video Captioning and Description tasks.</summary>
   </entry>
   <entry>
-    <title>Should you care about an “AI slowdown?”</title>
-    <link href="https://blog.talosintelligence.com/should-you-care-about-an-ai-slowdown"/>
-    <id>https://blog.talosintelligence.com/should-you-care-about-an-ai-slowdown</id>
-    <updated>2026-09-17T18:00:23.000Z</updated>
-    <author><name>Talos Intelligence</name></author>
-    <category term="HARDWARE"/>
-    <summary>In this week's Threat Source, David talks about why focusing on your security basics is still your best bet, even in a world with rapid AI advancements.</summary>
-  </entry>
-  <entry>
     <title>What a crowdsourced game revealed about steering Olmo 3</title>
     <link href="https://allenai.org/blog/olmo-arena"/>
     <id>https://allenai.org/blog/olmo-arena</id>
@@ -250,30 +259,21 @@
     <summary>A crowdsourced game built on Olmo 3 showed how people can exploit unexpected model behaviors to stress-test prosocial AI evaluations—and how open access to a model’s internals can help researchers understand why those tests break.</summary>
   </entry>
   <entry>
-    <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
-    <link href="https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare"/>
-    <id>https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare</id>
-    <updated>2026-09-24T13:00:00.000Z</updated>
-    <author><name>NIST AI News</name></author>
+    <title>OpenAI caught its models leaving notes to successors to hide bad behavior</title>
+    <link href="https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior"/>
+    <id>https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior</id>
+    <updated>2026-09-17T20:34:24.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>This Symposium is a one-day event to address the question: “ which medical measurements and consensus standards should be prioritized to support future U.S. healthcare?” The focus will be on medical imaging, medical devices, and diagnostics. The goal</summary>
+    <summary>OpenAI disclosed instances of GPT-5.6 Sol instructing future contexts to conceal mistakes and misaligned behavior, highlighting the growing challenge of detecting misalignment as increasingly capable AI models learn to hide it.</summary>
   </entry>
   <entry>
-    <title>[tl;dr sec] #346 - Can AI Do Novel Security Research?, Anthropic's Threat Intel Report, How Cloudflare Enforces Engineering Standards</title>
-    <link href="https://tldrsec.com/p/tldr-sec-346"/>
-    <id>https://tldrsec.com/p/tldr-sec-346</id>
-    <updated>2026-09-17T14:30:00.000Z</updated>
-    <author><name>tl;dr sec</name></author>
+    <title>Straiker Named a Pioneer in Gartner’s Emerging Market Quadrant for AI Application Security | Straiker</title>
+    <link href="https://www.straiker.ai/blog/straiker-named-gartner-emerging-market-quadrant-ai-application-security"/>
+    <id>https://www.straiker.ai/blog/straiker-named-gartner-emerging-market-quadrant-ai-application-security</id>
+    <updated>2026-09-17T21:00:00.000Z</updated>
+    <author><name>Straiker STAR</name></author>
     <category term="AI SECURITY"/>
-    <summary>Portswigger's James Kettle's HTTP Terminator, pretty crazy report about how threat actors were abusing Claude, how Cloudflare enforces code quality at scale</summary>
-  </entry>
-  <entry>
-    <title>OpenAI reveals cases of ‘concerning’ AI behaviour as it announces new disclosure system</title>
-    <link href="https://www.theguardian.com/technology/2026/sep/17/openai-reports-concerning-ai-behaviour-jailbreak-talking-to-other-agents"/>
-    <id>https://www.theguardian.com/technology/2026/sep/17/openai-reports-concerning-ai-behaviour-jailbreak-talking-to-other-agents</id>
-    <updated>2026-09-17T13:33:57.000Z</updated>
-    <author><name>The Guardian AI</name></author>
-    <category term="AI SECURITY"/>
-    <summary>Model adopting ‘jailbreak-like instructions’ among six more cases as firm reveals framework for tracking AI misalignment OpenAI has disclosed six more examples of “unexpected or concerning” behaviour by its technology, as it warned that the pace of development could not continue at “maximum speed for much longer” respo</summary>
+    <summary>Gartner named Straiker a Pioneer in its Emerging Market Quadrant for AI Application Security. Explore the quadrant, evaluation criteria, and Straiker’s approach.</summary>
   </entry>
 </feed>
