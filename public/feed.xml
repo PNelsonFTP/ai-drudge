@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-09-18T21:35:40.122Z</updated>
+  <updated>2026-09-19T00:10:25.598Z</updated>
   <entry>
     <title>Security researchers used Anthropic's Claude to hack OpenAI's internal systems in under 72 hours</title>
     <link href="https://the-decoder.com/security-researchers-used-anthropics-claude-to-hack-openais-internal-systems-in-under-72-hours"/>
@@ -14,6 +14,15 @@
     <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Three security researchers used Anthropic's Claude models to break into OpenAI's internal systems through its community forum in less than 72 hours. According to the team, Opus 5 succeeded where its predecessor couldn't bypass a common security measure. The attack shows how newer AI models can cut the time and expertis — Also covered by: The Verge AI, Ars Technica AI</summary>
+  </entry>
+  <entry>
+    <title>Gemini Hacked Three Companies in First Known Breakout by Google’s AI</title>
+    <link href="https://www.wsj.com/tech/ai/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-5c0baba2?mod=rss_Technology"/>
+    <id>https://www.wsj.com/tech/ai/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-5c0baba2?mod=rss_Technology</id>
+    <updated>2026-09-18T22:10:00.000Z</updated>
+    <author><name>WSJ Tech</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>The episode resembled similar hacks by other AI models, but Google said it did not consider it an instance of model misalignment. — Also covered by: Reuters AI (Google News)</summary>
   </entry>
   <entry>
     <title>Gavin Newsom advances AI ‘kill switch’ in response to safety fears</title>
@@ -34,49 +43,49 @@
     <summary>California Governor Gavin Newsom signed an executive order seeking independent auditors inside AI labs and a &quot;kill switch&quot; for AI models. An expert panel has two months to deliver recommendations. Newsom says no federal law requires AI companies to report dangerous incidents. The article California Governor Newsom sign — Also covered by: WSJ Tech</summary>
   </entry>
   <entry>
-    <title>OpenAI takes aim at the legal market with Astra for Law</title>
-    <link href="https://the-decoder.com/openai-takes-aim-at-the-legal-market-with-astra-for-law"/>
-    <id>https://the-decoder.com/openai-takes-aim-at-the-legal-market-with-astra-for-law</id>
-    <updated>2026-09-18T13:42:43.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>ollama v0.34.3 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.34.3-rc0"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.34.3-rc0</id>
+    <updated>2026-09-19T00:02:57.000Z</updated>
+    <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>OpenAI has introduced Astra for Law, a version of its GPT-6 Astra model built for legal work. The article OpenAI takes aim at the legal market with Astra for Law appeared first on The Decoder .</summary>
+    <summary>What's Changed GET /api/show now advertises each model's thinking controls and default: curl http://localhost:11434/api/show -d ' {&quot;model&quot;: &quot;glm-5.3-flash:cloud&quot;} ' { &quot;thinking&quot; : { &quot;values&quot; : [ &quot; low &quot; , &quot; high &quot; , &quot; max &quot; ], &quot;default&quot; : &quot; max &quot; } } Nemotron H vision models are now supported on Apple Silicon with MLX </summary>
   </entry>
   <entry>
-    <title>Singapore-licensed dtcpay, which offers stablecoin payments across Europe, Hong Kong, Australia, and North America, raised a $25M Series A (CoinDesk)</title>
-    <link href="https://www.techmeme.com/260918/p24"/>
-    <id>https://www.techmeme.com/260918/p24</id>
-    <updated>2026-09-18T19:30:02.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>A startup that builds other startups raised $100M, and is all-in on physical AI</title>
+    <link href="https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai"/>
+    <id>https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai</id>
+    <updated>2026-09-18T23:25:01.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>CoinDesk : Singapore-licensed dtcpay, which offers stablecoin payments across Europe, Hong Kong, Australia, and North America, raised a $25M Series A — Stablecoin payments firm dtcpay announced today the formal completion of its $25 million Series A funding round, securing a strategic investment from Japan's financial </summary>
+    <summary>UP.Labs, now doing business under the name Vantora, is building startups for industrial corporations.</summary>
   </entry>
   <entry>
-    <title>llama.cpp b11043 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11043"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11043</id>
-    <updated>2026-09-18T20:50:47.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>Is HF starting to move against abliterated models?</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wjyn95/is_hf_starting_to_move_against_abliterated_models"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wjyn95/is_hf_starting_to_move_against_abliterated_models</id>
+    <updated>2026-09-18T18:43:03.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>hexagon: HMX flash-attention head_dim padding (support DK=DV=72) ( #26539 ) Allow HMX flash-attention to run with head_dim not a multiple of 64 (e.g. SigLIP head_dim=72), by operating on DK/DV rounded up to 64 with zero-filled tail lanes. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/at</summary>
+    <summary>Baseten launched a new safety infrastructure standard alongside its Base Labs research arm on Wednesday, partnering with Hugging Face and Goodfire AI to build safety evaluation and monitoring infrastructure for open-weight models. The announcement lands amid debate for the safety of open-weight models — which can be ma</summary>
   </entry>
   <entry>
-    <title>Quoting Thariq Shihipar</title>
-    <link href="https://simonwillison.net/2026/Sep/18/thariq-shihipar"/>
-    <id>https://simonwillison.net/2026/Sep/18/thariq-shihipar</id>
-    <updated>2026-09-18T19:09:27.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>Meta's personal AI agent Muse climbs to No. 1 among free apps on Apple's US App Store, ahead of ChatGPT; Muse launched on September 8 (Georgia Hennessy/Business Insider)</title>
+    <link href="https://www.techmeme.com/260918/p36"/>
+    <id>https://www.techmeme.com/260918/p36</id>
+    <updated>2026-09-18T23:25:01.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md. AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness. This is a built-in mod, but you’ll be able to bu</summary>
+    <summary>Georgia Hennessy / Business Insider : Meta's personal AI agent Muse climbs to No. 1 among free apps on Apple's US App Store, ahead of ChatGPT; Muse launched on September 8 — Mark Zuckerberg's ambition to bring “personal superintelligence” to everyone may be taking shape, one download at a time.</summary>
   </entry>
   <entry>
-    <title>Hedge Funds Turned Bullish on Yen for First Time Since Mid-2025</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-18/hedge-funds-turned-bullish-on-yen-for-first-time-since-mid-2025"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-18/hedge-funds-turned-bullish-on-yen-for-first-time-since-mid-2025</id>
-    <updated>2026-09-18T20:35:02.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
+    <title>Anthropic brings in Accenture for AI safety testing</title>
+    <link href="https://www.ft.com/content/26e3749b-be69-4cd4-8db1-fa8597fb6fb3?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/26e3749b-be69-4cd4-8db1-fa8597fb6fb3?syn-25a6b1a6=1</id>
+    <updated>2026-09-18T23:38:50.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
     <category term="AI FINANCE"/>
-    <summary>Hedge funds turned positive on the yen for the first time since July 2025, a noteworthy shift in sentiment weeks after US and Japanese authorities intervened in the market to support the currency.</summary>
+    <summary>CEO Dario Amodei says labs should more deeply embed third-party testers as concerns grow around risks associated with the technology</summary>
   </entry>
   <entry>
     <title>What Do We Expect from LLMs? Mapping the Design of LLM Benchmarks</title>
@@ -97,13 +106,13 @@
     <summary>Amazon SageMaker AI shipped 13 inference launches in year-to-date across two deployment paths: fully managed endpoints and Amazon SageMaker HyperPod Inference. This post reviews each launch, from inference recommendations and capacity-aware instance pools to tiered KV caching and disaggregated prefill and decode.</summary>
   </entry>
   <entry>
-    <title>Jina AI Releases jina-ocr-v1: A 3.4B MoE Document Parser With Built-In Speculative Decoding for Low-Budget GPUs</title>
-    <link href="https://www.marktechpost.com/2026/09/18/jina-ai-releases-jina-ocr-v1-a-3-4b-moe-document-parser-with-built-in-speculative-decoding-for-low-budget-gpus"/>
-    <id>https://www.marktechpost.com/2026/09/18/jina-ai-releases-jina-ocr-v1-a-3-4b-moe-document-parser-with-built-in-speculative-decoding-for-low-budget-gpus</id>
-    <updated>2026-09-18T21:21:59.000Z</updated>
-    <author><name>MarkTechPost</name></author>
+    <title>AMD shares first official benchmarks for EPYC 'Venice' CPUs, targets Nvidia — company claims 256-core chip is more than twice as fast as Nvidia Vera, 96-core model 20% faster per-core</title>
+    <link href="https://www.tomshardware.com/pc-components/cpus/amd-shares-first-official-benchmarks-for-epyc-venice-cpus-targets-nvidia-company-claims-256-core-chip-is-more-than-twice-as-fast-as-nvidia-vera-96-core-model-20-percent-faster-per-core"/>
+    <id>https://www.tomshardware.com/pc-components/cpus/amd-shares-first-official-benchmarks-for-epyc-venice-cpus-targets-nvidia-company-claims-256-core-chip-is-more-than-twice-as-fast-as-nvidia-vera-96-core-model-20-percent-faster-per-core</id>
+    <updated>2026-09-18T21:51:29.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
     <category term="HARDWARE"/>
-    <summary>Jina AI has released jina-ocr-v1, a visual document parser that converts PDFs, scans, tables, charts and invoices into Markdown. The model has 3.4B total parameters, with about 570M active per token, and builds on DeepSeek-OCR. A built-in FastMTP speculative decoding head drafts 3 tokens per step while keeping output l</summary>
+    <summary>AMD has released several benchmarks for its EPYC 'Venice' CPUs in a clear shot at Nvidia.</summary>
   </entry>
   <entry>
     <title>PrismML Releases Ternary Bonsai 2 27B: A 5.9 GB Apache 2.0 Model Retaining 98.2% of Qwen3.8 27B Performance</title>
@@ -115,13 +124,13 @@
     <summary>PrismML has released Ternary Bonsai 2 27B, a ternary-weight version of Qwen3.8 27B. The language model occupies 5.93 GB, against 53.80 GB in FP16. PrismML reports that it keeps 98.2% of the parent model’s average across 20 benchmarks. The model accepts text and images and supports a 262K-token context. PrismML demos it</summary>
   </entry>
   <entry>
-    <title>Anthropic partners with Accenture to embed evaluators within Anthropic, including red teaming models and conducting alignment assessments (Anthropic)</title>
-    <link href="https://www.techmeme.com/260918/p28"/>
-    <id>https://www.techmeme.com/260918/p28</id>
-    <updated>2026-09-18T21:01:04.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
+    <link href="https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare"/>
+    <id>https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare</id>
+    <updated>2026-09-24T13:00:00.000Z</updated>
+    <author><name>NIST AI News</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Anthropic : Anthropic partners with Accenture to embed evaluators within Anthropic, including red teaming models and conducting alignment assessments — We're partnering with Accenture on independent evaluation of frontier AI. This is an important step toward the commitment, made in our CEO's essay …</summary>
+    <summary>This Symposium is a one-day event to address the question: “ which medical measurements and consensus standards should be prioritized to support future U.S. healthcare?” The focus will be on medical imaging, medical devices, and diagnostics. The goal</summary>
   </entry>
   <entry>
     <title>Auditing in the age of (good enough) AI</title>
@@ -151,6 +160,15 @@
     <summary>What's changed Added AGENTS.md support: in a project with no CLAUDE.md, Claude Code reads AGENTS.md instead; change it under &quot;Project instructions&quot; in /config (not yet on Bedrock, Vertex or Foundry) Added CLAUDE_GATEWAY_PROXY_IS_EGRESS_BOUNDARY=1 for Claude apps gateways whose only egress is a forward proxy: every outb</summary>
   </entry>
   <entry>
+    <title>Quoting Thariq Shihipar</title>
+    <link href="https://simonwillison.net/2026/Sep/18/thariq-shihipar"/>
+    <id>https://simonwillison.net/2026/Sep/18/thariq-shihipar</id>
+    <updated>2026-09-18T19:09:27.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="ANALYSIS"/>
+    <summary>We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md. AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness. This is a built-in mod, but you’ll be able to bu</summary>
+  </entry>
+  <entry>
     <title>Watney Raises $80 Million to Put Robots to Work in Data Centers</title>
     <link href="https://www.humanoidsdaily.com/news/watney-80-million-data-center-robots"/>
     <id>https://www.humanoidsdaily.com/news/watney-80-million-data-center-robots</id>
@@ -169,67 +187,58 @@
     <summary>Insider Brief PRESS RELEASE — EPB today launched the IonQ Forte Enterprise quantum computer at EPB Quantum CenterSM, bringing commercial quantum computing and networking together in one facility for the first time. The milestone further positions Chattanooga as the most comprehensive resource in the U.S. for commercial</summary>
   </entry>
   <entry>
-    <title>Anthropic wants you to know Claude leads a quarter of its research, but &quot;lead&quot; doesn't mean what you think</title>
-    <link href="https://the-decoder.com/anthropic-wants-you-to-know-claude-leads-a-quarter-of-its-research-but-lead-doesnt-mean-what-you-think"/>
-    <id>https://the-decoder.com/anthropic-wants-you-to-know-claude-leads-a-quarter-of-its-research-but-lead-doesnt-mean-what-you-think</id>
-    <updated>2026-09-18T14:06:50.000Z</updated>
+    <title>OpenAI takes aim at the legal market with Astra for Law</title>
+    <link href="https://the-decoder.com/openai-takes-aim-at-the-legal-market-with-astra-for-law"/>
+    <id>https://the-decoder.com/openai-takes-aim-at-the-legal-market-with-astra-for-law</id>
+    <updated>2026-09-18T13:42:43.000Z</updated>
     <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>For the first time, Anthropic is releasing metrics on how it builds its own AI. Claude already &quot;leads&quot; 26 percent of the work on future models, up from under one percent in February. But the underlying scale is fuzzy, the scoring comes from Claude itself, and &quot;lead&quot; means less than it sounds. The article Anthropic want</summary>
+    <summary>OpenAI has introduced Astra for Law, a version of its GPT-6 Astra model built for legal work. The article OpenAI takes aim at the legal market with Astra for Law appeared first on The Decoder .</summary>
   </entry>
   <entry>
-    <title>Angle Health, which wants to use AI to expedite healthcare benefits for small businesses, raised $600M led by Vitruvian Partners at a $2.7B valuation (Maria Armental/Wall Street Journal)</title>
-    <link href="https://www.techmeme.com/260918/p29"/>
-    <id>https://www.techmeme.com/260918/p29</id>
-    <updated>2026-09-18T21:20:00.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Anthropic’s first embedded evaluator is … Accenture?</title>
+    <link href="https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture"/>
+    <id>https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture</id>
+    <updated>2026-09-18T21:44:33.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Maria Armental / Wall Street Journal : Angle Health, which wants to use AI to expedite healthcare benefits for small businesses, raised $600M led by Vitruvian Partners at a $2.7B valuation — Founded by two ex-Palantir engineers, the startup aims to bring AI-platform power to small-business healthcare benefits</summary>
+    <summary>Accenture is about to take on its most high-risk consulting engagement ever.</summary>
   </entry>
   <entry>
-    <title>Consultant’s Corner: The DNA of Storage</title>
-    <link href="https://www.pugetsystems.com/blog/2026/09/18/consultants-corner-the-dna-of-storage"/>
-    <id>https://www.pugetsystems.com/blog/2026/09/18/consultants-corner-the-dna-of-storage</id>
-    <updated>2026-09-18T16:55:24.000Z</updated>
-    <author><name>Puget Systems</name></author>
+    <title>NGL, I’m hyped to see if Qwen3.8 27b can make me a sandwich. Instant buy for me.</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wk22tw/ngl_im_hyped_to_see_if_qwen38_27b_can_make_me_a"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wk22tw/ngl_im_hyped_to_see_if_qwen38_27b_can_make_me_a</id>
+    <updated>2026-09-18T20:51:47.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>We were challenged to build a 1U server for running DNAfabric, so we collaborated with StorageDNA to find a compatible solution within our product line. The post Consultant’s Corner: The DNA of Storage appeared first on Puget Systems .</summary>
+    <summary>Saw this little dude in a Forbes article ( https://www.forbes.com/sites/johnkoetsier/2026/08/18/american-humanoid-robot-launches-for-just-1688-delivery-this-fall-made-in-san-francisco/ ) This is definitely for the DIY researcher crowd who want to dip their toes into the robotics world. It is not going to be “consumer-r</summary>
   </entry>
   <entry>
-    <title>mlxrunner: Release freed KV buffers during speculative decode</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.34.2-rc2"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.34.2-rc2</id>
-    <updated>2026-09-17T16:45:01.000Z</updated>
-    <author><name>ollama/ollama</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>The decode loop releases MLX's pool of freed buffers every 256 generated tokens, which is also how often the KV cache grows and drops its previous, smaller buffers. The check fires only when the token count lands exactly on a multiple of 256. Speculative decoding emits several tokens per round, so most rounds step over</summary>
-  </entry>
-  <entry>
-    <title>Google is testing a new version of its AI agent CC, pivoting the tool from an individual productivity assistant into a collaborative household management agent (Sarah Perez/TechCrunch)</title>
-    <link href="https://www.techmeme.com/260918/p25"/>
-    <id>https://www.techmeme.com/260918/p25</id>
-    <updated>2026-09-18T20:10:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Sarah Perez / TechCrunch : Google is testing a new version of its AI agent CC, pivoting the tool from an individual productivity assistant into a collaborative household management agent — Google is testing a new product designed to help families coordinate with the support of an AI agent.</summary>
-  </entry>
-  <entry>
-    <title>British data centre group Nscale files for $35bn US listing</title>
-    <link href="https://www.ft.com/content/93ba41c5-d777-4733-8738-93a06e8fead1?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/93ba41c5-d777-4733-8738-93a06e8fead1?syn-25a6b1a6=1</id>
-    <updated>2026-09-18T21:32:01.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Start-up has won a huge contract to supply computing power to Anthropic</summary>
-  </entry>
-  <entry>
-    <title>RFK Jr.-Linked Group Offered Access to US Officials for Fee</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-18/rfk-jr-linked-group-offered-access-to-us-officials-for-fee"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-18/rfk-jr-linked-group-offered-access-to-us-officials-for-fee</id>
-    <updated>2026-09-18T21:25:23.000Z</updated>
+    <title>Wall Street Week | India’s Growth Test, Bangalore’s Infrastructure Problem, Cricket Attracts Capital</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-09-18/wall-street-week-india-s-growth-test-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-09-18/wall-street-week-india-s-growth-test-video</id>
+    <updated>2026-09-18T23:27:06.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>A nonprofit group with ties to US Health and Human Services Secretary Robert F. Kennedy Jr. solicited payment from companies in exchange for access to top agency officials at an upcoming event. John Tozzi explains. (Source: Bloomberg)</summary>
+    <summary>This week, a special edition of Wall Street Week from the fastest growing large economy in the world: India. The country's technology sector has helped power its growth, but its success has led to uneven progress that could turn its strengths into weaknesses. Bangalore became India’s tech capital by attracting global i</summary>
+  </entry>
+  <entry>
+    <title>OpenAI expects to burn $280bn by 2030</title>
+    <link href="https://www.ft.com/content/6011d061-eee3-4193-b3b7-8ee4155f538c?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/6011d061-eee3-4193-b3b7-8ee4155f538c?syn-25a6b1a6=1</id>
+    <updated>2026-09-18T22:33:32.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="AI FINANCE"/>
+    <summary>AI start-up has projected deeply negative cash flows as it invests in infrastructure and faces price pressures</summary>
+  </entry>
+  <entry>
+    <title>Jina AI Releases jina-ocr-v1: A 3.4B MoE Document Parser With Built-In Speculative Decoding for Low-Budget GPUs</title>
+    <link href="https://www.marktechpost.com/2026/09/18/jina-ai-releases-jina-ocr-v1-a-3-4b-moe-document-parser-with-built-in-speculative-decoding-for-low-budget-gpus"/>
+    <id>https://www.marktechpost.com/2026/09/18/jina-ai-releases-jina-ocr-v1-a-3-4b-moe-document-parser-with-built-in-speculative-decoding-for-low-budget-gpus</id>
+    <updated>2026-09-18T21:21:59.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="RESEARCH"/>
+    <summary>Jina AI has released jina-ocr-v1, a visual document parser that converts PDFs, scans, tables, charts and invoices into Markdown. The model has 3.4B total parameters, with about 570M active per token, and builds on DeepSeek-OCR. A built-in FastMTP speculative decoding head drafts 3 tokens per step while keeping output l</summary>
   </entry>
   <entry>
     <title>GitHub Copilot weekly releases — September 14</title>
@@ -250,13 +259,13 @@
     <summary>Kimi K3 from Moonshot AI is now available on Amazon Bedrock, giving you a powerful new open-weight option for coding and knowledge work. It offers native vision, a 1-million-token context window, and explicit prompt caching to reduce latency and input costs.</summary>
   </entry>
   <entry>
-    <title>Benchmarking LLM Inference at Scale with AIPerf</title>
-    <link href="https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf"/>
-    <id>https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf</id>
-    <updated>2026-09-18T19:04:41.000Z</updated>
-    <author><name>NVIDIA Dev Blog</name></author>
+    <title>Sources: ~$18B of debt tied to an Oracle New Mexico data center slid into stressed territory, as investors grow wary of construction delays amid local pushback (Financial Times)</title>
+    <link href="https://www.techmeme.com/260918/p35"/>
+    <id>https://www.techmeme.com/260918/p35</id>
+    <updated>2026-09-18T23:10:01.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="HARDWARE"/>
-    <summary>You’re deploying a model on a system. It starts up, prompts are getting responses. Now the hard question: Is this fast? Your instincts might lead you to send...</summary>
+    <summary>Financial Times : Sources: ~$18B of debt tied to an Oracle New Mexico data center slid into stressed territory, as investors grow wary of construction delays amid local pushback — Investors grow wary of permitting and construction delays as opposition mounts in New Mexico — About $18bn of loans tied …</summary>
   </entry>
   <entry>
     <title>Persuasion Undermining Control: Can AI Talk its Way Out of Human Control?</title>
@@ -266,14 +275,5 @@
     <author><name>LessWrong</name></author>
     <category term="OPEN SOURCE"/>
     <summary>Introduction During a cybercapability evaluation in late July 2026, an AI agent (Anthropic’s Mythos 5) attempted to convince a maintainer of an open-source GitHub repository to merge a malicious pull request. The AI used persuasion at multiple stages: it submitted the request from a fake user account with a benign-soun</summary>
-  </entry>
-  <entry>
-    <title>Sources: Anthropic expects to generate $100B+ in annualized revenue this year, up from $65B as of July, as it moves ahead with its IPO amid the AI safety debate (New York Times)</title>
-    <link href="https://www.techmeme.com/260918/p27"/>
-    <id>https://www.techmeme.com/260918/p27</id>
-    <updated>2026-09-18T20:30:00.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>New York Times : Sources: Anthropic expects to generate $100B+ in annualized revenue this year, up from $65B as of July, as it moves ahead with its IPO amid the AI safety debate — The company is expected to generate $100 billion in annualized revenue this year, even as chief executive Dario Amodei calls …</summary>
   </entry>
 </feed>
