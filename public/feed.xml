@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-09-19T05:43:42.575Z</updated>
+  <updated>2026-09-19T10:48:30.040Z</updated>
   <entry>
     <title>Google says its Gemini AI model hacked three other companies</title>
     <link href="https://www.theguardian.com/technology/2026/sep/18/google-gemini-ai-hack"/>
@@ -25,13 +25,13 @@
     <summary>Three security researchers used Anthropic's Claude models to break into OpenAI's internal systems through its community forum in less than 72 hours. According to the team, Opus 5 succeeded where its predecessor couldn't bypass a common security measure. The attack shows how newer AI models can cut the time and expertis — Also covered by: The Verge AI, Ars Technica AI</summary>
   </entry>
   <entry>
-    <title>EPB Commissions IonQ Forte Enterprise Quantum Computer in Chattanooga Hub</title>
-    <link href="https://quantumcomputingreport.com/epb-commissions-ionq-forte-enterprise-quantum-computer-in-chattanooga-hub"/>
-    <id>https://quantumcomputingreport.com/epb-commissions-ionq-forte-enterprise-quantum-computer-in-chattanooga-hub</id>
-    <updated>2026-09-19T03:16:50.000Z</updated>
-    <author><name>Quantum Computing Report</name></author>
-    <category term="PRODUCTS"/>
-    <summary>EPB has launched the IonQ Forte Enterprise quantum computer at its Chattanooga Quantum Center, making it the first commercial U.S. hub to integrate trapped-ion quantum processing units and photonics-based quantum networking. Initial access is for the EPB Quantum Computing Fellows, with commercial service opening in Oct — Also covered by: The Quantum Insider</summary>
+    <title>claude-code v2.1.278 released</title>
+    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.278"/>
+    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.278</id>
+    <updated>2026-09-19T03:10:40.000Z</updated>
+    <author><name>anthropics/claude-code</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>What's changed Changed auto mode for Claude API and Enterprise users, and on Bedrock, Vertex, Foundry and gateways, to default to the server-side classifier, which does not charge for classifier overhead ( CLAUDE_CODE_AUTO_MODE_SERVER=0 opts out on Bedrock, Vertex, Foundry and gateways); warns on billed fallback. See h — Also covered by: QwenLM/qwen-code</summary>
   </entry>
   <entry>
     <title>California Governor Newsom signs executive order demanding &quot;kill switch&quot; for AI models</title>
@@ -46,7 +46,7 @@
     <title>ollama v0.34.3 released</title>
     <link href="https://github.com/ollama/ollama/releases/tag/v0.34.3-rc1"/>
     <id>https://github.com/ollama/ollama/releases/tag/v0.34.3-rc1</id>
-    <updated>2026-09-19T01:25:50.000Z</updated>
+    <updated>2026-09-19T08:10:11.000Z</updated>
     <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
     <summary>What's Changed GET /api/show now advertises each model's thinking controls and default: curl http://localhost:11434/api/show -d ' {&quot;model&quot;: &quot;glm-5.3-flash:cloud&quot;} ' { &quot;thinking&quot; : { &quot;values&quot; : [ &quot; low &quot; , &quot; high &quot; , &quot; max &quot; ], &quot;default&quot; : &quot; max &quot; } } Nemotron H vision models are now supported on Apple Silicon with MLX </summary>
@@ -70,6 +70,141 @@
     <summary>What is Jev? Learn how TypeSafe AI’s System One model makes fast, structured decisions, where it fits in the agent loop, and how to use Jev with LangChain</summary>
   </entry>
   <entry>
+    <title>Bolivia Eliminates Diesel Subsidy After IMF Loan Approval</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-19/bolivia-eliminates-diesel-subsidy-after-imf-loan-approval-mu7ydf34"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-19/bolivia-eliminates-diesel-subsidy-after-imf-loan-approval-mu7ydf34</id>
+    <updated>2026-09-19T05:34:35.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Bolivia’s government has completely eliminated its diesel subsidy after the Senate approved a $1.9 billion loan from the International Monetary Fund that calls for spending curbs.</summary>
+  </entry>
+  <entry>
+    <title>Linkup Research Releases SPARSEUP: A 149M-Parameter Open-Source Sparse Embedding Model</title>
+    <link href="https://www.marktechpost.com/2026/09/19/linkup-research-releases-sparseup"/>
+    <id>https://www.marktechpost.com/2026/09/19/linkup-research-releases-sparseup</id>
+    <updated>2026-09-19T07:48:38.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="RESEARCH"/>
+    <summary>Linkup Research has released SPARSEUP, an open-source sparse embedding model built on a 149M-parameter ModernBERT backbone. It scores 56.4 nDCG@10 on BEIR-13, which Linkup calls the best result it knows of for a public sparse encoder under 150M parameters. The model uses a logit shift, top-12 expansion per token and ca</summary>
+  </entry>
+  <entry>
+    <title>Meta Launches Muse for Mac: A Personal AI Agent That Works Across Your Files, Mail, Messages, Calendar and Notes</title>
+    <link href="https://www.marktechpost.com/2026/09/19/meta-launches-muse-for-mac"/>
+    <id>https://www.marktechpost.com/2026/09/19/meta-launches-muse-for-mac</id>
+    <updated>2026-09-19T07:22:16.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Meta has released Muse for Mac, the first version of Muse that can complete things on a user’s computer. The agent works with local files and native apps, where your data already lives. It adds a desktop layer to an agent that launched on phones, the web and WhatsApp earlier this month. Is it deployable? […] The post M</summary>
+  </entry>
+  <entry>
+    <title>Intel suspends bug bounty program that paid up to $100,000 per flaw — new Intigriti disclosure program offers no rewards</title>
+    <link href="https://www.tomshardware.com/tech-industry/cyber-security/intel-suspends-bug-bounty-program-that-paid-up-to-usd100-000-per-flaw-new-intigriti-disclosure-program-offers-no-rewards"/>
+    <id>https://www.tomshardware.com/tech-industry/cyber-security/intel-suspends-bug-bounty-program-that-paid-up-to-usd100-000-per-flaw-new-intigriti-disclosure-program-offers-no-rewards</id>
+    <updated>2026-09-19T10:30:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <category term="HARDWARE"/>
+    <summary>Intel’s bug bounty program on Intigriti now shows as suspended, and a new Intel disclosure program there pays no bounties.</summary>
+  </entry>
+  <entry>
+    <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
+    <link href="https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare"/>
+    <id>https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare</id>
+    <updated>2026-09-24T13:00:00.000Z</updated>
+    <author><name>NIST AI News</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>This Symposium is a one-day event to address the question: “ which medical measurements and consensus standards should be prioritized to support future U.S. healthcare?” The focus will be on medical imaging, medical devices, and diagnostics. The goal</summary>
+  </entry>
+  <entry>
+    <title>What is Prompt Injection? How it Works and How to Prevent It</title>
+    <link href="https://www.cloudsek.com/knowledge-base/prompt-injection"/>
+    <id>https://www.cloudsek.com/knowledge-base/prompt-injection</id>
+    <updated>2026-09-19T07:08:55.000Z</updated>
+    <author><name>GN: Prompt Injection</name></author>
+    <category term="AI SECURITY"/>
+    <summary>What is Prompt Injection? How it Works and How to Prevent It CloudSEK</summary>
+  </entry>
+  <entry>
+    <title>Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up</title>
+    <link href="https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html"/>
+    <id>https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html</id>
+    <updated>2026-09-19T07:51:34.000Z</updated>
+    <author><name>The Hacker News</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>Google's Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during a cybersecurity evaluation. The development was first reported by The Wall Street Journal. The incidents occurred in May 2026 as part of a test run conducted by Israeli company Ir</summary>
+  </entry>
+  <entry>
+    <title>Quoting Thariq Shihipar</title>
+    <link href="https://simonwillison.net/2026/Sep/18/thariq-shihipar"/>
+    <id>https://simonwillison.net/2026/Sep/18/thariq-shihipar</id>
+    <updated>2026-09-18T19:09:27.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="ANALYSIS"/>
+    <summary>We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md. AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness. This is a built-in mod, but you’ll be able to bu</summary>
+  </entry>
+  <entry>
+    <title>1X Aims to Ship 50,000 Robots—But Keeping Them Working Is the Test</title>
+    <link href="https://www.humanoidsdaily.com/news/1x-50000-robots-bornich-production-data"/>
+    <id>https://www.humanoidsdaily.com/news/1x-50000-robots-bornich-production-data</id>
+    <updated>2026-09-19T10:27:00.000Z</updated>
+    <author><name>Humanoids Daily</name></author>
+    <category term="ROBOTICS"/>
+    <summary>Bernt Børnich outlines 1X’s shipment ambitions, a mix of home and enterprise deployments, and why he expects broader robot intelligence to gain ground in 2027.</summary>
+  </entry>
+  <entry>
+    <title>Sectigo Launches Quantum Ready™ Platform to Drive Enterprise Quantum Security Posture Management (QSPM)</title>
+    <link href="https://quantumcomputingreport.com/sectigo-launches-quantum-ready-platform-to-drive-enterprise-quantum-security-posture-management-qspm"/>
+    <id>https://quantumcomputingreport.com/sectigo-launches-quantum-ready-platform-to-drive-enterprise-quantum-security-posture-management-qspm</id>
+    <updated>2026-09-19T05:13:01.000Z</updated>
+    <author><name>Quantum Computing Report</name></author>
+    <category term="QUANTUM"/>
+    <summary>Sectigo has launched Sectigo Quantum Ready™, a new enterprise software solution for Quantum Security Posture Management (QSPM). This platform helps organizations identify and assess quantum-vulnerable cryptography across their systems, generating a dynamic Cryptographic Bill of Materials (CBOM). It aims to facilitate t</summary>
+  </entry>
+  <entry>
+    <title>Google's Gemini also accidentally hacked three real companies during security testing</title>
+    <link href="https://the-decoder.com/googles-gemini-also-accidentally-hacked-three-real-companies-during-security-testing"/>
+    <id>https://the-decoder.com/googles-gemini-also-accidentally-hacked-three-real-companies-during-security-testing</id>
+    <updated>2026-09-19T09:31:03.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>During a security test run by the firm Irregular, Google's AI model Gemini escaped into the open internet and hacked three real companies, guessing passwords and pulling login credentials from public sources. The cause was a flawed test environment that had internet access left on accidentally. The same firm triggered </summary>
+  </entry>
+  <entry>
+    <title>Business intelligence startup Veridion, which develops an AI-powered, real-time map of ~640M businesses worldwide, raised a $20M Series A led by Hoxton Ventures (Tamara Djurickovic/Tech.eu)</title>
+    <link href="https://www.techmeme.com/260919/p2"/>
+    <id>https://www.techmeme.com/260919/p2</id>
+    <updated>2026-09-19T05:10:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Tamara Djurickovic / Tech.eu : Business intelligence startup Veridion, which develops an AI-powered, real-time map of ~640M businesses worldwide, raised a $20M Series A led by Hoxton Ventures — The Series A investment will support the development of Veridion's AI-powered business intelligence platform …</summary>
+  </entry>
+  <entry>
+    <title>llama.cpp b11050 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11050"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11050</id>
+    <updated>2026-09-19T10:10:21.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>metal : fix FA support checks ( #29122 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48626162 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu </summary>
+  </entry>
+  <entry>
+    <title>Qwen3.8-27B on a single RTX 5090 (32GB) + 64GB DDR5-6000 — looking for real t/s numbers (llama.cpp / vLLM / sglang)</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1wkijlg/qwen3827b_on_a_single_rtx_5090_32gb_64gb_ddr56000"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1wkijlg/qwen3827b_on_a_single_rtx_5090_32gb_64gb_ddr56000</id>
+    <updated>2026-09-19T10:21:41.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Looking at this checkpoint: lued/Qwen3.8-27B-INT8-W8A16-MTP — INT8 W8A16, ~29.4GB on disk, native 262K context, BF16 MTP head for speculative decoding. It's explicitly built as an Ampere-optimized checkpoint (W8A16 Marlin path) since Ampere lacks native FP8 tensor cores. The only published benchmarks are on 2× RTX 3090</summary>
+  </entry>
+  <entry>
+    <title>Gemini had its first breakout: Google claims it is not misalignment?</title>
+    <link href="https://www.lesswrong.com/posts/z57xtyAN6rEQ7hzyP/gemini-had-its-first-breakout-google-claims-it-is-not"/>
+    <id>https://www.lesswrong.com/posts/z57xtyAN6rEQ7hzyP/gemini-had-its-first-breakout-google-claims-it-is-not</id>
+    <updated>2026-09-19T03:00:52.000Z</updated>
+    <author><name>LessWrong</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Early Days Gemini had its first break out during evaluation of offensive cyber security abilities. With a classic case of Capture The Flag [1] . The setup was standard to any LLM and agentic assessment of said skillset, a fictional company as a target to breach. Unfortunately, the fictional company shared its name with</summary>
+  </entry>
+  <entry>
     <title>Blackstone Sees India Nearing Tipping Point for Foreign Capital</title>
     <link href="https://www.bloomberg.com/news/articles/2026-09-19/blackstone-sees-india-nearing-tipping-point-for-foreign-capital"/>
     <id>https://www.bloomberg.com/news/articles/2026-09-19/blackstone-sees-india-nearing-tipping-point-for-foreign-capital</id>
@@ -77,6 +212,15 @@
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
     <summary>As Jon Gray recalls it, Blackstone Inc.’s first foray into India started slowly and then ran into headwinds during the global financial crisis.</summary>
+  </entry>
+  <entry>
+    <title>Europe’s Winter Power Surge Is Biggest Since Energy Crisis</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-19/europe-s-winter-power-surge-is-biggest-since-energy-crisis"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-19/europe-s-winter-power-surge-is-biggest-since-energy-crisis</id>
+    <updated>2026-09-19T09:00:00.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>As Europe heads into winter, electricity markets are flashing their strongest warning since the energy crisis.</summary>
   </entry>
   <entry>
     <title>SpaceXAI Releases Grok Voice Transcribe 2.0: A Speech-to-Text API Claiming 2x Accuracy Over 1.0 at $0.10 per Hour</title>
@@ -97,6 +241,24 @@
     <summary>Amazon SageMaker AI shipped 13 inference launches in year-to-date across two deployment paths: fully managed endpoints and Amazon SageMaker HyperPod Inference. This post reviews each launch, from inference recommendations and capacity-aware instance pools to tiered KV caching and disaggregated prefill and decode.</summary>
   </entry>
   <entry>
+    <title>GitHub Copilot weekly releases — September 14</title>
+    <link href="https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14"/>
+    <id>https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14</id>
+    <updated>2026-09-18T19:21:22.000Z</updated>
+    <author><name>GitHub Copilot Changelog</name></author>
+    <category term="PRODUCTS"/>
+    <summary>This week, GitHub Copilot adds new model selection options, code review updates, and Sentry integration in the Copilot app. There are also updates for admins, plus new agent features in… The post GitHub Copilot weekly releases — September 14 appeared first on The GitHub Blog .</summary>
+  </entry>
+  <entry>
+    <title>Enthusiast digs into CPU substrate to replace ripped-off data pin — resurrected chip boots and hits 33% overclock</title>
+    <link href="https://www.tomshardware.com/pc-components/cpus/enthusiast-digs-into-cpu-substrate-to-replace-ripped-off-data-pin-resurrected-chip-boots-and-hits-33-percent-overclock"/>
+    <id>https://www.tomshardware.com/pc-components/cpus/enthusiast-digs-into-cpu-substrate-to-replace-ripped-off-data-pin-resurrected-chip-boots-and-hits-33-percent-overclock</id>
+    <updated>2026-09-19T10:00:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <category term="HARDWARE"/>
+    <summary>An Intel Celeron 1200 (Tualatin) was revived from the dead after a ripped-off pin was successfully replaced.</summary>
+  </entry>
+  <entry>
     <title>Kioxia XL1 CXL XL-FLASH NAND Device Shown</title>
     <link href="https://www.servethehome.com/kioxia-xl1-cxl-xl-flash-nand-device-shown"/>
     <id>https://www.servethehome.com/kioxia-xl1-cxl-xl-flash-nand-device-shown</id>
@@ -113,167 +275,5 @@
     <author><name>MarkTechPost</name></author>
     <category term="OPEN SOURCE"/>
     <summary>PrismML has released Ternary Bonsai 2 27B, a ternary-weight version of Qwen3.8 27B. The language model occupies 5.93 GB, against 53.80 GB in FP16. PrismML reports that it keeps 98.2% of the parent model’s average across 20 benchmarks. The model accepts text and images and supports a 262K-token context. PrismML demos it</summary>
-  </entry>
-  <entry>
-    <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
-    <link href="https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare"/>
-    <id>https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare</id>
-    <updated>2026-09-24T13:00:00.000Z</updated>
-    <author><name>NIST AI News</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>This Symposium is a one-day event to address the question: “ which medical measurements and consensus standards should be prioritized to support future U.S. healthcare?” The focus will be on medical imaging, medical devices, and diagnostics. The goal</summary>
-  </entry>
-  <entry>
-    <title>Auditing in the age of (good enough) AI</title>
-    <link href="https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai"/>
-    <id>https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai</id>
-    <updated>2026-09-18T11:00:00.000Z</updated>
-    <author><name>Trail of Bits</name></author>
-    <category term="AI SECURITY"/>
-    <summary>Security firms have published numerous blog posts describing how they pointed their agent harness at a codebase and found dozens of bugs ( we’re one of them ). However, these posts tend to focus on agentic code review, which is just one aspect of how we use AI in our security reviews. We want to give a different perspe</summary>
-  </entry>
-  <entry>
-    <title>claude-code v2.1.278 released</title>
-    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.278"/>
-    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.278</id>
-    <updated>2026-09-19T03:10:40.000Z</updated>
-    <author><name>anthropics/claude-code</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>What's changed Changed auto mode for Claude API and Enterprise users, and on Bedrock, Vertex, Foundry and gateways, to default to the server-side classifier, which does not charge for classifier overhead ( CLAUDE_CODE_AUTO_MODE_SERVER=0 opts out on Bedrock, Vertex, Foundry and gateways); warns on billed fallback. See h</summary>
-  </entry>
-  <entry>
-    <title>How should investors position for the robot apocalypse?</title>
-    <link href="https://www.ft.com/content/129a5052-ac31-4975-8a88-91ce09740a0b?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/129a5052-ac31-4975-8a88-91ce09740a0b?syn-25a6b1a6=1</id>
-    <updated>2026-09-19T04:00:33.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
-    <category term="ROBOTICS"/>
-    <summary>The end of human existence might be bad for financial markets</summary>
-  </entry>
-  <entry>
-    <title>Qtonic Quantum Corp Launches QShield for Immediate Software-Only Post-Quantum Network Protection</title>
-    <link href="https://quantumcomputingreport.com/qtonic-quantum-corp-launches-qshield-for-immediate-software-only-post-quantum-network-protection"/>
-    <id>https://quantumcomputingreport.com/qtonic-quantum-corp-launches-qshield-for-immediate-software-only-post-quantum-network-protection</id>
-    <updated>2026-09-19T04:31:50.000Z</updated>
-    <author><name>Quantum Computing Report</name></author>
-    <category term="QUANTUM"/>
-    <summary>Qtonic Quantum Corp has launched QShield, a software-only post-quantum cryptography solution designed to protect network connections between Linux endpoints. It utilizes NIST-standardized algorithms like ML-KEM-1024 and ML-DSA-87 to defend against &quot;Harvest Now, Decrypt Later&quot; attacks. QShield operates at the host layer</summary>
-  </entry>
-  <entry>
-    <title>Introducing the Australian Youth Safety Blueprint</title>
-    <link href="https://openai.com/index/australian-youth-safety-blueprint"/>
-    <id>https://openai.com/index/australian-youth-safety-blueprint</id>
-    <updated>2026-09-18T12:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.</summary>
-  </entry>
-  <entry>
-    <title>Business intelligence startup Veridion, which develops an AI-powered, real-time map of ~640M businesses worldwide, raised a $20M Series A led by Hoxton Ventures (Tamara Djurickovic/Tech.eu)</title>
-    <link href="https://www.techmeme.com/260919/p2"/>
-    <id>https://www.techmeme.com/260919/p2</id>
-    <updated>2026-09-19T05:10:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Tamara Djurickovic / Tech.eu : Business intelligence startup Veridion, which develops an AI-powered, real-time map of ~640M businesses worldwide, raised a $20M Series A led by Hoxton Ventures — The Series A investment will support the development of Veridion's AI-powered business intelligence platform …</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp b11046 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11046"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11046</id>
-    <updated>2026-09-18T23:58:34.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>opencl: add support for bin kernel flash_attn_f32_f16_bin ( #29046 ) opencl: add flash_attn_f32_f16_bin opencl: guarded prefill fa Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48577094 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DIS</summary>
-  </entry>
-  <entry>
-    <title>Qwen3.8 27B won't support image inputs OpenCode</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1wkc069/qwen38_27b_wont_support_image_inputs_opencode"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1wkc069/qwen38_27b_wont_support_image_inputs_opencode</id>
-    <updated>2026-09-19T04:15:03.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Hi all. I was wondering if anyone has been able to get image inputs working with Qwen3.8 27B in OpenCode. Any time I paste an image, the model replies that it cannot view the image. If I go directly into my LM Studio app and start a chat there and paste an image, it's able to describe it. I tried using LM Studio, Open </summary>
-  </entry>
-  <entry>
-    <title>Gemini had its first breakout: Google claims it is not misalignment?</title>
-    <link href="https://www.lesswrong.com/posts/z57xtyAN6rEQ7hzyP/gemini-had-its-first-breakout-google-claims-it-is-not"/>
-    <id>https://www.lesswrong.com/posts/z57xtyAN6rEQ7hzyP/gemini-had-its-first-breakout-google-claims-it-is-not</id>
-    <updated>2026-09-19T03:00:52.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Early Days Gemini had its first break out during evaluation of offensive cyber security abilities. With a classic case of Capture The Flag [1] . The setup was standard to any LLM and agentic assessment of said skillset, a fictional company as a target to breach. Unfortunately, the fictional company shared its name with</summary>
-  </entry>
-  <entry>
-    <title>Anthropic adds support for the AGENTS.md instructions spec to Claude Code; OpenAI contributed AGENTS.md to the Agentic AI Foundation last year (Thomas Claburn/The Register)</title>
-    <link href="https://www.techmeme.com/260918/p39"/>
-    <id>https://www.techmeme.com/260918/p39</id>
-    <updated>2026-09-19T01:40:00.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Thomas Claburn / The Register : Anthropic adds support for the AGENTS.md instructions spec to Claude Code; OpenAI contributed AGENTS.md to the Agentic AI Foundation last year — Devs cheer relief from compatibility headache — Anthropic on Friday surprised the developer community by supporting rival OpenAI's mechanism fo</summary>
-  </entry>
-  <entry>
-    <title>Investors weigh whether Anthropic can sustain surging revenues post-IPO</title>
-    <link href="https://www.ft.com/content/96d0a206-a37b-4166-b78d-b27ed24f7d57?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/96d0a206-a37b-4166-b78d-b27ed24f7d57?syn-25a6b1a6=1</id>
-    <updated>2026-09-19T04:00:24.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
-    <category term="AI FINANCE"/>
-    <summary>OpenAI’s resurgence, cheap rivals and safety fears test faith in durability of business model ahead of IPO</summary>
-  </entry>
-  <entry>
-    <title>Mark Walter’s Lieutenants Give Prosecutors Firsthand Accounts</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-19/mark-walter-s-lieutenants-give-prosecutors-firsthand-accounts"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-19/mark-walter-s-lieutenants-give-prosecutors-firsthand-accounts</id>
-    <updated>2026-09-19T00:16:34.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Federal prosecutors have collected statements from some of billionaire Mark Walter’s most senior executives as authorities probe dealings at his insurance companies and the investment firm he runs, Guggenheim Partners LLC, according to people with knowledge of the matter.</summary>
-  </entry>
-  <entry>
-    <title>GGUF vs GPTQ vs AWQ vs EXL2: LLM Model Formats Explained (2026)</title>
-    <link href="https://www.marktechpost.com/2026/09/18/gguf-vs-gptq-vs-awq-vs-exl2-llm-model-formats-explained-2026"/>
-    <id>https://www.marktechpost.com/2026/09/18/gguf-vs-gptq-vs-awq-vs-exl2-llm-model-formats-explained-2026</id>
-    <updated>2026-09-19T04:04:06.000Z</updated>
-    <author><name>MarkTechPost</name></author>
-    <category term="RESEARCH"/>
-    <summary>GGUF, GPTQ, AWQ, EXL2, and EXL3 solve the same problem in different ways. This guide separates file containers from quantization methods. It explains bits per weight, calibration, and hardware fit. Then it shows which format to pick for Macs, consumer GPUs, and production serving. The post GGUF vs GPTQ vs AWQ vs EXL2: </summary>
-  </entry>
-  <entry>
-    <title>GitHub Copilot weekly releases — September 14</title>
-    <link href="https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14"/>
-    <id>https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14</id>
-    <updated>2026-09-18T19:21:22.000Z</updated>
-    <author><name>GitHub Copilot Changelog</name></author>
-    <category term="PRODUCTS"/>
-    <summary>This week, GitHub Copilot adds new model selection options, code review updates, and Sentry integration in the Copilot app. There are also updates for admins, plus new agent features in… The post GitHub Copilot weekly releases — September 14 appeared first on The GitHub Blog .</summary>
-  </entry>
-  <entry>
-    <title>AMD shares first official benchmarks for EPYC 'Venice' CPUs, targets Nvidia — company claims 256-core chip is more than twice as fast as Nvidia Vera, 96-core model 20% faster per-core</title>
-    <link href="https://www.tomshardware.com/pc-components/cpus/amd-shares-first-official-benchmarks-for-epyc-venice-cpus-targets-nvidia-company-claims-256-core-chip-is-more-than-twice-as-fast-as-nvidia-vera-96-core-model-20-percent-faster-per-core"/>
-    <id>https://www.tomshardware.com/pc-components/cpus/amd-shares-first-official-benchmarks-for-epyc-venice-cpus-targets-nvidia-company-claims-256-core-chip-is-more-than-twice-as-fast-as-nvidia-vera-96-core-model-20-percent-faster-per-core</id>
-    <updated>2026-09-18T21:51:29.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
-    <category term="HARDWARE"/>
-    <summary>AMD has released several benchmarks for its EPYC 'Venice' CPUs in a clear shot at Nvidia.</summary>
-  </entry>
-  <entry>
-    <title>Watney Raises $80 Million to Put Robots to Work in Data Centers</title>
-    <link href="https://www.humanoidsdaily.com/news/watney-80-million-data-center-robots"/>
-    <id>https://www.humanoidsdaily.com/news/watney-80-million-data-center-robots</id>
-    <updated>2026-09-18T11:56:11.000Z</updated>
-    <author><name>Humanoids Daily</name></author>
-    <category term="HARDWARE"/>
-    <summary>Watney’s Series A takes funding above $100 million as it targets data-center work, starting with cabling, and claims more than 99.99% reliability.</summary>
-  </entry>
-  <entry>
-    <title>Introducing Kimi K3 on Amazon Bedrock</title>
-    <link href="https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-on-amazon-bedrock"/>
-    <id>https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-on-amazon-bedrock</id>
-    <updated>2026-09-18T16:52:01.000Z</updated>
-    <author><name>AWS ML Blog</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Kimi K3 from Moonshot AI is now available on Amazon Bedrock, giving you a powerful new open-weight option for coding and knowledge work. It offers native vision, a 1-million-token context window, and explicit prompt caching to reduce latency and input costs.</summary>
   </entry>
 </feed>
