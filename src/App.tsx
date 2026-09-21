@@ -243,6 +243,7 @@ export default function App() {
   return (
     <ReadStateContext.Provider value={readState}>
     <div className="min-h-full">
+      <div className="sticky-top">
       <Header
         theme={theme}
         onToggleTheme={toggleTheme}
@@ -258,8 +259,9 @@ export default function App() {
         onSearchChange={setSearch}
       />
       <StockTicker stocks={stocks} />
+      </div>
 
-      <main className="mx-auto max-w-[1400px] px-4 py-6">
+      <main className="desk">
         {error && (
           <div className="border border-[var(--siren)] text-[var(--siren)] p-4 mb-6">
             {error} — the site will retry on next visit.
@@ -312,9 +314,9 @@ export default function App() {
                     : "No headlines available right now."}
               </div>
             ) : (
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="news-columns">
                 {columns.map((col, i) => (
-                  <div key={i} className="space-y-6">
+                  <div key={i} className="news-col space-y-4">
                     {col.map((bucket) => (
                       <CategoryColumn
                         key={bucket.id}

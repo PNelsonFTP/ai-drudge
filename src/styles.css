@@ -1,130 +1,314 @@
 @import "tailwindcss";
 
-/* AI DRUDGE — Drudge-Report-style dense aggregator.
-   Dark mode is the default; .light on <html> flips to the light theme.
-   Tailwind v4 utility classes do most of the work; the rules below handle
-   the typographic personality and the headline/priority colors. */
+/* AI DRUDGE visual system, matched to XPND DRUDGE / First Trust.
+   Light is the default. html.dark / html.light switch the palette. */
 
 @layer base {
   :root {
-    --siren: #e50b0b;
-    --siren-dim: #b00808;
-    --accent: #1d4ed8;
-    --gold: #b8860b;
+    --font-sans: Arial, Helvetica, sans-serif;
+    --ft-navy: #2f4e75;
+    --ft-navy-dark: #243b5a;
+    --ft-navy-deep: #002f5d;
+    --ft-gold: #edc339;
+    --ft-orange: #f0902a;
+    --ft-blue: #00589f;
+    --siren: #cc0000;
+    --siren-dim: #8b0000;
+    --accent: #00589f;
+    --gold: #edc339;
+    --color-bg: #ffffff;
+    --color-surface: #f5f5f5;
+    --color-fg: #000000;
+    --color-muted: #5a6470;
+    --color-line: #bfbfbf;
+    --color-line-soft: #dcdcdc;
+    --color-link: #00589f;
+    --color-up: #007a3d;
+    --color-down: #cc0000;
+    --page-bg: #eeeeee;
+    --page-stripe: repeating-linear-gradient(
+      0deg,
+      #e8e8e8 0px,
+      #e8e8e8 1px,
+      #f3f3f3 1px,
+      #f3f3f3 3px
+    );
+    --shell-max: 1500px;
+    --silver-top: #f8f8f8;
+    --silver-bot: #cdcdcf;
+    --menu-top: #fdfdfd;
+    --menu-bot: #d8d7da;
   }
 
+  html.dark {
+    color-scheme: dark;
+    --color-bg: #0e1b2a;
+    --color-surface: #16273a;
+    --color-fg: #e8eef5;
+    --color-muted: #93a6b9;
+    --color-line: #2b425e;
+    --color-line-soft: #223549;
+    --color-link: #6fb3e8;
+    --color-up: #35c26b;
+    --color-down: #ff4d4d;
+    --siren: #ff4d4d;
+    --page-bg: #0a1522;
+    --page-stripe: repeating-linear-gradient(
+      0deg,
+      #0c1826 0px,
+      #0c1826 1px,
+      #101e2e 1px,
+      #101e2e 3px
+    );
+    --silver-top: #22374f;
+    --silver-bot: #16273a;
+    --menu-top: #1d3149;
+    --menu-bot: #142334;
+    --ft-navy-deep: #e8eef5;
+  }
+
+  html.light { color-scheme: light; }
+
   html, body, #root {
-    height: 100%;
+    min-height: 100%;
     margin: 0;
     padding: 0;
   }
 
-  html.dark {
-    background: #0a0a0a;
-    color: #e8e8e8;
-    color-scheme: dark;
-  }
-  html.light {
-    background: #f4f1ea;
-    color: #1a1a1a;
-    color-scheme: light;
-  }
-
   body {
-    font-family: ui-monospace, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    font-size: 14px;
+    background-color: var(--page-bg);
+    background-image: var(--page-stripe);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    font-size: 13px;
     line-height: 1.35;
-    -webkit-font-smoothing: antialiased;
   }
 
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
-    text-underline-offset: 2px;
-  }
+  a { color: var(--color-link); text-decoration: none; }
+  a:hover { text-decoration: underline; text-underline-offset: 2px; }
+  button { font: inherit; }
+  ::selection { background: var(--ft-navy); color: #fff; }
 }
 
 @layer components {
-  /* Masthead — Drudge's big red title */
-  .masthead {
-    font-family: ui-monospace, Menlo, Monaco, Consolas, monospace;
-    font-weight: 800;
-    letter-spacing: -0.02em;
-    line-height: 1;
+  .sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    background-color: var(--page-bg);
+    background-image: var(--page-stripe);
   }
 
-  /* Critical-priority headline — the Drudge "siren" red */
-  .headline-critical { color: var(--siren); font-weight: 700; }
-  .headline-high     { font-weight: 700; }
-  .headline-medium   { font-weight: 500; }
-  .headline-low      { font-weight: 400; opacity: 0.85; }
+  .header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+    max-width: var(--shell-max);
+    margin: 0 auto;
+    padding: 8px 12px 7px;
+    background: linear-gradient(180deg, var(--ft-navy) 0%, var(--ft-navy-dark) 100%);
+    border-bottom: 4px solid var(--ft-gold);
+    border-left: 1px solid var(--ft-navy-dark);
+    border-right: 1px solid var(--ft-navy-dark);
+  }
 
-  /* Source badge next to each headline */
-  .source-badge {
-    display: inline-block;
-    font-size: 10px;
-    font-weight: 600;
+  .masthead-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: none;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    text-align: left;
+  }
+
+  .logo {
+    font-weight: 700;
     letter-spacing: 0.04em;
-    padding: 1px 5px;
-    border: 1px solid currentColor;
-    border-radius: 2px;
-    opacity: 0.7;
-    vertical-align: middle;
-    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 1;
+    color: #fff;
   }
 
-  /* Category section heading — caps, underlined */
-  .section-heading {
-    font-weight: 800;
-    letter-spacing: 0.06em;
+  .logo .mark { color: var(--ft-gold); }
+
+  .tagline {
+    margin-top: 3px;
+    font-size: 10px;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
-    border-bottom: 2px solid var(--siren);
-    padding-bottom: 4px;
-    margin-bottom: 8px;
+    color: #c5d3e4;
+  }
+
+  .toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px;
+    justify-content: flex-end;
+  }
+
+  .tool-btn {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    padding: 3px 7px;
+    cursor: pointer;
+  }
+
+  .tool-btn:hover,
+  .tool-btn.active {
+    color: var(--ft-navy-dark);
+    background: var(--ft-gold);
+    border-color: var(--ft-gold);
+    text-decoration: none;
+  }
+
+  .tool-btn.stale { color: #ffb4b4; border-color: #ffb4b4; }
+
+  .control-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    max-width: var(--shell-max);
+    margin: 0 auto;
+    padding: 6px 12px;
+    background: linear-gradient(180deg, var(--menu-top) 0%, var(--menu-bot) 100%);
+    border: 1px solid var(--color-line);
+    border-top: 0;
+  }
+
+  .search-input {
+    flex: 1;
+    min-width: 180px;
+    background: #fff;
+    border: 1px solid #9aa4ae;
+    color: #000;
+    padding: 4px 8px;
+    font-family: inherit;
     font-size: 13px;
   }
 
-  /* Lead story in center column */
-  .lead-title {
-    font-family: ui-monospace, Menlo, Monaco, Consolas, monospace;
-    font-weight: 800;
-    font-size: 22px;
-    line-height: 1.15;
-    letter-spacing: -0.01em;
+  html.dark .search-input {
+    background: var(--color-bg);
+    color: var(--color-fg);
+    border-color: var(--color-line);
   }
 
-  /* Hover card */
+  .search-input:focus { outline: none; border-color: var(--ft-blue); }
+
+  .desk {
+    max-width: var(--shell-max);
+    margin: 0 auto 24px;
+    padding: 14px 14px 28px;
+    background: var(--color-bg);
+    border: 1px solid var(--color-line);
+    border-top: 0;
+  }
+
+  .ticker-bar {
+    max-width: var(--shell-max);
+    margin: 0 auto;
+    background: linear-gradient(180deg, var(--ft-navy) 0%, var(--ft-navy-dark) 100%);
+    color: #e8eef5;
+    border-left: 1px solid var(--ft-navy-dark);
+    border-right: 1px solid var(--ft-navy-dark);
+    font-size: 11px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .ticker-sym { color: var(--ft-gold); font-weight: 700; }
+  .ticker-up { color: #6ee7a0; }
+  .ticker-down { color: #ff8f8f; }
+  .ticker-flat { color: #c5d3e4; }
+
+  .section-heading {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    background: linear-gradient(180deg, var(--silver-top) 0%, var(--silver-bot) 100%);
+    border: 1px solid var(--color-line);
+    border-left: 4px solid var(--ft-navy);
+    border-bottom: 2px solid var(--ft-navy);
+    padding: 4px 8px;
+    margin: 0 0 8px;
+    font-size: 11.5px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--ft-navy-deep);
+  }
+
+  .lead-title {
+    font-weight: 700;
+    font-size: clamp(18px, 2.2vw, 25px);
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    color: var(--ft-navy-deep);
+  }
+
+  .lead-title.headline-critical { color: var(--siren); }
+
+  .headline-critical { color: var(--siren); font-weight: 700; }
+  .headline-high { font-weight: 700; color: var(--color-fg); }
+  .headline-medium { font-weight: 500; }
+  .headline-low { font-weight: 400; color: var(--color-muted); }
+
+  .source-badge {
+    display: inline-block;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    padding: 0 4px;
+    border: 1px solid var(--ft-navy);
+    color: var(--ft-navy-deep);
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+
+  html.dark .source-badge { color: var(--color-fg); border-color: var(--color-line); }
+
+  .panel {
+    margin-bottom: 16px;
+    padding: 0 0 8px;
+  }
+
+  .brief-box, .trend-box {
+    border: 1px solid var(--color-line);
+    background: var(--color-surface);
+    padding: 8px 10px 10px;
+    margin-bottom: 14px;
+  }
+
+  .brief-box .section-heading,
+  .trend-box .section-heading {
+    margin: -8px -10px 8px;
+    border-left-color: var(--ft-gold);
+  }
+
+  .trend-box .section-heading { border-left-color: var(--siren); }
+
   .hover-card {
     position: fixed;
     z-index: 50;
     width: 340px;
     max-width: calc(100vw - 32px);
-    border: 1px solid;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    border: 1px solid var(--color-line);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    background: var(--color-bg);
+    color: var(--color-fg);
   }
-  html.dark  .hover-card { background: #161616; border-color: #333; }
-  html.light .hover-card { background: #fffdf7; border-color: #c8bfa3; }
 
-  /* Stock ticker */
-  .ticker-bar {
-    font-size: 12px;
-    font-family: ui-monospace, Menlo, Monaco, Consolas, monospace;
-    background: #000;
-    color: #ddd;
-    border-top: 1px solid #222;
-    border-bottom: 1px solid #222;
-  }
-  .ticker-up   { color: #22c55e; }
-  .ticker-down { color: var(--siren); }
-  .ticker-flat { color: #999; }
-
-  /* "+N" badge on grouped stories */
   .related-badge {
     display: inline-block;
-    background: var(--accent);
+    background: var(--ft-navy);
     color: #fff;
     font-size: 10px;
     font-weight: 700;
@@ -134,22 +318,20 @@
     vertical-align: middle;
   }
 
-  /* Search input */
-  .search-input {
-    background: transparent;
-    border: 1px solid;
-    padding: 4px 8px;
-    font-family: inherit;
-    font-size: 13px;
-    width: 100%;
+  .news-columns {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin-top: 8px;
   }
-  html.dark  .search-input { border-color: #333; color: #e8e8e8; }
-  html.light .search-input { border-color: #999; color: #1a1a1a; }
-  .search-input:focus { outline: none; border-color: var(--accent); }
-}
 
-/* Scrollbar polish for dark mode */
-html.dark ::-webkit-scrollbar          { width: 10px; height: 10px; }
-html.dark ::-webkit-scrollbar-track    { background: #0a0a0a; }
-html.dark ::-webkit-scrollbar-thumb    { background: #2a2a2a; border-radius: 5px; }
-html.dark ::-webkit-scrollbar-thumb:hover { background: #3a3a3a; }
+  @media (min-width: 768px) {
+    .news-columns { grid-template-columns: repeat(3, 1fr); }
+    .news-col {
+      padding: 0 14px;
+      border-right: 1px solid var(--color-line-soft);
+    }
+    .news-col:first-child { padding-left: 0; }
+    .news-col:last-child { border-right: 0; padding-right: 0; }
+  }
+}

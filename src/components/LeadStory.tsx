@@ -10,7 +10,7 @@ interface LeadStoryProps {
 export function LeadStory({ article, onHover, onHoverEnd }: LeadStoryProps) {
   return (
     <section
-      className="text-center mb-6 pb-6 border-b border-current border-opacity-20"
+      className="panel mb-4 pb-3 border-b border-[var(--color-line)]"
       onMouseEnter={(e) => onHover(article, e)}
       onMouseLeave={onHoverEnd}
     >
@@ -18,11 +18,11 @@ export function LeadStory({ article, onHover, onHoverEnd }: LeadStoryProps) {
         href={article.url}
         target="_blank"
         rel="noreferrer noopener"
-        className="lead-title headline-critical inline-block"
+        className={`lead-title inline-block ${article.priority === "critical" ? "headline-critical" : ""}`}
       >
-        {article.title.toUpperCase()}
+        {article.title}
       </a>
-      <div className="flex items-center justify-center gap-3 mt-2 text-[11px] uppercase tracking-widest opacity-70">
+      <div className="flex items-center gap-3 mt-2 text-[11px] uppercase tracking-widest text-[var(--color-muted)]">
         <span className="source-badge">{article.source}</span>
         <span>{timeAgoDisplay(article.publishedAt)}</span>
       </div>

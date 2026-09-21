@@ -8,7 +8,7 @@ export function DailyBrief({ brief }: { brief: Brief | null }) {
   });
 
   return (
-    <section className="border border-current opacity-90 p-4 mb-6">
+    <section className="brief-box">
       <div className="flex items-baseline justify-between mb-2">
         <h2 className="section-heading" style={{ borderBottom: "none", marginBottom: 0 }}>
           DAILY BRIEF

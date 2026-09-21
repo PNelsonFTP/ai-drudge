@@ -11,7 +11,7 @@ export function Trending({ stories, onHover, onHoverEnd }: TrendingProps) {
   if (stories.length === 0) return null;
 
   return (
-    <section className="mb-6 p-4 border-2 border-[var(--siren)] bg-[var(--siren)]/[0.04]">
+    <section className="trend-box">
       <div className="flex items-baseline justify-between mb-3">
         <h2 className="section-heading" style={{ borderBottom: "none", marginBottom: 0 }}>
           ▶ TRENDING — covered by multiple outlets
