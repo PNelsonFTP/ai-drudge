@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-09-21T18:44:08.745Z</updated>
+  <updated>2026-09-21T18:50:16.103Z</updated>
   <entry>
-    <title>llama.cpp b11077 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11077"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11077</id>
-    <updated>2026-09-21T18:14:37.000Z</updated>
+    <title>llama.cpp b11078 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11078"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11078</id>
+    <updated>2026-09-21T18:50:00.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>server : do not forward --api-key-file to router-spawned child instances ( #28938 ) In router mode, authentication belongs to the router. unset_reserved_args() already unset LLAMA_API_KEY, but did not unset LLAMA_ARG_API_KEY_FILE. When --api-key-file was passed, children re-validated against file keys only, causing cli — Also covered by: run-llama/llama_index</summary>
+    <summary>args: add env vars for temperature, top-p, min-p and penalties ( #27380 ) Allow configuring --temp, --top-p, --min-p, --repeat-penalty, --presence-penalty and --frequency-penalty via LLAMA_ARG_* so llama-server can be fully controlled from an EnvironmentFile (e.g. systemd on Debian). Use llama-gen-docs to regenerate th — Also covered by: run-llama/llama_index</summary>
   </entry>
   <entry>
     <title>Building standards for the next phase of AI</title>
@@ -41,15 +41,6 @@
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
     <summary>OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.</summary>
-  </entry>
-  <entry>
-    <title>SoftBank Reportedly Agrees to Buy Marc Raibert’s Robotics Institute</title>
-    <link href="https://www.humanoidsdaily.com/news/softbank-rai-acquisition-marc-raibert"/>
-    <id>https://www.humanoidsdaily.com/news/softbank-rai-acquisition-marc-raibert</id>
-    <updated>2026-09-21T17:59:58.000Z</updated>
-    <author><name>Humanoids Daily</name></author>
-    <category term="ROBOTICS"/>
-    <summary>The reported RAI acquisition would add robotics research capacity as Hyundai pursues SoftBank’s Boston Dynamics stake and SoftBank explores other humanoid investments. — Also covered by: The Robot Report</summary>
   </entry>
   <entry>
     <title>Where will the next breakout startup come from? Benchmark’s full partnership weighs in at TechCrunch Disrupt 2026</title>
@@ -275,5 +266,14 @@
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
     <summary>Flights at New York’s major airports were disrupted after a technical problem at an air traffic control facility in Philadelphia. A so-called ground stop was in effect at John F. Kennedy International, LaGuardia, and Newark Liberty International. Sid Philip reports on Bloomberg Television. (Source: Bloomberg)</summary>
+  </entry>
+  <entry>
+    <title>Advancing AI for biology: Teaching models to design and characterize antibodies</title>
+    <link href="https://www.amazon.science/blog/advancing-ai-for-biology-teaching-models-to-design-and-characterize-antibodies"/>
+    <id>https://www.amazon.science/blog/advancing-ai-for-biology-teaching-models-to-design-and-characterize-antibodies</id>
+    <updated>2026-09-21T17:51:00.000Z</updated>
+    <author><name>Amazon Science</name></author>
+    <category term="RESEARCH"/>
+    <summary>Three new papers from Amazon Bio Discovery address bottlenecks in AI-driven antibody engineering, from benchmarking binding predictors to experimentally validating de novo design.</summary>
   </entry>
 </feed>
