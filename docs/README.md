@@ -18,6 +18,10 @@ Last full refresh: 2026-08-18 (P1 + feed-rot). Overhaul: 2026-07-06.
 | [SBOM.json](./SBOM.json) | Automation | CycloneDX 1.5 machine-readable BOM (regenerate: `npm run sbom`) |
 | [FUTURE_IMPROVEMENTS.md](./FUTURE_IMPROVEMENTS.md) | Product / engineering | Roadmap (P1 shipped 2026-08-18) + tech-debt register |
 | [UPGRADE_PLAN.md](./UPGRADE_PLAN.md) | Historical | Plan for the June 2026 cycle (executed; kept for reference) |
+| [REVIEW_SUMMARY_2026-09-21.md](./REVIEW_SUMMARY_2026-09-21.md) | Everyone | 21 Sep review: new feeds added, suggested removals kept |
+| [FEED_AUDIT_2026-09-21.md](./FEED_AUDIT_2026-09-21.md) | Editors | All 187 sources probed |
+| [FEED_CANDIDATES_2026-09-21.md](./FEED_CANDIDATES_2026-09-21.md) | Editors | 20 new feeds, now wired |
+| [REVIEW_2026-09-21.md](./REVIEW_2026-09-21.md) | Engineers | Homepage quality and ranking bugs |
 
 ## Quick start
 

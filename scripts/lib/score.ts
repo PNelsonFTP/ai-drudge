@@ -47,7 +47,10 @@ export function ageHours(publishedAt: string | null, now: Date): number {
   if (!publishedAt) return 36; // unknown date — treat as ~36h so it isn't invisible
   const t = new Date(publishedAt).getTime();
   if (isNaN(t)) return 36;
-  return Math.max(0, (now.getTime() - t) / HOUR_MS);
+  const hours = (now.getTime() - t) / HOUR_MS;
+  // A future symposium is not "just published." Don't give it a perfect recency score.
+  if (hours < 0) return 168;
+  return hours;
 }
 
 // Continuous exponential decay: 100 at age 0, halving every 48h, floor at 2.

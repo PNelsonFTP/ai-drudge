@@ -35,7 +35,8 @@ export const KEYWORD_AGNOSTIC_SOURCES = new Set([
 export function isAggregatorSource(name: string): boolean {
   if (KEYWORD_AGNOSTIC_SOURCES.has(name)) return true;
   if (name.startsWith("HN:") || name.startsWith("GN:")) return true;
-  if (name.includes("Google News") || name.includes("Subreddit")) return true;
+  if (name.includes("(GN)") || name.includes("Google News") || name.includes("Subreddit")) return true;
+  if (name === "Techmeme" || name === "AI News (smol.ai)" || name === "TLDR AI" || name === "Last Week in AI") return true;
   return false;
 }
 
@@ -71,13 +72,30 @@ export function pickTrendingLead(
   return { ...chosen, related };
 }
 
+function escapeRegExp(s: string): string {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+// "valuation" is inside "evaluation", and "series a" is inside "time-series and".
+const BOUNDARY_KEYWORDS = new Set(["valuation", "series a", "series b", "series c"]);
+
+function keywordHit(hay: string, kw: string): boolean {
+  const needle = kw.toLowerCase();
+  const trimmed = needle.trim();
+  if (BOUNDARY_KEYWORDS.has(trimmed)) {
+    const pattern = trimmed.split(/\s+/).map(escapeRegExp).join("\\s+");
+    return new RegExp(`(?:^|[^a-z0-9])${pattern}(?:[^a-z0-9]|$)`).test(hay);
+  }
+  return hay.includes(needle);
+}
+
 function routesFor(article: Article): Set<CategoryId> {
   const cats = new Set<CategoryId>([article.category]);
   if (KEYWORD_AGNOSTIC_SOURCES.has(article.source)) return cats;
   const hay = `${article.title} ${article.summary ?? ""}`.toLowerCase();
   for (const rule of KEYWORDS) {
     for (const kw of rule.match) {
-      if (hay.includes(kw)) {
+      if (keywordHit(hay, kw)) {
         cats.add(rule.routeTo);
         break;
       }
@@ -91,6 +109,7 @@ const STOPWORDS = new Set([
   "the","a","an","and","or","but","of","to","in","on","for","with","by","at","from",
   "is","are","was","were","be","been","as","it","its","this","that","these","those",
   "says","said","will","has","have","had","new","ai","via","after","over","into",
+  "released","release","code","version","update",
   "you","your","i","we","our","they","their","he","she","his","her",
 ]);
 function titleTokens(title: string): Set<string> {
@@ -279,7 +298,8 @@ export function buildCategories(
       const ageH = ageHours(g.publishedAt, now);
 
       // #7: track the lead candidate (must be < 72h).
-      if (ageH <= 72 && (!leadCandidate || score > leadCandidate.score)) {
+      // A GitHub release tag should not beat a press story for the site lead.
+      if (ageH <= 72 && g.category !== "github_repos" && (!leadCandidate || score > leadCandidate.score)) {
         leadCandidate = { url: g.url, score };
       }
 

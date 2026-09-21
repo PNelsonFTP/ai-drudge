@@ -5,7 +5,52 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-09-21T13:55:57.200Z</updated>
+  <updated>2026-09-21T18:39:43.762Z</updated>
+  <entry>
+    <title>llama.cpp b11077 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11077"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11077</id>
+    <updated>2026-09-21T18:14:37.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>server : do not forward --api-key-file to router-spawned child instances ( #28938 ) In router mode, authentication belongs to the router. unset_reserved_args() already unset LLAMA_API_KEY, but did not unset LLAMA_ARG_API_KEY_FILE. When --api-key-file was passed, children re-validated against file keys only, causing cli — Also covered by: run-llama/llama_index</summary>
+  </entry>
+  <entry>
+    <title>Building standards for the next phase of AI</title>
+    <link href="https://openai.com/index/building-standards-next-phase-ai"/>
+    <id>https://openai.com/index/building-standards-next-phase-ai</id>
+    <updated>2026-09-21T10:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.</summary>
+  </entry>
+  <entry>
+    <title>From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026</title>
+    <link href="https://techcrunch.com/2026/09/21/from-first-users-to-billions-googles-robby-stein-joins-techcrunch-disrupt-2026"/>
+    <id>https://techcrunch.com/2026/09/21/from-first-users-to-billions-googles-robby-stein-joins-techcrunch-disrupt-2026</id>
+    <updated>2026-09-21T14:30:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026. Lean in on this Builders Stage session. Save up to $200 before September 25.</summary>
+  </entry>
+  <entry>
+    <title>Advisory Group on Mathematics and Artificial Intelligence</title>
+    <link href="https://openai.com/index/advisory-group-on-mathematics-and-ai"/>
+    <id>https://openai.com/index/advisory-group-on-mathematics-and-ai</id>
+    <updated>2026-09-21T12:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.</summary>
+  </entry>
+  <entry>
+    <title>Where will the next breakout startup come from? Benchmark’s full partnership weighs in at TechCrunch Disrupt 2026</title>
+    <link href="https://techcrunch.com/2026/09/21/where-will-the-next-breakout-startup-come-from-benchmarks-full-partnership-weighs-in-at-techcrunch-disrupt-2026"/>
+    <id>https://techcrunch.com/2026/09/21/where-will-the-next-breakout-startup-come-from-benchmarks-full-partnership-weighs-in-at-techcrunch-disrupt-2026</id>
+    <updated>2026-09-21T15:00:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Where will the next breakout startup come from? Benchmark’s full partnership weighs in on the main stage at TechCrunch Disrupt 2026. Save up to $200 before September 25 at 11:59 p.m. PT. Register now.</summary>
+  </entry>
   <entry>
     <title>Google says Gemini breached three companies during security test</title>
     <link href="https://therecord.media/gemini-google-cyber-breach"/>
@@ -16,85 +61,94 @@
     <summary>Google’s artificial intelligence model Gemini accessed computer systems belonging to three real companies without authorization during a cybersecurity test in May — the latest in a string of similar incidents. — Also covered by: MarkTechPost</summary>
   </entry>
   <entry>
-    <title>Amazon blocks Meta's AI agent Muse from online shopping</title>
-    <link href="https://the-decoder.com/amazon-blocks-metas-ai-agent-muse-from-online-shopping"/>
-    <id>https://the-decoder.com/amazon-blocks-metas-ai-agent-muse-from-online-shopping</id>
-    <updated>2026-09-21T13:37:51.000Z</updated>
+    <title>Expanding OpenAI Academy with new learning paths</title>
+    <link href="https://openai.com/index/expanding-openai-academy-with-new-learning-paths"/>
+    <id>https://openai.com/index/expanding-openai-academy-with-new-learning-paths</id>
+    <updated>2026-09-21T07:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.</summary>
+  </entry>
+  <entry>
+    <title>Google Fined €403 Million Over GDPR Violations Tied to Location Data</title>
+    <link href="https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html"/>
+    <id>https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html</id>
+    <updated>2026-09-21T16:57:31.000Z</updated>
+    <author><name>The Hacker News</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>Google has been fined €403 million for breaking the EU's data protection law, the GDPR, in the way three of its features handled people's location data from May 2018 to February 2020. Ireland's Data Protection Commission (DPC), Google's lead regulator in the EU, also ordered the company to make its processing comply wi — Also covered by: BleepingComputer</summary>
+  </entry>
+  <entry>
+    <title>Chulalongkorn University and AIST (G-QuAT) Sign Five-Year Memorandum of Understanding to Build Bilateral Quantum Technology Ecosystem</title>
+    <link href="https://quantumcomputingreport.com/chulalongkorn-university-and-aist-g-quat-sign-five-year-memorandum-of-understanding-to-build-bilateral-quantum-technology-ecosystem"/>
+    <id>https://quantumcomputingreport.com/chulalongkorn-university-and-aist-g-quat-sign-five-year-memorandum-of-understanding-to-build-bilateral-quantum-technology-ecosystem</id>
+    <updated>2026-09-21T16:02:40.000Z</updated>
+    <author><name>Quantum Computing Report</name></author>
+    <category term="QUANTUM"/>
+    <summary>Chulalongkorn University (Thailand) and Japan's National Institute of Advanced Industrial Science and Technology (AIST) have signed a five-year MoU to advance quantum technology in Southeast Asia. This partnership will focus on joint research, scientific exchange, and developing quantum computing applications. The coll — Also covered by: The Quantum Insider</summary>
+  </entry>
+  <entry>
+    <title>6 days left to save up to $200 to TechCrunch Disrupt 2026</title>
+    <link href="https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026"/>
+    <id>https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026</id>
+    <updated>2026-09-20T21:41:08.000Z</updated>
+    <author><name>TechCrunch Startups</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>Current ticket pricing ends in 6 days on September 25 at 11:59 p.m. PT. Join 10,000+ founders, investors, and tech leaders at Disrupt and save up to $200 on your ticket.</summary>
+  </entry>
+  <entry>
+    <title>xAI launches Grok 4.7 at bargain prices, but benchmarks reveal a wide gap to Claude and GPT-6</title>
+    <link href="https://the-decoder.com/xai-launches-grok-4-7-at-bargain-prices-but-benchmarks-reveal-a-wide-gap-to-claude-and-gpt-6"/>
+    <id>https://the-decoder.com/xai-launches-grok-4-7-at-bargain-prices-but-benchmarks-reveal-a-wide-gap-to-claude-and-gpt-6</id>
+    <updated>2026-09-21T16:56:36.000Z</updated>
     <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Amazon has blocked Meta's new AI agent Muse from shopping on Amazon.com. The article Amazon blocks Meta's AI agent Muse from online shopping appeared first on The Decoder . — Also covered by: The Verge AI</summary>
+    <summary>xAI has released Grok 4.7, its most capable model yet. But on the Artificial Analysis Intelligence Index, it scores just 46 points, landing mid-pack and well behind Claude Fable 5.1 and GPT-6 at 53 each. The gap grows even wider in agentic coding. The upside is it's cheap. The article xAI launches Grok 4.7 at bargain p</summary>
   </entry>
   <entry>
-    <title>qwen-code v0.24.2 released</title>
-    <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.24.2"/>
-    <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.24.2</id>
-    <updated>2026-09-20T14:43:49.000Z</updated>
-    <author><name>QwenLM/qwen-code</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features feat(web-shell): restore remote workspace add flow ( #12085 ) by @yiliang114 feat(web-shell): expose assistant turn settlement lifecycle ( #11251 ) by @yiliang114 Adds an internal bwrap-based Linux s — Also covered by: QwenLM/qwen-code, anthropics/claude-code</summary>
-  </entry>
-  <entry>
-    <title>US and China agree on AI dialogue with security mechanism ahead of Trump-Xi summit</title>
-    <link href="https://the-decoder.com/us-and-china-agree-on-ai-dialogue-with-security-mechanism-ahead-of-trump-xi-summit"/>
-    <id>https://the-decoder.com/us-and-china-agree-on-ai-dialogue-with-security-mechanism-ahead-of-trump-xi-summit</id>
-    <updated>2026-09-21T13:43:33.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>The US and China have agreed to an official AI dialogue. US Treasury Secretary Bessent also proposed a notification mechanism for AI incidents at the national security level. The announcement comes just before Thursday's summit between Trump and Xi in Washington, the first on US soil since 2017. The article US and Chin</summary>
-  </entry>
-  <entry>
-    <title>MediaTek unveils the Dimensity CX C10 Max, a 3nm TSMC N3 flagship SoC launching alongside Google's new Googlebook lineup, with an 8-core CPU and 11-core GPU (Jake Roach/Tom's Hardware)</title>
-    <link href="https://www.techmeme.com/260921/p30"/>
-    <id>https://www.techmeme.com/260921/p30</id>
-    <updated>2026-09-21T13:30:00.000Z</updated>
+    <title>Intel, AMD, and Arm shares soar on potential CPU demand sparked by the popularity of Meta's Muse; INTC jumps 12%+, AMD is up 8%+, and ARM 15%+ (Adam Clark/Barron's Online)</title>
+    <link href="https://www.techmeme.com/260921/p43"/>
+    <id>https://www.techmeme.com/260921/p43</id>
+    <updated>2026-09-21T17:00:57.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Jake Roach / Tom's Hardware : MediaTek unveils the Dimensity CX C10 Max, a 3nm TSMC N3 flagship SoC launching alongside Google's new Googlebook lineup, with an 8-core CPU and 11-core GPU — The Dimensity CX C10 Max looks awfully similar to the Kompanio Ultra 910. … It's built on a 3nm node (TSMC N3) …</summary>
+    <summary>Adam Clark / Barron's Online : Intel, AMD, and Arm shares soar on potential CPU demand sparked by the popularity of Meta's Muse; INTC jumps 12%+, AMD is up 8%+, and ARM 15%+ — Advanced Micro Devices' market valuation surpasses $1 trillion for the first time in intraday trading. — Choose Barron's as a preferred source o</summary>
   </entry>
   <entry>
-    <title>llama.cpp b11070 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11070"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11070</id>
-    <updated>2026-09-21T10:53:04.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>hexagon: overhaul of buffer and DMA handling to support 64bit mappings + improvements ( #29197 ) hex-dma64: enable support extended buffer mappings and 64bit dma hex-dma64: expand binary ops to support more DMA scenarios hex-dma64: add binary-ops.h hex-dma64: add --hex-dma64 to run.py and fix minor issues hex-dma64: up</summary>
-  </entry>
-  <entry>
-    <title>US-China Have Time to Discuss Trade Truce Extension, Greer Says</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-21/us-china-have-time-for-trade-truce-extension-greer-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-21/us-china-have-time-for-trade-truce-extension-greer-video</id>
-    <updated>2026-09-21T13:51:20.000Z</updated>
+    <title>Paramount Settles Lawsuits With States Clearing the Way to Buy WBD</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-09-21/paramount-settles-lawsuits-clearing-way-to-buy-wbd-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-09-21/paramount-settles-lawsuits-clearing-way-to-buy-wbd-video</id>
+    <updated>2026-09-21T18:27:40.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Trade Representative Jamieson Greer indicated China and the US remain divided on the terms of a trade truce extension. Asked if a three-to six-month extension was under discussion, Greer said “that’s probably the right kind of range” though it’s unlikely to be announced this week. He spoke on “Bloomberg Surveillance.” </summary>
+    <summary>Paramount Skydance settles lawsuits with 12 states clearing the way for it to buy Warner Bros. Discovery Inc. The deal limits Paramount's market power and it promises to release 30 movies a year at the combined studios. Charlie Pellett has the breaking news. (Source: Bloomberg)</summary>
   </entry>
   <entry>
-    <title>From Discharge Notes to Patient Understanding: Persona-Grounded, Open-Ended Simulation of LLMs as Discharge Educators</title>
-    <link href="https://arxiv.org/abs/2609.20827"/>
-    <id>https://arxiv.org/abs/2609.20827</id>
-    <updated>2026-09-21T04:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
-    <category term="RESEARCH"/>
-    <summary>arXiv:2609.20827v1 Announce Type: new Abstract: Hospital discharge education is an interactive teaching task: a clinician adapts a discharge plan to a patient's literacy, recall, and personality. Existing LLM evaluations target static or artifact-generation tasks and do not measure patient understanding under open-ende</summary>
+    <title>NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories</title>
+    <link href="https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling"/>
+    <id>https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling</id>
+    <updated>2026-09-21T18:00:07.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
+    <category term="HARDWARE"/>
+    <summary>Every AI factory needs power and cooling that fit its computing architecture. As AI infrastructure expands, power, cooling, water, site and grid constraints are shaping what builders can deploy. Choosing products that fit the complete factory design helps builders turn computing capacity into useful AI output. To help </summary>
   </entry>
   <entry>
-    <title>PlayStation 3 emulation devs work around an Nvidia bug for up to 37% faster performance — open-source coders reach out to Nvidia to over uncovered bug</title>
-    <link href="https://www.tomshardware.com/pc-components/gpu-drivers/playstation-3-emulation-devs-work-around-an-nvidia-bug-for-up-to-37-percent-faster-performance-open-source-coders-reach-out-to-nvidia-to-over-uncovered-bug"/>
-    <id>https://www.tomshardware.com/pc-components/gpu-drivers/playstation-3-emulation-devs-work-around-an-nvidia-bug-for-up-to-37-percent-faster-performance-open-source-coders-reach-out-to-nvidia-to-over-uncovered-bug</id>
-    <updated>2026-09-21T13:00:00.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
+    <title>Alibaba Qwen Releases Qwen-Image-2.1: A 7B Open-Weight Model for Image Generation and Editing</title>
+    <link href="https://www.marktechpost.com/2026/09/21/alibaba-qwen-releases-qwen-image-2-1"/>
+    <id>https://www.marktechpost.com/2026/09/21/alibaba-qwen-releases-qwen-image-2-1</id>
+    <updated>2026-09-21T16:40:44.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>The developers of RPCS3 have found a workaround for an Nvidia driver bug and are touting up to 37% performance gains.</summary>
+    <summary>Alibaba's Qwen team has released Qwen-Image-2.1, a 7B diffusion transformer that handles text-to-image generation, multi-reference editing, and native RGBA transparency in one checkpoint. A prefix KV cache speeds up edits with up to 10 reference images. The weights are public, but commercial use requires a separate lic</summary>
   </entry>
   <entry>
-    <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
-    <link href="https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare"/>
-    <id>https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare</id>
-    <updated>2026-09-24T13:00:00.000Z</updated>
-    <author><name>NIST AI News</name></author>
+    <title>OpenAI Releases Proposal for International AI Safety Coordination</title>
+    <link href="https://www.theinformation.com/briefings/openai-releases-proposal-international-ai-safety-coordination"/>
+    <id>https://www.theinformation.com/briefings/openai-releases-proposal-international-ai-safety-coordination</id>
+    <updated>2026-09-21T18:11:04.000Z</updated>
+    <author><name>The Information</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>This Symposium is a one-day event to address the question: “ which medical measurements and consensus standards should be prioritized to support future U.S. healthcare?” The focus will be on medical imaging, medical devices, and diagnostics. The goal</summary>
+    <summary>OpenAI released a proposal on Monday that would create international coordination around AI safety. In a blog post, OpenAI called for national AI safety institutes, such as the U.S. Commerce Department’s Center for AI Standards and Innovation, to set standards around areas including model ...</summary>
   </entry>
   <entry>
     <title>SAML: A fractal of bad design</title>
@@ -106,13 +160,13 @@
     <summary>Born out of academia and raised in corporate IT departments, the Security Assertion Markup Language (SAML) authentication protocol continues to be a staple in these organizations. However, it’s time for it to retire. With the rise of software-as-a-service (SaaS) companies in the late aughts, IT departments needed a way</summary>
   </entry>
   <entry>
-    <title>From Exposure to Lockdown: How AWS Neutralizes Compromised IAM Credentials through Managed Policies</title>
-    <link href="https://unit42.paloaltonetworks.com/detecting-exposed-aws-iam-credentials"/>
-    <id>https://unit42.paloaltonetworks.com/detecting-exposed-aws-iam-credentials</id>
-    <updated>2026-09-21T10:00:13.000Z</updated>
-    <author><name>Palo Alto Unit 42</name></author>
+    <title>Windows Exploitation Techniques: Dangling COM Object Registrations</title>
+    <link href="https://projectzero.google/2026/09/windows-dangling-com.html"/>
+    <id>https://projectzero.google/2026/09/windows-dangling-com.html</id>
+    <updated>2026-09-21T07:00:00.000Z</updated>
+    <author><name>Google Project Zero</name></author>
     <category term="CYBER DEFENSE"/>
-    <summary>We explore how AWS neutralizes exposed IAM credentials using managed policies, detailing GitHub secret scanning and CloudTrail monitoring strategies. The post From Exposure to Lockdown: How AWS Neutralizes Compromised IAM Credentials through Managed Policies appeared first on Unit 42 .</summary>
+    <summary>This short blog post is about abusing a privilege escalation bug that Microsoft recently fixed in Windows, CVE-2026-66804, that I and 14 others reported. This issue is an incomplete fix for CVE-2026-50343, a bug dubbed “Dark Elevator” by Calif. The root cause of the bug was a dangling COM object registration for the Cr</summary>
   </entry>
   <entry>
     <title>The current balance of power in open models</title>
@@ -124,156 +178,102 @@
     <summary>The expanded form of a testimony I prepared for Congress.</summary>
   </entry>
   <entry>
-    <title>PrimeBOT Launches Personal Robots at 19,999 Yuan, Betting on Apps and Companionship</title>
-    <link href="https://www.humanoidsdaily.com/news/primebot-q1-t1-personal-robots-launch"/>
-    <id>https://www.humanoidsdaily.com/news/primebot-q1-t1-personal-robots-launch</id>
-    <updated>2026-09-21T08:51:14.000Z</updated>
+    <title>Unitree Unveils Human-Sized Robot Hand Starting at $6,500</title>
+    <link href="https://www.humanoidsdaily.com/news/unitree-dex5-s-robot-hand"/>
+    <id>https://www.humanoidsdaily.com/news/unitree-dex5-s-robot-hand</id>
+    <updated>2026-09-21T16:50:06.000Z</updated>
     <author><name>Humanoids Daily</name></author>
     <category term="ROBOTICS"/>
-    <summary>PrimeBOT opens Chinese sales of Q1 and T1, with October deliveries planned and a business model built around companionship, customization and future content revenue.</summary>
+    <summary>Unitree’s Dex5-S promises 22 degrees of freedom and backdrivable joints at human-hand scale. Its launch leaves key specifications and complete-task performance unverified.</summary>
   </entry>
   <entry>
-    <title>Do Quantum Models Scale Like LLMs?</title>
-    <link href="https://arxiv.org/abs/2609.20912"/>
-    <id>https://arxiv.org/abs/2609.20912</id>
-    <updated>2026-09-21T04:00:00.000Z</updated>
-    <author><name>arXiv cs.LG</name></author>
+    <title>QNu Labs Launches QShield 2.0 to Drive India’s National Cryptographic Assessment &amp; Assurance Framework</title>
+    <link href="https://quantumcomputingreport.com/qnu-labs-launches-qshield-2-0-to-drive-indias-national-cryptographic-assessment-assurance-framework"/>
+    <id>https://quantumcomputingreport.com/qnu-labs-launches-qshield-2-0-to-drive-indias-national-cryptographic-assessment-assurance-framework</id>
+    <updated>2026-09-21T16:56:42.000Z</updated>
+    <author><name>Quantum Computing Report</name></author>
     <category term="QUANTUM"/>
-    <summary>arXiv:2609.20912v1 Announce Type: new Abstract: In this work, we study the neural scaling laws of RydbergGPT, an autoregressive transformer model trained on qubit projective measurement data gathered from interacting Rydberg atom arrays. The quantum system is known to exhibit a finite-size remnant of a critical point a</summary>
+    <summary>QNu Labs has launched QShield 2.0, a sovereign, full-stack post-quantum cryptography (PQC) and crypto-agility platform, to drive India’s National Cryptographic Assessment &amp; Assurance Framework (NCAAF). The platform, introduced at the company’s 10th anniversary, helps critical infrastructure sectors initiate formal PQC </summary>
   </entry>
   <entry>
-    <title>Announcing Petal, a First-of-its-Kind Transoceanic Subsea Cable</title>
-    <link href="https://about.fb.com/news/2026/09/announcing-petal-meta-petabit-transoceanic-cable"/>
-    <id>https://about.fb.com/news/2026/09/announcing-petal-meta-petabit-transoceanic-cable</id>
-    <updated>2026-09-21T12:00:18.000Z</updated>
-    <author><name>Meta AI Blog</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>We’re announcing Petal, the first subsea cable to deliver petabit capacity across oceans, doubling the capacity of today’s most advanced transoceanic cables. The post Announcing Petal, a First-of-its-Kind Transoceanic Subsea Cable appeared first on Meta Newsroom .</summary>
-  </entry>
-  <entry>
-    <title>Trust in Leadership Proves Latest Challenge for Corporate AI Ambitions</title>
-    <link href="https://www.wsj.com/cio-journal/trust-in-leadership-proves-latest-challenge-for-corporate-ai-ambitions-55b779a4?mod=rss_Technology"/>
-    <id>https://www.wsj.com/cio-journal/trust-in-leadership-proves-latest-challenge-for-corporate-ai-ambitions-55b779a4?mod=rss_Technology</id>
-    <updated>2026-09-21T12:44:00.000Z</updated>
-    <author><name>WSJ Tech</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Plus: Gemini Hacked Three Companies in First Known Breakout; Trump says he’s launching an ‘AI Force’.</summary>
-  </entry>
-  <entry>
-    <title>US Treasury Secretary Scott Bessent says OpenAI's Hugging Face hacking incident is &quot;the responsibility of the OpenAI management, not a bunch of agents&quot; (Yash Roy/Bloomberg)</title>
-    <link href="https://www.techmeme.com/260921/p34"/>
-    <id>https://www.techmeme.com/260921/p34</id>
-    <updated>2026-09-21T13:55:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Yash Roy / Bloomberg : US Treasury Secretary Scott Bessent says OpenAI's Hugging Face hacking incident is “the responsibility of the OpenAI management, not a bunch of agents” — Treasury Secretary Scott Bessent said the responsibility for the recent hacking incident involving OpenAI's advanced artificial …</summary>
-  </entry>
-  <entry>
-    <title>Nvidia RTX 60 Series Skips 2027, Lands in 2028</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1wmci6z/nvidia_rtx_60_series_skips_2027_lands_in_2028"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1wmci6z/nvidia_rtx_60_series_skips_2027_lands_in_2028</id>
-    <updated>2026-09-21T13:15:42.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>https://tech-insider.org/nvidia-rtx-60-series-skip-2027-launch-2026/ The reporting, current as of September 16, 2026, marks the second or third time the RTX 60 launch window has moved in twelve months, and it puts both of the PC industry’s major GPU vendors on the same unusual track: stretching a single graphics archit</summary>
-  </entry>
-  <entry>
-    <title>Brio mode in Colibrì: score the allowed answers instead of generating a reply</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1wma8jv/brio_mode_in_colibr%C3%AC_score_the_allowed_answers"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1wma8jv/brio_mode_in_colibr%C3%AC_score_the_allowed_answers</id>
-    <updated>2026-09-21T11:34:52.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Hi everyone, I’m Vincenzo, the founder of Colibrì. I want to thank this community for the support you’ve shown me since my very first post. Thank you all, truly. With this post, I wanted to show you the latest release featuring a new mode called &quot;Brio mode,&quot; inspired by TypeSafe. We added Brio in 1.12.0: a mode that sc</summary>
-  </entry>
-  <entry>
-    <title>How V7 gives AI agents institutional memory</title>
-    <link href="https://openai.com/index/v7"/>
-    <id>https://openai.com/index/v7</id>
-    <updated>2026-09-21T00:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.</summary>
-  </entry>
-  <entry>
-    <title>Russia Set to Extend Diesel Export Ban Beyond End of September</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-21/russia-set-to-extend-diesel-export-ban-beyond-end-of-september"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-21/russia-set-to-extend-diesel-export-ban-beyond-end-of-september</id>
-    <updated>2026-09-21T13:41:49.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Russia is set to extend a ban on most diesel exports beyond the end of September as Ukraine continues to attack its refineries, according to people familiar with the matter.</summary>
-  </entry>
-  <entry>
-    <title>USTR Greer on China Trade, Diesel Exports, Canada</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-21/ustr-greer-on-china-trade-diesel-exports-canada-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-21/ustr-greer-on-china-trade-diesel-exports-canada-video</id>
-    <updated>2026-09-21T13:21:25.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>US Trade Representative Jamieson Greer discusses trade talks with China, the possibility of a diesel export ban, and the state of relations with Canada and the renegotiation of the USMCA. (Source: Bloomberg)</summary>
-  </entry>
-  <entry>
-    <title>Do small language models know what they don't know?</title>
-    <link href="https://arxiv.org/abs/2609.20824"/>
-    <id>https://arxiv.org/abs/2609.20824</id>
-    <updated>2026-09-21T04:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
-    <category term="RESEARCH"/>
-    <summary>arXiv:2609.20824v1 Announce Type: new Abstract: We explore whether entropy-based confidence signals can be leveraged to improve the accuracy of Small Language Models (SLMs) with fewer than 3 billion parameters, running entirely on consumer hardware. We evaluate seven distinct approaches, including token-level entropy e</summary>
-  </entry>
-  <entry>
-    <title>HERMES: Contrast-Aware Knowledge Graph Reasoning from Clinical Notes for Patient Outcome Prediction</title>
-    <link href="https://arxiv.org/abs/2609.20825"/>
-    <id>https://arxiv.org/abs/2609.20825</id>
-    <updated>2026-09-21T04:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
-    <category term="RESEARCH"/>
-    <summary>arXiv:2609.20825v1 Announce Type: new Abstract: Clinical predictive models often rely on structured Electronic Health Record data, such as time-series and procedure codes. While recent approaches have begun leveraging unstructured clinical notes, they typically encode them as flat sequences, which may lose explicit rel</summary>
-  </entry>
-  <entry>
-    <title>Two Hours of Work That Takes a Week</title>
-    <link href="https://openrouter.ai/blog/insights/descript-model-evaluation-queue"/>
-    <id>https://openrouter.ai/blog/insights/descript-model-evaluation-queue</id>
-    <updated>2026-09-21T00:00:00.000Z</updated>
-    <author><name>OpenRouter Blog</name></author>
-    <category term="PRODUCTS"/>
-    <summary>For Descript, testing a new model was a couple of hours of work and a week of waiting. The team removed the waiting. Evaluations run in an hour or two now, and nobody has to ask an engineer for time. This post covers the queue, what replaced it, and what changed once evaluation ran several times a week.</summary>
-  </entry>
-  <entry>
-    <title>TypeSafe AI's Jev offers an alternative to LLMs that claims to be 193x faster and 445x cheaper — System One type model is bespoke for probabilistic decision-making</title>
-    <link href="https://www.tomshardware.com/tech-industry/artificial-intelligence/typesafe-ais-jev-offers-an-alternative-to-llms-that-claims-to-be-193x-faster-and-445x-cheaper-system-one-type-model-is-bespoke-for-probabilistic-decision-making"/>
-    <id>https://www.tomshardware.com/tech-industry/artificial-intelligence/typesafe-ais-jev-offers-an-alternative-to-llms-that-claims-to-be-193x-faster-and-445x-cheaper-system-one-type-model-is-bespoke-for-probabilistic-decision-making</id>
-    <updated>2026-09-21T13:09:27.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
-    <category term="HARDWARE"/>
-    <summary>Last week saw the debut of TypeSafe AI's Jev, its first &quot;System One&quot; model. Rather than chatting with users like conventional LLMs, it's strictly designed for statement evaluation and decision-making, for programming purposes.</summary>
-  </entry>
-  <entry>
-    <title>5 Companies Using NVIDIA AI for Clean Energy</title>
-    <link href="https://blogs.nvidia.com/blog/clean-energy-nvidia-ai"/>
-    <id>https://blogs.nvidia.com/blog/clean-energy-nvidia-ai</id>
-    <updated>2026-09-21T10:00:35.000Z</updated>
-    <author><name>NVIDIA Blog</name></author>
-    <category term="HARDWARE"/>
-    <summary>Clean energy isn’t hard to come by, but the pace of large-scale adoption has historically been slow due to bottlenecks — including out-of-date infrastructure, elongated research and development timelines, and upfront cost barriers. At New York Climate Week, NVIDIA is highlighting five companies pioneering clean energy </summary>
-  </entry>
-  <entry>
-    <title>Alibaba's open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters</title>
-    <link href="https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters"/>
-    <id>https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters</id>
-    <updated>2026-09-20T16:10:52.000Z</updated>
+    <title>SoftBank to borrow over $11 billion in risky bonds for OpenAI stake</title>
+    <link href="https://the-decoder.com/softbank-to-borrow-over-11-billion-in-risky-bonds-for-openai-stake"/>
+    <id>https://the-decoder.com/softbank-to-borrow-over-11-billion-in-risky-bonds-for-openai-stake</id>
+    <updated>2026-09-21T14:35:11.000Z</updated>
     <author><name>The Decoder</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Alibaba's Qwen team has released Qwen-Image-2.1, an open-weight model that generates and edits images on powerful consumer GPUs, with support for transparency and up to ten reference images at once. Its research license bars commercial use, which requires a separate Qwen license. The article Alibaba's open-weight Qwen-</summary>
+    <category term="MODEL RELEASES"/>
+    <summary>SoftBank plans to borrow more than $11 billion from investors through risky bonds to fund another payment for its stake in OpenAI. The article SoftBank to borrow over $11 billion in risky bonds for OpenAI stake appeared first on The Decoder .</summary>
   </entry>
   <entry>
-    <title>Empirical safety claims from frontier labs should be replicated, scrutinized, and open-sourced</title>
-    <link href="https://www.lesswrong.com/posts/MmfzfGcQ3h3p6N9pD/empirical-safety-claims-from-frontier-labs-should-be-1"/>
-    <id>https://www.lesswrong.com/posts/MmfzfGcQ3h3p6N9pD/empirical-safety-claims-from-frontier-labs-should-be-1</id>
-    <updated>2026-09-21T05:58:46.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>When frontier labs like Anthropic and OpenAI publish safety or alignment research, it is often entirely empirical, closed-source, and sparse on methodological details. While it is great that they publish these results, the status quo is that labs (or soon, their agents) can claim alignment progress that no one independ</summary>
+    <title>OpenAI Develops Features to Counter Grok Bot, Mulls Response to Meta’s Muse</title>
+    <link href="https://www.theinformation.com/articles/openai-develops-features-counter-grok-bot-mulls-response-metas-muse"/>
+    <id>https://www.theinformation.com/articles/openai-develops-features-counter-grok-bot-mulls-response-metas-muse</id>
+    <updated>2026-09-21T14:30:40.000Z</updated>
+    <author><name>The Information</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>OpenAI pioneered AI that can take over web browsers and other applications on people’s behalf, and its ChatGPT app brought generative AI to consumers. Now that rivals like SpaceX and Meta are pushing the boundaries by launching personal AI agents that handle multistep tasks, OpenAI is playing catch-up. For instance, Op</summary>
+  </entry>
+  <entry>
+    <title>[MASSIVE RELEASE] Supra2-IMG - a tiny 100M text-to-image model - SOTA quality and open release!</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wmftr3/massive_release_supra2img_a_tiny_100m_texttoimage"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wmftr3/massive_release_supra2img_a_tiny_100m_texttoimage</id>
+    <updated>2026-09-21T15:21:45.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Hey everyone! It has been quite a while since the last SupraLabs model - but today we've something special for y'all: Supra2-IMG It's a 100M parameter DiT text-to-image model trained entirely from scratch in under 10 hours on a single H100 on Runpod. It can generate state-of-the-art quality images in 256x256 pixels res</summary>
+  </entry>
+  <entry>
+    <title>Deepseek training 2T and plans 8T model</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wmblx1/deepseek_training_2t_and_plans_8t_model"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wmblx1/deepseek_training_2t_and_plans_8t_model</id>
+    <updated>2026-09-21T12:38:08.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Quote: DeepSeek is training a 2T-parameter model and plans to eventually build an 8T-parameter model. https://x.com/wallstengine/status/2101982843656388644 Current DeepSeek models: Flash parameter count of 552 billion Pro: 1.6T (trillion) total parameters with 49B (billion) activated weights per token Mythos / Fable is</summary>
+  </entry>
+  <entry>
+    <title>Jev is now available in LangSmith Evals</title>
+    <link href="https://www.langchain.com/blog/jev-is-now-available-in-langsmith-evals"/>
+    <id>https://www.langchain.com/blog/jev-is-now-available-in-langsmith-evals</id>
+    <updated>2026-09-21T17:14:45.000Z</updated>
+    <author><name>LangChain Blog</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Use Jev as a judge for LangSmith evals to evaluate agent traces with faster, cheaper structured feedback across production runs, datasets, and regression tests.</summary>
+  </entry>
+  <entry>
+    <title>Can Jev Be a Better Agent Evaluator?</title>
+    <link href="https://www.langchain.com/blog/jev-agent-evals-langsmith"/>
+    <id>https://www.langchain.com/blog/jev-agent-evals-langsmith</id>
+    <updated>2026-09-21T15:29:03.000Z</updated>
+    <author><name>LangChain Blog</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>We tested using Jev-as-a-Judge against LLM judges on accuracy, repeatability, latency, and cost to see whether System One models could offer a new approach to agent evaluation.</summary>
+  </entry>
+  <entry>
+    <title>Crypto Tokens Jump Up to 50% in a Post-Clarity Regulatory Bet</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-21/crypto-tokens-jump-up-to-50-in-a-post-clarity-regulatory-bet"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-21/crypto-tokens-jump-up-to-50-in-a-post-clarity-regulatory-bet</id>
+    <updated>2026-09-21T18:18:39.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Crypto tokens tied to trading and tokenization are surging after US regulators moved to expand digital-asset markets despite the failure of landmark crypto legislation in Congress.</summary>
+  </entry>
+  <entry>
+    <title>NYC Airports Disrupted by Air Traffic Control Outage</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-09-21/nyc-airports-disrupted-by-air-traffic-control-outage-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-09-21/nyc-airports-disrupted-by-air-traffic-control-outage-video</id>
+    <updated>2026-09-21T18:08:58.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Flights at New York’s major airports were disrupted after a technical problem at an air traffic control facility in Philadelphia. A so-called ground stop was in effect at John F. Kennedy International, LaGuardia, and Newark Liberty International. Sid Philip reports on Bloomberg Television. (Source: Bloomberg)</summary>
+  </entry>
+  <entry>
+    <title>Advancing AI for biology: Teaching models to design and characterize antibodies</title>
+    <link href="https://www.amazon.science/blog/advancing-ai-for-biology-teaching-models-to-design-and-characterize-antibodies"/>
+    <id>https://www.amazon.science/blog/advancing-ai-for-biology-teaching-models-to-design-and-characterize-antibodies</id>
+    <updated>2026-09-21T17:51:00.000Z</updated>
+    <author><name>Amazon Science</name></author>
+    <category term="RESEARCH"/>
+    <summary>Three new papers from Amazon Bio Discovery address bottlenecks in AI-driven antibody engineering, from benchmarking binding predictors to experimentally validating de novo design.</summary>
   </entry>
 </feed>

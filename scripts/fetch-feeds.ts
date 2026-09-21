@@ -243,6 +243,28 @@ class HostPool {
 
 const HOST_POOL = new HostPool(2);
 
+// Cap total in-flight fetches so a ~180-feed run does not abort the tail.
+class Gate {
+  private active = 0;
+  private waiters: Array<() => void> = [];
+  constructor(private max: number) {}
+  async run<T>(fn: () => Promise<T>): Promise<T> {
+    if (this.active >= this.max) {
+      await new Promise<void>((resolve) => this.waiters.push(resolve));
+    }
+    this.active++;
+    try {
+      return await fn();
+    } finally {
+      this.active--;
+      const next = this.waiters.shift();
+      if (next) next();
+    }
+  }
+}
+
+const FETCH_GATE = new Gate(12);
+
 function extractItems(json: any): ParsedItem[] {
   // RSS 2.0
   const rssChannel = json?.rss?.channel;
@@ -439,7 +461,7 @@ export async function fetchAllFeeds(): Promise<{
   console.log(`Fetching ${SOURCES.length} feeds (2 concurrent per host)…`);
   const results = await Promise.all(
     SOURCES.map(async (src) => {
-      const r = await HOST_POOL.run(rateLimitKey(src.url), () => fetchOneFeed(src));
+      const r = await FETCH_GATE.run(() => HOST_POOL.run(rateLimitKey(src.url), () => fetchOneFeed(src)));
       console.log(`  ${r.ok ? "OK" : "FAIL"}  ${src.name.padEnd(28)} ${r.articles.length} items`);
       return { src, ...r };
     })
@@ -463,15 +485,16 @@ export async function fetchAllFeeds(): Promise<{
     console.log(`  resolved ${hits}/${gnUrls.length} Google News URLs to publisher links`);
   }
 
-  // Dedup by URL first, then by title (case-insensitive).
-  const seenUrl = new Set<string>();
-  const seenTitle = new Set<string>();
+  // Drop duplicates from the same source. Keep a publisher and an aggregator
+  // twin so trending can count both outlets.
+  const seenUrlSource = new Set<string>();
+  const seenTitleSource = new Set<string>();
   articles = articles.filter((a) => {
-    const urlKey = a.url.replace(/[#?].*$/, "").replace(/\/$/, "");
-    const titleKey = a.title.toLowerCase();
-    if (seenUrl.has(urlKey) || seenTitle.has(titleKey)) return false;
-    seenUrl.add(urlKey);
-    seenTitle.add(titleKey);
+    const urlKey = `${a.url.replace(/[#?].*$/, "").replace(/\/$/, "")}\0${a.source}`;
+    const titleKey = `${a.title.toLowerCase()}\0${a.source}`;
+    if (seenUrlSource.has(urlKey) || seenTitleSource.has(titleKey)) return false;
+    seenUrlSource.add(urlKey);
+    seenTitleSource.add(titleKey);
     return true;
   });
 

@@ -22,6 +22,7 @@ describe("trending lead quality", () => {
     assert.equal(isAggregatorSource("HN: AI (150+ points)"), true);
     assert.equal(isAggregatorSource("GN: Prompt Injection"), true);
     assert.equal(isAggregatorSource("Reuters AI (Google News)"), true);
+    assert.equal(isAggregatorSource("Reuters AI (GN)"), true);
     assert.equal(isAggregatorSource("TechCrunch AI"), false);
   });
 

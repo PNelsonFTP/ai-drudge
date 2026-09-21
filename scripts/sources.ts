@@ -309,6 +309,28 @@ export const SOURCES: FeedSource[] = [
   { name: "Puget Systems", url: "https://www.pugetsystems.com/blog/feed/", category: "local_models", priority: "medium" },
   { name: "ModularML", url: "https://www.modular.com/blog/rss.xml", category: "local_models", priority: "medium" },
   { name: "PremAI Blog", url: "https://www.premai.io/blog/rss/", category: "local_models", priority: "low" },
+
+  // ── Added 2026-09-21. Suggested removals were left in place. ──
+  { name: "SemiAnalysis Newsletter", url: "https://newsletter.semianalysis.com/feed", category: "hardware", priority: "high" },
+  { name: "The Information", url: "https://www.theinformation.com/feed", category: "industry_news", priority: "high" },
+  { name: "Google Research Blog", url: "https://research.google/blog/rss/", category: "research", priority: "high" },
+  { name: "Amazon Science", url: "https://www.amazon.science/index.rss", category: "research", priority: "high" },
+  { name: "Devin (Cognition)", url: "https://devin.ai/rss.xml", category: "agents_tools", priority: "high" },
+  { name: "Microsoft Agent Framework", url: "https://devblogs.microsoft.com/agent-framework/feed/", category: "agents_tools", priority: "high" },
+  { name: "PyTorch Blog", url: "https://pytorch.org/blog/feed/", category: "open_source", priority: "high" },
+  { name: "Quanta Magazine AI", url: "https://www.quantamagazine.org/tag/artificial-intelligence/feed/", category: "analysis", priority: "high" },
+  { name: "IEEE Spectrum Semiconductors", url: "https://spectrum.ieee.org/feeds/topic/semiconductors.rss", category: "hardware", priority: "medium" },
+  { name: "EleutherAI", url: "https://blog.eleuther.ai/index.xml", category: "open_source", priority: "high" },
+  { name: "HPC Wire", url: "https://www.hpcwire.com/feed/", category: "hardware", priority: "medium" },
+  { name: "CoreWeave Blog", url: "https://www.coreweave.com/blog/rss.xml", category: "hardware", priority: "medium" },
+  { name: "EE Times", url: "https://www.eetimes.com/feed/", category: "hardware", priority: "medium" },
+  { name: "InfoQ AI/ML", url: "https://feed.infoq.com/ai-ml-data-eng", category: "agents_tools", priority: "medium" },
+  { name: "JetBrains AI", url: "https://blog.jetbrains.com/ai/feed/", category: "agents_tools", priority: "medium" },
+  { name: "Databricks Blog", url: "https://www.databricks.com/feed", category: "products", priority: "medium" },
+  { name: "Mozilla AI", url: "https://blog.mozilla.org/en/category/ai/feed/", category: "open_source", priority: "medium" },
+  { name: "NCSC UK", url: "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml", category: "cyber_defense", priority: "medium" },
+  { name: "Science Robotics", url: "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=scirobotics", category: "robotics", priority: "medium" },
+  { name: "Benedict Evans", url: "https://www.ben-evans.com/benedictevans/rss.xml", category: "analysis", priority: "medium" },
 ];
 
 // ─────────────────────────────────────────────────────────────────────────
