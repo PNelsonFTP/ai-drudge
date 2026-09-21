@@ -2,8 +2,10 @@ name: Refresh and deploy
 
 on:
   schedule:
-    # Hourly at :05 — gives a fresh homepage ~24 times a day.
-    - cron: "5 * * * *"
+    # GitHub often delays or drops a single hourly cron, which left the
+    # homepage 4–7 hours stale. Two slots per hour; a skipped one still
+    # leaves a run in the same hour.
+    - cron: "5,35 * * * *"
   workflow_dispatch: {}
   push:
     branches: [main]
