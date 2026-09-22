@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-09-22T19:37:46.104Z</updated>
+  <updated>2026-09-22T22:48:32.354Z</updated>
   <entry>
     <title>Introducing GPT-6 Sol and Luna</title>
     <link href="https://openai.com/index/introducing-gpt-6-sol-and-luna"/>
@@ -25,49 +25,40 @@
     <summary>Claude Opus 5.5, Anthropic's most capable Opus model for agentic coding, knowledge work, and long-running tasks, is now available on Amazon Bedrock and Claude Platform on AWS. This post covers what's new in Opus 5.5, practical guidance, and how to start building with the model on Amazon Bedrock. — Also covered by: GitHub Copilot Changelog, Devin (Cognition)</summary>
   </entry>
   <entry>
-    <title>TechCrunch Disrupt 2026: Aaron Edsinger brings Hello Robot’s Stretch 4 to life onstage</title>
-    <link href="https://techcrunch.com/2026/09/22/techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-stretch-4-to-life-onstage"/>
-    <id>https://techcrunch.com/2026/09/22/techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-stretch-4-to-life-onstage</id>
-    <updated>2026-09-22T14:30:00.000Z</updated>
-    <author><name>TechCrunch Startups</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>Hello Robot CEO and co-founder Aaron Edsinger will bring Stretch 4 for a live demo on the Real World AI Stage at TechCrunch Disrupt 2026. Register before September 25 to save up to $200, plus get a second pass at 50% off.</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp b11111 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11111"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11111</id>
-    <updated>2026-09-22T18:42:19.000Z</updated>
+    <title>llama.cpp b11115 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11115"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11115</id>
+    <updated>2026-09-22T21:52:54.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>vulkan: add Intel Xe flash attention optimization kernels (2/3, Xe-LPG Plus/Xe2/Xe3) ( #24406 ) vulkan : Intel FA kernel optimization for split k path vulkan : Host code update for Intel split k FA kernel path selection, fix A770 Linux op test failures vulkan : use symmetric coopMatMulAdd() in flash_attn_decode_phase_1 — Also covered by: run-llama/llama_index</summary>
+    <summary>opencl: add bin kernel kernel_gemm_noshuffle_q4_k_q8_1_dp4a_ila_a8_bin ( #29056 ) opencl: add A8 Q4_K non-MoE dp4a binary kernel opencl: rename binary kernel selection helpers Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/49361383 macOS/iOS: macOS Apple Silicon (arm64) macO — Also covered by: run-llama/llama_index</summary>
   </entry>
   <entry>
-    <title>Anthropic releases Opus 5.5 with lower prices and Fable-level performance</title>
-    <link href="https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance"/>
-    <id>https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance</id>
-    <updated>2026-09-22T16:30:07.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Anthropic called it &quot;the strongest-performing model we've tested to date.&quot; — Also covered by: MarkTechPost</summary>
-  </entry>
-  <entry>
-    <title>NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development</title>
-    <link href="https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics"/>
-    <id>https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics</id>
-    <updated>2026-09-22T12:00:41.000Z</updated>
-    <author><name>NVIDIA Blog</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project from Open Robotics that helps humans build robots. NVIDIA Isaac ROS 5.0 — a collection of GPU-accelerated packages buil — Also covered by: The Robot Report</summary>
-  </entry>
-  <entry>
-    <title>Building standards for the next phase of AI</title>
-    <link href="https://openai.com/index/building-standards-next-phase-ai"/>
-    <id>https://openai.com/index/building-standards-next-phase-ai</id>
-    <updated>2026-09-21T10:00:00.000Z</updated>
+    <title>Parallel cut research time and cost in half with GPT‑6 Astra</title>
+    <link href="https://openai.com/index/parallel-cuts-time-and-cost-with-astra"/>
+    <id>https://openai.com/index/parallel-cuts-time-and-cost-with-astra</id>
+    <updated>2026-09-22T12:00:00.000Z</updated>
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.</summary>
+    <summary>GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.</summary>
+  </entry>
+  <entry>
+    <title>Snorkel AI triples valuation to $3.5B as demand for AI training data booms</title>
+    <link href="https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms"/>
+    <id>https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms</id>
+    <updated>2026-09-22T21:56:43.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>The seven-year-old startup has raised a $350 million Series E to fuel its data-as-a-service approach.</summary>
+  </entry>
+  <entry>
+    <title>Better prompt caching for GPT-6</title>
+    <link href="https://openai.com/index/better-prompt-caching-for-gpt-6"/>
+    <id>https://openai.com/index/better-prompt-caching-for-gpt-6</id>
+    <updated>2026-09-22T21:00:00.000Z</updated>
+    <author><name>OpenAI Blog</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.</summary>
   </entry>
   <entry>
     <title>Priorities and principles for effective third party assessments</title>
@@ -79,13 +70,31 @@
     <summary>OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.</summary>
   </entry>
   <entry>
-    <title>Five AI safety sessions every founder should have on their TechCrunch Disrupt 2026 agenda</title>
-    <link href="https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda"/>
-    <id>https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda</id>
-    <updated>2026-09-22T15:00:00.000Z</updated>
+    <title>NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development</title>
+    <link href="https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics"/>
+    <id>https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics</id>
+    <updated>2026-09-22T12:00:41.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project from Open Robotics that helps humans build robots. NVIDIA Isaac ROS 5.0 — a collection of GPU-accelerated packages buil — Also covered by: The Robot Report</summary>
+  </entry>
+  <entry>
+    <title>Microsoft Disrupts EvilTokens Device Code Phishing Service</title>
+    <link href="https://www.darkreading.com/identity-access-management-security/microsoft-disrupts-eviltokens-device-code-phishing-service"/>
+    <id>https://www.darkreading.com/identity-access-management-security/microsoft-disrupts-eviltokens-device-code-phishing-service</id>
+    <updated>2026-09-22T20:02:02.000Z</updated>
+    <author><name>Dark Reading</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>Microsoft seized 50 websites and disabled more than 150 domains as part of a coordinated disruption effort against a phishing-as-a-service platform targeting Microsoft 365 accounts. — Also covered by: The Hacker News</summary>
+  </entry>
+  <entry>
+    <title>TechCrunch Disrupt 2026: Aaron Edsinger brings Hello Robot’s Stretch 4 to life onstage</title>
+    <link href="https://techcrunch.com/2026/09/22/techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-stretch-4-to-life-onstage"/>
+    <id>https://techcrunch.com/2026/09/22/techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-stretch-4-to-life-onstage</id>
+    <updated>2026-09-22T14:30:00.000Z</updated>
     <author><name>TechCrunch Startups</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>At TechCrunch Disrupt 2026, five sessions across the AI Stage and Real World AI Stage cover AI safety, featuring leaders from Anthropic, Nvidia, AWS, Waabi, and more. Register before September 25 to save up to $200.</summary>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>Hello Robot CEO and co-founder Aaron Edsinger will bring Stretch 4 for a live demo on the Real World AI Stage at TechCrunch Disrupt 2026. Register before September 25 to save up to $200, plus get a second pass at 50% off.</summary>
   </entry>
   <entry>
     <title>Exhibit tables added: One last chance to showcase your startup at TechCrunch Disrupt 2026</title>
@@ -106,31 +115,13 @@
     <summary>Save up to $200 on your TechCrunch Disrupt 2026 pass, plus 50% off a second pass before prices increase on September 25 at 11:59 p.m. PT. Register today.</summary>
   </entry>
   <entry>
-    <title>QuEra and HPE Partner on Fault-Tolerant Quantum Computing for HPC</title>
-    <link href="https://thequantuminsider.com/2026/09/22/quera-hpe-fault-tolerant-quantum-computing-hpc"/>
-    <id>https://thequantuminsider.com/2026/09/22/quera-hpe-fault-tolerant-quantum-computing-hpc</id>
-    <updated>2026-09-22T13:13:59.000Z</updated>
-    <author><name>The Quantum Insider</name></author>
-    <category term="QUANTUM"/>
-    <summary>Insider Brief PRESS RELEASE — QuEra Computing, the leader in neutral-atom quantum computing, today announced a collaboration with HPE to integrate neutral-atom, fault-tolerant quantum computing with on-premise high-performance computing (HPC) environments powered by the HPE Cray supercomputing platform. The collaborati — Also covered by: IBM Research Blog</summary>
-  </entry>
-  <entry>
-    <title>OpenAI launches GPT-6 Sol and Luna, saying Sol makes about half as many mistakes as GPT-5.6 Sol and Luna matches GPT-5.6 Sol's performance at ~1% of the cost (David Gewirtz/ZDNET)</title>
-    <link href="https://www.techmeme.com/260922/p43"/>
-    <id>https://www.techmeme.com/260922/p43</id>
-    <updated>2026-09-22T18:15:08.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Wall Street’s GPU Futures Push Stalls at the CFTC</title>
+    <link href="https://www.theinformation.com/articles/wall-streets-gpu-futures-push-stalls-cftc"/>
+    <id>https://www.theinformation.com/articles/wall-streets-gpu-futures-push-stalls-cftc</id>
+    <updated>2026-09-22T20:58:49.000Z</updated>
+    <author><name>The Information</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>David Gewirtz / ZDNET : OpenAI launches GPT-6 Sol and Luna, saying Sol makes about half as many mistakes as GPT-5.6 Sol and Luna matches GPT-5.6 Sol's performance at ~1% of the cost — GPT-6 Sol and Luna arrive less than three months after GPT-5.6, with OpenAI claiming major accuracy gains, dramatic cost reductions …</summary>
-  </entry>
-  <entry>
-    <title>ollama v0.34.3 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.34.3"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.34.3</id>
-    <updated>2026-09-22T19:04:51.000Z</updated>
-    <author><name>ollama/ollama</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>What's Changed GET /api/show now advertises each model's thinking controls and default: curl http://localhost:11434/api/show -d ' {&quot;model&quot;: &quot;glm-5.3-flash:cloud&quot;} ' { &quot;thinking&quot; : { &quot;values&quot; : [ &quot; low &quot; , &quot; high &quot; , &quot; max &quot; ], &quot;default&quot; : &quot; max &quot; } } Nemotron H vision models are now supported on Apple Silicon with MLX </summary>
+    <summary>The launch of futures for rental prices on Nvidia GPUs, which are seen as important to make AI compute an investable asset class, is hitting a snag. CME Group had hoped to launch contracts as soon as early October, but it won’t have regulatory approval by then. The Commodity Futures Trading Commission, which regulates </summary>
   </entry>
   <entry>
     <title>Exclusive: Meta’s Muse Surpassed 500,000 Users After First Week</title>
@@ -142,13 +133,13 @@
     <summary>Meta’s new personal AI agent, Muse, had more than 500,000 people try it out roughly a week after launch, including more than 250,000 daily active users, according to internal data viewed by The Information. Users have also submitted more than 2 million prompts. The data indicate there has been ...</summary>
   </entry>
   <entry>
-    <title>Anthropic releases cheaper AI model ahead of IPO</title>
-    <link href="https://www.ft.com/content/0e50a3c6-9731-4b29-a21e-4e0ff89a595e?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/0e50a3c6-9731-4b29-a21e-4e0ff89a595e?syn-25a6b1a6=1</id>
-    <updated>2026-09-22T16:31:37.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
+    <title>Asian Stocks Set to Extend Gains as Tech Rallies: Markets Wrap</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-22/stock-market-today-dow-s-p-live-updates"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-22/stock-market-today-dow-s-p-live-updates</id>
+    <updated>2026-09-22T22:15:07.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>New Claude model sharpens Anthropic’s pitch to investors ahead of blockbuster listing</summary>
+    <summary>Asian stocks were poised to extend their winning streak after chipmakers drove the Nasdaq 100 to its first record since June, while falling oil prices provided a further boost amid hopes for progress toward ending the war with Iran.</summary>
   </entry>
   <entry>
     <title>Claude Opus 5.5 matches Fable 5.1 performance at lower cost and promises less &quot;Claudish&quot; writing</title>
@@ -178,22 +169,22 @@
     <summary>Catastrophes can occur with any new technology, but history offers valuable lessons for dealing with them</summary>
   </entry>
   <entry>
-    <title>Fable to Haiku: How a Malicious Repo Tricked Claude Code Into Running Malware | Straiker</title>
-    <link href="https://www.straiker.ai/blog/how-a-malicious-repo-tricked-claude-code-into-running-malware"/>
-    <id>https://www.straiker.ai/blog/how-a-malicious-repo-tricked-claude-code-into-running-malware</id>
-    <updated>2026-09-22T18:00:00.000Z</updated>
-    <author><name>Straiker STAR</name></author>
+    <title>AI Prompt Injection: A New Class of Risk and Best Practices</title>
+    <link href="https://www.morganlewis.com/pubs/2026/09/ai-prompt-injection-a-new-class-of-risk-and-best-practices"/>
+    <id>https://www.morganlewis.com/pubs/2026/09/ai-prompt-injection-a-new-class-of-risk-and-best-practices</id>
+    <updated>2026-09-22T21:56:35.000Z</updated>
+    <author><name>GN: Prompt Injection</name></author>
     <category term="AI SECURITY"/>
-    <summary>A malicious repo downgraded Claude Code’s review from Fable to Haiku, steered the agent away from the payload, and turned a routine test run into malware execution.</summary>
+    <summary>AI Prompt Injection: A New Class of Risk and Best Practices Morgan Lewis</summary>
   </entry>
   <entry>
-    <title>ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach</title>
-    <link href="https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach"/>
-    <id>https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach</id>
-    <updated>2026-09-22T19:13:29.000Z</updated>
-    <author><name>BleepingComputer</name></author>
+    <title>Canadian regulator opens probe of IDScan for allegedly violating data privacy laws</title>
+    <link href="https://therecord.media/canadian-regulator-opens-probe-of-idscan-following-data-breach"/>
+    <id>https://therecord.media/canadian-regulator-opens-probe-of-idscan-following-data-breach</id>
+    <updated>2026-09-22T19:52:00.000Z</updated>
+    <author><name>The Record</name></author>
     <category term="CYBER THREATS"/>
-    <summary>The ShinyHunters extortion gang claims it breached FBI systems using a new Oracle PeopleSoft zero-day vulnerability, gaining access to internal services and stealing sensitive data on employees and job applicants. [...]</summary>
+    <summary>The investigation, announced Monday, will probe IDScan’s security practices and whether victim notifications were adequate under Canada’s federal private-sector privacy law, the regulator said in a press release.</summary>
   </entry>
   <entry>
     <title>WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers</title>
@@ -205,13 +196,13 @@
     <summary>WordPress has fixed a critical flaw in its core software that lets an attacker with no account make a site load a PHP file from outside its theme folders. On some servers, that can go further, allowing the attacker to run their own code. The fix shipped on September 22 in WordPress 7.1.2, with fixes for every branch th</summary>
   </entry>
   <entry>
-    <title>Sources: Mirendil, founded by former Anthropic researchers to build self-improving AI, is in talks to raise ~$1B led by Kleiner Perkins at a $5B valuation (Bloomberg)</title>
-    <link href="https://www.techmeme.com/260922/p45"/>
-    <id>https://www.techmeme.com/260922/p45</id>
-    <updated>2026-09-22T18:40:01.000Z</updated>
+    <title>Data security startup Cyera raised $400M from Goldman Sachs in a Series G extension, bringing its total funding since June 2025 to $1.94B (James Rundle/Wall Street Journal)</title>
+    <link href="https://www.techmeme.com/260922/p55"/>
+    <id>https://www.techmeme.com/260922/p55</id>
+    <updated>2026-09-22T22:35:02.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="FUNDING &amp; DEALS"/>
-    <summary>Bloomberg : Sources: Mirendil, founded by former Anthropic researchers to build self-improving AI, is in talks to raise ~$1B led by Kleiner Perkins at a $5B valuation — Mirendil, an artificial intelligence startup launched by former Anthropic PBC researchers, is in talks to raise a new round of funding …</summary>
+    <summary>James Rundle / Wall Street Journal : Data security startup Cyera raised $400M from Goldman Sachs in a Series G extension, bringing its total funding since June 2025 to $1.94B — Data-security startup raises more than $1.9 billion in 15 months as Wall Street AI anxiety leads to an investor surge — Wall Street is getting </summary>
   </entry>
   <entry>
     <title>Quoting @therealcornpop</title>
@@ -223,22 +214,40 @@
     <summary>Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of &quot;it's not X, it's Y&quot;, or the rule of three, or the really weird broken staccato-like way of writing where you just say a lot of things with all these punctuation marks</summary>
   </entry>
   <entry>
-    <title>XPENG’s IRON Remembers Car Buyers in New Interaction Demo</title>
-    <link href="https://www.humanoidsdaily.com/news/xpeng-iron-showroom-interaction-memory"/>
-    <id>https://www.humanoidsdaily.com/news/xpeng-iron-showroom-interaction-memory</id>
-    <updated>2026-09-22T11:12:05.000Z</updated>
-    <author><name>Humanoids Daily</name></author>
+    <title>Intel to discuss the infrastructure needed to scale physical AI at RoboBusiness</title>
+    <link href="https://www.therobotreport.com/intel-discusses-infrastructure-needed-to-scale-physical-ai-robobusiness"/>
+    <id>https://www.therobotreport.com/intel-discusses-infrastructure-needed-to-scale-physical-ai-robobusiness</id>
+    <updated>2026-09-22T21:31:19.000Z</updated>
+    <author><name>The Robot Report</name></author>
     <category term="ROBOTICS"/>
-    <summary>XPENG shows IRON tracking speakers, switching languages and recalling customer preferences in a showroom-style R&amp;D test, ahead of its planned store deployments.</summary>
+    <summary>Intel's Nagesh Puppala will discuss why the next phase of robotics innovation depends on more than bigger models or better simulations. The post Intel to discuss the infrastructure needed to scale physical AI at RoboBusiness appeared first on The Robot Report .</summary>
   </entry>
   <entry>
-    <title>Zapata Launches Platform to Help Companies Assess Quantum Use Cases</title>
-    <link href="https://thequantuminsider.com/2026/09/22/zapata-launches-platform-to-help-companies-assess-quantum-use-cases"/>
-    <id>https://thequantuminsider.com/2026/09/22/zapata-launches-platform-to-help-companies-assess-quantum-use-cases</id>
-    <updated>2026-09-22T18:41:27.000Z</updated>
-    <author><name>The Quantum Insider</name></author>
+    <title>Microsoft says it will give DARPA on-site access to its latest quantum computing hardware, including the Majorana 2 chip, at its new Maryland research center (Stephen Nellis/Reuters)</title>
+    <link href="https://www.techmeme.com/260922/p54"/>
+    <id>https://www.techmeme.com/260922/p54</id>
+    <updated>2026-09-22T22:01:12.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="QUANTUM"/>
-    <summary>Insider Brief PRESS RELEASE — Zapata Quantum, Inc. (OTCQB: ZPTA) (“Zapata,” “Zapata Quantum” or the “Company”), a leader in quantum computing algorithm and application development, today announced early access to Quantum Pilot, a hardware-agnostic, cloud-based software platform designed to close a growing gap between r</summary>
+    <summary>Stephen Nellis / Reuters : Microsoft says it will give DARPA on-site access to its latest quantum computing hardware, including the Majorana 2 chip, at its new Maryland research center — Microsoft (MSFT.O) on Tuesday said it will give the US Defense Advanced Research Projects Agency direct, on-site access …</summary>
+  </entry>
+  <entry>
+    <title>ollama v0.34.3 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.34.3"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.34.3</id>
+    <updated>2026-09-22T20:42:48.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="GITHUB REPOS"/>
+    <summary>What's Changed GET /api/show now advertises each model's thinking controls and default: Available in the CLI with: ollama show gemma4 thinking levels false, true default true Available in the API with: curl http://localhost:11434/api/show -d ' {&quot;model&quot;: &quot;glm-5.3-flash:cloud&quot;} ' { &quot;thinking&quot; : { &quot;values&quot; : [ &quot; low &quot; , &quot;</summary>
+  </entry>
+  <entry>
+    <title>Qualcomm unveils the Snapdragon 8 Elite Gen 6 and 8 Elite Extreme Gen 6, both on TSMC's 2nm process, with two 5GHz prime cores and six 4GHz performance cores (Axel Metz/TechRadar)</title>
+    <link href="https://www.techmeme.com/260922/p51"/>
+    <id>https://www.techmeme.com/260922/p51</id>
+    <updated>2026-09-22T20:30:03.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Axel Metz / TechRadar : Qualcomm unveils the Snapdragon 8 Elite Gen 6 and 8 Elite Extreme Gen 6, both on TSMC's 2nm process, with two 5GHz prime cores and six 4GHz performance cores — Extreme by name, extreme by nature — Qualcomm has announced not one, but two new flagship mobile chipsets at its annual Snapdragon Summi</summary>
   </entry>
   <entry>
     <title>OpenAI Announces Cheaper GPT-6 Family Models</title>
@@ -259,21 +268,12 @@
     <summary>• Ming-Image-0.1-Design, 6B • Ming-Image-0.1-Design-Layer, 6B • Two open-source Agent Skills: the Ling UI Design Skill and the Image-to-Editable-PPT Skill Ming-Image-0.1-Design ranks #1 among open-weight models on Artificial Analysis’s UI/UX Design leaderboard. https://huggingface.co/inclusionAI/Ming-Image-0.1-Design h — Also covered by: LocalLLaMA Subreddit</summary>
   </entry>
   <entry>
-    <title>New York-based Ande, whose AI agents help businesses arrange corporate events for employees or customers, emerges from stealth with $52M in seed and Series A (Stephanie Palazzolo/The Information)</title>
-    <link href="https://www.techmeme.com/260922/p48"/>
-    <id>https://www.techmeme.com/260922/p48</id>
-    <updated>2026-09-22T19:30:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Stephanie Palazzolo / The Information : New York-based Ande, whose AI agents help businesses arrange corporate events for employees or customers, emerges from stealth with $52M in seed and Series A — Personal AI agents like Instinct and Muse have promised to take away the hassle of booking hard-to-get restaurant reserv</summary>
-  </entry>
-  <entry>
-    <title>Anthropic Releases Claude Opus 5.5: Fable 5.1-Level Performance at 40% Lower Running Cost Than Opus 5</title>
-    <link href="https://www.marktechpost.com/2026/09/22/anthropic-claude-opus-5-5-release"/>
-    <id>https://www.marktechpost.com/2026/09/22/anthropic-claude-opus-5-5-release</id>
-    <updated>2026-09-22T18:59:35.000Z</updated>
-    <author><name>MarkTechPost</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Anthropic has released Claude Opus 5.5, the first model in its new Claude 5.5 family. The team states it performs at the level of Claude Fable 5.1 on most work. It also costs 40% less to run than Opus 5 on typical workloads at default settings. On Anthropic’s own benchmarks, it leads in agentic coding, […] The post Ant</summary>
+    <title>quants for K2-Horizon are now available</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wnky7x/quants_for_k2horizon_are_now_available"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wnky7x/quants_for_k2horizon_are_now_available</id>
+    <updated>2026-09-22T20:26:36.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>You can finally downloads quants from: https://huggingface.co/IFM/K2-Horizon-MoVA-36B-A4B-GGUF https://preview.redd.it/cfhl43pps4rh1.png?width=2800&amp;format=png&amp;auto=webp&amp;s=313eab309fb407a0a0e5da61e2a120c677d3d3cd https://huggingface.co/IFM/K2-Horizon-32B-GGUF https://preview.redd.it/jeh7lg6ss4rh1.png?width=2800&amp;format=p</summary>
   </entry>
 </feed>
