@@ -5,15 +5,24 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-09-22T01:03:20.619Z</updated>
+  <updated>2026-09-22T06:01:27.314Z</updated>
   <entry>
-    <title>llama.cpp b11093 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11093"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11093</id>
-    <updated>2026-09-22T00:34:29.000Z</updated>
+    <title>llama.cpp b11096 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11096"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11096</id>
+    <updated>2026-09-22T04:03:14.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>metal : fix mask bounds in flash attention block pre-pass ( #29220 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/49087452 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU — Also covered by: run-llama/llama_index</summary>
+    <summary>ci : update Level Zero SDK to v1.33.1 and enable the L0/oneDNN CMake … — Also covered by: run-llama/llama_index</summary>
+  </entry>
+  <entry>
+    <title>British Columbia sues OpenAI and Sam Altman over Tumbler Ridge mass school shooting</title>
+    <link href="https://www.theguardian.com/technology/2026/sep/22/british-columbia-sues-openai-sam-altman-tumbler-ridge-school-shooting"/>
+    <id>https://www.theguardian.com/technology/2026/sep/22/british-columbia-sues-openai-sam-altman-tumbler-ridge-school-shooting</id>
+    <updated>2026-09-22T04:29:22.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Canadian province alleges deadly attack could have been prevented if company had warned police of shooter’s ChatGPT use British Columbia has sued OpenAI in California, saying a mass shooting at a school in the province could have been prevented if the company had warned local ⁠law enforcement that the shooter ⁠had used — Also covered by: WSJ Tech</summary>
   </entry>
   <entry>
     <title>Building standards for the next phase of AI</title>
@@ -61,21 +70,12 @@
     <summary>Google has been fined €403 million for breaking the EU's data protection law, the GDPR, in the way three of its features handled people's location data from May 2018 to February 2020. Ireland's Data Protection Commission (DPC), Google's lead regulator in the EU, also ordered the company to make its processing comply wi — Also covered by: BleepingComputer</summary>
   </entry>
   <entry>
-    <title>British Columbia Sues OpenAI, Alleging ChatGPT Aided Mass School Shooting</title>
-    <link href="https://www.wsj.com/tech/ai/british-columbia-sues-openai-alleging-chatgpt-aided-mass-school-shooting-aac66568?mod=rss_Technology"/>
-    <id>https://www.wsj.com/tech/ai/british-columbia-sues-openai-alleging-chatgpt-aided-mass-school-shooting-aac66568?mod=rss_Technology</id>
-    <updated>2026-09-21T21:26:00.000Z</updated>
-    <author><name>WSJ Tech</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>The lawsuit alleges that the AI company failed to notify law enforcement and calls out product safety gaps. — Also covered by: Bloomberg Tech</summary>
-  </entry>
-  <entry>
     <title>xAI’s Grok 4.6 is now available in Amazon Bedrock</title>
     <link href="https://aws.amazon.com/blogs/machine-learning/xais-grok-4-6-is-now-available-in-amazon-bedrock"/>
     <id>https://aws.amazon.com/blogs/machine-learning/xais-grok-4-6-is-now-available-in-amazon-bedrock</id>
     <updated>2026-09-21T18:30:34.000Z</updated>
     <author><name>AWS ML Blog</name></author>
-    <category term="PRODUCTS"/>
+    <category term="AGENTS &amp; TOOLS"/>
     <summary>xAI's Grok 4.6 is now available in Amazon Bedrock: a frontier model for long-running agents, coding, and knowledge work, with a 500K token context window and four reasoning effort levels. It runs on both the bedrock-mantle and bedrock-runtime endpoints, with Converse API and cross-Region inference support. — Also covered by: Devin (Cognition)</summary>
   </entry>
   <entry>
@@ -97,49 +97,48 @@
     <summary>Chulalongkorn University (Thailand) and Japan's National Institute of Advanced Industrial Science and Technology (AIST) have signed a five-year MoU to advance quantum technology in Southeast Asia. This partnership will focus on joint research, scientific exchange, and developing quantum computing applications. The coll — Also covered by: The Quantum Insider</summary>
   </entry>
   <entry>
-    <title>xAI launches Grok 4.7 at bargain prices, but benchmarks reveal a wide gap to Claude and GPT-6</title>
-    <link href="https://the-decoder.com/xai-launches-grok-4-7-at-bargain-prices-but-benchmarks-reveal-a-wide-gap-to-claude-and-gpt-6"/>
-    <id>https://the-decoder.com/xai-launches-grok-4-7-at-bargain-prices-but-benchmarks-reveal-a-wide-gap-to-claude-and-gpt-6</id>
-    <updated>2026-09-21T16:56:36.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>vllm v0.30.0 released</title>
+    <link href="https://github.com/vllm-project/vllm/releases/tag/v0.30.0"/>
+    <id>https://github.com/vllm-project/vllm/releases/tag/v0.30.0</id>
+    <updated>2026-09-22T05:20:54.000Z</updated>
+    <author><name>vllm-project/vllm</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>xAI has released Grok 4.7, its most capable model yet. But on the Artificial Analysis Intelligence Index, it scores just 46 points, landing mid-pack and well behind Claude Fable 5.1 and GPT-6 at 53 each. The gap grows even wider in agentic coding. The upside is it's cheap. The article xAI launches Grok 4.7 at bargain p</summary>
+    <summary>v0.30.0 Highlights This release features 762 commits from 315 contributors (104 new)! New models : DeepSeek-V4.1-Flash ( #56214 , #56228 , #56208 ) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 ( #56893 ), DeepGEMM Mega-mHC ( #56962 ), and async Engram prefetch with Engram DP sharding ( #5</summary>
   </entry>
   <entry>
-    <title>Xiaomi debuts open-weight omnimodal models MiMo-V2.6 Pro and Flash; Pro allegedly performs &quot;on par with Opus 5 and GPT-5.6 Sol across most agent benchmarks&quot; (Xiaomi)</title>
-    <link href="https://www.techmeme.com/260921/p52"/>
-    <id>https://www.techmeme.com/260921/p52</id>
-    <updated>2026-09-21T22:10:02.000Z</updated>
+    <title>Tencent launches Hy Image 3.5 Preview, saying during internal testing the image model achieved results on par with ByteDance's Seedream 5.0 Pro (Bloomberg)</title>
+    <link href="https://www.techmeme.com/260922/p1"/>
+    <id>https://www.techmeme.com/260922/p1</id>
+    <updated>2026-09-22T04:20:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Xiaomi : Xiaomi debuts open-weight omnimodal models MiMo-V2.6 Pro and Flash; Pro allegedly performs “on par with Opus 5 and GPT-5.6 Sol across most agent benchmarks” — Frontier intelligence, all the modalities, built in public. Today, we are releasing and open-sourcing the MiMo-V2.6 series.</summary>
+    <summary>Bloomberg : Tencent launches Hy Image 3.5 Preview, saying during internal testing the image model achieved results on par with ByteDance's Seedream 5.0 Pro — Tencent Holdings Ltd. launched its latest and best image-generation model on the same day as rival Alibaba Group Holding Ltd. kicked off its AI conference …</summary>
   </entry>
   <entry>
-    <title>Paramount settles lawsuits, allowing for Warner Bros. deal</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-21/paramount-settles-suits-allowing-for-warner-bros-deal-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-21/paramount-settles-suits-allowing-for-warner-bros-deal-video</id>
-    <updated>2026-09-21T22:29:35.000Z</updated>
+    <title>Recognition, Simulation, and Refusal: A Contamination-Aware Study of Classic Psychological Effects in LLM Agents</title>
+    <link href="https://arxiv.org/abs/2609.22090"/>
+    <id>https://arxiv.org/abs/2609.22090</id>
+    <updated>2026-09-22T04:00:00.000Z</updated>
+    <author><name>arXiv cs.CL</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>arXiv:2609.22090v1 Announce Type: new Abstract: An LLM producing the response pattern associated with a human psychological effect is not the same claim as the LLM possessing that bias. We present PsyAgentBench, a benchmark that re-runs classic psychology experiments on LLM agents under a factorial design built to sepa</summary>
+  </entry>
+  <entry>
+    <title>FTSE 100 Set to Extend Rise, Oil Edges Higher</title>
+    <link href="https://www.bloomberg.com/news/live-blog/2026-09-22/ftse-100-stocks-oil-price-gilts-pound-what-s-moving-uk-markets-right-now-markets-today"/>
+    <id>https://www.bloomberg.com/news/live-blog/2026-09-22/ftse-100-stocks-oil-price-gilts-pound-what-s-moving-uk-markets-right-now-markets-today</id>
+    <updated>2026-09-22T05:45:25.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Paramount Skydance has settled lawsuits brought by 12 state attorneys general and the Writers Guild trade union, a move that will allow the company to close its historic $110 billion acquisition of Warner Bros. Discovery. Erik Larson reports. (Source: Bloomberg)</summary>
   </entry>
   <entry>
-    <title>Amazon launches research initiative with Stanford University to advance AI and science</title>
-    <link href="https://www.amazon.science/news/amazon-launches-research-initiative-with-stanford-university-to-advance-ai-and-science"/>
-    <id>https://www.amazon.science/news/amazon-launches-research-initiative-with-stanford-university-to-advance-ai-and-science</id>
-    <updated>2026-09-21T19:31:59.000Z</updated>
-    <author><name>Amazon Science</name></author>
+    <title>ZoAQ: Adaptive Zeroth-Order Querying via Query-Reuse Coupling</title>
+    <link href="https://arxiv.org/abs/2609.22115"/>
+    <id>https://arxiv.org/abs/2609.22115</id>
+    <updated>2026-09-22T04:00:00.000Z</updated>
+    <author><name>arXiv cs.LG</name></author>
     <category term="RESEARCH"/>
-    <summary>The collaboration aims to advance research while broadening participation and translating discovery into real-world solutions.</summary>
-  </entry>
-  <entry>
-    <title>What Is Nemotron 3.5 Lightning</title>
-    <link href="https://openrouter.ai/blog/insights/nemotron-3-5-lightning"/>
-    <id>https://openrouter.ai/blog/insights/nemotron-3-5-lightning</id>
-    <updated>2026-09-22T00:00:00.000Z</updated>
-    <author><name>OpenRouter Blog</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Nemotron 3.5 Lightning is NVIDIA's open-weight 30B mixture-of-experts model with about 3B active parameters per token, built for the high-volume execution calls in an agent run. This post covers what the architecture means, how the model compares with Nemotron 3 Ultra, what context and features each OpenRouter endpoint</summary>
+    <summary>arXiv:2609.22115v1 Announce Type: new Abstract: Zeroth-order optimization (ZOO) estimates updates from function evaluations, making perturbation queries a primary cost. Fixed budgets spend the same number of queries at every step, while adaptive controllers may offset their savings by using additional oracle calls to t</summary>
   </entry>
   <entry>
     <title>Jev introduces a new shape of LLM - System One, aka Decision Models</title>
@@ -151,13 +150,22 @@
     <summary>Last week TypeSafe AI unveiled Jev , their first example of a new category of model that they are calling &quot;System One models&quot; (I'm with Maggie Appleton, I think &quot;decision models&quot; is a better name for these). Jev is an interesting variant on the usual LLM format: it still accepts text inputs, but instead of text output </summary>
   </entry>
   <entry>
-    <title>OpenAI Releases Proposal for International AI Safety Coordination</title>
-    <link href="https://www.theinformation.com/briefings/openai-releases-proposal-international-ai-safety-coordination"/>
-    <id>https://www.theinformation.com/briefings/openai-releases-proposal-international-ai-safety-coordination</id>
-    <updated>2026-09-21T18:11:04.000Z</updated>
-    <author><name>The Information</name></author>
+    <title>TinyTorch: Don’t Just Import PyTorch. Build It.</title>
+    <link href="https://pytorch.org/blog/tinytorch-dont-just-import-pytorch-build-it"/>
+    <id>https://pytorch.org/blog/tinytorch-dont-just-import-pytorch-build-it</id>
+    <updated>2026-09-21T20:41:14.000Z</updated>
+    <author><name>PyTorch Blog</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>A framework you write yourself, tensors through transformers TL;DR Every mature systems project eventually needs a teaching version. TinyTorch is a free, open-source curriculum where you build a working ML...</summary>
+  </entry>
+  <entry>
+    <title>When talked into harm, a model blames the answer, not itself (an interpretability study of guilt vs shame)</title>
+    <link href="https://www.lesswrong.com/posts/yo2WYj7eX3oGCuR6t/when-talked-into-harm-a-model-blames-the-answer-not-itself"/>
+    <id>https://www.lesswrong.com/posts/yo2WYj7eX3oGCuR6t/when-talked-into-harm-a-model-blames-the-answer-not-itself</id>
+    <updated>2026-09-22T04:43:09.000Z</updated>
+    <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>OpenAI released a proposal on Monday that would create international coordination around AI safety. In a blog post, OpenAI called for national AI safety institutes, such as the U.S. Commerce Department’s Center for AI Standards and Innovation, to set standards around areas including model ...</summary>
+    <summary>This was my write-up for Neel Nanda’s Winter 2027 MATS Stream (~20h research task). I didn’t get in, but it was my first application, so there’s always next time :P Lightly restructured here to fit the LessWrong format better. Repo: https://github.com/star2vec/guiltea ── ⋆⋅☆⋅⋆ ── TL;DR: Models are safety-trained, but t</summary>
   </entry>
   <entry>
     <title>Jev AI agent security: Prompt injection risk</title>
@@ -166,7 +174,7 @@
     <updated>2026-09-21T22:21:26.000Z</updated>
     <author><name>GN: Prompt Injection</name></author>
     <category term="AI SECURITY"/>
-    <summary>Jev AI agent security: Prompt injection risk VentureBeat</summary>
+    <summary>Jev AI agent security: Prompt injection risk venturebeat.com</summary>
   </entry>
   <entry>
     <title>BigCommerce alerts merchants of data breach linked to Ribon apps</title>
@@ -178,22 +186,13 @@
     <summary>Ecommerce platform BigCommerce has alerted multiple merchants to data breaches after attackers compromised credentials for third-party Ribon applications and used them to inject malicious scripts into online stores. [...]</summary>
   </entry>
   <entry>
-    <title>Windows Exploitation Techniques: Dangling COM Object Registrations</title>
-    <link href="https://projectzero.google/2026/09/windows-dangling-com.html"/>
-    <id>https://projectzero.google/2026/09/windows-dangling-com.html</id>
-    <updated>2026-09-21T07:00:00.000Z</updated>
-    <author><name>Google Project Zero</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>This short blog post is about abusing a privilege escalation bug that Microsoft recently fixed in Windows, CVE-2026-66804, that I and 14 others reported. This issue is an incomplete fix for CVE-2026-50343, a bug dubbed “Dark Elevator” by Calif. The root cause of the bug was a dangling COM object registration for the Cr</summary>
-  </entry>
-  <entry>
-    <title>SoftBank’s $50bn data centre group slows IPO</title>
-    <link href="https://www.ft.com/content/4a80f076-d1bb-4492-a854-0833d981d5f4?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/4a80f076-d1bb-4492-a854-0833d981d5f4?syn-25a6b1a6=1</id>
-    <updated>2026-09-21T23:51:50.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
+    <title>Belgium-based AI recruitment platform Spott raised a $21M Series A led by Balderton, with Base10, YC, and Fortino participating, bringing total funding to $24M (Chris Metinko/Axios)</title>
+    <link href="https://www.techmeme.com/260922/p4"/>
+    <id>https://www.techmeme.com/260922/p4</id>
+    <updated>2026-09-22T05:50:02.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="FUNDING &amp; DEALS"/>
-    <summary>Masayoshi Son-backed company faces market fears over an AI slowdown and lacklustre interest in new debt sale</summary>
+    <summary>Chris Metinko / Axios : Belgium-based AI recruitment platform Spott raised a $21M Series A led by Balderton, with Base10, YC, and Fortino participating, bringing total funding to $24M — Spott, a recruitment management platform, raised a $21 million Series A led by Balderton Capital, CEO Lander Degreve tells Axios Pro e</summary>
   </entry>
   <entry>
     <title>Unitree Unveils Human-Sized Robot Hand Starting at $6,500</title>
@@ -214,66 +213,66 @@
     <summary>Deployment will bring the first IonQ Superion 256 system and first silicon-vacancy quantum memory module to South Korea SEOUL, South Korea and COLLEGE PARK, Md., Sept. 21, 2026 — IonQ today announced a strategic partnership with Korea-based quantum technology and software company SDT, Inc. Under this multi-year collabo</summary>
   </entry>
   <entry>
-    <title>Paramount Settles State Antitrust Lawsuit, Clearing Way for Warner Deal to Close</title>
-    <link href="https://www.theinformation.com/briefings/paramount-settles-state-antitrust-lawsuit-clearing-way-warner-deal-close"/>
-    <id>https://www.theinformation.com/briefings/paramount-settles-state-antitrust-lawsuit-clearing-way-warner-deal-close</id>
-    <updated>2026-09-21T20:39:13.000Z</updated>
-    <author><name>The Information</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Paramount Skydance settled a lawsuit filed by 12 states that had threatened to stop its $110 billion purchase of Warner Bros. Discovery. The settlement, filed in court on Monday, clears the way for the deal to close. Under the settlement, Paramount agreed to release at least 30 films into movie ...</summary>
+    <title>A Shared Learning Rate Is Not a Neutral Control in Selective On-Policy Distillation</title>
+    <link href="https://arxiv.org/abs/2609.22109"/>
+    <id>https://arxiv.org/abs/2609.22109</id>
+    <updated>2026-09-22T04:00:00.000Z</updated>
+    <author><name>arXiv cs.LG</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>arXiv:2609.22109v1 Announce Type: new Abstract: Selective on-policy distillation trains a student only at the token positions a selector scores highest, and the literature compares selectors under a single shared learning rate--a control chosen to be neutral. We show it is not. Under LoRA on GSM8K (Qwen2.5-1.5B student</summary>
   </entry>
   <entry>
-    <title>SB Energy Faces Investor Skepticism in IPO, Report Says</title>
-    <link href="https://www.theinformation.com/briefings/sb-energy-faces-investor-skepticism-ipo-report-says"/>
-    <id>https://www.theinformation.com/briefings/sb-energy-faces-investor-skepticism-ipo-report-says</id>
-    <updated>2026-09-21T23:20:25.000Z</updated>
-    <author><name>The Information</name></author>
+    <title>Apple v. OpenAI: Apple asks the court to let its own experts review forensic images used in the case, and seeks documents tied to parts of OpenAI's hardware R&amp;D (Marcus Mendes/9to5Mac)</title>
+    <link href="https://www.techmeme.com/260922/p2"/>
+    <id>https://www.techmeme.com/260922/p2</id>
+    <updated>2026-09-22T04:45:03.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>SB Energy’s initial public offering is facing investor skepticism, The New York Times reported Monday. The SoftBank majority-owned company is planning to raise $5 billion to $7 billion in a public offering to help develop a massive data center complex OpenAI plans to lease, which is set to be ...</summary>
+    <summary>Marcus Mendes / 9to5Mac : Apple v. OpenAI: Apple asks the court to let its own experts review forensic images used in the case, and seeks documents tied to parts of OpenAI's hardware R&amp;D — Apple has asked the court overseeing its lawsuit against OpenAI and other defendants to let its own experts review forensic images </summary>
   </entry>
   <entry>
-    <title>MiMo-V2.6 distilled themselves into Qwen 9B!</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wmtjqu/mimov26_distilled_themselves_into_qwen_9b"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wmtjqu/mimov26_distilled_themselves_into_qwen_9b</id>
-    <updated>2026-09-21T23:50:29.000Z</updated>
+    <title>Qwen 4 Announced at Apsara Conference</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wmxfjs/qwen_4_announced_at_apsara_conference"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wmxfjs/qwen_4_announced_at_apsara_conference</id>
+    <updated>2026-09-22T02:45:42.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B That's serious. submitted by /u/Beamsters [link] [comments]</summary>
+    <summary>https://preview.redd.it/bpbc9i6hizqh1.png?width=1270&amp;format=png&amp;auto=webp&amp;s=e8aa8301895735a05c3c61a5e793018a23d1cac5 I wanted to share a quick update: Alibaba has officially announced Qwen 4 at the Apsara Conference, submitted by /u/Salah_H_Hasan [link] [comments]</summary>
   </entry>
   <entry>
-    <title>Mimo v2.6-Flash-RL vs open-weight models</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wmp5h2/mimo_v26flashrl_vs_openweight_models"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wmp5h2/mimo_v26flashrl_vs_openweight_models</id>
-    <updated>2026-09-21T20:54:52.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>PRQuant: Permutation Residual Quantization for Low-Overhead Inference</title>
+    <link href="https://arxiv.org/abs/2609.22106"/>
+    <id>https://arxiv.org/abs/2609.22106</id>
+    <updated>2026-09-22T04:00:00.000Z</updated>
+    <author><name>arXiv cs.LG</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Since there’s no comparison chart on the model page, I asked Perplexity to compare it against some relatively small open-weight models in a similar size range. Here are the results. Upd. Terminal-Bench 4.0 results: MiMo‑V2.6‑Flash‑RL — 28.8% DeepSeek‑V4‑Flash‑0731 — 12.0% Qwen3.8‑Flash‑Next — 25.3% GLM‑5.3‑Flash — 32.8</summary>
+    <summary>arXiv:2609.22106v1 Announce Type: new Abstract: Accuracy of Low-bit quantization of linear layers is often dominated by a small number of outliers. Although existing methods, such as smoothing, rotation, or residual-based approaches, may mitigate this problem, they often introduce new accuracy bottlenecks to weights. B</summary>
   </entry>
   <entry>
-    <title>Jev is now available in LangSmith Evals</title>
-    <link href="https://www.langchain.com/blog/jev-is-now-available-in-langsmith-evals"/>
-    <id>https://www.langchain.com/blog/jev-is-now-available-in-langsmith-evals</id>
-    <updated>2026-09-21T17:14:45.000Z</updated>
-    <author><name>LangChain Blog</name></author>
+    <title>xAI launches Grok 4.7 at bargain prices, but benchmarks reveal a wide gap to Claude and GPT-6</title>
+    <link href="https://the-decoder.com/xai-launches-grok-4-7-at-bargain-prices-but-benchmarks-reveal-a-wide-gap-to-claude-and-gpt-6"/>
+    <id>https://the-decoder.com/xai-launches-grok-4-7-at-bargain-prices-but-benchmarks-reveal-a-wide-gap-to-claude-and-gpt-6</id>
+    <updated>2026-09-21T16:56:36.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Use Jev as a judge for LangSmith evals to evaluate agent traces with faster, cheaper structured feedback across production runs, datasets, and regression tests.</summary>
+    <summary>xAI has released Grok 4.7, its most capable model yet. But on the Artificial Analysis Intelligence Index, it scores just 46 points, landing mid-pack and well behind Claude Fable 5.1 and GPT-6 at 53 each. The gap grows even wider in agentic coding. The upside is it's cheap. The article xAI launches Grok 4.7 at bargain p</summary>
   </entry>
   <entry>
-    <title>Burnham to call for global effort to control threats posed by AI</title>
-    <link href="https://www.ft.com/content/697c5196-3aa4-4c59-bad9-a455bcc1858f?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/697c5196-3aa4-4c59-bad9-a455bcc1858f?syn-25a6b1a6=1</id>
-    <updated>2026-09-21T21:30:12.000Z</updated>
+    <title>langchain v0.2.9 released</title>
+    <link href="https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.9"/>
+    <id>https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.9</id>
+    <updated>2026-09-22T04:16:13.000Z</updated>
+    <author><name>langchain-ai/langchain</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Changes since langchain-openrouter==0.2.8 release(openrouter): 0.2.9 ( #40736 ) chore(model-profiles): refresh model profile data ( #40705 ) chore(model-profiles): refresh model profile data ( #40685 ) chore(model-profiles): refresh model profile data ( #40665 ) chore(deps): bump anyio from 4.13.0 to 4.14.2 in /libs/pa</summary>
+  </entry>
+  <entry>
+    <title>OpenAI sued by Canadian province over role in mass shooting</title>
+    <link href="https://www.ft.com/content/30d2f29b-e750-4a90-9e8d-b1a7f14e4908?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/30d2f29b-e750-4a90-9e8d-b1a7f14e4908?syn-25a6b1a6=1</id>
+    <updated>2026-09-22T01:28:52.000Z</updated>
     <author><name>FT Artificial Intelligence</name></author>
     <category term="AI FINANCE"/>
-    <summary>UK prime minister will meet Donald Trump in person for first time at New York UN meeting</summary>
-  </entry>
-  <entry>
-    <title>NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories</title>
-    <link href="https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling"/>
-    <id>https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling</id>
-    <updated>2026-09-21T18:00:07.000Z</updated>
-    <author><name>NVIDIA Blog</name></author>
-    <category term="HARDWARE"/>
-    <summary>Every AI factory needs power and cooling that fit its computing architecture. As AI infrastructure expands, power, cooling, water, site and grid constraints are shaping what builders can deploy. Choosing products that fit the complete factory design helps builders turn computing capacity into useful AI output. To help </summary>
+    <summary>British Columbia claims the ChatGPT maker failed to act after attacker’s account was flagged</summary>
   </entry>
 </feed>
