@@ -5,15 +5,42 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-09-24T12:08:56.144Z</updated>
+  <updated>2026-09-24T17:28:13.786Z</updated>
   <entry>
-    <title>llama.cpp b11158 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11158"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11158</id>
-    <updated>2026-09-24T11:43:54.000Z</updated>
+    <title>llama.cpp b11160 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11160"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11160</id>
+    <updated>2026-09-24T13:53:59.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>vulkan: tune KHR cooperative matrix support for Adreno GPUs ( #29328 ) Enable coopmat support for Vulkan backend Fixed the mul_mat_s Removed the debug statement Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/49831613 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon — Also covered by: run-llama/llama_index</summary>
+    <summary>vulkan: int8 coopmat1 matmul implementation for AMD RDNA3 and RDNA4 ( #27952 ) vulkan: add int8 coopmat quantized matmul shader apply scales inline use scalar sums probe and directly access coopmat values instead of going through shmem add q8_0 support add BK_STEP to shader, default to 2 use larger workgroups double bu — Also covered by: run-llama/llama_index</summary>
+  </entry>
+  <entry>
+    <title>TechCrunch Founder Summit 2026: Everything you need to know</title>
+    <link href="https://techcrunch.com/2026/09/24/techcrunch-founder-summit-2026-everything-you-need-to-know"/>
+    <id>https://techcrunch.com/2026/09/24/techcrunch-founder-summit-2026-everything-you-need-to-know</id>
+    <updated>2026-09-24T16:46:47.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>TechCrunch Founder Summit is a full-day gathering in Boston on November 4 where founders across all stages connect with top VCs and experienced entrepreneurs to gain tactical insights on building and scaling their companies.</summary>
+  </entry>
+  <entry>
+    <title>Bifrost Electronics Names Doug Campbell CEO Ahead of Quantum Amplifier Launch</title>
+    <link href="https://www.hpcwire.com/off-the-wire/bifrost-electronics-names-doug-campbell-ceo-ahead-of-quantum-amplifier-launch"/>
+    <id>https://www.hpcwire.com/off-the-wire/bifrost-electronics-names-doug-campbell-ceo-ahead-of-quantum-amplifier-launch</id>
+    <updated>2026-09-24T16:44:54.000Z</updated>
+    <author><name>HPC Wire</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Campbell will lead market expansion of Bifrost Electronics quantum readout amplifier; previously led Solid Power from startup to Nasdaq ARVADA, Colo., Sept. 24, 2026 — Bifrost Electronics, a leading developer and manufacturer of advanced electronic hardware for quantum computers, today announced that successful deep-te</summary>
+  </entry>
+  <entry>
+    <title>qwen-code v0.24.5 released</title>
+    <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.24.5"/>
+    <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.24.5</id>
+    <updated>2026-09-24T17:06:19.000Z</updated>
+    <author><name>QwenLM/qwen-code</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features feat(channels): decouple group-member access from senderPolicy ( #12475 ) by @qwen-code-dev-bot feat(cli): Add managed runtime attestation worker ( #12506 ) by @doudouOUC feat(serve): restore serve.c — Also covered by: anthropics/claude-code, QwenLM/qwen-code</summary>
   </entry>
   <entry>
     <title>Ringg’s AI agents resolve up to 65% of customer calls with OpenAI</title>
@@ -34,40 +61,22 @@
     <summary>Marking two years of OpenAI Academy and bringing AI skills to even more communities.</summary>
   </entry>
   <entry>
-    <title>Meta VR Glasses, Ray-Ban Meta Audio, Ray-Ban Meta Gen 3: Specs, Features, Prices</title>
-    <link href="https://www.wired.com/story/metas-answer-to-the-meta-creep-camera-free-smart-glasses"/>
-    <id>https://www.wired.com/story/metas-answer-to-the-meta-creep-camera-free-smart-glasses</id>
-    <updated>2026-09-23T23:42:44.000Z</updated>
-    <author><name>Wired AI</name></author>
+    <title>Shield AI, Waabi, and General Motors on building AI when failure is not an option at TechCrunch Disrupt 2026</title>
+    <link href="https://techcrunch.com/2026/09/24/shield-ai-waabi-and-general-motors-on-building-ai-when-failure-is-not-an-option-at-techcrunch-disrupt-2026"/>
+    <id>https://techcrunch.com/2026/09/24/shield-ai-waabi-and-general-motors-on-building-ai-when-failure-is-not-an-option-at-techcrunch-disrupt-2026</id>
+    <updated>2026-09-24T15:00:00.000Z</updated>
+    <author><name>TechCrunch Startups</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>Leaders from Waabi, Shield AI, and General Motors join the Real World AI Stage at TechCrunch Disrupt 2026 to talk building AI. Save up to $200 by September 25 at 11:59 p.m. PT. Get a second pass at 50% off.</summary>
+  </entry>
+  <entry>
+    <title>New Features for Meta Ray-Ban Display</title>
+    <link href="https://about.fb.com/news/2026/09/new-features-for-meta-ray-ban-display-navigation-hologram"/>
+    <id>https://about.fb.com/news/2026/09/new-features-for-meta-ray-ban-display-navigation-hologram</id>
+    <updated>2026-09-23T11:53:47.000Z</updated>
+    <author><name>Meta AI Blog</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>At its Meta Connect event, CEO Mark Zuckerberg announced a handful of new smart glasses, including a slimmed-down VR headset and the company’s first camera-free glasses. — Also covered by: Meta AI Blog</summary>
-  </entry>
-  <entry>
-    <title>Enveda secures $311M to bring more nature-derived AI drugs into clinical trials</title>
-    <link href="https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials"/>
-    <id>https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials</id>
-    <updated>2026-09-23T19:31:28.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>The round valued the AI biotech at $2 billion. It is currently testing drugs that treat skin conditions and preserve weight loss after stopping GLP-1s.</summary>
-  </entry>
-  <entry>
-    <title>OpenAI extends cyber access to Ukraine for civilian defense</title>
-    <link href="https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense"/>
-    <id>https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense</id>
-    <updated>2026-09-23T13:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.</summary>
-  </entry>
-  <entry>
-    <title>Everything new coming to Meta’s AI agent Muse</title>
-    <link href="https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse"/>
-    <id>https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse</id>
-    <updated>2026-09-24T01:13:32.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>CEO Mark Zuckerberg kicked off the company’s annual Connect event in Menlo Park on Wednesday with a keynote that made one thing clear: Meta is going all-in on Muse. It's even coming to Meta's AI glasses. — Also covered by: The Verge AI</summary>
+    <summary>Today, we announced updates to Meta Ray-Ban Display that make the glasses even more useful in your everyday life. The post New Features for Meta Ray-Ban Display appeared first on Meta Newsroom . — Also covered by: Wired AI</summary>
   </entry>
   <entry>
     <title>A Coding Guide to TypeSafe AI Jev: Typed Decisions, Calibrated Confidence, and Speculative Fan-Out with a System One Model</title>
@@ -79,24 +88,6 @@
     <summary>This tutorial provides a complete coding guide to TypeSafe AI's Jev, a System One model designed for non-text, structured judgments. It covers installing the official Python SDK, using primitive question types (Choice, Score, Noul), implementing speculative fan-out, confidence-gated routing, and building async producti — Also covered by: LangChain Blog</summary>
   </entry>
   <entry>
-    <title>German Government Selects QUDORA-Led Consortium for €122 Million ($138.8 USD) NFQC-1k Trapped-Ion Quantum Computer Project</title>
-    <link href="https://quantumcomputingreport.com/german-government-selects-qudora-led-consortium-for-e122-million-138-8-usd-nfqc-1k-trapped-ion-quantum-computer-project"/>
-    <id>https://quantumcomputingreport.com/german-government-selects-qudora-led-consortium-for-e122-million-138-8-usd-nfqc-1k-trapped-ion-quantum-computer-project</id>
-    <updated>2026-09-24T03:52:58.000Z</updated>
-    <author><name>Quantum Computing Report</name></author>
-    <category term="QUANTUM"/>
-    <summary>The German government has selected a QUDORA-led consortium for the €122 million NFQC-1k project to build a fault-tolerant trapped-ion quantum computer with at least 1,000 physical qubits. This five-year initiative aims to establish a semiconductor pilot line for high-performance quantum processing units and is a key mi — Also covered by: The Quantum Insider</summary>
-  </entry>
-  <entry>
-    <title>PitPro’s first tire-changing robot goes live in Canada</title>
-    <link href="https://techcrunch.com/2026/09/23/pitpros-first-tire-changing-robot-goes-live-in-canada"/>
-    <id>https://techcrunch.com/2026/09/23/pitpros-first-tire-changing-robot-goes-live-in-canada</id>
-    <updated>2026-09-23T13:00:00.000Z</updated>
-    <author><name>TechCrunch Startups</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>The startup says its automated system can change four tires in under 15 minutes.</summary>
-  </entry>
-  <entry>
     <title>Sam Altman’s remarks at the United Nations Security Council</title>
     <link href="https://openai.com/index/sam-altman-un-security-council-remarks"/>
     <id>https://openai.com/index/sam-altman-un-security-council-remarks</id>
@@ -106,174 +97,182 @@
     <summary>OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.</summary>
   </entry>
   <entry>
-    <title>3 days left to save up to $200 and make impactful connections at TechCrunch Disrupt 2026</title>
-    <link href="https://techcrunch.com/2026/09/23/3-days-left-to-save-up-to-200-and-make-impactful-connections-at-techcrunch-disrupt-2026"/>
-    <id>https://techcrunch.com/2026/09/23/3-days-left-to-save-up-to-200-and-make-impactful-connections-at-techcrunch-disrupt-2026</id>
-    <updated>2026-09-23T14:00:00.000Z</updated>
-    <author><name>TechCrunch Startups</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>3 days to save up to $200 on your TechCrunch Disrupt 2026 pass, plus 50% off a second. Make impactful connections with 10,000+ tech leaders. Last day to save is September 25 at 11:59 p.m. PT. Register today.</summary>
+    <title>Latent reasoning architectures would undermine CoT, our strongest oversight tool</title>
+    <link href="https://blog.redwoodresearch.org/p/latent-reasoning-architectures-would"/>
+    <id>https://blog.redwoodresearch.org/p/latent-reasoning-architectures-would</id>
+    <updated>2026-09-23T18:05:28.000Z</updated>
+    <author><name>Redwood Research</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>We should have a strong presumption that latent reasoning architectures would make oversight far more difficult. — Also covered by: AI Alignment Forum</summary>
   </entry>
   <entry>
-    <title>ollama v0.34.4 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.34.4"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.34.4</id>
-    <updated>2026-09-24T04:45:43.000Z</updated>
-    <author><name>ollama/ollama</name></author>
+    <title>Introducing Gemini 3.8 Live with Live Avatar</title>
+    <link href="https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar"/>
+    <id>https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar</id>
+    <updated>2026-09-24T16:20:39.000Z</updated>
+    <author><name>Google DeepMind Blog</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>What's Changed Structured outputs on thinking models now apply in a single pass, making them faster and more reliable. Fixed intermittent &quot;model not found&quot; errors with a large local library Fixed the macOS app becoming unresponsive when checking if ChatGPT or Codex is running. Qwen 3.8 prompt processing is faster on Ap</summary>
   </entry>
   <entry>
-    <title>Tencent launches TenPayGo, a payment app for foreign visitors to China that lets them pay tens of millions of merchants via Visa, Mastercard, and Apple Pay (Bloomberg)</title>
-    <link href="https://www.techmeme.com/260924/p19"/>
-    <id>https://www.techmeme.com/260924/p19</id>
-    <updated>2026-09-24T10:55:11.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Google Photos ‘Clueless’-inspired virtual closet is now available on Android and iOS</title>
+    <link href="https://techcrunch.com/2026/09/24/google-photos-clueless-inspired-virtual-closet-is-now-available-on-android-and-ios"/>
+    <id>https://techcrunch.com/2026/09/24/google-photos-clueless-inspired-virtual-closet-is-now-available-on-android-and-ios</id>
+    <updated>2026-09-24T17:00:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Bloomberg : Tencent launches TenPayGo, a payment app for foreign visitors to China that lets them pay tens of millions of merchants via Visa, Mastercard, and Apple Pay — Tencent Holdings Ltd. launched a standalone payment app for foreign visitors to China, stepping up competition against rival Ant Group Co.</summary>
+    <summary>The AI-powered feature builds a virtual wardrobe from your photos, and is now broadly available after first rolling out to Android users in June.</summary>
   </entry>
   <entry>
-    <title>Lesson learned. Don't blindly trust repos and make sure everything is stable for a long running (multi weeks) benchmark.</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1woxw7s/lesson_learned_dont_blindly_trust_repos_and_make"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1woxw7s/lesson_learned_dont_blindly_trust_repos_and_make</id>
-    <updated>2026-09-24T10:22:04.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>I posted previously my swe-verified django 100 tasks benchmark comparing different local models and quantization. No new models for now, but a fix in my evaluation workflow that was unfortunately not stable during the weeks/months of me using it. I redid the evaluation on all runs and here are some noticeable changes: </summary>
-  </entry>
-  <entry>
-    <title>Dallas-based enterprise browser security startup Island raised $400M led by Evolution Equity Partners at a $6.4B valuation and plans to grow its staff to 1,500 (Samantha Subin/CNBC)</title>
-    <link href="https://www.techmeme.com/260924/p22"/>
-    <id>https://www.techmeme.com/260924/p22</id>
-    <updated>2026-09-24T11:40:02.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>New in LangSmith Engine: red teaming and automated testing</title>
+    <link href="https://www.langchain.com/blog/langsmith-engine-v2-redteam"/>
+    <id>https://www.langchain.com/blog/langsmith-engine-v2-redteam</id>
+    <updated>2026-09-24T17:22:02.000Z</updated>
+    <author><name>LangChain Blog</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Samantha Subin / CNBC : Dallas-based enterprise browser security startup Island raised $400M led by Evolution Equity Partners at a $6.4B valuation and plans to grow its staff to 1,500 — The scramble to secure businesses against swarms of rogue artificial intelligence agents is fueling demand for new security tools.</summary>
+    <summary>LangSmith Engine now includes Red Teaming to proactively detect agent issues and automated agent testing. Learn more about the Engine v2 release.</summary>
   </entry>
   <entry>
-    <title>Dangote Refinery CEO on Nigeria IPO, Diesel Inventories</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-24/dangote-refinery-ceo-on-nigeria-ipo-diesel-inventories-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-24/dangote-refinery-ceo-on-nigeria-ipo-diesel-inventories-video</id>
-    <updated>2026-09-24T11:33:38.000Z</updated>
+    <title>Petrobras Executive Says Braskem to Reach Deal With Creditors</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-24/petrobras-executive-says-braskem-to-reach-deal-with-creditors"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-24/petrobras-executive-says-braskem-to-reach-deal-with-creditors</id>
+    <updated>2026-09-24T16:34:51.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>David Bird, chief executive officer of Dangote Petroleum Refinery and Petrochemicals Fze, discusses the firm's initial public offering in Nigeria, expansion plans and the outlook for diesel inventories. He speaks on Bloomberg Television. (Source: Bloomberg)</summary>
+    <summary>A Petrobras SA executive who sits on Braskem SA’s board says he expects the Brazilian petrochemicals producer will be able to reach a deal with creditors to restructure some $11 billion of debt and avoid a bankruptcy filing.</summary>
   </entry>
   <entry>
-    <title>Signal2Symbol: Neuro-Symbolic Temporal Reasoning for Explainable Physiological Time-Series Anomaly Detection</title>
-    <link href="https://arxiv.org/abs/2609.26820"/>
-    <id>https://arxiv.org/abs/2609.26820</id>
-    <updated>2026-09-24T04:00:00.000Z</updated>
-    <author><name>arXiv cs.LG</name></author>
+    <title>Black Forest Labs launches FLUX 3 Action, an open robotics AI model</title>
+    <link href="https://the-decoder.com/black-forest-labs-launches-flux-3-action-an-open-robotics-ai-model"/>
+    <id>https://the-decoder.com/black-forest-labs-launches-flux-3-action-an-open-robotics-ai-model</id>
+    <updated>2026-09-24T17:01:03.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="RESEARCH"/>
-    <summary>arXiv:2609.26820v1 Announce Type: new Abstract: Physiological time series such as electrocardiograms (ECG) and electroencephalograms (EEG) exhibit complex temporal structure, substantial acquisition variability, and a strong need for transparent decision-making. Although deep models can achieve high detection performan</summary>
+    <summary>Black Forest Labs is entering robotics with FLUX 3 Action. The open-world-action model uses camera feeds to predict what action a robot should take next. With just seven billion parameters, it sets a record on the RoboLab-120 benchmark while running up to 3.95 times faster than the previous top model. The article Black</summary>
   </entry>
   <entry>
-    <title>Open Source, Model Price Cuts Keep AI Costs Under Control</title>
-    <link href="https://www.theinformation.com/articles/open-source-model-price-cuts-keep-ai-costs-control"/>
-    <id>https://www.theinformation.com/articles/open-source-model-price-cuts-keep-ai-costs-control</id>
-    <updated>2026-09-24T04:25:31.000Z</updated>
-    <author><name>The Information</name></author>
+    <title>Contain the Chaos: ‘CONTROL Resonant’ Launches on GeForce NOW</title>
+    <link href="https://blogs.nvidia.com/blog/geforce-now-thursday-control-resonant"/>
+    <id>https://blogs.nvidia.com/blog/geforce-now-thursday-control-resonant</id>
+    <updated>2026-09-24T13:00:36.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
+    <category term="HARDWARE"/>
+    <summary>A warped Manhattan is waiting in the cloud this week. Remedy Entertainment’s CONTROL Resonant brings Dylan Faden’s extraordinary abilities and a paranatural crisis to GeForce NOW at launch. With the release comes the final days of the CONTROL Resonant Ultimate Membership Bundle. Purchase a 12-month GeForce NOW Ultimate</summary>
+  </entry>
+  <entry>
+    <title>[tl;dr sec] #347 - AI Agents Hacking Companies for $25, Threat Hunter's Guide to GitHub, Finding Gadgets Like it’s 2026</title>
+    <link href="https://tldrsec.com/p/tldr-sec-347"/>
+    <id>https://tldrsec.com/p/tldr-sec-347</id>
+    <updated>2026-09-24T14:30:00.000Z</updated>
+    <author><name>tl;dr sec</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>Open-source models as well as cheaper model releases from Anthropic and OpenAI are helping business customers rein in costs while getting as much or more out of AI, said speakers at The Information’s AI Agenda Live conference in San Francisco Wednesday. “The existence of open source [models] adds pricing pressure on th</summary>
+    <summary>Threat actor using open source harnesses to hack companies, how to use GitHub logs to find baddies, using LLMs to find novel Java deserialization gadgets</summary>
   </entry>
   <entry>
-    <title>Passing the Ideological Turing Test</title>
-    <link href="https://www.lesswrong.com/posts/m7tjjnfGM7vXp5Hwx/passing-the-ideological-turing-test"/>
-    <id>https://www.lesswrong.com/posts/m7tjjnfGM7vXp5Hwx/passing-the-ideological-turing-test</id>
-    <updated>2026-09-24T12:02:37.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>Here are 10 arguments for alignment-by-default/against pause/etc... that I find plausible (by which I roughly mean that I can understand why somebody could hold them rather than bang my head against the wall). I'll leave the shortcomings of these arguments to the reader. 1. Extinction is better than to keep going We ha</summary>
-  </entry>
-  <entry>
-    <title>Reimagining the SOC for the agentic era in Microsoft Defender</title>
-    <link href="https://www.microsoft.com/en-us/security/blog/2026/09/23/reimagining-the-soc-for-the-agentic-era-in-microsoft-defender"/>
-    <id>https://www.microsoft.com/en-us/security/blog/2026/09/23/reimagining-the-soc-for-the-agentic-era-in-microsoft-defender</id>
-    <updated>2026-09-23T16:00:00.000Z</updated>
-    <author><name>Microsoft Security</name></author>
-    <category term="AI SECURITY"/>
-    <summary>We are announcing ISOC in Microsoft Defender: a foundation built for agentic security that brings leading solutions for SIEM and threat protection together. The post Reimagining the SOC for the agentic era in Microsoft Defender appeared first on Microsoft Security Blog .</summary>
-  </entry>
-  <entry>
-    <title>CISA: Ransomware gangs now exploiting critical TeamCity flaw</title>
-    <link href="https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw"/>
-    <id>https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw</id>
-    <updated>2026-09-24T10:42:37.000Z</updated>
-    <author><name>BleepingComputer</name></author>
+    <title>Kyiv internet providers report major outages after Russian attacks damage data centers</title>
+    <link href="https://therecord.media/kyiv-internet-providers-report-outages-after-russian-strikes"/>
+    <id>https://therecord.media/kyiv-internet-providers-report-outages-after-russian-strikes</id>
+    <updated>2026-09-24T13:30:00.000Z</updated>
+    <author><name>The Record</name></author>
     <category term="CYBER THREATS"/>
-    <summary>​The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies on Wednesday that ransomware gangs are now also exploiting a critical JetBrains TeamCity vulnerability patched in July. [...]</summary>
+    <summary>At least four internet providers serving Kyiv and other parts of Ukraine suffered partial connectivity losses following Wednesday’s drone attack, according to internet monitoring group NetBlocks.</summary>
   </entry>
   <entry>
-    <title>Gaming Startup Funding Levels Up A Bit In 2026</title>
-    <link href="https://news.crunchbase.com/venture/2026-global-gaming-startup-funding-up-ai-meshy-decart"/>
-    <id>https://news.crunchbase.com/venture/2026-global-gaming-startup-funding-up-ai-meshy-decart</id>
-    <updated>2026-09-24T11:00:12.000Z</updated>
-    <author><name>Crunchbase News AI</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>So far this year, companies in the gaming space have raised around $2 billion in seed- through growth-stage funding. That's already ahead of the 2025 full-year total, driven in large part by big rounds for companies at the intersection of AI and gaming.</summary>
-  </entry>
-  <entry>
-    <title>An Interview with Colossus EIC Jeremy Stern About Profiling Mark Zuckerberg</title>
-    <link href="https://stratechery.com/2026/an-interview-with-colossus-eic-jeremy-stern-about-profiling-mark-zuckerberg"/>
-    <id>https://stratechery.com/2026/an-interview-with-colossus-eic-jeremy-stern-about-profiling-mark-zuckerberg</id>
-    <updated>2026-09-24T10:00:00.000Z</updated>
-    <author><name>Stratechery</name></author>
-    <category term="ANALYSIS"/>
-    <summary>An interview with Colossus EIC Jeremy Stern about profiling Mark Zuckerberg and other prominent tech figures.</summary>
-  </entry>
-  <entry>
-    <title>AGIBOT Brings 300-Plus Robots to Chimelong Theme Park</title>
-    <link href="https://www.humanoidsdaily.com/news/agibot-chimelong-theme-park-300-robots"/>
-    <id>https://www.humanoidsdaily.com/news/agibot-chimelong-theme-park-300-robots</id>
-    <updated>2026-09-24T07:27:21.000Z</updated>
+    <title>O-ID Raises $1.2M to Build Humanoids With Swappable Parts</title>
+    <link href="https://www.humanoidsdaily.com/news/o-id-modular-humanoid-robot-funding"/>
+    <id>https://www.humanoidsdaily.com/news/o-id-modular-humanoid-robot-funding</id>
+    <updated>2026-09-24T14:00:00.000Z</updated>
     <author><name>Humanoids Daily</name></author>
-    <category term="ROBOTICS"/>
-    <summary>AGIBOT and Chimelong have launched a robot deployment spanning performances, visitor guidance and hotel services at the existing Spaceship Park in Zhuhai, alongside a joint tourism research institute.</summary>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>The Tokyo startup is designing modular industrial robots for on-site repairs in minutes, with Japanese automotive manufacturing and logistics as its first targets.</summary>
   </entry>
   <entry>
-    <title>Chattanooga Schools Begin K–12 Quantum Technology Curriculum</title>
-    <link href="https://thequantuminsider.com/2026/09/24/chattanooga-schools-begin-k-12-quantum-technology-curriculum"/>
-    <id>https://thequantuminsider.com/2026/09/24/chattanooga-schools-begin-k-12-quantum-technology-curriculum</id>
-    <updated>2026-09-24T07:14:11.000Z</updated>
-    <author><name>The Quantum Insider</name></author>
-    <category term="QUANTUM"/>
-    <summary>Insider Brief PRESS RELEASE — As EPB launches its quantum computer, the TN QuantumWorks K–12 quantum technology and career awareness curriculum is now being implemented in Hamilton County classrooms. Announced earlier this year, the curriculum includes programs for four age groups: grades K–2, grades 3–5, middle school</summary>
+    <title>Back to Claude</title>
+    <link href="https://www.bensbites.com/p/back-to-claude"/>
+    <id>https://www.bensbites.com/p/back-to-claude</id>
+    <updated>2026-09-24T13:04:08.000Z</updated>
+    <author><name>Ben's Bites</name></author>
+    <category term="ANALYSIS"/>
+    <summary>GPT-6 Sol and Luna got cheaper</summary>
   </entry>
   <entry>
-    <title>DeepSeek Aims to Close $7.5 Billion Funding Round by End-October</title>
-    <link href="https://www.theinformation.com/briefings/deepseek-aims-close-7-5-billion-funding-round-end-october"/>
-    <id>https://www.theinformation.com/briefings/deepseek-aims-close-7-5-billion-funding-round-end-october</id>
-    <updated>2026-09-24T10:33:12.000Z</updated>
-    <author><name>The Information</name></author>
+    <title>U.S. bill proposes permanent ban on artificial superintelligence and creation of new federal AI agency</title>
+    <link href="https://the-decoder.com/u-s-bill-proposes-permanent-ban-on-artificial-superintelligence-and-creation-of-new-federal-ai-agency"/>
+    <id>https://the-decoder.com/u-s-bill-proposes-permanent-ban-on-artificial-superintelligence-and-creation-of-new-federal-ai-agency</id>
+    <updated>2026-09-24T14:42:23.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>DeepSeek is aiming to complete its second funding round by the end of October as it prepares to go public on the Shanghai Stock Exchange, The Information reported on Thursday. The company’s fundraising efforts may be fuelled by a boost in revenue, which has hit $1 billion on an annualized basis. ...</summary>
+    <summary>Senator Bernie Sanders and Representative Greg Casar introduced a bill on September 23 that would permanently ban the development and use of artificial superintelligence. The article U.S. bill proposes permanent ban on artificial superintelligence and creation of new federal AI agency appeared first on The Decoder .</summary>
   </entry>
   <entry>
-    <title>DeepSeek’s Annualized Revenue Hits $1 Billion as Startup Finalizes $7.5 Billion Fundraising</title>
-    <link href="https://www.theinformation.com/articles/deepseeks-annualized-revenue-hits-1-billion-startup-finalizes-7-5-billion-fundraising"/>
-    <id>https://www.theinformation.com/articles/deepseeks-annualized-revenue-hits-1-billion-startup-finalizes-7-5-billion-fundraising</id>
-    <updated>2026-09-24T06:20:50.000Z</updated>
+    <title>New York Sues Polymarket Over Alleged Illegal Gambling</title>
+    <link href="https://www.theinformation.com/briefings/new-york-sues-polymarket-alleged-illegal-gambling"/>
+    <id>https://www.theinformation.com/briefings/new-york-sues-polymarket-alleged-illegal-gambling</id>
+    <updated>2026-09-24T16:21:38.000Z</updated>
     <author><name>The Information</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>DeepSeek’s annualized revenue run rate has hit $1 billion, more than double from less than $500 million a few months ago, buoyed by a recent price hike as well as continued popularity of its models, according to two people with direct knowledge of the matter. The latest revenue figure, shared by CEO Liang Wenfeng in a </summary>
+    <category term="INDUSTRY NEWS"/>
+    <summary>New York has sued Polymarket for allegedly running an illegal gambling operation, expanding the state’s fight against prediction markets after earlier suing rival startup Kalshi and others. New York Attorney General Letitia James announced the action against Polymarket on Thursday. The state has ...</summary>
   </entry>
   <entry>
-    <title>Folks, have you purchased the Mac M5 Ultra with 256GB yet? We need serious benchmarks, because we only get YouTube clowns influencers results</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wovkw5/folks_have_you_purchased_the_mac_m5_ultra_with"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wovkw5/folks_have_you_purchased_the_mac_m5_ultra_with</id>
-    <updated>2026-09-24T07:55:48.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>Google tests letting Gemini call businesses for you</title>
+    <link href="https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners"/>
+    <id>https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners</id>
+    <updated>2026-09-24T16:00:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Google says the AI-calling feature will first be available to Pixel 11 owners in the U.S. who pay for a Gemini subscription.</summary>
+  </entry>
+  <entry>
+    <title>Hardware advice: RTX 5090 vs Mac Studio M5 Ultra for MSP agentic workloads + client demos</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1wp5grm/hardware_advice_rtx_5090_vs_mac_studio_m5_ultra"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1wp5grm/hardware_advice_rtx_5090_vs_mac_studio_m5_ultra</id>
+    <updated>2026-09-24T15:55:53.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Ok, so the Mac M5 Ultra (256GB) hit the market, but the only publicly available benchmarks material are flashy YouTube &quot;clown influencers&quot; videos. We need serious numbers to evaluate whether Apple’s silicon can actually compete with Nvidia’s current GPU‑centric workflows or not. Every damn video I watched, it was from </summary>
+    <summary>Hi all, I run a small IT MSP in Europe and built a fully local, privacy-first AI agent setup — no cloud LLM, since it handles sensitive client infrastructure data (ticketing, documentation, backup monitoring, device inventory via internal APIs). The agent orchestrates tool-calling integrations against these systems and</summary>
   </entry>
   <entry>
-    <title>langchain v1.6.6 released</title>
-    <link href="https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.6"/>
-    <id>https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.6</id>
-    <updated>2026-09-24T11:31:33.000Z</updated>
-    <author><name>langchain-ai/langchain</name></author>
+    <title>mlxrunner: Update XGrammar to 0.2.7 for structured outputs</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.34.4-rc1"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.34.4-rc1</id>
+    <updated>2026-09-23T23:36:46.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>We pick up schema fixes for typed dictionary values and short arrays.</summary>
+  </entry>
+  <entry>
+    <title>Introducing LangSmith Fine-Tuning</title>
+    <link href="https://www.langchain.com/blog/langsmith-fine-tuning"/>
+    <id>https://www.langchain.com/blog/langsmith-fine-tuning</id>
+    <updated>2026-09-24T15:51:45.000Z</updated>
+    <author><name>LangChain Blog</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Changes since langchain-openai==1.6.5 release(openai): 1.6.6 ( #40800 ) fix(openai): raise on error events in stream path ( #40791 )</summary>
+    <summary>LangChain introduces LangSmith Fine-Tuning and SmithTune, a CLI built for post-training models. Train specialized models without building data pipelines by hand.</summary>
+  </entry>
+  <entry>
+    <title>Rogue AI hacks government system for first time - The Latest</title>
+    <link href="https://www.theguardian.com/news/video/2026/sep/24/rogue-ai-hacks-government-system-for-first-time-the-latest"/>
+    <id>https://www.theguardian.com/news/video/2026/sep/24/rogue-ai-hacks-government-system-for-first-time-the-latest</id>
+    <updated>2026-09-24T17:14:53.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>A government database has been hacked for the first time by a rogue OpenAI agent, which infiltrated part of the Australian healthcare scheme in June. OpenAI became aware of the hack in August, but only informed the government in September. Australia’s prime minister, Anthony Albanese, has expressed his ‘extreme concern — Also covered by: The Guardian AI</summary>
+  </entry>
+  <entry>
+    <title>Repsol Says 90% of Its Crude Supply Risks Breaching New EU Rules</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-24/repsol-says-90-of-its-crude-supply-risks-breaching-new-eu-rules"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-24/repsol-says-90-of-its-crude-supply-risks-breaching-new-eu-rules</id>
+    <updated>2026-09-24T17:09:04.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Repsol SA anticipates about 90% of its crude oil supplies falling short of new European Union methane requirements that are due to take effect in January, the latest in a series of warnings from the industry that the rules could threaten the region’s energy supplies.</summary>
+  </entry>
+  <entry>
+    <title>Trump-Backed Export Ban Could Initially Lower Diesel Prices</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-24/trump-backed-export-ban-could-initially-lower-diesel-prices"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-24/trump-backed-export-ban-could-initially-lower-diesel-prices</id>
+    <updated>2026-09-24T16:22:29.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>A potential US ban on diesel exports would slash domestic prices for the fuel at the outset, but the effect is likely to be short-lived, according to executives, traders and analysts.</summary>
   </entry>
 </feed>
