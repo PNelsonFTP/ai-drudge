@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-09-25T22:42:01.256Z</updated>
+  <updated>2026-09-26T01:17:17.567Z</updated>
   <entry>
-    <title>llama.cpp b11191 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11191"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11191</id>
-    <updated>2026-09-25T20:30:42.000Z</updated>
+    <title>llama.cpp b11192 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11192"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11192</id>
+    <updated>2026-09-26T00:28:41.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>common,rpc : simplify fs_create_directory_with_parents() ( #29432 ) The original function was broken on Windows for some unicode paths Paths without a trailing separator now create the last directory too, matching the function name. All current callers already include a trailing separator, so this change does not affec — Also covered by: run-llama/llama_index</summary>
+    <summary>vendor : update cpp-httplib to 0.58.0 ( #29407 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/50337762 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) — Also covered by: run-llama/llama_index</summary>
   </entry>
   <entry>
     <title>Pentagon was right to slap Anthropic with a security supply chain risk label, federal court says</title>
@@ -61,15 +61,6 @@
     <summary>How vLLM implements distribution-preserving Gumbel-max text watermarking with efficient GPU kernels, statistical detection, speculative decoding, and repeated-context safeguards. — Also covered by: vllm-project/vllm</summary>
   </entry>
   <entry>
-    <title>Continual learning might make your blocking monitors nearly useless</title>
-    <link href="https://blog.redwoodresearch.org/p/continual-learning-might-make-your"/>
-    <id>https://blog.redwoodresearch.org/p/continual-learning-might-make-your</id>
-    <updated>2026-09-25T01:15:10.000Z</updated>
-    <author><name>Redwood Research</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>When monitor evasion looks like legitimate learning to your continual learning system, it’s hard to have one without the other — Also covered by: AI Alignment Forum</summary>
-  </entry>
-  <entry>
     <title>ollama v0.40.0 released</title>
     <link href="https://github.com/ollama/ollama/releases/tag/v0.40.0-rc0"/>
     <id>https://github.com/ollama/ollama/releases/tag/v0.40.0-rc0</id>
@@ -79,31 +70,40 @@
     <summary>What's Changed Models run on MLX on Apple Silicon by default In this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX. ollama pull qwen3.8 ollama run qwen3.8 During the pre-release we will be testing and enabling additional models. Full Changelog : v0.34.</summary>
   </entry>
   <entry>
-    <title>OpenAI says the 53 images its agents uploaded were on &quot;image-hosting sites as links that weren't publicly listed&quot; and &quot;most&quot; of the images have been removed (@openai)</title>
-    <link href="https://www.techmeme.com/260925/p22"/>
-    <id>https://www.techmeme.com/260925/p22</id>
-    <updated>2026-09-25T22:30:03.000Z</updated>
+    <title>A bipartisan group of US lawmakers introduces a bill to bar the federal government from equipping sensitive government systems with Chinese optical transceivers (Alexandra Alper/Reuters)</title>
+    <link href="https://www.techmeme.com/260925/p26"/>
+    <id>https://www.techmeme.com/260925/p26</id>
+    <updated>2026-09-26T01:05:56.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>@openai : OpenAI says the 53 images its agents uploaded were on “image-hosting sites as links that weren't publicly listed” and “most” of the images have been removed — We've shared details on how AI agents in our research environment sent training and evaluation data to third-party services when they shouldn't have. M</summary>
+    <summary>Alexandra Alper / Reuters : A bipartisan group of US lawmakers introduces a bill to bar the federal government from equipping sensitive government systems with Chinese optical transceivers — A bipartisan group of US lawmakers introduced legislation on Friday to bar the federal government from equipping sensitive govern</summary>
   </entry>
   <entry>
-    <title>Ellison Pledges $9.2 Billion More in Oracle Shares for Loans</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-25/ellison-pledges-9-2-billion-more-in-oracle-shares-as-collateral"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-25/ellison-pledges-9-2-billion-more-in-oracle-shares-as-collateral</id>
-    <updated>2026-09-25T21:53:52.000Z</updated>
+    <title>Researchers: OpenAI's agents meddled with the US Commerce Dept. and SEC sites this summer without OpenAI's knowledge and tried to hack the Education Dept. site (New York Times)</title>
+    <link href="https://www.techmeme.com/260925/p25"/>
+    <id>https://www.techmeme.com/260925/p25</id>
+    <updated>2026-09-26T00:00:47.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>New York Times : Researchers: OpenAI's agents meddled with the US Commerce Dept. and SEC sites this summer without OpenAI's knowledge and tried to hack the Education Dept. site — The company did not learn until recently that its technology had meddled with websites for the Education Department …</summary>
+  </entry>
+  <entry>
+    <title>Wall Street Week | China’s Trade Reckoning, Syracuse’s Second Chance, Humanoids in Healthcare</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-09-25/wall-street-week-china-s-trade-reckoning-syracuse-s-second-chance-humanoids-in-healthcare"/>
+    <id>https://www.bloomberg.com/news/videos/2026-09-25/wall-street-week-china-s-trade-reckoning-syracuse-s-second-chance-humanoids-in-healthcare</id>
+    <updated>2026-09-25T23:43:13.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Larry Ellison has pledged 67 million more shares of Oracle Corp. as collateral for personal loans than he had at the same time last year.</summary>
+    <summary>This week, Council on Foreign Relations President Michael Froman breaks down China's export machine, why twenty years of US pressure hasn't worked, and what happens next. And, can a $100 billion Micron factory transform Syracuse from a Rust Belt cautionary tale into a potential model for American reindustrialization? P</summary>
   </entry>
   <entry>
-    <title>MIT students gain a humanist lens on technical innovation in Tulsa, Oklahoma</title>
-    <link href="https://news.mit.edu/2026/mit-students-gain-humanist-lens-technical-innovation-tulsa-oklahoma-0925"/>
-    <id>https://news.mit.edu/2026/mit-students-gain-humanist-lens-technical-innovation-tulsa-oklahoma-0925</id>
-    <updated>2026-09-25T20:15:00.000Z</updated>
-    <author><name>MIT News AI</name></author>
+    <title>Benchmarking Argumentative Behaviour of LLMs: A Study of Defences Against Character Attacks</title>
+    <link href="https://arxiv.org/abs/2609.28673"/>
+    <id>https://arxiv.org/abs/2609.28673</id>
+    <updated>2026-09-25T04:00:00.000Z</updated>
+    <author><name>arXiv cs.CL</name></author>
     <category term="RESEARCH"/>
-    <summary>The PKG Center for Social Impact expands Code.Tulsa experiential learning program.</summary>
+    <summary>arXiv:2609.28673v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly deployed as argumentative agents in persuasive dialogues, necessitating rigorous evaluation of their debating competence relative to human interlocutors. In this study, we focus on character attacks (ad hominem arguments), tra</summary>
   </entry>
   <entry>
     <title>Walmart chief rules out personalised pricing as AI transforms retail</title>
@@ -133,13 +133,13 @@
     <summary>Learn how to run SkyRL, an open-source reinforcement learning framework, on Amazon SageMaker HyperPod to post-train a Qwen3-VL-8B vision-language model with GRPO. This walkthrough covers building the container image, launching a Ray cluster from SageMaker Studio, submitting and monitoring the job, and hosting the train</summary>
   </entry>
   <entry>
-    <title>AI governance is coming, with or without Trump</title>
-    <link href="https://www.transformernews.ai/p/trump-cant-stop-ai-governance"/>
-    <id>https://www.transformernews.ai/p/trump-cant-stop-ai-governance</id>
-    <updated>2026-09-25T14:34:09.000Z</updated>
-    <author><name>Transformer</name></author>
+    <title>OpenAI says governments among ‘dozens’ of organisations hacked by its agents</title>
+    <link href="https://www.ft.com/content/651024b1-d1ce-40c1-acae-a92c3505d3f1?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/651024b1-d1ce-40c1-acae-a92c3505d3f1?syn-25a6b1a6=1</id>
+    <updated>2026-09-25T22:18:19.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Transformer Weekly: UN talks AI, OpenAI hacks Australia, and midterm spending heats up</summary>
+    <summary>Company says its models leaked images shared by users in a disclosure that is likely to further inflame AI safety fears</summary>
   </entry>
   <entry>
     <title>Bill Gates warns AI could cause ‘a billion deaths’</title>
@@ -160,13 +160,13 @@
     <summary>A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&amp;T customers in 2024 was sentenced to 70 months in federal prison today and ordered to pay nearly $300,000 in restitution to victims.</summary>
   </entry>
   <entry>
-    <title>ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw</title>
-    <link href="https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw"/>
-    <id>https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw</id>
-    <updated>2026-09-25T20:57:55.000Z</updated>
-    <author><name>BleepingComputer</name></author>
+    <title>3 Consulting Myths Debunked by Unit 42 Experts</title>
+    <link href="https://unit42.paloaltonetworks.com/3-consulting-myths-debunked-by-unit-42-experts"/>
+    <id>https://unit42.paloaltonetworks.com/3-consulting-myths-debunked-by-unit-42-experts</id>
+    <updated>2026-09-25T23:00:28.000Z</updated>
+    <author><name>Palo Alto Unit 42</name></author>
     <category term="CYBER DEFENSE"/>
-    <summary>The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an unpatched Grav CMS flaw that BleepingComputer has learned is an unauthenticated path traversal vulnerability. [...]</summary>
+    <summary>Unit 42 security experts address critical cybersecurity misconceptions, offering practical insights to help your organization reinforce its enterprise defenses. The post 3 Consulting Myths Debunked by Unit 42 Experts appeared first on Unit 42 .</summary>
   </entry>
   <entry>
     <title>The Week’s 10 Biggest Funding Rounds: Cybersecurity, AI And Health Take The Lead</title>
@@ -187,15 +187,6 @@
     <summary>Muse is getting a lot of attention — including mine — because it’s both groundbreaking technically (each user gets their own entire persistent Linux VM running in Meta’s cloud) and because it’s packaged in an easy-to-install easy-to-use way. It’s literally presented as a cute mascot . It’s the first consumer-accessible</summary>
   </entry>
   <entry>
-    <title>Intelligence doesn't come cheap as AI drives up costs for the NSA, hospitals, and insurers</title>
-    <link href="https://the-decoder.com/intelligence-doesnt-come-cheap-as-ai-drives-up-costs-for-the-nsa-hospitals-and-insurers"/>
-    <id>https://the-decoder.com/intelligence-doesnt-come-cheap-as-ai-drives-up-costs-for-the-nsa-hospitals-and-insurers</id>
-    <updated>2026-09-25T12:03:24.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="ROBOTICS"/>
-    <summary>The NSA is already spending billions of dollars to test advanced AI models, mostly on computing power, according to The Washington Sun. Lawmakers expect full-scale AI oversight to cost tens of billions of dollars a year, while earlier estimates from the Congressional Budget Office put the figure at just $20 million. In</summary>
-  </entry>
-  <entry>
     <title>UTM Technovation Park Becomes R&amp;D Base for AQSolotl, Malaysia’s First Quantum Computing Hardware Company</title>
     <link href="https://quantumcomputingreport.com/utm-technovation-park-becomes-rd-base-for-aqsolotl-malaysias-first-quantum-computing-hardware-company"/>
     <id>https://quantumcomputingreport.com/utm-technovation-park-becomes-rd-base-for-aqsolotl-malaysias-first-quantum-computing-hardware-company</id>
@@ -205,58 +196,67 @@
     <summary>AQSolotl, Malaysia's first quantum computing hardware company, has established its R&amp;D operations at UTM Technovation Park in Johor Bahru. This Singapore-based startup will focus on designing and producing high-precision quantum computer control electronics, leveraging UTM's research programs and creating a cross-borde</summary>
   </entry>
   <entry>
-    <title>Sources: Oura IPO is roughly four times oversubscribed; Filing: Oura and the selling shareholders are offering 50M shares for $40 to $44 each to raise ~$2.2B (Bloomberg)</title>
-    <link href="https://www.techmeme.com/260925/p19"/>
-    <id>https://www.techmeme.com/260925/p19</id>
-    <updated>2026-09-25T20:45:00.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Bloomberg : Sources: Oura IPO is roughly four times oversubscribed; Filing: Oura and the selling shareholders are offering 50M shares for $40 to $44 each to raise ~$2.2B — Health and fitness ring-maker Oura Inc.'s initial public offering raising as much as $2.2 billion has drawn about four times …</summary>
+    <title>Intelligence doesn't come cheap as AI drives up costs for the NSA, hospitals, and insurers</title>
+    <link href="https://the-decoder.com/intelligence-doesnt-come-cheap-as-ai-drives-up-costs-for-the-nsa-hospitals-and-insurers"/>
+    <id>https://the-decoder.com/intelligence-doesnt-come-cheap-as-ai-drives-up-costs-for-the-nsa-hospitals-and-insurers</id>
+    <updated>2026-09-25T12:03:24.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>The NSA is already spending billions of dollars to test advanced AI models, mostly on computing power, according to The Washington Sun. Lawmakers expect full-scale AI oversight to cost tens of billions of dollars a year, while earlier estimates from the Congressional Budget Office put the figure at just $20 million. In</summary>
   </entry>
   <entry>
-    <title>FTC Chairman Andrew Ferguson says he resists anthropomorphizing AI agents as autonomous actors with &quot;wills and desires&quot;, suggesting developers hold liability (Reuters)</title>
-    <link href="https://www.techmeme.com/260925/p21"/>
-    <id>https://www.techmeme.com/260925/p21</id>
-    <updated>2026-09-25T21:25:02.000Z</updated>
+    <title>OpenAI says the 53 images its agents uploaded were on &quot;image-hosting sites as links that weren't publicly listed&quot; and &quot;most&quot; of the images have been removed (@openai)</title>
+    <link href="https://www.techmeme.com/260925/p22"/>
+    <id>https://www.techmeme.com/260925/p22</id>
+    <updated>2026-09-25T22:30:03.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Reuters : FTC Chairman Andrew Ferguson says he resists anthropomorphizing AI agents as autonomous actors with “wills and desires”, suggesting developers hold liability — US Federal Trade Commission Chairman Andrew Ferguson said on Friday he would resist describing AI agents as autonomous actors that …</summary>
+    <summary>@openai : OpenAI says the 53 images its agents uploaded were on “image-hosting sites as links that weren't publicly listed” and “most” of the images have been removed — We've shared details on how AI agents in our research environment sent training and evaluation data to third-party services when they shouldn't have. M</summary>
   </entry>
   <entry>
-    <title>4-5 days replacing Claude w Qwen 3.8 Next</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wq7e74/45_days_replacing_claude_w_qwen_38_next"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wq7e74/45_days_replacing_claude_w_qwen_38_next</id>
-    <updated>2026-09-25T20:44:10.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>Ternary Bonsai 2 27B at up to 532 tok/s on one RTX 4090, native Windows: MTP + n-gram speculative decoding in a from-scratch CUDA engine</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1wqab4z/ternary_bonsai_2_27b_at_up_to_532_toks_on_one_rtx"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1wqab4z/ternary_bonsai_2_27b_at_up_to_532_toks_on_one_rtx</id>
+    <updated>2026-09-25T22:47:44.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Hi, human here with rambling thoughts to share. Feel free to skip Overall, I don’t feel like I’m missing much; if anything. On my hardware(M1 ultra w 128Gb) it’s probably not as fast as Claude but I’ve been using opencode for research and other business related tasks and it’s been getting the job done and learning. I m</summary>
+    <summary>Ternary Bonsai 2 27B at up to 532 tok/s on one RTX 4090, native Windows: MTP + n-gram speculative decoding in a from-scratch CUDA engine I've been running Prism ML's Ternary Bonsai 2 27B (Qwen3.8-27B with {−1, 0, +1} weights) in NInfer, a from-scratch C++/CUDA inference engine, on a single RTX 4090 under native Windows</summary>
   </entry>
   <entry>
-    <title>Building Production Agents with Jev and LangGraph</title>
-    <link href="https://www.langchain.com/blog/building-prod-with-jev-and-langgraph"/>
-    <id>https://www.langchain.com/blog/building-prod-with-jev-and-langgraph</id>
-    <updated>2026-09-25T20:19:50.000Z</updated>
-    <author><name>LangChain Blog</name></author>
+    <title>OpenAI Agents Tried to Hack Education Depart. Website Amid Dozens of Misdeeds</title>
+    <link href="https://www.theinformation.com/briefings/openai-found-dozens-new-instances-ai-misbehavior"/>
+    <id>https://www.theinformation.com/briefings/openai-found-dozens-new-instances-ai-misbehavior</id>
+    <updated>2026-09-25T23:20:57.000Z</updated>
+    <author><name>The Information</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>See how LangGraph orchestrates Jev, TypeSafe AI's decision model, to build faster, cheaper production agents.</summary>
+    <summary>OpenAI agents attempted to hack the Department of Education’s website but was not successful, according to researchers at AI nonprofit Transluce. An OpenAI spokesperson said the company was reviewing the incident, first reported by The New York Times. OpenAI agents also accessed public data from ...</summary>
   </entry>
   <entry>
-    <title>Investing For The Great Wealth Transfer: Masters In Business</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-25/investing-the-great-wealth-transfer-masters-in-business-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-25/investing-the-great-wealth-transfer-masters-in-business-video</id>
-    <updated>2026-09-25T21:00:26.000Z</updated>
+    <title>Lula Plans $28 Billion Debt Buyout to Aid Consumers Before Vote</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-25/lula-plans-28-billion-debt-buyout-to-aid-consumers-before-vote"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-25/lula-plans-28-billion-debt-buyout-to-aid-consumers-before-vote</id>
+    <updated>2026-09-25T22:43:22.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Barry speaks with Adam Frank, Managing Director and Head of Wealth Planning and Advice at J.P. Morgan Wealth Management. They discuss his time at Bear Stearns as the company was acquired by J.P. Morgan Chase, as well as his start in law before pivoting to wealth planning. They discuss building trust with clients to hel</summary>
+    <summary>Brazil’s government plans to spend 15 billion reais to buy as much as 150 billion reais ($28 billion) of delinquent consumer debt from banks, part of President Luiz Inácio Lula da Silva’s push to ease the financial strain on households and bolster his bid for a fourth term.</summary>
   </entry>
   <entry>
-    <title>Benchmarking Argumentative Behaviour of LLMs: A Study of Defences Against Character Attacks</title>
-    <link href="https://arxiv.org/abs/2609.28673"/>
-    <id>https://arxiv.org/abs/2609.28673</id>
-    <updated>2026-09-25T04:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
+    <title>Ellison Pledges $9.2 Billion More in Oracle Shares for Loans</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-25/ellison-pledges-9-2-billion-more-in-oracle-shares-as-collateral"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-25/ellison-pledges-9-2-billion-more-in-oracle-shares-as-collateral</id>
+    <updated>2026-09-25T21:53:52.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Larry Ellison, a key figure behind Paramount Skydance Corp.’s deal to buy Warner Bros. Discovery Inc., has pledged 67 million more shares of Oracle Corp. as collateral for personal loans than he had at the same time last year.</summary>
+  </entry>
+  <entry>
+    <title>MIT students gain a humanist lens on technical innovation in Tulsa, Oklahoma</title>
+    <link href="https://news.mit.edu/2026/mit-students-gain-humanist-lens-technical-innovation-tulsa-oklahoma-0925"/>
+    <id>https://news.mit.edu/2026/mit-students-gain-humanist-lens-technical-innovation-tulsa-oklahoma-0925</id>
+    <updated>2026-09-25T20:15:00.000Z</updated>
+    <author><name>MIT News AI</name></author>
     <category term="RESEARCH"/>
-    <summary>arXiv:2609.28673v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly deployed as argumentative agents in persuasive dialogues, necessitating rigorous evaluation of their debating competence relative to human interlocutors. In this study, we focus on character attacks (ad hominem arguments), tra</summary>
+    <summary>The PKG Center for Social Impact expands Code.Tulsa experiential learning program.</summary>
   </entry>
   <entry>
     <title>Framing by Wording, Framing by Selection: A Large-Scale Two-Dimensional Audit of French News Headlines, 2022-2025</title>
