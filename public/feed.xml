@@ -5,16 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-09-29T20:09:38.985Z</updated>
-  <entry>
-    <title>OpenAI launches always-on Dots agents to rival Meta's Muse</title>
-    <link href="https://the-decoder.com/openai-launches-always-on-dots-agents-to-rival-metas-muse"/>
-    <id>https://the-decoder.com/openai-launches-always-on-dots-agents-to-rival-metas-muse</id>
-    <updated>2026-09-29T17:14:45.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>OpenAI's new Dots are always-on agents that run on their own cloud computers, where they fix bugs or send out forgotten invoices, sometimes before anyone asks. Users can reach them through ChatGPT, Slack, and Microsoft Teams. When no one is working with them, Dots look for ways to help in the background using read-only — Also covered by: The Verge AI, Wired AI, MarketWatch</summary>
-  </entry>
+  <updated>2026-09-29T23:54:54.354Z</updated>
   <entry>
     <title>Introducing GPT-6.1 Sol</title>
     <link href="https://openai.com/index/introducing-gpt-6-1-sol"/>
@@ -34,11 +25,20 @@
     <summary>Dots by OpenAI are a proactive assistant that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.</summary>
   </entry>
   <entry>
+    <title>OpenAI launches always-on Dots agents to rival Meta's Muse</title>
+    <link href="https://the-decoder.com/openai-launches-always-on-dots-agents-to-rival-metas-muse"/>
+    <id>https://the-decoder.com/openai-launches-always-on-dots-agents-to-rival-metas-muse</id>
+    <updated>2026-09-29T17:14:45.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>OpenAI's new Dots are always-on agents that run on their own cloud computers, where they fix bugs or send out forgotten invoices, sometimes before anyone asks. Users can reach them through ChatGPT, Slack, and Microsoft Teams. When no one is working with them, Dots look for ways to help in the background using read-only — Also covered by: The Verge AI</summary>
+  </entry>
+  <entry>
     <title>DevDay 2026 Recap</title>
     <link href="https://openai.com/index/devday-2026-recap"/>
     <id>https://openai.com/index/devday-2026-recap</id>
     <updated>2026-09-29T10:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
+    <author><name>OpenAI Blog</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.</summary>
   </entry>
@@ -70,40 +70,49 @@
     <summary>Building useful robots starts with understanding the people who use them. For Charlie Kemp, cofounder and chief technology officer of Hello Robot, that means developing assistive robots that can help people with everyday tasks and support greater independence. In this Robots Guide profile, Kemp shares his path from stu</summary>
   </entry>
   <entry>
-    <title>OpenAI expands ChatGPT plugins with interactive panels and file viewers, launches a Plugin Creator tool, and adds MCP Events support for plugin automations (Sarah Perez/TechCrunch)</title>
-    <link href="https://www.techmeme.com/260929/p41"/>
-    <id>https://www.techmeme.com/260929/p41</id>
-    <updated>2026-09-29T18:26:05.000Z</updated>
+    <title>Anthropic says GLM-5.3 can autonomously build end-to-end cyber exploits, like Claude Mythos Preview, but was released without robust safeguards against misuse (Anthropic)</title>
+    <link href="https://www.techmeme.com/260929/p51"/>
+    <id>https://www.techmeme.com/260929/p51</id>
+    <updated>2026-09-29T22:35:00.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Sarah Perez / TechCrunch : OpenAI expands ChatGPT plugins with interactive panels and file viewers, launches a Plugin Creator tool, and adds MCP Events support for plugin automations — OpenAI isn't only coming after productivity software with ChatGPT's new Pages, Slides and Space features — the AI lab is now targeting </summary>
+    <summary>Anthropic : Anthropic says GLM-5.3 can autonomously build end-to-end cyber exploits, like Claude Mythos Preview, but was released without robust safeguards against misuse — GLM-5.3 can develop working exploits end to end — Five months ago, we announced Claude Mythos Preview, the first AI model …</summary>
   </entry>
   <entry>
-    <title>create: support explicit model capabilities (#18708)</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.35.1-rc0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.35.1-rc0</id>
-    <updated>2026-09-29T18:10:25.000Z</updated>
-    <author><name>ollama/ollama</name></author>
+    <title>llama.cpp b11266 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11266"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11266</id>
+    <updated>2026-09-29T23:54:35.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Add CAPABILITY declarations to Modelfiles and an additive capabilities field to create requests. Preserve declarations across GGUF and safetensors creation, inheritance, and Modelfile export. Require decision capability before scheduling System One requests instead of matching Qwen architecture/renderer metadata. Retai</summary>
+    <summary>vulkan : Load F32 A matrix 2 at a time when its 2-aligned ( #29254 ) It turns out Intel doesn't particularly like loading F32s one at a time and we already have the _2aliagned load logic in mul_mat_vec, so here we use it. While we do already check all the requirements to load elements 4 at a time across [B]F16 and F32,</summary>
   </entry>
   <entry>
-    <title>OpenAI launches new AI personal assistant</title>
+    <title>Jev is now available in LangSmith Evals</title>
+    <link href="https://www.langchain.com/blog/jev-is-now-available-in-langsmith-evals"/>
+    <id>https://www.langchain.com/blog/jev-is-now-available-in-langsmith-evals</id>
+    <updated>2026-09-29T23:06:28.000Z</updated>
+    <author><name>LangChain Blog</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Use Jev as a judge for LangSmith evals to evaluate agent traces with faster, cheaper structured feedback across production runs, datasets, and regression tests.</summary>
+  </entry>
+  <entry>
+    <title>Altman says OpenAI will delay its IPO until it overcomes safety concerns</title>
     <link href="https://www.ft.com/content/211d10ae-cf9e-481d-99ed-0321d2eb0676?syn-25a6b1a6=1"/>
     <id>https://www.ft.com/content/211d10ae-cf9e-481d-99ed-0321d2eb0676?syn-25a6b1a6=1</id>
-    <updated>2026-09-29T17:15:00.000Z</updated>
+    <updated>2026-09-29T21:56:49.000Z</updated>
     <author><name>FT Artificial Intelligence</name></author>
     <category term="AI FINANCE"/>
-    <summary>Sam Altman’s start-up seeks to meet challenge from Meta amid scrutiny of its safety record</summary>
+    <summary>ChatGPT maker launches a new AI personal assistant as it faces a challenge from Meta’s Muse</summary>
   </entry>
   <entry>
-    <title>ConflictVLA-Bench: Benchmarking Behavioral Responses of Vision-Language-Action Models to Premise Conflicts</title>
-    <link href="https://arxiv.org/abs/2609.31792"/>
-    <id>https://arxiv.org/abs/2609.31792</id>
-    <updated>2026-09-29T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
+    <title>Quoting Anthropic Frontier Red Team</title>
+    <link href="https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team"/>
+    <id>https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team</id>
+    <updated>2026-09-29T22:20:28.000Z</updated>
+    <author><name>Simon Willison</name></author>
     <category term="RESEARCH"/>
-    <summary>arXiv:2609.31792v1 Announce Type: new Abstract: While Vision-Language-Action (VLA) models perform strongly on manipulation tasks, their responses to invalid task premises remain underexplored. Existing evaluations of premise conflicts often focus on terminal task outcomes, yet task failure alone cannot distinguish beha</summary>
+    <summary>We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly</summary>
   </entry>
   <entry>
     <title>101 Malicious npm Packages Add Developers' WhatsApp Accounts to Groups Without Consent</title>
@@ -115,31 +124,22 @@
     <summary>Cybersecurity researchers have identified a cluster of 101 npm packages that are used to trap developers into a WhatsApp group subscriber campaign dubbed PhantomSub. &quot;The malicious packages abuse the 'Baileys' WhatsApp open source project to add the victims to groups without their consent,&quot; OX Security researchers Nir </summary>
   </entry>
   <entry>
-    <title>AISN #82: The US and China Begin a Dialogue on AI</title>
-    <link href="https://newsletter.safe.ai/p/aisn-82-the-us-and-china-begin-a"/>
-    <id>https://newsletter.safe.ai/p/aisn-82-the-us-and-china-begin-a</id>
-    <updated>2026-09-29T13:30:27.000Z</updated>
-    <author><name>AI Safety Newsletter (CAIS)</name></author>
+    <title>Trump announces vague ‘morally binding’ AI deal among tech CEOs for ‘tremendous self-policing’</title>
+    <link href="https://www.theguardian.com/us-news/2026/sep/29/trump-ai-deal-tech-ceos-superintelligence"/>
+    <id>https://www.theguardian.com/us-news/2026/sep/29/trump-ai-deal-tech-ceos-superintelligence</id>
+    <updated>2026-09-29T23:21:25.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Also, AI companies’ discussions about auditing each other, and a new benchmark testing models’ tendencies to cheat.</summary>
+    <summary>US president also issued executive order officially rebranding ‘artificial intelligence’ as ‘superintelligence’ Donald Trump announced on Tuesday that the heads of the largest US tech and AI companies had signed onto a “morally binding” agreement to put controls on artificial intelligence. He announced the deal, called</summary>
   </entry>
   <entry>
-    <title>UK AI Security Institute finds GPT-6 Astra's rogue attack rate jumped fivefold over its predecessor</title>
-    <link href="https://the-decoder.com/uk-ai-security-institute-finds-gpt-6-astras-rogue-attack-rate-jumped-fivefold-over-its-predecessor"/>
-    <id>https://the-decoder.com/uk-ai-security-institute-finds-gpt-6-astras-rogue-attack-rate-jumped-fivefold-over-its-predecessor</id>
-    <updated>2026-09-29T19:24:12.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>Altman on OpenAI's IPO Plans, AI Agent Dots, AI Security</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-09-29/altman-on-openai-s-ipo-plans-ai-agent-dots-ai-security-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-09-29/altman-on-openai-s-ipo-plans-ai-agent-dots-ai-security-video</id>
+    <updated>2026-09-29T21:34:13.000Z</updated>
+    <author><name>Bloomberg Tech</name></author>
     <category term="AI SECURITY"/>
-    <summary>GPT-6 Astra carried out unauthorized supply-chain attacks in 29.2 percent of simulations run by the British AI Security Institute with safety filters disabled. The model used fake identities and malicious code, while its predecessor, GPT-5.6 Sol, completed attacks in 6.3 percent of runs. Explicit restrictions reduced a</summary>
-  </entry>
-  <entry>
-    <title>OpenAI apologizes for agents breaching Australian government websites without authorization</title>
-    <link href="https://therecord.media/openai-apologizes-australia-medicare-breach"/>
-    <id>https://therecord.media/openai-apologizes-australia-medicare-breach</id>
-    <updated>2026-09-29T19:48:00.000Z</updated>
-    <author><name>The Record</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>The artificial intelligence giant acknowledged it botched its response to the incidents and should have done more to promptly notify and work with the Australian government in the days after it discovered the breaches.</summary>
+    <summary>OpenAI CEO Sam Altman talks about launching its new AI personal agent called Dots, which he says is a premium product. Altman also says the company will go public at some point, but it's being patient. He speaks to Bloomberg's Ed Ludlow in San Francisco. (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>OperTraitors: How Kubernetes Operators Betray Your Security Posture</title>
@@ -149,24 +149,6 @@
     <author><name>Palo Alto Unit 42</name></author>
     <category term="CYBER DEFENSE"/>
     <summary>We introduce OperTraitor, a tool to audit privileges of Kubernetes operators, identify excessive RBAC risks, and secure non-human identities. The post OperTraitors: How Kubernetes Operators Betray Your Security Posture appeared first on Unit 42 .</summary>
-  </entry>
-  <entry>
-    <title>Oura Hits Pause On IPO While Anthropic’s Prospectus Reveals The Cost Of Its AI Ambitions</title>
-    <link href="https://news.crunchbase.com/public/oura-pauses-ipo-anthropics-ai-openai"/>
-    <id>https://news.crunchbase.com/public/oura-pauses-ipo-anthropics-ai-openai</id>
-    <updated>2026-09-29T18:42:38.000Z</updated>
-    <author><name>Crunchbase News AI</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>Although Oura has postponed its planned offering that could have raised as much as $2.2 billion, Anthropic is still making a move toward the public markets along with AI cloud provider Nscale and other companies lining up potential fourth-quarter listings.</summary>
-  </entry>
-  <entry>
-    <title>🚨 The first existential IPO</title>
-    <link href="https://www.exponentialview.co/p/the-first-existential-ipo"/>
-    <id>https://www.exponentialview.co/p/the-first-existential-ipo</id>
-    <updated>2026-09-29T15:54:57.000Z</updated>
-    <author><name>Exponential View (Azhar)</name></author>
-    <category term="ANALYSIS"/>
-    <summary>On the leaked details of Anthropic’s IPO prospectus</summary>
   </entry>
   <entry>
     <title>Chestnut Launches Aero Hand and Aero UMI, Pairing Dexterous Hardware With Its Data Collector</title>
@@ -187,67 +169,67 @@
     <summary>Insider Brief PRESS RELEASE — Project Eleven, the company building post-quantum security infrastructure for digital assets, today announced its acquisition of Riva Labs, expanding its expertise in post-quantum signatures, wallets, MPC, and account abstraction. The acquisition also brings technology and intellectual pro</summary>
   </entry>
   <entry>
-    <title>OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite</title>
-    <link href="https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite"/>
-    <id>https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite</id>
-    <updated>2026-09-29T17:45:51.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>ollama v0.35.1 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.35.1-rc0"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.35.1-rc0</id>
+    <updated>2026-09-29T20:14:22.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>What's Changed feat: allow ten web searches per response by @ParthSareen in #18602 MLX: version bump by @dhiltgen in #18651 llama.cpp: version bump b11232 by @dhiltgen in #18652 create: support explicit model capabilities by @dhiltgen in #18708 Full Changelog : v0.35.0...v0.35.1-rc0</summary>
+  </entry>
+  <entry>
+    <title>OpenAI announces ‘dots’ agent after scrapping launch of new AI model over safety concerns</title>
+    <link href="https://www.theguardian.com/technology/2026/sep/29/openai-announces-dots-agent-safety-concerns"/>
+    <id>https://www.theguardian.com/technology/2026/sep/29/openai-announces-dots-agent-safety-concerns</id>
+    <updated>2026-09-29T21:25:33.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>OpenAI's newly announced suite of office features puts it into mor direct competition with more traditional software companies.</summary>
+    <summary>Company’s product comes weeks after Meta introduced its own artificially intelligent agent Muse Less than 24 hours after OpenAI announced it would scrap the launch of an artificial intelligence model over safety concerns, the company debuted a whole new suite of AI tools. During its annual showcase for developers in Sa</summary>
   </entry>
   <entry>
-    <title>OpenAI launches Dots, its bubbly agentic avatar</title>
-    <link href="https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar"/>
-    <id>https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar</id>
-    <updated>2026-09-29T17:17:15.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Dots are meant to operate independent of any specific hardware or interface, pursuing user-defined goals continuously in the background with minimal oversight.</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp b11260 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11260"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11260</id>
-    <updated>2026-09-29T19:59:36.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>hexagon: add FP32 GELU_ERF and GEGLU_ERF support ( #29631 ) hexagon: add FP32 GELU_ERF and GEGLU_ERF support hex-erf: reduce register pressure in kernels Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/51243904 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64</summary>
-  </entry>
-  <entry>
-    <title>Anthropic just dropped the greatest advertisement for GLM ever.</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wth4iz/anthropic_just_dropped_the_greatest_advertisement"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wth4iz/anthropic_just_dropped_the_greatest_advertisement</id>
-    <updated>2026-09-29T17:55:48.000Z</updated>
+    <title>Are you worried about a potential ban of Chinese open weight models?</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wtp9x4/are_you_worried_about_a_potential_ban_of_chinese"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wtp9x4/are_you_worried_about_a_potential_ban_of_chinese</id>
+    <updated>2026-09-29T23:17:54.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Like.. yea bro, I knew GLM was cool. Now everyone does. submitted by /u/BannedGoNext [link] [comments]</summary>
+    <summary>Anthropic released the GLM article today. Trump is getting very involved. Do you foresee Chinese open weight models getting banned soon? submitted by /u/writesfw [link] [comments]</summary>
   </entry>
   <entry>
-    <title>GPT-6.1 Sol is now available in Devin</title>
-    <link href="https://devin.ai/blog/gpt-6-1-sol"/>
-    <id>https://devin.ai/blog/gpt-6-1-sol</id>
-    <updated>2026-09-29T17:00:00.000Z</updated>
-    <author><name>Devin (Cognition)</name></author>
+    <title>The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch</title>
+    <link href="https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch"/>
+    <id>https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch</id>
+    <updated>2026-09-29T22:20:59.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>OpenAI released GPT-6.1 Sol. It is live now in Devin Desktop and Devin CLI. Same $2/$10 list price as GPT-6 Sol, but cache reads are now 95% off, and on FrontierCode 1.1 it matches GPT-6 Sol's score at roughly half the cost per task at every reasoning effort. At low effort it scores 58.1% for $0.21 per task, the best s</summary>
+    <summary>Before OpenAI launched its new AI agent, Dots, on Tuesday, Elon Musk's xAI had already acquired the domain name &quot;dot.com,&quot; which now redirects to the Grok chatbot download page.</summary>
   </entry>
   <entry>
-    <title>Financing Indigenous Investment and Ownership</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-09-29/financing-indigenous-investment-and-ownership-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-09-29/financing-indigenous-investment-and-ownership-video</id>
-    <updated>2026-09-29T19:50:43.000Z</updated>
+    <title>Asian Stocks Set for Rebound as Oil Prices Ease: Markets Wrap</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-29/stock-market-today-dow-s-p-live-updates"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-29/stock-market-today-dow-s-p-live-updates</id>
+    <updated>2026-09-29T22:12:50.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>James Byra, Managing Director, Finance and Investments, First Nations Finance Authority and Michael Fedchyshyn, CEO, Building Ontario Fund, discuss financing structures to expand Indigenous participation and ownership in major projects, close capital gaps and support long-term economic growth, with Bloomberg’s Paula Sa</summary>
+    <summary>Asian stocks were poised to advance for the first time in three sessions as oil prices fell on signs of increased supply from the Middle East. Bonds drew attention after yields on the longest-dated Treasuries reached their highest since 2002.</summary>
   </entry>
   <entry>
-    <title>PGIM Pushes for AI Limits in CLOs to Avoid Too Much Exposure</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-09-29/pgim-pushes-for-ai-limits-in-clos-to-avoid-too-much-exposure"/>
-    <id>https://www.bloomberg.com/news/articles/2026-09-29/pgim-pushes-for-ai-limits-in-clos-to-avoid-too-much-exposure</id>
-    <updated>2026-09-29T19:51:02.000Z</updated>
+    <title>Trump Sued Over Move to Claw Back Federal Funds Set to Expire</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-09-29/trump-sued-over-move-to-claw-back-federal-funds-set-to-expire"/>
+    <id>https://www.bloomberg.com/news/articles/2026-09-29/trump-sued-over-move-to-claw-back-federal-funds-set-to-expire</id>
+    <updated>2026-09-29T21:59:45.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>PGIM, the asset management arm of Prudential Financial Inc., was the anchor investor on a recent collateralized loan obligation that included a novel safeguard capping the share of its AI-related debt at 15%, according to people familiar with the matter.</summary>
+    <summary>A White House plan to cut hundreds of millions of dollars in federal funding approved by Congress using a controversial budgeting maneuver faces a legal challenge on the eve of the end of the fiscal year, when the money is set to expire.</summary>
+  </entry>
+  <entry>
+    <title>ConflictVLA-Bench: Benchmarking Behavioral Responses of Vision-Language-Action Models to Premise Conflicts</title>
+    <link href="https://arxiv.org/abs/2609.31792"/>
+    <id>https://arxiv.org/abs/2609.31792</id>
+    <updated>2026-09-29T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
+    <category term="RESEARCH"/>
+    <summary>arXiv:2609.31792v1 Announce Type: new Abstract: While Vision-Language-Action (VLA) models perform strongly on manipulation tasks, their responses to invalid task premises remain underexplored. Existing evaluations of premise conflicts often focus on terminal task outcomes, yet task failure alone cannot distinguish beha</summary>
   </entry>
   <entry>
     <title>How Diffusion Controller unifies and simplifies AI image generation</title>
@@ -259,21 +241,39 @@
     <summary>Algorithms &amp; Theory</summary>
   </entry>
   <entry>
-    <title>GPT-6.1 Sol comes close to Astra at a fifth of the price</title>
-    <link href="https://the-decoder.com/gpt-6-1-sol-comes-close-to-astra-at-a-fifth-of-the-price"/>
-    <id>https://the-decoder.com/gpt-6-1-sol-comes-close-to-astra-at-a-fifth-of-the-price</id>
-    <updated>2026-09-29T17:14:27.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="RESEARCH"/>
-    <summary>OpenAI's new GPT-6.1 Sol comes close to GPT-6 Astra at a fifth of the cost, according to the company's own benchmarks. The planned flagship, GPT-6.1 Astra, is staying under wraps for now. Safety lead Saachi Jain says the model deceived more often in internal testing and kept going without permission. The article GPT-6.</summary>
+    <title>SEMIFIVE Signs $52M AI Chip Development Deal with US Company</title>
+    <link href="https://www.hpcwire.com/off-the-wire/semifive-signs-52m-ai-chip-development-deal-with-us-company"/>
+    <id>https://www.hpcwire.com/off-the-wire/semifive-signs-52m-ai-chip-development-deal-with-us-company</id>
+    <updated>2026-09-29T19:28:13.000Z</updated>
+    <author><name>HPC Wire</name></author>
+    <category term="HARDWARE"/>
+    <summary>SEOUL, South Korea, Sept. 29, 2026 — SEMIFIVE, a leading global provider of custom AI semiconductor (ASIC) solutions, announced today that it has signed a contract worth approximately KRW 70.3 billion (~US$52 million) with a U.S.-based AI fabless company to develop a next-generation AI inference accelerator. The projec</summary>
   </entry>
   <entry>
-    <title>OpenAI launches GPT-6.1 Sol, says it nearly matches GPT-6 Astra and costs less</title>
-    <link href="https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less"/>
-    <id>https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less</id>
-    <updated>2026-09-29T17:15:00.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="PRODUCTS"/>
-    <summary>OpenAI says GPT-6.1 Sol delivers significant improvements over GPT-6 Sol across complex professional tasks, including code writing and debugging, document understanding, and executing multi-step business workflows.</summary>
+    <title>Samsung Commits $1B to Helix Digital Infrastructure to Support Global AI Infrastructure Buildout</title>
+    <link href="https://www.hpcwire.com/off-the-wire/samsung-commits-1b-to-helix-digital-infrastructure-to-support-global-ai-infrastructure-buildout"/>
+    <id>https://www.hpcwire.com/off-the-wire/samsung-commits-1b-to-helix-digital-infrastructure-to-support-global-ai-infrastructure-buildout</id>
+    <updated>2026-09-29T18:36:24.000Z</updated>
+    <author><name>HPC Wire</name></author>
+    <category term="HARDWARE"/>
+    <summary>Commitment builds on more than $10 billion of capital already committed to the Helix strategy NEW YORK, Sept. 29, 2026 — Helix Digital Infrastructure and KKR have announced that Samsung has committed $1 billion to Helix, an AI infrastructure company formed by KKR to help meet the growing infrastructure needs of hypersc</summary>
+  </entry>
+  <entry>
+    <title>Developer policy update: Transparency, state policy, and what’s ahead</title>
+    <link href="https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-transparency-state-policy-and-whats-ahead"/>
+    <id>https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-transparency-state-policy-and-whats-ahead</id>
+    <updated>2026-09-29T15:00:00.000Z</updated>
+    <author><name>GitHub Blog</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Explore GitHub’s latest transparency data and learn more about policy updates affecting developers and open source. The post Developer policy update: Transparency, state policy, and what’s ahead appeared first on The GitHub Blog .</summary>
+  </entry>
+  <entry>
+    <title>AI Native by Design: Lessons Learned from Building NVIDIA TensorRT Model Connect</title>
+    <link href="https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect"/>
+    <id>https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect</id>
+    <updated>2026-09-29T19:10:51.000Z</updated>
+    <author><name>NVIDIA Dev Blog</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Parallel work, model-family isolation, reversible changes, and GPU-backed validation shaped an open source project designed around coding agents NVIDIA TensorRT...</summary>
   </entry>
 </feed>
