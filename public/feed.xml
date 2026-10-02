@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-01T23:46:14.190Z</updated>
+  <updated>2026-10-02T04:43:16.124Z</updated>
   <entry>
     <title>The eternal complement</title>
     <link href="https://openai.com/index/the-eternal-complement"/>
@@ -57,7 +57,7 @@
     <id>https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-launches-open-agent-safety-platform-to-restrain-rogue-ai-agents-new-hardware-and-software-security-stack-can-quarantine-agents-in-milliseconds</id>
     <updated>2026-10-01T14:30:00.000Z</updated>
     <author><name>Tom's Hardware</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
+    <category term="PRODUCTS"/>
     <summary>Nvidia’s new Open Agent Safety Platform combines OpenShell sandboxing with BlueField-powered Sentry hardware to monitor and rapidly quarantine rogue AI agents — Also covered by: ServeTheHome</summary>
   </entry>
   <entry>
@@ -88,22 +88,49 @@
     <summary>is Gemini making a comeback? — Also covered by: Simon Willison</summary>
   </entry>
   <entry>
-    <title>Microsoft launches MAI-Transcribe-2-Streaming, a model for low-latency, real-time transcripts, and two new voice models, MAI-Voice-2.1 and MAI-Voice-2.1-Flash (Microsoft AI)</title>
-    <link href="https://www.techmeme.com/261001/p42"/>
-    <id>https://www.techmeme.com/261001/p42</id>
-    <updated>2026-10-01T23:00:00.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Microsoft AI : Microsoft launches MAI-Transcribe-2-Streaming, a model for low-latency, real-time transcripts, and two new voice models, MAI-Voice-2.1 and MAI-Voice-2.1-Flash — MAI-Transcribe and MAI-Voice models: accurate, fast, low cost, and chart-topping audio understanding and generation for building the best conver</summary>
+    <title>llama.cpp b11339 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11339"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11339</id>
+    <updated>2026-10-02T04:32:10.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>llama : clamp kpool re-pool bound to existing pools ( #29805 ) tests : simplify function signature llama : clamp kpool re-pool bound to existing pools The n_tokens/kpool + n_seqs_unq bound on n_new_g overshoots when a batch fills the whole cache: n_ctx tokens complete exactly n_ctx/kpool pools, so the +1 pads new_pool_</summary>
   </entry>
   <entry>
-    <title>llama.cpp b11327 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11327"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11327</id>
-    <updated>2026-10-01T20:59:28.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>mtmd: cap max_image to ubatch for non_causal models ( #29773 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/51957111 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubun</summary>
+    <title>We don’t need to panic about AI. We need to hold its creators accountable when things go wrong | John Quiggin</title>
+    <link href="https://www.theguardian.com/commentisfree/2026/oct/02/we-dont-need-to-panic-about-ai-we-need-to-hold-its-creators-accountable"/>
+    <id>https://www.theguardian.com/commentisfree/2026/oct/02/we-dont-need-to-panic-about-ai-we-need-to-hold-its-creators-accountable</id>
+    <updated>2026-10-02T01:13:21.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>If a chatbot prompt like ‘find Australian medicine statistics’ results in a website breach, the responsibility does not lie with a piece of code The recent panic about a breach of Medicare computer security by an “AI agent” contrasts sharply with other recent cases such as the Telstra and Optus outages that left many A</summary>
+  </entry>
+  <entry>
+    <title>Heavy-Tailed Memory Traces in Long-Horizon Language Agents</title>
+    <link href="https://arxiv.org/abs/2610.00010"/>
+    <id>https://arxiv.org/abs/2610.00010</id>
+    <updated>2026-10-02T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>arXiv:2610.00010v1 Announce Type: new Abstract: Long-horizon language agents increasingly rely on external memory as a frozen world model, yet current memory systems are usually judged only by task success or token cost. We argue that the missing object is the shape of memory use: under finite context and repeated retr</summary>
+  </entry>
+  <entry>
+    <title>Hong Kong Stocks Slump Most Since March, Leading Losses in Asia</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-02/hong-kong-stocks-slump-most-since-march-leading-losses-in-asia"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-02/hong-kong-stocks-slump-most-since-march-leading-losses-in-asia</id>
+    <updated>2026-10-02T04:04:00.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Hong Kong’s stock benchmark led losses in Asia as trading resumed after a holiday, pressured by a surge in US yields and disappointment over China’s latest stimulus measures.</summary>
+  </entry>
+  <entry>
+    <title>The First Token Is Not the Verdict: Hidden Costs of Reading LLM Judges Without Generating</title>
+    <link href="https://arxiv.org/abs/2610.00054"/>
+    <id>https://arxiv.org/abs/2610.00054</id>
+    <updated>2026-10-02T04:00:00.000Z</updated>
+    <author><name>arXiv cs.CL</name></author>
+    <category term="RESEARCH"/>
+    <summary>arXiv:2610.00054v1 Announce Type: new Abstract: Reading an LLM judge's verdict from the logits of its first generated token is cheap, requires no generation, and is exactly what constrained decoding and likelihood-scoring evaluation harnesses produce. We show that this readout distorts position bias in one direction: i</summary>
   </entry>
   <entry>
     <title>Introducing Clef: our open-source decision models, and new RL fine-tuning platform</title>
@@ -111,44 +138,26 @@
     <id>https://blog.cloudflare.com/clef-decision-models</id>
     <updated>2026-10-01T15:34:02.000Z</updated>
     <author><name>Cloudflare AI</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
+    <category term="PRODUCTS"/>
     <summary>We are introducing Clef and Clef-flash, open-source decision models hosted on Workers AI for high-speed classification and agentic workflows. Also launching: a new reinforcement learning platform that allows developers to fine-tune decision models using their own data.</summary>
   </entry>
   <entry>
-    <title>Paramount Dealmaker Says Warner Merger Is About Growth, Not Cuts</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-01/paramount-dealmaker-says-warner-merger-is-about-growth-not-cuts"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-01/paramount-dealmaker-says-warner-merger-is-about-growth-not-cuts</id>
-    <updated>2026-10-01T23:24:20.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Gerry Cardinale, the founder of the investment firm RedBird Capital Partners and one of the architects of Paramount Skydance Corp.’s pending acquisition of Warner Bros. Discovery Inc., said the performance of the combined companies will impress investors.</summary>
-  </entry>
-  <entry>
-    <title>How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast</title>
-    <link href="https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast"/>
-    <id>https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast</id>
-    <updated>2026-10-01T23:44:13.000Z</updated>
-    <author><name>NVIDIA Blog</name></author>
+    <title>Fast Polynomial Transcendentals for LLMs</title>
+    <link href="https://arxiv.org/abs/2610.00049"/>
+    <id>https://arxiv.org/abs/2610.00049</id>
+    <updated>2026-10-02T04:00:00.000Z</updated>
+    <author><name>arXiv cs.LG</name></author>
     <category term="HARDWARE"/>
-    <summary>GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation </summary>
+    <summary>arXiv:2610.00049v1 Announce Type: new Abstract: Graphics processing unit (GPU) generations scale matrix, special-function, and memory pipelines at different rates, so kernel bottlenecks move as hardware evolves. FlashAttention-4 exposed this imbalance inside attention on NVIDIA Blackwell. We test whether short polynomi</summary>
   </entry>
   <entry>
-    <title>Optimizing Jagged Flash Attention with TLX: The Road Toward SOTA FA4 on Blackwell</title>
-    <link href="https://pytorch.org/blog/optimizing-jagged-flash-attention-with-tlx-the-road-toward-sota-fa4-on-blackwell"/>
-    <id>https://pytorch.org/blog/optimizing-jagged-flash-attention-with-tlx-the-road-toward-sota-fa4-on-blackwell</id>
-    <updated>2026-10-01T22:26:57.000Z</updated>
-    <author><name>PyTorch Blog</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>TL;DR In this blog post, we present our work on Jagged Flash Attention (JFA) — the attention kernel behind Meta’s Generative Ads Model (GEM) — on NVIDIA Blackwell (B200), built...</summary>
-  </entry>
-  <entry>
-    <title>A look at two opposing perspectives on AI agent sandboxing: infosec says labs need better containment, AI alignment says sandboxes can't fully contain agents (Matthew Green/A Few Thoughts ...)</title>
+    <title>A look at two opposing perspectives on AI agent sandboxing: infosec says labs need better containment while AI alignment says sandboxes cannot contain agents (Matthew Green/A Few Thoughts on Cryptographic Engineering)</title>
     <link href="https://www.techmeme.com/261001/p44"/>
     <id>https://www.techmeme.com/261001/p44</id>
     <updated>2026-10-01T23:30:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Matthew Green / A Few Thoughts on Cryptographic Engineering : A look at two opposing perspectives on AI agent sandboxing: infosec says labs need better containment, AI alignment says sandboxes can't fully contain agents — Quick caveats: this is a post on AI safety, written by a cryptography professor. If that troubles </summary>
+    <summary>Matthew Green / A Few Thoughts on Cryptographic Engineering : A look at two opposing perspectives on AI agent sandboxing: infosec says labs need better containment while AI alignment says sandboxes cannot contain agents — Quick caveats: this is a post on AI safety, written by a cryptography professor. If that troubles </summary>
   </entry>
   <entry>
     <title>[tl;dr sec] #348 - Google's PageBreak Scanner, Perplexity's Agent Security Tool, Defending Agentically</title>
@@ -160,22 +169,13 @@
     <summary>Google's AI-powered web app scanner with deterministic validation, OSS tool to detect, prevent, and investigate risky AI agent behavior, NCSC: &quot;One does not simply defend agentically&quot;</summary>
   </entry>
   <entry>
-    <title>Iranian accused of hacking American universities extradited from Montenegro</title>
-    <link href="https://therecord.media/iran-montenegro-hacker-extradition"/>
-    <id>https://therecord.media/iran-montenegro-hacker-extradition</id>
-    <updated>2026-10-01T20:15:00.000Z</updated>
-    <author><name>The Record</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>An Iranian national accused by the U.S. of taking part in dozens of breaches involving the theft of academic data and intellectual property has been extradited from Montenegro.</summary>
-  </entry>
-  <entry>
-    <title>Give yourself room to be human</title>
-    <link href="https://blog.talosintelligence.com/give-yourself-room-to-be-human"/>
-    <id>https://blog.talosintelligence.com/give-yourself-room-to-be-human</id>
-    <updated>2026-10-01T18:00:52.000Z</updated>
-    <author><name>Talos Intelligence</name></author>
+    <title>From Proposal to Verified Effect: Praxa, an Evidence-Bound Harness for Governed AI Agent Execution</title>
+    <link href="https://arxiv.org/abs/2610.00015"/>
+    <id>https://arxiv.org/abs/2610.00015</id>
+    <updated>2026-10-02T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
     <category term="CYBER DEFENSE"/>
-    <summary>In this week’s edition, Amy reflects on the importance of prioritizing family and personal well-being over the pressure to remain constantly productive.</summary>
+    <summary>arXiv:2610.00015v1 Announce Type: new Abstract: Large-language-model agents can propose and execute actions, but proposal, authority, dispatch, verified external effect, and serving promotion are different claims. We present Praxa, an agent harness that represents these states explicitly through deterministic admission</summary>
   </entry>
   <entry>
     <title>Exclusive: Homeward Raises $120M To Help Homeowners Buy And Sell More Quickly As Housing Market Stalls</title>
@@ -187,13 +187,13 @@
     <summary>Homeward, a startup that helps homeowners buy before selling their existing homes or get cash offers for their properties, has raised a $120 million Series D round, Crunchbase News reports exclusively.</summary>
   </entry>
   <entry>
-    <title>A big-tent or small-tent AI safety movement?</title>
-    <link href="https://www.normaltech.ai/p/a-big-tent-or-small-tent-ai-safety"/>
-    <id>https://www.normaltech.ai/p/a-big-tent-or-small-tent-ai-safety</id>
-    <updated>2026-10-01T16:34:51.000Z</updated>
-    <author><name>AI Snake Oil</name></author>
+    <title>Academia is for Ambition — Alex Zhang, MIT</title>
+    <link href="https://www.latent.space/p/rlm"/>
+    <id>https://www.latent.space/p/rlm</id>
+    <updated>2026-10-02T00:28:04.000Z</updated>
+    <author><name>Latent Space</name></author>
     <category term="ANALYSIS"/>
-    <summary>The unstated disagreement that underpins safety debates</summary>
+    <summary>We catch up with RLM first author Alex Zhang, MIT PhD, on Jev, PhD masxing, and the future of harnesses.</summary>
   </entry>
   <entry>
     <title>Clone Shows Torso 3 Hand Demo, Targets November Launch for Redesigned Torso 4</title>
@@ -205,7 +205,7 @@
     <summary>Clone’s teleoperated hand demo shows its legacy design, while the company says a redesigned Torso 4 will target stationary two-arm enterprise tasks in November.</summary>
   </entry>
   <entry>
-    <title>Unitary Foundation Launches 2026 Quantum Open Source Software Survey</title>
+    <title>Unitary Foundation Launches Its 2026 Quantum Open Source Software Survey</title>
     <link href="https://quantumcomputingreport.com/unitary-foundation-launches-2026-quantum-open-source-software-survey"/>
     <id>https://quantumcomputingreport.com/unitary-foundation-launches-2026-quantum-open-source-software-survey</id>
     <updated>2026-10-01T22:06:13.000Z</updated>
@@ -214,13 +214,22 @@
     <summary>The Unitary Foundation has launched its 2026 Quantum Open Source Software (QOSS) survey, an annual initiative designed to collect information on the quantum open-source software community. The survey includes questions on demographics, research, tools, and platforms, with the goal of providing an informative and repres</summary>
   </entry>
   <entry>
-    <title>Announcing Ranveer Singh as Brand Ambassador for Ray-Ban and Ray-Ban Meta in India along with Exciting New Updates to our AI Glasses</title>
-    <link href="https://about.fb.com/news/2026/10/announcing-ranveer-singh-as-brand-ambassador-for-ray-ban-and-ray-ban-meta-in-india-along-with-exciting-new-updates-to-our-ai-glasses"/>
-    <id>https://about.fb.com/news/2026/10/announcing-ranveer-singh-as-brand-ambassador-for-ray-ban-and-ray-ban-meta-in-india-along-with-exciting-new-updates-to-our-ai-glasses</id>
-    <updated>2026-10-01T14:16:04.000Z</updated>
-    <author><name>Meta AI Blog</name></author>
+    <title>ollama v0.35.1 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.35.1-rc2"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.35.1-rc2</id>
+    <updated>2026-10-02T03:23:32.000Z</updated>
+    <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Ranveer Singh becomes the first Brand Ambassador for Ray-Ban and Ray-Ban Meta in India. The post Announcing Ranveer Singh as Brand Ambassador for Ray-Ban and Ray-Ban Meta in India along with Exciting New Updates to our AI Glasses appeared first on Meta Newsroom .</summary>
+    <summary>What's Changed feat: allow ten web searches per response by @ParthSareen in #18602 MLX: version bump by @dhiltgen in #18651 llama.cpp: version bump b11232 by @dhiltgen in #18652 create: support explicit model capabilities by @dhiltgen in #18708 Full Changelog : v0.35.0...v0.35.1-rc0</summary>
+  </entry>
+  <entry>
+    <title>Cloudflare debuts open-weight multimodal decision models Clef and Clef-flash, claiming they are smarter and faster than Jev, based on Qwen3.8-27B and Qwen3.5-9B (Brandon Vigliarolo/The Register)</title>
+    <link href="https://www.techmeme.com/261001/p48"/>
+    <id>https://www.techmeme.com/261001/p48</id>
+    <updated>2026-10-02T02:35:00.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Brandon Vigliarolo / The Register : Cloudflare debuts open-weight multimodal decision models Clef and Clef-flash, claiming they are smarter and faster than Jev, based on Qwen3.8-27B and Qwen3.5-9B — Sure, it costs more, but it can handle images and video and it's available on Hugging Face if you have the hardware horse</summary>
   </entry>
   <entry>
     <title>Google thinks SpaceX’s Starship has to launch 1,800 times before space data centers get off the ground</title>
@@ -232,48 +241,39 @@
     <summary>Google launched its first advanced chip into orbit to pave the way for space data centers.</summary>
   </entry>
   <entry>
-    <title>DDR4/PCIe4 vs DDR5/PCIe5 for LLMs- I benchmarked them for pre-training. What are your thoughts?</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wvaqeb/ddr4pcie4_vs_ddr5pcie5_for_llms_i_benchmarked"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wvaqeb/ddr4pcie4_vs_ddr5pcie5_for_llms_i_benchmarked</id>
-    <updated>2026-10-01T20:42:46.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>On-Device Named-Entity Recognition: A Deployability Study of Accuracy, Cost, Reliability, and Confidence</title>
+    <link href="https://arxiv.org/abs/2610.00007"/>
+    <id>https://arxiv.org/abs/2610.00007</id>
+    <updated>2026-10-02T04:00:00.000Z</updated>
+    <author><name>arXiv cs.CL</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Hello everyone. I've recently ran some experiments comparing DDR4/PCIe4 and DDR5/PCIe5 for AI workstations on a pre-training run, and would like to hear yours thoughts. First of all, and as a summary of my results ( code here: https://github.com/Any-Winter-4079/DDR4-PCIe-4-vs-DDR5-PCIe-5-for-CUDA-training ), I rented t</summary>
+    <summary>arXiv:2610.00007v1 Announce Type: new Abstract: Named-entity recognition (NER) is increasingly wanted on-device (no API, low latency, data kept local). The practitioner's question is not the leaderboard but which model is deployable, how to evaluate it without human annotation, and whether its confidence can be trusted</summary>
   </entry>
   <entry>
-    <title>Gufo performance .... 70tps Qwen 3.8 27b but you need to read the fine print.</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wvbmi6/gufo_performance_70tps_qwen_38_27b_but_you_need"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wvbmi6/gufo_performance_70tps_qwen_38_27b_but_you_need</id>
-    <updated>2026-10-01T21:18:54.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>So everyone has been yelling about how I should be using Gufo instead of halogen because it's open source and it's &quot;just as good or better&quot;. Checking in on their GitHub (GitHub.com/gufo-org/gufo) got me immediately .. &quot;Qwen 27B Q4: 70.56 tok/s single user, 123 tok/s with 8 users&quot; on a strix halo device? Yes please ... </summary>
-  </entry>
-  <entry>
-    <title>claude-code v2.1.287 released</title>
-    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.287"/>
-    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.287</id>
-    <updated>2026-10-01T18:43:19.000Z</updated>
-    <author><name>anthropics/claude-code</name></author>
+    <title>When Do Causal World Models Help Modular LLM Agents</title>
+    <link href="https://arxiv.org/abs/2610.00012"/>
+    <id>https://arxiv.org/abs/2610.00012</id>
+    <updated>2026-10-02T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>What's changed Added Claude Mods: plugins may now modify deeper behavior Added You should know, a built-in mod where a side agent watches your back and flags things you or Claude might miss. Turn it on with /plugin enable cc-plugin-you-should-know@builtin (for first-party sessions with telemetry on) Added an n:&lt;text&gt; f</summary>
+    <summary>arXiv:2610.00012v1 Announce Type: new Abstract: LLM agents increasingly act through modular systems, such as order, payment, inventory, and shipment services, where actions in one module change which transitions are valid in another. Standard world models usually fit observational traces, but this is not the quantity n</summary>
   </entry>
   <entry>
-    <title>RedBird's Cardinale on Paramount Future &amp; Investing</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-01/redbird-s-cardinale-on-paramount-future-investing-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-01/redbird-s-cardinale-on-paramount-future-investing-video</id>
-    <updated>2026-10-01T23:22:22.000Z</updated>
+    <title>Indonesian Finance Minister: 'We are credible'</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-10-02/indonesian-finance-minister-we-are-credible-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-10-02/indonesian-finance-minister-we-are-credible-video</id>
+    <updated>2026-10-02T04:30:20.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>RedBird Capital Partners Founder &amp; Managing Partner, Gerry Cardinale discusses investment across sports, media and entertainment. Plus, the future of a Paramount Skydance, Warner Bros. Discovery combination with Bloomberg’s Lucas Shaw at Bloomberg Screentime 2026 in Los Angeles. (Source: Bloomberg)</summary>
+    <summary>Indonesia Finance Minister Suahasil Nazara pledged policy continuity and reaffirmed that the country will maintain its 3% GDP budget deficit cap, despite parliamentary debate over raising it. Speaking to Haslinda Amin, Nazara sought to reassure investors as amidst a backdrop of uncertainty over the currency. (Source: B</summary>
   </entry>
   <entry>
-    <title>Getting Oil and Gas Through Hormuz Strait Is Dangerous Job for Ship Captains</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-01/getting-oil-and-gas-through-hormuz-strait-is-dangerous-job-for-ship-captains"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-01/getting-oil-and-gas-through-hormuz-strait-is-dangerous-job-for-ship-captains</id>
-    <updated>2026-10-01T23:01:01.000Z</updated>
+    <title>France’s Crisis Is Deepening as Investors Head for the Exit</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-02/france-s-crisis-is-deepening-as-investors-head-for-the-exit"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-02/france-s-crisis-is-deepening-as-investors-head-for-the-exit</id>
+    <updated>2026-10-02T04:15:02.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>A tanker captain’s first-hand account shows why flows from the Middle East are rising, despite the dangers of Iranian drones and missiles.</summary>
+    <summary>Worries are mounting and bonds, stocks and the euro are taking the hit.</summary>
   </entry>
 </feed>
