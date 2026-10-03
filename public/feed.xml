@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-03T00:15:23.715Z</updated>
+  <updated>2026-10-03T05:37:27.721Z</updated>
   <entry>
     <title>Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass</title>
     <link href="https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars"/>
@@ -79,31 +79,40 @@
     <summary>Clef decision models Ollama now supports Clef and Clef Flash , Cloudflare's new open-source decision models, through /v1/systemone . Clef (27B) and Clef Flash (9B) are multimodal: requests can now include images alongside the text state, shared by all questions and scored jointly with it. curl http://localhost:11434/v1</summary>
   </entry>
   <entry>
+    <title>Onsemi revises its Synaptics acquisition to a ~$5.7B all-cash offer, down from the ~$7B all-stock deal announced in June, after Synaptics received another bid (Elias Schisgall/Wall Street Journal)</title>
+    <link href="https://www.techmeme.com/261003/p1"/>
+    <id>https://www.techmeme.com/261003/p1</id>
+    <updated>2026-10-03T04:45:05.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Elias Schisgall / Wall Street Journal : Onsemi revises its Synaptics acquisition to a ~$5.7B all-cash offer, down from the ~$7B all-stock deal announced in June, after Synaptics received another bid — ON Semiconductor says it will pay $123 a share for Synaptics, giving the deal a value of around $5.7 billion</summary>
+  </entry>
+  <entry>
+    <title>llama.cpp b11368 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11368"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11368</id>
+    <updated>2026-10-03T02:38:39.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>spec : add probabilistic sampling for simple draft and MTP ( #27694 ) Make the drafter probabilistic and the target verify by rejection sampling Drop stale spec_draft_q before drafting Fallback to argmax sampling for grammar-constrained requests and adding flag for enabling probabilistic draft sampling. Default flag va</summary>
+  </entry>
+  <entry>
+    <title>Reco, whose tech helps enterprises secure and govern AI agents across SaaS environments, raised a $55M Series B extension, taking its total funding to $140M (Ram Iyer/TechCrunch)</title>
+    <link href="https://www.techmeme.com/261003/p2"/>
+    <id>https://www.techmeme.com/261003/p2</id>
+    <updated>2026-10-03T05:11:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Ram Iyer / TechCrunch : Reco, whose tech helps enterprises secure and govern AI agents across SaaS environments, raised a $55M Series B extension, taking its total funding to $140M — Terms like “AI sprawl” have become common fare on tech social media and in thought leadership as enterprises start deploying AI agents en</summary>
+  </entry>
+  <entry>
     <title>Lambda Secures $1 Billion GPU Loan</title>
     <link href="https://www.theinformation.com/briefings/lambda-secures-1-billion-gpu-loan"/>
     <id>https://www.theinformation.com/briefings/lambda-secures-1-billion-gpu-loan</id>
     <updated>2026-10-02T17:17:07.000Z</updated>
     <author><name>The Information</name></author>
-    <category term="INDUSTRY NEWS"/>
+    <category term="HARDWARE"/>
     <summary>AI cloud company Lambda said it has secured its first delayed draw term loan at over $1 billion to purchase more than 30,000 Nvidia graphics processing units. The fixed-rate facility carries an interest rate of 6.78%. Privately held Lambda said in an announcement late on Thursday the facility ...</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp b11361 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11361"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11361</id>
-    <updated>2026-10-02T23:57:22.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>llama, server: add /v1/systemone API (models: laya, julia-1, lev, openjev, kev) ( #29818 ) init conversion convert: ok model loaded add server code improve conversion script support shared prompt prefix add docs, imorove UX a bit add vision support add openjev tiny model for testing add dev docs support lev &amp; kev clean</summary>
-  </entry>
-  <entry>
-    <title>Cloudflare says its new Clef model means humans no longer need to be in the loop for AI agents</title>
-    <link href="https://the-decoder.com/cloudflare-says-its-new-clef-model-means-humans-no-longer-need-to-be-in-the-loop-for-ai-agents"/>
-    <id>https://the-decoder.com/cloudflare-says-its-new-clef-model-means-humans-no-longer-need-to-be-in-the-loop-for-ai-agents</id>
-    <updated>2026-10-02T18:19:51.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>With Clef and Clef-flash, Cloudflare is challenging TypeSafe AI's Jev decision model. Clef-flash delivers classifications in about 39 milliseconds, making it more than ten times faster than Jev. Both models are built on Qwen, licensed under Apache 2.0, and designed to let AI agents make structured decisions without gen</summary>
   </entry>
   <entry>
     <title>Wall Street Week | Your Brain on AI, Rare Earth Race, College Enrollment Cliff</title>
@@ -111,7 +120,7 @@
     <id>https://www.bloomberg.com/news/videos/2026-10-02/wall-street-week-rare-earth-race-enrollment-cliff-video</id>
     <updated>2026-10-02T23:12:45.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
+    <category term="SAFETY &amp; POLICY"/>
     <summary>This week, National Economic Council Director Kevin Hassett says AI’s productivity boost may be much larger than official economic data currently indicate. And, AI companies are largely in agreement that the technology needs guardrails, but the ethical implications of AI could also create new opportunities for liberal </summary>
   </entry>
   <entry>
@@ -142,15 +151,6 @@
     <summary>A critical flaw in GitLab's AI Gateway could let a logged-in user with Duo Agent Platform access run commands on the gateway under certain conditions, GitLab said in an advisory. The gateway is the service that connects a GitLab instance to AI models, and only organizations that host their own gateway need to act. The </summary>
   </entry>
   <entry>
-    <title>The Week’s 10 Biggest Funding Rounds: Almost All About AI</title>
-    <link href="https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct"/>
-    <id>https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct</id>
-    <updated>2026-10-02T18:24:26.000Z</updated>
-    <author><name>Crunchbase News AI</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>This week’s list of the largest U.S. startup funding rounds was pretty much all about AI. That includes the biggest financing — a $1 billion round for Instinct, a developer of AI assistants for everyday tasks — as well as most of the rest of the Top 10.</summary>
-  </entry>
-  <entry>
     <title>Anthropic’s IPO and Our Collective Leap Of Faith</title>
     <link href="https://www.bigtechnology.com/p/anthropics-ipo-and-our-collective"/>
     <id>https://www.bigtechnology.com/p/anthropics-ipo-and-our-collective</id>
@@ -160,13 +160,13 @@
     <summary>The markets rest on the AI story fulfilling its potential. This week, we saw how tenuous that could be.</summary>
   </entry>
   <entry>
-    <title>Inside Omron’s next-generation LD mobile robots</title>
-    <link href="https://www.therobotreport.com/inside-omrons-next-generation-ld-mobile-robots"/>
-    <id>https://www.therobotreport.com/inside-omrons-next-generation-ld-mobile-robots</id>
-    <updated>2026-10-02T23:01:36.000Z</updated>
+    <title>Runway introduces Praxis-1 world action model for robotics</title>
+    <link href="https://www.therobotreport.com/runway-introduces-praxis-1-world-action-model-robotics"/>
+    <id>https://www.therobotreport.com/runway-introduces-praxis-1-world-action-model-robotics</id>
+    <updated>2026-10-02T18:32:13.000Z</updated>
     <author><name>The Robot Report</name></author>
     <category term="ROBOTICS"/>
-    <summary>In mobile robotics, software, safety, and fleet management are becoming just as important as the robot itself, according to an OMROM project manager. The post Inside Omron’s next-generation LD mobile robots appeared first on The Robot Report .</summary>
+    <summary>When Runway does release Praxis-1 publicly, it plans to ship it with open weights rather than as a closed model. The post Runway introduces Praxis-1 world action model for robotics appeared first on The Robot Report .</summary>
   </entry>
   <entry>
     <title>US Department of Energy Releases National Quantum Roadmap Establishing 2028 Fault-Tolerance Milestones</title>
@@ -196,84 +196,84 @@
     <summary>According to a Mercor study, current AI models now outperform licensed CPAs on structured accounting tasks in both speed and accuracy. Eighteen months ago, they still lagged far behind. On the more demanding APEX Benchmark, though, no model fully completes all the tasks. Without human oversight, AI still can't close th</summary>
   </entry>
   <entry>
-    <title>Nvidia announces a version of DGX Spark with 64 GB of unified memory for $4,999, or $1,000 more than the 128 GB version at launch (Michael Kan/PCMag)</title>
-    <link href="https://www.techmeme.com/261002/p26"/>
-    <id>https://www.techmeme.com/261002/p26</id>
-    <updated>2026-10-02T23:00:38.000Z</updated>
+    <title>Supabase raised $150M led by Singapore's GIC and agrees to acquire Turso, which offers a database optimized for AI agents, for an undisclosed sum (Maria Deutscher/SiliconANGLE)</title>
+    <link href="https://www.techmeme.com/261002/p30"/>
+    <id>https://www.techmeme.com/261002/p30</id>
+    <updated>2026-10-03T00:50:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Michael Kan / PCMag : Nvidia announces a version of DGX Spark with 64 GB of unified memory for $4,999, or $1,000 more than the 128 GB version at launch — The ongoing memory shortage has prompted Nvidia to create a 64GB version of its DGX Spark mini PC, which runs AI models locally. The only problem?</summary>
+    <summary>Maria Deutscher / SiliconANGLE : Supabase raised $150M led by Singapore's GIC and agrees to acquire Turso, which offers a database optimized for AI agents, for an undisclosed sum — Supabase Inc., a startup that commercializes the open-source PostgreSQL database, has raised $150 million in funding. — Singapore's GIC sov</summary>
   </entry>
   <entry>
-    <title>Meta announces Muse Gadgets, providing an open source ESP32 microchip firmware and a Linux SDK to let users bring Muse to their hardware, like Raspberry Pi 5 (Karissa Bell/Engadget)</title>
-    <link href="https://www.techmeme.com/261002/p24"/>
-    <id>https://www.techmeme.com/261002/p24</id>
-    <updated>2026-10-02T20:50:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Karissa Bell / Engadget : Meta announces Muse Gadgets, providing an open source ESP32 microchip firmware and a Linux SDK to let users bring Muse to their hardware, like Raspberry Pi 5 — The company created its own smart home device, the Muse Home Link — We still don't know too much about Meta's tamagotchi-like AI devic</summary>
-  </entry>
-  <entry>
-    <title>So... Should we turn the page on this past week hype? or Do you have any success cases to inspire the rest?</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1ww86ny/so_should_we_turn_the_page_on_this_past_week_hype"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1ww86ny/so_should_we_turn_the_page_on_this_past_week_hype</id>
-    <updated>2026-10-02T23:18:18.000Z</updated>
+    <title>Has anyone noticed this trend toward writing/speaking style among newer models (both open and closed models). They are trending toward information density and expanded vocabulary. It's not quite 'caveman speak' but trending that way.</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wwdsce/has_anyone_noticed_this_trend_toward"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wwdsce/has_anyone_noticed_this_trend_toward</id>
+    <updated>2026-10-03T04:10:31.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by /u/JLeonsarmiento [link] [comments]</summary>
+    <summary>I've noticed a trend with most new models with regards to their writing style. They are creating a new style, and this seems common among them. It's very information-dense. Here is an example from GLM 5.3 Flash. I'm gonna be honest here and say that my prompt was kinda silly; my prompt was 'Why wouldn't you just name y</summary>
   </entry>
   <entry>
-    <title>microsoft/FrogNano-4B-2609 · Hugging Face</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1ww40o2/microsoftfrognano4b2609_hugging_face"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1ww40o2/microsoftfrognano4b2609_hugging_face</id>
-    <updated>2026-10-02T20:16:26.000Z</updated>
+    <title>Anyone sitting on a lot of slow system memory and a modest GPU.. try Strata + Qwen3.8 Next.</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wwcqas/anyone_sitting_on_a_lot_of_slow_system_memory_and"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wwcqas/anyone_sitting_on_a_lot_of_slow_system_memory_and</id>
+    <updated>2026-10-03T03:12:29.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>An agentic model from Microsoft for the GPU poor https://huggingface.co/bartowski/FrogNano-4B-2609-GGUF FrogNano is derived from Qwen/Qwen3.5-4B, a general-purpose post-trained model designed for language, reasoning, coding, agentic, and multimodal tasks. FrogNano inherits Qwen3.5-4B's dense 32-layer hybrid Gated Delta</summary>
+    <summary>IQ3_XXS weights are just under 80GB and my slowww DDR4+7900XTX is stabilizing around 45-70/s (sometimes higher while coding depending on mtp). Looking online I'm seeing similar results for users with 12GB and 16GB cards, and significantly faster numbers for owners of DDR5. (In comparison, Llama CPP with tuning was maxi</summary>
   </entry>
   <entry>
-    <title>Meta open sources code to let you make Muse AI gadgets</title>
-    <link href="https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link"/>
-    <id>https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link</id>
-    <updated>2026-10-02T21:08:37.000Z</updated>
-    <author><name>The Verge AI</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced. The company suggests projects like loading Muse on a color E Ink display to show reminders, adding it to an HDMI stick so you can display Muse on a big screen, or […]</summary>
-  </entry>
-  <entry>
-    <title>Microsoft AI releases new transcription and text-to-speech models for voice agents</title>
-    <link href="https://the-decoder.com/microsoft-ai-releases-new-transcription-and-text-to-speech-models-for-voice-agents"/>
-    <id>https://the-decoder.com/microsoft-ai-releases-new-transcription-and-text-to-speech-models-for-voice-agents</id>
-    <updated>2026-10-02T09:20:39.000Z</updated>
+    <title>Cloudflare says its new Clef model means humans no longer need to be in the loop for AI agents</title>
+    <link href="https://the-decoder.com/cloudflare-says-its-new-clef-model-means-humans-no-longer-need-to-be-in-the-loop-for-ai-agents"/>
+    <id>https://the-decoder.com/cloudflare-says-its-new-clef-model-means-humans-no-longer-need-to-be-in-the-loop-for-ai-agents</id>
+    <updated>2026-10-02T18:19:51.000Z</updated>
     <author><name>The Decoder</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Microsoft AI has released MAI-Transcribe-2-Streaming, a new model for real-time transcription. The article Microsoft AI releases new transcription and text-to-speech models for voice agents appeared first on The Decoder .</summary>
+    <summary>With Clef and Clef-flash, Cloudflare is challenging TypeSafe AI's Jev decision model. Clef-flash delivers classifications in about 39 milliseconds, making it more than ten times faster than Jev. Both models are built on Qwen, licensed under Apache 2.0, and designed to let AI agents make structured decisions without gen</summary>
   </entry>
   <entry>
-    <title>Former CEA Chair on Jobs Report, GDP Growth</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-02/former-cea-chair-on-jobs-report-gdp-growth-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-02/former-cea-chair-on-jobs-report-gdp-growth-video</id>
-    <updated>2026-10-02T22:17:57.000Z</updated>
+    <title>The coming futures market in AI compute</title>
+    <link href="https://www.ft.com/content/a1815bc5-b5d5-47ff-bbbc-e1a689929321"/>
+    <id>https://www.ft.com/content/a1815bc5-b5d5-47ff-bbbc-e1a689929321</id>
+    <updated>2026-10-03T04:00:39.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="AI FINANCE"/>
+    <summary>CME Group plans to introduce a new commodity to its roster that will allow the hedging of fluctuations in the price of chip rental</summary>
+  </entry>
+  <entry>
+    <title>IMF Approves Bolivia Loan Deal to Support Paz’s Economic Reforms</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-03/imf-approves-bolivia-loan-deal-to-support-paz-s-economic-reforms"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-03/imf-approves-bolivia-loan-deal-to-support-paz-s-economic-reforms</id>
+    <updated>2026-10-03T00:55:49.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Former CEA Chair Cecilia Rouse believes that we may be 'entering a new normal' of the jobs report, with the break even potentially settling in around 50,000. She speaks with Romaine Bostick on Bloomberg's &quot;The Close.&quot; (Source: Bloomberg)</summary>
+    <summary>The International Monetary Fund approved a $1.9 billion financing program for Bolivia, including an immediate $214 million disbursement, in a package designed to help President Rodrigo Paz reverse a sharp economic slump.</summary>
   </entry>
   <entry>
-    <title>Morgan Stanley's Nike Analyst on quarterly earnings</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-02/morgan-stanley-s-nike-analyst-on-quarterly-earnings-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-02/morgan-stanley-s-nike-analyst-on-quarterly-earnings-video</id>
-    <updated>2026-10-02T21:55:08.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Morgan Stanley's Alex Straton sees Nike sales and earnings softening as the company deals with inventory gluts in North America and China. She speaks with Romaine Bostick on Bloomberg's &quot;The Close.&quot; (Source: Bloomberg)</summary>
-  </entry>
-  <entry>
-    <title>The First Token Is Not the Verdict: Hidden Costs of Reading LLM Judges Without Generating</title>
-    <link href="https://arxiv.org/abs/2610.00054"/>
-    <id>https://arxiv.org/abs/2610.00054</id>
-    <updated>2026-10-02T04:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
+    <title>Computational tools for society’s most complex challenges</title>
+    <link href="https://news.mit.edu/2026/computational-tools-for-societys-most-complex-challenges-cathy-wu-1002"/>
+    <id>https://news.mit.edu/2026/computational-tools-for-societys-most-complex-challenges-cathy-wu-1002</id>
+    <updated>2026-10-02T19:30:00.000Z</updated>
+    <author><name>MIT News AI</name></author>
     <category term="RESEARCH"/>
-    <summary>arXiv:2610.00054v1 Announce Type: new Abstract: Reading an LLM judge's verdict from the logits of its first generated token is cheap, requires no generation, and is exactly what constrained decoding and likelihood-scoring evaluation harnesses produce. We show that this readout distorts position bias in one direction: i</summary>
+    <summary>Associate Professor Cathy Wu uses reinforcement learning to help map out improvements to transportation and other multifaceted systems.</summary>
+  </entry>
+  <entry>
+    <title>rc5: [Misc] Add Transformers version upper bound in requirements (#59614)</title>
+    <link href="https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc5"/>
+    <id>https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc5</id>
+    <updated>2026-10-02T22:18:12.000Z</updated>
+    <author><name>vllm-project/vllm</name></author>
+    <category term="RESEARCH"/>
+    <summary>Signed-off-by: Isotr0py Isotr0py@outlook.com Co-authored-by: Harry Mellor 19981378+hmellor@users.noreply.github.com (cherry picked from commit 58b3298 )</summary>
+  </entry>
+  <entry>
+    <title>Copilot code review: API support and new default effort level</title>
+    <link href="https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level"/>
+    <id>https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level</id>
+    <updated>2026-10-02T19:13:50.000Z</updated>
+    <author><name>GitHub Copilot Changelog</name></author>
+    <category term="PRODUCTS"/>
+    <summary>You can now request a GitHub Copilot code review through the REST and GraphQL APIs and set the review effort level for each request. Balanced is also now the default… The post Copilot code review: API support and new default effort level appeared first on The GitHub Blog .</summary>
   </entry>
 </feed>
