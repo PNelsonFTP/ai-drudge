@@ -2,10 +2,12 @@ name: Refresh and deploy
 
 on:
   schedule:
-    # GitHub often delays or drops a single hourly cron, which left the
-    # homepage 4–7 hours stale. Two slots per hour; a skipped one still
-    # leaves a run in the same hour.
-    - cron: "5,35 * * * *"
+    # Backup only. GitHub delays these and drops a run that misses the next
+    # slot, so this does not guarantee an hourly homepage. The Mac launch
+    # agent (scripts/kick-refresh.sh) starts this same workflow on a real clock.
+    # :17 every hour, plus :47 during roughly 6am–10pm US Central (daylight time).
+    - cron: "17 * * * *"
+    - cron: "47 11-23,0-3 * * *"
   workflow_dispatch: {}
   push:
     branches: [main]
