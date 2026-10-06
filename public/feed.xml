@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-06T21:19:28.302Z</updated>
+  <updated>2026-10-06T21:54:39.652Z</updated>
   <entry>
     <title>Introducing Mistral Large 4: Le chonk</title>
     <link href="https://simonwillison.net/2026/Oct/6/le-chonk"/>
@@ -25,13 +25,13 @@
     <summary>Nvidia-backed Lambda is raising up to $4 billion at a $14.5 billion pre-money valuation ahead of a planned 2027 IPO, led by Coatue and Blackstone. — Also covered by: WSJ Tech</summary>
   </entry>
   <entry>
-    <title>llama.cpp b11456 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11456"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11456</id>
-    <updated>2026-10-06T21:09:53.000Z</updated>
+    <title>llama.cpp b11457 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11457"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11457</id>
+    <updated>2026-10-06T21:25:59.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>ggml-cuda: use per-thread stream for buffer-init padding memset ( #28782 ) ggml-cuda: use per-thread stream for buffer-init padding memset ci : re-enable test-backend-ops -j for ROCm Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/53340384 macOS/iOS: macOS Apple Silicon (arm6 — Also covered by: ggml-org/whisper.cpp</summary>
+    <summary>cuda : add BF16 support for XIELU ( #29955 ) The XIELU CUDA kernel template is already generic over the element type; only the F32/F16 type assertion and the else-if dispatch were missing. Add the nv_bfloat16 branch to the launcher, and drop the temporary supports_op gate in ggml-cuda.cu that rejected BF16+XIELU. test- — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
     <title>EmbeddingGemma 2: an open, lightweight multimodal embedding model</title>
@@ -61,15 +61,6 @@
     <summary>The AI lab's personal assistant is an operating system from the future designed to compete with Muse, Dots, and Instinct.</summary>
   </entry>
   <entry>
-    <title>Mirror Particle is building a ‘world model’ of human behavior</title>
-    <link href="https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior"/>
-    <id>https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior</id>
-    <updated>2026-10-06T16:35:00.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Mirror Particle will launch at TechCrunch Disrupt's Startup Battlefield 200 with a world model built from scratch to predict human behavior, arguing that LLM role-play falls short for market research and brand strategy.</summary>
-  </entry>
-  <entry>
     <title>Advancing computer use with Ironclad</title>
     <link href="https://openai.com/index/advancing-computer-use-with-ironclad"/>
     <id>https://openai.com/index/advancing-computer-use-with-ironclad</id>
@@ -86,15 +77,6 @@
     <author><name>The Quantum Insider</name></author>
     <category term="QUANTUM"/>
     <summary>Insider Brief PRESS RELEASE — Zapata Quantum (OTCQB: ZPTA) (“Zapata” or the “Company”) today announced it has joined the IBM Quantum Network with plans to use IBM’s world-class quantum computers with Zapata’s deep expertise in use-case discovery and application development. The Company’s effort aims to help close the q — Also covered by: Quantum Computing Report</summary>
-  </entry>
-  <entry>
-    <title>SEALSQ Leads $10 Million PIPE Investment in WISeSat to Accelerate Post-Quantum Space Cybersecurity Infrastructure</title>
-    <link href="https://quantumcomputingreport.com/sealsq-leads-10-million-pipe-investment-in-wisesat-to-accelerate-post-quantum-space-cybersecurity-infrastructure"/>
-    <id>https://quantumcomputingreport.com/sealsq-leads-10-million-pipe-investment-in-wisesat-to-accelerate-post-quantum-space-cybersecurity-infrastructure</id>
-    <updated>2026-10-06T21:18:18.000Z</updated>
-    <author><name>Quantum Computing Report</name></author>
-    <category term="AI FINANCE"/>
-    <summary>SEALSQ has invested $10 million in WISeSat.Space through a PIPE financing, acquiring shares at $10.79 each. This investment, completed on October 1, 2026, aims to accelerate the deployment of WISeSat.Space’s LEO satellite constellation and integrate SEALSQ’s post-quantum cybersecurity infrastructure. Both companies ope — Also covered by: The Quantum Insider</summary>
   </entry>
   <entry>
     <title>Infleqtion, Honeywell Aerospace, and UC Santa Barbara Develop Chip-Scale Silicon Nitride Optical Cavity for Handheld Quantum Hardware</title>
@@ -124,22 +106,22 @@
     <summary>What's Changed Models run on MLX on Apple Silicon by default In this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX. ollama pull qwen3.8 ollama run qwen3.8 Additional models include gemma4 , qwen3.6 and qwen3.5 Decision models are now available on MLX a</summary>
   </entry>
   <entry>
-    <title>Mistral launches a preview of Mistral Large 4, or Le Chonk, a 1T model it claims tops any open model developed in the US or Europe; weights are due October 27 (Carl Franzen/VentureBeat)</title>
-    <link href="https://www.techmeme.com/261006/p34"/>
-    <id>https://www.techmeme.com/261006/p34</id>
-    <updated>2026-10-06T19:45:01.000Z</updated>
+    <title>Sources: Singapore-based data center operator DayOne seeks to raise up to $5B in a US IPO and plans to list its American depositary shares by the end of 2026 (Wall Street Journal)</title>
+    <link href="https://www.techmeme.com/261006/p40"/>
+    <id>https://www.techmeme.com/261006/p40</id>
+    <updated>2026-10-06T21:40:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Carl Franzen / VentureBeat : Mistral launches a preview of Mistral Large 4, or Le Chonk, a 1T model it claims tops any open model developed in the US or Europe; weights are due October 27 — Mistral is launching a public preview of Mistral Large 4, a one-trillion-parameter multimodal model code-named “Le Chonk” …</summary>
+    <summary>Wall Street Journal : Sources: Singapore-based data center operator DayOne seeks to raise up to $5B in a US IPO and plans to list its American depositary shares by the end of 2026 — The data-center operator is also backed by Coatue Management, Hillhouse and Citadel — A SoftBank-backed data-center company …</summary>
   </entry>
   <entry>
-    <title>Wikimedia confirms OpenAI's rogue AI agents edited wikis, tried to compromise tools, and hammered its infrastructure</title>
-    <link href="https://the-decoder.com/wikimedia-confirms-openais-rogue-ai-agents-edited-wikis-tried-to-compromise-tools-and-hammered-its-infrastructure"/>
-    <id>https://the-decoder.com/wikimedia-confirms-openais-rogue-ai-agents-edited-wikis-tried-to-compromise-tools-and-hammered-its-infrastructure</id>
-    <updated>2026-10-06T18:29:35.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>claude-code v2.1.292 released</title>
+    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.292"/>
+    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.292</id>
+    <updated>2026-10-06T18:59:30.000Z</updated>
+    <author><name>anthropics/claude-code</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>According to the Wikimedia Foundation, rogue OpenAI agents edited wikis without permission, tried to abuse a citation tool as a proxy, and may have caused a partial Wikidata Query Service outage through massive crawling. Wikimedia says AI companies need to take responsibility for their agents instead of pushing the bur</summary>
+    <summary>What's changed Added --marketplace &lt;source&gt; to claude plugin install : adds the marketplace if needed, under the same policy checks as claude plugin marketplace add , then installs the plugin from it Added an effort parameter to the Agent tool, so Claude runs a sub-agent at the effort level you ask for Added CLAUDE_COD</summary>
   </entry>
   <entry>
     <title>Billionaire C&amp;A Family Taps CFO to Lead 185-Year-Old Empire</title>
@@ -196,24 +178,6 @@
     <summary>On the first day of the Pwn2Own Ireland 2026 competition, security researchers hacked the Samsung Galaxy S26 twice and earned $388,500 after exploiting 32 zero-days. [...]</summary>
   </entry>
   <entry>
-    <title>b11457: cuda : add BF16 support for XIELU (#29955)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11457"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11457</id>
-    <updated>2026-10-06T20:36:21.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>The XIELU CUDA kernel template is already generic over the element type; only the F32/F16 type assertion and the else-if dispatch were missing. Add the nv_bfloat16 branch to the launcher, and drop the temporary supports_op gate in ggml-cuda.cu that rejected BF16+XIELU. test-backend-ops gains two BF16 cases ([10,5,4,3] </summary>
-  </entry>
-  <entry>
-    <title>Silicon Valley’s AI wunderkind launches Underdog, the most private Instinct/Muse competitor yet</title>
-    <link href="https://techcrunch.com/2026/10/06/silicon-valleys-ai-wunderkind-launches-underdog-the-most-private-instinct-muse-competitor-yet"/>
-    <id>https://techcrunch.com/2026/10/06/silicon-valleys-ai-wunderkind-launches-underdog-the-most-private-instinct-muse-competitor-yet</id>
-    <updated>2026-10-06T20:47:01.000Z</updated>
-    <author><name>TechCrunch Startups</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>Sigil Wen, backed by a Silicon Valley's who-who, has built an on-device AI assistant that promises to be free, fully private, and capable for everyday tasks.</summary>
-  </entry>
-  <entry>
     <title>Agility's Investor Day: Digit 5 Launches at a $150,000 Bill of Materials, and Its $300M Order Unlocks Skill by Skill</title>
     <link href="https://www.humanoidsdaily.com/news/agility-investor-day-digit-5-launch-costs-and-a-300m-order-that-unlocks-skill-by-skill"/>
     <id>https://www.humanoidsdaily.com/news/agility-investor-day-digit-5-launch-costs-and-a-300m-order-that-unlocks-skill-by-skill</id>
@@ -232,22 +196,49 @@
     <summary>New prototype reduces footprint needed for laser stabilization, paving way for compact, fieldable quantum systems and chip scale manufacturing LOUISVILLE, Colo., Oct. 6, 2026 — Infleqtion, in collaboration with Honeywell Aerospace and Distinguished Professor Daniel J. Blumenthal of UC Santa Barbara (UCSB), has announce</summary>
   </entry>
   <entry>
-    <title>The next hurdle for AI agents: getting websites to let them in</title>
-    <link href="https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in"/>
-    <id>https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in</id>
-    <updated>2026-10-06T19:56:50.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Personal AI agents promise to shop, book flights, and make reservations for you. But deliberate blocks and anti-bot defenses are getting in the way, leaving consumers caught in the middle. A new standard aims to help.</summary>
+    <title>Capitolis, which develops tech for banks and financial institutions, raised $220M, including a $120M Series E at a $1.9B valuation, up from $1.6B in March 2022 (Meir Orbach/CTech)</title>
+    <link href="https://www.techmeme.com/261006/p37"/>
+    <id>https://www.techmeme.com/261006/p37</id>
+    <updated>2026-10-06T20:25:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Meir Orbach / CTech : Capitolis, which develops tech for banks and financial institutions, raised $220M, including a $120M Series E at a $1.9B valuation, up from $1.6B in March 2022 — Citi, Bank of America, Nomura, Tradeweb, J.P. Morgan, UBS and other major financial institutions are backing the fintech …</summary>
   </entry>
   <entry>
-    <title>claude-code v2.1.292 released</title>
-    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.292"/>
-    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.292</id>
-    <updated>2026-10-06T18:59:30.000Z</updated>
-    <author><name>anthropics/claude-code</name></author>
+    <title>model: add multimodal embeddings (#18820)</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.0-rc6"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.0-rc6</id>
+    <updated>2026-10-06T15:08:38.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Implements the EmbeddingGemma2Model architecture on the MLX runner: 24-layer bidirectional text encoder with PLE, shared gemma4 vision/audio towers, mean-pool + L2 output. /api/embed accepts per-item media via input dicts.</summary>
+  </entry>
+  <entry>
+    <title>Wikimedia confirms OpenAI's rogue AI agents edited wikis, tried to compromise tools, and hammered its infrastructure</title>
+    <link href="https://the-decoder.com/wikimedia-confirms-openais-rogue-ai-agents-edited-wikis-tried-to-compromise-tools-and-hammered-its-infrastructure"/>
+    <id>https://the-decoder.com/wikimedia-confirms-openais-rogue-ai-agents-edited-wikis-tried-to-compromise-tools-and-hammered-its-infrastructure</id>
+    <updated>2026-10-06T18:29:35.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>What's changed Added --marketplace &lt;source&gt; to claude plugin install : adds the marketplace if needed, under the same policy checks as claude plugin marketplace add , then installs the plugin from it Added an effort parameter to the Agent tool, so Claude runs a sub-agent at the effort level you ask for Added CLAUDE_COD</summary>
+    <summary>According to the Wikimedia Foundation, rogue OpenAI agents edited wikis without permission, tried to abuse a citation tool as a proxy, and may have caused a partial Wikidata Query Service outage through massive crawling. Wikimedia says AI companies need to take responsibility for their agents instead of pushing the bur</summary>
+  </entry>
+  <entry>
+    <title>backup/allozaur-ui-shell-polish: ui : polish the shell</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/backup%2Fallozaur-ui-shell-polish"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/backup%2Fallozaur-ui-shell-polish</id>
+    <updated>2026-10-06T07:07:16.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>The secondary button gets its own look back and the chat add button its own light surface. Pressable elements get a pointer cursor again, the font rendering smooths on the app shell, the root layout resolves its props probe through the providers' api url, and the agent skills stay out of prettier's way. Assisted-by: pi</summary>
+  </entry>
+  <entry>
+    <title>JetBlue Wins FAA Approval to Take on Spirit’s Slots at LaGuardia</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-06/jetblue-wins-faa-approval-to-take-on-spirit-s-slots-at-laguardia"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-06/jetblue-wins-faa-approval-to-take-on-spirit-s-slots-at-laguardia</id>
+    <updated>2026-10-06T21:18:59.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>JetBlue Airways Corp. won approval from the US Federal Aviation Administration to take over Spirit Airlines’ takeoff and landing slots at New York’s LaGuardia Airport.</summary>
   </entry>
   <entry>
     <title>Crescimento da fortuna de André Esteves</title>
@@ -259,21 +250,30 @@
     <summary>Matheus Piovesana conta sobre o crescimento da fortuna do bilionário André Esteves. Com produção de Mariana Lumy e edição de Raphael Almeida. (Source: Bloomberg)</summary>
   </entry>
   <entry>
-    <title>FTSE Reiterates Indonesia’s Emerging Status Amid Ongoing Reforms</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-06/ftse-reiterates-indonesia-s-emerging-status-amid-ongoing-reforms"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-06/ftse-reiterates-indonesia-s-emerging-status-amid-ongoing-reforms</id>
-    <updated>2026-10-06T20:50:56.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>FTSE Russell has reaffirmed the emerging-market status of Indonesian equities amid measures taken by local authorities to improve transparency.</summary>
+    <title>Using Parseable with Datasette for OpenTelemetry traces</title>
+    <link href="https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry"/>
+    <id>https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry</id>
+    <updated>2026-10-06T19:07:31.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>TIL: Using Parseable with Datasette for OpenTelemetry traces I saw Parseable in a Show HN today - it's a new observability platform with both an open source (AGPL) Rust implementation (a single ~180MB binary), an &quot;Enterprise&quot; version with extra features and a cloud hosted option. Since Datasette 1.0a41 added OpenTeleme</summary>
   </entry>
   <entry>
-    <title>model: add multimodal embeddings (#18820)</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.0-rc6"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.0-rc6</id>
-    <updated>2026-10-06T15:08:38.000Z</updated>
-    <author><name>ollama/ollama</name></author>
-    <category term="HARDWARE"/>
-    <summary>Implements the EmbeddingGemma2Model architecture on the MLX runner: 24-layer bidirectional text encoder with PLE, shared gemma4 vision/audio towers, mean-pool + L2 output. /api/embed accepts per-item media via input dicts.</summary>
+    <title>EmbeddingGemma 2</title>
+    <link href="https://simonwillison.net/2026/Oct/6/hn-49983751"/>
+    <id>https://simonwillison.net/2026/Oct/6/hn-49983751</id>
+    <updated>2026-10-06T20:37:53.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>My comment on EmbeddingGemma 2 — Hacker News. I really appreciate that EmbeddingGemma 2 is under the Apache 2.0 license. For embedding models in particular, I don't think it makes sense to use a closed, proprietary, hosted-only model. Most applications of embedding models involve calculating thousands or even millions </summary>
+  </entry>
+  <entry>
+    <title>AI is going to run out of power</title>
+    <link href="https://www.transformernews.ai/p/ai-will-run-out-of-power"/>
+    <id>https://www.transformernews.ai/p/ai-will-run-out-of-power</id>
+    <updated>2026-10-06T15:02:11.000Z</updated>
+    <author><name>Transformer</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>Without significant investment into energy infrastructure, AI could outpace America's power grid</summary>
   </entry>
 </feed>
