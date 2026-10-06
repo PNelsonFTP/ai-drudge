@@ -5,7 +5,25 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-06T13:09:03.733Z</updated>
+  <updated>2026-10-06T14:08:43.338Z</updated>
+  <entry>
+    <title>Introducing Mistral Large 4</title>
+    <link href="https://mistral.ai/news/mistral-large-4"/>
+    <id>https://mistral.ai/news/mistral-large-4</id>
+    <updated>2026-10-06T12:00:27.000Z</updated>
+    <author><name>Mistral AI</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Also covered by: Lemmy c/localllama, LocalLLaMA Subreddit, LocalLLaMA Subreddit</summary>
+  </entry>
+  <entry>
+    <title>Get all your questions answered at TechCrunch Disrupt 2026: The full breakout session agenda revealed</title>
+    <link href="https://techcrunch.com/2026/10/06/get-all-your-questions-answered-at-techcrunch-disrupt-2026-the-full-breakout-session-agenda-revealed"/>
+    <id>https://techcrunch.com/2026/10/06/get-all-your-questions-answered-at-techcrunch-disrupt-2026-the-full-breakout-session-agenda-revealed</id>
+    <updated>2026-10-06T14:00:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Get all of your scaling and tech questions answered at TechCrunch Disrupt 2026. Here's the full breakout session agenda, happening October 13-15 in San Francisco. Register now to join and save up to $100, and get a second pass at 50% off.</summary>
+  </entry>
   <entry>
     <title>Building advertising for the way people use AI</title>
     <link href="https://openai.com/index/new-chatgpt-ads-format-and-measurement"/>
@@ -25,31 +43,40 @@
     <summary>How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.</summary>
   </entry>
   <entry>
-    <title>Reflection's Beam becomes the most capable open-weight model built outside China</title>
-    <link href="https://the-decoder.com/reflections-beam-becomes-the-most-capable-open-weight-model-built-outside-china"/>
-    <id>https://the-decoder.com/reflections-beam-becomes-the-most-capable-open-weight-model-built-outside-china</id>
-    <updated>2026-10-06T12:11:22.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Reflection has released Beam, its first open-weight model. The mixture-of-experts system activates just 23 billion of its 501 billion parameters per token and aims to match GLM 5.2 on coding and reasoning while using three to four times less compute. The strategy against Chinese open-weight rivals like Deepseek and Qwe</summary>
-  </entry>
-  <entry>
-    <title>Source: Palmer Luckey's Erebor hits $7B+ in deposits since launching in February, including $3B+ over the past quarter with 500+ new customers (Financial Times)</title>
-    <link href="https://www.techmeme.com/261006/p16"/>
-    <id>https://www.techmeme.com/261006/p16</id>
-    <updated>2026-10-06T11:35:01.000Z</updated>
+    <title>Anthropic's IPO prospectus: Dario Amodei earned $18M in 2025, middle of the pack for tech CEOs, and President Daniela Amodei, his sister, earned $16.4M (Reuters)</title>
+    <link href="https://www.techmeme.com/261006/p19"/>
+    <id>https://www.techmeme.com/261006/p19</id>
+    <updated>2026-10-06T12:05:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Financial Times : Source: Palmer Luckey's Erebor hits $7B+ in deposits since launching in February, including $3B+ over the past quarter with 500+ new customers — Palmer Luckey's bank for the technology industry has surged to more than $7bn in deposits since launching in February, as the start-up seeks …</summary>
+    <summary>Reuters : Anthropic's IPO prospectus: Dario Amodei earned $18M in 2025, middle of the pack for tech CEOs, and President Daniela Amodei, his sister, earned $16.4M — Dario Amodei made $18 million last year as CEO of Claude AI developer Anthropic, the company's IPO filing shows, putting him in the middle ranks …</summary>
   </entry>
   <entry>
-    <title>llama.cpp b11440 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11440"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11440</id>
-    <updated>2026-10-06T13:08:39.000Z</updated>
+    <title>llama.cpp b11444 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11444"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11444</id>
+    <updated>2026-10-06T11:53:00.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>llama : re-reserve the sched when the nextn extraction flags change ( #30020 ) The speculative MTP init enables NextN extraction on the target and draft contexts after both were created and their schedulers reserved. With unmasked extraction the trunk graph keeps every token through the last layer instead of cropping t</summary>
+    <summary>HIP: use -O0 for host code in debug builds ( #29795 )</summary>
+  </entry>
+  <entry>
+    <title>Mistral releases Mistral Large 4, dubbed &quot;le Chonk&quot;, a 1T-parameter open-weight model for general agentic capabilities, trained on 4,000 Grace Blackwell GPUs (Sabrina Ortiz/The Deep View)</title>
+    <link href="https://www.techmeme.com/261006/p22"/>
+    <id>https://www.techmeme.com/261006/p22</id>
+    <updated>2026-10-06T13:08:33.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Sabrina Ortiz / The Deep View : Mistral releases Mistral Large 4, dubbed “le Chonk”, a 1T-parameter open-weight model for general agentic capabilities, trained on 4,000 Grace Blackwell GPUs — Most flagship models dominating the market are from frontier labs and are closed models. French AI lab Mistral seeks to change t</summary>
+  </entry>
+  <entry>
+    <title>Wall Street Eyes Record Bonuses With Profit on Pace for $90 Billion</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-10-06/wall-street-eyes-record-bonuses-profit-on-pace-for-90b-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-10-06/wall-street-eyes-record-bonuses-profit-on-pace-for-90b-video</id>
+    <updated>2026-10-06T13:50:50.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>New York’s trading and investment-banking firms are poised to deliver record earnings for the industry with profit on pace to exceed $90 billion and bonuses expected to reach an all-time high. Herman Chan of Bloomberg Intelligence has more. (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>When Evidence Changes: Evaluating Memory Repair and Re-reading in Language-Model Agents</title>
@@ -57,17 +84,8 @@
     <id>https://arxiv.org/abs/2610.03902</id>
     <updated>2026-10-06T04:00:00.000Z</updated>
     <author><name>arXiv cs.CL</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
+    <category term="RESEARCH"/>
     <summary>arXiv:2610.03902v1 Announce Type: new Abstract: When documents supporting an agent's derived facts are revoked or replaced, should it repair memory or re-read current evidence? We introduce an evidence-revision evaluation on medication- and problem-list tasks from public ICU records. Under revocation, replacement and c</summary>
-  </entry>
-  <entry>
-    <title>US Trade Gap Widens to $105.6 Billion as Imports Hit Record</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-06/us-trade-deficit-widens-to-105-6-billion-on-oil-capital-goods"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-06/us-trade-deficit-widens-to-105-6-billion-on-oil-capital-goods</id>
-    <updated>2026-10-06T12:32:45.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>The US trade deficit widened sharply in August to the largest since early 2025 as a surge in inbound shipments of capital goods helped push imports to a record.</summary>
   </entry>
   <entry>
     <title>ollama v0.40.0 released</title>
@@ -79,13 +97,13 @@
     <summary>What's Changed Models run on MLX on Apple Silicon by default In this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX. ollama pull qwen3.8 ollama run qwen3.8 Additional models include gemma4 , qwen3.6 and qwen3.5 Decision models are now available on MLX a</summary>
   </entry>
   <entry>
-    <title>Why Telecom Operators Are Building Their AI Strategy on Open Models</title>
-    <link href="https://blogs.nvidia.com/blog/telecom-operators-open-models"/>
-    <id>https://blogs.nvidia.com/blog/telecom-operators-open-models</id>
-    <updated>2026-10-06T13:00:19.000Z</updated>
-    <author><name>NVIDIA Blog</name></author>
-    <category term="HARDWARE"/>
-    <summary>Telecom operators are increasingly building their AI strategies on open models — and the reasons go beyond mere cost. Open models give telcos the ability to trust, control and customize AI across their most critical workloads — from autonomous networks to customer care. NVIDIA’s latest State of AI in Telecommunications</summary>
+    <title>Reflection's Beam becomes the most capable open-weight model built outside China</title>
+    <link href="https://the-decoder.com/reflections-beam-becomes-the-most-capable-open-weight-model-built-outside-china"/>
+    <id>https://the-decoder.com/reflections-beam-becomes-the-most-capable-open-weight-model-built-outside-china</id>
+    <updated>2026-10-06T12:11:22.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Reflection has released Beam, its first open-weight model. The mixture-of-experts system activates just 23 billion of its 501 billion parameters per token and aims to match GLM 5.2 on coding and reasoning while using three to four times less compute. The strategy against Chinese open-weight rivals like Deepseek and Qwe</summary>
   </entry>
   <entry>
     <title>South Korea bets $3.49 billion on building a homegrown frontier AI model to rival China's best</title>
@@ -133,13 +151,13 @@
     <summary>Deepseek is close to raising at least $12 billion in a new funding round, Bloomberg reports. The article CATL and Tencent back Deepseek's ballooning funding round as the AI startup eyes a 2027 IPO appeared first on The Decoder .</summary>
   </entry>
   <entry>
-    <title>Game Decompilation, Is This Legal?, A Well-Trodden Path</title>
-    <link href="https://stratechery.com/2026/game-decompilation-is-this-legal-a-well-trodden-path"/>
-    <id>https://stratechery.com/2026/game-decompilation-is-this-legal-a-well-trodden-path</id>
-    <updated>2026-10-06T10:07:36.000Z</updated>
-    <author><name>Stratechery</name></author>
+    <title>Thoughts from San Francisco</title>
+    <link href="https://www.bensbites.com/p/thoughts-from-san-francisco"/>
+    <id>https://www.bensbites.com/p/thoughts-from-san-francisco</id>
+    <updated>2026-10-06T13:01:18.000Z</updated>
+    <author><name>Ben's Bites</name></author>
     <category term="ANALYSIS"/>
-    <summary>Games are being decompiled, but the real risk to gaming is new games and increased personalization.</summary>
+    <summary>Agents.md in Google Docs</summary>
   </entry>
   <entry>
     <title>Minerva Emerges From Stealth With $10M for Humanoids Built for Dangerous Work</title>
@@ -160,67 +178,58 @@
     <summary>Insider Brief India’s Startup Policy Forum launched a center to give deep-technology companies, including quantum startups, a sustained role in shaping national policy, according to a news release. The industry alliance said its Centre for DeepTech Innovation, called DeepVerse, will bring together investors, founders, </summary>
   </entry>
   <entry>
-    <title>Anthropic's IPO prospectus: Dario Amodei earned $18M in 2025, middle of the pack for tech CEOs, and President Daniela Amodei, his sister, earned $16.4M (Reuters)</title>
-    <link href="https://www.techmeme.com/261006/p19"/>
-    <id>https://www.techmeme.com/261006/p19</id>
-    <updated>2026-10-06T12:05:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Reuters : Anthropic's IPO prospectus: Dario Amodei earned $18M in 2025, middle of the pack for tech CEOs, and President Daniela Amodei, his sister, earned $16.4M — Dario Amodei made $18 million last year as CEO of Claude AI developer Anthropic, the company's IPO filing shows, putting him in the middle ranks …</summary>
+    <title>b11445: vulkan : check for null vkEnumerateInstanceVersion (#29872)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11445"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11445</id>
+    <updated>2026-10-06T13:28:54.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="GITHUB REPOS"/>
+    <summary>A 1.0 loader (e.g. Android 8.1) has no vkEnumerateInstanceVersion, so backend init called a null pointer. Treat it like any loader under 1.2. Fixes #29871 . Assisted-by: Claude Opus 5.5</summary>
   </entry>
   <entry>
-    <title>Uber agrees to acquire Boston-based catering platform ezCater in an all-cash deal valued at $2.3B to expand Uber Eats into corporate food delivery (Natalie Lung/Bloomberg)</title>
-    <link href="https://www.techmeme.com/261006/p21"/>
-    <id>https://www.techmeme.com/261006/p21</id>
-    <updated>2026-10-06T13:00:57.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Uber to Buy Catering Firm for $2.3 Billion</title>
+    <link href="https://www.theinformation.com/briefings/uber-buy-catering-firm-2-3-billion"/>
+    <id>https://www.theinformation.com/briefings/uber-buy-catering-firm-2-3-billion</id>
+    <updated>2026-10-06T13:23:50.000Z</updated>
+    <author><name>The Information</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Natalie Lung / Bloomberg : Uber agrees to acquire Boston-based catering platform ezCater in an all-cash deal valued at $2.3B to expand Uber Eats into corporate food delivery — Uber Technologies Inc. is buying catering firm ezCater Inc. for $2.3 billion in a cash deal that will help the Uber Eats delivery platform reach</summary>
+    <summary>Uber is to pay $2.3 billion in cash to buy ezCater, a firm that handles catering and meals in workplaces, the ridehailing and food delivery giant said on Tuesday. EzCater’s service offers businesses a way to order from restaurants across the country, including for meetings and events. The ...</summary>
   </entry>
   <entry>
-    <title>Tencent releases Octop, a self-hosted AI assistant</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wyzef4/tencent_releases_octop_a_selfhosted_ai_assistant"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wyzef4/tencent_releases_octop_a_selfhosted_ai_assistant</id>
-    <updated>2026-10-06T10:45:43.000Z</updated>
+    <title>Story time: Qwen3.8-Flash-Next on my Strix Halo laptop vs Claude Opus 5.5 on the same feature</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wyzt1d/story_time_qwen38flashnext_on_my_strix_halo"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wyzt1d/story_time_qwen38flashnext_on_my_strix_halo</id>
+    <updated>2026-10-06T11:08:41.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Octop is an open-source, self-hosted AI assistant. Through its multi-agent architecture, it builds an intelligent environment that is both independent and collaborative for teams, families, and individuals. Best of all, it runs entirely on your machine, the fully self-hosted design means privacy is never a compromise, </summary>
+    <summary>For the last few weeks most of my coding has been done locally with Qwen3.8-Flash-Next, so I gave it and Opus 5.5 the same high complexity feature to build on LlamaStash (a complex and large Rust project) and compared the results. Setup : ASUS ROG Flow Z13 (Strix Halo, 128GB), Flash-Next at xhigh effort with Pi as the </summary>
   </entry>
   <entry>
-    <title>b11443: models : consolidate nextn row cropping into shared helpers (#30017)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11443"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11443</id>
-    <updated>2026-10-06T11:08:54.000Z</updated>
+    <title>backup/allozaur-ui-shell-polish: ui : polish the shell</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/backup%2Fallozaur-ui-shell-polish"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/backup%2Fallozaur-ui-shell-polish</id>
+    <updated>2026-10-06T07:07:16.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>mimo2 : always emit h_nextn the other nextn-capable models set it unconditionally Assisted-by: pi:llama.cpp/MiMo-V2.6-Flash-MOPD models : consolidate nextn row cropping into shared helpers replace the duplicated crop conditions and the per-model flags (narrow_early, crop_before_ffn, crop_last_layer, emit_h_nextn) with </summary>
-  </entry>
-  <entry>
-    <title>QCon London 2027 Announces 15 Tracks on Production AI, Architecture, and Engineering at Scale</title>
-    <link href="https://www.infoq.com/news/2026/10/qconlondon-2027-track"/>
-    <id>https://www.infoq.com/news/2026/10/qconlondon-2027-track</id>
-    <updated>2026-10-06T10:00:00.000Z</updated>
-    <author><name>InfoQ AI/ML</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>A preview of the 15-track QCon London 2027 program, covering agent evaluation and guardrails, AI-era architecture, distributed-system debugging, modern data platforms, high-performance engineering, and Staff+ leadership. By Artenisa Chatziou</summary>
+    <summary>The secondary button gets its own look back and the chat add button its own light surface. Pressable elements get a pointer cursor again, the font rendering smooths on the app shell, the root layout resolves its props probe through the providers' api url, and the agent skills stay out of prettier's way. Assisted-by: pi</summary>
   </entry>
   <entry>
-    <title>Man Group Disputes View That High Inflation Is Bad for US Bonds</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-06/man-group-disputes-view-that-high-inflation-is-bad-for-us-bonds"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-06/man-group-disputes-view-that-high-inflation-is-bad-for-us-bonds</id>
-    <updated>2026-10-06T12:31:11.000Z</updated>
+    <title>US Trade Gap Widens to $105.6 Billion as Imports Hit Record</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-06/us-trade-deficit-widens-to-105-6-billion-on-oil-capital-goods"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-06/us-trade-deficit-widens-to-105-6-billion-on-oil-capital-goods</id>
+    <updated>2026-10-06T12:32:45.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>High inflation alone isn’t bad for US Treasuries — instead, it’s a rapid increase in the pace of price growth that does the most damage, according to a study by Man Group.</summary>
+    <summary>The US trade deficit widened sharply in August to the largest since early 2025 as a surge in inbound shipments of capital goods helped push imports to a record.</summary>
   </entry>
   <entry>
-    <title>Investor Pushes Snap to Raise Capital for Eyeware Business Specs</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-06/investor-pushes-snap-to-raise-capital-for-eyeware-business-specs"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-06/investor-pushes-snap-to-raise-capital-for-eyeware-business-specs</id>
-    <updated>2026-10-06T12:30:39.000Z</updated>
+    <title>Dimon Concerned Inflation May Be Sticky, Rates Go Up</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-10-06/dimon-concerned-inflation-may-be-sticky-rates-go-up-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-10-06/dimon-concerned-inflation-may-be-sticky-rates-go-up-video</id>
+    <updated>2026-10-06T13:34:48.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Hedge fund Blue Duck Capital Partners wants Snap Inc. to raise capital by selling a stake in its nascent Specs unit, putting additional investor pressure on the social media app to deliver on its big investment in augmented reality glasses.</summary>
+    <summary>JPMorgan Chase Chairman and CEO Jamie Dimon says that recent bond selloffs are a warning to governments during an interview with Tom Mackenzie on &quot;Bloomberg Open Interest.&quot; (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>SGAnalog: An End-to-End Circuit Benchmark from Open-Source Silicon Tapeouts</title>
@@ -250,30 +259,21 @@
     <summary>v0.31.0 Highlights This release features 717 commits from 307 contributors (96 new)! DeepSeek-V4.1-Flash performance : FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default ( #56935 ); DeepGEMM sparse MQA logits for the indexer ( #56254 ) and Mega-Gate fusing the gate GEMM with expert</summary>
   </entry>
   <entry>
-    <title>Google Pauses OSS Product Bug Bounty Rewards After Surge in Invalid Automated Reports</title>
-    <link href="https://thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html"/>
-    <id>https://thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html</id>
-    <updated>2026-10-06T09:21:47.000Z</updated>
-    <author><name>The Hacker News</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Google has stopped accepting product vulnerability reports through its bug bounty program for its open-source software. The change, in effect since October 1, means researchers can no longer submit security flaws in the code of projects such as Go, Angular, and Protocol Buffers there for a reward. Reports about supply </summary>
+    <title>Meta’s ads MCP server comes to Databricks: Put your customer intelligence to work in advertising campaigns</title>
+    <link href="https://www.databricks.com/blog/meta-ads-mcp-databricks"/>
+    <id>https://www.databricks.com/blog/meta-ads-mcp-databricks</id>
+    <updated>2026-10-06T12:45:00.000Z</updated>
+    <author><name>Databricks Blog</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Here’s a familiar scenario for enterprise advertisers: the data team has done real...</summary>
   </entry>
   <entry>
-    <title>The Score Is Not the Structure: Brain Alignment and Cross-Lingual Transfer</title>
-    <link href="https://arxiv.org/abs/2610.03827"/>
-    <id>https://arxiv.org/abs/2610.03827</id>
-    <updated>2026-10-06T04:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>arXiv:2610.03827v1 Announce Type: new Abstract: Researchers often support the claim that a model shares structure with the brain, or across languages, by reporting a similarity score. We ask what such a score reads when the shared structure is absent, or when the tool that measures it does not work. We check two settin</summary>
-  </entry>
-  <entry>
-    <title>TJ-DF keeps bank conviction for bank fraud after use of prompt injection</title>
-    <link href="https://jurinews.com.br/en/destaques-em-distrito-federal/tj-df-keeps-bank-conviction-for-bank-fraud-after-use-of-prompt-injection"/>
-    <id>https://jurinews.com.br/en/destaques-em-distrito-federal/tj-df-keeps-bank-conviction-for-bank-fraud-after-use-of-prompt-injection</id>
-    <updated>2026-10-05T20:49:00.000Z</updated>
-    <author><name>GN: Prompt Injection</name></author>
-    <category term="AI SECURITY"/>
-    <summary>TJ-DF keeps bank conviction for bank fraud after use of prompt injection Jurinews</summary>
+    <title>Why Telecom Operators Are Building Their AI Strategy on Open Models</title>
+    <link href="https://blogs.nvidia.com/blog/telecom-operators-open-models"/>
+    <id>https://blogs.nvidia.com/blog/telecom-operators-open-models</id>
+    <updated>2026-10-06T13:00:19.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
+    <category term="HARDWARE"/>
+    <summary>Telecom operators are increasingly building their AI strategies on open models — and the reasons go beyond mere cost. Open models give telcos the ability to trust, control and customize AI across their most critical workloads — from autonomous networks to customer care. NVIDIA’s latest State of AI in Telecommunications</summary>
   </entry>
 </feed>
