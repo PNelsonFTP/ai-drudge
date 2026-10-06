@@ -5,16 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-06T06:53:26.326Z</updated>
-  <entry>
-    <title>[AINews] Reflection Beam - 501B-A23B American Open Model</title>
-    <link href="https://www.latent.space/p/ainews-reflection-beam-501b-a23b"/>
-    <id>https://www.latent.space/p/ainews-reflection-beam-501b-a23b</id>
-    <updated>2026-10-06T06:28:43.000Z</updated>
-    <author><name>Latent Space</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>A small win for US open source — Also covered by: LocalLLaMA Subreddit</summary>
-  </entry>
+  <updated>2026-10-06T07:17:30.554Z</updated>
   <entry>
     <title>Building advertising for the way people use AI</title>
     <link href="https://openai.com/index/new-chatgpt-ads-format-and-measurement"/>
@@ -97,12 +88,21 @@
     <summary>“Bloomberg: The China Show” is your definitive source for news and analysis on the world's second-biggest economy. From politics and policy to tech and trends, Yvonne Man and David Ingles give global investors unique insight, delivering in-depth discussions with the newsmakers who matter. (Source: Bloomberg)</summary>
   </entry>
   <entry>
+    <title>b11436: ggml-openvino: fix CI tests; fix GPU regressions. (#30037)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11436"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11436</id>
+    <updated>2026-10-06T06:57:04.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="HARDWARE"/>
+    <summary>ggml-openvino: skip unselected graph branches and support DUP Upstream #29622 adds a mixed token/embd branch to every input embedding graph through ggml_build_forward_select(). Its nodes are not flagged for compute, but the backend translated them anyway, and the DUP in that branch was unsupported, so the scheduler spl</summary>
+  </entry>
+  <entry>
     <title>SGAnalog: An End-to-End Circuit Benchmark from Open-Source Silicon Tapeouts</title>
     <link href="https://arxiv.org/abs/2610.03934"/>
     <id>https://arxiv.org/abs/2610.03934</id>
     <updated>2026-10-06T04:00:00.000Z</updated>
     <author><name>arXiv cs.AI</name></author>
-    <category term="HARDWARE"/>
+    <category term="OPEN SOURCE"/>
     <summary>arXiv:2610.03934v1 Announce Type: new Abstract: Existing analog integrated circuit design benchmarks make two questions hard to answer: whether a model has learned transferable circuit skills rather than recalled familiar examples, and whether its output works under defined process and test conditions. We introduce a b</summary>
   </entry>
   <entry>
@@ -169,13 +169,13 @@
     <summary>Insider Brief PRESS RELEASE — Journalists, authors, filmmakers, and other creators can now prove that their work is theirs, and that it has not been changed, with a tag built for the post-quantum era and recorded on an immutable, decentralized distributed ledger. The AI Lab (theailab.org) today made the Trust Identity </summary>
   </entry>
   <entry>
-    <title>DeepSeek to Raise at Least $12 Billion in Tencent-Backed Funding</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-06/deepseek-to-raise-at-least-12-billion-in-tencent-backed-funding"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-06/deepseek-to-raise-at-least-12-billion-in-tencent-backed-funding</id>
-    <updated>2026-10-06T05:00:22.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
+    <title>Cohere pitches North 2 as the enterprise AI control room that works with any model</title>
+    <link href="https://the-decoder.com/cohere-pitches-north-2-as-the-enterprise-ai-control-room-that-works-with-any-model"/>
+    <id>https://the-decoder.com/cohere-pitches-north-2-as-the-enterprise-ai-control-room-that-works-with-any-model</id>
+    <updated>2026-10-06T06:58:19.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>DeepSeek is close to securing at least 80 billion yuan ($12 billion) in its latest round of funding, blowing past its own capital-raising target ahead of a landmark initial public offering in early 2027.</summary>
+    <summary>Cohere turned its enterprise platform into a control center for AI agents with North 2, handling multi-step workflows on their own and retaining context across sessions. The article Cohere pitches North 2 as the enterprise AI control room that works with any model appeared first on The Decoder .</summary>
   </entry>
   <entry>
     <title>Analysis: insurers brace for multimillion-dollar claims caused by rogue AI agents, amid concern that execs like Sam Altman and Dario Amodei could be held liable (Lee Harris/Financial Times)</title>
@@ -205,24 +205,6 @@
     <summary>llama: fix k-pool scatter data race on shared sequences ( #29994 ) llama: re-pool each shared k-pool rep once With shared cells every pool is re-pooled, and since the pooled keys are always scattered, the pools a seq_cp shares between sequences wrote the same rep row from several scatter entries, a data race on the CPU</summary>
   </entry>
   <entry>
-    <title>Reflection’s Beam 501B-A23B - open-weight model release this month</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wyvkpp/reflections_beam_501ba23b_openweight_model"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wyvkpp/reflections_beam_501ba23b_openweight_model</id>
-    <updated>2026-10-06T06:35:20.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Tweet : https://x.com/reflection_ai/status/2107186849370247235 Blog Post : https://reflection.ai/blog/introducing-beam submitted by /u/pmttyji [link] [comments]</summary>
-  </entry>
-  <entry>
-    <title>Anthropic says AI agents didn’t breach Australian government websites – video</title>
-    <link href="https://www.theguardian.com/media/video/2026/oct/06/anthropic-ai-australia-parliament-inquiry-government-websites-breach-video"/>
-    <id>https://www.theguardian.com/media/video/2026/oct/06/anthropic-ai-australia-parliament-inquiry-government-websites-breach-video</id>
-    <updated>2026-10-06T04:52:12.000Z</updated>
-    <author><name>The Guardian AI</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>During a joint parliamentary hearing on artificial intelligence, Anthropic’s head of safeguards, Dave Orr, says that investigations of hundreds of millions of transcripts reveal no unauthorised interactions with Australian government systems. However, Orr acknowledges Anthropic has limited visibility into customer usag</summary>
-  </entry>
-  <entry>
     <title>Firmus Stock Overhang Said to Make Some Investors Wary on IPO</title>
     <link href="https://www.bloomberg.com/news/articles/2026-10-06/firmus-stock-overhang-said-to-make-some-investors-wary-on-ipo"/>
     <id>https://www.bloomberg.com/news/articles/2026-10-06/firmus-stock-overhang-said-to-make-some-investors-wary-on-ipo</id>
@@ -230,6 +212,15 @@
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
     <summary>Some potential investors are turning more cautious on the blockbuster initial public offering of data center firm Firmus Grid Ltd. as they worry about existing shareholders potentially flooding the market soon after the company’s debut, according to people familiar with the matter.</summary>
+  </entry>
+  <entry>
+    <title>DeepSeek to Raise at Least $12 Billion in Tencent-Backed Funding</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-06/deepseek-to-raise-at-least-12-billion-in-tencent-backed-funding"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-06/deepseek-to-raise-at-least-12-billion-in-tencent-backed-funding</id>
+    <updated>2026-10-06T05:00:22.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>DeepSeek is close to securing at least 80 billion yuan ($12 billion) in its latest round of funding, blowing past its own capital-raising target ahead of a landmark initial public offering in early 2027.</summary>
   </entry>
   <entry>
     <title>Same Output, Different Gold: Measuring How Reference Choice Moves a Multilingual Benchmark Score</title>
@@ -268,12 +259,21 @@
     <summary>Reflection AI, a 2-year old Nvidia-backed startup, announced its first open-weight model, adding to a collection of U.S. competitors aiming to catch up to the performance of similarly free models from China. In its announcement Monday, Reflection said it is still evaluating and testing the ...</summary>
   </entry>
   <entry>
-    <title>Aleph Alpha releases Kolibri, an open-weight model that makes the case for European AI sovereignty</title>
-    <link href="https://the-decoder.com/aleph-alpha-releases-kolibri-an-open-weight-model-that-makes-the-case-for-european-ai-sovereignty"/>
-    <id>https://the-decoder.com/aleph-alpha-releases-kolibri-an-open-weight-model-that-makes-the-case-for-european-ai-sovereignty</id>
-    <updated>2026-10-05T14:12:50.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>Evolution of the PyTorch Media Processing Landscape</title>
+    <link href="https://pytorch.org/blog/evolution-of-the-pytorch-media-processing-landscape"/>
+    <id>https://pytorch.org/blog/evolution-of-the-pytorch-media-processing-landscape</id>
+    <updated>2026-10-05T20:45:50.000Z</updated>
+    <author><name>PyTorch Blog</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>Aleph Alpha has released Kolibri, a German-English mixture-of-experts model with 78 billion parameters, about three billion of which are active per token. Over 21 percent of the training data is German. The model was trained on 768 B200 GPUs in Germany and Finland, and the weights are freely available under the Apache </summary>
+    <summary>TL;DR If you need to decode or encode media, whether it’s images, video, or audio, use TorchCodec. If you need to transform media, use TorchVision for images and video, and...</summary>
+  </entry>
+  <entry>
+    <title>‘Pull the plug’: protesters resort to direct action against AI firms</title>
+    <link href="https://www.theguardian.com/technology/2026/oct/06/pull-the-plug-protesters-resort-to-direct-action-against-ai-firms"/>
+    <id>https://www.theguardian.com/technology/2026/oct/06/pull-the-plug-protesters-resort-to-direct-action-against-ai-firms</id>
+    <updated>2026-10-06T06:00:04.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>Campaign groups report surge in membership after a spate of AI safety alerts and apocalyptic warnings In a bar below Waterloo Bridge, a cell of a fast-growing anti-AI protest movement met last week to plot their latest move: disrupting a tech industry dinner being addressed by a senior executive from the chip maker Nvi</summary>
   </entry>
 </feed>
