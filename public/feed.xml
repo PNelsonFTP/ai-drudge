@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-07T07:18:32.312Z</updated>
+  <updated>2026-10-07T07:20:24.156Z</updated>
   <entry>
     <title>Sharing AI progress in mathematics</title>
     <link href="https://openai.com/index/sharing-ai-progress-in-mathematics"/>
@@ -232,13 +232,13 @@
     <summary>The HybriQCS project, led by Dr. Kai Voges at Leibniz University Hannover, has secured €5.8 million to develop hybrid quantum computing architectures. This 5-year project, running until February 2031, aims to combine ultracold polar molecules for quantum memory with Rydberg atoms for fast multi-qubit gate operations. T</summary>
   </entry>
   <entry>
-    <title>Ugh I didn't want to post this... Back to Qwen3.8 27B</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wzj990/ugh_i_didnt_want_to_post_this_back_to_qwen38_27b"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wzj990/ugh_i_didnt_want_to_post_this_back_to_qwen38_27b</id>
-    <updated>2026-10-07T00:51:13.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>model: add multimodal embeddings (#18820)</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.0-rc6"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.0-rc6</id>
+    <updated>2026-10-06T15:08:38.000Z</updated>
+    <author><name>ollama/ollama</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>I don't know if anyone else has ran into these issues but when using Qwen Flash Next, my confidence in it at iq4_xs is high but not 100%. I notice it not following instructions, hallucinating more often and surprisingly it uses way less tokens than 27b. After using Strata.... yes i know.... I thought it was a breath of</summary>
+    <summary>Implements the EmbeddingGemma2Model architecture on the MLX runner: 24-layer bidirectional text encoder with PLE, shared gemma4 vision/audio towers, mean-pool + L2 output. /api/embed accepts per-item media via input dicts.</summary>
   </entry>
   <entry>
     <title>Proxy Confidence: Auditing Black-Box LLM Agents with a Surrogate's Log-Probabilities</title>
