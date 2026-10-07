@@ -5,7 +5,16 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-06T22:19:17.066Z</updated>
+  <updated>2026-10-07T00:18:31.456Z</updated>
+  <entry>
+    <title>Sharing AI progress in mathematics</title>
+    <link href="https://openai.com/index/sharing-ai-progress-in-mathematics"/>
+    <id>https://openai.com/index/sharing-ai-progress-in-mathematics</id>
+    <updated>2026-10-06T12:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.</summary>
+  </entry>
   <entry>
     <title>Introducing Mistral Large 4: Le chonk</title>
     <link href="https://simonwillison.net/2026/Oct/6/le-chonk"/>
@@ -13,7 +22,16 @@
     <updated>2026-10-06T20:18:19.000Z</updated>
     <author><name>Simon Willison</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Introducing Mistral Large 4: Le chonk Mistral are back in the game. Today they're releasing a preview of Mistral Large 4, a 1 trillion parameter, 49 billion active parameter model trained on their own cluster of 3,800 NVIDIA Grace Blackwell GPUs. The preview is available via their API. They promise to release the open  — Also covered by: Simon Willison, Lemmy c/localllama</summary>
+    <summary>Introducing Mistral Large 4: Le chonk Mistral are back in the game. Today they're releasing a preview of Mistral Large 4, a 1 trillion parameter, 49 billion active parameter model trained on their own cluster of 3,800 NVIDIA Grace Blackwell GPUs. The preview is available via their API. They promise to release the open  — Also covered by: Lemmy c/localllama</summary>
+  </entry>
+  <entry>
+    <title>EmbeddingGemma 2: an open, lightweight multimodal embedding model</title>
+    <link href="https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model"/>
+    <id>https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model</id>
+    <updated>2026-10-06T19:57:04.000Z</updated>
+    <author><name>Google DeepMind Blog</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Also covered by: MarkTechPost, LocalLLaMA Subreddit</summary>
   </entry>
   <entry>
     <title>AI computing startup Lambda to raise $4B ahead of planned IPO</title>
@@ -25,22 +43,13 @@
     <summary>Nvidia-backed Lambda is raising up to $4 billion at a $14.5 billion pre-money valuation ahead of a planned 2027 IPO, led by Coatue and Blackstone. — Also covered by: WSJ Tech</summary>
   </entry>
   <entry>
-    <title>llama.cpp b11457 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11457"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11457</id>
-    <updated>2026-10-06T21:25:59.000Z</updated>
+    <title>llama.cpp b11458 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11458"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11458</id>
+    <updated>2026-10-06T22:24:17.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>cuda : add BF16 support for XIELU ( #29955 ) The XIELU CUDA kernel template is already generic over the element type; only the F32/F16 type assertion and the else-if dispatch were missing. Add the nv_bfloat16 branch to the launcher, and drop the temporary supports_op gate in ggml-cuda.cu that rejected BF16+XIELU. test- — Also covered by: ggml-org/whisper.cpp</summary>
-  </entry>
-  <entry>
-    <title>EmbeddingGemma 2: an open, lightweight multimodal embedding model</title>
-    <link href="https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model"/>
-    <id>https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model</id>
-    <updated>2026-10-06T19:57:04.000Z</updated>
-    <author><name>Google DeepMind Blog</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Also covered by: MarkTechPost</summary>
+    <summary>hexagon: CPY/CONCAT/CONT/DUP overhaul to use DMA/HVX for all cases (#… — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
     <title>Atlassian and OpenAI expand partnership to turn enterprise knowledge into action</title>
@@ -52,13 +61,22 @@
     <summary>Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.</summary>
   </entry>
   <entry>
-    <title>Hark releases an AI personal assistant with a focus on privacy</title>
-    <link href="https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy"/>
-    <id>https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy</id>
-    <updated>2026-10-06T18:22:45.000Z</updated>
+    <title>How Jump Trading is scaling quant research with ChatGPT</title>
+    <link href="https://openai.com/index/jump-trading"/>
+    <id>https://openai.com/index/jump-trading</id>
+    <updated>2026-10-06T12:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.</summary>
+  </entry>
+  <entry>
+    <title>Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product</title>
+    <link href="https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product"/>
+    <id>https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product</id>
+    <updated>2026-10-06T22:34:03.000Z</updated>
     <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>The AI lab's personal assistant is an operating system from the future designed to compete with Muse, Dots, and Instinct.</summary>
+    <summary>Instead of helping marketers manage and optimize ad spend, the company is focusing on building the tools that generate the creative assets and campaigns.</summary>
   </entry>
   <entry>
     <title>Advancing computer use with Ironclad</title>
@@ -70,22 +88,13 @@
     <summary>Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.</summary>
   </entry>
   <entry>
-    <title>Zapata Quantum Joins IBM Quantum Network for Application Development</title>
-    <link href="https://thequantuminsider.com/2026/10/06/zapata-ibm-quantum-network-application-development"/>
-    <id>https://thequantuminsider.com/2026/10/06/zapata-ibm-quantum-network-application-development</id>
-    <updated>2026-10-06T17:04:10.000Z</updated>
-    <author><name>The Quantum Insider</name></author>
-    <category term="QUANTUM"/>
-    <summary>Insider Brief PRESS RELEASE — Zapata Quantum (OTCQB: ZPTA) (“Zapata” or the “Company”) today announced it has joined the IBM Quantum Network with plans to use IBM’s world-class quantum computers with Zapata’s deep expertise in use-case discovery and application development. The Company’s effort aims to help close the q — Also covered by: Quantum Computing Report</summary>
-  </entry>
-  <entry>
-    <title>Infleqtion, Honeywell Aerospace, and UC Santa Barbara Develop Chip-Scale Silicon Nitride Optical Cavity for Handheld Quantum Hardware</title>
-    <link href="https://quantumcomputingreport.com/infleqtion-honeywell-aerospace-and-uc-santa-barbara-develop-chip-scale-silicon-nitride-optical-cavity-for-handheld-quantum-hardware"/>
-    <id>https://quantumcomputingreport.com/infleqtion-honeywell-aerospace-and-uc-santa-barbara-develop-chip-scale-silicon-nitride-optical-cavity-for-handheld-quantum-hardware</id>
-    <updated>2026-10-06T17:11:36.000Z</updated>
+    <title>SEALSQ Leads $10 Million PIPE Investment in WISeSat to Accelerate Post-Quantum Space Cybersecurity Infrastructure</title>
+    <link href="https://quantumcomputingreport.com/sealsq-leads-10-million-pipe-investment-in-wisesat-to-accelerate-post-quantum-space-cybersecurity-infrastructure"/>
+    <id>https://quantumcomputingreport.com/sealsq-leads-10-million-pipe-investment-in-wisesat-to-accelerate-post-quantum-space-cybersecurity-infrastructure</id>
+    <updated>2026-10-06T21:18:18.000Z</updated>
     <author><name>Quantum Computing Report</name></author>
-    <category term="QUANTUM"/>
-    <summary>Infleqtion, in partnership with Honeywell Aerospace and UC Santa Barbara, has developed a chip-scale silicon nitride optical cavity. This prototype aims to miniaturize lasers and optical stabilization systems for quantum hardware. This innovation enables volume manufacturing and paves the way for field-deployable quant — Also covered by: The Quantum Insider</summary>
+    <category term="AI FINANCE"/>
+    <summary>SEALSQ has invested $10 million in WISeSat.Space through a PIPE financing, acquiring shares at $10.79 each. This investment, completed on October 1, 2026, aims to accelerate the deployment of WISeSat.Space’s LEO satellite constellation and integrate SEALSQ’s post-quantum cybersecurity infrastructure. Both companies ope — Also covered by: The Quantum Insider</summary>
   </entry>
   <entry>
     <title>Our approach to EU text provenance rules</title>
@@ -106,31 +115,31 @@
     <summary>What's Changed Models run on MLX on Apple Silicon by default In this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX. ollama pull qwen3.8 ollama run qwen3.8 Additional models include gemma4 , qwen3.6 and qwen3.5 Decision models are now available on MLX a</summary>
   </entry>
   <entry>
-    <title>Sources: Singapore-based data center operator DayOne seeks to raise up to $5B in a US IPO and plans to list its American depositary shares by the end of 2026 (Wall Street Journal)</title>
-    <link href="https://www.techmeme.com/261006/p40"/>
-    <id>https://www.techmeme.com/261006/p40</id>
-    <updated>2026-10-06T21:40:01.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Privacy watchdog launches probe into China-based company behind Kmart ‘pervert glasses’ app</title>
+    <link href="https://www.theguardian.com/technology/2026/oct/07/privacy-regulator-probe-kmart-anko-meta-smartglasses-australia"/>
+    <id>https://www.theguardian.com/technology/2026/oct/07/privacy-regulator-probe-kmart-anko-meta-smartglasses-australia</id>
+    <updated>2026-10-06T23:58:23.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Wall Street Journal : Sources: Singapore-based data center operator DayOne seeks to raise up to $5B in a US IPO and plans to list its American depositary shares by the end of 2026 — The data-center operator is also backed by Coatue Management, Hillhouse and Citadel — A SoftBank-backed data-center company …</summary>
+    <summary>Commissioner said Shenzhen Qingcheng, the app maker behind the HeyCyan app in the smartglasses, failed to respond to her inquiries Get our breaking news email , free app or daily news podcast The Australian privacy regulator has opened an investigation into the China-based software company behind the HeyCyan app in Kma</summary>
   </entry>
   <entry>
-    <title>claude-code v2.1.292 released</title>
-    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.292"/>
-    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.292</id>
-    <updated>2026-10-06T18:59:30.000Z</updated>
-    <author><name>anthropics/claude-code</name></author>
+    <title>OpenAI “rogue” agent activities found on Wikimedia projects</title>
+    <link href="https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia"/>
+    <id>https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia</id>
+    <updated>2026-10-07T00:16:45.000Z</updated>
+    <author><name>Simon Willison</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>What's changed Added --marketplace &lt;source&gt; to claude plugin install : adds the marketplace if needed, under the same policy checks as claude plugin marketplace add , then installs the plugin from it Added an effort parameter to the Agent tool, so Claude runs a sub-agent at the effort level you ask for Added CLAUDE_COD</summary>
+    <summary>OpenAI “rogue” agent activities found on Wikimedia projects Given how tempting a target wikis are for rogue agent swarms, it's not a huge surprise that Wikipedia found evidence of that activity once they went looking: The Wikimedia Foundation conducted its own investigation to see whether Wikimedia websites had been si</summary>
   </entry>
   <entry>
-    <title>Virginia Lieutenant Governor Opposes NextEra-Dominion Deal</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-06/virginia-lieutenant-governor-opposes-nextera-dominion-deal"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-06/virginia-lieutenant-governor-opposes-nextera-dominion-deal</id>
-    <updated>2026-10-06T21:50:51.000Z</updated>
+    <title>Ken Leech Agrees to $3 Million SEC Fine Over Cherry-Picking Case</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-06/ken-leech-agrees-to-3-million-sec-fine-over-cherry-picking-case"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-06/ken-leech-agrees-to-3-million-sec-fine-over-cherry-picking-case</id>
+    <updated>2026-10-06T23:22:30.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Virginia Lieutenant Governor Ghazala Hashmi voiced opposition to NextEra’s proposed $67 billion takeover of utility Dominion Energy Inc., adding an outright objection to the calls for more scrutiny of the deal as it awaits state regulatory approval.</summary>
+    <summary>Ken Leech, the former co-chief investment officer at Western Asset Management Co., agreed to pay $3 million to settle a US Securities and Exchange Commission lawsuit claiming he’d cherry picked winning trades.</summary>
   </entry>
   <entry>
     <title>transformers v5.19.0 released</title>
@@ -142,40 +151,58 @@
     <summary>Release v5.19.0 New Model additions EmbeddingGemma2 EmbeddingGemma 2 is a multimodal embedding model from Google built on the Gemma 4 architecture. It encodes text, images, audio, and video, individually or combined in one input, into a shared 768-dimensional vector space for cross-modal retrieval, semantic similarity,</summary>
   </entry>
   <entry>
-    <title>How AI decision models could change content moderation</title>
-    <link href="https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation"/>
-    <id>https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation</id>
-    <updated>2026-10-06T20:35:20.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>Modernizing Table Batched Embeddings with FBTriton</title>
+    <link href="https://pytorch.org/blog/modernizing-table-batched-embeddings-with-fbtriton"/>
+    <id>https://pytorch.org/blog/modernizing-table-batched-embeddings-with-fbtriton</id>
+    <updated>2026-10-06T22:57:33.000Z</updated>
+    <author><name>PyTorch Blog</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>On Tuesday, Musubi announced a lightweight decision model made for real-time moderation called PolicyLM-1.7B, released with open weights.</summary>
+    <summary>This post explores the FBTriton kernel design for Table Batched Embedding (TBE) forward and backward passes. These core operators handle embedding lookups across thousands of sharded GPUs within recommendation systems....</summary>
   </entry>
   <entry>
-    <title>Mistral Large 4</title>
-    <link href="https://simonwillison.net/2026/Oct/6/hn-49982139"/>
-    <id>https://simonwillison.net/2026/Oct/6/hn-49982139</id>
-    <updated>2026-10-06T18:20:58.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>OpenAI releases a range of new mathematical results produced by an internal model, with details like estimations of compute spent in terms of ChatGPT Pro usage (OpenAI)</title>
+    <link href="https://www.techmeme.com/261006/p42"/>
+    <id>https://www.techmeme.com/261006/p42</id>
+    <updated>2026-10-06T22:30:01.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>My comment on Mistral Large 4 — Hacker News. wren6991 : The benchmark is saturated. Frontier models are tested with an armadillo in fishnet tights jaywalking on Mars. OK well I couldn't resist this one: llm -m claude-opus-5.5 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' llm -m gpt-6.1-sol 'Gen</summary>
+    <summary>OpenAI : OpenAI releases a range of new mathematical results produced by an internal model, with details like estimations of compute spent in terms of ChatGPT Pro usage — We're releasing a broad range of new mathematical results produced by an internal frontier model.</summary>
   </entry>
   <entry>
-    <title>GitHub Copilot CLI Vulnerability Lets Attackers Steal Developer Secrets Using Encrypted Prompt Injection</title>
-    <link href="https://cybersecuritynews.com/github-copilot-cli-vulnerability"/>
-    <id>https://cybersecuritynews.com/github-copilot-cli-vulnerability</id>
-    <updated>2026-10-06T15:52:16.000Z</updated>
-    <author><name>GN: Prompt Injection</name></author>
+    <title>Harm-first security: Why technique catalogs miss the risk</title>
+    <link href="https://www.giskard.ai/knowledge/harm-first-security-why-we-should-start-from-the-harm-and-not-from-the-techniques"/>
+    <id>https://www.giskard.ai/knowledge/harm-first-security-why-we-should-start-from-the-harm-and-not-from-the-techniques</id>
+    <updated>2026-10-07T00:00:00.000Z</updated>
+    <author><name>Giskard</name></author>
     <category term="AI SECURITY"/>
-    <summary>GitHub Copilot CLI Vulnerability Lets Attackers Steal Developer Secrets Using Encrypted Prompt Injection CyberSecurityNews</summary>
+    <summary>AI Security teams test techniques like prompt injection, while incident records point to hallucination. Why AI risk modeling should start from the harm.</summary>
   </entry>
   <entry>
-    <title>Hackers exploit 32 zero-days on first day of Pwn2Own Ireland</title>
-    <link href="https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland"/>
-    <id>https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland</id>
-    <updated>2026-10-06T19:21:53.000Z</updated>
-    <author><name>BleepingComputer</name></author>
+    <title>Quoting Victoria Kim</title>
+    <link href="https://simonwillison.net/2026/Oct/6/victoria-kim"/>
+    <id>https://simonwillison.net/2026/Oct/6/victoria-kim</id>
+    <updated>2026-10-06T23:58:56.000Z</updated>
+    <author><name>Simon Willison</name></author>
     <category term="CYBER THREATS"/>
-    <summary>On the first day of the Pwn2Own Ireland 2026 competition, security researchers hacked the Samsung Galaxy S26 twice and earned $388,500 after exploiting 32 zero-days. [...]</summary>
+    <summary>Since the Medicare breach, OpenAI has put in place additional monitoring to allow “immediate intervention” by staff to stop training if the company’s models access the internet in ways they’re not supposed to, Mr. Kwon [chief strategy officer at OpenAI] said. — Victoria Kim , Reporting from the Australian parliament Ta</summary>
+  </entry>
+  <entry>
+    <title>How to fix a bug in a fix</title>
+    <link href="https://projectzero.google/2026/10/emergency-patching.html"/>
+    <id>https://projectzero.google/2026/10/emergency-patching.html</id>
+    <updated>2026-10-06T07:00:00.000Z</updated>
+    <author><name>Google Project Zero</name></author>
+    <category term="CYBER DEFENSE"/>
+    <summary>Project Zero often works with software vendors to remediate the vulnerabilities we report and provide broader guidance on making software more secure. Some vendors express concern about potential scenarios in which they are unable to fix vulnerabilities that are causing immediate user harm, due to limitations in their </summary>
+  </entry>
+  <entry>
+    <title>New York-based Melius, which provides AI tools for generating ad campaigns, images, and videos, raised $25M, including a $20M Series A and a $5M seed (Marina Temkin/TechCrunch)</title>
+    <link href="https://www.techmeme.com/261006/p47"/>
+    <id>https://www.techmeme.com/261006/p47</id>
+    <updated>2026-10-07T00:15:00.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>Marina Temkin / TechCrunch : New York-based Melius, which provides AI tools for generating ad campaigns, images, and videos, raised $25M, including a $20M Series A and a $5M seed — Melius, an AI platform for generating ad campaigns, images, and videos, announced on Tuesday that it raised a total of $25 million in fundi</summary>
   </entry>
   <entry>
     <title>Agility's Investor Day: Digit 5 Launches at a $150,000 Bill of Materials, and Its $300M Order Unlocks Skill by Skill</title>
@@ -187,22 +214,22 @@
     <summary>At its Analyst &amp; Investor Day, Agility put Digit 5's launch bill of materials at about $150,000, above Digit 4's, for RaaS product margins near 50% until production reaches 1,000 units a year. Executives said the $300 million, 1,000-robot order releases robots in tranches as Digit 5 proves specific use cases, described</summary>
   </entry>
   <entry>
-    <title>Infleqtion and Partners Build Optical Cavity Prototype to Shrink Quantum Sensors</title>
-    <link href="https://www.hpcwire.com/off-the-wire/infleqtion-and-partners-build-optical-cavity-prototype-to-shrink-quantum-sensors"/>
-    <id>https://www.hpcwire.com/off-the-wire/infleqtion-and-partners-build-optical-cavity-prototype-to-shrink-quantum-sensors</id>
-    <updated>2026-10-06T20:18:49.000Z</updated>
-    <author><name>HPC Wire</name></author>
+    <title>Leibniz University Hannover Launches €5.8 Million ($6.53 Million USD) HybriQCS Project to Develop Hybrid Molecule-Rydberg Quantum Systems</title>
+    <link href="https://quantumcomputingreport.com/leibniz-university-hannover-launches-e5-8-million-6-53-million-usd-hybriqcs-project-to-develop-hybrid-molecule-rydberg-quantum-systems"/>
+    <id>https://quantumcomputingreport.com/leibniz-university-hannover-launches-e5-8-million-6-53-million-usd-hybriqcs-project-to-develop-hybrid-molecule-rydberg-quantum-systems</id>
+    <updated>2026-10-06T22:14:41.000Z</updated>
+    <author><name>Quantum Computing Report</name></author>
     <category term="QUANTUM"/>
-    <summary>New prototype reduces footprint needed for laser stabilization, paving way for compact, fieldable quantum systems and chip scale manufacturing LOUISVILLE, Colo., Oct. 6, 2026 — Infleqtion, in collaboration with Honeywell Aerospace and Distinguished Professor Daniel J. Blumenthal of UC Santa Barbara (UCSB), has announce</summary>
+    <summary>The HybriQCS project, led by Dr. Kai Voges at Leibniz University Hannover, has secured €5.8 million to develop hybrid quantum computing architectures. This 5-year project, running until February 2031, aims to combine ultracold polar molecules for quantum memory with Rydberg atoms for fast multi-qubit gate operations. T</summary>
   </entry>
   <entry>
-    <title>Capitolis, which develops tech for banks and financial institutions, raised $220M, including a $120M Series E at a $1.9B valuation, up from $1.6B in March 2022 (Meir Orbach/CTech)</title>
-    <link href="https://www.techmeme.com/261006/p37"/>
-    <id>https://www.techmeme.com/261006/p37</id>
-    <updated>2026-10-06T20:25:01.000Z</updated>
+    <title>Google releases Nano Banana 2.1, based on Gemini 3.6 Flash, saying it improves on previous versions &quot;across the board&quot;; pricing is ~50% lower vs. Nano Banana 2 (Matthias Bastian/The Decoder)</title>
+    <link href="https://www.techmeme.com/261006/p45"/>
+    <id>https://www.techmeme.com/261006/p45</id>
+    <updated>2026-10-06T23:20:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Meir Orbach / CTech : Capitolis, which develops tech for banks and financial institutions, raised $220M, including a $120M Series E at a $1.9B valuation, up from $1.6B in March 2022 — Citi, Bank of America, Nomura, Tradeweb, J.P. Morgan, UBS and other major financial institutions are backing the fintech …</summary>
+    <summary>Matthias Bastian / The Decoder : Google releases Nano Banana 2.1, based on Gemini 3.6 Flash, saying it improves on previous versions “across the board”; pricing is ~50% lower vs. Nano Banana 2 — Google has released Nano Banana 2.1, a new model for image generation and editing.</summary>
   </entry>
   <entry>
     <title>model: add multimodal embeddings (#18820)</title>
@@ -214,66 +241,39 @@
     <summary>Implements the EmbeddingGemma2Model architecture on the MLX runner: 24-layer bidirectional text encoder with PLE, shared gemma4 vision/audio towers, mean-pool + L2 output. /api/embed accepts per-item media via input dicts.</summary>
   </entry>
   <entry>
-    <title>Wikimedia confirms OpenAI's rogue AI agents edited wikis, tried to compromise tools, and hammered its infrastructure</title>
-    <link href="https://the-decoder.com/wikimedia-confirms-openais-rogue-ai-agents-edited-wikis-tried-to-compromise-tools-and-hammered-its-infrastructure"/>
-    <id>https://the-decoder.com/wikimedia-confirms-openais-rogue-ai-agents-edited-wikis-tried-to-compromise-tools-and-hammered-its-infrastructure</id>
-    <updated>2026-10-06T18:29:35.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>claude-code v2.1.292 released</title>
+    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.292"/>
+    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.292</id>
+    <updated>2026-10-06T18:59:30.000Z</updated>
+    <author><name>anthropics/claude-code</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>According to the Wikimedia Foundation, rogue OpenAI agents edited wikis without permission, tried to abuse a citation tool as a proxy, and may have caused a partial Wikidata Query Service outage through massive crawling. Wikimedia says AI companies need to take responsibility for their agents instead of pushing the bur</summary>
+    <summary>What's changed Added --marketplace &lt;source&gt; to claude plugin install : adds the marketplace if needed, under the same policy checks as claude plugin marketplace add , then installs the plugin from it Added an effort parameter to the Agent tool, so Claude runs a sub-agent at the effort level you ask for Added CLAUDE_COD</summary>
   </entry>
   <entry>
-    <title>backup/allozaur-ui-shell-polish: ui : polish the shell</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/backup%2Fallozaur-ui-shell-polish"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/backup%2Fallozaur-ui-shell-polish</id>
-    <updated>2026-10-06T07:07:16.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>OpenAI says its internal model produced 372 math results, nearly all from a single prompt handed to a single AI agent; some might have taken multiple attempts (Joseph Howlett/Scientific American)</title>
+    <link href="https://www.techmeme.com/261006/p46"/>
+    <id>https://www.techmeme.com/261006/p46</id>
+    <updated>2026-10-06T23:55:02.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>The secondary button gets its own look back and the chat add button its own light surface. Pressable elements get a pointer cursor again, the font rendering smooths on the app shell, the root layout resolves its props probe through the providers' api url, and the agent skills stay out of prettier's way. Assisted-by: pi</summary>
+    <summary>Joseph Howlett / Scientific American : OpenAI says its internal model produced 372 math results, nearly all from a single prompt handed to a single AI agent; some might have taken multiple attempts — A month after resolving one of the six biggest open problems in mathematics, the company says its new internal model has</summary>
   </entry>
   <entry>
-    <title>Hamilton Lane’s Bell on Secondary Markets Opportunity</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-06/hamilton-lane-s-bell-on-secondary-markets-opportunity-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-06/hamilton-lane-s-bell-on-secondary-markets-opportunity-video</id>
-    <updated>2026-10-06T22:15:18.000Z</updated>
+    <title>Taiwan Dethrones Korea Atop Global Markets as AI Trade Widens</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-07/taiwan-dethrones-korea-atop-global-markets-as-ai-trade-widens"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-07/taiwan-dethrones-korea-atop-global-markets-as-ai-trade-widens</id>
+    <updated>2026-10-07T00:07:35.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>As U.S. mortgage rates rise above 7% for the first time in a couple of years, Elizabeth Bell, Co-Head of Real Estate at Hamilton Lane, discusses whether the broader real estate market has been written off amid a slow post-pandemic recovery, changing consumer spending and higher rates. Bell says the market faces risks f</summary>
+    <summary>As equity investors enter the final stretch of a pivotal year that’s propelled South Korea and Taiwan to the forefront of the global AI trade, the latter is emerging as the stronger bet.</summary>
   </entry>
   <entry>
-    <title>Latest Oil Market News and Analysis for Oct. 7</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-06/latest-oil-market-news-and-analysis-for-oct-7"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-06/latest-oil-market-news-and-analysis-for-oct-7</id>
-    <updated>2026-10-06T22:02:47.000Z</updated>
+    <title>Asset Management One to Boost Talent Spending 30% Over 3 Years</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-07/asset-management-one-to-boost-talent-spending-30-over-3-years"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-07/asset-management-one-to-boost-talent-spending-30-over-3-years</id>
+    <updated>2026-10-07T00:00:17.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Oil steadied as traders weighed increased flows through the Strait of Hormuz against a pickup in Iranian attacks against vessels.</summary>
-  </entry>
-  <entry>
-    <title>Using Parseable with Datasette for OpenTelemetry traces</title>
-    <link href="https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry"/>
-    <id>https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry</id>
-    <updated>2026-10-06T19:07:31.000Z</updated>
-    <author><name>Simon Willison</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>TIL: Using Parseable with Datasette for OpenTelemetry traces I saw Parseable in a Show HN today - it's a new observability platform with both an open source (AGPL) Rust implementation (a single ~180MB binary), an &quot;Enterprise&quot; version with extra features and a cloud hosted option. Since Datasette 1.0a41 added OpenTeleme</summary>
-  </entry>
-  <entry>
-    <title>EmbeddingGemma 2</title>
-    <link href="https://simonwillison.net/2026/Oct/6/hn-49983751"/>
-    <id>https://simonwillison.net/2026/Oct/6/hn-49983751</id>
-    <updated>2026-10-06T20:37:53.000Z</updated>
-    <author><name>Simon Willison</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>My comment on EmbeddingGemma 2 — Hacker News. I really appreciate that EmbeddingGemma 2 is under the Apache 2.0 license. For embedding models in particular, I don't think it makes sense to use a closed, proprietary, hosted-only model. Most applications of embedding models involve calculating thousands or even millions </summary>
-  </entry>
-  <entry>
-    <title>AI is going to run out of power</title>
-    <link href="https://www.transformernews.ai/p/ai-will-run-out-of-power"/>
-    <id>https://www.transformernews.ai/p/ai-will-run-out-of-power</id>
-    <updated>2026-10-06T15:02:11.000Z</updated>
-    <author><name>Transformer</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>Without significant investment into energy infrastructure, AI could outpace America's power grid</summary>
+    <summary>Asset Management One Co. plans to boost spending on talent over the next three years as rising Japanese interest rates broaden investment choices and push pension funds, university endowments and individuals to rethink how they allocate their money.</summary>
   </entry>
 </feed>
