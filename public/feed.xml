@@ -5,16 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-07T20:08:45.771Z</updated>
-  <entry>
-    <title>Sharing AI progress in mathematics</title>
-    <link href="https://openai.com/index/sharing-ai-progress-in-mathematics"/>
-    <id>https://openai.com/index/sharing-ai-progress-in-mathematics</id>
-    <updated>2026-10-06T12:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.</summary>
-  </entry>
+  <updated>2026-10-07T21:08:45.435Z</updated>
   <entry>
     <title>llama.cpp b11476 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11476"/>
@@ -22,16 +13,43 @@
     <updated>2026-10-07T14:59:08.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>metal : few-row MMA mat-mul for the remaining src0 types ( #30065 ) The generic few-row MMA kernel works for any type with a 16-weight dequantizer, so it now also takes BF16, Q1_0, Q2_0, MXFP4, Q2_K, Q3_K, TQ2_0 and the IQ types. Each type starts at the row count where it beats the current kernels on an M3 Ultra: 5 row — Also covered by: ggml-org/whisper.cpp</summary>
+    <summary>metal : few-row MMA mat-mul for the remaining src0 types ( #30065 ) The generic few-row MMA kernel works for any type with a 16-weight dequantizer, so it now also takes BF16, Q1_0, Q2_0, MXFP4, Q2_K, Q3_K, TQ2_0 and the IQ types. Each type starts at the row count where it beats the current kernels on an M3 Ultra: 5 row — Also covered by: ggml-org/whisper.cpp, LocalLLaMA Subreddit</summary>
   </entry>
   <entry>
-    <title>Healthleap raises $38M for its AI that flags hospital patients who may need a closer look</title>
-    <link href="https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look"/>
-    <id>https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look</id>
-    <updated>2026-10-07T15:07:08.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>Introducing Claude Haiku 5.5</title>
+    <link href="https://simonwillison.net/2026/Oct/7/claude-haiku-5-5"/>
+    <id>https://simonwillison.net/2026/Oct/7/claude-haiku-5-5</id>
+    <updated>2026-10-07T20:56:21.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>As previously promised , here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5 . The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago , and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full 10x the price of OpenAI' — Also covered by: AWS ML Blog, GitHub Copilot Changelog</summary>
+  </entry>
+  <entry>
+    <title>Sharing AI progress in mathematics</title>
+    <link href="https://openai.com/index/sharing-ai-progress-in-mathematics"/>
+    <id>https://openai.com/index/sharing-ai-progress-in-mathematics</id>
+    <updated>2026-10-06T12:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>The financing includes an $8M seed round co-led by Sequoia Capital and First Round Capital, and a $30 million Series A led by Hummingbird Ventures.</summary>
+    <summary>OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.</summary>
+  </entry>
+  <entry>
+    <title>GPT-6 and Intelligent UI for everyone</title>
+    <link href="https://openai.com/index/gpt-6-for-everyone"/>
+    <id>https://openai.com/index/gpt-6-for-everyone</id>
+    <updated>2026-10-07T00:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.</summary>
+  </entry>
+  <entry>
+    <title>Hackers hijack Google domains after breaching ccTLD registries</title>
+    <link href="https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries"/>
+    <id>https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries</id>
+    <updated>2026-10-07T20:50:13.000Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>Hackers obtained unauthorized HTTPS certificates for several Google domains and hijacked domains in the country-code top-level domains (ccTLDs) for Ghana, American Samoa, and Sierra Leone after compromising third-party operators and modifying authoritative DNS records. [...] — Also covered by: The Hacker News</summary>
   </entry>
   <entry>
     <title>Radisson Hotel Group brings hotel discovery into ChatGPT</title>
@@ -58,7 +76,7 @@
     <updated>2026-10-07T18:16:12.000Z</updated>
     <author><name>Lemmy c/localllama</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by BeefAndPoultry to localllama 10 points | 1 comments https://github.com/ggml-org/llama.cpp/pull/29887 Anyone tested this yet? Enable with --moe-cache-mib N. In experiments it was found 10% of the total expert size is good. Baseline is master with the default –fit . With –moe-cache-mib , –fit counts the cach — Also covered by: LocalLLaMA Subreddit</summary>
+    <summary>submitted by BeefAndPoultry to localllama 12 points | 1 comments https://github.com/ggml-org/llama.cpp/pull/29887 Anyone tested this yet? Enable with --moe-cache-mib N. In experiments it was found 10% of the total expert size is good. Baseline is master with the default –fit . With –moe-cache-mib , –fit counts the cach — Also covered by: LocalLLaMA Subreddit</summary>
   </entry>
   <entry>
     <title>HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object Interaction</title>
@@ -77,15 +95,6 @@
     <author><name>Humanoids Daily</name></author>
     <category term="ROBOTICS"/>
     <summary>Prasad takes over on October 7, bringing experience leading Alexa and Amazon Nova as Boston Dynamics advances its AI and commercialization plans. — Also covered by: The Robot Report</summary>
-  </entry>
-  <entry>
-    <title>EmbeddingGemma 2: an open, lightweight multimodal embedding model</title>
-    <link href="https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model"/>
-    <id>https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model</id>
-    <updated>2026-10-06T19:57:04.000Z</updated>
-    <author><name>Google DeepMind Blog</name></author>
-    <category term="RESEARCH"/>
-    <summary>Also covered by: MarkTechPost</summary>
   </entry>
   <entry>
     <title>Infineon and ZuriQ Deepen Partnership to Advance Scalable Quantum Chips</title>
@@ -115,67 +124,67 @@
     <summary>llama: share the nextn tensor flags between models Follow-up of the TODO in glm5-next: move the trunk-only and MTP-only detection that each model copied into a nextn_flags helper of llama_model_base. It probes the first trunk layer and the first NextN layer, and adds TENSOR_SKIP when MTP is not loaded. qwen4exp probes </summary>
   </entry>
   <entry>
+    <title>Nous Research confirms it hit $1.5B valuation, launches AI agents for business users</title>
+    <link href="https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users"/>
+    <id>https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users</id>
+    <updated>2026-10-07T20:48:45.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>The developer of Hermes agent raised a $90 million Series B.</summary>
+  </entry>
+  <entry>
+    <title>llama.cpp on the stage</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x079wc/llamacpp_on_the_stage"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x079wc/llamacpp_on_the_stage</id>
+    <updated>2026-10-07T20:25:51.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>https://x.com/ggerganov/status/2107908265032229261 submitted by /u/jacek2023 [link] [comments] — Also covered by: ggml-org/llama.cpp</summary>
+  </entry>
+  <entry>
+    <title>First Brands’ Brothers Say They’ll Blame Each Other at Trial</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-07/first-brands-brothers-say-they-ll-blame-each-other-at-trial"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-07/first-brands-brothers-say-they-ll-blame-each-other-at-trial</id>
+    <updated>2026-10-07T20:05:38.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>The two brothers who built First Brands Group into a global business, and whom prosecutors accuse of driving it into bankruptcy through a multibillion-dollar fraud, are now pointing the finger at each other.</summary>
+  </entry>
+  <entry>
+    <title>Discovering the value of humanistic inquiry</title>
+    <link href="https://news.mit.edu/2026/discovering-value-humanistic-inquiry-1007"/>
+    <id>https://news.mit.edu/2026/discovering-value-humanistic-inquiry-1007</id>
+    <updated>2026-10-07T20:10:00.000Z</updated>
+    <author><name>MIT News AI</name></author>
+    <category term="RESEARCH"/>
+    <summary>Students in MIT’s Concourse program delve deeply into the human condition, debate challenging questions, and learn to develop judgment about issues that can’t be quantified.</summary>
+  </entry>
+  <entry>
     <title>Anthropic prices Haiku 5.5 at $0.10/1M input and $0.50/1M output tokens for requests up to 100K tokens, and $0.50 and $2.50 above, vs. $1 and $5 for Haiku 4.5 (Frederic Lardinois/The New Stack)</title>
     <link href="https://www.techmeme.com/261007/p33"/>
     <id>https://www.techmeme.com/261007/p33</id>
     <updated>2026-10-07T18:45:30.000Z</updated>
     <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
+    <category term="HARDWARE"/>
     <summary>Frederic Lardinois / The New Stack : Anthropic prices Haiku 5.5 at $0.10/1M input and $0.50/1M output tokens for requests up to 100K tokens, and $0.50 and $2.50 above, vs. $1 and $5 for Haiku 4.5 — Anthropic on Wednesday launched Claude Haiku 5.5, the first new version of its smallest and most affordable model in nearl</summary>
   </entry>
   <entry>
-    <title>Meta’s Muse launches on iPad just a month after its mobile debut</title>
-    <link href="https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut"/>
-    <id>https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut</id>
-    <updated>2026-10-07T18:30:57.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Meta’s AI agent Muse is now available on iPad, just a month after its mobile debut, as the company rapidly expands the assistant’s reach and integrations.</summary>
-  </entry>
-  <entry>
-    <title>Google launches platform to create video games from text prompts</title>
-    <link href="https://www.ft.com/content/0cb02773-d207-4920-8c74-d9707d2622a0?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/0cb02773-d207-4920-8c74-d9707d2622a0?syn-25a6b1a6=1</id>
-    <updated>2026-10-07T12:00:04.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Big Tech group partners with gaming tools developer Unity as AI disrupts sector</summary>
-  </entry>
-  <entry>
-    <title>Claude Haiku 5.5 arrives with massive price cuts proving the AI pricing arms race is far from over</title>
-    <link href="https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over"/>
-    <id>https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over</id>
-    <updated>2026-10-07T18:49:23.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="RESEARCH"/>
-    <summary>Anthropic's new Claude Haiku 5.5 crushes its predecessor in benchmarks, jumping from 15.7 to 72.4 percent on the OSWorld computer use test. Token prices drop by up to 90 percent, though a new tokenizer eats into some of those savings by consuming more tokens per task. The article Claude Haiku 5.5 arrives with massive p</summary>
-  </entry>
-  <entry>
-    <title>OpenAI launches Decisions API that reduces complex evaluations to yes, no, or pick one</title>
-    <link href="https://the-decoder.com/openai-launches-decisions-api-that-reduces-complex-evaluations-to-yes-no-or-pick-one"/>
-    <id>https://the-decoder.com/openai-launches-decisions-api-that-reduces-complex-evaluations-to-yes-no-or-pick-one</id>
-    <updated>2026-10-07T15:36:39.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="PRODUCTS"/>
-    <summary>OpenAI's new Decisions API classifies text and images about ten times faster than the Responses API, returning yes/no probabilities, category picks, or scale ratings for $0.10 per million input tokens. The company also cut its paid API tiers from five to three. The article OpenAI launches Decisions API that reduces com</summary>
-  </entry>
-  <entry>
-    <title>Where Nvidia’s $100 Billion Dealmaking Juggernaut Will Go Next</title>
-    <link href="https://www.theinformation.com/articles/nvidias-100-billion-dealmaking-juggernaut-will-go-next"/>
-    <id>https://www.theinformation.com/articles/nvidias-100-billion-dealmaking-juggernaut-will-go-next</id>
-    <updated>2026-10-07T13:00:36.000Z</updated>
-    <author><name>The Information</name></author>
+    <title>SGAnalog: An End-to-End Circuit Benchmark from Open-Source Silicon Tapeouts</title>
+    <link href="https://arxiv.org/abs/2610.03934"/>
+    <id>https://arxiv.org/abs/2610.03934</id>
+    <updated>2026-10-07T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>This July, Nvidia caught wind of a looming takeover of OpenRouter, a three-year-old startup that had emerged as a popular marketplace for AI models, including many cheaper open-source ones. Databricks and Stripe had already been talking to the startup about a potential sale. Nvidia was late to the party. The chipmaker’</summary>
+    <summary>arXiv:2610.03934v1 Announce Type: new Abstract: Existing analog integrated circuit design benchmarks make two questions hard to answer: whether a model has learned transferable circuit skills rather than recalled familiar examples, and whether its output works under defined process and test conditions. We introduce a b</summary>
   </entry>
   <entry>
-    <title>The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow</title>
-    <link href="https://thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html"/>
-    <id>https://thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html</id>
-    <updated>2026-10-07T11:57:05.000Z</updated>
-    <author><name>The Hacker News</name></author>
+    <title>Capacity, Responsiveness and Alignment: What Makes a Latent Structure Actionable</title>
+    <link href="https://arxiv.org/abs/2610.06897"/>
+    <id>https://arxiv.org/abs/2610.06897</id>
+    <updated>2026-10-07T04:00:00.000Z</updated>
+    <author><name>arXiv cs.CL</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>The 2026 findings are not just a year-over-year shift. They mark the latest point in a five-year arc where resilience, AI governance, human risk, and board scrutiny are converging inside the systems where work actually happens. For years, the enterprise cybersecurity story has been told as a straight line of escalation</summary>
+    <summary>arXiv:2610.06897v1 Announce Type: new Abstract: Localizing latent structures in the activation space of language models (LMs) is central to understanding and controlling their behavior. Yet, localized structures can differ substantially in their causal influence, raising the question of what makes a structure actionabl</summary>
   </entry>
   <entry>
     <title>Attackers Hide AI Prompt Injections Inside Phishing Emails</title>
@@ -185,33 +194,6 @@
     <author><name>GN: Prompt Injection</name></author>
     <category term="AI SECURITY"/>
     <summary>Attackers Hide AI Prompt Injections Inside Phishing Emails Infosecurity Magazine</summary>
-  </entry>
-  <entry>
-    <title>US posts $10 million reward for accused Chinese ‘Hafnium’ hacker</title>
-    <link href="https://therecord.media/accused-hafnium-hacker-zhang-yu-10million-reward"/>
-    <id>https://therecord.media/accused-hafnium-hacker-zhang-yu-10million-reward</id>
-    <updated>2026-10-07T19:50:00.000Z</updated>
-    <author><name>The Record</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>U.S. officials say Zhang Yu was a prominent figure in the Hafnium campaign, which saw hackers breach thousands of computers and steal troves of documents.</summary>
-  </entry>
-  <entry>
-    <title>From Ballet To Breach Prevention: How A Magician’s Son Raised $4.2M In Seed Funding For His Cybersecurity Startup</title>
-    <link href="https://news.crunchbase.com/cybersecurity/from-ballet-to-breach-prevention-ai-startup-hilt-cielen"/>
-    <id>https://news.crunchbase.com/cybersecurity/from-ballet-to-breach-prevention-ai-startup-hilt-cielen</id>
-    <updated>2026-10-07T13:00:37.000Z</updated>
-    <author><name>Crunchbase News AI</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>The latest in our series of articles on venture funding to non-tech founders features a former magician's assistant and ballet dancer who's building cybersecurity software with $4.2 million in seed funding.</summary>
-  </entry>
-  <entry>
-    <title>As AI Closed In on ‘Unique Games’ Proof, Researchers Raced to Beat the Machines</title>
-    <link href="https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007"/>
-    <id>https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007</id>
-    <updated>2026-10-07T15:08:46.000Z</updated>
-    <author><name>Quanta Magazine AI</name></author>
-    <category term="ANALYSIS"/>
-    <summary>In the shadow of a rumored AI proof of one of the biggest problems in their field, three computer scientists rushed to publish their own milestone result. The post As AI Closed In on ‘Unique Games’ Proof, Researchers Raced to Beat the Machines first appeared on Quanta Magazine</summary>
   </entry>
   <entry>
     <title>Nvidia Has Discussed Another $1 Billion Investment in Figure, The Information Reports</title>
@@ -232,6 +214,15 @@
     <summary>Last night my 9-year-old son was taunting my wife, complexity theorist Dana Moshkovitz, as follows: “mommy, I heard you got cooked! I heard that a robot solved the math problem you worked on for your whole career! OOF!” While my son was being a brat, he also wasn’t wrong. Whether you’re thrilled, depressed, angry, or [</summary>
   </entry>
   <entry>
+    <title>OpenAI launches Decisions API that reduces complex evaluations to yes, no, or pick one</title>
+    <link href="https://the-decoder.com/openai-launches-decisions-api-that-reduces-complex-evaluations-to-yes-no-or-pick-one"/>
+    <id>https://the-decoder.com/openai-launches-decisions-api-that-reduces-complex-evaluations-to-yes-no-or-pick-one</id>
+    <updated>2026-10-07T15:36:39.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>OpenAI's new Decisions API classifies text and images about ten times faster than the Responses API, returning yes/no probabilities, category picks, or scale ratings for $0.10 per million input tokens. The company also cut its paid API tiers from five to three. The article OpenAI launches Decisions API that reduces com</summary>
+  </entry>
+  <entry>
     <title>Zuckerberg's Biohub leads a $1.8 billion push to build AI models that predict cell behavior</title>
     <link href="https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior"/>
     <id>https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior</id>
@@ -241,22 +232,22 @@
     <summary>Biohub, the research organization backed by Mark Zuckerberg and Priscilla Chan, is coordinating a $1.8 billion initiative to train AI models that predict cell behavior. Meta, Google DeepMind, Isomorphic Labs, and the US Department of Energy are funding data, lab equipment, and compute. A first dataset should be ready i</summary>
   </entry>
   <entry>
-    <title>Anthropic launches Claude Haiku 5.5, the first Haiku model with effort controls, for high-volume, cost-sensitive tasks like summaries and classification (Anthropic)</title>
-    <link href="https://www.techmeme.com/261007/p31"/>
-    <id>https://www.techmeme.com/261007/p31</id>
-    <updated>2026-10-07T18:22:12.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>U.S. Treasury Issues First Fine Over Outbound Investments in China’s Tech Sector</title>
+    <link href="https://www.theinformation.com/briefings/u-s-treasury-issues-first-fine-outbound-investments-chinas-tech-sector"/>
+    <id>https://www.theinformation.com/briefings/u-s-treasury-issues-first-fine-outbound-investments-chinas-tech-sector</id>
+    <updated>2026-10-07T20:42:39.000Z</updated>
+    <author><name>The Information</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Anthropic : Anthropic launches Claude Haiku 5.5, the first Haiku model with effort controls, for high-volume, cost-sensitive tasks like summaries and classification — Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we've ever released. Claude Haiku 5.5 is designed for high-volume, cost</summary>
+    <summary>The U.S. Treasury Department said on Wednesday it had fined the parent company of startup accelerator Plug and Play Tech Center, the first penalty issued under an outbound investment restriction program targeting China’s tech sector. California real estate company Amidi Group was fined $200,000 ...</summary>
   </entry>
   <entry>
-    <title>OpenAI rolls out GPT-6 in ChatGPT with Intelligent UI, a new feature that includes interactive elements like charts, buttons, and forms in answers (OpenAI)</title>
-    <link href="https://www.techmeme.com/261007/p32"/>
-    <id>https://www.techmeme.com/261007/p32</id>
-    <updated>2026-10-07T18:40:02.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>OpenAI : OpenAI rolls out GPT-6 in ChatGPT with Intelligent UI, a new feature that includes interactive elements like charts, buttons, and forms in answers — Last month we introduced the first GPT-6 models for paid customers and today we're bringing that next generation of intelligence to more people …</summary>
+    <title>ollama v0.40.0 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.0"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.0</id>
+    <updated>2026-10-06T18:47:10.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>What's Changed Models run on MLX on Apple Silicon by default In this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX. ollama pull qwen3.8 ollama run qwen3.8 Additional models include gemma4 , qwen3.6 and qwen3.5 Decision models are now available on MLX a</summary>
   </entry>
   <entry>
     <title>Microsoft Debuts Nvidia-Powered PCs with On-Device AI, Following Apple’s Breakout Hit</title>
@@ -268,12 +259,21 @@
     <summary>Microsoft on Wednesday unveiled its latest effort to run AI in PCs powered by its Windows software, rather than running the AI in the cloud, which the company said would bring down costs for customers. The announcement is Microsoft’s response to Apple’s Mac Mini, which has become a hit with AI ...</summary>
   </entry>
   <entry>
-    <title>ollama v0.40.0 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.0</id>
-    <updated>2026-10-06T18:47:10.000Z</updated>
-    <author><name>ollama/ollama</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>What's Changed Models run on MLX on Apple Silicon by default In this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX. ollama pull qwen3.8 ollama run qwen3.8 Additional models include gemma4 , qwen3.6 and qwen3.5 Decision models are now available on MLX a</summary>
+    <title>Claude Haiku 5.5 is now available in Devin</title>
+    <link href="https://devin.ai/blog/claude-haiku-5-5"/>
+    <id>https://devin.ai/blog/claude-haiku-5-5</id>
+    <updated>2026-10-07T17:00:00.000Z</updated>
+    <author><name>Devin (Cognition)</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Claude Haiku 5.5 is now live in Devin. On FrontierCode 1.1 it scores 58.4%, ahead of Sonnet 5 at about an eighth of the cost per task, and it joins the sidekick lineup in Devin Fusion.</summary>
+  </entry>
+  <entry>
+    <title>Meta’s Muse launches on iPad just a month after its mobile debut</title>
+    <link href="https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut"/>
+    <id>https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut</id>
+    <updated>2026-10-07T18:30:57.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Meta’s AI agent Muse is now available on iPad, just a month after its mobile debut, as the company rapidly expands the assistant’s reach and integrations.</summary>
   </entry>
 </feed>
