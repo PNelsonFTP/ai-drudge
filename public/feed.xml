@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-07T13:08:45.052Z</updated>
+  <updated>2026-10-07T15:36:42.753Z</updated>
   <entry>
-    <title>AI computing startup Lambda to raise $4B ahead of planned IPO</title>
-    <link href="https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo"/>
-    <id>https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo</id>
-    <updated>2026-10-06T20:00:30.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Nvidia-backed Lambda is raising up to $4 billion at a $14.5 billion pre-money valuation ahead of a planned 2027 IPO, led by Coatue and Blackstone. — Also covered by: WSJ Tech</summary>
+    <title>llama.cpp b11476 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11476"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11476</id>
+    <updated>2026-10-07T14:59:08.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>metal : few-row MMA mat-mul for the remaining src0 types ( #30065 ) The generic few-row MMA kernel works for any type with a 16-weight dequantizer, so it now also takes BF16, Q1_0, Q2_0, MXFP4, Q2_K, Q3_K, TQ2_0 and the IQ types. Each type starts at the row count where it beats the current kernels on an M3 Ultra: 5 row — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
     <title>Sharing AI progress in mathematics</title>
@@ -25,6 +25,24 @@
     <summary>OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.</summary>
   </entry>
   <entry>
+    <title>Google launches platform to create video games from text prompts</title>
+    <link href="https://www.ft.com/content/0cb02773-d207-4920-8c74-d9707d2622a0?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/0cb02773-d207-4920-8c74-d9707d2622a0?syn-25a6b1a6=1</id>
+    <updated>2026-10-07T12:00:04.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Big Tech group partners with gaming tools developer Unity as AI disrupts sector — Also covered by: Bloomberg Tech</summary>
+  </entry>
+  <entry>
+    <title>OpenAI’s Alexander Embiricos is coming to TechCrunch Disrupt 2026 — days after the launch of Dots</title>
+    <link href="https://techcrunch.com/2026/10/07/openais-alexander-embiricos-is-coming-to-techcrunch-disrupt-2026-days-after-the-launch-of-dots"/>
+    <id>https://techcrunch.com/2026/10/07/openais-alexander-embiricos-is-coming-to-techcrunch-disrupt-2026-days-after-the-launch-of-dots</id>
+    <updated>2026-10-07T14:30:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>OpenAI’s Alexander Embiricos is coming to the AI Stage at TechCrunch Disrupt 2026, just days after the launch of Dots. Join this conversation by registering for your pass. Get you pass now to save up to $100 and get a second at 50% off.</summary>
+  </entry>
+  <entry>
     <title>Introducing Mistral Large 4</title>
     <link href="https://mistral.ai/news/mistral-large-4"/>
     <id>https://mistral.ai/news/mistral-large-4</id>
@@ -32,15 +50,6 @@
     <author><name>Mistral AI</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Also covered by: Lemmy c/localllama</summary>
-  </entry>
-  <entry>
-    <title>whisper.cpp v1.9.5 released</title>
-    <link href="https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.5"/>
-    <id>https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.5</id>
-    <updated>2026-10-07T12:41:42.000Z</updated>
-    <author><name>ggml-org/whisper.cpp</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Overview Maintenance release. Updates to ggml v0.26.0 . Nightly build: b5454 More info: dist : releases and versioning of ggml-org projects Changelog since v1.9.4 d1be6fd whisper : bump version to 1.9.5 ( #4102 ) 4afec37 talk-llama : update llama.cpp to v0.6.0 3d451ab sync : ggml 47f1c7d ggml : bump version to 0.26.0 ( — Also covered by: ggml-org/llama.cpp</summary>
   </entry>
   <entry>
     <title>Atlassian and OpenAI expand partnership to turn enterprise knowledge into action</title>
@@ -70,15 +79,6 @@
     <summary>Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.</summary>
   </entry>
   <entry>
-    <title>SpaceX Seeks to Raise $40 Billion From Apollo to Buy Nvidia Chips</title>
-    <link href="https://www.theinformation.com/briefings/spacex-seeks-raise-40-billion-apollo-buy-nvidia-chips"/>
-    <id>https://www.theinformation.com/briefings/spacex-seeks-raise-40-billion-apollo-buy-nvidia-chips</id>
-    <updated>2026-10-07T01:05:14.000Z</updated>
-    <author><name>The Information</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>SpaceX, the AI and rocket company led by Elon Musk, is seeking to raise $40 billion to buy Nvidia chips in a financing round led by Apollo Global Management, the Financial Times reported on Tuesday. The deal is expected to close in 2027 and consist of around $10 billion in bank loans and $30 ... — Also covered by: FT Artificial Intelligence</summary>
-  </entry>
-  <entry>
     <title>Boston Dynamics Names Former Amazon AI Leader Rohit Prasad as CEO</title>
     <link href="https://www.humanoidsdaily.com/news/boston-dynamics-rohit-prasad-ceo"/>
     <id>https://www.humanoidsdaily.com/news/boston-dynamics-rohit-prasad-ceo</id>
@@ -88,13 +88,13 @@
     <summary>Prasad takes over on October 7, bringing experience leading Alexa and Amazon Nova as Boston Dynamics advances its AI and commercialization plans. — Also covered by: The Robot Report</summary>
   </entry>
   <entry>
-    <title>Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product</title>
-    <link href="https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product"/>
-    <id>https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product</id>
-    <updated>2026-10-06T22:34:03.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Instead of helping marketers manage and optimize ad spend, the company is focusing on building the tools that generate the creative assets and campaigns.</summary>
+    <title>Advancing computer use with Ironclad</title>
+    <link href="https://openai.com/index/advancing-computer-use-with-ironclad"/>
+    <id>https://openai.com/index/advancing-computer-use-with-ironclad</id>
+    <updated>2026-10-06T10:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.</summary>
   </entry>
   <entry>
     <title>Our approach to EU text provenance rules</title>
@@ -106,40 +106,31 @@
     <summary>How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.</summary>
   </entry>
   <entry>
-    <title>Where Nvidia’s $100 Billion Dealmaking Juggernaut Will Go Next</title>
-    <link href="https://www.theinformation.com/articles/nvidias-100-billion-dealmaking-juggernaut-will-go-next"/>
-    <id>https://www.theinformation.com/articles/nvidias-100-billion-dealmaking-juggernaut-will-go-next</id>
-    <updated>2026-10-07T13:00:36.000Z</updated>
-    <author><name>The Information</name></author>
+    <title>b11477: llama: share the nextn tensor flags between models (#30097)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11477"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11477</id>
+    <updated>2026-10-07T14:30:00.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>llama: share the nextn tensor flags between models Follow-up of the TODO in glm5-next: move the trunk-only and MTP-only detection that each model copied into a nextn_flags helper of llama_model_base. It probes the first trunk layer and the first NextN layer, and adds TENSOR_SKIP when MTP is not loaded. qwen4exp probes </summary>
+  </entry>
+  <entry>
+    <title>Parallel Systems, which builds autonomous freight trains, raised a $100M Series C led by AVP, taking its total funding to $200M+ (Tim De Chant/TechCrunch)</title>
+    <link href="https://www.techmeme.com/261007/p24"/>
+    <id>https://www.techmeme.com/261007/p24</id>
+    <updated>2026-10-07T15:15:16.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>This July, Nvidia caught wind of a looming takeover of OpenRouter, a three-year-old startup that had emerged as a popular marketplace for AI models, including many cheaper open-source ones. Databricks and Stripe had already been talking to the startup about a potential sale. Nvidia was late to the party. The chipmaker’</summary>
+    <summary>Tim De Chant / TechCrunch : Parallel Systems, which builds autonomous freight trains, raised a $100M Series C led by AVP, taking its total funding to $200M+ — The railroad industry was one of the first to disrupt how the world worked with technology, but lately, innovation in freight railroading has amounted to little </summary>
   </entry>
   <entry>
-    <title>ollama v0.40.0 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.0</id>
-    <updated>2026-10-06T18:47:10.000Z</updated>
-    <author><name>ollama/ollama</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>What's Changed Models run on MLX on Apple Silicon by default In this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX. ollama pull qwen3.8 ollama run qwen3.8 Additional models include gemma4 , qwen3.6 and qwen3.5 Decision models are now available on MLX a</summary>
-  </entry>
-  <entry>
-    <title>Stuut, which uses AI agents to automate enterprise order-to-cash cycles and serves 150+ clients, raised a $52.5M Series B led by Insight, for $93M total funding (Mike Wheatley/SiliconANGLE)</title>
-    <link href="https://www.techmeme.com/261007/p17"/>
-    <id>https://www.techmeme.com/261007/p17</id>
-    <updated>2026-10-07T13:01:06.000Z</updated>
+    <title>Nous Research, which makes the open-source Hermes AI agent that has hit 22M+ downloads since February, raised $90M at a $1.2B valuation to expand to enterprises (Yuliya Chernova/Wall Street Journal)</title>
+    <link href="https://www.techmeme.com/261007/p20"/>
+    <id>https://www.techmeme.com/261007/p20</id>
+    <updated>2026-10-07T14:05:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Mike Wheatley / SiliconANGLE : Stuut, which uses AI agents to automate enterprise order-to-cash cycles and serves 150+ clients, raised a $52.5M Series B led by Insight, for $93M total funding — Artificial intelligence companies that can help even bigger companies to get paid are likely to make a fair bit of money thems</summary>
-  </entry>
-  <entry>
-    <title>Brookfield to Buy ESR India Warehouse Parks in $444 Million Deal</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-07/brookfield-to-buy-esr-india-warehouse-parks-in-444-million-deal"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-07/brookfield-to-buy-esr-india-warehouse-parks-in-444-million-deal</id>
-    <updated>2026-10-07T12:29:39.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Brookfield Asset Management Ltd. said it has committed 43 billion rupees ($444 million) to acquire and develop ESR India’s portfolio in its first deal for warehousing-focused real estate in the country.</summary>
+    <summary>Yuliya Chernova / Wall Street Journal : Nous Research, which makes the open-source Hermes AI agent that has hit 22M+ downloads since February, raised $90M at a $1.2B valuation to expand to enterprises — The startup's Hermes tool has been downloaded more than 22 million times since February — Nous Research has raised $9</summary>
   </entry>
   <entry>
     <title>SGAnalog: An End-to-End Circuit Benchmark from Open-Source Silicon Tapeouts</title>
@@ -151,13 +142,22 @@
     <summary>arXiv:2610.03934v1 Announce Type: new Abstract: Existing analog integrated circuit design benchmarks make two questions hard to answer: whether a model has learned transferable circuit skills rather than recalled familiar examples, and whether its output works under defined process and test conditions. We introduce a b</summary>
   </entry>
   <entry>
-    <title>Google launches Playground, a browser-based, no-code AI game creation platform available to US users aged 18+, powered by Gemini, Nano Banana, and Lyria (Jay Peters/The Verge)</title>
-    <link href="https://www.techmeme.com/261007/p15"/>
-    <id>https://www.techmeme.com/261007/p15</id>
-    <updated>2026-10-07T12:20:04.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Google bets Gemini can turn casual players into game developers with new Playground feature</title>
+    <link href="https://the-decoder.com/google-bets-gemini-can-turn-casual-players-into-game-developers-with-new-playground-feature"/>
+    <id>https://the-decoder.com/google-bets-gemini-can-turn-casual-players-into-game-developers-with-new-playground-feature</id>
+    <updated>2026-10-07T14:44:42.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="PRODUCTS"/>
-    <summary>Jay Peters / The Verge : Google launches Playground, a browser-based, no-code AI game creation platform available to US users aged 18+, powered by Gemini, Nano Banana, and Lyria — Google Playground is a browser-based tool for making games from AI prompts. … Google today announced Playground …</summary>
+    <summary>Google launched Playground, a browser-based platform that lets users create their own games using nothing but text prompts and no coding skills. The platform runs on Gemini, Nano Banana, and Lyria. Alongside Playground, Google and Unity announced Unity Spark, a more professional AI tool with a beta planned for 2026. Th</summary>
+  </entry>
+  <entry>
+    <title>The U.S. Just Bet $1 Billion on Quantum Chip Manufacturing</title>
+    <link href="https://spectrum.ieee.org/anderon-quantum-fab"/>
+    <id>https://spectrum.ieee.org/anderon-quantum-fab</id>
+    <updated>2026-10-07T13:09:13.000Z</updated>
+    <author><name>IEEE Spectrum Semiconductors</name></author>
+    <category term="HARDWARE"/>
+    <summary>The U.S. Department of Commerce has finalized a CHIPS and Science Act R&amp;D award of up to $1 billion for Anderon, a quantum foundry IBM established earlier this year. The 16 September announcement backs a manufacturing service for IBM and other quantum-hardware developers. IBM is matching the award with $1 billion in ca</summary>
   </entry>
   <entry>
     <title>ChatGPT rated &quot;unacceptable risk&quot; for teens after parental alerts failed during suicide conversations</title>
@@ -178,58 +178,40 @@
     <summary>Attackers Hide AI Prompt Injections Inside Phishing Emails Infosecurity Magazine</summary>
   </entry>
   <entry>
+    <title>PoeLLM malware infects exposed AI servers in cryptomining attacks</title>
+    <link href="https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks"/>
+    <id>https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks</id>
+    <updated>2026-10-07T15:04:08.000Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>A cryptomining campaign targeting exposed AI services is using PoeLLM malware to turn compromised servers into scanners and exploit launchpads. [...]</summary>
+  </entry>
+  <entry>
     <title>From Ballet To Breach Prevention: How A Magician’s Son Raised $4.2M In Seed Funding For His Cybersecurity Startup</title>
     <link href="https://news.crunchbase.com/cybersecurity/from-ballet-to-breach-prevention-ai-startup-hilt-cielen"/>
     <id>https://news.crunchbase.com/cybersecurity/from-ballet-to-breach-prevention-ai-startup-hilt-cielen</id>
     <updated>2026-10-07T13:00:37.000Z</updated>
     <author><name>Crunchbase News AI</name></author>
-    <category term="CYBER THREATS"/>
+    <category term="FUNDING &amp; DEALS"/>
     <summary>The latest in our series of articles on venture funding to non-tech founders features a former magician's assistant and ballet dancer who's building cybersecurity software with $4.2 million in seed funding.</summary>
   </entry>
   <entry>
-    <title>One breach, please, and make no mistakes</title>
-    <link href="https://blog.talosintelligence.com/one-breach-please-and-make-no-mistakes"/>
-    <id>https://blog.talosintelligence.com/one-breach-please-and-make-no-mistakes</id>
-    <updated>2026-10-07T10:00:25.000Z</updated>
-    <author><name>Talos Intelligence</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>The cybersecurity community has seen examples of autonomous agents, built inside AI labs, attacking public infrastructure. How you prepare for agentic threats is what makes the difference during real incidents.</summary>
-  </entry>
-  <entry>
-    <title>What Is Agentic Pentesting? What It Proves, and Where It Stops.</title>
-    <link href="https://thehackernews.com/2026/10/what-is-agentic-pentesting-what-it.html"/>
-    <id>https://thehackernews.com/2026/10/what-is-agentic-pentesting-what-it.html</id>
-    <updated>2026-10-07T11:42:24.000Z</updated>
-    <author><name>The Hacker News</name></author>
+    <title>As AI Closed In on ‘Unique Games’ Proof, Researchers Raced to Beat the Machines</title>
+    <link href="https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007"/>
+    <id>https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007</id>
+    <updated>2026-10-07T15:08:46.000Z</updated>
+    <author><name>Quanta Magazine AI</name></author>
     <category term="ANALYSIS"/>
-    <summary>If you’re evaluating an agentic pentesting solution right now, you’ve probably heard the same pitch more than once: point it at a target, and it discovers, validates, and exploits attack paths autonomously, the way a real attacker would. That promise is worth taking seriously. It’s also worth pressure testing, and thre</summary>
+    <summary>In the shadow of a rumored AI proof of one of the biggest problems in their field, three computer scientists rushed to publish their own milestone result. The post As AI Closed In on ‘Unique Games’ Proof, Researchers Raced to Beat the Machines first appeared on Quanta Magazine</summary>
   </entry>
   <entry>
-    <title>Harmonic Drive to share how integrated actuators can reduce engineering at RoboBusiness</title>
-    <link href="https://www.therobotreport.com/harmonic-drive-share-how-integrated-actuators-reduce-engineering-robobusiness"/>
-    <id>https://www.therobotreport.com/harmonic-drive-share-how-integrated-actuators-reduce-engineering-robobusiness</id>
-    <updated>2026-10-07T12:24:09.000Z</updated>
-    <author><name>The Robot Report</name></author>
+    <title>Former Tesla Optimus Lead is Launching an Industrial Robot Startup</title>
+    <link href="https://www.theinformation.com/articles/former-tesla-optimus-lead-launching-industrial-robot-startup"/>
+    <id>https://www.theinformation.com/articles/former-tesla-optimus-lead-launching-industrial-robot-startup</id>
+    <updated>2026-10-07T14:01:29.000Z</updated>
+    <author><name>The Information</name></author>
     <category term="ROBOTICS"/>
-    <summary>Attendees will learn how integrated actuators can reduce engineering effort by simplifying system integration. The post Harmonic Drive to share how integrated actuators can reduce engineering at RoboBusiness appeared first on The Robot Report .</summary>
-  </entry>
-  <entry>
-    <title>Quantum City Relaunches With Focus on Quantum Training and Careers</title>
-    <link href="https://thequantuminsider.com/2026/10/07/quantum-city-relaunch-website-career-resources"/>
-    <id>https://thequantuminsider.com/2026/10/07/quantum-city-relaunch-website-career-resources</id>
-    <updated>2026-10-07T12:30:00.000Z</updated>
-    <author><name>The Quantum Insider</name></author>
-    <category term="QUANTUM"/>
-    <summary>Insider Brief PRESS RELEASE — Quantum City, the public engagement initiative representing the UK National Quantum Technologies Programme, has relaunched today with a redeveloped website, updated resources and a new strategy aimed at highlighting training opportunities and career pathways for the sector. Designed for a </summary>
-  </entry>
-  <entry>
-    <title>Measures We’ve Put in Place to Fight Child Exploitation</title>
-    <link href="https://about.fb.com/news/2026/10/measures-weve-put-in-place-to-fight-child-exploitation"/>
-    <id>https://about.fb.com/news/2026/10/measures-weve-put-in-place-to-fight-child-exploitation</id>
-    <updated>2026-10-07T13:03:19.000Z</updated>
-    <author><name>Meta AI Blog</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Today we're sharing the additional measures we've put in place to strengthen our efforts to combat child sexual exploitation on our platforms. The post Measures We’ve Put in Place to Fight Child Exploitation appeared first on Meta Newsroom .</summary>
+    <summary>Ashish Kumar , a former AI lead for Tesla’s Optimus humanoid robots, has co-founded a startup developing non-humanoid robots that handle a variety of tasks that would normally be done by highly skilled workers in industries such as manufacturing and aerospace, according to two people with direct knowledge of the matter</summary>
   </entry>
   <entry>
     <title>Introducing Playground: Create and play custom games</title>
@@ -241,39 +223,57 @@
     <summary>Playground is a new experimental gaming platform that lets you create, play, and share custom games.</summary>
   </entry>
   <entry>
-    <title>Xreal opens preorders for its Android XR-powered Aura glasses with a compute puck, starting at $1,279 for 12GB/256GB, in the US, Canada, Japan, and South Korea (Mariella Moon/Engadget)</title>
-    <link href="https://www.techmeme.com/261007/p14"/>
-    <id>https://www.techmeme.com/261007/p14</id>
-    <updated>2026-10-07T12:09:14.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Healthleap raises $38M for its AI that flags hospital patients who may need a closer look</title>
+    <link href="https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look"/>
+    <id>https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look</id>
+    <updated>2026-10-07T15:07:08.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Mariella Moon / Engadget : Xreal opens preorders for its Android XR-powered Aura glasses with a compute puck, starting at $1,279 for 12GB/256GB, in the US, Canada, Japan, and South Korea — The glasses are now available for pre-order. — Xreal has officially launched its Android XR-powered Aura smartglasses …</summary>
+    <summary>The financing includes an $8M seed round co-led by Sequoia Capital and First Round Capital, and a $30 million Series A led by Hummingbird Ventures.</summary>
   </entry>
   <entry>
-    <title>cmpunlocker v0.5 just dropped, ECC support along with 4 extra SM unlocked for FREE, who needs a 64GB DGX Spark when you've got a CMP170hx right? 1.5TB/s memory BW vs 273 GB/s, all for less than 1/2 the price of a 64GB DGX Spark</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wzth65/cmpunlocker_v05_just_dropped_ecc_support_along"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wzth65/cmpunlocker_v05_just_dropped_ecc_support_along</id>
-    <updated>2026-10-07T10:55:42.000Z</updated>
+    <title>Tony Fadell on why the first wave of AI gadgets failed — and what comes next</title>
+    <link href="https://techcrunch.com/2026/10/07/tony-fadell-on-why-the-first-wave-of-ai-gadgets-failed-and-what-comes-next"/>
+    <id>https://techcrunch.com/2026/10/07/tony-fadell-on-why-the-first-wave-of-ai-gadgets-failed-and-what-comes-next</id>
+    <updated>2026-10-07T14:41:38.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>The “father of the iPod” says the first generation of AI gadgets failed to solve real problems — and the next wave will need to earn consumers’ trust.</summary>
+  </entry>
+  <entry>
+    <title>Local Qwen 3.8 27B vs DeepSeek Flash API: Is local good enough?</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wzvs45/local_qwen_38_27b_vs_deepseek_flash_api_is_local"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wzvs45/local_qwen_38_27b_vs_deepseek_flash_api_is_local</id>
+    <updated>2026-10-07T12:54:55.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>If you're like me and saw the price increase for the 128gb DGX Spark go from 4.7k -&gt; 7k while a new version with 64GB launch for 5k, you'll have been very disappointed and every right to be so, it's just plain sad for localAI. Well, here's some good news, cmpunlocker v0.5 just dropped with ecc support and +4 SM for fre</summary>
+    <summary>Running a model on your own machine used to be a privacy story with a quality tax. On this generation that trade has narrowed to where we can state it plainly: for daily work, the local model is good enough. We measured it — 25 paired tasks across four workloads, same prompts, one strong independent judge — and that is</summary>
   </entry>
   <entry>
-    <title>feat: add GLM5Next MTP, optimize by pwilkin · Pull Request #29928 · ggml-org/llama.cpp</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1wzvdqe/feat_add_glm5next_mtp_optimize_by_pwilkin_pull"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1wzvdqe/feat_add_glm5next_mtp_optimize_by_pwilkin_pull</id>
-    <updated>2026-10-07T12:36:13.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>ollama v0.40.0 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.0"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.0</id>
+    <updated>2026-10-06T18:47:10.000Z</updated>
+    <author><name>ollama/ollama</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>now you can use GLM 5 Flash MTP locally submitted by /u/jacek2023 [link] [comments]</summary>
+    <summary>What's Changed Models run on MLX on Apple Silicon by default In this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX. ollama pull qwen3.8 ollama run qwen3.8 Additional models include gemma4 , qwen3.6 and qwen3.5 Decision models are now available on MLX a</summary>
   </entry>
   <entry>
-    <title>HPE Launches Gen13 ProLiant Servers for HPC and AI Workloads</title>
-    <link href="https://www.hpcwire.com/2026/10/07/hpe-launches-gen13-proliant-servers-for-hpc-and-ai-workloads"/>
-    <id>https://www.hpcwire.com/2026/10/07/hpe-launches-gen13-proliant-servers-for-hpc-and-ai-workloads</id>
-    <updated>2026-10-07T13:00:49.000Z</updated>
-    <author><name>HPC Wire</name></author>
+    <title>AI Agenda Live: From Token Maxing to Value maxing: Getting More From Every Unit of Compute</title>
+    <link href="https://www.theinformation.com/articles/ai-agenda-live-token-maxing-value-maxing-getting-every-unit-compute"/>
+    <id>https://www.theinformation.com/articles/ai-agenda-live-token-maxing-value-maxing-getting-every-unit-compute</id>
+    <updated>2026-10-07T15:34:03.000Z</updated>
+    <author><name>The Information</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>HPE today unveiled four new ProLiant Gen13 Servers, giving customers AMD EPYC-based compute power for running a variety of agentic AI, high performance analytics, and modeling and simulation workloads in both traditional 19-inch and new 21-inch OCP rack configurations. Two of the new ProLiant servers–the ProLiant DL585</summary>
+    <summary>In AI circles, conversations about compute shortages are as common as talk of the weather. As agentic workflows threaten to multiply token consumption further, it’s little wonder that talk has shifted from securing GPUs to optimizing them. At a recent panel, The Information’s Phoebe Liu sat down with three AI leaders—f</summary>
+  </entry>
+  <entry>
+    <title>One breach, please, and make no mistakes</title>
+    <link href="https://blog.talosintelligence.com/one-breach-please-and-make-no-mistakes"/>
+    <id>https://blog.talosintelligence.com/one-breach-please-and-make-no-mistakes</id>
+    <updated>2026-10-07T10:00:25.000Z</updated>
+    <author><name>Talos Intelligence</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>The cybersecurity community has seen examples of autonomous agents, built inside AI labs, attacking public infrastructure. How you prepare for agentic threats is what makes the difference during real incidents.</summary>
   </entry>
 </feed>
