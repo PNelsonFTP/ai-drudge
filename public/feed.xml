@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-07T21:21:28.293Z</updated>
+  <updated>2026-10-07T23:08:36.073Z</updated>
   <entry>
     <title>Claude Haiku 5.5</title>
     <link href="https://simonwillison.net/2026/Oct/7/claude-haiku-5-5"/>
@@ -14,15 +14,6 @@
     <author><name>Simon Willison</name></author>
     <category term="MODEL RELEASES"/>
     <summary>As previously promised , here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5 . The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago , and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full 10x the price of OpenAI' — Also covered by: Devin (Cognition), AWS ML Blog, GitHub Copilot Changelog</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp b11476 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11476"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11476</id>
-    <updated>2026-10-07T14:59:08.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>metal : few-row MMA mat-mul for the remaining src0 types ( #30065 ) The generic few-row MMA kernel works for any type with a 16-weight dequantizer, so it now also takes BF16, Q1_0, Q2_0, MXFP4, Q2_K, Q3_K, TQ2_0 and the IQ types. Each type starts at the row count where it beats the current kernels on an M3 Ultra: 5 row — Also covered by: ggml-org/whisper.cpp, LocalLLaMA Subreddit</summary>
   </entry>
   <entry>
     <title>Sharing AI progress in mathematics</title>
@@ -34,6 +25,24 @@
     <summary>OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.</summary>
   </entry>
   <entry>
+    <title>Nous Research confirms it hit $1.5B valuation, launches AI agents for business users</title>
+    <link href="https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users"/>
+    <id>https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users</id>
+    <updated>2026-10-07T20:48:45.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>The developer of Hermes Agent raised a $90 million Series B.</summary>
+  </entry>
+  <entry>
+    <title>llama.cpp b11476 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11476"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11476</id>
+    <updated>2026-10-07T14:59:08.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>metal : few-row MMA mat-mul for the remaining src0 types ( #30065 ) The generic few-row MMA kernel works for any type with a 16-weight dequantizer, so it now also takes BF16, Q1_0, Q2_0, MXFP4, Q2_K, Q3_K, TQ2_0 and the IQ types. Each type starts at the row count where it beats the current kernels on an M3 Ultra: 5 row — Also covered by: ggml-org/whisper.cpp</summary>
+  </entry>
+  <entry>
     <title>GPT-6 and Intelligent UI for everyone</title>
     <link href="https://openai.com/index/gpt-6-for-everyone"/>
     <id>https://openai.com/index/gpt-6-for-everyone</id>
@@ -41,6 +50,15 @@
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
     <summary>GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.</summary>
+  </entry>
+  <entry>
+    <title>Helping teens learn, plan, and shape the future of AI</title>
+    <link href="https://openai.com/index/teens-learn-and-plan"/>
+    <id>https://openai.com/index/teens-learn-and-plan</id>
+    <updated>2026-10-07T12:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.</summary>
   </entry>
   <entry>
     <title>Hackers hijack Google domains after breaching ccTLD registries</title>
@@ -61,22 +79,13 @@
     <summary>Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.</summary>
   </entry>
   <entry>
-    <title>Helping teens learn, plan, and shape the future of AI</title>
-    <link href="https://openai.com/index/teens-learn-and-plan"/>
-    <id>https://openai.com/index/teens-learn-and-plan</id>
-    <updated>2026-10-07T12:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp: add a GPU cache for MoE experts kept in host memory by am17an · Pull Request has been merged</title>
-    <link href="https://sh.itjust.works/post/67951852"/>
-    <id>https://sh.itjust.works/post/67951852</id>
-    <updated>2026-10-07T18:16:12.000Z</updated>
-    <author><name>Lemmy c/localllama</name></author>
+    <title>NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents</title>
+    <link href="https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event"/>
+    <id>https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event</id>
+    <updated>2026-10-07T18:45:28.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by BeefAndPoultry to localllama 12 points | 1 comments https://github.com/ggml-org/llama.cpp/pull/29887 Anyone tested this yet? Enable with --moe-cache-mib N. In experiments it was found 10% of the total expert size is good. Baseline is master with the default –fit . With –moe-cache-mib , –fit counts the cach — Also covered by: LocalLLaMA Subreddit</summary>
+    <summary>At a Microsoft event in San Francisco on Wednesday, Jensen Huang and Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for AI agents to run on Windows PCs. NVIDIA was founded because of Windows, Huang said. Now AI agents are coming to Windows. “If you look at the entire journey of — Also covered by: r/LocalLLM</summary>
   </entry>
   <entry>
     <title>HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object Interaction</title>
@@ -106,49 +115,31 @@
     <summary>MUNICH and ZURICH, Oct. 7, 2026 — Infineon Technologies AG and ZuriQ AG, a Swiss quantum computing company spun out of ETH Zurich, today announced the expansion of their collaboration to advance scalable quantum computing hardware. The partnership combines ZuriQ’s pioneering trapped-ion quantum computing architecture w — Also covered by: The Quantum Insider</summary>
   </entry>
   <entry>
-    <title>Atlassian and OpenAI expand partnership to turn enterprise knowledge into action</title>
-    <link href="https://openai.com/index/atlassian-partnership"/>
-    <id>https://openai.com/index/atlassian-partnership</id>
-    <updated>2026-10-06T16:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.</summary>
-  </entry>
-  <entry>
-    <title>b11477: llama: share the nextn tensor flags between models (#30097)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11477"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11477</id>
-    <updated>2026-10-07T14:30:00.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>ollama v0.40.1-rc0 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.1-rc0"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.1-rc0</id>
+    <updated>2026-10-07T22:22:54.000Z</updated>
+    <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>llama: share the nextn tensor flags between models Follow-up of the TODO in glm5-next: move the trunk-only and MTP-only detection that each model copied into a nextn_flags helper of llama_model_base. It probes the first trunk layer and the first NextN layer, and adds TENSOR_SKIP when MTP is not loaded. qwen4exp probes </summary>
+    <summary>mlx: drop carried metal residency patch now that it is upstream ( #18854 )</summary>
   </entry>
   <entry>
-    <title>Nous Research confirms it hit $1.5B valuation, launches AI agents for business users</title>
-    <link href="https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users"/>
-    <id>https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users</id>
-    <updated>2026-10-07T20:48:45.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>The developer of Hermes agent raised a $90 million Series B.</summary>
+    <title>Claude Haiku 5.5 is now available in Devin</title>
+    <link href="https://devin.ai/blog/claude-haiku-5-5"/>
+    <id>https://devin.ai/blog/claude-haiku-5-5</id>
+    <updated>2026-10-07T17:00:00.000Z</updated>
+    <author><name>Devin (Cognition)</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Claude Haiku 5.5 is now live in Devin. On FrontierCode 1.1 it scores 58.4%, ahead of Sonnet 5 at about an eighth of the cost per task, and it joins the sidekick lineup in Devin Fusion.</summary>
   </entry>
   <entry>
-    <title>Qwen 3.8 Flash-Next on 64GB RAM + 16GB VRAM, worth it over a fully-loaded 3.6 35B-A3B?</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x07qlh/qwen_38_flashnext_on_64gb_ram_16gb_vram_worth_it"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x07qlh/qwen_38_flashnext_on_64gb_ram_16gb_vram_worth_it</id>
-    <updated>2026-10-07T20:43:17.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>4080 16GB, 64GB RAM. Currently on 3.6 35B-A3B (Unsloth quant, fits fully in VRAM) and happy with it. Anyone tried Flash-Next at Q2/Q3 on a similar setup? Worth the switch, or should I stay put? Asking before committing to a 30GB+ download. submitted by /u/msalsas [link] [comments]</summary>
-  </entry>
-  <entry>
-    <title>First Brands’ Brothers Say They’ll Blame Each Other at Trial</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-07/first-brands-brothers-say-they-ll-blame-each-other-at-trial"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-07/first-brands-brothers-say-they-ll-blame-each-other-at-trial</id>
-    <updated>2026-10-07T20:05:38.000Z</updated>
+    <title>Braskem Creditors Balk at Restructuring Plan as Deadline Looms</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-07/braskem-creditors-balk-at-restructuring-plan-as-deadline-looms"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-07/braskem-creditors-balk-at-restructuring-plan-as-deadline-looms</id>
+    <updated>2026-10-07T21:41:19.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The two brothers who built First Brands Group into a global business, and whom prosecutors accuse of driving it into bankruptcy through a multibillion-dollar fraud, are now pointing the finger at each other.</summary>
+    <summary>Braskem’s creditors shunned another restructuring proposal made by the company and its shareholders ahead of a key Oct. 9 deadline for a deal to rework some $11 billion of debt, people familiar with the matter said.</summary>
   </entry>
   <entry>
     <title>Discovering the value of humanistic inquiry</title>
@@ -160,22 +151,22 @@
     <summary>Students in MIT’s Concourse program delve deeply into the human condition, debate challenging questions, and learn to develop judgment about issues that can’t be quantified.</summary>
   </entry>
   <entry>
-    <title>Anthropic prices Haiku 5.5 at $0.10/1M input and $0.50/1M output tokens for requests up to 100K tokens, and $0.50 and $2.50 above, vs. $1 and $5 for Haiku 4.5 (Frederic Lardinois/The New Stack)</title>
-    <link href="https://www.techmeme.com/261007/p33"/>
-    <id>https://www.techmeme.com/261007/p33</id>
-    <updated>2026-10-07T18:45:30.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="HARDWARE"/>
-    <summary>Frederic Lardinois / The New Stack : Anthropic prices Haiku 5.5 at $0.10/1M input and $0.50/1M output tokens for requests up to 100K tokens, and $0.50 and $2.50 above, vs. $1 and $5 for Haiku 4.5 — Anthropic on Wednesday launched Claude Haiku 5.5, the first new version of its smallest and most affordable model in nearl</summary>
+    <title>OpenAI launches Decisions API that reduces complex evaluations to yes, no, or pick one</title>
+    <link href="https://the-decoder.com/openai-launches-decisions-api-that-reduces-complex-evaluations-to-yes-no-or-pick-one"/>
+    <id>https://the-decoder.com/openai-launches-decisions-api-that-reduces-complex-evaluations-to-yes-no-or-pick-one</id>
+    <updated>2026-10-07T15:36:39.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="PRODUCTS"/>
+    <summary>OpenAI's new Decisions API classifies text and images about ten times faster than the Responses API, returning yes/no probabilities, category picks, or scale ratings for $0.10 per million input tokens. The company also cut its paid API tiers from five to three. The article OpenAI launches Decisions API that reduces com</summary>
   </entry>
   <entry>
-    <title>SGAnalog: An End-to-End Circuit Benchmark from Open-Source Silicon Tapeouts</title>
-    <link href="https://arxiv.org/abs/2610.03934"/>
-    <id>https://arxiv.org/abs/2610.03934</id>
-    <updated>2026-10-07T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
+    <title>Evolution of Web3 in Cloud Supply Chain Attacks</title>
+    <link href="https://unit42.paloaltonetworks.com/web3-cloud-supply-chain-attacks"/>
+    <id>https://unit42.paloaltonetworks.com/web3-cloud-supply-chain-attacks</id>
+    <updated>2026-10-07T22:00:16.000Z</updated>
+    <author><name>Palo Alto Unit 42</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>arXiv:2610.03934v1 Announce Type: new Abstract: Existing analog integrated circuit design benchmarks make two questions hard to answer: whether a model has learned transferable circuit skills rather than recalled familiar examples, and whether its output works under defined process and test conditions. We introduce a b</summary>
+    <summary>Unit 42 details how threat actors leverage Web3 infrastructure and open-source supply chain attacks to breach enterprise cloud environments The post Evolution of Web3 in Cloud Supply Chain Attacks appeared first on Unit 42 .</summary>
   </entry>
   <entry>
     <title>Anthropic Gives Vetted Defenders Fewer Claude Guardrails</title>
@@ -214,22 +205,13 @@
     <summary>Last night my 9-year-old son was taunting my wife, complexity theorist Dana Moshkovitz, as follows: “mommy, I heard you got cooked! I heard that a robot solved the math problem you worked on for your whole career! OOF!” While my son was being a brat, he also wasn’t wrong. Whether you’re thrilled, depressed, angry, or [</summary>
   </entry>
   <entry>
-    <title>OpenAI launches Decisions API that reduces complex evaluations to yes, no, or pick one</title>
-    <link href="https://the-decoder.com/openai-launches-decisions-api-that-reduces-complex-evaluations-to-yes-no-or-pick-one"/>
-    <id>https://the-decoder.com/openai-launches-decisions-api-that-reduces-complex-evaluations-to-yes-no-or-pick-one</id>
-    <updated>2026-10-07T15:36:39.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>b11477: llama: share the nextn tensor flags between models (#30097)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11477"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11477</id>
+    <updated>2026-10-07T14:30:00.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>OpenAI's new Decisions API classifies text and images about ten times faster than the Responses API, returning yes/no probabilities, category picks, or scale ratings for $0.10 per million input tokens. The company also cut its paid API tiers from five to three. The article OpenAI launches Decisions API that reduces com</summary>
-  </entry>
-  <entry>
-    <title>Zuckerberg's Biohub leads a $1.8 billion push to build AI models that predict cell behavior</title>
-    <link href="https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior"/>
-    <id>https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior</id>
-    <updated>2026-10-07T17:58:20.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Biohub, the research organization backed by Mark Zuckerberg and Priscilla Chan, is coordinating a $1.8 billion initiative to train AI models that predict cell behavior. Meta, Google DeepMind, Isomorphic Labs, and the US Department of Energy are funding data, lab equipment, and compute. A first dataset should be ready i</summary>
+    <summary>llama: share the nextn tensor flags between models Follow-up of the TODO in glm5-next: move the trunk-only and MTP-only detection that each model copied into a nextn_flags helper of llama_model_base. It probes the first trunk layer and the first NextN layer, and adds TENSOR_SKIP when MTP is not loaded. qwen4exp probes </summary>
   </entry>
   <entry>
     <title>U.S. Treasury Issues First Fine Over Outbound Investments in China’s Tech Sector</title>
@@ -241,31 +223,22 @@
     <summary>The U.S. Treasury Department said on Wednesday it had fined the parent company of startup accelerator Plug and Play Tech Center, the first penalty issued under an outbound investment restriction program targeting China’s tech sector. California real estate company Amidi Group was fined $200,000 ...</summary>
   </entry>
   <entry>
-    <title>llama.cpp on the stage</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x079wc/llamacpp_on_the_stage"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x079wc/llamacpp_on_the_stage</id>
-    <updated>2026-10-07T20:25:51.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>https://x.com/ggerganov/status/2107908265032229261 submitted by /u/jacek2023 [link] [comments] — Also covered by: ggml-org/llama.cpp</summary>
+    <title>Sources: Broadcom has been working to arrange more than $50B in financing for OpenAI's custom AI chip; Oracle is in talks on financing for a big chip purchase (Wall Street Journal)</title>
+    <link href="https://www.techmeme.com/261007/p37"/>
+    <id>https://www.techmeme.com/261007/p37</id>
+    <updated>2026-10-07T21:45:32.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Wall Street Journal : Sources: Broadcom has been working to arrange more than $50B in financing for OpenAI's custom AI chip; Oracle is in talks on financing for a big chip purchase — Apollo, Blackstone and Goldman Sachs among lenders in talks to finance megadeals worth tens of billions of dollars apiece</summary>
   </entry>
   <entry>
-    <title>ollama v0.40.0 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.0</id>
-    <updated>2026-10-06T18:47:10.000Z</updated>
-    <author><name>ollama/ollama</name></author>
+    <title>Microsoft Debuts Nvidia-Powered PCs with On-Device AI, Following Apple’s Breakout Hit</title>
+    <link href="https://www.theinformation.com/briefings/microsoft-debuts-new-windows-pcs-features-powered-on-device-ai"/>
+    <id>https://www.theinformation.com/briefings/microsoft-debuts-new-windows-pcs-features-powered-on-device-ai</id>
+    <updated>2026-10-07T18:21:24.000Z</updated>
+    <author><name>The Information</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>What's Changed Models run on MLX on Apple Silicon by default In this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX. ollama pull qwen3.8 ollama run qwen3.8 Additional models include gemma4 , qwen3.6 and qwen3.5 Decision models are now available on MLX a</summary>
-  </entry>
-  <entry>
-    <title>Claude Haiku 5.5 is now available in Devin</title>
-    <link href="https://devin.ai/blog/claude-haiku-5-5"/>
-    <id>https://devin.ai/blog/claude-haiku-5-5</id>
-    <updated>2026-10-07T17:00:00.000Z</updated>
-    <author><name>Devin (Cognition)</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Claude Haiku 5.5 is now live in Devin. On FrontierCode 1.1 it scores 58.4%, ahead of Sonnet 5 at about an eighth of the cost per task, and it joins the sidekick lineup in Devin Fusion.</summary>
+    <summary>Microsoft on Wednesday unveiled its latest effort to run AI in PCs powered by its Windows software, rather than running the AI in the cloud, which the company said would bring down costs for customers. The announcement is Microsoft’s response to Apple’s Mac Mini, which has become a hit with AI ...</summary>
   </entry>
   <entry>
     <title>Meta’s Muse launches on iPad just a month after its mobile debut</title>
@@ -275,5 +248,32 @@
     <author><name>TechCrunch AI</name></author>
     <category term="AGENTS &amp; TOOLS"/>
     <summary>Meta’s AI agent Muse is now available on iPad, just a month after its mobile debut, as the company rapidly expands the assistant’s reach and integrations.</summary>
+  </entry>
+  <entry>
+    <title>AI upends Singapore’s ‘quant Olympics’</title>
+    <link href="https://www.ft.com/content/ec8b74b6-0cf7-4ded-abd4-85bde8a80df4?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/ec8b74b6-0cf7-4ded-abd4-85bde8a80df4?syn-25a6b1a6=1</id>
+    <updated>2026-10-07T21:00:03.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Nigerian student Victor Ayebameru takes first place in competition that identifies future hedge fund stars</summary>
+  </entry>
+  <entry>
+    <title>What to Know About Suspected Plague Case in Siberia</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-10-07/what-to-know-about-suspected-plague-case-in-siberia-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-10-07/what-to-know-about-suspected-plague-case-in-siberia-video</id>
+    <updated>2026-10-07T22:10:30.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Plague is one of history’s most feared diseases, responsible for pandemics that killed tens of millions of people. Today, human cases are rare and can usually be treated with antibiotics. A suspected case of pneumonic plague in Siberia has renewed attention on the disease after a young worker at a Russian institute tha</summary>
+  </entry>
+  <entry>
+    <title>SGAnalog: An End-to-End Circuit Benchmark from Open-Source Silicon Tapeouts</title>
+    <link href="https://arxiv.org/abs/2610.03934"/>
+    <id>https://arxiv.org/abs/2610.03934</id>
+    <updated>2026-10-07T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
+    <category term="RESEARCH"/>
+    <summary>arXiv:2610.03934v1 Announce Type: new Abstract: Existing analog integrated circuit design benchmarks make two questions hard to answer: whether a model has learned transferable circuit skills rather than recalled familiar examples, and whether its output works under defined process and test conditions. We introduce a b</summary>
   </entry>
 </feed>
