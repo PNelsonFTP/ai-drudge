@@ -5,7 +5,16 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-07T21:08:45.435Z</updated>
+  <updated>2026-10-07T21:21:28.293Z</updated>
+  <entry>
+    <title>Claude Haiku 5.5</title>
+    <link href="https://simonwillison.net/2026/Oct/7/claude-haiku-5-5"/>
+    <id>https://simonwillison.net/2026/Oct/7/claude-haiku-5-5</id>
+    <updated>2026-10-07T20:56:21.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>As previously promised , here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5 . The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago , and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full 10x the price of OpenAI' — Also covered by: Devin (Cognition), AWS ML Blog, GitHub Copilot Changelog</summary>
+  </entry>
   <entry>
     <title>llama.cpp b11476 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11476"/>
@@ -14,15 +23,6 @@
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
     <summary>metal : few-row MMA mat-mul for the remaining src0 types ( #30065 ) The generic few-row MMA kernel works for any type with a 16-weight dequantizer, so it now also takes BF16, Q1_0, Q2_0, MXFP4, Q2_K, Q3_K, TQ2_0 and the IQ types. Each type starts at the row count where it beats the current kernels on an M3 Ultra: 5 row — Also covered by: ggml-org/whisper.cpp, LocalLLaMA Subreddit</summary>
-  </entry>
-  <entry>
-    <title>Introducing Claude Haiku 5.5</title>
-    <link href="https://simonwillison.net/2026/Oct/7/claude-haiku-5-5"/>
-    <id>https://simonwillison.net/2026/Oct/7/claude-haiku-5-5</id>
-    <updated>2026-10-07T20:56:21.000Z</updated>
-    <author><name>Simon Willison</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>As previously promised , here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5 . The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago , and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full 10x the price of OpenAI' — Also covered by: AWS ML Blog, GitHub Copilot Changelog</summary>
   </entry>
   <entry>
     <title>Sharing AI progress in mathematics</title>
@@ -133,13 +133,13 @@
     <summary>The developer of Hermes agent raised a $90 million Series B.</summary>
   </entry>
   <entry>
-    <title>llama.cpp on the stage</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x079wc/llamacpp_on_the_stage"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x079wc/llamacpp_on_the_stage</id>
-    <updated>2026-10-07T20:25:51.000Z</updated>
+    <title>Qwen 3.8 Flash-Next on 64GB RAM + 16GB VRAM, worth it over a fully-loaded 3.6 35B-A3B?</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x07qlh/qwen_38_flashnext_on_64gb_ram_16gb_vram_worth_it"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x07qlh/qwen_38_flashnext_on_64gb_ram_16gb_vram_worth_it</id>
+    <updated>2026-10-07T20:43:17.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>https://x.com/ggerganov/status/2107908265032229261 submitted by /u/jacek2023 [link] [comments] — Also covered by: ggml-org/llama.cpp</summary>
+    <summary>4080 16GB, 64GB RAM. Currently on 3.6 35B-A3B (Unsloth quant, fits fully in VRAM) and happy with it. Anyone tried Flash-Next at Q2/Q3 on a similar setup? Worth the switch, or should I stay put? Asking before committing to a 30GB+ download. submitted by /u/msalsas [link] [comments]</summary>
   </entry>
   <entry>
     <title>First Brands’ Brothers Say They’ll Blame Each Other at Trial</title>
@@ -178,13 +178,13 @@
     <summary>arXiv:2610.03934v1 Announce Type: new Abstract: Existing analog integrated circuit design benchmarks make two questions hard to answer: whether a model has learned transferable circuit skills rather than recalled familiar examples, and whether its output works under defined process and test conditions. We introduce a b</summary>
   </entry>
   <entry>
-    <title>Capacity, Responsiveness and Alignment: What Makes a Latent Structure Actionable</title>
-    <link href="https://arxiv.org/abs/2610.06897"/>
-    <id>https://arxiv.org/abs/2610.06897</id>
-    <updated>2026-10-07T04:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
+    <title>Anthropic Gives Vetted Defenders Fewer Claude Guardrails</title>
+    <link href="https://www.darkreading.com/vulnerabilities-threats/anthropic-vetted-defenders-claude-guardrails"/>
+    <id>https://www.darkreading.com/vulnerabilities-threats/anthropic-vetted-defenders-claude-guardrails</id>
+    <updated>2026-10-07T20:51:25.000Z</updated>
+    <author><name>Dark Reading</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>arXiv:2610.06897v1 Announce Type: new Abstract: Localizing latent structures in the activation space of language models (LMs) is central to understanding and controlling their behavior. Yet, localized structures can differ substantially in their causal influence, raising the question of what makes a structure actionabl</summary>
+    <summary>Anthropic has merged Project Glasswing into a tiered access program for its advanced cyber LLMs, including Opus, Sonnet, and Mythos.</summary>
   </entry>
   <entry>
     <title>Attackers Hide AI Prompt Injections Inside Phishing Emails</title>
@@ -241,6 +241,15 @@
     <summary>The U.S. Treasury Department said on Wednesday it had fined the parent company of startup accelerator Plug and Play Tech Center, the first penalty issued under an outbound investment restriction program targeting China’s tech sector. California real estate company Amidi Group was fined $200,000 ...</summary>
   </entry>
   <entry>
+    <title>llama.cpp on the stage</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x079wc/llamacpp_on_the_stage"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x079wc/llamacpp_on_the_stage</id>
+    <updated>2026-10-07T20:25:51.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>https://x.com/ggerganov/status/2107908265032229261 submitted by /u/jacek2023 [link] [comments] — Also covered by: ggml-org/llama.cpp</summary>
+  </entry>
+  <entry>
     <title>ollama v0.40.0 released</title>
     <link href="https://github.com/ollama/ollama/releases/tag/v0.40.0"/>
     <id>https://github.com/ollama/ollama/releases/tag/v0.40.0</id>
@@ -248,15 +257,6 @@
     <author><name>ollama/ollama</name></author>
     <category term="LOCAL MODELS"/>
     <summary>What's Changed Models run on MLX on Apple Silicon by default In this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX. ollama pull qwen3.8 ollama run qwen3.8 Additional models include gemma4 , qwen3.6 and qwen3.5 Decision models are now available on MLX a</summary>
-  </entry>
-  <entry>
-    <title>Microsoft Debuts Nvidia-Powered PCs with On-Device AI, Following Apple’s Breakout Hit</title>
-    <link href="https://www.theinformation.com/briefings/microsoft-debuts-new-windows-pcs-features-powered-on-device-ai"/>
-    <id>https://www.theinformation.com/briefings/microsoft-debuts-new-windows-pcs-features-powered-on-device-ai</id>
-    <updated>2026-10-07T18:21:24.000Z</updated>
-    <author><name>The Information</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Microsoft on Wednesday unveiled its latest effort to run AI in PCs powered by its Windows software, rather than running the AI in the cloud, which the company said would bring down costs for customers. The announcement is Microsoft’s response to Apple’s Mac Mini, which has become a hit with AI ...</summary>
   </entry>
   <entry>
     <title>Claude Haiku 5.5 is now available in Devin</title>
