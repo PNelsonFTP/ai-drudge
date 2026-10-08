@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-08T02:02:08.449Z</updated>
+  <updated>2026-10-08T02:08:44.310Z</updated>
   <entry>
     <title>Claude Haiku 5.5</title>
     <link href="https://simonwillison.net/2026/Oct/7/claude-haiku-5-5"/>
@@ -16,6 +16,24 @@
     <summary>As previously promised , here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5 . The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago , and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full 10x the price of OpenAI' — Also covered by: Devin (Cognition), AWS ML Blog, GitHub Copilot Changelog</summary>
   </entry>
   <entry>
+    <title>llama.cpp b11481 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11481"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11481</id>
+    <updated>2026-10-08T02:08:27.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>mtmd: add cohere2 vision support ( #30062 ) cohere2 vision model address comments remove redundant mapping follow existing patterns fused linear_1 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/53780774 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, Kleid — Also covered by: ggml-org/whisper.cpp</summary>
+  </entry>
+  <entry>
+    <title>Sharing AI progress in mathematics</title>
+    <link href="https://openai.com/index/sharing-ai-progress-in-mathematics"/>
+    <id>https://openai.com/index/sharing-ai-progress-in-mathematics</id>
+    <updated>2026-10-06T12:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.</summary>
+  </entry>
+  <entry>
     <title>Atom Computing, Diraq, IBM and IonQ Advance to DARPA QBI Stage C</title>
     <link href="https://www.hpcwire.com/2026/10/07/atom-computing-diraq-ibm-and-ionq-advance-to-darpa-qbi-stage-c"/>
     <id>https://www.hpcwire.com/2026/10/07/atom-computing-diraq-ibm-and-ionq-advance-to-darpa-qbi-stage-c</id>
@@ -23,15 +41,6 @@
     <author><name>HPC Wire</name></author>
     <category term="RESEARCH"/>
     <summary>DARPA announced today that Atom Computing, Diraq, IBM and IonQ have advanced to the final phase of its Quantum Benchmarking Initiative, moving their proposed systems into hands-on government verification and validation. The four organizations represent different modalities of quantum computing: neutral atoms at Atom Co — Also covered by: Quantum Computing Report, The Quantum Insider</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp b11480 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11480"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11480</id>
-    <updated>2026-10-08T01:39:14.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>llama : add a GPU cache for MoE experts kept in host memory ( #29887 ) llama : add a GPU cache for MoE experts kept in host memory Assisted-by: Claude use llama_moe_cache_ptr Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/53775050 macOS/iOS: macOS Apple Silicon (arm64) macOS — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
     <title>Nous Research confirms it hit $1.5B valuation, launches AI agents for business users</title>
@@ -52,15 +61,6 @@
     <summary>College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.</summary>
   </entry>
   <entry>
-    <title>Hackers hijack Google domains after breaching ccTLD registries</title>
-    <link href="https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries"/>
-    <id>https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries</id>
-    <updated>2026-10-07T20:50:13.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>Hackers obtained unauthorized HTTPS certificates for several Google domains and hijacked domains in the country-code top-level domains (ccTLDs) for Ghana, American Samoa, and Sierra Leone after compromising third-party operators and modifying authoritative DNS records. [...] — Also covered by: The Hacker News</summary>
-  </entry>
-  <entry>
     <title>Radisson Hotel Group brings hotel discovery into ChatGPT</title>
     <link href="https://openai.com/index/radisson"/>
     <id>https://openai.com/index/radisson</id>
@@ -70,13 +70,22 @@
     <summary>Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.</summary>
   </entry>
   <entry>
-    <title>Sharing AI progress in mathematics</title>
-    <link href="https://openai.com/index/sharing-ai-progress-in-mathematics"/>
-    <id>https://openai.com/index/sharing-ai-progress-in-mathematics</id>
-    <updated>2026-10-06T12:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.</summary>
+    <title>Hackers hijack Google domains after breaching ccTLD registries</title>
+    <link href="https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries"/>
+    <id>https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries</id>
+    <updated>2026-10-07T20:50:13.000Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>Hackers obtained unauthorized HTTPS certificates for several Google domains and hijacked domains in the country-code top-level domains (ccTLDs) for Ghana, American Samoa, and Sierra Leone after compromising third-party operators and modifying authoritative DNS records. [...] — Also covered by: The Hacker News</summary>
+  </entry>
+  <entry>
+    <title>Microsoft Launches Surface Laptop Ultra, Surface RTX Spark Dev Box</title>
+    <link href="https://www.servethehome.com/microsoft-launches-surface-laptop-ultra-surface-rtx-spark-dev-box"/>
+    <id>https://www.servethehome.com/microsoft-launches-surface-laptop-ultra-surface-rtx-spark-dev-box</id>
+    <updated>2026-10-08T01:00:15.000Z</updated>
+    <author><name>ServeTheHome</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Microsoft today launched its first two NVIDIA RTX Spark-powered systems, the Surface Laptop Ultra and Surface RTX Spark Dev box. Aimed at developers and other professionals, the high-end systems offer a fresh face to NVIDIA and Microsoft's Arm ecosystem efforts The post Microsoft Launches Surface Laptop Ultra, Surface  — Also covered by: LocalLLaMA Subreddit</summary>
   </entry>
   <entry>
     <title>Robot data startup Mecka AI nabs $60M from Sequoia</title>
@@ -106,13 +115,13 @@
     <summary>Prasad takes over on October 7, bringing experience leading Alexa and Amazon Nova as Boston Dynamics advances its AI and commercialization plans. — Also covered by: The Robot Report</summary>
   </entry>
   <entry>
-    <title>Atlassian and OpenAI expand partnership to turn enterprise knowledge into action</title>
-    <link href="https://openai.com/index/atlassian-partnership"/>
-    <id>https://openai.com/index/atlassian-partnership</id>
-    <updated>2026-10-06T16:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.</summary>
+    <title>ollama v0.40.1 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.1"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.1</id>
+    <updated>2026-10-08T01:04:24.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>What's Changed server: proxy cloud usage and balance APIs by @drifkin in #18829 llama: fix clef head reads past 2GiB on windows by @Gigrise in #18777 cmd: remove account step from CLI onboarding by @hoyyeva in #18826 manifest: avoid symlinks on Windows by @dhiltgen in #18852 docs: fix 6 dead links in README community i</summary>
   </entry>
   <entry>
     <title>Claude Haiku 5.5 is now available in Devin</title>
@@ -205,15 +214,6 @@
     <summary>Cisco's Outshift division has launched the Quantum Network Controller and Network-Aware Quantum Compiler v0.2.0 to manage multi-node quantum networks. The Controller offers Entanglement-as-a-Service, enabling on-demand entanglement across diverse quantum hardware. The Compiler integrates circuit compilation, qubit part</summary>
   </entry>
   <entry>
-    <title>ollama v0.40.1 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.1"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.1</id>
-    <updated>2026-10-08T01:04:24.000Z</updated>
-    <author><name>ollama/ollama</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>What's Changed server: proxy cloud usage and balance APIs by @drifkin in #18829 llama: fix clef head reads past 2GiB on windows by @Gigrise in #18777 cmd: remove account step from CLI onboarding by @hoyyeva in #18826 manifest: avoid symlinks on Windows by @dhiltgen in #18852 docs: fix 6 dead links in README community i</summary>
-  </entry>
-  <entry>
     <title>b11477: llama: share the nextn tensor flags between models (#30097)</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11477"/>
     <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11477</id>
@@ -232,22 +232,22 @@
     <summary>Bloomberg : Keyu Tian, a former ByteDance intern, raised ~$30M from 5Y and IDG for his unnamed AI lab that focuses on building world models, at a $200M post-money valuation — A former ByteDance Ltd. intern has secured funding from venture heavyweights including 5Y Capital for a stealth startup …</summary>
   </entry>
   <entry>
-    <title>Local Qwen3.8-Flash on a DGX Spark vs Claude Opus 5.5: 21 graded tasks, 3 harnesses. Matches Opus on everyday coding, 70% on hard tasks, and the harness settings matter more than you'd think</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1x0d4yn/local_qwen38flash_on_a_dgx_spark_vs_claude_opus"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1x0d4yn/local_qwen38flash_on_a_dgx_spark_vs_claude_opus</id>
-    <updated>2026-10-08T00:36:43.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>2x CMP 170HX 64GB: GLM-5.3-Flash at 384K context / ~90 tok/s (EXL3, HBM-first setup) + Qwen3.8 comparison</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x0b1ws/2x_cmp_170hx_64gb_glm53flash_at_384k_context_90"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x0b1ws/2x_cmp_170hx_64gb_glm53flash_at_384k_context_90</id>
+    <updated>2026-10-07T22:59:08.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Human written: Been toying with local models for a while, to various degrees of success. The primary incentive to look into the Qwen 3.8 family was because I stopped the Claude Max subscription, and I'm running out of tokens on a somewhat regular basis. Had the $100/mo Max for several months as I was building a complex</summary>
+    <summary>I've been tinkering with GLM-5.3-Flash on two 64GB CMP 170HX cards for a while, and the setup is finally stable enough that I figured I'd share it. I also compared it against the Qwen3.8-Flash-Next setup I've been using on the same machine: AWQ INT4 + FP8 PLE on vLLM. Besides PP/TG benchmarks, I hooked both models up t</summary>
   </entry>
   <entry>
-    <title>Microsoft Debuts Nvidia-Powered PCs with On-Device AI, Following Apple’s Breakout Hit</title>
-    <link href="https://www.theinformation.com/briefings/microsoft-debuts-new-windows-pcs-features-powered-on-device-ai"/>
-    <id>https://www.theinformation.com/briefings/microsoft-debuts-new-windows-pcs-features-powered-on-device-ai</id>
-    <updated>2026-10-07T18:21:24.000Z</updated>
-    <author><name>The Information</name></author>
+    <title>Tested in Coding: Strata</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x0b0iq/tested_in_coding_strata"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x0b0iq/tested_in_coding_strata</id>
+    <updated>2026-10-07T22:57:22.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Microsoft on Wednesday unveiled its latest effort to run AI in PCs powered by its Windows software, rather than running the AI in the cloud, which the company said would bring down costs for customers. The announcement is Microsoft’s response to Apple’s Mac Mini, which has become a hit with AI ...</summary>
+    <summary>This will be a potentially unpopular post - but it's the truth and grounded - so let's get to it. Hopefully you are familiar with my previous Tested in Coding series: https://www.reddit.com/r/LocalLLaMA/comments/1vvsokm/tested_in_coding_q8_k_xl_qwen38_27b_vs_bf16/ https://www.reddit.com/r/LocalLLaMA/comments/1vldngi/te</summary>
   </entry>
   <entry>
     <title>Meta’s Muse launches on iPad just a month after its mobile debut</title>
