@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-07T23:20:14.371Z</updated>
+  <updated>2026-10-08T01:08:57.029Z</updated>
   <entry>
     <title>Claude Haiku 5.5</title>
     <link href="https://simonwillison.net/2026/Oct/7/claude-haiku-5-5"/>
@@ -16,15 +16,6 @@
     <summary>As previously promised , here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5 . The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago , and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full 10x the price of OpenAI' — Also covered by: Devin (Cognition), AWS ML Blog, GitHub Copilot Changelog</summary>
   </entry>
   <entry>
-    <title>llama.cpp b11476 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11476"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11476</id>
-    <updated>2026-10-07T14:59:08.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>metal : few-row MMA mat-mul for the remaining src0 types ( #30065 ) The generic few-row MMA kernel works for any type with a 16-weight dequantizer, so it now also takes BF16, Q1_0, Q2_0, MXFP4, Q2_K, Q3_K, TQ2_0 and the IQ types. Each type starts at the row count where it beats the current kernels on an M3 Ultra: 5 row — Also covered by: ggml-org/whisper.cpp, LocalLLaMA Subreddit</summary>
-  </entry>
-  <entry>
     <title>Sharing AI progress in mathematics</title>
     <link href="https://openai.com/index/sharing-ai-progress-in-mathematics"/>
     <id>https://openai.com/index/sharing-ai-progress-in-mathematics</id>
@@ -32,6 +23,24 @@
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
     <summary>OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.</summary>
+  </entry>
+  <entry>
+    <title>Atom Computing, Diraq, IBM and IonQ Advance to DARPA QBI Stage C</title>
+    <link href="https://www.hpcwire.com/2026/10/07/atom-computing-diraq-ibm-and-ionq-advance-to-darpa-qbi-stage-c"/>
+    <id>https://www.hpcwire.com/2026/10/07/atom-computing-diraq-ibm-and-ionq-advance-to-darpa-qbi-stage-c</id>
+    <updated>2026-10-07T23:27:58.000Z</updated>
+    <author><name>HPC Wire</name></author>
+    <category term="RESEARCH"/>
+    <summary>DARPA announced today that Atom Computing, Diraq, IBM and IonQ have advanced to the final phase of its Quantum Benchmarking Initiative, moving their proposed systems into hands-on government verification and validation. The four organizations represent different modalities of quantum computing: neutral atoms at Atom Co — Also covered by: Quantum Computing Report, The Quantum Insider</summary>
+  </entry>
+  <entry>
+    <title>b11480: llama : add a GPU cache for MoE experts kept in host memory (#29887)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11480"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11480</id>
+    <updated>2026-10-07T18:07:45.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>llama : add a GPU cache for MoE experts kept in host memory Assisted-by: Claude use llama_moe_cache_ptr — Also covered by: Lemmy c/localllama</summary>
   </entry>
   <entry>
     <title>Nous Research confirms it hit $1.5B valuation, launches AI agents for business users</title>
@@ -52,6 +61,15 @@
     <summary>College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.</summary>
   </entry>
   <entry>
+    <title>llama.cpp b11476 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11476"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11476</id>
+    <updated>2026-10-07T14:59:08.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>metal : few-row MMA mat-mul for the remaining src0 types ( #30065 ) The generic few-row MMA kernel works for any type with a 16-weight dequantizer, so it now also takes BF16, Q1_0, Q2_0, MXFP4, Q2_K, Q3_K, TQ2_0 and the IQ types. Each type starts at the row count where it beats the current kernels on an M3 Ultra: 5 row — Also covered by: ggml-org/whisper.cpp</summary>
+  </entry>
+  <entry>
     <title>Hackers hijack Google domains after breaching ccTLD registries</title>
     <link href="https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries"/>
     <id>https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries</id>
@@ -70,13 +88,13 @@
     <summary>Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.</summary>
   </entry>
   <entry>
-    <title>llama.cpp: add a GPU cache for MoE experts kept in host memory by am17an · Pull Request has been merged</title>
-    <link href="https://sh.itjust.works/post/67951852"/>
-    <id>https://sh.itjust.works/post/67951852</id>
-    <updated>2026-10-07T18:16:12.000Z</updated>
-    <author><name>Lemmy c/localllama</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>submitted by BeefAndPoultry to localllama 13 points | 3 comments https://github.com/ggml-org/llama.cpp/pull/29887 Anyone tested this yet? Enable with --moe-cache-mib N. In experiments it was found 10% of the total expert size is good. Baseline is master with the default –fit . With –moe-cache-mib , –fit counts the cach — Also covered by: LocalLLaMA Subreddit</summary>
+    <title>Robot data startup Mecka AI nabs $60M from Sequoia</title>
+    <link href="https://techcrunch.com/2026/10/07/robot-data-startup-mecka-ai-nabs-60m-from-sequoia"/>
+    <id>https://techcrunch.com/2026/10/07/robot-data-startup-mecka-ai-nabs-60m-from-sequoia</id>
+    <updated>2026-10-07T23:36:57.000Z</updated>
+    <author><name>TechCrunch Startups</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>Mecka AI collects and analyzes human motion data to train humanoid robots and other kinds of robots. The startup pays people to record everyday tasks.</summary>
   </entry>
   <entry>
     <title>HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object Interaction</title>
@@ -97,31 +115,13 @@
     <summary>Prasad takes over on October 7, bringing experience leading Alexa and Amazon Nova as Boston Dynamics advances its AI and commercialization plans. — Also covered by: The Robot Report</summary>
   </entry>
   <entry>
-    <title>Infineon and ZuriQ Deepen Partnership to Advance Scalable Quantum Chips</title>
-    <link href="https://www.hpcwire.com/off-the-wire/infineon-and-zuriq-deepen-partnership-to-advance-scalable-quantum-chips"/>
-    <id>https://www.hpcwire.com/off-the-wire/infineon-and-zuriq-deepen-partnership-to-advance-scalable-quantum-chips</id>
-    <updated>2026-10-07T13:52:26.000Z</updated>
-    <author><name>HPC Wire</name></author>
-    <category term="QUANTUM"/>
-    <summary>MUNICH and ZURICH, Oct. 7, 2026 — Infineon Technologies AG and ZuriQ AG, a Swiss quantum computing company spun out of ETH Zurich, today announced the expansion of their collaboration to advance scalable quantum computing hardware. The partnership combines ZuriQ’s pioneering trapped-ion quantum computing architecture w — Also covered by: The Quantum Insider</summary>
-  </entry>
-  <entry>
-    <title>Atlassian and OpenAI expand partnership to turn enterprise knowledge into action</title>
-    <link href="https://openai.com/index/atlassian-partnership"/>
-    <id>https://openai.com/index/atlassian-partnership</id>
-    <updated>2026-10-06T16:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.</summary>
-  </entry>
-  <entry>
-    <title>ollama v0.40.1-rc0 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.1-rc0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.1-rc0</id>
-    <updated>2026-10-07T22:22:54.000Z</updated>
+    <title>ollama v0.40.1 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.1"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.1</id>
+    <updated>2026-10-08T01:04:24.000Z</updated>
     <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>mlx: drop carried metal residency patch now that it is upstream ( #18854 )</summary>
+    <summary>What's Changed server: proxy cloud usage and balance APIs by @drifkin in #18829 llama: fix clef head reads past 2GiB on windows by @Gigrise in #18777 cmd: remove account step from CLI onboarding by @hoyyeva in #18826 manifest: avoid symlinks on Windows by @dhiltgen in #18852 docs: fix 6 dead links in README community i</summary>
   </entry>
   <entry>
     <title>Claude Haiku 5.5 is now available in Devin</title>
@@ -133,13 +133,13 @@
     <summary>Claude Haiku 5.5 is now live in Devin. On FrontierCode 1.1 it scores 58.4%, ahead of Sonnet 5 at about an eighth of the cost per task, and it joins the sidekick lineup in Devin Fusion.</summary>
   </entry>
   <entry>
-    <title>Braskem Creditors Balk at Restructuring Plan as Deadline Looms</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-07/braskem-creditors-balk-at-restructuring-plan-as-deadline-looms"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-07/braskem-creditors-balk-at-restructuring-plan-as-deadline-looms</id>
-    <updated>2026-10-07T21:41:19.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
+    <title>AI upends Singapore’s ‘quant Olympics’</title>
+    <link href="https://www.ft.com/content/ec8b74b6-0cf7-4ded-abd4-85bde8a80df4?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/ec8b74b6-0cf7-4ded-abd4-85bde8a80df4?syn-25a6b1a6=1</id>
+    <updated>2026-10-07T21:00:03.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
     <category term="AI FINANCE"/>
-    <summary>Braskem’s creditors shunned another restructuring proposal made by the company and its shareholders ahead of a key Oct. 9 deadline for a deal to rework some $11 billion of debt, people familiar with the matter said.</summary>
+    <summary>Nigerian student Victor Ayebameru takes first place in competition that identifies future hedge fund stars</summary>
   </entry>
   <entry>
     <title>Discovering the value of humanistic inquiry</title>
@@ -187,6 +187,15 @@
     <summary>Attackers Hide AI Prompt Injections Inside Phishing Emails Infosecurity Magazine</summary>
   </entry>
   <entry>
+    <title>Datacentre company Firmus’s high flying valuation may be coming back down to earth ahead of expected ASX debut</title>
+    <link href="https://www.theguardian.com/australia-news/2026/oct/08/ai-datacentre-firmus-slash-valuation-before-asx-listing"/>
+    <id>https://www.theguardian.com/australia-news/2026/oct/08/ai-datacentre-firmus-slash-valuation-before-asx-listing</id>
+    <updated>2026-10-08T00:57:58.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>Sources say Firmus is slashing its price and may even shelve initial public offering altogether Get our breaking news email , free app or daily news podcast The momentum behind Firmus Technologies’ high-flying valuation is showing severe cracks just weeks out from its anticipated ASX debut. Multiple sources briefed on </summary>
+  </entry>
+  <entry>
     <title>Nvidia Has Discussed Another $1 Billion Investment in Figure, The Information Reports</title>
     <link href="https://www.humanoidsdaily.com/news/nvidia-figure-billion-investment-talks-report"/>
     <id>https://www.humanoidsdaily.com/news/nvidia-figure-billion-investment-talks-report</id>
@@ -196,13 +205,13 @@
     <summary>The reported talks come as Figure pursues its multibillion-dollar Nscale compute agreement and Index training-data project. No completed deal has been established.</summary>
   </entry>
   <entry>
-    <title>The Mathocalypse</title>
-    <link href="https://scottaaronson.blog/?p=10169"/>
-    <id>https://scottaaronson.blog/?p=10169</id>
-    <updated>2026-10-07T18:57:26.000Z</updated>
-    <author><name>Shtetl-Optimized (Aaronson)</name></author>
+    <title>Cisco Releases Quantum Network Controller and Network-Aware Compiler v0.2.0 for Distributed Quantum Infrastructure</title>
+    <link href="https://quantumcomputingreport.com/cisco-releases-quantum-network-controller-and-network-aware-compiler-v0-2-0-for-distributed-quantum-infrastructure"/>
+    <id>https://quantumcomputingreport.com/cisco-releases-quantum-network-controller-and-network-aware-compiler-v0-2-0-for-distributed-quantum-infrastructure</id>
+    <updated>2026-10-07T23:23:10.000Z</updated>
+    <author><name>Quantum Computing Report</name></author>
     <category term="QUANTUM"/>
-    <summary>Last night my 9-year-old son was taunting my wife, complexity theorist Dana Moshkovitz, as follows: “mommy, I heard you got cooked! I heard that a robot solved the math problem you worked on for your whole career! OOF!” While my son was being a brat, he also wasn’t wrong. Whether you’re thrilled, depressed, angry, or [</summary>
+    <summary>Cisco's Outshift division has launched the Quantum Network Controller and Network-Aware Quantum Compiler v0.2.0 to manage multi-node quantum networks. The Controller offers Entanglement-as-a-Service, enabling on-demand entanglement across diverse quantum hardware. The Compiler integrates circuit compilation, qubit part</summary>
   </entry>
   <entry>
     <title>b11477: llama: share the nextn tensor flags between models (#30097)</title>
@@ -214,40 +223,31 @@
     <summary>llama: share the nextn tensor flags between models Follow-up of the TODO in glm5-next: move the trunk-only and MTP-only detection that each model copied into a nextn_flags helper of llama_model_base. It probes the first trunk layer and the first NextN layer, and adds TENSOR_SKIP when MTP is not loaded. qwen4exp probes </summary>
   </entry>
   <entry>
-    <title>U.S. Treasury Issues First Fine Over Outbound Investments in China’s Tech Sector</title>
-    <link href="https://www.theinformation.com/briefings/u-s-treasury-issues-first-fine-outbound-investments-chinas-tech-sector"/>
-    <id>https://www.theinformation.com/briefings/u-s-treasury-issues-first-fine-outbound-investments-chinas-tech-sector</id>
-    <updated>2026-10-07T20:42:39.000Z</updated>
-    <author><name>The Information</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>The U.S. Treasury Department said on Wednesday it had fined the parent company of startup accelerator Plug and Play Tech Center, the first penalty issued under an outbound investment restriction program targeting China’s tech sector. California real estate company Amidi Group was fined $200,000 ...</summary>
-  </entry>
-  <entry>
-    <title>Sources: Broadcom has been working to arrange more than $50B in financing for OpenAI's custom AI chip; Oracle is in talks on financing for a big chip purchase (Wall Street Journal)</title>
-    <link href="https://www.techmeme.com/261007/p37"/>
-    <id>https://www.techmeme.com/261007/p37</id>
-    <updated>2026-10-07T21:45:32.000Z</updated>
+    <title>Keyu Tian, a former ByteDance intern, raised ~$30M from 5Y and IDG for his unnamed AI lab that focuses on building world models, at a $200M post-money valuation (Bloomberg)</title>
+    <link href="https://www.techmeme.com/261007/p44"/>
+    <id>https://www.techmeme.com/261007/p44</id>
+    <updated>2026-10-08T01:05:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Wall Street Journal : Sources: Broadcom has been working to arrange more than $50B in financing for OpenAI's custom AI chip; Oracle is in talks on financing for a big chip purchase — Apollo, Blackstone and Goldman Sachs among lenders in talks to finance megadeals worth tens of billions of dollars apiece</summary>
+    <summary>Bloomberg : Keyu Tian, a former ByteDance intern, raised ~$30M from 5Y and IDG for his unnamed AI lab that focuses on building world models, at a $200M post-money valuation — A former ByteDance Ltd. intern has secured funding from venture heavyweights including 5Y Capital for a stealth startup …</summary>
   </entry>
   <entry>
-    <title>Tested in Coding: Strata</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x0b0iq/tested_in_coding_strata"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x0b0iq/tested_in_coding_strata</id>
-    <updated>2026-10-07T22:57:22.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>Microsoft Debuts Nvidia-Powered PCs with On-Device AI, Following Apple’s Breakout Hit</title>
+    <link href="https://www.theinformation.com/briefings/microsoft-debuts-new-windows-pcs-features-powered-on-device-ai"/>
+    <id>https://www.theinformation.com/briefings/microsoft-debuts-new-windows-pcs-features-powered-on-device-ai</id>
+    <updated>2026-10-07T18:21:24.000Z</updated>
+    <author><name>The Information</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>This will be a potentially unpopular post - but it's the truth and grounded - so let's get to it. Hopefully you are familiar with my previous Tested in Coding series: https://www.reddit.com/r/LocalLLaMA/comments/1vvsokm/tested_in_coding_q8_k_xl_qwen38_27b_vs_bf16/ https://www.reddit.com/r/LocalLLaMA/comments/1vldngi/te</summary>
+    <summary>Microsoft on Wednesday unveiled its latest effort to run AI in PCs powered by its Windows software, rather than running the AI in the cloud, which the company said would bring down costs for customers. The announcement is Microsoft’s response to Apple’s Mac Mini, which has become a hit with AI ...</summary>
   </entry>
   <entry>
-    <title>Qwen 3.8 Flash-Next on 64GB RAM + 16GB VRAM, worth it over a fully-loaded 3.6 35B-A3B?</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x07qlh/qwen_38_flashnext_on_64gb_ram_16gb_vram_worth_it"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x07qlh/qwen_38_flashnext_on_64gb_ram_16gb_vram_worth_it</id>
-    <updated>2026-10-07T20:43:17.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>Anyone actually running Strata day-to-day? Curious what recipes you settled on</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1x0c2ml/anyone_actually_running_strata_daytoday_curious"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1x0c2ml/anyone_actually_running_strata_daytoday_curious</id>
+    <updated>2026-10-07T23:45:56.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>4080 16GB, 64GB RAM. Currently on 3.6 35B-A3B (Unsloth quant, fits fully in VRAM) and happy with it. Anyone tried Flash-Next at Q2/Q3 on a similar setup? Worth the switch, or should I stay put? Asking before committing to a 30GB+ download. submitted by /u/msalsas [link] [comments]</summary>
+    <summary>I've been following Strata since it hit the trending list, and I'm thinking about trying it as a serving engine for Flash-Next on my home setup. Before I sink an evening into it, I'd love to hear from people who've actually lived on it rather than the install-day screenshots. Overall, what recipe did you go with??? Add</summary>
   </entry>
   <entry>
     <title>Meta’s Muse launches on iPad just a month after its mobile debut</title>
@@ -259,21 +259,21 @@
     <summary>Meta’s AI agent Muse is now available on iPad, just a month after its mobile debut, as the company rapidly expands the assistant’s reach and integrations.</summary>
   </entry>
   <entry>
-    <title>AI upends Singapore’s ‘quant Olympics’</title>
-    <link href="https://www.ft.com/content/ec8b74b6-0cf7-4ded-abd4-85bde8a80df4?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/ec8b74b6-0cf7-4ded-abd4-85bde8a80df4?syn-25a6b1a6=1</id>
-    <updated>2026-10-07T21:00:03.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Nigerian student Victor Ayebameru takes first place in competition that identifies future hedge fund stars</summary>
+    <title>claude-code v2.1.293 released</title>
+    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.293"/>
+    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.293</id>
+    <updated>2026-10-07T18:10:20.000Z</updated>
+    <author><name>anthropics/claude-code</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>What's changed Added Claude Haiku 5.5 ( claude-haiku-5-5 ), now the default Haiku model on the Anthropic API — 1M context, $0.10/$0.50 per Mtok ($0.50/$2.50 for prompts over 100K) Added agentType to the subagentStatusLine payload, so scripts can tell custom subagent types apart Added isDeferred to $.tool.register for m</summary>
   </entry>
   <entry>
-    <title>Peru Unexpectedly Holds Rate as Inflation Jump Seen as Temporary</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-07/peru-unexpectedly-holds-rate-as-inflation-jump-seen-as-temporary"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-07/peru-unexpectedly-holds-rate-as-inflation-jump-seen-as-temporary</id>
-    <updated>2026-10-07T23:04:10.000Z</updated>
+    <title>Asian Wheat Buyers Cut Forward Purchases as War Whipsaws Markets</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-08/asian-wheat-buyers-cut-forward-purchases-as-war-whipsaws-markets"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-08/asian-wheat-buyers-cut-forward-purchases-as-war-whipsaws-markets</id>
+    <updated>2026-10-08T00:31:40.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Peru unexpectedly left borrowing costs unchanged for a 13th straight month as policymakers expect a recent acceleration in inflation to prove temporary.</summary>
+    <summary>Asian wheat millers are cutting forward commitments as prices soar, with Black Sea disruptions choking supplies from one of the world’s top exporting regions.</summary>
   </entry>
 </feed>
