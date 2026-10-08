@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-08T02:58:59.212Z</updated>
+  <updated>2026-10-08T03:08:52.817Z</updated>
   <entry>
     <title>Claude Haiku 5.5</title>
     <link href="https://simonwillison.net/2026/Oct/7/claude-haiku-5-5"/>
@@ -16,13 +16,13 @@
     <summary>As previously promised , here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5 . The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago , and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full 10x the price of OpenAI' — Also covered by: Devin (Cognition), AWS ML Blog, GitHub Copilot Changelog</summary>
   </entry>
   <entry>
-    <title>llama.cpp b11483 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11483"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11483</id>
-    <updated>2026-10-08T02:47:50.000Z</updated>
+    <title>llama.cpp b11484 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11484"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11484</id>
+    <updated>2026-10-08T03:07:24.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>model : add LiquidAI/d1-3B decision model ( #30110 ) model : add LiquidAI/d1-3b decision model mtmd : read LFM2 image resize algo from GGUF Assisted-by: Claude Opus 5.5 common : rename decision type d1 to lfm2-d1 Assisted-by: Claude Opus 5.5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp — Also covered by: ggml-org/whisper.cpp</summary>
+    <category term="LOCAL MODELS"/>
+    <summary>chat : name tool and argument parser rules by index ( #30088 ) bugfix: infinite recursion caused by a tool named 'call'( #29967 ) chat : use index for schema and argument rules tests : remove tests tests : add expect_rules to peg test parser Co-authored-by: Alde Rojas hello@alde.dev Website: https://llama.app Attestati — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
     <title>Sharing AI progress in mathematics</title>
@@ -115,6 +115,15 @@
     <summary>Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.</summary>
   </entry>
   <entry>
+    <title>ollama v0.40.1 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.1"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.1</id>
+    <updated>2026-10-08T02:09:43.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>What's Changed server: proxy cloud usage and balance APIs by @drifkin in #18829 llama: fix clef head reads past 2GiB on windows by @Gigrise in #18777 cmd: remove account step from CLI onboarding by @hoyyeva in #18826 manifest: avoid symlinks on Windows by @dhiltgen in #18852 docs: fix 6 dead links in README community i</summary>
+  </entry>
+  <entry>
     <title>Introducing LangSmith Fine-Tuning</title>
     <link href="https://www.langchain.com/blog/langsmith-fine-tuning"/>
     <id>https://www.langchain.com/blog/langsmith-fine-tuning</id>
@@ -151,13 +160,12 @@
     <summary>OpenAI's new Decisions API classifies text and images about ten times faster than the Responses API, returning yes/no probabilities, category picks, or scale ratings for $0.10 per million input tokens. The company also cut its paid API tiers from five to three. The article OpenAI launches Decisions API that reduces com</summary>
   </entry>
   <entry>
-    <title>Microsoft Launches Surface Laptop Ultra, Surface RTX Spark Dev Box</title>
-    <link href="https://www.servethehome.com/microsoft-launches-surface-laptop-ultra-surface-rtx-spark-dev-box"/>
-    <id>https://www.servethehome.com/microsoft-launches-surface-laptop-ultra-surface-rtx-spark-dev-box</id>
-    <updated>2026-10-08T01:00:15.000Z</updated>
-    <author><name>ServeTheHome</name></author>
+    <title>HPE Unveils The First Of The Next Generation of ProLiants for the AI Era</title>
+    <link href="https://www.nextplatform.com/compute/2026/10/08/hpe-unveils-the-first-of-the-next-generation-of-proliants-for-the-ai-era/5301808"/>
+    <id>https://www.nextplatform.com/compute/2026/10/08/hpe-unveils-the-first-of-the-next-generation-of-proliants-for-the-ai-era/5301808</id>
+    <updated>2026-10-08T02:28:49.000Z</updated>
+    <author><name>The Next Platform</name></author>
     <category term="HARDWARE"/>
-    <summary>Microsoft today launched its first two NVIDIA RTX Spark-powered systems, the Surface Laptop Ultra and Surface RTX Spark Dev box. Aimed at developers and other professionals, the high-end systems offer a fresh face to NVIDIA and Microsoft's Arm ecosystem efforts The post Microsoft Launches Surface Laptop Ultra, Surface </summary>
   </entry>
   <entry>
     <title>Evolution of Web3 in Cloud Supply Chain Attacks</title>
@@ -212,15 +220,6 @@
     <author><name>Quantum Computing Report</name></author>
     <category term="QUANTUM"/>
     <summary>Cisco's Outshift division has launched the Quantum Network Controller and Network-Aware Quantum Compiler v0.2.0 to manage multi-node quantum networks. The Controller offers Entanglement-as-a-Service, enabling on-demand entanglement across diverse quantum hardware. The Compiler integrates circuit compilation, qubit part</summary>
-  </entry>
-  <entry>
-    <title>ollama v0.40.1 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.1"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.1</id>
-    <updated>2026-10-08T02:09:43.000Z</updated>
-    <author><name>ollama/ollama</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>What's Changed server: proxy cloud usage and balance APIs by @drifkin in #18829 llama: fix clef head reads past 2GiB on windows by @Gigrise in #18777 cmd: remove account step from CLI onboarding by @hoyyeva in #18826 manifest: avoid symlinks on Windows by @dhiltgen in #18852 docs: fix 6 dead links in README community i</summary>
   </entry>
   <entry>
     <title>b11477: llama: share the nextn tensor flags between models (#30097)</title>
