@@ -5,24 +5,24 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-08T17:08:53.292Z</updated>
+  <updated>2026-10-08T18:00:39.579Z</updated>
   <entry>
-    <title>Claude Haiku 5.5</title>
-    <link href="https://simonwillison.net/2026/Oct/7/claude-haiku-5-5"/>
-    <id>https://simonwillison.net/2026/Oct/7/claude-haiku-5-5</id>
-    <updated>2026-10-07T20:56:21.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>llama.cpp b11512 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11512"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11512</id>
+    <updated>2026-10-08T17:42:48.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>As previously promised , here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5 . The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago , and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full 10x the price of OpenAI' — Also covered by: Devin (Cognition), AWS ML Blog</summary>
+    <summary>model : fix DFlash output head sharing ( #30111 ) llama : fix DFlash output head sharing Assisted-by: Codex dflash : read tied output weights from GGUF metadata Assisted-by: Codex llama : share tied word embedding metadata Assisted-by: Codex llama : remove DFlash embedding head fallback Assisted-by: Codex Website: http — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
-    <title>llama.cpp b11511 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11511"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11511</id>
-    <updated>2026-10-08T14:41:49.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>CUDA: fix MMQ out-of-bounds reads ( #29953 ) — Also covered by: ggml-org/whisper.cpp</summary>
+    <title>How Oracle turns days of work into minutes with ChatGPT and Codex</title>
+    <link href="https://openai.com/index/oracle"/>
+    <id>https://openai.com/index/oracle</id>
+    <updated>2026-10-08T16:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.</summary>
   </entry>
   <entry>
     <title>Cal AI’s 19-year-old founder just raised $10M for his new AI startup</title>
@@ -32,6 +32,15 @@
     <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
     <summary>Zach Yadegari, the teen co-founder of popular Cal AI calorie tracking app, has launched a new personal AI agent startup that competes with Instinct, Muse, and Bee.</summary>
+  </entry>
+  <entry>
+    <title>Pollo AI turns creative ideas into campaigns with OpenAI</title>
+    <link href="https://openai.com/index/pollo-ai"/>
+    <id>https://openai.com/index/pollo-ai</id>
+    <updated>2026-10-08T12:00:00.000Z</updated>
+    <author><name>OpenAI Blog</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.</summary>
   </entry>
   <entry>
     <title>IBM Advances to Stage C of DARPA Quantum Benchmarking Initiative</title>
@@ -61,13 +70,13 @@
     <summary>JetBrains released Mellum2.1, an Apache 2.0, 12B mixture-of-experts thinking model with 2.5B active parameters. RL in real repositories lifted its SWE-bench Verified score from 2.0 to 47.0. The post JetBrains Releases Mellum2.1: A 12B MoE Open Model for Coding Agents appeared first on MarkTechPost .</summary>
   </entry>
   <entry>
-    <title>Helping teens learn, plan, and shape the future of AI</title>
-    <link href="https://openai.com/index/teens-learn-and-plan"/>
-    <id>https://openai.com/index/teens-learn-and-plan</id>
-    <updated>2026-10-07T12:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.</summary>
+    <title>Claude Haiku 5.5</title>
+    <link href="https://simonwillison.net/2026/Oct/7/claude-haiku-5-5"/>
+    <id>https://simonwillison.net/2026/Oct/7/claude-haiku-5-5</id>
+    <updated>2026-10-07T20:56:21.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="PRODUCTS"/>
+    <summary>As previously promised , here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5 . The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago , and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full 10x the price of OpenAI' — Also covered by: Devin (Cognition)</summary>
   </entry>
   <entry>
     <title>5 days to TechCrunch Disrupt 2026: Don’t pay more at the door for your pass</title>
@@ -88,22 +97,13 @@
     <summary>This White Paper gives robotics researchers and engineers an overview of a new large-scale motion capture dataset built to close the data gap limiting humanoid robot learning. It also shows how policies trained on the dataset transfer to a real humanoid robot. What you will learn about: Why humanoid robot learning, a c</summary>
   </entry>
   <entry>
-    <title>Atlassian and OpenAI expand partnership to turn enterprise knowledge into action</title>
-    <link href="https://openai.com/index/atlassian-partnership"/>
-    <id>https://openai.com/index/atlassian-partnership</id>
-    <updated>2026-10-06T16:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.</summary>
-  </entry>
-  <entry>
-    <title>ollama v0.40.2 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.2-rc0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.2-rc0</id>
-    <updated>2026-10-08T16:53:47.000Z</updated>
-    <author><name>ollama/ollama</name></author>
+    <title>b11513: CUDA: improve top-k algorithm selection (#28713)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11513"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11513</id>
+    <updated>2026-10-08T16:34:27.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>What's Changed README: add oxi to community integrations by @maziluiosif in #18739 server: hide duplicate and downgrade guards from list by @dhiltgen in #18874 New Contributors @maziluiosif made their first contribution in #18739 Full Changelog : v0.40.1...v0.40.2-rc0</summary>
+    <summary>CUDA: radix top-k for large row counts Replaces CUB's per-row DeviceTopKKernel with a grid-over-rows radix select, gated on GGML_CUDA_TOPK_RADIX_MIN_ROWS. On qwen4exp at 34,816 tokens this cuts top-k from 1,671,253 launches / 5,761.8 ms to 2,329 / 941.8 ms. CUDA: select the TOP_K implementation by shape Replace the nro</summary>
   </entry>
   <entry>
     <title>Arena, which develops the popular AI model leaderboard, raised $200M at a $3.1B valuation, up from $1.7B in January, and launches an Alignment Index (Rachel Metz/Bloomberg)</title>
@@ -115,31 +115,13 @@
     <summary>Rachel Metz / Bloomberg : Arena, which develops the popular AI model leaderboard, raised $200M at a $3.1B valuation, up from $1.7B in January, and launches an Alignment Index — Arena Intelligence Inc., the startup behind a popular artificial intelligence model leaderboard, has raised $200 million in funding …</summary>
   </entry>
   <entry>
-    <title>Thank you :) Swift Models hit 2.2 million+ downloads / Early Access to New Models, Free Compute for Researchers</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x0ui6f/thank_you_swift_models_hit_22_million_downloads"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x0ui6f/thank_you_swift_models_hit_22_million_downloads</id>
-    <updated>2026-10-08T15:50:21.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Hey everyone, Jovan from UkisAI (Swift Qwen) here! For those who don't know us, UkisAI is a small lab making tiny frontier LLMs, tools and datasets (+doing it open-source!). I'm one of the guys running it aka I train the models and post on Reddit. Our first open-source release is Swift, a series of reasoning-efficient </summary>
-  </entry>
-  <entry>
-    <title>Hone, founded by former OpenAI and Cognition staffers to create AI agents that can help run a business, raised a $60M seed at a $285M valuation (Bloomberg)</title>
-    <link href="https://www.techmeme.com/261008/p32"/>
-    <id>https://www.techmeme.com/261008/p32</id>
-    <updated>2026-10-08T16:01:39.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Big Tech sets out its pitches on AI agents</title>
+    <link href="https://www.ft.com/content/9884d785-8ddc-43a6-ac8d-b9c7f9a99df3?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/9884d785-8ddc-43a6-ac8d-b9c7f9a99df3?syn-25a6b1a6=1</id>
+    <updated>2026-10-08T16:44:08.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Bloomberg : Hone, founded by former OpenAI and Cognition staffers to create AI agents that can help run a business, raised a $60M seed at a $285M valuation — A group of former employees from some of the fastest-growing artificial intelligence firms, including OpenAI and Cognition AI Inc. …</summary>
-  </entry>
-  <entry>
-    <title>How Corgi Is Using AI and Puppies to Upend ETFs</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-08/how-corgi-is-using-ai-and-puppies-to-upend-etfs"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-08/how-corgi-is-using-ai-and-puppies-to-upend-etfs</id>
-    <updated>2026-10-08T16:53:58.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>In this episode, we speak with its chief investment strategist to explore how Corgi launched hundreds of ETFs in less than a year</summary>
+    <summary>Race to develop new services has moved into high gear with a series of launches</summary>
   </entry>
   <entry>
     <title>Tokka-Bench: Evaluating Tokenizers Across 100 Natural and 20 Programming Languages</title>
@@ -149,15 +131,6 @@
     <author><name>arXiv cs.CL</name></author>
     <category term="RESEARCH"/>
     <summary>arXiv:2610.08794v1 Announce Type: new Abstract: Large language models rely on subword tokenizers whose quality varies across languages, yet no standardized multi-metric framework exists for broad comparative evaluation. We introduce Tokka-Bench, an open-source framework that evaluates tokenizers on five complementary m</summary>
-  </entry>
-  <entry>
-    <title>Rally Up: ‘Gears of War: E-Day’ Launches on GeForce NOW</title>
-    <link href="https://blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day"/>
-    <id>https://blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day</id>
-    <updated>2026-10-08T13:00:46.000Z</updated>
-    <author><name>NVIDIA Blog</name></author>
-    <category term="HARDWARE"/>
-    <summary>Gears of War: E-Day leads the charge on GeForce NOW this week, bringing Marcus Fenix and Dom Santiago’s first fight against the Locust Horde to the cloud with GeForce RTX-powered performance. A new way to join the action is also coming: Fire TV users will soon be able to purchase GeForce NOW memberships directly throug</summary>
   </entry>
   <entry>
     <title>Building Spyre as a Native PyTorch Device</title>
@@ -205,58 +178,49 @@
     <summary>OpenAI, CloudFlare, and Amazon have all copied this tiny startup.</summary>
   </entry>
   <entry>
-    <title>Tesla Patent Application Details Flexible Touch Sensors for Robot Hands</title>
-    <link href="https://www.humanoidsdaily.com/news/tesla-patent-flexible-touch-sensors-robot-hands"/>
-    <id>https://www.humanoidsdaily.com/news/tesla-patent-flexible-touch-sensors-robot-hands</id>
-    <updated>2026-10-08T12:44:18.000Z</updated>
-    <author><name>Humanoids Daily</name></author>
+    <title>OpenAI annualised revenues $20bn less than previously signalled</title>
+    <link href="https://www.ft.com/content/b66a9858-f8fb-46cb-b506-44bfe26fca2a?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/b66a9858-f8fb-46cb-b506-44bfe26fca2a?syn-25a6b1a6=1</id>
+    <updated>2026-10-08T17:40:56.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
     <category term="ROBOTICS"/>
-    <summary>The filing describes curved tactile sensor arrays and ways to manufacture them, offering a likely glimpse into Optimus development without confirming their use in its new hand.</summary>
+    <summary>AI group recently told investors the critical figure was approaching $50bn in September, far less than the $70bn that was widely reported</summary>
   </entry>
   <entry>
-    <title>Debunking the Biggest Data Center Myths</title>
-    <link href="https://about.fb.com/news/2026/10/debunking-the-biggest-data-center-myths"/>
-    <id>https://about.fb.com/news/2026/10/debunking-the-biggest-data-center-myths</id>
-    <updated>2026-10-08T16:53:24.000Z</updated>
-    <author><name>Meta AI Blog</name></author>
+    <title>ollama v0.40.2 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.2"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.2</id>
+    <updated>2026-10-08T17:44:45.000Z</updated>
+    <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Developer and content creator Tom Shaw breaks down three of the biggest myths about data centers. The post Debunking the Biggest Data Center Myths appeared first on Meta Newsroom .</summary>
+    <summary>Merge pull request #18855 from ollama/launch-claude-max-context-token…</summary>
   </entry>
   <entry>
-    <title>AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks</title>
-    <link href="https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks"/>
-    <id>https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks</id>
-    <updated>2026-10-08T09:24:17.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>According to CrowdStrike, a suspected Chinese-speaking attacker hacked multiple South Korean financial institutions. At Shinhan Bank alone, more than 25,000 customer records were stolen. The attacker used ARTEX, an open-source tool that uses AI models like DeepSeek and GLM-5.3 for automated penetration testing. CrowdSt</summary>
-  </entry>
-  <entry>
-    <title>GlobalFoundries signs a five-year, $2B deal to provide silicon interposer production capacity to TSMC, manufactured at GlobalFoundries' New York facility (Ian King/Bloomberg)</title>
+    <title>GlobalFoundries signs a five-year, $2B deal to provide silicon interposer production capacity to TSMC, manufactured at GlobalFoundries' Malta, New York facility (Ian King/Bloomberg)</title>
     <link href="https://www.techmeme.com/261008/p34"/>
     <id>https://www.techmeme.com/261008/p34</id>
     <updated>2026-10-08T16:10:00.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Ian King / Bloomberg : GlobalFoundries signs a five-year, $2B deal to provide silicon interposer production capacity to TSMC, manufactured at GlobalFoundries' New York facility — GlobalFoundries Inc. shares gained as much as 7% after the chip manufacturer announced a five-year, $2 billion deal to provide US production </summary>
+    <summary>Ian King / Bloomberg : GlobalFoundries signs a five-year, $2B deal to provide silicon interposer production capacity to TSMC, manufactured at GlobalFoundries' Malta, New York facility — GlobalFoundries Inc. shares gained as much as 7% after the chip manufacturer announced a five-year, $2 billion deal …</summary>
   </entry>
   <entry>
-    <title>I sent this math problem to claude and the system rejected it. Am I about to get swatted?</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x0vr2t/i_sent_this_math_problem_to_claude_and_the_system"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x0vr2t/i_sent_this_math_problem_to_claude_and_the_system</id>
-    <updated>2026-10-08T16:38:00.000Z</updated>
+    <title>Thank you :) Swift Models hit 2.2 million+ downloads / Early Access to New Models, Free Compute for Researchers</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x0ui6f/thank_you_swift_models_hit_22_million_downloads"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x0ui6f/thank_you_swift_models_hit_22_million_downloads</id>
+    <updated>2026-10-08T15:50:21.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by /u/Super_Range45 [link] [comments]</summary>
+    <summary>Hey everyone, Jovan from UkisAI (Swift Qwen) here! For those who don't know us, UkisAI is a small lab making tiny frontier LLMs, tools and datasets (+doing it open-source!). I'm one of the guys running it aka I train the models and post on Reddit. Our first open-source release is Swift, a series of reasoning-efficient </summary>
   </entry>
   <entry>
-    <title>AI hardware startup Natura unveils Interface, a $99 smart ring that connects to AI agents and apps, including Muse, Instinct, Claude, Grokbot, and ChatGPT (Aisha Malik/TechCrunch)</title>
+    <title>AI hardware startup Natura unveils Interface, a $99 smart ring that connects to AI agents and apps, including Claude, ChatGPT, Muse, Grok Bot, and Instinct (Aisha Malik/TechCrunch)</title>
     <link href="https://www.techmeme.com/261008/p36"/>
     <id>https://www.techmeme.com/261008/p36</id>
     <updated>2026-10-08T16:25:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Aisha Malik / TechCrunch : AI hardware startup Natura unveils Interface, a $99 smart ring that connects to AI agents and apps, including Muse, Instinct, Claude, Grokbot, and ChatGPT — Meet Interface, a new $99 smart ring from AI and hardware startup Natura that's designed for the era of AI agents.</summary>
+    <summary>Aisha Malik / TechCrunch : AI hardware startup Natura unveils Interface, a $99 smart ring that connects to AI agents and apps, including Claude, ChatGPT, Muse, Grok Bot, and Instinct — Meet Interface, a new $99 smart ring from AI and hardware startup Natura that's designed for the era of AI agents.</summary>
   </entry>
   <entry>
     <title>Agents that can pay: building Restock with Stripe's Link and Managed Deep Agents</title>
@@ -268,12 +232,48 @@
     <summary>Build an agent that pays for real purchases. Restock runs in Slack on Managed Deep Agents and pays with Stripe's Link over the Machine Payments Protocol.</summary>
   </entry>
   <entry>
-    <title>JetBlue Bonds Fall Deeper Into Distress as Short-Sellers Pile In</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-08/jetblue-bonds-fall-deeper-into-distress-as-short-sellers-pile-in"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-08/jetblue-bonds-fall-deeper-into-distress-as-short-sellers-pile-in</id>
-    <updated>2026-10-08T16:43:46.000Z</updated>
+    <title>Oryx Energies Sold for About $1 Billion in Management Buyout</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-08/oryx-energies-sold-for-about-1-billion-in-management-buyout"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-08/oryx-energies-sold-for-about-1-billion-in-management-buyout</id>
+    <updated>2026-10-08T17:24:32.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>JetBlue Airways Corp. debt fell to the lowest levels since it was issued more than two years ago, as the struggling airline burns through cash while short sellers circle its shares.</summary>
+    <summary>Oryx Energies SA, an Africa-focused trader, was sold for around $1 billion in a management buyout, according to a source familiar with the deal.</summary>
+  </entry>
+  <entry>
+    <title>Hedge Funds That Nailed Brazil Vote Bet on More Gains Ahead</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-08/hedge-funds-that-nailed-brazil-vote-bet-on-more-gains-ahead"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-08/hedge-funds-that-nailed-brazil-vote-bet-on-more-gains-ahead</id>
+    <updated>2026-10-08T17:20:09.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Brazilian hedge-fund managers who won big by positioning for a strong showing by right-wing candidate Flávio Bolsonaro in the first round of the presidential election are fine-tuning derivatives bets that soared on Monday’s historic rally in local markets.</summary>
+  </entry>
+  <entry>
+    <title>Beijing Will Not Pace the Frontier: China’s Speed-First AI Safety Regime</title>
+    <link href="https://newsletter.semianalysis.com/p/beijing-will-not-pace-the-frontier"/>
+    <id>https://newsletter.semianalysis.com/p/beijing-will-not-pace-the-frontier</id>
+    <updated>2026-10-08T17:46:05.000Z</updated>
+    <author><name>SemiAnalysis Newsletter</name></author>
+    <category term="HARDWARE"/>
+    <summary>AI safety is on fire.</summary>
+  </entry>
+  <entry>
+    <title>Rally Up: ‘Gears of War: E-Day’ Launches on GeForce NOW</title>
+    <link href="https://blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day"/>
+    <id>https://blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day</id>
+    <updated>2026-10-08T13:00:46.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
+    <category term="HARDWARE"/>
+    <summary>Gears of War: E-Day leads the charge on GeForce NOW this week, bringing Marcus Fenix and Dom Santiago’s first fight against the Locust Horde to the cloud with GeForce RTX-powered performance. A new way to join the action is also coming: Fire TV users will soon be able to purchase GeForce NOW memberships directly throug</summary>
+  </entry>
+  <entry>
+    <title>AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks</title>
+    <link href="https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks"/>
+    <id>https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks</id>
+    <updated>2026-10-08T09:24:17.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>According to CrowdStrike, a suspected Chinese-speaking attacker hacked multiple South Korean financial institutions. At Shinhan Bank alone, more than 25,000 customer records were stolen. The attacker used ARTEX, an open-source tool that uses AI models like DeepSeek and GLM-5.3 for automated penetration testing. CrowdSt</summary>
   </entry>
 </feed>
