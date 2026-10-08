@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-08T07:08:49.078Z</updated>
+  <updated>2026-10-08T09:06:37.975Z</updated>
   <entry>
     <title>Claude Haiku 5.5</title>
     <link href="https://simonwillison.net/2026/Oct/7/claude-haiku-5-5"/>
@@ -14,42 +14,6 @@
     <author><name>Simon Willison</name></author>
     <category term="MODEL RELEASES"/>
     <summary>As previously promised , here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5 . The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago , and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full 10x the price of OpenAI' — Also covered by: Devin (Cognition), AWS ML Blog, GitHub Copilot Changelog</summary>
-  </entry>
-  <entry>
-    <title>Atom Computing, Diraq, IBM and IonQ Advance to DARPA QBI Stage C</title>
-    <link href="https://www.hpcwire.com/2026/10/07/atom-computing-diraq-ibm-and-ionq-advance-to-darpa-qbi-stage-c"/>
-    <id>https://www.hpcwire.com/2026/10/07/atom-computing-diraq-ibm-and-ionq-advance-to-darpa-qbi-stage-c</id>
-    <updated>2026-10-07T23:27:58.000Z</updated>
-    <author><name>HPC Wire</name></author>
-    <category term="HARDWARE"/>
-    <summary>DARPA announced today that Atom Computing, Diraq, IBM and IonQ have advanced to the final phase of its Quantum Benchmarking Initiative, moving their proposed systems into hands-on government verification and validation. The four organizations represent different modalities of quantum computing: neutral atoms at Atom Co — Also covered by: Quantum Computing Report, The Quantum Insider</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp b11491 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11491"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11491</id>
-    <updated>2026-10-08T06:40:21.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>sycl: remove duplicate block-size defines from op headers ( #29507 ) All were duplicates of the values in ggml/src/ggml-sycl/presets.hpp Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/53830337 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enable — Also covered by: ggml-org/whisper.cpp</summary>
-  </entry>
-  <entry>
-    <title>Nous Research confirms it hit $1.5B valuation, launches AI agents for business users</title>
-    <link href="https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users"/>
-    <id>https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users</id>
-    <updated>2026-10-07T20:48:45.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>The developer of Hermes Agent raised a $90 million Series B.</summary>
-  </entry>
-  <entry>
-    <title>Helping teens learn, plan, and shape the future of AI</title>
-    <link href="https://openai.com/index/teens-learn-and-plan"/>
-    <id>https://openai.com/index/teens-learn-and-plan</id>
-    <updated>2026-10-07T12:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.</summary>
   </entry>
   <entry>
     <title>Sharing AI progress in mathematics</title>
@@ -61,6 +25,51 @@
     <summary>OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.</summary>
   </entry>
   <entry>
+    <title>Atom Computing, Diraq, IBM and IonQ Advance to DARPA QBI Stage C</title>
+    <link href="https://www.hpcwire.com/2026/10/07/atom-computing-diraq-ibm-and-ionq-advance-to-darpa-qbi-stage-c"/>
+    <id>https://www.hpcwire.com/2026/10/07/atom-computing-diraq-ibm-and-ionq-advance-to-darpa-qbi-stage-c</id>
+    <updated>2026-10-07T23:27:58.000Z</updated>
+    <author><name>HPC Wire</name></author>
+    <category term="HARDWARE"/>
+    <summary>DARPA announced today that Atom Computing, Diraq, IBM and IonQ have advanced to the final phase of its Quantum Benchmarking Initiative, moving their proposed systems into hands-on government verification and validation. The four organizations represent different modalities of quantum computing: neutral atoms at Atom Co — Also covered by: Quantum Computing Report, The Quantum Insider</summary>
+  </entry>
+  <entry>
+    <title>llama.cpp b11493 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11493"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11493</id>
+    <updated>2026-10-08T08:51:56.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>sycl: add grouped MoE XMX GEMM ( #29245 ) Co-authored-by: cwriter cwriter@localhost Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/53864714 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux:  — Also covered by: ggml-org/whisper.cpp</summary>
+  </entry>
+  <entry>
+    <title>Nous Research confirms it hit $1.5B valuation, launches AI agents for business users</title>
+    <link href="https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users"/>
+    <id>https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users</id>
+    <updated>2026-10-07T20:48:45.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>The developer of Hermes Agent raised a $90 million Series B.</summary>
+  </entry>
+  <entry>
+    <title>Manus Raises More Than $500 Million After Unwinding Meta Deal</title>
+    <link href="https://www.theinformation.com/briefings/manus-raises-500-million-unwinding-meta-deal"/>
+    <id>https://www.theinformation.com/briefings/manus-raises-500-million-unwinding-meta-deal</id>
+    <updated>2026-10-08T06:16:17.000Z</updated>
+    <author><name>The Information</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>The parent company of Manus, the AI agent startup that recently separated from Meta Platforms, said Thursday that it has raised more than $500 million in a new funding round. Butterfly Effect said in a social media post on WeChat that the funding round was led by new investors Boyu Capital and ... — Also covered by: Reuters AI (Google News)</summary>
+  </entry>
+  <entry>
+    <title>Helping teens learn, plan, and shape the future of AI</title>
+    <link href="https://openai.com/index/teens-learn-and-plan"/>
+    <id>https://openai.com/index/teens-learn-and-plan</id>
+    <updated>2026-10-07T12:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.</summary>
+  </entry>
+  <entry>
     <title>Hackers hijack Google domains after breaching ccTLD registries</title>
     <link href="https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries"/>
     <id>https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries</id>
@@ -68,15 +77,6 @@
     <author><name>BleepingComputer</name></author>
     <category term="CYBER THREATS"/>
     <summary>Hackers obtained unauthorized HTTPS certificates for several Google domains and hijacked domains in the country-code top-level domains (ccTLDs) for Ghana, American Samoa, and Sierra Leone after compromising third-party operators and modifying authoritative DNS records. [...] — Also covered by: The Hacker News</summary>
-  </entry>
-  <entry>
-    <title>Introducing Mistral Large 4</title>
-    <link href="https://mistral.ai/news/mistral-large-4"/>
-    <id>https://mistral.ai/news/mistral-large-4</id>
-    <updated>2026-10-06T12:00:27.000Z</updated>
-    <author><name>Mistral AI</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Also covered by: Lemmy c/localllama</summary>
   </entry>
   <entry>
     <title>Robot data startup Mecka AI nabs $60M from Sequoia</title>
@@ -133,13 +133,13 @@
     <summary>Anniek Bao / CNBC : Manus' parent Butterfly Effect says it raised $500M+, led by Boyu Capital and IDG Capital, in its first funding since Meta was forced to unwind its Manus buyout — AI agent startup Manus has raised more than $500 million in its first funding round since Meta was forced to abandon its acquisition of t</summary>
   </entry>
   <entry>
-    <title>MCB CEO: Growth Fueled by Current Oil Market Demand</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-08/mcb-ceo-growth-fueled-by-current-oil-market-demand-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-08/mcb-ceo-growth-fueled-by-current-oil-market-demand-video</id>
-    <updated>2026-10-08T06:56:02.000Z</updated>
+    <title>How India Can Turn Its Culture into Economic Power | Emerging</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-10-08/how-india-can-turn-its-culture-into-economic-power-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-10-08/how-india-can-turn-its-culture-into-economic-power-video</id>
+    <updated>2026-10-08T08:46:55.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Mauritius Commercial Bank reported an increase in net interest income for the full year that’s as geopolitical tensions are driving up oil &amp; gas prices. Jennifer Zabasajja, Bloomberg's Chief Africa Correspondent spoke to Thierry Hebraud, CEO of Mauritius Commercial Bank on the earnings and the formation of the new Afri</summary>
+    <summary>India produces more films than any other country and turned cricket into a multi-billion dollar sport. And yet it hasn’t built a strong global audience. In this episode of Emerging, Haslinda Amin sits down with JioStar’s Uday Shankar to discuss whether India can replicate the soft power success of places like China and</summary>
   </entry>
   <entry>
     <title>Tokka-Bench: Evaluating Tokenizers Across 100 Natural and 20 Programming Languages</title>
@@ -187,12 +187,21 @@
     <summary>Attackers Hide AI Prompt Injections Inside Phishing Emails Infosecurity Magazine</summary>
   </entry>
   <entry>
+    <title>MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data</title>
+    <link href="https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html"/>
+    <id>https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html</id>
+    <updated>2026-10-08T07:41:44.000Z</updated>
+    <author><name>The Hacker News</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>The U.S. Department of Justice (DoJ) on Wednesday announced charges against a 50-year-old U.S. and Israeli national for allegedly defrauding ransomware victims by secretly paying the attackers to obtain decryptors while claiming to use proprietary tools to recover their data. Zohar Pinhasi (aka Zack Silver and Zack Gre</summary>
+  </entry>
+  <entry>
     <title>Evolution of Web3 in Cloud Supply Chain Attacks</title>
     <link href="https://unit42.paloaltonetworks.com/web3-cloud-supply-chain-attacks"/>
     <id>https://unit42.paloaltonetworks.com/web3-cloud-supply-chain-attacks</id>
     <updated>2026-10-07T22:00:16.000Z</updated>
     <author><name>Palo Alto Unit 42</name></author>
-    <category term="CYBER THREATS"/>
+    <category term="CYBER DEFENSE"/>
     <summary>Unit 42 details how threat actors leverage Web3 infrastructure and open-source supply chain attacks to breach enterprise cloud environments The post Evolution of Web3 in Cloud Supply Chain Attacks appeared first on Unit 42 .</summary>
   </entry>
   <entry>
@@ -205,13 +214,13 @@
     <summary>The reported talks come as Figure pursues its multibillion-dollar Nscale compute agreement and Index training-data project. No completed deal has been established.</summary>
   </entry>
   <entry>
-    <title>Cisco Releases Quantum Network Controller and Network-Aware Compiler v0.2.0 for Distributed Quantum Infrastructure</title>
-    <link href="https://quantumcomputingreport.com/cisco-releases-quantum-network-controller-and-network-aware-compiler-v0-2-0-for-distributed-quantum-infrastructure"/>
-    <id>https://quantumcomputingreport.com/cisco-releases-quantum-network-controller-and-network-aware-compiler-v0-2-0-for-distributed-quantum-infrastructure</id>
-    <updated>2026-10-07T23:23:10.000Z</updated>
-    <author><name>Quantum Computing Report</name></author>
+    <title>Universal Quantum Raises Over $100 Million Series A</title>
+    <link href="https://thequantuminsider.com/2026/10/08/universal-quantum-raises-over-100-million-series-a"/>
+    <id>https://thequantuminsider.com/2026/10/08/universal-quantum-raises-over-100-million-series-a</id>
+    <updated>2026-10-08T07:37:31.000Z</updated>
+    <author><name>The Quantum Insider</name></author>
     <category term="QUANTUM"/>
-    <summary>Cisco's Outshift division has launched the Quantum Network Controller and Network-Aware Quantum Compiler v0.2.0 to manage multi-node quantum networks. The Controller offers Entanglement-as-a-Service, enabling on-demand entanglement across diverse quantum hardware. The Compiler integrates circuit compilation, qubit part</summary>
+    <summary>Insider Brief PRESS RELEASE — Universal Quantum, the company building large-scale quantum computing systems for real-world use, today announced it has secured over $100 million in Series A funding – marking the largest Series A ever raised by a quantum firm headquartered in the UK. The funding will accelerate the compa</summary>
   </entry>
   <entry>
     <title>ollama v0.40.1 released</title>
@@ -232,31 +241,22 @@
     <summary>Brent Crane / Bloomberg : A profile of Garmin CEO Cliff Pemble, who helped diversify its GPS product lines and grew annual revenue from $2.6B in 2013 to a record $7.2B last year — The company hit $7.2 billion in sales last year across fitness, outdoor, marine, automotive and aviation.</summary>
   </entry>
   <entry>
-    <title>Manus Raises More Than $500 Million After Unwinding Meta Deal</title>
-    <link href="https://www.theinformation.com/briefings/manus-raises-500-million-unwinding-meta-deal"/>
-    <id>https://www.theinformation.com/briefings/manus-raises-500-million-unwinding-meta-deal</id>
-    <updated>2026-10-08T06:16:17.000Z</updated>
-    <author><name>The Information</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>The parent company of Manus, the AI agent startup that recently separated from Meta Platforms, said Thursday that it has raised more than $500 million in a new funding round. Butterfly Effect said in a social media post on WeChat that the funding round was led by new investors Boyu Capital and ...</summary>
+    <title>b11494: ggml-cuda: assign four GDN state columns per warp (#30087)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11494"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11494</id>
+    <updated>2026-10-08T06:07:34.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>ggml-cuda: assign two GDN state columns per warp ggml-cuda: use 4 GDN state columns per warp at S_v=128 ggml-cuda: default cols_per_warp=4 ggml-cuda: address GDN review nits</summary>
   </entry>
   <entry>
-    <title>My new space heater can talk to me</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1x0ia7g/my_new_space_heater_can_talk_to_me"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1x0ia7g/my_new_space_heater_can_talk_to_me</id>
-    <updated>2026-10-08T05:04:05.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>Recommendation for story/world building models?</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x0lqwv/recommendation_for_storyworld_building_models"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x0lqwv/recommendation_for_storyworld_building_models</id>
+    <updated>2026-10-08T08:41:34.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>This is a custom build I made a few months ago. The initial goal was to get a 3090 Ti and then mobo/case/power with enough room to grow in case I got another one down the road. But then I couldn't stand the sight of one lonely gpu so immediately got a second 3090 Ti I picked after benchmarking 13 different GPUs via run</summary>
-  </entry>
-  <entry>
-    <title>exllamav3 v1.6.0 is out — ROCm/RDNA support, CPU pinning off by default on Linux...</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1x0icp1/exllamav3_v160_is_out_rocmrdna_support_cpu"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1x0icp1/exllamav3_v160_is_out_rocmrdna_support_cpu</id>
-    <updated>2026-10-08T05:08:11.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>submitted by /u/Delicious_Box_9823 [link] [comments]</summary>
+    <summary>If i ask gemini or grok it always answers with really old models. What's the current gold standard for story telling models ? I'd like to keep it on my 8gb card , but 16gb is available for the right jump in quality. Ideally low refusals, but i also don't want one that goes out it's way to be vulgar. submitted by /u/opU</summary>
   </entry>
   <entry>
     <title>Adaptive Workflow Intelligence: A Cognitive Architecture for Context-Driven Enterprise Automation</title>
