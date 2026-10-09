@@ -5,24 +5,24 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-09T17:33:48.184Z</updated>
+  <updated>2026-10-09T18:08:50.381Z</updated>
   <entry>
-    <title>llama.cpp b11532 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11532"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11532</id>
-    <updated>2026-10-09T17:16:57.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>Anthropic launches a free AI scanner for open-source projects</title>
+    <link href="https://the-decoder.com/anthropic-launches-a-free-ai-scanner-for-open-source-projects"/>
+    <id>https://the-decoder.com/anthropic-launches-a-free-ai-scanner-for-open-source-projects</id>
+    <updated>2026-10-09T17:54:44.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>model : use exact GELU for ModernBERT encoders ( #30108 ) model : use exact GELU for ModernBERT encoders Assisted-by: Codex model : keep tanh GELU aliases on ggml_geglu Assisted-by: Claude Opus 5.5 model : map gelu_python to ggml_geglu_erf Assisted-by: Claude Opus 5.5 Website: https://llama.app Attestations: https://gi — Also covered by: ggml-org/whisper.cpp</summary>
+    <summary>Anthropic has launched &quot;Cyber Mission,&quot; a program to protect critical infrastructure and open-source software from cyberattacks. Partners like CrowdStrike and Palo Alto Networks will help secure power grids and water systems, while a free AI scanner automatically checks open-source projects for vulnerabilities with an  — Also covered by: The Hacker News, The Verge AI</summary>
   </entry>
   <entry>
-    <title>Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects</title>
-    <link href="https://thehackernews.com/2026/10/anthropic-launches-free-ai.html"/>
-    <id>https://thehackernews.com/2026/10/anthropic-launches-free-ai.html</id>
-    <updated>2026-10-09T12:47:28.000Z</updated>
-    <author><name>The Hacker News</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Anthropic on Thursday unveiled OSS Scanner as an opt-in vulnerability scanner to help secure the open-source ecosystem using artificial intelligence (AI). &quot;It's an opt-in service informed by our experience using Claude to find vulnerabilities during Project Glasswing,&quot; Anthropic said. &quot;Projects that join will receive t — Also covered by: The Verge AI</summary>
+    <title>llama.cpp b11533 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11533"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11533</id>
+    <updated>2026-10-09T17:45:58.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>opencl: fix kernel compilation for a6x GPUs ( #30176 ) opencl: skip kernel_cpy_f32_f32_pack on A6X to avoid shader compiler crash The A6x compiler backend found in iot device with a623 (E031.50.31.01) cannot handle kernels with a large number of arguments. Skip this kernel for A6x to avoid compiler crash opencl: A6X co — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
     <title>Sophos cuts threat investigation time by 96% with OpenAI Daybreak</title>
@@ -97,22 +97,13 @@
     <summary>JetBrains released Mellum2.1, an Apache 2.0, 12B mixture-of-experts thinking model with 2.5B active parameters. RL in real repositories lifted its SWE-bench Verified score from 2.0 to 47.0. The post JetBrains Releases Mellum2.1: A 12B MoE Open Model for Coding Agents appeared first on MarkTechPost . — Also covered by: JetBrains AI</summary>
   </entry>
   <entry>
-    <title>Analysis of 857 releases from nine Chinese AI labs from 2021 to September 2026: just 3.6% included safety results from the developer and only 1.1% did at launch (SemiAnalysis)</title>
-    <link href="https://www.techmeme.com/261009/p14"/>
-    <id>https://www.techmeme.com/261009/p14</id>
-    <updated>2026-10-09T14:15:01.000Z</updated>
+    <title>Vesta, which uses AI agents to automate much of the loan origination process, raised $30M led by Conversion, bringing its total funding to $85M (Dominic-Madori Davis/TechCrunch)</title>
+    <link href="https://www.techmeme.com/261009/p20"/>
+    <id>https://www.techmeme.com/261009/p20</id>
+    <updated>2026-10-09T17:35:02.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>SemiAnalysis : Analysis of 857 releases from nine Chinese AI labs from 2021 to September 2026: just 3.6% included safety results from the developer and only 1.1% did at launch — AI safety is on fire. On 12 September 2026, Dario Amodei published an essay arguing that frontier labs must deliberately slow …</summary>
-  </entry>
-  <entry>
-    <title>Android Bench 2 Adds Support for Long-Horizon Tasks, Agentic Evaluation, and Continuous Scoring</title>
-    <link href="https://www.infoq.com/news/2026/10/android-bench-2"/>
-    <id>https://www.infoq.com/news/2026/10/android-bench-2</id>
-    <updated>2026-10-09T17:00:00.000Z</updated>
-    <author><name>InfoQ AI/ML</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Google has released Android Bench 2.0, a major update to its benchmark framework for evaluating AI models and agents on Android development tasks. The update introduces long-horizon tasks (LHTs), agent-based evaluation, and continuous scoring to better assess performance on complex, multi-step development tasks. By Ser</summary>
+    <summary>Dominic-Madori Davis / TechCrunch : Vesta, which uses AI agents to automate much of the loan origination process, raised $30M led by Conversion, bringing its total funding to $85M — Vesta, an AI-native software startup that helps lenders originate mortgages, announced on Thursday that it raised a $30 million round led </summary>
   </entry>
   <entry>
     <title>OpenAI’s $70B AI Boom, Goldman Leads Wall Street Trading Surge</title>
@@ -124,13 +115,22 @@
     <summary>OpenAI’s $70 billion revenue target reignites the AI trade. Jet fuel prices squeeze US airlines, while Goldman leads a Wall Street trading windfall. Plus, Naftali Group CEO Miki Naftali on South Florida’s luxury real estate boom, and Brooklyn Sports &amp; Entertainment CEO Sam Zussman on the Liberty’s playoff push and reco</summary>
   </entry>
   <entry>
-    <title>b11533: opencl: fix kernel compilation for a6x GPUs (#30176)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11533"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11533</id>
-    <updated>2026-10-09T16:19:20.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="HARDWARE"/>
-    <summary>opencl: skip kernel_cpy_f32_f32_pack on A6X to avoid shader compiler crash The A6x compiler backend found in iot device with a623 (E031.50.31.01) cannot handle kernels with a large number of arguments. Skip this kernel for A6x to avoid compiler crash opencl: A6X constant-fold workaround for get_local_size in GEMV kerne</summary>
+    <title>Android Bench 2 Adds Support for Long-Horizon Tasks, Agentic Evaluation, and Continuous Scoring</title>
+    <link href="https://www.infoq.com/news/2026/10/android-bench-2"/>
+    <id>https://www.infoq.com/news/2026/10/android-bench-2</id>
+    <updated>2026-10-09T17:00:00.000Z</updated>
+    <author><name>InfoQ AI/ML</name></author>
+    <category term="RESEARCH"/>
+    <summary>Google has released Android Bench 2.0, a major update to its benchmark framework for evaluating AI models and agents on Android development tasks. The update introduces long-horizon tasks (LHTs), agent-based evaluation, and continuous scoring to better assess performance on complex, multi-step development tasks. By Ser</summary>
+  </entry>
+  <entry>
+    <title>Democrats prepare to battle over AI regulation</title>
+    <link href="https://www.transformernews.ai/p/democrats-prepare-to-battle-over-ai-regulation"/>
+    <id>https://www.transformernews.ai/p/democrats-prepare-to-battle-over-ai-regulation</id>
+    <updated>2026-10-09T14:34:34.000Z</updated>
+    <author><name>Transformer</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>Transformer Weekly: OpenAI fires safety staff, Clayton leads White House taskforce, and Guthrie supports a kill switch</summary>
   </entry>
   <entry>
     <title>Straiker Wins 2026 CyberSecurity Breakthrough Award for Cybersecurity Solution of the Year for Artificial Intelligence</title>
@@ -160,15 +160,6 @@
     <summary>Threat actors are exploiting one critical and one medium-severity vulnerability still unpatched in the AhsayCBS backup management platform to deploy webshells and cryptocurrency miners. [...]</summary>
   </entry>
   <entry>
-    <title>OpenAI revenue keeps surging as company seeks $30 billion in fresh capital</title>
-    <link href="https://the-decoder.com/openai-revenue-keeps-surging-as-company-seeks-30-billion-in-fresh-capital"/>
-    <id>https://the-decoder.com/openai-revenue-keeps-surging-as-company-seeks-30-billion-in-fresh-capital</id>
-    <updated>2026-10-09T17:20:34.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>OpenAI's annualized revenue rate sits at about $50 billion, well below the initially reported $70 billion figure that was based on a different accounting method. The correction sent chip stocks sliding. Meanwhile, OpenAI is negotiating at least $30 billion in fresh capital at a $1.4 trillion valuation. The article Open</summary>
-  </entry>
-  <entry>
     <title>Quoting Matthew Green</title>
     <link href="https://simonwillison.net/2026/Oct/9/matthew-green"/>
     <id>https://simonwillison.net/2026/Oct/9/matthew-green</id>
@@ -196,6 +187,15 @@
     <summary>Insider Brief PRESS RELEASE — Chattanooga Quantum Collaborative announces seventeen professionals from sixteen Tennessee employers completed the Quantum Ready Pre-Apprenticeship, a 12-week program created by the Chattanooga Quantum Collaborative (CQC) to help companies understand emerging quantum technologies. The prog</summary>
   </entry>
   <entry>
+    <title>OpenAI revenue keeps surging as company seeks $30 billion in fresh capital</title>
+    <link href="https://the-decoder.com/openai-revenue-keeps-surging-as-company-seeks-30-billion-in-fresh-capital"/>
+    <id>https://the-decoder.com/openai-revenue-keeps-surging-as-company-seeks-30-billion-in-fresh-capital</id>
+    <updated>2026-10-09T17:20:34.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>OpenAI's annualized revenue rate sits at about $50 billion, well below the initially reported $70 billion figure that was based on a different accounting method. The correction sent chip stocks sliding. Meanwhile, OpenAI is negotiating at least $30 billion in fresh capital at a $1.4 trillion valuation. The article Open</summary>
+  </entry>
+  <entry>
     <title>Warehouse robotics startup Ultra raised a $12M seed and a $50M Series A, and expands its deal with Physical Intelligence to supply AI software for its robots (Jeff John Roberts/Fortune)</title>
     <link href="https://www.techmeme.com/261009/p17"/>
     <id>https://www.techmeme.com/261009/p17</id>
@@ -214,15 +214,6 @@
     <summary>Davis Giangiulio / CNBC : Blockchain.com seeks CFTC approval to offer event contracts and cryptocurrency derivatives in the US; it already offers some prediction markets internationally — Blockchain.com, a digital asset platform, wants to get in on the prediction market boom in the U.S.</summary>
   </entry>
   <entry>
-    <title>GitHub - google-ai-edge/ml-drift: GPU-Accelerated AI/ML Inference</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x1owzm/github_googleaiedgemldrift_gpuaccelerated_aiml"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x1owzm/github_googleaiedgemldrift_gpuaccelerated_aiml</id>
-    <updated>2026-10-09T15:50:37.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Blog Post : ML Drift: Next-Gen GPU AI/ML Inference at the Edge - Google Developers Blog The Google AI Edge Team is excited to announce the open-source release of ML Drift , our high-performance, cross-platform, on-device GPU compute engine specifically built for on-device AI/ML inference, under the Apache 2.0 license. </summary>
-  </entry>
-  <entry>
     <title>ollama v0.40.2 released</title>
     <link href="https://github.com/ollama/ollama/releases/tag/v0.40.2"/>
     <id>https://github.com/ollama/ollama/releases/tag/v0.40.2</id>
@@ -230,6 +221,15 @@
     <author><name>ollama/ollama</name></author>
     <category term="LOCAL MODELS"/>
     <summary>Model upgrades Models downloaded with earlier versions of Ollama are upgraded in the background the first time you run them, for better performance and compatibility when running on llama.cpp. To make downgrading safe, Ollama keeps the original copy as a backup, so upgraded models are temporarily kept on disk. A future</summary>
+  </entry>
+  <entry>
+    <title>Benchmarked some Strata Qwen3.8-flash-next quants</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1x1pvkt/benchmarked_some_strata_qwen38flashnext_quants"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1x1pvkt/benchmarked_some_strata_qwen38flashnext_quants</id>
+    <updated>2026-10-09T16:26:54.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>This is a follow up post for my previous post . I continued to bench some more quants on my own local benchmark consisting of real coding tasks derived from polygot aider + some additional own agentic tasks. They are completed through the pi agent harness which reflects my daily use case. Short disclaimer: This is not </summary>
   </entry>
   <entry>
     <title>How to Build a Model Router in the Harness</title>
@@ -241,22 +241,13 @@
     <summary>How we built a model router into Open SWE's harness that cut median cost per coding task by 64% with no measurable drop in quality, and how to build your own.</summary>
   </entry>
   <entry>
-    <title>How to build great out-of-the-box user experiences with Managed Deep Agents</title>
-    <link href="https://www.langchain.com/blog/slack-sdk-managed-deep-agents"/>
-    <id>https://www.langchain.com/blog/slack-sdk-managed-deep-agents</id>
-    <updated>2026-10-09T16:52:14.000Z</updated>
-    <author><name>LangChain Blog</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Managed Deep Agents includes a new API for managing reactions for your distributed agents, and a system to dynamically assign emoji responses with your instrument of choice. Learn more.</summary>
-  </entry>
-  <entry>
-    <title>Liberty Meetings Draw Crowd in London as Virgin Media Bonds Sink</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-09/liberty-meetings-draw-crowd-in-london-as-virgin-media-bonds-sink"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-09/liberty-meetings-draw-crowd-in-london-as-virgin-media-bonds-sink</id>
-    <updated>2026-10-09T16:56:30.000Z</updated>
+    <title>The Importance of Owning Assets</title>
+    <link href="https://www.bloomberg.com/news/newsletters/2026-10-09/the-importance-of-owning-assets"/>
+    <id>https://www.bloomberg.com/news/newsletters/2026-10-09/the-importance-of-owning-assets</id>
+    <updated>2026-10-09T17:33:20.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Liberty Global Ltd. drew a crowd on Thursday at a Morgan Stanley leveraged-finance conference in London as investors peppered executives about the cratering debt of its telecommunications joint venture.</summary>
+    <summary>More and more of the US economy is riding on the same trade.</summary>
   </entry>
   <entry>
     <title>Wieszcz-XIX: A 3.1-Billion-Word Corpus of Pre-1918 Polish and Temporally Bounded Language Models Trained From Scratch</title>
@@ -268,12 +259,21 @@
     <summary>arXiv:2610.10592v1 Announce Type: new Abstract: Historical Polish is well documented as a language but annotated in machine-readable form only to about a million words for the period this paper covers; the rest sits behind optical character recognition of variable quality. We present Wieszcz-XIX, a corpus of 6.75 billi</summary>
   </entry>
   <entry>
-    <title>Democrats prepare to battle over AI regulation</title>
-    <link href="https://www.transformernews.ai/p/democrats-prepare-to-battle-over-ai-regulation"/>
-    <id>https://www.transformernews.ai/p/democrats-prepare-to-battle-over-ai-regulation</id>
-    <updated>2026-10-09T14:34:34.000Z</updated>
-    <author><name>Transformer</name></author>
-    <category term="RESEARCH"/>
-    <summary>Transformer Weekly: OpenAI fires safety staff, Clayton leads White House taskforce, and Guthrie supports a kill switch</summary>
+    <title>ICYMI: What landed for AI builders in September 2026</title>
+    <link href="https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-september-2026"/>
+    <id>https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-september-2026</id>
+    <updated>2026-10-09T15:38:39.000Z</updated>
+    <author><name>AWS ML Blog</name></author>
+    <category term="PRODUCTS"/>
+    <summary>A monthly recap of the latest Amazon Bedrock, Amazon Bedrock AgentCore, and Strands updates from September 2026: broader model choice, faster serverless agents with built-in evaluation, and automated knowledge base syncing with native enterprise connectors.</summary>
+  </entry>
+  <entry>
+    <title>Amazon and others are done keeping data center deals secret. Is it enough to build trust?</title>
+    <link href="https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust"/>
+    <id>https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust</id>
+    <updated>2026-10-09T16:56:42.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="HARDWARE"/>
+    <summary>Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to hundreds of proposed and enacted moratoriums from New York to San Francisc</summary>
   </entry>
 </feed>
