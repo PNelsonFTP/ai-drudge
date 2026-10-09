@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-09T17:08:42.584Z</updated>
+  <updated>2026-10-09T17:33:48.184Z</updated>
   <entry>
-    <title>llama.cpp b11531 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11531"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11531</id>
-    <updated>2026-10-09T16:41:21.000Z</updated>
+    <title>llama.cpp b11532 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11532"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11532</id>
+    <updated>2026-10-09T17:16:57.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>chat : refactor API ( #30210 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/54392536 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU — Also covered by: ggml-org/whisper.cpp</summary>
+    <category term="MODEL RELEASES"/>
+    <summary>model : use exact GELU for ModernBERT encoders ( #30108 ) model : use exact GELU for ModernBERT encoders Assisted-by: Codex model : keep tanh GELU aliases on ggml_geglu Assisted-by: Claude Opus 5.5 model : map gelu_python to ggml_geglu_erf Assisted-by: Claude Opus 5.5 Website: https://llama.app Attestations: https://gi — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
     <title>Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects</title>
@@ -43,6 +43,15 @@
     <summary>Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to hundreds of proposed and enacted moratoriums from New York to San Francisc</summary>
   </entry>
   <entry>
+    <title>Danu Robotics’ fight to build a better recycling robot</title>
+    <link href="https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot"/>
+    <id>https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot</id>
+    <updated>2026-10-09T16:45:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>For six years, Danu founder Amy Ma has been working on a better way to sort recyclable waste.</summary>
+  </entry>
+  <entry>
     <title>We can’t help treating AI like it’s human. But should we?</title>
     <link href="https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we"/>
     <id>https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we</id>
@@ -70,15 +79,6 @@
     <summary>COLLEGE PARK, Md., Oct. 9, 2026 — IonQ today announced the achievement of entanglement rates above 1,000 per second (1 kHz) between a trapped ion qubit and a solid-state memory, through a photonic interconnect. Entanglement is the quantum connection that lets separate systems work together, and it is the essential ingr</summary>
   </entry>
   <entry>
-    <title>TechCrunch Disrupt 2026 starts in 4 days — lock in your pass savings of up to $100 before prices rise</title>
-    <link href="https://techcrunch.com/2026/10/09/techcrunch-disrupt-2026-starts-in-4-days-lock-in-your-pass-savings-of-up-to-100-before-prices-rise"/>
-    <id>https://techcrunch.com/2026/10/09/techcrunch-disrupt-2026-starts-in-4-days-lock-in-your-pass-savings-of-up-to-100-before-prices-rise</id>
-    <updated>2026-10-09T14:00:00.000Z</updated>
-    <author><name>TechCrunch Startups</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>Four days until TechCrunch Disrupt 2026 starts, when 10,000 founders, investors, and tech leaders gather in San Francisco's Moscone West on October 13-15. Save up to $100 on your price. Plus, save 50% on a second pass of the same type.</summary>
-  </entry>
-  <entry>
     <title>How Oracle turns days of work into minutes with ChatGPT and Codex</title>
     <link href="https://openai.com/index/oracle"/>
     <id>https://openai.com/index/oracle</id>
@@ -95,15 +95,6 @@
     <author><name>MarkTechPost</name></author>
     <category term="OPEN SOURCE"/>
     <summary>JetBrains released Mellum2.1, an Apache 2.0, 12B mixture-of-experts thinking model with 2.5B active parameters. RL in real repositories lifted its SWE-bench Verified score from 2.0 to 47.0. The post JetBrains Releases Mellum2.1: A 12B MoE Open Model for Coding Agents appeared first on MarkTechPost . — Also covered by: JetBrains AI</summary>
-  </entry>
-  <entry>
-    <title>b11532: model : use exact GELU for ModernBERT encoders (#30108)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11532"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11532</id>
-    <updated>2026-10-09T15:26:56.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>model : use exact GELU for ModernBERT encoders Assisted-by: Codex model : keep tanh GELU aliases on ggml_geglu Assisted-by: Claude Opus 5.5 model : map gelu_python to ggml_geglu_erf Assisted-by: Claude Opus 5.5</summary>
   </entry>
   <entry>
     <title>Analysis of 857 releases from nine Chinese AI labs from 2021 to September 2026: just 3.6% included safety results from the developer and only 1.1% did at launch (SemiAnalysis)</title>
@@ -124,22 +115,22 @@
     <summary>Google has released Android Bench 2.0, a major update to its benchmark framework for evaluating AI models and agents on Android development tasks. The update introduces long-horizon tasks (LHTs), agent-based evaluation, and continuous scoring to better assess performance on complex, multi-step development tasks. By Ser</summary>
   </entry>
   <entry>
-    <title>Liberty Meetings Draw Crowd in London as Virgin Media Bonds Sink</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-09/liberty-meetings-draw-crowd-in-london-as-virgin-media-bonds-sink"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-09/liberty-meetings-draw-crowd-in-london-as-virgin-media-bonds-sink</id>
-    <updated>2026-10-09T16:56:30.000Z</updated>
+    <title>OpenAI’s $70B AI Boom, Goldman Leads Wall Street Trading Surge</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-10-09/bloomberg-open-interest-10-09-2026-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-10-09/bloomberg-open-interest-10-09-2026-video</id>
+    <updated>2026-10-09T16:54:27.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Liberty Global Ltd. drew a crowd on Thursday at a Morgan Stanley leveraged-finance conference in London as investors peppered executives about the cratering debt of its telecommunications joint venture.</summary>
+    <summary>OpenAI’s $70 billion revenue target reignites the AI trade. Jet fuel prices squeeze US airlines, while Goldman leads a Wall Street trading windfall. Plus, Naftali Group CEO Miki Naftali on South Florida’s luxury real estate boom, and Brooklyn Sports &amp; Entertainment CEO Sam Zussman on the Liberty’s playoff push and reco</summary>
   </entry>
   <entry>
-    <title>Amazon and others are done keeping data center deals secret. Is it enough to build trust?</title>
-    <link href="https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust"/>
-    <id>https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust</id>
-    <updated>2026-10-09T16:56:42.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>b11533: opencl: fix kernel compilation for a6x GPUs (#30176)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11533"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11533</id>
+    <updated>2026-10-09T16:19:20.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="HARDWARE"/>
-    <summary>Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to hundreds of proposed and enacted moratoriums from New York to San Francisc</summary>
+    <summary>opencl: skip kernel_cpy_f32_f32_pack on A6X to avoid shader compiler crash The A6x compiler backend found in iot device with a623 (E031.50.31.01) cannot handle kernels with a large number of arguments. Skip this kernel for A6x to avoid compiler crash opencl: A6X constant-fold workaround for get_local_size in GEMV kerne</summary>
   </entry>
   <entry>
     <title>Straiker Wins 2026 CyberSecurity Breakthrough Award for Cybersecurity Solution of the Year for Artificial Intelligence</title>
@@ -160,22 +151,22 @@
     <summary>The FBI has arrested another suspected member of the ShinyHunters extortion group believed to be involved in the recent breach of FBI systems, Director Kash Patel announced Friday. [...]</summary>
   </entry>
   <entry>
-    <title>Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access</title>
-    <link href="https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html"/>
-    <id>https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html</id>
-    <updated>2026-10-09T12:59:22.000Z</updated>
-    <author><name>The Hacker News</name></author>
+    <title>Unpatched AhsayCBS flaws exploited to deploy webshells, mine crypto</title>
+    <link href="https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto"/>
+    <id>https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto</id>
+    <updated>2026-10-09T17:17:23.000Z</updated>
+    <author><name>BleepingComputer</name></author>
     <category term="CYBER DEFENSE"/>
-    <summary>Security researchers have published a full working exploit for a pre-authentication remote code execution flaw in AnyDesk Linux that gives attackers root access before anyone approves the connection. AnyDesk patched the flaw in version 8.0.3 in June, but its changelog described the fix only as &quot;fixed a bug that could l</summary>
+    <summary>Threat actors are exploiting one critical and one medium-severity vulnerability still unpatched in the AhsayCBS backup management platform to deploy webshells and cryptocurrency miners. [...]</summary>
   </entry>
   <entry>
-    <title>Ultra Raises $50 Million Series A for Warehouse Robots, Deepens Physical Intelligence Partnership</title>
-    <link href="https://www.humanoidsdaily.com/news/ultra-50-million-series-a-warehouse-robots-physical-intelligence"/>
-    <id>https://www.humanoidsdaily.com/news/ultra-50-million-series-a-warehouse-robots-physical-intelligence</id>
-    <updated>2026-10-09T12:31:34.000Z</updated>
-    <author><name>Humanoids Daily</name></author>
+    <title>OpenAI revenue keeps surging as company seeks $30 billion in fresh capital</title>
+    <link href="https://the-decoder.com/openai-revenue-keeps-surging-as-company-seeks-30-billion-in-fresh-capital"/>
+    <id>https://the-decoder.com/openai-revenue-keeps-surging-as-company-seeks-30-billion-in-fresh-capital</id>
+    <updated>2026-10-09T17:20:34.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="FUNDING &amp; DEALS"/>
-    <summary>The round brings announced funding to $62 million including seed capital, as Ultra scales its warehouse robot service and work with Physical Intelligence.</summary>
+    <summary>OpenAI's annualized revenue rate sits at about $50 billion, well below the initially reported $70 billion figure that was based on a different accounting method. The correction sent chip stocks sliding. Meanwhile, OpenAI is negotiating at least $30 billion in fresh capital at a $1.4 trillion valuation. The article Open</summary>
   </entry>
   <entry>
     <title>Quoting Matthew Green</title>
@@ -187,6 +178,15 @@
     <summary>Everyone is very concerned about being respectable, so I’m going to be the goofball who raises worst-case possibilities. I think there is a 1% chance we live in Minicrypt, and a 15% chance we functionally lose confidence in our existing public-key encryption algorithms. [...] The problem here is that the speed of AI pr</summary>
   </entry>
   <entry>
+    <title>Ultra Raises $50 Million Series A for Warehouse Robots, Deepens Physical Intelligence Partnership</title>
+    <link href="https://www.humanoidsdaily.com/news/ultra-50-million-series-a-warehouse-robots-physical-intelligence"/>
+    <id>https://www.humanoidsdaily.com/news/ultra-50-million-series-a-warehouse-robots-physical-intelligence</id>
+    <updated>2026-10-09T12:31:34.000Z</updated>
+    <author><name>Humanoids Daily</name></author>
+    <category term="ROBOTICS"/>
+    <summary>The round brings announced funding to $62 million including seed capital, as Ultra scales its warehouse robot service and work with Physical Intelligence.</summary>
+  </entry>
+  <entry>
     <title>Chattanooga Quantum Collaborative Graduates First Quantum Ready Cohort</title>
     <link href="https://thequantuminsider.com/2026/10/09/chattanooga-quantum-collaborative-graduates-first-quantum-ready-cohort"/>
     <id>https://thequantuminsider.com/2026/10/09/chattanooga-quantum-collaborative-graduates-first-quantum-ready-cohort</id>
@@ -194,15 +194,6 @@
     <author><name>The Quantum Insider</name></author>
     <category term="QUANTUM"/>
     <summary>Insider Brief PRESS RELEASE — Chattanooga Quantum Collaborative announces seventeen professionals from sixteen Tennessee employers completed the Quantum Ready Pre-Apprenticeship, a 12-week program created by the Chattanooga Quantum Collaborative (CQC) to help companies understand emerging quantum technologies. The prog</summary>
-  </entry>
-  <entry>
-    <title>ollama v0.40.2 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.2"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.2</id>
-    <updated>2026-10-09T03:37:30.000Z</updated>
-    <author><name>ollama/ollama</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Model upgrades Models downloaded with earlier versions of Ollama are upgraded in the background the first time you run them, for better performance and compatibility when running on llama.cpp. To make downgrading safe, Ollama keeps the original copy as a backup, so upgraded models are temporarily kept on disk. A future</summary>
   </entry>
   <entry>
     <title>Warehouse robotics startup Ultra raised a $12M seed and a $50M Series A, and expands its deal with Physical Intelligence to supply AI software for its robots (Jeff John Roberts/Fortune)</title>
@@ -232,6 +223,24 @@
     <summary>Blog Post : ML Drift: Next-Gen GPU AI/ML Inference at the Edge - Google Developers Blog The Google AI Edge Team is excited to announce the open-source release of ML Drift , our high-performance, cross-platform, on-device GPU compute engine specifically built for on-device AI/ML inference, under the Apache 2.0 license. </summary>
   </entry>
   <entry>
+    <title>ollama v0.40.2 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.2"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.2</id>
+    <updated>2026-10-09T03:37:30.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Model upgrades Models downloaded with earlier versions of Ollama are upgraded in the background the first time you run them, for better performance and compatibility when running on llama.cpp. To make downgrading safe, Ollama keeps the original copy as a backup, so upgraded models are temporarily kept on disk. A future</summary>
+  </entry>
+  <entry>
+    <title>How to Build a Model Router in the Harness</title>
+    <link href="https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness"/>
+    <id>https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness</id>
+    <updated>2026-10-09T17:19:13.000Z</updated>
+    <author><name>LangChain Blog</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>How we built a model router into Open SWE's harness that cut median cost per coding task by 64% with no measurable drop in quality, and how to build your own.</summary>
+  </entry>
+  <entry>
     <title>How to build great out-of-the-box user experiences with Managed Deep Agents</title>
     <link href="https://www.langchain.com/blog/slack-sdk-managed-deep-agents"/>
     <id>https://www.langchain.com/blog/slack-sdk-managed-deep-agents</id>
@@ -241,31 +250,13 @@
     <summary>Managed Deep Agents includes a new API for managing reactions for your distributed agents, and a system to dynamically assign emoji responses with your instrument of choice. Learn more.</summary>
   </entry>
   <entry>
-    <title>Anthropic's Claude Science creates the first complete ultraviolet map of the sky</title>
-    <link href="https://the-decoder.com/anthropics-claude-science-creates-the-first-complete-ultraviolet-map-of-the-sky"/>
-    <id>https://the-decoder.com/anthropics-claude-science-creates-the-first-complete-ultraviolet-map-of-the-sky</id>
-    <updated>2026-10-09T09:22:25.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Astrophysicist Brice Ménard of Johns Hopkins University used Anthropic's Claude Science to map the entire sky in ultraviolet light for the first time. AI agents downloaded data from multiple space missions, calibrated it, and filled in gaps using inpainting. Predictions averaged about ten percent deviation from actual </summary>
-  </entry>
-  <entry>
-    <title>Delta Cuts Profit Outlook as Surging Fuel Costs Tighten Grip</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-09/delta-cuts-profit-outlook-as-fuel-costs-soar-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-09/delta-cuts-profit-outlook-as-fuel-costs-soar-video</id>
-    <updated>2026-10-09T16:53:57.000Z</updated>
+    <title>Liberty Meetings Draw Crowd in London as Virgin Media Bonds Sink</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-09/liberty-meetings-draw-crowd-in-london-as-virgin-media-bonds-sink"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-09/liberty-meetings-draw-crowd-in-london-as-virgin-media-bonds-sink</id>
+    <updated>2026-10-09T16:56:30.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Delta Air Lines Inc. reduced its full-year earnings outlook as jet fuel prices remain elevated, signaling mounting pressure on an airline industry whose smaller players are even less equipped to weather spiraling costs. Bloomberg's Chief Correspondent for Global Aviation, Sid Philip, joins to discuss. (Source: Bloomber</summary>
-  </entry>
-  <entry>
-    <title>Dutch Propose Law to Crack Down on Russian Shadow Fleet</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-09/dutch-propose-law-to-crack-down-on-russian-shadow-fleet"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-09/dutch-propose-law-to-crack-down-on-russian-shadow-fleet</id>
-    <updated>2026-10-09T16:41:50.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>The Dutch government proposed a legal change to crack down more effectively on Russia’s shadow fleet, prompting the Russian embassy to threaten its own retaliation.</summary>
+    <summary>Liberty Global Ltd. drew a crowd on Thursday at a Morgan Stanley leveraged-finance conference in London as investors peppered executives about the cratering debt of its telecommunications joint venture.</summary>
   </entry>
   <entry>
     <title>Wieszcz-XIX: A 3.1-Billion-Word Corpus of Pre-1918 Polish and Temporally Bounded Language Models Trained From Scratch</title>
@@ -275,5 +266,14 @@
     <author><name>arXiv cs.CL</name></author>
     <category term="RESEARCH"/>
     <summary>arXiv:2610.10592v1 Announce Type: new Abstract: Historical Polish is well documented as a language but annotated in machine-readable form only to about a million words for the period this paper covers; the rest sits behind optical character recognition of variable quality. We present Wieszcz-XIX, a corpus of 6.75 billi</summary>
+  </entry>
+  <entry>
+    <title>Democrats prepare to battle over AI regulation</title>
+    <link href="https://www.transformernews.ai/p/democrats-prepare-to-battle-over-ai-regulation"/>
+    <id>https://www.transformernews.ai/p/democrats-prepare-to-battle-over-ai-regulation</id>
+    <updated>2026-10-09T14:34:34.000Z</updated>
+    <author><name>Transformer</name></author>
+    <category term="RESEARCH"/>
+    <summary>Transformer Weekly: OpenAI fires safety staff, Clayton leads White House taskforce, and Guthrie supports a kill switch</summary>
   </entry>
 </feed>
