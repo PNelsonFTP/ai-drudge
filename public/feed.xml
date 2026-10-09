@@ -5,15 +5,24 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-09T07:12:17.832Z</updated>
+  <updated>2026-10-09T09:17:10.414Z</updated>
   <entry>
-    <title>llama.cpp b11516 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11516"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11516</id>
-    <updated>2026-10-09T07:05:40.000Z</updated>
+    <title>Sophos cuts threat investigation time by 96% with OpenAI Daybreak</title>
+    <link href="https://openai.com/index/sophos"/>
+    <id>https://openai.com/index/sophos</id>
+    <updated>2026-10-09T07:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.</summary>
+  </entry>
+  <entry>
+    <title>llama.cpp b11518 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11518"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11518</id>
+    <updated>2026-10-09T08:15:32.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>hexagon: fix IM2COL patch-embed DMA ring overflow ( #30189 ) hexagon: fix IM2COL patch-embed DMA ring overflow The exact-tiling (stride == kernel, no pad/dilation) IM2COL DMA kernel issues IC KH DDR-&gt;VTCM descriptors per output row without checking the return value of dma_queue_push(), and then pops IC KH times. The pe — Also covered by: ggml-org/whisper.cpp</summary>
+    <summary>metal: add the 128/96 flash attention kernels, accept every compiled … — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
     <title>FBI Seizes 7 Domains, Disrupts Flax Typhoon Tools Used in Critical Infrastructure Intrusions</title>
@@ -34,6 +43,15 @@
     <summary>A spokesperson behind the tech company’s AI chatbot has not yet specified what counts as abusive or cruel content Anthropic has barred users from exhibiting “sustained and needless abusive or cruel behavior” toward its models, as the company’s leaders continue to ponder machine consciousness. The Verge first reported t — Also covered by: The Verge AI</summary>
   </entry>
   <entry>
+    <title>OpenAI projected to bring in $20bn less in revenue than expected</title>
+    <link href="https://www.theguardian.com/technology/2026/oct/09/openai-forecast-revenue-gap"/>
+    <id>https://www.theguardian.com/technology/2026/oct/09/openai-forecast-revenue-gap</id>
+    <updated>2026-10-09T08:06:09.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Questions raised over AI growth as ChatGPT maker forecasts this year’s revenue at $50bn, way below the $70bn signalled before OpenAI has revealed that it is making about $20bn less in projected revenue than it had recently indicated to investors, raising questions about the break-neck growth rate in demand for AI. The  — Also covered by: TechCrunch AI</summary>
+  </entry>
+  <entry>
     <title>Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months</title>
     <link href="https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months"/>
     <id>https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months</id>
@@ -52,13 +70,13 @@
     <summary>Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.</summary>
   </entry>
   <entry>
-    <title>LegalOn halves Codex costs while maintaining development speed</title>
-    <link href="https://openai.com/index/legalon-halves-codex-costs"/>
-    <id>https://openai.com/index/legalon-halves-codex-costs</id>
-    <updated>2026-10-08T12:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.</summary>
+    <title>Fujitsu and New Mexico to Establish Quantum Computing Research Center</title>
+    <link href="https://www.hpcwire.com/off-the-wire/fujitsu-and-new-mexico-to-establish-quantum-computing-research-center"/>
+    <id>https://www.hpcwire.com/off-the-wire/fujitsu-and-new-mexico-to-establish-quantum-computing-research-center</id>
+    <updated>2026-10-09T06:01:57.000Z</updated>
+    <author><name>HPC Wire</name></author>
+    <category term="PRODUCTS"/>
+    <summary>KAWASAKI, Japan, Oct. 8, 2026 — Fujitsu today announced a collaboration with New Mexico to establish a quantum computing research center in New Mexico. The center will conduct advanced research spanning quantum computing hardware, software, algorithms, and theory, while supporting education and workforce-development in — Also covered by: The Quantum Insider</summary>
   </entry>
   <entry>
     <title>JetBrains Releases Mellum2.1: A 12B MoE Open Model for Coding Agents</title>
@@ -79,15 +97,6 @@
     <summary>As previously promised , here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5 . The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago , and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full 10x the price of OpenAI' — Also covered by: Devin (Cognition)</summary>
   </entry>
   <entry>
-    <title>NVIDIA Commits $1 Billion over Five Years to Accelerate U.S. Scientific Computing and Quantum Infrastructure</title>
-    <link href="https://quantumcomputingreport.com/nvidia-commits-1-billion-over-five-years-to-accelerate-u-s-scientific-computing-and-quantum-infrastructure"/>
-    <id>https://quantumcomputingreport.com/nvidia-commits-1-billion-over-five-years-to-accelerate-u-s-scientific-computing-and-quantum-infrastructure</id>
-    <updated>2026-10-08T18:13:32.000Z</updated>
-    <author><name>Quantum Computing Report</name></author>
-    <category term="QUANTUM"/>
-    <summary>NVIDIA is investing $1 billion over five years to advance U.S. scientific computing and quantum infrastructure. This commitment supports research institutions, cloud providers, and national laboratories, focusing on hybrid quantum-classical hardware integration, fault-tolerant quantum software, fusion energy, and micro — Also covered by: The Quantum Insider</summary>
-  </entry>
-  <entry>
     <title>5 days to TechCrunch Disrupt 2026: Don’t pay more at the door for your pass</title>
     <link href="https://techcrunch.com/2026/10/08/5-days-to-techcrunch-disrupt-2026-dont-pay-more-at-the-door"/>
     <id>https://techcrunch.com/2026/10/08/5-days-to-techcrunch-disrupt-2026-dont-pay-more-at-the-door</id>
@@ -97,40 +106,40 @@
     <summary>The global tech ecosystem gathers at TechCrunch Disrupt 2026 at San Francisco’s Moscone West on October 13-15. Get your pass now to save up to $100. Get a second of the same ticket type to save 50%.</summary>
   </entry>
   <entry>
+    <title>OpenAI says it didn't fire three researchers for &quot;raising safety concerns or speaking out&quot;, but due to violating &quot;clear policies on handling sensitive&quot; info (Michael Considine/CNBC)</title>
+    <link href="https://www.techmeme.com/261009/p5"/>
+    <id>https://www.techmeme.com/261009/p5</id>
+    <updated>2026-10-09T08:50:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Michael Considine / CNBC : OpenAI says it didn't fire three researchers for “raising safety concerns or speaking out”, but due to violating “clear policies on handling sensitive” info — OpenAI on Friday defended its decision to fire three safety researchers, saying they had committed a “significant breach of trust.”</summary>
+  </entry>
+  <entry>
     <title>ollama v0.40.2 released</title>
     <link href="https://github.com/ollama/ollama/releases/tag/v0.40.2"/>
     <id>https://github.com/ollama/ollama/releases/tag/v0.40.2</id>
     <updated>2026-10-09T03:37:30.000Z</updated>
     <author><name>ollama/ollama</name></author>
-    <category term="MODEL RELEASES"/>
+    <category term="LOCAL MODELS"/>
     <summary>Model upgrades Models downloaded with earlier versions of Ollama are upgraded in the background the first time you run them, for better performance and compatibility when running on llama.cpp. To make downgrading safe, Ollama keeps the original copy as a backup, so upgraded models are temporarily kept on disk. A future</summary>
   </entry>
   <entry>
-    <title>Anthropic Announces Broader Cyber Defense Program</title>
-    <link href="https://www.theinformation.com/briefings/anthropic-announces-broader-cyber-defense-program"/>
-    <id>https://www.theinformation.com/briefings/anthropic-announces-broader-cyber-defense-program</id>
-    <updated>2026-10-09T01:02:13.000Z</updated>
-    <author><name>The Information</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Anthropic said Thursday it is launching new programs to support cybersecurity for critical infrastructure and open-source software. In a blog post, Anthropic said it would offer threat research, on-site engineers, and access to its frontier Claude models to infrastructure operators as part of ...</summary>
-  </entry>
-  <entry>
-    <title>Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction</title>
-    <link href="https://arxiv.org/abs/2610.10549"/>
-    <id>https://arxiv.org/abs/2610.10549</id>
-    <updated>2026-10-09T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
+    <title>London’s Newest Rates Market Specialists Are Real Estate Agents</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-09/london-s-newest-rates-market-specialists-are-real-estate-agents"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-09/london-s-newest-rates-market-specialists-are-real-estate-agents</id>
+    <updated>2026-10-09T08:55:32.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>arXiv:2610.10549v1 Announce Type: new Abstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and legal restrictions on enterprise systems, data, and database schemas. Tabular data synthesis offers a natural alternative, </summary>
+    <summary>At a local real estate agency on London’s southeastern edge, manager Steve Brown has added a new, and rather unlikely, topic to the usual chatter with clients about house prices and commute times: swap rates.</summary>
   </entry>
   <entry>
-    <title>Zetwerk Is Said to Plan Up to $525 Million India IPO Next Week</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-09/zetwerk-is-said-to-plan-up-to-525-million-india-ipo-next-week"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-09/zetwerk-is-said-to-plan-up-to-525-million-india-ipo-next-week</id>
-    <updated>2026-10-09T06:33:01.000Z</updated>
+    <title>Everton Considers Sale in Test of Football’s Inflated Valuations</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-09/everton-considers-sale-in-test-of-football-s-inflated-valuations"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-09/everton-considers-sale-in-test-of-football-s-inflated-valuations</id>
+    <updated>2026-10-09T08:46:08.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Zetwerk Pvt., an Indian manufacturing platform, is preparing to launch an initial public offering as early as next week that may raise as much as $525 million, according to people familiar with the matter.</summary>
+    <summary>The Friedkin Group is considering selling a controlling interest in Everton FC less than two years after acquiring the Premier League club, in a move that will test investor appetite for increasingly costly football assets.</summary>
   </entry>
   <entry>
     <title>Wieszcz-XIX: A 3.1-Billion-Word Corpus of Pre-1918 Polish and Temporally Bounded Language Models Trained From Scratch</title>
@@ -140,6 +149,24 @@
     <author><name>arXiv cs.CL</name></author>
     <category term="RESEARCH"/>
     <summary>arXiv:2610.10592v1 Announce Type: new Abstract: Historical Polish is well documented as a language but annotated in machine-readable form only to about a million words for the period this paper covers; the rest sits behind optical character recognition of variable quality. We present Wieszcz-XIX, a corpus of 6.75 billi</summary>
+  </entry>
+  <entry>
+    <title>Verification and Self-Improvement in Agentic AI: Foundations and Limits</title>
+    <link href="https://arxiv.org/abs/2610.10611"/>
+    <id>https://arxiv.org/abs/2610.10611</id>
+    <updated>2026-10-09T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
+    <category term="HARDWARE"/>
+    <summary>arXiv:2610.10611v1 Announce Type: new Abstract: Agentic AI systems can improve by searching longer, receiving additional support, or modifying how they propose and verify outputs. A performance score does not distinguish these mechanisms. We compare these changes through bounded verification with hidden terminal random</summary>
+  </entry>
+  <entry>
+    <title>Anthropic Announces Broader Cyber Defense Program</title>
+    <link href="https://www.theinformation.com/briefings/anthropic-announces-broader-cyber-defense-program"/>
+    <id>https://www.theinformation.com/briefings/anthropic-announces-broader-cyber-defense-program</id>
+    <updated>2026-10-09T01:02:13.000Z</updated>
+    <author><name>The Information</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Anthropic said Thursday it is launching new programs to support cybersecurity for critical infrastructure and open-source software. In a blog post, Anthropic said it would offer threat research, on-site engineers, and access to its frontier Claude models to infrastructure operators as part of ...</summary>
   </entry>
   <entry>
     <title>Last Week in AI #346 - 719 math manuscripts, 2 Western open models, 1 more safety resignation</title>
@@ -160,6 +187,24 @@
     <summary>AI Red Teaming: Jailbreak, Prompt Injection &amp; More Appinventiv</summary>
   </entry>
   <entry>
+    <title>Citrix warns admins to patch new NetScaler RCE flaw immediately</title>
+    <link href="https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately"/>
+    <id>https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately</id>
+    <updated>2026-10-09T08:27:42.000Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="CYBER DEFENSE"/>
+    <summary>Citrix has warned IT administrators to patch systems immediately against a new critical vulnerability affecting NetScaler ADC networking appliances and NetScaler Gateway secure remote access solutions. [...]</summary>
+  </entry>
+  <entry>
+    <title>Nvidia-Backed Firmus Scraps $5 Billion Australia IPO as Markets Wobble</title>
+    <link href="https://www.theinformation.com/briefings/nvidia-backed-firmus-scraps-5-billion-australia-ipo-markets-wobble"/>
+    <id>https://www.theinformation.com/briefings/nvidia-backed-firmus-scraps-5-billion-australia-ipo-markets-wobble</id>
+    <updated>2026-10-09T04:45:22.000Z</updated>
+    <author><name>The Information</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>Firmus Grid, an AI cloud company backed by Nvidia, has pulled what would have been Australia’s biggest initial public offering in almost 30 years. The Sydney-based company had planned to raise nearly $5 billion at a valuation above $30 billion. It cited market volatility and said it will seek ...</summary>
+  </entry>
+  <entry>
     <title>ttok 1.0</title>
     <link href="https://simonwillison.net/2026/Oct/9/ttok"/>
     <id>https://simonwillison.net/2026/Oct/9/ttok</id>
@@ -178,40 +223,49 @@
     <summary>In a written interview, Aether explains how CRIS-0 combines causal prediction with action verification, and why generalization remains its biggest challenge.</summary>
   </entry>
   <entry>
-    <title>Fujitsu and New Mexico to Establish Quantum Computing Research Center</title>
-    <link href="https://www.hpcwire.com/off-the-wire/fujitsu-and-new-mexico-to-establish-quantum-computing-research-center"/>
-    <id>https://www.hpcwire.com/off-the-wire/fujitsu-and-new-mexico-to-establish-quantum-computing-research-center</id>
-    <updated>2026-10-09T06:01:57.000Z</updated>
-    <author><name>HPC Wire</name></author>
+    <title>Fujitsu Launches Collaboration With State of New Mexico to Establish Quantum Computing Research Center</title>
+    <link href="https://thequantuminsider.com/2026/10/09/fujitsu-launches-collaboration-with-state-of-new-mexico-to-establish-quantum-computing-research-center"/>
+    <id>https://thequantuminsider.com/2026/10/09/fujitsu-launches-collaboration-with-state-of-new-mexico-to-establish-quantum-computing-research-center</id>
+    <updated>2026-10-09T07:15:34.000Z</updated>
+    <author><name>The Quantum Insider</name></author>
     <category term="QUANTUM"/>
-    <summary>KAWASAKI, Japan, Oct. 8, 2026 — Fujitsu today announced a collaboration with New Mexico to establish a quantum computing research center in New Mexico. The center will conduct advanced research spanning quantum computing hardware, software, algorithms, and theory, while supporting education and workforce-development in</summary>
+    <summary>Insider Brief PRESS RELEASE — Fujitsu announced a collaboration with New Mexico to establish a quantum computing research center in New Mexico. The center will conduct advanced research spanning quantum computing hardware, software, algorithms, and theory, while supporting education and workforce-development initiative — Also covered by: HPC Wire</summary>
   </entry>
   <entry>
-    <title>Sources: Apple told some suppliers to cut iPhone 18 Pro and Pro Max component production by 15%-20% as higher memory costs pushed up prices and hurt demand (Nikkei Asia)</title>
-    <link href="https://www.techmeme.com/261009/p3"/>
-    <id>https://www.techmeme.com/261009/p3</id>
-    <updated>2026-10-09T06:25:06.000Z</updated>
+    <title>OpenAI uncovers Russian and Iranian influence ops that planted fake stories in real news outlets</title>
+    <link href="https://the-decoder.com/openai-uncovers-russian-and-iranian-influence-ops-that-planted-fake-stories-in-real-news-outlets"/>
+    <id>https://the-decoder.com/openai-uncovers-russian-and-iranian-influence-ops-that-planted-fake-stories-in-real-news-outlets</id>
+    <updated>2026-10-09T08:45:34.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>OpenAI exposed a Russian and an Iranian influence operation and banned the accounts involved. The Russian &quot;Dark Clark&quot; campaign spread disinformation across Latin America and drew reactions from politicians, earning the first category 5 out of 6 rating in OpenAI's reporting history. The Iranian &quot;Bogus Bylines&quot; operatio</summary>
+  </entry>
+  <entry>
+    <title>Global PC shipments dropped 20.1% YoY in Q3 to 62.7M units due to higher prices and supply issues; Lenovo dropped 22.6% YoY, HP 30.9%, Dell 25%, and Apple 11.3% (IDC)</title>
+    <link href="https://www.techmeme.com/261009/p4"/>
+    <id>https://www.techmeme.com/261009/p4</id>
+    <updated>2026-10-09T08:31:10.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Nikkei Asia : Sources: Apple told some suppliers to cut iPhone 18 Pro and Pro Max component production by 15%-20% as higher memory costs pushed up prices and hurt demand — TAIPEI — Apple has told some of its suppliers to cut production of components for its newly launched iPhone 18 Pro and iPhone 18 Pro Max …</summary>
+    <summary>IDC : Global PC shipments dropped 20.1% YoY in Q3 to 62.7M units due to higher prices and supply issues; Lenovo dropped 22.6% YoY, HP 30.9%, Dell 25%, and Apple 11.3% — Q3 delivered the widely expected PC downturn, with supply constraints, high price points, and logistical disruption eroding the usual seasonal lift</summary>
   </entry>
   <entry>
-    <title>Nvidia-Backed Firmus Scraps $5 Billion Australia IPO as Markets Wobble</title>
-    <link href="https://www.theinformation.com/briefings/nvidia-backed-firmus-scraps-5-billion-australia-ipo-markets-wobble"/>
-    <id>https://www.theinformation.com/briefings/nvidia-backed-firmus-scraps-5-billion-australia-ipo-markets-wobble</id>
-    <updated>2026-10-09T04:45:22.000Z</updated>
-    <author><name>The Information</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Firmus Grid, an AI cloud company backed by Nvidia, has pulled what would have been Australia’s biggest initial public offering in almost 30 years. The Sydney-based company had planned to raise nearly $5 billion at a valuation above $30 billion. It cited market volatility and said it will seek ...</summary>
-  </entry>
-  <entry>
-    <title>Introducing Infernix - much faster than Strata on a 5090!</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1x1c475/introducing_infernix_much_faster_than_strata_on_a"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1x1c475/introducing_infernix_much_faster_than_strata_on_a</id>
-    <updated>2026-10-09T04:34:45.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>[Paper] EngramEdit: Decoupled Knowledge Updates in LLMs through Conditional Memory</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x1eb7w/paper_engramedit_decoupled_knowledge_updates_in"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x1eb7w/paper_engramedit_decoupled_knowledge_updates_in</id>
+    <updated>2026-10-09T06:45:52.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>I've spent the last week working on my inference engine and it now runs Qwen3.8-Flash-Next at a real usable quant (NVIDIA's NVFP4 model) significantly faster than Strata running Unsloth's UD-Q4_K_XL quant. On my agentic workflow benchmark: Metric Strata Infernix Change Average time to first token 32.9 s (30.9-36.8) 5.9</summary>
+    <summary>Conditional memory architectures such as DeepSeek Engram use input n-grams to look up learned embeddings, expanding the capacity of large language models (LLMs) with limited additional computation. Beyond model scaling, this architecture has demonstrated the potential to decouple factual knowledge storage from general-</summary>
+  </entry>
+  <entry>
+    <title>Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction</title>
+    <link href="https://arxiv.org/abs/2610.10549"/>
+    <id>https://arxiv.org/abs/2610.10549</id>
+    <updated>2026-10-09T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>arXiv:2610.10549v1 Announce Type: new Abstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and legal restrictions on enterprise systems, data, and database schemas. Tabular data synthesis offers a natural alternative, </summary>
   </entry>
   <entry>
     <title>Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice</title>
@@ -221,59 +275,5 @@
     <author><name>arXiv cs.AI</name></author>
     <category term="AGENTS &amp; TOOLS"/>
     <summary>arXiv:2610.10590v1 Announce Type: new Abstract: Tool-using agents repeatedly carry observations whose useful content can be much smaller than their original payload. We study agent-controlled forgetting: the acting model selects previously observed tool results, replaces each with a short note at its original position,</summary>
-  </entry>
-  <entry>
-    <title>Verification and Self-Improvement in Agentic AI: Foundations and Limits</title>
-    <link href="https://arxiv.org/abs/2610.10611"/>
-    <id>https://arxiv.org/abs/2610.10611</id>
-    <updated>2026-10-09T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>arXiv:2610.10611v1 Announce Type: new Abstract: Agentic AI systems can improve by searching longer, receiving additional support, or modifying how they propose and verify outputs. A performance score does not distinguish these mechanisms. We compare these changes through bounded verification with hidden terminal random</summary>
-  </entry>
-  <entry>
-    <title>Yuan Hits Four-Year High Versus Basket as PBOC Backs FX Policy</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-09/yuan-hits-four-year-high-versus-basket-as-pboc-backs-fx-policy"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-09/yuan-hits-four-year-high-versus-basket-as-pboc-backs-fx-policy</id>
-    <updated>2026-10-09T06:31:51.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>The yuan advanced to a four-year high against a basket of its trading partners’ currencies after the People’s Bank of China rejected claims of undervaluation and defended its exchange-rate management.</summary>
-  </entry>
-  <entry>
-    <title>China Stocks Rebound on Unconfirmed Talks of Regulator Guidance</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-09/china-stocks-rebound-on-unconfirmed-talks-of-regulator-guidance"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-09/china-stocks-rebound-on-unconfirmed-talks-of-regulator-guidance</id>
-    <updated>2026-10-09T06:48:03.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Chinese stocks staged a sharp rebound in the afternoon, lifting all benchmarks into the green, with investors citing speculation that regulators have advised funds and insurers to limit sell orders.</summary>
-  </entry>
-  <entry>
-    <title>An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment</title>
-    <link href="https://arxiv.org/abs/2610.10541"/>
-    <id>https://arxiv.org/abs/2610.10541</id>
-    <updated>2026-10-09T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
-    <category term="RESEARCH"/>
-    <summary>arXiv:2610.10541v1 Announce Type: new Abstract: Knowledge Graph (KG) quality depends not only on downstream graph validation, but also on the quality of tabular metadata used before integration. In metadata-only Semantic Table Interpretation (STI), where cell values are unavailable, noisy, or unsuitable, column headers</summary>
-  </entry>
-  <entry>
-    <title>Claude can now generate animated explainer videos and live data dashboards from text prompts</title>
-    <link href="https://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts"/>
-    <id>https://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts</id>
-    <updated>2026-10-08T19:17:22.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Anthropic launched two new beta features for Claude. Dashboards turns data sources like BigQuery and Snowflake into live dashboards from text prompts. Motion generates animated explainer videos from text and images. Docs, Slides, and Design now work across all plans, including free accounts. The article Claude can now </summary>
-  </entry>
-  <entry>
-    <title>Big Tech sets out its pitches on AI agents</title>
-    <link href="https://www.ft.com/content/9884d785-8ddc-43a6-ac8d-b9c7f9a99df3?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/9884d785-8ddc-43a6-ac8d-b9c7f9a99df3?syn-25a6b1a6=1</id>
-    <updated>2026-10-08T16:44:08.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Race to develop new services has moved into high gear with a series of launches</summary>
   </entry>
 </feed>
