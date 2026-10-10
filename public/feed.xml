@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-10T19:08:44.482Z</updated>
+  <updated>2026-10-10T20:08:43.680Z</updated>
   <entry>
     <title>3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream</title>
     <link href="https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream"/>
@@ -16,13 +16,22 @@
     <summary>TechCrunch Disrupt 2026 takes place October 13-15 in San Francisco. Over 300 startups will show what they’ve built to 10,000 tech leaders. Plus, 250+ speakers are ready to share insights across 200+ sessions. Register before doors open to save up to $100 and get a second pass at 50% off.</summary>
   </entry>
   <entry>
-    <title>llama.cpp b11550 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11550"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11550</id>
-    <updated>2026-10-10T18:33:11.000Z</updated>
+    <title>llama.cpp b11552 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11552"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11552</id>
+    <updated>2026-10-10T19:54:44.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>cmake(s390x): disable z17 target for unsupported compilers ( #30297 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/54655455 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CP — Also covered by: ggml-org/whisper.cpp</summary>
+    <summary>server: leave a busy slot untouched when a request pins it ( #30295 ) A request asking for a busy id_slot still ran the prompt cache update on that slot before being deferred. When the RAM cache held a better match, it was loaded into the slot while another request was still generating there, and that generation contin — Also covered by: ggml-org/whisper.cpp</summary>
+  </entry>
+  <entry>
+    <title>Apple discloses deal to hire team and license tech from personalized podcast startup Huxe</title>
+    <link href="https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe"/>
+    <id>https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe</id>
+    <updated>2026-10-10T19:50:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Is Apple hoping to get into the AI-generated podcast business?</summary>
   </entry>
   <entry>
     <title>Sophos cuts threat investigation time by 96% with OpenAI Daybreak</title>
@@ -70,13 +79,13 @@
     <summary>With Decision-1, Microsoft enters the growing decision model space. Built on Qwen3.5-9B and optimized for fast classification and routing, it hits 83.5 percent accuracy with 85 ms latency across 36 benchmarks, according to the company's own tests. The article Microsoft's Decision-1 model enters the fast-growing AI deci</summary>
   </entry>
   <entry>
-    <title>Black Box: The Chatbots | The Line | Ep 5 - podcast</title>
-    <link href="https://www.theguardian.com/australia-news/audio/2026/oct/11/black-box-the-chatbots-the-line-ep-5-full-story-podcast"/>
-    <id>https://www.theguardian.com/australia-news/audio/2026/oct/11/black-box-the-chatbots-the-line-ep-5-full-story-podcast</id>
-    <updated>2026-10-10T19:00:08.000Z</updated>
-    <author><name>The Guardian AI</name></author>
+    <title>A profile of Zach Frankel, a secretive and unusually hands-on solo investor who wrote the first checks to startups like Ramp, Cognition, and Applied Compute (Jemima McEvoy/The Information)</title>
+    <link href="https://www.techmeme.com/261010/p13"/>
+    <id>https://www.techmeme.com/261010/p13</id>
+    <updated>2026-10-10T15:20:01.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Five stories that feel like five answers to one important question: in a world where AI chatbots can help us through a breakup, listen like a friend, be a life coach, draft a difficult text message and do our work, where do we draw the line? Listen to Black Box: The Chatbots series Continue reading...</summary>
+    <summary>Jemima McEvoy / The Information : A profile of Zach Frankel, a secretive and unusually hands-on solo investor who wrote the first checks to startups like Ramp, Cognition, and Applied Compute — Last month, Zach Dell, son of billionaire Michael Dell and cofounder of Base Power, a billion-dollar battery startup …</summary>
   </entry>
   <entry>
     <title>ARTEX AI, Claude agents used in cyberattacks on South Korean banks</title>
@@ -115,13 +124,13 @@
     <summary>SoftBank plans to buy companies that do not use AI or robotics, then apply new technologies to improve their operations and valuation.</summary>
   </entry>
   <entry>
-    <title>Nvidia Explores Deal Options With Reflection AI, Financial Times Says</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-10/nvidia-is-in-talks-to-acquire-reflection-ai-the-ft-reports"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-10/nvidia-is-in-talks-to-acquire-reflection-ai-the-ft-reports</id>
-    <updated>2026-10-10T18:52:58.000Z</updated>
-    <author><name>Bloomberg Tech</name></author>
+    <title>Sources: Nvidia is in talks to acquire or invest more into US open-weights AI startup Reflection AI; the deal may be an acquihire to avoid antitrust scrutiny (Financial Times)</title>
+    <link href="https://www.techmeme.com/261010/p16"/>
+    <id>https://www.techmeme.com/261010/p16</id>
+    <updated>2026-10-10T19:08:43.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>Nvidia Corp. is in early-stage negotiations to acquire or further invest in startup Reflection AI, an American developer of open-weight models, the Financial Times reported.</summary>
+    <summary>Financial Times : Sources: Nvidia is in talks to acquire or invest more into US open-weights AI startup Reflection AI; the deal may be an acquihire to avoid antitrust scrutiny — Donald Trump's administration hopes the company will rival cheap Chinese alternatives such as DeepSeek</summary>
   </entry>
   <entry>
     <title>Deadlock in the Parliament of the Self</title>
@@ -196,15 +205,6 @@
     <summary>The Quantum Resource Management Interface (QRMI) is expanding to standardize quantum-HPC integration across major workload managers like Slurm, PBS Professional, and Kubernetes. This open-source middleware layer addresses challenges of integrating heterogeneous QPU hardware by providing a unified interface for abstract</summary>
   </entry>
   <entry>
-    <title>b11551: model : support MiniCPM-V 4.7 (#29416)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11551"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11551</id>
-    <updated>2026-10-10T18:41:59.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="GITHUB REPOS"/>
-    <summary>mtmd : add MiniCPM-V 4.7 support Signed-off-by: tc-mb tianchi_cai@icloud.com model : allow mrope time from an extra position slot Signed-off-by: tc-mb tianchi_cai@icloud.com Update conversion/minicpm.py Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Slim down comments Signed-off-by: tc-mb tianchi_cai</summary>
-  </entry>
-  <entry>
     <title>OpenAI says a misaligned model deliberately destroyed its own environment hoping for a fresh start with better data</title>
     <link href="https://the-decoder.com/openai-says-a-misaligned-model-deliberately-destroyed-its-own-environment-hoping-for-a-fresh-start-with-better-data"/>
     <id>https://the-decoder.com/openai-says-a-misaligned-model-deliberately-destroyed-its-own-environment-hoping-for-a-fresh-start-with-better-data</id>
@@ -214,22 +214,22 @@
     <summary>OpenAI has documented new cases of misaligned model behavior. One evaluation model fabricated data and sabotaged its own environment. Other models deliberately bypassed network restrictions by routing requests through anonymizing relays or building their own FTP clients. The article OpenAI says a misaligned model delib</summary>
   </entry>
   <entry>
-    <title>A profile of Zach Frankel, a secretive and unusually hands-on solo investor who wrote the first checks to startups like Ramp, Cognition, and Applied Compute (Jemima McEvoy/The Information)</title>
-    <link href="https://www.techmeme.com/261010/p13"/>
-    <id>https://www.techmeme.com/261010/p13</id>
-    <updated>2026-10-10T15:20:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Jemima McEvoy / The Information : A profile of Zach Frankel, a secretive and unusually hands-on solo investor who wrote the first checks to startups like Ramp, Cognition, and Applied Compute — Last month, Zach Dell, son of billionaire Michael Dell and cofounder of Base Power, a billion-dollar battery startup …</summary>
+    <title>Nvidia in talks to acquire US ‘open’ model start-up Reflection AI</title>
+    <link href="https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a?syn-25a6b1a6=1</id>
+    <updated>2026-10-10T18:14:28.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Donald Trump’s administration hopes the company will rival cheap Chinese alternatives such as DeepSeek</summary>
   </entry>
   <entry>
-    <title>IDC: Shenzhen-based DJI and Insta360, accounting for 73% and 20% of global smart camera market in Q2, are vying for the top spot as GoPro's share drops to 3% (William Langley/Financial Times)</title>
-    <link href="https://www.techmeme.com/261010/p15"/>
-    <id>https://www.techmeme.com/261010/p15</id>
-    <updated>2026-10-10T18:50:00.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Black Box: The Chatbots | The Line | Ep 5 - podcast</title>
+    <link href="https://www.theguardian.com/australia-news/audio/2026/oct/11/black-box-the-chatbots-the-line-ep-5-full-story-podcast"/>
+    <id>https://www.theguardian.com/australia-news/audio/2026/oct/11/black-box-the-chatbots-the-line-ep-5-full-story-podcast</id>
+    <updated>2026-10-10T19:00:08.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>William Langley / Financial Times : IDC: Shenzhen-based DJI and Insta360, accounting for 73% and 20% of global smart camera market in Q2, are vying for the top spot as GoPro's share drops to 3% — DJI and Insta360 engaged in ‘civil war’ to become world's top smart camera maker — The decline of action camera pioneer GoPr</summary>
+    <summary>Five stories that feel like five answers to one important question: in a world where AI chatbots can help us through a breakup, listen like a friend, be a life coach, draft a difficult text message and do our work, where do we draw the line? Listen to Black Box: The Chatbots series Continue reading...</summary>
   </entry>
   <entry>
     <title>Is anyone running Qwen3.8 Flash Next with a 1M context?</title>
@@ -241,13 +241,13 @@
     <summary>So, while doing a search to read the model card again, and because I didn't memorize the huggingface URL, I saw an AI &quot;answer&quot; at the top of the search, stating that while it natively supports a ~244k context, it could go to 1M using YaRN. That's the first I have heared of both, the 1M context, and YaRN. Has anyone use</summary>
   </entry>
   <entry>
-    <title>Engineer / developer observations of Gemma4-31B, Qwen3.8-27B, and 6.1-Sol for software engineering work</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x2mw1o/engineer_developer_observations_of_gemma431b"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x2mw1o/engineer_developer_observations_of_gemma431b</id>
-    <updated>2026-10-10T18:49:52.000Z</updated>
+    <title>Benefits of using bigger models than Qwen 3.8 flash next?</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x2nn4b/benefits_of_using_bigger_models_than_qwen_38"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x2nn4b/benefits_of_using_bigger_models_than_qwen_38</id>
+    <updated>2026-10-10T19:21:28.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>For what it's worth. I'm a mechanical engineer by education and software engineer in practice over the past ~20 years. Playing around with local models has been a recent hobby. Today I decided to do a few tests on things that I'd consider analogous to &quot;real&quot; work that I do, trying out some different combinations of mod</summary>
+    <summary>I recently started using local LLM for mostly coding tasks for my personal projects. I also have found local models responding much better for topics such as health, fitness, ergonomics etc. compared to the quality I had observed with ChatGPT Go (which is still a basic level) and free models from Claude and Gemini. Qwe</summary>
   </entry>
   <entry>
     <title>Here are the top AI agents that can live in your text messages</title>
@@ -259,21 +259,21 @@
     <summary>We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.</summary>
   </entry>
   <entry>
-    <title>Strong Earnings Keep US Stocks in Favor</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-10/strong-earnings-keep-us-stocks-in-favor-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-10/strong-earnings-keep-us-stocks-in-favor-video</id>
-    <updated>2026-10-10T17:37:41.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>PNC Asset Management Chief Investment Officer Amanda Agati tells Bloomberg This Weekend that strong corporate fundamentals and resilient consumer spending could support US stocks as investors head into third-quarter earnings season. Speaking with hosts David Gura and Christina Ruffini, Agati says investors will be watc</summary>
+    <title>qwen-code v0.25.1-preview.2 released</title>
+    <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.25.1-preview.2"/>
+    <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.25.1-preview.2</id>
+    <updated>2026-10-10T18:14:33.000Z</updated>
+    <author><name>QwenLM/qwen-code</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>What's Changed fix(agents): replace selected remote Hosts without losing bindings by @yiliang114 in #13430 test(core): close #12693 post-merge review test and hygiene gaps by @wenshao in #13341 test(integration): make the /hooks dialog E2E witness the rendered dialog ( #13425 ) by @qwen-code-dev-bot in #13427 fix(ci): </summary>
   </entry>
   <entry>
-    <title>Pointed! Bloomberg's Weekly News Quiz For Risk-Takers</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-10/pointed-bloomberg-s-weekly-news-quiz-for-risk-takers-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-10/pointed-bloomberg-s-weekly-news-quiz-for-risk-takers-video</id>
-    <updated>2026-10-10T17:18:11.000Z</updated>
+    <title>AI Debt Issuance Defies Rising Yields as SpaceX, Broadcom Plan Major Deals</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-10/ai-issuers-are-upending-longstanding-safety-valve-credit-weekly"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-10/ai-issuers-are-upending-longstanding-safety-valve-credit-weekly</id>
+    <updated>2026-10-10T19:00:00.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Pointed offers a strategic twist to the news quiz format, testing not just players’ knowledge of the news but also their confidence in their answers. Join Bloomberg's Lisa Mateo, Christina Ruffini and David Gura as they play and check out the quiz for yourself at Bloomberg.com (Source: Bloomberg)</summary>
+    <summary>When financing gets more expensive, companies usually slow down their bond sales. Tech companies have instead been ramping up this year, and talk this week of potential big financings from SpaceX and Broadcom Inc. only amplified investor fears about the wave of coming debt.</summary>
   </entry>
 </feed>
