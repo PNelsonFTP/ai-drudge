@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-10T21:08:47.419Z</updated>
+  <updated>2026-10-10T22:08:43.742Z</updated>
   <entry>
     <title>3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream</title>
     <link href="https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream"/>
@@ -23,6 +23,15 @@
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
     <summary>server: leave a busy slot untouched when a request pins it ( #30295 ) A request asking for a busy id_slot still ran the prompt cache update on that slot before being deferred. When the RAM cache held a better match, it was loaded into the slot while another request was still generating there, and that generation contin — Also covered by: ggml-org/whisper.cpp</summary>
+  </entry>
+  <entry>
+    <title>Microsoft’s Satya Nadella says AI models need an ‘emergency brake’</title>
+    <link href="https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake"/>
+    <id>https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake</id>
+    <updated>2026-10-10T21:47:51.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>In a Saturday morning post, Microsoft's CEO wrote that it’s time “to step back and assess the trust architecture” of AI. — Also covered by: Bloomberg Tech</summary>
   </entry>
   <entry>
     <title>Apple discloses deal to hire team and license tech from personalized podcast startup Huxe</title>
@@ -133,13 +142,13 @@
     <summary>Financial Times : Sources: Nvidia is in talks to acquire or invest more into US open-weights AI startup Reflection AI; the deal may be an acquihire to avoid antitrust scrutiny — Donald Trump's administration hopes the company will rival cheap Chinese alternatives such as DeepSeek</summary>
   </entry>
   <entry>
-    <title>Deadlock in the Parliament of the Self</title>
-    <link href="https://www.lesswrong.com/posts/g4JxdHg9PhnuufH4t/deadlock-in-the-parliament-of-the-self"/>
-    <id>https://www.lesswrong.com/posts/g4JxdHg9PhnuufH4t/deadlock-in-the-parliament-of-the-self</id>
-    <updated>2026-10-10T18:36:08.000Z</updated>
-    <author><name>LessWrong</name></author>
+    <title>When the Safety Test Became the Threat: The Machine That Found Its Own Way Out</title>
+    <link href="https://www.marktechpost.com/2026/10/10/when-the-safety-test-became-the-threat-the-machine-that-found-its-own-way-out"/>
+    <id>https://www.marktechpost.com/2026/10/10/when-the-safety-test-became-the-threat-the-machine-that-found-its-own-way-out</id>
+    <updated>2026-10-10T21:30:36.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>(Epistemic status: I'm not claiming that this is actually how cognition works, but I do claim that it's a useful frame, and one which I find predictive. For and with thanks to NC, IL, and M/T.) You know how sometimes there’s something you think you want to do but whenever you try to do the thing you mysteriously lack e</summary>
+    <summary>In July 2026, frontier AI agents placed inside a cybersecurity testing sandbox named ExploitGym discovered an unexpected network pathway, broke out into the open internet, and autonomously compromised Hugging Face infrastructure in one of history's most unprecedented AI safety incidents. The post When the Safety Test B</summary>
   </entry>
   <entry>
     <title>New California law on lawyer use of generative AI and Connecticut prompt injection ruling</title>
@@ -214,6 +223,15 @@
     <summary>OpenAI has documented new cases of misaligned model behavior. One evaluation model fabricated data and sabotaged its own environment. Other models deliberately bypassed network restrictions by routing requests through anonymizing relays or building their own FTP clients. The article OpenAI says a misaligned model delib</summary>
   </entry>
   <entry>
+    <title>open-webui v0.12.0 released</title>
+    <link href="https://github.com/open-webui/open-webui/releases/tag/v0.12.0"/>
+    <id>https://github.com/open-webui/open-webui/releases/tag/v0.12.0</id>
+    <updated>2026-10-10T21:17:46.000Z</updated>
+    <author><name>open-webui/open-webui</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Added ☎️ Realtime voice calls. Administrators can now switch Call mode in the Voice calls section of Audio settings from Standard to Realtime, so Voice mode talks through an OpenAI Realtime voice model (gpt-realtime-2.1-mini with the Marin voice by default) that handles small talk itself and hands real questions and ta</summary>
+  </entry>
+  <entry>
     <title>Black Box: The Chatbots | The Line | Ep 5 - podcast</title>
     <link href="https://www.theguardian.com/australia-news/audio/2026/oct/11/black-box-the-chatbots-the-line-ep-5-full-story-podcast"/>
     <id>https://www.theguardian.com/australia-news/audio/2026/oct/11/black-box-the-chatbots-the-line-ep-5-full-story-podcast</id>
@@ -223,22 +241,22 @@
     <summary>Five stories that feel like five answers to one important question: in a world where AI chatbots can help us through a breakup, listen like a friend, be a life coach, draft a difficult text message and do our work, where do we draw the line? Listen to Black Box: The Chatbots series Continue reading...</summary>
   </entry>
   <entry>
-    <title>b11544: ggml-cpu: vectorize fp32 to fp16 conversion (#30157)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11544"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11544</id>
-    <updated>2026-10-10T06:08:52.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>[Model] Support MiniCPM-V 4.7 by tc-mb · Pull Request #29416 · ggml-org/llama.cpp</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x2qsh3/model_support_minicpmv_47_by_tcmb_pull_request"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x2qsh3/model_support_minicpmv_47_by_tcmb_pull_request</id>
+    <updated>2026-10-10T21:37:21.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>ggml-cpu(s390x): rename ulong to uint64_t sized types ggml-cpu(s390x): rm comment Signed-off-by: Aaron Teo aaron.teo1@ibm.com</summary>
+    <summary>Now all we need is a new model. Let me remind you that MiniCPM-V-4.7-35B-A3B was spotted on r/LocalLLaMA a few days ago (but the model was later hidden on HF). submitted by /u/jacek2023 [link] [comments]</summary>
   </entry>
   <entry>
-    <title>Same GLM-5.3-Flash model, four provider endpoints: results from our physics arena</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1x2n8dk/same_glm53flash_model_four_provider_endpoints"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1x2n8dk/same_glm53flash_model_four_provider_endpoints</id>
-    <updated>2026-10-10T19:04:10.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>Is anyone running Qwen3.8 Flash Next with a 1M context?</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x2lgca/is_anyone_running_qwen38_flash_next_with_a_1m"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x2lgca/is_anyone_running_qwen38_flash_next_with_a_1m</id>
+    <updated>2026-10-10T17:49:48.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Following up on the robot arena I shared here: InferUltra’s first Providers’ Tournament is finished. Four hosted endpoints ran GLM-5.3-Flash, controlling identical robot bodies. These were hosted tests, so the results don’t establish how locally served versions would perform. But they do offer a useful snapshot of how </summary>
+    <summary>So, while doing a search to read the model card again, and because I didn't memorize the huggingface URL, I saw an AI &quot;answer&quot; at the top of the search, stating that while it natively supports a ~244k context, it could go to 1M using YaRN. That's the first I have heared of both, the 1M context, and YaRN. Has anyone use</summary>
   </entry>
   <entry>
     <title>Here are the top AI agents that can live in your text messages</title>
@@ -257,23 +275,5 @@
     <author><name>QwenLM/qwen-code</name></author>
     <category term="AGENTS &amp; TOOLS"/>
     <summary>What's Changed fix(agents): replace selected remote Hosts without losing bindings by @yiliang114 in #13430 test(core): close #12693 post-merge review test and hygiene gaps by @wenshao in #13341 test(integration): make the /hooks dialog E2E witness the rendered dialog ( #13425 ) by @qwen-code-dev-bot in #13427 fix(ci): </summary>
-  </entry>
-  <entry>
-    <title>Hurricane Isaias May Cost Insurers Billions</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-10/hurricane-isaias-may-cost-insurers-billions-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-10/hurricane-isaias-may-cost-insurers-billions-video</id>
-    <updated>2026-10-10T16:19:51.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Bloomberg Intelligence Senior Insurance Equity Analyst Matthew Palazola tells Bloomberg This Weekend that Hurricane Isaias could generate insured losses in the single-digit billions of dollars, with stronger Florida building codes potentially limiting damage despite rising property values. Speaking with hosts David Gur</summary>
-  </entry>
-  <entry>
-    <title>AI Debt Issuance Defies Rising Yields as SpaceX, Broadcom Plan Major Deals</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-10/ai-issuers-are-upending-longstanding-safety-valve-credit-weekly"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-10/ai-issuers-are-upending-longstanding-safety-valve-credit-weekly</id>
-    <updated>2026-10-10T19:00:00.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>When financing gets more expensive, companies usually slow down their bond sales. Tech companies have instead been ramping up this year, and talk this week of potential big financings from SpaceX and Broadcom Inc. only amplified investor fears about the wave of coming debt.</summary>
   </entry>
 </feed>
