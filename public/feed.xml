@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-10T01:08:41.141Z</updated>
+  <updated>2026-10-10T01:47:59.018Z</updated>
   <entry>
     <title>llama.cpp b11539 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11539"/>
@@ -232,6 +232,15 @@
     <summary>Model upgrades Models downloaded with earlier versions of Ollama are upgraded in the background the first time you run them, for better performance and compatibility when running on llama.cpp. To make downgrading safe, Ollama keeps the original copy as a backup, so upgraded models are temporarily kept on disk. A future</summary>
   </entry>
   <entry>
+    <title>In PA, FBI agents arrested a co-founder of a Canadian cybersecurity firm specializing in ransomware negotiations, as part of the ShinyHunters investigation (Brian Krebs/Krebs on Security)</title>
+    <link href="https://www.techmeme.com/261009/p32"/>
+    <id>https://www.techmeme.com/261009/p32</id>
+    <updated>2026-10-10T01:10:02.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Brian Krebs / Krebs on Security : In PA, FBI agents arrested a co-founder of a Canadian cybersecurity firm specializing in ransomware negotiations, as part of the ShinyHunters investigation — Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in co</summary>
+  </entry>
+  <entry>
     <title>b11536: ui: Models Manager Follow-up Improvements (#30228)</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11536"/>
     <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11536</id>
@@ -241,22 +250,13 @@
     <summary>common : read a GGUF's trained context from its metadata common_get_gguf_n_ctx_train opens only the file's metadata (no_alloc, like common_get_decision_type) and reads .context_length, so a caller can learn the trained context without loading the model. It accepts both u32 and u64 values and returns 0 when the file is </summary>
   </entry>
   <entry>
-    <title>Qwen3.8-27B UD-IQ4_XS Heretic + MTP on a 16 GB card with 55-68 tok/s (24gb and 12gb versions available too)</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x1zhnx/qwen3827b_udiq4_xs_heretic_mtp_on_a_16_gb_card"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x1zhnx/qwen3827b_udiq4_xs_heretic_mtp_on_a_16_gb_card</id>
-    <updated>2026-10-09T22:54:37.000Z</updated>
+    <title>Basalt: Flash-Next at 665 tok/s structured, 354 prose on a 5090 + 5060 Ti (2.6x Strata)</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x223ai/basalt_flashnext_at_665_toks_structured_354_prose"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x223ai/basalt_flashnext_at_665_toks_structured_354_prose</id>
+    <updated>2026-10-10T00:58:24.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>I wanted the uncensored Qwen3.8-27B (llmfan46's Heretic build, MTP head preserved) on my RTX 4080 with MTP on (because I've been testing TONS of configs, and realized that would be the one) And none of the published quants were built for that: the good IQ4_XS doesn't leave room for MTP, and the ones that fit are 3-bit.</summary>
-  </entry>
-  <entry>
-    <title>claude-code v2.1.296 released</title>
-    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.296"/>
-    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.296</id>
-    <updated>2026-10-09T19:28:59.000Z</updated>
-    <author><name>anthropics/claude-code</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>What's changed Added a code key to the Claude apps gateway's managed.policies[] : the same settings as cli , also applied in Claude Desktop's Code tab; beside desktop , it turns on Claude Desktop's gateway mode Added autoCompactWindow to subagent frontmatter and --agents definitions, so a subagent can auto-compact earl</summary>
+    <summary>Basalt: Blackwell inference engine Hi all! So over the last week I've been working on a Strata fork that's heavily tuned and can achieve throughput up to 2.6x what Strata usually does on the same weights. It's designed as a specialized engine that only supports Qwen3.8 Flash-Next and Blackwell architecture, including d</summary>
   </entry>
   <entry>
     <title>Bambusa Therapeutics Files for IPO to Fund Eczema Drug Trials</title>
