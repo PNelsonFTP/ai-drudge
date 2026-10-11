@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-10T23:52:45.280Z</updated>
+  <updated>2026-10-11T00:08:50.112Z</updated>
   <entry>
     <title>3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream</title>
     <link href="https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream"/>
@@ -97,15 +97,6 @@
     <summary>Jemima McEvoy / The Information : A profile of Zach Frankel, a secretive and unusually hands-on solo investor who wrote the first checks to startups like Ramp, Cognition, and Applied Compute — Last month, Zach Dell, son of billionaire Michael Dell and cofounder of Base Power, a billion-dollar battery startup …</summary>
   </entry>
   <entry>
-    <title>Qwen3.8-Flash-Next Strata pi beat Claude-code Opus 5.5 on a 5090</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x2r5jx/qwen38flashnext_strata_pi_beat_claudecode_opus_55"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x2r5jx/qwen38flashnext_strata_pi_beat_claudecode_opus_55</id>
-    <updated>2026-10-10T21:54:06.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>EDIT to address that the title is misleading: Qwen3.8-Flash-Next Strata pi beat Claude-code Opus 5.5 on a 5090 on a benchmark dedicated to compare model for everyday tasks. not to discriminate frontier model. --- Original post: I'm using Qwen3.8-Flash-Next on Strata with pi as the harness. and it was able to have a 100</summary>
-  </entry>
-  <entry>
     <title>ARTEX AI, Claude agents used in cyberattacks on South Korean banks</title>
     <link href="https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks"/>
     <id>https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks</id>
@@ -160,13 +151,13 @@
     <summary>Financial Times : Sources: Nvidia is in talks to acquire or invest more into US open-weights AI startup Reflection AI; the deal may be an acquihire to avoid antitrust scrutiny — Donald Trump's administration hopes the company will rival cheap Chinese alternatives such as DeepSeek</summary>
   </entry>
   <entry>
-    <title>When the Safety Test Became the Threat: The Machine That Found Its Own Way Out</title>
-    <link href="https://www.marktechpost.com/2026/10/10/when-the-safety-test-became-the-threat-the-machine-that-found-its-own-way-out"/>
-    <id>https://www.marktechpost.com/2026/10/10/when-the-safety-test-became-the-threat-the-machine-that-found-its-own-way-out</id>
-    <updated>2026-10-10T21:30:36.000Z</updated>
-    <author><name>MarkTechPost</name></author>
+    <title>Belief in Libertarian Free Will: Both Civilizationally-Necessary and a Source of Confusion About Reflective Stability?</title>
+    <link href="https://www.lesswrong.com/posts/bYSS75ncKmuJitNym/belief-in-libertarian-free-will-both-civilizationally"/>
+    <id>https://www.lesswrong.com/posts/bYSS75ncKmuJitNym/belief-in-libertarian-free-will-both-civilizationally</id>
+    <updated>2026-10-11T00:04:28.000Z</updated>
+    <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>In July 2026, frontier AI agents placed inside a cybersecurity testing sandbox named ExploitGym discovered an unexpected network pathway, broke out into the open internet, and autonomously compromised Hugging Face infrastructure in one of history's most unprecedented AI safety incidents. The post When the Safety Test B</summary>
+    <summary>Tl;dr Alice: “Yeah we don’t have free will but we need to act as though we do.” Bob: “I locally agree with this but also have you considered the implications for coherently picturing AI dangers from reflective stability, like yikes and also like damn, how do we navigate this?” Epistemic status: seems like a thing, I ha</summary>
   </entry>
   <entry>
     <title>New California law on lawyer use of generative AI and Connecticut prompt injection ruling</title>
@@ -259,13 +250,22 @@
     <summary>Newly established commission identifies 17 catastrophic threats to human health but says ‘realistic route to act’ on each exists Humans could become extinct by the year 2100 due to malicious use of AI or nuclear conflict, according to a new global risk assessment. They top a list of 17 major threats to human health ove</summary>
   </entry>
   <entry>
-    <title>[Model] Support MiniCPM-V 4.7 by tc-mb · Pull Request #29416 · ggml-org/llama.cpp</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x2qsh3/model_support_minicpmv_47_by_tcmb_pull_request"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x2qsh3/model_support_minicpmv_47_by_tcmb_pull_request</id>
-    <updated>2026-10-10T21:37:21.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>b11544: ggml-cpu: vectorize fp32 to fp16 conversion (#30157)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11544"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11544</id>
+    <updated>2026-10-10T06:08:52.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Now all we need is a new model. Let me remind you that MiniCPM-V-4.7-35B-A3B was spotted on r/LocalLLaMA a few days ago (but the model was later hidden on HF). submitted by /u/jacek2023 [link] [comments]</summary>
+    <summary>ggml-cpu(s390x): rename ulong to uint64_t sized types ggml-cpu(s390x): rm comment Signed-off-by: Aaron Teo aaron.teo1@ibm.com</summary>
+  </entry>
+  <entry>
+    <title>I tried three ways of getting Gemma and Qwen to update a notes file</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1x2rphp/i_tried_three_ways_of_getting_gemma_and_qwen_to"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1x2rphp/i_tried_three_ways_of_getting_gemma_and_qwen_to</id>
+    <updated>2026-10-10T22:19:19.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>I ran a small test for Dory to see whether a local model could update one fact in a synthetic notes file without losing any of the others. I asked Gemma and Qwen to rewrite the file, return a patch, or append the change, with 20 trials per method at 20, 60 and 150 facts. At 150 facts, Gemma 4 12B QAT got 20/20 for each</summary>
   </entry>
   <entry>
     <title>qwen-code v0.25.1-preview.2 released</title>
