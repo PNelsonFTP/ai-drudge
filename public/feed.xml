@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-11T15:08:40.883Z</updated>
+  <updated>2026-10-11T16:08:42.687Z</updated>
   <entry>
     <title>qwen-code v0.25.1 released</title>
     <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.25.1"/>
@@ -23,15 +23,6 @@
     <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
     <summary>In a Saturday morning post, Microsoft's CEO wrote that it’s time “to step back and assess the trust architecture” of AI. — Also covered by: Bloomberg Tech</summary>
-  </entry>
-  <entry>
-    <title>Nvidia in talks to acquire US ‘open’ model start-up Reflection AI</title>
-    <link href="https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a?syn-25a6b1a6=1</id>
-    <updated>2026-10-10T18:14:28.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Donald Trump’s administration hopes the company will rival cheap Chinese alternatives such as DeepSeek — Also covered by: HN: AI (150+ points)</summary>
   </entry>
   <entry>
     <title>Apple discloses deal to hire team and license tech from personalized podcast startup Huxe</title>
@@ -70,15 +61,6 @@
     <summary>TechCrunch Disrupt 2026 takes place October 13-15 in San Francisco. Over 300 startups will show what they’ve built to 10,000 tech leaders. Plus, 250+ speakers are ready to share insights across 200+ sessions. Register before doors open to save up to $100 and get a second pass at 50% off.</summary>
   </entry>
   <entry>
-    <title>How Oracle turns days of work into minutes with ChatGPT and Codex</title>
-    <link href="https://openai.com/index/oracle"/>
-    <id>https://openai.com/index/oracle</id>
-    <updated>2026-10-08T16:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.</summary>
-  </entry>
-  <entry>
     <title>Impactful scheduling for GPU clusters</title>
     <link href="https://huggingface.co/blog/allenai/impactful-scheduling"/>
     <id>https://huggingface.co/blog/allenai/impactful-scheduling</id>
@@ -88,13 +70,13 @@
     <summary>Also covered by: Ai2 (Allen Institute)</summary>
   </entry>
   <entry>
-    <title>llama.cpp b11556 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11556"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11556</id>
-    <updated>2026-10-11T13:34:31.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>ollama v0.40.3 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.3"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.3</id>
+    <updated>2026-10-11T06:40:39.000Z</updated>
+    <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>model : support for Prism Bonsai 2 27B ( #29600 ) Runtime support for Prism Bonsai 2 27B Assisted-by: Claude Code address prism hadamard runtime feedback move hadamard tensors into method, define folded weight load_* hadamard fixes cont : clean-up conversion cleanup Assisted-by: Claude Code prism hadamard key and metho</summary>
+    <summary>What's Changed ollama launch claude no longer shows a warning about Claude connectors by @hoyyeva in #18878 ollama launch codex no longer warns about service tiers by @hoyyeva in #18879 Paused background model upgrade for embedding and other request performance, by @jmorganca in #18908 Full Changelog : v0.40.2...v0.40.</summary>
   </entry>
   <entry>
     <title>The Attractive Economics Behind Anthropic Data Center Sprint</title>
@@ -106,13 +88,31 @@
     <summary>Why is Anthropic driving its partners to speed up the $530 billion of data center leasing deals it has signed ? It’s simple: Every server Anthropic plugs in sooner to run its products could be wildly profitable, according to fresh analysis of upcoming AI data center sites, including one Anthropic will rent outside Bato</summary>
   </entry>
   <entry>
-    <title>Trump's Russia Diesel Deal Deepens Ukraine Rift</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-11/trump-s-russia-diesel-deal-deepens-ukraine-rift-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-11/trump-s-russia-diesel-deal-deepens-ukraine-rift-video</id>
-    <updated>2026-10-11T14:50:11.000Z</updated>
+    <title>llama.cpp b11557 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11557"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11557</id>
+    <updated>2026-10-11T15:14:40.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>rpc : turn GGML_RPC_DEBUG into a verbosity level and add logs ( #29544 ) rpc : turn GGML_RPC_DEBUG into a verbosity level and add logs GGML_RPC_DEBUG is now parsed as a number: 0/unset disables debug logs, 1-3 emit increasingly detailed output (events, per-command trace, transport detail). Non-numeric values fall back </summary>
+  </entry>
+  <entry>
+    <title>AI agent teams waste massive tokens for barely measurable quality gains, research finds</title>
+    <link href="https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds"/>
+    <id>https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds</id>
+    <updated>2026-10-11T15:39:26.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Teams of AI agents barely outperform solo agents but cost up to 5.1x more, according to Vals AI. Only one out of four tests with GPT-6 Sol and Claude Opus 5.5 showed a measurable gain. Anthropic's own data backs this up: beyond ten agents, quality plateaus while token costs keep climbing. The article AI agent teams was</summary>
+  </entry>
+  <entry>
+    <title>Saudi Airport Attack Raises Middle East War Risks</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-10-11/saudi-airport-attack-raises-middle-east-war-risks-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-10-11/saudi-airport-attack-raises-middle-east-war-risks-video</id>
+    <updated>2026-10-11T15:46:27.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Former US Ambassador to Ukraine William Taylor, a distinguished fellow at the Atlantic Council's Eurasia Center, tells Bloomberg This Weekend that President Donald Trump's Russian diesel agreement could provide Moscow with additional revenue to prolong its war in Ukraine while undermining economic sanctions. Speaking w</summary>
+    <summary>Bloomberg Reporters Alex Koccharov and Abeer Abu Omar join hosts David Gura and Christina Ruffini on Bloomberg This Weekend to discuss the deadly attack on Riyadh's international airport and the growing risks to Gulf shipping, energy infrastructure and Saudi Arabia's investment ambitions. They also examine Ukraine's op</summary>
   </entry>
   <entry>
     <title>Odyssey-3 is a new generative world model that you can try for free</title>
@@ -133,15 +133,6 @@
     <summary>This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and… The post New controls and chat improvements in Copilot for JetBrains appeared first on The GitHub Blog .</summary>
   </entry>
   <entry>
-    <title>b11557: rpc : turn GGML_RPC_DEBUG into a verbosity level and add logs (#29544)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11557"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11557</id>
-    <updated>2026-10-11T14:43:35.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="HARDWARE"/>
-    <summary>rpc : turn GGML_RPC_DEBUG into a verbosity level and add logs GGML_RPC_DEBUG is now parsed as a number: 0/unset disables debug logs, 1-3 emit increasingly detailed output (events, per-command trace, transport detail). Non-numeric values fall back to 1. The duplicated env/macro blocks in ggml-rpc.cpp and transport.cpp a</summary>
-  </entry>
-  <entry>
     <title>Narrow Multimodal Fine-Tuning Can Induce Emergent Misalignment</title>
     <link href="https://www.lesswrong.com/posts/HJPJArDvcvRBkbaEa/narrow-multimodal-fine-tuning-can-induce-emergent"/>
     <id>https://www.lesswrong.com/posts/HJPJArDvcvRBkbaEa/narrow-multimodal-fine-tuning-can-induce-emergent</id>
@@ -151,21 +142,22 @@
     <summary>Paper: https://arxiv.org/abs/2609.35291 Code: https://github.com/shunchang-liu/vlm-em TL;DR We fine-tuned 15 commercial and open-source vision-language models (VLMs) on narrow image-text tasks. What surprised us is that fine-tuning on narrow tasks that are not that harmful can make models behave unsafely across many br</summary>
   </entry>
   <entry>
-    <title>Telephoto Camera: Pixel 10 Pro vs 11 Pro</title>
-    <link href="https://www.lesswrong.com/posts/7nik4GZ2BEg7e9FNr/telephoto-camera-pixel-10-pro-vs-11-pro"/>
-    <id>https://www.lesswrong.com/posts/7nik4GZ2BEg7e9FNr/telephoto-camera-pixel-10-pro-vs-11-pro</id>
-    <updated>2026-10-11T14:20:57.000Z</updated>
+    <title>An update on Generality Labs</title>
+    <link href="https://www.lesswrong.com/posts/mnWj4hSJxhSJY4N7N/an-update-on-generality-labs"/>
+    <id>https://www.lesswrong.com/posts/mnWj4hSJxhSJY4N7N/an-update-on-generality-labs</id>
+    <updated>2026-10-11T15:29:23.000Z</updated>
     <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>I'm not sophisticated enough to have noticed improvements in the main phone camera in the past 5-10 years, but distance shots are still not very good. The next generation Pixel Pro was supposed to have an improved &quot;telephoto&quot; camera, and when Google Fi offered me a sufficiently good deal [1] I decided to upgrade. Going</summary>
+    <summary>This is an update on what we’re doing at Generality Labs, and a quick introduction for those who aren’t familiar with our work Written by Justin Olive, co-founder &amp; CEO Tl;dr I started Generality Labs because, when the time comes, I don’t think we’re going to be able to accurately measure the safety of dangerously capa</summary>
   </entry>
   <entry>
-    <title>Auto-patch for OpenAnt: Generating trust in autonomous patching</title>
-    <link href="https://www.knostic.ai/blog/auto-patch-for-openant"/>
-    <id>https://www.knostic.ai/blog/auto-patch-for-openant</id>
-    <updated>2026-10-11T12:53:00.000Z</updated>
-    <author><name>Knostic</name></author>
+    <title>Testing Provenance-Based Controls Against Indirect Prompt Injection in AI Agents</title>
+    <link href="https://hackernoon.com/testing-provenance-based-controls-against-indirect-prompt-injection-in-ai-agents"/>
+    <id>https://hackernoon.com/testing-provenance-based-controls-against-indirect-prompt-injection-in-ai-agents</id>
+    <updated>2026-10-11T16:04:52.000Z</updated>
+    <author><name>GN: Prompt Injection</name></author>
     <category term="AI SECURITY"/>
+    <summary>Testing Provenance-Based Controls Against Indirect Prompt Injection in AI Agents HackerNoon</summary>
   </entry>
   <entry>
     <title>Nippon Columbia malware incident exposes 8.6 million karaoke fan records</title>
@@ -175,6 +167,14 @@
     <author><name>BleepingComputer</name></author>
     <category term="CYBER THREATS"/>
     <summary>Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records. [...]</summary>
+  </entry>
+  <entry>
+    <title>Auto-patch for OpenAnt: Generating trust in autonomous patching</title>
+    <link href="https://www.knostic.ai/blog/auto-patch-for-openant"/>
+    <id>https://www.knostic.ai/blog/auto-patch-for-openant</id>
+    <updated>2026-10-11T12:53:00.000Z</updated>
+    <author><name>Knostic</name></author>
+    <category term="CYBER DEFENSE"/>
   </entry>
   <entry>
     <title>Rein Security, which develops runtime tools to secure enterprise AI agents and stop adversarial AI agents, raised a $25M Series A, taking total funding to $35M (Meir Orbach/CTech)</title>
@@ -213,40 +213,22 @@
     <summary>IBM Quantum has launched a new directed execution model with the Executor primitive in qiskit-ibm-runtime v0.50.0. This framework shifts error mitigation to the client side, giving researchers greater control over quantum error correction (QEC) workflows. It allows for custom control over circuit transformations and er</summary>
   </entry>
   <entry>
-    <title>ollama v0.40.3 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.3"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.3</id>
-    <updated>2026-10-11T06:40:39.000Z</updated>
-    <author><name>ollama/ollama</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>What's Changed ollama launch claude no longer shows a warning about Claude connectors by @hoyyeva in #18878 ollama launch codex no longer warns about service tiers by @hoyyeva in #18879 Paused background model upgrade for embedding and other request performance, by @jmorganca in #18908 Full Changelog : v0.40.2...v0.40.</summary>
-  </entry>
-  <entry>
-    <title>AI agents overstate their results and remain far from autonomous research, study finds</title>
-    <link href="https://the-decoder.com/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-finds"/>
-    <id>https://the-decoder.com/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-finds</id>
-    <updated>2026-10-11T13:44:32.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Epoch AI and Anthropic independently found the same thing: current AI models like GPT-5.6 Sol and Claude Fable 5 can run experiments but lack scientific self-criticism and genuine creative thinking. At best, Sol reached 15 percent of the human reference score, and even that came from methods researchers already knew. T</summary>
-  </entry>
-  <entry>
-    <title>These execs think voice AI hasn’t reached its ChatGPT moment yet</title>
-    <link href="https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet"/>
-    <id>https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet</id>
-    <updated>2026-10-11T14:00:00.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>Feelgood factor of human interaction | Brief letters</title>
+    <link href="https://www.theguardian.com/science/2026/oct/11/feelgood-factor-of-human-interaction"/>
+    <id>https://www.theguardian.com/science/2026/oct/11/feelgood-factor-of-human-interaction</id>
+    <updated>2026-10-11T15:52:20.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Voice AI's often misses important points for its context layer, and causes the whole pipeline to break</summary>
+    <summary>Happy hormones | Fuel costs | Drive-in parking | Guys and girls | Young or old? | Singapore pollution Re your report ( ‘Pull the plug’: protesters resort to direct action against AI firms, 6 October ), the US neuroscientist Ben Rein has shown that there is a fundamental difference in our cognitive response according to</summary>
   </entry>
   <entry>
-    <title>PitchBook: robotics and physical AI companies have raised ~$48B YTD, as they gather training data from people completing tasks in factories, offices, and homes (Rafe Rosner-Uddin/Financial Times)</title>
-    <link href="https://www.techmeme.com/261011/p6"/>
-    <id>https://www.techmeme.com/261011/p6</id>
-    <updated>2026-10-11T13:00:51.000Z</updated>
+    <title>A look at Apple's smart home strategy, centered on a HomeView display hub, with a new HomePod mini, Apple TV, and second-party accessories from LG and Schneider (Mark Gurman/Bloomberg)</title>
+    <link href="https://www.techmeme.com/261011/p7"/>
+    <id>https://www.techmeme.com/261011/p7</id>
+    <updated>2026-10-11T15:10:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Rafe Rosner-Uddin / Financial Times : PitchBook: robotics and physical AI companies have raised ~$48B YTD, as they gather training data from people completing tasks in factories, offices, and homes — ‘Physical AI’ developers are putting cameras in homes, offices and factories to fill a gap in the training material of r</summary>
+    <summary>Mark Gurman / Bloomberg : A look at Apple's smart home strategy, centered on a HomeView display hub, with a new HomePod mini, Apple TV, and second-party accessories from LG and Schneider — Fresh details on Apple's HomeView, HomePod mini and new Apple TV, including release dates, colors, chips and features.</summary>
   </entry>
   <entry>
     <title>I built an open-source GPU orchestrator that lets several local AI models share one GPU by loading/unloading them on demand (llama.cpp, Ollama, ComfyUI, TTS)</title>
@@ -258,6 +240,24 @@
     <summary>TL;DR: One GPU, several AI tools, not enough VRAM to run them all at once. GPUSymbiosis treats your GPU apps as dynamically resident workloads instead of permanently-running processes — it loads the one you actually want to use, unloads the idle ones, and never interrupts a request mid-flight. https://github.com/devath</summary>
   </entry>
   <entry>
+    <title>7900 XTX swap vs. adding a 7600 XT</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1x37tnq/7900_xtx_swap_vs_adding_a_7600_xt"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1x37tnq/7900_xtx_swap_vs_adding_a_7600_xt</id>
+    <updated>2026-10-11T13:09:01.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>I run Qwen3.6-35B-A3B (UD-Q5_K_M, ~25GB) on llama.cpp for VS Code agent work. Current rig: Ryzen 5 7600X, 32GB DDR5, RX 7800 XT 16GB. My goal is to improve quality, token generation speed is ok currently for my needs, sits at 35 t/s. I don’t game much but consider gaming upgrades as a bonus. Which would you pick? A) Se</summary>
+  </entry>
+  <entry>
+    <title>AI agents overstate their results and remain far from autonomous research, study finds</title>
+    <link href="https://the-decoder.com/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-finds"/>
+    <id>https://the-decoder.com/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-finds</id>
+    <updated>2026-10-11T13:44:32.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Epoch AI and Anthropic independently found the same thing: current AI models like GPT-5.6 Sol and Claude Fable 5 can run experiments but lack scientific self-criticism and genuine creative thinking. At best, Sol reached 15 percent of the human reference score, and even that came from methods researchers already knew. T</summary>
+  </entry>
+  <entry>
     <title>Context Language Models: Self-Managing Context to Improve Performance and Reduce Compute Costs</title>
     <link href="https://www.infoq.com/news/2026/10/context-language-models"/>
     <id>https://www.infoq.com/news/2026/10/context-language-models</id>
@@ -267,12 +267,12 @@
     <summary>Researchers from Meta, MIT, and the University of Washington introduce Context Language Models (CLMs), a new approach that enables language models to manage and edit their own context rather than relying on predefined mechanisms for summarization, compression, and information retrieval, reporting substantial gains in b</summary>
   </entry>
   <entry>
-    <title>Saudi Arabia’s Main Riyadh Airport Comes Under Further Attack</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-11/saudi-arabia-s-main-riyadh-airport-comes-under-further-attack"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-11/saudi-arabia-s-main-riyadh-airport-comes-under-further-attack</id>
-    <updated>2026-10-11T14:47:50.000Z</updated>
+    <title>Big Banks Face Test as Earnings Season Begins</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-10-11/big-banks-face-test-as-earnings-season-begins-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-10-11/big-banks-face-test-as-earnings-season-begins-video</id>
+    <updated>2026-10-11T15:20:26.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Saudi Arabia-led coalition forces in Yemen said the kingdom’s main airport in Riyadh was hit by an unknown projectile on Sunday, causing a fire.</summary>
+    <summary>Bloomberg Intelligence Senior US Banks Analyst Herman Chan tells Bloomberg This Weekend that major banks enter third-quarter earnings season with strong credit quality but face questions about the impact of higher interest rates, slowing investment banking activity and potential risks tied to AI financing. Speaking wit</summary>
   </entry>
 </feed>
