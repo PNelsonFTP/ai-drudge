@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-11T06:30:30.898Z</updated>
+  <updated>2026-10-11T07:08:40.862Z</updated>
   <entry>
     <title>3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream</title>
     <link href="https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream"/>
@@ -23,6 +23,15 @@
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
     <summary>server: leave a busy slot untouched when a request pins it ( #30295 ) A request asking for a busy id_slot still ran the prompt cache update on that slot before being deferred. When the RAM cache held a better match, it was loaded into the slot while another request was still generating there, and that generation contin — Also covered by: ggml-org/whisper.cpp</summary>
+  </entry>
+  <entry>
+    <title>Nvidia in talks to acquire US ‘open’ model start-up Reflection AI</title>
+    <link href="https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a?syn-25a6b1a6=1</id>
+    <updated>2026-10-10T18:14:28.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Donald Trump’s administration hopes the company will rival cheap Chinese alternatives such as DeepSeek — Also covered by: HN: AI (150+ points)</summary>
   </entry>
   <entry>
     <title>Microsoft’s Satya Nadella says AI models need an ‘emergency brake’</title>
@@ -91,19 +100,19 @@
     <title>ollama v0.40.3 released</title>
     <link href="https://github.com/ollama/ollama/releases/tag/v0.40.3"/>
     <id>https://github.com/ollama/ollama/releases/tag/v0.40.3</id>
-    <updated>2026-10-11T04:24:55.000Z</updated>
+    <updated>2026-10-11T06:40:39.000Z</updated>
     <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>What's Changed ollama launch claude no longer shows a warning about Claude connectors by @hoyyeva in #18878 ollama launch codex no longer warns about service tiers by @hoyyeva in #18879 Paused background model upgrades, which added overhead to every request in high-volume use such as embeddings, by @jmorganca in #18908</summary>
+    <summary>What's Changed ollama launch claude no longer shows a warning about Claude connectors by @hoyyeva in #18878 ollama launch codex no longer warns about service tiers by @hoyyeva in #18879 Paused background model upgrade for embedding and other request performance, by @jmorganca in #18908 Full Changelog : v0.40.2...v0.40.</summary>
   </entry>
   <entry>
-    <title>Rein Security, which develops runtime tools to secure enterprise AI agents and stop adversarial AI agents, raised a $25M Series A, taking total funding to $35M (Meir Orbach/CTech)</title>
-    <link href="https://www.techmeme.com/261011/p4"/>
-    <id>https://www.techmeme.com/261011/p4</id>
-    <updated>2026-10-11T05:50:01.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>‘Gaza is a moral tear in the universe’: Naomi Klein and Astra Taylor | Radical Thinking with Aditya Chakrabortty – podcast</title>
+    <link href="https://www.theguardian.com/news/audio/2026/oct/11/gaza-is-a-moral-tear-in-the-universe-naomi-klein-and-astra-taylor-radical-thinking-with-aditya-chakrabortty-podcast"/>
+    <id>https://www.theguardian.com/news/audio/2026/oct/11/gaza-is-a-moral-tear-in-the-universe-naomi-klein-and-astra-taylor-radical-thinking-with-aditya-chakrabortty-podcast</id>
+    <updated>2026-10-11T07:00:20.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Meir Orbach / CTech : Rein Security, which develops runtime tools to secure enterprise AI agents and stop adversarial AI agents, raised a $25M Series A, taking total funding to $35M — The Israeli startup says its revenue has grown eightfold since January and its platform is now securing thousands of agents that execute</summary>
+    <summary>Are we really living through ‘end-times fascism’? Naomi Klein and Astra Taylor think so. In a new series from the Guardian, the pair speak to Radical Thinking with Aditya Chakrabortty in an extended interview. From Trump 2.0 and the rise of the tech billionaires to Gaza and the climate emergency, Klein and Taylor argue</summary>
   </entry>
   <entry>
     <title>Running Next Flash IQ3_XXS at ~70 tok/s with 100k context or 2 instances of Qwen 3.6 35B A3B IQ4 at ~145 tok/s with 256k all on $500 of ex mining BC-250 boards</title>
@@ -115,13 +124,22 @@
     <summary>This will be my third update on the bc-250 cluster and for my first forray into local ai I have been having a blast. This has turned from a weekend experiment into something I think I will use in the future. I am running 4 BC-250 boards connected by 2.5gb ethernet adapters to a 2.5gb switch using llama with vulkan and </summary>
   </entry>
   <entry>
-    <title>Indian ‘Cockroaches’ Plan New Protest Amid Heavy Delhi Security</title>
+    <title>Rein Security, which develops runtime tools to secure enterprise AI agents and stop adversarial AI agents, raised a $25M Series A, taking total funding to $35M (Meir Orbach/CTech)</title>
+    <link href="https://www.techmeme.com/261011/p4"/>
+    <id>https://www.techmeme.com/261011/p4</id>
+    <updated>2026-10-11T05:50:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Meir Orbach / CTech : Rein Security, which develops runtime tools to secure enterprise AI agents and stop adversarial AI agents, raised a $25M Series A, taking total funding to $35M — The Israeli startup says its revenue has grown eightfold since January and its platform is now securing thousands of agents that execute</summary>
+  </entry>
+  <entry>
+    <title>India Protests Set to Continue Despite Heavy Delhi Security</title>
     <link href="https://www.bloomberg.com/news/articles/2026-10-11/indian-cockroaches-plan-new-protest-amid-heavy-delhi-security"/>
     <id>https://www.bloomberg.com/news/articles/2026-10-11/indian-cockroaches-plan-new-protest-amid-heavy-delhi-security</id>
     <updated>2026-10-11T05:24:47.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Parts of India’s New Delhi remained under lockdown on a second straight day as the Cockroach Janta Party pressed ahead with its call for protests despite tight security, demanding the resignation of India’s top election official over a contentious revision of voter rolls.</summary>
+    <summary>Parts of New Delhi remained under tight security for a second straight day as protesters pressed ahead with their demand for the resignation of India’s top election official over a contentious revision of voter rolls.</summary>
   </entry>
   <entry>
     <title>Sakana AI’s LLM Peer Review System Catches 73% of Core-Claim Errors</title>
@@ -257,23 +275,5 @@
     <author><name>BleepingComputer</name></author>
     <category term="AGENTS &amp; TOOLS"/>
     <summary>The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]</summary>
-  </entry>
-  <entry>
-    <title>China Issues Draft Standards for Remanufactured Automotive Parts</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-11/china-issues-draft-standards-for-remanufactured-automotive-parts"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-11/china-issues-draft-standards-for-remanufactured-automotive-parts</id>
-    <updated>2026-10-11T03:21:56.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>China released draft rules that would establish nationwide requirements for automotive-parts remanufacturing, including standards for the sourcing of used components, product quality, traceability and market oversight.</summary>
-  </entry>
-  <entry>
-    <title>The problem with your AI therapist</title>
-    <link href="https://www.ft.com/content/ab9e2f3e-1586-4c63-b423-6a179437fc13?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/ab9e2f3e-1586-4c63-b423-6a179437fc13?syn-25a6b1a6=1</id>
-    <updated>2026-10-11T04:00:16.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Millions are turning to chatbots for help with mental health but a technology that can’t go beyond words won’t heal them</summary>
   </entry>
 </feed>
