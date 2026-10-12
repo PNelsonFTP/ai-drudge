@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-12T07:08:58.865Z</updated>
+  <updated>2026-10-12T09:21:50.191Z</updated>
   <entry>
     <title>48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next</title>
     <link href="https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next"/>
@@ -14,6 +14,15 @@
     <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
     <summary>Less than 48 hours, TechCrunch Disrupt 2026 starts in San Francisco’s Moscone West. Save up to $100 on your pass before prices increase at the door, plus get 50% on a second pass. Or score other deals.</summary>
+  </entry>
+  <entry>
+    <title>Nate Soares on How AI Really Could Kill Us All</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-12/nate-soares-on-how-ai-really-could-kill-us-all"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-12/nate-soares-on-how-ai-really-could-kill-us-all</id>
+    <updated>2026-10-12T08:00:01.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>What the X-Risk debate really is all about. — Also covered by: Bloomberg Markets, Bloomberg Tech</summary>
   </entry>
   <entry>
     <title>qwen-code v0.25.1 released</title>
@@ -34,31 +43,22 @@
     <summary>Also covered by: Ai2 (Allen Institute)</summary>
   </entry>
   <entry>
-    <title>ollama v0.40.3 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.3"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.3</id>
-    <updated>2026-10-11T06:40:39.000Z</updated>
-    <author><name>ollama/ollama</name></author>
+    <title>b11567: llama : report compute graph reallocations during inference (#30329)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11567"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11567</id>
+    <updated>2026-10-12T08:53:58.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>What's Changed ollama launch claude no longer shows a warning about Claude connectors by @hoyyeva in #18878 ollama launch codex no longer warns about service tiers by @hoyyeva in #18879 Paused background model upgrade for embedding and other request performance, by @jmorganca in #18908 Full Changelog : v0.40.2...v0.40.</summary>
+    <summary>Add an optional ggml_backend_sched_realloc_callback that user code registers with ggml_backend_sched_set_realloc_callback to be notified when the buffers reserved for a graph are not sufficient and have to be reserved again. The callback reports whether the backend assignments and the graph size changed since the previ</summary>
   </entry>
   <entry>
-    <title>Sources: PCB maker Dongshan is eyeing to raise $2B to $3B in a Hong Kong listing as soon as this month; Dongshan is listed in Shenzhen with a $39B valuation (Bloomberg)</title>
-    <link href="https://www.techmeme.com/261012/p1"/>
-    <id>https://www.techmeme.com/261012/p1</id>
-    <updated>2026-10-12T04:00:44.000Z</updated>
+    <title>US soldiers using AI tech during a July exercise say they encountered issues like drone overheating, highlighting challenges in the Army's modernization effort (Heather Somerville/Wall Street Journal)</title>
+    <link href="https://www.techmeme.com/261012/p8"/>
+    <id>https://www.techmeme.com/261012/p8</id>
+    <updated>2026-10-12T08:45:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Bloomberg : Sources: PCB maker Dongshan is eyeing to raise $2B to $3B in a Hong Kong listing as soon as this month; Dongshan is listed in Shenzhen with a $39B valuation — Printed circuit board maker Suzhou Dongshan Precision Manufacturing Co. has started gauging investor interest for a Hong Kong listing …</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp b11564 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11564"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11564</id>
-    <updated>2026-10-12T06:59:45.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>vulkan: use ternary expressions to avoid switch lowering for CM2 quant block size ( #30164 ) vulkan: specialize quant block size for CM2 matmul vulkan: use ternary expressions to avoid switch lowering for CM2 quant block size vulkan: clarify CM2 quant block size comment Website: https://llama.app Attestations: https://</summary>
+    <summary>Heather Somerville / Wall Street Journal : US soldiers using AI tech during a July exercise say they encountered issues like drone overheating, highlighting challenges in the Army's modernization effort — A desert trial exposed equipment limitations and institutional hurdles in the Army's push to modernize and keep pac</summary>
   </entry>
   <entry>
     <title>SWE-Duel: Towards a Self-Scaling Arena for Coding Agents</title>
@@ -70,13 +70,13 @@
     <summary>arXiv:2610.12569v1 Announce Type: new Abstract: Static coding benchmarks are fixed at release. Over time their tasks leak into training data, and stronger agents eventually saturate them. We argue that a benchmark should instead aim to be self-scaling: its tasks and oracles are created at evaluation time, so no content</summary>
   </entry>
   <entry>
-    <title>Bahoshy: Saudi VC Deals Fall 35% as Capital Rises</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-12/bahoshy-saudi-vc-deals-fall-35-as-capital-rises-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-12/bahoshy-saudi-vc-deals-fall-35-as-capital-rises-video</id>
-    <updated>2026-10-12T06:45:23.000Z</updated>
+    <title>G20’s Debt Toolkit Faces Fresh Test in Senegal</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-10-12/g20-s-debt-toolkit-faces-fresh-test-in-senegal-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-10-12/g20-s-debt-toolkit-faces-fresh-test-in-senegal-video</id>
+    <updated>2026-10-12T08:57:38.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The Middle East and North Africa's venture capital market is moving at two speeds. A report from Magnitt finds mega-rounds have raised $1.5 billion so far this year. But those deals mask a contraction in deal activity across the broader startup ecosystem. Philip Bahoshy, Founder &amp; CEO at Magnitt spoke to Bloomberg’s Ab</summary>
+    <summary>The G-20 Common Framework, a global toolkit to help poorer nations avoid chaotic defaults faces a fresh test in Senegal. Amid mounting debt strains, the nation plans to use an improved version of the framework to secure a fair distribution of relief across creditors in what will be seen as a key test of its effectivene</summary>
   </entry>
   <entry>
     <title>New controls and chat improvements in Copilot for JetBrains</title>
@@ -115,22 +115,22 @@
     <summary>arXiv:2610.12493v1 Announce Type: new Abstract: Explainable Artificial Intelligence (XAI) tools have often been presented as methods to increase trust in machine learning models by making aspects of their algorithms more human-understandable. However, evidence accumulated over the last decade points to an overall failu</summary>
   </entry>
   <entry>
-    <title>Dual-LLM pattern secures AI agents from prompt injection risks</title>
-    <link href="https://techgig.com/news/ai/dual-llm-pattern-secures-ai-agents-from-prompt-injection-risks/134882497"/>
-    <id>https://techgig.com/news/ai/dual-llm-pattern-secures-ai-agents-from-prompt-injection-risks/134882497</id>
-    <updated>2026-10-12T04:32:17.000Z</updated>
+    <title>Testing Provenance-Based Controls Against Indirect Prompt Injection in AI Agents</title>
+    <link href="https://hackernoon.com/testing-provenance-based-controls-against-indirect-prompt-injection-in-ai-agents"/>
+    <id>https://hackernoon.com/testing-provenance-based-controls-against-indirect-prompt-injection-in-ai-agents</id>
+    <updated>2026-10-11T16:04:52.000Z</updated>
     <author><name>GN: Prompt Injection</name></author>
     <category term="AI SECURITY"/>
-    <summary>Dual-LLM pattern secures AI agents from prompt injection risks TechGig</summary>
+    <summary>Testing Provenance-Based Controls Against Indirect Prompt Injection in AI Agents HackerNoon</summary>
   </entry>
   <entry>
-    <title>Nippon Columbia malware incident exposes 8.6 million karaoke fan records</title>
-    <link href="https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records"/>
-    <id>https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records</id>
-    <updated>2026-10-11T14:23:46.000Z</updated>
-    <author><name>BleepingComputer</name></author>
+    <title>CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records</title>
+    <link href="https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html"/>
+    <id>https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html</id>
+    <updated>2026-10-12T07:26:12.000Z</updated>
+    <author><name>The Hacker News</name></author>
     <category term="CYBER THREATS"/>
-    <summary>Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records. [...]</summary>
+    <summary>Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in Ukraine. The activity, which brings together commodity offensive tools like Cobalt Strike with an AI o</summary>
   </entry>
   <entry>
     <title>Auto-patch for OpenAnt: Generating trust in autonomous patching</title>
@@ -141,85 +141,76 @@
     <category term="CYBER DEFENSE"/>
   </entry>
   <entry>
-    <title>Fixated on AI, the world has forgotten what is staring it in the face: nuclear annihilation | Simon Tisdall</title>
-    <link href="https://www.theguardian.com/commentisfree/2026/oct/11/ai-annihilation-advanced-nuclear-weapons"/>
-    <id>https://www.theguardian.com/commentisfree/2026/oct/11/ai-annihilation-advanced-nuclear-weapons</id>
-    <updated>2026-10-11T09:00:22.000Z</updated>
-    <author><name>The Guardian AI</name></author>
-    <category term="ANALYSIS"/>
-    <summary>This is no scoffing matter. The accelerating proliferation of advanced nuclear weapons is bringing ‘end times’ closer by the day Humankind has fearfully and sometimes joyfully anticipated the end of the world ever since it began. The Bible’s Book of Revelation speaks of “end times”, a period of tribulation, war, famine</summary>
+    <title>Firmus IPO Debacle Raises the Bar for Asia AI Deals in Pipeline</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-12/firmus-ipo-debacle-raises-the-bar-for-asia-ai-deals-in-pipeline"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-12/firmus-ipo-debacle-raises-the-bar-for-asia-ai-deals-in-pipeline</id>
+    <updated>2026-10-12T07:39:11.000Z</updated>
+    <author><name>Bloomberg Tech</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>The collapse of Firmus Grid Ltd.’s initial public offering is reverberating through Asia’s booming market for share sales, making investors far pickier about artificial intelligence infrastructure deals that hinge on future earnings.</summary>
   </entry>
   <entry>
-    <title>XPENG Targets H2 2027 European Rollout for IRON Humanoid Robot</title>
-    <link href="https://www.humanoidsdaily.com/news/xpeng-iron-europe-rollout-h2-2027"/>
-    <id>https://www.humanoidsdaily.com/news/xpeng-iron-europe-rollout-h2-2027</id>
-    <updated>2026-10-12T05:42:25.000Z</updated>
+    <title>AWS Introduces Physical AI Toolchain to Connect Robot Training and Simulation</title>
+    <link href="https://www.humanoidsdaily.com/news/aws-physical-ai-toolchain-robot-training-simulation"/>
+    <id>https://www.humanoidsdaily.com/news/aws-physical-ai-toolchain-robot-training-simulation</id>
+    <updated>2026-10-12T06:55:26.000Z</updated>
     <author><name>Humanoids Daily</name></author>
     <category term="ROBOTICS"/>
-    <summary>XPENG’s Paris presentation sets out late-2026 mass production, H1 2027 deliveries and a European rollout in H2 2027, with commercial applications first.</summary>
+    <summary>AWS’s new toolchain connects NVIDIA robotics software with cloud infrastructure, offering reusable development modules while parts of the deployment workflow remain planned.</summary>
   </entry>
   <entry>
-    <title>IBM Launches Directed Execution Model and Executor Primitive to Give Researchers Client-Side Control Over QEC Workflows</title>
-    <link href="https://quantumcomputingreport.com/ibm-launches-directed-execution-model-and-executor-primitive-to-give-researchers-client-side-control-over-qec-workflows"/>
-    <id>https://quantumcomputingreport.com/ibm-launches-directed-execution-model-and-executor-primitive-to-give-researchers-client-side-control-over-qec-workflows</id>
-    <updated>2026-10-10T22:55:26.000Z</updated>
-    <author><name>Quantum Computing Report</name></author>
+    <title>Quantum Meet Quantum: Hybrid Quantum Computer Lets Scientists Peak in on Foundational Quantum Effect</title>
+    <link href="https://thequantuminsider.com/2026/10/12/quantum-meet-quantum-hybrid-quantum-computer-lets-scientists-peak-in-on-foundational-quantum-effect"/>
+    <id>https://thequantuminsider.com/2026/10/12/quantum-meet-quantum-hybrid-quantum-computer-lets-scientists-peak-in-on-foundational-quantum-effect</id>
+    <updated>2026-10-12T07:07:37.000Z</updated>
+    <author><name>The Quantum Insider</name></author>
     <category term="QUANTUM"/>
-    <summary>IBM Quantum has launched a new directed execution model with the Executor primitive in qiskit-ibm-runtime v0.50.0. This framework shifts error mitigation to the client side, giving researchers greater control over quantum error correction (QEC) workflows. It allows for custom control over circuit transformations and er</summary>
+    <summary>Insider Brief PRESS RELEASE — Physicists in the Department of Physics, University of Oxford, have used a hybrid quantum computer, formed by qubits and quantum oscillators, to observe the Aharonov-Bohm effect in a quantum simulation. The effect is a quantum phenomenon in which a particle can acquire a measurable phase b</summary>
   </entry>
   <entry>
-    <title>AI agent teams waste massive tokens for barely measurable quality gains, research finds</title>
-    <link href="https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds"/>
-    <id>https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds</id>
-    <updated>2026-10-11T15:39:26.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>ollama v0.40.3 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.3"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.3</id>
+    <updated>2026-10-11T06:40:39.000Z</updated>
+    <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Teams of AI agents barely outperform solo agents but cost up to 5.1x more, according to Vals AI. Only one out of four tests with GPT-6 Sol and Claude Opus 5.5 showed a measurable gain. Anthropic's own data backs this up: beyond ten agents, quality plateaus while token costs keep climbing. The article AI agent teams was</summary>
+    <summary>What's Changed ollama launch claude no longer shows a warning about Claude connectors by @hoyyeva in #18878 ollama launch codex no longer warns about service tiers by @hoyyeva in #18879 Paused background model upgrade for embedding and other request performance, by @jmorganca in #18908 Full Changelog : v0.40.2...v0.40.</summary>
   </entry>
   <entry>
-    <title>Odyssey-3 is a new generative world model that you can try for free</title>
-    <link href="https://the-decoder.com/odyssey-3-is-a-new-generative-world-model-that-you-can-try-for-free"/>
-    <id>https://the-decoder.com/odyssey-3-is-a-new-generative-world-model-that-you-can-try-for-free</id>
-    <updated>2026-10-11T07:48:01.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Odyssey is making its world model Odyssey-3 available as a public research preview. The 14-billion-parameter model generates interactive environments from text prompts in real time and can reportedly control robots, drones, and even GTA V. Odyssey claims top scores on physics benchmarks, though the methodology behind t</summary>
-  </entry>
-  <entry>
-    <title>UK to strengthen cyber defences as minister calls for AI firms to increase safety efforts</title>
-    <link href="https://www.theguardian.com/technology/2026/oct/12/uk-strengthen-cyber-defences-minister-ai-firms-safety"/>
-    <id>https://www.theguardian.com/technology/2026/oct/12/uk-strengthen-cyber-defences-minister-ai-firms-safety</id>
-    <updated>2026-10-11T23:01:39.000Z</updated>
-    <author><name>The Guardian AI</name></author>
+    <title>X has re-found its footing under Elon Musk, as it continues to host more interesting discussions on AI and other fun and smart topics than rival platforms (John Gruber/Daring Fireball)</title>
+    <link href="https://www.techmeme.com/261012/p9"/>
+    <id>https://www.techmeme.com/261012/p9</id>
+    <updated>2026-10-12T09:05:02.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Kanishka Narayan to say Britain cannot rely entirely on tech companies amid rising global concern over AI dangers Companies building the most advanced AI systems must increase safety efforts, the UK’s AI minister will say, as he announces a strengthening of Britain’s cyber defences. Kanishka Narayan will call on compan</summary>
+    <summary>John Gruber / Daring Fireball : X has re-found its footing under Elon Musk, as it continues to host more interesting discussions on AI and other fun and smart topics than rival platforms — X is the only place these posts go. … You may not like it that X has re-found its footing under Elon Musk's ownership, but it has.</summary>
   </entry>
   <entry>
-    <title>Will the HomeView be Apple’s first smart home success?</title>
-    <link href="https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success"/>
-    <id>https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success</id>
-    <updated>2026-10-11T21:14:40.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>A look at Uber's retreat in Africa, quitting Nigeria and Uganda abruptly after Tanzania and Ivory Coast, as price-sensitive riders pick Bolt, inDrive, and Yango (Bloomberg)</title>
+    <link href="https://www.techmeme.com/261012/p7"/>
+    <id>https://www.techmeme.com/261012/p7</id>
+    <updated>2026-10-12T08:25:02.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Over the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date.</summary>
+    <summary>Bloomberg : A look at Uber's retreat in Africa, quitting Nigeria and Uganda abruptly after Tanzania and Ivory Coast, as price-sensitive riders pick Bolt, inDrive, and Yango — Kayode Emmanuel was parked outside the biggest hotel in Nigeria's capital, the Transcorp Hilton Abuja, waiting for ride requests on his Uber Tech</summary>
   </entry>
   <entry>
-    <title>Decision 3.0: open, multimodal decision models from 0.6B to 27B. Ranks #1 on both Jev Decision Index boards</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x3th4p/decision_30_open_multimodal_decision_models_from"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x3th4p/decision_30_open_multimodal_decision_models_from</id>
-    <updated>2026-10-12T05:26:01.000Z</updated>
+    <title>llama.cpp b11565 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11565"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11565</id>
+    <updated>2026-10-12T09:19:57.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>sycl: guard DMMV reads at row tails ( #29338 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/54988744 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) U</summary>
+  </entry>
+  <entry>
+    <title>I made an open-source AI leaderboard that shows the best models your machine can run</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x3wp8c/i_made_an_opensource_ai_leaderboard_that_shows"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x3wp8c/i_made_an_opensource_ai_leaderboard_that_shows</id>
+    <updated>2026-10-12T08:47:16.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>With the vLLM Semantic Router team we released Decision 3.0 (d3) , our new SOTA decision model family ranging from 0.6B to 27B, Apache-2.0, all reading text, images and video. How it works - Built on Qwen3.5 (0.8B / 2B / 4B / 9B) and Qwen3.8-27B. The parameter counts include the vision encoder: 0.33B in the 4B, 0.46B i</summary>
-  </entry>
-  <entry>
-    <title>Receipt scanner that runs a fine-tuned 0.8B vision model on the phone (free) - detailed cost tracking</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x3u3y5/receipt_scanner_that_runs_a_finetuned_08b_vision"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x3u3y5/receipt_scanner_that_runs_a_finetuned_08b_vision</id>
-    <updated>2026-10-12T06:04:05.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>I wanted to track grocery spending per item without sending my receipts to anyone, so I built an Android app around a small vision model that reads a photo of a receipt into JSON: store, date, total, every line item. (iOS will take a couple more days to be checked by the Apple team.) Also, most apps only allow broad ca</summary>
+    <summary>Hey everyone, I made whatmodel.sh To use it, Enter your RAM and GPU See what models you can run locally with its rank and the command to run it Compare them with API models on the same score Building it made me realise a 32GB Mac can now run a model that scores on-par with GPT-5, completely locally and for free (e.g. Q</summary>
   </entry>
   <entry>
     <title>SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire</title>
@@ -231,31 +222,31 @@
     <summary>arXiv:2610.12596v1 Announce Type: new Abstract: Agentic large language models now tackle complex tasks, yet strategic reasoning over long horizons is under-studied: most agentic benchmarks are short and episodic, and performance on long tasks is hard to dissect into stored knowledge, reasoning and luck. We introduce Sp</summary>
   </entry>
   <entry>
-    <title>Know What You Don't Know: Agentic Data Synthesis by Evolving Generation Space for Closed-Loop Learning</title>
-    <link href="https://arxiv.org/abs/2610.12593"/>
-    <id>https://arxiv.org/abs/2610.12593</id>
-    <updated>2026-10-12T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>arXiv:2610.12593v1 Announce Type: new Abstract: The continued improvement of large language models increasingly depends on synthetic experience, yet effective data synthesis for interactive agents requires not only executable and verifiable trajectories, but also interactions that provide learning value for the current</summary>
-  </entry>
-  <entry>
-    <title>Wilkinson: Biggest Global Energy Shock in 40 Years</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-12/wilkinson-biggest-global-energy-shock-in-40-years-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-12/wilkinson-biggest-global-energy-shock-in-40-years-video</id>
-    <updated>2026-10-12T06:50:03.000Z</updated>
+    <title>Goldman Strategists Upgrade Global Stocks on Earnings Boost</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-12/goldman-strategists-upgrade-global-stocks-on-earnings-boost"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-12/goldman-strategists-upgrade-global-stocks-on-earnings-boost</id>
+    <updated>2026-10-12T08:39:57.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Oil slipped as traders weigh a potential energy ceasefire between Ukraine and Russia while the IEA urged members to speed up pledged diesel releases. This comes after hostilities escalated across the Middle East, with strikes by Houthis on Saudi Arabia’s Riyadh airport. Angela Wilkinson, Secretary General at the World </summary>
+    <summary>Goldman Sachs Group Inc. strategists are turning positive on global stocks for the short term, citing a boost from strong earnings for markets already trading near all-time highs.</summary>
   </entry>
   <entry>
-    <title>Riyadh Airport Hit Again After Deadly Houthi Attack Leaves People Killed, Hundreds Injured</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-12/horizons-middle-east-africa-10-12-2026-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-12/horizons-middle-east-africa-10-12-2026-video</id>
-    <updated>2026-10-12T06:41:50.000Z</updated>
+    <title>China Coal Prices at Three-Year High With Little Relief in Sight</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-12/china-coal-prices-at-three-year-high-with-little-relief-in-sight"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-12/china-coal-prices-at-three-year-high-with-little-relief-in-sight</id>
+    <updated>2026-10-12T08:20:45.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Horizons Middle East &amp; Africa is your daily spotlight on one of the world's fastest-growing regions. Live from Dubai, we bring you the latest global markets and analysis, plus news-making interviews, with a special focus on MEA. All that and more, as you head to the office in the Gulf, pause for lunch in Hong Kong, or </summary>
+    <summary>China’s thermal coal prices climbed to a three-year high as sluggish domestic production growth and disruptions in top exporter Indonesia coincide with an energy rally driven by the US-Iran war.</summary>
+  </entry>
+  <entry>
+    <title>IBM Launches Directed Execution Model and Executor Primitive to Give Researchers Client-Side Control Over QEC Workflows</title>
+    <link href="https://quantumcomputingreport.com/ibm-launches-directed-execution-model-and-executor-primitive-to-give-researchers-client-side-control-over-qec-workflows"/>
+    <id>https://quantumcomputingreport.com/ibm-launches-directed-execution-model-and-executor-primitive-to-give-researchers-client-side-control-over-qec-workflows</id>
+    <updated>2026-10-10T22:55:26.000Z</updated>
+    <author><name>Quantum Computing Report</name></author>
+    <category term="PRODUCTS"/>
+    <summary>IBM Quantum has launched a new directed execution model with the Executor primitive in qiskit-ibm-runtime v0.50.0. This framework shifts error mitigation to the client side, giving researchers greater control over quantum error correction (QEC) workflows. It allows for custom control over circuit transformations and er</summary>
   </entry>
   <entry>
     <title>GitHub Copilot weekly releases — October 5</title>
@@ -265,6 +256,15 @@
     <author><name>GitHub Copilot Changelog</name></author>
     <category term="PRODUCTS"/>
     <summary>This week’s updates make Copilot easier to use across accounts and environments, with more control over what agents can access and how you manage their work. GitHub Copilot Claude Haiku… The post GitHub Copilot weekly releases — October 5 appeared first on The GitHub Blog .</summary>
+  </entry>
+  <entry>
+    <title>A look at China's bid to turn excess wind and solar energy into an AI edge via a $3.9T grid buildout through 2049, as ~9% of renewable output was wasted in 2026 (Bloomberg)</title>
+    <link href="https://www.techmeme.com/261012/p5"/>
+    <id>https://www.techmeme.com/261012/p5</id>
+    <updated>2026-10-12T07:45:00.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="HARDWARE"/>
+    <summary>Bloomberg : A look at China's bid to turn excess wind and solar energy into an AI edge via a $3.9T grid buildout through 2049, as ~9% of renewable output was wasted in 2026 — To grasp the gargantuan scale of China's green-energy revolution, consider Gansu. In this arid strip on the edge …</summary>
   </entry>
   <entry>
     <title>AMD EPYC 8005 SKU List and Value Analysis: Mainstream Sorano’s Big Stride</title>
