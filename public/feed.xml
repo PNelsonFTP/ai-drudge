@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-14T01:08:39.778Z</updated>
+  <updated>2026-10-14T01:58:23.968Z</updated>
   <entry>
     <title>Gemini 4 Argon for Robotics</title>
     <link href="https://deepmind.google/blog/gemini-4-argon-for-robotics"/>
@@ -79,6 +79,15 @@
     <summary>The scary surprises for the largest security update ever include security bypasses and unauthenticated RCEs. — Also covered by: BleepingComputer</summary>
   </entry>
   <entry>
+    <title>LiquidAI/LFM2.5-24B-A2B-GGUF</title>
+    <link href="https://sh.itjust.works/post/68262143"/>
+    <id>https://sh.itjust.works/post/68262143</id>
+    <updated>2026-10-13T18:21:49.000Z</updated>
+    <author><name>Lemmy c/localllama</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>submitted by BeefAndPoultry to localllama 6 points | 0 comments https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF This might just barely fit in 16GB RAM with their QAD-Q4_0 being only 13.6 GB. Should be good for small VRAM too, like 4GB — Also covered by: LocalLLaMA Subreddit</summary>
+  </entry>
+  <entry>
     <title>TechCrunch Disrupt 2026: Day 1</title>
     <link href="https://techcrunch.com/2026/10/13/techcrunch-disrupt-2026-day-1"/>
     <id>https://techcrunch.com/2026/10/13/techcrunch-disrupt-2026-day-1</id>
@@ -91,10 +100,10 @@
     <title>ollama v0.40.4 released</title>
     <link href="https://github.com/ollama/ollama/releases/tag/v0.40.4"/>
     <id>https://github.com/ollama/ollama/releases/tag/v0.40.4</id>
-    <updated>2026-10-14T00:53:28.000Z</updated>
+    <updated>2026-10-14T01:55:04.000Z</updated>
     <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>What's Changed llama: update llama.cpp to b11521 for decision models and EmbeddingGemma 2 by @jmorganca in #18917 server: reuse verified manifests and loaded models in inference routes by @dhiltgen in #18947 mlx: compact restored recurrent state after speculative rollback by @dhiltgen in #18955 launch: include installe</summary>
+    <summary>Decision models in the CLI Decision models can now be used directly from the terminal with ollama run — ask yes/no questions, classify text into labels, or score against a rubric: ollama run nimble --ask &quot;Is a refund being requested?&quot; &lt; ticket.txt What's Changed Kev decision models are now supported by the MLX runner o</summary>
   </entry>
   <entry>
     <title>Albert Invent, which launched an AI model trained on chemical patents and data about 15M molecules, raised a $55M Series B, a source says at a $340M valuation (Rashi Shrivastava/Forbes)</title>
@@ -204,13 +213,13 @@
     <summary>Max Hodak, the former president and co-founder of Neuralink, detailed on stage at TechCrunch Disrupt how his company's work with PRIMA is part of its path toward a novel brain-computer interface (BCI).</summary>
   </entry>
   <entry>
-    <title>Add Kev decision scoring to MLX (#18976)</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.4-rc1"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.4-rc1</id>
-    <updated>2026-10-13T04:50:41.000Z</updated>
-    <author><name>ollama/ollama</name></author>
+    <title>Claude CoWork for Local LLMs that runs on your Phone</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x5bawd/claude_cowork_for_local_llms_that_runs_on_your"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x5bawd/claude_cowork_for_local_llms_that_runs_on_your</id>
+    <updated>2026-10-13T22:54:38.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Add Kev decision scoring to MLX Load Kev models with their FP32 decision head and release metadata. Support System One scoring with shared-state caching and Kev-specific limits. address comments</summary>
+    <summary>Hi Friends, I am a solo developer. Ever since I had Qwen 3.8 running on my RTX4090, I had an itch to use it on my phone for everything. That gave me the idea to build SteerClaw Mobile - a complete agentic experience on the Phone where the entire agent loop runs on it. We just connect our model, MCP servers and Search p</summary>
   </entry>
   <entry>
     <title>Devin in Pylon: Driving faster Median Time To Fix</title>
@@ -265,14 +274,5 @@
     <author><name>BleepingComputer</name></author>
     <category term="HARDWARE"/>
     <summary>Anthropic is warning that small AI models could soon be able to self-replicate across consumer IoT devices, from Android TV boxes to smart ovens, creating distributed botnets capable of running AI workloads without relying on data centers. [...]</summary>
-  </entry>
-  <entry>
-    <title>Upscale AI Launches Token Fabric to Make Rival AI Chips Work Together</title>
-    <link href="https://www.hpcwire.com/2026/10/13/upscale-ai-launches-token-fabric-to-make-rival-ai-chips-work-together"/>
-    <id>https://www.hpcwire.com/2026/10/13/upscale-ai-launches-token-fabric-to-make-rival-ai-chips-work-together</id>
-    <updated>2026-10-13T22:53:16.000Z</updated>
-    <author><name>HPC Wire</name></author>
-    <category term="HARDWARE"/>
-    <summary>NVIDIA GPUs dominate today’s AI data centers, but they’re no longer the only processors companies want to use. Cloud providers are developing their own AI chips, while specialized accelerators are entering the market. Getting these different processors to work together efficiently is creating a new challenge for data c</summary>
   </entry>
 </feed>
