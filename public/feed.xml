@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-16T07:18:54.111Z</updated>
+  <updated>2026-10-16T11:08:51.172Z</updated>
   <entry>
     <title>Meta releases Muse Spark Open, a new ‘open-weight’ AI model</title>
     <link href="https://www.theguardian.com/technology/2026/oct/16/meta-releases-muse-spark-open-a-new-open-weight-ai-model"/>
@@ -14,6 +14,15 @@
     <author><name>The Guardian AI</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Meta says Muse excels at ‘multi-step reasoning’ and ‘complex software engineering’ as it races to catch up to Chinese rivals Meta on Thursday launched a new open-weight AI model which it claims rivals, and in some cases outperforms, similar products from leading Chinese developers. Muse Spark Open “is the most capable  — Also covered by: TechCrunch AI, The Decoder</summary>
+  </entry>
+  <entry>
+    <title>The actual state of open-weight models vs. frontier models</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x7bmel/the_actual_state_of_openweight_models_vs_frontier"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x7bmel/the_actual_state_of_openweight_models_vs_frontier</id>
+    <updated>2026-10-16T09:27:38.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>It's clear that today’s SOTA (state-of-the-art) models remain ahead of open-source models. However, if we filter the benchmarks correctly, a different picture emerges compared to what we saw just a few months ago. Today, open-source models are outperforming Sonnet 5, a significant shift, considering it took many months — Also covered by: Schneier on Security</summary>
   </entry>
   <entry>
     <title>When it came to Cal AI’s viral success, a small army of influencers paid off</title>
@@ -25,6 +34,15 @@
     <summary>The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March.</summary>
   </entry>
   <entry>
+    <title>Teaching students to think and learn through questions</title>
+    <link href="https://openai.com/index/teaching-students-to-think-and-learn-through-questions"/>
+    <id>https://openai.com/index/teaching-students-to-think-and-learn-through-questions</id>
+    <updated>2026-10-15T13:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.</summary>
+  </entry>
+  <entry>
     <title>Meta Releases Muse Spark Open: 816B Open-Weight MoE With 1M Context</title>
     <link href="https://www.marktechpost.com/2026/10/15/meta-muse-spark-open-816b-open-weight-model"/>
     <id>https://www.marktechpost.com/2026/10/15/meta-muse-spark-open-816b-open-weight-model</id>
@@ -34,13 +52,13 @@
     <summary>Meta released Muse Spark Open, an 816B-parameter open-weight MoE model with 42B active parameters and a 1M-token context. It leads open models on MCP-Atlas and runs on 2 M5 Ultra Mac Studios. The post Meta Releases Muse Spark Open: 816B Open-Weight MoE With 1M Context appeared first on MarkTechPost .</summary>
   </entry>
   <entry>
-    <title>Teaching students to think and learn through questions</title>
-    <link href="https://openai.com/index/teaching-students-to-think-and-learn-through-questions"/>
-    <id>https://openai.com/index/teaching-students-to-think-and-learn-through-questions</id>
-    <updated>2026-10-15T13:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.</summary>
+    <title>China Proposes Export Controls on AI Technologies</title>
+    <link href="https://www.wsj.com/economy/trade/china-proposes-export-controls-on-ai-technologies-75ac2030?mod=rss_Technology"/>
+    <id>https://www.wsj.com/economy/trade/china-proposes-export-controls-on-ai-technologies-75ac2030?mod=rss_Technology</id>
+    <updated>2026-10-16T10:15:00.000Z</updated>
+    <author><name>WSJ Tech</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>China is considering new export controls on artificial-intelligence technologies in a bid to safeguard the strategically critical industry amid intensifying competition. — Also covered by: Reuters AI (Google News)</summary>
   </entry>
   <entry>
     <title>Bringing GPT-Rosalind to academic research labs</title>
@@ -88,49 +106,40 @@
     <summary>Last day to be part of TechCrunch Disrupt 2026. Join 10,000+ tech leaders for a day of connections and insights. Save 75% on your pass now.</summary>
   </entry>
   <entry>
-    <title>b11679: llama : share the k-pool input views between layers (#30613)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11679"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11679</id>
-    <updated>2026-10-16T03:14:36.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>The scheduler uploads each view of a host input on its own, so the per-layer reshape of new_pool_idxs (and of sel_mask in glm5-next) was copied once per layer.</summary>
-  </entry>
-  <entry>
-    <title>Microsoft unveils MAI-Base-2, a MoE model with 2.8T total and 80B active parameters, claiming 4x-12x more pretraining FLOPs-efficiency than DeepSeek-V4-Pro-Base (Microsoft AI)</title>
-    <link href="https://www.techmeme.com/261015/p59"/>
-    <id>https://www.techmeme.com/261015/p59</id>
-    <updated>2026-10-16T02:20:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Microsoft AI : Microsoft unveils MAI-Base-2, a MoE model with 2.8T total and 80B active parameters, claiming 4x-12x more pretraining FLOPs-efficiency than DeepSeek-V4-Pro-Base — In June, we announced MAI-Thinking-1, a general-purpose foundation model post-trained on top of MAI-Base-1 with strong reasoning performance.</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp b11681 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11681"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11681</id>
-    <updated>2026-10-16T05:50:41.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>graph : add precision handling for MELLUM architecture ( #30584 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56545176 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) U</summary>
-  </entry>
-  <entry>
     <title>ollama v0.40.5 released</title>
     <link href="https://github.com/ollama/ollama/releases/tag/v0.40.5"/>
     <id>https://github.com/ollama/ollama/releases/tag/v0.40.5</id>
     <updated>2026-10-15T19:18:39.000Z</updated>
     <author><name>ollama/ollama</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
+    <category term="MODEL RELEASES"/>
     <summary>NVIDIA Nemotron 3.5 Super NVIDIA Nemotron 3.5 Super is a vision-language model for coding, reasoning, tool use, and document understanding. It pairs a 120B-parameter hybrid Mamba-2/Transformer mixture-of-experts backbone (12B active per token) with a C-RADIO vision encoder, and supports tool calling, an on/off thinking</summary>
   </entry>
   <entry>
-    <title>Why Indonesia Risks Being Removed From MSCI’s Global Indexes</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-16/why-indonesia-risks-being-removed-from-msci-s-global-indexes"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-16/why-indonesia-risks-being-removed-from-msci-s-global-indexes</id>
-    <updated>2026-10-16T07:07:08.000Z</updated>
+    <title>Tesla Unveils its Next Generation Roadster in Acrobatic Demo</title>
+    <link href="https://www.theinformation.com/briefings/tesla-unveils-next-generation-roadster-acrobatic-demo"/>
+    <id>https://www.theinformation.com/briefings/tesla-unveils-next-generation-roadster-acrobatic-demo</id>
+    <updated>2026-10-16T02:06:26.000Z</updated>
+    <author><name>The Information</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Tesla showed off its new Roadster on Thursday night in a series of elaborate demonstrations. Tesla first announced plans for a next generation Roadster in 2017 and unveiled a vehicle at the time, but the car was never produced. On Thursday, Tesla debuted an entirely new version of the vehicle. ...</summary>
+  </entry>
+  <entry>
+    <title>llama.cpp b11693 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11693"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11693</id>
+    <updated>2026-10-16T11:00:58.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>[SYCL]: fix memory errors in mul_mat, split buffer, host pool ( #29889 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56630304 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 </summary>
+  </entry>
+  <entry>
+    <title>Dubai’s DIP to Hold Meetings for UAE’s First Listing Since War</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-16/dubai-s-dip-to-hold-meetings-for-uae-s-first-listing-since-war"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-16/dubai-s-dip-to-hold-meetings-for-uae-s-first-listing-since-war</id>
+    <updated>2026-10-16T10:30:43.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Indonesia has spent decades establishing itself as one of the world’s most important emerging markets. Now the country — Southeast Asia’s largest economy, with a gross domestic product of about $1.5 trillion — risks losing that standing, potentially jeopardizing billions of dollars in foreign investment.</summary>
+    <summary>Dubai Investments Park Development Co. is pushing ahead with plans for what could be the United Arab Emirates’ first initial public offering this year despite the regional war.</summary>
   </entry>
   <entry>
     <title>Value-Informed Schedule Trimming for Accelerated Sequential Monte Carlo Guidance in Discrete Diffusion</title>
@@ -151,40 +160,40 @@
     <summary>Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon.</summary>
   </entry>
   <entry>
-    <title>b11683: vulkan: fix gpu-visible host memory issues (#30468)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11683"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11683</id>
-    <updated>2026-10-16T06:29:23.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>Taiwan’s AI Ambitions Run into Talent Gap</title>
+    <link href="https://www.eetimes.com/taiwans-ai-ambitions-run-into-talent-gap"/>
+    <id>https://www.eetimes.com/taiwans-ai-ambitions-run-into-talent-gap</id>
+    <updated>2026-10-16T10:55:42.000Z</updated>
+    <author><name>EE Times</name></author>
     <category term="HARDWARE"/>
-    <summary>vulkan: fix log spam if host pointer import fails exclude MoltenVK from shared memory import remove unreachable code, assert instead. Shorten warnings disable host memory buffer sharing on AMD due to amdgpu perf issue</summary>
+    <summary>AMD’s David Wang told EE Times that while Taiwan has huge opportunities in rack-scale AI, physical AI, and AI PC markets, the sticking point may well be talent. The post Taiwan’s AI Ambitions Run into Talent Gap appeared first on EE Times .</summary>
   </entry>
   <entry>
-    <title>Muse Spark Open is Meta's answer to Qwen, GLM, and Kimi in the open-weight race</title>
-    <link href="https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race"/>
-    <id>https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race</id>
-    <updated>2026-10-15T18:34:32.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>AWS Introduces Strands Decider 2B and Strands Box for AI Agent Development</title>
+    <link href="https://www.infoq.com/news/2026/10/aws-strands-agents"/>
+    <id>https://www.infoq.com/news/2026/10/aws-strands-agents</id>
+    <updated>2026-10-16T10:47:00.000Z</updated>
+    <author><name>InfoQ AI/ML</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>Meta's Muse Spark Open is a new open-weight model with 816 billion parameters that processes text, images, video, and audio with up to one million tokens of context. It performs roughly on par with the most capable open-weight Chinese AI models on benchmarks and is optimized to run locally on Apple's M5 Ultra. The arti</summary>
+    <summary>AWS has introduced two open-source projects for AI agent development: Strands Decider 2B, a small model designed to make decisions within agent workflows, and Strands Box, a sandbox for controlling agent execution. Both projects address different aspects of building agents that use tools, execute code, and interact wit</summary>
   </entry>
   <entry>
-    <title>[tl;dr sec] #350 - Reverse Engineer Anything, Tracking AI-integrated Malware, Test-driving Jev</title>
-    <link href="https://tldrsec.com/p/tldr-sec-350"/>
-    <id>https://tldrsec.com/p/tldr-sec-350</id>
-    <updated>2026-10-15T14:30:00.000Z</updated>
-    <author><name>tl;dr sec</name></author>
+    <title>Presentation: Exploding GPUs</title>
+    <link href="https://www.infoq.com/presentations/ai-security-kubernetes-gpu-threats"/>
+    <id>https://www.infoq.com/presentations/ai-security-kubernetes-gpu-threats</id>
+    <updated>2026-10-16T11:00:00.000Z</updated>
+    <author><name>InfoQ AI/ML</name></author>
     <category term="AI SECURITY"/>
-    <summary>OSS tool to reverse binaries, apps, etc. with natural language, new hunting toolkit by Cisco Talos, testing Jev on identity resolution</summary>
+    <summary>Andrew Martin discusses why AI security is fundamentally tied to Kubernetes security. He shares insights into the evolving AI threat landscape, covering non-deterministic agent behavior, GPU supply chain vulnerabilities, shared compute risks, and practical defense strategies - from prompt firewalling to agentic identit</summary>
   </entry>
   <entry>
-    <title>BeyondTrust patches zero-day exploited in attacks since August</title>
-    <link href="https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august"/>
-    <id>https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august</id>
-    <updated>2026-10-16T06:18:08.000Z</updated>
+    <title>Microsoft: October Windows update may break Smart App Control</title>
+    <link href="https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control"/>
+    <id>https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control</id>
+    <updated>2026-10-16T08:44:22.000Z</updated>
     <author><name>BleepingComputer</name></author>
     <category term="CYBER THREATS"/>
-    <summary>BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]</summary>
+    <summary>Microsoft says some users may have trouble turning on Smart App Control after installing this month's KB5127648 Windows 11 security update. [...]</summary>
   </entry>
   <entry>
     <title>Real-time Chatbot Romance Scam Detection in Stage Classification</title>
@@ -196,13 +205,13 @@
     <summary>arXiv:2610.20631v1 Announce Type: new Abstract: Romance scam has become a serious problem via social media, and the improvement of artificial intelligence enable to fake identify easily. In the study, a chatbot has developed to detect romance scam in real-time through Line Messaging API. Using the seven stage theories </summary>
   </entry>
   <entry>
-    <title>The data centre IPO debacle that sparked a market meltdown</title>
-    <link href="https://www.ft.com/content/537c9a68-7b6f-41a7-80ff-acac5c52e80d?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/537c9a68-7b6f-41a7-80ff-acac5c52e80d?syn-25a6b1a6=1</id>
-    <updated>2026-10-16T04:54:52.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
+    <title>Asia’s Startup Funding At Near Record High In Q3, Driven By AI</title>
+    <link href="https://news.crunchbase.com/venture/q3-2026-asia-startup-funding-near-record-ai"/>
+    <id>https://news.crunchbase.com/venture/q3-2026-asia-startup-funding-near-record-ai</id>
+    <updated>2026-10-16T11:00:42.000Z</updated>
+    <author><name>Crunchbase News AI</name></author>
     <category term="FUNDING &amp; DEALS"/>
-    <summary>Decisions by Australian groups Firmus and AirTrunk have added to concerns about the AI borrowing frenzy</summary>
+    <summary>Overall, investors put $38.5 billion into reported seed- through growth-stage financings for Asian startups in Q3, per Crunchbase data. Of that, a majority went to AI-focused companies, echoing the trends we’ve seen globally.</summary>
   </entry>
   <entry>
     <title>Nick Wingfield Promoted to Co-Executive Editor of The Information</title>
@@ -241,39 +250,30 @@
     <summary>State-of-the-art probabilistic forecasting in four sizes (5M–209M params), CPU-efficient, zero-shot ready.</summary>
   </entry>
   <entry>
-    <title>Tesla Unveils its Next Generation Roadster in Acrobatic Demo</title>
-    <link href="https://www.theinformation.com/briefings/tesla-unveils-next-generation-roadster-acrobatic-demo"/>
-    <id>https://www.theinformation.com/briefings/tesla-unveils-next-generation-roadster-acrobatic-demo</id>
-    <updated>2026-10-16T02:06:26.000Z</updated>
-    <author><name>The Information</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Tesla showed off its new Roadster on Thursday night in a series of elaborate demonstrations. Tesla first announced plans for a next generation Roadster in 2017 and unveiled a vehicle at the time, but the car was never produced. On Thursday, Tesla debuted an entirely new version of the vehicle. ...</summary>
+    <title>Muse Spark Open is Meta's answer to Qwen, GLM, and Kimi in the open-weight race</title>
+    <link href="https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race"/>
+    <id>https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race</id>
+    <updated>2026-10-15T18:34:32.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Meta's Muse Spark Open is a new open-weight model with 816 billion parameters that processes text, images, video, and audio with up to one million tokens of context. It performs roughly on par with the most capable open-weight Chinese AI models on benchmarks and is optimized to run locally on Apple's M5 Ultra. The arti</summary>
   </entry>
   <entry>
-    <title>Taiwan plans US industrial parks costing $2B to $4B each, starting with a Texas complex costing up to $4B, to build a supply chain for Nvidia, TSMC, and Foxconn (Bloomberg)</title>
-    <link href="https://www.techmeme.com/261016/p1"/>
-    <id>https://www.techmeme.com/261016/p1</id>
-    <updated>2026-10-16T04:55:00.000Z</updated>
+    <title>US candidates and PACs, mostly tied to Republicans, have spent $137M+ on 220 AI-generated campaign ads in 2026; ~70% of the 220 videos didn't disclose AI use (Stuart A. Thompson/New York Times)</title>
+    <link href="https://www.techmeme.com/261016/p7"/>
+    <id>https://www.techmeme.com/261016/p7</id>
+    <updated>2026-10-16T10:55:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Bloomberg : Taiwan plans US industrial parks costing $2B to $4B each, starting with a Texas complex costing up to $4B, to build a supply chain for Nvidia, TSMC, and Foxconn — Taiwan plans to raise billions of dollars to develop industrial parks in the US that would build a base for a comprehensive supply chain …</summary>
+    <summary>Stuart A. Thompson / New York Times : US candidates and PACs, mostly tied to Republicans, have spent $137M+ on 220 AI-generated campaign ads in 2026; ~70% of the 220 videos didn't disclose AI use — Republicans have used A.I.-generated content more often than Democrats, ranging from subtle enhancements to convincing dee</summary>
   </entry>
   <entry>
-    <title>Scaling Kimi K3 on AMD Instinct MI355X: Matching NVIDIA HGX B300 Throughput per GPU on AgentX</title>
-    <link href="https://vllm.ai/blog/2026-10-16-kimi-k3-mi355x"/>
-    <id>https://vllm.ai/blog/2026-10-16-kimi-k3-mi355x</id>
-    <updated>2026-10-16T00:00:00.000Z</updated>
-    <author><name>vLLM Blog</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Inside the Kimi K3 optimization effort: understanding the bottlenecks and the decisions that made inference faster</summary>
-  </entry>
-  <entry>
-    <title>The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock</title>
-    <link href="https://arxiv.org/abs/2610.20665"/>
-    <id>https://arxiv.org/abs/2610.20665</id>
-    <updated>2026-10-16T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>arXiv:2610.20665v1 Announce Type: new Abstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously changing environments, an otherwise correct action may arrive too late. We introduce RealtimeBench, with 180 tasks across six game types, to eval</summary>
+    <title>India's cyber agency says AI agents broke into Indian organizations' systems and read confidential files undetected; AI model providers flagged the incidents (Munsif Vengattil/Reuters)</title>
+    <link href="https://www.techmeme.com/261016/p6"/>
+    <id>https://www.techmeme.com/261016/p6</id>
+    <updated>2026-10-16T10:40:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Munsif Vengattil / Reuters : India's cyber agency says AI agents broke into Indian organizations' systems and read confidential files undetected; AI model providers flagged the incidents — AI models under test broke into Indian organisations' live systems and read confidential records undetected, India's cybersecurity </summary>
   </entry>
 </feed>
