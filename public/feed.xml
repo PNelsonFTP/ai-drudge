@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-17T01:16:01.450Z</updated>
+  <updated>2026-10-17T02:11:48.919Z</updated>
   <entry>
     <title>Meta releases Muse Spark Open, a new ‘open-weight’ AI model</title>
     <link href="https://www.theguardian.com/technology/2026/oct/16/meta-releases-muse-spark-open-a-new-open-weight-ai-model"/>
@@ -95,15 +95,6 @@
     <author><name>Dark Reading</name></author>
     <category term="CYBER THREATS"/>
     <summary>Ivanti, Cisco, and Palo Alto Networks all had vulnerabilities in edge devices come under fire this week. Now BeyondTrust joins the group. — Also covered by: The Hacker News</summary>
-  </entry>
-  <entry>
-    <title>Screwtape: Adversarial Transcript Editing for Monitor Red-Teaming</title>
-    <link href="https://www.lesswrong.com/posts/Z8jjgjfpAJocqZiET/screwtape-adversarial-transcript-editing-for-monitor-red"/>
-    <id>https://www.lesswrong.com/posts/Z8jjgjfpAJocqZiET/screwtape-adversarial-transcript-editing-for-monitor-red</id>
-    <updated>2026-10-16T16:02:11.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>We introduce Screwtape [1] , a pipeline that turns agent transcripts into realistic attacks that evade action-only monitors (monitors that don't look at the agent's chain of thought) by inserting an attack into a transcript and repeatedly refining it until a monitor no longer catches it. An LLM verifier with access to  — Also covered by: Redwood Research</summary>
   </entry>
   <entry>
     <title>ollama v0.40.6 released</title>
@@ -214,6 +205,15 @@
     <summary>Insider Brief Anderon has released its first Superconducting Quantum Process Design Kit (PDK), the company said in a blog post. According to Anderon, the kit is meant to give quantum device and circuit developers a more efficient, standardized way to work. The company said it supplies designers with the basic building </summary>
   </entry>
   <entry>
+    <title>Anthropic report on how AI is changing employment at the startup: decline of entry-level technical hiring, productivity boom across departments, and more (Anthropic)</title>
+    <link href="https://www.techmeme.com/261016/p30"/>
+    <id>https://www.techmeme.com/261016/p30</id>
+    <updated>2026-10-17T01:45:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Anthropic : Anthropic report on how AI is changing employment at the startup: decline of entry-level technical hiring, productivity boom across departments, and more — How has AI restructured work and employment at Anthropic? As a company at the frontier of AI adoption, Anthropic could be a leading indicator …</summary>
+  </entry>
+  <entry>
     <title>Replit is no longer working with Anthropic, CEO says</title>
     <link href="https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says"/>
     <id>https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says</id>
@@ -223,22 +223,22 @@
     <summary>Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic.</summary>
   </entry>
   <entry>
-    <title>Survey of Anthropic staffers and US adults: 39% of US adults vs. 91% of staffers expect AI will be able to make a Nobel-level discovery by 2030, and more (Anthropic)</title>
-    <link href="https://www.techmeme.com/261016/p28"/>
-    <id>https://www.techmeme.com/261016/p28</id>
-    <updated>2026-10-17T01:00:12.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Anthropic : Survey of Anthropic staffers and US adults: 39% of US adults vs. 91% of staffers expect AI will be able to make a Nobel-level discovery by 2030, and more — Key findings — US adults expect AI capabilities to advance rapidly in the coming years; Anthropic staff expect even faster progress …</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp b11703 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11703"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11703</id>
-    <updated>2026-10-17T01:06:03.000Z</updated>
+    <title>llama.cpp b11706 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11706"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11706</id>
+    <updated>2026-10-17T02:03:41.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>hexagon: vectorize softplus with HVX ( #30435 ) softplus_f32 and tile_softplus_f32 ran a scalar logf(1.0f + expf(x)) loop. Replace both with a shared hvx_softplus_f32_aa() helper built from the backend's existing hvx_vec_exp_f32 / hvx_vec_log_f32 primitives, so no new numerical approximation is introduced. hvx_vec_exp_</summary>
+    <summary>sycl: fix prompt-processing regression after Q4_0/Q8_0 weight reorder…</summary>
+  </entry>
+  <entry>
+    <title>10 Things you maybe didn't know you can do with Qwen 3.6 27B right now. (For Noobs)</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x7sq8e/10_things_you_maybe_didnt_know_you_can_do_with"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x7sq8e/10_things_you_maybe_didnt_know_you_can_do_with</id>
+    <updated>2026-10-16T21:35:36.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>I know everyone's excited about 3.8, but honestly I'm still refining 3.6. And I hate the way 3.8 talks, so... I keep seeing all these posts about what's the use of open source, so I figured I'd submit my own answer with this post. Qwen 3.5 27B was my first agent, starting my journey around May 31st, and I've learned a </summary>
   </entry>
   <entry>
     <title>Reflection's Beam is freely available on Ollama for a limited time</title>
@@ -246,7 +246,7 @@
     <id>https://ollama.com/blog/reflection-beam</id>
     <updated>2026-10-16T00:00:00.000Z</updated>
     <author><name>Ollama Blog</name></author>
-    <category term="LOCAL MODELS"/>
+    <category term="AGENTS &amp; TOOLS"/>
     <summary>Reflection's first open-weight model is now available on Ollama, and free for a limited time only. Beam is designed for software engineering, reasoning, and long-running agentic tasks. Access Beam through Ollama Cloud.</summary>
   </entry>
   <entry>
@@ -259,13 +259,13 @@
     <summary>Google researchers open sourced EnvHarness, a framework that dynamically adapts agent-training environments to an agent's weaknesses without modifying the agent, environment, or evaluation system. According to the researchers, this approach can improve both learning effectiveness and efficiency while helping agents ove</summary>
   </entry>
   <entry>
-    <title>Mexico Says Airlines Can Add US Routes From Mexico City Airports</title>
+    <title>US Gives Green Light for New Routes from Mexico City Airports</title>
     <link href="https://www.bloomberg.com/news/articles/2026-10-16/mexico-says-airlines-can-add-us-routes-from-mexico-city-airports"/>
     <id>https://www.bloomberg.com/news/articles/2026-10-16/mexico-says-airlines-can-add-us-routes-from-mexico-city-airports</id>
     <updated>2026-10-16T22:11:45.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Mexican airlines can expand service to US cities after Washington lifted restrictions that blocked new routes from Mexico City’s two biggest airports.</summary>
+    <summary>The US will allow Mexican airlines to offer new flights into the country from Mexico City’s two biggest airports, lifting restrictions that had blocked additional routes.</summary>
   </entry>
   <entry>
     <title>Graza CEO on Market Expansion, Consumer Outlook</title>
