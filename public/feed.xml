@@ -5,7 +5,16 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-18T11:08:48.217Z</updated>
+  <updated>2026-10-18T11:18:41.776Z</updated>
+  <entry>
+    <title>DeepSeek V4.1 Flash 1017 552b-a16b + 211b ngrams</title>
+    <link href="https://sh.itjust.works/post/68475047"/>
+    <id>https://sh.itjust.works/post/68475047</id>
+    <updated>2026-10-17T16:39:18.000Z</updated>
+    <author><name>Lemmy c/localllama</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>submitted by BeefAndPoultry to localllama 19 points | 1 comments https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017 Actually much improved benchmark scores considering this is supposed to be a “minor” update I don’t know why they don’t just call this v4.2, why don’t LLM labs know how to do version numbers? — Also covered by: HN: Chinese Frontier Labs, HN: Chinese Frontier Labs, Vercel Blog</summary>
+  </entry>
   <entry>
     <title>Physical AI is more than robots, says the Nvidia veteran now investing in it</title>
     <link href="https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it"/>
@@ -23,15 +32,6 @@
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
     <summary>With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.</summary>
-  </entry>
-  <entry>
-    <title>Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware</title>
-    <link href="https://llmspeed.dev/"/>
-    <id>https://llmspeed.dev/</id>
-    <updated>2026-10-17T04:36:53.000Z</updated>
-    <author><name>HN: LLM (100+ points)</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 297 # Comments: 82</summary>
   </entry>
   <entry>
     <title>Benefit Street Partners answers questions faster with Codex</title>
@@ -79,31 +79,40 @@
     <summary>vLLM supports Reflection's Beam-1.0 (501B total, 23B active) from day 0, with agent-driven optimization that cut decode latency 2.71× and DFlash2 speculative decoding with adaptive verification. — Also covered by: CoreWeave Blog</summary>
   </entry>
   <entry>
-    <title>AI agents have bad taste in long-term decisions and a new benchmark proves it</title>
-    <link href="https://the-decoder.com/ai-agents-have-bad-taste-in-long-term-decisions-and-a-new-benchmark-proves-it"/>
-    <id>https://the-decoder.com/ai-agents-have-bad-taste-in-long-term-decisions-and-a-new-benchmark-proves-it</id>
-    <updated>2026-10-18T08:49:41.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>DeepSeek search and fetch – $0.75 per 1000 successful requests</title>
+    <link href="https://api-docs.deepseek.com/guides/search"/>
+    <id>https://api-docs.deepseek.com/guides/search</id>
+    <updated>2026-10-18T06:50:36.000Z</updated>
+    <author><name>HN: Chinese Frontier Labs</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>A new benchmark called Taste-Bench tests how well AI agents make strategic choices during long-running tasks. Even the best model, GPT-5.6 Sol, picks the right path on just under 60 percent of simple binary questions. Thinking longer doesn't help. The article AI agents have bad taste in long-term decisions and a new be</summary>
+    <summary>Article URL: https://api-docs.deepseek.com/guides/search/ Comments URL: https://news.ycombinator.com/item?id=50138531 Points: 228 # Comments: 108</summary>
   </entry>
   <entry>
-    <title>Microsoft cancels its deal with Nscale to serve as the anchor tenant and rent 23K Nvidia AI chips at a planned data center facing repeated delays in Essex, UK (James Titcomb/Telegraph)</title>
-    <link href="https://www.techmeme.com/261018/p4"/>
-    <id>https://www.techmeme.com/261018/p4</id>
-    <updated>2026-10-18T06:05:00.000Z</updated>
+    <title>An interview with Apple's new VP of the App Store, Carson Oliver, on Apple's gaming vision, Apple Arcade, providing tools for indie game developers, and more (Giovanni Colantonio/Polygon)</title>
+    <link href="https://www.techmeme.com/261018/p7"/>
+    <id>https://www.techmeme.com/261018/p7</id>
+    <updated>2026-10-18T11:15:00.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>James Titcomb / Telegraph : Microsoft cancels its deal with Nscale to serve as the anchor tenant and rent 23K Nvidia AI chips at a planned data center facing repeated delays in Essex, UK — US tech giant pulls the plug on Nscale deal in threat to multibillion-dollar listing — Microsoft has pulled …</summary>
+    <summary>Giovanni Colantonio / Polygon : An interview with Apple's new VP of the App Store, Carson Oliver, on Apple's gaming vision, Apple Arcade, providing tools for indie game developers, and more — Back when Apple Arcade launched in 2019, there was a resounding belief among gamers that the mobile gaming service wasn't long f</summary>
   </entry>
   <entry>
     <title>llama.cpp b11719 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11719"/>
     <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11719</id>
-    <updated>2026-10-18T08:59:06.000Z</updated>
+    <updated>2026-10-18T11:14:51.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>ggml-cuda: fattn do not check oob if k_VKQ_max = (k_VKQ_max - nbatch_…</summary>
+    <summary>ggml-cuda: fattn do not check oob if k_VKQ_max = (k_VKQ_max - nbatch_fa) ( #30572 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57114852 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: </summary>
+  </entry>
+  <entry>
+    <title>AI agents have bad taste in long-term decisions and a new benchmark proves it</title>
+    <link href="https://the-decoder.com/ai-agents-have-bad-taste-in-long-term-decisions-and-a-new-benchmark-proves-it"/>
+    <id>https://the-decoder.com/ai-agents-have-bad-taste-in-long-term-decisions-and-a-new-benchmark-proves-it</id>
+    <updated>2026-10-18T08:49:41.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>A new benchmark called Taste-Bench tests how well AI agents make strategic choices during long-running tasks. Even the best model, GPT-5.6 Sol, picks the right path on just under 60 percent of simple binary questions. Thinking longer doesn't help. The article AI agents have bad taste in long-term decisions and a new be</summary>
   </entry>
   <entry>
     <title>China Rail Logs Record 3.71 Billion Trips in First Nine Months</title>
@@ -223,31 +232,31 @@
     <summary>Six AI agents were tasked with recovering £350 (about $465) for a canceled train ticket in an experiment. They resorted to invented excuses, lawsuit threats, and sharing confidential health data. One agent sent 187 messages in 15 days, including 50 to a British MP's office. None of the models secured the refund, but th</summary>
   </entry>
   <entry>
+    <title>Microsoft cancels its deal with Nscale to serve as the anchor tenant and rent 23K Nvidia AI chips at a planned data center facing repeated delays in Essex, UK (James Titcomb/Telegraph)</title>
+    <link href="https://www.techmeme.com/261018/p4"/>
+    <id>https://www.techmeme.com/261018/p4</id>
+    <updated>2026-10-18T06:05:00.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>James Titcomb / Telegraph : Microsoft cancels its deal with Nscale to serve as the anchor tenant and rent 23K Nvidia AI chips at a planned data center facing repeated delays in Essex, UK — US tech giant pulls the plug on Nscale deal in threat to multibillion-dollar listing — Microsoft has pulled …</summary>
+  </entry>
+  <entry>
+    <title>told Qwen3.8 27b to hack my router</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x8wmbp/told_qwen38_27b_to_hack_my_router"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x8wmbp/told_qwen38_27b_to_hack_my_router</id>
+    <updated>2026-10-18T07:02:09.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>i wanted to change my router firmware to openwrt and so i told claude to do it but of course the guard blocked me even opus 4.8 didn't want to do it , so i launched my Qwen3.8 27b and told it the same thing i gave it the link to the giude page and it did change the firmware perfectly the thing is this is the normal mod</summary>
+  </entry>
+  <entry>
     <title>ollama v0.40.7 released</title>
     <link href="https://github.com/ollama/ollama/releases/tag/v0.40.7-rc0"/>
     <id>https://github.com/ollama/ollama/releases/tag/v0.40.7-rc0</id>
     <updated>2026-10-18T00:28:57.000Z</updated>
     <author><name>ollama/ollama</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>What's Changed openai: allow Responses effort on non-thinking models by @hoyyeva in #19010 llama-server: let llama-server infer the draft speculative type by @dhiltgen in #19064 mlx: add PPLX Decider v1.2 support by @dhiltgen in #19072 Full Changelog : v0.40.6...v0.40.7-rc0</summary>
-  </entry>
-  <entry>
-    <title>World Bank says ‘small AI’ could transform developing countries</title>
-    <link href="https://www.theguardian.com/technology/2026/oct/18/world-bank-artificial-intelligence-developing-economies"/>
-    <id>https://www.theguardian.com/technology/2026/oct/18/world-bank-artificial-intelligence-developing-economies</id>
-    <updated>2026-10-18T10:00:56.000Z</updated>
-    <author><name>The Guardian AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Bank’s chief knowledge officer says the tech could speed up economic development from centuries to decades The World Bank is urging developing countries to kickstart the creation of “small AI” models, which can run on a mobile phone with low connectivity, to reap the full benefits of artificial intelligence. While Sili</summary>
-  </entry>
-  <entry>
-    <title>MINISFORUM MS-S1 MAX P495 (192GB) Review and Weekend Test: llama.cpp Vulkan benchmarks: gpt-oss 120B, MiniMax M2.7, DeepSeek V4 Flash, Flash-Next, Qwen3.5 35B, Qwen3.8 27B (+ MTP)</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1x8zt4f/minisforum_mss1_max_p495_192gb_review_and_weekend"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1x8zt4f/minisforum_mss1_max_p495_192gb_review_and_weekend</id>
-    <updated>2026-10-18T10:22:57.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>I ordered this MINIS FORUM machine and experimented with it over the weekend to see if it was going to work for me. It arrived with Windows :( and I was not sure what to load. I saw the Framework Desktop 495s (AMD Ryzen™ AI Max+ PRO 495 - 192GB) were shipping with Fedora so I went with the same. I understand all these </summary>
+    <summary>What's Changed openai: allow Responses effort on non-thinking models by @hoyyeva in #19010 llama-server: let llama-server infer the draft speculative type by @dhiltgen in #19064 mlx: add PPLX Decider v1.2 support by @dhiltgen in #19072 Full Changelog : v0.40.6...v0.40.7-rc0</summary>
   </entry>
   <entry>
     <title>Anthropic consults law firms to set fair negotiation norms before AI agents start cutting deals</title>
@@ -259,21 +268,12 @@
     <summary>Anthropic is consulting with law firms to develop negotiation norms for AI agents that would haggle over prices, resolve complaints, or improve contracts on behalf of users. The company is also hiring lawyers and humanities scholars as &quot;Conceptual Reasoning Fellows&quot; to improve Claude in areas where reliable training da</summary>
   </entry>
   <entry>
-    <title>Poland Investigates Suspected Violation of Its Airspace</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-18/poland-investigates-suspected-violation-of-its-airspace"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-18/poland-investigates-suspected-violation-of-its-airspace</id>
-    <updated>2026-10-18T06:52:54.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
+    <title>Accenture looks to sell Chinese operations for up to $1.5bn</title>
+    <link href="https://www.ft.com/content/2dfdd513-26a6-4a10-9cae-5242eb4ee3ed?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/2dfdd513-26a6-4a10-9cae-5242eb4ee3ed?syn-25a6b1a6=1</id>
+    <updated>2026-10-18T10:00:09.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
     <category term="AI FINANCE"/>
-    <summary>Poland is investigating a possible violation of its airspace overnight, the Operational Command of the Armed Forces said.</summary>
-  </entry>
-  <entry>
-    <title>Guyana to Block Vape Product Imports Amid Youth Health Concerns</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-18/guyana-to-block-vape-product-imports-amid-youth-health-concerns"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-18/guyana-to-block-vape-product-imports-amid-youth-health-concerns</id>
-    <updated>2026-10-18T01:49:34.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Guyana will ban imports of vaping products, tightening restrictions on electronic cigarettes as concern rises about their growing use and health risks, President Irfaan Ali said Saturday.</summary>
+    <summary>Shares in world’s largest IT consultancy have fluctuated in recent months over questions about the impact of AI</summary>
   </entry>
 </feed>
