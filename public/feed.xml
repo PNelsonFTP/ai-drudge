@@ -5,16 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-18T02:08:48.306Z</updated>
-  <entry>
-    <title>DeepSeek V4.1 Flash 1017 Support for ds4 · PR #1225 · antirez/ds4</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x8koix/deepseek_v41_flash_1017_support_for_ds4_pr_1225"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x8koix/deepseek_v41_flash_1017_support_for_ds4_pr_1225</id>
-    <updated>2026-10-17T20:42:23.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Just pushed a PR for dwarfstar that adds support for Deepseek-v4.1-Flash-1017 with its new engrams and updated vision tower. The PR basically just adds compatibility for the file revisions and checks to make sure the vision+language model file combination matches, raising on mixed pairings. Any files quantized with the — Also covered by: HN: Chinese Frontier Labs, HN: Chinese Frontier Labs, Vercel Blog, Lemmy c/localllama</summary>
-  </entry>
+  <updated>2026-10-18T03:08:37.090Z</updated>
   <entry>
     <title>Physical AI is more than robots, says the Nvidia veteran now investing in it</title>
     <link href="https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it"/>
@@ -41,15 +32,6 @@
     <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
     <summary>Many thanks to Abram Demski for materially and intellectually supporting this research. Thanks also to Brian Berns, Roman Malov, Gurkenglas, and Lorxus for valuable conversations. Introduction Despite the central place of corrigibility to theoretical AI alignment, it seems like no one can really agree about what is . M — Also covered by: AI Alignment Forum</summary>
-  </entry>
-  <entry>
-    <title>Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware</title>
-    <link href="https://llmspeed.dev/"/>
-    <id>https://llmspeed.dev/</id>
-    <updated>2026-10-17T04:36:53.000Z</updated>
-    <author><name>HN: LLM (100+ points)</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 254 # Comments: 77</summary>
   </entry>
   <entry>
     <title>Benefit Street Partners answers questions faster with Codex</title>
@@ -104,6 +86,15 @@
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
     <summary>Walter Schulze / Startup Fortune : Anomaly Innovations, behind coding agent OpenCode, says a breach hit ~1.4% of OpenCode Console users and their API keys, in a “large scale distillation attack” — A large-scale distillation attack against the company behind the open-source coding agent OpenCode exposed stored OpenAI …</summary>
+  </entry>
+  <entry>
+    <title>llama.cpp b11717 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11717"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11717</id>
+    <updated>2026-10-18T02:53:27.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>hexagon: add support for hadamard MUL_MAT and GET_ROW for flat and tiled Q1_0 and Q2_0 ( #30627 ) hex-hadamard: add support for hadamard ops hex-mm: reduce pkt counts in the q8_1 quantizer and vec_dot_q1 hex-q1/q2: add support for flat and tiled GET_ROWS for Q1_0 and Q2_0 Co-authored-by: Max Krasnyansky maxk@qti.qualco</summary>
   </entry>
   <entry>
     <title>Venezuela Sees Nearly $76 Billion Oil Investment Over Five Years</title>
@@ -169,13 +160,13 @@
     <summary>Startup investors aren’t exactly hitting pause, but they did scale back on giant rounds this past week, with just two startup financings in the multiple hundreds of millions.</summary>
   </entry>
   <entry>
-    <title>Meta shakes up the frontiers, open and closed</title>
-    <link href="https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open"/>
-    <id>https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open</id>
-    <updated>2026-10-17T14:06:54.000Z</updated>
-    <author><name>Interconnects (Lambert)</name></author>
+    <title>Inline rendering with document​.currentScript</title>
+    <link href="https://simonwillison.net/2026/Oct/17/document-currentscript"/>
+    <id>https://simonwillison.net/2026/Oct/17/document-currentscript</id>
+    <updated>2026-10-17T21:11:12.000Z</updated>
+    <author><name>Simon Willison</name></author>
     <category term="ANALYSIS"/>
-    <summary>US open weights are back!</summary>
+    <summary>Inline rendering with document​.currentScript Lean Rada describes a neat trick that takes advantage of the document.currentScript property. You can use that to drop in a tiny inline &lt;script&gt; element that replaces itself when the page loads: The year is &lt;script&gt; document.currentScript.replaceWith( new Date().getFullYear</summary>
   </entry>
   <entry>
     <title>ADI explains the race to make AI physical</title>
@@ -223,22 +214,22 @@
     <summary>Joanna Stern / The New Things : An interview with Microsoft CEO Satya Nadella on the Nvidia RTX Spark-powered Surface Laptop Ultra, plans to make Windows a safer OS to run AI agents, and more — My exclusive interview with Satya Nadella on the new Surface Laptop Ultra and Microsoft's plan to make Windows safer for AI ag</summary>
   </entry>
   <entry>
-    <title>llama.cpp b11716 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11716"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11716</id>
-    <updated>2026-10-17T21:15:22.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>I built a &quot;what fits my GPU?&quot; tool after r/LocalLLM roasted my first version. Strix Halo, IQ quants, multi-GPU now in</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1x8pvi8/i_built_a_what_fits_my_gpu_tool_after_rlocalllm"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1x8pvi8/i_built_a_what_fits_my_gpu_tool_after_rlocalllm</id>
+    <updated>2026-10-18T00:44:40.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>hexagon: add support for Q1_0 and Q2_0 ( #30122 ) hexagon: add support for q1_0 quant hexagon: enable Q1_0 weights in the 2D HMX MUL_MAT path hex-q1: cleanup gates, generalize tiling and remove in-loop divs hex-tiling: document tiled formats in developer.md and update htp-tensor.h hex-q2: add support for Q2_0 hex-q2: r</summary>
+    <summary>Posted a hardware checker last week and got fair criticism: old models, missing GPUs, no quants below Q4, no Strix Halo. Fixed all of it, plus the feature people asked for most: - What fits my GPU? Pick your hardware, context and KV quant, get every model that fits at its best quant, with headroom. 2x 3090 at 8k: https</summary>
   </entry>
   <entry>
-    <title>Openspline - host a realtime talking avatar on a commercial GPU (90+ FPS on RTX4090)</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x8oqng/openspline_host_a_realtime_talking_avatar_on_a"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x8oqng/openspline_host_a_realtime_talking_avatar_on_a</id>
-    <updated>2026-10-17T23:48:06.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Hey everyone, I am working on a new project called Openspline, an open source avatar layer to existing voice AI agents. Just select an image and you can create a realtime talking avatar with lipsynced video generated locally on your GPU. You can integrate any existing voice AI agent in 5 lines of code. The lite model c</summary>
+    <title>Guyana to Block Vape Product Imports Amid Youth Health Concerns</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-18/guyana-to-block-vape-product-imports-amid-youth-health-concerns"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-18/guyana-to-block-vape-product-imports-amid-youth-health-concerns</id>
+    <updated>2026-10-18T01:49:34.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Guyana will ban imports of vaping products, tightening restrictions on electronic cigarettes as concern rises about their growing use and health risks, President Irfaan Ali said Saturday.</summary>
   </entry>
   <entry>
     <title>Niger Halts Diesel, Petrol Exports to Protect Domestic Supply</title>
@@ -248,15 +239,6 @@
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
     <summary>Niger banned exports of diesel and premium petrol in a bid to address fuel supply challenges that the country has been facing in recent days, the ministry of trade and industry said in a statement on its Facebook page.</summary>
-  </entry>
-  <entry>
-    <title>Australian Home Auctions Decline as Rate Hikes Dampen Activity</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-17/australian-home-auctions-decline-as-rate-hikes-dampen-activity"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-17/australian-home-auctions-decline-as-rate-hikes-dampen-activity</id>
-    <updated>2026-10-17T23:57:37.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>The number of homes auctioned in Australia dropped over the past week as interest rates at a 15-year high weigh on activity in the housing market.</summary>
   </entry>
   <entry>
     <title>Meet Kyutai REKI: The 2.4B VLA Model Bringing Efficient Memory to Robot Manipulation</title>
@@ -275,5 +257,23 @@
     <author><name>Ollama Blog</name></author>
     <category term="PRODUCTS"/>
     <summary>Reflection's first open-weight model is now available on Ollama, and free for a limited time only. Beam is designed for software engineering, reasoning, and long-running agentic tasks. Access Beam through Ollama Cloud.</summary>
+  </entry>
+  <entry>
+    <title>NVIDIA RTX Spark N1X Launch Overview: NVIDIA Arms Windows</title>
+    <link href="https://www.servethehome.com/nvidia-rtx-spark-n1x-launch-overview-nvidia-arms-windows"/>
+    <id>https://www.servethehome.com/nvidia-rtx-spark-n1x-launch-overview-nvidia-arms-windows</id>
+    <updated>2026-10-17T17:00:47.000Z</updated>
+    <author><name>ServeTheHome</name></author>
+    <category term="HARDWARE"/>
+    <summary>This week NVIDIA launched their high-end RTX Spark N1X platform. Bringing their powerful GB10 SoC to Windows for the first time, the company is seeking to remake the Windows laptop market with their powerful, AI-focused SoC The post NVIDIA RTX Spark N1X Launch Overview: NVIDIA Arms Windows appeared first on ServeTheHom</summary>
+  </entry>
+  <entry>
+    <title>Meta shakes up the frontiers, open and closed</title>
+    <link href="https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open"/>
+    <id>https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open</id>
+    <updated>2026-10-17T14:06:54.000Z</updated>
+    <author><name>Interconnects (Lambert)</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>US open weights are back!</summary>
   </entry>
 </feed>
