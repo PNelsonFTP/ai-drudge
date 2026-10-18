@@ -5,16 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-18T00:08:42.060Z</updated>
-  <entry>
-    <title>DeepSeek V4.1 Flash 1017 Support for ds4 · PR #1225 · antirez/ds4</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x8koix/deepseek_v41_flash_1017_support_for_ds4_pr_1225"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x8koix/deepseek_v41_flash_1017_support_for_ds4_pr_1225</id>
-    <updated>2026-10-17T20:42:23.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Just pushed a PR for dwarfstar that adds support for Deepseek-v4.1-Flash-1017 with its new engrams and updated vision tower. The PR basically just adds compatibility for the file revisions and checks to make sure the vision+language model file combination matches, raising on mixed pairings. Any files quantized with the — Also covered by: HN: Chinese Frontier Labs, HN: Chinese Frontier Labs, Lemmy c/localllama, LocalLLaMA Subreddit, Vercel Blog</summary>
-  </entry>
+  <updated>2026-10-18T01:08:44.270Z</updated>
   <entry>
     <title>Physical AI is more than robots, says the Nvidia veteran now investing in it</title>
     <link href="https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it"/>
@@ -41,15 +32,6 @@
     <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
     <summary>Many thanks to Abram Demski for materially and intellectually supporting this research. Thanks also to Brian Berns, Roman Malov, Gurkenglas, and Lorxus for valuable conversations. Introduction Despite the central place of corrigibility to theoretical AI alignment, it seems like no one can really agree about what is . M — Also covered by: AI Alignment Forum</summary>
-  </entry>
-  <entry>
-    <title>Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware</title>
-    <link href="https://llmspeed.dev/"/>
-    <id>https://llmspeed.dev/</id>
-    <updated>2026-10-17T04:36:53.000Z</updated>
-    <author><name>HN: LLM (100+ points)</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 236 # Comments: 75</summary>
   </entry>
   <entry>
     <title>Benefit Street Partners answers questions faster with Codex</title>
@@ -88,13 +70,13 @@
     <summary>vLLM supports Reflection's Beam-1.0 (501B total, 23B active) from day 0, with agent-driven optimization that cut decode latency 2.71× and DFlash2 speculative decoding with adaptive verification. — Also covered by: CoreWeave Blog</summary>
   </entry>
   <entry>
-    <title>mlx: add PPLX Decider v1.2 support (#19072)</title>
+    <title>ollama v0.40.7 released</title>
     <link href="https://github.com/ollama/ollama/releases/tag/v0.40.7-rc0"/>
     <id>https://github.com/ollama/ollama/releases/tag/v0.40.7-rc0</id>
-    <updated>2026-10-17T21:45:55.000Z</updated>
+    <updated>2026-10-18T00:28:57.000Z</updated>
     <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Implement the Qwen3.5-backed decision scorer with noncausal attention, the publisher readout, image handling, and System One prompt encoding.</summary>
+    <summary>What's Changed openai: allow Responses effort on non-thinking models by @hoyyeva in #19010 llama-server: let llama-server infer the draft speculative type by @dhiltgen in #19064 mlx: add PPLX Decider v1.2 support by @dhiltgen in #19072 Full Changelog : v0.40.6...v0.40.7-rc0</summary>
   </entry>
   <entry>
     <title>Anomaly Innovations, behind coding agent OpenCode, says a breach hit ~1.4% of OpenCode Console users and their API keys, in a &quot;large scale distillation attack&quot; (Walter Schulze/Startup Fortune)</title>
@@ -196,15 +178,6 @@
     <summary>Google : Google says “magic state cultivation” works in practice on its Willow quantum processor, calling it a breakthrough that reduces errors by about 40x — We've shown that magic state cultivation works on Google Quantum AI hardware. — Research Scientist, Google Quantum AI Quantum Software Engineer, Google Quantum A</summary>
   </entry>
   <entry>
-    <title>ollama v0.40.6 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.6"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.6</id>
-    <updated>2026-10-17T15:29:04.000Z</updated>
-    <author><name>ollama/ollama</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>What's Changed win: prevent orphaned runners by @dhiltgen in #18500 gguf: add the q2_0 tensor and file types by @jmorganca in #18967 Launch clef in Ollama's cloud by @jberg5 in #19036 use identifiers for --ask mode question keys by @jberg5 in #19041 Full Changelog : v0.40.5...v0.40.6-rc0</summary>
-  </entry>
-  <entry>
     <title>Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs</title>
     <link href="https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs"/>
     <id>https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs</id>
@@ -212,6 +185,15 @@
     <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Deepseek has released V4.1-Flash-1017 as an open-weight model that posts better benchmarks, finishes tasks faster, and produces shorter outputs than its predecessor. The company is also opening up its internal search engine through new Search and Fetch APIs at $0.75 per 1,000 calls. API users in tools like Claude Code </summary>
+  </entry>
+  <entry>
+    <title>Anthropics' Claude cracks a 25-year-old NSA cryptography mystery in under 30 minutes</title>
+    <link href="https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes"/>
+    <id>https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes</id>
+    <updated>2026-10-17T14:42:56.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Anthropic's AI model Claude has solved a 25-year-old cryptography puzzle. The mysterious seeds behind NIST's standard curves for digital signatures were provided by the NSA without explanation, raising long-standing suspicion about built-in backdoors. Claude figured out in under 30 minutes that the seeds came from &quot;lra</summary>
   </entry>
   <entry>
     <title>Meta removes language that raised scraping and AI training concerns</title>
@@ -232,6 +214,15 @@
     <summary>hexagon: add support for Q1_0 and Q2_0 ( #30122 ) hexagon: add support for q1_0 quant hexagon: enable Q1_0 weights in the 2D HMX MUL_MAT path hex-q1: cleanup gates, generalize tiling and remove in-loop divs hex-tiling: document tiled formats in developer.md and update htp-tensor.h hex-q2: add support for Q2_0 hex-q2: r</summary>
   </entry>
   <entry>
+    <title>Openspline - host a realtime talking avatar on a commercial GPU (90+ FPS on RTX4090)</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x8oqng/openspline_host_a_realtime_talking_avatar_on_a"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x8oqng/openspline_host_a_realtime_talking_avatar_on_a</id>
+    <updated>2026-10-17T23:48:06.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Hey everyone, I am working on a new project called Openspline, an open source avatar layer to existing voice AI agents. Just select an image and you can create a realtime talking avatar with lipsynced video generated locally on your GPU. You can integrate any existing voice AI agent in 5 lines of code. The lite model c</summary>
+  </entry>
+  <entry>
     <title>qwen-code v0.25.2-nightly.20261017.39c237af3b released</title>
     <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.25.2-nightly.20261017.39c237af3b"/>
     <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.25.2-nightly.20261017.39c237af3b</id>
@@ -241,6 +232,15 @@
     <summary>What's Changed fix(managed-agent): admit team_plan_approval into the journal-only interrupted-turn settle ( #13847 ) by @wenshao in #14160 test(managed-agent): add the FG8e/FG8f monitor_run and background-shell fault gates by @wenshao in #14120 feat(extensions): add bounded generated failure explorer views (PR4) by @qq</summary>
   </entry>
   <entry>
+    <title>Australian Home Auctions Decline as Rate Hikes Dampen Activity</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-17/australian-home-auctions-decline-as-rate-hikes-dampen-activity"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-17/australian-home-auctions-decline-as-rate-hikes-dampen-activity</id>
+    <updated>2026-10-17T23:57:37.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>The number of homes auctioned in Australia dropped over the past week as interest rates at a 15-year high weigh on activity in the housing market.</summary>
+  </entry>
+  <entry>
     <title>Avalanche in Chile Kills Three Climbers Amid Rare Snowy Spring</title>
     <link href="https://www.bloomberg.com/news/articles/2026-10-17/avalanche-in-chile-kills-three-climbers-amid-rare-snowy-spring"/>
     <id>https://www.bloomberg.com/news/articles/2026-10-17/avalanche-in-chile-kills-three-climbers-amid-rare-snowy-spring</id>
@@ -248,15 +248,6 @@
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
     <summary>An avalanche killed three climbers and injured four others Saturday afternoon near the Portillo ski resort in the Chilean Andes, northeast of the capital Santiago.</summary>
-  </entry>
-  <entry>
-    <title>Russia Sanctions Waived, AI Debt Concerns, Making 'GTA VI'</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-17/bloomberg-this-weekend-10-17-2026-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-17/bloomberg-this-weekend-10-17-2026-video</id>
-    <updated>2026-10-17T16:31:01.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by International Rescue Committee CEO and Fmr. UK Foreign Secretary David Miliband, Fmr. Deputy Prime Minister of Canada a</summary>
   </entry>
   <entry>
     <title>Meet Kyutai REKI: The 2.4B VLA Model Bringing Efficient Memory to Robot Manipulation</title>
@@ -275,5 +266,14 @@
     <author><name>Ollama Blog</name></author>
     <category term="PRODUCTS"/>
     <summary>Reflection's first open-weight model is now available on Ollama, and free for a limited time only. Beam is designed for software engineering, reasoning, and long-running agentic tasks. Access Beam through Ollama Cloud.</summary>
+  </entry>
+  <entry>
+    <title>NVIDIA RTX Spark N1X Launch Overview: NVIDIA Arms Windows</title>
+    <link href="https://www.servethehome.com/nvidia-rtx-spark-n1x-launch-overview-nvidia-arms-windows"/>
+    <id>https://www.servethehome.com/nvidia-rtx-spark-n1x-launch-overview-nvidia-arms-windows</id>
+    <updated>2026-10-17T17:00:47.000Z</updated>
+    <author><name>ServeTheHome</name></author>
+    <category term="HARDWARE"/>
+    <summary>This week NVIDIA launched their high-end RTX Spark N1X platform. Bringing their powerful GB10 SoC to Windows for the first time, the company is seeking to remake the Windows laptop market with their powerful, AI-focused SoC The post NVIDIA RTX Spark N1X Launch Overview: NVIDIA Arms Windows appeared first on ServeTheHom</summary>
   </entry>
 </feed>
