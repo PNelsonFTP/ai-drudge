@@ -5,15 +5,24 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-18T20:08:41.972Z</updated>
+  <updated>2026-10-18T21:04:11.936Z</updated>
   <entry>
-    <title>unsloth/DeepSeek-V4.1-Flash-1017-GGUF · Hugging Face</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x95491/unslothdeepseekv41flash1017gguf_hugging_face"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x95491/unslothdeepseekv41flash1017gguf_hugging_face</id>
-    <updated>2026-10-18T14:51:58.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>no document or announcement from unslot team yet submitted by /u/MundanePercentage674 [link] [comments] — Also covered by: HN: Chinese Frontier Labs, HN: Chinese Frontier Labs, Vercel Blog, Lemmy c/localllama</summary>
+    <title>Anthropic Commits At Least 5% of Shares to New Public Benefit Fund</title>
+    <link href="https://www.theinformation.com/briefings/anthropic-commits-least-5-shares-new-public-benefit-fund"/>
+    <id>https://www.theinformation.com/briefings/anthropic-commits-least-5-shares-new-public-benefit-fund</id>
+    <updated>2026-10-18T20:57:11.000Z</updated>
+    <author><name>The Information</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Anthropic announced the creation of a new fund that will get at least 5% of its shares and support public-benefit causes such as addressing the employment impact of AI. The Anthropic Public Benefit Fund could get an additional 2% of the company’s shares on top of the initial 5% commitment, at ... — Also covered by: TechCrunch AI, Reuters AI (Google News), Bloomberg Tech</summary>
+  </entry>
+  <entry>
+    <title>Microsoft Pulls Out of Nscale U.K. Data Center Following Delays</title>
+    <link href="https://www.theinformation.com/briefings/microsoft-pulls-nscale-u-k-data-center-following-delays"/>
+    <id>https://www.theinformation.com/briefings/microsoft-pulls-nscale-u-k-data-center-following-delays</id>
+    <updated>2026-10-18T20:08:27.000Z</updated>
+    <author><name>The Information</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Microsoft has pulled out of a planned U.K. data center Nscale was building for it, an Nscale spokesperson said, after the cloud provider faced delays accessing power to bring the site online. The cancellation is likely to weigh on Nscale’s planned public offering this month as investor concerns ... — Also covered by: Bloomberg Tech</summary>
   </entry>
   <entry>
     <title>Disney agrees to hire the majority of Character.AI’s workforce</title>
@@ -76,16 +85,7 @@
     <updated>2026-10-17T04:36:53.000Z</updated>
     <author><name>HN: LLM (100+ points)</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 318 # Comments: 86</summary>
-  </entry>
-  <entry>
-    <title>An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet</title>
-    <link href="https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet"/>
-    <id>https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet</id>
-    <updated>2026-10-16T16:30:00.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="HARDWARE"/>
-    <summary>Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who believe that robotics, p</summary>
+    <summary>Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 319 # Comments: 86</summary>
   </entry>
   <entry>
     <title>Serving Reflection Beam on vLLM from Day 0</title>
@@ -97,6 +97,15 @@
     <summary>vLLM supports Reflection's Beam-1.0 (501B total, 23B active) from day 0, with agent-driven optimization that cut decode latency 2.71× and DFlash2 speculative decoding with adaptive verification. — Also covered by: CoreWeave Blog</summary>
   </entry>
   <entry>
+    <title>Physical AI is more than robots, says the Nvidia veteran now investing in it</title>
+    <link href="https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it"/>
+    <id>https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it</id>
+    <updated>2026-10-16T16:30:00.000Z</updated>
+    <author><name>TechCrunch Startups</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who believe that robotics, p</summary>
+  </entry>
+  <entry>
     <title>llama.cpp b11721 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11721"/>
     <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11721</id>
@@ -104,15 +113,6 @@
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="MODEL RELEASES"/>
     <summary>cuda : fuse qwen4exp's SCALE -&gt; SIGMOID -&gt; SCALE -&gt; hc_post chain ( #30602 ) Port of the Vulkan HC_POST_GATE fusion ( #29520 ). hc_combine builds the hc_post weights as 2 sigmoid(inject/hc); dsv4_hc_post_f32 now takes a gated template flag and computes scale_out sigmoid(scale_in*p) from the raw weights, so the chain ru</summary>
-  </entry>
-  <entry>
-    <title>Anthropic says it's committing 5% of its shares to a Public Benefit Fund, for a total of ~20% with co-founder and staff pledges, plus 2% per 50% valuation rise (Anthropic)</title>
-    <link href="https://www.techmeme.com/261018/p10"/>
-    <id>https://www.techmeme.com/261018/p10</id>
-    <updated>2026-10-18T19:10:00.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Anthropic : Anthropic says it's committing 5% of its shares to a Public Benefit Fund, for a total of ~20% with co-founder and staff pledges, plus 2% per 50% valuation rise — Today, we're committing a portion of Anthropic's shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the sta</summary>
   </entry>
   <entry>
     <title>Four Gemini 4 Argon agents beat Minecraft without any human help</title>
@@ -124,13 +124,13 @@
     <summary>Four AI agents running on Google's Gemini 4 Argon have beaten Minecraft for the first time without human help, slaying the Ender Dragon in a fully autonomous run. With no predefined roles or strategies, they coordinated on their own, wrote 2,783 programs, exchanged 229 chat messages, and died 605 times. The session cos</summary>
   </entry>
   <entry>
-    <title>Banque du Caire Seeks to Raise Up to $454 Million in Egypt IPO</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-18/banque-du-caire-seeks-to-raise-up-to-454-million-in-egypt-ipo"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-18/banque-du-caire-seeks-to-raise-up-to-454-million-in-egypt-ipo</id>
-    <updated>2026-10-18T14:40:23.000Z</updated>
+    <title>For Three Buffetts, a $150 Billion Puzzle Over Warren’s Riches</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-10-18/for-three-buffetts-a-150-billion-puzzle-over-warren-s-riches"/>
+    <id>https://www.bloomberg.com/news/videos/2026-10-18/for-three-buffetts-a-150-billion-puzzle-over-warren-s-riches</id>
+    <updated>2026-10-18T21:00:50.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Banque du Caire is looking to raise as much as 24.25 billion Egyptian pounds ($454 million) via the sale of a 30% stake, in what would be the North African country’s largest initial public offering in years.</summary>
+    <summary>Warren Buffett is worth an estimated $150 billion. He's also promised to divest himself of his vast wealth before he dies. Except it's hard when the pot keeps growing. So his three children are stepping in to spread it around. Alexandre Rajbhandari explains (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>TinyFish Makes Search Free: What It Really Costs an AI Agent to Read the Web</title>
@@ -169,19 +169,19 @@
     <summary>Google Research released Harness2, an Apache-2.0 framework that rewrites an agent's harness at test time. One refinement step lifted GLM-5 by 11.5 points on WorkBuddy-Bench with no weight updates. The post Google Open-Sources Harness2, a Recursive Agent Harnessing Framework appeared first on MarkTechPost .</summary>
   </entry>
   <entry>
-    <title>Disproving the SIA disproves the Fine-Tuning Argument and Boltzmann-brain-based arguments</title>
-    <link href="https://www.lesswrong.com/posts/oYjc7gvwDgSGAhQpZ/disproving-the-sia-disproves-the-fine-tuning-argument-and"/>
-    <id>https://www.lesswrong.com/posts/oYjc7gvwDgSGAhQpZ/disproving-the-sia-disproves-the-fine-tuning-argument-and</id>
-    <updated>2026-10-18T16:32:51.000Z</updated>
+    <title>The Snitch Reflex: Can We Force Language Models to Be Compulsively Honest?</title>
+    <link href="https://www.lesswrong.com/posts/AiGPEwuaNzkwgtPFK/the-snitch-reflex-can-we-force-language-models-to-be-1"/>
+    <id>https://www.lesswrong.com/posts/AiGPEwuaNzkwgtPFK/the-snitch-reflex-can-we-force-language-models-to-be-1</id>
+    <updated>2026-10-18T20:16:30.000Z</updated>
     <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>My worst post on LW of all time is Boltzmann brains, like Doomsday, require no explaining . It's currently sitting at -18, which I think would be fair if my argument presented was mistaken. However, no one has of yet has shown me where my argument goes wrong. So, I'm back at it again -- this time with variant examples </summary>
+    <summary>I fine-tuned a toy model to vomit back arbitrary tokens. I used them as Markers tied to specific subsets of its training data to connect training to generation. Training + testing cost $0.49 on an RTX 4090. Could help with interp and safety monitoring. Chain of Thought for alignment monitoring is starting to fail and c</summary>
   </entry>
   <entry>
     <title>Conducting The First Live Enterprise Comparison Between Agents and Human Professionals</title>
     <link href="https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals"/>
     <id>https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals</id>
-    <updated>2026-10-18T20:08:19.220Z</updated>
+    <updated>2026-10-18T21:03:45.955Z</updated>
     <author><name>Gray Swan</name></author>
     <category term="AI SECURITY"/>
   </entry>
@@ -202,6 +202,15 @@
     <author><name>FT Artificial Intelligence</name></author>
     <category term="CYBER DEFENSE"/>
     <summary>Schneider Electric and Siemens move further into software as rival ABB bets on physical equipment</summary>
+  </entry>
+  <entry>
+    <title>Anthropic says it's committing 5% of its shares to a Public Benefit Fund, for a total of ~20% with co-founder and staff pledges, plus 2% per 50% valuation rise (Anthropic)</title>
+    <link href="https://www.techmeme.com/261018/p10"/>
+    <id>https://www.techmeme.com/261018/p10</id>
+    <updated>2026-10-18T19:10:00.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>Anthropic : Anthropic says it's committing 5% of its shares to a Public Benefit Fund, for a total of ~20% with co-founder and staff pledges, plus 2% per 50% valuation rise — Today, we're committing a portion of Anthropic's shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the sta</summary>
   </entry>
   <entry>
     <title>Inline rendering with document​.currentScript</title>
@@ -231,40 +240,31 @@
     <summary>Johannes Pollanen, co-founder of EeroQ and a professor of physics at Michigan State University, explains how EeroQ builds qubits from single electrons floating on a film of superfluid helium, and why he thinks the semiconductor chip is the only proven way to scale a quantum computer. The post Podcast with Johannes Poll</summary>
   </entry>
   <entry>
-    <title>DeepSeek search and fetch – $0.75 per 1000 successful requests</title>
-    <link href="https://api-docs.deepseek.com/guides/search"/>
-    <id>https://api-docs.deepseek.com/guides/search</id>
-    <updated>2026-10-18T06:50:36.000Z</updated>
-    <author><name>HN: Chinese Frontier Labs</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Article URL: https://api-docs.deepseek.com/guides/search/ Comments URL: https://news.ycombinator.com/item?id=50138531 Points: 481 # Comments: 234</summary>
-  </entry>
-  <entry>
-    <title>Sources: industry execs expect only 7-10 of hundreds of neoclouds to survive, as Nvidia supports them with easier credit terms, site finding, and $20B in leases (Phoebe Liu/The Information)</title>
-    <link href="https://www.techmeme.com/261018/p11"/>
-    <id>https://www.techmeme.com/261018/p11</id>
-    <updated>2026-10-18T19:55:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Phoebe Liu / The Information : Sources: industry execs expect only 7-10 of hundreds of neoclouds to survive, as Nvidia supports them with easier credit terms, site finding, and $20B in leases — How many young AI cloud providers can the market, and Nvidia, support? — That's one of the big questions after a week …</summary>
-  </entry>
-  <entry>
-    <title>Embedding model can be used to search text inside image</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x9acj4/embedding_model_can_be_used_to_search_text_inside"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x9acj4/embedding_model_can_be_used_to_search_text_inside</id>
-    <updated>2026-10-18T18:22:43.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Just something I've been testing over few week since Embedding Gemma 2 released which is about 330MB at Q8. Not sure if this would count as 'resource' flair... Image shows cosine similarity changes as I refine the text query (aka text embedding vector) over time. Shows how well it work &amp; quirks it has at same time. I'l</summary>
-  </entry>
-  <entry>
     <title>AI agents have bad taste in long-term decisions and a new benchmark proves it</title>
     <link href="https://the-decoder.com/ai-agents-have-bad-taste-in-long-term-decisions-and-a-new-benchmark-proves-it"/>
     <id>https://the-decoder.com/ai-agents-have-bad-taste-in-long-term-decisions-and-a-new-benchmark-proves-it</id>
     <updated>2026-10-18T08:49:41.000Z</updated>
     <author><name>The Decoder</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
+    <category term="MODEL RELEASES"/>
     <summary>A new benchmark called Taste-Bench tests how well AI agents make strategic choices during long-running tasks. Even the best model, GPT-5.6 Sol, picks the right path on just under 60 percent of simple binary questions. Thinking longer doesn't help. The article AI agents have bad taste in long-term decisions and a new be</summary>
+  </entry>
+  <entry>
+    <title>72 hours, four big open weights drops. The only one that fits in 24GB came from NVIDIA, of all companies.</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x9d23j/72_hours_four_big_open_weights_drops_the_only_one"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x9d23j/72_hours_four_big_open_weights_drops_the_only_one</id>
+    <updated>2026-10-18T20:10:16.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>What a week. Quick recap, all numbers from the official repos and model cards: Thursday: Meta drops Muse Spark Open. 816B total, 42B active, 1M context. The launch post says it brings agentic AI &quot;to your desktop&quot;. The desktop is two M5 Ultra Mac Studios with 512GB each, a config Apple says ships &quot;late October&quot; and stil</summary>
+  </entry>
+  <entry>
+    <title>unsloth/DeepSeek-V4.1-Flash-1017-GGUF · Hugging Face</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x95491/unslothdeepseekv41flash1017gguf_hugging_face"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x95491/unslothdeepseekv41flash1017gguf_hugging_face</id>
+    <updated>2026-10-18T14:51:58.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>no document or announcement from unslot team yet submitted by /u/MundanePercentage674 [link] [comments]</summary>
   </entry>
   <entry>
     <title>AI Gateway logs now show session affinity</title>
