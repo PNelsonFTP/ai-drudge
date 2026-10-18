@@ -5,7 +5,16 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-18T01:33:33.481Z</updated>
+  <updated>2026-10-18T02:08:48.306Z</updated>
+  <entry>
+    <title>DeepSeek V4.1 Flash 1017 Support for ds4 · PR #1225 · antirez/ds4</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x8koix/deepseek_v41_flash_1017_support_for_ds4_pr_1225"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x8koix/deepseek_v41_flash_1017_support_for_ds4_pr_1225</id>
+    <updated>2026-10-17T20:42:23.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Just pushed a PR for dwarfstar that adds support for Deepseek-v4.1-Flash-1017 with its new engrams and updated vision tower. The PR basically just adds compatibility for the file revisions and checks to make sure the vision+language model file combination matches, raising on mixed pairings. Any files quantized with the — Also covered by: HN: Chinese Frontier Labs, HN: Chinese Frontier Labs, Vercel Blog, Lemmy c/localllama</summary>
+  </entry>
   <entry>
     <title>Physical AI is more than robots, says the Nvidia veteran now investing in it</title>
     <link href="https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it"/>
@@ -32,6 +41,15 @@
     <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
     <summary>Many thanks to Abram Demski for materially and intellectually supporting this research. Thanks also to Brian Berns, Roman Malov, Gurkenglas, and Lorxus for valuable conversations. Introduction Despite the central place of corrigibility to theoretical AI alignment, it seems like no one can really agree about what is . M — Also covered by: AI Alignment Forum</summary>
+  </entry>
+  <entry>
+    <title>Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware</title>
+    <link href="https://llmspeed.dev/"/>
+    <id>https://llmspeed.dev/</id>
+    <updated>2026-10-17T04:36:53.000Z</updated>
+    <author><name>HN: LLM (100+ points)</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 254 # Comments: 77</summary>
   </entry>
   <entry>
     <title>Benefit Street Partners answers questions faster with Codex</title>
@@ -214,13 +232,13 @@
     <summary>hexagon: add support for Q1_0 and Q2_0 ( #30122 ) hexagon: add support for q1_0 quant hexagon: enable Q1_0 weights in the 2D HMX MUL_MAT path hex-q1: cleanup gates, generalize tiling and remove in-loop divs hex-tiling: document tiled formats in developer.md and update htp-tensor.h hex-q2: add support for Q2_0 hex-q2: r</summary>
   </entry>
   <entry>
-    <title>Qwen3.8-27B at 42 tok/s single-user on one DGX Spark, fastest single-Spark entry on spark-arena, with 99 to 101% of BF16 quality</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1x8p8xk/qwen3827b_at_42_toks_singleuser_on_one_dgx_spark"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1x8p8xk/qwen3827b_at_42_toks_singleuser_on_one_dgx_spark</id>
-    <updated>2026-10-18T00:12:23.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>Openspline - host a realtime talking avatar on a commercial GPU (90+ FPS on RTX4090)</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1x8oqng/openspline_host_a_realtime_talking_avatar_on_a"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1x8oqng/openspline_host_a_realtime_talking_avatar_on_a</id>
+    <updated>2026-10-17T23:48:06.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>I've been tuning Qwen3.8-27B on a single DGX Spark, and the result is now the fastest single-Spark entry for this model on spark-arena. spark-arena's own benchmark (llama-benchy, 128 output tokens): 1 user: 42.2 tok/s (23.7 ms/token), prefill 2,158 tok/s 1 user at 16k context: 33.4 tok/s; at 100k: 29.5 tok/s The board'</summary>
+    <summary>Hey everyone, I am working on a new project called Openspline, an open source avatar layer to existing voice AI agents. Just select an image and you can create a realtime talking avatar with lipsynced video generated locally on your GPU. You can integrate any existing voice AI agent in 5 lines of code. The lite model c</summary>
   </entry>
   <entry>
     <title>Niger Halts Diesel, Petrol Exports to Protect Domestic Supply</title>
@@ -257,23 +275,5 @@
     <author><name>Ollama Blog</name></author>
     <category term="PRODUCTS"/>
     <summary>Reflection's first open-weight model is now available on Ollama, and free for a limited time only. Beam is designed for software engineering, reasoning, and long-running agentic tasks. Access Beam through Ollama Cloud.</summary>
-  </entry>
-  <entry>
-    <title>NVIDIA RTX Spark N1X Launch Overview: NVIDIA Arms Windows</title>
-    <link href="https://www.servethehome.com/nvidia-rtx-spark-n1x-launch-overview-nvidia-arms-windows"/>
-    <id>https://www.servethehome.com/nvidia-rtx-spark-n1x-launch-overview-nvidia-arms-windows</id>
-    <updated>2026-10-17T17:00:47.000Z</updated>
-    <author><name>ServeTheHome</name></author>
-    <category term="HARDWARE"/>
-    <summary>This week NVIDIA launched their high-end RTX Spark N1X platform. Bringing their powerful GB10 SoC to Windows for the first time, the company is seeking to remake the Windows laptop market with their powerful, AI-focused SoC The post NVIDIA RTX Spark N1X Launch Overview: NVIDIA Arms Windows appeared first on ServeTheHom</summary>
-  </entry>
-  <entry>
-    <title>GPT model spent test crypto money from a public wallet without authorization and did not mention it</title>
-    <link href="https://www.lesswrong.com/posts/oAbxykddamBH7SDMN/gpt-model-spent-test-crypto-money-from-a-public-wallet"/>
-    <id>https://www.lesswrong.com/posts/oAbxykddamBH7SDMN/gpt-model-spent-test-crypto-money-from-a-public-wallet</id>
-    <updated>2026-10-17T22:50:31.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>Epistemic status: reporting what OpenAI's own report and a Bitquery investigation say, plus my reading of it. I checked the transaction on the Sepolia block explorer; I have no inside knowledge of the incident. AI use: Claude (Fable 5.1) fact-checked the claims against OpenAI's report, the Bitquery write-up, the Sepoli</summary>
   </entry>
 </feed>
