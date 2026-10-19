@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-19T16:08:44.541Z</updated>
+  <updated>2026-10-19T17:18:34.762Z</updated>
   <entry>
     <title>AI firm Anthropic to commit 5% of shares to fund for ‘public good’</title>
     <link href="https://www.theguardian.com/technology/2026/oct/19/ai-firm-anthropic-to-commit-shares-to-fund-for-public-good"/>
@@ -25,31 +25,22 @@
     <summary>The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.</summary>
   </entry>
   <entry>
-    <title>The neocloud shakeout is coming, and Nvidia has the most to lose</title>
-    <link href="https://the-decoder.com/the-neocloud-shakeout-is-coming-and-nvidia-has-the-most-to-lose"/>
-    <id>https://the-decoder.com/the-neocloud-shakeout-is-coming-and-nvidia-has-the-most-to-lose</id>
-    <updated>2026-10-19T11:33:36.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>llama.cpp b11738 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11738"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11738</id>
+    <updated>2026-10-19T17:04:01.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>After stock crashes and Firmus's scrapped IPO, industry executives expect only seven to ten of the hundreds of AI cloud providers to survive. CoreWeave lost a quarter of its market value, and Microsoft pulled out of a deal with Nscale for 23,000 Nvidia chips. Nvidia has a lot riding on the outcome, since customers outs</summary>
+    <summary>server : fix swa checkpoint invalidation logic ( #30666 ) server : fix swa checkpoint invalidation logic Assisted-by: Claude add testcase that fails with &gt; n_past, but works with &gt; n_prefix Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57466532 macOS/iOS: macOS Apple Silico</summary>
   </entry>
   <entry>
-    <title>Amazon introduces TorchNeuron, an open-source tool that will allow developers to run code written in PyTorch on Amazon's Trainium chips with no rewrite (Todd Bishop/GeekWire)</title>
-    <link href="https://www.techmeme.com/261019/p32"/>
-    <id>https://www.techmeme.com/261019/p32</id>
-    <updated>2026-10-19T15:55:01.000Z</updated>
+    <title>Apple announces a &quot;Pro and tell&quot; event on October 28 at 10am PT in LA, where its first touchscreen MacBook, a 14-inch MacBook Pro with M6, and more are expected (Chance Miller/9to5Mac)</title>
+    <link href="https://www.techmeme.com/261019/p33"/>
+    <id>https://www.techmeme.com/261019/p33</id>
+    <updated>2026-10-19T16:15:02.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Todd Bishop / GeekWire : Amazon introduces TorchNeuron, an open-source tool that will allow developers to run code written in PyTorch on Amazon's Trainium chips with no rewrite — A new software tool from Amazon aims to make switching from Nvidia to the company's own AI chips about as simple as changing a setting.</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp b11737 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11737"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11737</id>
-    <updated>2026-10-19T12:23:23.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>vendor : update cpp-httplib to 0.62.0 ( #30785 )</summary>
+    <summary>Chance Miller / 9to5Mac : Apple announces a “Pro and tell” event on October 28 at 10am PT in LA, where its first touchscreen MacBook, a 14-inch MacBook Pro with M6, and more are expected — Apple today announced its second experience of the month, taking place next Wednesday, October 28 at 10 a.m. PT. The tagline for th</summary>
   </entry>
   <entry>
     <title>RealCLI: Toward a Unified Evaluation of Human-Agent Collaboration for CLI Agents</title>
@@ -79,13 +70,22 @@
     <summary>cuda: cap Stream-K blocks at the number of k-blocks Stream-K normally launches one CUDA block per SM. For small matrices, this can exceed the total number of output-tile/k-block pairs, leaving blocks with no work and adding launch and fixup overhead. Cap the grid at that count to remove these excess blocks without chan</summary>
   </entry>
   <entry>
-    <title>Introducing TorchNeuron: Native PyTorch backend for AWS Trainium</title>
-    <link href="https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium"/>
-    <id>https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium</id>
-    <updated>2026-10-19T12:45:23.000Z</updated>
-    <author><name>PyTorch Blog</name></author>
+    <title>Amazon launches TorchNeuron, an open-source framework that lets developers run PyTorch code on Amazon's Trainium chips with no rewriting needed, in public beta (Todd Bishop/GeekWire)</title>
+    <link href="https://www.techmeme.com/261019/p32"/>
+    <id>https://www.techmeme.com/261019/p32</id>
+    <updated>2026-10-19T15:55:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Todd Bishop / GeekWire : Amazon launches TorchNeuron, an open-source framework that lets developers run PyTorch code on Amazon's Trainium chips with no rewriting needed, in public beta — A new software tool from Amazon aims to make switching from Nvidia to the company's own AI chips about as simple as changing a settin</summary>
+  </entry>
+  <entry>
+    <title>Anthropic’s weak AI bill undermines its ‘safety first’ approach</title>
+    <link href="https://www.transformernews.ai/p/anthropic-leaked-ai-bill-undermines-safety-first-approach"/>
+    <id>https://www.transformernews.ai/p/anthropic-leaked-ai-bill-undermines-safety-first-approach</id>
+    <updated>2026-10-19T16:47:52.000Z</updated>
+    <author><name>Transformer</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Frontier models span language, video and audio, on architectures from dense and mixture-of-experts transformers to diffusion, state-space, world and structure-prediction models. PyTorch is where AI research happens, where the models... The post Introducing TorchNeuron: Native PyTorch backend for AWS Trainium appeared f</summary>
+    <summary>The leaked draft bill is weaker than the FRONTIER Act and makes Anthropic’s safety-first pitch ring hollow</summary>
   </entry>
   <entry>
     <title>NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production</title>
@@ -97,13 +97,13 @@
     <summary>At a creative industry event that took place today in Berlin — hosted in collaboration with Adobe, Bertelsmann, NVIDIA and UFA — the latest advancements in intelligent media were on display. Key to the news: the European Broadcasting Union (EBU) is collaborating with NVIDIA to expand its sovereign framework with cloud,</summary>
   </entry>
   <entry>
-    <title>F5 releases out-of-band patches for critical NGINX vulnerabilities</title>
-    <link href="https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities"/>
-    <id>https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities</id>
-    <updated>2026-10-19T13:49:24.000Z</updated>
-    <author><name>BleepingComputer</name></author>
+    <title>Ahold Delhaize confirms 'malicious actions' behind cyber outages affecting grocery brands</title>
+    <link href="https://therecord.media/ahold-delhaize-cyberattack-grocery"/>
+    <id>https://therecord.media/ahold-delhaize-cyberattack-grocery</id>
+    <updated>2026-10-19T16:45:00.000Z</updated>
+    <author><name>The Record</name></author>
     <category term="CYBER THREATS"/>
-    <summary>F5 has released out-of-band security patches to address multiple NGINX web server flaws, including three critical-severity vulnerabilities that can let attackers execute code on vulnerable systems. [...]</summary>
+    <summary>Ahold Delhaize, the Dutch multinational grocery retailer, said Monday that a cyberattack forced it to take systems offline across most of its U.S. and European brands, impacting shoppers on both sides of the Atlantic.</summary>
   </entry>
   <entry>
     <title>b11735: metal : fix moe_reduce fusion race when dst aliases its inputs (#30795)</title>
@@ -115,13 +115,13 @@
     <summary>The fused moe_reduce kernel computes dst = sum(experts[e] * weights[e]) in a single dispatch, reading experts and weights while writing dst. The graph allocator computes tensor liveness on the unfused graph, where the inputs are fully consumed by earlier nodes of the fused group, so it can legally recycle the input mem</summary>
   </entry>
   <entry>
-    <title>The FDE Bubble: Silicon Valley’s Most Expensive Game Of Pretend</title>
-    <link href="https://news.crunchbase.com/venture/fde-bubble-enterprise-agentic-ai-gurtu-airrived"/>
-    <id>https://news.crunchbase.com/venture/fde-bubble-enterprise-agentic-ai-gurtu-airrived</id>
-    <updated>2026-10-19T11:00:19.000Z</updated>
-    <author><name>Crunchbase News AI</name></author>
+    <title>Tolan, an AI assistant focused on users that are not tech-savvy, raised $30M from USV, Khosla Ventures, and Homebrew, and says 70% of its users are women (Alex Konrad/Upstarts Media)</title>
+    <link href="https://www.techmeme.com/261019/p36"/>
+    <id>https://www.techmeme.com/261019/p36</id>
+    <updated>2026-10-19T17:15:01.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="FUNDING &amp; DEALS"/>
-    <summary>Enterprise AI companies relying on armies of forward deployed engineers are disguising labor-intensive services as scalable software, inflating recurring revenue and valuations while falling short of autonomy claims, argues Anurag Gurtu, co-founder and CEO of Airrived. In this guest commentary he urges buyers and inves</summary>
+    <summary>Alex Konrad / Upstarts Media : Tolan, an AI assistant focused on users that are not tech-savvy, raised $30M from USV, Khosla Ventures, and Homebrew, and says 70% of its users are women — Far from Silicon Valley's echo chamber, about 250,000 everyday people turn to AI app Tolan as a friendly voice, or to help organize t</summary>
   </entry>
   <entry>
     <title>AI Proved the Quasi-Riemann Hypothesis. What Happens Now?</title>
@@ -151,6 +151,15 @@
     <summary>TORONTO, Oct. 19, 2026 — Xanadu Quantum Technologies Limited, a leading photonic quantum computing company, today announced that it has received provisional approval for project funding worth up to USD $10 million under DARPA’s Quantum Benchmarking Initiative (QBI). This one-year contract extension reflects DARPA’s ong</summary>
   </entry>
   <entry>
+    <title>The neocloud shakeout is coming, and Nvidia has the most to lose</title>
+    <link href="https://the-decoder.com/the-neocloud-shakeout-is-coming-and-nvidia-has-the-most-to-lose"/>
+    <id>https://the-decoder.com/the-neocloud-shakeout-is-coming-and-nvidia-has-the-most-to-lose</id>
+    <updated>2026-10-19T11:33:36.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>After stock crashes and Firmus's scrapped IPO, industry executives expect only seven to ten of the hundreds of AI cloud providers to survive. CoreWeave lost a quarter of its market value, and Microsoft pulled out of a deal with Nscale for 23,000 Nvidia chips. Nvidia has a lot riding on the outcome, since customers outs</summary>
+  </entry>
+  <entry>
     <title>Stripe says AI agent purchases are adding up, but it won't share the numbers</title>
     <link href="https://the-decoder.com/stripe-says-ai-agent-purchases-are-adding-up-but-it-wont-share-the-numbers"/>
     <id>https://the-decoder.com/stripe-says-ai-agent-purchases-are-adding-up-but-it-wont-share-the-numbers</id>
@@ -158,15 +167,6 @@
     <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
     <summary>AI agents are increasingly using Stripe's payment service Link to shop for their users, Upstarts Media reports. The article Stripe says AI agent purchases are adding up, but it won't share the numbers appeared first on The Decoder .</summary>
-  </entry>
-  <entry>
-    <title>Anthropic plans fund for workers threatened by AI, Musk counters with SpaceX shares for children</title>
-    <link href="https://the-decoder.com/anthropic-plans-fund-for-workers-threatened-by-ai-musk-counters-with-spacex-shares-for-children"/>
-    <id>https://the-decoder.com/anthropic-plans-fund-for-workers-threatened-by-ai-musk-counters-with-spacex-shares-for-children</id>
-    <updated>2026-10-19T11:19:12.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Anthropic wants to put five percent of its shares into a new public benefit fund that will also look into direct payments to workers at risk of losing their jobs. The fund is a company-owned LLC, so Anthropic keeps control of it as a possible IPO approaches. By offering the option of direct payments, Anthropic goes fur</summary>
   </entry>
   <entry>
     <title>Nvidia launches new open models to run agents in the enterprise and on PCs</title>
@@ -178,22 +178,22 @@
     <summary>Nvidia is leaning hard into the trend of enterprise companies wanting to run their own open models in their own data centers and also trying to make on-device, private AI agents a thing.</summary>
   </entry>
   <entry>
-    <title>MiniMax launches M3.1 Flash, saying it delivers &quot;a generational leap&quot; in agentic tasks, coding, computer use, and cybersecurity, with weights due October 23 (MiniMax)</title>
-    <link href="https://www.techmeme.com/261019/p30"/>
-    <id>https://www.techmeme.com/261019/p30</id>
-    <updated>2026-10-19T15:30:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>MiniMax : MiniMax launches M3.1 Flash, saying it delivers “a generational leap” in agentic tasks, coding, computer use, and cybersecurity, with weights due October 23 — Space Bunny 🐰, which processed more than 200 trillion tokens while operating anonymously, was an early version of MiniMax M3.1 Flash.</summary>
+    <title>MiniMax M3.1 Flash released, Space Bunny was an early version, weights Oct 23</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xa1rru/minimax_m31_flash_released_space_bunny_was_an"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xa1rru/minimax_m31_flash_released_space_bunny_was_an</id>
+    <updated>2026-10-19T16:36:18.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>MiniMax-M3.1-Flash dropped today. According to the announcement, Space Bunny (the stealth model that showed up on OpenRouter in late September) was an earlier version of it. https://x.com/MiniMax_AI/status/2112150867868541221 They claim 1/3 the cost of M3 and 3x the speed. Benchmarks from the announcement: Automation-B</summary>
   </entry>
   <entry>
-    <title>[Linux] Unlock the bf16 tensor cores on RTX3090</title>
-    <link href="https://sh.itjust.works/post/68576910"/>
-    <id>https://sh.itjust.works/post/68576910</id>
-    <updated>2026-10-19T14:48:11.000Z</updated>
-    <author><name>Lemmy c/localllama</name></author>
+    <title>llama.cpp support for Cohere models</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xa0cyz/llamacpp_support_for_cohere_models"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xa0cyz/llamacpp_support_for_cohere_models</id>
+    <updated>2026-10-19T15:43:29.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by fhein to localllama 2 points | 0 comments https://github.com/Zagitta/gpu-unlock Using the same exploit that recently allowed unlocking features of Nvidia mining GPUs, an unlocker for RTX 3090 has been created. Unfortunately the card doesn’t have hidden VRAM to enable, but we can get some free floating poin</summary>
+    <summary>Hey guys, Nick here from Cohere. It's been a minute. We had a great time launching Command A+ and beta-testing North Mini Code with you guys earlier this year, your feedback has really helped make our models and delivery much better. one of the biggest things we heard was that you really wanted llama.cpp support, which</summary>
   </entry>
   <entry>
     <title>AuditKIT: A Unified Evaluation Spine for Benchmarking, Judging, and Comparing Large Language Models and Agentic Systems</title>
@@ -205,15 +205,6 @@
     <summary>arXiv:2610.22511v1 Announce Type: new Abstract: Evaluating language models and agents requires combining benchmark accuracy, judge-based assessment, runtime performance, tool-use behavior, and retrieval quality. Differences in interfaces, metric semantics, and trace formats complicate these comparisons and can hide fai</summary>
   </entry>
   <entry>
-    <title>CIBC Preps Up to C$1 Billion Limited Recourse Capital Note Sale</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-19/cibc-preps-up-to-c-1-billion-limited-recourse-capital-note-sale"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-19/cibc-preps-up-to-c-1-billion-limited-recourse-capital-note-sale</id>
-    <updated>2026-10-19T15:26:12.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Canadian Imperial Bank of Commerce is readying a sale of as much as C$1 billion ($710 million) of additional tier-one bonds, according to people familiar with the matter.</summary>
-  </entry>
-  <entry>
     <title>Submit a question: Could Anthropic’s IPO be a turning point for AI?</title>
     <link href="https://www.ft.com/content/8cdf338e-d472-460c-8642-a8f033b99462?syn-25a6b1a6=1"/>
     <id>https://www.ft.com/content/8cdf338e-d472-460c-8642-a8f033b99462?syn-25a6b1a6=1</id>
@@ -221,6 +212,15 @@
     <author><name>FT Artificial Intelligence</name></author>
     <category term="AI FINANCE"/>
     <summary>Join us for a live Ask an Expert Q&amp;A with Richard Waters, the FT’s tech writer at large, and George Hammond, the FT’s venture capital correspondent, at 8am (PDT)/4pm (BST) on Thursday October 22</summary>
+  </entry>
+  <entry>
+    <title>Thinking More About AI and the Shale Boom Parallel</title>
+    <link href="https://www.bloomberg.com/news/newsletters/2026-10-19/thinking-more-about-ai-and-the-shale-boom-parallel"/>
+    <id>https://www.bloomberg.com/news/newsletters/2026-10-19/thinking-more-about-ai-and-the-shale-boom-parallel</id>
+    <updated>2026-10-19T17:09:52.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Looking past the telecom comparison.</summary>
   </entry>
   <entry>
     <title>When is a large language model a good calibration agent? Physics-labeled prompting for budgeted engineering simulator calibration</title>
@@ -241,22 +241,22 @@
     <summary>With Helion’s release last year, it aimed at enabling developers to write GPU kernels in PyTorch-native Python and let its powerful autotuner do the work that used to require hand-written... The post One Search, Two Layers: Compiler Controls Inside PyTorch Helion using NVIDIA CompileIQ appeared first on PyTorch .</summary>
   </entry>
   <entry>
-    <title>JB Pritzker thinks AI could help us live to 100 — or threaten us like nukes</title>
-    <link href="https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws"/>
-    <id>https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws</id>
-    <updated>2026-10-19T14:30:00.000Z</updated>
-    <author><name>The Verge AI</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>Today, I’m talking with Illinois Gov. JB Pritzker, who has a lot of thoughts about AI, tech, and privacy. If you’ve been listening to the show, you know that one of my running theories is that those issues are driving a big and maybe kind of unexpected political realignment — and with the midterms coming […]</summary>
+    <title>Introducing TorchNeuron: Native PyTorch backend for AWS Trainium</title>
+    <link href="https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium"/>
+    <id>https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium</id>
+    <updated>2026-10-19T12:45:23.000Z</updated>
+    <author><name>PyTorch Blog</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Frontier models span language, video and audio, on architectures from dense and mixture-of-experts transformers to diffusion, state-space, world and structure-prediction models. PyTorch is where AI research happens, where the models... The post Introducing TorchNeuron: Native PyTorch backend for AWS Trainium appeared f</summary>
   </entry>
   <entry>
-    <title>First Strike</title>
-    <link href="https://www.lesswrong.com/posts/FryXmBYCATETTGMJC/first-strike"/>
-    <id>https://www.lesswrong.com/posts/FryXmBYCATETTGMJC/first-strike</id>
-    <updated>2026-10-19T15:03:50.000Z</updated>
+    <title>Suffering Risks Belong in AI Prospectuses</title>
+    <link href="https://www.lesswrong.com/posts/G9LTeKN8WePoMnATS/suffering-risks-belong-in-ai-prospectuses"/>
+    <id>https://www.lesswrong.com/posts/G9LTeKN8WePoMnATS/suffering-risks-belong-in-ai-prospectuses</id>
+    <updated>2026-10-19T16:20:17.000Z</updated>
     <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>The prairie lodge had two virtues - it was quiet and had an excellent golf course nearby. Outsiders thought the point of the trip was visiting national landmarks and airbases, insiders knew it was about taking some time off. The job might be 24/7 - but if you are the boss you will find a way. So when Agent Ortega knock</summary>
+    <summary>Anthropic should disclose suffering risks alongside the “catastrophic or existential risks to humanity” reportedly described in its draft prospectus . A prospectus that warns of AI ending humanity should also address the risk of AI subjecting some or all humans to a billion years of torment. Item 105 of Regulation S-K </summary>
   </entry>
   <entry>
     <title>An MCP that Reads Your Reddits and Runs Python Hidden in an Image</title>
