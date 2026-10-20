@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-20T00:21:25.962Z</updated>
+  <updated>2026-10-20T00:43:46.262Z</updated>
   <entry>
     <title>Advancing coding in low‑resource programming languages</title>
     <link href="https://openai.com/index/low-resource-programming-languages"/>
@@ -43,15 +43,6 @@
     <summary>Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 328 # Comments: 86</summary>
   </entry>
   <entry>
-    <title>llama.cpp b11747 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11747"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11747</id>
-    <updated>2026-10-20T00:02:29.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>mtmd : match the transformers Qwen-VL resize ( #30736 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57593886 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm6</summary>
-  </entry>
-  <entry>
     <title>Nscale and Anthropic are reportedly in talks for yet another $45 billion compute deal</title>
     <link href="https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal"/>
     <id>https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal</id>
@@ -59,6 +50,15 @@
     <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
     <summary>In August, Nscale and Anthropic announced a $45 billion compute deal. The two companies are reportedly discussing yet another deal of the same magnitude.</summary>
+  </entry>
+  <entry>
+    <title>llama.cpp b11748 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11748"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11748</id>
+    <updated>2026-10-20T00:27:18.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>sycl : fix get_rows on reordered quantized weights ( #30430 ) Co-authored-by: Sam sam@garagellm.tail7dd858.ts.net Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57598742 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel</summary>
   </entry>
   <entry>
     <title>Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts</title>
@@ -77,6 +77,15 @@
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
     <summary>Shares of Mynt Inc. are set to make their debut Tuesday after the biggest-ever initial public offering in the Philippines, potentially giving global investors a new bet in a market they have ignored for years.</summary>
+  </entry>
+  <entry>
+    <title>transformers v5.20.2 released</title>
+    <link href="https://github.com/huggingface/transformers/releases/tag/v5.20.2"/>
+    <id>https://github.com/huggingface/transformers/releases/tag/v5.20.2</id>
+    <updated>2026-10-19T17:45:37.000Z</updated>
+    <author><name>huggingface/transformers</name></author>
+    <category term="RESEARCH"/>
+    <summary>Patch release: v5.20.2 This patch notably solves an issue where some inputs could loose their original type inside prepare_inputs_for_generation in generate , leading to problems with multimodal models. It also fixes some other issues listed on the below commits. It contains the following commits: Fix inputs dict casti</summary>
   </entry>
   <entry>
     <title>Amazon SageMaker JumpStart: 2026 year-to-date in review</title>
@@ -122,15 +131,6 @@
     <author><name>NVIDIA Blog</name></author>
     <category term="AI SECURITY"/>
     <summary>At a creative industry event that took place today in Berlin — hosted in collaboration with Adobe, Bertelsmann, NVIDIA and UFA — the latest advancements in intelligent media were on display. Key to the news: the European Broadcasting Union (EBU) is collaborating with NVIDIA to expand its sovereign framework with cloud,</summary>
-  </entry>
-  <entry>
-    <title>transformers v5.20.2 released</title>
-    <link href="https://github.com/huggingface/transformers/releases/tag/v5.20.2"/>
-    <id>https://github.com/huggingface/transformers/releases/tag/v5.20.2</id>
-    <updated>2026-10-19T17:45:37.000Z</updated>
-    <author><name>huggingface/transformers</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>Patch release: v5.20.2 This patch notably solves an issue where some inputs could loose their original type inside prepare_inputs_for_generation in generate , leading to problems with multimodal models. It also fixes some other issues listed on the below commits. It contains the following commits: Fix inputs dict casti</summary>
   </entry>
   <entry>
     <title>Palo Alto Networks CEO Advises Daughter on New AI-Focused Venture Capital Fund</title>
@@ -196,22 +196,22 @@
     <summary>Leah Nylen / Bloomberg : The US FTC clears Publicis' $2.2B LiveRamp acquisition, subject to a consent decree requiring equal access to LiveRamp's data connectivity tools for all clients — The US Federal Trade Commission said it will allow Publicis Groupe SA to complete the $2.2 billion acquisition of LiveRamp Holdings </summary>
   </entry>
   <entry>
-    <title>b11748: sycl : fix get_rows on reordered quantized weights (#30430)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11748"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11748</id>
-    <updated>2026-10-19T23:47:21.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>12GB VRAM + 16GB RAM is enough for very smart local AI with 120K+ context</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1xabms5/12gb_vram_16gb_ram_is_enough_for_very_smart_local"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1xabms5/12gb_vram_16gb_ram_is_enough_for_very_smart_local</id>
+    <updated>2026-10-19T22:48:59.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Co-authored-by: Sam sam@garagellm.tail7dd858.ts.net</summary>
+    <summary>I previously posted some performance stats running Qwen 3.8 27B locally using the ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF running on llama.cpp. I am using the Q3-XXS version but before you judge it unworthy (since it's a lowly Q3) check it out - it's very close to the Unsloth Q4 version - maybe even better! I have had a b</summary>
   </entry>
   <entry>
-    <title>llama.cpp support for Cohere models</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xa0cyz/llamacpp_support_for_cohere_models"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xa0cyz/llamacpp_support_for_cohere_models</id>
-    <updated>2026-10-19T15:43:29.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>GitHub Announces New Authentication Policy Affecting Access from Local LLMs</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1xa5vqe/github_announces_new_authentication_policy"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1xa5vqe/github_announces_new_authentication_policy</id>
+    <updated>2026-10-19T19:06:14.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Hey guys, Nick here from Cohere. It's been a minute. We had a great time launching Command A+ and beta-testing North Mini Code with you guys earlier this year, your feedback has really helped make our models and delivery much better. one of the biggest things we heard was that you really wanted llama.cpp support, which</summary>
+    <summary>submitted by /u/Cold_Fireball [link] [comments]</summary>
   </entry>
   <entry>
     <title>How Numan Built an Eval-First AI Health Coach with LangGraph and LangSmith</title>
