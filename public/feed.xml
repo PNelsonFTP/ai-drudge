@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-21T07:09:01.632Z</updated>
+  <updated>2026-10-21T07:46:30.152Z</updated>
   <entry>
     <title>OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business</title>
     <link href="https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business"/>
@@ -14,6 +14,15 @@
     <author><name>TechCrunch AI</name></author>
     <category term="MODEL RELEASES"/>
     <summary>OpenAI says it's adding Orchestra's team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results. — Also covered by: OpenAI News</summary>
+  </entry>
+  <entry>
+    <title>llama.cpp b11786 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11786"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11786</id>
+    <updated>2026-10-21T07:34:37.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>ggml-cpu : compute f32 gelu_quick and geglu_quick without the fp16 ta… — Also covered by: LocalLLaMA Subreddit</summary>
   </entry>
   <entry>
     <title>DeepSeek Open-Sources Framework Behind Its High-Margin AI Inference</title>
@@ -70,13 +79,13 @@
     <summary>Meta has a new open source model, and to everyone's surprise, they are are partnering with Apple to make sure you can run it locally.</summary>
   </entry>
   <entry>
-    <title>llama.cpp b11785 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11785"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11785</id>
-    <updated>2026-10-21T06:37:54.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>ollama v0.40.7 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.7"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.7</id>
+    <updated>2026-10-21T04:01:19.000Z</updated>
+    <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>llama : scale moe down projection per expert token ( #30861 ) llama : scale moe down projection per expert token Replace the global amax rescaling for the MoE down projection with a per-expert-token factor computed by a POOL_1D max reduction along the intermediate dimension. Undo the scale on the output with the same e</summary>
+    <summary>What's Changed pplx-decider is a 27B decision model from Perplexity, fine-tuned from Qwen3.8-27B Continuing an OpenAI-compatible Responses conversation no longer fails when switching between models with and without thinking, or when the history contains another provider's compaction items Fixed streaming Responses requ</summary>
   </entry>
   <entry>
     <title>Voxtral 3</title>
@@ -88,22 +97,13 @@
     <summary>Voxtral 3: Mistral's voice agent SDK for real-time speech in 50+ languages — accurate transcription, emotional TTS, deep tool use. EU-hosted or self-deployed.</summary>
   </entry>
   <entry>
-    <title>Australian data centre group falls 44% on profit warning</title>
-    <link href="https://www.ft.com/content/023caf76-40df-485d-8a28-0ff62aa7ec6f?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/023caf76-40df-485d-8a28-0ff62aa7ec6f?syn-25a6b1a6=1</id>
-    <updated>2026-10-21T06:33:49.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
+    <title>Carlsberg Said to Near Public Filing for $700 Million India IPO</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-21/carlsberg-said-to-near-public-filing-for-700-million-india-ipo"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-21/carlsberg-said-to-near-public-filing-for-700-million-india-ipo</id>
+    <updated>2026-10-21T07:23:07.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>NextDC plunge adds to sector woes as Nvidia holds talks over injecting capital into Firmus after failed IPO</summary>
-  </entry>
-  <entry>
-    <title>ollama v0.40.7 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.7"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.7</id>
-    <updated>2026-10-21T04:01:19.000Z</updated>
-    <author><name>ollama/ollama</name></author>
-    <category term="RESEARCH"/>
-    <summary>What's Changed pplx-decider is a 27B decision model from Perplexity, fine-tuned from Qwen3.8-27B Continuing an OpenAI-compatible Responses conversation no longer fails when switching between models with and without thinking, or when the history contains another provider's compaction items Fixed streaming Responses requ</summary>
+    <summary>Carlsberg A/S is preparing to publicly file documents for an initial public offering of its India business, which could raise as much as $700 million, as early as this week, according to people familiar with the matter.</summary>
   </entry>
   <entry>
     <title>Mistral AI launches Voxtral 3, a full voice agent stack that listens, thinks, and talks in real time</title>
@@ -113,6 +113,15 @@
     <author><name>The Decoder</name></author>
     <category term="PRODUCTS"/>
     <summary>Mistral AI launched Voxtral 3, a new family of language models built for real-time voice agents. The system combines speech-to-text, text-to-speech, and a voice agent SDK, supports more than 50 languages, and lets agents tap into external tools during live conversations. It can run on your own infrastructure or through</summary>
+  </entry>
+  <entry>
+    <title>Announcing Humming: Fast, Flexible Kernels for Quantized Inference</title>
+    <link href="https://vllm.ai/blog/2026-10-21-humming"/>
+    <id>https://vllm.ai/blog/2026-10-21-humming</id>
+    <updated>2026-10-21T00:00:00.000Z</updated>
+    <author><name>vLLM Blog</name></author>
+    <category term="HARDWARE"/>
+    <summary>Introducing Humming, a quantized inference kernel library from Ant Group and the vLLM community, with broad GPU and quantization support, dense and MoE performance results, and vLLM integration.</summary>
   </entry>
   <entry>
     <title>Translating in style: An open-weight alternative to GPT-4 for culturally aligned machine translation</title>
@@ -187,6 +196,15 @@
     <summary>Today, I take a break from your regularly-scheduled AI mathocalypse programming to urge my American readers to vote in the Congressional midterms, early if possible, if you haven’t already. Especially if your state faces one or more major contests, as does my adopted home state of Texas. Me, I voted straight-ticket Dem</summary>
   </entry>
   <entry>
+    <title>Southeast Asia’s digital economy to hit $368 billion</title>
+    <link href="https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026"/>
+    <id>https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026</id>
+    <updated>2026-10-21T04:00:00.000Z</updated>
+    <author><name>Google AI Blog</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion in 2026 and $1 trillion by 2035.</summary>
+  </entry>
+  <entry>
     <title>A look at Chinese philosophical views on AI: one says aligning AI to human values may be a &quot;suicidal mistake&quot;, another fears the &quot;machinization of humans&quot;, more (Arnaud Bertrand)</title>
     <link href="https://www.techmeme.com/261021/p7"/>
     <id>https://www.techmeme.com/261021/p7</id>
@@ -205,6 +223,15 @@
     <summary>Rafe Rosner-Uddin / Financial Times : OpenEvidence says nearly two-thirds of ~1M US physicians use its AI search engine; a source says it is on track to generate $400M-$500M in 2026 ad revenue — Founder of OpenEvidence chatbot says two-thirds of US physicians use the ad-powered tool, prompting a debate about patient ca</summary>
   </entry>
   <entry>
+    <title>KFlash: Benchmarks of newly released versions of Apple Silicon optimized engines: 1.4.0 Splash (DFlash2 ~ 50 tok/s) vs 0.2 Kapitsa (KFlash ~65 tok/s), MLX(MTP) &amp; more on Qwen 3.8 27b/4b/35b 4Q on Macbook Pro M4 Pro 48 GB 2024, 48GB &amp; Macbook Pro M1 Pro 16GB 2021</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xbdxg3/kflash_benchmarks_of_newly_released_versions_of"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xbdxg3/kflash_benchmarks_of_newly_released_versions_of</id>
+    <updated>2026-10-21T04:47:12.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>hey folks, its Ye, I work on an open source project called Kapitsa : its a fast Apple Silicon optimized inference engine built for Qwen and Nemotron models. this week two new releases landed in local inference: Inco shipped Splash 1.4.0 yesterday, and we shipped Kapitsa 0.2 today with a new speculative decoding method </summary>
+  </entry>
+  <entry>
     <title>mlx: deduplicate CUDA runtime payloads (#17956)</title>
     <link href="https://github.com/ollama/ollama/releases/tag/v0.40.7-rc1"/>
     <id>https://github.com/ollama/ollama/releases/tag/v0.40.7-rc1</id>
@@ -212,15 +239,6 @@
     <author><name>ollama/ollama</name></author>
     <category term="LOCAL MODELS"/>
     <summary>Deduplicate MLX CUDA runtime payloads Move CUDA libraries shared by the GGML and MLX backends into the sibling CUDA payload, and teach in-process and subprocess MLX loading to resolve that packaged dependency directory. Keep MLX-private libraries and JIT headers in the MLX overlay, include the full OpenBLAS Fortran run</summary>
-  </entry>
-  <entry>
-    <title>Announcing Humming: Fast, Flexible Kernels for Quantized Inference</title>
-    <link href="https://vllm.ai/blog/2026-10-21-humming"/>
-    <id>https://vllm.ai/blog/2026-10-21-humming</id>
-    <updated>2026-10-21T00:00:00.000Z</updated>
-    <author><name>vLLM Blog</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Introducing Humming, a quantized inference kernel library from Ant Group and the vLLM community, with broad GPU and quantization support, dense and MoE performance results, and vLLM integration.</summary>
   </entry>
   <entry>
     <title>DataPraxis: Scaling Analytics Tasks via Verified Workspace Evolution</title>
@@ -232,22 +250,22 @@
     <summary>arXiv:2610.26924v1 Announce Type: new Abstract: General-purpose agents are increasingly expected to perform professional analytics work, which requires sustained reasoning, iterative investigation, and reliable evidence. Training these capabilities requires diverse and challenging tasks. However, generating tasks direc</summary>
   </entry>
   <entry>
-    <title>Bank Indonesia Holds Rate as MSCI Shock Threatens Rupiah</title>
+    <title>Australian data centre group falls 44% on profit warning</title>
+    <link href="https://www.ft.com/content/023caf76-40df-485d-8a28-0ff62aa7ec6f?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/023caf76-40df-485d-8a28-0ff62aa7ec6f?syn-25a6b1a6=1</id>
+    <updated>2026-10-21T06:33:49.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="AI FINANCE"/>
+    <summary>NextDC plunge adds to sector woes as Nvidia holds talks over injecting capital into Firmus after failed IPO</summary>
+  </entry>
+  <entry>
+    <title>Indonesia Holds Rate, Cuts RRR as MSCI Shock Hits Rupiah</title>
     <link href="https://www.bloomberg.com/news/articles/2026-10-21/bank-indonesia-holds-rate-as-msci-shock-threatens-rupiah"/>
     <id>https://www.bloomberg.com/news/articles/2026-10-21/bank-indonesia-holds-rate-as-msci-shock-threatens-rupiah</id>
     <updated>2026-10-21T06:55:59.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Bank Indonesia kept its benchmark interest rate unchanged, opting to continue relying on targeted measures to support the rupiah through the market volatility triggered by MSCI Inc.’s double-downgrade threat.</summary>
-  </entry>
-  <entry>
-    <title>Chiriseri: France’s Fiscal Picture Concern Bond Markets</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-21/chiriseri-france-s-fiscal-picture-concern-bond-markets-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-21/chiriseri-france-s-fiscal-picture-concern-bond-markets-video</id>
-    <updated>2026-10-21T07:00:05.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Treasury yields edged higher as the recent bond rally lost some momentum. Bloomberg’s strategists say longer term, they see yields reaching fresher highs as strong US growth, higher borrowing costs and rising government debt supply will keep pressure on Treasuries. Rufaro Chiriseri, Head of Fixed Income for UK and Euro</summary>
+    <summary>Bank Indonesia kept its benchmark interest rate unchanged, opting instead to cut the reserve requirements for banks and continue relying on targeted measures to support the rupiah through market volatility triggered by MSCI Inc.’s double-downgrade threat.</summary>
   </entry>
   <entry>
     <title>PolyGraph: Plan-Buffered CUDA Graphs for Adaptive Speculative Decoding</title>
@@ -257,23 +275,5 @@
     <author><name>arXiv cs.LG</name></author>
     <category term="RESEARCH"/>
     <summary>arXiv:2610.23861v1 Announce Type: new Abstract: Adaptive speculative decoding changes the active batch size B and draft length d from one decode step to the next, whereas a CUDA Graph replays a fixed launch configuration. The resulting verification width M = B d forces serving systems to pre-capture many shapes, captur</summary>
-  </entry>
-  <entry>
-    <title>Deepseek open-sources the inference engine that powers its fastest and cheapest AI model</title>
-    <link href="https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model"/>
-    <id>https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model</id>
-    <updated>2026-10-20T18:56:15.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Deepseek is open-sourcing DeepInfer, the inference framework behind its fast V4.1-Flash model. The vLLM-based system cuts compute costs and energy use when running AI models. The release adds more pricing pressure on Western providers like OpenAI and Anthropic. The article Deepseek open-sources the inference engine tha</summary>
-  </entry>
-  <entry>
-    <title>Reservoir launches new agricultural robotics incubator for Washington growers</title>
-    <link href="https://www.therobotreport.com/reservoir-launches-new-agricultural-robotics-incubator-for-washington-growers"/>
-    <id>https://www.therobotreport.com/reservoir-launches-new-agricultural-robotics-incubator-for-washington-growers</id>
-    <updated>2026-10-20T19:40:05.000Z</updated>
-    <author><name>The Robot Report</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Reservoir hopes to put agricultural robotics startups to work in the orchards, vineyards and berry fields alongside researchers and growers. The post Reservoir launches new agricultural robotics incubator for Washington growers appeared first on The Robot Report .</summary>
   </entry>
 </feed>
