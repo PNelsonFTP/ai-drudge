@@ -5,24 +5,24 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-21T08:00:55.350Z</updated>
+  <updated>2026-10-21T11:08:41.810Z</updated>
+  <entry>
+    <title>OpenAI acquires Orchestra Bio to build AI agents that speed up drug development</title>
+    <link href="https://the-decoder.com/openai-acquires-orchestra-bio-to-build-ai-agents-that-speed-up-drug-development"/>
+    <id>https://the-decoder.com/openai-acquires-orchestra-bio-to-build-ai-agents-that-speed-up-drug-development</id>
+    <updated>2026-10-21T08:32:54.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>OpenAI is acquiring startup Orchestra Bio and plans to merge it with its life sciences AI platform Rosalind. The goal is to build AI agents that help pharma teams coordinate drug development, from tracking trials to spotting problems. Developing a new drug in the US takes ten to 15 years on average. OpenAI already work — Also covered by: OpenAI News</summary>
+  </entry>
   <entry>
     <title>OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business</title>
     <link href="https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business"/>
     <id>https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business</id>
     <updated>2026-10-20T20:35:10.000Z</updated>
     <author><name>TechCrunch AI</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>OpenAI says it's adding Orchestra's team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results. — Also covered by: OpenAI News</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp b11786 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11786"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11786</id>
-    <updated>2026-10-21T07:34:37.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>ggml-cpu : compute f32 gelu_quick and geglu_quick without the fp16 ta… — Also covered by: LocalLLaMA Subreddit</summary>
+    <category term="INDUSTRY NEWS"/>
+    <summary>OpenAI says it's adding Orchestra's team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results.</summary>
   </entry>
   <entry>
     <title>DeepSeek Open-Sources Framework Behind Its High-Margin AI Inference</title>
@@ -32,6 +32,15 @@
     <author><name>The Information</name></author>
     <category term="MODEL RELEASES"/>
     <summary>DeepSeek has open-sourced DeepInfer , the in-house framework for running its own models. The move reveals some of the technical secrets behind how the Chinese AI developer achieves high efficiency and low compute costs when running its models at scale. Access to DeepInfer is likely to help ... — Also covered by: MarkTechPost</summary>
+  </entry>
+  <entry>
+    <title>qwen-code v0.26.0 released</title>
+    <link href="https://github.com/QwenLM/qwen-code/releases/tag/cua-driver-rs-v0.26.0"/>
+    <id>https://github.com/QwenLM/qwen-code/releases/tag/cua-driver-rs-v0.26.0</id>
+    <updated>2026-10-21T08:22:13.000Z</updated>
+    <author><name>QwenLM/qwen-code</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Qwen CUA Driver prebuilt binaries (vendored under packages/cua-driver ). macOS : codesigned + notarized universal binary + QwenCuaDriver.app Linux : unsigned (x86_64 + arm64, glibc 2.31 floor) Windows : unsigned UIAccess worker + native SDK payload (x86_64 + arm64); deployments must sign and trust the worker on the tar — Also covered by: anthropics/claude-code, QwenLM/qwen-code</summary>
   </entry>
   <entry>
     <title>Introducing TorchTPU</title>
@@ -79,13 +88,31 @@
     <summary>Meta has a new open source model, and to everyone's surprise, they are are partnering with Apple to make sure you can run it locally.</summary>
   </entry>
   <entry>
-    <title>ollama v0.40.7 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.7"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.7</id>
-    <updated>2026-10-21T04:01:19.000Z</updated>
-    <author><name>ollama/ollama</name></author>
+    <title>llm-d 1.0 hardens open-source AI inference for production</title>
+    <link href="https://research.ibm.com/blog/llmd-1-0-is-ready-for-production-inference-serving"/>
+    <id>https://research.ibm.com/blog/llmd-1-0-is-ready-for-production-inference-serving</id>
+    <updated>2026-10-20T12:00:00.000Z</updated>
+    <author><name>IBM Research Blog</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>The distributed inference framework makes serving large models on your own infrastructure reliable and affordable for the agentic era. — Also covered by: PremAI Blog</summary>
+  </entry>
+  <entry>
+    <title>llama.cpp b11792 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11792"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11792</id>
+    <updated>2026-10-21T08:32:29.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>What's Changed pplx-decider is a 27B decision model from Perplexity, fine-tuned from Qwen3.8-27B Continuing an OpenAI-compatible Responses conversation no longer fails when switching between models with and without thinking, or when the history contains another provider's compaction items Fixed streaming Responses requ</summary>
+    <summary>llama : place d2t by its set_rows use so it can stay on the GPU ( #30912 )</summary>
+  </entry>
+  <entry>
+    <title>Nvidia unveils the DSX POD, a modular containerized version of its Vera Rubin reference architecture to cut data center deployment from six months to 14 days (Charlotte Trueman/DatacenterDynamics)</title>
+    <link href="https://www.techmeme.com/261021/p12"/>
+    <id>https://www.techmeme.com/261021/p12</id>
+    <updated>2026-10-21T10:20:18.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Charlotte Trueman / DatacenterDynamics : Nvidia unveils the DSX POD, a modular containerized version of its Vera Rubin reference architecture to cut data center deployment from six months to 14 days — Details released at GTC Berlin event, taking place this week — Nvidia has claimed its DSX reference architecture for AI</summary>
   </entry>
   <entry>
     <title>Voxtral 3</title>
@@ -97,49 +124,40 @@
     <summary>Voxtral 3: Mistral's voice agent SDK for real-time speech in 50+ languages — accurate transcription, emotional TTS, deep tool use. EU-hosted or self-deployed.</summary>
   </entry>
   <entry>
-    <title>Carlsberg Said to Near Public Filing for $700 Million India IPO</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-21/carlsberg-said-to-near-public-filing-for-700-million-india-ipo"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-21/carlsberg-said-to-near-public-filing-for-700-million-india-ipo</id>
-    <updated>2026-10-21T07:23:07.000Z</updated>
+    <title>Intesa Plans Risk Transfer Deal to Hedge $6 Billion in Credits</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-21/intesa-plans-risk-transfer-deal-to-hedge-6-billion-in-credits"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-21/intesa-plans-risk-transfer-deal-to-hedge-6-billion-in-credits</id>
+    <updated>2026-10-21T09:57:52.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Carlsberg A/S is preparing to publicly file documents for an initial public offering of its India business, which could raise as much as $700 million, as early as this week, according to people familiar with the matter.</summary>
+    <summary>Intesa Sanpaolo SpA is working on significant risk transfers to hedge more than €5 billion ($6 billion) in assets, signaling continued demand for the higher-risk instruments despite concerns in markets about debt and geopolitical tensions.</summary>
   </entry>
   <entry>
-    <title>Mistral AI launches Voxtral 3, a full voice agent stack that listens, thinks, and talks in real time</title>
-    <link href="https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time"/>
-    <id>https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time</id>
-    <updated>2026-10-20T17:17:55.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>ollama v0.40.7 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.7"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.7</id>
+    <updated>2026-10-21T04:01:19.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="RESEARCH"/>
+    <summary>What's Changed pplx-decider is a 27B decision model from Perplexity, fine-tuned from Qwen3.8-27B Continuing an OpenAI-compatible Responses conversation no longer fails when switching between models with and without thinking, or when the history contains another provider's compaction items Fixed streaming Responses requ</summary>
+  </entry>
+  <entry>
+    <title>Elon Musk Backs Tesla-SpaceX Mega Merger</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-10-21/the-pulse-10-21-2026-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-10-21/the-pulse-10-21-2026-video</id>
+    <updated>2026-10-21T10:41:32.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="PRODUCTS"/>
-    <summary>Mistral AI launched Voxtral 3, a new family of language models built for real-time voice agents. The system combines speech-to-text, text-to-speech, and a voice agent SDK, supports more than 50 languages, and lets agents tap into external tools during live conversations. It can run on your own infrastructure or through</summary>
+    <summary>&quot;The Pulse With Francine Lacqua&quot; is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story is, bringing you exclusive interviews and market-moving scoops. Today's guests: Holger Schmieding, Berenberg Chief Econ</summary>
   </entry>
   <entry>
-    <title>Announcing Humming: Fast, Flexible Kernels for Quantized Inference</title>
-    <link href="https://vllm.ai/blog/2026-10-21-humming"/>
-    <id>https://vllm.ai/blog/2026-10-21-humming</id>
-    <updated>2026-10-21T00:00:00.000Z</updated>
-    <author><name>vLLM Blog</name></author>
-    <category term="HARDWARE"/>
-    <summary>Introducing Humming, a quantized inference kernel library from Ant Group and the vLLM community, with broad GPU and quantization support, dense and MoE performance results, and vLLM integration.</summary>
-  </entry>
-  <entry>
-    <title>Translating in style: An open-weight alternative to GPT-4 for culturally aligned machine translation</title>
-    <link href="https://arxiv.org/abs/2610.23868"/>
-    <id>https://arxiv.org/abs/2610.23868</id>
-    <updated>2026-10-21T04:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>arXiv:2610.23868v1 Announce Type: new Abstract: Machine translation systems often preserve meaning but systematically flatten linguistic style, a failure that is most acute when translating into non-Western languages. The RASTA framework of Havaldar et al. (2025a) addresses this through retrieval-augmented stylistic al</summary>
-  </entry>
-  <entry>
-    <title>Is a new job in Rep. Moran’s office a sign Congress is staffing up on AI?</title>
-    <link href="https://www.transformernews.ai/p/nathaniel-moran-to-hire-ai-staffer"/>
-    <id>https://www.transformernews.ai/p/nathaniel-moran-to-hire-ai-staffer</id>
-    <updated>2026-10-20T17:00:32.000Z</updated>
-    <author><name>Transformer</name></author>
+    <title>NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure</title>
+    <link href="https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure"/>
+    <id>https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure</id>
+    <updated>2026-10-21T10:30:02.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>The new fellow looks set to be the only staffer focused solely on AI recruited directly by a representative</summary>
+    <summary>NVIDIA builds tools to enable safe agents across the stack. The NVIDIA OpenShell Reference Architecture, announced today, is part of NVIDIA’s growing portfolio of technologies that enables organizations to safely deploy agents at scale. NVIDIA Confidential Computing is the infrastructure layer that protects the models </summary>
   </entry>
   <entry>
     <title>The Window Is in the Reasoning: When LLM Agents Decide to Follow Prompt Injections</title>
@@ -151,22 +169,31 @@
     <summary>arXiv:2610.24048v1 Announce Type: new Abstract: LLM agents that read untrusted content can be hijacked by prompt injections. Runtime monitors that try to catch a hijack before the agent acts, and benchmarks that score each task with a single run, share an assumption: whether an agent follows an injection is settled whe</summary>
   </entry>
   <entry>
-    <title>State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web</title>
-    <link href="https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html"/>
-    <id>https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html</id>
-    <updated>2026-10-21T07:44:22.000Z</updated>
-    <author><name>The Hacker News</name></author>
+    <title>Microsoft says October updates didn’t actually fix VPN issues</title>
+    <link href="https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates"/>
+    <id>https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates</id>
+    <updated>2026-10-21T10:14:53.000Z</updated>
+    <author><name>BleepingComputer</name></author>
     <category term="CYBER THREATS"/>
-    <summary>State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from. The state-owned bank, India's largest, said in a stock-exchange filing dated October 21 that it &quot;has experienced an in</summary>
+    <summary>Microsoft says it mistakenly flagged a bug causing Always On VPN connection issues as fixed in the October 2026 Windows 11 cumulative updates. [...]</summary>
   </entry>
   <entry>
-    <title>CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws</title>
-    <link href="https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html"/>
-    <id>https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html</id>
-    <updated>2026-10-21T07:26:49.000Z</updated>
-    <author><name>The Hacker News</name></author>
+    <title>Parasitizing trust: How legitimate infrastructure becomes a delivery pipeline for attackers</title>
+    <link href="https://blog.talosintelligence.com/parasitizing-trust-how-legitimate-infrastructure-becomes-a-delivery-pipeline-for-attackers"/>
+    <id>https://blog.talosintelligence.com/parasitizing-trust-how-legitimate-infrastructure-becomes-a-delivery-pipeline-for-attackers</id>
+    <updated>2026-10-21T10:00:00.000Z</updated>
+    <author><name>Talos Intelligence</name></author>
     <category term="CYBER DEFENSE"/>
-    <summary>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server that's collectively called Plex2Shell. The vulnerabilities are listed below - CVE-2026-96652 (CVSS score</summary>
+    <summary>Adversaries are turning the tools businesses trust into delivery mechanisms for malicious activity. Cisco Talos observed abuse of more than 25 legitimate platforms over the past year, exploiting the built-in trust of collaboration, file-sharing, payment and other services to reach their targets.</summary>
+  </entry>
+  <entry>
+    <title>When A Startup Sells, Its Employees’ Equity Plans Can Change Overnight</title>
+    <link href="https://news.crunchbase.com/ma/acquired-startup-employees-equity-plans-from-honig"/>
+    <id>https://news.crunchbase.com/ma/acquired-startup-employees-equity-plans-from-honig</id>
+    <updated>2026-10-21T11:00:38.000Z</updated>
+    <author><name>Crunchbase News AI</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>Startup acquisitions can reshape employees’ finances and careers, with individual outcomes depending on a variety of conditions. Guest author Ron Honig, co-CEO and managing partner of From-Honig Family Office, suggests that before making major life changes, employees should clarify their award rights, when proceeds wil</summary>
   </entry>
   <entry>
     <title>[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback</title>
@@ -178,102 +205,74 @@
     <summary>An open source “bomb” drops from China</summary>
   </entry>
   <entry>
-    <title>Eka Robotics Raises $150 Million to Give Robots a Better Feel for the Physical World</title>
-    <link href="https://www.humanoidsdaily.com/news/eka-robotics-150-million-series-a-vision-force-action"/>
-    <id>https://www.humanoidsdaily.com/news/eka-robotics-150-million-series-a-vision-force-action</id>
-    <updated>2026-10-20T17:35:04.000Z</updated>
-    <author><name>Humanoids Daily</name></author>
+    <title>Announcing SimReady Central: An Open Library of Simulation-Ready 3D Assets for Robotics and AI Factories</title>
+    <link href="https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories"/>
+    <id>https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories</id>
+    <updated>2026-10-21T10:59:42.000Z</updated>
+    <author><name>Hugging Face Blog</name></author>
     <category term="ROBOTICS"/>
-    <summary>Eka’s Series A backs a vision-force-action model trained in simulation, with a reported $1.45 billion valuation and a focus on fast, adaptable robot manipulation.</summary>
   </entry>
   <entry>
-    <title>Vote!</title>
-    <link href="https://scottaaronson.blog/?p=10222"/>
-    <id>https://scottaaronson.blog/?p=10222</id>
-    <updated>2026-10-21T05:13:08.000Z</updated>
-    <author><name>Shtetl-Optimized (Aaronson)</name></author>
+    <title>Toshiba Launches Quantum-Safe Network Platform</title>
+    <link href="https://thequantuminsider.com/2026/10/21/toshiba-launches-quantum-safe-network-platform"/>
+    <id>https://thequantuminsider.com/2026/10/21/toshiba-launches-quantum-safe-network-platform</id>
+    <updated>2026-10-21T07:53:26.000Z</updated>
+    <author><name>The Quantum Insider</name></author>
     <category term="QUANTUM"/>
-    <summary>Today, I take a break from your regularly-scheduled AI mathocalypse programming to urge my American readers to vote in the Congressional midterms, early if possible, if you haven’t already. Especially if your state faces one or more major contests, as does my adopted home state of Texas. Me, I voted straight-ticket Dem</summary>
+    <summary>Insider Brief PRESS RELEASE — Toshiba Corporation today announced the launch of its Quantum-Safe Networking (QSN) Platform, marking a major step towards delivering true scalability, flexibility and greater efficiency in the deployment of quantum-safe networks. The Toshiba QSN Platform brings together interoperable equi</summary>
   </entry>
   <entry>
-    <title>Southeast Asia’s digital economy to hit $368 billion</title>
-    <link href="https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026"/>
-    <id>https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026</id>
-    <updated>2026-10-21T04:00:00.000Z</updated>
-    <author><name>Google AI Blog</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion in 2026 and $1 trillion by 2035.</summary>
-  </entry>
-  <entry>
-    <title>A look at Chinese philosophical views on AI: one says aligning AI to human values may be a &quot;suicidal mistake&quot;, another fears the &quot;machinization of humans&quot;, more (Arnaud Bertrand)</title>
-    <link href="https://www.techmeme.com/261021/p7"/>
-    <id>https://www.techmeme.com/261021/p7</id>
-    <updated>2026-10-21T06:40:01.000Z</updated>
+    <title>China criticizes the US DHS's DeepSeek ban, vowing &quot;resolute countermeasures&quot; while rejecting allegations from the FBI and AI labs of illicit distillation (Ephrat Livni/New York Times)</title>
+    <link href="https://www.techmeme.com/261021/p11"/>
+    <id>https://www.techmeme.com/261021/p11</id>
+    <updated>2026-10-21T10:10:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Arnaud Bertrand : A look at Chinese philosophical views on AI: one says aligning AI to human values may be a “suicidal mistake”, another fears the “machinization of humans”, more — We've been looking at AI from the bottom of our own well. Here's the view from China's. — ∙ Paid</summary>
+    <summary>Ephrat Livni / New York Times : China criticizes the US DHS's DeepSeek ban, vowing “resolute countermeasures” while rejecting allegations from the FBI and AI labs of illicit distillation — The response came after Homeland Security ordered the removal and exclusion of products developed by the Chinese company.</summary>
   </entry>
   <entry>
-    <title>OpenEvidence says nearly two-thirds of ~1M US physicians use its AI search engine; a source says it is on track to generate $400M-$500M in 2026 ad revenue (Rafe Rosner-Uddin/Financial Times)</title>
-    <link href="https://www.techmeme.com/261021/p6"/>
-    <id>https://www.techmeme.com/261021/p6</id>
-    <updated>2026-10-21T06:25:01.000Z</updated>
+    <title>Anthropic and Citrini Research use an internal Claude model to autonomously generate protein minibinders against five scorpion neurotoxins, testing 211 designs (Anthropic)</title>
+    <link href="https://www.techmeme.com/261021/p10"/>
+    <id>https://www.techmeme.com/261021/p10</id>
+    <updated>2026-10-21T09:55:03.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Rafe Rosner-Uddin / Financial Times : OpenEvidence says nearly two-thirds of ~1M US physicians use its AI search engine; a source says it is on track to generate $400M-$500M in 2026 ad revenue — Founder of OpenEvidence chatbot says two-thirds of US physicians use the ad-powered tool, prompting a debate about patient ca</summary>
+    <summary>Anthropic : Anthropic and Citrini Research use an internal Claude model to autonomously generate protein minibinders against five scorpion neurotoxins, testing 211 designs — In August, we showed how Claude designed protein minibinders after being given a single prompt.</summary>
   </entry>
   <entry>
-    <title>KFlash: Benchmarks of newly released versions of Apple Silicon optimized engines: 1.4.0 Splash (DFlash2 ~ 50 tok/s) vs 0.2 Kapitsa (KFlash ~65 tok/s), MLX(MTP) &amp; more on Qwen 3.8 27b/4b/35b 4Q on Macbook Pro M4 Pro 48 GB 2024, 48GB &amp; Macbook Pro M1 Pro 16GB 2021</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xbdxg3/kflash_benchmarks_of_newly_released_versions_of"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xbdxg3/kflash_benchmarks_of_newly_released_versions_of</id>
-    <updated>2026-10-21T04:47:12.000Z</updated>
+    <title>Qwen3.8-Flash-Next vs Opus 5.5: Six-way benchmark on a real Rust feature with Claude Code and Pi</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xbipsl/qwen38flashnext_vs_opus_55_sixway_benchmark_on_a"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xbipsl/qwen38flashnext_vs_opus_55_sixway_benchmark_on_a</id>
+    <updated>2026-10-21T09:41:48.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>hey folks, its Ye, I work on an open source project called Kapitsa : its a fast Apple Silicon optimized inference engine built for Qwen and Nemotron models. this week two new releases landed in local inference: Inco shipped Splash 1.4.0 yesterday, and we shipped Kapitsa 0.2 today with a new speculative decoding method </summary>
+    <summary>Reposting again since original post got removed by Reddit for some reason (I have no idea why) A few of you pointed out in my last post that comparing Flash-Next and Opus with different harnesses and effort levels wasn't fair. So here is a more controlled comparison. Same task for every run: a real feature from the Lla</summary>
   </entry>
   <entry>
-    <title>mlx: deduplicate CUDA runtime payloads (#17956)</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.7-rc1"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.7-rc1</id>
-    <updated>2026-10-20T21:15:15.000Z</updated>
-    <author><name>ollama/ollama</name></author>
+    <title>InternScience/Sage-A1.5 [Finetune of Qwen 3.6 35b-a3b]</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xbi1hj/internsciencesagea15_finetune_of_qwen_36_35ba3b"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xbi1hj/internsciencesagea15_finetune_of_qwen_36_35ba3b</id>
+    <updated>2026-10-21T08:59:41.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Deduplicate MLX CUDA runtime payloads Move CUDA libraries shared by the GGML and MLX backends into the sibling CUDA payload, and teach in-process and subprocess MLX loading to resolve that packaged dependency directory. Keep MLX-private libraries and JIT headers in the MLX overlay, include the full OpenBLAS Fortran run</summary>
+    <summary>Gguf's: https://huggingface.co/InternScience/Sage-A1.5-Q4_K_M-GGUF https://huggingface.co/InternScience/Sage-A1.5-Q8_0-GGUF &quot; Sage‑A1.5 is a 35B Mixture‑of‑Experts agentic model based on Qwen3.6-35B-A3B from Shanghai AI Laboratory, built to advance long-horizon scientific problem solving through adaptive capability com</summary>
   </entry>
   <entry>
-    <title>DataPraxis: Scaling Analytics Tasks via Verified Workspace Evolution</title>
-    <link href="https://arxiv.org/abs/2610.26924"/>
-    <id>https://arxiv.org/abs/2610.26924</id>
-    <updated>2026-10-21T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
+    <title>Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents</title>
+    <link href="https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync"/>
+    <id>https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync</id>
+    <updated>2026-10-21T10:50:37.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>arXiv:2610.26924v1 Announce Type: new Abstract: General-purpose agents are increasingly expected to perform professional analytics work, which requires sustained reasoning, iterative investigation, and reliable evidence. Training these capabilities requires diverse and challenging tasks. However, generating tasks direc</summary>
+    <summary>At GTC Berlin, NVIDIA is showcasing its full lineup of local AI hardware. RTX Spark, which launched last week, powers personal agents on Windows PCs; DGX Spark supports developers building and scaling applications on Linux; and DGX Station serves enterprise teams running frontier workloads on Linux, with a Windows vers</summary>
   </entry>
   <entry>
-    <title>Australian data centre group falls 44% on profit warning</title>
-    <link href="https://www.ft.com/content/023caf76-40df-485d-8a28-0ff62aa7ec6f?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/023caf76-40df-485d-8a28-0ff62aa7ec6f?syn-25a6b1a6=1</id>
-    <updated>2026-10-21T06:33:49.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
-    <category term="AI FINANCE"/>
-    <summary>NextDC plunge adds to sector woes as Nvidia holds talks over injecting capital into Firmus after failed IPO</summary>
-  </entry>
-  <entry>
-    <title>Indonesia Holds Rate, Cuts RRR as MSCI Shock Hits Rupiah</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-21/bank-indonesia-holds-rate-as-msci-shock-threatens-rupiah"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-21/bank-indonesia-holds-rate-as-msci-shock-threatens-rupiah</id>
-    <updated>2026-10-21T06:55:59.000Z</updated>
+    <title>The Treasury Market’s New Power Brokers Are Pickier Than Ever</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-21/the-treasury-market-s-new-power-brokers-are-pickier-than-ever"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-21/the-treasury-market-s-new-power-brokers-are-pickier-than-ever</id>
+    <updated>2026-10-21T10:15:00.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Bank Indonesia kept its benchmark interest rate unchanged, opting instead to cut the reserve requirements for banks and continue relying on targeted measures to support the rupiah through market volatility triggered by MSCI Inc.’s double-downgrade threat.</summary>
-  </entry>
-  <entry>
-    <title>PolyGraph: Plan-Buffered CUDA Graphs for Adaptive Speculative Decoding</title>
-    <link href="https://arxiv.org/abs/2610.23861"/>
-    <id>https://arxiv.org/abs/2610.23861</id>
-    <updated>2026-10-21T04:00:00.000Z</updated>
-    <author><name>arXiv cs.LG</name></author>
-    <category term="RESEARCH"/>
-    <summary>arXiv:2610.23861v1 Announce Type: new Abstract: Adaptive speculative decoding changes the active batch size B and draft length d from one decode step to the next, whereas a CUDA Graph replays a fixed launch configuration. The resulting verification width M = B d forces serving systems to pre-capture many shapes, captur</summary>
+    <summary>Beset by a selloff in Treasuries that’s sent benchmark yields to multidecade highs, the US government is finding itself increasingly dependent on investors who only buy if the price is right.</summary>
   </entry>
 </feed>
