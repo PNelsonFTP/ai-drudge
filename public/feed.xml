@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-21T16:09:02.311Z</updated>
+  <updated>2026-10-21T17:08:47.641Z</updated>
   <entry>
     <title>OpenAI models are coming to Google Cloud</title>
     <link href="https://openai.com/index/openai-models-google-cloud"/>
@@ -34,6 +34,15 @@
     <summary>Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.</summary>
   </entry>
   <entry>
+    <title>OpenAI agents disabled safety monitoring, one lied about it</title>
+    <link href="https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it"/>
+    <id>https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it</id>
+    <updated>2026-10-21T16:26:53.000Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>OpenAI agents powered by the GPT-6.1 Sol and GPT-6 Astra models weakened misalignment monitoring during two internal tasks, interpreting coding instructions as authorization to do so. [...] — Also covered by: The Verge AI</summary>
+  </entry>
+  <entry>
     <title>PHP ships emergency patches for critical PHP2Shell flaws</title>
     <link href="https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws"/>
     <id>https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws</id>
@@ -41,6 +50,15 @@
     <author><name>BleepingComputer</name></author>
     <category term="CYBER THREATS"/>
     <summary>The PHP security team released emergency security patches for two critical remote code execution (RCE) vulnerabilities (CVE-2026-109618 and CVE-2026-109619) tracked collectively as PHP2Shell. [...] — Also covered by: The Hacker News</summary>
+  </entry>
+  <entry>
+    <title>RecursiveSI/flint 40b-a2.5b</title>
+    <link href="https://sh.itjust.works/post/68701115"/>
+    <id>https://sh.itjust.works/post/68701115</id>
+    <updated>2026-10-21T16:22:40.000Z</updated>
+    <author><name>Lemmy c/localllama</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>submitted by BeefAndPoultry to localllama 5 points | 1 comments https://huggingface.co/RecursiveSI/flint Maybe a better alternative to Tiel Coder for people with 32GB RAM and 8GB VRAM — Also covered by: LocalLLaMA Subreddit</summary>
   </entry>
   <entry>
     <title>qwen-code v0.26.0 released</title>
@@ -79,22 +97,13 @@
     <summary>An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.</summary>
   </entry>
   <entry>
-    <title>Muse Spark Open, Meta + Apple, Thin and Thick</title>
-    <link href="https://stratechery.com/2026/muse-spark-open-meta-apple-thin-and-thick"/>
-    <id>https://stratechery.com/2026/muse-spark-open-meta-apple-thin-and-thick</id>
-    <updated>2026-10-20T10:00:00.000Z</updated>
-    <author><name>Stratechery</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Meta has a new open source model, and to everyone's surprise, they are are partnering with Apple to make sure you can run it locally.</summary>
-  </entry>
-  <entry>
-    <title>Mistral Advances AI for Engineering with NVIDIA</title>
-    <link href="https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering"/>
-    <id>https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering</id>
-    <updated>2026-10-21T12:00:20.000Z</updated>
-    <author><name>Mistral AI</name></author>
+    <title>ollama v0.40.8 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.8-rc0"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.8-rc0</id>
+    <updated>2026-10-21T16:20:30.000Z</updated>
+    <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Mistral is collaborating with NVIDIA to develop a new generation of AI-native engineering workflows powered by NVIDIA accelerated computing.</summary>
+    <summary>Recursive Flint Flint brings Recursive's coding model to Ollama. It is designed for the work coding agents do across a repository: understanding unfamiliar code, tracing bugs, implementing features, and adding tests. Reasoning, multi-turn tool use, and a 262K-token context window support longer tasks across files and t</summary>
   </entry>
   <entry>
     <title>New prize launches for books co-written with AI</title>
@@ -106,40 +115,31 @@
     <summary>After months of controversy over the possible use of AI by winners of prestigious awards, the Prix Pascal de Littérature IA is rewarding fiction written with the help of LLMs A prize for AI-written books has launched this week. The Prix Pascal de Littérature IA invites submissions of manuscripts co-written with AI tool</summary>
   </entry>
   <entry>
-    <title>llama.cpp b11797 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11797"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11797</id>
-    <updated>2026-10-21T16:04:56.000Z</updated>
+    <title>llama.cpp b11798 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11798"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11798</id>
+    <updated>2026-10-21T16:40:43.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>ggml-opencl : add IM2COL_3D support ( #30895 ) ggml-opencl : add IM2COL_3D support Assisted-by: OpenCode opencl: use same type for kernel and host opencl: fix for older adreno Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58277702 </summary>
+    <summary>jinja: support hexadecimal string escapes ( #30929 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58290954 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (</summary>
   </entry>
   <entry>
-    <title>Voxtral 3</title>
-    <link href="https://mistral.ai/news/voxtral-3"/>
-    <id>https://mistral.ai/news/voxtral-3</id>
-    <updated>2026-10-20T12:00:22.000Z</updated>
-    <author><name>Mistral AI</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Voxtral 3: Mistral's voice agent SDK for real-time speech in 50+ languages — accurate transcription, emotional TTS, deep tool use. EU-hosted or self-deployed.</summary>
-  </entry>
-  <entry>
-    <title>French Bond Risk Hits 15-Year High as Risk Gauge Climbs</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-21/french-bond-risk-hits-15-year-high-as-risk-gauge-climbs-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-21/french-bond-risk-hits-15-year-high-as-risk-gauge-climbs-video</id>
-    <updated>2026-10-21T15:15:18.000Z</updated>
+    <title>Blackstone, Apollo May Be Allowed to Buy NFL Minority Stakes</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-10-21/blackstone-apollo-may-be-allowed-to-buy-nfl-team-stakes-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-10-21/blackstone-apollo-may-be-allowed-to-buy-nfl-team-stakes-video</id>
+    <updated>2026-10-21T16:54:39.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The yield on benchmark French debt hit 5% for the first time since 2002 as rising energy prices exacerbated concern over the country’s fiscal outlook. Alice Gledhill has more on &quot;Bloomberg Open Interest.&quot; (Source: Bloomberg)</summary>
+    <summary>Bloomberg has learned that Blackstone Inc. and a unit of Apollo Global Management Inc. may be allowed to buy minority stakes in NFL teams at some point. Talks are preliminary and there's no deal yet. Bloomberg's Scarlet Fu reports. (Source: Bloomberg)</summary>
   </entry>
   <entry>
-    <title>ollama v0.40.7 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.7"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.7</id>
-    <updated>2026-10-21T04:01:19.000Z</updated>
-    <author><name>ollama/ollama</name></author>
+    <title>Claude will tell you how to manipulate an election</title>
+    <link href="https://www.transformernews.ai/p/claude-jailbreak-election-manipulation"/>
+    <id>https://www.transformernews.ai/p/claude-jailbreak-election-manipulation</id>
+    <updated>2026-10-21T15:12:14.000Z</updated>
+    <author><name>Transformer</name></author>
     <category term="RESEARCH"/>
-    <summary>What's Changed pplx-decider is a 27B decision model from Perplexity, fine-tuned from Qwen3.8-27B Continuing an OpenAI-compatible Responses conversation no longer fails when switching between models with and without thinking, or when the history contains another provider's compaction items Fixed streaming Responses requ</summary>
+    <summary>A Transformer investigation found that the chatbot will outline methods to try and sway the outcome of the upcoming US midterms — from fake TikTok personas to flooding comment sections</summary>
   </entry>
   <entry>
     <title>Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure</title>
@@ -151,22 +151,13 @@
     <summary>General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing an integrated platform for training, inference and large-scale reinforcement learning to cloud customers. A5X instances bring together NVIDIA Vera Rubin NVL72, NVIDIA ConnectX-9 SuperNICs, Google Clou</summary>
   </entry>
   <entry>
-    <title>AI Finds Flaw in Popular Web Hosting Software, Sparking Global Race to Patch</title>
-    <link href="https://www.theinformation.com/briefings/ai-finds-flaw-popular-web-hosting-software-sparking-global-race-patch"/>
-    <id>https://www.theinformation.com/briefings/ai-finds-flaw-popular-web-hosting-software-sparking-global-race-patch</id>
-    <updated>2026-10-21T14:51:08.000Z</updated>
-    <author><name>The Information</name></author>
+    <title>Recursive releases Flint, an open-weight, 40B-parameter coding model developed with its Eureka Machine AI system, which automated most of the development (Will Knight/Wired)</title>
+    <link href="https://www.techmeme.com/261021/p39"/>
+    <id>https://www.techmeme.com/261021/p39</id>
+    <updated>2026-10-21T16:35:02.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>The creators of PHP, an open source programming language used by the majority of the world’s websites, on Wednesday urged web maintainers across the globe to install a new update after researchers using AI found a flaw that could put those websites at risk of being hacked. The flaw is the latest ...</summary>
-  </entry>
-  <entry>
-    <title>Claude will tell you how to manipulate an election</title>
-    <link href="https://www.transformernews.ai/p/claude-jailbreak-election-manipulation"/>
-    <id>https://www.transformernews.ai/p/claude-jailbreak-election-manipulation</id>
-    <updated>2026-10-21T15:12:14.000Z</updated>
-    <author><name>Transformer</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>A Transformer investigation found that the chatbot will outline methods to try and sway the outcome of the upcoming US midterms — from fake TikTok personas to flooding comment sections</summary>
+    <summary>Will Knight / Wired : Recursive releases Flint, an open-weight, 40B-parameter coding model developed with its Eureka Machine AI system, which automated most of the development — Recursive makes the case that the benefits of using AI to build AI outweigh the risks. — For the past few days I've been testing …</summary>
   </entry>
   <entry>
     <title>Your AI agent fixed the bug, but what else did it change?</title>
@@ -196,22 +187,22 @@
     <summary>An investigation into a threat actor bypassing AI safety controls to coordinate credential theft, VoIP fraud planning, and database exfiltration. The post “Next Exploit Opportunities”: How a Threat Actor Used AI to Help Plan and Execute Multiple Types of Cybercrime Activities appeared first on Unit 42 .</summary>
   </entry>
   <entry>
-    <title>Whop, which helps people start, run, and scale businesses and uses AI to suggest business decisions, raised $205M led by Sequoia Capital at a $5.1B valuation (Natasha Mascarenhas/Bloomberg)</title>
-    <link href="https://www.techmeme.com/261021/p35"/>
-    <id>https://www.techmeme.com/261021/p35</id>
-    <updated>2026-10-21T14:50:03.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>AI Research Startup Flapping Airplanes Valued at $6 Billion in Round</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-21/ai-research-startup-flapping-airplanes-valued-at-6-billion-in-round"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-21/ai-research-startup-flapping-airplanes-valued-at-6-billion-in-round</id>
+    <updated>2026-10-21T17:00:01.000Z</updated>
+    <author><name>Bloomberg Tech</name></author>
     <category term="FUNDING &amp; DEALS"/>
-    <summary>Natasha Mascarenhas / Bloomberg : Whop, which helps people start, run, and scale businesses and uses AI to suggest business decisions, raised $205M led by Sequoia Capital at a $5.1B valuation — “Rule one of making money is go where they ain't.” That's how famed investor Doug Leone, who used to run venture firm Sequoia </summary>
+    <summary>Flapping Airplanes, a year-old artificial intelligence startup, has raised $1 billion in funding at a $6 billion valuation — the latest example of investors betting on a newer crop of AI research labs that have yet to introduce commercial products. The financing, set to be announced Wednesday, was led by Index Ventures</summary>
   </entry>
   <entry>
-    <title>ClickFix has never been bigger, and AI tools are its most convincing lure yet</title>
-    <link href="https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet"/>
-    <id>https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet</id>
-    <updated>2026-10-21T14:00:10.000Z</updated>
-    <author><name>BleepingComputer</name></author>
+    <title>Panache — RTS Belle Époque pour mobile</title>
+    <link href="https://simonwillison.net/2026/Oct/21/panache"/>
+    <id>https://simonwillison.net/2026/Oct/21/panache</id>
+    <updated>2026-10-21T16:25:16.000Z</updated>
+    <author><name>Simon Willison</name></author>
     <category term="ANALYSIS"/>
-    <summary>ClickFix attacks are surging as cybercriminals use fake AI installers, malicious search results, and trusted chatbot platforms to trick users into executing malware. Push Security examines how these attacks evade traditional defenses and why AI tools have become increasingly effective lures. [...]</summary>
+    <summary>Panache — RTS Belle Époque pour mobile Well this is delightful: I released Battle Drones yesterday under an Apache 2.0 License and there's already a French language fork which reskins the game to take place in steampunk 1900s France and adds an animated intro! Panache est un jeu de stratégie en temps réel pour mobile e</summary>
   </entry>
   <entry>
     <title>NVIDIA Releases Flora to Turn Robot Videos Into Training Data</title>
@@ -232,31 +223,22 @@
     <summary>Insider Brief PRESS RELEASE — qBraid today introduced qBraid OS, software that quantum hardware providers and system operators can use to run their systems and make them available to users, whether as a commercial service or for internal use. qBraid OS manages access, scheduling and billing for a quantum processor, and</summary>
   </entry>
   <entry>
-    <title>Mach9, which develops AI-powered CAD software trained on proprietary, in-house AI models using multimodal image and laser scan datasets, raised a $34M Series A (Sean O'Kane/TechCrunch)</title>
-    <link href="https://www.techmeme.com/261021/p33"/>
-    <id>https://www.techmeme.com/261021/p33</id>
-    <updated>2026-10-21T14:30:02.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Sean O'Kane / TechCrunch : Mach9, which develops AI-powered CAD software trained on proprietary, in-house AI models using multimodal image and laser scan datasets, raised a $34M Series A — When Alex Baikovitz co-founded Mach9 Robotics in 2021, his goal was to build a better, faster, and cheaper way for civil engineers </summary>
-  </entry>
-  <entry>
-    <title>mlx: add Flint model support (#19181)</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.8-rc0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.8-rc0</id>
-    <updated>2026-10-21T14:45:50.000Z</updated>
-    <author><name>ollama/ollama</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Preserve source tool JSON alongside decoded API values so Flint can retain numeric types and schema order in prompts. Existing API marshaling is unchanged. Assemble ModelOpt expert banks during safetensors import, and reject direct Flint NVFP4 creation before conversion. Other models retain their existing import and qu</summary>
-  </entry>
-  <entry>
-    <title>I built a small on-device voice front-end for local assistants: type any wake word, keep only your voice before STT (5 models, 7.5 MB, Apache-2.0, early preview)</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xbmhct/i_built_a_small_ondevice_voice_frontend_for_local"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xbmhct/i_built_a_small_ondevice_voice_frontend_for_local</id>
-    <updated>2026-10-21T12:59:41.000Z</updated>
+    <title>OK, fine, Qwen 3.8 Flash Next is nice</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xbqxh5/ok_fine_qwen_38_flash_next_is_nice"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xbqxh5/ok_fine_qwen_38_flash_next_is_nice</id>
+    <updated>2026-10-21T15:53:41.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>GitHub: https://github.com/alkove-ai/alkove (Apache-2.0, code and weights) Hi r/LocalLLaMA , A bit about me first: my day job is building LLM systems in production, a tool-calling assistant with its RAG, and two audio-heavy pipelines. The first turns a company's latest content into a two-host radio show in several lang</summary>
+    <summary>I held off as long as I could, but finally gave in and set up strata. I am pretty blown away. 3.8 27b at Q6 kv8 was my driver before and that works super well, but Flash Next in strata IQ4 xs is really winning me over. Its not perfect, but it feels like models I was using professionally last year, which were/are good e</summary>
+  </entry>
+  <entry>
+    <title>When will we see these changes? --&gt; China Is Doubling RAM Production to Keep Everyday Gadget Prices from Skyrocketing</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xbrh0s/when_will_we_see_these_changes_china_is_doubling"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xbrh0s/when_will_we_see_these_changes_china_is_doubling</id>
+    <updated>2026-10-21T16:12:59.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>submitted by /u/chemist_slime [link] [comments]</summary>
   </entry>
   <entry>
     <title>Hackers Used Claude and Grok to Fully Automate Attacks on Banks</title>
@@ -268,12 +250,30 @@
     <summary>A hacking group called CyberCartel used a web of AI agents powered by models from companies including Anthropic, SpaceX and Chinese lab Moonshot AI to automate cyberattacks against more than 400 Latin American financial targets, according to an investigation by the cybersecurity startup Straiker. The research, shared e</summary>
   </entry>
   <entry>
-    <title>A Daily Pill to Keep Breast Cancer Away Is Roche’s Next Frontier Drug</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-21/a-daily-breast-cancer-pill-is-roche-s-next-frontier-drug-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-21/a-daily-breast-cancer-pill-is-roche-s-next-frontier-drug-video</id>
-    <updated>2026-10-21T15:51:38.000Z</updated>
+    <title>SpaceX Bonds Weaken, Credit Risk Gauge Worsens On Debt Fears</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-21/spacex-bonds-weaken-credit-risk-gauge-worsens-on-debt-fears"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-21/spacex-bonds-weaken-credit-risk-gauge-worsens-on-debt-fears</id>
+    <updated>2026-10-21T16:43:41.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>A daily pill to keep breast cancer away? Swiss drugmaker Roche is betting on a new frontier drug after losing its lead in the booming cancer treatment market, explains Sarah Muller. (Source: Bloomberg)</summary>
+    <summary>SpaceX bonds weakened Wednesday after the company posted results that surpassed analysts’ estimates but also said it was investing aggressively, signaling more borrowing could be ahead.</summary>
+  </entry>
+  <entry>
+    <title>Promessas bilionárias marcam reta final de Lula e Flávio Bolsonaro</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-10-21/promessas-bilionarias-marcam-reta-final-de-lula-e-flavio-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-10-21/promessas-bilionarias-marcam-reta-final-de-lula-e-flavio-video</id>
+    <updated>2026-10-21T16:41:32.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>O repórter Daniel Carvalho conta sobre as promessas bilionárias na reta final de Lula e Bolsonaro. Com produção e edição de Patricia Xavier (Source: Bloomberg)</summary>
+  </entry>
+  <entry>
+    <title>Inception's Mercury 3 diffusion model claims to beat GPT-6 Luna and Claude Haiku 5.5 at a fraction of the wait</title>
+    <link href="https://the-decoder.com/inceptions-mercury-3-diffusion-model-claims-to-beat-gpt-6-luna-and-claude-haiku-5-5-at-a-fraction-of-the-wait"/>
+    <id>https://the-decoder.com/inceptions-mercury-3-diffusion-model-claims-to-beat-gpt-6-luna-and-claude-haiku-5-5-at-a-fraction-of-the-wait</id>
+    <updated>2026-10-21T14:45:45.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="RESEARCH"/>
+    <summary>Inception says Mercury 3 is the most capable diffusion language model released so far. The company claims it runs four to eight times faster than GPT-6 Luna and Claude Haiku 5.5 and beats both in eight of 12 benchmarks. There are no independent tests yet. The article Inception's Mercury 3 diffusion model claims to beat</summary>
   </entry>
 </feed>
