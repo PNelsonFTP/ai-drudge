@@ -5,7 +5,16 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-21T12:08:40.303Z</updated>
+  <updated>2026-10-21T13:08:38.328Z</updated>
+  <entry>
+    <title>OpenAI models are coming to Google Cloud</title>
+    <link href="https://openai.com/index/openai-models-google-cloud"/>
+    <id>https://openai.com/index/openai-models-google-cloud</id>
+    <updated>2026-10-21T12:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace. — Also covered by: Reuters AI (Google News)</summary>
+  </entry>
   <entry>
     <title>OpenAI acquires Orchestra Bio to build AI agents that speed up drug development</title>
     <link href="https://the-decoder.com/openai-acquires-orchestra-bio-to-build-ai-agents-that-speed-up-drug-development"/>
@@ -43,6 +52,15 @@
     <summary>Qwen CUA Driver prebuilt binaries (vendored under packages/cua-driver ). macOS : codesigned + notarized universal binary + QwenCuaDriver.app Linux : unsigned (x86_64 + arm64, glibc 2.31 floor) Windows : unsigned UIAccess worker + native SDK payload (x86_64 + arm64); deployments must sign and trust the worker on the tar — Also covered by: anthropics/claude-code, QwenLM/qwen-code</summary>
   </entry>
   <entry>
+    <title>A Design Flaw in Share Links Exposes Users’ Personal Conversations With Meta’s Muse</title>
+    <link href="https://www.wired.com/story/a-design-flaw-in-share-links-exposes-users-personal-conversations-with-meta-muse"/>
+    <id>https://www.wired.com/story/a-design-flaw-in-share-links-exposes-users-personal-conversations-with-meta-muse</id>
+    <updated>2026-10-21T12:35:00.000Z</updated>
+    <author><name>Wired AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>The company is suspending the feature after security researchers discovered how easy it was to access sensitive information shared with the AI assistant. — Also covered by: Ars Technica AI</summary>
+  </entry>
+  <entry>
     <title>Introducing TorchTPU</title>
     <link href="https://pytorch.org/blog/introducing-torchtpu"/>
     <id>https://pytorch.org/blog/introducing-torchtpu</id>
@@ -68,15 +86,6 @@
     <author><name>Hugging Face Blog</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Also covered by: Ai2 (Allen Institute)</summary>
-  </entry>
-  <entry>
-    <title>Terminal X matches senior investor judgment 88.6% with GPT-6.1</title>
-    <link href="https://openai.com/index/terminal-x"/>
-    <id>https://openai.com/index/terminal-x</id>
-    <updated>2026-10-20T07:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.</summary>
   </entry>
   <entry>
     <title>Muse Spark Open, Meta + Apple, Thin and Thick</title>
@@ -106,40 +115,40 @@
     <summary>Mistral is collaborating with NVIDIA to develop a new generation of AI-native engineering workflows powered by NVIDIA accelerated computing.</summary>
   </entry>
   <entry>
-    <title>The EU Commission launches a DSA probe into Booking Holdings' Booking.com to determine whether it is doing enough to combat fraudulent listings and phishing (Foo Yun Chee/Reuters)</title>
-    <link href="https://www.techmeme.com/261021/p18"/>
-    <id>https://www.techmeme.com/261021/p18</id>
-    <updated>2026-10-21T11:50:27.000Z</updated>
+    <title>Spotify launches its first standalone, native in-car app built on Android Automotive OS, debuting on select Audi models, with a custom UI controlled by Spotify (Andrew J. Hawkins/The Verge)</title>
+    <link href="https://www.techmeme.com/261021/p24"/>
+    <id>https://www.techmeme.com/261021/p24</id>
+    <updated>2026-10-21T12:40:06.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Foo Yun Chee / Reuters : The EU Commission launches a DSA probe into Booking Holdings' Booking.com to determine whether it is doing enough to combat fraudulent listings and phishing — EU tech regulators will investigate whether online hotel reservation website Booking.com is doing enough to weed out fraudulent listings</summary>
+    <summary>Andrew J. Hawkins / The Verge : Spotify launches its first standalone, native in-car app built on Android Automotive OS, debuting on select Audi models, with a custom UI controlled by Spotify — Say goodbye to those aux cables. Spotify's new in-car app is here, and it's rolling out to Audi vehicles today.</summary>
   </entry>
   <entry>
-    <title>llama.cpp b11793 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11793"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11793</id>
-    <updated>2026-10-21T11:58:23.000Z</updated>
+    <title>llama.cpp b11796 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11796"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11796</id>
+    <updated>2026-10-21T12:39:27.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>llama : optimize vocabulary loading ( #30679 ) llama : optimize vocabulary loading Update src/unicode.h Co-authored-by: Georgi Gerganov ggerganov@gmail.com CR : added reserve in gguf_kv_to_str CR : trailing space fix Co-authored-by: Georgi Gerganov ggerganov@gmail.com Website: https://llama.app Attestations: https://gi</summary>
+    <summary>mtmd: add state object for mtmd_gen ( #30902 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58202944 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) U</summary>
   </entry>
   <entry>
-    <title>Voxtral 3</title>
-    <link href="https://mistral.ai/news/voxtral-3"/>
-    <id>https://mistral.ai/news/voxtral-3</id>
-    <updated>2026-10-20T12:00:22.000Z</updated>
-    <author><name>Mistral AI</name></author>
+    <title>Nvidia launches its OpenShell Reference Architecture, a framework to secure, monitor, and govern AI agents, and partners with Canonical, AWS, BBVA, and others (Thomas Claburn/The Register)</title>
+    <link href="https://www.techmeme.com/261021/p23"/>
+    <id>https://www.techmeme.com/261021/p23</id>
+    <updated>2026-10-21T12:30:02.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Voxtral 3: Mistral's voice agent SDK for real-time speech in 50+ languages — accurate transcription, emotional TTS, deep tool use. EU-hosted or self-deployed.</summary>
+    <summary>Thomas Claburn / The Register : Nvidia launches its OpenShell Reference Architecture, a framework to secure, monitor, and govern AI agents, and partners with Canonical, AWS, BBVA, and others — Nvidia has proposed a new way to keep corporate AI agents in line. — Nvidia on Wednesday introduced its OpenShell Reference Arc</summary>
   </entry>
   <entry>
-    <title>Russia Sees First Diesel Cargo Sailing for US on Thursday</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-21/russia-sees-first-diesel-cargo-sailing-for-us-on-thursday"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-21/russia-sees-first-diesel-cargo-sailing-for-us-on-thursday</id>
-    <updated>2026-10-21T11:36:43.000Z</updated>
+    <title>South Africa Raises Borrowing Requirement to Fund Bond Buyback</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-21/south-africa-raises-borrowing-requirement-to-fund-bond-buyback"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-21/south-africa-raises-borrowing-requirement-to-fund-bond-buyback</id>
+    <updated>2026-10-21T12:08:19.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>A tanker loaded with Russian diesel will sail for the US on Thursday as Moscow starts to implement a fuel supply deal struck by Vladimir Putin and Donald Trump, according to Deputy Prime Minister Alexander Novak.</summary>
+    <summary>South Africa lifted its borrowing requirement in the current fiscal year by 54.2 billion rand ($3.3 billion), mainly to finance a domestic bond buyback program designed to smooth out redemptions.</summary>
   </entry>
   <entry>
     <title>ollama v0.40.7 released</title>
@@ -160,6 +169,15 @@
     <summary>General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing an integrated platform for training, inference and large-scale reinforcement learning to cloud customers. A5X instances bring together NVIDIA Vera Rubin NVL72, NVIDIA ConnectX-9 SuperNICs, Google Clou</summary>
   </entry>
   <entry>
+    <title>AI cuts coding time, but it's also filling open source's inbox with crap</title>
+    <link href="https://www.theregister.com/ai-and-ml/2026/10/21/ai-cuts-coding-time-but-its-also-filling-open-sources-inbox-with-crap/5304389"/>
+    <id>https://www.theregister.com/ai-and-ml/2026/10/21/ai-cuts-coding-time-but-its-also-filling-open-sources-inbox-with-crap/5304389</id>
+    <updated>2026-10-21T12:43:00.000Z</updated>
+    <author><name>The Register AI/ML</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Maintainers reckon a quarter of incoming pull requests are slop, rising to 31% on larger projects</summary>
+  </entry>
+  <entry>
     <title>NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure</title>
     <link href="https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure"/>
     <id>https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure</id>
@@ -178,6 +196,15 @@
     <summary>arXiv:2610.24048v1 Announce Type: new Abstract: LLM agents that read untrusted content can be hijacked by prompt injections. Runtime monitors that try to catch a hijack before the agent acts, and benchmarks that score each task with a single run, share an assumption: whether an agent follows an injection is settled whe</summary>
   </entry>
   <entry>
+    <title>The Harness Is the Hard Part of Agentic Pentesting</title>
+    <link href="https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html"/>
+    <id>https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html</id>
+    <updated>2026-10-21T10:32:40.000Z</updated>
+    <author><name>The Hacker News</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>An AppSec team can point an AI agent running on a general-purpose model at its own web apps with little setup. Sure, the model writes the attacks. But everything that makes those attacks safe to run against production and worth acting on afterward lives in the harness around the model. The harness is where the engineer</summary>
+  </entry>
+  <entry>
     <title>Parasitizing trust: How legitimate infrastructure becomes a delivery pipeline for attackers</title>
     <link href="https://blog.talosintelligence.com/parasitizing-trust-how-legitimate-infrastructure-becomes-a-delivery-pipeline-for-attackers"/>
     <id>https://blog.talosintelligence.com/parasitizing-trust-how-legitimate-infrastructure-becomes-a-delivery-pipeline-for-attackers</id>
@@ -187,13 +214,13 @@
     <summary>Adversaries are turning the tools businesses trust into delivery mechanisms for malicious activity. Cisco Talos observed abuse of more than 25 legitimate platforms over the past year, exploiting the built-in trust of collaboration, file-sharing, payment and other services to reach their targets.</summary>
   </entry>
   <entry>
-    <title>AI code-testing startup Blacksmith raised a $66M Series C led by Sequoia Capital at a $1B valuation, up from $550M after raising a $45M Series B in August (Beatrice Nolan/Fortune)</title>
-    <link href="https://www.techmeme.com/261021/p17"/>
-    <id>https://www.techmeme.com/261021/p17</id>
-    <updated>2026-10-21T11:30:01.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>When A Startup Sells, Its Employees’ Equity Plans Can Change Overnight</title>
+    <link href="https://news.crunchbase.com/ma/acquired-startup-employees-equity-plans-from-honig"/>
+    <id>https://news.crunchbase.com/ma/acquired-startup-employees-equity-plans-from-honig</id>
+    <updated>2026-10-21T11:00:38.000Z</updated>
+    <author><name>Crunchbase News AI</name></author>
     <category term="FUNDING &amp; DEALS"/>
-    <summary>Beatrice Nolan / Fortune : AI code-testing startup Blacksmith raised a $66M Series C led by Sequoia Capital at a $1B valuation, up from $550M after raising a $45M Series B in August — Blacksmith, a startup that runs the infrastructure companies use to test code before it ships, has been valued at $1 billion following …</summary>
+    <summary>Startup acquisitions can reshape employees’ finances and careers, with individual outcomes depending on a variety of conditions. Guest author Ron Honig, co-CEO and managing partner of From-Honig Family Office, suggests that before making major life changes, employees should clarify their award rights, when proceeds wil</summary>
   </entry>
   <entry>
     <title>[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback</title>
@@ -205,39 +232,40 @@
     <summary>An open source “bomb” drops from China</summary>
   </entry>
   <entry>
-    <title>Announcing SimReady Central: An Open Library of Simulation-Ready 3D Assets for Robotics and AI Factories</title>
-    <link href="https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories"/>
-    <id>https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories</id>
-    <updated>2026-10-21T10:59:42.000Z</updated>
-    <author><name>Hugging Face Blog</name></author>
+    <title>Humanoid Expands NVIDIA Collaboration, Replacing Two Robot Computers With One</title>
+    <link href="https://www.humanoidsdaily.com/news/humanoid-nvidia-jetson-thor-onboard-computing"/>
+    <id>https://www.humanoidsdaily.com/news/humanoid-nvidia-jetson-thor-onboard-computing</id>
+    <updated>2026-10-21T11:52:10.000Z</updated>
+    <author><name>Humanoids Daily</name></author>
     <category term="ROBOTICS"/>
+    <summary>The UK robot maker says Jetson Thor consolidates two onboard computers into one, as it integrates NVIDIA tools for sensing, AI inference and real-time control.</summary>
   </entry>
   <entry>
-    <title>Toshiba Launches Quantum-Safe Network Platform</title>
-    <link href="https://thequantuminsider.com/2026/10/21/toshiba-launches-quantum-safe-network-platform"/>
-    <id>https://thequantuminsider.com/2026/10/21/toshiba-launches-quantum-safe-network-platform</id>
-    <updated>2026-10-21T07:53:26.000Z</updated>
-    <author><name>The Quantum Insider</name></author>
+    <title>Vote!</title>
+    <link href="https://scottaaronson.blog/?p=10222"/>
+    <id>https://scottaaronson.blog/?p=10222</id>
+    <updated>2026-10-21T05:13:08.000Z</updated>
+    <author><name>Shtetl-Optimized (Aaronson)</name></author>
     <category term="QUANTUM"/>
-    <summary>Insider Brief PRESS RELEASE — Toshiba Corporation today announced the launch of its Quantum-Safe Networking (QSN) Platform, marking a major step towards delivering true scalability, flexibility and greater efficiency in the deployment of quantum-safe networks. The Toshiba QSN Platform brings together interoperable equi</summary>
+    <summary>Today, I take a break from your regularly-scheduled AI mathocalypse programming to urge my American readers to vote in the Congressional midterms, early if possible, if you haven’t already. Especially if your state faces one or more major contests, as does my adopted home state of Texas. Me, I voted straight-ticket Dem</summary>
   </entry>
   <entry>
-    <title>As fans reject AI-generated music, even boosters are drawing the line</title>
-    <link href="https://www.theguardian.com/music/2026/oct/21/artificial-intelligence-music-grimes-asap-rocky"/>
-    <id>https://www.theguardian.com/music/2026/oct/21/artificial-intelligence-music-grimes-asap-rocky</id>
-    <updated>2026-10-21T12:00:17.000Z</updated>
-    <author><name>The Guardian AI</name></author>
+    <title>China protests the US Deepseek ban while blocking ChatGPT, Claude, and Gemini at home</title>
+    <link href="https://the-decoder.com/china-protests-the-us-deepseek-ban-while-blocking-chatgpt-claude-and-gemini-at-home"/>
+    <id>https://the-decoder.com/china-protests-the-us-deepseek-ban-while-blocking-chatgpt-claude-and-gemini-at-home</id>
+    <updated>2026-10-21T13:04:19.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>The US has banned Deepseek from its government systems, and China is protesting sharply and demanding the ban be lifted. Yet Beijing itself blocks ChatGPT, Claude, and Gemini across its entire market. China's outrage isn't very credible, but it should be taken seriously as a political signal of possible retaliation. Th</summary>
+  </entry>
+  <entry>
+    <title>OpenAI says it will make its AI models available on Google Cloud's model garden and Antigravity coding tool in the coming weeks, after launching on AWS in April (Jordan Novet/CNBC)</title>
+    <link href="https://www.techmeme.com/261021/p21"/>
+    <id>https://www.techmeme.com/261021/p21</id>
+    <updated>2026-10-21T12:15:04.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Enthusiasts like Grimes and A$AP Rocky may embrace AI-generated content, but they won’t produce it themselves Streaming services, notable musicians and fans are confronting the growing presence of AI-generated music and drawing lines in the sand. On Tuesday, Spotify announced it had removed some 50m songs considered AI</summary>
-  </entry>
-  <entry>
-    <title>b11795: server : forward llama.cpp sampling params on /v1/messages (#30856)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11795"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11795</id>
-    <updated>2026-10-21T10:58:52.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>server : forward llama.cpp sampling params on /v1/messages server : pass the request through on /v1/messages instead of copying listed keys NIT: Change comment from multiline to single line server : accept llama.cpp params under extra_params on /v1/messages server : remove test case for trivial functionality server : s</summary>
+    <summary>Jordan Novet / CNBC : OpenAI says it will make its AI models available on Google Cloud's model garden and Antigravity coding tool in the coming weeks, after launching on AWS in April — OpenAI will make its artificial intelligence models available for developers through Google's cloud, following years of competition bet</summary>
   </entry>
   <entry>
     <title>Qwen3.8-Flash-Next vs Opus 5.5: Six-way benchmark on a real Rust feature with Claude Code and Pi</title>
@@ -247,32 +275,5 @@
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
     <summary>Reposting again since original post got removed by Reddit for some reason (I have no idea why) A few of you pointed out in my last post that comparing Flash-Next and Opus with different harnesses and effort levels wasn't fair. So here is a more controlled comparison. Same task for every run: a real feature from the Lla</summary>
-  </entry>
-  <entry>
-    <title>Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents</title>
-    <link href="https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync"/>
-    <id>https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync</id>
-    <updated>2026-10-21T10:50:37.000Z</updated>
-    <author><name>NVIDIA Blog</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>At GTC Berlin, NVIDIA is showcasing its full lineup of local AI hardware. RTX Spark, which launched last week, powers personal agents on Windows PCs; DGX Spark supports developers building and scaling applications on Linux; and DGX Station serves enterprise teams running frontier workloads on Linux, with a Windows vers</summary>
-  </entry>
-  <entry>
-    <title>The Harness Is the Hard Part of Agentic Pentesting</title>
-    <link href="https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html"/>
-    <id>https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html</id>
-    <updated>2026-10-21T10:32:40.000Z</updated>
-    <author><name>The Hacker News</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>An AppSec team can point an AI agent running on a general-purpose model at its own web apps with little setup. Sure, the model writes the attacks. But everything that makes those attacks safe to run against production and worth acting on afterward lives in the harness around the model. The harness is where the engineer</summary>
-  </entry>
-  <entry>
-    <title>Australian data centre group falls 44% on profit warning</title>
-    <link href="https://www.ft.com/content/023caf76-40df-485d-8a28-0ff62aa7ec6f?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/023caf76-40df-485d-8a28-0ff62aa7ec6f?syn-25a6b1a6=1</id>
-    <updated>2026-10-21T06:33:49.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
-    <category term="AI FINANCE"/>
-    <summary>NextDC plunge adds to sector woes as Nvidia holds talks over injecting capital into Firmus after failed IPO</summary>
   </entry>
 </feed>
