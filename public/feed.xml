@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-21T15:08:43.345Z</updated>
+  <updated>2026-10-21T16:07:52.055Z</updated>
   <entry>
     <title>OpenAI models are coming to Google Cloud</title>
     <link href="https://openai.com/index/openai-models-google-cloud"/>
@@ -34,13 +34,13 @@
     <summary>Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.</summary>
   </entry>
   <entry>
-    <title>DeepSeek Open-Sources Framework Behind Its High-Margin AI Inference</title>
-    <link href="https://www.theinformation.com/briefings/deepseek-open-sources-framework-behind-high-margin-ai-inference"/>
-    <id>https://www.theinformation.com/briefings/deepseek-open-sources-framework-behind-high-margin-ai-inference</id>
-    <updated>2026-10-21T04:02:29.000Z</updated>
-    <author><name>The Information</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>DeepSeek has open-sourced DeepInfer , the in-house framework for running its own models. The move reveals some of the technical secrets behind how the Chinese AI developer achieves high efficiency and low compute costs when running its models at scale. Access to DeepInfer is likely to help ...</summary>
+    <title>PHP ships emergency patches for critical PHP2Shell flaws</title>
+    <link href="https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws"/>
+    <id>https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws</id>
+    <updated>2026-10-21T14:07:05.000Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>The PHP security team released emergency security patches for two critical remote code execution (RCE) vulnerabilities (CVE-2026-109618 and CVE-2026-109619) tracked collectively as PHP2Shell. [...] — Also covered by: The Hacker News</summary>
   </entry>
   <entry>
     <title>qwen-code v0.26.0 released</title>
@@ -50,6 +50,15 @@
     <author><name>QwenLM/qwen-code</name></author>
     <category term="GITHUB REPOS"/>
     <summary>Qwen CUA Driver prebuilt binaries (vendored under packages/cua-driver ). macOS : codesigned + notarized universal binary + QwenCuaDriver.app Linux : unsigned (x86_64 + arm64, glibc 2.31 floor) Windows : unsigned UIAccess worker + native SDK payload (x86_64 + arm64); deployments must sign and trust the worker on the tar — Also covered by: anthropics/claude-code, QwenLM/qwen-code</summary>
+  </entry>
+  <entry>
+    <title>DeepSeek Open-Sources Framework Behind Its High-Margin AI Inference</title>
+    <link href="https://www.theinformation.com/briefings/deepseek-open-sources-framework-behind-high-margin-ai-inference"/>
+    <id>https://www.theinformation.com/briefings/deepseek-open-sources-framework-behind-high-margin-ai-inference</id>
+    <updated>2026-10-21T04:02:29.000Z</updated>
+    <author><name>The Information</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>DeepSeek has open-sourced DeepInfer , the in-house framework for running its own models. The move reveals some of the technical secrets behind how the Chinese AI developer achieves high efficiency and low compute costs when running its models at scale. Access to DeepInfer is likely to help ...</summary>
   </entry>
   <entry>
     <title>Introducing TorchTPU</title>
@@ -88,22 +97,22 @@
     <summary>Mistral is collaborating with NVIDIA to develop a new generation of AI-native engineering workflows powered by NVIDIA accelerated computing.</summary>
   </entry>
   <entry>
-    <title>Claude flagged 493 security issues across 25 open-source projects, covering 5M+ lines of C, C++, Java, PHP, and Python code; one went unnoticed for 21 years (Chris Rohlf/Anthropic)</title>
-    <link href="https://www.techmeme.com/261021/p31"/>
-    <id>https://www.techmeme.com/261021/p31</id>
-    <updated>2026-10-21T14:15:01.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>New prize launches for books co-written with AI</title>
+    <link href="https://www.theguardian.com/books/2026/oct/21/new-prize-launches-books-co-written-with-ai-france"/>
+    <id>https://www.theguardian.com/books/2026/oct/21/new-prize-launches-books-co-written-with-ai-france</id>
+    <updated>2026-10-21T14:59:34.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Chris Rohlf / Anthropic : Claude flagged 493 security issues across 25 open-source projects, covering 5M+ lines of C, C++, Java, PHP, and Python code; one went unnoticed for 21 years — Over the past year, we've published lots of data that shows that frontier AI models are more than capable of discovering and exploiting</summary>
+    <summary>After months of controversy over the possible use of AI by winners of prestigious awards, the Prix Pascal de Littérature IA is rewarding fiction written with the help of LLMs A prize for AI-written books has launched this week. The Prix Pascal de Littérature IA invites submissions of manuscripts co-written with AI tool</summary>
   </entry>
   <entry>
-    <title>mlx: add Flint model support (#19181)</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.8-rc0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.8-rc0</id>
-    <updated>2026-10-21T14:45:50.000Z</updated>
-    <author><name>ollama/ollama</name></author>
+    <title>llama.cpp b11797 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11797"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11797</id>
+    <updated>2026-10-21T16:04:56.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Preserve source tool JSON alongside decoded API values so Flint can retain numeric types and schema order in prompts. Existing API marshaling is unchanged. Assemble ModelOpt expert banks during safetensors import, and reject direct Flint NVFP4 creation before conversion. Other models retain their existing import and qu</summary>
+    <summary>ggml-opencl : add IM2COL_3D support ( #30895 ) ggml-opencl : add IM2COL_3D support Assisted-by: OpenCode opencl: use same type for kernel and host opencl: fix for older adreno Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58277702 </summary>
   </entry>
   <entry>
     <title>Voxtral 3</title>
@@ -115,13 +124,13 @@
     <summary>Voxtral 3: Mistral's voice agent SDK for real-time speech in 50+ languages — accurate transcription, emotional TTS, deep tool use. EU-hosted or self-deployed.</summary>
   </entry>
   <entry>
-    <title>UBS Cuts Zurich Junior Banker Starting Associate Pay by 20,000 Swiss Francs</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-21/ubs-cuts-zurich-junior-banker-starting-associate-pay-by-20-000-swiss-francs"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-21/ubs-cuts-zurich-junior-banker-starting-associate-pay-by-20-000-swiss-francs</id>
-    <updated>2026-10-21T14:18:11.000Z</updated>
+    <title>French Bond Risk Hits 15-Year High as Risk Gauge Climbs</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-10-21/french-bond-risk-hits-15-year-high-as-risk-gauge-climbs-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-10-21/french-bond-risk-hits-15-year-high-as-risk-gauge-climbs-video</id>
+    <updated>2026-10-21T15:15:18.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Junior investment bankers at UBS Group AG got a smaller pay bump upon their promotion to the first rung of associate this year, following changes to compensation structures at the Swiss lender.</summary>
+    <summary>The yield on benchmark French debt hit 5% for the first time since 2002 as rising energy prices exacerbated concern over the country’s fiscal outlook. Alice Gledhill has more on &quot;Bloomberg Open Interest.&quot; (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>ollama v0.40.7 released</title>
@@ -133,15 +142,6 @@
     <summary>What's Changed pplx-decider is a 27B decision model from Perplexity, fine-tuned from Qwen3.8-27B Continuing an OpenAI-compatible Responses conversation no longer fails when switching between models with and without thinking, or when the history contains another provider's compaction items Fixed streaming Responses requ</summary>
   </entry>
   <entry>
-    <title>New prize launches for books co-written with AI</title>
-    <link href="https://www.theguardian.com/books/2026/oct/21/new-prize-launches-books-co-written-with-ai-france"/>
-    <id>https://www.theguardian.com/books/2026/oct/21/new-prize-launches-books-co-written-with-ai-france</id>
-    <updated>2026-10-21T14:59:34.000Z</updated>
-    <author><name>The Guardian AI</name></author>
-    <category term="PRODUCTS"/>
-    <summary>After months of controversy over the possible use of AI by winners of prestigious awards, the Prix Pascal de Littérature IA is rewarding fiction written with the help of LLMs A prize for AI-written books has launched this week. The Prix Pascal de Littérature IA invites submissions of manuscripts co-written with AI tool</summary>
-  </entry>
-  <entry>
     <title>Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure</title>
     <link href="https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure"/>
     <id>https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure</id>
@@ -151,22 +151,49 @@
     <summary>General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing an integrated platform for training, inference and large-scale reinforcement learning to cloud customers. A5X instances bring together NVIDIA Vera Rubin NVL72, NVIDIA ConnectX-9 SuperNICs, Google Clou</summary>
   </entry>
   <entry>
+    <title>AI Finds Flaw in Popular Web Hosting Software, Sparking Global Race to Patch</title>
+    <link href="https://www.theinformation.com/briefings/ai-finds-flaw-popular-web-hosting-software-sparking-global-race-patch"/>
+    <id>https://www.theinformation.com/briefings/ai-finds-flaw-popular-web-hosting-software-sparking-global-race-patch</id>
+    <updated>2026-10-21T14:51:08.000Z</updated>
+    <author><name>The Information</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>The creators of PHP, an open source programming language used by the majority of the world’s websites, on Wednesday urged web maintainers across the globe to install a new update after researchers using AI found a flaw that could put those websites at risk of being hacked. The flaw is the latest ...</summary>
+  </entry>
+  <entry>
+    <title>Claude will tell you how to manipulate an election</title>
+    <link href="https://www.transformernews.ai/p/claude-jailbreak-election-manipulation"/>
+    <id>https://www.transformernews.ai/p/claude-jailbreak-election-manipulation</id>
+    <updated>2026-10-21T15:12:14.000Z</updated>
+    <author><name>Transformer</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>A Transformer investigation found that the chatbot will outline methods to try and sway the outcome of the upcoming US midterms — from fake TikTok personas to flooding comment sections</summary>
+  </entry>
+  <entry>
+    <title>Your AI agent fixed the bug, but what else did it change?</title>
+    <link href="https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change"/>
+    <id>https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change</id>
+    <updated>2026-10-21T15:00:00.000Z</updated>
+    <author><name>Trail of Bits</name></author>
+    <category term="AI SECURITY"/>
+    <summary>Today we’re publishing patching-bugs and regression-hunt , two plugins that let engineers delegate patch development and regression checks to agents. Our patching-bugs plugin reproduces reported bugs, develops fixes, and tests them. The regression-hunt plugin checks whether any changes break previously working and supp</summary>
+  </entry>
+  <entry>
+    <title>Widespread PHP Flaw May Cause Many Site Outages Today</title>
+    <link href="https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today"/>
+    <id>https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today</id>
+    <updated>2026-10-21T15:26:07.000Z</updated>
+    <author><name>Krebs on Security</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>Expect to see quite a few websites serving &quot;404&quot; or &quot;Page Not Found&quot; errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts say there are working exploits for the flaws, and that these cr</summary>
+  </entry>
+  <entry>
     <title>“Next Exploit Opportunities”: How a Threat Actor Used AI to Help Plan and Execute Multiple Types of Cybercrime Activities</title>
     <link href="https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis"/>
     <id>https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis</id>
     <updated>2026-10-21T14:00:24.000Z</updated>
     <author><name>Palo Alto Unit 42</name></author>
-    <category term="SAFETY &amp; POLICY"/>
+    <category term="CYBER DEFENSE"/>
     <summary>An investigation into a threat actor bypassing AI safety controls to coordinate credential theft, VoIP fraud planning, and database exfiltration. The post “Next Exploit Opportunities”: How a Threat Actor Used AI to Help Plan and Execute Multiple Types of Cybercrime Activities appeared first on Unit 42 .</summary>
-  </entry>
-  <entry>
-    <title>The Window Is in the Reasoning: When LLM Agents Decide to Follow Prompt Injections</title>
-    <link href="https://arxiv.org/abs/2610.24048"/>
-    <id>https://arxiv.org/abs/2610.24048</id>
-    <updated>2026-10-21T04:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
-    <category term="AI SECURITY"/>
-    <summary>arXiv:2610.24048v1 Announce Type: new Abstract: LLM agents that read untrusted content can be hijacked by prompt injections. Runtime monitors that try to catch a hijack before the agent acts, and benchmarks that score each task with a single run, share an assumption: whether an agent follows an injection is settled whe</summary>
   </entry>
   <entry>
     <title>Whop, which helps people start, run, and scale businesses and uses AI to suggest business decisions, raised $205M led by Sequoia Capital at a $5.1B valuation (Natasha Mascarenhas/Bloomberg)</title>
@@ -205,13 +232,22 @@
     <summary>Insider Brief PRESS RELEASE — qBraid today introduced qBraid OS, software that quantum hardware providers and system operators can use to run their systems and make them available to users, whether as a commercial service or for internal use. qBraid OS manages access, scheduling and billing for a quantum processor, and</summary>
   </entry>
   <entry>
-    <title>llama.cpp b11796 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11796"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11796</id>
-    <updated>2026-10-21T12:39:27.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>Mach9, which develops AI-powered CAD software trained on proprietary, in-house AI models using multimodal image and laser scan datasets, raised a $34M Series A (Sean O'Kane/TechCrunch)</title>
+    <link href="https://www.techmeme.com/261021/p33"/>
+    <id>https://www.techmeme.com/261021/p33</id>
+    <updated>2026-10-21T14:30:02.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Sean O'Kane / TechCrunch : Mach9, which develops AI-powered CAD software trained on proprietary, in-house AI models using multimodal image and laser scan datasets, raised a $34M Series A — When Alex Baikovitz co-founded Mach9 Robotics in 2021, his goal was to build a better, faster, and cheaper way for civil engineers </summary>
+  </entry>
+  <entry>
+    <title>mlx: add Flint model support (#19181)</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.8-rc0"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.8-rc0</id>
+    <updated>2026-10-21T14:45:50.000Z</updated>
+    <author><name>ollama/ollama</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>mtmd: add state object for mtmd_gen ( #30902 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58202944 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) U</summary>
+    <summary>Preserve source tool JSON alongside decoded API values so Flint can retain numeric types and schema order in prompts. Existing API marshaling is unchanged. Assemble ModelOpt expert banks during safetensors import, and reject direct Flint NVFP4 creation before conversion. Other models retain their existing import and qu</summary>
   </entry>
   <entry>
     <title>I built a small on-device voice front-end for local assistants: type any wake word, keep only your voice before STT (5 models, 7.5 MB, Apache-2.0, early preview)</title>
@@ -232,48 +268,12 @@
     <summary>A hacking group called CyberCartel used a web of AI agents powered by models from companies including Anthropic, SpaceX and Chinese lab Moonshot AI to automate cyberattacks against more than 400 Latin American financial targets, according to an investigation by the cybersecurity startup Straiker. The research, shared e</summary>
   </entry>
   <entry>
-    <title>Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents</title>
-    <link href="https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync"/>
-    <id>https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync</id>
-    <updated>2026-10-21T10:50:37.000Z</updated>
-    <author><name>NVIDIA Blog</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>At GTC Berlin, NVIDIA is showcasing its full lineup of local AI hardware. RTX Spark, which launched last week, powers personal agents on Windows PCs; DGX Spark supports developers building and scaling applications on Linux; and DGX Station serves enterprise teams running frontier workloads on Linux, with a Windows vers</summary>
-  </entry>
-  <entry>
-    <title>Moody’s Earnings Fall Short of Estimates, Shares Decline</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-21/moody-s-earnings-fall-short-of-estimates-shares-decline"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-21/moody-s-earnings-fall-short-of-estimates-shares-decline</id>
-    <updated>2026-10-21T14:29:33.000Z</updated>
+    <title>A Daily Pill to Keep Breast Cancer Away Is Roche’s Next Frontier Drug</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-10-21/a-daily-breast-cancer-pill-is-roche-s-next-frontier-drug-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-10-21/a-daily-breast-cancer-pill-is-roche-s-next-frontier-drug-video</id>
+    <updated>2026-10-21T15:51:38.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Moody’s Corp. posted quarterly results that fell short of average analyst estimates, hurt by weaker revenue in its ratings business as rising yields weighed on corporate bond sales, and its shares fell.</summary>
-  </entry>
-  <entry>
-    <title>BofA’s Cabana Asks Fed on Rate Hikes ‘Why Wait Now?’</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-21/bofa-s-cabana-asks-fed-on-rate-hikes-why-wait-now-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-21/bofa-s-cabana-asks-fed-on-rate-hikes-why-wait-now-video</id>
-    <updated>2026-10-21T14:21:12.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Mark Cabana, co-head of global rates strategy at BofA Securities, discusses the Federal Reserve’s upcoming interest-rate decision and what he sees as policy outlook divisions within the Fed. He speaks on “Bloomberg Surveillance.” (Source: Bloomberg)</summary>
-  </entry>
-  <entry>
-    <title>Inception's Mercury 3 diffusion model claims to beat GPT-6 Luna and Claude Haiku 5.5 at a fraction of the wait</title>
-    <link href="https://the-decoder.com/inceptions-mercury-3-diffusion-model-claims-to-beat-gpt-6-luna-and-claude-haiku-5-5-at-a-fraction-of-the-wait"/>
-    <id>https://the-decoder.com/inceptions-mercury-3-diffusion-model-claims-to-beat-gpt-6-luna-and-claude-haiku-5-5-at-a-fraction-of-the-wait</id>
-    <updated>2026-10-21T14:45:45.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="RESEARCH"/>
-    <summary>Inception says Mercury 3 is the most capable diffusion language model released so far. The company claims it runs four to eight times faster than GPT-6 Luna and Claude Haiku 5.5 and beats both in eight of 12 benchmarks. There are no independent tests yet. The article Inception's Mercury 3 diffusion model claims to beat</summary>
-  </entry>
-  <entry>
-    <title>Mach9, which develops AI-powered CAD software trained on proprietary, in-house AI models using multimodal image and laser scan datasets, raised a $34M Series A (Sean O'Kane/TechCrunch)</title>
-    <link href="https://www.techmeme.com/261021/p33"/>
-    <id>https://www.techmeme.com/261021/p33</id>
-    <updated>2026-10-21T14:30:02.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="RESEARCH"/>
-    <summary>Sean O'Kane / TechCrunch : Mach9, which develops AI-powered CAD software trained on proprietary, in-house AI models using multimodal image and laser scan datasets, raised a $34M Series A — When Alex Baikovitz co-founded Mach9 Robotics in 2021, his goal was to build a better, faster, and cheaper way for civil engineers </summary>
+    <summary>A daily pill to keep breast cancer away? Swiss drugmaker Roche is betting on a new frontier drug after losing its lead in the booming cancer treatment market, explains Sarah Muller. (Source: Bloomberg)</summary>
   </entry>
 </feed>
