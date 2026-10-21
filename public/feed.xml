@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-21T22:10:15.483Z</updated>
+  <updated>2026-10-21T22:26:11.983Z</updated>
   <entry>
     <title>Broad access through consistent standards</title>
     <link href="https://openai.com/index/broad-access-through-consistent-standards"/>
@@ -97,15 +97,6 @@
     <summary>The PHP security team released emergency security patches for two critical remote code execution (RCE) vulnerabilities (CVE-2026-109618 and CVE-2026-109619) tracked collectively as PHP2Shell. [...] — Also covered by: The Hacker News</summary>
   </entry>
   <entry>
-    <title>qwen-code v0.26.0 released</title>
-    <link href="https://github.com/QwenLM/qwen-code/releases/tag/cua-driver-rs-v0.26.0"/>
-    <id>https://github.com/QwenLM/qwen-code/releases/tag/cua-driver-rs-v0.26.0</id>
-    <updated>2026-10-21T08:22:13.000Z</updated>
-    <author><name>QwenLM/qwen-code</name></author>
-    <category term="GITHUB REPOS"/>
-    <summary>Qwen CUA Driver prebuilt binaries (vendored under packages/cua-driver ). macOS : codesigned + notarized universal binary + QwenCuaDriver.app Linux : unsigned (x86_64 + arm64, glibc 2.31 floor) Windows : unsigned UIAccess worker + native SDK payload (x86_64 + arm64); deployments must sign and trust the worker on the tar — Also covered by: anthropics/claude-code, QwenLM/qwen-code</summary>
-  </entry>
-  <entry>
     <title>Introducing TorchTPU</title>
     <link href="https://pytorch.org/blog/introducing-torchtpu"/>
     <id>https://pytorch.org/blog/introducing-torchtpu</id>
@@ -113,6 +104,15 @@
     <author><name>PyTorch Blog</name></author>
     <category term="LOCAL MODELS"/>
     <summary>TL;DR TorchTPU is an open source collaboration between Google and Meta that introduces a native and principled PyTorch backend for Google TPUs. It enables seamless out-of-the-box model execution and TPU... The post Introducing TorchTPU appeared first on PyTorch . — Also covered by: vLLM Blog</summary>
+  </entry>
+  <entry>
+    <title>Muse Spark Open, Meta + Apple, Thin and Thick</title>
+    <link href="https://stratechery.com/2026/muse-spark-open-meta-apple-thin-and-thick"/>
+    <id>https://stratechery.com/2026/muse-spark-open-meta-apple-thin-and-thick</id>
+    <updated>2026-10-20T10:00:00.000Z</updated>
+    <author><name>Stratechery</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Meta has a new open source model, and to everyone's surprise, they are are partnering with Apple to make sure you can run it locally.</summary>
   </entry>
   <entry>
     <title>ollama v0.40.8 released</title>
@@ -136,10 +136,10 @@
     <title>llama.cpp b11802 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11802"/>
     <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11802</id>
-    <updated>2026-10-21T21:06:56.000Z</updated>
+    <updated>2026-10-21T22:17:39.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>jinja : fix namespace attributes shadowed by dict methods ( #30941 )</summary>
+    <summary>jinja : fix namespace attributes shadowed by dict methods ( #30941 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58411998 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU</summary>
   </entry>
   <entry>
     <title>Submit a question: Could Anthropic’s IPO be a turning point for AI?</title>
@@ -232,13 +232,13 @@
     <summary>Nvidia on Wednesday announced new deals with chip substrate suppliers Ibiden, Samsung Electro-Mechanics and Unimicron, to ensure it has enough component materials to produce more of its AI server chips in the coming years. It said the deals, which include a multibillion-dollar reservation ...</summary>
   </entry>
   <entry>
-    <title>Anthropic unveils Claude Duet, a proactive agent app on iOS, Android, and the web that works in the background, in research preview for US Pro and Max users (Claude)</title>
-    <link href="https://www.techmeme.com/261021/p49"/>
-    <id>https://www.techmeme.com/261021/p49</id>
-    <updated>2026-10-21T21:01:02.000Z</updated>
+    <title>IBM reports Q3 revenue up 5% YoY to $17.1B, above $16.82B est., net income up 26% to $2.19B, software revenue up 8% to $7.8B, and infrastructure revenue up 4% (Elias Schisgall/Wall Street Journal)</title>
+    <link href="https://www.techmeme.com/261021/p54"/>
+    <id>https://www.techmeme.com/261021/p54</id>
+    <updated>2026-10-21T22:20:03.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Claude : Anthropic unveils Claude Duet, a proactive agent app on iOS, Android, and the web that works in the background, in research preview for US Pro and Max users — A research preview is available by waitlist today, starting with US Pro and Max subscribers. — Join the waitlist … ShareCopy link</summary>
+    <summary>Elias Schisgall / Wall Street Journal : IBM reports Q3 revenue up 5% YoY to $17.1B, above $16.82B est., net income up 26% to $2.19B, software revenue up 8% to $7.8B, and infrastructure revenue up 4% — The company reported a third-quarter profit of $2.19 billion, up from $1.74 billion a year earlier</summary>
   </entry>
   <entry>
     <title>mlx: add Flint model support (#19181)</title>
@@ -259,6 +259,15 @@
     <summary>I saw this today on X and decided to try it, I havent seen it posted here yet. I ran it on a single 3090 benchmarked it with qwen 3.8 27B before and after the optimization and saw these results: Observed prompt-processing throughput improved 22–30% ; generation speed improved 1–5% . All tests passed without GPU errors.</summary>
   </entry>
   <entry>
+    <title>Anthropic unveils Claude Duet, a proactive agent app on iOS, Android, and the web that works in the background, in research preview for US Pro and Max users (Claude)</title>
+    <link href="https://www.techmeme.com/261021/p49"/>
+    <id>https://www.techmeme.com/261021/p49</id>
+    <updated>2026-10-21T21:01:02.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Claude : Anthropic unveils Claude Duet, a proactive agent app on iOS, Android, and the web that works in the background, in research preview for US Pro and Max users — A research preview is available by waitlist today, starting with US Pro and Max subscribers. — Join the waitlist … ShareCopy link</summary>
+  </entry>
+  <entry>
     <title>Mark Zuckerberg says Muse has drawn 10M+ users since its launch and 25%+ of users are making purchases through the app, with an average purchase size of $200+ (Business Insider)</title>
     <link href="https://www.techmeme.com/261021/p51"/>
     <id>https://www.techmeme.com/261021/p51</id>
@@ -266,14 +275,5 @@
     <author><name>Techmeme</name></author>
     <category term="AGENTS &amp; TOOLS"/>
     <summary>Business Insider : Mark Zuckerberg says Muse has drawn 10M+ users since its launch and 25%+ of users are making purchases through the app, with an average purchase size of $200+ — Meta's new personal AI agent app, Muse, has drawn more than 10 million users since its September launch, CEO Mark Zuckerberg said Wednesday.</summary>
-  </entry>
-  <entry>
-    <title>The Two Cities Fighting for Asia’s Cash Crown</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-21/the-battle-for-asia-s-money-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-21/the-battle-for-asia-s-money-video</id>
-    <updated>2026-10-21T21:01:00.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Hong Kong and Singapore are locked in a fight for Asia’s billionaires and fund managers. Now, with an IPO boom and Mainland China’s backing, Hong Kong is making a move with tax exemptions on carried interest. (Source: Bloomberg)</summary>
   </entry>
 </feed>
