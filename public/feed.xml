@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-21T03:08:40.299Z</updated>
+  <updated>2026-10-21T07:09:01.632Z</updated>
   <entry>
     <title>OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business</title>
     <link href="https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business"/>
@@ -14,6 +14,15 @@
     <author><name>TechCrunch AI</name></author>
     <category term="MODEL RELEASES"/>
     <summary>OpenAI says it's adding Orchestra's team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results. — Also covered by: OpenAI News</summary>
+  </entry>
+  <entry>
+    <title>DeepSeek Open-Sources Framework Behind Its High-Margin AI Inference</title>
+    <link href="https://www.theinformation.com/briefings/deepseek-open-sources-framework-behind-high-margin-ai-inference"/>
+    <id>https://www.theinformation.com/briefings/deepseek-open-sources-framework-behind-high-margin-ai-inference</id>
+    <updated>2026-10-21T04:02:29.000Z</updated>
+    <author><name>The Information</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>DeepSeek has open-sourced DeepInfer , the in-house framework for running its own models. The move reveals some of the technical secrets behind how the Chinese AI developer achieves high efficiency and low compute costs when running its models at scale. Access to DeepInfer is likely to help ... — Also covered by: MarkTechPost</summary>
   </entry>
   <entry>
     <title>Introducing TorchTPU</title>
@@ -25,15 +34,6 @@
     <summary>TL;DR TorchTPU is an open source collaboration between Google and Meta that introduces a native and principled PyTorch backend for Google TPUs. It enables seamless out-of-the-box model execution and TPU... The post Introducing TorchTPU appeared first on PyTorch . — Also covered by: vLLM Blog</summary>
   </entry>
   <entry>
-    <title>FairStress: A deeper evaluation of fairness in LLM decision-making</title>
-    <link href="https://huggingface.co/blog/allenai/fairstress"/>
-    <id>https://huggingface.co/blog/allenai/fairstress</id>
-    <updated>2026-10-20T16:09:19.000Z</updated>
-    <author><name>Hugging Face Blog</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Also covered by: Ai2 (Allen Institute)</summary>
-  </entry>
-  <entry>
     <title>Franchisee reconciles cash in 94% less time with ChatGPT Work</title>
     <link href="https://openai.com/index/ted-taylor-restaurant"/>
     <id>https://openai.com/index/ted-taylor-restaurant</id>
@@ -41,6 +41,15 @@
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
     <summary>An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.</summary>
+  </entry>
+  <entry>
+    <title>FairStress: A deeper evaluation of fairness in LLM decision-making</title>
+    <link href="https://huggingface.co/blog/allenai/fairstress"/>
+    <id>https://huggingface.co/blog/allenai/fairstress</id>
+    <updated>2026-10-20T16:09:19.000Z</updated>
+    <author><name>Hugging Face Blog</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Also covered by: Ai2 (Allen Institute)</summary>
   </entry>
   <entry>
     <title>Terminal X matches senior investor judgment 88.6% with GPT-6.1</title>
@@ -52,15 +61,6 @@
     <summary>Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.</summary>
   </entry>
   <entry>
-    <title>llm-d 1.0 hardens open-source AI inference for production</title>
-    <link href="https://research.ibm.com/blog/llmd-1-0-is-ready-for-production-inference-serving"/>
-    <id>https://research.ibm.com/blog/llmd-1-0-is-ready-for-production-inference-serving</id>
-    <updated>2026-10-20T12:00:00.000Z</updated>
-    <author><name>IBM Research Blog</name></author>
-    <category term="RESEARCH"/>
-    <summary>The distributed inference framework makes serving large models on your own infrastructure reliable and affordable for the agentic era.</summary>
-  </entry>
-  <entry>
     <title>Muse Spark Open, Meta + Apple, Thin and Thick</title>
     <link href="https://stratechery.com/2026/muse-spark-open-meta-apple-thin-and-thick"/>
     <id>https://stratechery.com/2026/muse-spark-open-meta-apple-thin-and-thick</id>
@@ -70,58 +70,58 @@
     <summary>Meta has a new open source model, and to everyone's surprise, they are are partnering with Apple to make sure you can run it locally.</summary>
   </entry>
   <entry>
+    <title>llama.cpp b11785 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11785"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11785</id>
+    <updated>2026-10-21T06:37:54.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>llama : scale moe down projection per expert token ( #30861 ) llama : scale moe down projection per expert token Replace the global amax rescaling for the MoE down projection with a per-expert-token factor computed by a POOL_1D max reduction along the intermediate dimension. Undo the scale on the output with the same e</summary>
+  </entry>
+  <entry>
     <title>Voxtral 3</title>
     <link href="https://mistral.ai/news/voxtral-3"/>
     <id>https://mistral.ai/news/voxtral-3</id>
     <updated>2026-10-20T12:00:22.000Z</updated>
     <author><name>Mistral AI</name></author>
-    <category term="MODEL RELEASES"/>
+    <category term="AGENTS &amp; TOOLS"/>
     <summary>Voxtral 3: Mistral's voice agent SDK for real-time speech in 50+ languages — accurate transcription, emotional TTS, deep tool use. EU-hosted or self-deployed.</summary>
   </entry>
   <entry>
-    <title>Reliable Robotics, which develops an autonomous flight system, raised a $115M extension for its $160M Series D, pushing its valuation to $1B+ (Kirsten Korosec/TechCrunch)</title>
-    <link href="https://www.techmeme.com/261020/p55"/>
-    <id>https://www.techmeme.com/261020/p55</id>
-    <updated>2026-10-21T00:05:13.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Kirsten Korosec / TechCrunch : Reliable Robotics, which develops an autonomous flight system, raised a $115M extension for its $160M Series D, pushing its valuation to $1B+ — Reliable Robotics has been working for nearly a decade to commercialize autonomous flying technology that can be installed on existing aircraft.</summary>
+    <title>Australian data centre group falls 44% on profit warning</title>
+    <link href="https://www.ft.com/content/023caf76-40df-485d-8a28-0ff62aa7ec6f?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/023caf76-40df-485d-8a28-0ff62aa7ec6f?syn-25a6b1a6=1</id>
+    <updated>2026-10-21T06:33:49.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="AI FINANCE"/>
+    <summary>NextDC plunge adds to sector woes as Nvidia holds talks over injecting capital into Firmus after failed IPO</summary>
   </entry>
   <entry>
     <title>ollama v0.40.7 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.7-rc1"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.7-rc1</id>
-    <updated>2026-10-21T01:58:37.000Z</updated>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.7"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.7</id>
+    <updated>2026-10-21T04:01:19.000Z</updated>
     <author><name>ollama/ollama</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>What's Changed openai: allow Responses effort on non-thinking models by @hoyyeva in #19010 llama-server: let llama-server infer the draft speculative type by @dhiltgen in #19064 mlx: add PPLX Decider v1.2 support by @dhiltgen in #19072 Full Changelog : v0.40.6...v0.40.7-rc0</summary>
-  </entry>
-  <entry>
-    <title>EEX in Talks With Australian Power Traders to Offer Futures</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-21/eex-in-talks-with-australian-power-traders-to-offer-futures"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-21/eex-in-talks-with-australian-power-traders-to-offer-futures</id>
-    <updated>2026-10-21T02:26:40.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>European Energy Exchange AG is in talks with Australian power traders about launching futures products in the volatile market as the bourse looks to expand its presence in the Asia-Pacific region.</summary>
-  </entry>
-  <entry>
-    <title>Strengthening AI safety evaluation through independent third-party review</title>
-    <link href="https://www.amazon.science/blog/strengthening-ai-safety-evaluation-through-independent-third-party-review"/>
-    <id>https://www.amazon.science/blog/strengthening-ai-safety-evaluation-through-independent-third-party-review</id>
-    <updated>2026-10-20T17:57:55.000Z</updated>
-    <author><name>Amazon Science</name></author>
     <category term="RESEARCH"/>
-    <summary>How Amazon partnered with AVERI to independently assess — and improve — our internal safety testing of Amazon models.</summary>
+    <summary>What's Changed pplx-decider is a 27B decision model from Perplexity, fine-tuned from Qwen3.8-27B Continuing an OpenAI-compatible Responses conversation no longer fails when switching between models with and without thinking, or when the history contains another provider's compaction items Fixed streaming Responses requ</summary>
   </entry>
   <entry>
-    <title>b11777: qwen: reshape output to 2d instead of 3d (#30823)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11777"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11777</id>
-    <updated>2026-10-20T19:09:56.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="HARDWARE"/>
-    <summary>qwen: reshape output to 2d instead of 3d remove final reshape, fix comments</summary>
+    <title>Mistral AI launches Voxtral 3, a full voice agent stack that listens, thinks, and talks in real time</title>
+    <link href="https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time"/>
+    <id>https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time</id>
+    <updated>2026-10-20T17:17:55.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Mistral AI launched Voxtral 3, a new family of language models built for real-time voice agents. The system combines speech-to-text, text-to-speech, and a voice agent SDK, supports more than 50 languages, and lets agents tap into external tools during live conversations. It can run on your own infrastructure or through</summary>
+  </entry>
+  <entry>
+    <title>Translating in style: An open-weight alternative to GPT-4 for culturally aligned machine translation</title>
+    <link href="https://arxiv.org/abs/2610.23868"/>
+    <id>https://arxiv.org/abs/2610.23868</id>
+    <updated>2026-10-21T04:00:00.000Z</updated>
+    <author><name>arXiv cs.CL</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>arXiv:2610.23868v1 Announce Type: new Abstract: Machine translation systems often preserve meaning but systematically flatten linguistic style, a failure that is most acute when translating into non-Western languages. The RASTA framework of Havaldar et al. (2025a) addresses this through retrieval-augmented stylistic al</summary>
   </entry>
   <entry>
     <title>Is a new job in Rep. Moran’s office a sign Congress is staffing up on AI?</title>
@@ -136,7 +136,7 @@
     <title>The Window Is in the Reasoning: When LLM Agents Decide to Follow Prompt Injections</title>
     <link href="https://arxiv.org/abs/2610.24048"/>
     <id>https://arxiv.org/abs/2610.24048</id>
-    <updated>2026-10-20T04:00:00.000Z</updated>
+    <updated>2026-10-21T04:00:00.000Z</updated>
     <author><name>arXiv cs.CL</name></author>
     <category term="AI SECURITY"/>
     <summary>arXiv:2610.24048v1 Announce Type: new Abstract: LLM agents that read untrusted content can be hijacked by prompt injections. Runtime monitors that try to catch a hijack before the agent acts, and benchmarks that score each task with a single run, share an assumption: whether an agent follows an injection is settled whe</summary>
@@ -160,49 +160,58 @@
     <summary>Ransomware operators including Spikey Scorpius (aka Qilin) and Tarnished Scorpius (aka Inc) are exploiting PAN-OS vulnerability CVE-2026-0257. The post Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 20) appeared first on Unit 42 .</summary>
   </entry>
   <entry>
-    <title>eMudhra Intermediate CA Compromise</title>
-    <link href="https://simonwillison.net/2026/Oct/20/emudhra-certificates"/>
-    <id>https://simonwillison.net/2026/Oct/20/emudhra-certificates</id>
-    <updated>2026-10-20T23:50:25.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback</title>
+    <link href="https://www.latent.space/p/ainews-deepseek-deepinfer-open-source"/>
+    <id>https://www.latent.space/p/ainews-deepseek-deepinfer-open-source</id>
+    <updated>2026-10-21T06:54:09.000Z</updated>
+    <author><name>Latent Space</name></author>
     <category term="ANALYSIS"/>
-    <summary>eMudhra Intermediate CA Compromise This is very, very bad news: The private keys of eight eMudhra intermediate CA certificates have been compromised. They chain to roots trusted by the Mozilla, Microsoft, Apple and Chrome root programs and by many downstream trust stores. Any software that bundles a list of trusted cer</summary>
+    <summary>An open source “bomb” drops from China</summary>
   </entry>
   <entry>
-    <title>Postquant Labs Launches Quip Virtual Machine for Quantum and Classical Computing</title>
-    <link href="https://thequantuminsider.com/2026/10/20/postquant-labs-quip-virtual-machine-quantum-classical-computing"/>
-    <id>https://thequantuminsider.com/2026/10/20/postquant-labs-quip-virtual-machine-quantum-classical-computing</id>
-    <updated>2026-10-20T17:55:00.000Z</updated>
-    <author><name>The Quantum Insider</name></author>
+    <title>Eka Robotics Raises $150 Million to Give Robots a Better Feel for the Physical World</title>
+    <link href="https://www.humanoidsdaily.com/news/eka-robotics-150-million-series-a-vision-force-action"/>
+    <id>https://www.humanoidsdaily.com/news/eka-robotics-150-million-series-a-vision-force-action</id>
+    <updated>2026-10-20T17:35:04.000Z</updated>
+    <author><name>Humanoids Daily</name></author>
+    <category term="ROBOTICS"/>
+    <summary>Eka’s Series A backs a vision-force-action model trained in simulation, with a reported $1.45 billion valuation and a focus on fast, adaptable robot manipulation.</summary>
+  </entry>
+  <entry>
+    <title>Vote!</title>
+    <link href="https://scottaaronson.blog/?p=10222"/>
+    <id>https://scottaaronson.blog/?p=10222</id>
+    <updated>2026-10-21T05:13:08.000Z</updated>
+    <author><name>Shtetl-Optimized (Aaronson)</name></author>
     <category term="QUANTUM"/>
-    <summary>Insider Brief PRESS RELEASE — Postquant Labs, developer of the quantum computing marketplace quip.network, has launched its Quip Virtual Machine (QVM) and first quantum smart contracts. The QVM is live today on the Aglais testnet at aglais.quip.network and provides a shared programming and execution environment for qua</summary>
+    <summary>Today, I take a break from your regularly-scheduled AI mathocalypse programming to urge my American readers to vote in the Congressional midterms, early if possible, if you haven’t already. Especially if your state faces one or more major contests, as does my adopted home state of Texas. Me, I voted straight-ticket Dem</summary>
   </entry>
   <entry>
-    <title>Sources: DayOne is weighing options for its US IPO, including a delay or smaller listing that could raise $2.5B to $3B, after initially seeking up to $5B in Q4 (Bloomberg)</title>
-    <link href="https://www.techmeme.com/261020/p59"/>
-    <id>https://www.techmeme.com/261020/p59</id>
-    <updated>2026-10-21T02:50:09.000Z</updated>
+    <title>A look at Chinese philosophical views on AI: one says aligning AI to human values may be a &quot;suicidal mistake&quot;, another fears the &quot;machinization of humans&quot;, more (Arnaud Bertrand)</title>
+    <link href="https://www.techmeme.com/261021/p7"/>
+    <id>https://www.techmeme.com/261021/p7</id>
+    <updated>2026-10-21T06:40:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Bloomberg : Sources: DayOne is weighing options for its US IPO, including a delay or smaller listing that could raise $2.5B to $3B, after initially seeking up to $5B in Q4 — DayOne Data Centers Ltd. is weighing options for its US initial public offering, including a potential delay or size cut …</summary>
+    <summary>Arnaud Bertrand : A look at Chinese philosophical views on AI: one says aligning AI to human values may be a “suicidal mistake”, another fears the “machinization of humans”, more — We've been looking at AI from the bottom of our own well. Here's the view from China's. — ∙ Paid</summary>
   </entry>
   <entry>
-    <title>Sources: Nvidia is in talks to invest hundreds of millions of dollars in Firmus, which pulled its IPO earlier this month, citing market volatility (Phoebe Liu/The Information)</title>
-    <link href="https://www.techmeme.com/261020/p56"/>
-    <id>https://www.techmeme.com/261020/p56</id>
-    <updated>2026-10-21T00:10:01.000Z</updated>
+    <title>OpenEvidence says nearly two-thirds of ~1M US physicians use its AI search engine; a source says it is on track to generate $400M-$500M in 2026 ad revenue (Rafe Rosner-Uddin/Financial Times)</title>
+    <link href="https://www.techmeme.com/261021/p6"/>
+    <id>https://www.techmeme.com/261021/p6</id>
+    <updated>2026-10-21T06:25:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Phoebe Liu / The Information : Sources: Nvidia is in talks to invest hundreds of millions of dollars in Firmus, which pulled its IPO earlier this month, citing market volatility — Nvidia is in talks to invest hundreds of millions of dollars in Australian AI cloud provider Firmus, which abruptly pulled its initial publi</summary>
+    <summary>Rafe Rosner-Uddin / Financial Times : OpenEvidence says nearly two-thirds of ~1M US physicians use its AI search engine; a source says it is on track to generate $400M-$500M in 2026 ad revenue — Founder of OpenEvidence chatbot says two-thirds of US physicians use the ad-powered tool, prompting a debate about patient ca</summary>
   </entry>
   <entry>
-    <title>llama.cpp b11776 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11776"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11776</id>
-    <updated>2026-10-21T03:07:32.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>mlx: deduplicate CUDA runtime payloads (#17956)</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.7-rc1"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.7-rc1</id>
+    <updated>2026-10-20T21:15:15.000Z</updated>
+    <author><name>ollama/ollama</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>server: Support logprobs with speculative decoding ( #27196 ) return logprobs in spec path server: add regression test for logprobs with speculative decoding Asserts accepted draft tokens report the target model's logprobs, comparing a draft-enabled run against a no-draft baseline ( #24271 ). Fails on master (top_logpr</summary>
+    <summary>Deduplicate MLX CUDA runtime payloads Move CUDA libraries shared by the GGML and MLX backends into the sibling CUDA payload, and teach in-process and subprocess MLX loading to resolve that packaged dependency directory. Keep MLX-private libraries and JIT headers in the MLX overlay, include the full OpenBLAS Fortran run</summary>
   </entry>
   <entry>
     <title>Announcing Humming: Fast, Flexible Kernels for Quantized Inference</title>
@@ -214,58 +223,40 @@
     <summary>Introducing Humming, a quantized inference kernel library from Ant Group and the vLLM community, with broad GPU and quantization support, dense and MoE performance results, and vLLM integration.</summary>
   </entry>
   <entry>
-    <title>Mistral AI launches Voxtral 3, a full voice agent stack that listens, thinks, and talks in real time</title>
-    <link href="https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time"/>
-    <id>https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time</id>
-    <updated>2026-10-20T17:17:55.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>DataPraxis: Scaling Analytics Tasks via Verified Workspace Evolution</title>
+    <link href="https://arxiv.org/abs/2610.26924"/>
+    <id>https://arxiv.org/abs/2610.26924</id>
+    <updated>2026-10-21T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Mistral AI launched Voxtral 3, a new family of language models built for real-time voice agents. The system combines speech-to-text, text-to-speech, and a voice agent SDK, supports more than 50 languages, and lets agents tap into external tools during live conversations. It can run on your own infrastructure or through</summary>
+    <summary>arXiv:2610.26924v1 Announce Type: new Abstract: General-purpose agents are increasingly expected to perform professional analytics work, which requires sustained reasoning, iterative investigation, and reliable evidence. Training these capabilities requires diverse and challenging tasks. However, generating tasks direc</summary>
   </entry>
   <entry>
-    <title>TornadoVM 7 Enables GPU-Native Workloads From Java Applications</title>
-    <link href="https://www.infoq.com/news/2026/10/tornadovm-7-gpu"/>
-    <id>https://www.infoq.com/news/2026/10/tornadovm-7-gpu</id>
-    <updated>2026-10-21T03:00:00.000Z</updated>
-    <author><name>InfoQ AI/ML</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>TornadoVM, an open-source heterogeneous programming framework for Java has reached version 7.0. It automatically accelerates Java programs on multi-core CPUs and GPUs and provides a rich GPU programming ecosystem in Java that can be used with any mainstream JDK distribution e.g. Temurin, Red Hat OpenJDK, Coretto, Oracl</summary>
-  </entry>
-  <entry>
-    <title>Jio’s Record $3.2 Billion IPO Puts India’s Market Muscle to the Test</title>
-    <link href="https://www.bloomberg.com/news/newsletters/2026-10-21/jio-s-record-3-2-billion-ipo-puts-india-s-market-muscle-to-the-test"/>
-    <id>https://www.bloomberg.com/news/newsletters/2026-10-21/jio-s-record-3-2-billion-ipo-puts-india-s-market-muscle-to-the-test</id>
-    <updated>2026-10-21T02:35:57.000Z</updated>
+    <title>Bank Indonesia Holds Rate as MSCI Shock Threatens Rupiah</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-21/bank-indonesia-holds-rate-as-msci-shock-threatens-rupiah"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-21/bank-indonesia-holds-rate-as-msci-shock-threatens-rupiah</id>
+    <updated>2026-10-21T06:55:59.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The issue has already drawn $854 million from anchor investors including marquee names such as BlackRock, Fidelity, and Capital Group.</summary>
+    <summary>Bank Indonesia kept its benchmark interest rate unchanged, opting to continue relying on targeted measures to support the rupiah through the market volatility triggered by MSCI Inc.’s double-downgrade threat.</summary>
   </entry>
   <entry>
-    <title>Australian data centre group falls 44% on profit warning</title>
-    <link href="https://www.ft.com/content/023caf76-40df-485d-8a28-0ff62aa7ec6f?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/023caf76-40df-485d-8a28-0ff62aa7ec6f?syn-25a6b1a6=1</id>
-    <updated>2026-10-21T02:00:40.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
+    <title>Chiriseri: France’s Fiscal Picture Concern Bond Markets</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-10-21/chiriseri-france-s-fiscal-picture-concern-bond-markets-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-10-21/chiriseri-france-s-fiscal-picture-concern-bond-markets-video</id>
+    <updated>2026-10-21T07:00:05.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>NextDC plunge adds to sector woes as Nvidia holds talks over injecting capital into Firmus after failed IPO</summary>
+    <summary>Treasury yields edged higher as the recent bond rally lost some momentum. Bloomberg’s strategists say longer term, they see yields reaching fresher highs as strong US growth, higher borrowing costs and rising government debt supply will keep pressure on Treasuries. Rufaro Chiriseri, Head of Fixed Income for UK and Euro</summary>
   </entry>
   <entry>
-    <title>Elevenlabs releases two new speech-to-speech models designed for real-time AI conversations</title>
-    <link href="https://the-decoder.com/elevenlabs-releases-two-new-speech-to-speech-models-designed-for-real-time-ai-conversations"/>
-    <id>https://the-decoder.com/elevenlabs-releases-two-new-speech-to-speech-models-designed-for-real-time-ai-conversations</id>
-    <updated>2026-10-20T19:03:15.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>PolyGraph: Plan-Buffered CUDA Graphs for Adaptive Speculative Decoding</title>
+    <link href="https://arxiv.org/abs/2610.23861"/>
+    <id>https://arxiv.org/abs/2610.23861</id>
+    <updated>2026-10-21T04:00:00.000Z</updated>
+    <author><name>arXiv cs.LG</name></author>
     <category term="RESEARCH"/>
-    <summary>Elevenlabs' new Eleven Realtime speech-to-speech models combine speed and accuracy. The v1 Max variant scores 98.8 percent on the Big Bench Audio benchmark with a 0.57-second response time. Elevenlabs says no model on the Artificial Analysis leaderboard is both faster and more accurate. The article Elevenlabs releases </summary>
-  </entry>
-  <entry>
-    <title>GardenBench: A lightweight, daily evaluation of LLM capabilities</title>
-    <link href="https://arxiv.org/abs/2610.23866"/>
-    <id>https://arxiv.org/abs/2610.23866</id>
-    <updated>2026-10-20T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
-    <category term="RESEARCH"/>
-    <summary>arXiv:2610.23866v1 Announce Type: new Abstract: We introduce GardenBench, a benchmark with 11 test suites that evaluate the capabilities of Large Language Models (LLMs) across a range of tasks. By systematically prompting LLMs with various lightweight queries, we document day-to-day changes in model performance, includ</summary>
+    <summary>arXiv:2610.23861v1 Announce Type: new Abstract: Adaptive speculative decoding changes the active batch size B and draft length d from one decode step to the next, whereas a CUDA Graph replays a fixed launch configuration. The resulting verification width M = B d forces serving systems to pre-capture many shapes, captur</summary>
   </entry>
   <entry>
     <title>Deepseek open-sources the inference engine that powers its fastest and cheapest AI model</title>
@@ -275,5 +266,14 @@
     <author><name>The Decoder</name></author>
     <category term="PRODUCTS"/>
     <summary>Deepseek is open-sourcing DeepInfer, the inference framework behind its fast V4.1-Flash model. The vLLM-based system cuts compute costs and energy use when running AI models. The release adds more pricing pressure on Western providers like OpenAI and Anthropic. The article Deepseek open-sources the inference engine tha</summary>
+  </entry>
+  <entry>
+    <title>Reservoir launches new agricultural robotics incubator for Washington growers</title>
+    <link href="https://www.therobotreport.com/reservoir-launches-new-agricultural-robotics-incubator-for-washington-growers"/>
+    <id>https://www.therobotreport.com/reservoir-launches-new-agricultural-robotics-incubator-for-washington-growers</id>
+    <updated>2026-10-20T19:40:05.000Z</updated>
+    <author><name>The Robot Report</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Reservoir hopes to put agricultural robotics startups to work in the orchards, vineyards and berry fields alongside researchers and growers. The post Reservoir launches new agricultural robotics incubator for Washington growers appeared first on The Robot Report .</summary>
   </entry>
 </feed>
