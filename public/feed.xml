@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-23T15:56:23.599Z</updated>
+  <updated>2026-10-23T16:09:41.232Z</updated>
   <entry>
     <title>Compromised TLS Certificates</title>
     <link href="https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html"/>
@@ -14,6 +14,15 @@
     <author><name>Schneier on Security</name></author>
     <category term="CYBER THREATS"/>
     <summary>The Indian CA eMudhra Limited has eight TLS certificates with laughably weak private keys : The compromised eMudhra keys were defective at a level that’s challenging the imagination of many of the engineers studying the incident. A normal size for a NIST P-384 elliptic curve cryptography private key contains roughly 38 — Also covered by: Palo Alto Unit 42, Talos Intelligence</summary>
+  </entry>
+  <entry>
+    <title>Canva launches Craft, its first in-house image model</title>
+    <link href="https://the-decoder.com/canva-launches-craft-its-first-in-house-image-model"/>
+    <id>https://the-decoder.com/canva-launches-craft-its-first-in-house-image-model</id>
+    <updated>2026-10-23T11:36:30.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Design platform Canva has released Canva Craft, its first in-house image generation model. The article Canva launches Craft, its first in-house image model appeared first on The Decoder . — Also covered by: TechCrunch AI</summary>
   </entry>
   <entry>
     <title>OpenAI and Poland’s NASK partner to advance AI safety and security</title>
@@ -97,13 +106,13 @@
     <summary>ggml : fix time overflow in ggml_time_us ( #30969 ) fix time overflow use double Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59093605 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubu</summary>
   </entry>
   <entry>
-    <title>CFTC Takes Oil Trading Oversight ‘Very Seriously,’ Selig Says</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-23/cftc-takes-very-seriously-oil-trading-oversight-selig-says"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-23/cftc-takes-very-seriously-oil-trading-oversight-selig-says</id>
-    <updated>2026-10-23T15:26:38.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
+    <title>Managing a new world of bots and bargain hunters</title>
+    <link href="https://www.ft.com/content/a7e72609-8b63-4412-ab07-ccd7f685c5ea?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/a7e72609-8b63-4412-ab07-ccd7f685c5ea?syn-25a6b1a6=1</id>
+    <updated>2026-10-23T15:43:44.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
     <category term="AI FINANCE"/>
-    <summary>The top US derivatives regulator said Friday that his agency takes market oversight “very seriously” and the agency’s enforcement division has been looking at oil trading during the Iran war.</summary>
+    <summary>AI agents promise to empower consumers and boost competition, but must first earn users’ trust</summary>
   </entry>
   <entry>
     <title>FusionEval: Benchmarking Model Fusion for Large Language Models</title>
@@ -113,15 +122,6 @@
     <author><name>arXiv cs.CL</name></author>
     <category term="RESEARCH"/>
     <summary>arXiv:2610.30162v1 Announce Type: new Abstract: Model fusion aims to integrate the capabilities of multi-expert models into a single model. Existing evaluations offer limited coverage of reasoning with long chains of thought and tool use, while strong average performance can mask substantial losses in individual expert</summary>
-  </entry>
-  <entry>
-    <title>Canva launches Craft, its first in-house image model</title>
-    <link href="https://the-decoder.com/canva-launches-craft-its-first-in-house-image-model"/>
-    <id>https://the-decoder.com/canva-launches-craft-its-first-in-house-image-model</id>
-    <updated>2026-10-23T11:36:30.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Design platform Canva has released Canva Craft, its first in-house image generation model. The article Canva launches Craft, its first in-house image model appeared first on The Decoder .</summary>
   </entry>
   <entry>
     <title>OpenAI makes Decisions API, its Jev competitor, generally available with new voice and visual modalities, at $0.10/1M input tokens and no output-token charges (Tim Fernholz/TechCrunch)</title>
@@ -196,6 +196,15 @@
     <summary>Insider Brief PRESS RELEASE — Governor Kathy Hochul today announced the release of a comprehensive study of New York State’s quantum technology landscape, finding that the Empire State ranks second nationally in quantum-related businesses, research groups and patents. Commissioned by Empire State Development’s Division</summary>
   </entry>
   <entry>
+    <title>New Tools for the Admins Who Build Communities on Forum</title>
+    <link href="https://about.fb.com/news/2026/10/new-tools-for-the-admins-who-build-communities-on-forum"/>
+    <id>https://about.fb.com/news/2026/10/new-tools-for-the-admins-who-build-communities-on-forum</id>
+    <updated>2026-10-23T16:00:06.000Z</updated>
+    <author><name>Meta AI Blog</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>We're introducing new tools to Forum to make it easier for admins to manage Groups. The post New Tools for the Admins Who Build Communities on Forum appeared first on Meta Newsroom .</summary>
+  </entry>
+  <entry>
     <title>Source: Shein has agreed to pay $100M, equivalent to 44% of its Q2 profit, to settle a US FTC investigation over delivery delays and other customer complaints (Reuters)</title>
     <link href="https://www.techmeme.com/261023/p11"/>
     <id>https://www.techmeme.com/261023/p11</id>
@@ -232,48 +241,39 @@
     <summary>guys, you better just clone llama.cpp I swear. this thing is running gguf q4 paged into webgl2 embedded compute buffers via glsl right inside html, and tokenizer/vocab is just part of the endless debug hell. submitted by /u/CodeMichaelD [link] [comments]</summary>
   </entry>
   <entry>
+    <title>CFTC Takes Oil Trading Oversight ‘Very Seriously,’ Selig Says</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-23/cftc-takes-very-seriously-oil-trading-oversight-selig-says"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-23/cftc-takes-very-seriously-oil-trading-oversight-selig-says</id>
+    <updated>2026-10-23T15:26:38.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>The top US derivatives regulator said Friday that his agency takes market oversight “very seriously” and the agency’s enforcement division has been looking at oil trading during the Iran war.</summary>
+  </entry>
+  <entry>
+    <title>The Circuit - Season 6 Trailer</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-10-23/the-circuit-season-6-trailer-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-10-23/the-circuit-season-6-trailer-video</id>
+    <updated>2026-10-23T15:57:36.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>A Bloomberg Originals series hosted by Emily Chang that goes behind the scenes with founders, influencers and innovators. (Source: Bloomberg)</summary>
+  </entry>
+  <entry>
     <title>TauIndianBankBench: Procedure-Aware, Action-Oriented Evaluation of Tool-Using Conversational Agents</title>
     <link href="https://arxiv.org/abs/2610.30161"/>
     <id>https://arxiv.org/abs/2610.30161</id>
     <updated>2026-10-23T04:00:00.000Z</updated>
     <author><name>arXiv cs.CL</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
+    <category term="RESEARCH"/>
     <summary>arXiv:2610.30161v1 Announce Type: new Abstract: Many Indian banks serve customers through FAQ pages and scripted chatbots. Assistants based on language models could respond faster and carry out requests such as blocking a card, but only if they give correct information and follow the bank's rules. These rules prescribe</summary>
   </entry>
   <entry>
-    <title>De olho nas eleições</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-23/de-olho-nas-eleicoes-video-mvl5d8vg"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-23/de-olho-nas-eleicoes-video-mvl5d8vg</id>
-    <updated>2026-10-23T15:51:06.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Daniela Milanese fala sobre as pesquisas antes do segundo turno e como os candidatos vão encerrar as campanhas. Produção e edição de Patricia Xavier. (Source: Bloomberg)</summary>
-  </entry>
-  <entry>
-    <title>AI Tech Fears Push Global Credit Spreads to 17-Month High</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-23/ai-fears-push-global-credit-spreads-to-17-month-high-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-23/ai-fears-push-global-credit-spreads-to-17-month-high-video</id>
-    <updated>2026-10-23T15:37:22.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Metrics across global bond markets are signaling their biggest risk-off sentiment in more than a year, as a selloff in AI stocks and growing geopolitical tensions caused investors to seek out safe-haven assets. Katy Kaminski, Chief Research Strategist at AlphaSimplex, discusses the equities AI trade test and why fixed </summary>
-  </entry>
-  <entry>
-    <title>Support GA Gradium Phonon checkpoints (#19227)</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.9-rc3"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.9-rc3</id>
-    <updated>2026-10-22T22:51:43.000Z</updated>
-    <author><name>ollama/ollama</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Replace the prerelease checkpoint path with Gradium's GA format, including default-voice import and speech conditioning. Set the 0.40.9 minimum, update the speech docs, and test import, inference setup, and rejection of the old checkpoint.</summary>
-  </entry>
-  <entry>
-    <title>Bambu Lab teases its mysterious H3C tool changer 3D printer</title>
-    <link href="https://www.tomshardware.com/3d-printing/bambu-lab-teases-its-mysterious-h3c-tool-changer-3d-printer-features-nine-tools-and-a-drop-down-rack-slated-for-november-3-launch"/>
-    <id>https://www.tomshardware.com/3d-printing/bambu-lab-teases-its-mysterious-h3c-tool-changer-3d-printer-features-nine-tools-and-a-drop-down-rack-slated-for-november-3-launch</id>
-    <updated>2026-10-23T13:00:00.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Bambu Lab’s long-awaited tool changer H3C launches Nov. 3, 2026.</summary>
+    <title>The Cost of Saying Hello: An Empirical Study of Handshake Overhead in AI Agent Communication Protocols</title>
+    <link href="https://arxiv.org/abs/2610.30151"/>
+    <id>https://arxiv.org/abs/2610.30151</id>
+    <updated>2026-10-23T04:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
+    <category term="RESEARCH"/>
+    <summary>arXiv:2610.30151v1 Announce Type: new Abstract: Every interaction between AI agents begins with a handshake: the initiating agent must locate its counterpart, learn what it can do, and establish a session before the first useful message can be sent. Surveys of agent communication protocols name handshake overhead as an</summary>
   </entry>
 </feed>
