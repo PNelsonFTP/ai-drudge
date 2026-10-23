@@ -5,7 +5,16 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-23T22:18:16.198Z</updated>
+  <updated>2026-10-23T23:33:13.978Z</updated>
+  <entry>
+    <title>Introducing Kimi K3.1 Pro</title>
+    <link href="https://simonwillison.net/2026/Oct/23/kimi-k31-pro"/>
+    <id>https://simonwillison.net/2026/Oct/23/kimi-k31-pro</id>
+    <updated>2026-10-23T19:40:54.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise &quot;Full model weights will be released by Nov 4, 2026&quot;. They're also offering a &quot;Highspeed&quot; version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same).  — Also covered by: r/LocalLLM</summary>
+  </entry>
   <entry>
     <title>Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)</title>
     <link href="https://openai.com/index/scaling-storage-one-billion-users-part-two"/>
@@ -16,15 +25,6 @@
     <summary>Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.</summary>
   </entry>
   <entry>
-    <title>b11843: qwen4exp : build the QSA selection without the kq_mask (#30965)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11843"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11843</id>
-    <updated>2026-10-23T17:49:08.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>qwen4exp : build the QSA selection without the kq_mask clean lang qwen4exp : reshape the fused QSA selection to the kq_mask streams ggml_top_k_mask with a single keep row returns [n_kv, n_tokens], while build_attn_qsa expects the kq_mask layout [n_kv, n_tokens/n_stream, 1, n_stream]. With several streams the shape asse — Also covered by: LocalLLaMA Subreddit</summary>
-  </entry>
-  <entry>
     <title>Securing our frontier model training environment</title>
     <link href="https://openai.com/index/securing-our-frontier-model-training-environment"/>
     <id>https://openai.com/index/securing-our-frontier-model-training-environment</id>
@@ -32,24 +32,6 @@
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
     <summary>OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.</summary>
-  </entry>
-  <entry>
-    <title>Introducing Kimi K3.1 Pro</title>
-    <link href="https://simonwillison.net/2026/Oct/23/kimi-k31-pro"/>
-    <id>https://simonwillison.net/2026/Oct/23/kimi-k31-pro</id>
-    <updated>2026-10-23T19:40:54.000Z</updated>
-    <author><name>Simon Willison</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise &quot;Full model weights will be released by Nov 4, 2026&quot;. They're also offering a &quot;Highspeed&quot; version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same). </summary>
-  </entry>
-  <entry>
-    <title>From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026</title>
-    <link href="https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026"/>
-    <id>https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026</id>
-    <updated>2026-10-23T19:06:23.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies both inside and outside traditional startup hubs.</summary>
   </entry>
   <entry>
     <title>LitPivot: Developing research ideas through dynamic contextualization within the literature landscape</title>
@@ -70,6 +52,15 @@
     <summary>OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.</summary>
   </entry>
   <entry>
+    <title>Simulated Control Evaluations</title>
+    <link href="https://www.lesswrong.com/posts/uXiqyoKwpfjWfQXk5/simulated-control-evaluations"/>
+    <id>https://www.lesswrong.com/posts/uXiqyoKwpfjWfQXk5/simulated-control-evaluations</id>
+    <updated>2026-10-23T22:16:57.000Z</updated>
+    <author><name>LessWrong</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>We’ve released a paper on simulated control evaluations (SCEs). They’re a method for testing whether the monitors AI developers use to oversee their agents would catch a model deliberately trying to cause harm, under conditions much closer to real deployment than current tests allow. Developers have started running mon — Also covered by: Redwood Research</summary>
+  </entry>
+  <entry>
     <title>Telefónica and IQM to Deploy Community of Madrid’s First On-Premises Quantum Computer at Universidad Politécnica de Madrid</title>
     <link href="https://quantumcomputingreport.com/telefonica-and-iqm-to-deploy-community-of-madrids-first-on-premises-quantum-computer-at-universidad-politecnica-de-madrid"/>
     <id>https://quantumcomputingreport.com/telefonica-and-iqm-to-deploy-community-of-madrids-first-on-premises-quantum-computer-at-universidad-politecnica-de-madrid</id>
@@ -88,22 +79,22 @@
     <summary>Eight compromised eMudhra intermediate CA private keys risk unauthorized TLS signing and MitM interception. Read our analysis and containment guide. The post EMudhra Intermediate CA Certificates Compromised appeared first on Unit 42 . — Also covered by: Talos Intelligence</summary>
   </entry>
   <entry>
-    <title>Artificial Analysis says Kimi K3.1 Pro lands 4th on its Intelligence Index, behind only Opus 5.5 (max), Sonnet 5.5 (max), and Muse Wonder Full (max) (@artificialanlys)</title>
-    <link href="https://www.techmeme.com/261023/p18"/>
-    <id>https://www.techmeme.com/261023/p18</id>
-    <updated>2026-10-23T19:25:01.000Z</updated>
+    <title>Mave, which is developing an AI-driven tool to automate security investigations, raised a $28M Series A led by Red Dot, bringing its total funding to $34M (Meir Orbach/CTech)</title>
+    <link href="https://www.techmeme.com/261023/p22"/>
+    <id>https://www.techmeme.com/261023/p22</id>
+    <updated>2026-10-23T21:15:02.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>@artificialanlys : Artificial Analysis says Kimi K3.1 Pro lands 4th on its Intelligence Index, behind only Opus 5.5 (max), Sonnet 5.5 (max), and Muse Wonder Full (max) — Kimi K3.1 Pro launches at 4th on the Artificial Analysis Intelligence Index scoring 55, making large gains in agentic performance; it will be the lead</summary>
+    <summary>Meir Orbach / CTech : Mave, which is developing an AI-driven tool to automate security investigations, raised a $28M Series A led by Red Dot, bringing its total funding to $34M — The funding, led by Red Dot Capital Partners, brings Mave's total funding to $34 million. The company is developing AI …</summary>
   </entry>
   <entry>
-    <title>llama.cpp b11844 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11844"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11844</id>
-    <updated>2026-10-23T17:56:38.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>voice: add voice catalog for Phonon (#19242)</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.11-rc0"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.11-rc0</id>
+    <updated>2026-10-23T23:15:08.000Z</updated>
+    <author><name>ollama/ollama</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>allows the usage of 4-10 gpus for stepfun and laguna in tensor paral…</summary>
+    <summary>mlxrunner: import and list Phonon catalog voices docs: document Phonon voices</summary>
   </entry>
   <entry>
     <title>ollama v0.40.10 released</title>
@@ -124,13 +115,22 @@
     <summary>Andrew Brandt says the Brewers and Rays reaching the World Series—despite ranking 19th and 26th in payroll, respectively—shows how strong management, scouting and player development can compete with high spending. He calls the matchup evidence for the players’ union that success is possible without a salary cap, while </summary>
   </entry>
   <entry>
-    <title>At MIT, Martha Minow speaks on sustaining democracy, both by using and overcoming AI</title>
-    <link href="https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023"/>
-    <id>https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023</id>
-    <updated>2026-10-23T21:00:00.000Z</updated>
-    <author><name>MIT News AI</name></author>
+    <title>Moonshot AI Launches New Kimi K3.1 Pro Model</title>
+    <link href="https://www.theinformation.com/briefings/moonshot-ai-launches-new-kimi-k3-1-pro-model"/>
+    <id>https://www.theinformation.com/briefings/moonshot-ai-launches-new-kimi-k3-1-pro-model</id>
+    <updated>2026-10-23T22:26:12.000Z</updated>
+    <author><name>The Information</name></author>
     <category term="RESEARCH"/>
-    <summary>In Compton Lecture, the distinguished legal scholar warns of potential “loss of the Enlightenment” while suggesting ways innovations can meet our civic and cultural needs.</summary>
+    <summary>Moonshot AI on Friday announced its new model, Kimi K3.1 Pro, demonstrating performance that rivals that of top-tier U.S. frontier models on some benchmarks. Kimi K3.1 Pro, built on the architecture of its popular predecessor Kimi K3, is now ranked fourth on the Artificial Analysis Intelligence ...</summary>
+  </entry>
+  <entry>
+    <title>llama.cpp b11844 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11844"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11844</id>
+    <updated>2026-10-23T17:56:38.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="HARDWARE"/>
+    <summary>allows the usage of 4-10 gpus for stepfun and laguna in tensor paral…</summary>
   </entry>
   <entry>
     <title>VC Firms Tap LP Pools, Warehouse Loans for Speedy AI Cash</title>
@@ -140,15 +140,6 @@
     <author><name>The Information</name></author>
     <category term="OPEN SOURCE"/>
     <summary>When Reflection AI set out to raise $2.5 billion early this year, one of its existing venture backers, B Capital, was eager to invest again in the startup, which has emerged as the most high-profile U.S. maker of open-source AI models. But Reflection’s valuation had more than tripled in just six months, forcing investo</summary>
-  </entry>
-  <entry>
-    <title>The cyberpocalypse is here — sort of</title>
-    <link href="https://www.transformernews.ai/p/php-flaw-cyberpocalypse-is-here-sort-of"/>
-    <id>https://www.transformernews.ai/p/php-flaw-cyberpocalypse-is-here-sort-of</id>
-    <updated>2026-10-23T13:56:51.000Z</updated>
-    <author><name>Transformer</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>Transformer Weekly: Anthropic’s imminent IPO, OpenAI’s SB 53 amendments, and AI safety advocates turn on Anthropic</summary>
   </entry>
   <entry>
     <title>Straiker Wins Five 2026 Top InfoSec Innovator Awards | Straiker</title>
@@ -169,22 +160,13 @@
     <summary>Microsoft has announced plans to add AI-powered phishing detection to Teams messages starting in early November 2026. [...]</summary>
   </entry>
   <entry>
-    <title>Update gemma renderers (#19241)</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.10-rc0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.10-rc0</id>
-    <updated>2026-10-23T14:12:11.000Z</updated>
-    <author><name>ollama/ollama</name></author>
+    <title>Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 23)</title>
+    <link href="https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619"/>
+    <id>https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619</id>
+    <updated>2026-10-23T19:00:34.000Z</updated>
+    <author><name>Palo Alto Unit 42</name></author>
     <category term="CYBER DEFENSE"/>
-    <summary>renderers: add gemma4-nemotron renderer Add a Gemma 4 renderer variant that renders assistant content before its tool calls rather than after the tool responses. Models opt in with RENDERER gemma4-nemotron; gemma4 auto-detection is unchanged. Adds the corresponding chat template as a test fixture for Jinja parity check</summary>
-  </entry>
-  <entry>
-    <title>Mave, which is developing an AI-driven tool to automate security investigations, raised a $28M Series A led by Red Dot, bringing its total funding to $34M (Meir Orbach/CTech)</title>
-    <link href="https://www.techmeme.com/261023/p22"/>
-    <id>https://www.techmeme.com/261023/p22</id>
-    <updated>2026-10-23T21:15:02.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>Meir Orbach / CTech : Mave, which is developing an AI-driven tool to automate security investigations, raised a $28M Series A led by Red Dot, bringing its total funding to $34M — The funding, led by Red Dot Capital Partners, brings Mave's total funding to $34 million. The company is developing AI …</summary>
+    <summary>CVE-2026-109618 and CVE-2026-109619 are Critical vulnerabilities in PHP, a scripting language used globally for web servers and CMS systems. The post Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 23) appeared first on Unit 42 .</summary>
   </entry>
   <entry>
     <title>Quick Study</title>
@@ -193,7 +175,7 @@
     <updated>2026-10-23T21:35:13.000Z</updated>
     <author><name>Simon Willison</name></author>
     <category term="ANALYSIS"/>
-    <summary>Tool: Quick Study Prompt to Claude Opus 5.5 High : Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush See also my previous experiment getting Claude Fable to simulate a watercolor illustration with P5.js. Tags: tools</summary>
+    <summary>Tool: Quick Study Prompt to Claude Opus 5.5 High : Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush See also my previous experiment getting Claude Fable to simulate a watercolor illustration with P5.js. Quick Study </summary>
   </entry>
   <entry>
     <title>Enact Raises $30M Pre-Seed to Give Factory Robots a Sense of Force</title>
@@ -214,31 +196,31 @@
     <summary>RhymeQ Technologies has joined the NVIDIA Inception program, aligning its RHYME abstraction layer with NVIDIA's CUDA-Q platform. They are also collaborating on research to integrate agentic AI with quantum computing using NVIDIA's NOOA framework. This initiative aims to enable AI agents to orchestrate workloads between</summary>
   </entry>
   <entry>
-    <title>Memo: Helen Chiang, Xbox's first COO, is leaving Microsoft on October 23, just months after the role was created; she spent 21 years at the company (Tom Warren/The Verge)</title>
-    <link href="https://www.techmeme.com/261023/p23"/>
-    <id>https://www.techmeme.com/261023/p23</id>
-    <updated>2026-10-23T21:55:01.000Z</updated>
+    <title>Chinese AI model Kimi K3.1 Pro is closing in on Anthropic's Claude Opus 5.5</title>
+    <link href="https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5"/>
+    <id>https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5</id>
+    <updated>2026-10-23T19:00:07.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Moonshot AI's Kimi K3.1 Pro scores 55 points on the Artificial Analysis Intelligence Index, an 11-point jump over its predecessor that puts it in fourth place. Only three Anthropic and Meta models rank higher. If Moonshot releases the weights as planned, the gap between open and proprietary models shrinks to just three</summary>
+  </entry>
+  <entry>
+    <title>Utopai, an AI film studio that says it has more than 20 projects in the works, raised $60M at a $1B valuation (Rocket Drew/The Information)</title>
+    <link href="https://www.techmeme.com/261023/p24"/>
+    <id>https://www.techmeme.com/261023/p24</id>
+    <updated>2026-10-23T23:10:05.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Tom Warren / The Verge : Memo: Helen Chiang, Xbox's first COO, is leaving Microsoft on October 23, just months after the role was created; she spent 21 years at the company — Helen Chiang is leaving Microsoft after 21 years. … Xbox is losing its first chief operating officer (COO) after creating the new role just a few</summary>
+    <summary>Rocket Drew / The Information : Utopai, an AI film studio that says it has more than 20 projects in the works, raised $60M at a $1B valuation — While much of the AI industry has fixated on new personal AI assistants from Meta and OpenAI, video AI is enjoying a quiet renaissance. Hollywood mogul Jeffrey Katzenberg …</summary>
   </entry>
   <entry>
-    <title>I ran all the popular Qwen 3.8 FN engines on a single 5090 + 128GB of RAM, here are the numbers</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xdlunp/i_ran_all_the_popular_qwen_38_fn_engines_on_a"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xdlunp/i_ran_all_the_popular_qwen_38_fn_engines_on_a</id>
-    <updated>2026-10-23T18:22:56.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>b11843: qwen4exp : build the QSA selection without the kq_mask (#30965)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11843"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11843</id>
+    <updated>2026-10-23T17:49:08.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Before you read: I'm the developer of Basalt, one of the engines benchmarked below. I tried to keep this as fair as possible: same checkpoint, GPU and requests, and every engine set up the way its own docs recommend. How it was run is at the bottom. This post has had some AI cleanup from my own wording. I wanted to get</summary>
-  </entry>
-  <entry>
-    <title>Mysterious Qwen4 Appearance by New GitHub Accounts</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xdmt2o/mysterious_qwen4_appearance_by_new_github_accounts"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xdmt2o/mysterious_qwen4_appearance_by_new_github_accounts</id>
-    <updated>2026-10-23T18:59:02.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>(Post Updated) PR: https://github.com/t-head/pla/pull/12 PR title: feat(gdn): support Qwen4.0-Max prefill heads T-head itself is alibaba oss: https://github.com/alibaba-oss Processing img 71x75uagq9xh1... Original Post: The accounts are &lt;1 month old, these are either troll accounts or secret alibaba accounts. My agent </summary>
+    <summary>qwen4exp : build the QSA selection without the kq_mask clean lang qwen4exp : reshape the fused QSA selection to the kq_mask streams ggml_top_k_mask with a single keep row returns [n_kv, n_tokens], while build_attn_qsa expects the kq_mask layout [n_kv, n_tokens/n_stream, 1, n_stream]. With several streams the shape asse</summary>
   </entry>
   <entry>
     <title>Context Engineering (Agent Memory) for AI Agents Starts with Retrieval</title>
@@ -250,6 +232,24 @@
     <summary>Agents waste time and context on clumsy searches, oversized results and stale data. Learn the retrieval techniques LangChain's Deep Agents harness uses to get the right context in.</summary>
   </entry>
   <entry>
+    <title>FusionEval: Benchmarking Model Fusion for Large Language Models</title>
+    <link href="https://arxiv.org/abs/2610.30162"/>
+    <id>https://arxiv.org/abs/2610.30162</id>
+    <updated>2026-10-23T04:00:00.000Z</updated>
+    <author><name>arXiv cs.CL</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>arXiv:2610.30162v1 Announce Type: new Abstract: Model fusion aims to integrate the capabilities of multi-expert models into a single model. Existing evaluations offer limited coverage of reasoning with long chains of thought and tool use, while strong average performance can mask substantial losses in individual expert</summary>
+  </entry>
+  <entry>
+    <title>Wealth Tax Debate, Midterm Investing, AI Anxiety</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-10-23/bloomberg-money-10-23-2026-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-10-23/bloomberg-money-10-23-2026-video</id>
+    <updated>2026-10-23T22:47:27.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Bloomberg Money takes the pulse of your financial life, powered by the reporting of our global newsroom. Today's guests: Whitney Tilson, Stansberry Research Editor, and Stephanie Guild, Robinhood CIO. (Source: Bloomberg)</summary>
+  </entry>
+  <entry>
     <title>'Notes on Being a Man', 'The Invisible Hand'</title>
     <link href="https://www.bloomberg.com/news/videos/2026-10-23/-notes-on-being-a-man-the-invisible-hand-video"/>
     <id>https://www.bloomberg.com/news/videos/2026-10-23/-notes-on-being-a-man-the-invisible-hand-video</id>
@@ -259,21 +259,21 @@
     <summary>Bloomberg's Scarlet Fu and Tom Keene discuss their must-read book on this week's edition of &quot;Bloomberg Money.&quot; They discuss 'Notes on Being a Man' by Scott Galloway and 'The Invisible Hand of Maria Edgeworth: How a Nineteenth-Century Novelist Taught the World Economics' by Jeanna Smialek. (Source: Bloomberg)</summary>
   </entry>
   <entry>
-    <title>US Family Annual Healthcare Plan Now Costs More Than $28K</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-23/us-family-healthcare-plan-now-costs-more-than-28k-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-23/us-family-healthcare-plan-now-costs-more-than-28k-video</id>
-    <updated>2026-10-23T21:58:51.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Bloomberg's John Tozzi joins Scarlet Fu and Tom Keene on &quot;Bloomberg Money.&quot; The annual cost of a US family’s employer-provided healthcare plan reached an average $28,303 this year, 5% more than 2025, according to an annual survey conducted by health policy nonprofit KFF. (Source: Bloomberg)</summary>
+    <title>At MIT, Martha Minow speaks on sustaining democracy, both by using and overcoming AI</title>
+    <link href="https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023"/>
+    <id>https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023</id>
+    <updated>2026-10-23T21:00:00.000Z</updated>
+    <author><name>MIT News AI</name></author>
+    <category term="RESEARCH"/>
+    <summary>In Compton Lecture, the distinguished legal scholar warns of potential “loss of the Enlightenment” while suggesting ways innovations can meet our civic and cultural needs.</summary>
   </entry>
   <entry>
-    <title>FusionEval: Benchmarking Model Fusion for Large Language Models</title>
-    <link href="https://arxiv.org/abs/2610.30162"/>
-    <id>https://arxiv.org/abs/2610.30162</id>
-    <updated>2026-10-23T04:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
-    <category term="RESEARCH"/>
-    <summary>arXiv:2610.30162v1 Announce Type: new Abstract: Model fusion aims to integrate the capabilities of multi-expert models into a single model. Existing evaluations offer limited coverage of reasoning with long chains of thought and tool use, while strong average performance can mask substantial losses in individual expert</summary>
+    <title>Amazon’s Trainium Takes a Strike at the Training King</title>
+    <link href="https://newsletter.semianalysis.com/p/amazons-trainium-takes-a-strike-at"/>
+    <id>https://newsletter.semianalysis.com/p/amazons-trainium-takes-a-strike-at</id>
+    <updated>2026-10-23T19:06:44.000Z</updated>
+    <author><name>SemiAnalysis Newsletter</name></author>
+    <category term="HARDWARE"/>
+    <summary>Trainium Best for Inference? But now good for Training too, Native Trainium PyTorch, High Quality CI, TorchTitan, GPU Impossible Profiler</summary>
   </entry>
 </feed>
