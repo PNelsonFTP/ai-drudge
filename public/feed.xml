@@ -5,7 +5,16 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-24T15:08:49.855Z</updated>
+  <updated>2026-10-24T16:08:49.765Z</updated>
+  <entry>
+    <title>qwen-code v0.26.1 released</title>
+    <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.26.1"/>
+    <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.26.1</id>
+    <updated>2026-10-24T15:47:58.000Z</updated>
+    <author><name>QwenLM/qwen-code</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>What's Changed feat(serve): add daemon token persistence by @wenshao in #15023 fix(release): cover every spawned vendored binary in the tarball exec-bit gate by @yiliang114 in #15008 test(managed-agent): reuse a same-key cancel (FG11d) by @wenshao in #14997 test(managed-agent): share the quote and camel gate helpers (F — Also covered by: anthropics/claude-code, QwenLM/qwen-code</summary>
+  </entry>
   <entry>
     <title>Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)</title>
     <link href="https://openai.com/index/scaling-storage-one-billion-users-part-two"/>
@@ -14,6 +23,15 @@
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.</summary>
+  </entry>
+  <entry>
+    <title>Hacker reverse engineers his Samsung TV and finds on-board AI listening for sounds of dog and baby, proceeds to get his account suspended by OpenAI</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1xeby67/hacker_reverse_engineers_his_samsung_tv_and_finds"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1xeby67/hacker_reverse_engineers_his_samsung_tv_and_finds</id>
+    <updated>2026-10-24T15:44:32.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>submitted by /u/AdityaSharmaDotIn [link] [comments] — Also covered by: HN: AI (150+ points)</summary>
   </entry>
   <entry>
     <title>Securing our frontier model training environment</title>
@@ -34,15 +52,6 @@
     <summary>Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise &quot;Full model weights will be released by Nov 4, 2026&quot;. They're also offering a &quot;Highspeed&quot; version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same). </summary>
   </entry>
   <entry>
-    <title>LitPivot: Developing research ideas through dynamic contextualization within the literature landscape</title>
-    <link href="https://huggingface.co/blog/allenai/litpivot"/>
-    <id>https://huggingface.co/blog/allenai/litpivot</id>
-    <updated>2026-10-23T16:15:50.000Z</updated>
-    <author><name>Hugging Face Blog</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Also covered by: Ai2 (Allen Institute)</summary>
-  </entry>
-  <entry>
     <title>OpenAI and Poland’s NASK partner to advance AI safety and security</title>
     <link href="https://openai.com/index/openai-nask-ai-safety-security-partnership"/>
     <id>https://openai.com/index/openai-nask-ai-safety-security-partnership</id>
@@ -50,6 +59,15 @@
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
     <summary>OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.</summary>
+  </entry>
+  <entry>
+    <title>LitPivot: Developing research ideas through dynamic contextualization within the literature landscape</title>
+    <link href="https://huggingface.co/blog/allenai/litpivot"/>
+    <id>https://huggingface.co/blog/allenai/litpivot</id>
+    <updated>2026-10-23T16:15:50.000Z</updated>
+    <author><name>Hugging Face Blog</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Also covered by: Ai2 (Allen Institute)</summary>
   </entry>
   <entry>
     <title>EMudhra Intermediate CA Certificates Compromised</title>
@@ -79,13 +97,13 @@
     <summary>Jay Peters / The Verge : Block unveils Dessa, a “true speech-to-speech” AI model trained on “nothing but human conversation” that it says runs locally on a MacBook Pro M4 Max or newer — You have got to listen to these conversations with Block's new Dessa AI model.</summary>
   </entry>
   <entry>
-    <title>qwen3.8 27B on my 3090 basically tied Opus 5.5 on a Korean RAG benchmark, which I did not expect</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xe4v74/qwen38_27b_on_my_3090_basically_tied_opus_55_on_a"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xe4v74/qwen38_27b_on_my_3090_basically_tied_opus_55_on_a</id>
-    <updated>2026-10-24T10:07:50.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>llama.cpp b11856 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11856"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11856</id>
+    <updated>2026-10-24T15:10:27.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>So I’ve been running local RAG over Korean PDFs for a while and my only evaluation was “yeah the answers look ok”. Finally sat down and used Allganize’s Korean RAG set since every question has a known answer and the page it’s on (300 questions, 64 PDFs, MIT). Fed every model the same top 5 pages and same prompt. I used</summary>
+    <summary>tests : add speculative rejection draft sampling test ( #30213 ) tests : add speculative rejection draft sampling test This commit adds a test for speculative rejection sampling test that excercises the speculative rejection sampling mechanism in common/speculative.cpp. The motivation for this is have a test that verif</summary>
   </entry>
   <entry>
     <title>FusionEval: Benchmarking Model Fusion for Large Language Models</title>
@@ -131,6 +149,15 @@
     <author><name>MarkTechPost</name></author>
     <category term="OPEN SOURCE"/>
     <summary>Anthropic sandbox-runtime (srt) is the open-source, OS-level sandbox behind Claude Code. It restricts file and network access for agents, MCP servers and CLI tools with Seatbelt on macOS and bubblewrap on Linux, no containers needed. The post Meet Anthropic’s sandbox-runtime: OS-Level Sandboxing for AI Agents, No Conta</summary>
+  </entry>
+  <entry>
+    <title>Three fired OpenAI safety researchers say they were never told what they actually leaked</title>
+    <link href="https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked"/>
+    <id>https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked</id>
+    <updated>2026-10-24T15:19:33.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>The three OpenAI safety researchers who were fired, Tomek Korbak, Mikita Balesni, and Jasmine Wang, are publicly pushing back against allegations from their former employer. They deny sharing confidential information and see a connection to their advocacy for AI systems that are easier to scrutinize. The researchers sa</summary>
   </entry>
   <entry>
     <title>Prompt Injection Test Lab: 12 Steps, 60 Min [2026]</title>
@@ -187,15 +214,6 @@
     <summary>Toshiba has launched its new Quantum-Safe Networking (QSN) Platform, a modular hardware and software architecture designed to scale quantum-secured communications across various networks. This platform overcomes the limitations of traditional quantum key deployment by enabling quantum channels to coexist with classical</summary>
   </entry>
   <entry>
-    <title>llama.cpp b11856 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11856"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11856</id>
-    <updated>2026-10-24T15:08:34.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="GITHUB REPOS"/>
-    <summary>tests : add speculative rejection draft sampling test ( #30213 ) tests : add speculative rejection draft sampling test This commit adds a test for speculative rejection sampling test that excercises the speculative rejection sampling mechanism in common/speculative.cpp. The motivation for this is have a test that verif</summary>
-  </entry>
-  <entry>
     <title>Block's new AI model Dessa was trained entirely on human speech to catch emotions text-based models miss</title>
     <link href="https://the-decoder.com/blocks-new-ai-model-dessa-was-trained-entirely-on-human-speech-to-catch-emotions-text-based-models-miss"/>
     <id>https://the-decoder.com/blocks-new-ai-model-dessa-was-trained-entirely-on-human-speech-to-catch-emotions-text-based-models-miss</id>
@@ -205,40 +223,22 @@
     <summary>Block, the company behind Square and Cash App, has introduced Dessa, a speech model that processes audio directly instead of converting it to text first. Dessa is designed to recognize emotions, sarcasm, and pauses in real time. The model runs locally on a MacBook Pro M4 Max but isn't publicly available yet. The articl</summary>
   </entry>
   <entry>
-    <title>AI makes junior patent attorneys instantly better but may quietly stunt their professional growth</title>
-    <link href="https://the-decoder.com/ai-makes-junior-patent-attorneys-instantly-better-but-may-quietly-stunt-their-professional-growth"/>
-    <id>https://the-decoder.com/ai-makes-junior-patent-attorneys-instantly-better-but-may-quietly-stunt-their-professional-growth</id>
-    <updated>2026-10-24T14:34:05.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>A three-month field experiment with 133 patent attorneys shows that AI boosts immediate performance, with junior lawyers gaining the most. But when the AI is taken away, only senior attorneys retain the benefits, suggesting that baseline expertise is a prerequisite for turning AI-assisted practice into lasting skill. T</summary>
-  </entry>
-  <entry>
-    <title>The datacentre next door: on the frontline of tech’s latest David v Goliath battle</title>
-    <link href="https://www.theguardian.com/technology/2026/oct/24/the-datacentre-next-door-on-the-frontline-of-techs-latest-david-v-goliath-battle"/>
-    <id>https://www.theguardian.com/technology/2026/oct/24/the-datacentre-next-door-on-the-frontline-of-techs-latest-david-v-goliath-battle</id>
-    <updated>2026-10-24T11:00:32.000Z</updated>
-    <author><name>The Guardian AI</name></author>
+    <title>Block’s new voice model sounds eerily human</title>
+    <link href="https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human"/>
+    <id>https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human</id>
+    <updated>2026-10-24T16:00:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>The AI boom is pitting local residents against corporate giants seeking to power their energy-hungry networks – but one Welsh city is fighting back Dale Johnston opens the gate to his neat suburban garden on the western fringes of Newport in South Wales. There’s a trampoline and a slide on the lawn for his grandchildre</summary>
+    <summary>Block said that the voice model can run locally on a MacBook M4 Max</summary>
   </entry>
   <entry>
-    <title>A Neocloud’s Gathering Storm</title>
-    <link href="https://www.theinformation.com/articles/neoclouds-gathering-storm"/>
-    <id>https://www.theinformation.com/articles/neoclouds-gathering-storm</id>
-    <updated>2026-10-24T15:00:45.000Z</updated>
-    <author><name>The Information</name></author>
+    <title>An interview with Ciena CEO Gary Smith, a veteran of the 2001 telecoms crash, on AI demand outpacing supply for Ciena's optical networking chips, and more (Steven Rosenbush/Wall Street Journal)</title>
+    <link href="https://www.techmeme.com/261024/p6"/>
+    <id>https://www.techmeme.com/261024/p6</id>
+    <updated>2026-10-24T15:40:01.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Welcome, Weekenders! Whenever I’m the slightest bit ill, I take to my bed and mope. If it goes more than a day or so, I assume the worst—that the end is nigh. I can’t honestly remember the last time I felt unwell for more than a couple days, but I imagine such a scenario would probably find me consulting ChatGPT about </summary>
-  </entry>
-  <entry>
-    <title>AbliteratedOutTheBox Strata Announcement</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xe8x9c/abliteratedoutthebox_strata_announcement"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xe8x9c/abliteratedoutthebox_strata_announcement</id>
-    <updated>2026-10-24T13:38:58.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>I’ve been working on an inference-time abliteration engine as a fork of llama.cpp, and I’ve now ported the hook to Strata. It acts as an easy way to use abliterated models without huge amounts of vram or finetuning. For the Strata Branch https://github.com/heterodoxin/AbliteratedOutTheBox/tree/strata For the llama.cpp </summary>
+    <summary>Steven Rosenbush / Wall Street Journal : An interview with Ciena CEO Gary Smith, a veteran of the 2001 telecoms crash, on AI demand outpacing supply for Ciena's optical networking chips, and more — Ciena CEO Gary Smith is ‘suitably paranoid,’ but optimistic — The historic telecommunications crash of 2001 is burned inde</summary>
   </entry>
   <entry>
     <title>TauIndianBankBench: Procedure-Aware, Action-Oriented Evaluation of Tool-Using Conversational Agents</title>
@@ -259,6 +259,15 @@
     <summary>We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.</summary>
   </entry>
   <entry>
+    <title>‘Total Meltdown’ in Riskiest Debt Unnerves Market: Credit Weekly</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-24/-total-meltdown-in-riskiest-debt-unnerves-market-credit-weekly"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-24/-total-meltdown-in-riskiest-debt-unnerves-market-credit-weekly</id>
+    <updated>2026-10-24T15:21:35.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>It was a panicked message from a colleague that woke fund manager Ivelina Green at 5 a.m. on Thursday morning in New York: “Total meltdown.”</summary>
+  </entry>
+  <entry>
     <title>The Real Medical Detective Who Inspired Sherlock Holmes</title>
     <link href="https://www.bloomberg.com/news/videos/2026-10-24/the-real-medical-detective-who-inspired-sherlock-holmes-video"/>
     <id>https://www.bloomberg.com/news/videos/2026-10-24/the-real-medical-detective-who-inspired-sherlock-holmes-video</id>
@@ -266,14 +275,5 @@
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
     <summary>Medical historian Lindsey Fitzharris tells Bloomberg This Weekend how Scottish surgeon Joseph Bell’s remarkable powers of observation inspired his student Arthur Conan Doyle to create Sherlock Holmes. Speaking with hosts Christina Ruffini and Lisa Mateo, Fitzharris discusses her new book, Sleuth-Hound: The Case of the </summary>
-  </entry>
-  <entry>
-    <title>Venezuela to Restart a Crucial Power Plant With China’s Help</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-24/venezuela-to-restart-a-crucial-power-plant-with-china-s-help"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-24/venezuela-to-restart-a-crucial-power-plant-with-china-s-help</id>
-    <updated>2026-10-24T14:30:00.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>A Chinese engineering company is on the cusp of partially restarting a massive Venezuelan power plant that’s been largely idle for years, a crucial step toward fixing the nation’s dilapidated grid.</summary>
   </entry>
 </feed>
