@@ -5,16 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-23T23:33:13.978Z</updated>
-  <entry>
-    <title>Introducing Kimi K3.1 Pro</title>
-    <link href="https://simonwillison.net/2026/Oct/23/kimi-k31-pro"/>
-    <id>https://simonwillison.net/2026/Oct/23/kimi-k31-pro</id>
-    <updated>2026-10-23T19:40:54.000Z</updated>
-    <author><name>Simon Willison</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise &quot;Full model weights will be released by Nov 4, 2026&quot;. They're also offering a &quot;Highspeed&quot; version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same).  — Also covered by: r/LocalLLM</summary>
-  </entry>
+  <updated>2026-10-24T01:08:43.192Z</updated>
   <entry>
     <title>Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)</title>
     <link href="https://openai.com/index/scaling-storage-one-billion-users-part-two"/>
@@ -32,6 +23,15 @@
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
     <summary>OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.</summary>
+  </entry>
+  <entry>
+    <title>Introducing Kimi K3.1 Pro</title>
+    <link href="https://simonwillison.net/2026/Oct/23/kimi-k31-pro"/>
+    <id>https://simonwillison.net/2026/Oct/23/kimi-k31-pro</id>
+    <updated>2026-10-23T19:40:54.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise &quot;Full model weights will be released by Nov 4, 2026&quot;. They're also offering a &quot;Highspeed&quot; version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same). </summary>
   </entry>
   <entry>
     <title>LitPivot: Developing research ideas through dynamic contextualization within the literature landscape</title>
@@ -79,6 +79,15 @@
     <summary>Eight compromised eMudhra intermediate CA private keys risk unauthorized TLS signing and MitM interception. Read our analysis and containment guide. The post EMudhra Intermediate CA Certificates Compromised appeared first on Unit 42 . — Also covered by: Talos Intelligence</summary>
   </entry>
   <entry>
+    <title>ollama v0.40.11 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.11-rc0"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.11-rc0</id>
+    <updated>2026-10-24T00:30:13.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>What's Changed qwen3coder: preserve literal function closing tags in parameters by @hoyyeva in #19228 launch: use allocated context for OpenCode by @hoyyeva in #19193 decision: allow empty state for vllm-d3 by @SynapShift in #19173 llama.cpp: version bump b11845 by @dhiltgen in #19250 mlxrunner: spell out symbols, numb</summary>
+  </entry>
+  <entry>
     <title>Mave, which is developing an AI-driven tool to automate security investigations, raised a $28M Series A led by Red Dot, bringing its total funding to $34M (Meir Orbach/CTech)</title>
     <link href="https://www.techmeme.com/261023/p22"/>
     <id>https://www.techmeme.com/261023/p22</id>
@@ -88,22 +97,13 @@
     <summary>Meir Orbach / CTech : Mave, which is developing an AI-driven tool to automate security investigations, raised a $28M Series A led by Red Dot, bringing its total funding to $34M — The funding, led by Red Dot Capital Partners, brings Mave's total funding to $34 million. The company is developing AI …</summary>
   </entry>
   <entry>
-    <title>voice: add voice catalog for Phonon (#19242)</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.11-rc0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.11-rc0</id>
-    <updated>2026-10-23T23:15:08.000Z</updated>
-    <author><name>ollama/ollama</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>mlxrunner: import and list Phonon catalog voices docs: document Phonon voices</summary>
-  </entry>
-  <entry>
-    <title>ollama v0.40.10 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.10"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.10</id>
-    <updated>2026-10-23T17:17:19.000Z</updated>
-    <author><name>ollama/ollama</name></author>
+    <title>Context Engineering with Deep Agents: How To Remember Without Keeping Everything In Context</title>
+    <link href="https://www.langchain.com/blog/context-engineering-deep-agents-remember"/>
+    <id>https://www.langchain.com/blog/context-engineering-deep-agents-remember</id>
+    <updated>2026-10-24T01:05:29.000Z</updated>
+    <author><name>LangChain Blog</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>NVIDIA Nemotron 3.5 Bolt E4B Nemotron 3.5 Bolt E4B is NVIDIA’s smaller, Gemma 4-based vision-language model for fast local conversations, image understanding, and tool use. It supports a 128K-token context window. The model includes a DFlash draft for speculative decoding. ollama run nemotron-3.5-bolt:e4b Full Changelo</summary>
+    <summary>Long-running agents degrade as context piles up. Learn how offloading, summarization, skills, subagents, and memory keep your agent's context window focused.</summary>
   </entry>
   <entry>
     <title>Andrew Brandt on MLB Salary Cap Fight as World Series Begins</title>
@@ -124,13 +124,13 @@
     <summary>Moonshot AI on Friday announced its new model, Kimi K3.1 Pro, demonstrating performance that rivals that of top-tier U.S. frontier models on some benchmarks. Kimi K3.1 Pro, built on the architecture of its popular predecessor Kimi K3, is now ranked fourth on the Artificial Analysis Intelligence ...</summary>
   </entry>
   <entry>
-    <title>llama.cpp b11844 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11844"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11844</id>
-    <updated>2026-10-23T17:56:38.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>Amazon’s Trainium Takes a Strike at the Training King</title>
+    <link href="https://newsletter.semianalysis.com/p/amazons-trainium-takes-a-strike-at"/>
+    <id>https://newsletter.semianalysis.com/p/amazons-trainium-takes-a-strike-at</id>
+    <updated>2026-10-23T19:06:44.000Z</updated>
+    <author><name>SemiAnalysis Newsletter</name></author>
     <category term="HARDWARE"/>
-    <summary>allows the usage of 4-10 gpus for stepfun and laguna in tensor paral…</summary>
+    <summary>Trainium Best for Inference? But now good for Training too, Native Trainium PyTorch, High Quality CI, TorchTitan, GPU Impossible Profiler</summary>
   </entry>
   <entry>
     <title>VC Firms Tap LP Pools, Warehouse Loans for Speedy AI Cash</title>
@@ -196,15 +196,6 @@
     <summary>RhymeQ Technologies has joined the NVIDIA Inception program, aligning its RHYME abstraction layer with NVIDIA's CUDA-Q platform. They are also collaborating on research to integrate agentic AI with quantum computing using NVIDIA's NOOA framework. This initiative aims to enable AI agents to orchestrate workloads between</summary>
   </entry>
   <entry>
-    <title>Chinese AI model Kimi K3.1 Pro is closing in on Anthropic's Claude Opus 5.5</title>
-    <link href="https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5"/>
-    <id>https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5</id>
-    <updated>2026-10-23T19:00:07.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Moonshot AI's Kimi K3.1 Pro scores 55 points on the Artificial Analysis Intelligence Index, an 11-point jump over its predecessor that puts it in fourth place. Only three Anthropic and Meta models rank higher. If Moonshot releases the weights as planned, the gap between open and proprietary models shrinks to just three</summary>
-  </entry>
-  <entry>
     <title>Utopai, an AI film studio that says it has more than 20 projects in the works, raised $60M at a $1B valuation (Rocket Drew/The Information)</title>
     <link href="https://www.techmeme.com/261023/p24"/>
     <id>https://www.techmeme.com/261023/p24</id>
@@ -214,13 +205,22 @@
     <summary>Rocket Drew / The Information : Utopai, an AI film studio that says it has more than 20 projects in the works, raised $60M at a $1B valuation — While much of the AI industry has fixated on new personal AI assistants from Meta and OpenAI, video AI is enjoying a quiet renaissance. Hollywood mogul Jeffrey Katzenberg …</summary>
   </entry>
   <entry>
-    <title>b11843: qwen4exp : build the QSA selection without the kq_mask (#30965)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11843"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11843</id>
-    <updated>2026-10-23T17:49:08.000Z</updated>
+    <title>Some benchmarks on mini-AGI (dynamic continual learning model) after training it completely from scratch for a month on a 8GB VRAM GPU.</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xds6ts/some_benchmarks_on_miniagi_dynamic_continual"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xds6ts/some_benchmarks_on_miniagi_dynamic_continual</id>
+    <updated>2026-10-23T22:34:52.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>The most important part is a difference between &quot;forzen&quot; and &quot;best effort&quot; attempts where we allow the model to specialize on the task as it goes through the evaluation dataset. Clearly showcasing the power of continual learning regime simply unavailable for any other typical LLM. Full code of the project, weights and </summary>
+  </entry>
+  <entry>
+    <title>llama.cpp b11846 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11846"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11846</id>
+    <updated>2026-10-24T00:05:54.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>qwen4exp : build the QSA selection without the kq_mask clean lang qwen4exp : reshape the fused QSA selection to the kq_mask streams ggml_top_k_mask with a single keep row returns [n_kv, n_tokens], while build_attn_qsa expects the kq_mask layout [n_kv, n_tokens/n_stream, 1, n_stream]. With several streams the shape asse</summary>
+    <summary>ggm-cuda: Enforce DP4A MMQ tile height multiple of warp size ( #30837 ) Added static assertion to enforce DP4A MMQ tile height requirement. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59291731 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI ena</summary>
   </entry>
   <entry>
     <title>Context Engineering (Agent Memory) for AI Agents Starts with Retrieval</title>
@@ -232,31 +232,31 @@
     <summary>Agents waste time and context on clumsy searches, oversized results and stale data. Learn the retrieval techniques LangChain's Deep Agents harness uses to get the right context in.</summary>
   </entry>
   <entry>
-    <title>FusionEval: Benchmarking Model Fusion for Large Language Models</title>
-    <link href="https://arxiv.org/abs/2610.30162"/>
-    <id>https://arxiv.org/abs/2610.30162</id>
-    <updated>2026-10-23T04:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
+    <title>Turn notifications into code with GitHub Copilot in Teams</title>
+    <link href="https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams"/>
+    <id>https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams</id>
+    <updated>2026-10-23T21:29:58.000Z</updated>
+    <author><name>GitHub Copilot Changelog</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>arXiv:2610.30162v1 Announce Type: new Abstract: Model fusion aims to integrate the capabilities of multi-expert models into a single model. Existing evaluations offer limited coverage of reasoning with long chains of thought and tool use, while strong average performance can mask substantial losses in individual expert</summary>
+    <summary>The new GitHub app in Teams brings notifications and Copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation. Get notified in channels, group… The post Turn notifications into code with GitHub Copilot in Teams appeared first on The GitHub Blog .</summary>
   </entry>
   <entry>
-    <title>Wealth Tax Debate, Midterm Investing, AI Anxiety</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-23/bloomberg-money-10-23-2026-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-23/bloomberg-money-10-23-2026-video</id>
-    <updated>2026-10-23T22:47:27.000Z</updated>
+    <title>Growth, Value Stocks Set for Reshuffle as S&amp;P Adopts New Rules</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-24/growth-value-stocks-set-for-reshuffle-as-s-p-adopts-new-rules"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-24/growth-value-stocks-set-for-reshuffle-as-s-p-adopts-new-rules</id>
+    <updated>2026-10-24T00:12:59.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Bloomberg Money takes the pulse of your financial life, powered by the reporting of our global newsroom. Today's guests: Whitney Tilson, Stansberry Research Editor, and Stephanie Guild, Robinhood CIO. (Source: Bloomberg)</summary>
+    <summary>Growth and value shares are set for an overhaul after S&amp;P Dow Jones Indices adopted new rules on how to sort equities into the two investment styles.</summary>
   </entry>
   <entry>
-    <title>'Notes on Being a Man', 'The Invisible Hand'</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-23/-notes-on-being-a-man-the-invisible-hand-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-23/-notes-on-being-a-man-the-invisible-hand-video</id>
-    <updated>2026-10-23T22:05:12.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
+    <title>UK sets up AI lab to monitor biosecurity threats</title>
+    <link href="https://www.ft.com/content/e4481867-fecc-48fc-ad9d-4daaf05d14ba?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/e4481867-fecc-48fc-ad9d-4daaf05d14ba?syn-25a6b1a6=1</id>
+    <updated>2026-10-23T23:01:00.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
     <category term="AI FINANCE"/>
-    <summary>Bloomberg's Scarlet Fu and Tom Keene discuss their must-read book on this week's edition of &quot;Bloomberg Money.&quot; They discuss 'Notes on Being a Man' by Scott Galloway and 'The Invisible Hand of Maria Edgeworth: How a Nineteenth-Century Novelist Taught the World Economics' by Jeanna Smialek. (Source: Bloomberg)</summary>
+    <summary>Move comes amid widespread fears that users could create new viruses and bioweapons</summary>
   </entry>
   <entry>
     <title>At MIT, Martha Minow speaks on sustaining democracy, both by using and overcoming AI</title>
@@ -268,12 +268,12 @@
     <summary>In Compton Lecture, the distinguished legal scholar warns of potential “loss of the Enlightenment” while suggesting ways innovations can meet our civic and cultural needs.</summary>
   </entry>
   <entry>
-    <title>Amazon’s Trainium Takes a Strike at the Training King</title>
-    <link href="https://newsletter.semianalysis.com/p/amazons-trainium-takes-a-strike-at"/>
-    <id>https://newsletter.semianalysis.com/p/amazons-trainium-takes-a-strike-at</id>
-    <updated>2026-10-23T19:06:44.000Z</updated>
-    <author><name>SemiAnalysis Newsletter</name></author>
-    <category term="HARDWARE"/>
-    <summary>Trainium Best for Inference? But now good for Training too, Native Trainium PyTorch, High Quality CI, TorchTitan, GPU Impossible Profiler</summary>
+    <title>FusionEval: Benchmarking Model Fusion for Large Language Models</title>
+    <link href="https://arxiv.org/abs/2610.30162"/>
+    <id>https://arxiv.org/abs/2610.30162</id>
+    <updated>2026-10-23T04:00:00.000Z</updated>
+    <author><name>arXiv cs.CL</name></author>
+    <category term="RESEARCH"/>
+    <summary>arXiv:2610.30162v1 Announce Type: new Abstract: Model fusion aims to integrate the capabilities of multi-expert models into a single model. Existing evaluations offer limited coverage of reasoning with long chains of thought and tool use, while strong average performance can mask substantial losses in individual expert</summary>
   </entry>
 </feed>
