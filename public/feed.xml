@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-24T18:08:49.351Z</updated>
+  <updated>2026-10-24T18:22:50.195Z</updated>
   <entry>
     <title>qwen-code v0.26.1 released</title>
     <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.26.1"/>
@@ -88,13 +88,13 @@
     <summary>Jay Peters / The Verge : Block unveils Dessa, a “true speech-to-speech” AI model trained on “nothing but human conversation” that it says runs locally on a MacBook Pro M4 Max or newer — You have got to listen to these conversations with Block's new Dessa AI model.</summary>
   </entry>
   <entry>
-    <title>llama.cpp b11856 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11856"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11856</id>
-    <updated>2026-10-24T15:10:27.000Z</updated>
+    <title>llama.cpp b11857 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11857"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11857</id>
+    <updated>2026-10-24T18:22:35.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>tests : add speculative rejection draft sampling test ( #30213 ) tests : add speculative rejection draft sampling test This commit adds a test for speculative rejection sampling test that excercises the speculative rejection sampling mechanism in common/speculative.cpp. The motivation for this is have a test that verif</summary>
+    <summary>ggml : allow MUL_MAT_ID -1 index to skip the computation ( #26631 ) ggml : allow MUL_MAT_ID -1 index to skip the computation nits update vulkan code ggml-webgpu: ensure all threads reach workgroup barriers in mul_mat_id_vec (cherry picked from commit d8a4b9e ) fix cuda openvino exclude CUDA from this PR add TODO tag Co</summary>
   </entry>
   <entry>
     <title>FusionEval: Benchmarking Model Fusion for Large Language Models</title>
@@ -122,15 +122,6 @@
     <author><name>The Information</name></author>
     <category term="PRODUCTS"/>
     <summary>Moonshot AI on Friday announced its new model, Kimi K3.1 Pro, demonstrating performance that rivals that of top-tier U.S. frontier models on some benchmarks. Kimi K3.1 Pro, built on the architecture of its popular predecessor Kimi K3, is now ranked fourth on the Artificial Analysis Intelligence ...</summary>
-  </entry>
-  <entry>
-    <title>b11857: ggml : allow MUL_MAT_ID -1 index to skip the computation (#26631)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11857"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11857</id>
-    <updated>2026-10-24T10:15:36.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="HARDWARE"/>
-    <summary>ggml : allow MUL_MAT_ID -1 index to skip the computation nits update vulkan code ggml-webgpu: ensure all threads reach workgroup barriers in mul_mat_id_vec (cherry picked from commit d8a4b9e ) fix cuda openvino exclude CUDA from this PR add TODO tag Co-authored-by: yomaytk yoshimura.masashi.frbs@gmail.com</summary>
   </entry>
   <entry>
     <title>Meet Anthropic’s sandbox-runtime: OS-Level Sandboxing for AI Agents, No Containers</title>
@@ -205,6 +196,15 @@
     <summary>Toshiba has launched its new Quantum-Safe Networking (QSN) Platform, a modular hardware and software architecture designed to scale quantum-secured communications across various networks. This platform overcomes the limitations of traditional quantum key deployment by enabling quantum channels to coexist with classical</summary>
   </entry>
   <entry>
+    <title>b11858: llama : deny -sm tensor for arches with moe amax rescaling (#31081)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11858"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11858</id>
+    <updated>2026-10-24T10:48:32.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>The amax POOL_1D reduction spans the whole matmul row, so a device cannot compute it from an axis-0 split. The Meta split-state case reported MIRRORED, which gives each device a partial max of its own slice. Drop that case and deny -sm tensor for the arches which build the amax graph, see [TAG_MOE_AMAX_SCALE]. Assisted</summary>
+  </entry>
+  <entry>
     <title>Block's new AI model Dessa was trained entirely on human speech to catch emotions text-based models miss</title>
     <link href="https://the-decoder.com/blocks-new-ai-model-dessa-was-trained-entirely-on-human-speech-to-catch-emotions-text-based-models-miss"/>
     <id>https://the-decoder.com/blocks-new-ai-model-dessa-was-trained-entirely-on-human-speech-to-catch-emotions-text-based-models-miss</id>
@@ -241,6 +241,15 @@
     <summary>mlxrunner: import and list Phonon catalog voices docs: document Phonon voices</summary>
   </entry>
   <entry>
+    <title>v100 16g *4 running qwen3.8 27b nvfp4 in 353t/s!!!!</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1xeflk8/v100_16g_4_running_qwen38_27b_nvfp4_in_353ts"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1xeflk8/v100_16g_4_running_qwen38_27b_nvfp4_in_353ts</id>
+    <updated>2026-10-24T18:11:05.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Hi guys it me again who did 2v100 to 181t/s , and im back with this. The legend of V100 IS NEVER END , v100 FOREVERRRRR arguements: qwen3.8 27b nvfp4 , 256k max content , kv q8 , mtp4/0 repo: https://github.com/tuxKOH/ninfer-v100xN (yes i changed name to xN from x2 because tp4 is supported) submitted by /u/ReflectionCu</summary>
+  </entry>
+  <entry>
     <title>Qwen Code Desktop v0.26.1</title>
     <link href="https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.26.1"/>
     <id>https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.26.1</id>
@@ -266,14 +275,5 @@
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
     <summary>Barry speaks with Robin Wigglesworth, editor of Financial Times' Alphaville blog and author of the new book 'A Fabulous Debt: The Epic Story of How Bonds Built the Modern World'. They discuss the bond market as the engine of the global economy, why the 30-year mortgage is &quot;a miracle of the modern world,&quot; and when we sh</summary>
-  </entry>
-  <entry>
-    <title>French Protesters Dispersed with Gas as Tensions Rise</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-24/french-protestors-dispersed-with-gas-as-tensions-rise-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-24/french-protestors-dispersed-with-gas-as-tensions-rise-video</id>
-    <updated>2026-10-24T16:31:00.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Student protesters in Paris, France were dispersed with gas as conflict escalates. (Source: Bloomberg)</summary>
   </entry>
 </feed>
