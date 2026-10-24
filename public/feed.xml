@@ -5,7 +5,16 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-24T17:08:39.255Z</updated>
+  <updated>2026-10-24T18:08:49.351Z</updated>
+  <entry>
+    <title>qwen-code v0.26.1 released</title>
+    <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.26.1"/>
+    <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.26.1</id>
+    <updated>2026-10-24T17:09:15.000Z</updated>
+    <author><name>QwenLM/qwen-code</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Highlights See the complete change list below. Breaking Changes fix(qqbot)!: restore per-group session isolation under thread scope ( #13882 ) by @Eric-GoodBoy-Tech Complete Change List Features Adds opt-in daemon token persistence: qwen daemon start --save-token stores the bearer token in an owner-only file, qwen daem — Also covered by: QwenLM/qwen-code, anthropics/claude-code, QwenLM/qwen-code</summary>
+  </entry>
   <entry>
     <title>Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)</title>
     <link href="https://openai.com/index/scaling-storage-one-billion-users-part-two"/>
@@ -62,12 +71,12 @@
   </entry>
   <entry>
     <title>ollama v0.40.11 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.11-rc0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.11-rc0</id>
-    <updated>2026-10-24T00:30:13.000Z</updated>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.11"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.11</id>
+    <updated>2026-10-24T17:50:51.000Z</updated>
     <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>What's Changed qwen3coder: preserve literal function closing tags in parameters by @hoyyeva in #19228 launch: use allocated context for OpenCode by @hoyyeva in #19193 decision: allow empty state for vllm-d3 by @SynapShift in #19173 llama.cpp: version bump b11845 by @dhiltgen in #19250 mlxrunner: spell out symbols, numb</summary>
+    <summary>Speech Ollama can now generate speech on macOS. ollama run plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible /v1/audio/speech endpoint. ollama run phonon &quot; Hello from Ollama. &quot; d3 decision models d3 brings vLLM Semantic Router's decision models t</summary>
   </entry>
   <entry>
     <title>Block unveils Dessa, a &quot;true speech-to-speech&quot; AI model trained on &quot;nothing but human conversation&quot; that it says runs locally on a MacBook Pro M4 Max or newer (Jay Peters/The Verge)</title>
@@ -142,13 +151,13 @@
     <summary>The three OpenAI safety researchers who were fired, Tomek Korbak, Mikita Balesni, and Jasmine Wang, are publicly pushing back against allegations from their former employer. They deny sharing confidential information and see a connection to their advocacy for AI systems that are easier to scrutinize. The researchers sa</summary>
   </entry>
   <entry>
-    <title>Straiker Wins Five 2026 Top InfoSec Innovator Awards | Straiker</title>
-    <link href="https://www.straiker.ai/blog/straiker-wins-five-top-infosec-innovator-awards-for-2026"/>
-    <id>https://www.straiker.ai/blog/straiker-wins-five-top-infosec-innovator-awards-for-2026</id>
-    <updated>2026-10-23T16:30:00.000Z</updated>
-    <author><name>Straiker STAR</name></author>
+    <title>Prompt Injection Test Lab: 12 Steps, 60 Min [2026]</title>
+    <link href="https://shattered.io/prompt-injection-test-lab-llm-harness-2026"/>
+    <id>https://shattered.io/prompt-injection-test-lab-llm-harness-2026</id>
+    <updated>2026-10-24T10:35:18.000Z</updated>
+    <author><name>GN: Prompt Injection</name></author>
     <category term="AI SECURITY"/>
-    <summary>Discover how Straiker was named a winner in five categories at the 2026 Top InfoSec Innovator Awards, recognizing leadership in agentic AI security, AI exposure management, and innovation.</summary>
+    <summary>Prompt Injection Test Lab: 12 Steps, 60 Min [2026] shattered.io</summary>
   </entry>
   <entry>
     <title>BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot</title>
@@ -205,6 +214,15 @@
     <summary>Block, the company behind Square and Cash App, has introduced Dessa, a speech model that processes audio directly instead of converting it to text first. Dessa is designed to recognize emotions, sarcasm, and pauses in real time. The model runs locally on a MacBook Pro M4 Max but isn't publicly available yet. The articl</summary>
   </entry>
   <entry>
+    <title>A look at Alpha School, a network of private schools that claims to teach kids 2x as fast using AI; data shows ~50% of K-8 students missed this goal in math (Dana Goldstein/New York Times)</title>
+    <link href="https://www.techmeme.com/261024/p7"/>
+    <id>https://www.techmeme.com/261024/p7</id>
+    <updated>2026-10-24T17:25:04.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Dana Goldstein / New York Times : A look at Alpha School, a network of private schools that claims to teach kids 2x as fast using AI; data shows ~50% of K-8 students missed this goal in math — Alpha School, a private network, is spreading into public education. While its students' test scores are high, some parents and</summary>
+  </entry>
+  <entry>
     <title>Block’s new voice model sounds eerily human</title>
     <link href="https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human"/>
     <id>https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human</id>
@@ -214,13 +232,13 @@
     <summary>Block said that the voice model can run locally on a MacBook M4 Max</summary>
   </entry>
   <entry>
-    <title>An interview with Ciena CEO Gary Smith, a veteran of the 2001 telecoms crash, on AI demand outpacing supply for Ciena's optical networking chips, and more (Steven Rosenbush/Wall Street Journal)</title>
-    <link href="https://www.techmeme.com/261024/p6"/>
-    <id>https://www.techmeme.com/261024/p6</id>
-    <updated>2026-10-24T15:40:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Steven Rosenbush / Wall Street Journal : An interview with Ciena CEO Gary Smith, a veteran of the 2001 telecoms crash, on AI demand outpacing supply for Ciena's optical networking chips, and more — Ciena CEO Gary Smith is ‘suitably paranoid,’ but optimistic — The historic telecommunications crash of 2001 is burned inde</summary>
+    <title>voice: add voice catalog for Phonon (#19242)</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.11-rc0"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.11-rc0</id>
+    <updated>2026-10-23T23:15:08.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>mlxrunner: import and list Phonon catalog voices docs: document Phonon voices</summary>
   </entry>
   <entry>
     <title>Qwen Code Desktop v0.26.1</title>
@@ -229,7 +247,7 @@
     <updated>2026-10-24T17:06:46.000Z</updated>
     <author><name>QwenLM/qwen-code</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>What's Changed feat(serve): add daemon token persistence by @wenshao in #15023 fix(release): cover every spawned vendored binary in the tarball exec-bit gate by @yiliang114 in #15008 test(managed-agent): reuse a same-key cancel (FG11d) by @wenshao in #14997 test(managed-agent): share the quote and camel gate helpers (F — Also covered by: QwenLM/qwen-code</summary>
+    <summary>What's Changed feat(serve): add daemon token persistence by @wenshao in #15023 fix(release): cover every spawned vendored binary in the tarball exec-bit gate by @yiliang114 in #15008 test(managed-agent): reuse a same-key cancel (FG11d) by @wenshao in #14997 test(managed-agent): share the quote and camel gate helpers (F</summary>
   </entry>
   <entry>
     <title>TauIndianBankBench: Procedure-Aware, Action-Oriented Evaluation of Tool-Using Conversational Agents</title>
@@ -257,23 +275,5 @@
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
     <summary>Student protesters in Paris, France were dispersed with gas as conflict escalates. (Source: Bloomberg)</summary>
-  </entry>
-  <entry>
-    <title>Lighthouse: On Building a Trustworthy Digital Assistant for Exploring History with Civil Rights Archives</title>
-    <link href="https://arxiv.org/abs/2610.30158"/>
-    <id>https://arxiv.org/abs/2610.30158</id>
-    <updated>2026-10-24T04:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
-    <category term="RESEARCH"/>
-    <summary>arXiv:2610.30158v1 Announce Type: new Abstract: Artificial intelligence (AI), as a decision-support aid, provides new tools for studying history effectively using multimodal data, including text, images, and audio. We present, to our knowledge, the first digital assistant named Lighthouse--commonly called a chatbot--fo</summary>
-  </entry>
-  <entry>
-    <title>claude-code v2.1.310 released</title>
-    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.310"/>
-    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.310</id>
-    <updated>2026-10-23T23:39:00.000Z</updated>
-    <author><name>anthropics/claude-code</name></author>
-    <category term="PRODUCTS"/>
-    <summary>What's changed Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long foreground sleeps are now blocked there too Fixed requests failing behind some gateways and compatible servers that reject the effort-2025-11-24 beta value or mid-conve</summary>
   </entry>
 </feed>
