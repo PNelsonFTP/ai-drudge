@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-24T19:13:26.622Z</updated>
+  <updated>2026-10-24T19:32:36.720Z</updated>
   <entry>
     <title>qwen-code v0.26.1 released</title>
     <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.26.1"/>
@@ -32,6 +32,15 @@
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
     <summary>OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.</summary>
+  </entry>
+  <entry>
+    <title>Introducing Kimi K3.1 Pro</title>
+    <link href="https://simonwillison.net/2026/Oct/23/kimi-k31-pro"/>
+    <id>https://simonwillison.net/2026/Oct/23/kimi-k31-pro</id>
+    <updated>2026-10-23T19:40:54.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise &quot;Full model weights will be released by Nov 4, 2026&quot;. They're also offering a &quot;Highspeed&quot; version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same). </summary>
   </entry>
   <entry>
     <title>OpenAI and Poland’s NASK partner to advance AI safety and security</title>
@@ -70,22 +79,22 @@
     <summary>Speech Ollama can now generate speech on macOS. ollama run plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible /v1/audio/speech endpoint. ollama run phonon &quot; Hello from Ollama. &quot; d3 decision models d3 brings vLLM Semantic Router's decision models t</summary>
   </entry>
   <entry>
-    <title>‘Synthetic twin’: Why Socceroo Cristian Volpato is the latest footballer to license his AI clone</title>
-    <link href="https://www.theguardian.com/technology/2026/oct/25/synthetic-twin-why-socceroo-cristian-volpato-is-the-latest-footballer-to-license-his-ai-clone"/>
-    <id>https://www.theguardian.com/technology/2026/oct/25/synthetic-twin-why-socceroo-cristian-volpato-is-the-latest-footballer-to-license-his-ai-clone</id>
-    <updated>2026-10-24T19:00:40.000Z</updated>
-    <author><name>The Guardian AI</name></author>
+    <title>The AI graveyard: a running list of projects and startups that didn’t make it</title>
+    <link href="https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it"/>
+    <id>https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it</id>
+    <updated>2026-10-24T19:00:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Athletes’ scramble to control – and monetise – their digital identities at the cutting edge of AI rights deals Get our new political email , free app or daily news podcast The Socceroos star stares at the camera as he strides through an enormous atrium, the sound of his football boots on polished concrete echoing aroun</summary>
+    <summary>From Apple's repeatedly delayed Siri AI to OpenAI's messy &quot;super app&quot; launch, here's a look at the AI projects that shut down or missed expectations.</summary>
   </entry>
   <entry>
     <title>llama.cpp b11865 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11865"/>
     <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11865</id>
-    <updated>2026-10-24T15:34:46.000Z</updated>
+    <updated>2026-10-24T19:32:17.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>rpc : add bounds check in rdma_recv ( #30399 )</summary>
+    <summary>rpc : add bounds check in rdma_recv ( #30399 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59465966 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) U</summary>
   </entry>
   <entry>
     <title>FusionEval: Benchmarking Model Fusion for Large Language Models</title>
@@ -160,13 +169,13 @@
     <summary>A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions from Kaspersky and Avast. [...]</summary>
   </entry>
   <entry>
-    <title>Update gemma renderers (#19241)</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.10-rc0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.10-rc0</id>
-    <updated>2026-10-23T14:12:11.000Z</updated>
-    <author><name>ollama/ollama</name></author>
+    <title>b11866: metal : remove mul_mm_id amax rescaling (#30924)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11866"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11866</id>
+    <updated>2026-10-24T15:40:19.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="CYBER DEFENSE"/>
-    <summary>renderers: add gemma4-nemotron renderer Add a Gemma 4 renderer variant that renders assistant content before its tool calls rather than after the tool responses. Models opt in with RENDERER gemma4-nemotron; gemma4 auto-detection is unchanged. Adds the corresponding chat template as a test fixture for Jinja parity check</summary>
+    <summary>The src1 power-of-two rescale in kernel_mul_mm_id is superseded by the per expert-token amax scaling done in the compute graph (ref: #30861 ), which keeps the MoE down-projection activations within f16 range before the op runs. Drop the two-stage reduction kernels, their scratch buffer and the GGML_PREC_F32 dispatch ad</summary>
   </entry>
   <entry>
     <title>Eka Robotics raises $150M to scale its vision-force-action model for robots</title>
@@ -187,13 +196,13 @@
     <summary>Video models, world models, and embodied AI at the State of AI 2026 meetup.</summary>
   </entry>
   <entry>
-    <title>NowSecure Benchmark Finds 97% of Mobile Applications Lack Post-Quantum Cryptography Ahead of Mandated Timelines</title>
-    <link href="https://quantumcomputingreport.com/nowsecure-benchmark-finds-97-of-mobile-applications-lack-post-quantum-cryptography-ahead-of-mandated-timelines"/>
-    <id>https://quantumcomputingreport.com/nowsecure-benchmark-finds-97-of-mobile-applications-lack-post-quantum-cryptography-ahead-of-mandated-timelines</id>
-    <updated>2026-10-24T18:02:32.000Z</updated>
+    <title>Toshiba Launches Modular QSN Platform to Scale Hybrid QKD and PQC Across Lit Fiber Networks</title>
+    <link href="https://quantumcomputingreport.com/toshiba-launches-modular-qsn-platform-to-scale-hybrid-qkd-and-pqc-across-lit-fiber-networks"/>
+    <id>https://quantumcomputingreport.com/toshiba-launches-modular-qsn-platform-to-scale-hybrid-qkd-and-pqc-across-lit-fiber-networks</id>
+    <updated>2026-10-24T13:30:19.000Z</updated>
     <author><name>Quantum Computing Report</name></author>
     <category term="QUANTUM"/>
-    <summary>A recent study by NowSecure, evaluating over 136,000 mobile apps, reveals that 97% lack Post-Quantum Cryptography (PQC), leaving them vulnerable to future quantum attacks. This &quot;mobile gap&quot; is largely due to reliance on third-party SDKs and compiled libraries that traditional security scans miss. With regulatory deadli</summary>
+    <summary>Toshiba has launched its new Quantum-Safe Networking (QSN) Platform, a modular hardware and software architecture designed to scale quantum-secured communications across various networks. This platform overcomes the limitations of traditional quantum key deployment by enabling quantum channels to coexist with classical</summary>
   </entry>
   <entry>
     <title>Block's new AI model Dessa was trained entirely on human speech to catch emotions text-based models miss</title>
@@ -205,6 +214,15 @@
     <summary>Block, the company behind Square and Cash App, has introduced Dessa, a speech model that processes audio directly instead of converting it to text first. Dessa is designed to recognize emotions, sarcasm, and pauses in real time. The model runs locally on a MacBook Pro M4 Max but isn't publicly available yet. The articl</summary>
   </entry>
   <entry>
+    <title>‘Synthetic twin’: Why Socceroo Cristian Volpato is the latest footballer to license his AI clone</title>
+    <link href="https://www.theguardian.com/technology/2026/oct/25/synthetic-twin-why-socceroo-cristian-volpato-is-the-latest-footballer-to-license-his-ai-clone"/>
+    <id>https://www.theguardian.com/technology/2026/oct/25/synthetic-twin-why-socceroo-cristian-volpato-is-the-latest-footballer-to-license-his-ai-clone</id>
+    <updated>2026-10-24T19:00:40.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Athletes’ scramble to control – and monetise – their digital identities at the cutting edge of AI rights deals Get our new political email , free app or daily news podcast The Socceroos star stares at the camera as he strides through an enormous atrium, the sound of his football boots on polished concrete echoing aroun</summary>
+  </entry>
+  <entry>
     <title>Block unveils Dessa, a &quot;true speech-to-speech&quot; AI model trained on &quot;nothing but human conversation&quot; that it says runs locally on a MacBook Pro M4 Max or newer (Jay Peters/The Verge)</title>
     <link href="https://www.techmeme.com/261024/p5"/>
     <id>https://www.techmeme.com/261024/p5</id>
@@ -212,24 +230,6 @@
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
     <summary>Jay Peters / The Verge : Block unveils Dessa, a “true speech-to-speech” AI model trained on “nothing but human conversation” that it says runs locally on a MacBook Pro M4 Max or newer — You have got to listen to these conversations with Block's new Dessa AI model.</summary>
-  </entry>
-  <entry>
-    <title>A look at Alpha School, a network of private schools that claims to teach kids 2x as fast using AI; data shows ~50% of K-8 students missed this goal in math (Dana Goldstein/New York Times)</title>
-    <link href="https://www.techmeme.com/261024/p7"/>
-    <id>https://www.techmeme.com/261024/p7</id>
-    <updated>2026-10-24T17:25:04.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Dana Goldstein / New York Times : A look at Alpha School, a network of private schools that claims to teach kids 2x as fast using AI; data shows ~50% of K-8 students missed this goal in math — Alpha School, a private network, is spreading into public education. While its students' test scores are high, some parents and</summary>
-  </entry>
-  <entry>
-    <title>Improving Character Name Diversity - zoracapri/gemma-4-31B-Monadize-v0.1</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xeczgk/improving_character_name_diversity"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xeczgk/improving_character_name_diversity</id>
-    <updated>2026-10-24T16:26:04.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>I fine-tuned Gemma 4 31B to create Monadize , a model designed to reduce repetitive name generation, such as &quot;Elara&quot; or &quot;Elias,&quot; by shifting the next-token probability distributions and using single-character tokenization when introducing new names. Some people have attempted to solve this problem by prompting out comm</summary>
   </entry>
   <entry>
     <title>big cloud models like opus 5.5 get all the motion graphics praise, but i made this with local qwen3.8 flash next. it's very possible!</title>
