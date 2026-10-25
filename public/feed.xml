@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-25T15:04:05.928Z</updated>
+  <updated>2026-10-25T15:08:42.294Z</updated>
   <entry>
     <title>Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)</title>
     <link href="https://openai.com/index/scaling-storage-one-billion-users-part-two"/>
@@ -41,6 +41,15 @@
     <author><name>QwenLM/qwen-code</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Highlights See the complete change list below. Breaking Changes fix(qqbot)!: restore per-group session isolation under thread scope ( #13882 ) by @Eric-GoodBoy-Tech Complete Change List Features Adds opt-in daemon token persistence: qwen daemon start --save-token stores the bearer token in an owner-only file, qwen daem — Also covered by: QwenLM/qwen-code, anthropics/claude-code, QwenLM/qwen-code</summary>
+  </entry>
+  <entry>
+    <title>Introducing Kimi K3.1 Pro</title>
+    <link href="https://simonwillison.net/2026/Oct/23/kimi-k31-pro"/>
+    <id>https://simonwillison.net/2026/Oct/23/kimi-k31-pro</id>
+    <updated>2026-10-23T19:40:54.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise &quot;Full model weights will be released by Nov 4, 2026&quot;. They're also offering a &quot;Highspeed&quot; version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same).  — Also covered by: HN: Chinese Frontier Labs</summary>
   </entry>
   <entry>
     <title>EMudhra Intermediate CA Certificates Compromised</title>
@@ -133,12 +142,13 @@
     <summary>OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. &quot;Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we bel</summary>
   </entry>
   <entry>
-    <title>Conducting The First Live Enterprise Comparison Between Agents and Human Professionals</title>
-    <link href="https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals"/>
-    <id>https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals</id>
-    <updated>2026-10-25T15:03:33.189Z</updated>
-    <author><name>Gray Swan</name></author>
+    <title>Prompt Injection Test Lab: 12 Steps, 60 Min [2026]</title>
+    <link href="https://shattered.io/prompt-injection-test-lab-llm-harness-2026"/>
+    <id>https://shattered.io/prompt-injection-test-lab-llm-harness-2026</id>
+    <updated>2026-10-24T10:59:34.000Z</updated>
+    <author><name>GN: Prompt Injection</name></author>
     <category term="AI SECURITY"/>
+    <summary>Prompt Injection Test Lab: 12 Steps, 60 Min [2026] shattered.io</summary>
   </entry>
   <entry>
     <title>Cognition Open-Sources an Agent Plugin that Helps Secure Systems against Recent Cybersecurity Threats</title>
@@ -265,14 +275,5 @@
     <author><name>Tom's Hardware</name></author>
     <category term="HARDWARE"/>
     <summary>Windows XP became available at retailers for the first time on this day back in 2001.</summary>
-  </entry>
-  <entry>
-    <title>r/opensource just banned AI, non-English speakers, and more</title>
-    <link href="https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban"/>
-    <id>https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban</id>
-    <updated>2026-10-25T13:25:32.000Z</updated>
-    <author><name>The Verge AI</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, &quot;If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source […]</summary>
   </entry>
 </feed>
