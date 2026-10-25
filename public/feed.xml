@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-25T13:08:43.654Z</updated>
+  <updated>2026-10-25T14:08:45.257Z</updated>
   <entry>
     <title>Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)</title>
     <link href="https://openai.com/index/scaling-storage-one-billion-users-part-two"/>
@@ -43,6 +43,15 @@
     <summary>Highlights See the complete change list below. Breaking Changes fix(qqbot)!: restore per-group session isolation under thread scope ( #13882 ) by @Eric-GoodBoy-Tech Complete Change List Features Adds opt-in daemon token persistence: qwen daemon start --save-token stores the bearer token in an owner-only file, qwen daem — Also covered by: QwenLM/qwen-code, anthropics/claude-code, QwenLM/qwen-code</summary>
   </entry>
   <entry>
+    <title>OpenAI and Poland’s NASK partner to advance AI safety and security</title>
+    <link href="https://openai.com/index/openai-nask-ai-safety-security-partnership"/>
+    <id>https://openai.com/index/openai-nask-ai-safety-security-partnership</id>
+    <updated>2026-10-23T00:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.</summary>
+  </entry>
+  <entry>
     <title>EMudhra Intermediate CA Certificates Compromised</title>
     <link href="https://unit42.paloaltonetworks.com/emudhra-certificate-compromise"/>
     <id>https://unit42.paloaltonetworks.com/emudhra-certificate-compromise</id>
@@ -50,15 +59,6 @@
     <author><name>Palo Alto Unit 42</name></author>
     <category term="CYBER DEFENSE"/>
     <summary>Eight compromised eMudhra intermediate CA private keys risk unauthorized TLS signing and MitM interception. Read our analysis and containment guide. The post EMudhra Intermediate CA Certificates Compromised appeared first on Unit 42 . — Also covered by: Talos Intelligence</summary>
-  </entry>
-  <entry>
-    <title>OpenAI and Poland’s NASK partner to advance AI safety and security</title>
-    <link href="https://openai.com/index/openai-nask-ai-safety-security-partnership"/>
-    <id>https://openai.com/index/openai-nask-ai-safety-security-partnership</id>
-    <updated>2026-10-23T00:00:00.000Z</updated>
-    <author><name>OpenAI Blog</name></author>
-    <category term="PRODUCTS"/>
-    <summary>OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.</summary>
   </entry>
   <entry>
     <title>Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra</title>
@@ -70,25 +70,25 @@
     <summary>Nvidia's new data engine Flora labels one hour of robot video for 72 cents instead of $88 with GPT-6 Astra, while scoring slightly higher on quality. The open system, built on three fine-tuned Qwen3.5 models, catches errors in robot actions far more reliably than any competitor but sometimes falls short on descriptive </summary>
   </entry>
   <entry>
-    <title>Instagram launches an Apple TV app for watching Reels, longer videos, and live shows; the app previously launched on Fire TV, Google TV, and Samsung smart TVs (Hartley Charlton/MacRumors)</title>
-    <link href="https://www.techmeme.com/261025/p3"/>
-    <id>https://www.techmeme.com/261025/p3</id>
-    <updated>2026-10-25T05:05:01.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Neighbours is being recut into a microdrama focused on Margot Robbie – and her co-stars aren’t happy</title>
+    <link href="https://www.theguardian.com/tv-and-radio/2026/oct/26/neighbours-soap-recut-ai-microdrama-mobile-series-feat-margot-robbie"/>
+    <id>https://www.theguardian.com/tv-and-radio/2026/oct/26/neighbours-soap-recut-ai-microdrama-mobile-series-feat-margot-robbie</id>
+    <updated>2026-10-25T14:00:06.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Hartley Charlton / MacRumors : Instagram launches an Apple TV app for watching Reels, longer videos, and live shows; the app previously launched on Fire TV, Google TV, and Samsung smart TVs — Instagram is now available on the Apple TV, bringing Reels, longer videos, and live shows via the platform to Apple's streaming </summary>
+    <summary>Robbie’s storylines in the famous soap will be recut into vertical micro-episodes to be watched on phones – but her fellow cast members say they haven’t been consulted The long-running Australian soap opera Neighbours is being recut with AI into a microdrama designed to be watched on phones, sparking a debate among the</summary>
   </entry>
   <entry>
-    <title>llama.cpp b11873 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11873"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11873</id>
-    <updated>2026-10-25T12:27:17.000Z</updated>
+    <title>llama.cpp b11875 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11875"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11875</id>
+    <updated>2026-10-25T14:08:29.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>opencl: add initial q2_k support ( #30999 ) opencl: add mul_mv_q2_k_f32 opencl: add q2_k SOA mv and tiled mm opencl: add q2_k noshuffle gemm/gemv for adreno opencl: add q2_k dp4a gemm for adreno Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com opencl: tune q2_k kernels for adreno Co-authored-by: Hongqiang Wang wan</summary>
+    <summary>hexagon: generic dims collapse/reshape for unary, binary and matmul ops ( #31071 ) hex-tools: support for --compare option in the profile.py hex-unary: improve collapse logic to also do splits if nrows is small hex-colapse: handle all colapsing at the host and make it generic hex-colapse: remove leftover unary helper W</summary>
   </entry>
   <entry>
-    <title>Nvidia discusses $2,000-per-GPU annual software fee for running agents on AI infrastructure</title>
+    <title>Nvidia discusses $2,000-per-GPU annual fee for software that 'runs agents on AI factories'</title>
     <link href="https://www.tomshardware.com/pc-components/gpus/nvidia-discusses-usd2-000-per-gpu-annual-software-fee-for-running-agents-on-ai-infrastructure-firm-already-charges-more-than-twice-that-amount-for-its-ai-enterprise-software-platform"/>
     <id>https://www.tomshardware.com/pc-components/gpus/nvidia-discusses-usd2-000-per-gpu-annual-software-fee-for-running-agents-on-ai-infrastructure-firm-already-charges-more-than-twice-that-amount-for-its-ai-enterprise-software-platform</id>
     <updated>2026-10-25T13:00:00.000Z</updated>
@@ -97,13 +97,13 @@
     <summary>Nvidia CEO Jensen Huang is reportedly weighing annual software fees of around $2,000 per GPU for enterprise AI, a model that could generate $10 billion a year if five million licenses were sold. The pricing and launch timeline remain unconfirmed, while Nvidia continues to expand its AI software and security tools for e</summary>
   </entry>
   <entry>
-    <title>What’s Happening in EM: Bond Investors Turn to Developing World</title>
-    <link href="https://www.bloomberg.com/news/audio/2026-10-25/what-s-happening-in-em-bond-investors-turn-to-developing-world"/>
-    <id>https://www.bloomberg.com/news/audio/2026-10-25/what-s-happening-in-em-bond-investors-turn-to-developing-world</id>
-    <updated>2026-10-25T12:30:00.000Z</updated>
+    <title>Fed Looks Set to Pause After September Rate Hike</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-10-25/fed-looks-set-to-pause-after-september-rate-hike-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-10-25/fed-looks-set-to-pause-after-september-rate-hike-video</id>
+    <updated>2026-10-25T13:48:02.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>This week, Mpho Hlakudi and Selcuk Gokoluk discuss how some of the world’s biggest asset managers increase their exposure to emerging markets despite the surge in US Treasury yields, weakening a traditional correlation in financial markets.</summary>
+    <summary>On Bloomberg This Weekend, Bloomberg News Federal Reserve reporter Maria Eloisa Capurro previews the Fed’s upcoming rate decision, with policymakers widely expected to pause after September’s first rate increase since 2023 despite inflation remaining above target. Speaking with hosts David Gura and Christina Ruffini, C</summary>
   </entry>
   <entry>
     <title>Anthropic Launches OSS Scanner, a Free AI Vulnerability Scanner</title>
@@ -113,6 +113,15 @@
     <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
     <summary>Anthropic has launched OSS Scanner, a free, opt-in vulnerability scanner for critical open-source projects. The Anthropic OSS Scanner runs the company’s strongest models, including Claude Mythos, against enrolled codebases. Reports go straight to maintainers without human review. That trade delivers faster findings, bu</summary>
+  </entry>
+  <entry>
+    <title>Instagram launches an Apple TV app for watching Reels, longer videos, and live shows; the app previously launched on Fire TV, Google TV, and Samsung smart TVs (Hartley Charlton/MacRumors)</title>
+    <link href="https://www.techmeme.com/261025/p3"/>
+    <id>https://www.techmeme.com/261025/p3</id>
+    <updated>2026-10-25T05:05:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Hartley Charlton / MacRumors : Instagram launches an Apple TV app for watching Reels, longer videos, and live shows; the app previously launched on Fire TV, Google TV, and Samsung smart TVs — Instagram is now available on the Apple TV, bringing Reels, longer videos, and live shows via the platform to Apple's streaming </summary>
   </entry>
   <entry>
     <title>OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication</title>
@@ -187,13 +196,13 @@
     <summary>A new benchmark by P-Zero Research measures how well AI models design and evaluate experiments on their own. The results are improving so fast that Anthropic co-founder Jack Clark now thinks self-improving AI could arrive by 2027. The article Anthropic co-founder Jack Clark moves his prediction for self-improving AI fo</summary>
   </entry>
   <entry>
-    <title>CapitalOS, which helps vertical software platforms offer spend management, cards, and bill payment tools to SMB customers, raised a $21.9M Series A led by LGVP (Ryan Lawler/Axios)</title>
-    <link href="https://www.techmeme.com/261025/p4"/>
-    <id>https://www.techmeme.com/261025/p4</id>
-    <updated>2026-10-25T05:35:00.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>‘Extremely disappointed’: WA government seeks reimbursement from Deloitte over flawed university report</title>
+    <link href="https://www.theguardian.com/australia-news/2026/oct/26/deloitte-report-wa-university-mergers-260m-discrepancy-ai"/>
+    <id>https://www.theguardian.com/australia-news/2026/oct/26/deloitte-report-wa-university-mergers-260m-discrepancy-ai</id>
+    <updated>2026-10-25T14:00:06.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Ryan Lawler / Axios : CapitalOS, which helps vertical software platforms offer spend management, cards, and bill payment tools to SMB customers, raised a $21.9M Series A led by LGVP — CapitalOS, which helps vertical software platforms offer cards and bill-pay tools to their SMB customers, has raised $21.9 million …</summary>
+    <summary>WA paid Deloitte $166,000 for flawed feasibility study on merging the University of Western Australia, Curtin university and Murdoch university Get our breaking news email , free app or daily news podcast The Western Australian government has said it is “extremely disappointed” and is seeking an “expedited” cost recove</summary>
   </entry>
   <entry>
     <title>Nanbeige/Nanbeige4.3-33B · Hugging Face</title>
@@ -223,22 +232,22 @@
     <summary>Smartphone agents don't get better by processing more data. They improve by training on as many different apps as possible. The researchers behind OpenMobile-2 built an open training environment with more than 110 applications, including 35 replicas of popular apps. On real Android devices, their model scores highest a</summary>
   </entry>
   <entry>
-    <title>Emerging Debt Outruns Treasuries as Rich-World Fiscal Fears Grow</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-25/emerging-debt-outruns-treasuries-as-rich-world-fiscal-fears-grow"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-25/emerging-debt-outruns-treasuries-as-rich-world-fiscal-fears-grow</id>
+    <title>Halloween Candy Prices Reflect Cocoa’s Wild Ride</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-10-25/halloween-candy-prices-reflect-cocoa-s-wild-ride-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-10-25/halloween-candy-prices-reflect-cocoa-s-wild-ride-video</id>
+    <updated>2026-10-25T13:55:22.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>On Bloomberg This Weekend, Ignacio Canalas Polo explains why chocolate and Halloween candy remain expensive even after cocoa prices retreated from their peaks, pointing to persistent supply pressures in Ivory Coast and Ghana and manufacturers’ efforts to manage costs. Speaking with hosts David Gura and Christina Ruffin</summary>
+  </entry>
+  <entry>
+    <title>What’s Happening in EM: Bond Investors Turn to Developing World</title>
+    <link href="https://www.bloomberg.com/news/audio/2026-10-25/what-s-happening-in-em-bond-investors-turn-to-developing-world"/>
+    <id>https://www.bloomberg.com/news/audio/2026-10-25/what-s-happening-in-em-bond-investors-turn-to-developing-world</id>
     <updated>2026-10-25T12:30:00.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Investors from JPMorgan Asset Management to Generali and Ninety One SA are loading up on emerging-market debt, defying a surge in Treasury yields that would once have sent them running for the exits.</summary>
-  </entry>
-  <entry>
-    <title>By The Way: Headlines You May Have Missed</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-25/by-the-way-headlines-you-may-have-missed-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-25/by-the-way-headlines-you-may-have-missed-video</id>
-    <updated>2026-10-25T12:26:39.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>The artist behind the moving bird in the Kelly Clarkson/Toy Store drama, colleges helping grads pay loans back, child-free flights and cruises, and a 'timeless ticket' to the World Series: Join Lisa Mateo, David Gura and Christina Ruffini for a roundup of headlines you may have missed, but gotta see. (Source: Bloomberg</summary>
+    <summary>This week, Mpho Hlakudi and Selcuk Gokoluk discuss how some of the world’s biggest asset managers increase their exposure to emerging markets despite the surge in US Treasury yields, weakening a traditional correlation in financial markets.</summary>
   </entry>
   <entry>
     <title>New CD players keep launching, but a drive shortage could make them unfixable</title>
@@ -250,29 +259,21 @@
     <summary>The lack of optical drive manufacturers is raising questions about the repairability and longevity of new CD players that are coming out on the market today.</summary>
   </entry>
   <entry>
-    <title>AMD CEO Lisa Su proposed bringing back the Ryzen 7 5800X3D, set plan in motion before DDR5 shortages</title>
-    <link href="https://www.tomshardware.com/pc-components/cpus/amd-ceo-lisa-su-proposed-bringing-back-the-ryzen-7-5800x3d-set-plan-in-motion-before-ddr5-shortages-am4-cpu-considered-a-final-gift-to-loyal-fans-of-the-decade-old-socket"/>
-    <id>https://www.tomshardware.com/pc-components/cpus/amd-ceo-lisa-su-proposed-bringing-back-the-ryzen-7-5800x3d-set-plan-in-motion-before-ddr5-shortages-am4-cpu-considered-a-final-gift-to-loyal-fans-of-the-decade-old-socket</id>
-    <updated>2026-10-25T11:00:00.000Z</updated>
+    <title>Windows XP debuted 25 years ago today</title>
+    <link href="https://www.tomshardware.com/software/windows/windows-xp-debuted-25-years-ago-today-microsofts-biggest-launch-since-95-was-its-first-consumer-os-to-remove-the-dos-underpinnings"/>
+    <id>https://www.tomshardware.com/software/windows/windows-xp-debuted-25-years-ago-today-microsofts-biggest-launch-since-95-was-its-first-consumer-os-to-remove-the-dos-underpinnings</id>
+    <updated>2026-10-25T12:20:00.000Z</updated>
     <author><name>Tom's Hardware</name></author>
     <category term="HARDWARE"/>
-    <summary>AMD Director Travis Kirsch confirmed the rationale for relaunching the first X3D chip and explained why the company no longer offers many Ryzen 3 SKUs.</summary>
+    <summary>Windows XP became available at retailers for the first time on this day back in 2001.</summary>
   </entry>
   <entry>
-    <title>Is GPT 2XL already clean?</title>
-    <link href="https://www.lesswrong.com/posts/drMv4SM2gaxk3oz3m/is-gpt-2xl-already-clean"/>
-    <id>https://www.lesswrong.com/posts/drMv4SM2gaxk3oz3m/is-gpt-2xl-already-clean</id>
-    <updated>2026-10-25T10:06:37.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>In which I investigate if Opus is able to interpret neurons better than GPT 4. TLDR: Opus 5.5 is able to identify 3-19% of the neurons of GPT 2-XL based on activations. This is a big improvement over the 0.3% that GPT-4 was able to achieve in 2023. #AI notice : This post is human written but in the research there was h</summary>
-  </entry>
-  <entry>
-    <title>Conducting The First Live Enterprise Comparison Between Agents and Human Professionals</title>
-    <link href="https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals"/>
-    <id>https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals</id>
-    <updated>2026-10-25T13:08:23.306Z</updated>
-    <author><name>Gray Swan</name></author>
-    <category term="AI SECURITY"/>
+    <title>r/opensource just banned AI, non-English speakers and more</title>
+    <link href="https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban"/>
+    <id>https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban</id>
+    <updated>2026-10-25T13:25:32.000Z</updated>
+    <author><name>The Verge AI</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, &quot;If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source […]</summary>
   </entry>
 </feed>
