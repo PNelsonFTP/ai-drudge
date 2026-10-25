@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-25T17:05:31.886Z</updated>
+  <updated>2026-10-25T17:08:42.476Z</updated>
   <entry>
     <title>Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)</title>
     <link href="https://openai.com/index/scaling-storage-one-billion-users-part-two"/>
@@ -88,13 +88,13 @@
     <summary>This spring, Mike Mathews, who leads the global digital infrastructure practice at insurance broker Marsh, raced to design a policy to protect a data center developer from a $1 million-a-day late fee. The developer’s tenant was demanding damages if electricity and facilities weren’t available on time during the first p</summary>
   </entry>
   <entry>
-    <title>llama.cpp b11882 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11882"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11882</id>
-    <updated>2026-10-25T11:10:10.000Z</updated>
+    <title>llama.cpp b11883 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11883"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11883</id>
+    <updated>2026-10-25T11:28:38.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>grammar: limit recursion depth to prevent stack overflow ( #29495 ) ( #2 …</summary>
+    <summary>llama-quant : fix 4D tensor quantization using ggml_nrows() and name-…</summary>
   </entry>
   <entry>
     <title>Google ML Drift Accelerates On-Device AI Inference Across Diverse GPUs</title>
@@ -145,7 +145,7 @@
     <title>Conducting The First Live Enterprise Comparison Between Agents and Human Professionals</title>
     <link href="https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals"/>
     <id>https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals</id>
-    <updated>2026-10-25T17:05:10.004Z</updated>
+    <updated>2026-10-25T17:08:21.706Z</updated>
     <author><name>Gray Swan</name></author>
     <category term="AI SECURITY"/>
   </entry>
@@ -240,22 +240,22 @@
     <summary>Tom Matsuda / Financial Times : The iTunes Store is re-emerging as a venue for big pop stars, including Taylor Swift, to hawk collectibles to superfans and bolster their chart positions — Record labels and artists including Taylor Swift and Ariana Grande are using the throwback music store to bolster their chart positi</summary>
   </entry>
   <entry>
-    <title>Qwen3.8-27B at 262k context on a 16 GB RX 9070 on Windows: ~80 t/s with achyudh's ROCm KV-streaming fork</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1xf5389/qwen3827b_at_262k_context_on_a_16_gb_rx_9070_on"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1xf5389/qwen3827b_at_262k_context_on_a_16_gb_rx_9070_on</id>
-    <updated>2026-10-25T15:20:44.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>qwen: merge tensors on convert by am17an · Pull Request #31028 · ggml-org/llama.cpp</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xf716t/qwen_merge_tensors_on_convert_by_am17an_pull"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xf716t/qwen_merge_tensors_on_convert_by_am17an_pull</id>
+    <updated>2026-10-25T16:37:07.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>I saw u/bottlestreet3d 's llama.cpp fork . Their post: https://www.reddit.com/r/LocalLLM/comments/1x7wack/qwen_27b_iq4_xs_q8q4_kv_at_full_262k_context_on_a/ The readme is Linux and ROCm 7.2.3 only, so I tried it on Windows with a RX 9070, 32 GB RAM . I compared it with my tuned Vulkan setup (llama.cpp b11873, MTP n=2, </summary>
+    <summary>...time to reconvert GGUFs? submitted by /u/jacek2023 [link] [comments]</summary>
   </entry>
   <entry>
-    <title>Hard numbers on Qwen3.8-27B's KV cache: q8_0 is free, K is ~2x as touchy as V, and a 2k recent-token window makes 6/5-bit basically lossless</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1xf4p9u/hard_numbers_on_qwen3827bs_kv_cache_q8_0_is_free"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1xf4p9u/hard_numbers_on_qwen3827bs_kv_cache_q8_0_is_free</id>
-    <updated>2026-10-25T15:05:12.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>Nanbeige/Nanbeige4.3-33B · Hugging Face</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xf0kz4/nanbeigenanbeige4333b_hugging_face"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xf0kz4/nanbeigenanbeige4333b_hugging_face</id>
+    <updated>2026-10-25T12:01:34.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Pretty much everyone running Qwen3.8-27B on a 24 GB card is squeezing the KV cache somehow, so here's what it actually costs, measured. This came out of building my own engine for this model ( repo ), but none of it is specific to my engine, it applies to whatever you run the model on. How I measured: KL divergence aga</summary>
+    <summary>Stronger than Qwen3.8-27B across a range of benchmarks. but also lays the necessary foundation to power our upcoming small model distillation pipeline (e.g., for Nanbeige4.3-3B). It'll distilled into their 3B small models, maybe other sizes too. submitted by /u/Mysterious_Finish543 [link] [comments]</summary>
   </entry>
   <entry>
     <title>9 Days to Midterm Elections, Big Tech Earnings</title>
