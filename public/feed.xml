@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-25T16:08:45.039Z</updated>
+  <updated>2026-10-25T17:05:31.886Z</updated>
   <entry>
     <title>Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)</title>
     <link href="https://openai.com/index/scaling-storage-one-billion-users-part-two"/>
@@ -41,6 +41,15 @@
     <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
     <summary>Context: I created this to share before the start of courses I facilitate to provide a refresher on recent events, but also as a hook to draw students into engaging with some of ideas we think about and debate in AI safety early. I expect the topics I cover in my “Setting the Scene” post to change frequently, so this i — Also covered by: AI Alignment Forum</summary>
+  </entry>
+  <entry>
+    <title>Introducing Kimi K3.1 Pro</title>
+    <link href="https://simonwillison.net/2026/Oct/23/kimi-k31-pro"/>
+    <id>https://simonwillison.net/2026/Oct/23/kimi-k31-pro</id>
+    <updated>2026-10-23T19:40:54.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise &quot;Full model weights will be released by Nov 4, 2026&quot;. They're also offering a &quot;Highspeed&quot; version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same).  — Also covered by: HN: Chinese Frontier Labs</summary>
   </entry>
   <entry>
     <title>OpenAI and Poland’s NASK partner to advance AI safety and security</title>
@@ -79,22 +88,22 @@
     <summary>This spring, Mike Mathews, who leads the global digital infrastructure practice at insurance broker Marsh, raced to design a policy to protect a data center developer from a $1 million-a-day late fee. The developer’s tenant was demanding damages if electricity and facilities weren’t available on time during the first p</summary>
   </entry>
   <entry>
-    <title>llama.cpp b11879 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11879"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11879</id>
-    <updated>2026-10-25T09:24:38.000Z</updated>
+    <title>llama.cpp b11882 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11882"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11882</id>
+    <updated>2026-10-25T11:10:10.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>CUDA: fuse FFN gate/up matmuls and GLU in MMQ with interleaved gate/u…</summary>
+    <summary>grammar: limit recursion depth to prevent stack overflow ( #29495 ) ( #2 …</summary>
   </entry>
   <entry>
-    <title>AI coding agents hijacked using AGENTS.md file in Downloads folder</title>
-    <link href="https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder"/>
-    <id>https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder</id>
-    <updated>2026-10-25T15:49:38.000Z</updated>
-    <author><name>BleepingComputer</name></author>
+    <title>Google ML Drift Accelerates On-Device AI Inference Across Diverse GPUs</title>
+    <link href="https://www.infoq.com/news/2026/10/google-ml-drift"/>
+    <id>https://www.infoq.com/news/2026/10/google-ml-drift</id>
+    <updated>2026-10-25T17:00:00.000Z</updated>
+    <author><name>InfoQ AI/ML</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]</summary>
+    <summary>Google has released ML Drift, an open-source, cross-platform GPU compute engine designed for on-device AI and machine learning inference. Licensed under Apache 2.0, it abstracts the complexities of different GPU hardware and low-level APIs, supporting OpenGL ES, OpenCL, Metal, and WebGPU. By Sergio De Simone</summary>
   </entry>
   <entry>
     <title>Fed Looks Set to Pause After September Rate Hike</title>
@@ -115,13 +124,13 @@
     <summary>Anthropic has launched OSS Scanner, a free, opt-in vulnerability scanner for critical open-source projects. The Anthropic OSS Scanner runs the company’s strongest models, including Claude Mythos, against enrolled codebases. Reports go straight to maintainers without human review. That trade delivers faster findings, bu</summary>
   </entry>
   <entry>
-    <title>Instagram launches an Apple TV app for watching Reels, longer videos, and live shows; the app previously launched on Fire TV, Google TV, and Samsung smart TVs (Hartley Charlton/MacRumors)</title>
-    <link href="https://www.techmeme.com/261025/p3"/>
-    <id>https://www.techmeme.com/261025/p3</id>
-    <updated>2026-10-25T05:05:01.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Nvidia discusses $2,000-per-GPU annual fee for software that 'runs agents on AI factories'</title>
+    <link href="https://www.tomshardware.com/pc-components/gpus/nvidia-discusses-usd2-000-per-gpu-annual-software-fee-for-running-agents-on-ai-infrastructure-firm-already-charges-more-than-twice-that-amount-for-its-ai-enterprise-software-platform"/>
+    <id>https://www.tomshardware.com/pc-components/gpus/nvidia-discusses-usd2-000-per-gpu-annual-software-fee-for-running-agents-on-ai-infrastructure-firm-already-charges-more-than-twice-that-amount-for-its-ai-enterprise-software-platform</id>
+    <updated>2026-10-25T13:00:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
     <category term="PRODUCTS"/>
-    <summary>Hartley Charlton / MacRumors : Instagram launches an Apple TV app for watching Reels, longer videos, and live shows; the app previously launched on Fire TV, Google TV, and Samsung smart TVs — Instagram is now available on the Apple TV, bringing Reels, longer videos, and live shows via the platform to Apple's streaming </summary>
+    <summary>Nvidia CEO Jensen Huang is reportedly weighing annual software fees of around $2,000 per GPU for enterprise AI, a model that could generate $10 billion a year if five million licenses were sold. The pricing and launch timeline remain unconfirmed, while Nvidia continues to expand its AI software and security tools for e</summary>
   </entry>
   <entry>
     <title>OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication</title>
@@ -133,13 +142,21 @@
     <summary>OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. &quot;Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we bel</summary>
   </entry>
   <entry>
-    <title>Prompt Injection Test Lab: 12 Steps, 60 Min [2026]</title>
-    <link href="https://shattered.io/prompt-injection-test-lab-llm-harness-2026"/>
-    <id>https://shattered.io/prompt-injection-test-lab-llm-harness-2026</id>
-    <updated>2026-10-24T10:59:34.000Z</updated>
-    <author><name>GN: Prompt Injection</name></author>
+    <title>Conducting The First Live Enterprise Comparison Between Agents and Human Professionals</title>
+    <link href="https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals"/>
+    <id>https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals</id>
+    <updated>2026-10-25T17:05:10.004Z</updated>
+    <author><name>Gray Swan</name></author>
     <category term="AI SECURITY"/>
-    <summary>Prompt Injection Test Lab: 12 Steps, 60 Min [2026] shattered.io</summary>
+  </entry>
+  <entry>
+    <title>AI coding agents hijacked using AGENTS.md file in Downloads folder</title>
+    <link href="https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder"/>
+    <id>https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder</id>
+    <updated>2026-10-25T15:49:38.000Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]</summary>
   </entry>
   <entry>
     <title>Cognition Open-Sources an Agent Plugin that Helps Secure Systems against Recent Cybersecurity Threats</title>
@@ -169,6 +186,15 @@
     <summary>#20</summary>
   </entry>
   <entry>
+    <title>ETH Zürich Teaches a Humanoid to Climb, Vault and Recover by Planning Body Contacts</title>
+    <link href="https://www.humanoidsdaily.com/news/eth-zurich-acp-humanoid-contact-planning"/>
+    <id>https://www.humanoidsdaily.com/news/eth-zurich-acp-humanoid-contact-planning</id>
+    <updated>2026-10-25T16:03:50.000Z</updated>
+    <author><name>Humanoids Daily</name></author>
+    <category term="ROBOTICS"/>
+    <summary>Tested on a Unitree G1, the research combines human motion data and reinforcement learning to connect mobility skills using onboard terrain sensing.</summary>
+  </entry>
+  <entry>
     <title>New York Deploys $360 Million for Stony Brook and Regional Hubs Supported by $1.37B in Federal Foundry Commitments</title>
     <link href="https://quantumcomputingreport.com/new-york-deploys-360-million-for-stony-brook-and-regional-hubs-supported-by-1-37b-in-federal-foundry-commitments"/>
     <id>https://quantumcomputingreport.com/new-york-deploys-360-million-for-stony-brook-and-regional-hubs-supported-by-1-37b-in-federal-foundry-commitments</id>
@@ -196,58 +222,49 @@
     <summary>A new benchmark by P-Zero Research measures how well AI models design and evaluate experiments on their own. The results are improving so fast that Anthropic co-founder Jack Clark now thinks self-improving AI could arrive by 2027. The article Anthropic co-founder Jack Clark moves his prediction for self-improving AI fo</summary>
   </entry>
   <entry>
-    <title>Sources: Apple tweaked macOS for its OLED touch MacBook Pro, due Wednesday, with a dynamic interface that adapts to whether touch or the trackpad was last used (Mark Gurman/Bloomberg)</title>
-    <link href="https://www.techmeme.com/261025/p8"/>
-    <id>https://www.techmeme.com/261025/p8</id>
-    <updated>2026-10-25T15:00:32.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Mark Gurman / Bloomberg : Sources: Apple tweaked macOS for its OLED touch MacBook Pro, due Wednesday, with a dynamic interface that adapts to whether touch or the trackpad was last used — Also: The company rolls out a retail store tool to reduce wasted inventory. — Apple's touch-screen MacBook Pro will arrive on Wednes</summary>
-  </entry>
-  <entry>
-    <title>The hottest AI wearables and gadgets you should know about</title>
-    <link href="https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about"/>
-    <id>https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about</id>
-    <updated>2026-10-25T14:10:00.000Z</updated>
+    <title>AI delivers ‘zero financial payoff’ to most companies, Apollo economist says</title>
+    <link href="https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist"/>
+    <id>https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist</id>
+    <updated>2026-10-25T16:57:32.000Z</updated>
     <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.</summary>
+    <summary>&quot;Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.&quot;</summary>
   </entry>
   <entry>
-    <title>Nanbeige/Nanbeige4.3-33B · Hugging Face</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xf0kz4/nanbeigenanbeige4333b_hugging_face"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xf0kz4/nanbeigenanbeige4333b_hugging_face</id>
-    <updated>2026-10-25T12:01:34.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>The iTunes Store is re-emerging as a venue for big pop stars, including Taylor Swift, to hawk collectibles to superfans and bolster their chart positions (Tom Matsuda/Financial Times)</title>
+    <link href="https://www.techmeme.com/261025/p9"/>
+    <id>https://www.techmeme.com/261025/p9</id>
+    <updated>2026-10-25T17:00:45.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Tom Matsuda / Financial Times : The iTunes Store is re-emerging as a venue for big pop stars, including Taylor Swift, to hawk collectibles to superfans and bolster their chart positions — Record labels and artists including Taylor Swift and Ariana Grande are using the throwback music store to bolster their chart positi</summary>
+  </entry>
+  <entry>
+    <title>Qwen3.8-27B at 262k context on a 16 GB RX 9070 on Windows: ~80 t/s with achyudh's ROCm KV-streaming fork</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1xf5389/qwen3827b_at_262k_context_on_a_16_gb_rx_9070_on"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1xf5389/qwen3827b_at_262k_context_on_a_16_gb_rx_9070_on</id>
+    <updated>2026-10-25T15:20:44.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Stronger than Qwen3.8-27B across a range of benchmarks. but also lays the necessary foundation to power our upcoming small model distillation pipeline (e.g., for Nanbeige4.3-3B). It'll distilled into their 3B small models, maybe other sizes too. submitted by /u/Mysterious_Finish543 [link] [comments]</summary>
+    <summary>I saw u/bottlestreet3d 's llama.cpp fork . Their post: https://www.reddit.com/r/LocalLLM/comments/1x7wack/qwen_27b_iq4_xs_q8q4_kv_at_full_262k_context_on_a/ The readme is Linux and ROCm 7.2.3 only, so I tried it on Windows with a RX 9070, 32 GB RAM . I compared it with my tuned Vulkan setup (llama.cpp b11873, MTP n=2, </summary>
   </entry>
   <entry>
-    <title>The minimum size of an LLM to generate a little meaningful convo</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xf4sxg/the_minimum_size_of_an_llm_to_generate_a_little"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xf4sxg/the_minimum_size_of_an_llm_to_generate_a_little</id>
-    <updated>2026-10-25T15:09:15.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>Hard numbers on Qwen3.8-27B's KV cache: q8_0 is free, K is ~2x as touchy as V, and a 2k recent-token window makes 6/5-bit basically lossless</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1xf4p9u/hard_numbers_on_qwen3827bs_kv_cache_q8_0_is_free"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1xf4p9u/hard_numbers_on_qwen3827bs_kv_cache_q8_0_is_free</id>
+    <updated>2026-10-25T15:05:12.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>I am trying to find the smallest model to generate something in &quot;normal&quot; English, it could be like AI generated, but it should be mostly grammar correct, sensible in the context. I hope it could be less than 10M to be easy for CPU, so I tested some like Supra-Mini-v6-1M. well it's not good enough. ```output // its out </summary>
+    <summary>Pretty much everyone running Qwen3.8-27B on a 24 GB card is squeezing the KV cache somehow, so here's what it actually costs, measured. This came out of building my own engine for this model ( repo ), but none of it is specific to my engine, it applies to whatever you run the model on. How I measured: KL divergence aga</summary>
   </entry>
   <entry>
-    <title>Nvidia discusses $2,000-per-GPU annual fee for software that 'runs agents on AI factories'</title>
-    <link href="https://www.tomshardware.com/pc-components/gpus/nvidia-discusses-usd2-000-per-gpu-annual-software-fee-for-running-agents-on-ai-infrastructure-firm-already-charges-more-than-twice-that-amount-for-its-ai-enterprise-software-platform"/>
-    <id>https://www.tomshardware.com/pc-components/gpus/nvidia-discusses-usd2-000-per-gpu-annual-software-fee-for-running-agents-on-ai-infrastructure-firm-already-charges-more-than-twice-that-amount-for-its-ai-enterprise-software-platform</id>
-    <updated>2026-10-25T13:00:00.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Nvidia CEO Jensen Huang is reportedly weighing annual software fees of around $2,000 per GPU for enterprise AI, a model that could generate $10 billion a year if five million licenses were sold. The pricing and launch timeline remain unconfirmed, while Nvidia continues to expand its AI software and security tools for e</summary>
-  </entry>
-  <entry>
-    <title>OpenMobile-2 proves open-source smartphone agents can rival proprietary models</title>
-    <link href="https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models"/>
-    <id>https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models</id>
-    <updated>2026-10-25T06:55:22.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Smartphone agents don't get better by processing more data. They improve by training on as many different apps as possible. The researchers behind OpenMobile-2 built an open training environment with more than 110 applications, including 35 replicas of popular apps. On real Android devices, their model scores highest a</summary>
+    <title>9 Days to Midterm Elections, Big Tech Earnings</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-10-25/bloomberg-this-weekend-10-25-2026-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-10-25/bloomberg-this-weekend-10-25-2026-video</id>
+    <updated>2026-10-25T15:42:35.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by MetLife Investment Management Chief Market Strategist Drew Matus, Financial Times Associate Editor and “Sea Change” Aut</summary>
   </entry>
   <entry>
     <title>Inside The Two Argentinas Under Javier Milei</title>
@@ -257,23 +274,5 @@
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
     <summary>President Javier Milei has brought inflation down and opened Argentina to more investment, helping fuel a boom in energy and other export industries. But manufacturing, retail and small businesses are struggling, leaving many Argentines feeling that the recovery is passing them by. One year before the election, Milei’s</summary>
-  </entry>
-  <entry>
-    <title>Zero-Day Option Traders Are Betting Against Big S&amp;P 500 Swings</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-25/zero-day-option-traders-are-betting-against-big-s-p-500-swings"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-25/zero-day-option-traders-are-betting-against-big-s-p-500-swings</id>
-    <updated>2026-10-25T14:00:00.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>While some investors position for AI earnings, geopolitics and interest rates to send stocks either to new highs or into a tailspin, zero-day option traders have increasingly bet that the S&amp;P 500 Index will remain calm.</summary>
-  </entry>
-  <entry>
-    <title>Windows XP debuted 25 years ago today</title>
-    <link href="https://www.tomshardware.com/software/windows/windows-xp-debuted-25-years-ago-today-microsofts-biggest-launch-since-95-was-its-first-consumer-os-to-remove-the-dos-underpinnings"/>
-    <id>https://www.tomshardware.com/software/windows/windows-xp-debuted-25-years-ago-today-microsofts-biggest-launch-since-95-was-its-first-consumer-os-to-remove-the-dos-underpinnings</id>
-    <updated>2026-10-25T12:20:00.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
-    <category term="HARDWARE"/>
-    <summary>Windows XP became available at retailers for the first time on this day back in 2001.</summary>
   </entry>
 </feed>
