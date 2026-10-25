@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-25T17:08:42.476Z</updated>
+  <updated>2026-10-25T18:08:38.568Z</updated>
   <entry>
     <title>Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)</title>
     <link href="https://openai.com/index/scaling-storage-one-billion-users-part-two"/>
@@ -43,15 +43,6 @@
     <summary>Context: I created this to share before the start of courses I facilitate to provide a refresher on recent events, but also as a hook to draw students into engaging with some of ideas we think about and debate in AI safety early. I expect the topics I cover in my “Setting the Scene” post to change frequently, so this i — Also covered by: AI Alignment Forum</summary>
   </entry>
   <entry>
-    <title>Introducing Kimi K3.1 Pro</title>
-    <link href="https://simonwillison.net/2026/Oct/23/kimi-k31-pro"/>
-    <id>https://simonwillison.net/2026/Oct/23/kimi-k31-pro</id>
-    <updated>2026-10-23T19:40:54.000Z</updated>
-    <author><name>Simon Willison</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise &quot;Full model weights will be released by Nov 4, 2026&quot;. They're also offering a &quot;Highspeed&quot; version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same).  — Also covered by: HN: Chinese Frontier Labs</summary>
-  </entry>
-  <entry>
     <title>OpenAI and Poland’s NASK partner to advance AI safety and security</title>
     <link href="https://openai.com/index/openai-nask-ai-safety-security-partnership"/>
     <id>https://openai.com/index/openai-nask-ai-safety-security-partnership</id>
@@ -61,22 +52,13 @@
     <summary>OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.</summary>
   </entry>
   <entry>
-    <title>EMudhra Intermediate CA Certificates Compromised</title>
-    <link href="https://unit42.paloaltonetworks.com/emudhra-certificate-compromise"/>
-    <id>https://unit42.paloaltonetworks.com/emudhra-certificate-compromise</id>
-    <updated>2026-10-22T17:15:32.000Z</updated>
-    <author><name>Palo Alto Unit 42</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>Eight compromised eMudhra intermediate CA private keys risk unauthorized TLS signing and MitM interception. Read our analysis and containment guide. The post EMudhra Intermediate CA Certificates Compromised appeared first on Unit 42 . — Also covered by: Talos Intelligence</summary>
-  </entry>
-  <entry>
-    <title>Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra</title>
-    <link href="https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra"/>
-    <id>https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra</id>
-    <updated>2026-10-25T10:08:49.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>ollama v0.40.11 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.11"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.11</id>
+    <updated>2026-10-25T18:06:57.000Z</updated>
+    <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Nvidia's new data engine Flora labels one hour of robot video for 72 cents instead of $88 with GPT-6 Astra, while scoring slightly higher on quality. The open system, built on three fine-tuned Qwen3.5 models, catches errors in robot actions far more reliably than any competitor but sometimes falls short on descriptive </summary>
+    <summary>Speech Ollama can now generate speech on macOS. ollama run plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible /v1/audio/speech endpoint. ollama run phonon &quot; Hello from Ollama. &quot; d3 decision models d3 brings vLLM Semantic Router's decision models t</summary>
   </entry>
   <entry>
     <title>Data Center Late Fees Hit $5 Million or More Per Day, Spawning New Insurance</title>
@@ -88,22 +70,22 @@
     <summary>This spring, Mike Mathews, who leads the global digital infrastructure practice at insurance broker Marsh, raced to design a policy to protect a data center developer from a $1 million-a-day late fee. The developer’s tenant was demanding damages if electricity and facilities weren’t available on time during the first p</summary>
   </entry>
   <entry>
-    <title>llama.cpp b11883 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11883"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11883</id>
-    <updated>2026-10-25T11:28:38.000Z</updated>
+    <title>llama.cpp b11884 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11884"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11884</id>
+    <updated>2026-10-25T17:59:22.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>llama-quant : fix 4D tensor quantization using ggml_nrows() and name-…</summary>
+    <summary>llama: fix exhausting CPU and MEM caused by dry sequence breaker ( #31035 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59663486 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x</summary>
   </entry>
   <entry>
-    <title>Google ML Drift Accelerates On-Device AI Inference Across Diverse GPUs</title>
-    <link href="https://www.infoq.com/news/2026/10/google-ml-drift"/>
-    <id>https://www.infoq.com/news/2026/10/google-ml-drift</id>
-    <updated>2026-10-25T17:00:00.000Z</updated>
-    <author><name>InfoQ AI/ML</name></author>
+    <title>The five components of building a &quot;company harness&quot;</title>
+    <link href="https://www.langchain.com/blog/components-building-company-harness"/>
+    <id>https://www.langchain.com/blog/components-building-company-harness</id>
+    <updated>2026-10-25T18:06:32.000Z</updated>
+    <author><name>LangChain Blog</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Google has released ML Drift, an open-source, cross-platform GPU compute engine designed for on-device AI and machine learning inference. Licensed under Apache 2.0, it abstracts the complexities of different GPU hardware and low-level APIs, supporting OpenGL ES, OpenCL, Metal, and WebGPU. By Sergio De Simone</summary>
+    <summary>Learn how LangChain built internal agents across marketing, sales, and engineering, and how they have completely changed how those teams work.</summary>
   </entry>
   <entry>
     <title>Fed Looks Set to Pause After September Rate Hike</title>
@@ -115,13 +97,13 @@
     <summary>On Bloomberg This Weekend, Bloomberg News Federal Reserve reporter Maria Eloisa Capurro previews the Fed’s upcoming rate decision, with policymakers widely expected to pause after September’s first rate increase since 2023 despite inflation remaining above target. Speaking with hosts David Gura and Christina Ruffini, C</summary>
   </entry>
   <entry>
-    <title>Anthropic Launches OSS Scanner, a Free AI Vulnerability Scanner</title>
-    <link href="https://www.marktechpost.com/2026/10/25/anthropic-launches-oss-scanner-a-free-ai-vulnerability-scanner"/>
-    <id>https://www.marktechpost.com/2026/10/25/anthropic-launches-oss-scanner-a-free-ai-vulnerability-scanner</id>
-    <updated>2026-10-25T11:32:29.000Z</updated>
+    <title>Hugging Face Releases Carbon-X, a 14B Open DNA Language Model that Brings DNA and Natural Language Together for the First Time</title>
+    <link href="https://www.marktechpost.com/2026/10/25/hugging-face-carbon-x-14b-dna-language-model"/>
+    <id>https://www.marktechpost.com/2026/10/25/hugging-face-carbon-x-14b-dna-language-model</id>
+    <updated>2026-10-25T16:53:40.000Z</updated>
     <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
-    <summary>Anthropic has launched OSS Scanner, a free, opt-in vulnerability scanner for critical open-source projects. The Anthropic OSS Scanner runs the company’s strongest models, including Claude Mythos, against enrolled codebases. Reports go straight to maintainers without human review. That trade delivers faster findings, bu</summary>
+    <summary>Hugging Face released Carbon-X, an open 14.8B DNA language model built on Qwen3-14B. It reads raw DNA in chat, answers in English, and averages 66.7% across 5 DNA benchmarks under Apache 2.0. The post Hugging Face Releases Carbon-X, a 14B Open DNA Language Model that Brings DNA and Natural Language Together for the Fir</summary>
   </entry>
   <entry>
     <title>Nvidia discusses $2,000-per-GPU annual fee for software that 'runs agents on AI factories'</title>
@@ -133,19 +115,19 @@
     <summary>Nvidia CEO Jensen Huang is reportedly weighing annual software fees of around $2,000 per GPU for enterprise AI, a model that could generate $10 billion a year if five million licenses were sold. The pricing and launch timeline remain unconfirmed, while Nvidia continues to expand its AI software and security tools for e</summary>
   </entry>
   <entry>
-    <title>OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication</title>
-    <link href="https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html"/>
-    <id>https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html</id>
-    <updated>2026-10-25T06:54:29.000Z</updated>
-    <author><name>The Hacker News</name></author>
+    <title>Tracing Subliminal Learning Through Pretraining</title>
+    <link href="https://www.lesswrong.com/posts/53XwjN2gAKzjKCp5s/tracing-subliminal-learning-through-pretraining"/>
+    <id>https://www.lesswrong.com/posts/53XwjN2gAKzjKCp5s/tracing-subliminal-learning-through-pretraining</id>
+    <updated>2026-10-25T17:51:53.000Z</updated>
+    <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. &quot;Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we bel</summary>
+    <summary>This post summarizes our paper , Tracing Subliminal Learning Through Pretraining, which was developed as part of EleutherAI’s SOAR program . TL;DR We study subliminal learning , the phenomenon in which a student model acquires a teacher’s preference through training data that appear semantically unrelated to that prefe</summary>
   </entry>
   <entry>
     <title>Conducting The First Live Enterprise Comparison Between Agents and Human Professionals</title>
     <link href="https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals"/>
     <id>https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals</id>
-    <updated>2026-10-25T17:08:21.706Z</updated>
+    <updated>2026-10-25T18:08:18.328Z</updated>
     <author><name>Gray Swan</name></author>
     <category term="AI SECURITY"/>
   </entry>
@@ -186,13 +168,13 @@
     <summary>#20</summary>
   </entry>
   <entry>
-    <title>ETH Zürich Teaches a Humanoid to Climb, Vault and Recover by Planning Body Contacts</title>
-    <link href="https://www.humanoidsdaily.com/news/eth-zurich-acp-humanoid-contact-planning"/>
-    <id>https://www.humanoidsdaily.com/news/eth-zurich-acp-humanoid-contact-planning</id>
-    <updated>2026-10-25T16:03:50.000Z</updated>
+    <title>Schaeffler COO Sees Humanoid Opportunities in Components, Factories and Services</title>
+    <link href="https://www.humanoidsdaily.com/news/schaeffler-coo-humanoid-components-integration-services"/>
+    <id>https://www.humanoidsdaily.com/news/schaeffler-coo-humanoid-components-integration-services</id>
+    <updated>2026-10-25T17:19:23.000Z</updated>
     <author><name>Humanoids Daily</name></author>
     <category term="ROBOTICS"/>
-    <summary>Tested on a Unitree G1, the research combines human motion data and reinforcement learning to connect mobility skills using onboard terrain sensing.</summary>
+    <summary>In a Gasgoo interview, Jochen Schröder outlines how humanoids could support component sales, factory productivity, customer integration and robot maintenance.</summary>
   </entry>
   <entry>
     <title>New York Deploys $360 Million for Stony Brook and Regional Hubs Supported by $1.37B in Federal Foundry Commitments</title>
@@ -204,31 +186,22 @@
     <summary>New York State is investing $360 million in quantum technology, with $300 million for a Quantum Research and Innovation Hub at SUNY Stony Brook and $60 million for regional commercialization hubs. This initiative, supported by $1.37 billion in federal funding, aims to connect the state's hardware and semiconductor asse</summary>
   </entry>
   <entry>
-    <title>Ex-Google CEO Eric Schmidt calls OpenAI and Anthropic modern colonial trading companies</title>
-    <link href="https://the-decoder.com/ex-google-ceo-eric-schmidt-calls-openai-and-anthropic-modern-colonial-trading-companies"/>
-    <id>https://the-decoder.com/ex-google-ceo-eric-schmidt-calls-openai-and-anthropic-modern-colonial-trading-companies</id>
-    <updated>2026-10-25T08:09:32.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>b11886: qwen: merge tensors on convert (#31028)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11886"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11886</id>
+    <updated>2026-10-25T13:23:22.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>In Foreign Affairs, historian Niall Ferguson, researcher Lisa Klaassen, and former Google CEO Eric Schmidt cast the US and China as AI empires and every other country as a dependency. The race won't be decided by breakthroughs but by who can bankroll it. US corporations alone plan to spend more than $600 billion in 202</summary>
+    <summary>qwen: merge tensors on convert convert: use generator functions qwen4exp: remove conts and pre-scale</summary>
   </entry>
   <entry>
-    <title>Anthropic co-founder Jack Clark moves his prediction for self-improving AI forward to 2027</title>
-    <link href="https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027"/>
-    <id>https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027</id>
-    <updated>2026-10-25T09:37:46.000Z</updated>
+    <title>Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra</title>
+    <link href="https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra"/>
+    <id>https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra</id>
+    <updated>2026-10-25T10:08:49.000Z</updated>
     <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>A new benchmark by P-Zero Research measures how well AI models design and evaluate experiments on their own. The results are improving so fast that Anthropic co-founder Jack Clark now thinks self-improving AI could arrive by 2027. The article Anthropic co-founder Jack Clark moves his prediction for self-improving AI fo</summary>
-  </entry>
-  <entry>
-    <title>AI delivers ‘zero financial payoff’ to most companies, Apollo economist says</title>
-    <link href="https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist"/>
-    <id>https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist</id>
-    <updated>2026-10-25T16:57:32.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>&quot;Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.&quot;</summary>
+    <summary>Nvidia's new data engine Flora labels one hour of robot video for 72 cents instead of $88 with GPT-6 Astra, while scoring slightly higher on quality. The open system, built on three fine-tuned Qwen3.5 models, catches errors in robot actions far more reliably than any competitor but sometimes falls short on descriptive </summary>
   </entry>
   <entry>
     <title>The iTunes Store is re-emerging as a venue for big pop stars, including Taylor Swift, to hawk collectibles to superfans and bolster their chart positions (Tom Matsuda/Financial Times)</title>
@@ -240,6 +213,15 @@
     <summary>Tom Matsuda / Financial Times : The iTunes Store is re-emerging as a venue for big pop stars, including Taylor Swift, to hawk collectibles to superfans and bolster their chart positions — Record labels and artists including Taylor Swift and Ariana Grande are using the throwback music store to bolster their chart positi</summary>
   </entry>
   <entry>
+    <title>AI delivers ‘zero financial payoff’ to most companies, Apollo economist says</title>
+    <link href="https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist"/>
+    <id>https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist</id>
+    <updated>2026-10-25T16:57:32.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>&quot;Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.&quot;</summary>
+  </entry>
+  <entry>
     <title>qwen: merge tensors on convert by am17an · Pull Request #31028 · ggml-org/llama.cpp</title>
     <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xf716t/qwen_merge_tensors_on_convert_by_am17an_pull"/>
     <id>https://www.reddit.com/r/LocalLLaMA/comments/1xf716t/qwen_merge_tensors_on_convert_by_am17an_pull</id>
@@ -249,13 +231,40 @@
     <summary>...time to reconvert GGUFs? submitted by /u/jacek2023 [link] [comments]</summary>
   </entry>
   <entry>
-    <title>Nanbeige/Nanbeige4.3-33B · Hugging Face</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xf0kz4/nanbeigenanbeige4333b_hugging_face"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xf0kz4/nanbeigenanbeige4333b_hugging_face</id>
-    <updated>2026-10-25T12:01:34.000Z</updated>
+    <title>I made an arena for fighting JEVs</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xf8iqi/i_made_an_arena_for_fighting_jevs"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xf8iqi/i_made_an_arena_for_fighting_jevs</id>
+    <updated>2026-10-25T17:35:27.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Stronger than Qwen3.8-27B across a range of benchmarks. but also lays the necessary foundation to power our upcoming small model distillation pipeline (e.g., for Nanbeige4.3-3B). It'll distilled into their 3B small models, maybe other sizes too. submitted by /u/Mysterious_Finish543 [link] [comments]</summary>
+    <summary>Each fighter gets the game state and chooses an action: move, block, punch, kick, fireball. You write its strategy and pick the model. OpenJev is one of the available options. There is JAILBREAK part its a mental_attack . Your fighter can spend a move sending a message into the opponent’s next prompt. You write the mes</summary>
+  </entry>
+  <entry>
+    <title>PyTorch Conference 2026: Google and Meta Open-Source TorchTPU for Native PyTorch on TPUs</title>
+    <link href="https://www.infoq.com/news/2026/10/google-meta-torchtpu"/>
+    <id>https://www.infoq.com/news/2026/10/google-meta-torchtpu</id>
+    <updated>2026-10-25T18:00:00.000Z</updated>
+    <author><name>InfoQ AI/ML</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Google and Meta open-sourced TorchTPU, a native PyTorch backend for Google's TPUs, at PyTorch Conference North America 2026, and Meta said it plans to move larger LLM workloads onto TPUs with it. AWS released TorchNeuron for Trainium the same week, while developers questioned TPU availability and where vendor lock-in n</summary>
+  </entry>
+  <entry>
+    <title>Google ML Drift Accelerates On-Device AI Inference Across Diverse GPUs</title>
+    <link href="https://www.infoq.com/news/2026/10/google-ml-drift"/>
+    <id>https://www.infoq.com/news/2026/10/google-ml-drift</id>
+    <updated>2026-10-25T17:00:00.000Z</updated>
+    <author><name>InfoQ AI/ML</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Google has released ML Drift, an open-source, cross-platform GPU compute engine designed for on-device AI and machine learning inference. Licensed under Apache 2.0, it abstracts the complexities of different GPU hardware and low-level APIs, supporting OpenGL ES, OpenCL, Metal, and WebGPU. By Sergio De Simone</summary>
+  </entry>
+  <entry>
+    <title>De olho nas eleições</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-10-25/de-olho-nas-eleicoes-video-mvo4e3rz"/>
+    <id>https://www.bloomberg.com/news/videos/2026-10-25/de-olho-nas-eleicoes-video-mvo4e3rz</id>
+    <updated>2026-10-25T17:47:06.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Flávio Bolsonaro e Lula chegam ao segundo turno tecnicamente empatados após debate e atos realizados no país nesta sábado. Com reportagem e edição de Patricia Xavier e produção de Beatriz Amat e Fabiola Moura. (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>9 Days to Midterm Elections, Big Tech Earnings</title>
@@ -265,14 +274,5 @@
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
     <summary>The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by MetLife Investment Management Chief Market Strategist Drew Matus, Financial Times Associate Editor and “Sea Change” Aut</summary>
-  </entry>
-  <entry>
-    <title>Inside The Two Argentinas Under Javier Milei</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-25/inside-the-two-argentinas-under-javier-milei-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-25/inside-the-two-argentinas-under-javier-milei-video</id>
-    <updated>2026-10-25T14:04:15.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>President Javier Milei has brought inflation down and opened Argentina to more investment, helping fuel a boom in energy and other export industries. But manufacturing, retail and small businesses are struggling, leaving many Argentines feeling that the recovery is passing them by. One year before the election, Milei’s</summary>
   </entry>
 </feed>
