@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-25T19:08:50.134Z</updated>
+  <updated>2026-10-25T19:43:11.093Z</updated>
   <entry>
     <title>Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)</title>
     <link href="https://openai.com/index/scaling-storage-one-billion-users-part-two"/>
@@ -43,12 +43,21 @@
     <summary>Highlights See the complete change list below. Breaking Changes fix(qqbot)!: restore per-group session isolation under thread scope ( #13882 ) by @Eric-GoodBoy-Tech Complete Change List Features Adds opt-in daemon token persistence: qwen daemon start --save-token stores the bearer token in an owner-only file, qwen daem — Also covered by: QwenLM/qwen-code, anthropics/claude-code, QwenLM/qwen-code</summary>
   </entry>
   <entry>
+    <title>Introducing Kimi K3.1 Pro</title>
+    <link href="https://simonwillison.net/2026/Oct/23/kimi-k31-pro"/>
+    <id>https://simonwillison.net/2026/Oct/23/kimi-k31-pro</id>
+    <updated>2026-10-23T19:40:54.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise &quot;Full model weights will be released by Nov 4, 2026&quot;. They're also offering a &quot;Highspeed&quot; version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same).  — Also covered by: HN: Chinese Frontier Labs</summary>
+  </entry>
+  <entry>
     <title>OpenAI and Poland’s NASK partner to advance AI safety and security</title>
     <link href="https://openai.com/index/openai-nask-ai-safety-security-partnership"/>
     <id>https://openai.com/index/openai-nask-ai-safety-security-partnership</id>
     <updated>2026-10-23T00:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="MODEL RELEASES"/>
+    <author><name>OpenAI Blog</name></author>
+    <category term="PRODUCTS"/>
     <summary>OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.</summary>
   </entry>
   <entry>
@@ -136,7 +145,7 @@
     <title>Conducting The First Live Enterprise Comparison Between Agents and Human Professionals</title>
     <link href="https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals"/>
     <id>https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals</id>
-    <updated>2026-10-25T19:08:22.858Z</updated>
+    <updated>2026-10-25T19:42:50.705Z</updated>
     <author><name>Gray Swan</name></author>
     <category term="AI SECURITY"/>
   </entry>
@@ -204,13 +213,13 @@
     <summary>In Foreign Affairs, historian Niall Ferguson, researcher Lisa Klaassen, and former Google CEO Eric Schmidt cast the US and China as AI empires and every other country as a dependency. The race won't be decided by breakthroughs but by who can bankroll it. US corporations alone plan to spend more than $600 billion in 202</summary>
   </entry>
   <entry>
-    <title>AI delivers ‘zero financial payoff’ to most companies, Apollo economist says</title>
-    <link href="https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist"/>
-    <id>https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist</id>
-    <updated>2026-10-25T16:57:32.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>Data center tenants now demand $5M+ a day in late-delivery fees, up from $1M this spring, spawning new &quot;delay-in-delivery&quot; coverage from brokers like Marsh (Ann Davis Vaughan/The Information)</title>
+    <link href="https://www.techmeme.com/261025/p10"/>
+    <id>https://www.techmeme.com/261025/p10</id>
+    <updated>2026-10-25T19:10:13.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>&quot;Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.&quot;</summary>
+    <summary>Ann Davis Vaughan / The Information : Data center tenants now demand $5M+ a day in late-delivery fees, up from $1M this spring, spawning new “delay-in-delivery” coverage from brokers like Marsh — This spring, Mike Mathews, who leads the global digital infrastructure practice at insurance broker Marsh …</summary>
   </entry>
   <entry>
     <title>RTX 3080 20GB got reBAR and P2P unlock! +70% prompt processing speed</title>
@@ -222,13 +231,13 @@
     <summary>P2P is finally unlocked for RTX 3080 20GB - this leads to massive performance improvements in tensor parallel mode prompt processing speed. First, i want to acknowledge that this tremendous achievement belongs to u/nathannguyennng - he can't post to r/locallama due to karma requirements, and gave me permission to post </summary>
   </entry>
   <entry>
-    <title>qwen: merge tensors on convert by am17an · Pull Request #31028 · ggml-org/llama.cpp</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xf716t/qwen_merge_tensors_on_convert_by_am17an_pull"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xf716t/qwen_merge_tensors_on_convert_by_am17an_pull</id>
-    <updated>2026-10-25T16:37:07.000Z</updated>
+    <title>Show and tell: PolyStrata on my $20 Xeon server</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xfb9oz/show_and_tell_polystrata_on_my_20_xeon_server"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xfb9oz/show_and_tell_polystrata_on_my_20_xeon_server</id>
+    <updated>2026-10-25T19:24:15.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>...time to reconvert GGUFs? submitted by /u/jacek2023 [link] [comments]</summary>
+    <summary>submitted by /u/randylush [link] [comments]</summary>
   </entry>
   <entry>
     <title>PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking</title>
@@ -265,14 +274,5 @@
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
     <summary>The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by MetLife Investment Management Chief Market Strategist Drew Matus, Financial Times Associate Editor and “Sea Change” Aut</summary>
-  </entry>
-  <entry>
-    <title>Anthropic Launches OSS Scanner, a Free AI Vulnerability Scanner</title>
-    <link href="https://www.marktechpost.com/2026/10/25/anthropic-launches-oss-scanner-a-free-ai-vulnerability-scanner"/>
-    <id>https://www.marktechpost.com/2026/10/25/anthropic-launches-oss-scanner-a-free-ai-vulnerability-scanner</id>
-    <updated>2026-10-25T11:32:29.000Z</updated>
-    <author><name>MarkTechPost</name></author>
-    <category term="RESEARCH"/>
-    <summary>Anthropic has launched OSS Scanner, a free, opt-in vulnerability scanner for critical open-source projects. The Anthropic OSS Scanner runs the company’s strongest models, including Claude Mythos, against enrolled codebases. Reports go straight to maintainers without human review. That trade delivers faster findings, bu</summary>
   </entry>
 </feed>
