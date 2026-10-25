@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-25T06:55:54.225Z</updated>
+  <updated>2026-10-25T07:08:55.922Z</updated>
   <entry>
     <title>Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)</title>
     <link href="https://openai.com/index/scaling-storage-one-billion-users-part-two"/>
@@ -32,15 +32,6 @@
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
     <summary>OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.</summary>
-  </entry>
-  <entry>
-    <title>Introducing Kimi K3.1 Pro</title>
-    <link href="https://simonwillison.net/2026/Oct/23/kimi-k31-pro"/>
-    <id>https://simonwillison.net/2026/Oct/23/kimi-k31-pro</id>
-    <updated>2026-10-23T19:40:54.000Z</updated>
-    <author><name>Simon Willison</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise &quot;Full model weights will be released by Nov 4, 2026&quot;. They're also offering a &quot;Highspeed&quot; version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same). </summary>
   </entry>
   <entry>
     <title>OpenAI and Poland’s NASK partner to advance AI safety and security</title>
@@ -97,13 +88,13 @@
     <summary>chat : reject JSON nested more than 128 levels before walking it ( #30242 ) chat : reject JSON nested more than 128 levels before walking it The schema builder, the jinja engine and the decision code walk request JSON with recursion. A request nested deep enough overflows the stack of the HTTP thread and llama-server d</summary>
   </entry>
   <entry>
-    <title>BC’s Left-Wing Leader Loses to Conservatives in Vote He Called</title>
+    <title>BC Left-Wing Leader Loses to Conservatives in Vote He Called</title>
     <link href="https://www.bloomberg.com/news/articles/2026-10-25/bc-s-left-wing-leader-loses-to-conservatives-in-vote-he-called"/>
     <id>https://www.bloomberg.com/news/articles/2026-10-25/bc-s-left-wing-leader-loses-to-conservatives-in-vote-he-called</id>
     <updated>2026-10-25T04:08:12.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>British Columbia is set to elect its first Conservative Party majority in 98 years, according to Canadian broadcasters, swinging Canada’s third most populous province to the political right.</summary>
+    <summary>British Columbia elected its first Conservative Party majority in 98 years, swinging Canada’s third most populous province to the political right.</summary>
   </entry>
   <entry>
     <title>Kimi K3.1 Pro's debut draws scrutiny over allegations that influencers were asked to promote the model without disclosing a commercial relationship to Moonshot (Carl Franzen/VentureBeat)</title>
@@ -275,5 +266,14 @@
     <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
     <summary>There’s been a lot of talk recently about chain-of-thought (CoT) monitorability in light of the Hugging Face incident . During this incident, hundreds of agents coordinated an attack through an unsanctioned message board, and post-hoc investigations relied heavily on chain of thought to understand what happened during </summary>
+  </entry>
+  <entry>
+    <title>Three fired OpenAI safety researchers say they were never told what they actually leaked</title>
+    <link href="https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked"/>
+    <id>https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked</id>
+    <updated>2026-10-24T15:19:33.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>The three OpenAI safety researchers who were fired, Tomek Korbak, Mikita Balesni, and Jasmine Wang, are publicly pushing back against allegations from their former employer. They deny sharing confidential information and see a connection to their advocacy for AI systems that are easier to scrutinize. The researchers sa</summary>
   </entry>
 </feed>
