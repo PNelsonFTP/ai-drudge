@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-25T15:08:42.294Z</updated>
+  <updated>2026-10-25T16:08:45.039Z</updated>
   <entry>
     <title>Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)</title>
     <link href="https://openai.com/index/scaling-storage-one-billion-users-part-two"/>
@@ -25,15 +25,6 @@
     <summary>OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.</summary>
   </entry>
   <entry>
-    <title>Setting the Scene (Public v1; October 25)</title>
-    <link href="https://www.lesswrong.com/posts/dmYP7DS3ERyXGAYe6/setting-the-scene-public-v1-october-25"/>
-    <id>https://www.lesswrong.com/posts/dmYP7DS3ERyXGAYe6/setting-the-scene-public-v1-october-25</id>
-    <updated>2026-10-25T07:52:23.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>Context: I created this to share before the start of courses I facilitate to provide a refresher on recent events, but also as a hook to draw students into engaging with some of ideas we think about and debate in AI safety early. I expect the topics I cover in my “Setting the Scene” post to change frequently, so this i — Also covered by: AI Alignment Forum</summary>
-  </entry>
-  <entry>
     <title>qwen-code v0.26.1 released</title>
     <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.26.1"/>
     <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.26.1</id>
@@ -43,13 +34,22 @@
     <summary>Highlights See the complete change list below. Breaking Changes fix(qqbot)!: restore per-group session isolation under thread scope ( #13882 ) by @Eric-GoodBoy-Tech Complete Change List Features Adds opt-in daemon token persistence: qwen daemon start --save-token stores the bearer token in an owner-only file, qwen daem — Also covered by: QwenLM/qwen-code, anthropics/claude-code, QwenLM/qwen-code</summary>
   </entry>
   <entry>
-    <title>Introducing Kimi K3.1 Pro</title>
-    <link href="https://simonwillison.net/2026/Oct/23/kimi-k31-pro"/>
-    <id>https://simonwillison.net/2026/Oct/23/kimi-k31-pro</id>
-    <updated>2026-10-23T19:40:54.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>Setting the Scene (Public v1; October 25)</title>
+    <link href="https://www.lesswrong.com/posts/dmYP7DS3ERyXGAYe6/setting-the-scene-public-v1-october-25"/>
+    <id>https://www.lesswrong.com/posts/dmYP7DS3ERyXGAYe6/setting-the-scene-public-v1-october-25</id>
+    <updated>2026-10-25T07:52:23.000Z</updated>
+    <author><name>LessWrong</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>Context: I created this to share before the start of courses I facilitate to provide a refresher on recent events, but also as a hook to draw students into engaging with some of ideas we think about and debate in AI safety early. I expect the topics I cover in my “Setting the Scene” post to change frequently, so this i — Also covered by: AI Alignment Forum</summary>
+  </entry>
+  <entry>
+    <title>OpenAI and Poland’s NASK partner to advance AI safety and security</title>
+    <link href="https://openai.com/index/openai-nask-ai-safety-security-partnership"/>
+    <id>https://openai.com/index/openai-nask-ai-safety-security-partnership</id>
+    <updated>2026-10-23T00:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise &quot;Full model weights will be released by Nov 4, 2026&quot;. They're also offering a &quot;Highspeed&quot; version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same).  — Also covered by: HN: Chinese Frontier Labs</summary>
+    <summary>OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.</summary>
   </entry>
   <entry>
     <title>EMudhra Intermediate CA Certificates Compromised</title>
@@ -61,40 +61,40 @@
     <summary>Eight compromised eMudhra intermediate CA private keys risk unauthorized TLS signing and MitM interception. Read our analysis and containment guide. The post EMudhra Intermediate CA Certificates Compromised appeared first on Unit 42 . — Also covered by: Talos Intelligence</summary>
   </entry>
   <entry>
-    <title>OpenAI and Poland’s NASK partner to advance AI safety and security</title>
-    <link href="https://openai.com/index/openai-nask-ai-safety-security-partnership"/>
-    <id>https://openai.com/index/openai-nask-ai-safety-security-partnership</id>
-    <updated>2026-10-23T00:00:00.000Z</updated>
-    <author><name>OpenAI Blog</name></author>
-    <category term="PRODUCTS"/>
-    <summary>OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp b11878 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11878"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11878</id>
-    <updated>2026-10-25T09:15:45.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra</title>
+    <link href="https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra"/>
+    <id>https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra</id>
+    <updated>2026-10-25T10:08:49.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>ggml-cuda: fuse qwen MRoPE + set-rows ( #31025 )</summary>
+    <summary>Nvidia's new data engine Flora labels one hour of robot video for 72 cents instead of $88 with GPT-6 Astra, while scoring slightly higher on quality. The open system, built on three fine-tuned Qwen3.5 models, catches errors in robot actions far more reliably than any competitor but sometimes falls short on descriptive </summary>
   </entry>
   <entry>
-    <title>Sources: Apple tweaked macOS for its OLED touch MacBook Pro, due Wednesday, with a dynamic interface that adapts to whether touch or the trackpad was last used (Mark Gurman/Bloomberg)</title>
-    <link href="https://www.techmeme.com/261025/p8"/>
-    <id>https://www.techmeme.com/261025/p8</id>
-    <updated>2026-10-25T15:00:32.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Data Center Late Fees Hit $5 Million or More Per Day, Spawning New Insurance</title>
+    <link href="https://www.theinformation.com/articles/data-center-late-fees-hit-5-million-per-day-spawning-new-insurance"/>
+    <id>https://www.theinformation.com/articles/data-center-late-fees-hit-5-million-per-day-spawning-new-insurance</id>
+    <updated>2026-10-25T15:31:13.000Z</updated>
+    <author><name>The Information</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Mark Gurman / Bloomberg : Sources: Apple tweaked macOS for its OLED touch MacBook Pro, due Wednesday, with a dynamic interface that adapts to whether touch or the trackpad was last used — Also: The company rolls out a retail store tool to reduce wasted inventory. — Apple's touch-screen MacBook Pro will arrive on Wednes</summary>
+    <summary>This spring, Mike Mathews, who leads the global digital infrastructure practice at insurance broker Marsh, raced to design a policy to protect a data center developer from a $1 million-a-day late fee. The developer’s tenant was demanding damages if electricity and facilities weren’t available on time during the first p</summary>
   </entry>
   <entry>
-    <title>Nvidia discusses $2,000-per-GPU annual fee for software that 'runs agents on AI factories'</title>
-    <link href="https://www.tomshardware.com/pc-components/gpus/nvidia-discusses-usd2-000-per-gpu-annual-software-fee-for-running-agents-on-ai-infrastructure-firm-already-charges-more-than-twice-that-amount-for-its-ai-enterprise-software-platform"/>
-    <id>https://www.tomshardware.com/pc-components/gpus/nvidia-discusses-usd2-000-per-gpu-annual-software-fee-for-running-agents-on-ai-infrastructure-firm-already-charges-more-than-twice-that-amount-for-its-ai-enterprise-software-platform</id>
-    <updated>2026-10-25T13:00:00.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
+    <title>llama.cpp b11879 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11879"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11879</id>
+    <updated>2026-10-25T09:24:38.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>CUDA: fuse FFN gate/up matmuls and GLU in MMQ with interleaved gate/u…</summary>
+  </entry>
+  <entry>
+    <title>AI coding agents hijacked using AGENTS.md file in Downloads folder</title>
+    <link href="https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder"/>
+    <id>https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder</id>
+    <updated>2026-10-25T15:49:38.000Z</updated>
+    <author><name>BleepingComputer</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Nvidia CEO Jensen Huang is reportedly weighing annual software fees of around $2,000 per GPU for enterprise AI, a model that could generate $10 billion a year if five million licenses were sold. The pricing and launch timeline remain unconfirmed, while Nvidia continues to expand its AI software and security tools for e</summary>
+    <summary>Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]</summary>
   </entry>
   <entry>
     <title>Fed Looks Set to Pause After September Rate Hike</title>
@@ -122,15 +122,6 @@
     <author><name>Techmeme</name></author>
     <category term="PRODUCTS"/>
     <summary>Hartley Charlton / MacRumors : Instagram launches an Apple TV app for watching Reels, longer videos, and live shows; the app previously launched on Fire TV, Google TV, and Samsung smart TVs — Instagram is now available on the Apple TV, bringing Reels, longer videos, and live shows via the platform to Apple's streaming </summary>
-  </entry>
-  <entry>
-    <title>Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra</title>
-    <link href="https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra"/>
-    <id>https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra</id>
-    <updated>2026-10-25T10:08:49.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Nvidia's new data engine Flora labels one hour of robot video for 72 cents instead of $88 with GPT-6 Astra, while scoring slightly higher on quality. The open system, built on three fine-tuned Qwen3.5 models, catches errors in robot actions far more reliably than any competitor but sometimes falls short on descriptive </summary>
   </entry>
   <entry>
     <title>OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication</title>
@@ -196,6 +187,24 @@
     <summary>In Foreign Affairs, historian Niall Ferguson, researcher Lisa Klaassen, and former Google CEO Eric Schmidt cast the US and China as AI empires and every other country as a dependency. The race won't be decided by breakthroughs but by who can bankroll it. US corporations alone plan to spend more than $600 billion in 202</summary>
   </entry>
   <entry>
+    <title>Anthropic co-founder Jack Clark moves his prediction for self-improving AI forward to 2027</title>
+    <link href="https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027"/>
+    <id>https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027</id>
+    <updated>2026-10-25T09:37:46.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>A new benchmark by P-Zero Research measures how well AI models design and evaluate experiments on their own. The results are improving so fast that Anthropic co-founder Jack Clark now thinks self-improving AI could arrive by 2027. The article Anthropic co-founder Jack Clark moves his prediction for self-improving AI fo</summary>
+  </entry>
+  <entry>
+    <title>Sources: Apple tweaked macOS for its OLED touch MacBook Pro, due Wednesday, with a dynamic interface that adapts to whether touch or the trackpad was last used (Mark Gurman/Bloomberg)</title>
+    <link href="https://www.techmeme.com/261025/p8"/>
+    <id>https://www.techmeme.com/261025/p8</id>
+    <updated>2026-10-25T15:00:32.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Mark Gurman / Bloomberg : Sources: Apple tweaked macOS for its OLED touch MacBook Pro, due Wednesday, with a dynamic interface that adapts to whether touch or the trackpad was last used — Also: The company rolls out a retail store tool to reduce wasted inventory. — Apple's touch-screen MacBook Pro will arrive on Wednes</summary>
+  </entry>
+  <entry>
     <title>The hottest AI wearables and gadgets you should know about</title>
     <link href="https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about"/>
     <id>https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about</id>
@@ -214,13 +223,22 @@
     <summary>Stronger than Qwen3.8-27B across a range of benchmarks. but also lays the necessary foundation to power our upcoming small model distillation pipeline (e.g., for Nanbeige4.3-3B). It'll distilled into their 3B small models, maybe other sizes too. submitted by /u/Mysterious_Finish543 [link] [comments]</summary>
   </entry>
   <entry>
-    <title>Lure-TTS and Lure-Turbo: 600M voice models to run 4x faster than real time, with inline (tags), direction, and voice cloning. Trained for under $200.</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xf14j2/luretts_and_lureturbo_600m_voice_models_to_run_4x"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xf14j2/luretts_and_lureturbo_600m_voice_models_to_run_4x</id>
-    <updated>2026-10-25T12:29:32.000Z</updated>
+    <title>The minimum size of an LLM to generate a little meaningful convo</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xf4sxg/the_minimum_size_of_an_llm_to_generate_a_little"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xf4sxg/the_minimum_size_of_an_llm_to_generate_a_little</id>
+    <updated>2026-10-25T15:09:15.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>I trained Lure TTS by finetuning Qwen3-TTS using some of the latest developments in model training, such as RLVR, OPD, and multi-teacher OPD. My goal was to create a faster, smaller TTS model that I could listen to as a voice assistant and not get angry at it. Mostly, I just wanted a faster model that sounded good so I</summary>
+    <summary>I am trying to find the smallest model to generate something in &quot;normal&quot; English, it could be like AI generated, but it should be mostly grammar correct, sensible in the context. I hope it could be less than 10M to be easy for CPU, so I tested some like Supra-Mini-v6-1M. well it's not good enough. ```output // its out </summary>
+  </entry>
+  <entry>
+    <title>Nvidia discusses $2,000-per-GPU annual fee for software that 'runs agents on AI factories'</title>
+    <link href="https://www.tomshardware.com/pc-components/gpus/nvidia-discusses-usd2-000-per-gpu-annual-software-fee-for-running-agents-on-ai-infrastructure-firm-already-charges-more-than-twice-that-amount-for-its-ai-enterprise-software-platform"/>
+    <id>https://www.tomshardware.com/pc-components/gpus/nvidia-discusses-usd2-000-per-gpu-annual-software-fee-for-running-agents-on-ai-infrastructure-firm-already-charges-more-than-twice-that-amount-for-its-ai-enterprise-software-platform</id>
+    <updated>2026-10-25T13:00:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Nvidia CEO Jensen Huang is reportedly weighing annual software fees of around $2,000 per GPU for enterprise AI, a model that could generate $10 billion a year if five million licenses were sold. The pricing and launch timeline remain unconfirmed, while Nvidia continues to expand its AI software and security tools for e</summary>
   </entry>
   <entry>
     <title>OpenMobile-2 proves open-source smartphone agents can rival proprietary models</title>
@@ -248,24 +266,6 @@
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
     <summary>While some investors position for AI earnings, geopolitics and interest rates to send stocks either to new highs or into a tailspin, zero-day option traders have increasingly bet that the S&amp;P 500 Index will remain calm.</summary>
-  </entry>
-  <entry>
-    <title>Anthropic co-founder Jack Clark moves his prediction for self-improving AI forward to 2027</title>
-    <link href="https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027"/>
-    <id>https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027</id>
-    <updated>2026-10-25T09:37:46.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="RESEARCH"/>
-    <summary>A new benchmark by P-Zero Research measures how well AI models design and evaluate experiments on their own. The results are improving so fast that Anthropic co-founder Jack Clark now thinks self-improving AI could arrive by 2027. The article Anthropic co-founder Jack Clark moves his prediction for self-improving AI fo</summary>
-  </entry>
-  <entry>
-    <title>New CD players keep launching, but a drive shortage could make them unfixable</title>
-    <link href="https://www.tomshardware.com/peripherals/new-cd-players-keep-launching-but-a-drive-shortage-could-make-them-unfixable-almost-nobody-makes-the-drives-anymore"/>
-    <id>https://www.tomshardware.com/peripherals/new-cd-players-keep-launching-but-a-drive-shortage-could-make-them-unfixable-almost-nobody-makes-the-drives-anymore</id>
-    <updated>2026-10-25T12:00:00.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
-    <category term="HARDWARE"/>
-    <summary>The lack of optical drive manufacturers is raising questions about the repairability and longevity of new CD players that are coming out on the market today.</summary>
   </entry>
   <entry>
     <title>Windows XP debuted 25 years ago today</title>
