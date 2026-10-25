@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-25T07:08:55.922Z</updated>
+  <updated>2026-10-25T11:09:25.111Z</updated>
   <entry>
     <title>Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)</title>
     <link href="https://openai.com/index/scaling-storage-one-billion-users-part-two"/>
@@ -14,6 +14,15 @@
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.</summary>
+  </entry>
+  <entry>
+    <title>Setting the Scene (Public v1; October 25)</title>
+    <link href="https://www.lesswrong.com/posts/dmYP7DS3ERyXGAYe6/setting-the-scene-public-v1-october-25"/>
+    <id>https://www.lesswrong.com/posts/dmYP7DS3ERyXGAYe6/setting-the-scene-public-v1-october-25</id>
+    <updated>2026-10-25T07:52:23.000Z</updated>
+    <author><name>LessWrong</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>Context: I created this to share before the start of courses I facilitate to provide a refresher on recent events, but also as a hook to draw students into engaging with some of ideas we think about in AI safety early. I expect the topics I cover in my “Setting the Scene” post to change frequently, so this is less poli — Also covered by: AI Alignment Forum</summary>
   </entry>
   <entry>
     <title>qwen-code v0.26.1 released</title>
@@ -34,6 +43,15 @@
     <summary>OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.</summary>
   </entry>
   <entry>
+    <title>Introducing Kimi K3.1 Pro</title>
+    <link href="https://simonwillison.net/2026/Oct/23/kimi-k31-pro"/>
+    <id>https://simonwillison.net/2026/Oct/23/kimi-k31-pro</id>
+    <updated>2026-10-23T19:40:54.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise &quot;Full model weights will be released by Nov 4, 2026&quot;. They're also offering a &quot;Highspeed&quot; version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same). </summary>
+  </entry>
+  <entry>
     <title>OpenAI and Poland’s NASK partner to advance AI safety and security</title>
     <link href="https://openai.com/index/openai-nask-ai-safety-security-partnership"/>
     <id>https://openai.com/index/openai-nask-ai-safety-security-partnership</id>
@@ -41,15 +59,6 @@
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
     <summary>OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.</summary>
-  </entry>
-  <entry>
-    <title>LitPivot: Developing research ideas through dynamic contextualization within the literature landscape</title>
-    <link href="https://huggingface.co/blog/allenai/litpivot"/>
-    <id>https://huggingface.co/blog/allenai/litpivot</id>
-    <updated>2026-10-23T16:15:50.000Z</updated>
-    <author><name>Hugging Face Blog</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Also covered by: Ai2 (Allen Institute)</summary>
   </entry>
   <entry>
     <title>EMudhra Intermediate CA Certificates Compromised</title>
@@ -61,13 +70,13 @@
     <summary>Eight compromised eMudhra intermediate CA private keys risk unauthorized TLS signing and MitM interception. Read our analysis and containment guide. The post EMudhra Intermediate CA Certificates Compromised appeared first on Unit 42 . — Also covered by: Talos Intelligence</summary>
   </entry>
   <entry>
-    <title>OpenMobile-2 proves open-source smartphone agents can rival proprietary models</title>
-    <link href="https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models"/>
-    <id>https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models</id>
-    <updated>2026-10-25T06:55:22.000Z</updated>
+    <title>Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra</title>
+    <link href="https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra"/>
+    <id>https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra</id>
+    <updated>2026-10-25T10:08:49.000Z</updated>
     <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Smartphone agents don't get better by processing more data. They improve by training on as many different apps as possible. The researchers behind OpenMobile-2 built an open training environment with more than 110 applications, including 35 replicas of popular apps. On real Android devices, their model scores highest a</summary>
+    <summary>Nvidia's new data engine Flora labels one hour of robot video for 72 cents instead of $88 with GPT-6 Astra, while scoring slightly higher on quality. The open system, built on three fine-tuned Qwen3.5 models, catches errors in robot actions far more reliably than any competitor but sometimes falls short on descriptive </summary>
   </entry>
   <entry>
     <title>Instagram launches an Apple TV app for watching Reels, longer videos, and live shows; the app previously launched on Fire TV, Google TV, and Samsung smart TVs (Hartley Charlton/MacRumors)</title>
@@ -88,6 +97,159 @@
     <summary>chat : reject JSON nested more than 128 levels before walking it ( #30242 ) chat : reject JSON nested more than 128 levels before walking it The schema builder, the jinja engine and the decision code walk request JSON with recursion. A request nested deep enough overflows the stack of the HTTP thread and llama-server d</summary>
   </entry>
   <entry>
+    <title>OpenMobile-2 proves open-source smartphone agents can rival proprietary models</title>
+    <link href="https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models"/>
+    <id>https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models</id>
+    <updated>2026-10-25T06:55:22.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Smartphone agents don't get better by processing more data. They improve by training on as many different apps as possible. The researchers behind OpenMobile-2 built an open training environment with more than 110 applications, including 35 replicas of popular apps. On real Android devices, their model scores highest a</summary>
+  </entry>
+  <entry>
+    <title>French Bond Rout Puts Crisis at Heart of ECB Succession Endgame</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-25/french-bond-rout-puts-crisis-at-heart-of-ecb-succession-endgame"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-25/french-bond-rout-puts-crisis-at-heart-of-ecb-succession-endgame</id>
+    <updated>2026-10-25T10:00:00.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>The European Central Bank’s presidency race looks increasingly likely to hinge on which candidate can best take on the bond vigilantes.</summary>
+  </entry>
+  <entry>
+    <title>AMD CEO Lisa Su proposed bringing back the Ryzen 7 5800X3D, set plan in motion before DDR5 shortages</title>
+    <link href="https://www.tomshardware.com/pc-components/cpus/amd-ceo-lisa-su-proposed-bringing-back-the-ryzen-7-5800x3d-set-plan-in-motion-before-ddr5-shortages-am4-cpu-considered-a-final-gift-to-loyal-fans-of-the-decade-old-socket"/>
+    <id>https://www.tomshardware.com/pc-components/cpus/amd-ceo-lisa-su-proposed-bringing-back-the-ryzen-7-5800x3d-set-plan-in-motion-before-ddr5-shortages-am4-cpu-considered-a-final-gift-to-loyal-fans-of-the-decade-old-socket</id>
+    <updated>2026-10-25T11:00:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <category term="HARDWARE"/>
+    <summary>AMD Director Travis Kirsch confirmed the rationale for relaunching the first X3D chip and explained why the company no longer offers many Ryzen 3 SKUs.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication</title>
+    <link href="https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html"/>
+    <id>https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html</id>
+    <updated>2026-10-25T06:54:29.000Z</updated>
+    <author><name>The Hacker News</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. &quot;Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we bel</summary>
+  </entry>
+  <entry>
+    <title>Prompt Injection Test Lab: 12 Steps, 60 Min [2026]</title>
+    <link href="https://shattered.io/prompt-injection-test-lab-llm-harness-2026"/>
+    <id>https://shattered.io/prompt-injection-test-lab-llm-harness-2026</id>
+    <updated>2026-10-24T10:59:34.000Z</updated>
+    <author><name>GN: Prompt Injection</name></author>
+    <category term="AI SECURITY"/>
+    <summary>Prompt Injection Test Lab: 12 Steps, 60 Min [2026] shattered.io</summary>
+  </entry>
+  <entry>
+    <title>Cognition Open-Sources an Agent Plugin that Helps Secure Systems against Recent Cybersecurity Threats</title>
+    <link href="https://www.marktechpost.com/2026/10/24/cognition-devin-vulnerability-fixes-plugin-php2shell-nodejs-gitlab"/>
+    <id>https://www.marktechpost.com/2026/10/24/cognition-devin-vulnerability-fixes-plugin-php2shell-nodejs-gitlab</id>
+    <updated>2026-10-25T02:59:08.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="CYBER DEFENSE"/>
+    <summary>Cognition released the Devin Vulnerability Fixes plugin, 3 MIT-licensed agent skills that inventory, patch and test PHP, Node.js and self-managed GitLab deployments hit by this week’s critical RCE flaws, then open 1 PR per repo. The post Cognition Open-Sources an Agent Plugin that Helps Secure Systems against Recent Cy</summary>
+  </entry>
+  <entry>
+    <title>Baba, which develops AI tools to help Medicare and Medicaid patients connect to care teams and handle advocacy tasks, raised a $40M Series A led by FirstMark (Cailey Gleeson/Fierce Healthcare)</title>
+    <link href="https://www.techmeme.com/261025/p5"/>
+    <id>https://www.techmeme.com/261025/p5</id>
+    <updated>2026-10-25T05:40:00.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>Cailey Gleeson / Fierce Healthcare : Baba, which develops AI tools to help Medicare and Medicaid patients connect to care teams and handle advocacy tasks, raised a $40M Series A led by FirstMark — Applied artificial intelligence company Baba secured $40 million in series A funding to modernize the Medicare and Medicaid</summary>
+  </entry>
+  <entry>
+    <title>How a Blackstone-led $2.3B private credit loan to CoreWeave in 2023 became a blueprint for chip-backed debt, which is on track to become a $1T market (Bloomberg)</title>
+    <link href="https://www.techmeme.com/261025/p6"/>
+    <id>https://www.techmeme.com/261025/p6</id>
+    <updated>2026-10-25T06:00:52.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="ANALYSIS"/>
+    <summary>Bloomberg : How a Blackstone-led $2.3B private credit loan to CoreWeave in 2023 became a blueprint for chip-backed debt, which is on track to become a $1T market — “What is a GPU?” Blackstone Inc. executives asked CoreWeave Inc.'s leadership. Also: “Is AI real?” — These were entirely logical queries …</summary>
+  </entry>
+  <entry>
+    <title>New York Deploys $360 Million for Stony Brook and Regional Hubs Supported by $1.37B in Federal Foundry Commitments</title>
+    <link href="https://quantumcomputingreport.com/new-york-deploys-360-million-for-stony-brook-and-regional-hubs-supported-by-1-37b-in-federal-foundry-commitments"/>
+    <id>https://quantumcomputingreport.com/new-york-deploys-360-million-for-stony-brook-and-regional-hubs-supported-by-1-37b-in-federal-foundry-commitments</id>
+    <updated>2026-10-25T00:54:15.000Z</updated>
+    <author><name>Quantum Computing Report</name></author>
+    <category term="QUANTUM"/>
+    <summary>New York State is investing $360 million in quantum technology, with $300 million for a Quantum Research and Innovation Hub at SUNY Stony Brook and $60 million for regional commercialization hubs. This initiative, supported by $1.37 billion in federal funding, aims to connect the state's hardware and semiconductor asse</summary>
+  </entry>
+  <entry>
+    <title>b11873: opencl: add initial q2_k support (#30999)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11873"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11873</id>
+    <updated>2026-10-25T09:09:56.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="GITHUB REPOS"/>
+    <summary>opencl: add mul_mv_q2_k_f32 opencl: add q2_k SOA mv and tiled mm opencl: add q2_k noshuffle gemm/gemv for adreno opencl: add q2_k dp4a gemm for adreno Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com opencl: tune q2_k kernels for adreno Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com</summary>
+  </entry>
+  <entry>
+    <title>Anthropic co-founder Jack Clark moves his prediction for self-improving AI forward to 2027</title>
+    <link href="https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027"/>
+    <id>https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027</id>
+    <updated>2026-10-25T09:37:46.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>A new benchmark by P-Zero Research measures how well AI models design and evaluate experiments on their own. The results are improving so fast that Anthropic co-founder Jack Clark now thinks self-improving AI could arrive by 2027. The article Anthropic co-founder Jack Clark moves his prediction for self-improving AI fo</summary>
+  </entry>
+  <entry>
+    <title>Ex-Google CEO Eric Schmidt calls OpenAI and Anthropic modern colonial trading companies</title>
+    <link href="https://the-decoder.com/ex-google-ceo-eric-schmidt-calls-openai-and-anthropic-modern-colonial-trading-companies"/>
+    <id>https://the-decoder.com/ex-google-ceo-eric-schmidt-calls-openai-and-anthropic-modern-colonial-trading-companies</id>
+    <updated>2026-10-25T08:09:32.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>In Foreign Affairs, historian Niall Ferguson, researcher Lisa Klaassen, and former Google CEO Eric Schmidt cast the US and China as AI empires and every other country as a dependency. The race won't be decided by breakthroughs but by who can bankroll it. US corporations alone plan to spend more than $600 billion in 202</summary>
+  </entry>
+  <entry>
+    <title>CapitalOS, which helps vertical software platforms offer spend management, cards, and bill payment tools to SMB customers, raised a $21.9M Series A led by LGVP (Ryan Lawler/Axios)</title>
+    <link href="https://www.techmeme.com/261025/p4"/>
+    <id>https://www.techmeme.com/261025/p4</id>
+    <updated>2026-10-25T05:35:00.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Ryan Lawler / Axios : CapitalOS, which helps vertical software platforms offer spend management, cards, and bill payment tools to SMB customers, raised a $21.9M Series A led by LGVP — CapitalOS, which helps vertical software platforms offer cards and bill-pay tools to their SMB customers, has raised $21.9 million …</summary>
+  </entry>
+  <entry>
+    <title>CUDA: fuse FFN gate/up matmuls and GLU in MMQ with interleaved gate/up rows by anujj · Pull Request #29948 · ggml-org/llama.cpp</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xey0uw/cuda_fuse_ffn_gateup_matmuls_and_glu_in_mmq_with"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xey0uw/cuda_fuse_ffn_gateup_matmuls_and_glu_in_mmq_with</id>
+    <updated>2026-10-25T09:35:12.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>time to download some speedup DGX Spark (GB10), llama-bench -ngl 999 -fa on -p 16384 -n 0 -b 2048 -ub 2048 -ctk f16 -ctv f16 -r 5 , tok/s: model type master PR Qwen3.8-27B Q4_K_M 840.1 899.9 +7.1% Q5_K_M 840.1 880.6 +4.8% Q6_K 751.2 785.8 +4.6% Q8_0 876.2 940.1 +7.3% IQ4_XS 882.4 948.0 +7.4% Qwen3.6-27B Q4_K_M 816.6 86</summary>
+  </entry>
+  <entry>
+    <title>[Benchmark] Strata/Basalt runs Qwen3.8 Flash Next IQ3_S with 16GB VRAM and 55GB RAM with up to 250 tok/s generation and 5,600 tok/s prompt processing (5080, Concurrency 1)</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xesda1/benchmark_stratabasalt_runs_qwen38_flash_next_iq3"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xesda1/benchmark_stratabasalt_runs_qwen38_flash_next_iq3</id>
+    <updated>2026-10-25T03:59:23.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Qwen3.8-Flash-Next IQ3_S on Basalt | RTX 5080 16 GB, Core Ultra 9 285K, 62 GB DDR5-6800 | 262K context, int8 KV Workload (prompts 5K+) PP avg (t/s) PP peak (t/s) TG avg (t/s) TG peak (t/s) VRAM RAM (engine / left free) Agent coding session (opencode, 103 requests, up to 130K ctx) 5,011 5,118 153.0 262 15.7 GB 54.1 GB /</summary>
+  </entry>
+  <entry>
+    <title>Anthropic says one AI agent beats many subagents now that models can handle complexity alone</title>
+    <link href="https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone"/>
+    <id>https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone</id>
+    <updated>2026-10-25T09:12:10.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Anthropic says companies should evaluate whether they can consolidate sub-agents into a single agent that loads context on demand. In one architecture comparison, the single-agent setup ran about twice as fast. Anthropic has published a migration kit on GitHub to help teams make the transition. The article Anthropic sa</summary>
+  </entry>
+  <entry>
+    <title>Brookfield to Open Doha Office to Deepen Its Middle East Reach</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-25/brookfield-to-open-doha-office-to-deepen-its-middle-east-reach"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-25/brookfield-to-open-doha-office-to-deepen-its-middle-east-reach</id>
+    <updated>2026-10-25T08:47:01.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Brookfield Asset Management Ltd. is opening an office in Qatar, deepening its presence in the Middle East where many countries are grappling with the economic fallout from the war.</summary>
+  </entry>
+  <entry>
     <title>BC Left-Wing Leader Loses to Conservatives in Vote He Called</title>
     <link href="https://www.bloomberg.com/news/articles/2026-10-25/bc-s-left-wing-leader-loses-to-conservatives-in-vote-he-called"/>
     <id>https://www.bloomberg.com/news/articles/2026-10-25/bc-s-left-wing-leader-loses-to-conservatives-in-vote-he-called</id>
@@ -106,132 +268,6 @@
     <summary>Carl Franzen / VentureBeat : Kimi K3.1 Pro's debut draws scrutiny over allegations that influencers were asked to promote the model without disclosing a commercial relationship to Moonshot — That's because Kimi K3.1 Pro scores so high on third-party benchmarks — according to both Moonshot and third-party AI model …</summary>
   </entry>
   <entry>
-    <title>How a Blackstone-led $2.3B private credit loan to CoreWeave in 2023 became a blueprint for chip-backed debt, which is on track to become a $1T market (Bloomberg)</title>
-    <link href="https://www.techmeme.com/261025/p6"/>
-    <id>https://www.techmeme.com/261025/p6</id>
-    <updated>2026-10-25T06:00:52.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="HARDWARE"/>
-    <summary>Bloomberg : How a Blackstone-led $2.3B private credit loan to CoreWeave in 2023 became a blueprint for chip-backed debt, which is on track to become a $1T market — “What is a GPU?” Blackstone Inc. executives asked CoreWeave Inc.'s leadership. Also: “Is AI real?” — These were entirely logical queries …</summary>
-  </entry>
-  <entry>
-    <title>Mech Interp is a La Croix of Actual Safety Research</title>
-    <link href="https://www.lesswrong.com/posts/ciZ4YxZeY4M89SLT2/mech-interp-is-a-la-croix-of-actual-safety-research"/>
-    <id>https://www.lesswrong.com/posts/ciZ4YxZeY4M89SLT2/mech-interp-is-a-la-croix-of-actual-safety-research</id>
-    <updated>2026-10-25T05:57:57.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>I recently spoke to Stephen Casper at Princeton's alignment club. Stephen is an CS PhD turned policy researcher at Harvard Kennedy School. He was very sure that mechanistic interpretability was one of the least effective ways to pursue AI safety. As someone who does research in mech interp, I was surprised by how convi</summary>
-  </entry>
-  <entry>
-    <title>Prompt Injection Test Lab: 12 Steps, 60 Min [2026]</title>
-    <link href="https://shattered.io/prompt-injection-test-lab-llm-harness-2026"/>
-    <id>https://shattered.io/prompt-injection-test-lab-llm-harness-2026</id>
-    <updated>2026-10-24T10:59:34.000Z</updated>
-    <author><name>GN: Prompt Injection</name></author>
-    <category term="AI SECURITY"/>
-    <summary>Prompt Injection Test Lab: 12 Steps, 60 Min [2026] shattered.io</summary>
-  </entry>
-  <entry>
-    <title>Cognition Open-Sources an Agent Plugin that Helps Secure Systems against Recent Cybersecurity Threats</title>
-    <link href="https://www.marktechpost.com/2026/10/24/cognition-devin-vulnerability-fixes-plugin-php2shell-nodejs-gitlab"/>
-    <id>https://www.marktechpost.com/2026/10/24/cognition-devin-vulnerability-fixes-plugin-php2shell-nodejs-gitlab</id>
-    <updated>2026-10-25T02:59:08.000Z</updated>
-    <author><name>MarkTechPost</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>Cognition released the Devin Vulnerability Fixes plugin, 3 MIT-licensed agent skills that inventory, patch and test PHP, Node.js and self-managed GitLab deployments hit by this week’s critical RCE flaws, then open 1 PR per repo. The post Cognition Open-Sources an Agent Plugin that Helps Secure Systems against Recent Cy</summary>
-  </entry>
-  <entry>
-    <title>Baba, which develops AI tools to help Medicare and Medicaid patients connect to care teams and handle advocacy tasks, raised a $40M Series A led by FirstMark (Cailey Gleeson/Fierce Healthcare)</title>
-    <link href="https://www.techmeme.com/261025/p5"/>
-    <id>https://www.techmeme.com/261025/p5</id>
-    <updated>2026-10-25T05:40:00.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>Cailey Gleeson / Fierce Healthcare : Baba, which develops AI tools to help Medicare and Medicaid patients connect to care teams and handle advocacy tasks, raised a $40M Series A led by FirstMark — Applied artificial intelligence company Baba secured $40 million in series A funding to modernize the Medicare and Medicaid</summary>
-  </entry>
-  <entry>
-    <title>Brazil Election: Lula Rallies Supporters for One Last Comeback</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-25/brazil-election-lula-rallies-supporters-for-one-last-comeback"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-25/brazil-election-lula-rallies-supporters-for-one-last-comeback</id>
-    <updated>2026-10-25T02:02:19.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="ROBOTICS"/>
-    <summary>Luiz Inácio Lula da Silva wasn’t going down without a fight. And his fans weren’t ready to give up on him. Here, marching down Sao Paulo’s most iconic avenue, they were bearing witness to what may turn out to be the last rally by the most defining figure of Latin America’s left.</summary>
-  </entry>
-  <entry>
-    <title>New York Deploys $360 Million for Stony Brook and Regional Hubs Supported by $1.37B in Federal Foundry Commitments</title>
-    <link href="https://quantumcomputingreport.com/new-york-deploys-360-million-for-stony-brook-and-regional-hubs-supported-by-1-37b-in-federal-foundry-commitments"/>
-    <id>https://quantumcomputingreport.com/new-york-deploys-360-million-for-stony-brook-and-regional-hubs-supported-by-1-37b-in-federal-foundry-commitments</id>
-    <updated>2026-10-25T00:54:15.000Z</updated>
-    <author><name>Quantum Computing Report</name></author>
-    <category term="QUANTUM"/>
-    <summary>New York State is investing $360 million in quantum technology, with $300 million for a Quantum Research and Innovation Hub at SUNY Stony Brook and $60 million for regional commercialization hubs. This initiative, supported by $1.37 billion in federal funding, aims to connect the state's hardware and semiconductor asse</summary>
-  </entry>
-  <entry>
-    <title>ollama v0.40.11 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.11"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.11</id>
-    <updated>2026-10-24T17:50:51.000Z</updated>
-    <author><name>ollama/ollama</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Speech Ollama can now generate speech on macOS. ollama run plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible /v1/audio/speech endpoint. ollama run phonon &quot; Hello from Ollama. &quot; d3 decision models d3 brings vLLM Semantic Router's decision models t</summary>
-  </entry>
-  <entry>
-    <title>CapitalOS, which helps vertical software platforms offer spend management, cards, and bill payment tools to SMB customers, raised a $21.9M Series A led by LGVP (Ryan Lawler/Axios)</title>
-    <link href="https://www.techmeme.com/261025/p4"/>
-    <id>https://www.techmeme.com/261025/p4</id>
-    <updated>2026-10-25T05:35:00.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Ryan Lawler / Axios : CapitalOS, which helps vertical software platforms offer spend management, cards, and bill payment tools to SMB customers, raised a $21.9M Series A led by LGVP — CapitalOS, which helps vertical software platforms offer cards and bill-pay tools to their SMB customers, has raised $21.9 million …</summary>
-  </entry>
-  <entry>
-    <title>[Benchmark] Strata/Basalt runs Qwen3.8 Flash Next IQ3_S with 16GB VRAM and 55GB RAM with up to 250 tok/s generation and 5,600 tok/s prompt processing (5080, Concurrency 1)</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xesda1/benchmark_stratabasalt_runs_qwen38_flash_next_iq3"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xesda1/benchmark_stratabasalt_runs_qwen38_flash_next_iq3</id>
-    <updated>2026-10-25T03:59:23.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Qwen3.8-Flash-Next IQ3_S on Basalt | RTX 5080 16 GB, Core Ultra 9 285K, 62 GB DDR5-6800 | 262K context, int8 KV Workload (prompts 5K+) PP avg (t/s) PP peak (t/s) TG avg (t/s) TG peak (t/s) VRAM RAM (engine / left free) Agent coding session (opencode, 103 requests, up to 130K ctx) 5,011 5,118 153.0 262 15.7 GB 54.1 GB /</summary>
-  </entry>
-  <entry>
-    <title>Too good to be true? ISTA's GSQ-RCO 2-bit DeepSeek-V4.1-Flash scoring the same as the base model</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xes5x0/too_good_to_be_true_istas_gsqrco_2bit"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xes5x0/too_good_to_be_true_istas_gsqrco_2bit</id>
-    <updated>2026-10-25T03:48:25.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Has anyone tried ISTA's GSQ-RCO GGUFs for DeepSeek-V4.1-Flash? Does the quality feel as good as their benchmarks show (IQ2_XXS matching the base)? Their benchmarks are saturated (90%+, and AIME25 is 100 for every version), so they probably can't show the degradation, and I couldn't find any KLD for GSQ-RCO models. Has </summary>
-  </entry>
-  <entry>
-    <title>Microsoft Open-Sources Agensh: A Multi-Agent Harness for 1,024 Agents</title>
-    <link href="https://www.marktechpost.com/2026/10/24/microsoft-agensh-multi-agent-harness-1024-agents"/>
-    <id>https://www.marktechpost.com/2026/10/24/microsoft-agensh-multi-agent-harness-1024-agents</id>
-    <updated>2026-10-25T03:32:59.000Z</updated>
-    <author><name>MarkTechPost</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Microsoft Research open-sourced Agensh, a multi-agent harness with no central orchestrator. Self-organizing workers share a Git repo, chat and a findings board, scaling from 1 to 1,024 agents on ProgramBench under a 6-hour budget. The post Microsoft Open-Sources Agensh: A Multi-Agent Harness for 1,024 Agents appeared f</summary>
-  </entry>
-  <entry>
-    <title>Singapore’s Wong Vows More Support for Workers, Energy Security</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-25/singapore-s-wong-vows-more-support-for-workers-energy-security"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-25/singapore-s-wong-vows-more-support-for-workers-energy-security</id>
-    <updated>2026-10-25T05:40:56.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Singapore Prime Minister Lawrence Wong pledged more support for workers and households, and said the government would step up efforts to secure energy supplies and attract investment as the city-state confronts growing global uncertainty.</summary>
-  </entry>
-  <entry>
-    <title>How to Run Underdog Saluki 27B: 2-Bit Qwen3.8-27B Tool-Calling Guide</title>
-    <link href="https://www.marktechpost.com/2026/10/24/underdog-saluki-27b-coding-guide-llama-cpp"/>
-    <id>https://www.marktechpost.com/2026/10/24/underdog-saluki-27b-coding-guide-llama-cpp</id>
-    <updated>2026-10-25T02:30:18.000Z</updated>
-    <author><name>MarkTechPost</name></author>
-    <category term="RESEARCH"/>
-    <summary>Explore a complete coding guide comparing Underdog Saluki 27B with ISTA's GSQ-RCO quantization, examining GGUF headers, memory usage, and BFCL tool-calling performance in stock llama.cpp The post How to Run Underdog Saluki 27B: 2-Bit Qwen3.8-27B Tool-Calling Guide appeared first on MarkTechPost .</summary>
-  </entry>
-  <entry>
     <title>Moonshot AI Launches New Kimi K3.1 Pro Model</title>
     <link href="https://www.theinformation.com/briefings/moonshot-ai-launches-new-kimi-k3-1-pro-model"/>
     <id>https://www.theinformation.com/briefings/moonshot-ai-launches-new-kimi-k3-1-pro-model</id>
@@ -239,41 +275,5 @@
     <author><name>The Information</name></author>
     <category term="PRODUCTS"/>
     <summary>Moonshot AI on Friday announced its new model, Kimi K3.1 Pro, demonstrating performance that rivals that of top-tier U.S. frontier models on some benchmarks. Kimi K3.1 Pro, built on the architecture of its popular predecessor Kimi K3, is now ranked fourth on the Artificial Analysis Intelligence ...</summary>
-  </entry>
-  <entry>
-    <title>“Performance” Oryon: Qualcomm’s Little Core</title>
-    <link href="https://chipsandcheese.com/p/performance-oryon-qualcomms-little"/>
-    <id>https://chipsandcheese.com/p/performance-oryon-qualcomms-little</id>
-    <updated>2026-10-24T23:13:33.000Z</updated>
-    <author><name>Chips and Cheese</name></author>
-    <category term="HARDWARE"/>
-    <summary>Qualcomm’s Snapdragon X2 Elite uses a hybrid core setup, breaking away from the all-big-core strategy that the company previously used with in-house core designs.</summary>
-  </entry>
-  <entry>
-    <title>ADT R27A-BK3 U.2 to PCIe Adapter Review</title>
-    <link href="https://www.servethehome.com/adt-r27a-bk3-u-2-to-pcie-slot-review"/>
-    <id>https://www.servethehome.com/adt-r27a-bk3-u-2-to-pcie-slot-review</id>
-    <updated>2026-10-24T18:55:55.000Z</updated>
-    <author><name>ServeTheHome</name></author>
-    <category term="HARDWARE"/>
-    <summary>We test the cheap ADT R27A-BK3 card to see what the U.2 SSD to PCIe card slot adapter offers, and how the cooling works The post ADT R27A-BK3 U.2 to PCIe Adapter Review appeared first on ServeTheHome .</summary>
-  </entry>
-  <entry>
-    <title>Shadow Computation Threatens CoT Monitorability</title>
-    <link href="https://www.lesswrong.com/posts/5tyzgTLnNn8qB9rev/shadow-computation-threatens-cot-monitorability"/>
-    <id>https://www.lesswrong.com/posts/5tyzgTLnNn8qB9rev/shadow-computation-threatens-cot-monitorability</id>
-    <updated>2026-10-24T23:12:33.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>There’s been a lot of talk recently about chain-of-thought (CoT) monitorability in light of the Hugging Face incident . During this incident, hundreds of agents coordinated an attack through an unsanctioned message board, and post-hoc investigations relied heavily on chain of thought to understand what happened during </summary>
-  </entry>
-  <entry>
-    <title>Three fired OpenAI safety researchers say they were never told what they actually leaked</title>
-    <link href="https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked"/>
-    <id>https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked</id>
-    <updated>2026-10-24T15:19:33.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>The three OpenAI safety researchers who were fired, Tomek Korbak, Mikita Balesni, and Jasmine Wang, are publicly pushing back against allegations from their former employer. They deny sharing confidential information and see a connection to their advocacy for AI systems that are easier to scrutinize. The researchers sa</summary>
   </entry>
 </feed>
