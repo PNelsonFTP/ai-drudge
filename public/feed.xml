@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-26T07:03:24.260Z</updated>
+  <updated>2026-10-26T07:08:41.497Z</updated>
   <entry>
     <title>Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)</title>
     <link href="https://openai.com/index/scaling-storage-one-billion-users-part-two"/>
@@ -70,13 +70,13 @@
     <summary>The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.</summary>
   </entry>
   <entry>
-    <title>llama.cpp b11889 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11889"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11889</id>
-    <updated>2026-10-25T23:48:14.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>Researchers from Stanford and UC Berkeley Introduce TokenGate: Token-Gated Attention Makes Long-Context Prefill Up to 11.3x Faster</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xfovxr/researchers_from_stanford_and_uc_berkeley"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xfovxr/researchers_from_stanford_and_uc_berkeley</id>
+    <updated>2026-10-26T06:06:01.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>cuda : use std::string instead of VLA for archName ( #30463 ) cuda : use std::string instead of VLA for archName Modernize the code (old C style) and fix the following warnings: ggml/src/ggml-cuda/ggml-cuda.cu:180:19: warning: variable length arrays in C++ are a Clang extension [-Wvla-cxx-extension] 180 | char archName</summary>
+    <summary>i hope it's real submitted by /u/MundanePercentage674 [link] [comments]</summary>
   </entry>
   <entry>
     <title>PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean</title>
@@ -145,7 +145,7 @@
     <title>Conducting The First Live Enterprise Comparison Between Agents and Human Professionals</title>
     <link href="https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals"/>
     <id>https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals</id>
-    <updated>2026-10-26T07:03:04.261Z</updated>
+    <updated>2026-10-26T07:08:20.910Z</updated>
     <author><name>Gray Swan</name></author>
     <category term="AI SECURITY"/>
   </entry>
@@ -204,6 +204,15 @@
     <summary>Someone writing an article for the Israeli press about “people abroad who love Israel but might be worried” emailed me the following questions: “1. What is something about Israel that you admire/appreciate over the years? 2. What are you worried the most about Israel these days?” So I replied as follows: “It’s hard to </summary>
   </entry>
   <entry>
+    <title>llama.cpp b11889 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11889"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11889</id>
+    <updated>2026-10-25T23:48:14.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="GITHUB REPOS"/>
+    <summary>cuda : use std::string instead of VLA for archName ( #30463 ) cuda : use std::string instead of VLA for archName Modernize the code (old C style) and fix the following warnings: ggml/src/ggml-cuda/ggml-cuda.cu:180:19: warning: variable length arrays in C++ are a Clang extension [-Wvla-cxx-extension] 180 | char archName</summary>
+  </entry>
+  <entry>
     <title>ollama v0.40.11 released</title>
     <link href="https://github.com/ollama/ollama/releases/tag/v0.40.11"/>
     <id>https://github.com/ollama/ollama/releases/tag/v0.40.11</id>
@@ -231,22 +240,13 @@
     <summary>Ananta Agarwal / Nikkei Asia : India's chip design startups near production with government support, but low volumes, high fab costs, and supply chain bottlenecks hinder commercialization — BENGALURU — Propelled by government support, India's chip design startups are nearing commercial production …</summary>
   </entry>
   <entry>
-    <title>New Card for Qwen3.8 27b and MiniMax H3</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1xfnm35/new_card_for_qwen38_27b_and_minimax_h3"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1xfnm35/new_card_for_qwen38_27b_and_minimax_h3</id>
-    <updated>2026-10-26T04:49:12.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>Qwen3.8-Flash-Next vs Swift-1.5-Qwen3.8-Flash-Next</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xfl3wo/qwen38flashnext_vs_swift15qwen38flashnext"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xfl3wo/qwen38flashnext_vs_swift15qwen38flashnext</id>
+    <updated>2026-10-26T02:35:53.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>First runs with Qwen3.8-27b Q6_K-QKV8-MTP 128k context with 862/s prompt processing and 54.06 tok/s. Happy with the first results and looking forward to checking out the other builds to see what kind of speed I can squeeze out of this card. submitted by /u/L0stParadox [link] [comments]</summary>
-  </entry>
-  <entry>
-    <title>DSpark on an RX 7900 GRE: Qwen3-8B goes from 59 to 133 tok/s in llama.cpp</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1xfp6vt/dspark_on_an_rx_7900_gre_qwen38b_goes_from_59_to"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1xfp6vt/dspark_on_an_rx_7900_gre_qwen38b_goes_from_59_to</id>
-    <updated>2026-10-26T06:25:18.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>With DeepSeek's DSpark paper and the recent DeepInfer release I wondered how this actually translates to local LLMs. DeepInfer only targets datacenter chips, and the published DSpark numbers come from servers and high-end NVIDIA cards. For those not caught up with DeepSeek, DSpark is their speculative decoding method a</summary>
+    <summary>Just switched over from DSV4 Flash 0731 to Qwen3.8-Flash-Next and I've been loving it. Its working significantly better to my surprise. The only thing I can fault it with is unnecessarily deep work (thinking + fetching information) more often than not i.e. its not very token efficient so it feels slow. Swift1.5 is supp</summary>
   </entry>
   <entry>
     <title>Phronix: The Capability-Centric Learning Paradigm for Agents</title>
