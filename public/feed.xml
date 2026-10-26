@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-25T23:35:41.017Z</updated>
+  <updated>2026-10-26T00:08:56.396Z</updated>
   <entry>
     <title>Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)</title>
     <link href="https://openai.com/index/scaling-storage-one-billion-users-part-two"/>
@@ -25,13 +25,13 @@
     <summary>OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.</summary>
   </entry>
   <entry>
-    <title>OpenAI and Poland’s NASK partner to advance AI safety and security</title>
-    <link href="https://openai.com/index/openai-nask-ai-safety-security-partnership"/>
-    <id>https://openai.com/index/openai-nask-ai-safety-security-partnership</id>
-    <updated>2026-10-23T00:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
+    <title>Introducing Kimi K3.1 Pro</title>
+    <link href="https://simonwillison.net/2026/Oct/23/kimi-k31-pro"/>
+    <id>https://simonwillison.net/2026/Oct/23/kimi-k31-pro</id>
+    <updated>2026-10-23T19:40:54.000Z</updated>
+    <author><name>Simon Willison</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.</summary>
+    <summary>Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise &quot;Full model weights will be released by Nov 4, 2026&quot;. They're also offering a &quot;Highspeed&quot; version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same). </summary>
   </entry>
   <entry>
     <title>EMudhra Intermediate CA Certificates Compromised</title>
@@ -41,6 +41,15 @@
     <author><name>Palo Alto Unit 42</name></author>
     <category term="CYBER DEFENSE"/>
     <summary>Eight compromised eMudhra intermediate CA private keys risk unauthorized TLS signing and MitM interception. Read our analysis and containment guide. The post EMudhra Intermediate CA Certificates Compromised appeared first on Unit 42 . — Also covered by: Talos Intelligence</summary>
+  </entry>
+  <entry>
+    <title>OpenAI and Poland’s NASK partner to advance AI safety and security</title>
+    <link href="https://openai.com/index/openai-nask-ai-safety-security-partnership"/>
+    <id>https://openai.com/index/openai-nask-ai-safety-security-partnership</id>
+    <updated>2026-10-23T00:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.</summary>
   </entry>
   <entry>
     <title>ollama v0.40.11 released</title>
@@ -61,13 +70,13 @@
     <summary>The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.</summary>
   </entry>
   <entry>
-    <title>llama.cpp b11888 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11888"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11888</id>
-    <updated>2026-10-25T23:31:40.000Z</updated>
+    <title>llama.cpp b11889 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11889"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11889</id>
+    <updated>2026-10-25T23:48:14.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>common, grammar: add recursive depth limit, make it a requirement ( #31153 ) common, grammar: add recursive depth limit, make it a requirement catch more recursive functions common : tidy up peg parser changes grammar : reject candidates in a loop, without a depth limit The depth limit in llama_grammar_reject_candidate</summary>
+    <summary>cuda : use std::string instead of VLA for archName ( #30463 ) cuda : use std::string instead of VLA for archName Modernize the code (old C style) and fix the following warnings: ggml/src/ggml-cuda/ggml-cuda.cu:180:19: warning: variable length arrays in C++ are a Clang extension [-Wvla-cxx-extension] 180 | char archName</summary>
   </entry>
   <entry>
     <title>The five components of building a &quot;company harness&quot;</title>
@@ -79,13 +88,13 @@
     <summary>Learn how LangChain built internal agents across marketing, sales, and engineering, and how they have completely changed how those teams work.</summary>
   </entry>
   <entry>
-    <title>US Stock Futures Climb as Crude Oil Price Dips: Markets Wrap</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-25/us-equity-futures-climb-as-crude-oil-price-dips-markets-wrap"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-25/us-equity-futures-climb-as-crude-oil-price-dips-markets-wrap</id>
-    <updated>2026-10-25T22:09:07.000Z</updated>
+    <title>Gold Steadies After Weekly Drop as Focus Shifts to Fed Meeting</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-25/gold-steadies-after-weekly-drop-as-focus-shifts-to-fed-meeting"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-25/gold-steadies-after-weekly-drop-as-focus-shifts-to-fed-meeting</id>
+    <updated>2026-10-25T23:23:38.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>US equity-index futures advanced and crude oil retreated after a volatile week, with investors bracing for megacap earnings that will test the artificial intelligence trade and key central bank decisions.</summary>
+    <summary>Gold steadied after its biggest weekly drop since June, with traders weighing stubbornly high energy prices ahead of the Federal Reserve’s upcoming policy meeting.</summary>
   </entry>
   <entry>
     <title>Nanbeige Releases Nanbeige4.3-33B, a 33B Open Agentic Coding Model</title>
@@ -97,13 +106,13 @@
     <summary>Nanbeige LLM Lab released Nanbeige4.3-33B, a 33B dense Apache 2.0 model with 512K context. It reports 80.9 on Terminal-Bench 2.1 and will teach the upcoming Nanbeige4.3-3B. The post Nanbeige Releases Nanbeige4.3-33B, a 33B Open Agentic Coding Model appeared first on MarkTechPost .</summary>
   </entry>
   <entry>
-    <title>Nvidia discusses $2,000-per-GPU annual fee for software that 'runs agents on AI factories'</title>
-    <link href="https://www.tomshardware.com/pc-components/gpus/nvidia-discusses-usd2-000-per-gpu-annual-software-fee-for-running-agents-on-ai-infrastructure-firm-already-charges-more-than-twice-that-amount-for-its-ai-enterprise-software-platform"/>
-    <id>https://www.tomshardware.com/pc-components/gpus/nvidia-discusses-usd2-000-per-gpu-annual-software-fee-for-running-agents-on-ai-infrastructure-firm-already-charges-more-than-twice-that-amount-for-its-ai-enterprise-software-platform</id>
-    <updated>2026-10-25T13:00:00.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
+    <title>SK Hynix Plans $12 Billion Dividend From Kioxia Gains: Report</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-25/sk-hynix-plans-12-billion-dividend-from-kioxia-gains-report"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-25/sk-hynix-plans-12-billion-dividend-from-kioxia-gains-report</id>
+    <updated>2026-10-25T23:52:02.000Z</updated>
+    <author><name>Bloomberg Tech</name></author>
     <category term="PRODUCTS"/>
-    <summary>Nvidia CEO Jensen Huang is reportedly weighing annual software fees of around $2,000 per GPU for enterprise AI, a model that could generate $10 billion a year if five million licenses were sold. The pricing and launch timeline remain unconfirmed, while Nvidia continues to expand its AI software and security tools for e</summary>
+    <summary>SK Hynix Inc. plans to return about 80% of the gains from selling down its stake in Japan’s Kioxia Holdings Corp. to shareholders through a special dividend of about 16 trillion won ($12 billion), the DongA Ilbo newspaper reported.</summary>
   </entry>
   <entry>
     <title>Elon Musk says SpaceX closed $40B in GPU debt, debt markets have shut off credit for AI data center firms, and 200+ neoclouds face &quot;death and consolidation&quot; (Elon Musk/@elonmusk)</title>
@@ -127,7 +136,7 @@
     <title>Conducting The First Live Enterprise Comparison Between Agents and Human Professionals</title>
     <link href="https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals"/>
     <id>https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals</id>
-    <updated>2026-10-25T23:34:49.787Z</updated>
+    <updated>2026-10-26T00:08:21.149Z</updated>
     <author><name>Gray Swan</name></author>
     <category term="AI SECURITY"/>
   </entry>
@@ -195,22 +204,13 @@
     <summary>In Foreign Affairs, historian Niall Ferguson, researcher Lisa Klaassen, and former Google CEO Eric Schmidt cast the US and China as AI empires and every other country as a dependency. The race won't be decided by breakthroughs but by who can bankroll it. US corporations alone plan to spend more than $600 billion in 202</summary>
   </entry>
   <entry>
-    <title>Anthropic sued for allegedly using 274 Elvis Presley songs to train AI models</title>
-    <link href="https://www.theguardian.com/us-news/2026/oct/25/elvis-presley-anthropic-lawsuit-ai-models-music"/>
-    <id>https://www.theguardian.com/us-news/2026/oct/25/elvis-presley-anthropic-lawsuit-ai-models-music</id>
-    <updated>2026-10-25T18:25:59.000Z</updated>
-    <author><name>The Guardian AI</name></author>
+    <title>Moderators of r/opensource ban submissions of projects using, made by, or intended for AI, exclude non-English speakers over AI translation concerns, and more (Terrence O'Brien/The Verge)</title>
+    <link href="https://www.techmeme.com/261025/p12"/>
+    <id>https://www.techmeme.com/261025/p12</id>
+    <updated>2026-10-25T23:35:01.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Authentic Brands Group says AI company infringed on rights of songs by the King such as Can’t Help Falling in Love The owners of Elvis Presley ’s music catalogue are suing artificial intelligence ( AI ) company Anthropic for allegedly using Presley’s songs to train their models without permission. Authentic Brands Grou</summary>
-  </entry>
-  <entry>
-    <title>b11889: cuda : use std::string instead of VLA for archName (#30463)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11889"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11889</id>
-    <updated>2026-10-25T23:08:22.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>cuda : use std::string instead of VLA for archName Modernize the code (old C style) and fix the following warnings: ggml/src/ggml-cuda/ggml-cuda.cu:180:19: warning: variable length arrays in C++ are a Clang extension [-Wvla-cxx-extension] 180 | char archName[archLen + 1]; | ^~~~~~~~~~~ ggml/src/ggml-cuda/ggml-cuda.cu:1</summary>
+    <summary>Terrence O'Brien / The Verge : Moderators of r/opensource ban submissions of projects using, made by, or intended for AI, exclude non-English speakers over AI translation concerns, and more — The opensource subreddit's new rules against AI have sparked a revolt. … The post made Saturday evening opens by saying …</summary>
   </entry>
   <entry>
     <title>CrowdGPT - A collaboratively trained LLM.</title>
@@ -222,6 +222,15 @@
     <summary>Hello, I'm developing CrowdGPT , a project aiming to create an LLM without datacenters and without the usual millions of dollars spent by AI companies. The project aims to train a 1 billion parameter model collaboratively and openly, with a protocol where everyone gets a say in the direction the project takes. Anyone c</summary>
   </entry>
   <entry>
+    <title>Can ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF compete with UD-Q4_K_XL?</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xfhhri/can_istadaslabqwen3827bgsqrcogguf_compete_with"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xfhhri/can_istadaslabqwen3827bgsqrcogguf_compete_with</id>
+    <updated>2026-10-25T23:46:16.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>The model card promises a lot: BF16 performance in an IQ3_S quant. Does it deliver? I'm assuming the IQ3_S quant would be faster than comparable Unsloth UD Q4. Empty promises or the real deal? submitted by /u/mailto_devnull [link] [comments]</summary>
+  </entry>
+  <entry>
     <title>qwen-code v0.26.1-nightly.20261025.8e28d5380c released</title>
     <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.26.1-nightly.20261025.8e28d5380c"/>
     <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.26.1-nightly.20261025.8e28d5380c</id>
@@ -231,22 +240,22 @@
     <summary>What's Changed feat(managed): add session permission rules and Auto approval by @doudouOUC in #15448 fix(cli): harden serve token resolution against project env injection by @yiliang114 in #15228 feat(core): add an experimental shared agent loop and run headless on it by @qqqys in #15369 fix(cli): align OpenTUI cancell</summary>
   </entry>
   <entry>
-    <title>Latest Oil Market News and Analysis for Oct. 26</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-25/latest-oil-market-news-and-analysis-for-oct-26"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-25/latest-oil-market-news-and-analysis-for-oct-26</id>
-    <updated>2026-10-25T22:04:00.000Z</updated>
+    <title>Goldman Says Yen Becoming Better Hedge Against AI Market Shock</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-25/goldman-says-yen-becoming-better-hedge-against-ai-market-shock"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-25/goldman-says-yen-becoming-better-hedge-against-ai-market-shock</id>
+    <updated>2026-10-25T23:22:52.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Oil edged lower as the US and Iran stuck to familiar rhetoric in their conflict, and a technical gauge pointed to overbought conditions.</summary>
+    <summary>The yen is becoming a more effective hedge against an artificial intelligence-driven market shock as changes in Japan’s policy backdrop reduce the risk of the currency weakening sharply when global yields rise, according to Goldman Sachs.</summary>
   </entry>
   <entry>
-    <title>Senegal Premier Raises Constitutional Option in Budget Standoff</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-25/senegal-premier-raises-constitutional-option-in-budget-standoff"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-25/senegal-premier-raises-constitutional-option-in-budget-standoff</id>
-    <updated>2026-10-25T21:26:30.000Z</updated>
+    <title>Baht to Rebound on Inflows Into Nation’s Bonds, Analysts Say</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-25/baht-to-rebound-on-inflows-into-nation-s-bonds-analysts-say"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-25/baht-to-rebound-on-inflows-into-nation-s-bonds-analysts-say</id>
+    <updated>2026-10-25T23:00:00.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Senegalese Prime Minister Ahmadou Al Aminou Lo said the government could use constitutional means to resolve a standoff over its 2026 budget if talks with lawmakers fail, as the dispute threatens to complicate efforts to secure a new International Monetary Fund program.</summary>
+    <summary>Thailand’s baht may be nearing a turning point after a bruising eight months, with analysts seeing scope for a rebound as foreign money returns to the nation’s bonds and an improving current account supports the currency.</summary>
   </entry>
   <entry>
     <title>Hugging Face Releases Carbon-X, a 14B Open DNA Language Model that Brings DNA and Natural Language Together for the First Time</title>
@@ -265,14 +274,5 @@
     <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
     <summary>Anthropic has launched OSS Scanner, a free, opt-in vulnerability scanner for critical open-source projects. The Anthropic OSS Scanner runs the company’s strongest models, including Claude Mythos, against enrolled codebases. Reports go straight to maintainers without human review. That trade delivers faster findings, bu</summary>
-  </entry>
-  <entry>
-    <title>Moonshot AI Launches New Kimi K3.1 Pro Model</title>
-    <link href="https://www.theinformation.com/briefings/moonshot-ai-launches-new-kimi-k3-1-pro-model"/>
-    <id>https://www.theinformation.com/briefings/moonshot-ai-launches-new-kimi-k3-1-pro-model</id>
-    <updated>2026-10-23T22:26:12.000Z</updated>
-    <author><name>The Information</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Moonshot AI on Friday announced its new model, Kimi K3.1 Pro, demonstrating performance that rivals that of top-tier U.S. frontier models on some benchmarks. Kimi K3.1 Pro, built on the architecture of its popular predecessor Kimi K3, is now ranked fourth on the Artificial Analysis Intelligence ...</summary>
   </entry>
 </feed>
