@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-26T06:27:32.975Z</updated>
+  <updated>2026-10-26T07:03:24.260Z</updated>
   <entry>
     <title>Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)</title>
     <link href="https://openai.com/index/scaling-storage-one-billion-users-part-two"/>
@@ -23,6 +23,15 @@
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
     <summary>OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.</summary>
+  </entry>
+  <entry>
+    <title>Introducing Kimi K3.1 Pro</title>
+    <link href="https://simonwillison.net/2026/Oct/23/kimi-k31-pro"/>
+    <id>https://simonwillison.net/2026/Oct/23/kimi-k31-pro</id>
+    <updated>2026-10-23T19:40:54.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise &quot;Full model weights will be released by Nov 4, 2026&quot;. They're also offering a &quot;Highspeed&quot; version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same). </summary>
   </entry>
   <entry>
     <title>EMudhra Intermediate CA Certificates Compromised</title>
@@ -136,7 +145,7 @@
     <title>Conducting The First Live Enterprise Comparison Between Agents and Human Professionals</title>
     <link href="https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals"/>
     <id>https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals</id>
-    <updated>2026-10-26T06:27:02.420Z</updated>
+    <updated>2026-10-26T07:03:04.261Z</updated>
     <author><name>Gray Swan</name></author>
     <category term="AI SECURITY"/>
   </entry>
@@ -222,22 +231,22 @@
     <summary>Ananta Agarwal / Nikkei Asia : India's chip design startups near production with government support, but low volumes, high fab costs, and supply chain bottlenecks hinder commercialization — BENGALURU — Propelled by government support, India's chip design startups are nearing commercial production …</summary>
   </entry>
   <entry>
-    <title>Qwen3.8-Flash-Next vs Swift-1.5-Qwen3.8-Flash-Next</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xfl3wo/qwen38flashnext_vs_swift15qwen38flashnext"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xfl3wo/qwen38flashnext_vs_swift15qwen38flashnext</id>
-    <updated>2026-10-26T02:35:53.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>New Card for Qwen3.8 27b and MiniMax H3</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1xfnm35/new_card_for_qwen38_27b_and_minimax_h3"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1xfnm35/new_card_for_qwen38_27b_and_minimax_h3</id>
+    <updated>2026-10-26T04:49:12.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Just switched over from DSV4 Flash 0731 to Qwen3.8-Flash-Next and I've been loving it. Its working significantly better to my surprise. The only thing I can fault it with is unnecessarily deep work (thinking + fetching information) more often than not i.e. its not very token efficient so it feels slow. Swift1.5 is supp</summary>
+    <summary>First runs with Qwen3.8-27b Q6_K-QKV8-MTP 128k context with 862/s prompt processing and 54.06 tok/s. Happy with the first results and looking forward to checking out the other builds to see what kind of speed I can squeeze out of this card. submitted by /u/L0stParadox [link] [comments]</summary>
   </entry>
   <entry>
-    <title>Is the horror story about AI agent mass deleting your entire drive an old story or it still happen nowadays?</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xflw1l/is_the_horror_story_about_ai_agent_mass_deleting"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xflw1l/is_the_horror_story_about_ai_agent_mass_deleting</id>
-    <updated>2026-10-26T03:15:33.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>DSpark on an RX 7900 GRE: Qwen3-8B goes from 59 to 133 tok/s in llama.cpp</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1xfp6vt/dspark_on_an_rx_7900_gre_qwen38b_goes_from_59_to"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1xfp6vt/dspark_on_an_rx_7900_gre_qwen38b_goes_from_59_to</id>
+    <updated>2026-10-26T06:25:18.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>not so long ago there was viral tweet about AI agent deleting stuff without permission. well it happen to me as well a vscode copilot agent accidentally wipe my db while doing test (fortunately I got backup) but is it still a common occuring nowadays with how smart agent has become? submitted by /u/fugogugo [link] [com</summary>
+    <summary>With DeepSeek's DSpark paper and the recent DeepInfer release I wondered how this actually translates to local LLMs. DeepInfer only targets datacenter chips, and the published DSpark numbers come from servers and high-end NVIDIA cards. For those not caught up with DeepSeek, DSpark is their speculative decoding method a</summary>
   </entry>
   <entry>
     <title>Phronix: The Capability-Centric Learning Paradigm for Agents</title>
@@ -249,30 +258,20 @@
     <summary>arXiv:2610.31789v1 Announce Type: new Abstract: Scientific computing increasingly relies on large language model-based agents for performance engineering tasks such as instrumentation, analysis, and workflow porting. However, agent effectiveness depends heavily on the surrounding harness, which typically relies on manu</summary>
   </entry>
   <entry>
-    <title>IGU's Ydreos on Energy Demand Driven by Data Centers</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-26/igu-s-ydreos-on-energy-demand-driven-by-data-centers-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-26/igu-s-ydreos-on-energy-demand-driven-by-data-centers-video</id>
-    <updated>2026-10-26T05:38:48.000Z</updated>
+    <title>FTSE 100 Live: UK Stock Futures Point to Brighter Start to Week</title>
+    <link href="https://www.bloomberg.com/news/live-blog/2026-10-26/ftse-100-live-pound-bonds-gilts-oil-prices-retail-sales-ai-stocks-iran-trump-hormuz-what-s-moving-uk-markets-right-now-markets-today"/>
+    <id>https://www.bloomberg.com/news/live-blog/2026-10-26/ftse-100-live-pound-bonds-gilts-oil-prices-retail-sales-ai-stocks-iran-trump-hormuz-what-s-moving-uk-markets-right-now-markets-today</id>
+    <updated>2026-10-26T06:51:17.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Mel Ydreos, Secretary General of the International Gas Union, says data centers have emerged as a new driver of global gas demand. He speaks with Yvonne Man and Minmin Low on &quot;Bloomberg: The China Show.&quot; (Source: Bloomberg)</summary>
   </entry>
   <entry>
-    <title>Moonshot's Latest AI Upgrade Takes on Top-Tier US Models</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-26/the-china-show-10-26-26-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-26/the-china-show-10-26-26-video</id>
-    <updated>2026-10-26T05:37:40.000Z</updated>
+    <title>World Bank Flags Somalia Low Tax Revenue as Key Fiscal Challenge</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-26/world-bank-somalia-low-tax-revenue-key-fiscal-challenge"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-26/world-bank-somalia-low-tax-revenue-key-fiscal-challenge</id>
+    <updated>2026-10-26T06:35:03.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>“Bloomberg: The China Show” is your definitive source for news and analysis on the world's second-biggest economy. From politics and policy to tech and trends, Yvonne Man and David Ingles give global investors unique insight, delivering in-depth discussions with the newsmakers who matter. (Source: Bloomberg)</summary>
-  </entry>
-  <entry>
-    <title>Validating the Comparison, Not Just the Scorer: Why Overall Accuracy Can Mislead in Interactive LLM Evaluation</title>
-    <link href="https://arxiv.org/abs/2610.31678"/>
-    <id>https://arxiv.org/abs/2610.31678</id>
-    <updated>2026-10-26T04:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
-    <category term="RESEARCH"/>
-    <summary>arXiv:2610.31678v1 Announce Type: new Abstract: Many LLM studies compare how models respond to different follow-up prompts. For example, one prompt may neutrally ask a model to reconsider, while another insists that an invented film really exists. The difference is used to measure the effect of conversational pressure.</summary>
+    <summary>Domestic revenue mobilization remains Somalia’s biggest fiscal challenge, limiting the ability of the east Africa nation’s government to finance development priorities and public services.</summary>
   </entry>
 </feed>
