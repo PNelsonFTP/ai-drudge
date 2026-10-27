@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-27T00:16:37.292Z</updated>
+  <updated>2026-10-27T00:32:48.960Z</updated>
   <entry>
     <title>Working with academic communities to build scientific understanding</title>
     <link href="https://openai.com/index/building-scientific-understanding-with-academic-communities"/>
@@ -88,15 +88,6 @@
     <summary>Plus, Brazilian markets crashed after Lula’s surprise election victory, and Florida is leading a battle against big tech companies. — Also covered by: The Information</summary>
   </entry>
   <entry>
-    <title>ollama v0.40.12 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.12-rc0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.12-rc0</id>
-    <updated>2026-10-27T00:07:12.000Z</updated>
-    <author><name>ollama/ollama</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>What's Changed mlx: preserve small-image detail for compact Gemma 4 vision towers by @dhiltgen in #19247 MLX, MLX-C: version bump - prompt speed up for gemma/flint/laguna by @dhiltgen in #19291 mlx: add DFlash2 support by @dhiltgen in #19149 llama.cpp: version bump b11901 by @dhiltgen in #19311 Full Changelog : v0.40.1</summary>
-  </entry>
-  <entry>
     <title>Anthropic Founders Say They Will Keep Claude Free of Advertising</title>
     <link href="https://www.theinformation.com/briefings/anthropic-founders-say-will-keep-claude-free-advertising"/>
     <id>https://www.theinformation.com/briefings/anthropic-founders-say-will-keep-claude-free-advertising</id>
@@ -104,6 +95,15 @@
     <author><name>The Information</name></author>
     <category term="INDUSTRY NEWS"/>
     <summary>Anthropic’s seven founders said they are committed to keeping Claude free of advertising. Claude’s only incentive is to give people helpful answers, they said in a letter included in their IPO prospectus Monday . “Once advertising becomes part of a company’s revenue targets, the pressure to ...</summary>
+  </entry>
+  <entry>
+    <title>ollama v0.40.12 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.12-rc0"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.12-rc0</id>
+    <updated>2026-10-27T00:07:12.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>What's Changed mlx: preserve small-image detail for compact Gemma 4 vision towers by @dhiltgen in #19247 MLX, MLX-C: version bump - prompt speed up for gemma/flint/laguna by @dhiltgen in #19291 mlx: add DFlash2 support by @dhiltgen in #19149 llama.cpp: version bump b11901 by @dhiltgen in #19311 Full Changelog : v0.40.1</summary>
   </entry>
   <entry>
     <title>OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing</title>
@@ -196,22 +196,22 @@
     <summary>Lynn Doan / Bloomberg : Broadcom arranges a $63B deal with BofA, Blackstone, Citi, and Morgan Stanley to finance the purchase of chips for Anthropic via a new special purpose vehicle — Chipmaker Broadcom Inc. has arranged a $63 billion deal with Bank of America Corp., Blackstone Inc., Citigroup Inc. and Morgan Stanley </summary>
   </entry>
   <entry>
-    <title>llama.cpp b11912 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11912"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11912</id>
-    <updated>2026-10-26T22:33:56.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>llama : enable moe amax rescaling for laguna ( #31147 ) llama : enable moe amax rescaling for laguna Assisted-by: Devin llama : declare laguna sm tensor support Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60129010 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon</summary>
-  </entry>
-  <entry>
-    <title>b11913: hexagon: add GGML_HEXAGON_VTCM_SIZE (#31221)</title>
+    <title>llama.cpp b11913 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11913"/>
     <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11913</id>
-    <updated>2026-10-26T23:56:01.000Z</updated>
+    <updated>2026-10-27T00:23:09.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>hexagon: add GGML_HEXAGON_VTCM_MB and GGML_HEXAGON_NTHREADS caps Change-Id: Idffe1613c8db6f96aa842d43d1b2efaed45462a8 hexagon: rename VTCM cap to GGML_HEXAGON_VTCM_SIZE, drop NTHREADS cap Change-Id: If4c5b9ce9fd6b725c3561421c2295d40599d012d hexagon: make GGML_HEXAGON_VTCM_SIZE an override, accept K/M/G suffixes Change-</summary>
+    <summary>hexagon: add GGML_HEXAGON_VTCM_SIZE ( #31221 ) hexagon: add GGML_HEXAGON_VTCM_MB and GGML_HEXAGON_NTHREADS caps Change-Id: Idffe1613c8db6f96aa842d43d1b2efaed45462a8 hexagon: rename VTCM cap to GGML_HEXAGON_VTCM_SIZE, drop NTHREADS cap Change-Id: If4c5b9ce9fd6b725c3561421c2295d40599d012d hexagon: make GGML_HEXAGON_VTCM_</summary>
+  </entry>
+  <entry>
+    <title>Update: My 4B coding model is getting better at generating 3D scenes</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xgc7uv/update_my_4b_coding_model_is_getting_better_at"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xgc7uv/update_my_4b_coding_model_is_getting_better_at</id>
+    <updated>2026-10-26T23:07:49.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Hey everyone, just wanted to share a quick update on the 4B model I posted here . The video shows some results from the latest checkpoint. I'm still training this Qwen3.5-4B fine-tune for general coding, using Three.js scene generation as my main test for now. It still messes up some scenes on the first try, but the ne</summary>
   </entry>
   <entry>
     <title>langchain v1.7.3 released</title>
