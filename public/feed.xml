@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-27T17:08:42.051Z</updated>
+  <updated>2026-10-27T18:09:00.706Z</updated>
   <entry>
     <title>Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace</title>
     <link href="https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace"/>
@@ -32,15 +32,6 @@
     <author><name>Hugging Face Blog</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Also covered by: Ai2 (Allen Institute)</summary>
-  </entry>
-  <entry>
-    <title>qwen-code v0.26.2 released</title>
-    <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.26.2"/>
-    <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.26.2</id>
-    <updated>2026-10-27T16:05:08.000Z</updated>
-    <author><name>QwenLM/qwen-code</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Highlights See the complete change list below. Breaking Changes fix(managed-agent)!: simplify Web Shell controls and retire cwd submissions ( #15616 ) by @doudouOUC Complete Change List Features feat(managed): add session permission rules and Auto approval ( #15448 ) by @doudouOUC feat(core): add an experimental shared — Also covered by: anthropics/claude-code, QwenLM/qwen-code</summary>
   </entry>
   <entry>
     <title>Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads</title>
@@ -70,6 +61,15 @@
     <summary>GPT-6.1 Terra It's always interesting to note which aspects of a new model are emphasized in the release announcement. In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use: We’re introducing GPT-6.1 Terra , a fast, efficient model that combines detailed visual reasoning and precise computer  — Also covered by: GitHub Copilot Changelog</summary>
   </entry>
   <entry>
+    <title>qwen-code v0.26.2 released</title>
+    <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.26.2"/>
+    <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.26.2</id>
+    <updated>2026-10-27T16:05:08.000Z</updated>
+    <author><name>QwenLM/qwen-code</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Highlights See the complete change list below. Breaking Changes fix(managed-agent)!: simplify Web Shell controls and retire cwd submissions ( #15616 ) by @doudouOUC Complete Change List Features feat(managed): add session permission rules and Auto approval ( #15448 ) by @doudouOUC feat(core): add an experimental shared — Also covered by: anthropics/claude-code, QwenLM/qwen-code</summary>
+  </entry>
+  <entry>
     <title>Working with academic communities to build scientific understanding</title>
     <link href="https://openai.com/index/building-scientific-understanding-with-academic-communities"/>
     <id>https://openai.com/index/building-scientific-understanding-with-academic-communities</id>
@@ -77,15 +77,6 @@
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
     <summary>OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.</summary>
-  </entry>
-  <entry>
-    <title>Intel to Acquire Classiq: Strategic Move Creates Full-Stack Quantum Computing Platform</title>
-    <link href="https://quantumcomputingreport.com/intel-to-acquire-classiq"/>
-    <id>https://quantumcomputingreport.com/intel-to-acquire-classiq</id>
-    <updated>2026-10-27T00:58:14.000Z</updated>
-    <author><name>Quantum Computing Report</name></author>
-    <category term="QUANTUM"/>
-    <summary>In a significant consolidation within the quantum computing sector, Intel has entered into a definitive agreement to acquire Israeli quantum software provider Classiq for an estimated $2.0 - $2.5 billion in cash and stock. This shows an example of how Israel has established itself as one of the world's most concentrate — Also covered by: The Quantum Insider</summary>
   </entry>
   <entry>
     <title>Genie 4: A new generation of world simulation</title>
@@ -106,49 +97,49 @@
     <summary>Jay Peters / The Verge : Google launches Genie 4, a world model powered by Gemini 3.8 Flash designed to generate interactive AI simulations, initially as a preview to trusted testers — The Genie 4 world model offers more realism and can create audio to accompany its interactive worlds.</summary>
   </entry>
   <entry>
+    <title>llama.cpp b11936 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11936"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11936</id>
+    <updated>2026-10-27T13:57:45.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>llama : build the k-pool sparse selection independently of the kq_mas…</summary>
+  </entry>
+  <entry>
     <title>ollama v0.40.12 released</title>
     <link href="https://github.com/ollama/ollama/releases/tag/v0.40.12-rc1"/>
     <id>https://github.com/ollama/ollama/releases/tag/v0.40.12-rc1</id>
-    <updated>2026-10-27T16:29:19.000Z</updated>
+    <updated>2026-10-27T17:16:47.000Z</updated>
     <author><name>ollama/ollama</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>What's Changed mlx: preserve small-image detail for compact Gemma 4 vision towers by @dhiltgen in #19247 MLX, MLX-C: version bump - prompt speed up for gemma/flint/laguna by @dhiltgen in #19291 mlx: add DFlash2 support by @dhiltgen in #19149 llama.cpp: version bump b11901 by @dhiltgen in #19311 Full Changelog : v0.40.1</summary>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Liquid AI LFM3 LFM3 is Liquid AI's new family of small models built for local agents, tool calling, and structured output, on Liquid's new tri-hybrid architecture. The family includes: lfm3 : a 1.7B text model with a 256K-token context window lfm3-vl : adds image understanding lfm3-audio : speech recognition, translati</summary>
+  </entry>
+  <entry>
+    <title>Anthropic and the AI cluster effect in fundraising</title>
+    <link href="https://www.ft.com/content/689a2114-57c5-4391-a335-dc97e5716610"/>
+    <id>https://www.ft.com/content/689a2114-57c5-4391-a335-dc97e5716610</id>
+    <updated>2026-10-27T14:02:23.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="AI FINANCE"/>
+    <summary>$95bn equity issue plan by Meta as rival conducts IPO shows the Hotelling effect</summary>
+  </entry>
+  <entry>
+    <title>The sleep framework: A new way for LLMs to retain knowledge in continual learning</title>
+    <link href="https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning"/>
+    <id>https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning</id>
+    <updated>2026-10-27T17:35:00.000Z</updated>
+    <author><name>Google Research Blog</name></author>
+    <category term="RESEARCH"/>
+    <summary>Education Innovation</summary>
   </entry>
   <entry>
     <title>How We Built Our Design Agent</title>
     <link href="https://www.langchain.com/blog/design-agent"/>
     <id>https://www.langchain.com/blog/design-agent</id>
-    <updated>2026-10-27T16:49:04.000Z</updated>
+    <updated>2026-10-27T17:05:05.000Z</updated>
     <author><name>LangChain Blog</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
+    <category term="OPEN SOURCE"/>
     <summary>How LangChain built Content Studio, an open-source design agent in Slack that makes on-brand videos, graphics and decks, and the harness that powers it.</summary>
-  </entry>
-  <entry>
-    <title>U.S. Bancorp Poised for Canada Bond Return After Two Decades</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-27/u-s-bancorp-poised-for-canada-bond-return-after-two-decades"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-27/u-s-bancorp-poised-for-canada-bond-return-after-two-decades</id>
-    <updated>2026-10-27T16:43:32.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>U.S. Bancorp is looking to sell as much as C$1 billion ($713 million) of bonds in Canada, tapping the loonie market for the first time in more than two decades.</summary>
-  </entry>
-  <entry>
-    <title>transformers v5.21.0 released</title>
-    <link href="https://github.com/huggingface/transformers/releases/tag/v5.21"/>
-    <id>https://github.com/huggingface/transformers/releases/tag/v5.21</id>
-    <updated>2026-10-26T18:21:30.000Z</updated>
-    <author><name>huggingface/transformers</name></author>
-    <category term="RESEARCH"/>
-    <summary>Release v5.21.0 New Model additions MiniCPM-OCR MiniCPM-OCR is a document-understanding model from OpenBMB's MiniCPM-V family. It keeps the MiniCPM-V 4.6 architecture, which pairs a SigLIP vision encoder and a window-attention merger with a Qwen3.5 language model. It is specialized for reading text-dense images such as</summary>
-  </entry>
-  <entry>
-    <title>Oracle adds ChatGPT and Codex to its app stack and expands Oracle Cloud Infrastructure lineup with Google TPUs, OpenAI's Jalapeño chip, and Cerebras hardware (Seema Mody/CNBC)</title>
-    <link href="https://www.techmeme.com/261027/p24"/>
-    <id>https://www.techmeme.com/261027/p24</id>
-    <updated>2026-10-27T16:30:29.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="HARDWARE"/>
-    <summary>Seema Mody / CNBC : Oracle adds ChatGPT and Codex to its app stack and expands Oracle Cloud Infrastructure lineup with Google TPUs, OpenAI's Jalape&amp;ntilde;o chip, and Cerebras hardware — Oracle on Tuesday announced an expanded collaboration with OpenAI that brings the artificial intelligence lab's ChatGPT …</summary>
   </entry>
   <entry>
     <title>AISN #84: AI-Driven Cybersecurity Issues Heighten Fears of “Hackpocalypse”</title>
@@ -178,13 +169,13 @@
     <summary>Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure. [...]</summary>
   </entry>
   <entry>
-    <title>From federal SOCs to Talos: Ryan Fetterman on practical security research</title>
-    <link href="https://blog.talosintelligence.com/from-federal-socs-to-talos-ryan-fetterman-on-practical-security-research"/>
-    <id>https://blog.talosintelligence.com/from-federal-socs-to-talos-ryan-fetterman-on-practical-security-research</id>
-    <updated>2026-10-27T10:00:21.000Z</updated>
-    <author><name>Talos Intelligence</name></author>
+    <title>Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines</title>
+    <link href="https://projectzero.google/2026/10/fuzzing-v-AI.html"/>
+    <id>https://projectzero.google/2026/10/fuzzing-v-AI.html</id>
+    <updated>2026-10-27T07:00:00.000Z</updated>
+    <author><name>Google Project Zero</name></author>
     <category term="CYBER DEFENSE"/>
-    <summary>What does it mean to be &quot;blue collar&quot; for the blue team? Ryan Fetterman discusses the realities of detection engineering, and shares his philosophy on building a career in security without burning out.</summary>
+    <summary>Summary Project Zero compared two automated tools used by Google to find vulnerabilities in Chrome’s JavaScript engine, V8, on a regular basis. Fuzzilli is a generative JavaScript engine fuzzer and BigSleep is an LLM-based bug finding system. In the past six months, BigSleep found more vulnerabilities than Fuzzilli (45</summary>
   </entry>
   <entry>
     <title>Anthropic uses its IPO letter to renew its pledge that Claude will never show ads</title>
@@ -205,13 +196,31 @@
     <summary>The compact board supports custom camera layouts, onboard depth and AI processing, and scene-based calibration. The $849 developer kit is shipping now, with cameras sold separately.</summary>
   </entry>
   <entry>
-    <title>Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption</title>
-    <link href="https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html"/>
-    <id>https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html</id>
-    <updated>2026-10-27T11:32:31.000Z</updated>
-    <author><name>The Hacker News</name></author>
+    <title>QuantrolOx Raises €12 Million in Series A2</title>
+    <link href="https://thequantuminsider.com/2026/10/27/quantrolox-raises-e12-million-in-series-a2"/>
+    <id>https://thequantuminsider.com/2026/10/27/quantrolox-raises-e12-million-in-series-a2</id>
+    <updated>2026-10-27T16:57:14.000Z</updated>
+    <author><name>The Quantum Insider</name></author>
     <category term="QUANTUM"/>
-    <summary>The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning the construction, software, and wire-communication equipment manufacturing sectors. According to Russian cybersecurity company Kaspersky, the c</summary>
+    <summary>Insider Brief PRESS RELEASE — QuantrolOx, University of Oxford spinout headquartered in Finland with offices in the UK, Netherlands, US and India, has raised €12 million in a Series A2 funding round led by IW Capital, with co-investment from the European Innovation Council (EIC) Fund. The round also includes participat</summary>
+  </entry>
+  <entry>
+    <title>Google Deepmind's Genie 4 puts a modern spin on agent designs that predate LLMs</title>
+    <link href="https://the-decoder.com/google-deepminds-genie-4-puts-a-modern-spin-on-agent-designs-that-predate-llms"/>
+    <id>https://the-decoder.com/google-deepminds-genie-4-puts-a-modern-spin-on-agent-designs-that-predate-llms</id>
+    <updated>2026-10-27T17:25:09.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Google Deepmind has introduced Genie 4, a real-time world model that simulates interactive 3D worlds with sound and talking characters. Gemini models help plan in the background to keep the simulation consistent. Genie 4 is still an early research model, and longer sessions lead to visual inconsistencies. The article G</summary>
+  </entry>
+  <entry>
+    <title>Oracle To Start Running Google TPUs in Its Cloud</title>
+    <link href="https://www.theinformation.com/briefings/oracle-start-running-google-tpus-cloud"/>
+    <id>https://www.theinformation.com/briefings/oracle-start-running-google-tpus-cloud</id>
+    <updated>2026-10-27T17:42:51.000Z</updated>
+    <author><name>The Information</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Google and Oracle announced a partnership that will make Google’s tensor processing units available to Oracle cloud customers, the first time the AI chips would be made available on a cloud platform outside of Google’s. Oracle said in a statement Tuesday the TPUs will be available by 2027. Built ...</summary>
   </entry>
   <entry>
     <title>Avante, which builds an AI platform to help companies manage employee healthcare and other benefits, raised a $30M Series A, following a $10M seed in 2024 (Kurt Schlosser/GeekWire)</title>
@@ -223,49 +232,40 @@
     <summary>Kurt Schlosser / GeekWire : Avante, which builds an AI platform to help companies manage employee healthcare and other benefits, raised a $30M Series A, following a $10M seed in 2024 — Chronicling the Seattle and Pacific Northwest startup scene. — Avante, the maker of an AI platform to help companies manage employee he</summary>
   </entry>
   <entry>
-    <title>llama.cpp b11935 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11935"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11935</id>
-    <updated>2026-10-27T13:04:55.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>rpc : catch std::length_error in recv_msg ( #31204 )</summary>
-  </entry>
-  <entry>
-    <title>SenseNova 6.8 Code2Video: an open-sourced model that writes and revises code to make videos</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xgvcnu/sensenova_68_code2video_an_opensourced_model_that"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xgvcnu/sensenova_68_code2video_an_opensourced_model_that</id>
-    <updated>2026-10-27T15:19:11.000Z</updated>
+    <title>Has anybody here noticed that the hit piece from Cohere on open models came out the same day that Anthropic filed IPO ?</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xgxpg9/has_anybody_here_noticed_that_the_hit_piece_from"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xgxpg9/has_anybody_here_noticed_that_the_hit_piece_from</id>
+    <updated>2026-10-27T16:45:18.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Think of the animation workflows people use with Claude Opus 5.5: the model writes code, rendering tools turn it into video, and further instructions revise the result. SenseNova follows that same general approach, with a model and creation Skill focused on video creation A few highlights: Generates video through code,</summary>
+    <summary>I am sure it is just coincident guys. I need to stop noticing things darn it /s. submitted by /u/Boogertard [link] [comments]</summary>
   </entry>
   <entry>
-    <title>Meta gets $3 billion from Nvidia and plans to spend more on Nvidia chips</title>
-    <link href="https://the-decoder.com/meta-gets-3-billion-from-nvidia-and-plans-to-spend-more-on-nvidia-chips"/>
-    <id>https://the-decoder.com/meta-gets-3-billion-from-nvidia-and-plans-to-spend-more-on-nvidia-chips</id>
-    <updated>2026-10-27T09:58:16.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>ia is buying into its customer Meta, which plans to run more of its AI agents on Nvidia hardware. The article Meta gets $3 billion from Nvidia and plans to spend more on Nvidia chips appeared first on The Decoder .</summary>
+    <title>A 1.3B OCR model just hit 93.68 on real-world document parsing and there's now an AI judge for OCR errors</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xgx26j/a_13b_ocr_model_just_hit_9368_on_realworld"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xgx26j/a_13b_ocr_model_just_hit_9368_on_realworld</id>
+    <updated>2026-10-27T16:21:51.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Most OCR models focus on reading documents. MiniCPM-OCR adds a second piece: a model that checks whether the OCR result is actually trustworthy. OpenBMB just released two open-source models: MiniCPM-OCR 1.0 (1.3B): Scores 93.68 on Real5-OmniDocBench , targeting real-world documents like curved pages, phone photos, tilt</summary>
   </entry>
   <entry>
-    <title>Scotiabank Plans SRT Transaction Tied to $2 Billion of Loans</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-27/scotiabank-plans-srt-transaction-tied-to-2-billion-of-loans"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-27/scotiabank-plans-srt-transaction-tied-to-2-billion-of-loans</id>
-    <updated>2026-10-27T16:57:28.000Z</updated>
+    <title>Konecta Gets Lender Forbearance to Negotiate Debt Restructuring</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-27/konecta-gets-lender-forbearance-to-negotiate-debt-restructuring"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-27/konecta-gets-lender-forbearance-to-negotiate-debt-restructuring</id>
+    <updated>2026-10-27T17:38:40.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Bank of Nova Scotia is working on a significant risk transfer tied to around $2 billion of loans, joining a growing list of lenders looking to take advantage of strong demand to wrap up deals before year-end.</summary>
+    <summary>Intermediate Capital Group-controlled Konecta has agreed some breathing room with a group of creditors as it negotiates a debt restructuring.</summary>
   </entry>
   <entry>
-    <title>SEC Weighing Overhaul to Crowdfunding Rules, Atkins Says</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-27/sec-weighing-overhaul-to-crowdfunding-rules-atkins-says"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-27/sec-weighing-overhaul-to-crowdfunding-rules-atkins-says</id>
-    <updated>2026-10-27T16:49:14.000Z</updated>
+    <title>Corporate-Bond Trading Is Moving Beyond Top Securities, Barclays Says</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-27/corporate-bond-trading-is-moving-beyond-top-securities-barclays-says"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-27/corporate-bond-trading-is-moving-beyond-top-securities-barclays-says</id>
+    <updated>2026-10-27T17:35:30.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The nation’s top markets regulator is working on changes to crowdfunding rules, US Securities and Exchange Commission Chairman Paul Atkins said at an agency advisory committee event.</summary>
+    <summary>More corporate bonds from individual blue-chip companies are trading relatively frequently, signaling that the market’s liquidity is growing in the US and Europe.</summary>
   </entry>
   <entry>
     <title>End-to-End Differentiable Diffusion Conditioning for Physics-Informed Optimization</title>
