@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-28T15:08:54.331Z</updated>
+  <updated>2026-10-28T16:08:44.283Z</updated>
   <entry>
     <title>Legora is building the agentic operating system for legal work</title>
     <link href="https://openai.com/index/legora-agentic-operating-system-for-legal-work"/>
@@ -14,15 +14,6 @@
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
     <summary>See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.</summary>
-  </entry>
-  <entry>
-    <title>7 days until TechCrunch Founder Summit: Save up to $100 on your pass before doors open</title>
-    <link href="https://techcrunch.com/2026/10/28/7-days-until-techcrunch-founder-summit-save-up-to-100-before-doors-open"/>
-    <id>https://techcrunch.com/2026/10/28/7-days-until-techcrunch-founder-summit-save-up-to-100-before-doors-open</id>
-    <updated>2026-10-28T13:00:00.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>In just 7 days, TechCrunch Founder Summit takes over Boston’s SoWa Power Station on November 4. Your chance to save up to $100 on tickets is running out, and the opportunity to learn and connect directly with experienced founders, investors, and startup leaders is almost here.</summary>
   </entry>
   <entry>
     <title>Retell uses OpenAI models to help power 100M monthly calls</title>
@@ -43,22 +34,13 @@
     <summary>Highlights See the complete change list below. Breaking Changes No known breaking changes. Core runtime, memory, and context Improves tool call recovery, memory extraction, and context-window detection for qwen models. memory: opt-in extraction cadence after a no-op run ( #13571 ) core: recover outer XML calls with quo — Also covered by: anthropics/claude-code</summary>
   </entry>
   <entry>
-    <title>VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more</title>
-    <link href="https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more"/>
-    <id>https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more</id>
-    <updated>2026-10-28T01:15:28.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Massive note conversions reveal the true extent of Amazon's ownership in Anthropic.</summary>
-  </entry>
-  <entry>
     <title>Survival LLM: AI assistant and emergency library that runs on your own computer</title>
     <link href="https://www.brangus.io/survival-llm"/>
     <id>https://www.brangus.io/survival-llm</id>
     <updated>2026-10-27T19:55:06.000Z</updated>
     <author><name>HN: AI (150+ points)</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Article URL: https://www.brangus.io/survival-llm Comments URL: https://news.ycombinator.com/item?id=50264853 Points: 442 # Comments: 167</summary>
+    <summary>Article URL: https://www.brangus.io/survival-llm Comments URL: https://news.ycombinator.com/item?id=50264853 Points: 455 # Comments: 170</summary>
   </entry>
   <entry>
     <title>OpenAI expands partnership with Oracle to bring its apps to ChatGPT</title>
@@ -68,6 +50,15 @@
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
     <summary>OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.</summary>
+  </entry>
+  <entry>
+    <title>VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more</title>
+    <link href="https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more"/>
+    <id>https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more</id>
+    <updated>2026-10-28T01:15:28.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>Massive note conversions reveal the true extent of Amazon's ownership in Anthropic.</summary>
   </entry>
   <entry>
     <title>Greptile takes bug detection beyond code review with GPT-6 Astra</title>
@@ -88,22 +79,22 @@
     <summary>OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.</summary>
   </entry>
   <entry>
-    <title>Genie 4: A new generation of world simulation</title>
-    <link href="https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation"/>
-    <id>https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation</id>
-    <updated>2026-10-27T16:01:38.000Z</updated>
-    <author><name>Google DeepMind Blog</name></author>
+    <title>b11965: llama : remove simple batch splitting for DSV4 (#31300)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11965"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11965</id>
+    <updated>2026-10-28T15:25:47.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Genie 4: our new world model unlocking unprecedented realism in real-time simulation.</summary>
+    <summary>llama : fix DSV4 compressor padding for simple batches Count actual tokens per sequence when padding compressor writes. Add a graph reuse regression test for odd-sized DeepSeek V4 and V4.1 batches. Assisted-by: Codex tests : cover multiple sequences in DSV4 padding regression Exercise one and two sequences at different</summary>
   </entry>
   <entry>
-    <title>Artificial Analysis launches the Intelligence Index v5, with new coding and science benchmarks, built on private datasets; Claude Opus 5.5 (max) leads at 58 (@artificialanlys)</title>
-    <link href="https://www.techmeme.com/261028/p27"/>
-    <id>https://www.techmeme.com/261028/p27</id>
-    <updated>2026-10-28T12:55:02.000Z</updated>
+    <title>OpenAI says it's launching an election &quot;war room&quot; ahead of the US midterms to identify potential spread of misinfo or other efforts to disrupt the elections (Calder McHugh/Politico)</title>
+    <link href="https://www.techmeme.com/261028/p34"/>
+    <id>https://www.techmeme.com/261028/p34</id>
+    <updated>2026-10-28T15:35:17.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>@artificialanlys : Artificial Analysis launches the Intelligence Index v5, with new coding and science benchmarks, built on private datasets; Claude Opus 5.5 (max) leads at 58 — Announcing Artificial Analysis Intelligence Index v5, featuring 2 new benchmarks and 3 upgrades. For the first time, the majority of the Index</summary>
+    <summary>Calder McHugh / Politico : OpenAI says it's launching an election “war room” ahead of the US midterms to identify potential spread of misinfo or other efforts to disrupt the elections — OpenAI is standing up an election “war room” ahead of the midterms, the company exclusively told Decoded by POLITICO.</summary>
   </entry>
   <entry>
     <title>llama.cpp v0.8.0 released</title>
@@ -115,13 +106,13 @@
     <summary>Overview This release adds the LiquidAI LFM3 family (text, vision, audio and omni) together with a new experimental streaming-audio API in mtmd , and wires realtime audio in and out of the server through the new /v1/realtime and /tts endpoints. A batch of new architectures landed: DeepSeek V4.1 Flash, SenseNova U1, Bea</summary>
   </entry>
   <entry>
-    <title>Foundry, a manufacturing-as-a-service startup that builds factories with robots powered by physical AI models, raised a $100M Series A led by Marlinspike (Rocket Drew/The Information)</title>
-    <link href="https://www.techmeme.com/261028/p32"/>
-    <id>https://www.techmeme.com/261028/p32</id>
-    <updated>2026-10-28T14:40:01.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games</title>
+    <link href="https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games"/>
+    <id>https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games</id>
+    <updated>2026-10-28T15:00:46.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Rocket Drew / The Information : Foundry, a manufacturing-as-a-service startup that builds factories with robots powered by physical AI models, raised a $100M Series A led by Marlinspike — Large companies have learned over the past couple years that they can get more mileage out of AI agents by rethinking their processe</summary>
+    <summary>NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU in a single superchip with up to 128GB of un</summary>
   </entry>
   <entry>
     <title>Bank of Canada Raises Interest Rates to 2.5%, First Hike Since 2023</title>
@@ -133,15 +124,6 @@
     <summary>The Bank of Canada raised its benchmark overnight interest rate by 25 basis points to 2.5% on Wednesday. It's the first increase since July of 2023. Governor Tiff Macklem says this move could reduce inflation risks posed by higher energy prices. (Source: Bloomberg)</summary>
   </entry>
   <entry>
-    <title>Updated Houdini Benchmark Testing Methodologies</title>
-    <link href="https://www.pugetsystems.com/blog/2026/10/28/updated-houdini-benchmark-testing-methodologies"/>
-    <id>https://www.pugetsystems.com/blog/2026/10/28/updated-houdini-benchmark-testing-methodologies</id>
-    <updated>2026-10-28T15:00:00.000Z</updated>
-    <author><name>Puget Systems</name></author>
-    <category term="HARDWARE"/>
-    <summary>Our expanded benchmark for Houdini adds GPU simulations and rendering. Kelly outlines what each tests for and how they apply to real-world workflows. The post Updated Houdini Benchmark Testing Methodologies appeared first on Puget Systems .</summary>
-  </entry>
-  <entry>
     <title>Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers</title>
     <link href="https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html"/>
     <id>https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html</id>
@@ -151,13 +133,13 @@
     <summary>A critical 16-year-old flaw in EDK II, the open-source code that most hardware makers use to build UEFI firmware, can allow an attacker to run code on a machine before its operating system loads, but only while the machine is booting over the network. UEFI firmware is the software that runs first when a computer is swi</summary>
   </entry>
   <entry>
-    <title>Smaller NLAs and probes read eval awareness as well as full size NLAs</title>
-    <link href="https://www.lesswrong.com/posts/MQCZponFdSd7ZBXaa/smaller-nlas-and-probes-read-eval-awareness-as-well-as-full"/>
-    <id>https://www.lesswrong.com/posts/MQCZponFdSd7ZBXaa/smaller-nlas-and-probes-read-eval-awareness-as-well-as-full</id>
-    <updated>2026-10-28T13:17:10.000Z</updated>
+    <title>What do we mean by ‘long-horizon’ work?</title>
+    <link href="https://www.lesswrong.com/posts/tvaK3hKYP7NpwQKDz/what-do-we-mean-by-long-horizon-work"/>
+    <id>https://www.lesswrong.com/posts/tvaK3hKYP7NpwQKDz/what-do-we-mean-by-long-horizon-work</id>
+    <updated>2026-10-28T15:47:56.000Z</updated>
     <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>TLDR: We distill and train various Natural Language Autoencoders (“NLAs”) to read Qwen3.6-27b’s internal states. A 2B NLA distilled from a 27B NLA matches it on reading agentic misalignment and eval awareness, but is much worse on obscure facts. An NLA trained with extra alignment-focused RL didn’t improve on anything.</summary>
+    <summary>TL;DR - The benchmarks frontier labs cite for long-horizon capability mostly measure capability on tasks involving many steps or lots of context, verifiable end states, and little external input. I argue that what defines real-world long-horizon work is delayed external feedback. That delay is where human input becomes</summary>
   </entry>
   <entry>
     <title>Straiker Named to Fortune Cyber 60 for Third Consecutive Year</title>
@@ -196,6 +178,15 @@
     <summary>I've written before about how November 2025 was an inflection point for coding agents - the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable daily drivers for software engineers. I think we've reached a new inflection point in October 2026, and this time</summary>
   </entry>
   <entry>
+    <title>Foundry, a manufacturing-as-a-service startup that builds factories with robots powered by physical AI models, raised a $100M Series A led by Marlinspike (Rocket Drew/The Information)</title>
+    <link href="https://www.techmeme.com/261028/p32"/>
+    <id>https://www.techmeme.com/261028/p32</id>
+    <updated>2026-10-28T14:40:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="ROBOTICS"/>
+    <summary>Rocket Drew / The Information : Foundry, a manufacturing-as-a-service startup that builds factories with robots powered by physical AI models, raised a $100M Series A led by Marlinspike — Large companies have learned over the past couple years that they can get more mileage out of AI agents by rethinking their processe</summary>
+  </entry>
+  <entry>
     <title>DataBrushing.AI Launches UEChain for Data Verification and Trust</title>
     <link href="https://thequantuminsider.com/2026/10/28/databrushing-ai-uechain-data-verification"/>
     <id>https://thequantuminsider.com/2026/10/28/databrushing-ai-uechain-data-verification</id>
@@ -205,31 +196,40 @@
     <summary>Insider Brief PRESS RELEASE — AI DataBrushing Technology Co., Ltd. (DataBrushing.AI) launched S.A.F.E.-AI Trusted Platform – UEChain on October 16, a solution built on Public Key Infrastructure (PKI), a Certificate Authority (CA), and digital evidence chain technologies. UEChain is designed to help enterprises and rese</summary>
   </entry>
   <entry>
+    <title>Genie 4: A new generation of world simulation</title>
+    <link href="https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation"/>
+    <id>https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation</id>
+    <updated>2026-10-27T16:01:38.000Z</updated>
+    <author><name>Google DeepMind Blog</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Genie 4: our new world model unlocking unprecedented realism in real-time simulation.</summary>
+  </entry>
+  <entry>
     <title>b11958: server : support tool calls in /v1/realtime (#31287)</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11958"/>
     <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11958</id>
     <updated>2026-10-28T11:17:13.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
-    <category term="GITHUB REPOS"/>
+    <category term="MODEL RELEASES"/>
     <summary>server : add tool calls to /v1/realtime Assisted-by: Claude Opus 5.5 refactor Co-authored-by: Xuan Son Nguyen son@huggingface.co</summary>
   </entry>
   <entry>
-    <title>AMA Announcement: MOSS, the Team Behind MOSS-Image, MOSS-TTS, and More (Friday, Oct 30, 8–11 AM PT)</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xhouci/ama_announcement_moss_the_team_behind_mossimage"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xhouci/ama_announcement_moss_the_team_behind_mossimage</id>
-    <updated>2026-10-28T13:59:15.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>A 2013 Mac Pro runs a 35B model at 66 tok/s reading. The first benchmark I trusted was wrong by about 9x.</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1xhrqkt/a_2013_mac_pro_runs_a_35b_model_at_66_toks"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1xhrqkt/a_2013_mac_pro_runs_a_35b_model_at_66_toks</id>
+    <updated>2026-10-28T15:47:45.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Hi r/LocalLLaMA 👋 We’re welcoming the MOSS team for an AMA this Friday, October 30, from 8–11 AM PT ! They’re bringing the whole MOSS model family: speech, sound, music, images, and video—with a particular focus on their recent MOSS-Image release. ⚠️ Note : The AMA itself will be hosted in a separate thread , please d</summary>
+    <summary>I ran Qwen3.6-35B on a 2013 Mac Pro (two AMD FirePro D700, 64 GB RAM, original macOS 12) with Vulkan/MoltenVK. Reading runs at 66 tok/s and writing at about 11 tok/s, measured with llama-bench. The bigger lesson: a Metal path I first benchmarked was computing wrong results, and its broken state looked about 9x faster t</summary>
   </entry>
   <entry>
-    <title>I took EmbeddingGemma-2 (577M) from Rank #26 to #1 on the MTEB Audio leaderboard (MAEB), beating 9B models by adding a 2.4 MB PCA head with zero training</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xhny7x/i_took_embeddinggemma2_577m_from_rank_26_to_1_on"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xhny7x/i_took_embeddinggemma2_577m_from_rank_26_to_1_on</id>
-    <updated>2026-10-28T13:23:06.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>Updated Houdini Benchmark Testing Methodologies</title>
+    <link href="https://www.pugetsystems.com/blog/2026/10/28/updated-houdini-benchmark-testing-methodologies"/>
+    <id>https://www.pugetsystems.com/blog/2026/10/28/updated-houdini-benchmark-testing-methodologies</id>
+    <updated>2026-10-28T15:00:00.000Z</updated>
+    <author><name>Puget Systems</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Model &amp; weights: BrunoHays/embeddinggemma-2-nullspace-audio MAEB (Massive Audio Embedding Benchmark) is the main MTEB leaderboard benchmark for audio and text-to-audio embeddings, currently dominated by 8B-9B multimodal models. I took Google's edge-sized google/embeddinggemma-2 (577M params, 768d vectors) and boosted i</summary>
+    <summary>Our expanded benchmark for Houdini adds GPU simulations and rendering. Kelly outlines what each tests for and how they apply to real-world workflows. The post Updated Houdini Benchmark Testing Methodologies appeared first on Puget Systems .</summary>
   </entry>
   <entry>
     <title>Foundry Raises $100 Million for Autonomous Factories</title>
@@ -241,22 +241,31 @@
     <summary>Large companies have learned over the past couple years that they can get more mileage out of AI agents by rethinking their processes from scratch, rather than merely automating the existing ways of doing things. Manufacturers are beginning to learn the same lesson as they adopt robots powered by physical AI models. On</summary>
   </entry>
   <entry>
-    <title>UK Budget Lacked 'Big Picture Themes,' RBC Capital Says</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-28/uk-budget-lacked-big-picture-themes-rbc-capital-says-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-28/uk-budget-lacked-big-picture-themes-rbc-capital-says-video</id>
-    <updated>2026-10-28T14:26:20.000Z</updated>
+    <title>UK Homebuilders Fall as First Time Buyer Support Disappoints</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-28/uk-homebuilders-fall-as-first-time-buyer-support-disappoints"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-28/uk-homebuilders-fall-as-first-time-buyer-support-disappoints</id>
+    <updated>2026-10-28T15:37:34.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Peter Schaffrik, global macro strategist at RBC Capital Markets, and Stephanie Flanders of Bloomberg Economics react to Chancellor of the Exchequer John Healey's UK budget announcement. They speak on Bloomberg Television. (Source: Bloomberg)</summary>
+    <summary>Shares in the UK’s largest homebuilders slumped Wednesday after the government unveiled fresh details of a new policy designed to help people buy their first home that showed it expected to lend far less than a previous program.</summary>
   </entry>
   <entry>
-    <title>Healey Raises UK Banks Tax, Vows to Keep Finances Stable</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-28/healey-raises-uk-banks-tax-vows-to-keep-finances-stable-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-28/healey-raises-uk-banks-tax-vows-to-keep-finances-stable-video</id>
-    <updated>2026-10-28T14:19:25.000Z</updated>
+    <title>John Healey’s First UK Budget: What It Means for Markets</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-10-28/the-opening-trade-uk-budget-special-10-28-2026-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-10-28/the-opening-trade-uk-budget-special-10-28-2026-video</id>
+    <updated>2026-10-28T14:50:00.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Chancellor of the Exchequer John Healey pledged fiscal discipline in the face of harsh global economic conditions as he delivered the first budget of Andy Burnham’s new Labour administration. His measures included a plan to impose an additional 3% tax on banks, increasing the existing surcharge to 6%. Bloomberg's Carol</summary>
+    <summary>The Opening Trade team delivers special coverage of John Healey's first budget as UK Chancellor of the Exchequer. Anna Edwards, Guy Johnson and Tom Mackenzie anchor the program, joined by Bloomberg's Caroline Hepker live from Abingdon Green, Head of Economics and Government Stephanie Flanders and Peter Schaffrik, Chief</summary>
+  </entry>
+  <entry>
+    <title>Nvidia's open Nemotron 3.5 Transcribe combines transcription, translation, and speaker recognition</title>
+    <link href="https://the-decoder.com/nvidias-open-nemotron-3-5-transcribe-combines-transcription-translation-and-speaker-recognition"/>
+    <id>https://the-decoder.com/nvidias-open-nemotron-3-5-transcribe-combines-transcription-translation-and-speaker-recognition</id>
+    <updated>2026-10-28T15:49:39.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="RESEARCH"/>
+    <summary>Nvidia has released Nemotron 3.5 Transcribe, an open speech recognition model that handles transcription, speaker recognition, and translation and takes its instructions as text prompts. It leads several benchmarks and uses only a sixth of the active parameters of its strongest open rival. Nvidia is also shipping a dat</summary>
   </entry>
   <entry>
     <title>CohortFlow: A Steerable Clinical Cohort Curation Agent with Localized Semantic Correction</title>
@@ -266,14 +275,5 @@
     <author><name>arXiv cs.AI</name></author>
     <category term="RESEARCH"/>
     <summary>arXiv:2610.36100v1 Announce Type: new Abstract: Language model agents for clinical cohort curation should accommodate evolving eligibility criteria without repeatedly processing unchanged requirements. We introduce CohortFlow, a steerable agent that represents natural language corrections as localized updates to a stru</summary>
-  </entry>
-  <entry>
-    <title>Flávio chega aos EUA após deixar o Brasil</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-28/flavio-chega-aos-eua-apos-deixar-o-brasil-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-28/flavio-chega-aos-eua-apos-deixar-o-brasil-video</id>
-    <updated>2026-10-28T14:44:06.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Depois da derrota na eleição, Flávio Bolsonaro chega aos EUA após deixar o país via Argentina. Confira com Leonardo Lara. Edição de Patricia Xavier e produção de Gisele Fernandes e Mariana Lumy. (Source: Bloomberg)</summary>
   </entry>
 </feed>
