@@ -5,7 +5,16 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-30T00:08:43.317Z</updated>
+  <updated>2026-10-30T01:08:38.088Z</updated>
+  <entry>
+    <title>claude-code v2.1.314 released</title>
+    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.314"/>
+    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.314</id>
+    <updated>2026-10-30T01:06:26.000Z</updated>
+    <author><name>anthropics/claude-code</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>What's changed Added permissions.blockWritesOutsideWorkingDirectories : Write, Edit and NotebookEdit refuse paths outside the working directories in every permission mode Added an optional groups list to Claude apps gateway upstreams: only developers in the listed IdP groups are sent to that upstream, on failover too A — Also covered by: QwenLM/qwen-code</summary>
+  </entry>
   <entry>
     <title>An updated Model Spec for more capable and beneficial AI</title>
     <link href="https://openai.com/index/updated-model-spec"/>
@@ -14,6 +23,15 @@
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
     <summary>OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.</summary>
+  </entry>
+  <entry>
+    <title>Sam Altman: &quot;Local inference is a terrible allocation of scarce resources&quot;</title>
+    <link href="https://sh.itjust.works/post/69134826"/>
+    <id>https://sh.itjust.works/post/69134826</id>
+    <updated>2026-10-30T00:44:27.000Z</updated>
+    <author><name>Lemmy c/localllama</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>submitted by Shatur to localllama 14 points | 5 comments https://twitee.co/morqon/status/2115838856524120128 Sam Altman: A lot of people want local inference, and somehow they assume that the problem is solved now because we have open-source models, we’re going to be able to run them on our computers, and so we’re not  — Also covered by: LocalLLaMA Subreddit</summary>
   </entry>
   <entry>
     <title>How we detect frontier model misalignment</title>
@@ -48,17 +66,8 @@
     <id>https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity</id>
     <updated>2026-10-29T14:00:00.000Z</updated>
     <author><name>Wired AI</name></author>
-    <category term="MODEL RELEASES"/>
+    <category term="INDUSTRY NEWS"/>
     <summary>The French AI lab claims its latest release matches or outperforms even the best models from DeepSeek and Z.ai in coding and cybersecurity. — Also covered by: Lemmy c/localllama</summary>
-  </entry>
-  <entry>
-    <title>qwen-code v0.26.4 released</title>
-    <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.26.4"/>
-    <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.26.4</id>
-    <updated>2026-10-29T16:02:46.000Z</updated>
-    <author><name>QwenLM/qwen-code</name></author>
-    <category term="GITHUB REPOS"/>
-    <summary>Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features feat(generated-ui): follow the host theme in generated views ( #15798 ) by @qqqys feat(ci): bound autofix takeover with a round budget ( #15388 ) by @wenshao feat(verify-pr): make &quot;re-verify after up — Also covered by: QwenLM/qwen-code, QwenLM/qwen-code, anthropics/claude-code</summary>
   </entry>
   <entry>
     <title>Pasqal’s 256-Qubit Processor Finds Unexpected Quantum Magnet Behavior</title>
@@ -70,6 +79,15 @@
     <summary>Insider Brief PRESS RELEASE — Pasqal (Nasdaq: PSQL), a global leader in neutral-atom quantum computing, today announced that its 256-qubit quantum processor has revealed an unexpected behavior in a two-dimensional quantum magnet: under certain conditions, the system takes far longer to settle after being disturbed than — Also covered by: Quantum Computing Report</summary>
   </entry>
   <entry>
+    <title>Your Robot’s Safety Functions Already Work. What If the Input Lies?</title>
+    <link href="https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone"/>
+    <id>https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone</id>
+    <updated>2026-10-27T16:14:39.000Z</updated>
+    <author><name>IEEE Spectrum Robotics</name></author>
+    <category term="ROBOTICS"/>
+    <summary>This article is brought to you by VicOne . A mobile robot slows for someone in a hallway. A collaborative arm eases its movement as a worker approaches. A humanoid pauses to let a person pass. Each response depends on information about the robot or its surroundings: a distance reading, a position estimate, or a stop si</summary>
+  </entry>
+  <entry>
     <title>Le Chonk: Built for Coders, Trusted by Defenders.</title>
     <link href="https://mistral.ai/news/mistral-large-4-oss"/>
     <id>https://mistral.ai/news/mistral-large-4-oss</id>
@@ -79,49 +97,40 @@
     <summary>The weights of Mistral Large 4 (Le Chonk) are now open. A 1T parameter multimodal model, and best open-weight model for coding, trained in Europe.</summary>
   </entry>
   <entry>
-    <title>DoorDash and Thrive Go Shopping</title>
-    <link href="https://www.theinformation.com/articles/doordash-thrive-go-shopping"/>
-    <id>https://www.theinformation.com/articles/doordash-thrive-go-shopping</id>
-    <updated>2026-10-30T00:01:23.000Z</updated>
-    <author><name>The Information</name></author>
+    <title>Meta quietly launches Style Sketch, an AI fashion app that helps users put together outfit ideas using clothes they own, in Indonesia, Singapore, and Thailand (Aisha Malik/TechCrunch)</title>
+    <link href="https://www.techmeme.com/261029/p64"/>
+    <id>https://www.techmeme.com/261029/p64</id>
+    <updated>2026-10-30T00:40:02.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Get your deals in while ya still can, folks. And clearly, there are relative bargains to be had. DoorDash CEO Tony Xu gets what I’m talking about. On Thursday, Xu finally picked up Instacart, with Xu’s company saying it would pay about $17 billion for the grocery-delivery business. Over on X, Instacart founder Apoorva </summary>
+    <summary>Aisha Malik / TechCrunch : Meta quietly launches Style Sketch, an AI fashion app that helps users put together outfit ideas using clothes they own, in Indonesia, Singapore, and Thailand — Meta has quietly launched Style Sketch, an AI fashion app that helps users put together outfit ideas using clothes they already own.</summary>
   </entry>
   <entry>
-    <title>Arguably unethical behavior from Cohere</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xix61q/arguably_unethical_behavior_from_cohere"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xix61q/arguably_unethical_behavior_from_cohere</id>
-    <updated>2026-10-29T21:43:11.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>llama.cpp b11997 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b11997"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b11997</id>
+    <updated>2026-10-30T00:54:56.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>3 days ago, u/Cohere generated a huge amount of media attention and many fear-mongering headlines by publishing a largely unscientific blog post about an &quot;experiment&quot; where they used extensive pre-filling and prompt engineering to force Qwen 3.8 Flash Next to complete partial cURL commands. Today, they announced Series</summary>
+    <summary>llama : reuse the tensor staging buffer and skip the direct-io bounce buffer ( #31321 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61552516 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Lin</summary>
   </entry>
   <entry>
-    <title>Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities</title>
-    <link href="https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html"/>
-    <id>https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html</id>
-    <updated>2026-10-29T13:42:40.000Z</updated>
-    <author><name>The Hacker News</name></author>
+    <title>Claude Opus vs Sonnet vs Haiku: Which Should You Use?</title>
+    <link href="https://openrouter.ai/blog/insights/claude-opus-vs-sonnet-vs-haiku"/>
+    <id>https://openrouter.ai/blog/insights/claude-opus-vs-sonnet-vs-haiku</id>
+    <updated>2026-10-30T00:00:00.000Z</updated>
+    <author><name>OpenRouter Blog</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities. &quot;It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead in SEC-bench Pro (88</summary>
+    <summary>Use Claude Sonnet 5.5 as your default, Haiku 5.5 for high-volume and sub-agent work, and Opus 5.5 for long tasks where a mistake is costly. We compared the three on price, benchmarks, 11 coding tasks with hidden tests and a Claude Code bug fix. All three passed everything, so the difference was cost.</summary>
   </entry>
   <entry>
-    <title>Topix Overhaul Kicks Off: Three Things Investors Need to Know</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-29/topix-overhaul-kicks-off-three-things-investors-need-to-know"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-29/topix-overhaul-kicks-off-three-things-investors-need-to-know</id>
-    <updated>2026-10-29T23:56:54.000Z</updated>
+    <title>China Elevates Key Actor With Rare Politburo Pick</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-10-30/china-elevates-key-actor-with-rare-politburo-pick-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-10-30/china-elevates-key-actor-with-rare-politburo-pick-video</id>
+    <updated>2026-10-30T00:19:49.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Japan Exchange Group Inc.’s first large-scale reshuffle of the Topix Index goes into effect Friday, part of the biggest overhaul in the benchmark’s history that may shrink the number of constituents by more than one-third.</summary>
-  </entry>
-  <entry>
-    <title>Meta quietly launches an AI fashion app called Style Sketch</title>
-    <link href="https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch"/>
-    <id>https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch</id>
-    <updated>2026-10-29T19:14:36.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="PRODUCTS"/>
-    <summary>The app connects to Instagram to build a virtual closet from photos you’ve already shared, or lets you add items manually by snapping a photo, recording a quick video, or uploading images from your camera roll.</summary>
+    <summary>The Chinese Communist Party restocked its powerful Politburo for the first time in more than three decades and announced plans to hold a congress next year, where it’s set to unveil new leadership. (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>Mistral Large 4 (Le Chonk)</title>
@@ -131,6 +140,15 @@
     <author><name>huggingface/transformers</name></author>
     <category term="HARDWARE"/>
     <summary>New Models Mistral Large 4 (Le Chonk) Mistral Large 4 is Mistral's largest and most capable model to date: a 1 trillion-parameter natively multimodal Mixture-of-Experts model with 49 billion active parameters per token (52 billion including embeddings and output layers), trained from scratch on 3,800 NVIDIA Grace Black</summary>
+  </entry>
+  <entry>
+    <title>Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities</title>
+    <link href="https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html"/>
+    <id>https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html</id>
+    <updated>2026-10-29T13:42:40.000Z</updated>
+    <author><name>The Hacker News</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities. &quot;It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead in SEC-bench Pro (88</summary>
   </entry>
   <entry>
     <title>[tl;dr sec] #352 - Unprompted Slides, AWS AI Post-compromise Trends, Malicious LLM API Routers</title>
@@ -196,6 +214,15 @@
     <summary>Oct. 29, 2026 — QuantrolOx, University of Oxford spinout headquartered in Finland with offices in the UK, Netherlands, US and India, has raised €12 million in a Series A2 funding round led by IW Capital, with co-investment from the European Innovation Council (EIC) Fund. The round also includes participation from Voima</summary>
   </entry>
   <entry>
+    <title>DoorDash and Thrive Go Shopping</title>
+    <link href="https://www.theinformation.com/articles/doordash-thrive-go-shopping"/>
+    <id>https://www.theinformation.com/articles/doordash-thrive-go-shopping</id>
+    <updated>2026-10-30T00:01:23.000Z</updated>
+    <author><name>The Information</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Get your deals in while ya still can, folks. And clearly, there are relative bargains to be had. DoorDash CEO Tony Xu gets what I’m talking about. On Thursday, Xu finally picked up Instacart, with Xu’s company saying it would pay about $17 billion for the grocery-delivery business. Over on X, Instacart founder Apoorva </summary>
+  </entry>
+  <entry>
     <title>Sources: Nvidia is in talks to provide Nscale with billions of dollars in credit guarantees for debt to develop a 460MW data center that Anthropic plans to use (Phoebe Liu/The Information)</title>
     <link href="https://www.techmeme.com/261029/p59"/>
     <id>https://www.techmeme.com/261029/p59</id>
@@ -205,22 +232,13 @@
     <summary>Phoebe Liu / The Information : Sources: Nvidia is in talks to provide Nscale with billions of dollars in credit guarantees for debt to develop a 460MW data center that Anthropic plans to use — Nvidia is in talks to provide Nscale, a young AI cloud provider, with billions of dollars in credit guarantees for debt to deve</summary>
   </entry>
   <entry>
-    <title>Nvidia Moves to Backstop a Cloud Provider’s $45 Billion Anthropic Project</title>
-    <link href="https://www.theinformation.com/articles/nvidia-talks-provide-billions-credit-support-cloud-providers-45-billion-anthropic-deal"/>
-    <id>https://www.theinformation.com/articles/nvidia-talks-provide-billions-credit-support-cloud-providers-45-billion-anthropic-deal</id>
-    <updated>2026-10-29T22:40:49.000Z</updated>
-    <author><name>The Information</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Nvidia is in talks to provide Nscale, a young AI cloud provider, with billions of dollars in credit guarantees for debt to develop a 460-megawatt data center that Anthropic plans to use, according to people with knowledge of the deal discussions. The deal is not yet signed, and terms could change. But it is another exa</summary>
-  </entry>
-  <entry>
-    <title>Sam Altman: “Local inference is a terrible allocation of scarce resources”</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xizbq1/sam_altman_local_inference_is_a_terrible"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xizbq1/sam_altman_local_inference_is_a_terrible</id>
-    <updated>2026-10-29T23:11:52.000Z</updated>
+    <title>Arguably unethical behavior from Cohere</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xix61q/arguably_unethical_behavior_from_cohere"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xix61q/arguably_unethical_behavior_from_cohere</id>
+    <updated>2026-10-29T21:43:11.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Sam Altman: “ Local inference is a terrible allocation of scarce resources. A lot of people want local inference, and somehow they assume that the problem is solved now because we have open-source models, we're going to be able to run them on our computers, and so we're not going to need all the stuff in the data centr</summary>
+    <summary>3 days ago, u/Cohere generated a huge amount of media attention and many fear-mongering headlines by publishing a largely unscientific blog post about an &quot;experiment&quot; where they used extensive pre-filling and prompt engineering to force Qwen 3.8 Flash Next to complete partial cURL commands. Today, they announced Series</summary>
   </entry>
   <entry>
     <title>Free web search for my local agent stopped working. What are you paying per 1,000 queries now?</title>
@@ -232,48 +250,30 @@
     <summary>My research agent ran on a free search API for months until every call started failing last week and the SearXNG box I set up instead keeps getting its Google and Bing engines suspended for captchas, so I'm going to have to pay for one. It's maybe 3,000 to 5,000 searches a month, mostly docs and GitHub issues and I'd l</summary>
   </entry>
   <entry>
-    <title>How We Built Our Design Agent</title>
-    <link href="https://www.langchain.com/blog/design-agent"/>
-    <id>https://www.langchain.com/blog/design-agent</id>
-    <updated>2026-10-29T13:20:15.000Z</updated>
-    <author><name>LangChain Blog</name></author>
+    <title>How Much Does Claude Code Cost? Real Session Costs by Model</title>
+    <link href="https://openrouter.ai/blog/insights/claude-code-cost"/>
+    <id>https://openrouter.ai/blog/insights/claude-code-cost</id>
+    <updated>2026-10-30T00:00:00.000Z</updated>
+    <author><name>OpenRouter Blog</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>How LangChain built Content Studio, an open-source design agent in Slack that makes on-brand videos, graphics and decks, and the harness that powers it. — Also covered by: LangChain Blog</summary>
+    <summary>Claude Code is free to install, and what you pay for is the model it calls. We publish the median cost of real Claude Code sessions on OpenRouter by model and session length. This post shows those costs, why the first request costs the most, what a month of use comes to, and how to lower the bill.</summary>
   </entry>
   <entry>
-    <title>langchain v1.7.3 released</title>
-    <link href="https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.3"/>
-    <id>https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.3</id>
-    <updated>2026-10-29T20:56:14.000Z</updated>
-    <author><name>langchain-ai/langchain</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Changes since langchain-core==1.7.2 release(core): 1.7.3 ( #41564 )</summary>
-  </entry>
-  <entry>
-    <title>PAG Agrees to Buy China Evergrande Unit for $514 Million</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-10-29/pag-agrees-to-buy-china-evergrande-unit-for-514-million"/>
-    <id>https://www.bloomberg.com/news/articles/2026-10-29/pag-agrees-to-buy-china-evergrande-unit-for-514-million</id>
-    <updated>2026-10-29T23:53:01.000Z</updated>
+    <title>Bayer Wins St. Louis Roundup Trial, Bolstering Settlement Push</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-30/bayer-wins-st-louis-roundup-trial-bolstering-settlement-push"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-30/bayer-wins-st-louis-roundup-trial-bolstering-settlement-push</id>
+    <updated>2026-10-30T00:46:10.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Private equity firm PAG has agreed to buy a majority stake in Evergrande Property Services Group Ltd. for HK$4.03 billion ($514 million), according to a Hong Kong stock exchange filing, confirming a previous Bloomberg report.</summary>
+    <summary>A jury in St. Louis rejected claims by three women who blamed Bayer AG’s Roundup weedkiller for their cancers, bolstering the company’s effort to contain the cost of tens of thousands of similar lawsuits in the US that it has offered to settle.</summary>
   </entry>
   <entry>
-    <title>AWS will be a $1T business, Jassy says. But first, it will spend big.</title>
-    <link href="https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big"/>
-    <id>https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big</id>
-    <updated>2026-10-29T23:42:22.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>Dollar’s Rate-Fueled Rally Set to Ride Out US Midterm Gridlock</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-30/dollar-s-rate-fueled-rally-set-to-ride-out-us-midterm-gridlock"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-30/dollar-s-rate-fueled-rally-set-to-ride-out-us-midterm-gridlock</id>
+    <updated>2026-10-30T00:35:03.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.</summary>
-  </entry>
-  <entry>
-    <title>Coinbase reports Q3 revenue down 35% YoY to $1.22B, in line with est., and net income up 66% to $719M, its first profit in a year, on unrealized crypto gains (Olga Kharif/Bloomberg)</title>
-    <link href="https://www.techmeme.com/261029/p57"/>
-    <id>https://www.techmeme.com/261029/p57</id>
-    <updated>2026-10-29T21:55:02.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Olga Kharif / Bloomberg : Coinbase reports Q3 revenue down 35% YoY to $1.22B, in line with est., and net income up 66% to $719M, its first profit in a year, on unrealized crypto gains — Coinbase Global Inc. returned to profitability for the first time in a year while posting a quarterly decline in revenue …</summary>
+    <summary>The dollar’s rally may have enough momentum to shrug off the US midterm election, with high interest rates and a surge in AI-related spending drawing capital even if the vote delivers political gridlock.</summary>
   </entry>
 </feed>
