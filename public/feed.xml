@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-10-31T07:10:52.228Z</updated>
+  <updated>2026-10-31T07:31:52.544Z</updated>
   <entry>
     <title>claude-code v2.1.316 released</title>
     <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.316"/>
@@ -79,15 +79,6 @@
     <summary>OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.</summary>
   </entry>
   <entry>
-    <title>Proton's CEO Cancels AI 'Re-Interviews'</title>
-    <link href="https://www.404media.co/protons-ceo-cancels-ai-re-interviews"/>
-    <id>https://www.404media.co/protons-ceo-cancels-ai-re-interviews</id>
-    <updated>2026-10-30T17:24:45.000Z</updated>
-    <author><name>HN: AI (150+ points)</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Article URL: https://www.404media.co/protons-ceo-cancels-ai-re-interviews/ Comments URL: https://news.ycombinator.com/item?id=50307183 Points: 271 # Comments: 223</summary>
-  </entry>
-  <entry>
     <title>How we detect frontier model misalignment</title>
     <link href="https://openai.com/index/how-we-detect-frontier-model-misalignment"/>
     <id>https://openai.com/index/how-we-detect-frontier-model-misalignment</id>
@@ -151,13 +142,13 @@
     <summary>Andrew E. Freedman / Tom's Hardware : When talking about local inference, Sam Altman says supply-constrained DRAM is better used in data centers than sitting in PCs and “being used 5% of the time” — With data centers full of RAM, your PC is apparently the problem. … OpenAI CEO Sam Altman has data centers full of memory</summary>
   </entry>
   <entry>
-    <title>Le Chonk: Built for Coders, Trusted by Defenders.</title>
-    <link href="https://mistral.ai/news/mistral-large-4-oss"/>
-    <id>https://mistral.ai/news/mistral-large-4-oss</id>
-    <updated>2026-10-29T12:00:07.000Z</updated>
-    <author><name>Mistral AI</name></author>
+    <title>Open-Weight vs Closed-Weight Models: What's the Difference?</title>
+    <link href="https://openrouter.ai/blog/insights/open-weight-vs-closed-weight-models"/>
+    <id>https://openrouter.ai/blog/insights/open-weight-vs-closed-weight-models</id>
+    <updated>2026-10-31T00:00:00.000Z</updated>
+    <author><name>OpenRouter Blog</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>The weights of Mistral Large 4 (Le Chonk) are now open. A 1T parameter multimodal model, and best open-weight model for coding, trained in Europe.</summary>
+    <summary>An open-weight model publishes its trained weights, so anyone can run, fine-tune or serve it. A closed-weight model is only available from its maker. We used a year of OpenRouter usage data, our price catalog and benchmark scores to show what that difference changes for cost, providers and quality.</summary>
   </entry>
   <entry>
     <title>Was this the AI election?</title>
@@ -214,13 +205,13 @@
     <summary>Researchers from Sandia National Laboratories and Quantinuum have introduced &quot;Logical GST,&quot; a protocol that provides the first self-consistent, full tomographic reconstruction of a universal single-qubit logical gate set. This was implemented on a single logical qubit encoded in the [[7, 1, 3]] Steane code on the Quant</summary>
   </entry>
   <entry>
-    <title>Show HN: A working Nintendo in ~1GB of Qwen weights</title>
-    <link href="https://github.com/dbreunig/nesformer"/>
-    <id>https://github.com/dbreunig/nesformer</id>
-    <updated>2026-10-30T16:40:22.000Z</updated>
-    <author><name>HN: Chinese Frontier Labs</name></author>
+    <title>A Claude model autonomously chose a gene therapy and operated on a mouse brain with no human decision-making</title>
+    <link href="https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making"/>
+    <id>https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making</id>
+    <updated>2026-10-30T19:42:59.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Article URL: https://github.com/dbreunig/nesformer Comments URL: https://news.ycombinator.com/item?id=50306442 Points: 235 # Comments: 119</summary>
+    <summary>An AI agent performed brain surgery on an epileptic mouse, picking the drug, the brain target, and the injection coordinates on its own. According to lead researcher Ocana-Santero, it's the first time an AI agent has autonomously chosen a treatment and delivered it to a living mammal. But when a calibration error hit m</summary>
   </entry>
   <entry>
     <title>As AI models commoditize, lasting wealth will accrue to those controlling chokepoints like distribution, payment rails, and a stablecoin dollar, not to the labs (The Commanding Heights)</title>
@@ -232,6 +223,15 @@
     <summary>The Commanding Heights : As AI models commoditize, lasting wealth will accrue to those controlling chokepoints like distribution, payment rails, and a stablecoin dollar, not to the labs — Scarce, controllable positions of Economic Power whose holders durably capture the gains of Increasingly Capable and diffused intell</summary>
   </entry>
   <entry>
+    <title>Awesome-selfhosted-ai: Curated list of self-hosted open-source AI: local LLMs, chat UIs, agents, MCP servers, RAG, speech and image generation. Health-checked weekly, dead projects removed automatically.</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1xk3jhw/awesomeselfhostedai_curated_list_of_selfhosted"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1xk3jhw/awesomeselfhostedai_curated_list_of_selfhosted</id>
+    <updated>2026-10-31T07:05:48.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>The idea: the list is generated from one JSON file, and a weekly job checks each repo against the GitHub API. Archived, deleted, or year-silent projects move to a separate file automatically, and return if they become active. There is a live table with stars, last push and license, and a section for source-available to</summary>
+  </entry>
+  <entry>
     <title>b12013: quant : allow quantization for LFM3-Audio codec decoder (#31386)</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12013"/>
     <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12013</id>
@@ -239,15 +239,6 @@
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
     <summary>quantize : quantize the LFM3-Audio codec decoder, it is Q4_0 QAT quantize : drop the QAT note from the LFM3-Audio comment</summary>
-  </entry>
-  <entry>
-    <title>Looking for testers and Feedback:Cloakwall, a PII/secret-redaction proxy and LiteLLM guardrail for LLM traffic</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1xk2dsx/looking_for_testers_and_feedbackcloakwall_a"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1xk2dsx/looking_for_testers_and_feedbackcloakwall_a</id>
-    <updated>2026-10-31T05:54:06.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>submitted by /u/OldBodybuilder7090 [link] [comments]</summary>
   </entry>
   <entry>
     <title>What Does an Ontology Catch? Curated, LLM-Generated and Data-Derived Ontologies as Checkers of LLM Agents over Knowledge Graphs</title>
@@ -259,13 +250,22 @@
     <summary>arXiv:2610.37809v1 Announce Type: new Abstract: LLM agents that answer questions over Web knowledge graphs are increasingly wrapped in checks derived from the graph's ontology, on the assumption that a formal schema makes a reliable judge. Yet a checker can be wrong as well: it can miss errors, and it can flag correct </summary>
   </entry>
   <entry>
-    <title>Crypto Hack Reignites Regulatory Debate</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-10-30/crypto-hack-reignites-regulatory-debate-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-10-30/crypto-hack-reignites-regulatory-debate-video</id>
-    <updated>2026-10-30T22:08:41.000Z</updated>
+    <title>Swiss Firms Plan Investment Boost in China Drug, Finance Sectors</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-31/swiss-firms-plan-investment-boost-in-china-drug-finance-sectors"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-31/swiss-firms-plan-investment-boost-in-china-drug-finance-sectors</id>
+    <updated>2026-10-31T07:04:10.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>A $6 billion crypto hack is putting digital-asset security back in the spotlight. Former CFTC chairman J. Christopher Giancarlo, known as “CryptoDad”, argues the attack exposed vulnerabilities at an individual firm rather than a failure of underlying blockchain technology. He is also calling for the US to take a more a</summary>
+    <summary>China said Swiss companies are planning to increase investment in the country in sectors including pharmaceuticals and machinery manufacturing.</summary>
+  </entry>
+  <entry>
+    <title>India Saw 496 Million Escape Poverty Since 2011, World Bank Says</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-10-31/india-496-million-escape-poverty-since-2011-world-bank"/>
+    <id>https://www.bloomberg.com/news/articles/2026-10-31/india-496-million-escape-poverty-since-2011-world-bank</id>
+    <updated>2026-10-31T06:44:15.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>India saw about 496 million people lifted out of poverty between 2011 and 2023 in one of the world’s fastest declines in this metric, the World Bank said, although the gains remain uneven.</summary>
   </entry>
   <entry>
     <title>OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery</title>
