@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-01T02:40:08.747Z</updated>
+  <updated>2026-11-01T03:08:37.923Z</updated>
   <entry>
     <title>FBI Says North Korea Behind $6.3 Billion Binance Hack</title>
     <link href="https://www.theinformation.com/briefings/fbi-says-north-korea-behind-6-3-billion-binance-hack"/>
@@ -124,13 +124,13 @@
     <summary>Asia’s AI-heavy stock markets face a new US policy wildcard in the midterm elections, with the outcome potentially reshaping the tech trade and sectors from clean energy to defense.</summary>
   </entry>
   <entry>
-    <title>WebAnything: From the Wild Web to Scalable Agent Environments</title>
-    <link href="https://arxiv.org/abs/2610.37786"/>
-    <id>https://arxiv.org/abs/2610.37786</id>
-    <updated>2026-10-31T04:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
+    <title>Test-time scaling of diffusions with flow maps</title>
+    <link href="https://research.nvidia.com/publication/2026-12_test-time-scaling-diffusions-flow-maps"/>
+    <id>https://research.nvidia.com/publication/2026-12_test-time-scaling-diffusions-flow-maps</id>
+    <updated>2026-11-01T03:00:40.000Z</updated>
+    <author><name>NVIDIA Research</name></author>
     <category term="RESEARCH"/>
-    <summary>arXiv:2610.37786v1 Announce Type: new Abstract: Web agents require diverse, executable, and resettable website environments for reproducible training and evaluation. Human-assisted mirrors demand per-site engineering, while generative construction can diverge from specified real websites. Capture-and-replay preserves o</summary>
+    <summary>Test-time scaling of diffusions with flow maps A common recipe to improve diffusion models at test-time so that samples score highly against a user-specified reward is to introduce the gradient of the reward into the dynamics of the diffusion itself. This procedure is often ill posed, as user-specified rewards are usua</summary>
   </entry>
   <entry>
     <title>Build an AI Code Reviewer with OpenRouter</title>
@@ -142,13 +142,13 @@
     <summary>Code reviewers that only read a Git diff have to guess whether a change breaks anything, and their fixes come back as prose you apply by hand. This guide builds a Python reviewer on the OpenRouter Responses API that uploads your changed files into a Linux sandbox, runs checks to confirm each bug, and returns validated </summary>
   </entry>
   <entry>
-    <title>Judge allows NAACP lawsuit over xAI data center pollution to move forward</title>
-    <link href="https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward"/>
-    <id>https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward</id>
-    <updated>2026-10-31T21:17:03.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>NVIDIA Updates Rubin GPU Specs as First Production Hardware Arrives</title>
+    <link href="https://www.servethehome.com/nvidia-updates-rubin-gpu-specs-as-first-production-hardware-arrives"/>
+    <id>https://www.servethehome.com/nvidia-updates-rubin-gpu-specs-as-first-production-hardware-arrives</id>
+    <updated>2026-11-01T03:00:28.000Z</updated>
+    <author><name>ServeTheHome</name></author>
     <category term="HARDWARE"/>
-    <summary>An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.</summary>
+    <summary>As production hardware starts shipping, NVIDIA has updated some of the specifications for its Rubin GPU platforms The post NVIDIA Updates Rubin GPU Specs as First Production Hardware Arrives appeared first on ServeTheHome .</summary>
   </entry>
   <entry>
     <title>Vercel Labs Open-Sources agent-desktop for Agent Computer Use</title>
@@ -250,6 +250,15 @@
     <summary>Welcome, Weekenders! Next Tuesday promises to be something of a doozy. At the moment, the Democrats are poised to take back both the Senate and the House of Representatives and clean up nicely in gubernatorial races across the country. And for those of you in California who haven’t decamped to the pine-studded shores o</summary>
   </entry>
   <entry>
+    <title>Judge allows NAACP lawsuit over xAI data center pollution to move forward</title>
+    <link href="https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward"/>
+    <id>https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward</id>
+    <updated>2026-10-31T21:17:03.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.</summary>
+  </entry>
+  <entry>
     <title>+1 for Qwen 27Bs character/chat style</title>
     <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xkngat/1_for_qwen_27bs_characterchat_style"/>
     <id>https://www.reddit.com/r/LocalLLaMA/comments/1xkngat/1_for_qwen_27bs_characterchat_style</id>
@@ -266,14 +275,5 @@
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
     <summary>For those who saw the original post , a week ago, I'm glad to announce CrowdGPT v2 (more precisely v2.6), a massive update to the original CrowdGPT project :D (scroll down to see what's new) For the newcomers: CrowdGPT is a project aiming to create a LLM without datacenters and without the usual millions of dollars spe</summary>
-  </entry>
-  <entry>
-    <title>datasette-llm 0.1a9</title>
-    <link href="https://simonwillison.net/2026/Oct/31/datasette-llm"/>
-    <id>https://simonwillison.net/2026/Oct/31/datasette-llm</id>
-    <updated>2026-10-31T22:10:01.000Z</updated>
-    <author><name>Simon Willison</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. It now picks up the default model used by LLM , which means you can start using Datasette Agent without needing to explicitly co</summary>
   </entry>
 </feed>
