@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-01T21:08:44.349Z</updated>
+  <updated>2026-11-01T21:22:56.703Z</updated>
   <entry>
     <title>FBI links $6.3 billion Binance crypto heist to North Korean hackers</title>
     <link href="https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers"/>
@@ -88,13 +88,31 @@
     <summary>On Equity, we discuss why tech CEO statements can seem so tone deaf.</summary>
   </entry>
   <entry>
-    <title>llama2.c on a 2006 iPod @ 80 MHz w/ 64 MB ram and no FPU</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xlboqi/llama2c_on_a_2006_ipod_80_mhz_w_64_mb_ram_and_no"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xlboqi/llama2c_on_a_2006_ipod_80_mhz_w_64_mb_ram_and_no</id>
-    <updated>2026-11-01T19:15:26.000Z</updated>
+    <title>Getting incredible results with a single RTX 3090ti and 128gb of ram. Deepseek-V4.1-Flash-1017 (35 tok/s decode) and Qwen3.8-Flash-Next (130 tok/s decode)</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xlec67/getting_incredible_results_with_a_single_rtx"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xlec67/getting_incredible_results_with_a_single_rtx</id>
+    <updated>2026-11-01T21:01:42.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>hardware: PortalPlayer PP5022, ARM7TDMI @ 80 MHz, 64 MB ram wrote a fun rockbox plugin that runs Karpathy's llama2.c TinyStories models on an ipod video 5.5G. since there's no FPU, I ported llama2.c's int8 runq.c to use only integer math. it uses lookup tables -&gt; exp/softmax + an integer square root for RMSNorm the 15M</summary>
+    <summary>I'm sharing this here because this is working way better than it used to a few months ago with older models. I see people here posting slower speeds with much better hardware than mine and hopefully this information helps. I used gemini-flash to help me setup everything and I asked it to write up the sequence of steps </summary>
+  </entry>
+  <entry>
+    <title>crewAI v1.15.34 released</title>
+    <link href="https://github.com/crewAIInc/crewAI/releases/tag/1.15.34"/>
+    <id>https://github.com/crewAIInc/crewAI/releases/tag/1.15.34</id>
+    <updated>2026-11-01T21:21:56.000Z</updated>
+    <author><name>crewAIInc/crewAI</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>What's Changed Features Add standalone LiteLLM catalog PR before version bump Record where crewai run stops before kickoff Add crewai skill search to list the organization's skills Pass crewai run --inputs to a Python flow Add deploy create --zip and print the commit a zip is built from Document agent planning with pla</summary>
+  </entry>
+  <entry>
+    <title>Westpac Profit Misses Estimates, CEO Says Economy Uncertain</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-01/westpac-profit-misses-estimates-ceo-says-economy-uncertain"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-01/westpac-profit-misses-estimates-ceo-says-economy-uncertain</id>
+    <updated>2026-11-01T20:41:10.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Westpac Banking Corp.’s profit missed expectations as Chief Executive Officer Anthony Miller said Australia’s economic outlook remains uncertain.</summary>
   </entry>
   <entry>
     <title>Google wants video AI to understand what people need as they work</title>
@@ -102,17 +120,8 @@
     <id>https://the-decoder.com/google-wants-video-ai-to-understand-what-people-need-as-they-workgoogle-researchers-are-teaching-a-video-assistant-when-to-offer-help</id>
     <updated>2026-11-01T11:25:21.000Z</updated>
     <author><name>The Decoder</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
+    <category term="RESEARCH"/>
     <summary>A Google-led research team built StreamVibe, a video agent designed to watch people cook or assemble furniture and speak up only when help is needed. A benchmark shows that none of the tested models reliably pick the right moment in longer videos, as errors compound and response quality drops sharply. The article Googl</summary>
-  </entry>
-  <entry>
-    <title>Wall Street Braces for Biggest Treasury Sales Overhaul in Years</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-01/wall-street-braces-for-biggest-treasury-sales-overhaul-in-years"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-01/wall-street-braces-for-biggest-treasury-sales-overhaul-in-years</id>
-    <updated>2026-11-01T20:00:01.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>After Treasury Secretary Scott Bessent surprised dealers with his willingness to intervene in the bond market to drive down yields in recent months, Wall Street is now girding for the biggest revamp in guidance for US Treasuries issuance since early 2024.</summary>
   </entry>
   <entry>
     <title>Fuga de Flávio cria problema familiar para direita</title>
@@ -241,6 +250,15 @@
     <summary>Allon Sinai / CTech : ServiceNow confirms it acquired Israeli startup Sweep to speed up customers' migrations to its CRM, for an undisclosed price estimated at hundreds of millions — Bill McDermott said rollouts now take “a month ... 30 days, 60 days” for large companies, as ServiceNow pushes into CRM.</summary>
   </entry>
   <entry>
+    <title>llama2.c on a 2006 iPod @ 80 MHz w/ 64 MB ram and no FPU</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xlboqi/llama2c_on_a_2006_ipod_80_mhz_w_64_mb_ram_and_no"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xlboqi/llama2c_on_a_2006_ipod_80_mhz_w_64_mb_ram_and_no</id>
+    <updated>2026-11-01T19:15:26.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>hardware: PortalPlayer PP5022, ARM7TDMI @ 80 MHz, 64 MB ram wrote a fun rockbox plugin that runs Karpathy's llama2.c TinyStories models on an ipod video 5.5G. since there's no FPU, I ported llama2.c's int8 runq.c to use only integer math. it uses lookup tables -&gt; exp/softmax + an integer square root for RMSNorm the 15M</summary>
+  </entry>
+  <entry>
     <title>tandem.cpp: Qwen3.8-Flash-Next at 97 tok/s on a single 4090 + 64 GB RAM, 3.3× llama.cpp, works for any MoE</title>
     <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xldent/tandemcpp_qwen38flashnext_at_97_toks_on_a_single"/>
     <id>https://www.reddit.com/r/LocalLLaMA/comments/1xldent/tandemcpp_qwen38flashnext_at_97_toks_on_a_single</id>
@@ -250,15 +268,6 @@
     <summary>tandem.cpp is a patch set for llama.cpp that makes MoE models that don't fit in VRAM run faster. It keeps the most-used experts on the GPU and lets the CPU help with the rest, for any MoE model llama.cpp supports. Single-user decode is the target. Consumer PC (i5-12400F, 64 GB DDR4, RTX 4090), GSM8K, decode tok/s: Mode</summary>
   </entry>
   <entry>
-    <title>7900xtx got speedup</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xl65xy/7900xtx_got_speedup"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xl65xy/7900xtx_got_speedup</id>
-    <updated>2026-11-01T15:39:54.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>If you are running qwen3.8 27B on rx7900xtx check this out it's a super nice speedup https://github.com/thefahien/elpis-on-7900xtx submitted by /u/darc_knigh [link] [comments]</summary>
-  </entry>
-  <entry>
     <title>Adobe is testing how well AI agents can use editing tools like a Photoshop professional would</title>
     <link href="https://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would"/>
     <id>https://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would</id>
@@ -266,14 +275,5 @@
     <author><name>The Decoder</name></author>
     <category term="AGENTS &amp; TOOLS"/>
     <summary>Adobe Research and UC San Diego built EditAgent, an AI system that edits images more like a Photoshop pro. Instead of retrying the same general-purpose editor over and over, the agent picks the right specialized tool for each task and lets a standard language model choose the best result based on measured image data. T</summary>
-  </entry>
-  <entry>
-    <title>Desktop Canary v2.3.1-canary.2</title>
-    <link href="https://github.com/lobehub/lobehub/releases/tag/v2.3.1-canary.2"/>
-    <id>https://github.com/lobehub/lobehub/releases/tag/v2.3.1-canary.2</id>
-    <updated>2026-11-01T11:10:34.000Z</updated>
-    <author><name>lobehub/lobe-chat</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>🐤 Canary Build — v2.3.1-canary.2 Automated canary build from canary branch. Commit Information Based on changes since v2.3.1-canary.1 Commit count: 9 d0eb358107 🐛 fix(hetero): keep Claude Code stdin open through the turn a background task's end wakes ( #22070 ) (AmAzing-) 42eb62973c ⬆️ chore(desktop): upgrade auv to </summary>
   </entry>
 </feed>
