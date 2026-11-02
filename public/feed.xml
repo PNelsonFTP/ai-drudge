@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-02T08:20:44.976Z</updated>
+  <updated>2026-11-02T12:09:18.842Z</updated>
   <entry>
     <title>FBI links $6.3 billion Binance crypto heist to North Korean hackers</title>
     <link href="https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers"/>
@@ -14,15 +14,6 @@
     <author><name>BleepingComputer</name></author>
     <category term="CYBER THREATS"/>
     <summary>The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest cryptocurrency heist on record. [...] — Also covered by: The Hacker News</summary>
-  </entry>
-  <entry>
-    <title>Brazilian lawyers busted for attempting to manipulate court's AI with prompt injection hidden in filing — court's AI flags hidden text that demanded superficial legal scrutiny, lawyers fined $16,000</title>
-    <link href="https://www.tomshardware.com/tech-industry/artificial-intelligence/brazilian-lawyers-busted-for-attempting-to-manipulate-courts-ai-with-prompt-injection-hidden-in-filing-courts-ai-flags-hidden-text-that-demanded-superficial-legal-scrutiny-lawyers-fined-usd16-000"/>
-    <id>https://www.tomshardware.com/tech-industry/artificial-intelligence/brazilian-lawyers-busted-for-attempting-to-manipulate-courts-ai-with-prompt-injection-hidden-in-filing-courts-ai-flags-hidden-text-that-demanded-superficial-legal-scrutiny-lawyers-fined-usd16-000</id>
-    <updated>2026-11-01T15:05:00.000Z</updated>
-    <author><name>GN: Prompt Injection</name></author>
-    <category term="AI SECURITY"/>
-    <summary>Brazilian lawyers busted for attempting to manipulate court's AI with prompt injection hidden in filing — court's AI flags hidden text that demanded superficial legal scrutiny, lawyers fined $16,000 Tom's Hardware</summary>
   </entry>
   <entry>
     <title>qwen-code v0.26.5 released</title>
@@ -39,17 +30,26 @@
     <id>https://openai.com/index/helping-websites-express-ai-training-preferences</id>
     <updated>2026-10-30T09:30:00.000Z</updated>
     <author><name>OpenAI News</name></author>
-    <category term="MODEL RELEASES"/>
+    <category term="ROBOTICS"/>
     <summary>OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.</summary>
   </entry>
   <entry>
-    <title>Community safety report and new protections for teens</title>
-    <link href="https://openai.com/index/community-safety-report-and-new-protections-for-teens"/>
-    <id>https://openai.com/index/community-safety-report-and-new-protections-for-teens</id>
-    <updated>2026-10-30T09:00:00.000Z</updated>
+    <title>How we detect frontier model misalignment</title>
+    <link href="https://openai.com/index/how-we-detect-frontier-model-misalignment"/>
+    <id>https://openai.com/index/how-we-detect-frontier-model-misalignment</id>
+    <updated>2026-10-29T09:00:00.000Z</updated>
     <author><name>OpenAI News</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.</summary>
+  </entry>
+  <entry>
+    <title>Saudi Aramco takes 49 percent stake in AI firm Humain with $2.6 billion deal</title>
+    <link href="https://the-decoder.com/saudi-aramco-takes-49-percent-stake-in-ai-firm-humain-with-2-6-billion-deal"/>
+    <id>https://the-decoder.com/saudi-aramco-takes-49-percent-stake-in-ai-firm-humain-with-2-6-billion-deal</id>
+    <updated>2026-11-02T11:47:14.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.</summary>
+    <summary>Saudi Aramco is buying into Humain, the company meant to turn Saudi Arabia into a global AI hub. The article Saudi Aramco takes 49 percent stake in AI firm Humain with $2.6 billion deal appeared first on The Decoder .</summary>
   </entry>
   <entry>
     <title>DeepSeek Unveils Autonomous Coding Agent Prototype</title>
@@ -57,26 +57,26 @@
     <id>https://www.theinformation.com/briefings/deepseek-unveils-autonomous-coding-agent-prototype</id>
     <updated>2026-11-02T05:55:08.000Z</updated>
     <author><name>The Information</name></author>
-    <category term="MODEL RELEASES"/>
+    <category term="INDUSTRY NEWS"/>
     <summary>DeepSeek has unveiled a prototype of a new autonomous coding agent, as the Chinese AI lab steps up its efforts to compete with Anthropic’s Claude Code, OpenAI’s Codex and other popular coding tools. The DeepSeek Harness team open-sourced what it described as a “super agent” over the weekend. The ...</summary>
   </entry>
   <entry>
-    <title>llama.cpp b12034 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12034"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12034</id>
-    <updated>2026-11-02T08:06:05.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>Proposal: A community revolution for private quality benchmarks (and why endless chasing tok/s is rotting our brains</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xlusil/proposal_a_community_revolution_for_private"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xlusil/proposal_a_community_revolution_for_private</id>
+    <updated>2026-11-02T11:33:00.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>webgpu : fix CI by keeping scratch alloc sizes monotonic in batch length ( #31422 ) webgpu: keep scratch alloc sizes monotonic in the batch length The flash attention vec path and the MMVQ path append a scratch area after dst, but get_alloc_size only accounted for it when the current batch takes that path. The size was</summary>
+    <summary>Proposal: A community revolution for private quality benchmarks (and why endless chasing tok/s is rotting our brains honestly we in r/LocalLLaMA need a revolution of people making their own private benchmarks(not tok/s) i mean benchmarking the quality(especially across quantisation). keep yours private and share the ch</summary>
   </entry>
   <entry>
-    <title>Kneron Looks Beyond Chips as It Prepares for IPO</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-11-02/kneron-looks-beyond-chips-as-it-prepares-for-ipo-video-mvyydxep"/>
-    <id>https://www.bloomberg.com/news/videos/2026-11-02/kneron-looks-beyond-chips-as-it-prepares-for-ipo-video-mvyydxep</id>
-    <updated>2026-11-02T07:44:28.000Z</updated>
+    <title>Romania Is Offering Eurobonds After New Government Takes Office</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-02/romania-is-offering-eurobonds-after-new-government-takes-office"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-02/romania-is-offering-eurobonds-after-new-government-takes-office</id>
+    <updated>2026-11-02T11:49:08.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Founder and CEO Albert Liu says Kneron aims to become a broader provider of AI services and solutions as the chipmaker prepares for a Nasdaq listing. (Source: Bloomberg)</summary>
+    <summary>Romania is selling bonds on the international market for the first time after the country approved a new government to overcome more than five months of political turmoil.</summary>
   </entry>
   <entry>
     <title>Qistas: A Pre-Registered, Portable Protocol for Fairness Evaluation of Large Language Models</title>
@@ -88,13 +88,22 @@
     <summary>arXiv:2610.40893v1 Announce Type: new Abstract: Fairness benchmarks for large language models (LLMs) are overwhelmingly English-born and American in their social categories; translated versions carry those categories into societies where they do not apply, and almost none fix their hypotheses before the models are run.</summary>
   </entry>
   <entry>
-    <title>SemiAnalysis launches GDPx, an agentic capability benchmark measuring 11 domains, including chip design, cybersecurity, and RSI; Opus 5.5 tops with a 12% score (SemiAnalysis)</title>
-    <link href="https://www.techmeme.com/261102/p1"/>
-    <id>https://www.techmeme.com/261102/p1</id>
-    <updated>2026-11-02T05:20:00.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Bloomberg News Now</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-11-02/bloomberg-news-now-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-11-02/bloomberg-news-now-video</id>
+    <updated>2026-11-02T11:18:53.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="PRODUCTS"/>
-    <summary>SemiAnalysis : SemiAnalysis launches GDPx, an agentic capability benchmark measuring 11 domains, including chip design, cybersecurity, and RSI; Opus 5.5 tops with a 12% score — A comprehensive benchmark spanning RSI, hardware design, cyber, bio, finance, legal, quant trading, chip design, software engineering, material</summary>
+    <summary>Trump Banks on Rallies to Turn Out MAGA Faithful Again Dems Show Strength Ahead of Election Day: NYT/ Siena Polls Haley Stevens Backs GOP’s Mike Rogers in Michigan DOJ Appeals Judge’s Dismissal of AK Senate Lawsuit Gulf States Fear Fiercer Iran Retaliation If US Strikes Ukraine, Russia Report Cyberattacks on Emergency </summary>
+  </entry>
+  <entry>
+    <title>SpaceX loses bid to dismiss lawsuit over xAI data center pollution — facility allegedly emits over 5,00 tons of nitrogen oxides and 47 tons of cancer-causing formaldehyde annually</title>
+    <link href="https://www.tomshardware.com/tech-industry/data-centers/spacex-loses-bid-to-dismiss-lawsuit-over-xai-data-center-pollution-judge-rules-mississippi-gas-turbines-are-not-exempt-from-the-clean-air-act"/>
+    <id>https://www.tomshardware.com/tech-industry/data-centers/spacex-loses-bid-to-dismiss-lawsuit-over-xai-data-center-pollution-judge-rules-mississippi-gas-turbines-are-not-exempt-from-the-clean-air-act</id>
+    <updated>2026-11-02T12:00:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <category term="HARDWARE"/>
+    <summary>SpaceX loses latest legal fight over xAI's gas-powered data centers in Mississippi — court rejects arguments that mobile turbines are exempt from air permits</summary>
   </entry>
   <entry>
     <title>CoFiBreak: A Coarse-to-Fine Diversity Reward for Effective Multi-Turn Jailbreak</title>
@@ -106,67 +115,85 @@
     <summary>arXiv:2610.40926v1 Announce Type: new Abstract: Automated red teaming trains an attacker large language model (LLM) to elicit harmful responses from a victim LLM, but reinforcement learning can collapse attackers onto a narrow set of prompts when attack success is the only reward. Such a collapse of attack diversity ca</summary>
   </entry>
   <entry>
-    <title>New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value</title>
-    <link href="https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html"/>
-    <id>https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html</id>
-    <updated>2026-11-02T05:51:07.000Z</updated>
-    <author><name>The Hacker News</name></author>
+    <title>Backporting security fixes at scale with Codex</title>
+    <link href="https://blog.trailofbits.com/2026/11/02/backporting-security-fixes-at-scale-with-codex"/>
+    <id>https://blog.trailofbits.com/2026/11/02/backporting-security-fixes-at-scale-with-codex</id>
+    <updated>2026-11-02T12:00:00.000Z</updated>
+    <author><name>Trail of Bits</name></author>
+    <category term="AI SECURITY"/>
+    <summary>Stable Linux releases lack existing security fixes because backporting them is time-consuming and often thankless work. We’re using Codex to reduce the backporting process time from days to hours per fix, empowering human patch reviewers to rapidly submit fixes for critical software like Ubuntu Long Term Support, Fedor</summary>
+  </entry>
+  <entry>
+    <title>Synology warns of C3RB3R ransomware attacks targeting NAS devices</title>
+    <link href="https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks"/>
+    <id>https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks</id>
+    <updated>2026-11-02T11:28:42.000Z</updated>
+    <author><name>BleepingComputer</name></author>
     <category term="CYBER THREATS"/>
-    <summary>Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value. Like other typical stealer families, VOLTA is equipped to harvest passwords and cookies from Chromium-</summary>
+    <summary>Taiwanese network-attached storage (NAS) appliance maker Synology warned customers to update their devices immediately due to a surge in C3RB3r ransomware attacks. [...]</summary>
   </entry>
   <entry>
-    <title>Don't Just Impute, Detect: Task-Aware Diffusion Pipelines for Edge Anomaly Detection</title>
-    <link href="https://arxiv.org/abs/2610.40732"/>
-    <id>https://arxiv.org/abs/2610.40732</id>
-    <updated>2026-11-02T05:00:00.000Z</updated>
-    <author><name>arXiv cs.LG</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>arXiv:2610.40732v1 Announce Type: new Abstract: Industrial Internet of Things (IIoT) edge pipelines routinely lose contiguous blocks of multi-sensor data to network dropouts and hardware faults. The standard remedy is a disjointed &quot;impute-then-detect&quot; pipeline whose imputer is trained only for Mean Squared Error (MSE).</summary>
-  </entry>
-  <entry>
-    <title>The Hague-based Braid, whose API lets companies sell eSIM mobile plans under their own brand via 600+ carriers, raised a ~$38M Series A led by Octopus Ventures (Rahul Raj/EU-Startups)</title>
-    <link href="https://www.techmeme.com/261102/p2"/>
-    <id>https://www.techmeme.com/261102/p2</id>
-    <updated>2026-11-02T06:00:33.000Z</updated>
+    <title>Filing: Anthropic plans to raise up to $3.5B from Japanese investors as part of its IPO, joining Australia, Canada, and parts of Europe in having direct access (Yasutaka Tamura/Bloomberg)</title>
+    <link href="https://www.techmeme.com/261102/p9"/>
+    <id>https://www.techmeme.com/261102/p9</id>
+    <updated>2026-11-02T10:40:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="FUNDING &amp; DEALS"/>
-    <summary>Rahul Raj / EU-Startups : The Hague-based Braid, whose API lets companies sell eSIM mobile plans under their own brand via 600+ carriers, raised a ~$38M Series A led by Octopus Ventures — Braid, a Dutch company that enables enterprises to launch their own branded mobile connectivity, has raised &amp;euro;34.13 million ($38</summary>
+    <summary>Yasutaka Tamura / Bloomberg : Filing: Anthropic plans to raise up to $3.5B from Japanese investors as part of its IPO, joining Australia, Canada, and parts of Europe in having direct access — Anthropic PBC aims to raise up to $3.5 billion from Japanese investors in its initial public offering in the US …</summary>
   </entry>
   <entry>
-    <title>If in doubt, delete the uv.lock file</title>
-    <link href="https://simonwillison.net/2026/Nov/1/delete-uv-lock-first"/>
-    <id>https://simonwillison.net/2026/Nov/1/delete-uv-lock-first</id>
-    <updated>2026-11-01T23:24:22.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>Google Earnings, Facebook Déjà Vu, The Agent Play</title>
+    <link href="https://stratechery.com/2026/google-earnings-facebook-deja-vu-the-agent-play"/>
+    <id>https://stratechery.com/2026/google-earnings-facebook-deja-vu-the-agent-play</id>
+    <updated>2026-11-02T11:00:00.000Z</updated>
+    <author><name>Stratechery</name></author>
     <category term="ANALYSIS"/>
-    <summary>I've been getting the occasional confusing Python dependency error since switching over to Python 3.15 and the rule I'm having to remember is: If in doubt, delete the uv.lock file Most of my projects are libraries which don't include a uv.lock file, since it's rude for a library dependency to lock versions for anything</summary>
+    <summary>Google's earnings miss looks a lot like Facebook's, and that's a credit to Google. The company is being more aggressive than they get credit for.</summary>
   </entry>
   <entry>
-    <title>Rhoda AI Shows Robots Recovering From Factory Edge Cases in Schrep Visit</title>
-    <link href="https://www.humanoidsdaily.com/news/rhoda-ai-schrep-dva-factory-edge-case-demos"/>
-    <id>https://www.humanoidsdaily.com/news/rhoda-ai-schrep-dva-factory-edge-case-demos</id>
-    <updated>2026-11-01T11:07:41.000Z</updated>
+    <title>DEEP Robotics Humanoids Join Traffic Police at Hangzhou Marathon</title>
+    <link href="https://www.humanoidsdaily.com/news/deep-robotics-humanoid-traffic-police-hangzhou-marathon"/>
+    <id>https://www.humanoidsdaily.com/news/deep-robotics-humanoid-traffic-police-hangzhou-marathon</id>
+    <updated>2026-11-02T10:31:09.000Z</updated>
     <author><name>Humanoids Daily</name></author>
     <category term="ROBOTICS"/>
-    <summary>A Field Trips with Schrep visit explores Rhoda’s robot recovery demos, video-based control architecture and plans for paid industrial deployments before year-end.</summary>
+    <summary>Hangxing No.2 humanoids based on DEEP Robotics’ DR02 platform supported traffic operations around Huanglong Sports Center during the November 1 race.</summary>
   </entry>
   <entry>
-    <title>Podcast about the Topic: Part III, with Brian Greene</title>
-    <link href="https://scottaaronson.blog/?p=10270"/>
-    <id>https://scottaaronson.blog/?p=10270</id>
-    <updated>2026-10-31T21:40:33.000Z</updated>
-    <author><name>Shtetl-Optimized (Aaronson)</name></author>
+    <title>Equal1 Appoints Andrew Flynn as Chief Operating Officer</title>
+    <link href="https://thequantuminsider.com/2026/11/02/andrew-flynn-joins-equal1-chief-operating-officer"/>
+    <id>https://thequantuminsider.com/2026/11/02/andrew-flynn-joins-equal1-chief-operating-officer</id>
+    <updated>2026-11-02T11:34:39.000Z</updated>
+    <author><name>The Quantum Insider</name></author>
     <category term="QUANTUM"/>
-    <summary>Boooooo! What spooooky times we now live in, with AI rapidly advancing in capabilities and solving more and more major open math problems! So it seems like a perfect occasion to share yet another podcast. I know I’ve been dropping them like every day, but this is a special one, with Brian Greene for his […]</summary>
+    <summary>Insider Brief PRESS RELEASE — Equal1 has today announced the appointment of Andrew Flynn as Chief Operating Officer to lead operations, as the quantum computing firm scales global commercialisation of RacQ, its rack-mounted quantum computer. Andrew brings more than twenty years of experience in scaling operations, semi</summary>
   </entry>
   <entry>
-    <title>Binance Allows Customers to Resume Withdrawals, Sees $5.8 Billion Net Outflow</title>
-    <link href="https://www.theinformation.com/briefings/binance-allows-customers-resume-withdrawals-sees-5-8-billion-net-outflow"/>
-    <id>https://www.theinformation.com/briefings/binance-allows-customers-resume-withdrawals-sees-5-8-billion-net-outflow</id>
-    <updated>2026-11-01T23:18:56.000Z</updated>
-    <author><name>The Information</name></author>
+    <title>llama.cpp b12040 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12040"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12040</id>
+    <updated>2026-11-02T10:59:00.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="GITHUB REPOS"/>
+    <summary>tests : merge identical if branches ( #31523 )</summary>
+  </entry>
+  <entry>
+    <title>OpenAI prepares lobbying blitz for a post-midterm Washington</title>
+    <link href="https://the-decoder.com/openai-prepares-lobbying-blitz-for-a-post-midterm-washington"/>
+    <id>https://the-decoder.com/openai-prepares-lobbying-blitz-for-a-post-midterm-washington</id>
+    <updated>2026-11-02T10:47:59.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Binance, the world’s largest crypto exchange, saw $5.8 billion in net outflow of assets after it resumed processing withdrawals for users on Sunday morning following a historic $6.3 billion hack. The net outflow figure, tracked by crypto analytics platform DefiLlama , represents about 3% of ...</summary>
+    <summary>OpenAI is gearing up for a political lobbying and PR push after the US midterms. The article OpenAI prepares lobbying blitz for a post-midterm Washington appeared first on The Decoder .</summary>
+  </entry>
+  <entry>
+    <title>Investigation: a network of 400+ domains and apps linked to Chinese-language developers bypasses app store reviews to generate nonconsensual deepfakes and CSAM (Matt Burgess/Wired)</title>
+    <link href="https://www.techmeme.com/261102/p12"/>
+    <id>https://www.techmeme.com/261102/p12</id>
+    <updated>2026-11-02T11:35:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Matt Burgess / Wired : Investigation: a network of 400+ domains and apps linked to Chinese-language developers bypasses app store reviews to generate nonconsensual deepfakes and CSAM — WIRED uncovered some 400 apps and websites linked to Chinese-language developers that look like regular AI tools but had secret feature</summary>
   </entry>
   <entry>
     <title>AMA Announcement: Reflection, the lab behind behind Beam (Tuesday Nov 3rd, 8am-11am PT)</title>
@@ -178,15 +205,6 @@
     <summary>Join us on Tuesday to meet the product team at Reflection and to learn more about Beam, their first open-weight model! submitted by /u/Aggressive-Sign-8167 [link] [comments]</summary>
   </entry>
   <entry>
-    <title>Do we really need all these &quot;speed&quot; posts?</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xljjf2/do_we_really_need_all_these_speed_posts"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xljjf2/do_we_really_need_all_these_speed_posts</id>
-    <updated>2026-11-02T00:52:40.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>I appreciate the research and development that is going into these open source tools. However, there appears to be multiple posts on a daily basis about reaching 300 t/s, and then reading into it: Running on Q1_XXXS REAP quant Greedy decoding TAIL_SKIP (I only have 5GB RAM, but if the API ignores all experts that are n</summary>
-  </entry>
-  <entry>
     <title>Beyond Plausible Prediction: Safety Sufficiency in Web World Models</title>
     <link href="https://arxiv.org/abs/2610.40798"/>
     <id>https://arxiv.org/abs/2610.40798</id>
@@ -196,22 +214,22 @@
     <summary>arXiv:2610.40798v1 Announce Type: new Abstract: Web world models increasingly predict the consequences of candidate actions before agents act, yet a plausible predicted future does not necessarily support the correct safety decision. In a matched human evaluation of 3,000 predictions from ten frozen open models, 86.1% </summary>
   </entry>
   <entry>
-    <title>Ryanair Slashes Costs After €2 Billion Fuel-Charge Increase</title>
-    <link href="https://www.bloomberg.com/news/newsletters/2026-11-02/ryanair-slashes-costs-after-2-billion-fuel-charge-increase"/>
-    <id>https://www.bloomberg.com/news/newsletters/2026-11-02/ryanair-slashes-costs-after-2-billion-fuel-charge-increase</id>
-    <updated>2026-11-02T07:31:26.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Plus, it’s been a good month for the pound against the euro</summary>
+    <title>More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum</title>
+    <link href="https://arxiv.org/abs/2610.40758"/>
+    <id>https://arxiv.org/abs/2610.40758</id>
+    <updated>2026-11-02T05:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>arXiv:2610.40758v1 Announce Type: new Abstract: Self-evolving agents rewrite a persistent state from feedback, but it is largely untested whether this lets them learn a rule nobody told them. An agent can also pass by writing down each correction as an exception, and its list then grows with every new rule. We introduc</summary>
   </entry>
   <entry>
-    <title>Turkish Market Clearinghouse CEO Resigns as Fund Probe Widens</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-02/turkish-market-clearinghouse-ceo-resigns-as-fund-probe-widens"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-02/turkish-market-clearinghouse-ceo-resigns-as-fund-probe-widens</id>
-    <updated>2026-11-02T07:25:14.000Z</updated>
+    <title>Trump Says He May Become ‘Mr. Veto’ if Democrats Win Midterms</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-11-02/the-pulse-11-2-2026-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-11-02/the-pulse-11-2-2026-video</id>
+    <updated>2026-11-02T11:45:56.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Yunus Arinci, the chief executive officer of Turkey’s settlement and custody bank Takasbank, resigned after being questioned by prosecutors as part of an investigation into the country’s fund crisis, according to people familiar with the matter.</summary>
+    <summary>&quot;The Pulse With Francine Lacqua&quot; is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story is, bringing you exclusive interviews and market-moving scoops. Today's guests: Derek Halpenny, MUFG Head of Research f</summary>
   </entry>
   <entry>
     <title>Incongruence-Aware Evaluation of Multimodal Speech Emotion Recognition in Audio Large Language Models</title>
@@ -223,6 +241,15 @@
     <summary>arXiv:2610.40883v1 Announce Type: new Abstract: Voice-interactive large language models process both what a speaker says and how they say it, yet the two channels do not always agree. We ask whether that disagreement degrades speech emotion recognition. Mapping text and audio into a shared valence-arousal-dominance spa</summary>
   </entry>
   <entry>
+    <title>Meet qwenGPU: Qwen3.5-2B With 45 Compiled GPU Layers That Run CUDA</title>
+    <link href="https://www.marktechpost.com/2026/11/01/qwengpu-simt-gpu-compiled-into-qwen3-5-2b-weights-runs-cuda"/>
+    <id>https://www.marktechpost.com/2026/11/01/qwengpu-simt-gpu-compiled-into-qwen3-5-2b-weights-runs-cuda</id>
+    <updated>2026-11-02T07:28:29.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="PRODUCTS"/>
+    <summary>qwenGPU compiles a 4-lane SIMT GPU into Qwen3.5-2B as 45 untrained layers. The model writes every step of real CUDA launches itself, using Gated DeltaNet state as registers and memory. The post Meet qwenGPU: Qwen3.5-2B With 45 Compiled GPU Layers That Run CUDA appeared first on MarkTechPost .</summary>
+  </entry>
+  <entry>
     <title>Game Off 2026: The theme is SHIFT</title>
     <link href="https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift"/>
     <id>https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift</id>
@@ -232,13 +259,13 @@
     <summary>GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press a certain key. The post Game Off 2026: The theme is SHIFT appeared first on The GitHub Blog .</summary>
   </entry>
   <entry>
-    <title>OpenAI's upcoming chat-and-work merger in ChatGPT signals the end of all-you-can-prompt pricing</title>
-    <link href="https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing"/>
-    <id>https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing</id>
-    <updated>2026-11-01T09:51:06.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="PRODUCTS"/>
-    <summary>OpenAI combines the Chat and Work modes into a single interface. Starting in December, Plus, Pro, and Business plans will share a common, token-based quota for ChatGPT and Codex. More complex models consume more of this quota, while simple instant chats do not count toward it. In practice, this is likely to result in a</summary>
+    <title>Andes Waits For Market Momentum For Cuzco CPU</title>
+    <link href="https://www.eetimes.com/andes-waits-for-market-momentum-for-cuzco-cpu"/>
+    <id>https://www.eetimes.com/andes-waits-for-market-momentum-for-cuzco-cpu</id>
+    <updated>2026-11-02T12:00:00.000Z</updated>
+    <author><name>EE Times</name></author>
+    <category term="HARDWARE"/>
+    <summary>Andes CTO Charlie Su said the company put its high-end RISC-V CPU on the back burner for commercial reasons. The post Andes Waits For Market Momentum For Cuzco CPU appeared first on EE Times .</summary>
   </entry>
   <entry>
     <title>GDPx: Measuring Frontier Model Capabilities Across the Most Valuable Domains</title>
@@ -248,32 +275,5 @@
     <author><name>SemiAnalysis Newsletter</name></author>
     <category term="HARDWARE"/>
     <summary>A frontier benchmark spanning RSI, hardware design, cyber, bio, finance, legal, quant trading, chip design, software engineering, materials science, and alignment</summary>
-  </entry>
-  <entry>
-    <title>AI Reshapes Memory Architecture as Macronix Expands Flash Portfolio</title>
-    <link href="https://www.eetimes.com/ai-reshapes-memory-architecture-as-macronix-expands-flash-portfolio"/>
-    <id>https://www.eetimes.com/ai-reshapes-memory-architecture-as-macronix-expands-flash-portfolio</id>
-    <updated>2026-11-02T05:00:00.000Z</updated>
-    <author><name>EE Times</name></author>
-    <category term="HARDWARE"/>
-    <summary>AI-driven high-bandwidth memory demand is reshaping memory markets, boosting mature flash products as Macronix expands its portfolio for AI workloads. The post AI Reshapes Memory Architecture as Macronix Expands Flash Portfolio appeared first on EE Times .</summary>
-  </entry>
-  <entry>
-    <title>Alpine Linux rebuilds GitLab after attempted RCE attack</title>
-    <link href="https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack"/>
-    <id>https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack</id>
-    <updated>2026-11-01T15:11:21.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over concerns of a possible compromise. [...]</summary>
-  </entry>
-  <entry>
-    <title>DeepSeek Open-Sources dsh-superagent, a Router-Worker Coding Agent</title>
-    <link href="https://www.marktechpost.com/2026/11/01/deepseek-dsh-superagent-router-worker-coding-agent"/>
-    <id>https://www.marktechpost.com/2026/11/01/deepseek-dsh-superagent-router-worker-coding-agent</id>
-    <updated>2026-11-01T07:47:17.000Z</updated>
-    <author><name>MarkTechPost</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>DeepSeek released dsh-superagent, an MIT-licensed research prototype that turns GitHub and Feishu requests into parallel worker sessions. In DeepSeek’s own simulation, p95 task completion fell to 15.7 minutes from 29.5 minutes. The post DeepSeek Open-Sources dsh-superagent, a Router-Worker Coding Agent appeared first o</summary>
   </entry>
 </feed>
