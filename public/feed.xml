@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-02T08:08:42.262Z</updated>
+  <updated>2026-11-02T08:20:44.976Z</updated>
   <entry>
     <title>FBI links $6.3 billion Binance crypto heist to North Korean hackers</title>
     <link href="https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers"/>
@@ -169,22 +169,22 @@
     <summary>Binance, the world’s largest crypto exchange, saw $5.8 billion in net outflow of assets after it resumed processing withdrawals for users on Sunday morning following a historic $6.3 billion hack. The net outflow figure, tracked by crypto analytics platform DefiLlama , represents about 3% of ...</summary>
   </entry>
   <entry>
-    <title>NV Boosts 124B Model Inference Speed by 42.5% on DGX Spark</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1xlnhcg/nv_boosts_124b_model_inference_speed_by_425_on"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1xlnhcg/nv_boosts_124b_model_inference_speed_by_425_on</id>
-    <updated>2026-11-02T04:11:08.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>AMA Announcement: Reflection, the lab behind behind Beam (Tuesday Nov 3rd, 8am-11am PT)</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xlmkk4/ama_announcement_reflection_the_lab_behind_behind"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xlmkk4/ama_announcement_reflection_the_lab_behind_behind</id>
+    <updated>2026-11-02T03:22:28.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>NVIDIA just published a blog on optimizing ling 3.0 flash to run on a DGX spark. It's a 124B moe model from Ant's inclusionai. They worked on MoE kernels, FP8 quantization, and speculative decoding. 42.5% higher decoding throughput and 24.5% lower latency on the full GSM8K evaluation. Source: https://developer.nvidia.c</summary>
+    <summary>Join us on Tuesday to meet the product team at Reflection and to learn more about Beam, their first open-weight model! submitted by /u/Aggressive-Sign-8167 [link] [comments]</summary>
   </entry>
   <entry>
-    <title>Getting incredible results with a single RTX 3090ti and 128gb of ram. Deepseek-V4.1-Flash-1017 (35 tok/s decode) and Qwen3.8-Flash-Next (130 tok/s decode)</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1xlp1yv/getting_incredible_results_with_a_single_rtx"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1xlp1yv/getting_incredible_results_with_a_single_rtx</id>
-    <updated>2026-11-02T05:37:51.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>Do we really need all these &quot;speed&quot; posts?</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xljjf2/do_we_really_need_all_these_speed_posts"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xljjf2/do_we_really_need_all_these_speed_posts</id>
+    <updated>2026-11-02T00:52:40.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>I'm sharing this here because this is working way better than it used to a few months ago with older models. I see people here posting slower speeds with much better hardware than mine and hopefully this information helps. I used gemini-flash to help me setup everything and I asked it to write up the sequence of steps </summary>
+    <summary>I appreciate the research and development that is going into these open source tools. However, there appears to be multiple posts on a daily basis about reaching 300 t/s, and then reading into it: Running on Q1_XXXS REAP quant Greedy decoding TAIL_SKIP (I only have 5GB RAM, but if the API ignores all experts that are n</summary>
   </entry>
   <entry>
     <title>Beyond Plausible Prediction: Safety Sufficiency in Web World Models</title>
@@ -194,15 +194,6 @@
     <author><name>arXiv cs.AI</name></author>
     <category term="AGENTS &amp; TOOLS"/>
     <summary>arXiv:2610.40798v1 Announce Type: new Abstract: Web world models increasingly predict the consequences of candidate actions before agents act, yet a plausible predicted future does not necessarily support the correct safety decision. In a matched human evaluation of 3,000 predictions from ten frozen open models, 86.1% </summary>
-  </entry>
-  <entry>
-    <title>More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum</title>
-    <link href="https://arxiv.org/abs/2610.40758"/>
-    <id>https://arxiv.org/abs/2610.40758</id>
-    <updated>2026-11-02T05:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>arXiv:2610.40758v1 Announce Type: new Abstract: Self-evolving agents rewrite a persistent state from feedback, but it is largely untested whether this lets them learn a rule nobody told them. An agent can also pass by writing down each correction as an exception, and its list then grows with every new rule. We introduc</summary>
   </entry>
   <entry>
     <title>Ryanair Slashes Costs After €2 Billion Fuel-Charge Increase</title>
@@ -275,5 +266,14 @@
     <author><name>BleepingComputer</name></author>
     <category term="OPEN SOURCE"/>
     <summary>Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over concerns of a possible compromise. [...]</summary>
+  </entry>
+  <entry>
+    <title>DeepSeek Open-Sources dsh-superagent, a Router-Worker Coding Agent</title>
+    <link href="https://www.marktechpost.com/2026/11/01/deepseek-dsh-superagent-router-worker-coding-agent"/>
+    <id>https://www.marktechpost.com/2026/11/01/deepseek-dsh-superagent-router-worker-coding-agent</id>
+    <updated>2026-11-01T07:47:17.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>DeepSeek released dsh-superagent, an MIT-licensed research prototype that turns GitHub and Feishu requests into parallel worker sessions. In DeepSeek’s own simulation, p95 task completion fell to 15.7 minutes from 29.5 minutes. The post DeepSeek Open-Sources dsh-superagent, a Router-Worker Coding Agent appeared first o</summary>
   </entry>
 </feed>
