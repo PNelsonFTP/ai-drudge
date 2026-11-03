@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-03T14:08:47.737Z</updated>
+  <updated>2026-11-03T15:08:45.785Z</updated>
   <entry>
     <title>Heimstaden is changing residential real estate management with AI</title>
     <link href="https://openai.com/index/heimstaden"/>
@@ -14,6 +14,15 @@
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.</summary>
+  </entry>
+  <entry>
+    <title>The TechCrunch Founder Summit agenda is only half the reason to be in Boston on Nov. 4</title>
+    <link href="https://techcrunch.com/2026/11/03/the-techcrunch-founder-summit-agenda-is-only-half-the-reason-to-be-in-boston-on-nov-4"/>
+    <id>https://techcrunch.com/2026/11/03/the-techcrunch-founder-summit-agenda-is-only-half-the-reason-to-be-in-boston-on-nov-4</id>
+    <updated>2026-11-03T14:30:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>On Nov. 4, TechCrunch Founder Summit 2026 brings founders and VCs to Boston's SoWa Power Station for practical insights and connections. Register before prices increase at the door.</summary>
   </entry>
   <entry>
     <title>Tomorrow: TechCrunch Founder Summit takes over Boston and when pass rates increase</title>
@@ -43,6 +52,15 @@
     <summary>Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.</summary>
   </entry>
   <entry>
+    <title>[AINews] LLMs can read &amp; write neural network weights: &quot;Weight Space Programming&quot; cuts Autoresearch out of the RSI loop</title>
+    <link href="https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of"/>
+    <id>https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of</id>
+    <updated>2026-11-03T05:35:00.000Z</updated>
+    <author><name>Latent Space</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Editing Qwen’s weights to reduce reasoning loops, DeepSeek’s super-agent prototype, and the GDPx benchmark. — Also covered by: LocalLLaMA Subreddit</summary>
+  </entry>
+  <entry>
     <title>claude-code v2.1.317 released</title>
     <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.317"/>
     <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.317</id>
@@ -50,15 +68,6 @@
     <author><name>anthropics/claude-code</name></author>
     <category term="AGENTS &amp; TOOLS"/>
     <summary>What's changed Added a warning to /schedule when a new cloud scheduled task gets connectors you did not ask for, with how to remove them Added a check that asks before a web or shell tool call sends your account email address to the network Added onFailure: &quot;block&quot; for Agent SDK hook callbacks, so a callback that fails — Also covered by: QwenLM/qwen-code</summary>
-  </entry>
-  <entry>
-    <title>Trajectory raises $45M to make AI model training accessible to nontechnical experts</title>
-    <link href="https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts"/>
-    <id>https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts</id>
-    <updated>2026-11-02T23:13:53.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>The one-year-old startup is now valued at $300 million.</summary>
   </entry>
   <entry>
     <title>Powering up for a pivotal moment</title>
@@ -83,18 +92,18 @@
     <link href="https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai"/>
     <id>https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai</id>
     <updated>2026-11-02T18:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="CYBER DEFENSE"/>
+    <author><name>OpenAI Blog</name></author>
+    <category term="PRODUCTS"/>
     <summary>OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.</summary>
   </entry>
   <entry>
-    <title>ollama v0.40.14 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.14"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.14</id>
-    <updated>2026-11-03T06:57:31.000Z</updated>
-    <author><name>ollama/ollama</name></author>
+    <title>llama.cpp b12072 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12072"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12072</id>
+    <updated>2026-11-03T15:03:32.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>What's Changed ollama launch claude now applies the model's output token limit for Claude Code, so cloud models no longer run into the 128k default cap Cloud web search responses on /api/chat are now decoded correctly, including compressed responses OpenAI-compatible endpoints no longer override a model's packaged samp</summary>
+    <summary>llama : drop the redundant cnv from llm_attn_mask ( #31558 ) The dspark block mask is now derived at input-fill time: llm_attn_mask::block_uniform fills every token of a sequence with the mask row of its first token, so the graph-level reshape/repeat in dflash is gone and cnv always aliases raw. Assisted-by: dsh:llama.</summary>
   </entry>
   <entry>
     <title>Anthropic Touts Claude’s Chip Design Skills to IPO Investors</title>
@@ -106,22 +115,22 @@
     <summary>Anthropic’s AI models have helped uncover serious cyber vulnerabilities and transform the software coding profession. Now the company is seeing just how much of an advantage its models can give it in unfamiliar terrain: designing its own AI chips. The company, which is barreling toward an initial public offering later </summary>
   </entry>
   <entry>
-    <title>llama.cpp b12069 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12069"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12069</id>
-    <updated>2026-11-03T11:23:28.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>opencl: add initial iq4_xs support ( #31339 ) opencl: add iq4_xs AOS mv Assisted-by: Codex opencl: add iq4_xs SOA mv and tiled mm Assisted-by: Codex opencl: add iq4_xs noshuffle gemm/gemv for adreno Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com Assisted-by: Codex opencl: add iq4_xs dp4a for adreno Co-authored-by: </summary>
+    <title>ollama v0.40.14 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.14"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.14</id>
+    <updated>2026-11-03T06:57:31.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>What's Changed ollama launch claude now applies the model's output token limit for Claude Code, so cloud models no longer run into the 128k default cap Cloud web search responses on /api/chat are now decoded correctly, including compressed responses OpenAI-compatible endpoints no longer override a model's packaged samp</summary>
   </entry>
   <entry>
-    <title>Argentina’s US IPO Revival Stalls as Market Rout Chills Debuts</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-03/argentina-s-us-ipo-revival-stalls-as-market-rout-chills-debuts"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-03/argentina-s-us-ipo-revival-stalls-as-market-rout-chills-debuts</id>
-    <updated>2026-11-03T13:26:51.000Z</updated>
+    <title>Cinven Set to Back Theramex Acquisition With €1.5 Billion Debt</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-03/cinven-set-to-back-theramex-acquisition-with-1-5-billion-debt"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-03/cinven-set-to-back-theramex-acquisition-with-1-5-billion-debt</id>
+    <updated>2026-11-03T14:06:27.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Two Argentine energy companies have put plans for US initial public offerings this year on hold, dealing a blow to hopes of reviving the country’s long-dormant market for New York stock listings as a rout in local assets and global market turmoil dampen investor appetite.</summary>
+    <summary>Cinven is tapping banks to help finance its acquisition of specialty pharmaceutical company Theramex with debt financing of around €1.5 billion ($1.7 billion).</summary>
   </entry>
   <entry>
     <title>Queering the Audits: Community-Based Auditing of AI Harms to Queer Communities</title>
@@ -187,31 +196,22 @@
     <summary>I sent out the October edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . This month: The October inflection point for vibe game development The vulnerability apocalypse gets hot LLM releases API credits for $100+/month subscriptions What I'm usin</summary>
   </entry>
   <entry>
-    <title>Could the Human Brain Be the Next Computer Interface?</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-11-03/brainco-on-brain-computer-interfaces-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-11-03/brainco-on-brain-computer-interfaces-video</id>
-    <updated>2026-11-03T13:44:38.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
+    <title>Xiaomi Shows Humanoids Sorting Car Parts in Eight-Hour Factory Demonstration</title>
+    <link href="https://www.humanoidsdaily.com/news/xiaomi-humanoids-eight-hour-auto-factory-sorting"/>
+    <id>https://www.humanoidsdaily.com/news/xiaomi-humanoids-eight-hour-auto-factory-sorting</id>
+    <updated>2026-11-03T11:21:30.000Z</updated>
+    <author><name>Humanoids Daily</name></author>
     <category term="ROBOTICS"/>
-    <summary>Nyx He, Founding Partner, BrainCo, discusses the convergence of AI, neurotechnology and robotics and the path from emerging technology to real-world products with Bloomberg’s Tom Giles at the 2026 Bloomberg Tech in London. (Source: Bloomberg)</summary>
+    <summary>Xiaomi’s latest video shows two humanoids sorting center-console side covers over an eight-hour task, with claimed autonomous error recovery and production-line coordination.</summary>
   </entry>
   <entry>
-    <title>Universal Quantum Combines Ion Trap, Controls and Modular Links in New Chip</title>
-    <link href="https://thequantuminsider.com/2026/11/03/universal-quantum-combines-ion-trap-controls-and-modular-links-in-new-chip"/>
-    <id>https://thequantuminsider.com/2026/11/03/universal-quantum-combines-ion-trap-controls-and-modular-links-in-new-chip</id>
-    <updated>2026-11-03T12:17:43.000Z</updated>
+    <title>FirstQFM Says Quantum System Beats Classical Forecasting Benchmarks</title>
+    <link href="https://thequantuminsider.com/2026/11/03/firstqfm-says-quantum-system-beats-classical-forecasting-benchmarks"/>
+    <id>https://thequantuminsider.com/2026/11/03/firstqfm-says-quantum-system-beats-classical-forecasting-benchmarks</id>
+    <updated>2026-11-03T14:01:10.000Z</updated>
     <author><name>The Quantum Insider</name></author>
     <category term="QUANTUM"/>
-    <summary>Insider Brief PRESS RELEASE — Universal Quantum launches the iQPU, an integrated quantum processing unit designed to make quantum computers practical to manufacture, scale and deploy cost effectively. Combining the largest trapped-ion compute surface with built-in ultra-low noise control technology and modular chip-to-</summary>
-  </entry>
-  <entry>
-    <title>The 'Astra can read and write weights to improve Qwen' post is misleading</title>
-    <link href="https://honnibal.dev/blog/astra-read-write-misleading"/>
-    <id>https://honnibal.dev/blog/astra-read-write-misleading</id>
-    <updated>2026-11-03T12:21:17.000Z</updated>
-    <author><name>HN: Chinese Frontier Labs</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Article URL: https://honnibal.dev/blog/astra-read-write-misleading Comments URL: https://news.ycombinator.com/item?id=50351111 Points: 255 # Comments: 51 — Also covered by: HN: Chinese Frontier Labs</summary>
+    <summary>Insider Brief PRESS RELEASE — FirstQFM today announced results from a financial forecasting evaluation in which its proprietary foundation-model-based quantum reservoir computing (QRC) system, running on Rigetti Computing’s Cepheus™-1-108Q system using data supplied by SW7 Group, outperformed state-of-the-art classical</summary>
   </entry>
   <entry>
     <title>Bug hunters can now earn up to $172,000 from OpenAI as company ramps up security</title>
@@ -223,13 +223,13 @@
     <summary>OpenAI quadruples bug bounty payouts and launches new internal security sprint. The article Bug hunters can now earn up to $172,000 from OpenAI as company ramps up security appeared first on The Decoder .</summary>
   </entry>
   <entry>
-    <title>Shopify reports Q3 revenue up 32% YoY to $3.74B, vs. $3.75B est., GMV up 29% to $119.1B, net income up 75% to $462M, and adjusted EPS of $0.49; SHOP falls 15%+ (Adriano Marchese/Wall Street Journal)</title>
+    <title>Shopify reports Q3 revenue up 32% YoY to $3.74B, vs. $3.75B est., GMV up 29% to $119.15B, net income up 75% to $462M, and adjusted EPS of $0.49; SHOP falls 9%+ (Adriano Marchese/Wall Street Journal)</title>
     <link href="https://www.techmeme.com/261103/p13"/>
     <id>https://www.techmeme.com/261103/p13</id>
     <updated>2026-11-03T12:40:00.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Adriano Marchese / Wall Street Journal : Shopify reports Q3 revenue up 32% YoY to $3.74B, vs. $3.75B est., GMV up 29% to $119.1B, net income up 75% to $462M, and adjusted EPS of $0.49; SHOP falls 15%+ — The ecommerce company's third-quarter revenue rose to $3.74 billion from $2.84 billion — Shopify reported higher thir</summary>
+    <summary>Adriano Marchese / Wall Street Journal : Shopify reports Q3 revenue up 32% YoY to $3.74B, vs. $3.75B est., GMV up 29% to $119.15B, net income up 75% to $462M, and adjusted EPS of $0.49; SHOP falls 9%+ — The ecommerce company's third-quarter revenue rose to $3.74 billion from $2.84 billion — Shopify reported higher thir</summary>
   </entry>
   <entry>
     <title>New England-based autonomous submarine startup Corridian emerges from stealth with a $38M seed led by Point72 Ventures and plans to unveil its first AUV in 2027 (Colin Demarest/Axios)</title>
@@ -241,22 +241,22 @@
     <summary>Colin Demarest / Axios : New England-based autonomous submarine startup Corridian emerges from stealth with a $38M seed led by Point72 Ventures and plans to unveil its first AUV in 2027 — Corridian, a New England-based robo-submarine maker, exited stealth Tuesday morning alongside word of its $38 million seed.</summary>
   </entry>
   <entry>
-    <title>Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets</title>
-    <link href="https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html"/>
-    <id>https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html</id>
-    <updated>2026-11-03T08:31:48.000Z</updated>
-    <author><name>The Hacker News</name></author>
+    <title>b12073: vulkan: fix out-of-bounds NVFP4 UE4M3 scale lookup (#31079)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12073"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12073</id>
+    <updated>2026-11-03T06:58:56.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>BTCPay Server, a self-hosted, open-source cryptocurrency payment processor, has urged users to install the latest version of its software in response to reports of Bitcoin and Litecoin being stolen from hot wallets on instances running older versions. &quot;Our investigation found that these attacks targeted servers running</summary>
+    <summary>vulkan : fix out-of-bounds NVFP4 UE4M3 scale lookup On the non-OCP path, ue4m3_fp32_lut has 128 entries and is indexed with the raw scale byte. ggml_validate_row_data accepts every byte and ggml_ue4m3_to_fp32 ignores bit 7, so a byte &gt;= 0x80 reads past the shared array. Vulkan robustness does not cover shared memory. S</summary>
   </entry>
   <entry>
-    <title>Revolut moves to self-hosted GLM</title>
-    <link href="https://twitter.com/guilleflorvs/status/2117379073785696395"/>
-    <id>https://twitter.com/guilleflorvs/status/2117379073785696395</id>
-    <updated>2026-11-03T09:53:59.000Z</updated>
-    <author><name>HN: Chinese Frontier Labs</name></author>
+    <title>What Qwen is thinking when it gets stuck saying &quot;Wait&quot;</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xms9ii/what_qwen_is_thinking_when_it_gets_stuck_saying"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xms9ii/what_qwen_is_thinking_when_it_gets_stuck_saying</id>
+    <updated>2026-11-03T12:58:05.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Article URL: https://twitter.com/guilleflorvs/status/2117379073785696395 Comments URL: https://news.ycombinator.com/item?id=50350004 Points: 160 # Comments: 123</summary>
+    <summary>MIT CSAIL had GPT-6 Astra fix Qwen3.5-0.8B's reasoning loops by editing 0.016% of its weights (MATH-500 went from 7.9% to 48.1%). They released the diff, so the edit can be rebuilt exactly and run locally. I took it a step further and had Claude look at Qwen with Anthropic's Jacobian lens. At the token where the model </summary>
   </entry>
   <entry>
     <title>Anthropic's Message Threads cut time to first token by 35 percent for long conversations</title>
