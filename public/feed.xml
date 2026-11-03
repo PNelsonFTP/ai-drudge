@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-03T06:56:35.624Z</updated>
+  <updated>2026-11-03T08:08:36.595Z</updated>
   <entry>
     <title>Rewarding defenders with bigger bug bounties</title>
     <link href="https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties"/>
@@ -16,15 +16,6 @@
     <summary>OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.</summary>
   </entry>
   <entry>
-    <title>Introducing the Grid Protectors Program</title>
-    <link href="https://openai.com/index/grid-protectors-program"/>
-    <id>https://openai.com/index/grid-protectors-program</id>
-    <updated>2026-11-02T15:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.</summary>
-  </entry>
-  <entry>
     <title>Scaling Git at OpenAI</title>
     <link href="https://openai.com/index/scaling-git-at-openai"/>
     <id>https://openai.com/index/scaling-git-at-openai</id>
@@ -32,6 +23,15 @@
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
     <summary>How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.</summary>
+  </entry>
+  <entry>
+    <title>Introducing the Grid Protectors Program</title>
+    <link href="https://openai.com/index/grid-protectors-program"/>
+    <id>https://openai.com/index/grid-protectors-program</id>
+    <updated>2026-11-02T15:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.</summary>
   </entry>
   <entry>
     <title>LifeVal</title>
@@ -97,15 +97,6 @@
     <summary>HONG KONG, Nov. 2, 2026 — The Hong Kong Monetary Authority (HKMA) and The Hong Kong University of Science and Technology (HKUST) today launched the Post-Quantum Cryptography (PQC) Toolkit (Toolkit), with support from industry participants. The Toolkit sets out a structured and comprehensive framework to guide banks in </summary>
   </entry>
   <entry>
-    <title>Google disrupts million-device XCPE Android malware botnet, bans TV box maker</title>
-    <link href="https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker"/>
-    <id>https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker</id>
-    <updated>2026-11-02T18:16:34.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Google and industry partners have dismantled the XCPE malware botnet consisting of more than 1.3 million Android TV streaming TV boxes that Google says its manufacturer intentionally infected with malware to generate revenue through cybercrime activities. [...] — Also covered by: The Hacker News</summary>
-  </entry>
-  <entry>
     <title>Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens</title>
     <link href="https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens"/>
     <id>https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens</id>
@@ -115,13 +106,22 @@
     <summary>Y Combinator Garry Tan has jokingly admitted that he's suffered from &quot;cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast, The Builders, Tan put a price tag on his passion.</summary>
   </entry>
   <entry>
+    <title>Google disrupts million-device XCPE Android malware botnet, bans TV box maker</title>
+    <link href="https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker"/>
+    <id>https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker</id>
+    <updated>2026-11-02T18:16:34.000Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Google and industry partners have dismantled the XCPE malware botnet consisting of more than 1.3 million Android TV streaming TV boxes that Google says its manufacturer intentionally infected with malware to generate revenue through cybercrime activities. [...] — Also covered by: The Hacker News</summary>
+  </entry>
+  <entry>
     <title>ollama v0.40.14 released</title>
     <link href="https://github.com/ollama/ollama/releases/tag/v0.40.14"/>
     <id>https://github.com/ollama/ollama/releases/tag/v0.40.14</id>
-    <updated>2026-11-03T06:48:56.000Z</updated>
+    <updated>2026-11-03T06:57:31.000Z</updated>
     <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>What's Changed ci: pin buildx to workaround deadlock by @dhiltgen in #19373 openai: preserve readable Responses input content by @hoyyeva in #19192 mlx: sort long top-k rows in chunks by @dhiltgen in #19392 app: make ChatGPT disconnect failures retryable by @hoyyeva in #19336 launch: use model output limits for Claude </summary>
+    <summary>What's Changed ollama launch claude now applies the model's output token limit for Claude Code, so cloud models no longer run into the 128k default cap Cloud web search responses on /api/chat are now decoded correctly, including compressed responses OpenAI-compatible endpoints no longer override a model's packaged samp</summary>
   </entry>
   <entry>
     <title>Google expands Dreambeans to India, its first market outside the US, offering AI-generated visual stories from users' digital activity in 13 local languages (Jagmeet Singh/TechCrunch)</title>
@@ -133,22 +133,22 @@
     <summary>Jagmeet Singh / TechCrunch : Google expands Dreambeans to India, its first market outside the US, offering AI-generated visual stories from users' digital activity in 13 local languages — Google has launched its experimental AI app Dreambeans in India, its first market outside the U.S., as the company looks to tap …</summary>
   </entry>
   <entry>
-    <title>[AINews] LLMs can read &amp; write neural network weights: &quot;Weight Space Programming&quot; cuts Autoresearch out of the RSI loop</title>
-    <link href="https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of"/>
-    <id>https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of</id>
-    <updated>2026-11-03T05:35:00.000Z</updated>
-    <author><name>Latent Space</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Editing Qwen’s weights to reduce reasoning loops, DeepSeek’s super-agent prototype, and the GDPx benchmark.</summary>
+    <title>llama.cpp b12064 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12064"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12064</id>
+    <updated>2026-11-03T05:45:56.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>hexagon: tiled hvx permute ( #31446 ) hexagon: add tiled HVX transpose path for permuted CONT/CPY Permuted copies where dst dim 0 is strided in src, but some other src dim is contiguous, used to fall back to HTP_COPY_KERNEL_RESHAPE. That issues one DMA descriptor per element. The channel-first &lt;-&gt; channel-last permutes</summary>
   </entry>
   <entry>
-    <title>XRG to Buy Shell Australian LNG Plant Stake for $1.5 Billion</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-03/abu-dhabi-state-oil-producer-xrg-buy-shell-stake-australian-natural-gas-project"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-03/abu-dhabi-state-oil-producer-xrg-buy-shell-stake-australian-natural-gas-project</id>
-    <updated>2026-11-03T06:06:48.000Z</updated>
+    <title>Congo to Probe Illegal Mining After Seizing Copper and Cobalt</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-03/congo-to-probe-illegal-mining-after-seizing-copper-and-cobalt"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-03/congo-to-probe-illegal-mining-after-seizing-copper-and-cobalt</id>
+    <updated>2026-11-03T07:25:50.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The energy investment arm of Abu Dhabi’s state oil producer agreed to pay $1.45 billion for Shell Plc’s stake in an Australian natural gas project, the latest in a series of deals as the Middle Eastern company seeks to expand globally.</summary>
+    <summary>Officials in the Democratic Republic of Congo seized thousands of tons of copper and cobalt, prompting the justice minister to order an investigation into allegations of widespread illegal mining.</summary>
   </entry>
   <entry>
     <title>OpenAI Introduces Pando: A Git Backend That Cuts Median Push Latency ~80%</title>
@@ -158,6 +158,15 @@
     <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
     <summary>OpenAI built Pando, a Git-compatible backend for its monorepo. It handles branches independently, reuses stored packfiles across fetches, cut median push latency by nearly 80%, and now delivers nearly a petabyte of Git data per day. The post OpenAI Introduces Pando: A Git Backend That Cuts Median Push Latency ~80% appe</summary>
+  </entry>
+  <entry>
+    <title>Apple Watch’s AI features for rewinding and recapping conversations begin beta testing</title>
+    <link href="https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing"/>
+    <id>https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing</id>
+    <updated>2026-11-03T07:20:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Now in beta: Apple's new Audio Intelligence features can help you remember what someone said or take notes on conversations.</summary>
   </entry>
   <entry>
     <title>Announcing the Special Interest Group (SIG) for Ray on Accelerators</title>
@@ -187,13 +196,13 @@
     <summary>The ability to monitor AI models to detect what they’re trying to do and why is widely considered a crucial part of the effort to keep the technology operating safely. It’s also increasingly hard to do, said Joseph Bloom, the head of model transparency at the U.K. AI Security Institute. “In general, we’re seeing monito</summary>
   </entry>
   <entry>
-    <title>Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors</title>
-    <link href="https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html"/>
-    <id>https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html</id>
-    <updated>2026-11-03T05:34:41.000Z</updated>
+    <title>Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw</title>
+    <link href="https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html"/>
+    <id>https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html</id>
+    <updated>2026-11-03T07:43:07.000Z</updated>
     <author><name>The Hacker News</name></author>
     <category term="CYBER THREATS"/>
-    <summary>A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed. The vulnerability, tracked as CVE-2026-58115 (CVSS score: 10.0), is a case of missing authentication for a critical function that could be exploited by an unauthenticated remot</summary>
+    <summary>Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks. The Taiwanese vendor said it observed threat actors exploiting a vulnerability patched in December 2024 to target devices running outdated versions of DSM. &quot;The</summary>
   </entry>
   <entry>
     <title>Unit 42 Threat Intelligence Highlights - Nov. 2, 2026</title>
@@ -232,15 +241,6 @@
     <summary>I discovered a sound that leaks your exact location (and it's everywhere) - YouTube Genius piece of OSINT by Colsto, who demonstrates how you can take almost imperceptible background noise of planes from a video soundtrack, figure out their Doppler curves, then cross reference them against ADS-B data to find the exact </summary>
   </entry>
   <entry>
-    <title>Astra can read and write weights to improve Qwen</title>
-    <link href="https://rikiyat.github.io/blog/weight-space-programming"/>
-    <id>https://rikiyat.github.io/blog/weight-space-programming</id>
-    <updated>2026-11-02T18:21:28.000Z</updated>
-    <author><name>HN: Chinese Frontier Labs</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Article URL: https://rikiyat.github.io/blog/weight-space-programming/ Comments URL: https://news.ycombinator.com/item?id=50341174 Points: 2382 # Comments: 743</summary>
-  </entry>
-  <entry>
     <title>b12065: kv-cache : never return 0 kv_rows for sequences without cells (#31570)</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12065"/>
     <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12065</id>
@@ -259,21 +259,21 @@
     <summary>Aditi Bharade / Business Insider : Larridin, which helps companies track how AI affects employee output and identifies areas for better AI adoption, raised a $30M Series A led by Pelion Ventures — Companies went all in on AI this year, and are now reckoning with heavy bills. One startup wants to get under the hood and </summary>
   </entry>
   <entry>
-    <title>llama.cpp b12064 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12064"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12064</id>
-    <updated>2026-11-03T05:45:56.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>DeepSeek V5 is planned to be pre-trained on Huawei Ascend chips.</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xmmadn/deepseek_v5_is_planned_to_be_pretrained_on_huawei"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xmmadn/deepseek_v5_is_planned_to_be_pretrained_on_huawei</id>
+    <updated>2026-11-03T07:07:11.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>hexagon: tiled hvx permute ( #31446 ) hexagon: add tiled HVX transpose path for permuted CONT/CPY Permuted copies where dst dim 0 is strided in src, but some other src dim is contiguous, used to fall back to HTP_COPY_KERNEL_RESHAPE. That issues one DMA descriptor per element. The channel-first &lt;-&gt; channel-last permutes</summary>
+    <summary>Source: https://mp.weixin.qq.com/s/R-1u2exLwZMOu7AITyU5kg A reporter from STAR Market Daily has learned from multiple sources within the industry supply chain that DeepSeek’s next-generation large model, DeepSeek V5, is planned to be pre-trained using Ascend chips. Previously, Huawei’s Ascend chips were primarily utili</summary>
   </entry>
   <entry>
-    <title>DeepSeek V4.1 Flash (552B) on a used Dell R820 from 2012: 10 tok/s decode, 100 tok/s prefill</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1xmiwkh/deepseek_v41_flash_552b_on_a_used_dell_r820_from"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1xmiwkh/deepseek_v41_flash_552b_on_a_used_dell_r820_from</id>
-    <updated>2026-11-03T03:59:26.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>Alibaba's Qwen Code repo just leaked qwen4-max, qwen4-coder-plus, and qwen4-omni-120b</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xmitzx/alibabas_qwen_code_repo_just_leaked_qwen4max"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xmitzx/alibabas_qwen_code_repo_just_leaked_qwen4max</id>
+    <updated>2026-11-03T03:55:43.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>picked up a secondhand dell r820 for 750aud. 4x xeon e5-4640 from 2012 (avx only, no avx2), 768gb ddr3, quadro p2200 5gb. has enough ram to fit deepseek v4.1 flash (552b moe) fully in memory first run on stock llama.cpp got 0.43 tok/s decode and 4.2 tok/s prefill used opus to hillclimb it with a goal of 10 tok/s decode</summary>
+    <summary>PRs: https://github.com/QwenLM/qwen-code/pull/15762: &quot;Measured on main at 79a9b753c60 , before this change: qwen4 , qwen4-max , qwen4-plus , qwen4.5-max , qwen4-coder-plus , qwen4-max-2026-10-01 , openai/qwen4-max and qwen4-omni-120b-think all resolved to 262,144. The last of those is already in use as the session mode</summary>
   </entry>
 </feed>
