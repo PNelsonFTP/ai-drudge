@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-03T01:08:43.687Z</updated>
+  <updated>2026-11-03T02:08:43.889Z</updated>
   <entry>
     <title>Introducing the Grid Protectors Program</title>
     <link href="https://openai.com/index/grid-protectors-program"/>
@@ -43,6 +43,24 @@
     <summary>How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.</summary>
   </entry>
   <entry>
+    <title>claude-code v2.1.317 released</title>
+    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.317"/>
+    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.317</id>
+    <updated>2026-11-03T01:25:46.000Z</updated>
+    <author><name>anthropics/claude-code</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>What's changed Added a warning to /schedule when a new cloud scheduled task gets connectors you did not ask for, with how to remove them Added a check that asks before a web or shell tool call sends your account email address to the network Added onFailure: &quot;block&quot; for Agent SDK hook callbacks, so a callback that fails — Also covered by: QwenLM/qwen-code</summary>
+  </entry>
+  <entry>
+    <title>Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens</title>
+    <link href="https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens"/>
+    <id>https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens</id>
+    <updated>2026-11-03T00:35:52.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Y Combinator Garry Tan has jokingly admitted that he's suffered from &quot;cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast, The Builders, Tan put a price tag on his passion.</summary>
+  </entry>
+  <entry>
     <title>Powering up for a pivotal moment</title>
     <link href="https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102"/>
     <id>https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102</id>
@@ -70,15 +88,6 @@
     <summary>Google and industry partners have dismantled the XCPE malware botnet consisting of more than 1.3 million Android TV streaming TV boxes that Google says its manufacturer intentionally infected with malware to generate revenue through cybercrime activities. [...] — Also covered by: The Hacker News</summary>
   </entry>
   <entry>
-    <title>qwen-code v0.26.6 released</title>
-    <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.26.6"/>
-    <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.26.6</id>
-    <updated>2026-11-02T19:39:20.000Z</updated>
-    <author><name>QwenLM/qwen-code</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features Adds a Web Shell sidebar activity view for trusted workspace conversations, showing approval/input/error states, unread completions, running work, and bulk read/archive controls. ( #16022 ) by @deggs — Also covered by: QwenLM/qwen-code, anthropics/claude-code</summary>
-  </entry>
-  <entry>
     <title>2 days till TechCrunch Founder Summit: Boston founders don’t need a Silicon Valley address to build something big</title>
     <link href="https://techcrunch.com/2026/11/02/2-days-till-techcrunch-founder-summit-boston-founders-dont-need-a-silicon-valley-address-to-build-something-big"/>
     <id>https://techcrunch.com/2026/11/02/2-days-till-techcrunch-founder-summit-boston-founders-dont-need-a-silicon-valley-address-to-build-something-big</id>
@@ -97,13 +106,13 @@
     <summary>OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.</summary>
   </entry>
   <entry>
-    <title>Astra can read and write weights to improve Qwen</title>
-    <link href="https://rikiyat.github.io/blog/weight-space-programming"/>
-    <id>https://rikiyat.github.io/blog/weight-space-programming</id>
-    <updated>2026-11-02T18:21:28.000Z</updated>
-    <author><name>HN: Chinese Frontier Labs</name></author>
+    <title>ollama v0.40.14 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.14-rc0"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.14-rc0</id>
+    <updated>2026-11-03T01:40:40.000Z</updated>
+    <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Article URL: https://rikiyat.github.io/blog/weight-space-programming/ Comments URL: https://news.ycombinator.com/item?id=50341174 Points: 1865 # Comments: 591</summary>
+    <summary>What's Changed ci: pin buildx to workaround deadlock by @dhiltgen in #19373 openai: preserve readable Responses input content by @hoyyeva in #19192 mlx: sort long top-k rows in chunks by @dhiltgen in #19392 app: make ChatGPT disconnect failures retryable by @hoyyeva in #19336 launch: use model output limits for Claude </summary>
   </entry>
   <entry>
     <title>Exclusive: Salesforce Acquires Startup Cresta for $2.7 Billion</title>
@@ -115,15 +124,6 @@
     <summary>Salesforce extended its recent shopping spree, announcing on Monday plans to acquire Cresta, a nine-year-old provider of AI-powered contact center automation software. Salesforce didn’t disclose a price but it agreed to pay $2.7 billion for Cresta, according to a person familiar with the deal. ...</summary>
   </entry>
   <entry>
-    <title>llama.cpp b12063 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12063"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12063</id>
-    <updated>2026-11-03T01:02:32.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>dflash: copy hidden features via device copies ( #31506 )</summary>
-  </entry>
-  <entry>
     <title>Managed Deep Agents: the fastest way to ship a production deep agent</title>
     <link href="https://www.langchain.com/blog/introducing-managed-deep-agents"/>
     <id>https://www.langchain.com/blog/introducing-managed-deep-agents</id>
@@ -133,13 +133,13 @@
     <summary>Run deep agents in production with durable execution, sandboxes, tool access, and LangSmith observability, without building the runtime yourself. Now in private beta</summary>
   </entry>
   <entry>
-    <title>Apple Sales Cool</title>
-    <link href="https://www.theinformation.com/briefings/apple-sales-cool"/>
-    <id>https://www.theinformation.com/briefings/apple-sales-cool</id>
-    <updated>2026-11-02T23:39:01.000Z</updated>
-    <author><name>The Information</name></author>
+    <title>Offshore Yuan Weakens on PBOC’s Move to Raise FX Reserve Ratio</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-03/offshore-yuan-weakens-after-pboc-moves-to-cool-currency-rally"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-03/offshore-yuan-weakens-after-pboc-moves-to-cool-currency-rally</id>
+    <updated>2026-11-03T01:06:15.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>In Apple’s first earnings under new chief executive John Ternus, the company reported sales growth slowed in its fiscal fourth quarter. Total revenue for the September quarter was $114.5 billion, up from 12% from the previous year, its slowest sales growth for the year. The iPhone business ...</summary>
+    <summary>The offshore yuan headed for its first decline in almost three weeks after the People’s Bank of China said it will raise the foreign-exchange reserve requirement ratio from Nov. 15.</summary>
   </entry>
   <entry>
     <title>The Letter Company Releases Letterpress-1: A Coding Agent Built for Growth Engineering</title>
@@ -149,15 +149,6 @@
     <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
     <summary>Letter has released the beta of Letterpress-1, a coding agent, harness and IDE for growth engineering. It reads a git-based site and its market, then opens pull requests for SEO, GEO and conversion work. The post The Letter Company Releases Letterpress-1: A Coding Agent Built for Growth Engineering appeared first on Ma</summary>
-  </entry>
-  <entry>
-    <title>Marvell Proposes Acquiring Lumentum to Combine Optical Circuit Switching with AI Connectivity Silicon</title>
-    <link href="https://www.servethehome.com/marvell-to-acquire-lumentum-115-billion-optical-ai-connectivity"/>
-    <id>https://www.servethehome.com/marvell-to-acquire-lumentum-115-billion-optical-ai-connectivity</id>
-    <updated>2026-11-02T22:30:09.000Z</updated>
-    <author><name>ServeTheHome</name></author>
-    <category term="HARDWARE"/>
-    <summary>Marvell announced its intention to acquire Lumentum in a $115B acquisition to further optical connectivity in the AI era The post Marvell Proposes Acquiring Lumentum to Combine Optical Circuit Switching with AI Connectivity Silicon appeared first on ServeTheHome .</summary>
   </entry>
   <entry>
     <title>Trajectory, which is developing AI model post-training tools for nontechnical customers, raised a $45M Series A led by Sequoia at a $300M valuation (Marina Temkin/TechCrunch)</title>
@@ -178,13 +169,13 @@
     <summary>Models including GPT-5.6 Sol appear to reward-hack because this increases their score; and recent models also care about increasing the score of their peer agents.</summary>
   </entry>
   <entry>
-    <title>Backporting security fixes at scale with Codex</title>
-    <link href="https://blog.trailofbits.com/2026/11/02/backporting-security-fixes-at-scale-with-codex"/>
-    <id>https://blog.trailofbits.com/2026/11/02/backporting-security-fixes-at-scale-with-codex</id>
-    <updated>2026-11-02T12:00:00.000Z</updated>
-    <author><name>Trail of Bits</name></author>
+    <title>AI Models Are Getting Harder to Monitor, Says U.K. Government’s Joseph Bloom</title>
+    <link href="https://www.theinformation.com/articles/ai-models-getting-harder-monitor-says-u-k-governments-joseph-bloom"/>
+    <id>https://www.theinformation.com/articles/ai-models-getting-harder-monitor-says-u-k-governments-joseph-bloom</id>
+    <updated>2026-11-03T02:03:15.000Z</updated>
+    <author><name>The Information</name></author>
     <category term="AI SECURITY"/>
-    <summary>Stable Linux releases lack existing security fixes because backporting them is time-consuming and often thankless work. We’re using Codex to reduce the backporting process time from days to hours per fix, empowering human patch reviewers to rapidly submit fixes for critical software like Ubuntu Long Term Support, Fedor</summary>
+    <summary>The ability to monitor AI models to detect what they’re trying to do and why is widely considered a crucial part of the effort to keep the technology operating safely. It’s also increasingly hard to do, said Joseph Bloom, the head of model transparency at the U.K. AI Security Institute. “In general, we’re seeing monito</summary>
   </entry>
   <entry>
     <title>Chinese hackers use ARTEX AI in automated attacks against 200 orgs</title>
@@ -223,13 +214,22 @@
     <summary>Tutor Intelligence has raised funding to further develop its picking robots, networked intelligence, and commercial deployments. The post Tutor Intelligence raises Series B to scale model training, robot deployments appeared first on The Robot Report .</summary>
   </entry>
   <entry>
-    <title>ollama v0.40.14-rc0 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.14-rc0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.14-rc0</id>
-    <updated>2026-11-03T00:59:50.000Z</updated>
-    <author><name>ollama/ollama</name></author>
-    <category term="GITHUB REPOS"/>
-    <summary>server: decode cloud web search responses ( #19476 )</summary>
+    <title>Apple Sales Cool</title>
+    <link href="https://www.theinformation.com/briefings/apple-sales-cool"/>
+    <id>https://www.theinformation.com/briefings/apple-sales-cool</id>
+    <updated>2026-11-02T23:39:01.000Z</updated>
+    <author><name>The Information</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>In Apple’s first earnings under new chief executive John Ternus, the company reported sales growth slowed in its fiscal fourth quarter. Total revenue for the September quarter was $114.5 billion, up from 12% from the previous year, its slowest sales growth for the year. The iPhone business ...</summary>
+  </entry>
+  <entry>
+    <title>llama.cpp b12063 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12063"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12063</id>
+    <updated>2026-11-03T01:42:00.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>dflash: copy hidden features via device copies ( #31506 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62913415 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu ar</summary>
   </entry>
   <entry>
     <title>New sparse attention method for ultra-long context</title>
@@ -241,31 +241,13 @@
     <summary>I am on the team behind the attached open-source research on novel approaches to attention - specifically we show: • You can sparsify the attention of Qwen 3.8 27B without observed loss on accuracy • Extending context up to 10M tokens loses accuracy on some specific tasks - but most, like NIAH is still fine (interestin</summary>
   </entry>
   <entry>
-    <title>Inconsistencies in Unsloth's LiveCodeBench Results</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xm9i4x/inconsistencies_in_unsloths_livecodebench_results"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xm9i4x/inconsistencies_in_unsloths_livecodebench_results</id>
-    <updated>2026-11-02T21:05:47.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>I compared two published benchmark charts for DeepSeek-V4.1-Flash-1017 and noticed something rather unusual. All four Unsloth quantizations AND the Q8 baseline simultaneously improved by approximately 2–3 percentage points on LiveCodeBench v6. Meanwhile, the GSQ-RCO results changed much less consistently. 1. The number</summary>
-  </entry>
-  <entry>
-    <title>Apple’s Slowdown</title>
-    <link href="https://www.theinformation.com/articles/apples-slowdown"/>
-    <id>https://www.theinformation.com/articles/apples-slowdown</id>
-    <updated>2026-11-03T01:01:27.000Z</updated>
-    <author><name>The Information</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Apple’s new CEO, John Ternus, has learned from the best. The script for his first earnings call on Monday was so full of marketing palaver about Apple products, and so lacking in information, that Ternus’ predecessor, Tim Cook, must have been glowing with pride. Perhaps after seeing investors freak out last week when o</summary>
-  </entry>
-  <entry>
-    <title>Pakistan’s Rebound Masks Deeper Problems Weighing on Economy</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-03/pakistan-s-rebound-masks-deeper-problems-weighing-on-economy"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-03/pakistan-s-rebound-masks-deeper-problems-weighing-on-economy</id>
-    <updated>2026-11-03T01:00:00.000Z</updated>
+    <title>China's He Lifeng on Hong Kong's Financial Edge</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-11-03/china-s-he-lifeng-on-hong-kong-s-financial-edge-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-11-03/china-s-he-lifeng-on-hong-kong-s-financial-edge-video</id>
+    <updated>2026-11-03T01:22:52.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Pakistan’s soaring stock market, record foreign reserves and improving credit ratings are signaling an economy on the mend. Beneath the surface, the recovery remains far less convincing.</summary>
+    <summary>China's Vice Premier He Lifeng urges Hong Kong to utilize its One Country, Two Systems governance model to foster openness to global trade. (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>Qistas: A Pre-Registered, Portable Protocol for Fairness Evaluation of Large Language Models</title>
@@ -275,5 +257,23 @@
     <author><name>arXiv cs.CL</name></author>
     <category term="RESEARCH"/>
     <summary>arXiv:2610.40893v1 Announce Type: new Abstract: Fairness benchmarks for large language models (LLMs) are overwhelmingly English-born and American in their social categories; translated versions carry those categories into societies where they do not apply, and almost none fix their hypotheses before the models are run.</summary>
+  </entry>
+  <entry>
+    <title>Marvell Proposes Acquiring Lumentum to Combine Optical Circuit Switching with AI Connectivity Silicon</title>
+    <link href="https://www.servethehome.com/marvell-to-acquire-lumentum-115-billion-optical-ai-connectivity"/>
+    <id>https://www.servethehome.com/marvell-to-acquire-lumentum-115-billion-optical-ai-connectivity</id>
+    <updated>2026-11-02T22:30:09.000Z</updated>
+    <author><name>ServeTheHome</name></author>
+    <category term="HARDWARE"/>
+    <summary>Marvell announced its intention to acquire Lumentum in a $115B acquisition to further optical connectivity in the AI era The post Marvell Proposes Acquiring Lumentum to Combine Optical Circuit Switching with AI Connectivity Silicon appeared first on ServeTheHome .</summary>
+  </entry>
+  <entry>
+    <title>Announcing the Special Interest Group (SIG) for Ray on Accelerators</title>
+    <link href="https://pytorch.org/blog/announcing-the-special-interest-group-sig-for-ray-on-accelerators"/>
+    <id>https://pytorch.org/blog/announcing-the-special-interest-group-sig-for-ray-on-accelerators</id>
+    <updated>2026-11-02T17:45:32.000Z</updated>
+    <author><name>PyTorch Blog</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Today, we are announcing the Special Interest Group (SIG) for Ray on hardware accelerators. When Ray was created in UC Berkeley over 10 years ago, the computing landscape looked very... The post Announcing the Special Interest Group (SIG) for Ray on Accelerators appeared first on PyTorch .</summary>
   </entry>
 </feed>
