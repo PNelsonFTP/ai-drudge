@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-04T18:02:48.514Z</updated>
+  <updated>2026-11-04T18:08:54.597Z</updated>
   <entry>
     <title>TechCrunch Founder Summit 2026: Doors open at 9 a.m. ET in Boston</title>
     <link href="https://techcrunch.com/2026/11/04/techcrunch-founder-summit-2026-todays-the-day"/>
@@ -133,13 +133,13 @@
     <summary>Isaac Kasahara / Pangram : Pangram releases Pangram Image 1.0, which it says is state-of-the-art in AI image and AI video detection, and the smaller Image Flash 1.0 for AI video detection — State-of-the-art AI image and video detection with our latest Pangram Image models. … A few months ago, we released Pangram Image </summary>
   </entry>
   <entry>
-    <title>llama.cpp v0.9.0 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/v0.9.0"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/v0.9.0</id>
-    <updated>2026-11-04T13:09:55.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>Slow is smart and smart is fast</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xnsckx/slow_is_smart_and_smart_is_fast"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xnsckx/slow_is_smart_and_smart_is_fast</id>
+    <updated>2026-11-04T16:17:20.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Overview This release adds OCP FP8 E4M3 quantization support, a new flash_attn_ext_rows op that makes the unified KV cache efficient for multi-sequence inference, and a generic batched tensor copy API. Four new architectures are supported (Clover, Limite, Metis-1.6 and Mistral Large 4), audio generation and transcripti</summary>
+    <summary>Maybe this is obvious to many people, but when I started getting into Qwen 3.8 27B or Flash-Next for coding, I initially looked into all the ways to boost performance in terms of tok/sec. I'm using a 5090 with 64 GB system RAM, and when I first installed Strata to test Flash-Next, I picked IQ3_XXS and of course I said </summary>
   </entry>
   <entry>
     <title>Alcohol Jumps as Blue Wave Lifts Trade, Immigration Hope</title>
@@ -214,6 +214,15 @@
     <summary>Our first open model economy research note for paid subscribers.</summary>
   </entry>
   <entry>
+    <title>llama.cpp v0.9.0 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/v0.9.0"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/v0.9.0</id>
+    <updated>2026-11-04T13:09:55.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="GITHUB REPOS"/>
+    <summary>Overview This release adds OCP FP8 E4M3 quantization support, a new flash_attn_ext_rows op that makes the unified KV cache efficient for multi-sequence inference, and a generic batched tensor copy API. Four new architectures are supported (Clover, Limite, Metis-1.6 and Mistral Large 4), audio generation and transcripti</summary>
+  </entry>
+  <entry>
     <title>US parents and teachers: share your thoughts on Google turning off Search for schools that reject AI</title>
     <link href="https://www.theguardian.com/technology/2026/nov/04/google-search-ai-schools"/>
     <id>https://www.theguardian.com/technology/2026/nov/04/google-search-ai-schools</id>
@@ -232,22 +241,13 @@
     <summary>Ivan Mehta / TechCrunch : Titan OS, which monetizes smart TVs via ads and FAST deals, raised $46M in equity and debt, taking its total funding to $110M, and says it now has 30M users — Barcelona-based smart TV operating system maker Titan OS has raised $46 million in new funding, consisting of both equity and debt, the</summary>
   </entry>
   <entry>
-    <title>Chinese AI Writes Weaker Code for Beijing’s Adversaries. We Fixed It. A Qwen3-Coder Case Study</title>
-    <link href="https://sh.itjust.works/post/69418418"/>
-    <id>https://sh.itjust.works/post/69418418</id>
-    <updated>2026-11-04T17:04:56.000Z</updated>
-    <author><name>Lemmy c/localllama</name></author>
+    <title>Unsloth Qwen3.8-Flash-Next GGUFs V3.1 Update (November 4th 2026)</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xnuva2/unsloth_qwen38flashnext_ggufs_v31_update_november"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xnuva2/unsloth_qwen38flashnext_ggufs_v31_update_november</id>
+    <updated>2026-11-04T17:51:33.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by Shatur to localllama 12 points | 3 comments https://www.hirundo.io/blog/qwen3-coder-vulnerabilities I’m not sure I believe the article… And the model is quite old. Posing here to hear your opinions.</summary>
-  </entry>
-  <entry>
-    <title>ollama v0.40.15 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.15-rc0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.15-rc0</id>
-    <updated>2026-11-03T22:52:31.000Z</updated>
-    <author><name>ollama/ollama</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>What's Changed mlx: load bundled CUDA libraries in-process on Linux by @dhiltgen in #19433 model: add MiMo V2.6 model support by @dhiltgen in #19400 Full Changelog : v0.40.14...v0.40.15-rc0</summary>
+    <summary>now you can spend your evening downloading new version of QFN https://unsloth.ai/docs/models/qwen3.8-next &quot;15% higher accuracy&quot; submitted by /u/jacek2023 [link] [comments]</summary>
   </entry>
   <entry>
     <title>OpenAI Agrees to Buy Software Startup Pierre to Bolster Codex</title>
