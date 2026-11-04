@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-03T23:42:54.222Z</updated>
+  <updated>2026-11-04T00:08:43.424Z</updated>
   <entry>
-    <title>Qwen 3.8 27B on my laptop can interpret model weights, too</title>
-    <link href="https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights"/>
-    <id>https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights</id>
-    <updated>2026-11-03T16:29:48.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>claude-code v2.1.318 released</title>
+    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.318"/>
+    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.318</id>
+    <updated>2026-11-04T00:01:03.000Z</updated>
+    <author><name>anthropics/claude-code</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read &amp; write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a &quot;blog post&quot;, but it's paper-shaped) found that frontier models, in particular GPT-6 Astra, can both</summary>
+    <summary>What's changed Added a record of your answer when Claude Code asks to turn on the mods it writes in a session Added assume_role on mantle upstreams of the Claude apps gateway, for a role in another AWS account and for per-developer AWS cost attribution Added an effort option to a mod's $.model.fork , so a quick side jo — Also covered by: QwenLM/qwen-code</summary>
   </entry>
   <entry>
     <title>AI inference startup Fal doubles its valuation to $16B as demand surges</title>
@@ -70,15 +70,6 @@
     <summary>Also covered by: Ai2 (Allen Institute)</summary>
   </entry>
   <entry>
-    <title>claude-code v2.1.317 released</title>
-    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.317"/>
-    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.317</id>
-    <updated>2026-11-03T01:25:46.000Z</updated>
-    <author><name>anthropics/claude-code</name></author>
-    <category term="GITHUB REPOS"/>
-    <summary>What's changed Added a warning to /schedule when a new cloud scheduled task gets connectors you did not ask for, with how to remove them Added a check that asks before a web or shell tool call sends your account email address to the network Added onFailure: &quot;block&quot; for Agent SDK hook callbacks, so a callback that fails — Also covered by: QwenLM/qwen-code</summary>
-  </entry>
-  <entry>
     <title>Automating subtle emergent misalignment research</title>
     <link href="https://www.lesswrong.com/posts/MuQDLAJyKJPFkw6q9/automating-subtle-emergent-misalignment-research"/>
     <id>https://www.lesswrong.com/posts/MuQDLAJyKJPFkw6q9/automating-subtle-emergent-misalignment-research</id>
@@ -88,6 +79,15 @@
     <summary>Authors: Oscar Balcells Obeso, Richard Qi, Monte MacDiarmid, Evan Hubinger Abstract Red-teaming by humans is a vital part of model safety testing, but it may struggle to keep up as models improve. To test whether automated safety techniques could scale (which would allow us to turn more compute into progressively more  — Also covered by: AI Alignment Forum</summary>
   </entry>
   <entry>
+    <title>Powering up for a pivotal moment</title>
+    <link href="https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102"/>
+    <id>https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102</id>
+    <updated>2026-11-02T19:55:00.000Z</updated>
+    <author><name>MIT News AI</name></author>
+    <category term="RESEARCH"/>
+    <summary>From a nuclear revival to qubits, the MIT Energy Initiative’s annual research conference tracked deployment of today’s technologies to discovery of tomorrow’s breakthroughs.</summary>
+  </entry>
+  <entry>
     <title>Preparing our next security sprint to harden OpenAI</title>
     <link href="https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai"/>
     <id>https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai</id>
@@ -95,15 +95,6 @@
     <author><name>OpenAI News</name></author>
     <category term="CYBER DEFENSE"/>
     <summary>OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.</summary>
-  </entry>
-  <entry>
-    <title>Powering up for a pivotal moment</title>
-    <link href="https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102"/>
-    <id>https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102</id>
-    <updated>2026-11-02T19:55:00.000Z</updated>
-    <author><name>MIT News AI</name></author>
-    <category term="QUANTUM"/>
-    <summary>From a nuclear revival to qubits, the MIT Energy Initiative’s annual research conference tracked deployment of today’s technologies to discovery of tomorrow’s breakthroughs.</summary>
   </entry>
   <entry>
     <title>ollama v0.40.15 released</title>
@@ -169,6 +160,15 @@
     <summary>Anthropic released FlashProve, an Apache 2.0 zkSNARK prototype that proves a reply came from a committed model without revealing weights. It proves Llama 4 Maverick at 110 tokens/second on 1 H100, with 19 MB proofs. The post Anthropic Releases FlashProve: Cryptographic Proofs That a Reply Came From Committed Weights ap</summary>
   </entry>
   <entry>
+    <title>Qwen 3.8 27B on my laptop can interpret model weights, too</title>
+    <link href="https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights"/>
+    <id>https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights</id>
+    <updated>2026-11-03T16:29:48.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read &amp; write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a &quot;blog post&quot;, but it's paper-shaped) found that frontier models, in particular GPT-6 Astra, can both</summary>
+  </entry>
+  <entry>
     <title>The cryptography behind electronic voting (and why paper ballots are still essential)</title>
     <link href="https://blog.trailofbits.com/2026/11/03/the-cryptography-behind-electronic-voting-and-why-paper-ballots-are-still-essential"/>
     <id>https://blog.trailofbits.com/2026/11/03/the-cryptography-behind-electronic-voting-and-why-paper-ballots-are-still-essential</id>
@@ -214,13 +214,22 @@
     <summary>Insider Brief PRESS RELEASE — FirstQFM today announced results from a financial forecasting evaluation in which its proprietary foundation-model-based quantum reservoir computing (QRC) system, running on Rigetti Computing’s Cepheus™-1-108Q system using data supplied by SW7 Group, outperformed state-of-the-art classical</summary>
   </entry>
   <entry>
-    <title>The 'Astra can read and write weights to improve Qwen' post is misleading</title>
-    <link href="https://honnibal.dev/blog/astra-read-write-misleading"/>
-    <id>https://honnibal.dev/blog/astra-read-write-misleading</id>
-    <updated>2026-11-03T12:21:17.000Z</updated>
-    <author><name>HN: Chinese Frontier Labs</name></author>
+    <title>Agentic cheminformatics with Google Antigravity</title>
+    <link href="https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity"/>
+    <id>https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity</id>
+    <updated>2026-11-03T17:01:49.000Z</updated>
+    <author><name>Google DeepMind Blog</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Article URL: https://honnibal.dev/blog/astra-read-write-misleading Comments URL: https://news.ycombinator.com/item?id=50351111 Points: 863 # Comments: 189</summary>
+    <summary>Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.</summary>
+  </entry>
+  <entry>
+    <title>Google says its education updates give schools &quot;more choice, not less&quot;; Gemini, Gemini Notebook, and Search are off by default and can be enabled individually (@newsfromgoogle)</title>
+    <link href="https://www.techmeme.com/261103/p41"/>
+    <id>https://www.techmeme.com/261103/p41</id>
+    <updated>2026-11-04T00:00:50.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>@newsfromgoogle : Google says its education updates give schools “more choice, not less”; Gemini, Gemini Notebook, and Search are off by default and can be enabled individually — We want to clarify what we announced today about our education services. Today's announcements give schools more choice, not less. Here's wha</summary>
   </entry>
   <entry>
     <title>Postman silently auto-installs AI plugins and attempts to share all API data</title>
@@ -229,25 +238,16 @@
     <updated>2026-11-03T17:22:37.000Z</updated>
     <author><name>HN: AI (150+ points)</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Article URL: https://github.com/postmanlabs/postman-app-support/issues/14370 Comments URL: https://news.ycombinator.com/item?id=50354960 Points: 943 # Comments: 304</summary>
+    <summary>Article URL: https://github.com/postmanlabs/postman-app-support/issues/14370 Comments URL: https://news.ycombinator.com/item?id=50354960 Points: 964 # Comments: 316</summary>
   </entry>
   <entry>
-    <title>Google Gives Schools More AI Control, But Requires AI for Search</title>
-    <link href="https://www.theinformation.com/briefings/google-gives-schools-ai-control-requires-ai-search"/>
-    <id>https://www.theinformation.com/briefings/google-gives-schools-ai-control-requires-ai-search</id>
-    <updated>2026-11-03T21:32:06.000Z</updated>
-    <author><name>The Information</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Google announced changes to its AI offerings for schools that it said will give administrators more control over the technology—but that also will require those wanting to use its search service to use an AI-enhanced version. Under the new policy, access to Gemini, Gemini Notebook and Google ...</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp b12084 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12084"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12084</id>
-    <updated>2026-11-03T11:29:10.000Z</updated>
+    <title>llama.cpp b12086 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12086"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12086</id>
+    <updated>2026-11-03T11:47:23.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>model : record layer inputs in LFM3 for spec dec ( #31598 )</summary>
+    <summary>qwen4exp: write the conv state tail without an intermediate cont ( #31 …</summary>
   </entry>
   <entry>
     <title>British fintech Revolut slashes AI coding costs 10x by cutting out Claude and going self-hosted</title>
@@ -259,15 +259,6 @@
     <summary>submitted by /u/notheresnolight [link] [comments]</summary>
   </entry>
   <entry>
-    <title>Agentic cheminformatics with Google Antigravity</title>
-    <link href="https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity"/>
-    <id>https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity</id>
-    <updated>2026-11-03T17:01:49.000Z</updated>
-    <author><name>Google DeepMind Blog</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.</summary>
-  </entry>
-  <entry>
     <title>Venezuela Moves to Unwind Hate Speech Law That Jailed Thousands</title>
     <link href="https://www.bloomberg.com/news/articles/2026-11-03/venezuela-moves-to-unwind-hate-speech-law-that-jailed-thousands"/>
     <id>https://www.bloomberg.com/news/articles/2026-11-03/venezuela-moves-to-unwind-hate-speech-law-that-jailed-thousands</id>
@@ -275,5 +266,14 @@
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
     <summary>Venezuelan lawmakers took the first step toward reforming a controversial law long used to jail dissidents as the interim government further unwinds some of the tools of repression imposed under ousted leader Nicolás Maduro.</summary>
+  </entry>
+  <entry>
+    <title>UOB Profits Miss Estimates as Lower Trading Income Dampens Gains</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-03/uob-profits-miss-estimates-as-lower-trading-income-dampens-gains"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-03/uob-profits-miss-estimates-as-lower-trading-income-dampens-gains</id>
+    <updated>2026-11-03T23:14:17.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>United Overseas Bank Ltd. reported third-quarter profit that missed expectations, as a decline in trading and investment income dampened gains from lending and fees.</summary>
   </entry>
 </feed>
