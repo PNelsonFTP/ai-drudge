@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-04T03:08:41.613Z</updated>
+  <updated>2026-11-04T03:20:40.365Z</updated>
   <entry>
     <title>Qwen 3.8 27B on my laptop can interpret model weights, too</title>
     <link href="https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights"/>
@@ -113,6 +113,15 @@
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
     <summary>Jon Brodkin / Ars Technica : California accepts $1.42B in federal broadband funding, but challenges the Trump administration's demand that it stop enforcing state net neutrality rules — California is accepting $1.42 billion in broadband grant funding from the Trump administration, but the state is not accepting …</summary>
+  </entry>
+  <entry>
+    <title>llama.cpp b12096 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12096"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12096</id>
+    <updated>2026-11-04T03:16:39.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>hexagon: add TOP_K_MASK op ( #31552 ) hexagon: add TOP_K_MASK op Simplify Hexagon TOP_K_MASK kernel and do not duplicate host configuration Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63407530 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI ena</summary>
   </entry>
   <entry>
     <title>LangSmith BYOC is now available on AWS, Azure, and Google Cloud</title>
@@ -232,22 +241,13 @@
     <summary>Stephen Council / Business Insider : Cat Wu, product lead for Claude Code and Cowork, has left Anthropic; Thariq Shihipar, who worked on Claude Code, announced his departure last month — - Cat Wu, who helped scale Claude Code into one of tech's most important products, has left Anthropic. — She joined the startup in 20</summary>
   </entry>
   <entry>
-    <title>llama.cpp b12095 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12095"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12095</id>
-    <updated>2026-11-03T18:30:37.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>Do you think the new Qwen 4.0 will make the hardware even harder to get? And more expensive?</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1xnbllt/do_you_think_the_new_qwen_40_will_make_the"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1xnbllt/do_you_think_the_new_qwen_40_will_make_the</id>
+    <updated>2026-11-04T01:42:26.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>gemma4: graph optimizations (massive gains on pp for E2B and E4B) ( #3 …</summary>
-  </entry>
-  <entry>
-    <title>Keeping up with new inference engines</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xnanyh/keeping_up_with_new_inference_engines"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xnanyh/keeping_up_with_new_inference_engines</id>
-    <updated>2026-11-04T00:58:01.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Hey everyone, Not a native speaker, happy to be corrected! Can only learn from it. Back when I started out in march 2025, you had: llama.cpp ollama (repackaged llama.cpp for ease of use) koboldcpp (repackaged llama.cpp for roleplay) vllm (for professional deployments) exl3 + tabbyapi (for bleeding edge) litert (for mob</summary>
+    <summary>Managing to finally fit Qwen3.8-Flash-Next FP8 locally at ~60 tok/s(avg 74 at best) (RTX 5090 + 128 GB DDR5, Infernix engine, part of the experts streamed from NVMe) and seeing how amazing it is I cannot imagine how good Qwen 4.0 will be, not buying even at the current prices seems crazy to be if you are used to using </summary>
   </entry>
   <entry>
     <title>Copper Holds Losses Below $14,000 on US Midterm Risks to Stocks</title>
