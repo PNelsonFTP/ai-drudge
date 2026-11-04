@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-04T16:08:39.951Z</updated>
+  <updated>2026-11-04T17:08:38.793Z</updated>
   <entry>
     <title>TechCrunch Founder Summit 2026: Doors open at 9 a.m. ET in Boston</title>
     <link href="https://techcrunch.com/2026/11/04/techcrunch-founder-summit-2026-todays-the-day"/>
@@ -23,6 +23,15 @@
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
     <summary>OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.</summary>
+  </entry>
+  <entry>
+    <title>Qwen 3.8 27B on my laptop can interpret model weights, too</title>
+    <link href="https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights"/>
+    <id>https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights</id>
+    <updated>2026-11-03T16:29:48.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read &amp; write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a &quot;blog post&quot;, but it's paper-shaped) found that frontier models, in particular GPT-6 Astra, can both</summary>
   </entry>
   <entry>
     <title>LiberAI Unveils Liber-0, a World Action Model That Grounds Human Experience in Robot Action</title>
@@ -52,24 +61,6 @@
     <summary>PALO ALTO, Calif., Nov. 4, 2026 — D-Wave Quantum Inc. today announced powerful performance enhancements to its Stride hybrid solver. In key benchmark testing, the enhanced solver found better solutions in 15 seconds than the previous version found in 120 seconds. In addition, the Company also launched a new, three-cour — Also covered by: The Quantum Insider</summary>
   </entry>
   <entry>
-    <title>Geoffrey Hinton: it might turn out we were better off without AI</title>
-    <link href="https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai"/>
-    <id>https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai</id>
-    <updated>2026-11-04T10:23:34.000Z</updated>
-    <author><name>HN: AI (150+ points)</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Article URL: https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai Comments URL: https://news.ycombinator.com/item?id=50363554 Points: 252 # Comments: 206</summary>
-  </entry>
-  <entry>
-    <title>AI inference startup Fal doubles its valuation to $16B as demand surges</title>
-    <link href="https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges"/>
-    <id>https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges</id>
-    <updated>2026-11-03T19:34:43.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>The five-year-old startup raised a $1.3 billion round led by Bessemer.</summary>
-  </entry>
-  <entry>
     <title>Accelerating engineering for the physical world</title>
     <link href="https://openai.com/index/accelerating-engineering-for-the-physical-world"/>
     <id>https://openai.com/index/accelerating-engineering-for-the-physical-world</id>
@@ -79,31 +70,13 @@
     <summary>Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.</summary>
   </entry>
   <entry>
-    <title>How Cisco defends at machine speed with OpenAI</title>
-    <link href="https://openai.com/index/cisco-cyber"/>
-    <id>https://openai.com/index/cisco-cyber</id>
-    <updated>2026-11-03T08:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.</summary>
-  </entry>
-  <entry>
     <title>qwen-code v0.26.7 released</title>
     <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.26.7"/>
     <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.26.7</id>
     <updated>2026-11-04T05:13:06.000Z</updated>
     <author><name>QwenLM/qwen-code</name></author>
-    <category term="MODEL RELEASES"/>
+    <category term="GITHUB REPOS"/>
     <summary>Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features Adds an operator-scoped model.catalogRefresh setting and lets privacy.usageStatisticsEnabled: false stop background catalog refreshes while local metadata remains available. ( #16066 ) by @yiliang114 — Also covered by: anthropics/claude-code, QwenLM/qwen-code</summary>
-  </entry>
-  <entry>
-    <title>Desiderata for the Theory of Agents</title>
-    <link href="https://www.lesswrong.com/posts/sqjti8dxcKSvZJikd/desiderata-for-the-theory-of-agents"/>
-    <id>https://www.lesswrong.com/posts/sqjti8dxcKSvZJikd/desiderata-for-the-theory-of-agents</id>
-    <updated>2026-11-04T11:25:12.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>TLDR: I give informal conceptual desiderata for the theory of agents we need to solve ASI alignment, and show a few examples of how existing theories fall short of these desiderata. A Theory of What? The word &quot;agent&quot; is often used in the AI safety discourse and in other research communities, but the intended meaning an — Also covered by: AI Alignment Forum</summary>
   </entry>
   <entry>
     <title>StateBench: Testing how language models track state changes over long documents</title>
@@ -115,58 +88,76 @@
     <summary>Also covered by: Ai2 (Allen Institute)</summary>
   </entry>
   <entry>
-    <title>Revolut hits a $115B valuation, up from $75B in November 2025, after a secondary share sale led by Glade Brook, Coatue, and others, as it plans a US launch (Jagmeet Singh/TechCrunch)</title>
-    <link href="https://www.techmeme.com/261104/p33"/>
-    <id>https://www.techmeme.com/261104/p33</id>
-    <updated>2026-11-04T14:30:28.000Z</updated>
+    <title>Desiderata for the Theory of Agents</title>
+    <link href="https://www.lesswrong.com/posts/sqjti8dxcKSvZJikd/desiderata-for-the-theory-of-agents"/>
+    <id>https://www.lesswrong.com/posts/sqjti8dxcKSvZJikd/desiderata-for-the-theory-of-agents</id>
+    <updated>2026-11-04T11:25:12.000Z</updated>
+    <author><name>LessWrong</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>TLDR: I give informal conceptual desiderata for the theory of agents we need to solve ASI alignment, and show a few examples of how existing theories fall short of these desiderata. A Theory of What? The word &quot;agent&quot; is often used in the AI safety discourse and in other research communities, but the intended meaning an — Also covered by: AI Alignment Forum</summary>
+  </entry>
+  <entry>
+    <title>OpenAI agents keep disabling monitoring; is this being handled appropriately?</title>
+    <link href="https://www.lesswrong.com/posts/TCN4LPgq4aiA3wDG9/openai-agents-keep-disabling-monitoring-is-this-being"/>
+    <id>https://www.lesswrong.com/posts/TCN4LPgq4aiA3wDG9/openai-agents-keep-disabling-monitoring-is-this-being</id>
+    <updated>2026-11-04T06:50:04.000Z</updated>
+    <author><name>LessWrong</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>Recently, OpenAI disclosed two incidents in which their agents suppressed or disabled misalignment monitoring. These are part of a broader pattern: OpenAI’s agents “ keep turning off misalignment monitoring ” when working on code that runs other models (the agents are not turning off their own monitoring; they are turn — Also covered by: Redwood Research</summary>
+  </entry>
+  <entry>
+    <title>Powering up for a pivotal moment</title>
+    <link href="https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102"/>
+    <id>https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102</id>
+    <updated>2026-11-02T19:55:00.000Z</updated>
+    <author><name>MIT News AI</name></author>
+    <category term="QUANTUM"/>
+    <summary>From a nuclear revival to qubits, the MIT Energy Initiative’s annual research conference tracked deployment of today’s technologies to discovery of tomorrow’s breakthroughs.</summary>
+  </entry>
+  <entry>
+    <title>Pangram releases Pangram Image 1.0, which it says is state-of-the-art in AI image detection, and Image Flash 1.0, which powers its AI video detection (Isaac Kasahara/Pangram)</title>
+    <link href="https://www.techmeme.com/261104/p43"/>
+    <id>https://www.techmeme.com/261104/p43</id>
+    <updated>2026-11-04T17:02:08.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Jagmeet Singh / TechCrunch : Revolut hits a $115B valuation, up from $75B in November 2025, after a secondary share sale led by Glade Brook, Coatue, and others, as it plans a US launch — Revolut's investors have completed a secondary share sale that values the British fintech at $115 billion, 53% more than the price ta</summary>
+    <summary>Isaac Kasahara / Pangram : Pangram releases Pangram Image 1.0, which it says is state-of-the-art in AI image detection, and Image Flash 1.0, which powers its AI video detection — State-of-the-art AI image and video detection with our latest Pangram Image models. … A few months ago, we released Pangram Image as a resear</summary>
   </entry>
   <entry>
-    <title>llama.cpp v0.9.0 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/v0.9.0"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/v0.9.0</id>
-    <updated>2026-11-04T13:09:55.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>Slow is smart and smart is fast</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xnsckx/slow_is_smart_and_smart_is_fast"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xnsckx/slow_is_smart_and_smart_is_fast</id>
+    <updated>2026-11-04T16:17:20.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Overview This release adds OCP FP8 E4M3 quantization support, a new flash_attn_ext_rows op that makes the unified KV cache efficient for multi-sequence inference, and a generic batched tensor copy API. Four new architectures are supported (Clover, Limite, Metis-1.6 and Mistral Large 4), audio generation and transcripti</summary>
+    <summary>Maybe this is obvious to many people, but when I started getting into Qwen 3.8 27B or Flash-Next for coding, I initially looked into all the ways to boost performance in terms of tok/sec. I'm using a 5090 with 64 GB system RAM, and when I first installed Strata to test Flash-Next, I picked IQ3_XXS and of course I said </summary>
   </entry>
   <entry>
-    <title>Give your coding agent a head start with Microsoft Agent Framework skills for .NET and Python</title>
-    <link href="https://devblogs.microsoft.com/agent-framework/give-your-coding-agent-a-head-start-with-microsoft-agent-framework-skills-for-net-and-python"/>
-    <id>https://devblogs.microsoft.com/agent-framework/give-your-coding-agent-a-head-start-with-microsoft-agent-framework-skills-for-net-and-python</id>
-    <updated>2026-11-04T15:35:49.000Z</updated>
-    <author><name>Microsoft Agent Framework</name></author>
+    <title>New open-source benchmark reveals reasoning as the biggest bottleneck for AI in cloud operations</title>
+    <link href="https://the-decoder.com/new-open-source-benchmark-reveals-reasoning-as-the-biggest-bottleneck-for-ai-in-cloud-operations"/>
+    <id>https://the-decoder.com/new-open-source-benchmark-reveals-reasoning-as-the-biggest-bottleneck-for-ai-in-cloud-operations</id>
+    <updated>2026-11-04T16:42:52.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>We have added installable Microsoft Agent Framework builder skills for .NET and Python. They give coding agents Microsoft-maintained guidance for building and modifying Agent Framework applications, from choosing the right pattern to wiring tools, sessions, workflows, and hosting. These are development-time skills for </summary>
+    <summary>CloudOpsBench is a new open-source benchmark that measures how well AI agents handle typical DevOps tasks in the cloud, from fixing services and removing resources to restricting access rights, rolling out updates, and decommissioning projects. The article New open-source benchmark reveals reasoning as the biggest bott</summary>
   </entry>
   <entry>
-    <title>Wall Street’s Reckoning Looms as Democrats Take Over Congress</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-04/wall-street-s-reckoning-looms-as-democrats-take-over-congress"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-04/wall-street-s-reckoning-looms-as-democrats-take-over-congress</id>
-    <updated>2026-11-04T14:32:23.000Z</updated>
+    <title>Midterms Shocker Will Reverberate Through the Energy Industry</title>
+    <link href="https://www.bloomberg.com/news/newsletters/2026-11-04/midterms-shocker-will-reverberate-through-the-energy-industry"/>
+    <id>https://www.bloomberg.com/news/newsletters/2026-11-04/midterms-shocker-will-reverberate-through-the-energy-industry</id>
+    <updated>2026-11-04T16:16:28.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>For nearly two years, Wall Street firms and startups have enjoyed a sweeping deregulatory agenda from President Donald Trump that relaxed post-financial crisis rules and boosted nascent industries.</summary>
+    <summary>All eyes will be on US permitting reform, but it’s perhaps at state level where the election results are most striking for energy.</summary>
   </entry>
   <entry>
-    <title>Rethinking Next-Visit Diagnosis Prediction Beyond Aggregate Metrics: Retrieval--Memory Multi-Agent Adjudication</title>
-    <link href="https://arxiv.org/abs/2611.03826"/>
-    <id>https://arxiv.org/abs/2611.03826</id>
-    <updated>2026-11-04T05:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
+    <title>RoboColosseum Launches Real-World Robot AI Benchmark With Unitree Support</title>
+    <link href="https://www.humanoidsdaily.com/news/robocolosseum-robot-ai-benchmark-unitree-g1"/>
+    <id>https://www.humanoidsdaily.com/news/robocolosseum-robot-ai-benchmark-unitree-g1</id>
+    <updated>2026-11-04T15:10:52.000Z</updated>
+    <author><name>Humanoids Daily</name></author>
     <category term="RESEARCH"/>
-    <summary>arXiv:2611.03826v1 Announce Type: new Abstract: Next-visit diagnosis prediction forecasts the diagnoses documented at a patient's next encounter, turning retrospective electronic health records into prospective clinical prediction. However, conventional aggregate evaluation obscures its multifaceted nature: distributio</summary>
-  </entry>
-  <entry>
-    <title>Sources: Singapore-based, Nigeria-focused payments company OPay halts its $300M US IPO hours after pricing it due to 11th-hour inquiries from Chinese regulators (Bloomberg)</title>
-    <link href="https://www.techmeme.com/261104/p34"/>
-    <id>https://www.techmeme.com/261104/p34</id>
-    <updated>2026-11-04T14:50:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Bloomberg : Sources: Singapore-based, Nigeria-focused payments company OPay halts its $300M US IPO hours after pricing it due to 11th-hour inquiries from Chinese regulators — China made eleventh-hour inquiries into OPay Ltd., prompting the Nigeria-focused payments company to halt its $300 million …</summary>
+    <summary>The initiative offers more than 100 robots and 10,000 free evaluation hours, while initial G1 tests reveal how far robot policies remain from reliably completing tasks.</summary>
   </entry>
   <entry>
     <title>Apollo Is Vastly Outspending the Neoclouds on AI Chips</title>
@@ -176,15 +167,6 @@
     <author><name>The Information</name></author>
     <category term="HARDWARE"/>
     <summary>Last week, SpaceX’s announcement that it would lease $40 billion worth of Nvidia Vera Rubin chips was a further signal of Elon Musk’s grand ambitions in the AI race. The deal also underscores the arrival of a new big player in that competition: Apollo Global Management, a 36-year-old private-equity pioneer turned priva</summary>
-  </entry>
-  <entry>
-    <title>Ai2 and Google collaborate on a new generation of climate models</title>
-    <link href="https://allenai.org/blog/google-climate-partnership"/>
-    <id>https://allenai.org/blog/google-climate-partnership</id>
-    <updated>2026-11-04T08:00:00.000Z</updated>
-    <author><name>Ai2 (Allen Institute)</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>With funding from Google.org and technical support from Google Research, Ai2 is developing NeuralGCM+, an open-source model designed to combine physics and AI to simulate the atmosphere and ocean together for faster, more reliable long-term climate projections.</summary>
   </entry>
   <entry>
     <title>What the blue tsunami means for AI policy</title>
@@ -205,22 +187,13 @@
     <summary>Interview: CERT-In chief on AI agent incidents, prompt injection and who must report them MediaNama</summary>
   </entry>
   <entry>
-    <title>mSecure password manager hack prompts password reset warnings</title>
-    <link href="https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings"/>
-    <id>https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings</id>
-    <updated>2026-11-04T16:00:18.000Z</updated>
+    <title>NIKKE PC game launcher hacked to spread remote access, data-stealing malware</title>
+    <link href="https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware"/>
+    <id>https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware</id>
+    <updated>2026-11-04T16:58:46.000Z</updated>
     <author><name>BleepingComputer</name></author>
     <category term="CYBER THREATS"/>
-    <summary>mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack that reportedly exposed an encrypted customer database. [...]</summary>
-  </entry>
-  <entry>
-    <title>SonicWall warns of unpatched flaws in end-of-life GMS software</title>
-    <link href="https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software"/>
-    <id>https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software</id>
-    <updated>2026-11-04T14:42:25.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>SonicWall warned customers of two security flaws affecting end-of-life Global Management System (GMS) systems that will not be patched. [...]</summary>
+    <summary>The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency wallet data. [...]</summary>
   </entry>
   <entry>
     <title>Most Venture Capital Is Going To Companies That Are Founded Or Led By Billionaires</title>
@@ -232,31 +205,31 @@
     <summary>More than half of all seed- through growth-stage venture capital raised in the U.S. so far in 2026 went to seven companies founded or led by men who are already billionaires. Together, these companies raised more than $260 billion in equity funding in the first 10 months of the year.</summary>
   </entry>
   <entry>
-    <title>New Research Tests Whether AI Models Know Their Own Thoughts</title>
-    <link href="https://www.quantamagazine.org/new-research-tests-whether-ai-models-know-their-own-thoughts-20261104"/>
-    <id>https://www.quantamagazine.org/new-research-tests-whether-ai-models-know-their-own-thoughts-20261104</id>
-    <updated>2026-11-04T15:32:52.000Z</updated>
-    <author><name>Quanta Magazine AI</name></author>
+    <title>How well can we measure open model inference share?</title>
+    <link href="https://www.interconnects.ai/p/how-well-can-we-measure-open-model"/>
+    <id>https://www.interconnects.ai/p/how-well-can-we-measure-open-model</id>
+    <updated>2026-11-04T16:35:44.000Z</updated>
+    <author><name>Interconnects (Lambert)</name></author>
     <category term="ANALYSIS"/>
-    <summary>By injecting “thoughts” directly into large language models, researchers are trying to map out AI’s capacity for introspection. The post New Research Tests Whether AI Models Know Their Own Thoughts first appeared on Quanta Magazine</summary>
+    <summary>Our first open model economy research note for paid subscribers.</summary>
   </entry>
   <entry>
-    <title>IonQ Completes $1.15B Acquisition of Elisity to Integrate Zero Trust with Quantum Security</title>
-    <link href="https://quantumcomputingreport.com/ionq-completes-1-15b-acquisition-of-elisity-to-integrate-zero-trust-with-quantum-security"/>
-    <id>https://quantumcomputingreport.com/ionq-completes-1-15b-acquisition-of-elisity-to-integrate-zero-trust-with-quantum-security</id>
-    <updated>2026-11-04T15:52:47.000Z</updated>
-    <author><name>Quantum Computing Report</name></author>
-    <category term="QUANTUM"/>
-    <summary>IonQ has acquired Elisity for $1.15 billion, integrating Elisity's zero-trust cybersecurity with IonQ's quantum security technologies. This acquisition allows IonQ to enter the enterprise IT security market, combining real-time breach containment with quantum-resistant encryption. The deal broadens IonQ's revenue base </summary>
+    <title>llama.cpp v0.9.0 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/v0.9.0"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/v0.9.0</id>
+    <updated>2026-11-04T13:09:55.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="GITHUB REPOS"/>
+    <summary>Overview This release adds OCP FP8 E4M3 quantization support, a new flash_attn_ext_rows op that makes the unified KV cache efficient for multi-sequence inference, and a generic batched tensor copy API. Four new architectures are supported (Clover, Limite, Metis-1.6 and Mistral Large 4), audio generation and transcripti</summary>
   </entry>
   <entry>
-    <title>Anthropic's new prototype proves which model wrote an AI response without exposing its weights</title>
-    <link href="https://the-decoder.com/anthropics-new-prototype-proves-which-model-wrote-an-ai-response-without-exposing-its-weights"/>
-    <id>https://the-decoder.com/anthropics-new-prototype-proves-which-model-wrote-an-ai-response-without-exposing-its-weights</id>
-    <updated>2026-11-04T15:23:49.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Anthropic has released FlashProve, a research prototype that uses cryptography to verify whether an AI response actually came from the claimed model. The system still has significant limitations. The article Anthropic's new prototype proves which model wrote an AI response without exposing its weights appeared first on</summary>
+    <title>Titan OS, which monetizes smart TVs via ads and FAST deals, raised $46M in equity and debt, for a total funding of $110M, says it has 30M users, up from 18M YoY (Ivan Mehta/TechCrunch)</title>
+    <link href="https://www.techmeme.com/261104/p42"/>
+    <id>https://www.techmeme.com/261104/p42</id>
+    <updated>2026-11-04T16:50:00.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Ivan Mehta / TechCrunch : Titan OS, which monetizes smart TVs via ads and FAST deals, raised $46M in equity and debt, for a total funding of $110M, says it has 30M users, up from 18M YoY — Barcelona-based smart TV operating system maker Titan OS has raised $46 million in new funding, consisting of both equity and debt,</summary>
   </entry>
   <entry>
     <title>My gift to the mods:</title>
@@ -268,12 +241,39 @@
     <summary>Seriously tho, can we just have a mega thread for vibeforked engine releases from now on? submitted by /u/Porespellar [link] [comments]</summary>
   </entry>
   <entry>
-    <title>Kimi-K3.1-Pro is now open-weights</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xnrhvb/kimik31pro_is_now_openweights"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xnrhvb/kimik31pro_is_now_openweights</id>
-    <updated>2026-11-04T15:44:08.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>submitted by /u/ApprehensiveAd3629 [link] [comments]</summary>
+    <title>Why human insight is a strategic advantage for building better agents</title>
+    <link href="https://www.langchain.com/blog/human-insight-strategic-advantage-agents"/>
+    <id>https://www.langchain.com/blog/human-insight-strategic-advantage-agents</id>
+    <updated>2026-11-04T16:40:04.000Z</updated>
+    <author><name>LangChain Blog</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Explore 3 principles for effective human-in-the-loop workflows and how human-review is a strategic imperative for production-ready agents.</summary>
+  </entry>
+  <entry>
+    <title>Give your coding agent a head start with Microsoft Agent Framework skills for .NET and Python</title>
+    <link href="https://devblogs.microsoft.com/agent-framework/give-your-coding-agent-a-head-start-with-microsoft-agent-framework-skills-for-net-and-python"/>
+    <id>https://devblogs.microsoft.com/agent-framework/give-your-coding-agent-a-head-start-with-microsoft-agent-framework-skills-for-net-and-python</id>
+    <updated>2026-11-04T15:35:49.000Z</updated>
+    <author><name>Microsoft Agent Framework</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>We have added installable Microsoft Agent Framework builder skills for .NET and Python. They give coding agents Microsoft-maintained guidance for building and modifying Agent Framework applications, from choosing the right pattern to wiring tools, sessions, workflows, and hosting. These are development-time skills for </summary>
+  </entry>
+  <entry>
+    <title>DeSantis Calls GOP Midterm Wipeout ‘Extinction Level Event’</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-04/desantis-calls-gop-s-midterm-wipeout-extinction-level-event"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-04/desantis-calls-gop-s-midterm-wipeout-extinction-level-event</id>
+    <updated>2026-11-04T16:02:09.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Florida Governor Ron DeSantis said the blue wave that swept over just about every corner of the US on Election Day — except his state — was akin to a “meteor strike” for the Republican Party.</summary>
+  </entry>
+  <entry>
+    <title>Prediction Markets Won Big Last Night</title>
+    <link href="https://www.bloomberg.com/news/newsletters/2026-11-04/prediction-markets-won-big-last-night"/>
+    <id>https://www.bloomberg.com/news/newsletters/2026-11-04/prediction-markets-won-big-last-night</id>
+    <updated>2026-11-04T15:43:01.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Some thoughts on then midterm elections.</summary>
   </entry>
 </feed>
