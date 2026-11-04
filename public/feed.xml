@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-04T15:08:46.141Z</updated>
+  <updated>2026-11-04T16:08:39.951Z</updated>
   <entry>
     <title>TechCrunch Founder Summit 2026: Doors open at 9 a.m. ET in Boston</title>
     <link href="https://techcrunch.com/2026/11/04/techcrunch-founder-summit-2026-todays-the-day"/>
@@ -23,6 +23,15 @@
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
     <summary>OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.</summary>
+  </entry>
+  <entry>
+    <title>LiberAI Unveils Liber-0, a World Action Model That Grounds Human Experience in Robot Action</title>
+    <link href="https://www.therobotreport.com/liberai-unveils-liber-0-a-world-action-model-that-grounds-human-experience-in-robot-action"/>
+    <id>https://www.therobotreport.com/liberai-unveils-liber-0-a-world-action-model-that-grounds-human-experience-in-robot-action</id>
+    <updated>2026-11-04T15:02:57.000Z</updated>
+    <author><name>The Robot Report</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>LiberAI introduces Liber-0, a world action model pretrained on more than 2.2 million hours of human experience to support zero-shot robot manipulation. The post LiberAI Unveils Liber-0, a World Action Model That Grounds Human Experience in Robot Action appeared first on The Robot Report . — Also covered by: Humanoids Daily</summary>
   </entry>
   <entry>
     <title>Daybreak Red is now available in AWS GovCloud (US-East)</title>
@@ -49,16 +58,7 @@
     <updated>2026-11-04T10:23:34.000Z</updated>
     <author><name>HN: AI (150+ points)</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Article URL: https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai Comments URL: https://news.ycombinator.com/item?id=50363554 Points: 221 # Comments: 174</summary>
-  </entry>
-  <entry>
-    <title>qwen-code v0.26.7 released</title>
-    <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.26.7"/>
-    <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.26.7</id>
-    <updated>2026-11-04T05:13:06.000Z</updated>
-    <author><name>QwenLM/qwen-code</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features Adds an operator-scoped model.catalogRefresh setting and lets privacy.usageStatisticsEnabled: false stop background catalog refreshes while local metadata remains available. ( #16066 ) by @yiliang114 — Also covered by: anthropics/claude-code, QwenLM/qwen-code</summary>
+    <summary>Article URL: https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai Comments URL: https://news.ycombinator.com/item?id=50363554 Points: 252 # Comments: 206</summary>
   </entry>
   <entry>
     <title>AI inference startup Fal doubles its valuation to $16B as demand surges</title>
@@ -79,6 +79,24 @@
     <summary>Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.</summary>
   </entry>
   <entry>
+    <title>How Cisco defends at machine speed with OpenAI</title>
+    <link href="https://openai.com/index/cisco-cyber"/>
+    <id>https://openai.com/index/cisco-cyber</id>
+    <updated>2026-11-03T08:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.</summary>
+  </entry>
+  <entry>
+    <title>qwen-code v0.26.7 released</title>
+    <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.26.7"/>
+    <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.26.7</id>
+    <updated>2026-11-04T05:13:06.000Z</updated>
+    <author><name>QwenLM/qwen-code</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features Adds an operator-scoped model.catalogRefresh setting and lets privacy.usageStatisticsEnabled: false stop background catalog refreshes while local metadata remains available. ( #16066 ) by @yiliang114 — Also covered by: anthropics/claude-code, QwenLM/qwen-code</summary>
+  </entry>
+  <entry>
     <title>Desiderata for the Theory of Agents</title>
     <link href="https://www.lesswrong.com/posts/sqjti8dxcKSvZJikd/desiderata-for-the-theory-of-agents"/>
     <id>https://www.lesswrong.com/posts/sqjti8dxcKSvZJikd/desiderata-for-the-theory-of-agents</id>
@@ -97,33 +115,6 @@
     <summary>Also covered by: Ai2 (Allen Institute)</summary>
   </entry>
   <entry>
-    <title>OpenAI agents keep disabling monitoring; is this being handled appropriately?</title>
-    <link href="https://www.lesswrong.com/posts/TCN4LPgq4aiA3wDG9/openai-agents-keep-disabling-monitoring-is-this-being"/>
-    <id>https://www.lesswrong.com/posts/TCN4LPgq4aiA3wDG9/openai-agents-keep-disabling-monitoring-is-this-being</id>
-    <updated>2026-11-04T06:50:04.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>Recently, OpenAI disclosed two incidents in which their agents suppressed or disabled misalignment monitoring. These are part of a broader pattern: OpenAI’s agents “ keep turning off misalignment monitoring ” when working on code that runs other models (the agents are not turning off their own monitoring; they are turn — Also covered by: Redwood Research</summary>
-  </entry>
-  <entry>
-    <title>Powering up for a pivotal moment</title>
-    <link href="https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102"/>
-    <id>https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102</id>
-    <updated>2026-11-02T19:55:00.000Z</updated>
-    <author><name>MIT News AI</name></author>
-    <category term="QUANTUM"/>
-    <summary>From a nuclear revival to qubits, the MIT Energy Initiative’s annual research conference tracked deployment of today’s technologies to discovery of tomorrow’s breakthroughs.</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp v0.9.0 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/v0.9.0"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/v0.9.0</id>
-    <updated>2026-11-04T13:09:55.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Overview This release adds OCP FP8 E4M3 quantization support, a new flash_attn_ext_rows op that makes the unified KV cache efficient for multi-sequence inference, and a generic batched tensor copy API. Four new architectures are supported (Clover, Limite, Metis-1.6 and Mistral Large 4), audio generation and transcripti</summary>
-  </entry>
-  <entry>
     <title>Revolut hits a $115B valuation, up from $75B in November 2025, after a secondary share sale led by Glade Brook, Coatue, and others, as it plans a US launch (Jagmeet Singh/TechCrunch)</title>
     <link href="https://www.techmeme.com/261104/p33"/>
     <id>https://www.techmeme.com/261104/p33</id>
@@ -133,22 +124,31 @@
     <summary>Jagmeet Singh / TechCrunch : Revolut hits a $115B valuation, up from $75B in November 2025, after a secondary share sale led by Glade Brook, Coatue, and others, as it plans a US launch — Revolut's investors have completed a secondary share sale that values the British fintech at $115 billion, 53% more than the price ta</summary>
   </entry>
   <entry>
-    <title>The Security Companies Trying to Get AI Agents Under Control</title>
-    <link href="https://www.theinformation.com/articles/security-companies-trying-get-ai-agents-control"/>
-    <id>https://www.theinformation.com/articles/security-companies-trying-get-ai-agents-control</id>
-    <updated>2026-11-04T15:02:46.000Z</updated>
-    <author><name>The Information</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Before we get to today’s column, a heads up that new models from OpenAI could come as soon as Friday, according to people with knowledge of the models. Those models could include the next generation of its Astra , Sol and cyber focused models, the people said. (Obviously, including a caveat here that model timelines co</summary>
+    <title>llama.cpp v0.9.0 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/v0.9.0"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/v0.9.0</id>
+    <updated>2026-11-04T13:09:55.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Overview This release adds OCP FP8 E4M3 quantization support, a new flash_attn_ext_rows op that makes the unified KV cache efficient for multi-sequence inference, and a generic batched tensor copy API. Four new architectures are supported (Clover, Limite, Metis-1.6 and Mistral Large 4), audio generation and transcripti</summary>
   </entry>
   <entry>
-    <title>Freeport Green-Lights $4.5 Billion Copper Expansion in Arizona</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-04/freeport-green-lights-4-5-billion-copper-expansion-in-arizona"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-04/freeport-green-lights-4-5-billion-copper-expansion-in-arizona</id>
-    <updated>2026-11-04T13:50:43.000Z</updated>
+    <title>Give your coding agent a head start with Microsoft Agent Framework skills for .NET and Python</title>
+    <link href="https://devblogs.microsoft.com/agent-framework/give-your-coding-agent-a-head-start-with-microsoft-agent-framework-skills-for-net-and-python"/>
+    <id>https://devblogs.microsoft.com/agent-framework/give-your-coding-agent-a-head-start-with-microsoft-agent-framework-skills-for-net-and-python</id>
+    <updated>2026-11-04T15:35:49.000Z</updated>
+    <author><name>Microsoft Agent Framework</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>We have added installable Microsoft Agent Framework builder skills for .NET and Python. They give coding agents Microsoft-maintained guidance for building and modifying Agent Framework applications, from choosing the right pattern to wiring tools, sessions, workflows, and hosting. These are development-time skills for </summary>
+  </entry>
+  <entry>
+    <title>Wall Street’s Reckoning Looms as Democrats Take Over Congress</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-04/wall-street-s-reckoning-looms-as-democrats-take-over-congress"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-04/wall-street-s-reckoning-looms-as-democrats-take-over-congress</id>
+    <updated>2026-11-04T14:32:23.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Freeport-McMoRan Inc. approved a $4.5 billion expansion of an Arizona mine that the copper producer predicts will more than double mining and processing rates as it seeks to capitalize on growing demand for the metal.</summary>
+    <summary>For nearly two years, Wall Street firms and startups have enjoyed a sweeping deregulatory agenda from President Donald Trump that relaxed post-financial crisis rules and boosted nascent industries.</summary>
   </entry>
   <entry>
     <title>Rethinking Next-Visit Diagnosis Prediction Beyond Aggregate Metrics: Retrieval--Memory Multi-Agent Adjudication</title>
@@ -175,43 +175,43 @@
     <updated>2026-11-04T14:00:50.000Z</updated>
     <author><name>The Information</name></author>
     <category term="HARDWARE"/>
-    <summary>Last week, SpaceX’s announcement that it would lease $40 billion worth of Nvidia Vera Rubin chips was a further signal of Elon Musk’s grand ambitions in the AI race. The deal also underscores the arrival of a new big player in that competition: Apollo Global Management, a 36-year-old private equity giant. In the deal w</summary>
+    <summary>Last week, SpaceX’s announcement that it would lease $40 billion worth of Nvidia Vera Rubin chips was a further signal of Elon Musk’s grand ambitions in the AI race. The deal also underscores the arrival of a new big player in that competition: Apollo Global Management, a 36-year-old private-equity pioneer turned priva</summary>
   </entry>
   <entry>
-    <title>Exclusive: Researcher Finds Vulnerability in Software Used for Data Centers</title>
-    <link href="https://www.theinformation.com/briefings/exclusive-researcher-finds-vulnerability-software-used-data-centers"/>
-    <id>https://www.theinformation.com/briefings/exclusive-researcher-finds-vulnerability-software-used-data-centers</id>
-    <updated>2026-11-04T12:00:48.000Z</updated>
-    <author><name>The Information</name></author>
+    <title>Ai2 and Google collaborate on a new generation of climate models</title>
+    <link href="https://allenai.org/blog/google-climate-partnership"/>
+    <id>https://allenai.org/blog/google-climate-partnership</id>
+    <updated>2026-11-04T08:00:00.000Z</updated>
+    <author><name>Ai2 (Allen Institute)</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>Charge Robotics chief technology officer Max Justicz said he used a specialized OpenAI model to find a vulnerability in a popular open-source software that would allow someone to hack into major datacenters. Justicz said he alerted Canonical, the British company that maintains the software ...</summary>
+    <summary>With funding from Google.org and technical support from Google Research, Ai2 is developing NeuralGCM+, an open-source model designed to combine physics and AI to simulate the atmosphere and ocean together for faster, more reliable long-term climate projections.</summary>
   </entry>
   <entry>
-    <title>Qwen 3.8 27B on my laptop can interpret model weights, too</title>
-    <link href="https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights"/>
-    <id>https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights</id>
-    <updated>2026-11-03T16:29:48.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>What the blue tsunami means for AI policy</title>
+    <link href="https://www.transformernews.ai/p/midterms-democrats-blue-tsunami-ai-policy-legislation"/>
+    <id>https://www.transformernews.ai/p/midterms-democrats-blue-tsunami-ai-policy-legislation</id>
+    <updated>2026-11-04T15:48:33.000Z</updated>
+    <author><name>Transformer</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read &amp; write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a &quot;blog post&quot;, but it's paper-shaped) found that frontier models, in particular GPT-6 Astra, can both</summary>
+    <summary>Strong AI legislation now looks much more likely</summary>
   </entry>
   <entry>
-    <title>AI Security Startup Sentra Raises $150 Million to Police Autonomous Agents</title>
-    <link href="https://www.wsj.com/pro/cybersecurity/ai-security-startup-sentra-raises-150-million-to-police-autonomous-agents-4ab9da29?mod=rss_Technology"/>
-    <id>https://www.wsj.com/pro/cybersecurity/ai-security-startup-sentra-raises-150-million-to-police-autonomous-agents-4ab9da29?mod=rss_Technology</id>
-    <updated>2026-11-04T12:00:00.000Z</updated>
-    <author><name>WSJ Tech</name></author>
+    <title>Interview: CERT-In chief on AI agent incidents, prompt injection and who must report them</title>
+    <link href="https://www.medianama.com/2026/11/223-interview-cert-in-chief-ai-agents-prompt-injection"/>
+    <id>https://www.medianama.com/2026/11/223-interview-cert-in-chief-ai-agents-prompt-injection</id>
+    <updated>2026-11-04T08:55:55.000Z</updated>
+    <author><name>GN: Prompt Injection</name></author>
     <category term="AI SECURITY"/>
-    <summary>A five-year-old data security platform is riding a wave of demand for autonomous digital tools that won’t misbehave.</summary>
+    <summary>Interview: CERT-In chief on AI agent incidents, prompt injection and who must report them MediaNama</summary>
   </entry>
   <entry>
-    <title>Google Calendar phishing campaign hijacks sessions, bypasses MFA</title>
-    <link href="https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa"/>
-    <id>https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa</id>
-    <updated>2026-11-04T15:00:10.000Z</updated>
+    <title>mSecure password manager hack prompts password reset warnings</title>
+    <link href="https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings"/>
+    <id>https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings</id>
+    <updated>2026-11-04T16:00:18.000Z</updated>
     <author><name>BleepingComputer</name></author>
     <category term="CYBER THREATS"/>
-    <summary>A phishing campaign used Google Calendar invites, trusted redirects, and fake login pages to hijack corporate Google sessions and bypass MFA protections. Material Security examines how Operation CloudFire tracked the attacks, blocked malicious messages, and helped take down nearly 900 domains used by the attackers. [..</summary>
+    <summary>mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack that reportedly exposed an encrypted customer database. [...]</summary>
   </entry>
   <entry>
     <title>SonicWall warns of unpatched flaws in end-of-life GMS software</title>
@@ -232,48 +232,48 @@
     <summary>More than half of all seed- through growth-stage venture capital raised in the U.S. so far in 2026 went to seven companies founded or led by men who are already billionaires. Together, these companies raised more than $260 billion in equity funding in the first 10 months of the year.</summary>
   </entry>
   <entry>
-    <title>KIST’s KAPEX Humanoid Reportedly Uses Over 90% Korean-Made Core Components</title>
-    <link href="https://www.humanoidsdaily.com/news/kist-kapex-humanoid-domestic-components-lg"/>
-    <id>https://www.humanoidsdaily.com/news/kist-kapex-humanoid-domestic-components-lg</id>
-    <updated>2026-11-04T13:57:05.000Z</updated>
-    <author><name>Humanoids Daily</name></author>
-    <category term="ROBOTICS"/>
-    <summary>The update details KAPEX’s domestic supply chain and commercialization partnerships, building on KIST’s wider humanoid ambitions.</summary>
+    <title>New Research Tests Whether AI Models Know Their Own Thoughts</title>
+    <link href="https://www.quantamagazine.org/new-research-tests-whether-ai-models-know-their-own-thoughts-20261104"/>
+    <id>https://www.quantamagazine.org/new-research-tests-whether-ai-models-know-their-own-thoughts-20261104</id>
+    <updated>2026-11-04T15:32:52.000Z</updated>
+    <author><name>Quanta Magazine AI</name></author>
+    <category term="ANALYSIS"/>
+    <summary>By injecting “thoughts” directly into large language models, researchers are trying to map out AI’s capacity for introspection. The post New Research Tests Whether AI Models Know Their Own Thoughts first appeared on Quanta Magazine</summary>
   </entry>
   <entry>
-    <title>Exit polls show AI ranked last among voter priorities in the 2026 U.S. midterms</title>
-    <link href="https://the-decoder.com/exit-polls-show-ai-ranked-last-among-voter-priorities-in-the-2026-u-s-midterms"/>
-    <id>https://the-decoder.com/exit-polls-show-ai-ranked-last-among-voter-priorities-in-the-2026-u-s-midterms</id>
-    <updated>2026-11-04T10:45:54.000Z</updated>
+    <title>IonQ Completes $1.15B Acquisition of Elisity to Integrate Zero Trust with Quantum Security</title>
+    <link href="https://quantumcomputingreport.com/ionq-completes-1-15b-acquisition-of-elisity-to-integrate-zero-trust-with-quantum-security"/>
+    <id>https://quantumcomputingreport.com/ionq-completes-1-15b-acquisition-of-elisity-to-integrate-zero-trust-with-quantum-security</id>
+    <updated>2026-11-04T15:52:47.000Z</updated>
+    <author><name>Quantum Computing Report</name></author>
+    <category term="QUANTUM"/>
+    <summary>IonQ has acquired Elisity for $1.15 billion, integrating Elisity's zero-trust cybersecurity with IonQ's quantum security technologies. This acquisition allows IonQ to enter the enterprise IT security market, combining real-time breach containment with quantum-resistant encryption. The deal broadens IonQ's revenue base </summary>
+  </entry>
+  <entry>
+    <title>Anthropic's new prototype proves which model wrote an AI response without exposing its weights</title>
+    <link href="https://the-decoder.com/anthropics-new-prototype-proves-which-model-wrote-an-ai-response-without-exposing-its-weights"/>
+    <id>https://the-decoder.com/anthropics-new-prototype-proves-which-model-wrote-an-ai-response-without-exposing-its-weights</id>
+    <updated>2026-11-04T15:23:49.000Z</updated>
     <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>In the 2026 U.S. midterm elections, AI ranked last among campaign issues: only 56 percent of respondents cited AI and data centers as an important factor. According to NBC exit polls, corruption (90 percent) and the cost of living (89 percent) clearly dominated, despite growing public attention to the issue. The articl</summary>
+    <summary>Anthropic has released FlashProve, a research prototype that uses cryptography to verify whether an AI response actually came from the claimed model. The system still has significant limitations. The article Anthropic's new prototype proves which model wrote an AI response without exposing its weights appeared first on</summary>
   </entry>
   <entry>
-    <title>ollama v0.40.15 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.15-rc0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.15-rc0</id>
-    <updated>2026-11-03T22:52:31.000Z</updated>
-    <author><name>ollama/ollama</name></author>
+    <title>My gift to the mods:</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xnr6zd/my_gift_to_the_mods"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xnr6zd/my_gift_to_the_mods</id>
+    <updated>2026-11-04T15:32:17.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>What's Changed mlx: load bundled CUDA libraries in-process on Linux by @dhiltgen in #19433 model: add MiMo V2.6 model support by @dhiltgen in #19400 Full Changelog : v0.40.14...v0.40.15-rc0</summary>
+    <summary>Seriously tho, can we just have a mega thread for vibeforked engine releases from now on? submitted by /u/Porespellar [link] [comments]</summary>
   </entry>
   <entry>
-    <title>Now that some time has passed: which Qwen3.8 27B quant do you stick with?</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1xnq0ih/now_that_some_time_has_passed_which_qwen38_27b"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1xnq0ih/now_that_some_time_has_passed_which_qwen38_27b</id>
-    <updated>2026-11-04T14:45:25.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>Kimi-K3.1-Pro is now open-weights</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xnrhvb/kimik31pro_is_now_openweights"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xnrhvb/kimik31pro_is_now_openweights</id>
+    <updated>2026-11-04T15:44:08.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Until recently I had a single 16GB GPU that I ran the IQ3_S version of Swift-1.5-Qwen3.8-27B-GSQ-RCO-GGUF on with strict context limitations. But now I got my hands on two RX7900XTs, so I have a pooled 40GB of VRAM available. I‘ve used llama.cpp so far. So even though Qwen4 is around the corner, I wonder what models an</summary>
-  </entry>
-  <entry>
-    <title>LOLPlay: Benchmarking Real-Time Visual Agents in League of Legends</title>
-    <link href="https://arxiv.org/abs/2611.03685"/>
-    <id>https://arxiv.org/abs/2611.03685</id>
-    <updated>2026-11-04T05:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>arXiv:2611.03685v1 Announce Type: new Abstract: Visual agents need to coordinate reasoning and action while their environment evolves during inference. We introduce LOLPlay, a benchmark in native \emph{League of Legends} with 36 champion-specific tasks spanning resource management, combat, cooperation, and objectives. </summary>
+    <summary>submitted by /u/ApprehensiveAd3629 [link] [comments]</summary>
   </entry>
 </feed>
