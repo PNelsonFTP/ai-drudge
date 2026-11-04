@@ -5,24 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-04T03:20:40.365Z</updated>
+  <updated>2026-11-04T04:08:40.859Z</updated>
   <entry>
-    <title>Qwen 3.8 27B on my laptop can interpret model weights, too</title>
-    <link href="https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights"/>
-    <id>https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights</id>
-    <updated>2026-11-03T16:29:48.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>qwen-code v0.26.7 released</title>
+    <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.26.7"/>
+    <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.26.7</id>
+    <updated>2026-11-04T04:03:01.000Z</updated>
+    <author><name>QwenLM/qwen-code</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read &amp; write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a &quot;blog post&quot;, but it's paper-shaped) found that frontier models, in particular GPT-6 Astra, can both</summary>
-  </entry>
-  <entry>
-    <title>claude-code v2.1.318 released</title>
-    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.318"/>
-    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.318</id>
-    <updated>2026-11-04T00:01:03.000Z</updated>
-    <author><name>anthropics/claude-code</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>What's changed Added a record of your answer when Claude Code asks to turn on the mods it writes in a session Added assume_role on mantle upstreams of the Claude apps gateway, for a role in another AWS account and for per-developer AWS cost attribution Added an effort option to a mod's $.model.fork , so a quick side jo — Also covered by: QwenLM/qwen-code</summary>
+    <summary>What's Changed test(autofix-pr): re-run a timed-out job and lose its answer in the chain test by @wenshao in #16138 refactor(managed-agent): Make runtime backends optional Maven modules by @doudouOUC in #16141 fix(ci): repair desktop RPM dependency and teardown checks by @yiliang114 in #16154 fix(acp-bridge): compact l — Also covered by: anthropics/claude-code, QwenLM/qwen-code</summary>
   </entry>
   <entry>
     <title>AI inference startup Fal doubles its valuation to $16B as demand surges</title>
@@ -97,31 +88,22 @@
     <summary>From a nuclear revival to qubits, the MIT Energy Initiative’s annual research conference tracked deployment of today’s technologies to discovery of tomorrow’s breakthroughs.</summary>
   </entry>
   <entry>
-    <title>ollama v0.40.15 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.15-rc0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.15-rc0</id>
-    <updated>2026-11-03T22:52:31.000Z</updated>
-    <author><name>ollama/ollama</name></author>
+    <title>llama.cpp b12098 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12098"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12098</id>
+    <updated>2026-11-04T03:53:56.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>What's Changed mlx: load bundled CUDA libraries in-process on Linux by @dhiltgen in #19433 model: add MiMo V2.6 model support by @dhiltgen in #19400 Full Changelog : v0.40.14...v0.40.15-rc0</summary>
+    <summary>mtmd: accurate support for qwen3-vl video prompt format ( #31619 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63416358 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) </summary>
   </entry>
   <entry>
-    <title>California accepts $1.42B in federal broadband funding, but challenges the Trump administration's demand that it stop enforcing state net neutrality rules (Jon Brodkin/Ars Technica)</title>
-    <link href="https://www.techmeme.com/261103/p46"/>
-    <id>https://www.techmeme.com/261103/p46</id>
-    <updated>2026-11-04T02:40:01.000Z</updated>
+    <title>Meta raised $15B in a US dollar bond sale; sources: the offering drew as much as $58B in orders and is the biggest portion of a $20B+ cross-border bond offering (Bloomberg)</title>
+    <link href="https://www.techmeme.com/261103/p47"/>
+    <id>https://www.techmeme.com/261103/p47</id>
+    <updated>2026-11-04T03:55:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Jon Brodkin / Ars Technica : California accepts $1.42B in federal broadband funding, but challenges the Trump administration's demand that it stop enforcing state net neutrality rules — California is accepting $1.42 billion in broadband grant funding from the Trump administration, but the state is not accepting …</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp b12096 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12096"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12096</id>
-    <updated>2026-11-04T03:16:39.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>hexagon: add TOP_K_MASK op ( #31552 ) hexagon: add TOP_K_MASK op Simplify Hexagon TOP_K_MASK kernel and do not duplicate host configuration Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63407530 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI ena</summary>
+    <summary>Bloomberg : Meta raised $15B in a US dollar bond sale; sources: the offering drew as much as $58B in orders and is the biggest portion of a $20B+ cross-border bond offering — Meta Platforms Inc. raised $15 billion from a US dollar bond sale, drawing solid demand as it became the latest Big Tech company …</summary>
   </entry>
   <entry>
     <title>LangSmith BYOC is now available on AWS, Azure, and Google Cloud</title>
@@ -133,22 +115,22 @@
     <summary>LangSmith BYOC now runs on AWS (GA), Azure and Google Cloud (Beta). Your traces, evals, and agent deployments stay in your cloud account while LangChain runs it.</summary>
   </entry>
   <entry>
-    <title>Tax Cut Hopes Help Fuel Nifty’s Rally to a Two-Month High</title>
-    <link href="https://www.bloomberg.com/news/newsletters/2026-11-04/tax-cut-hopes-help-fuel-nifty-s-rally-to-a-two-month-high"/>
-    <id>https://www.bloomberg.com/news/newsletters/2026-11-04/tax-cut-hopes-help-fuel-nifty-s-rally-to-a-two-month-high</id>
-    <updated>2026-11-04T02:45:25.000Z</updated>
+    <title>China Services Gauge Unexpectedly Dips for First Time Since July</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-04/china-services-gauge-unexpectedly-dips-for-first-time-since-july"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-04/china-services-gauge-unexpectedly-dips-for-first-time-since-july</id>
+    <updated>2026-11-04T03:39:46.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Global funds bought a net $2 billion of stocks in the final two weeks of October.</summary>
+    <summary>China’s services activity unexpectedly grew at a slower rate for the first time since July, a private survey showed, as business confidence eased and firms lowered their selling prices despite intensifying inflation in input costs.</summary>
   </entry>
   <entry>
-    <title>Singapore Stocks Set for Correction as Bank Profit Outlook Sours</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-04/singapore-stocks-set-for-correction-as-bank-profit-outlook-sours"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-04/singapore-stocks-set-for-correction-as-bank-profit-outlook-sours</id>
-    <updated>2026-11-04T02:37:31.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
+    <title>Queering the Audits: Community-Based Auditing of AI Harms to Queer Communities</title>
+    <link href="https://arxiv.org/abs/2611.00345"/>
+    <id>https://arxiv.org/abs/2611.00345</id>
+    <updated>2026-11-03T05:00:00.000Z</updated>
+    <author><name>arXiv cs.CL</name></author>
     <category term="RESEARCH"/>
-    <summary>Singapore’s equity benchmark Straits Times Index is on track for a correction as heavyweight bank shares slide on concerns over the outlook for profits.</summary>
+    <summary>arXiv:2611.00345v1 Announce Type: new Abstract: AI systems embed majority-group defaults into training data, evaluation metrics, and category definitions, producing documented harms for queer communities including erasure, misclassification, and discrimination. Standard technical audits often rely on aggregate measures</summary>
   </entry>
   <entry>
     <title>Salesforce’s M&amp;A Blitz Reflects Broader Deal Rush</title>
@@ -167,6 +149,15 @@
     <author><name>PyTorch Blog</name></author>
     <category term="OPEN SOURCE"/>
     <summary>On the evening of Sep 30, 2026, PyTorchKR and XCENA co-hosted KVCache Meetup Korea. PyTorchKR is a major AI/ML community in Korea, and XCENA is a startup that focuses on... The post KVCache Meetup Korea 2026: Event Recap appeared first on PyTorch .</summary>
+  </entry>
+  <entry>
+    <title>Qwen 3.8 27B on my laptop can interpret model weights, too</title>
+    <link href="https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights"/>
+    <id>https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights</id>
+    <updated>2026-11-03T16:29:48.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read &amp; write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a &quot;blog post&quot;, but it's paper-shaped) found that frontier models, in particular GPT-6 Astra, can both</summary>
   </entry>
   <entry>
     <title>How to Turn AI Red Team Findings Into Runtime Controls</title>
@@ -196,15 +187,6 @@
     <summary>Microsoft Threat Intelligence tracks a fake-download campaign that uses trojanized Inno installers to deliver multiple monetization offers and provides detection and investigation guidance across the complete installer session. The post Fake-download campaign uses trojanized installers to deliver monetization payloads </summary>
   </entry>
   <entry>
-    <title>China’s Largest Startup Deal Ever Lifts Global Venture Funding To $59B In October</title>
-    <link href="https://news.crunchbase.com/venture/october-2026-global-startup-funding-strong-china-deepseek"/>
-    <id>https://news.crunchbase.com/venture/october-2026-global-startup-funding-strong-china-deepseek</id>
-    <updated>2026-11-03T12:00:44.000Z</updated>
-    <author><name>Crunchbase News AI</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>Global venture funding in October totaled $59 billion, a 45% jump from a year earlier, per Crunchbase data, in large part due to a record-setting $15.9 billion funding round for China’s DeepSeek.</summary>
-  </entry>
-  <entry>
     <title>LiberAI Unveils Liber-0: Learning from Human Experience for Zero-Shot Robot Manipulation</title>
     <link href="https://www.humanoidsdaily.com/features/liberai-unveils-liber-0-zero-shot-robot-manipulation"/>
     <id>https://www.humanoidsdaily.com/features/liberai-unveils-liber-0-zero-shot-robot-manipulation</id>
@@ -223,13 +205,22 @@
     <summary>Insider Brief PRESS RELEASE — FirstQFM today announced results from a financial forecasting evaluation in which its proprietary foundation-model-based quantum reservoir computing (QRC) system, running on Rigetti Computing’s Cepheus™-1-108Q system using data supplied by SW7 Group, outperformed state-of-the-art classical</summary>
   </entry>
   <entry>
-    <title>The 'Astra can read and write weights to improve Qwen' post is misleading</title>
-    <link href="https://honnibal.dev/blog/astra-read-write-misleading"/>
-    <id>https://honnibal.dev/blog/astra-read-write-misleading</id>
-    <updated>2026-11-03T12:21:17.000Z</updated>
-    <author><name>HN: Chinese Frontier Labs</name></author>
+    <title>ollama v0.40.15 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.15-rc0"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.15-rc0</id>
+    <updated>2026-11-03T22:52:31.000Z</updated>
+    <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Article URL: https://honnibal.dev/blog/astra-read-write-misleading Comments URL: https://news.ycombinator.com/item?id=50351111 Points: 916 # Comments: 192</summary>
+    <summary>What's Changed mlx: load bundled CUDA libraries in-process on Linux by @dhiltgen in #19433 model: add MiMo V2.6 model support by @dhiltgen in #19400 Full Changelog : v0.40.14...v0.40.15-rc0</summary>
+  </entry>
+  <entry>
+    <title>California accepts $1.42B in federal broadband funding, but challenges the Trump administration's demand that it stop enforcing state net neutrality rules (Jon Brodkin/Ars Technica)</title>
+    <link href="https://www.techmeme.com/261103/p46"/>
+    <id>https://www.techmeme.com/261103/p46</id>
+    <updated>2026-11-04T02:40:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Jon Brodkin / Ars Technica : California accepts $1.42B in federal broadband funding, but challenges the Trump administration's demand that it stop enforcing state net neutrality rules — California is accepting $1.42 billion in broadband grant funding from the Trump administration, but the state is not accepting …</summary>
   </entry>
   <entry>
     <title>Cat Wu, product lead for Claude Code and Cowork, has left Anthropic; Thariq Shihipar, who worked on Claude Code, announced his departure last month (Stephen Council/Business Insider)</title>
@@ -241,22 +232,40 @@
     <summary>Stephen Council / Business Insider : Cat Wu, product lead for Claude Code and Cowork, has left Anthropic; Thariq Shihipar, who worked on Claude Code, announced his departure last month — - Cat Wu, who helped scale Claude Code into one of tech's most important products, has left Anthropic. — She joined the startup in 20</summary>
   </entry>
   <entry>
-    <title>Do you think the new Qwen 4.0 will make the hardware even harder to get? And more expensive?</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1xnbllt/do_you_think_the_new_qwen_40_will_make_the"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1xnbllt/do_you_think_the_new_qwen_40_will_make_the</id>
-    <updated>2026-11-04T01:42:26.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>Keeping up with new inference engines</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xnanyh/keeping_up_with_new_inference_engines"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xnanyh/keeping_up_with_new_inference_engines</id>
+    <updated>2026-11-04T00:58:01.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Managing to finally fit Qwen3.8-Flash-Next FP8 locally at ~60 tok/s(avg 74 at best) (RTX 5090 + 128 GB DDR5, Infernix engine, part of the experts streamed from NVMe) and seeing how amazing it is I cannot imagine how good Qwen 4.0 will be, not buying even at the current prices seems crazy to be if you are used to using </summary>
+    <summary>Hey everyone, Not a native speaker, happy to be corrected! Can only learn from it. Back when I started out in march 2025, you had: llama.cpp ollama (repackaged llama.cpp for ease of use) koboldcpp (repackaged llama.cpp for roleplay) vllm (for professional deployments) exl3 + tabbyapi (for bleeding edge) litert (for mob</summary>
   </entry>
   <entry>
-    <title>Copper Holds Losses Below $14,000 on US Midterm Risks to Stocks</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-04/copper-holds-losses-below-14-000-on-us-midterm-risks-to-stocks"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-04/copper-holds-losses-below-14-000-on-us-midterm-risks-to-stocks</id>
-    <updated>2026-11-04T02:47:04.000Z</updated>
+    <title>langchain v0.0.1 released</title>
+    <link href="https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1"/>
+    <id>https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1</id>
+    <updated>2026-11-04T00:11:28.000Z</updated>
+    <author><name>langchain-ai/langchain</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Initial release release(typesafe): 0.0.1 ( #41650 ) chore(infra): relax third-party dependency upper bounds ( #41407 ) chore(deps): bump certifi from 2026.7.22 to 2026.10.19 in /libs/partners/typesafe ( #41375 ) fix: fix dependencies in some partner packages ( #41266 ) release(typesafe): 0.0.1a3 ( #40693 ) feat(typesaf</summary>
+  </entry>
+  <entry>
+    <title>Asian Stocks Fall as Democratic Gains in US Add to AI Worries</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-04/asian-stocks-fall-as-democratic-gains-in-us-add-to-ai-worries"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-04/asian-stocks-fall-as-democratic-gains-in-us-add-to-ai-worries</id>
+    <updated>2026-11-04T03:52:59.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Copper fell for a second day as stocks dropped, after early US midterm results pointed to the growing prospect of a Democratic sweep of Congress.</summary>
+    <summary>Asian stocks fell to their lowest in over six months after early victories by the Democrats in the US midterm elections fueled concerns about tighter oversight of the artificial intelligence industry.</summary>
+  </entry>
+  <entry>
+    <title>Can India’s Debt-Fueled Spending Survive Higher Rates?</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-11-04/can-india-s-debt-fueled-spending-survive-higher-rates-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-11-04/can-india-s-debt-fueled-spending-survive-higher-rates-video</id>
+    <updated>2026-11-04T03:30:45.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>India’s household borrowing surged 36% in a year, raising questions about how much consumer spending is being powered by debt and whether that growth can last as interest rates rise. Ruchi Bhatia explains. (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>Setara Launches Daily Index of On-Demand GPU List Prices</title>
@@ -266,14 +275,5 @@
     <author><name>HPC Wire</name></author>
     <category term="RESEARCH"/>
     <summary>CHICAGO, Nov. 3, 2026 — Setara Financial Corp., a developer of independent benchmark and reference infrastructure for the global compute economy, today announced the release of the Setara Index, its initial GPU price index. This represents the initial step toward the Setara Indices, a family of independently governed b</summary>
-  </entry>
-  <entry>
-    <title>Queering the Audits: Community-Based Auditing of AI Harms to Queer Communities</title>
-    <link href="https://arxiv.org/abs/2611.00345"/>
-    <id>https://arxiv.org/abs/2611.00345</id>
-    <updated>2026-11-03T05:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
-    <category term="RESEARCH"/>
-    <summary>arXiv:2611.00345v1 Announce Type: new Abstract: AI systems embed majority-group defaults into training data, evaluation metrics, and category definitions, producing documented harms for queer communities including erasure, misclassification, and discrimination. Standard technical audits often rely on aggregate measures</summary>
   </entry>
 </feed>
