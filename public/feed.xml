@@ -5,16 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-05T02:09:00.257Z</updated>
-  <entry>
-    <title>llama.cpp: version bump b12111 (#19530)</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.15-rc1"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.15-rc1</id>
-    <updated>2026-11-05T01:31:38.000Z</updated>
-    <author><name>ollama/ollama</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Drop 002-metal-unary-cast-constexpr.patch: superseded by upstream fix — Also covered by: ggml-org/llama.cpp</summary>
-  </entry>
+  <updated>2026-11-05T03:08:39.516Z</updated>
   <entry>
     <title>OpenAI to acquire Pierre Computer Company, Inc.</title>
     <link href="https://openai.com/index/openai-to-acquire-pierre"/>
@@ -115,6 +106,24 @@
     <summary>Today is the day to join TechCrunch Founder Summit 2026 in Boston's SoWa Power Station. Register now to join this founder-focused conference today.</summary>
   </entry>
   <entry>
+    <title>qwen-code v0.26.7 released</title>
+    <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.26.7"/>
+    <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.26.7</id>
+    <updated>2026-11-04T05:13:06.000Z</updated>
+    <author><name>QwenLM/qwen-code</name></author>
+    <category term="GITHUB REPOS"/>
+    <summary>Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features Adds an operator-scoped model.catalogRefresh setting and lets privacy.usageStatisticsEnabled: false stop background catalog refreshes while local metadata remains available. ( #16066 ) by @yiliang114 — Also covered by: anthropics/claude-code</summary>
+  </entry>
+  <entry>
+    <title>llama.cpp b12121 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12121"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12121</id>
+    <updated>2026-11-05T03:03:33.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>llama : fix on-device state copy sizes for quantized KV caches ( #30541 ) llama : fix on-device state copy sizes for quantized KV caches The on-device sequence state copies (LLAMA_STATE_SEQ_FLAGS_ON_DEVICE) computed their element count as size / ggml_element_size(). For a quantized type such as q8_0 or q4_0 that is the</summary>
+  </entry>
+  <entry>
     <title>Sequoia Closes London Office to Focus on Silicon Valley</title>
     <link href="https://www.theinformation.com/briefings/sequoia-closes-london-office-focus-silicon-valley"/>
     <id>https://www.theinformation.com/briefings/sequoia-closes-london-office-focus-silicon-valley</id>
@@ -133,13 +142,22 @@
     <summary>LangSmith BYOC now runs on AWS (GA), Azure and Google Cloud (Beta). Your traces, evals, and agent deployments stay in your cloud account while LangChain runs it.</summary>
   </entry>
   <entry>
-    <title>El Niño Pushes Asia Rice Prices to 2-Year High, Threatening Inflation</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-05/el-nino-pushes-asia-rice-prices-to-2-year-high-threatening-inflation"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-05/el-nino-pushes-asia-rice-prices-to-2-year-high-threatening-inflation</id>
-    <updated>2026-11-05T01:51:53.000Z</updated>
+    <title>IFC’s $22 Billion Africa Push Runs Up Against Shallow Markets</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-05/ifc-s-22-billion-africa-push-runs-up-against-shallow-markets"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-05/ifc-s-22-billion-africa-push-runs-up-against-shallow-markets</id>
+    <updated>2026-11-05T03:00:00.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>A benchmark Asian rice price climbed to the highest in almost two years, threatening to accelerate food inflation as the El Niño weather pattern disrupts production of the staple grain.</summary>
+    <summary>Development lenders, governments and regulators need to deepen African markets so that every dollar they deploy can attract $10 more of commercial capital, an official at the World Bank’s private-sector arm said.</summary>
+  </entry>
+  <entry>
+    <title>Nifty Bounces Back to Beat All of Asia on Foreign Flows, Earnings</title>
+    <link href="https://www.bloomberg.com/news/newsletters/2026-11-05/nifty-bounces-back-to-beat-all-of-asia-on-foreign-flows-earnings"/>
+    <id>https://www.bloomberg.com/news/newsletters/2026-11-05/nifty-bounces-back-to-beat-all-of-asia-on-foreign-flows-earnings</id>
+    <updated>2026-11-05T02:30:31.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="RESEARCH"/>
+    <summary>India’s stock benchmark is the top gainer in Asia so far this quarter, up nearly 6%.</summary>
   </entry>
   <entry>
     <title>OpenAI launches Images 2.6 in ChatGPT, Codex, and the API, saying it generates images 50% faster, and adds animated GIF creation from prompts or photos (Emma Roth/The Verge)</title>
@@ -151,13 +169,13 @@
     <summary>Emma Roth / The Verge : OpenAI launches Images 2.6 in ChatGPT, Codex, and the API, saying it generates images 50% faster, and adds animated GIF creation from prompts or photos — You can use ChatGPT to edit a GIF's animation speed and individual frames. … ChatGPT can now create GIFs using a prompt or a photo uploaded to</summary>
   </entry>
   <entry>
-    <title>Data center shares fall as investors expect slower AI buildout after Democrats win Congress; Hut 8 drops 23%, IREN 11%, Core Scientific 10%, Applied Digital 7% (Reuters)</title>
-    <link href="https://www.techmeme.com/261104/p55"/>
-    <id>https://www.techmeme.com/261104/p55</id>
-    <updated>2026-11-04T23:30:01.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Exclusive: Microsoft Lowered Data Center Spending Following Delays By Cloud Firm Iren</title>
+    <link href="https://www.theinformation.com/briefings/exclusive-microsoft-lowered-data-center-spending-following-delays-cloud-firm-iren"/>
+    <id>https://www.theinformation.com/briefings/exclusive-microsoft-lowered-data-center-spending-following-delays-cloud-firm-iren</id>
+    <updated>2026-11-04T21:05:04.000Z</updated>
+    <author><name>The Information</name></author>
     <category term="HARDWARE"/>
-    <summary>Reuters : Data center shares fall as investors expect slower AI buildout after Democrats win Congress; Hut 8 drops 23%, IREN 11%, Core Scientific 10%, Applied Digital 7% — Wall Street closed sharply higher on Wednesday as Democrats' sweeping midterm election victory eased political uncertainty …</summary>
+    <summary>Microsoft said last week that it spent about $5 billion less on capital expenditures in the third quarter than it had previously projected because data center capacity it was planning to rent wasn’t ready on time. Microsoft didn’t name the “third party” behind those delays, but one of them is ...</summary>
   </entry>
   <entry>
     <title>Call for Proposals: PyTorch Day China 2026</title>
@@ -178,13 +196,13 @@
     <summary>Anthropic is rolling out text watermarks to four more Claude models ahead of the EU AI Act's December deadline. But on older models like Claude Opus 4.6 and Sonnet 4.6, API users can disable the watermark by changing a single sampling parameter. Anthropic's response to the loophole? A compliance warning. The article An</summary>
   </entry>
   <entry>
-    <title>Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit</title>
-    <link href="https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html"/>
-    <id>https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html</id>
-    <updated>2026-11-04T16:06:43.000Z</updated>
-    <author><name>The Hacker News</name></author>
+    <title>Palo Alto Networks in Talks to Pay $500 Million for AI Security Startup</title>
+    <link href="https://www.theinformation.com/articles/palo-alto-networks-talks-pay-500-million-ai-security-startup"/>
+    <id>https://www.theinformation.com/articles/palo-alto-networks-talks-pay-500-million-ai-security-startup</id>
+    <updated>2026-11-05T02:52:48.000Z</updated>
+    <author><name>The Information</name></author>
     <category term="AI SECURITY"/>
-    <summary>Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway. The phenomenon has been codenamed prompt adware by Check Point Research. Called Haiou (meanin</summary>
+    <summary>Palo Alto Networks is in talks to buy three-year-old Israeli security startup Clutch Security for around $500 million, according to people familiar with the matter. If finalized, the acquisition would be the fifth Palo Alto Networks has announced this year, as CEO Nikesh Arora seeks to bolster the company’s products th</summary>
   </entry>
   <entry>
     <title>More Asian airlines announce data breaches after attack on Spanish IT provider Amadeus</title>
@@ -194,6 +212,15 @@
     <author><name>The Record</name></author>
     <category term="CYBER THREATS"/>
     <summary>Japan Airlines, Cathay Pacific, Korean Air, Asiana Airlines, Singapore Airlines and Malaysia Airlines have all come forward over the last week to report data breaches traced back to Amadeus IT Group — a company that builds and maintains platforms for flight reservation, ticketing and check-in platforms.</summary>
+  </entry>
+  <entry>
+    <title>llama.cpp: version bump b12111 (#19530)</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.15-rc1"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.15-rc1</id>
+    <updated>2026-11-05T01:31:38.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="CYBER DEFENSE"/>
+    <summary>Drop 002-metal-unary-cast-constexpr.patch: superseded by upstream fix</summary>
   </entry>
   <entry>
     <title>How big is the open model economy today?</title>
@@ -229,25 +256,7 @@
     <updated>2026-11-04T15:30:30.000Z</updated>
     <author><name>HN: Chinese Frontier Labs</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Article URL: https://huggingface.co/moonshotai/Kimi-K3.1-Pro Comments URL: https://news.ycombinator.com/item?id=50366999 Points: 384 # Comments: 102</summary>
-  </entry>
-  <entry>
-    <title>OpenAI acquires Pierre Computer Company to make Git keep up with AI coding agents</title>
-    <link href="https://the-decoder.com/openai-acquires-pierre-computer-company-to-make-git-keep-up-with-ai-coding-agents"/>
-    <id>https://the-decoder.com/openai-acquires-pierre-computer-company-to-make-git-keep-up-with-ai-coding-agents</id>
-    <updated>2026-11-04T18:41:03.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>OpenAI is buying Pierre Computer Company, the startup whose libraries already power the coding agent Codex. Combined with OpenAI's recently launched Git backend Pando, the deal shows the company is building out its infrastructure for developers and AI agents working side by side. The article OpenAI acquires Pierre Comp</summary>
-  </entry>
-  <entry>
-    <title>Voters’ Gift to Big Tech</title>
-    <link href="https://www.theinformation.com/articles/voters-gift-big-tech"/>
-    <id>https://www.theinformation.com/articles/voters-gift-big-tech</id>
-    <updated>2026-11-05T01:01:02.000Z</updated>
-    <author><name>The Information</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Voters just handed big tech a gift—and we’re not just thinking of Californians who voted against the billionaire tax proposal. (Can all those billionaires come home now?) Wednesday’s rally in the stocks of Amazon, Microsoft, Apple and Alphabet suggests that investors see lots of upside for those tech firms from Tuesday</summary>
+    <summary>Article URL: https://huggingface.co/moonshotai/Kimi-K3.1-Pro Comments URL: https://news.ycombinator.com/item?id=50366999 Points: 404 # Comments: 109</summary>
   </entry>
   <entry>
     <title>Qwen3.8 27B Q4 on my low-end Laptop, and it became my main Model usage for coding</title>
@@ -259,21 +268,12 @@
     <summary>my laptop is very old, like 20G of ram 4G Vram 256G NVMe Gen3 From samsung i7 8th gen on these specs i got around 0.67 - 0.77 token per second yes, extremely slow, most of you won't even like it, or use it but free APIs these days are rare, and extremely limited usage, and my country has banned worldwide transactions, </summary>
   </entry>
   <entry>
-    <title>Ricursive Intelligence Ripple-65B-Preview: New Dense Model!</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xo2arv/ricursive_intelligence_ripple65bpreview_new_dense"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xo2arv/ricursive_intelligence_ripple65bpreview_new_dense</id>
-    <updated>2026-11-04T22:42:48.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>So Ricursive Intelligence (not to be confused with Recursive, the makers of Flint) just dropped the preview of their new dense 65B model, which appears to have really impressive performance, putting it on the frontier of American open-weights models of any size. Their benchmarks compare it with Muse Spark Open (816B) a</summary>
-  </entry>
-  <entry>
-    <title>Cat Wu, who left Anthropic last week, says she is joining OpenAI to lead product manangement for core products; Wu was the product lead for Claude Code (Stephen Council/Business Insider)</title>
-    <link href="https://www.techmeme.com/261104/p60"/>
-    <id>https://www.techmeme.com/261104/p60</id>
-    <updated>2026-11-05T01:20:01.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>OpenAI acquires Pierre Computer Company to make Git keep up with AI coding agents</title>
+    <link href="https://the-decoder.com/openai-acquires-pierre-computer-company-to-make-git-keep-up-with-ai-coding-agents"/>
+    <id>https://the-decoder.com/openai-acquires-pierre-computer-company-to-make-git-keep-up-with-ai-coding-agents</id>
+    <updated>2026-11-04T18:41:03.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Stephen Council / Business Insider : Cat Wu, who left Anthropic last week, says she is joining OpenAI to lead product manangement for core products; Wu was the product lead for Claude Code — Cat Wu, who left Anthropic last week after becoming one of the company's highest-profile product managers, is joining OpenAI. She</summary>
+    <summary>OpenAI is buying Pierre Computer Company, the startup whose libraries already power the coding agent Codex. Combined with OpenAI's recently launched Git backend Pando, the deal shows the company is building out its infrastructure for developers and AI agents working side by side. The article OpenAI acquires Pierre Comp</summary>
   </entry>
 </feed>
