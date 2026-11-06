@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-06T23:15:08.803Z</updated>
+  <updated>2026-11-06T23:32:10.908Z</updated>
   <entry>
-    <title>llama.cpp b12179 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12179"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12179</id>
-    <updated>2026-11-06T20:47:14.000Z</updated>
+    <title>llama.cpp b12180 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12180"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12180</id>
+    <updated>2026-11-06T23:24:23.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>hexagon: conv_2d optimizations and support for conv_3d ( #31814 ) hexagon: Generalization of CONV_2D implementation for CONV_3D New op HTP_OP_CONV_3D is wired through htp-ops.h, main.c (shares op_conv_2d) and the op remap in htp-kparams.cpp. conv_3d runs on the existing HMX tiled (implicit GEMM) conv2d path. KD and KH </summary>
+    <category term="MODEL RELEASES"/>
+    <summary>model: add Kimi-K3.1-Pro text model ( #31779 ) model: add Kimi-K3.1-Pro text model K3 with the full-attention MLA layers replaced by DSA: on this checkpoint 24 of the 93 layers carry a lightning indexer (32 heads x 128, top_k 2048, no rope). The KDA (linear-attention) layers and the rest of the K3 skeleton - cross-laye</summary>
   </entry>
   <entry>
     <title>Measuring how AI agents handle everyday wet-lab science</title>
@@ -52,15 +52,6 @@
     <summary>Also covered by: Ai2 (Allen Institute)</summary>
   </entry>
   <entry>
-    <title>qwen-code v0.26.9 released</title>
-    <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.26.9"/>
-    <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.26.9</id>
-    <updated>2026-11-06T17:33:27.000Z</updated>
-    <author><name>QwenLM/qwen-code</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Highlights See the complete change list below. Breaking Changes No known breaking changes. Skill installation and activation Skill ZIP uploads, daemon APIs, TypeScript SDK support, bulk activation, and recovery protections make installing and managing Skills more reliable. Adds PUT /skills/activation and setUserSkillsA — Also covered by: anthropics/claude-code, QwenLM/qwen-code</summary>
-  </entry>
-  <entry>
     <title>How a Blue Wave midterm might reshape the AI industry</title>
     <link href="https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry"/>
     <id>https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry</id>
@@ -76,6 +67,15 @@
     <updated>2026-11-06T22:58:31.000Z</updated>
     <author><name>The Next Platform</name></author>
     <category term="HARDWARE"/>
+  </entry>
+  <entry>
+    <title>qwen-code v0.26.9 released</title>
+    <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.26.9"/>
+    <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.26.9</id>
+    <updated>2026-11-06T17:33:27.000Z</updated>
+    <author><name>QwenLM/qwen-code</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Highlights See the complete change list below. Breaking Changes No known breaking changes. Skill installation and activation Skill ZIP uploads, daemon APIs, TypeScript SDK support, bulk activation, and recovery protections make installing and managing Skills more reliable. Adds PUT /skills/activation and setUserSkillsA — Also covered by: anthropics/claude-code, QwenLM/qwen-code</summary>
   </entry>
   <entry>
     <title>Cult.fit builds operational muscle with Codex</title>
@@ -105,13 +105,13 @@
     <summary>Executive summary From August 12 to October 29, 2026, METR staff performed a high-access evaluation at Anthropic to assess the degree to which AI is accelerating AI R&amp;D. If AI systems started to significantly accelerate further AI development, this could lead to a sudden emergence of extreme and risky capabilities . An — Also covered by: METR</summary>
   </entry>
   <entry>
-    <title>b12180: model: add Kimi-K3.1-Pro text model (#31779)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12180"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12180</id>
-    <updated>2026-11-06T22:42:46.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model</title>
+    <link href="https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model"/>
+    <id>https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model</id>
+    <updated>2026-11-06T19:47:04.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>model: add Kimi-K3.1-Pro text model K3 with the full-attention MLA layers replaced by DSA: on this checkpoint 24 of the 93 layers carry a lightning indexer (32 heads x 128, top_k 2048, no rope). The KDA (linear-attention) layers and the rest of the K3 skeleton - cross-layer residuals, latent MoE, situ, MLA output gate,</summary>
+    <summary>Ricursive Intelligence is releasing Ripple-65B Preview, a 65-billion-parameter open-weight language model that the company says achieves the top score among open-source U.S. models on the TerminalBench 2.1 coding benchmark at a total R&amp;D cost of $32 million. On other benchmarks, however, Ripple falls behind the likewis</summary>
   </entry>
   <entry>
     <title>OpenAI Expected to Brief Investors Next Week After Raising $11 Billion</title>
@@ -121,15 +121,6 @@
     <author><name>The Information</name></author>
     <category term="INDUSTRY NEWS"/>
     <summary>OpenAI is expected to host a call with investors next week to discuss its third-quarter results, according to a person familiar with the plan. The discussions follow the close of the first part of its latest round, which raised $11 billion at a $1.25 trillion valuation before the ...</summary>
-  </entry>
-  <entry>
-    <title>Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model</title>
-    <link href="https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model"/>
-    <id>https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model</id>
-    <updated>2026-11-06T19:47:04.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Ricursive Intelligence is releasing Ripple-65B Preview, a 65-billion-parameter open-weight language model that the company says achieves the top score among open-source U.S. models on the TerminalBench 2.1 coding benchmark at a total R&amp;D cost of $32 million. On other benchmarks, however, Ripple falls behind the likewis</summary>
   </entry>
   <entry>
     <title>Providing Capital to Tech Companies: Masters In Business with Ann Berry</title>
@@ -148,6 +139,15 @@
     <author><name>GitHub Blog</name></author>
     <category term="PRODUCTS"/>
     <summary>Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment. The post Beyond code generation: A developer’s guide to agentic engineering appeared first on The GitHub Blog .</summary>
+  </entry>
+  <entry>
+    <title>How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks</title>
+    <link href="https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks"/>
+    <id>https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks</id>
+    <updated>2026-11-06T16:00:35.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
+    <category term="HARDWARE"/>
+    <summary>A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation for testing ideas, comparing results and building on each other’s work — connecting simulation and A</summary>
   </entry>
   <entry>
     <title>OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits</title>
@@ -177,15 +177,6 @@
     <summary>WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and unintentionally attacked the company. [...]</summary>
   </entry>
   <entry>
-    <title>transformers v5.22.2 released</title>
-    <link href="https://github.com/huggingface/transformers/releases/tag/v5.22.2"/>
-    <id>https://github.com/huggingface/transformers/releases/tag/v5.22.2</id>
-    <updated>2026-11-06T15:43:27.000Z</updated>
-    <author><name>huggingface/transformers</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>Patch release v5.22.2 Some in between patch for security and distributed fixes. See the included commits 🤗 [Distributed] Set device_id only for NCCL ( #50281 ) by @michaelbenayoun and @3outeille Harden our Jinja sandboxing ( #50431 ) by @Rocketknight1 Full Changelog : v5.22.1...v5.22.2</summary>
-  </entry>
-  <entry>
     <title>Quoting Nilay Patel</title>
     <link href="https://simonwillison.net/2026/Nov/6/nilay-patel"/>
     <id>https://simonwillison.net/2026/Nov/6/nilay-patel</id>
@@ -204,13 +195,13 @@
     <summary>The EPFL spin-off's two-armed robot starts each job under remote control and, the company says, takes the task over within a month. It reports a 95% average success rate in paid pilots.</summary>
   </entry>
   <entry>
-    <title>AI physics startup PSI says a system running a non-public Anthropic model proved the Aaronson-Ambainis conjecture, a quantum computing question open since 2008 (PSI)</title>
-    <link href="https://www.techmeme.com/261106/p20"/>
-    <id>https://www.techmeme.com/261106/p20</id>
-    <updated>2026-11-06T19:35:01.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>University of Cambridge Joins UK Quantum Commercialisation Initiative</title>
+    <link href="https://thequantuminsider.com/2026/11/06/cambridge-uk-quantum-superconnector-commercialisation"/>
+    <id>https://thequantuminsider.com/2026/11/06/cambridge-uk-quantum-superconnector-commercialisation</id>
+    <updated>2026-11-06T18:53:02.000Z</updated>
+    <author><name>The Quantum Insider</name></author>
     <category term="QUANTUM"/>
-    <summary>PSI : AI physics startup PSI says a system running a non-public Anthropic model proved the Aaronson-Ambainis conjecture, a quantum computing question open since 2008 — The Aaronson-Ambainis conjecture is now a theorem. — Open since 2008, the conjecture of Scott Aaronson and Andris Ambainis concerns …</summary>
+    <summary>Insider Brief PRESS RELEASE — A consortium of five of the UK’s top universities, including the University of Cambridge, has announced the launch of the UK Quantum SuperConnector, an initiative designed to bridge the gap between quantum research and commercial success. The initiative will create a UK-wide community of e</summary>
   </entry>
   <entry>
     <title>Design the Muse App, Just for You</title>
@@ -240,22 +231,22 @@
     <summary>Anthropic next week plans to proceed with formal marketing to potential investors for its upcoming initial public offering, say people familiar with the matter. The IPO roadshow will follow two weeks of volatility for tech stocks after investors reacted to massive AI spending plans from Amazon ...</summary>
   </entry>
   <entry>
-    <title>NousResearch/Arete-27B · Hugging Face (Qwen finetune)</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xpmj33/nousresearcharete27b_hugging_face_qwen_finetune"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xpmj33/nousresearcharete27b_hugging_face_qwen_finetune</id>
-    <updated>2026-11-06T19:58:47.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>My 5 year old M1 Pro 32GB, bought used for $800, still runs a 35B AI model locally at 51 tokens/sec</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1xppolg/my_5_year_old_m1_pro_32gb_bought_used_for_800"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1xppolg/my_5_year_old_m1_pro_32gb_bought_used_for_800</id>
+    <updated>2026-11-06T22:09:26.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>https://huggingface.co/bartowski/NousResearch_Arete-27B-GGUF from NousResearch: Arete-27B We post-trained over Alibaba's Qwen3.8-27B to reinforce western values on a Chinese-trained model. We call this new model Arete-27B. Open source models give labs the raw tools to mold intelligence to varied preferences. The values</summary>
+    <summary>submitted by /u/Rish_p_one7 [link] [comments]</summary>
   </entry>
   <entry>
-    <title>We are in the golden age of Local LLM</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xppbht/we_are_in_the_golden_age_of_local_llm"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xppbht/we_are_in_the_golden_age_of_local_llm</id>
-    <updated>2026-11-06T21:54:01.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>Qwen 3.8 27B vs Qwen 3.8 Flash Next</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1xpocn2/qwen_38_27b_vs_qwen_38_flash_next"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1xpocn2/qwen_38_27b_vs_qwen_38_flash_next</id>
+    <updated>2026-11-06T21:13:30.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Q4 of 2026 has been astronomical for local LLM. Qwen’s 27B and Flash-Next models are pushing local AI further. and most importantly the upcoming Qwen 4 release. We’re getting closer to having frontier-level capabilities in models that WE can run. Break down : Unsloth’s new Dynamic v3.1 quants for Qwen Flash-Next/Qwen-2</summary>
+    <summary>submitted by /u/c7abe [link] [comments]</summary>
   </entry>
   <entry>
     <title>Perplexity now has its own always-on AI agent</title>
@@ -274,5 +265,14 @@
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
     <summary>Barry speaks with Ann Berry, founder and managing partner of Threadneedle. They discuss her path from Goldman Sachs M&amp;A and private equity to running a hospitality services company through the pandemic. They also discuss Ann's early-stage bets on AI and deepfake detection, and surveying the expanding IPO landscape. (So</summary>
+  </entry>
+  <entry>
+    <title>Anthropic to press ahead with IPO targeting $1.5tn valuation</title>
+    <link href="https://www.ft.com/content/314e17df-e7af-4814-b208-70a0557cb452?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/314e17df-e7af-4814-b208-70a0557cb452?syn-25a6b1a6=1</id>
+    <updated>2026-11-06T21:00:09.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Claude maker intends to list before Thanksgiving despite brutal tech rout</summary>
   </entry>
 </feed>
