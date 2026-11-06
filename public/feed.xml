@@ -5,16 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-06T15:08:50.812Z</updated>
-  <entry>
-    <title>ORNL, IBM, and AMD Launch New Co-Design Platform for Quantum Error Correction</title>
-    <link href="https://www.hpcwire.com/off-the-wire/ornl-ibm-and-amd-launch-new-co-design-platform-for-quantum-error-correction"/>
-    <id>https://www.hpcwire.com/off-the-wire/ornl-ibm-and-amd-launch-new-co-design-platform-for-quantum-error-correction</id>
-    <updated>2026-11-06T00:57:20.000Z</updated>
-    <author><name>HPC Wire</name></author>
-    <category term="RESEARCH"/>
-    <summary>New initiative combines U.S. leadership in quantum and high-performance computing to align with the Department of Energy’s Quantum Genesis Mission to accelerate a path toward a scientifically relevant quantum computer by 2028 POUGHKEEPSIE, N.Y., Nov. 5, 2026 — IBM, the U.S. Department of Energy-funded Quantum Science C — Also covered by: Quantum Computing Report, IBM Research Blog</summary>
-  </entry>
+  <updated>2026-11-06T16:08:39.620Z</updated>
   <entry>
     <title>Anthropic's $1.5 trillion IPO hits resistance as investors balk at valuation</title>
     <link href="https://the-decoder.com/anthropics-1-5-trillion-ipo-hits-resistance-as-investors-balk-at-valuation"/>
@@ -23,6 +14,15 @@
     <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Anthropic's IPO is in trouble as investors push back on the $1.5 trillion valuation and the tech market sells off. The article Anthropic's $1.5 trillion IPO hits resistance as investors balk at valuation appeared first on The Decoder .</summary>
+  </entry>
+  <entry>
+    <title>Amazon Says Shoppers Can Now Text With AI Shopping Assistant Alexa For Shopping</title>
+    <link href="https://www.theinformation.com/briefings/amazon-says-shoppers-can-now-text-ai-shopping-assistant-alexa-shopping"/>
+    <id>https://www.theinformation.com/briefings/amazon-says-shoppers-can-now-text-ai-shopping-assistant-alexa-shopping</id>
+    <updated>2026-11-06T15:31:38.000Z</updated>
+    <author><name>The Information</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Amazon has introduced a feature to its Alexa for Shopping service where users can text the AI shopping assistant directly. The move signals how text messaging is becoming a standard communication tool for agents. Meta’s Muse and Instinct both let users interact with them via text messages, while ... — Also covered by: The Verge AI</summary>
   </entry>
   <entry>
     <title>ToyBlocks: A controlled world for robot learning and evaluation</title>
@@ -41,6 +41,15 @@
     <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
     <summary>Physicl is trying to solve the sim-to-real gap with a pipeline originally built to market goods online.</summary>
+  </entry>
+  <entry>
+    <title>qwen-code v0.26.9 released</title>
+    <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.26.9"/>
+    <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.26.9</id>
+    <updated>2026-11-06T16:07:57.000Z</updated>
+    <author><name>QwenLM/qwen-code</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>What's Changed fix(channels): keep GitHub inbound recovery armed after a failed read by @wenshao in #16402 test(core): harden renewal waits and writer seal coverage by @xxwtiancai in #14482 feat(verify-pr): give the sandboxed round the PR's review threads by @wenshao in #16300 perf(core): read each Managed message body — Also covered by: QwenLM/qwen-code, anthropics/claude-code</summary>
   </entry>
   <entry>
     <title>Cult.fit builds operational muscle with Codex</title>
@@ -115,13 +124,22 @@
     <summary>Anthropic is introducing a new feature in Claude called Personal Finance, which allows users to connect their bank and card accounts and ask questions about their finances. The article Anthropic adds bank account access to Claude so users can track their spending appeared first on The Decoder .</summary>
   </entry>
   <entry>
-    <title>llama.cpp b12172 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12172"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12172</id>
-    <updated>2026-11-06T14:54:23.000Z</updated>
+    <title>GPU Futures Hopes Hit Another Roadblock as CME Delays Launch for Second Time</title>
+    <link href="https://www.theinformation.com/briefings/gpu-futures-hopes-hit-another-roadblock-cme-delays-launch-second-time"/>
+    <id>https://www.theinformation.com/briefings/gpu-futures-hopes-hit-another-roadblock-cme-delays-launch-second-time</id>
+    <updated>2026-11-06T15:47:23.000Z</updated>
+    <author><name>The Information</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>The launch of futures tied to rental prices on Nvidia GPUs has hit a second snag after the CME agreed to delay its launch for another 60 days, taking any approval into January. The Commodity Futures Trading Commission asked the CME, the exchange behind the likely first product to be brought to ...</summary>
+  </entry>
+  <entry>
+    <title>llama.cpp b12175 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12175"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12175</id>
+    <updated>2026-11-06T16:08:18.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>webgpu: add batched tensor API ( get_tensor_n and set_tensor_n ) ( #31473 ) add set_tensor_n and get_tensor_n fix for editor-config checker remove the outdated comment Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64533296 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple </summary>
+    <summary>tests : override hardware_concurrency in CI ( #31797 ) The self-hosted CPU runners are containers with 8 CPUs, but std::thread::hardware_concurrency reports the cores of the host. The table mode of test-llama-context sizes its pool from that count, so it runs 4 models x 8 threads on an 8-CPU job and hangs. Add TEST_ARG</summary>
   </entry>
   <entry>
     <title>ollama v0.40.15 released</title>
@@ -142,13 +160,13 @@
     <summary>More privacy, more space and even a double bed in the sky. Singapore Airlines is giving its long-haul flights a S$2 billion makeover, with new business and first class seats set to take flight next year. Danny Lee takes a look inside these new cabins. (Source: Bloomberg)</summary>
   </entry>
   <entry>
-    <title>Big Models, Small Gains: Frozen Forecasters as Classifiers on MONSTER</title>
-    <link href="https://arxiv.org/abs/2611.06988"/>
-    <id>https://arxiv.org/abs/2611.06988</id>
-    <updated>2026-11-06T05:00:00.000Z</updated>
-    <author><name>arXiv cs.LG</name></author>
+    <title>transformers v5.22.2 released</title>
+    <link href="https://github.com/huggingface/transformers/releases/tag/v5.22.2"/>
+    <id>https://github.com/huggingface/transformers/releases/tag/v5.22.2</id>
+    <updated>2026-11-06T15:43:27.000Z</updated>
+    <author><name>huggingface/transformers</name></author>
     <category term="RESEARCH"/>
-    <summary>arXiv:2611.06988v1 Announce Type: new Abstract: Forecasting foundation models are increasingly used as frozen feature extractors for time series classification, but it remains unclear whether their pretrained representations offer an advantage over strong classifiers that do not require pretraining. This raises an impo</summary>
+    <summary>Patch release v5.22.2 Some in between patch for security and distributed fixes. See the included commits 🤗 [Distributed] Set device_id only for NCCL ( #50281 ) by @michaelbenayoun and @3outeille Harden our Jinja sandboxing ( #50431 ) by @Rocketknight1 Full Changelog : v5.22.1...v5.22.2</summary>
   </entry>
   <entry>
     <title>Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It</title>
@@ -169,13 +187,13 @@
     <summary>Thinking Machines, the startup from former OpenAI CTO Mira Murati, is releasing Inkling 2 Small, a mixture-of-experts model with 594 billion parameters. The company claims it's the strongest western open-weight model. Better agentic performance comes at a price, though, with token usage rising sharply. The article Thin</summary>
   </entry>
   <entry>
-    <title>Innovation Council’s directors include execs at David Sacks’ VC firm</title>
-    <link href="https://www.transformernews.ai/p/innovation-council-david-sacks-jd-vance"/>
-    <id>https://www.transformernews.ai/p/innovation-council-david-sacks-jd-vance</id>
-    <updated>2026-11-06T14:34:18.000Z</updated>
+    <title>Will Democrats splinter on AI?</title>
+    <link href="https://www.transformernews.ai/p/will-democrats-splinter-on-ai"/>
+    <id>https://www.transformernews.ai/p/will-democrats-splinter-on-ai</id>
+    <updated>2026-11-06T15:39:50.000Z</updated>
     <author><name>Transformer</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Filings in Utah list executives at Sacks’ Craft Ventures and an apparent political consultant who “oversees” JD Vance’s donor relationships</summary>
+    <summary>Transformer Weekly: Democrats’ divisions, an alarming RSI report, and an AI stock crash</summary>
   </entry>
   <entry>
     <title>Experts say the new Democratic congressional majority will likely seek to rebuild CISA, prioritize AI security, revive local cyber grants, probe DOGE, and more (Eric Geller/Cybersecurity Dive)</title>
@@ -196,13 +214,13 @@
     <summary>Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers. [...]</summary>
   </entry>
   <entry>
-    <title>Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers</title>
-    <link href="https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html"/>
-    <id>https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html</id>
-    <updated>2026-11-06T12:06:35.000Z</updated>
-    <author><name>The Hacker News</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test. The attack needs Dispatch, a Claude feature that lets people send tasks from their phone to Claude Desktop. The flaw that make</summary>
+    <title>Ramp data shows AI spending stalling just as Anthropic nears its IPO</title>
+    <link href="https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo"/>
+    <id>https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo</id>
+    <updated>2026-11-06T15:54:47.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth.</summary>
   </entry>
   <entry>
     <title>Sharp Tech on Video: The U.S. Votes on Data Centers, Implications for Big Tech, Google’s Response to AI</title>
@@ -232,48 +250,30 @@
     <summary>IBM, AMD, and Oak Ridge launch hybrid quantum-classical system to accelerate quantum-error correction research ahead of 2028. The post IBM, AMD Mix Quantum and AI at U.S. National Lab appeared first on EE Times .</summary>
   </entry>
   <entry>
-    <title>Employees at Microsoft, long known for its stability in the industry, are grappling with its decision to offer buyouts to 60,000 people as AI spending grows (Emmy Martin/New York Times)</title>
-    <link href="https://www.techmeme.com/261106/p12"/>
-    <id>https://www.techmeme.com/261106/p12</id>
-    <updated>2026-11-06T14:25:00.000Z</updated>
+    <title>Frontier Radar #5: If AGI is so close, why is everyone leaving? The neolabs and their bets</title>
+    <link href="https://the-decoder.com/frontier-radar-5-if-agi-is-so-close-why-is-everyone-leaving-the-neolabs-and-their-bets"/>
+    <id>https://the-decoder.com/frontier-radar-5-if-agi-is-so-close-why-is-everyone-leaving-the-neolabs-and-their-bets</id>
+    <updated>2026-11-06T15:55:23.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>OpenAI is talking about the AGI era, and Nvidia CEO Jensen Huang says AGI has arrived. At the same time, co-creators of today's models are leaving OpenAI, Google DeepMind, and Meta to start their own labs, raising billions with no product to show. Why? They're betting that the current recipe alone won't be enough. We'v</summary>
+  </entry>
+  <entry>
+    <title>Fox closes its $22B Roku acquisition well ahead of the expected 2027 date; Anthony Wood joins Fox's board and co-chairs a new unit with Tubi, Fox One, and Roku (Todd Spangler/Variety)</title>
+    <link href="https://www.techmeme.com/261106/p14"/>
+    <id>https://www.techmeme.com/261106/p14</id>
+    <updated>2026-11-06T15:30:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Emmy Martin / New York Times : Employees at Microsoft, long known for its stability in the industry, are grappling with its decision to offer buyouts to 60,000 people as AI spending grows — Within an hour of Microsoft's announcement of buyouts last week, employees rushed to an internal site to see whether they had been</summary>
+    <summary>Todd Spangler / Variety : Fox closes its $22B Roku acquisition well ahead of the expected 2027 date; Anthony Wood joins Fox's board and co-chairs a new unit with Tubi, Fox One, and Roku — Surprise! Fox Corp. has closed its acquisition of streaming platform Roku, a deal valued at $22 billion, well ahead of the expected </summary>
   </entry>
   <entry>
-    <title>Fearing AI disruption, white-collar workers are quitting their jobs</title>
-    <link href="https://www.theguardian.com/technology/2026/nov/06/ai-disruption-job-quitting"/>
-    <id>https://www.theguardian.com/technology/2026/nov/06/ai-disruption-job-quitting</id>
-    <updated>2026-11-06T14:00:45.000Z</updated>
-    <author><name>The Guardian AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>While there’s no evidence linking AI to mass layoffs, the tech has already ‘changed worker psychology’ When artificial intelligence researcher Mrinank Sharma quit his job at Anthropic earlier this year, the news rippled across the internet. In his resignation letter, posted on X and viewed 15.3m times, Sharma warned of</summary>
-  </entry>
-  <entry>
-    <title>Does anyone know if qwen 4 will be Moe or dense?</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1xpbsu4/does_anyone_know_if_qwen_4_will_be_moe_or_dense"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1xpbsu4/does_anyone_know_if_qwen_4_will_be_moe_or_dense</id>
-    <updated>2026-11-06T12:39:52.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>b12176: tests : qualify isnan and signbit with std:: (#31791)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12176"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12176</id>
+    <updated>2026-11-06T12:53:04.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>I saw a new stealth model and looks like it's a dense also it seems about time that qwen4 is launched so does anyone know if it'll be Moe since flash next was an Moe I was hoping qwen 4 would be too submitted by /u/SSarrrrrrrrrr [link] [comments]</summary>
-  </entry>
-  <entry>
-    <title>Lamplight - My Local First Harness</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1xpda9p/lamplight_my_local_first_harness"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1xpda9p/lamplight_my_local_first_harness</id>
-    <updated>2026-11-06T13:50:48.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Hi folks! I've been building my own local AI setup for a couple of years now. I've learned a ton from this sub and others, so it's time I tried to give something back. I promised myself I wouldn't write a super long post, but managed to anyway...hopefully it's useful to someone! My goal over the last couple of years ha</summary>
-  </entry>
-  <entry>
-    <title>Kihan Launches Constitutional Computing to Bring Enforceable Authority to Enterprise AI Agents</title>
-    <link href="https://www.hpcwire.com/off-the-wire/kihan-launches-constitutional-computing-to-bring-enforceable-authority-to-enterprise-ai-agents"/>
-    <id>https://www.hpcwire.com/off-the-wire/kihan-launches-constitutional-computing-to-bring-enforceable-authority-to-enterprise-ai-agents</id>
-    <updated>2026-11-06T14:57:24.000Z</updated>
-    <author><name>HPC Wire</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>SAN FRANCISCO, Nov. 6, 2026 — Kihan, a new technology company developing Constitutional Computing, has announced its formation and the introduction of a mathematically based architecture designed to make artificial intelligence governance enforceable at the point of execution. Constitutional Computing is designed to pr</summary>
+    <summary>tests : qualify isnan and signbit with std:: The unqualified calls rely on the C math.h names also being present in the global namespace, which is not the case for the NetBSD 11.99.9/x86_64 gcc 14.4.0 build reported in the issue. Prefix the calls with std:: to select the standard C++ overloads declared by . ref: ggml-o</summary>
   </entry>
 </feed>
