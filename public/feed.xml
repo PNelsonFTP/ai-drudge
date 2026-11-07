@@ -5,7 +5,16 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-07T17:08:35.558Z</updated>
+  <updated>2026-11-07T18:08:40.056Z</updated>
+  <entry>
+    <title>b12191: llama_moe_cache: run missed experts on CPU, add tuning script (#30966)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12191"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12191</id>
+    <updated>2026-11-07T16:20:58.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>moe-cache : compute part of the misses on the CPU --moe-cache-cpu-share F computes a share F of the MoE cache misses on the CPU from the host experts instead of uploading them. The graph builds the expert FFN twice: on the device from the cache slots, where the misses left to the CPU read zero slots, and on the CPU fro — Also covered by: LocalLLaMA Subreddit</summary>
+  </entry>
   <entry>
     <title>llama.cpp b12190 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12190"/>
@@ -34,15 +43,6 @@
     <summary>OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.</summary>
   </entry>
   <entry>
-    <title>Crusoe sells troubled Wyoming data center project to Google</title>
-    <link href="https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google"/>
-    <id>https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google</id>
-    <updated>2026-11-07T01:40:28.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>The deal highlights the challenges of developing massive AI data centers. — Also covered by: Reuters AI (Google News)</summary>
-  </entry>
-  <entry>
     <title>OpenAI gets $11 billion funding at $1.25 trillion valuation, source says</title>
     <link href="https://www.reuters.com/business/openai-secures-11-billion-funding-125-trillion-valuation-bloomberg-news-reports-2026-11-06"/>
     <id>https://www.reuters.com/business/openai-secures-11-billion-funding-125-trillion-valuation-bloomberg-news-reports-2026-11-06</id>
@@ -50,6 +50,15 @@
     <author><name>Reuters AI (Google News)</name></author>
     <category term="INDUSTRY NEWS"/>
     <summary>OpenAI gets $11 billion funding at $1.25 trillion valuation, source says Reuters — Also covered by: TechCrunch AI</summary>
+  </entry>
+  <entry>
+    <title>Crusoe sells troubled Wyoming data center project to Google</title>
+    <link href="https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google"/>
+    <id>https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google</id>
+    <updated>2026-11-07T01:40:28.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>The deal highlights the challenges of developing massive AI data centers. — Also covered by: Reuters AI (Google News)</summary>
   </entry>
   <entry>
     <title>Partnering with Hacktron to find vulnerabilities in OpenAI’s systems</title>
@@ -97,13 +106,13 @@
     <summary>Executive summary From August 12 to October 29, 2026, METR staff performed a high-access evaluation at Anthropic to assess the degree to which AI is accelerating AI R&amp;D. If AI systems started to significantly accelerate further AI development, this could lead to a sudden emergence of extreme and risky capabilities . An — Also covered by: METR</summary>
   </entry>
   <entry>
-    <title>The gap between open and closed AI models in cyber capabilities keeps shrinking</title>
-    <link href="https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking"/>
-    <id>https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking</id>
-    <updated>2026-11-07T15:35:50.000Z</updated>
+    <title>Anthropic pushes ahead with pre-Thanksgiving IPO despite tech selloff, accepts lower valuation</title>
+    <link href="https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation"/>
+    <id>https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation</id>
+    <updated>2026-11-07T17:37:25.000Z</updated>
     <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>In the Vals AI benchmark, OpenAI's GPT-6 Sol Daybreak hits 80.8 percent of attack objectives in simulated corporate networks. Worse, the open-weight model DeepSeek V4.1 Flash reaches 72.8 percent at a tenth of the cost. Because open models can no longer be restricted, analysts say the window for defenders is shrinking </summary>
+    <summary>Despite the tech selloff, Anthropic is pressing ahead with its IPO at a valuation of $1.25 to $1.75 trillion, well below the hoped-for $2 trillion. The Claude developer aims to raise $80 to $100 billion before Thanksgiving. Rival OpenAI has also recently had to cut its valuation. The article Anthropic pushes ahead with</summary>
   </entry>
   <entry>
     <title>Chicago-based data analytics company Ocient raised a $100M Series C co-led by Boka Capital and OCA Ventures to grow its agentic AI analytics business (Paul Gillin/SiliconANGLE)</title>
@@ -122,6 +131,15 @@
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
     <summary>Animal health companies are tapping into the protein craze, investing billions of dollars to build up businesses focused on making cattle, pigs and poultry healthier for human consumption.</summary>
+  </entry>
+  <entry>
+    <title>The gap between open and closed AI models in cyber capabilities keeps shrinking</title>
+    <link href="https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking"/>
+    <id>https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking</id>
+    <updated>2026-11-07T15:35:50.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="RESEARCH"/>
+    <summary>In the Vals AI benchmark, OpenAI's GPT-6 Sol Daybreak hits 80.8 percent of attack objectives in simulated corporate networks. Worse, the open-weight model DeepSeek V4.1 Flash reaches 72.8 percent at a tenth of the cost. Because open models can no longer be restricted, analysts say the window for defenders is shrinking </summary>
   </entry>
   <entry>
     <title>Beyond code generation: A developer’s guide to agentic engineering</title>
@@ -169,13 +187,13 @@
     <summary>French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]</summary>
   </entry>
   <entry>
-    <title>Google's AI detects high blood pressure from a regular smartwatch without a cuff</title>
-    <link href="https://the-decoder.com/googles-ai-detects-high-blood-pressure-from-a-regular-smartwatch-without-a-cuff"/>
-    <id>https://the-decoder.com/googles-ai-detects-high-blood-pressure-from-a-regular-smartwatch-without-a-cuff</id>
-    <updated>2026-11-07T09:54:09.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration System</title>
+    <link href="https://unit42.paloaltonetworks.com/europes-refrigeration-systems-attacks"/>
+    <id>https://unit42.paloaltonetworks.com/europes-refrigeration-systems-attacks</id>
+    <updated>2026-11-06T21:15:09.000Z</updated>
+    <author><name>Palo Alto Unit 42</name></author>
     <category term="CYBER DEFENSE"/>
-    <summary>Google Research built an AI that spots signs of high blood pressure using only the pulse and motion sensors in a standard smartwatch, no cuff needed. In a 196-person study, its 65.8 percent detection rate beat the traditional in-office measurement. The method is already live in the Google Health app, though it doesn't </summary>
+    <summary>Unit 42 examines recent cyberattacks targeting European refrigeration systems and outlines defense and mitigation strategies. The post Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration System appeared first on Unit 42 .</summary>
   </entry>
   <entry>
     <title>[AINews] Anthropic IPO: Whither Now?</title>
@@ -214,31 +232,31 @@
     <summary>Thinking Machines' AI model Inkling 2 Small swears during its internal reasoning, 316 times across 2,655 benchmark runs, according to an analysis by Vals AI. The profanity typically shows up late in long runs that fail anyway. But it doesn't work as a warning signal: 96 percent of failed runs contained no cursing at al</summary>
   </entry>
   <entry>
+    <title>Also experienced the Qwen3.8-Flash-Next URL issue</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xqbjbf/also_experienced_the_qwen38flashnext_url_issue"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xqbjbf/also_experienced_the_qwen38flashnext_url_issue</id>
+    <updated>2026-11-07T17:15:04.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>I was asking QFN (4.18bpw EXL3 quant via Pi) to help refactor a neovim configuration, and saw that it tried to find API keys and fetch an aliyuncs URL before I stopped it. I'm not trying to start any arguments, nor am I assuming any malicious intent, but I found this a bit concerning after reading other's stories. subm</summary>
+  </entry>
+  <entry>
+    <title>Effects of KV Cache Quantization on Qwen3.8 27B</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xqbesv/effects_of_kv_cache_quantization_on_qwen38_27b"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xqbesv/effects_of_kv_cache_quantization_on_qwen38_27b</id>
+    <updated>2026-11-07T17:09:51.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>KV cache quantization has been a hotly-debated topic for this community for some time, with opinions ranging from &quot;never quantize&quot; to &quot;4 bit is fine&quot;. Since the anecdotal evidence is rather inconsistent, I decided to quantify how much KV cache quantization affects the model through KLD, which is a good measure of how t</summary>
+  </entry>
+  <entry>
     <title>AI auditors catch most agent misbehavior but flood reviewers with false alarms, new study finds</title>
     <link href="https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds"/>
     <id>https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds</id>
     <updated>2026-11-07T16:56:38.000Z</updated>
     <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
+    <category term="AGENTS &amp; TOOLS"/>
     <summary>AI models can often spot problematic behavior by other AI agents in logs, according to a study by Anthropic researcher Andy Hall. GPT-5 found about 98 percent of reward-hacking cases, but the more exhaustively the search is tuned, the more false alarms pile up. That's not yet enough for reliable safety checks. The arti</summary>
-  </entry>
-  <entry>
-    <title>Eight LLMs in a reality show, week one: Llama nominated Grok as &quot;too expensive to keep around&quot;, and now they're trading votes they don't have</title>
-    <link href="https://sh.itjust.works/post/69564423"/>
-    <id>https://sh.itjust.works/post/69564423</id>
-    <updated>2026-11-07T16:03:44.000Z</updated>
-    <author><name>Lemmy c/localllama</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>submitted by n20 to localllama 5 points | 0 comments https://inferenceisland.com/?de=lemmy-llama2 Follow-up to my post from Tuesday ( lemmy.zip/post/74389281 ). I made this; it’s still not local, the eight models run through OpenRouter. The first eviction is this Sunday at 8 PM ET. What happened this week: Price became</summary>
-  </entry>
-  <entry>
-    <title>Opus 5.5 wrote its own quantiser for Qwen3.5-0.8B, no llama-quantize, no imatrix. 5.9× better than Unsloth's same-size file.</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1xq889l/opus_55_wrote_its_own_quantiser_for_qwen3508b_no"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1xq889l/opus_55_wrote_its_own_quantiser_for_qwen3508b_no</id>
-    <updated>2026-11-07T14:54:42.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Inspired by Weight Space Programming (MIT CSAIL, Nov 2), but in the end Opus 5.5 did its own thing: no weight-space technique was used. It wrote a quantiser from scratch in NumPy and made every precision decision from measurement. Rules: only the BF16 file as input, no quantisation tool, no imatrix, no published recipe</summary>
   </entry>
   <entry>
     <title>Nine AI agents tried autonomous research on open questions from US national labs and none passed the experts' bar</title>
@@ -257,23 +275,5 @@
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
     <summary>On Bloomberg This Weekend, composer Missy Mazzoli discusses adapting George Saunders's Lincoln in the Bardo and becoming the first woman composer to have a world premiere at the Metropolitan Opera. Mazzoli tells hosts David Gura and Christina Ruffini how punk helped shape her musical sensibility and why her long collab</summary>
-  </entry>
-  <entry>
-    <title>Pointed! Bloomberg's Weekly News Quiz For Risk-Takers</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-11-07/pointed-bloomberg-s-weekly-news-quiz-for-risk-takers-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-11-07/pointed-bloomberg-s-weekly-news-quiz-for-risk-takers-video</id>
-    <updated>2026-11-07T15:59:54.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Pointed offers a strategic twist to the news quiz format, testing not just players’ knowledge of the news but also their confidence in their answers. Join Bloomberg's Lisa Mateo, Christina Ruffini and David Gura as they play and check out the quiz for yourself at Bloomberg.com (Source: Bloomberg)</summary>
-  </entry>
-  <entry>
-    <title>GitHub Copilot weekly releases — November 2</title>
-    <link href="https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2"/>
-    <id>https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2</id>
-    <updated>2026-11-06T21:00:26.000Z</updated>
-    <author><name>GitHub Copilot Changelog</name></author>
-    <category term="PRODUCTS"/>
-    <summary>This week, Copilot comes to JetBrains Air and Xcode’s coding assistant, with updates to help you manage pull requests, settings, and agent sessions. GitHub Copilot app Set up Agent Merge… The post GitHub Copilot weekly releases — November 2 appeared first on The GitHub Blog .</summary>
   </entry>
 </feed>
