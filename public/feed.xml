@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-07T02:55:20.265Z</updated>
+  <updated>2026-11-07T03:13:49.638Z</updated>
   <entry>
     <title>OpenAI gets $11 billion funding at $1.25 trillion valuation, source says</title>
     <link href="https://www.reuters.com/business/openai-secures-11-billion-funding-125-trillion-valuation-bloomberg-news-reports-2026-11-06"/>
@@ -16,13 +16,13 @@
     <summary>OpenAI gets $11 billion funding at $1.25 trillion valuation, source says Reuters — Also covered by: TechCrunch AI, Bloomberg Tech</summary>
   </entry>
   <entry>
-    <title>llama.cpp b12180 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12180"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12180</id>
-    <updated>2026-11-06T23:24:23.000Z</updated>
+    <title>llama.cpp b12182 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12182"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12182</id>
+    <updated>2026-11-07T03:05:24.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>model: add Kimi-K3.1-Pro text model ( #31779 ) model: add Kimi-K3.1-Pro text model K3 with the full-attention MLA layers replaced by DSA: on this checkpoint 24 of the 93 layers carry a lightning indexer (32 heads x 128, top_k 2048, no rope). The KDA (linear-attention) layers and the rest of the K3 skeleton - cross-laye</summary>
+    <category term="LOCAL MODELS"/>
+    <summary>meta : raise the compute view limit for buffers with few tensors ( #31 …</summary>
   </entry>
   <entry>
     <title>Crusoe sells troubled Wyoming data center project to Google</title>
@@ -204,13 +204,13 @@
     <summary>OpenAI is expected to host a call with investors next week to discuss its third-quarter results, according to a person familiar with the plan. The discussions follow the close of the first part of its latest round, which raised $11 billion at a $1.25 trillion valuation before the ...</summary>
   </entry>
   <entry>
-    <title>Quoting Nilay Patel</title>
-    <link href="https://simonwillison.net/2026/Nov/6/nilay-patel"/>
-    <id>https://simonwillison.net/2026/Nov/6/nilay-patel</id>
-    <updated>2026-11-06T17:13:12.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>[AINews] Anthropic IPO: Whither Now?</title>
+    <link href="https://latent.space/p/ainews-anthropic-ipo-whither-now"/>
+    <id>https://latent.space/p/ainews-anthropic-ipo-whither-now</id>
+    <updated>2026-11-07T03:04:53.000Z</updated>
+    <author><name>Latent Space</name></author>
     <category term="ANALYSIS"/>
-    <summary>The products aren't good enough to sell people on the costs. You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop in history. It's not worth it. It just isn't worth it to anyone. And agents aren't real and they migh</summary>
+    <summary>November 6, 2026 — ARC Prize tests Inkling 2 Small, and Thinking Machines explains how it caught early checkpoints bypassing guardrails.</summary>
   </entry>
   <entry>
     <title>Swiss Startup Embodied AI Unveils AIR, a Wheeled Robot Built to Work Beside Factory Staff Without a Cage</title>
@@ -231,15 +231,6 @@
     <summary>Insider Brief PRESS RELEASE — A consortium of five of the UK’s top universities, including the University of Cambridge, has announced the launch of the UK Quantum SuperConnector, an initiative designed to bridge the gap between quantum research and commercial success. The initiative will create a UK-wide community of e</summary>
   </entry>
   <entry>
-    <title>b12181: hexagon: fuse post-norm residual add into RMS_NORM_MUL (#31822)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12181"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12181</id>
-    <updated>2026-11-07T00:06:59.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="GITHUB REPOS"/>
-    <summary>hexagon: fuse post-norm residual add into RMS_NORM_MUL hex-fusion: refactor RMS_NORM fusion and add dedicated RMS_NORM_MUL_ADD opcode Improves performance by keeping things in HVX registers. Also simplifies overall fusion logic and logging. Co-authored-by: Max Krasnyansky maxk@qti.qualcomm.com</summary>
-  </entry>
-  <entry>
     <title>Design the Muse App, Just for You</title>
     <link href="https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app"/>
     <id>https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app</id>
@@ -249,30 +240,39 @@
     <summary>Today, we're introducing spaces, an interactive way to build a more customized experience in the Muse app. The post Design the Muse App, Just for You appeared first on Meta Newsroom .</summary>
   </entry>
   <entry>
-    <title>The Guardian view on the AI backlash: American voters want a say in their future | Editorial</title>
-    <link href="https://www.theguardian.com/commentisfree/2026/nov/06/the-guardian-view-on-the-ai-backlash-american-voters-want-a-say-in-their-future"/>
-    <id>https://www.theguardian.com/commentisfree/2026/nov/06/the-guardian-view-on-the-ai-backlash-american-voters-want-a-say-in-their-future</id>
-    <updated>2026-11-06T23:45:52.000Z</updated>
-    <author><name>The Guardian AI</name></author>
+    <title>Perplexity now has its own always-on AI agent</title>
+    <link href="https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent"/>
+    <id>https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent</id>
+    <updated>2026-11-06T16:47:28.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Perplexity is launching &quot;Teammates,&quot; always-on agents that work through ongoing projects on their own virtual machines. The feature requires the Max plan at $200 per month, well above similar offerings from OpenAI or Anthropic. The market for always-on agents is getting crowded. The article Perplexity now has its own a</summary>
+  </entry>
+  <entry>
+    <title>CesiumAstro, which plans a 737-satellite LEO communications network at two altitudes, raised $730M at a $4.5B+ valuation, bringing its total funding to $1.4B (Loren Grush/Bloomberg)</title>
+    <link href="https://www.techmeme.com/261106/p27"/>
+    <id>https://www.techmeme.com/261106/p27</id>
+    <updated>2026-11-07T00:01:09.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Tech stocks have lost trillions while voters have rejected the industry’s political champions. The billionaire-led boom is facing a democratic reckoning This week’s midterms showed that the political bill for the AI boom is falling due. The Democratic sweep intensified fears over runaway spending, mounting debt and res</summary>
+    <summary>Loren Grush / Bloomberg : CesiumAstro, which plans a 737-satellite LEO communications network at two altitudes, raised $730M at a $4.5B+ valuation, bringing its total funding to $1.4B — CesiumAstro raised $730 million in its latest funding round, a cash infusion the Austin-based satellite manufacturer will use …</summary>
   </entry>
   <entry>
-    <title>Why are these models open-sourced for local use? Is it just for brand awareness?</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1xptge1/why_are_these_models_opensourced_for_local_use_is"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1xptge1/why_are_these_models_opensourced_for_local_use_is</id>
-    <updated>2026-11-07T01:02:41.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>Harness Leaderboard - Kimi Code, Hermes, Pi, Claude Code, Codex, and Others Were Benchmarked Against Terminal Bench 2.1 &amp; Deep SWE 1.1</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xpvfx8/harness_leaderboard_kimi_code_hermes_pi_claude"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xpvfx8/harness_leaderboard_kimi_code_hermes_pi_claude</id>
+    <updated>2026-11-07T02:41:59.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>why are these models open-sourced for people to download and use on their computers? Is it just for advertising and brand awareness? because the vast majority of people who download them just don't want to pay subscription fees or deal with usage limits, so they aren't paying customers anyway. then why do they do this?</summary>
+    <summary>submitted by /u/Izento [link] [comments]</summary>
   </entry>
   <entry>
-    <title>Qwen3.6 runs at 85 tok/s on 2× RTX 3060s, but still struggles with complex tool calling. What am I missing?</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1xpsn4o/qwen36_runs_at_85_toks_on_2_rtx_3060s_but_still"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1xpsn4o/qwen36_runs_at_85_toks_on_2_rtx_3060s_but_still</id>
-    <updated>2026-11-07T00:23:10.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>We are in the golden age of Local LLM</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xppbht/we_are_in_the_golden_age_of_local_llm"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xppbht/we_are_in_the_golden_age_of_local_llm</id>
+    <updated>2026-11-06T21:54:01.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Hey everyone I’ve spent the last few weeks building a local AI assistant with the help of Claude Code and OpenAI Codex. My goal is something similar to ChatGPT or Claude that can research the web, control my PC, code, create 3D models, generate documents and handle tasks on its own. The interface and tools work pretty </summary>
+    <summary>Q4 of 2026 has been astronomical for local LLM. Qwen’s 27B and Flash-Next models are pushing local AI further. and most importantly the upcoming Qwen 4 release. We’re getting closer to having frontier-level capabilities in models that WE can run. Break down : Unsloth’s new Dynamic v3.1 quants for Qwen Flash-Next/Qwen-2</summary>
   </entry>
 </feed>
