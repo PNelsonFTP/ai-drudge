@@ -5,24 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-07T10:42:18.408Z</updated>
+  <updated>2026-11-07T12:08:59.077Z</updated>
   <entry>
-    <title>OpenAI gets $11 billion funding at $1.25 trillion valuation, source says</title>
-    <link href="https://www.reuters.com/business/openai-secures-11-billion-funding-125-trillion-valuation-bloomberg-news-reports-2026-11-06"/>
-    <id>https://www.reuters.com/business/openai-secures-11-billion-funding-125-trillion-valuation-bloomberg-news-reports-2026-11-06</id>
-    <updated>2026-11-06T23:19:47.000Z</updated>
-    <author><name>Reuters AI (Google News)</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>OpenAI gets $11 billion funding at $1.25 trillion valuation, source says Reuters — Also covered by: TechCrunch AI, Bloomberg Tech</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp b12185 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12185"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12185</id>
-    <updated>2026-11-07T07:59:26.000Z</updated>
+    <title>llama.cpp b12188 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12188"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12188</id>
+    <updated>2026-11-07T12:02:12.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>CUDA: fix shared memory bank conflicts in the lightning indexer ( #31803 )</summary>
+    <summary>server: visit parent slots before child slots ( #30779 ) server: visit parent slots before child slots A parent slot wakes its waiting child slots once it finishes the shared prompt prefix, while slots are visited in id order. When a child task lands on a lower slot id than its parent, the child is visited before the p</summary>
   </entry>
   <entry>
     <title>Buoyant Releases Kinference: An Open Source Inference Control Plane for Kubernetes and vLLM</title>
@@ -34,6 +25,15 @@
     <summary>Buoyant has released Kinference, an Apache 2.0 inference control plane for vLLM on Kubernetes. It adds declarative routing policies, KV-cache-aware load balancing and per-tenant metrics, and cut median TTFT 95% in Buoyant’s own benchmark. The post Buoyant Releases Kinference: An Open Source Inference Control Plane for </summary>
   </entry>
   <entry>
+    <title>Measuring how AI agents handle everyday wet-lab science</title>
+    <link href="https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"/>
+    <id>https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science</id>
+    <updated>2026-11-06T00:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.</summary>
+  </entry>
+  <entry>
     <title>Crusoe sells troubled Wyoming data center project to Google</title>
     <link href="https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google"/>
     <id>https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google</id>
@@ -43,13 +43,13 @@
     <summary>The deal highlights the challenges of developing massive AI data centers. — Also covered by: Reuters AI (Google News)</summary>
   </entry>
   <entry>
-    <title>Measuring how AI agents handle everyday wet-lab science</title>
-    <link href="https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"/>
-    <id>https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science</id>
-    <updated>2026-11-06T00:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.</summary>
+    <title>OpenAI gets $11 billion funding at $1.25 trillion valuation, source says</title>
+    <link href="https://www.reuters.com/business/openai-secures-11-billion-funding-125-trillion-valuation-bloomberg-news-reports-2026-11-06"/>
+    <id>https://www.reuters.com/business/openai-secures-11-billion-funding-125-trillion-valuation-bloomberg-news-reports-2026-11-06</id>
+    <updated>2026-11-06T23:19:47.000Z</updated>
+    <author><name>Reuters AI (Google News)</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>OpenAI gets $11 billion funding at $1.25 trillion valuation, source says Reuters — Also covered by: TechCrunch AI</summary>
   </entry>
   <entry>
     <title>Partnering with Hacktron to find vulnerabilities in OpenAI’s systems</title>
@@ -132,13 +132,13 @@
     <summary>Iris Deng / South China Morning Post : Huawei unveils HarmonyOS-powered Qinyun HM650 series desktop PCs for enterprise and government users, saying they use “100% domestically made” components — Huawei Technologies has launched its first desktop computer powered by its proprietary operating system, HarmonyOS …</summary>
   </entry>
   <entry>
-    <title>Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model</title>
-    <link href="https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model"/>
-    <id>https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model</id>
-    <updated>2026-11-06T19:47:04.000Z</updated>
+    <title>Nine AI agents tried autonomous research on open questions from US national labs and none passed the experts' bar</title>
+    <link href="https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar"/>
+    <id>https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar</id>
+    <updated>2026-11-07T11:13:42.000Z</updated>
     <author><name>The Decoder</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Ricursive Intelligence is releasing Ripple-65B Preview, a 65-billion-parameter open-weight language model that the company says achieves the top score among open-source U.S. models on the TerminalBench 2.1 coding benchmark at a total R&amp;D cost of $32 million. On other benchmarks, however, Ripple falls behind the likewis</summary>
+    <summary>The &quot;Into the Unknown&quot; benchmark tasks nine AI agents with tackling open research questions from U.S. national laboratories. None of the 135 submissions meets all requirements. A total of 114 papers fail the integrity check, with agents claiming to have conducted experiments that never took place. GPT-6 Astra performs </summary>
   </entry>
   <entry>
     <title>Trafigura Snaps Up Copper in Asia as China Faces Supply Crunch</title>
@@ -159,22 +159,22 @@
     <summary>Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment. The post Beyond code generation: A developer’s guide to agentic engineering appeared first on The GitHub Blog .</summary>
   </entry>
   <entry>
-    <title>Women in HPC Introduces Its SC26 Rising Stars Cohort</title>
-    <link href="https://www.hpcwire.com/off-the-wire/women-in-hpc-introduces-its-sc26-rising-stars-cohort"/>
-    <id>https://www.hpcwire.com/off-the-wire/women-in-hpc-introduces-its-sc26-rising-stars-cohort</id>
-    <updated>2026-11-07T00:58:16.000Z</updated>
-    <author><name>HPC Wire</name></author>
+    <title>EA producer found 20,000 archival media assets in secret physical vault at its HQ</title>
+    <link href="https://www.tomshardware.com/video-games/retro-gaming/ea-producer-found-20-000-archival-media-assets-in-secret-physical-vault-at-its-hq-betacam-vhs-and-d1-tapes-among-6000-assets-digitized-to-remaster-seven-classic-games"/>
+    <id>https://www.tomshardware.com/video-games/retro-gaming/ea-producer-found-20-000-archival-media-assets-in-secret-physical-vault-at-its-hq-betacam-vhs-and-d1-tapes-among-6000-assets-digitized-to-remaster-seven-classic-games</id>
+    <updated>2026-11-07T11:30:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
     <category term="HARDWARE"/>
-    <summary>Nov. 6, 2026 — Women in High Performance Computing (WHPC) has announced its 12 Rising Stars for SC26. The program recognizes exceptional early-career researchers from underrepresented groups for their research contributions and individual excellence. Applications for the Rising Star program undergo a competitive peer-r</summary>
+    <summary>The discovery of thousands of archival media assets led to the creation of Anniversary Editions of some classic titles.</summary>
   </entry>
   <entry>
-    <title>Censys finds 800+ publicly exposed copies of ARTEX, a Chinese-made, AI-powered, open-source penetration testing tool linked to several cyberattacks since July (Zack Whittaker/TechCrunch)</title>
-    <link href="https://www.techmeme.com/261107/p5"/>
-    <id>https://www.techmeme.com/261107/p5</id>
-    <updated>2026-11-07T07:01:02.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model</title>
+    <link href="https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model"/>
+    <id>https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model</id>
+    <updated>2026-11-06T19:47:04.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>Zack Whittaker / TechCrunch : Censys finds 800+ publicly exposed copies of ARTEX, a Chinese-made, AI-powered, open-source penetration testing tool linked to several cyberattacks since July — Security researchers have discovered hundreds of copies of a Chinese-made AI hacking tool publicly exposed to the internet for an</summary>
+    <summary>Ricursive Intelligence is releasing Ripple-65B Preview, a 65-billion-parameter open-weight language model that the company says achieves the top score among open-source U.S. models on the TerminalBench 2.1 coding benchmark at a total R&amp;D cost of $32 million. On other benchmarks, however, Ripple falls behind the likewis</summary>
   </entry>
   <entry>
     <title>Hilarity ensues</title>
@@ -204,13 +204,13 @@
     <summary>Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them. When a user selects &quot;Yes, and don't ask again,&quot; Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in a project settings </summary>
   </entry>
   <entry>
-    <title>Google's AI detects high blood pressure from a regular smartwatch without a cuff</title>
-    <link href="https://the-decoder.com/googles-ai-detects-high-blood-pressure-from-a-regular-smartwatch-without-a-cuff"/>
-    <id>https://the-decoder.com/googles-ai-detects-high-blood-pressure-from-a-regular-smartwatch-without-a-cuff</id>
-    <updated>2026-11-07T09:54:09.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>b12189: metal : fix GROUP_NORM for ne03 &gt; 1 and non-contiguous inputs (#31852)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12189"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12189</id>
+    <updated>2026-11-07T11:04:13.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="CYBER DEFENSE"/>
-    <summary>Google Research built an AI that spots signs of high blood pressure using only the pulse and motion sensors in a standard smartwatch, no cuff needed. In a 196-person study, its 65.8 percent detection rate beat the traditional in-office measurement. The method is already live in the Google Health app, though it doesn't </summary>
+    <summary>The kernel_group_norm_f32 kernel and its host dispatch ignored the batch dimension (ne03) of the source tensor: only ngrp threadgroups were dispatched and each normalized the flat range [tgpig gs, (tgpig+1) gs) with gs = ne00 ne01 ceil(ne02/ngrp). For tensors with ne03 &gt; 1, all but the first ne00 ne01 ne02 elements wer</summary>
   </entry>
   <entry>
     <title>[AINews] Anthropic IPO: Whither Now?</title>
@@ -222,13 +222,13 @@
     <summary>November 6, 2026 — ARC Prize tests Inkling 2 Small, and Thinking Machines explains how it caught early checkpoints bypassing guardrails.</summary>
   </entry>
   <entry>
-    <title>SoftBank, ABB Consider China Carve-Out to Salvage Robotics Deal</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-07/softbank-abb-weigh-china-carve-out-to-salvage-robotics-deal"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-07/softbank-abb-weigh-china-carve-out-to-salvage-robotics-deal</id>
-    <updated>2026-11-07T08:39:26.000Z</updated>
-    <author><name>Bloomberg Tech</name></author>
+    <title>Swiss Startup Embodied AI Unveils AIR, a Wheeled Robot Built to Work Beside Factory Staff Without a Cage</title>
+    <link href="https://www.humanoidsdaily.com/news/embodied-ai-air-wheeled-humanoid-factory-humanoid-europe"/>
+    <id>https://www.humanoidsdaily.com/news/embodied-ai-air-wheeled-humanoid-factory-humanoid-europe</id>
+    <updated>2026-11-06T11:59:02.000Z</updated>
+    <author><name>Humanoids Daily</name></author>
     <category term="ROBOTICS"/>
-    <summary>SoftBank Group Corp. and ABB Ltd. are looking at carving out the Chinese part of a giant robotics deal as they explore ways to salvage a transaction blocked by Beijing, according to people familiar with the matter.</summary>
+    <summary>The EPFL spin-off's two-armed robot starts each job under remote control and, the company says, takes the task over within a month. It reports a 95% average success rate in paid pilots.</summary>
   </entry>
   <entry>
     <title>University of Cambridge Joins UK Quantum Commercialisation Initiative</title>
@@ -249,13 +249,13 @@
     <summary>Power and water constraints are pressuring what seemed like a juggernaut of growth for the region just months ago In early 2026, Thailand’s datacentre industry was on a roll. The country’s board of investment had recently announced approval of datacentre projects from Tiktok, a UAE-based Skyline datacentre and Singapor</summary>
   </entry>
   <entry>
-    <title>Axon invests $1.2B in Skydio, whose autonomous drones are used by public safety agencies, the US military, and 32 allied nations, at a $5.2B pre-money valuation (Carly Page/Resilience Media)</title>
-    <link href="https://www.techmeme.com/261107/p2"/>
-    <id>https://www.techmeme.com/261107/p2</id>
-    <updated>2026-11-07T06:00:00.000Z</updated>
+    <title>Nasscom President Rajesh Nambiar warns AI could make it harder for fresh Indian engineering graduates to find jobs, urging an immediate CS curriculum overhaul (Sayan Chakraborty/Nikkei Asia)</title>
+    <link href="https://www.techmeme.com/261107/p8"/>
+    <id>https://www.techmeme.com/261107/p8</id>
+    <updated>2026-11-07T11:40:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Carly Page / Resilience Media : Axon invests $1.2B in Skydio, whose autonomous drones are used by public safety agencies, the US military, and 32 allied nations, at a $5.2B pre-money valuation — The investment gives Axon a minority stake in the US drone manufacturer and strengthens an exclusive public safety partnershi</summary>
+    <summary>Sayan Chakraborty / Nikkei Asia : Nasscom President Rajesh Nambiar warns AI could make it harder for fresh Indian engineering graduates to find jobs, urging an immediate CS curriculum overhaul — BENGALURU — Recent college graduates in India could struggle to land technology jobs as companies automate entry-level coding</summary>
   </entry>
   <entry>
     <title>Excellent for local models running via OpenCode</title>
@@ -264,7 +264,7 @@
     <updated>2026-11-07T09:59:45.000Z</updated>
     <author><name>Lemmy c/localllama</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by Canuck to localllama 6 points | 0 comments https://github.com/ghorbelhamdi/buddy-android cross-posted from: lemdro.id/post/48219138 Buddy: an open source app that lets AI agents (Claude Code, Codex, OpenCode) use your Android phone I’ve been building Buddy , a free, open source (Apache 2.0) Android app. Yo</summary>
+    <summary>submitted by Canuck to localllama 8 points | 1 comments https://github.com/ghorbelhamdi/buddy-android cross-posted from: lemdro.id/post/48219138 Buddy: an open source app that lets AI agents (Claude Code, Codex, OpenCode) use your Android phone I’ve been building Buddy , a free, open source (Apache 2.0) Android app. Yo</summary>
   </entry>
   <entry>
     <title>Good Luck Getting a Cheap GPU. AMD Is a &quot;Data Center First Company,&quot; CEO Says</title>
@@ -273,6 +273,6 @@
     <updated>2026-11-07T09:53:09.000Z</updated>
     <author><name>Lemmy c/localllama</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by Shatur to localllama 3 points | 0 comments https://www.pcmag.com/news/good-luck-getting-a-cheap-gpu-amd-is-a-data-center-first-company-ceo-says</summary>
+    <summary>submitted by Shatur to localllama 6 points | 1 comments https://www.pcmag.com/news/good-luck-getting-a-cheap-gpu-amd-is-a-data-center-first-company-ceo-says</summary>
   </entry>
 </feed>
