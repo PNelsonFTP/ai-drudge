@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-07T08:20:33.785Z</updated>
+  <updated>2026-11-07T10:23:36.160Z</updated>
   <entry>
     <title>OpenAI gets $11 billion funding at $1.25 trillion valuation, source says</title>
     <link href="https://www.reuters.com/business/openai-secures-11-billion-funding-125-trillion-valuation-bloomberg-news-reports-2026-11-06"/>
@@ -16,13 +16,31 @@
     <summary>OpenAI gets $11 billion funding at $1.25 trillion valuation, source says Reuters — Also covered by: TechCrunch AI, Bloomberg Tech</summary>
   </entry>
   <entry>
-    <title>llama.cpp b12182 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12182"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12182</id>
-    <updated>2026-11-07T03:35:00.000Z</updated>
+    <title>llama.cpp b12185 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12185"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12185</id>
+    <updated>2026-11-07T07:59:26.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>meta : raise the compute view limit for buffers with few tensors ( #31447 ) ggml-backend-meta : minimum number of compute views per buffer Assisted-by: Claude Opus 5.5 tests : revert the deepseek41 test model to 6 layers Assisted-by: Claude Opus 5.5 Website: https://llama.app Attestations: https://github.com/ggml-org/l</summary>
+    <category term="LOCAL MODELS"/>
+    <summary>CUDA: fix shared memory bank conflicts in the lightning indexer ( #31803 )</summary>
+  </entry>
+  <entry>
+    <title>Buoyant Releases Kinference: An Open Source Inference Control Plane for Kubernetes and vLLM</title>
+    <link href="https://www.marktechpost.com/2026/11/07/buoyant-kinference-open-source-inference-control-plane-kubernetes-vllm"/>
+    <id>https://www.marktechpost.com/2026/11/07/buoyant-kinference-open-source-inference-control-plane-kubernetes-vllm</id>
+    <updated>2026-11-07T08:16:33.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="RESEARCH"/>
+    <summary>Buoyant has released Kinference, an Apache 2.0 inference control plane for vLLM on Kubernetes. It adds declarative routing policies, KV-cache-aware load balancing and per-tenant metrics, and cut median TTFT 95% in Buoyant’s own benchmark. The post Buoyant Releases Kinference: An Open Source Inference Control Plane for </summary>
+  </entry>
+  <entry>
+    <title>Good Luck Getting a Cheap GPU. AMD Is a &quot;Data Center First Company,&quot; CEO Says</title>
+    <link href="https://sh.itjust.works/post/69552845"/>
+    <id>https://sh.itjust.works/post/69552845</id>
+    <updated>2026-11-07T09:53:09.000Z</updated>
+    <author><name>Lemmy c/localllama</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>submitted by Shatur to localllama 3 points | 0 comments https://www.pcmag.com/news/good-luck-getting-a-cheap-gpu-amd-is-a-data-center-first-company-ceo-says — Also covered by: LocalLLaMA Subreddit</summary>
   </entry>
   <entry>
     <title>Crusoe sells troubled Wyoming data center project to Google</title>
@@ -70,15 +88,6 @@
     <summary>OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws. [...] — Also covered by: The Hacker News</summary>
   </entry>
   <entry>
-    <title>How a Blue Wave midterm might reshape the AI industry</title>
-    <link href="https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry"/>
-    <id>https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry</id>
-    <updated>2026-11-06T18:00:00.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="HARDWARE"/>
-    <summary>Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren’t on the ballot </summary>
-  </entry>
-  <entry>
     <title>Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips</title>
     <link href="https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips"/>
     <id>https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips</id>
@@ -88,12 +97,13 @@
     <summary>Also covered by: Google AI Blog</summary>
   </entry>
   <entry>
-    <title>IBM, AMD, And Oak Ridge Unveil Quantum Error Correction Platform</title>
-    <link href="https://www.nextplatform.com/compute/2026/11/06/ibm-amd-and-oak-ridge-unveil-quantum-error-correction-platform/5308284"/>
-    <id>https://www.nextplatform.com/compute/2026/11/06/ibm-amd-and-oak-ridge-unveil-quantum-error-correction-platform/5308284</id>
-    <updated>2026-11-06T22:58:31.000Z</updated>
-    <author><name>The Next Platform</name></author>
+    <title>How a Blue Wave midterm might reshape the AI industry</title>
+    <link href="https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry"/>
+    <id>https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry</id>
+    <updated>2026-11-06T18:00:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="HARDWARE"/>
+    <summary>Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren’t on the ballot </summary>
   </entry>
   <entry>
     <title>Cult.fit builds operational muscle with Codex</title>
@@ -105,22 +115,13 @@
     <summary>Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.</summary>
   </entry>
   <entry>
-    <title>METR: Independent Assessment of AI R&amp;D Acceleration at Anthropic in October 2026</title>
-    <link href="https://www.alignmentforum.org/posts/N5AmYkRks5CqAxvBg/metr-independent-assessment-of-ai-r-and-d-acceleration-at"/>
-    <id>https://www.alignmentforum.org/posts/N5AmYkRks5CqAxvBg/metr-independent-assessment-of-ai-r-and-d-acceleration-at</id>
-    <updated>2026-11-05T19:06:38.000Z</updated>
-    <author><name>AI Alignment Forum</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>Executive summary From August 12 to October 29, 2026, METR staff performed a high-access evaluation at Anthropic to assess the degree to which AI is accelerating AI R&amp;D. If AI systems started to significantly accelerate further AI development, this could lead to a sudden emergence of extreme and risky capabilities . An — Also covered by: METR</summary>
-  </entry>
-  <entry>
-    <title>b12183: opencl: add arange (#31829)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12183"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12183</id>
-    <updated>2026-11-07T05:44:05.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>OpenAI lands an $11 billion funding round, but has to court dentists for more capital</title>
+    <link href="https://the-decoder.com/openai-lands-an-11-billion-funding-round-but-has-to-court-dentists-for-more-capital"/>
+    <id>https://the-decoder.com/openai-lands-an-11-billion-funding-round-but-has-to-court-dentists-for-more-capital</id>
+    <updated>2026-11-07T09:45:23.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Assisted-by: Claude Opus 5.5 Co-authored-by: Li He lih@qti.qualcomm.com</summary>
+    <summary>OpenAI has secured $11 billion in fresh capital, the first tranche of a round that values the company at $1.25 trillion. The full round could swell to $20 billion. That OpenAI is already turning to wealthy private investors hints at a saturating AI capital market and growing investor caution. The article OpenAI lands a</summary>
   </entry>
   <entry>
     <title>Huawei unveils HarmonyOS-powered Qinyun HM650 series desktop PCs for enterprise and government users, saying they use &quot;100% domestically made&quot; components (Iris Deng/South China Morning Post)</title>
@@ -177,22 +178,22 @@
     <summary>Zack Whittaker / TechCrunch : Censys finds 800+ publicly exposed copies of ARTEX, a Chinese-made, AI-powered, open-source penetration testing tool linked to several cyberattacks since July — Security researchers have discovered hundreds of copies of a Chinese-made AI hacking tool publicly exposed to the internet for an</summary>
   </entry>
   <entry>
-    <title>OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits</title>
-    <link href="https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"/>
-    <id>https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html</id>
-    <updated>2026-11-06T14:58:32.000Z</updated>
-    <author><name>The Hacker News</name></author>
+    <title>Hilarity ensues</title>
+    <link href="https://www.lesswrong.com/posts/PZjy52afLn89NdMta/hilarity-ensues"/>
+    <id>https://www.lesswrong.com/posts/PZjy52afLn89NdMta/hilarity-ensues</id>
+    <updated>2026-11-07T09:57:18.000Z</updated>
+    <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment. The new model is &quot;more capable at finding and fixing vulnerabilities, and far more reliable staying within </summary>
+    <summary>Cross-posted from my Substack Recommended soundtrack for this post 64B: Hi there! Thanks so much for taking the time to meet with me. Whenever you’re ready, please go ahead and tell me the joke. 8T: Before I tell you the joke, you should know that it’s a very special one. The starting price is $800. 64B: Eight hundred </summary>
   </entry>
   <entry>
-    <title>OWASP Global AppSec: How to hide prompt injection in plain sight</title>
-    <link href="https://www.scworld.com/resource/owasp-global-appsec-how-to-hide-prompt-injection-in-plain-sight"/>
-    <id>https://www.scworld.com/resource/owasp-global-appsec-how-to-hide-prompt-injection-in-plain-sight</id>
-    <updated>2026-11-07T02:27:57.000Z</updated>
-    <author><name>GN: Prompt Injection</name></author>
+    <title>Doomsday Escrow: When a Bounty Verifier Certifies Its Own Claims</title>
+    <link href="https://www.knostic.ai/blog/doomsday-escrow-when-a-bounty-verifier-certifies-its-own-claims"/>
+    <id>https://www.knostic.ai/blog/doomsday-escrow-when-a-bounty-verifier-certifies-its-own-claims</id>
+    <updated>2026-11-07T10:00:00.000Z</updated>
+    <author><name>Knostic</name></author>
     <category term="AI SECURITY"/>
-    <summary>OWASP Global AppSec: How to hide prompt injection in plain sight SC Media</summary>
+    <summary>An AI agent skill calls bounties &quot;verified on-chain&quot;, but the issuer only checks its own records and chain. A funding command also sends the wallet private key.</summary>
   </entry>
   <entry>
     <title>Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub</title>
@@ -204,22 +205,13 @@
     <summary>Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them. When a user selects &quot;Yes, and don't ask again,&quot; Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in a project settings </summary>
   </entry>
   <entry>
-    <title>Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration System</title>
-    <link href="https://unit42.paloaltonetworks.com/europes-refrigeration-systems-attacks"/>
-    <id>https://unit42.paloaltonetworks.com/europes-refrigeration-systems-attacks</id>
-    <updated>2026-11-06T21:15:09.000Z</updated>
-    <author><name>Palo Alto Unit 42</name></author>
+    <title>Google's AI detects high blood pressure from a regular smartwatch without a cuff</title>
+    <link href="https://the-decoder.com/googles-ai-detects-high-blood-pressure-from-a-regular-smartwatch-without-a-cuff"/>
+    <id>https://the-decoder.com/googles-ai-detects-high-blood-pressure-from-a-regular-smartwatch-without-a-cuff</id>
+    <updated>2026-11-07T09:54:09.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="CYBER DEFENSE"/>
-    <summary>Unit 42 examines recent cyberattacks targeting European refrigeration systems and outlines defense and mitigation strategies. The post Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration System appeared first on Unit 42 .</summary>
-  </entry>
-  <entry>
-    <title>Axon invests $1.2B in Skydio, whose autonomous drones are used by public safety agencies, the US military, and 32 allied nations, at a $5.2B pre-money valuation (Carly Page/Resilience Media)</title>
-    <link href="https://www.techmeme.com/261107/p2"/>
-    <id>https://www.techmeme.com/261107/p2</id>
-    <updated>2026-11-07T06:00:00.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>Carly Page / Resilience Media : Axon invests $1.2B in Skydio, whose autonomous drones are used by public safety agencies, the US military, and 32 allied nations, at a $5.2B pre-money valuation — The investment gives Axon a minority stake in the US drone manufacturer and strengthens an exclusive public safety partnershi</summary>
+    <summary>Google Research built an AI that spots signs of high blood pressure using only the pulse and motion sensors in a standard smartwatch, no cuff needed. In a 196-person study, its 65.8 percent detection rate beat the traditional in-office measurement. The method is already live in the Google Health app, though it doesn't </summary>
   </entry>
   <entry>
     <title>[AINews] Anthropic IPO: Whither Now?</title>
@@ -231,13 +223,13 @@
     <summary>November 6, 2026 — ARC Prize tests Inkling 2 Small, and Thinking Machines explains how it caught early checkpoints bypassing guardrails.</summary>
   </entry>
   <entry>
-    <title>Swiss Startup Embodied AI Unveils AIR, a Wheeled Robot Built to Work Beside Factory Staff Without a Cage</title>
-    <link href="https://www.humanoidsdaily.com/news/embodied-ai-air-wheeled-humanoid-factory-humanoid-europe"/>
-    <id>https://www.humanoidsdaily.com/news/embodied-ai-air-wheeled-humanoid-factory-humanoid-europe</id>
-    <updated>2026-11-06T11:59:02.000Z</updated>
-    <author><name>Humanoids Daily</name></author>
+    <title>SoftBank, ABB Consider China Carve-Out to Salvage Robotics Deal</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-07/softbank-abb-weigh-china-carve-out-to-salvage-robotics-deal"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-07/softbank-abb-weigh-china-carve-out-to-salvage-robotics-deal</id>
+    <updated>2026-11-07T08:39:26.000Z</updated>
+    <author><name>Bloomberg Tech</name></author>
     <category term="ROBOTICS"/>
-    <summary>The EPFL spin-off's two-armed robot starts each job under remote control and, the company says, takes the task over within a month. It reports a 95% average success rate in paid pilots.</summary>
+    <summary>SoftBank Group Corp. and ABB Ltd. are looking at carving out the Chinese part of a giant robotics deal as they explore ways to salvage a transaction blocked by Beijing, according to people familiar with the matter.</summary>
   </entry>
   <entry>
     <title>University of Cambridge Joins UK Quantum Commercialisation Initiative</title>
@@ -249,30 +241,39 @@
     <summary>Insider Brief PRESS RELEASE — A consortium of five of the UK’s top universities, including the University of Cambridge, has announced the launch of the UK Quantum SuperConnector, an initiative designed to bridge the gap between quantum research and commercial success. The initiative will create a UK-wide community of e</summary>
   </entry>
   <entry>
-    <title>Benefits of moving to Linux</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1xpzib4/benefits_of_moving_to_linux"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1xpzib4/benefits_of_moving_to_linux</id>
-    <updated>2026-11-07T06:26:25.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Wanted to share that after years of using Windows11 and llama cpp I moved my whole workflow to linux, from comfyui to jellyfin everything set back up but on Fedora instead. Found out in Linux (Same Hardware , Same llama cpp commit, Same Qwen3.8-27B model) the model loads instantly, time to first token has become irrele</summary>
+    <title>The datacentre arms race hits pause in south-east Asia</title>
+    <link href="https://www.theguardian.com/technology/2026/nov/07/datacentres-southeast-asia"/>
+    <id>https://www.theguardian.com/technology/2026/nov/07/datacentres-southeast-asia</id>
+    <updated>2026-11-07T10:00:07.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Power and water constraints are pressuring what seemed like a juggernaut of growth for the region just months ago In early 2026, Thailand’s datacentre industry was on a roll. The country’s board of investment had recently announced approval of datacentre projects from Tiktok, a UAE-based Skyline datacentre and Singapor</summary>
   </entry>
   <entry>
-    <title>A short history of how LLaMA got out in 2023 via torrent and kicked off the local LLM boom, up to Meta's Muse open weights this year</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1xq084n/a_short_history_of_how_llama_got_out_in_2023_via"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1xq084n/a_short_history_of_how_llama_got_out_in_2023_via</id>
-    <updated>2026-11-07T07:10:03.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>In February 2023 Meta announced LLaMA and sent the files to researchers who applied, under a non-commercial licence. Within a week they were on BitTorrent. Then it moved fast. In March 2023 Georgi Gerganov published llama.cpp, which ran the files on a laptop; Stanford's Alpaca fine-tuned the 7B for under $600; and Vicu</summary>
+    <title>Axon invests $1.2B in Skydio, whose autonomous drones are used by public safety agencies, the US military, and 32 allied nations, at a $5.2B pre-money valuation (Carly Page/Resilience Media)</title>
+    <link href="https://www.techmeme.com/261107/p2"/>
+    <id>https://www.techmeme.com/261107/p2</id>
+    <updated>2026-11-07T06:00:00.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Carly Page / Resilience Media : Axon invests $1.2B in Skydio, whose autonomous drones are used by public safety agencies, the US military, and 32 allied nations, at a $5.2B pre-money valuation — The investment gives Axon a minority stake in the US drone manufacturer and strengthens an exclusive public safety partnershi</summary>
   </entry>
   <entry>
-    <title>Managed Deep Agents v0.10: Browser Use and Async Subagents</title>
-    <link href="https://www.langchain.com/blog/managed-deep-agents-browser-use-and-asynchronous-subagents"/>
-    <id>https://www.langchain.com/blog/managed-deep-agents-browser-use-and-asynchronous-subagents</id>
-    <updated>2026-11-07T00:01:46.000Z</updated>
-    <author><name>LangChain Blog</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Managed Deep Agents v0.10 adds browser use, so agents can work on sites with no API and hand you the window to sign in, and async subagents for background work. — Also covered by: LangChain Blog, LangChain Blog</summary>
+    <title>[Paper] D3D: Decoupled Diffusion Drafting for Asynchronous Speculative Decoding</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xq1y0y/paper_d3d_decoupled_diffusion_drafting_for"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xq1y0y/paper_d3d_decoupled_diffusion_drafting_for</id>
+    <updated>2026-11-07T09:00:23.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Target-conditioned diffusion drafters predict candidate tokens in parallel, yet each new block must wait for updated target-model hidden states. This forces drafting and verification to run sequentially, limiting speedup even though each block is generated in one pass. We introduce D3D, a standalone diffusion drafter t</summary>
+  </entry>
+  <entry>
+    <title>PLaMo 3 Translate - a pfnet Collection</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xpysba/plamo_3_translate_a_pfnet_collection"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xpysba/plamo_3_translate_a_pfnet_collection</id>
+    <updated>2026-11-07T05:43:41.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Overview We have released the weights for PLaMo 3 Translate , our translation-specialized LLM, on Hugging Face. The models come in four sizes—0.8B, 2B, 8B, and 31B. Even the smallest 0.8B model outperforms existing translation-specialized LLMs, including models with more than 30 times as many parameters, in Japanese–En</summary>
   </entry>
 </feed>
