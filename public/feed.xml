@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-07T12:08:59.077Z</updated>
+  <updated>2026-11-07T13:08:43.318Z</updated>
   <entry>
-    <title>llama.cpp b12188 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12188"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12188</id>
-    <updated>2026-11-07T12:02:12.000Z</updated>
+    <title>llama.cpp b12189 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12189"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12189</id>
+    <updated>2026-11-07T12:19:19.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>server: visit parent slots before child slots ( #30779 ) server: visit parent slots before child slots A parent slot wakes its waiting child slots once it finishes the shared prompt prefix, while slots are visited in id order. When a child task lands on a lower slot id than its parent, the child is visited before the p</summary>
+    <summary>metal : fix GROUP_NORM for ne03 &gt; 1 and non-contiguous inputs ( #31852 ) The kernel_group_norm_f32 kernel and its host dispatch ignored the batch dimension (ne03) of the source tensor: only ngrp threadgroups were dispatched and each normalized the flat range [tgpig gs, (tgpig+1) gs) with gs = ne00 ne01 ceil(ne02/ngrp).</summary>
   </entry>
   <entry>
     <title>Buoyant Releases Kinference: An Open Source Inference Control Plane for Kubernetes and vLLM</title>
@@ -23,6 +23,15 @@
     <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
     <summary>Buoyant has released Kinference, an Apache 2.0 inference control plane for vLLM on Kubernetes. It adds declarative routing policies, KV-cache-aware load balancing and per-tenant metrics, and cut median TTFT 95% in Buoyant’s own benchmark. The post Buoyant Releases Kinference: An Open Source Inference Control Plane for </summary>
+  </entry>
+  <entry>
+    <title>Good Luck Getting a Cheap GPU. AMD Is a &quot;Data Center First Company,&quot; CEO Says</title>
+    <link href="https://sh.itjust.works/post/69552845"/>
+    <id>https://sh.itjust.works/post/69552845</id>
+    <updated>2026-11-07T09:53:09.000Z</updated>
+    <author><name>Lemmy c/localllama</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>submitted by Shatur to localllama 12 points | 2 comments https://www.pcmag.com/news/good-luck-getting-a-cheap-gpu-amd-is-a-data-center-first-company-ceo-says — Also covered by: LocalLLaMA Subreddit</summary>
   </entry>
   <entry>
     <title>Measuring how AI agents handle everyday wet-lab science</title>
@@ -70,13 +79,13 @@
     <summary>Also covered by: Ai2 (Allen Institute)</summary>
   </entry>
   <entry>
-    <title>OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs</title>
-    <link href="https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs"/>
-    <id>https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs</id>
-    <updated>2026-11-06T20:24:19.000Z</updated>
-    <author><name>BleepingComputer</name></author>
+    <title>OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits</title>
+    <link href="https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"/>
+    <id>https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html</id>
+    <updated>2026-11-06T14:58:32.000Z</updated>
+    <author><name>The Hacker News</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws. [...] — Also covered by: The Hacker News</summary>
+    <summary>OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment. The new model is &quot;more capable at finding and fixing vulnerabilities, and far more reliable staying within  — Also covered by: BleepingComputer</summary>
   </entry>
   <entry>
     <title>Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips</title>
@@ -88,15 +97,6 @@
     <summary>Also covered by: Google AI Blog</summary>
   </entry>
   <entry>
-    <title>How a Blue Wave midterm might reshape the AI industry</title>
-    <link href="https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry"/>
-    <id>https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry</id>
-    <updated>2026-11-06T18:00:00.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="HARDWARE"/>
-    <summary>Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren’t on the ballot </summary>
-  </entry>
-  <entry>
     <title>Cult.fit builds operational muscle with Codex</title>
     <link href="https://openai.com/index/cultfit-builds-with-codex"/>
     <id>https://openai.com/index/cultfit-builds-with-codex</id>
@@ -106,12 +106,13 @@
     <summary>Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.</summary>
   </entry>
   <entry>
-    <title>IBM, AMD, And Oak Ridge Unveil Quantum Error Correction Platform</title>
-    <link href="https://www.nextplatform.com/compute/2026/11/06/ibm-amd-and-oak-ridge-unveil-quantum-error-correction-platform/5308284"/>
-    <id>https://www.nextplatform.com/compute/2026/11/06/ibm-amd-and-oak-ridge-unveil-quantum-error-correction-platform/5308284</id>
-    <updated>2026-11-06T22:58:31.000Z</updated>
-    <author><name>The Next Platform</name></author>
+    <title>How a Blue Wave midterm might reshape the AI industry</title>
+    <link href="https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry"/>
+    <id>https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry</id>
+    <updated>2026-11-06T18:00:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="HARDWARE"/>
+    <summary>Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren’t on the ballot </summary>
   </entry>
   <entry>
     <title>OpenAI lands an $11 billion funding round, but has to court dentists for more capital</title>
@@ -141,13 +142,13 @@
     <summary>The &quot;Into the Unknown&quot; benchmark tasks nine AI agents with tackling open research questions from U.S. national laboratories. None of the 135 submissions meets all requirements. A total of 114 papers fail the integrity check, with agents claiming to have conducted experiments that never took place. GPT-6 Astra performs </summary>
   </entry>
   <entry>
-    <title>Trafigura Snaps Up Copper in Asia as China Faces Supply Crunch</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-07/trafigura-snaps-up-copper-in-asia-as-china-faces-supply-crunch"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-07/trafigura-snaps-up-copper-in-asia-as-china-faces-supply-crunch</id>
-    <updated>2026-11-07T08:00:21.000Z</updated>
+    <title>Berkshire Hathaway’s Operating Earnings Fall, Buybacks Rise</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-07/berkshire-hathaway-s-operating-earnings-fall-buybacks-rise"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-07/berkshire-hathaway-s-operating-earnings-fall-buybacks-rise</id>
+    <updated>2026-11-07T13:01:21.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Trafigura Group has been buying large volumes of copper to boost sales into Asia as local supplies run low, adding to a scramble for metal that’s pushed regional premiums for spot cargoes to record highs.</summary>
+    <summary>Berkshire Hathaway Inc.’s operating earnings fell to $12.7 billion in the third quarter, a 5.8% decline from a year earlier, the Omaha, Nebraska-based conglomerate said Saturday in a statement.</summary>
   </entry>
   <entry>
     <title>Beyond code generation: A developer’s guide to agentic engineering</title>
@@ -159,13 +160,13 @@
     <summary>Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment. The post Beyond code generation: A developer’s guide to agentic engineering appeared first on The GitHub Blog .</summary>
   </entry>
   <entry>
-    <title>EA producer found 20,000 archival media assets in secret physical vault at its HQ</title>
-    <link href="https://www.tomshardware.com/video-games/retro-gaming/ea-producer-found-20-000-archival-media-assets-in-secret-physical-vault-at-its-hq-betacam-vhs-and-d1-tapes-among-6000-assets-digitized-to-remaster-seven-classic-games"/>
-    <id>https://www.tomshardware.com/video-games/retro-gaming/ea-producer-found-20-000-archival-media-assets-in-secret-physical-vault-at-its-hq-betacam-vhs-and-d1-tapes-among-6000-assets-digitized-to-remaster-seven-classic-games</id>
-    <updated>2026-11-07T11:30:00.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
+    <title>AI Trade Faces a Post-Election Reality Check</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-11-07/ai-trade-faces-a-post-election-reality-check-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-11-07/ai-trade-faces-a-post-election-reality-check-video</id>
+    <updated>2026-11-07T12:50:00.000Z</updated>
+    <author><name>Bloomberg Tech</name></author>
     <category term="HARDWARE"/>
-    <summary>The discovery of thousands of archival media assets led to the creation of Anniversary Editions of some classic titles.</summary>
+    <summary>On Bloomberg This Weekend, Yorkville Ives &amp; Co. partner Dan Ives and Bloomberg US equities reporter Natalia Kniazhevich examine the sharp post-election technology selloff, as investors weigh political resistance to data centers, AI spending and the outlook for Anthropic's IPO. They tell hosts David Gura and Christina R</summary>
   </entry>
   <entry>
     <title>Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model</title>
@@ -204,15 +205,6 @@
     <summary>Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them. When a user selects &quot;Yes, and don't ask again,&quot; Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in a project settings </summary>
   </entry>
   <entry>
-    <title>b12189: metal : fix GROUP_NORM for ne03 &gt; 1 and non-contiguous inputs (#31852)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12189"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12189</id>
-    <updated>2026-11-07T11:04:13.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>The kernel_group_norm_f32 kernel and its host dispatch ignored the batch dimension (ne03) of the source tensor: only ngrp threadgroups were dispatched and each normalized the flat range [tgpig gs, (tgpig+1) gs) with gs = ne00 ne01 ceil(ne02/ngrp). For tensors with ne03 &gt; 1, all but the first ne00 ne01 ne02 elements wer</summary>
-  </entry>
-  <entry>
     <title>[AINews] Anthropic IPO: Whither Now?</title>
     <link href="https://latent.space/p/ainews-anthropic-ipo-whither-now"/>
     <id>https://latent.space/p/ainews-anthropic-ipo-whither-now</id>
@@ -222,13 +214,13 @@
     <summary>November 6, 2026 — ARC Prize tests Inkling 2 Small, and Thinking Machines explains how it caught early checkpoints bypassing guardrails.</summary>
   </entry>
   <entry>
-    <title>Swiss Startup Embodied AI Unveils AIR, a Wheeled Robot Built to Work Beside Factory Staff Without a Cage</title>
-    <link href="https://www.humanoidsdaily.com/news/embodied-ai-air-wheeled-humanoid-factory-humanoid-europe"/>
-    <id>https://www.humanoidsdaily.com/news/embodied-ai-air-wheeled-humanoid-factory-humanoid-europe</id>
-    <updated>2026-11-06T11:59:02.000Z</updated>
+    <title>Atlas Battery Pack to Use 70 Samsung SDI Cells, Report Says</title>
+    <link href="https://www.humanoidsdaily.com/news/samsung-sdi-atlas-battery-70-cells-1-3-kwh"/>
+    <id>https://www.humanoidsdaily.com/news/samsung-sdi-atlas-battery-70-cells-1-3-kwh</id>
+    <updated>2026-11-07T11:43:21.000Z</updated>
     <author><name>Humanoids Daily</name></author>
     <category term="ROBOTICS"/>
-    <summary>The EPFL spin-off's two-armed robot starts each job under remote control and, the company says, takes the task over within a month. It reports a 95% average success rate in paid pilots.</summary>
+    <summary>The reported 1.3 kWh pack adds detail to Atlas’s power system as humanoid makers pursue battery swapping, fast charging and new chemistries.</summary>
   </entry>
   <entry>
     <title>University of Cambridge Joins UK Quantum Commercialisation Initiative</title>
@@ -238,6 +230,15 @@
     <author><name>The Quantum Insider</name></author>
     <category term="QUANTUM"/>
     <summary>Insider Brief PRESS RELEASE — A consortium of five of the UK’s top universities, including the University of Cambridge, has announced the launch of the UK Quantum SuperConnector, an initiative designed to bridge the gap between quantum research and commercial success. The initiative will create a UK-wide community of e</summary>
+  </entry>
+  <entry>
+    <title>State propaganda in some Chinese AI models is only &quot;a thin layer&quot; that fine-tuning can strip away</title>
+    <link href="https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away"/>
+    <id>https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away</id>
+    <updated>2026-11-07T12:32:45.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Nous Research retrained Alibaba's Qwen3.8-27B to produce Arete-27B, largely stripping out its pro-Chinese bias. The propaganda rate dropped from 22 percent to less than one percent, while general capabilities remained intact in tests. The method relied on 53 million tokens of supervised fine-tuning. The political bias </summary>
   </entry>
   <entry>
     <title>The datacentre arms race hits pause in south-east Asia</title>
@@ -258,21 +259,21 @@
     <summary>Sayan Chakraborty / Nikkei Asia : Nasscom President Rajesh Nambiar warns AI could make it harder for fresh Indian engineering graduates to find jobs, urging an immediate CS curriculum overhaul — BENGALURU — Recent college graduates in India could struggle to land technology jobs as companies automate entry-level coding</summary>
   </entry>
   <entry>
-    <title>Excellent for local models running via OpenCode</title>
-    <link href="https://sh.itjust.works/post/69552851"/>
-    <id>https://sh.itjust.works/post/69552851</id>
-    <updated>2026-11-07T09:59:45.000Z</updated>
-    <author><name>Lemmy c/localllama</name></author>
+    <title>[Paper] D3D: Decoupled Diffusion Drafting for Asynchronous Speculative Decoding</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xq1y0y/paper_d3d_decoupled_diffusion_drafting_for"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xq1y0y/paper_d3d_decoupled_diffusion_drafting_for</id>
+    <updated>2026-11-07T09:00:23.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by Canuck to localllama 8 points | 1 comments https://github.com/ghorbelhamdi/buddy-android cross-posted from: lemdro.id/post/48219138 Buddy: an open source app that lets AI agents (Claude Code, Codex, OpenCode) use your Android phone I’ve been building Buddy , a free, open source (Apache 2.0) Android app. Yo</summary>
+    <summary>Target-conditioned diffusion drafters predict candidate tokens in parallel, yet each new block must wait for updated target-model hidden states. This forces drafting and verification to run sequentially, limiting speedup even though each block is generated in one pass. We introduce D3D, a standalone diffusion drafter t</summary>
   </entry>
   <entry>
-    <title>Good Luck Getting a Cheap GPU. AMD Is a &quot;Data Center First Company,&quot; CEO Says</title>
-    <link href="https://sh.itjust.works/post/69552845"/>
-    <id>https://sh.itjust.works/post/69552845</id>
-    <updated>2026-11-07T09:53:09.000Z</updated>
-    <author><name>Lemmy c/localllama</name></author>
+    <title>Obsessive-1.7B: a 1.1 GB web-search subagent</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xq4yju/obsessive17b_a_11_gb_websearch_subagent"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xq4yju/obsessive17b_a_11_gb_websearch_subagent</id>
+    <updated>2026-11-07T12:13:29.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by Shatur to localllama 6 points | 1 comments https://www.pcmag.com/news/good-luck-getting-a-cheap-gpu-amd-is-a-data-center-first-company-ceo-says</summary>
+    <summary>I fine-tuned LFM3-1.7B to do one job: take a factual question, call web_search once, and answer with a short value, a word-for-word quote and the URL. If the results don’t contain the answer, it says “Not found in the search results.” It’s meant to run as a subagent under a bigger model, not as a chat model. I have to </summary>
   </entry>
 </feed>
