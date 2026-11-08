@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-07T23:08:40.910Z</updated>
+  <updated>2026-11-08T00:08:48.869Z</updated>
   <entry>
-    <title>llama.cpp b12192 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12192"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12192</id>
-    <updated>2026-11-07T21:31:27.000Z</updated>
+    <title>llama.cpp b12193 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12193"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12193</id>
+    <updated>2026-11-07T23:48:56.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>mtmd: support MageVL-Cowork model ( #31819 ) mtmd: support MageVL-Cowork model mtmd: keep magevl rope_freqs at model level and check its shape The rope factors are shared by every layer, so they live in clip_model instead of a pointer copied into each clip_layer. The loader now checks that v.rope_freqs is F32 with d_he</summary>
+    <summary>mtmd: move log-mel computation to cgraph ( #31808 ) mtmd: move log-mel computation to cgraph rm stray file also include source in mtmd_audio_track rm stray file rm mtmd_audio_stft_op add test Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64943429 macOS/iOS: macOS Apple Sili</summary>
   </entry>
   <entry>
     <title>qwen-code v0.27.0 released</title>
@@ -133,6 +133,15 @@
     <summary>Systems provide 360-degree view of airport operations, but concerns have been raised about the technology The Federal Aviation Administration (FAA) has announced that the first digital air traffic control towers in the US are officially operational, bringing new technology first to smaller airports in Florida and Alask</summary>
   </entry>
   <entry>
+    <title>Crowd-v1 - The collaborative LLM</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xqh8hk/crowdv1_the_collaborative_llm"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xqh8hk/crowdv1_the_collaborative_llm</id>
+    <updated>2026-11-07T21:19:40.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Processing img 0ybf7gn4c90i1... Hello r/LocalLLaMA :D This is yet another follow-up post on the project CrowdGPT , which aims at creating the first collaboratively trained 1 billion parameters transformer, Crowd-v1 , without any datacenters, and for 0$. The project's goal is to show we don't need huge Nvidia GPU cluste</summary>
+  </entry>
+  <entry>
     <title>Meta’s $25 Billion Bond Sale Highlights Shifting Landscape for Tech Debt</title>
     <link href="https://www.bloomberg.com/news/articles/2026-11-07/meta-s-bond-sale-shows-new-reality-for-tech-debt-credit-weekly"/>
     <id>https://www.bloomberg.com/news/articles/2026-11-07/meta-s-bond-sale-shows-new-reality-for-tech-debt-credit-weekly</id>
@@ -205,31 +214,22 @@
     <summary>French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]</summary>
   </entry>
   <entry>
-    <title>[AINews] Anthropic IPO: Whither Now?</title>
-    <link href="https://latent.space/p/ainews-anthropic-ipo-whither-now"/>
-    <id>https://latent.space/p/ainews-anthropic-ipo-whither-now</id>
-    <updated>2026-11-07T03:04:53.000Z</updated>
-    <author><name>Latent Space</name></author>
+    <title>datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages</title>
+    <link href="https://simonwillison.net/2026/Nov/7/link-rel-next"/>
+    <id>https://simonwillison.net/2026/Nov/7/link-rel-next</id>
+    <updated>2026-11-07T23:57:46.000Z</updated>
+    <author><name>Simon Willison</name></author>
     <category term="ANALYSIS"/>
-    <summary>November 6, 2026 — ARC Prize tests Inkling 2 Small, and Thinking Machines explains how it caught early checkpoints bypassing guardrails.</summary>
+    <summary>datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages I was looking at the Firefox network panel today when I noticed that requests to a Datasette table page were triggering an HTTP prefetch to the next page of rows in that table. This was happening because Datasette pages serve an HTTP lin</summary>
   </entry>
   <entry>
-    <title>Figure’s HQ Is Crawling With Figure 03 Robots. What Are They All Doing?</title>
-    <link href="https://www.humanoidsdaily.com/news/figure-hq-crawling-with-figure-03-robots-adcock-videos"/>
-    <id>https://www.humanoidsdaily.com/news/figure-hq-crawling-with-figure-03-robots-adcock-videos</id>
-    <updated>2026-11-07T18:28:26.000Z</updated>
-    <author><name>Humanoids Daily</name></author>
+    <title>Standing in the way of slop bowls: the woman blocking food delivery robots</title>
+    <link href="https://www.theguardian.com/technology/ng-interactive/2026/nov/07/philadelphia-blocking-food-delivery-robots"/>
+    <id>https://www.theguardian.com/technology/ng-interactive/2026/nov/07/philadelphia-blocking-food-delivery-robots</id>
+    <updated>2026-11-07T14:00:12.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="ROBOTICS"/>
-    <summary>Two new videos from Brett Adcock show dozens of Figure 03 humanoids roaming Figure’s headquarters, inside and out. The company is close to having more robots than employees, but has said little about how many are doing paid work.</summary>
-  </entry>
-  <entry>
-    <title>b12193: mtmd: move log-mel computation to cgraph (#31808)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12193"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12193</id>
-    <updated>2026-11-07T22:53:11.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="GITHUB REPOS"/>
-    <summary>mtmd: move log-mel computation to cgraph rm stray file also include source in mtmd_audio_track rm stray file rm mtmd_audio_stft_op add test</summary>
+    <summary>Semi-retired professor Carolyn Marvin became a local celebrity facing down Philadelphia’s growing robot delivery army: ‘It’s my first amendment right to protest’ “One of you needs to be on the lookout for cops, while I block the robot, OK?” It is a crisp fall morning in Philadelphia. Tucked away in a dingy alley, oppos</summary>
   </entry>
   <entry>
     <title>Thinking Machines' Inkling 2 Small drops 316 F-bombs across benchmark runs</title>
@@ -250,22 +250,13 @@
     <summary>Francisco Rodrigues / CoinDesk : US Treasury moves to cut crypto exchange MEXC off from the US financial system, alleging $16B+ in illicit flows, including Russian and Iranian sanctions evasion — The U.S. Treasury is moving to cut off crypto exchange MEXC from the U.S. financial system, alleging that it handled …</summary>
   </entry>
   <entry>
-    <title>Standing in the way of slop bowls: the woman blocking food delivery robots</title>
-    <link href="https://www.theguardian.com/technology/ng-interactive/2026/nov/07/philadelphia-blocking-food-delivery-robots"/>
-    <id>https://www.theguardian.com/technology/ng-interactive/2026/nov/07/philadelphia-blocking-food-delivery-robots</id>
-    <updated>2026-11-07T14:00:12.000Z</updated>
-    <author><name>The Guardian AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Semi-retired professor Carolyn Marvin became a local celebrity facing down Philadelphia’s growing robot delivery army: ‘It’s my first amendment right to protest’ “One of you needs to be on the lookout for cops, while I block the robot, OK?” It is a crisp fall morning in Philadelphia. Tucked away in a dingy alley, oppos</summary>
-  </entry>
-  <entry>
-    <title>The inference engine flood.. but where's the quality?</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1xqgdto/the_inference_engine_flood_but_wheres_the_quality"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1xqgdto/the_inference_engine_flood_but_wheres_the_quality</id>
-    <updated>2026-11-07T20:41:40.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>Use your phone to monitor anything with local models! Demo of my Open Source and 100% local agent (iOS and Android!)</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xqd058/use_your_phone_to_monitor_anything_with_local"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xqd058/use_your_phone_to_monitor_anything_with_local</id>
+    <updated>2026-11-07T18:16:41.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>So many inference engines keep on popping up - and they are always faster and &quot;better&quot; than llama.cpp. And there I go. Spend countless hours to try them out, being first amazed by the 1.5 - 3x speed ups as promised. Just to find out that when taken into real use, they fail. Today I experimented with Strata. I used newe</summary>
+    <summary>Hey r/LocalLLaMA ! I made this quick demo of how Observer can run local models to monitor anything with your phone! These are some crazy things I've monitored: When someone that's not me, approaches my car, send me a picture. When a bird is on the bird's nest, send me a telegram with the picture. When my washing machin</summary>
   </entry>
   <entry>
     <title>AI auditors catch most agent misbehavior but flood reviewers with false alarms, new study finds</title>
@@ -275,5 +266,14 @@
     <author><name>The Decoder</name></author>
     <category term="AGENTS &amp; TOOLS"/>
     <summary>AI models can often spot problematic behavior by other AI agents in logs, according to a study by Anthropic researcher Andy Hall. GPT-5 found about 98 percent of reward-hacking cases, but the more exhaustively the search is tuned, the more false alarms pile up. That's not yet enough for reliable safety checks. The arti</summary>
+  </entry>
+  <entry>
+    <title>Nine AI agents tried autonomous research on open questions from US national labs and none passed the experts' bar</title>
+    <link href="https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar"/>
+    <id>https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar</id>
+    <updated>2026-11-07T11:13:42.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>The &quot;Into the Unknown&quot; benchmark tasks nine AI agents with tackling open research questions from U.S. national laboratories. None of the 135 submissions meets all requirements. A total of 114 papers fail the integrity check, with agents claiming to have conducted experiments that never took place. GPT-6 Astra performs </summary>
   </entry>
 </feed>
