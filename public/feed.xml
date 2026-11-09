@@ -5,7 +5,16 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-09T13:08:45.502Z</updated>
+  <updated>2026-11-09T14:09:02.865Z</updated>
+  <entry>
+    <title>qwen-code v0.27.1 released</title>
+    <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.27.1"/>
+    <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.27.1</id>
+    <updated>2026-11-09T13:33:20.000Z</updated>
+    <author><name>QwenLM/qwen-code</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features feat(core): name the active shell in the startup context ( #16491 ) by @2SinceJuly feat(qqbot): add opt-in forwardBotMessages for bot-authored messages ( #15904 ) by @Eric-GoodBoy-Tech feat(agents):  — Also covered by: QwenLM/qwen-code, anthropics/claude-code</summary>
+  </entry>
   <entry>
     <title>Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy</title>
     <link href="https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy"/>
@@ -17,12 +26,12 @@
   </entry>
   <entry>
     <title>ToyBlocks: A controlled world for robot learning and evaluation</title>
-    <link href="https://huggingface.co/blog/allenai/toyblocks"/>
-    <id>https://huggingface.co/blog/allenai/toyblocks</id>
-    <updated>2026-11-06T14:00:48.000Z</updated>
-    <author><name>Hugging Face Blog</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Also covered by: Ai2 (Allen Institute)</summary>
+    <link href="https://allenai.org/blog/toyblocks"/>
+    <id>https://allenai.org/blog/toyblocks</id>
+    <updated>2026-11-06T08:00:00.000Z</updated>
+    <author><name>Ai2 (Allen Institute)</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>ToyBlocks is an open simulation framework for studying robot learning through automated task generation, training demonstrations, and evaluation in a controlled tabletop world. — Also covered by: Hugging Face Blog</summary>
   </entry>
   <entry>
     <title>METR: Independent Assessment of AI R&amp;D Acceleration at Anthropic in October 2026</title>
@@ -34,13 +43,13 @@
     <summary>Executive summary From August 12 to October 29, 2026, METR staff performed a high-access evaluation at Anthropic to assess the degree to which AI is accelerating AI R&amp;D. If AI systems started to significantly accelerate further AI development, this could lead to a sudden emergence of extreme and risky capabilities . An — Also covered by: METR</summary>
   </entry>
   <entry>
-    <title>llama.cpp b12223 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12223"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12223</id>
-    <updated>2026-11-09T12:55:36.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>Nvidia espionage scandal weakens Huang's lobby against tighter AI chip export controls</title>
+    <link href="https://the-decoder.com/nvidia-espionage-scandal-weakens-huangs-lobby-against-tighter-ai-chip-export-controls"/>
+    <id>https://the-decoder.com/nvidia-espionage-scandal-weakens-huangs-lobby-against-tighter-ai-chip-export-controls</id>
+    <updated>2026-11-09T11:38:43.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>models : Attach Granite NVFP4 weight scales ( #31449 ) models : Attach Granite NVFP4 weight scales feat: Pass nvfp4 scales through build_ffn for all granite architectures Branch: granite-nvfp4-moe-scales AI-usage: full (Claude + Sonnet 5.5) Signed-off-by: Gabe Goodhart ghart@us.ibm.com Co-authored-by: Gabe Goodhart gha</summary>
+    <summary>Nvidia CEO Jensen Huang has admitted to an extramarital affair with a woman US intelligence agencies classify as a suspected Chinese informant. The board has launched an independent investigation. The affair weakens Huang's lobbying efforts against stricter AI chip export controls, with a newly elected Democratic Congr</summary>
   </entry>
   <entry>
     <title>Google unveils two specialized TPUs, the TPU 8tx, to be paired with AMD CPUs, and TPU 8i Max, a dual-chip package for long-context window tasks, launching 2027 (Dina Bass/Bloomberg)</title>
@@ -52,6 +61,15 @@
     <summary>Dina Bass / Bloomberg : Google unveils two specialized TPUs, the TPU 8tx, to be paired with AMD CPUs, and TPU 8i Max, a dual-chip package for long-context window tasks, launching 2027 — Alphabet Inc.'s Google is rolling out a broader array of artificial intelligence chips, aiming to capitalize on its rapid ascent …</summary>
   </entry>
   <entry>
+    <title>llama.cpp b12224 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12224"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12224</id>
+    <updated>2026-11-09T13:56:43.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>ggml-backend: don't upload inputs that are not read ( #31419 ) stop uploading inputs nothing reads Address nitpicks Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65373769 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Int</summary>
+  </entry>
+  <entry>
     <title>NormGym: Evaluating Normative Competence through Social Interaction</title>
     <link href="https://arxiv.org/abs/2611.08613"/>
     <id>https://arxiv.org/abs/2611.08613</id>
@@ -61,13 +79,13 @@
     <summary>arXiv:2611.08613v1 Announce Type: new Abstract: Normative competence, the ability to infer socially enforced expectations from interaction and adjust behavior accordingly, is essential for agents operating in unfamiliar human communities. Yet existing evaluations largely test whether agents can recognize or apply norms</summary>
   </entry>
   <entry>
-    <title>First Abu Dhabi Bank Weighs Multibillion-Dollar Rights Issue</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-09/first-abu-dhabi-bank-weighs-multibillion-dollar-rights-issue"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-09/first-abu-dhabi-bank-weighs-multibillion-dollar-rights-issue</id>
-    <updated>2026-11-09T12:47:02.000Z</updated>
+    <title>Stocks Rise as Investors Shrug Off Nvidia Probe; Trump Says Iran Strikes Unlikely</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-11-09/bloomberg-brief-11-09-2026-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-11-09/bloomberg-brief-11-09-2026-video</id>
+    <updated>2026-11-09T13:48:33.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Executives at First Abu Dhabi Bank PJSC have held preliminary discussions on potentially raising billions of dollars through a rights issue that could rank among the biggest of its kind in recent years, according to people familiar with the matter.</summary>
+    <summary>US equity futures rise following the S&amp;P 500’s worst week since April 2025, despite a sharp drop in Nvidia. The chip giant launches an investigation after CEO Jensen Huang admitted to an affair with an alleged Chinese spy. President Trump says it's &quot;highly unlikely,&quot; while Secretary of State Marco Rubio plays down any </summary>
   </entry>
   <entry>
     <title>LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks</title>
@@ -115,13 +133,13 @@
     <summary>AI startups should be judged by durable revenue, full-price renewals and healthy margins after delivery costs, with embedded customer workflows providing stronger defensibility as model access gets cheaper, rather than their paper valuation, writes guest author Ilman Shazhaev, founder and CEO of Dizzaract, who suggests</summary>
   </entry>
   <entry>
-    <title>The Web Is More Than Enough, by Paul Ford</title>
-    <link href="https://simonwillison.net/2026/Nov/9/hn-50421091"/>
-    <id>https://simonwillison.net/2026/Nov/9/hn-50421091</id>
-    <updated>2026-11-09T04:32:33.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>Import AI 480: Self-sustaining space economies; AI for science progress, and Meta builds perfect hands for a superintelligence</title>
+    <link href="https://jack-clark.net/2026/11/09/import-ai-480-self-sustaining-space-economies-ai-for-science-progress-and-meta-builds-perfect-hands-for-a-superintelligence"/>
+    <id>https://jack-clark.net/2026/11/09/import-ai-480-self-sustaining-space-economies-ai-for-science-progress-and-meta-builds-perfect-hands-for-a-superintelligence</id>
+    <updated>2026-11-09T13:31:34.000Z</updated>
+    <author><name>Import AI (Jack Clark)</name></author>
     <category term="ANALYSIS"/>
-    <summary>My comment on The Web Is More Than Enough, by Paul Ford — Hacker News. OK, this comment convinced me to give that a shot. Here's a thing I made in Three.js this morning - a Nudibranch themed Faberge Egg: https://static.simonwillison.net/static/2026/Hidden-Reef-Egg... (77KB) I just asked Claude (Opus 5.5 Medium running </summary>
+    <summary>Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI Science startup converts a quantum conjecture into a theorem:…An evocative taste of the singularity…In the same way a few years ago it </summary>
   </entry>
   <entry>
     <title>PrimeBOT Builds Its 10,000th Personal Robot, 14 Days After Its 5,000th</title>
@@ -133,24 +151,6 @@
     <summary>PrimeBOT says its 10,000th Q1 and T1 personal robot rolled off the line on November 8, with daily capacity at 240 units. It has not disclosed sales or deliveries.</summary>
   </entry>
   <entry>
-    <title>Thierry Botter joins SemiQon as Chief Commercial Officer</title>
-    <link href="https://thequantuminsider.com/2026/11/09/semiqon-thierry-botter-chief-commercial-officer"/>
-    <id>https://thequantuminsider.com/2026/11/09/semiqon-thierry-botter-chief-commercial-officer</id>
-    <updated>2026-11-09T12:11:14.000Z</updated>
-    <author><name>The Quantum Insider</name></author>
-    <category term="QUANTUM"/>
-    <summary>Insider Brief PRESS RELEASE — SemiQon, a global leader in scalable quantum hardware and cryo-optimized CMOS solutions, announces the appointment of Dr. Thierry Botter as Chief Commercial Officer (CCO). Dr. Botter brings extensive experience at the intersection of technology, business, and policy, having spent years hel</summary>
-  </entry>
-  <entry>
-    <title>Nvidia espionage scandal weakens Huang's lobby against tighter AI chip export controls</title>
-    <link href="https://the-decoder.com/nvidia-espionage-scandal-weakens-huangs-lobby-against-tighter-ai-chip-export-controls"/>
-    <id>https://the-decoder.com/nvidia-espionage-scandal-weakens-huangs-lobby-against-tighter-ai-chip-export-controls</id>
-    <updated>2026-11-09T11:38:43.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Nvidia CEO Jensen Huang has admitted to an extramarital affair with a woman US intelligence agencies classify as a suspected Chinese informant. The board has launched an independent investigation. The affair weakens Huang's lobbying efforts against stricter AI chip export controls, with a newly elected Democratic Congr</summary>
-  </entry>
-  <entry>
     <title>Expanding Teen Account Protections to Teens Around the World</title>
     <link href="https://about.fb.com/news/2026/11/expanding-teen-account-protections-to-teens-around-the-world"/>
     <id>https://about.fb.com/news/2026/11/expanding-teen-account-protections-to-teens-around-the-world</id>
@@ -160,31 +160,31 @@
     <summary>We’re expanding our AI age-estimation technology globally to place millions more teens in Teen Account protections on Instagram. The post Expanding Teen Account Protections to Teens Around the World appeared first on Meta Newsroom .</summary>
   </entry>
   <entry>
-    <title>Google Announces New TPUs It Says Are More Powerful and Secure</title>
-    <link href="https://www.theinformation.com/briefings/google-announces-new-tpus-says-powerful-secure"/>
-    <id>https://www.theinformation.com/briefings/google-announces-new-tpus-says-powerful-secure</id>
-    <updated>2026-11-09T13:00:48.000Z</updated>
-    <author><name>The Information</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Google announced a new line of AI chips the company says are more secure than previous models and equipped for heavier workloads. The new versions of its tensor processing units—the TPU 8tx and the TPU 8i Max—further expand a growing chip business that threatens to loosen Nvidia’s grip on the AI ...</summary>
+    <title>Google ships four TPU variants in one year as it ramps up competition with Nvidia</title>
+    <link href="https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia"/>
+    <id>https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia</id>
+    <updated>2026-11-09T12:59:02.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Google is expanding its TPU 8 family with two specialized variants: the TPU 8tx keeps sensitive data encrypted even during processing, while the TPU 8i Max doubles compute power and memory by placing two chips on a single package. With nearly 100 external customers now on board, Google is increasingly positioning its i</summary>
   </entry>
   <entry>
-    <title>Jensen Huang's affair raises questions about Alice Huang's access to his devices and Trump conversations, and represents &quot;another successful op&quot; for China's MSS (Bill Bishop/@niubi)</title>
-    <link href="https://www.techmeme.com/261109/p21"/>
-    <id>https://www.techmeme.com/261109/p21</id>
-    <updated>2026-11-09T12:35:01.000Z</updated>
+    <title>Nominal, which builds software to make hardware manufacturing more efficient, raised $240M at a $3B valuation, up from $1B after raising $80M in March (Paayal Zaveri/Bloomberg)</title>
+    <link href="https://www.techmeme.com/261109/p23"/>
+    <id>https://www.techmeme.com/261109/p23</id>
+    <updated>2026-11-09T13:25:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Bill Bishop / @niubi : Jensen Huang's affair raises questions about Alice Huang's access to his devices and Trump conversations, and represents “another successful op” for China's MSS — On the Jensen Huang-Alice Huang affair, you have to give the MSS credit for running another successful op.</summary>
+    <summary>Paayal Zaveri / Bloomberg : Nominal, which builds software to make hardware manufacturing more efficient, raised $240M at a $3B valuation, up from $1B after raising $80M in March — Nominal Inc., a startup building software to make manufacturing more efficient, has raised $240 million in funding at a $3 billion valuatio</summary>
   </entry>
   <entry>
-    <title>b12224: ggml-backend: don't upload inputs that are not read (#31419)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12224"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12224</id>
-    <updated>2026-11-09T12:40:17.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>stop uploading inputs nothing reads Address nitpicks</summary>
+    <title>Parents and teachers decry Google pledge to yank Search if schools block AI: ‘This threat is nothing but extortion’</title>
+    <link href="https://www.theguardian.com/us-news/2026/nov/09/parents-teachers-google-search-schools-ai"/>
+    <id>https://www.theguardian.com/us-news/2026/nov/09/parents-teachers-google-search-schools-ai</id>
+    <updated>2026-11-09T14:00:11.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Company says schools should control student AI use, but if they block its AI tools, they’ll lose access to search engine Parents and teachers across the US are criticizing Google’s announcement that schools choosing to block AI tools could also lose access to Google Search. Google announced last week a range of new AI </summary>
   </entry>
   <entry>
     <title>Dual 5070ti Results - Qwen3.8 Flash Next and 27b - AM4</title>
@@ -196,6 +196,15 @@
     <summary>This is just a quick writeup for speed reference - I spent a lot of time trying to find comparable builds so I figured I'd put some info back into the wild. The below is obviously written by AI, but it's measured specs and benchmarks on my PC. I use local models via Pi and Deepseek Harness. I have found the intelligenc</summary>
   </entry>
   <entry>
+    <title>DeepSeek V4.1 Flash Unsloth IQ2 at 42 tok/s on one RTX 3090 + 192 GB RAM: Delta Inference Engine 0.94 (native Windows)</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1xrs37o/deepseek_v41_flash_unsloth_iq2_at_42_toks_on_one"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1xrs37o/deepseek_v41_flash_unsloth_iq2_at_42_toks_on_one</id>
+    <updated>2026-11-09T13:47:59.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Delta Inference Engine 0.94 is out. It runs DeepSeek-V4.1-Flash-1017 on one NVIDIA GPU plus system RAM, natively on Windows (no WSL). It's a Windows port of Xolotl, which is built on Strata; on Linux, use upstream Xolotl. Speed on my PC (RTX 3090 24 GB, i5-13600K, 4x48 GB DDR5-5600, PCIe 4.0 NVMe) With the default quan</summary>
+  </entry>
+  <entry>
     <title>AWS Launches TorchNeuron to Run PyTorch Models on AWS Trainium Without Modifications</title>
     <link href="https://www.infoq.com/news/2026/11/aws-torchneuron-trainium-pytorch"/>
     <id>https://www.infoq.com/news/2026/11/aws-torchneuron-trainium-pytorch</id>
@@ -205,13 +214,22 @@
     <summary>At the recent PyTorch Conference North America 2026, Amazon introduced TorchNeuron, a native PyTorch backend that enables developers to run existing PyTorch code on AWS Trainium AI chips with virtually no code modifications. By Sergio De Simone</summary>
   </entry>
   <entry>
-    <title>Europe’s Gas Storage Problems Seen Lasting Well Beyond Winter</title>
-    <link href="https://www.bloomberg.com/news/newsletters/2026-11-09/europe-s-gas-storage-problems-seen-lasting-well-beyond-winter"/>
-    <id>https://www.bloomberg.com/news/newsletters/2026-11-09/europe-s-gas-storage-problems-seen-lasting-well-beyond-winter</id>
-    <updated>2026-11-09T12:47:37.000Z</updated>
+    <title>US stocks set for gains after AI rout</title>
+    <link href="https://www.ft.com/content/b8644327-86e7-4d1c-a71f-3fb1d552723b?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/b8644327-86e7-4d1c-a71f-3fb1d552723b?syn-25a6b1a6=1</id>
+    <updated>2026-11-09T13:50:17.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Declines last week pushed many indices into bear market territory</summary>
+  </entry>
+  <entry>
+    <title>Aluminum Faces Severe Squeeze as LME Market Awaits New Supply</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-09/aluminum-faces-severe-squeeze-as-lme-market-awaits-new-supply"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-09/aluminum-faces-severe-squeeze-as-lme-market-awaits-new-supply</id>
+    <updated>2026-11-09T13:29:10.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Inventory levels could be lowest in more than a decade by spring.</summary>
+    <summary>The aluminum market is in the grips of a major supply squeeze fueled by declining stockpiles of the crucial industrial commodity, with buyers facing rising prices for spot metal and little immediate prospect of relief.</summary>
   </entry>
   <entry>
     <title>Emergent Low-Dimensional Topological Dynamics Dictate Generalization and Escape Mechanics in Billion-Parameter Neural Networks</title>
@@ -232,15 +250,6 @@
     <summary>arXiv:2611.08730v1 Announce Type: new Abstract: LLM-based digital twins aim to predict how individuals would respond in new settings from representations of their prior responses. Existing evidence that compression of survey histories need not reduce predictive accuracy suggests that representation structure, rather th</summary>
   </entry>
   <entry>
-    <title>Crisis mundial del vino obliga a los viñedos chilenos a reinventar sus negocios</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-11-09/crisis-mundial-del-vino-obliga-a-los-vinedos-chilenos-a-reinventar-sus-negocios"/>
-    <id>https://www.bloomberg.com/news/videos/2026-11-09/crisis-mundial-del-vino-obliga-a-los-vinedos-chilenos-a-reinventar-sus-negocios</id>
-    <updated>2026-11-09T12:24:41.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Chile exporta cerca del 70% de su producción de vino, pero la demanda mundial cae. Ahora las viñas arrancan cepas, apuestan por turismo y hasta convierten sus terrenos en proyectos residenciales. (Source: Bloomberg)</summary>
-  </entry>
-  <entry>
     <title>Nvidia Board Is Launching Investigation After Reporting That CEO Targeted By Chinese Informant</title>
     <link href="https://www.theinformation.com/briefings/nvidia-board-launching-investigation-reporting-ceo-targeted-chinese-informant"/>
     <id>https://www.theinformation.com/briefings/nvidia-board-launching-investigation-reporting-ceo-targeted-chinese-informant</id>
@@ -250,6 +259,15 @@
     <summary>Nvidia announced that its board is initiating an investigation into recent reporting that its CEO Jensen Huang “has been the target of a foreign intelligence effort,” the company said in a press release on Sunday. Independent directors and outside independent counsel will oversee the ...</summary>
   </entry>
   <entry>
+    <title>Google Announces New TPUs It Says Are More Powerful and Secure</title>
+    <link href="https://www.theinformation.com/briefings/google-announces-new-tpus-says-powerful-secure"/>
+    <id>https://www.theinformation.com/briefings/google-announces-new-tpus-says-powerful-secure</id>
+    <updated>2026-11-09T13:00:48.000Z</updated>
+    <author><name>The Information</name></author>
+    <category term="HARDWARE"/>
+    <summary>Google announced a new line of AI chips the company says are more secure than previous models and equipped for heavier workloads. The new versions of its tensor processing units—the TPU 8tx and the TPU 8i Max—further expand a growing chip business that threatens to loosen Nvidia’s grip on the AI ...</summary>
+  </entry>
+  <entry>
     <title>NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum</title>
     <link href="https://blogs.nvidia.com/blog/korean-startup-investments-msit"/>
     <id>https://blogs.nvidia.com/blog/korean-startup-investments-msit</id>
@@ -257,23 +275,5 @@
     <author><name>NVIDIA Blog</name></author>
     <category term="HARDWARE"/>
     <summary>Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI Startup Partnership Forum at COEX. Ryu Je-myung, vice minister of science and ICT, joined NVIDIA leaders to meet with over 20 Korean startups across foundation models, physical AI, AI infrastructure and AI semiconductors. NVIDIA also announced an </summary>
-  </entry>
-  <entry>
-    <title>Reason Machines Open-Sources Aspen, a Git Server Built for AI Agents</title>
-    <link href="https://www.marktechpost.com/2026/11/09/reason-machines-aspen-open-source-git-server-ai-agents"/>
-    <id>https://www.marktechpost.com/2026/11/09/reason-machines-aspen-open-source-git-server-ai-agents</id>
-    <updated>2026-11-09T08:20:20.000Z</updated>
-    <author><name>MarkTechPost</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Reason Machines has open-sourced Aspen, a self-hosted Git server for AI agents. It follows OpenAI’s Pando design and sustained 567 pushes per second on one 8-core server in the company’s own test. The post Reason Machines Open-Sources Aspen, a Git Server Built for AI Agents appeared first on MarkTechPost .</summary>
-  </entry>
-  <entry>
-    <title>Subpar Results</title>
-    <link href="https://www.lesswrong.com/posts/aYk7qPqj7PpQduDgm/subpar-results"/>
-    <id>https://www.lesswrong.com/posts/aYk7qPqj7PpQduDgm/subpar-results</id>
-    <updated>2026-11-09T08:03:20.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>The day when ASI woke up, all things became quiet. It was complete and total silence, all the time. The ASI for some unknown reason imposed a rule of extreme quietness. Extreme here is extreme for the ASI. Quietness means no sounds. It wanted the trees to not be there to avoid the rustles. It then wanted the planet to </summary>
   </entry>
 </feed>
