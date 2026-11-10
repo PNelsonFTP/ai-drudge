@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-10T10:00:57.032Z</updated>
+  <updated>2026-11-10T12:08:43.822Z</updated>
   <entry>
     <title>Closing the AI guidance gap in education</title>
     <link href="https://openai.com/index/closing-ai-guidance-gap-education"/>
@@ -25,13 +25,13 @@
     <summary>ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.</summary>
   </entry>
   <entry>
-    <title>Google patches eighth Chrome zero-day exploited in attacks this year</title>
-    <link href="https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year"/>
-    <id>https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year</id>
-    <updated>2026-11-10T08:51:25.000Z</updated>
-    <author><name>BleepingComputer</name></author>
+    <title>Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers</title>
+    <link href="https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html"/>
+    <id>https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html</id>
+    <updated>2026-11-10T10:07:29.000Z</updated>
+    <author><name>The Hacker News</name></author>
     <category term="CYBER THREATS"/>
-    <summary>Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...] — Also covered by: The Hacker News</summary>
+    <summary>The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that's used to break into victims' Microsoft Exchange servers with an aim to surreptitiously collect emails. According to an ESET report shared with The Hacker News ahea — Also covered by: BleepingComputer</summary>
   </entry>
   <entry>
     <title>claude-code v2.1.322 released</title>
@@ -41,15 +41,6 @@
     <author><name>anthropics/claude-code</name></author>
     <category term="GITHUB REPOS"/>
     <summary>What's changed Added fast mode on Vertex in the global, us and eu regions, falling back to standard speed if Vertex refuses it — Also covered by: QwenLM/qwen-code</summary>
-  </entry>
-  <entry>
-    <title>N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits</title>
-    <link href="https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html"/>
-    <id>https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html</id>
-    <updated>2026-11-10T06:44:36.000Z</updated>
-    <author><name>The Hacker News</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>N-able said it has taken N-central Hosted Environments offline and is urging on-premises customers to shut down their servers until further notice following the public disclosure of over 30 vulnerabilities collectively tracked as Able2Shell. &quot;As a precautionary measure, we are temporarily taking our Hosted N-central en — Also covered by: BleepingComputer</summary>
   </entry>
   <entry>
     <title>Quantinuum and RIKEN Expand Quantum-AI Supercomputing Partnership</title>
@@ -70,6 +61,15 @@
     <summary>Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.</summary>
   </entry>
   <entry>
+    <title>Q-Block Computing Establishes Headquarters in Ottawa</title>
+    <link href="https://thequantuminsider.com/2026/11/10/q-block-computing-headquarters-ottawa"/>
+    <id>https://thequantuminsider.com/2026/11/10/q-block-computing-headquarters-ottawa</id>
+    <updated>2026-11-10T11:44:06.000Z</updated>
+    <author><name>The Quantum Insider</name></author>
+    <category term="QUANTUM"/>
+    <summary>Insider Brief PRESS RELEASE — Q-Block Computing is establishing its headquarters in Ottawa, marking the next chapter in the company’s growth and reinforcing its long-term commitment to developing quantum technologies in Canada. Q-Block is a Canadian quantum research and engineering company that turns frontier science i — Also covered by: Quantum Computing Report</summary>
+  </entry>
+  <entry>
     <title>CodeRabbit scales agentic software development and ships 20x more</title>
     <link href="https://openai.com/index/coderabbit-codex-daybreak"/>
     <id>https://openai.com/index/coderabbit-codex-daybreak</id>
@@ -79,22 +79,22 @@
     <summary>CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.</summary>
   </entry>
   <entry>
-    <title>b12245: llama : apply the iGPU lazy-mode fallback only when mmap is off (#31957)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12245"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12245</id>
-    <updated>2026-11-10T06:55:46.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>Introducing AlphaProof Code: a breakthrough in verifying complex software at depth</title>
+    <link href="https://deepmind.google/blog/introducing-alphaproof-code"/>
+    <id>https://deepmind.google/blog/introducing-alphaproof-code</id>
+    <updated>2026-11-10T12:02:28.000Z</updated>
+    <author><name>Google DeepMind Blog</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>On a device without mmap support, --lazy-mode auto resolved to off even with --load-mode mmap, so llama_prefetch_rows never ran and the rows of the large tensors faulted in one page at a time. Resolve it to off only when mmap is off; the default iGPU load path is unchanged. Fixes #31943</summary>
+    <summary>AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.</summary>
   </entry>
   <entry>
-    <title>Mandatory AI safety and security protections announced after OpenAI breach of Medicare – video</title>
-    <link href="https://www.theguardian.com/australia-news/video/2026/nov/10/mandatory-ai-safety-and-security-protections-announced-after-openai-breach-of-medicare-video"/>
-    <id>https://www.theguardian.com/australia-news/video/2026/nov/10/mandatory-ai-safety-and-security-protections-announced-after-openai-breach-of-medicare-video</id>
-    <updated>2026-11-10T05:29:32.000Z</updated>
-    <author><name>The Guardian AI</name></author>
+    <title>Anthropic launches its IPO roadshow, saying the company and shareholders plan to sell 825M Class A shares at $70 to $78 each, listing on the Nasdaq under ANT. (Anthropic)</title>
+    <link href="https://www.techmeme.com/261110/p12"/>
+    <id>https://www.techmeme.com/261110/p12</id>
+    <updated>2026-11-10T11:40:01.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Australia's prime minister said its government would set up a new AI safety regulator and Labor would consider six key obligations on AI companies. The review made 18 recommendations. Anthony Albanese said: 'We accept all of the recommendations, and we’ve commenced work to implement them.' Australia to introduce mandat</summary>
+    <summary>Anthropic : Anthropic launches its IPO roadshow, saying the company and shareholders plan to sell 825M Class A shares at $70 to $78 each, listing on the Nasdaq under ANT. — Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.</summary>
   </entry>
   <entry>
     <title>ollama v0.40.16 released</title>
@@ -106,15 +106,6 @@
     <summary>Ripple Preview Ripple Preview from Ricursive Intelligence is a 65B dense model built for agentic coding. ollama run ripple-preview What's Changed Qwen3.8 Flash Next uses about 27 GiB less memory on Apple silicon ollama launch claude always routes Claude Code to the selected model ollama launch explains when a cloud mod</summary>
   </entry>
   <entry>
-    <title>Italy’s Open Fiber Said to Start Planning €8 Billion Refinancing</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-10/italy-s-open-fiber-said-to-start-planning-8-billion-refinancing"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-10/italy-s-open-fiber-said-to-start-planning-8-billion-refinancing</id>
-    <updated>2026-11-10T08:32:41.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Italy’s Open Fiber SpA is kicking off preliminary work to refinance around €8 billion ($9 billion) of bank debt, in what would rank among Europe’s largest fiber-sector debt deals.</summary>
-  </entry>
-  <entry>
     <title>The Infrastructure Divide: Analyzing Community Stance on Data Center Development via Reddit</title>
     <link href="https://arxiv.org/abs/2611.10109"/>
     <id>https://arxiv.org/abs/2611.10109</id>
@@ -124,22 +115,31 @@
     <summary>arXiv:2611.10109v1 Announce Type: new Abstract: The rapid expansion of AI-driven data center construction has outpaced public engagement: an estimated $64 billion in U.S. data center projects were blocked or delayed by local opposition between May 2024 and March 2025, yet the concerns driving this resistance remain poo</summary>
   </entry>
   <entry>
-    <title>Anthropic’s Outside Counsel Sent Banks Wrong Documents Before Launching IPO</title>
-    <link href="https://www.theinformation.com/briefings/anthropic-sent-banks-wrong-documents-launching-ipo"/>
-    <id>https://www.theinformation.com/briefings/anthropic-sent-banks-wrong-documents-launching-ipo</id>
-    <updated>2026-11-10T02:29:42.000Z</updated>
-    <author><name>The Information</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Anthropic’s outside counsel in Canada late Monday sent banks an updated prospectus for its initial public offering and then retracted it, saying some of the details are incorrect, according to people familiar with the matter. The counsel in Canada first sent a copy of a filing, earlier reported ...</summary>
+    <title>b12245: llama : apply the iGPU lazy-mode fallback only when mmap is off (#31957)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12245"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12245</id>
+    <updated>2026-11-10T06:55:46.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="HARDWARE"/>
+    <summary>On a device without mmap support, --lazy-mode auto resolved to off even with --load-mode mmap, so llama_prefetch_rows never ran and the rows of the large tensors faulted in one page at a time. Resolve it to off only when mmap is off; the default iGPU load path is unchanged. Fixes #31943</summary>
   </entry>
   <entry>
-    <title>Meituan releases weights for LongCat-2.5, a 1.6T-parameter MoE model for long-horizon agentic tasks, under the MIT license, after unveiling it on November 1 (Carl Franzen/VentureBeat)</title>
-    <link href="https://www.techmeme.com/261110/p5"/>
-    <id>https://www.techmeme.com/261110/p5</id>
-    <updated>2026-11-10T08:50:03.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>&quot;Robotics Is No Longer an Elitist Sport&quot;: NVIDIA Unveils GR00T 2 and Open-Sources the Stack Behind It</title>
+    <link href="https://www.humanoidsdaily.com/news/nvidia-gr00t-2-world-action-model-corl-2026"/>
+    <id>https://www.humanoidsdaily.com/news/nvidia-gr00t-2-world-action-model-corl-2026</id>
+    <updated>2026-11-09T21:05:16.000Z</updated>
+    <author><name>Humanoids Daily</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>Carl Franzen / VentureBeat : Meituan releases weights for LongCat-2.5, a 1.6T-parameter MoE model for long-horizon agentic tasks, under the MIT license, after unveiling it on November 1 — Meituan released the weights for LongCat-2.5 on Nov. 9, one week after introducing the model. The Chinese food delivery …</summary>
+    <summary>Jim Fan presented the 2B-parameter model at CoRL. NVIDIA reports 95% success from five demonstrations per task; weights open in December, with data, SimFoundry and hardware designs out now.</summary>
+  </entry>
+  <entry>
+    <title>Mandatory AI safety and security protections announced after OpenAI breach of Medicare – video</title>
+    <link href="https://www.theguardian.com/australia-news/video/2026/nov/10/mandatory-ai-safety-and-security-protections-announced-after-openai-breach-of-medicare-video"/>
+    <id>https://www.theguardian.com/australia-news/video/2026/nov/10/mandatory-ai-safety-and-security-protections-announced-after-openai-breach-of-medicare-video</id>
+    <updated>2026-11-10T05:29:32.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>Australia's prime minister said its government would set up a new AI safety regulator and Labor would consider six key obligations on AI companies. The review made 18 recommendations. Anthony Albanese said: 'We accept all of the recommendations, and we’ve commenced work to implement them.' Australia to introduce mandat</summary>
   </entry>
   <entry>
     <title>META-IR: Meta-Introspective Reasoning for Adaptive Safety Alignment in LLM</title>
@@ -160,13 +160,13 @@
     <summary>Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision. During pre-release training, the large language models (LLMs) helped its engineers &quot;complete otherwise-infeasible software migrations, designed three working electronic device</summary>
   </entry>
   <entry>
-    <title>langchain v1.7.7 released</title>
-    <link href="https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.7"/>
-    <id>https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.7</id>
-    <updated>2026-11-10T04:08:29.000Z</updated>
-    <author><name>langchain-ai/langchain</name></author>
+    <title>SAP patches ICM2SHELL and PROXYGATE maximum severity flaws</title>
+    <link href="https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities"/>
+    <id>https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities</id>
+    <updated>2026-11-10T12:07:03.000Z</updated>
+    <author><name>BleepingComputer</name></author>
     <category term="CYBER DEFENSE"/>
-    <summary>Changes since langchain-core==1.7.6 release(core): 1.7.7 ( #41776 ) fix(core): cap nesting depth in load() ( #41742 ) chore(deps): patch newer-python security lock resolutions ( #41585 )</summary>
+    <summary>SAP patched 35 vulnerabilities in its November 2026 security updates, including four maximum-severity issues affecting its NetWeaver, Web Dispatcher, and Gateway software. [...]</summary>
   </entry>
   <entry>
     <title>Introducing Our Smallest, Most Efficient Model: Muse Ember</title>
@@ -178,15 +178,6 @@
     <summary>Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat all day: tool calls, coding subtasks, ro</summary>
   </entry>
   <entry>
-    <title>&quot;Robotics Is No Longer an Elitist Sport&quot;: NVIDIA Unveils GR00T 2 and Open-Sources the Stack Behind It</title>
-    <link href="https://www.humanoidsdaily.com/news/nvidia-gr00t-2-world-action-model-corl-2026"/>
-    <id>https://www.humanoidsdaily.com/news/nvidia-gr00t-2-world-action-model-corl-2026</id>
-    <updated>2026-11-09T21:05:16.000Z</updated>
-    <author><name>Humanoids Daily</name></author>
-    <category term="ROBOTICS"/>
-    <summary>Jim Fan presented the 2B-parameter model at CoRL. NVIDIA reports 95% success from five demonstrations per task; weights open in December, with data, SimFoundry and hardware designs out now.</summary>
-  </entry>
-  <entry>
     <title>Quantinuum and RIKEN Expand Quantum Computing Partnership in Japan</title>
     <link href="https://thequantuminsider.com/2026/11/10/quantinuum-riken-quantum-computing-partnership-japan"/>
     <id>https://thequantuminsider.com/2026/11/10/quantinuum-riken-quantum-computing-partnership-japan</id>
@@ -194,6 +185,33 @@
     <author><name>The Quantum Insider</name></author>
     <category term="QUANTUM"/>
     <summary>Insider Brief PRESS RELEASE — Quantinuum (NASDAQ: QNT), a leading full-stack quantum computing company, and RIKEN, Japan’s leading national comprehensive research institute, today announced an expanded partnership to advance quantum-AI hybrid supercomputing in Japan. Following a significant upgrade to Quantinuum’s Reim — Also covered by: HPC Wire</summary>
+  </entry>
+  <entry>
+    <title>Filing: Anthropic's IPO could give it an up to $1.405T valuation on a fully diluted basis, up from the $965B valuation during its $65B Series H announced in May (Ashley Capoot/CNBC)</title>
+    <link href="https://www.techmeme.com/261110/p15"/>
+    <id>https://www.techmeme.com/261110/p15</id>
+    <updated>2026-11-10T12:07:31.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Ashley Capoot / CNBC : Filing: Anthropic's IPO could give it an up to $1.405T valuation on a fully diluted basis, up from the $965B valuation during its $65B Series H announced in May — Anthropic said it will offer 825 million shares in its upcoming IPO at a price range between $70 to $78 per share …</summary>
+  </entry>
+  <entry>
+    <title>ChatGPT’s Teen Mode could deprive teenagers of a fundamental need | Robin Kirman</title>
+    <link href="https://www.theguardian.com/commentisfree/2026/nov/10/chatgpt-teen-mode-cognitive-skills"/>
+    <id>https://www.theguardian.com/commentisfree/2026/nov/10/chatgpt-teen-mode-cognitive-skills</id>
+    <updated>2026-11-10T11:00:50.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>What young students stand to lose is more than cognitive skill: it’s a reliable sense of their own minds In August, OpenAI launched Teen Mode – a version of ChatGPT in which every user under 18 will automatically be enrolled – a year after a lawsuit alleged that ChatGPT had contributed to the suicide of a 16-year-old n</summary>
+  </entry>
+  <entry>
+    <title>Decision model to edit LLM weight directly - No training</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xski9d/decision_model_to_edit_llm_weight_directly_no"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xski9d/decision_model_to_edit_llm_weight_directly_no</id>
+    <updated>2026-11-10T11:27:44.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>On September 18, I launched Laya at you guys request, the first system 1 open-source decision model in this subreddit, and you guys gave immense support. I saw the MIT post on direct weight edits and thought about doing the same with a decision model. Now, after two months, I just worked on a way to edit the weights of</summary>
   </entry>
   <entry>
     <title>llama.cpp b12246 released</title>
@@ -205,31 +223,22 @@
     <summary>vulkan: cap scalar flash attention at 8 rows for large heads on Qualc…</summary>
   </entry>
   <entry>
-    <title>Local LLM vs. frontier agent on real work, not a benchmark: Qwen 3.8 Flash Next came a close second to Claude Opus 5.5</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1xsdy4c/local_llm_vs_frontier_agent_on_real_work_not_a"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1xsdy4c/local_llm_vs_frontier_agent_on_real_work_not_a</id>
-    <updated>2026-11-10T04:46:09.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Up front: this post was written with AI help, and I've read it through end to end. The work that matters was mine: designing the comparison, writing the brief, running all three agents on my real project, and checking their output against the code. If you want to judge something, judge the experiment and the data, whic</summary>
-  </entry>
-  <entry>
-    <title>US Gasoline Prices Drop Below $4 a Gallon After Months of Pain</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-10/us-gasoline-prices-drop-below-4-a-gallon-after-months-of-pain"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-10/us-gasoline-prices-drop-below-4-a-gallon-after-months-of-pain</id>
-    <updated>2026-11-10T08:39:50.000Z</updated>
+    <title>Banks Prep £1.8 Billion Debt Financing to Back TDR’s OCU Deal</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-10/banks-prep-1-8-billion-debt-financing-to-back-tdr-s-ocu-deal"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-10/banks-prep-1-8-billion-debt-financing-to-back-tdr-s-ocu-deal</id>
+    <updated>2026-11-10T10:49:39.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>US gasoline dropped below $4 a gallon for the first time since July, offering consumers some relief at the pump, although prices remain significantly elevated on a seasonal basis.</summary>
+    <summary>Banks have lined up £1.8 billion ($2.4 billion) of financing to back TDR Capital’s acquisition of energy and infrastructure services provider OCU Group and are preparing to launch a sale.</summary>
   </entry>
   <entry>
-    <title>SoftBank posts unexpected $7bn loss on data centre writedown</title>
-    <link href="https://www.ft.com/content/5ceed157-0016-4822-a272-8b607911da5e?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/5ceed157-0016-4822-a272-8b607911da5e?syn-25a6b1a6=1</id>
-    <updated>2026-11-10T08:33:19.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
+    <title>Blackstone to Buy 15.5% of IIFL Finance in $532 Million India Bet</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-10/blackstone-to-buy-15-5-of-iifl-finance-in-532-million-india-bet"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-10/blackstone-to-buy-15-5-of-iifl-finance-in-532-million-india-bet</id>
+    <updated>2026-11-10T11:07:10.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>AI-focused Japanese group blames first quarterly loss in nearly two years on ‘evolving requirements’ in US projects</summary>
+    <summary>Blackstone Inc. will acquire a 15.57% stake in mid-sized Indian shadow lender IIFL Finance Ltd. for about 50 billion rupees ($532 million), deepening its push into the country’s financial sector as global investors increasingly seek exposure to its fast-growing economy.</summary>
   </entry>
   <entry>
     <title>Don't Blame The Preferences: Examining The Emergence of Sycophancy in LLM Training</title>
@@ -241,13 +250,13 @@
     <summary>arXiv:2611.10045v1 Announce Type: new Abstract: AI sycophancy, the tendency of large language models (LLMs) to flatter users and affirm their beliefs, can undermine accuracy and contribute to misinformation, dependence, and overconfidence. Although prior work has benchmarked sycophancy in released models and proposed m</summary>
   </entry>
   <entry>
-    <title>Meta launches Muse Ember, a small AI model built for the repetitive work agents actually do</title>
-    <link href="https://the-decoder.com/meta-launches-muse-ember-a-small-ai-model-built-for-the-repetitive-work-agents-actually-do"/>
-    <id>https://the-decoder.com/meta-launches-muse-ember-a-small-ai-model-built-for-the-repetitive-work-agents-actually-do</id>
-    <updated>2026-11-09T19:41:51.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>Anthropic’s Outside Counsel Sent Banks Wrong Documents Before Launching IPO</title>
+    <link href="https://www.theinformation.com/briefings/anthropic-sent-banks-wrong-documents-launching-ipo"/>
+    <id>https://www.theinformation.com/briefings/anthropic-sent-banks-wrong-documents-launching-ipo</id>
+    <updated>2026-11-10T02:29:42.000Z</updated>
+    <author><name>The Information</name></author>
     <category term="PRODUCTS"/>
-    <summary>Meta is introducing Muse Ember, its smallest and most efficient AI model, optimized for repetitive agent tasks such as tool calls, routing, and data extraction. According to Meta, it delivers more intelligence per dollar than Claude Haiku 5.5 or GPT-6 Luna. But it falls short when it comes to actual programming tasks. </summary>
+    <summary>Anthropic’s outside counsel in Canada late Monday sent banks an updated prospectus for its initial public offering and then retracted it, saying some of the details are incorrect, according to people familiar with the matter. The counsel in Canada first sent a copy of a filing, earlier reported ...</summary>
   </entry>
   <entry>
     <title>Oklahoma State Expands Regional Research Computing with Cimarron Supercomputer</title>
@@ -266,14 +275,5 @@
     <author><name>The Decoder</name></author>
     <category term="OPEN SOURCE"/>
     <summary>Tencent chief AI scientist Vinces Yao Shunyu warns that AI will soon be able to develop bioweapons and argues for a middle ground between open and closed models. While safety filters on open-source systems can be easily stripped through abliteration, closed models like Anthropic's Claude often block too aggressively. F</summary>
-  </entry>
-  <entry>
-    <title>Honeypots for AI Agent Insider Threats</title>
-    <link href="https://www.lesswrong.com/posts/xWjdpJWRk4GWYKyCi/honeypots-for-ai-agent-insider-threats-1"/>
-    <id>https://www.lesswrong.com/posts/xWjdpJWRk4GWYKyCi/honeypots-for-ai-agent-insider-threats-1</id>
-    <updated>2026-11-10T09:40:27.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>TLDR: We propose a new AI control method: Honeypots - fake opportunities for malicious actions - placed inside and around an agent during production usage. Previous work uses honeypots in evaluations. We argue they should run continuously during deployment. Such honeypots could detect misbehavior, incriminate malicious</summary>
   </entry>
 </feed>
