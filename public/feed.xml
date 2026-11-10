@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-10T04:08:39.653Z</updated>
+  <updated>2026-11-10T08:08:40.481Z</updated>
   <entry>
     <title>ChatGPT Enterprise now available in AWS Marketplace</title>
     <link href="https://openai.com/index/chatgpt-enterprise-aws-marketplace"/>
@@ -25,22 +25,13 @@
     <summary>What's changed Added fast mode on Vertex in the global, us and eu regions, falling back to standard speed if Vertex refuses it — Also covered by: QwenLM/qwen-code</summary>
   </entry>
   <entry>
-    <title>Anthropic releases new Mythos and Fable models amid RSI concerns</title>
-    <link href="https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns"/>
-    <id>https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns</id>
-    <updated>2026-11-09T19:24:51.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Anthropic says the new models &quot;show improvements in areas like coding, reasoning, and vision,&quot; as well as in communicating more clearly with users. — Also covered by: The Verge AI</summary>
-  </entry>
-  <entry>
-    <title>Trump backs embattled Hegseth and Jensen Huang and says FBI looking into spy allegations – video</title>
-    <link href="https://www.theguardian.com/us-news/video/2026/nov/09/trump-hegseth-jensen-huang"/>
-    <id>https://www.theguardian.com/us-news/video/2026/nov/09/trump-hegseth-jensen-huang</id>
-    <updated>2026-11-10T01:40:32.000Z</updated>
-    <author><name>The Guardian AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Donald Trump defended defense secretary Pete Hegseth, who is facing an impeachment resolution from Republican senator Thomas Massie, saying Hegseth 'won two wars'. The president, who said he had spoken to Nvidia CEO Jensen Huang, said he was 'amazed' by claims Huang conducted an affair with an alleged Chinese spy, and  — Also covered by: FT Artificial Intelligence</summary>
+    <title>N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits</title>
+    <link href="https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html"/>
+    <id>https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html</id>
+    <updated>2026-11-10T06:44:36.000Z</updated>
+    <author><name>The Hacker News</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>N-able said it has taken N-central Hosted Environments offline and is urging on-premises customers to shut down their servers until further notice following the public disclosure of over 30 vulnerabilities collectively tracked as Able2Shell. &quot;As a precautionary measure, we are temporarily taking our Hosted N-central en — Also covered by: BleepingComputer</summary>
   </entry>
   <entry>
     <title>Control Room: A central system to track and stop model workloads across our research infrastructure</title>
@@ -70,13 +61,22 @@
     <summary>PALO ALTO, Calif., Nov. 9, 2026 — Quantum computing pioneer Diraq has installed the world’s first silicon spin quantum computer inside a commercial data center, now live at Equinix in Sydney, Australia. As quantum computing moves into the everyday infrastructure that businesses rely on, Diraq is also launching Quantum  — Also covered by: The Quantum Insider</summary>
   </entry>
   <entry>
-    <title>Q.ANT and IONOS Launch Photonic Computing Pilot</title>
-    <link href="https://www.hpcwire.com/off-the-wire/q-ant-and-ionos-launch-photonic-computing-pilot"/>
-    <id>https://www.hpcwire.com/off-the-wire/q-ant-and-ionos-launch-photonic-computing-pilot</id>
-    <updated>2026-11-09T19:03:55.000Z</updated>
-    <author><name>HPC Wire</name></author>
-    <category term="HARDWARE"/>
-    <summary>IONOS bare metal servers provide the foundation for companies, researchers, and developers to run AI models on Q.ANT’s photonic hardware. STUTTGART, Germany and KARLSRUHE, Germany, Nov. 9, 2026 — Q.ANT, a pioneer in commercial photonic computing, today announced the launch of a joint pilot program with IONOS, the leadi — Also covered by: The Quantum Insider</summary>
+    <title>b12245: llama : apply the iGPU lazy-mode fallback only when mmap is off (#31957)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12245"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12245</id>
+    <updated>2026-11-10T06:55:46.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>On a device without mmap support, --lazy-mode auto resolved to off even with --load-mode mmap, so llama_prefetch_rows never ran and the rows of the large tensors faulted in one page at a time. Resolve it to off only when mmap is off; the default iGPU load path is unchanged. Fixes #31943</summary>
+  </entry>
+  <entry>
+    <title>Mandatory AI safety and security protections announced after OpenAI breach of Medicare – video</title>
+    <link href="https://www.theguardian.com/australia-news/video/2026/nov/10/mandatory-ai-safety-and-security-protections-announced-after-openai-breach-of-medicare-video"/>
+    <id>https://www.theguardian.com/australia-news/video/2026/nov/10/mandatory-ai-safety-and-security-protections-announced-after-openai-breach-of-medicare-video</id>
+    <updated>2026-11-10T05:29:32.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Australia's prime minister said its government would set up a new AI safety regulator and Labor would consider six key obligations on AI companies. The review made 18 recommendations. Anthony Albanese said: 'We accept all of the recommendations, and we’ve commenced work to implement them.' Australia to introduce mandat</summary>
   </entry>
   <entry>
     <title>ollama v0.40.16 released</title>
@@ -84,8 +84,26 @@
     <id>https://github.com/ollama/ollama/releases/tag/v0.40.16</id>
     <updated>2026-11-09T23:45:36.000Z</updated>
     <author><name>ollama/ollama</name></author>
-    <category term="MODEL RELEASES"/>
+    <category term="LOCAL MODELS"/>
     <summary>Ripple Preview Ripple Preview from Ricursive Intelligence is a 65B dense model built for agentic coding. ollama run ripple-preview What's Changed Qwen3.8 Flash Next uses about 27 GiB less memory on Apple silicon ollama launch claude always routes Claude Code to the selected model ollama launch explains when a cloud mod</summary>
+  </entry>
+  <entry>
+    <title>New World’s Top Shareholder Seeks Bank Loan as Equity Deal Looms</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-10/new-world-s-top-shareholder-seeks-bank-loan-as-equity-deal-looms"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-10/new-world-s-top-shareholder-seeks-bank-loan-as-equity-deal-looms</id>
+    <updated>2026-11-10T07:03:46.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Chow Tai Fook Enterprises Ltd., an investment arm of Hong Kong’s billionaire Cheng family, is seeking about HK$5 billion ($637 million) in fresh funding from banks, according to people familiar with the matter.</summary>
+  </entry>
+  <entry>
+    <title>NormGym: Evaluating Normative Competence through Social Interaction</title>
+    <link href="https://arxiv.org/abs/2611.08613"/>
+    <id>https://arxiv.org/abs/2611.08613</id>
+    <updated>2026-11-10T05:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
+    <category term="RESEARCH"/>
+    <summary>arXiv:2611.08613v1 Announce Type: new Abstract: Normative competence, the ability to infer socially enforced expectations from interaction and adjust behavior accordingly, is essential for agents operating in unfamiliar human communities. Yet existing evaluations largely test whether agents can recognize or apply norms</summary>
   </entry>
   <entry>
     <title>Anthropic’s Outside Counsel Sent Banks Wrong Documents Before Launching IPO</title>
@@ -93,35 +111,8 @@
     <id>https://www.theinformation.com/briefings/anthropic-sent-banks-wrong-documents-launching-ipo</id>
     <updated>2026-11-10T02:29:42.000Z</updated>
     <author><name>The Information</name></author>
-    <category term="INDUSTRY NEWS"/>
+    <category term="PRODUCTS"/>
     <summary>Anthropic’s outside counsel in Canada late Monday sent banks an updated prospectus for its initial public offering and then retracted it, saying some of the details are incorrect, according to people familiar with the matter. The counsel in Canada first sent a copy of a filing, earlier reported ...</summary>
-  </entry>
-  <entry>
-    <title>Singapore Launches Gold Vaulting Service for Central Banks</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-10/singapore-launches-gold-vaulting-service-for-central-banks"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-10/singapore-launches-gold-vaulting-service-for-central-banks</id>
-    <updated>2026-11-10T03:00:10.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Singapore has launched a gold vaulting service for overseas central banks and official institutions, seeking to capitalize on global demand to diversify storage of bullion reserves.</summary>
-  </entry>
-  <entry>
-    <title>Exploring the world's languages with Language Explorer</title>
-    <link href="https://research.google/blog/exploring-the-worlds-languages-with-language-explorer"/>
-    <id>https://research.google/blog/exploring-the-worlds-languages-with-language-explorer</id>
-    <updated>2026-11-09T20:29:39.000Z</updated>
-    <author><name>Google Research Blog</name></author>
-    <category term="RESEARCH"/>
-    <summary>Natural Language Processing</summary>
-  </entry>
-  <entry>
-    <title>There Are Likely More Spies at AI Companies, Says Security Executive Lisa Thiergart</title>
-    <link href="https://www.theinformation.com/articles/likely-spies-ai-companies-says-security-executive-lisa-thiergart"/>
-    <id>https://www.theinformation.com/articles/likely-spies-ai-companies-says-security-executive-lisa-thiergart</id>
-    <updated>2026-11-10T03:20:10.000Z</updated>
-    <author><name>The Information</name></author>
-    <category term="HARDWARE"/>
-    <summary>Other countries likely haven’t yet stolen AI models from leading U.S. companies—but only for a lack of trying, said Lisa Thiergart, co-founder and CEO of Security Level 5, a startup that works with AI companies and the intelligence community to secure AI data centers. “If a nation state really wanted to steal the weigh</summary>
   </entry>
   <entry>
     <title>&quot;Robotics Is No Longer an Elitist Sport&quot;: NVIDIA Unveils GR00T 2 and Open-Sources the Stack Behind It</title>
@@ -133,49 +124,94 @@
     <summary>Jim Fan presented the 2B-parameter model at CoRL. NVIDIA reports 95% success from five demonstrations per task; weights open in December, with data, SimFoundry and hardware designs out now.</summary>
   </entry>
   <entry>
-    <title>Lightcone Commons: Round 1 complete, Round 2 underway</title>
-    <link href="https://www.lesswrong.com/posts/3ASLq8ePNqkbeGqdj/lightcone-commons-round-1-complete-round-2-underway"/>
-    <id>https://www.lesswrong.com/posts/3ASLq8ePNqkbeGqdj/lightcone-commons-round-1-complete-round-2-underway</id>
-    <updated>2026-11-10T01:43:15.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>Tl;dr: Lightcone Commons’ first funding round is complete! 17 evaluators made funding recommendations, including Zvi Mowshowitz, Scott Siskind and Eliezer Yudkowsky. 23 funders coordinated to grant $45.1M, and 147 projects received funding. Round two is open. Applications for round two close on November 15th and funder</summary>
-  </entry>
-  <entry>
-    <title>What Is Prompt Injection? Attacks, Examples and Defenses</title>
-    <link href="https://shiftdelete.net/en/what-is-prompt-injection"/>
-    <id>https://shiftdelete.net/en/what-is-prompt-injection</id>
-    <updated>2026-11-09T20:13:33.000Z</updated>
+    <title>Prompt adware: The hidden cyber threat to enterprise AI</title>
+    <link href="https://www.escudodigital.com/en/technology/artificial-intelligence/prompt-adware-the-hidden-cyber-threat-to-enterprise-ai.html"/>
+    <id>https://www.escudodigital.com/en/technology/artificial-intelligence/prompt-adware-the-hidden-cyber-threat-to-enterprise-ai.html</id>
+    <updated>2026-11-10T05:10:02.000Z</updated>
     <author><name>GN: Prompt Injection</name></author>
     <category term="AI SECURITY"/>
-    <summary>What Is Prompt Injection? Attacks, Examples and Defenses ShiftDelete.Net</summary>
+    <summary>Prompt adware: The hidden cyber threat to enterprise AI Escudo Digital</summary>
+  </entry>
+  <entry>
+    <title>Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026</title>
+    <link href="https://thehackernews.com/2026/11/google-issues-chrome-security-update.html"/>
+    <id>https://thehackernews.com/2026/11/google-issues-chrome-security-update.html</id>
+    <updated>2026-11-10T06:52:54.000Z</updated>
+    <author><name>The Hacker News</name></author>
+    <category term="CYBER DEFENSE"/>
+    <summary>Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: N/A), has been described as a use-after-free bug in the XML component. Use-after-free bug</summary>
+  </entry>
+  <entry>
+    <title>Introducing Our Smallest, Most Efficient Model: Muse Ember</title>
+    <link href="https://simonwillison.net/2026/Nov/10/muse-ember"/>
+    <id>https://simonwillison.net/2026/Nov/10/muse-ember</id>
+    <updated>2026-11-10T07:28:21.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="ANALYSIS"/>
+    <summary>Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat all day: tool calls, coding subtasks, ro</summary>
   </entry>
   <entry>
     <title>Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going rogue’</title>
     <link href="https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack"/>
     <id>https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack</id>
-    <updated>2026-11-10T02:31:08.000Z</updated>
+    <updated>2026-11-10T06:00:52.000Z</updated>
     <author><name>The Guardian AI</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>Government flags criminal law changes to ensure companies can’t argue in future ‘that someone didn’t know the computer was loaded’ OpenAI won’t face criminal penalties over the Medicare hack but the prime minister has flagged changes to Australia’s criminal law to crack down on future breaches by artificial intelligenc</summary>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Government flags criminal law changes to ensure companies can’t argue in future ‘that someone didn’t know the computer was loaded’ Get our daily political email , free app or daily news podcast OpenAI will not face criminal penalties over the Medicare data breach , but the prime minister has flagged changes to Australi</summary>
   </entry>
   <entry>
-    <title>langchain v1.7.7 released</title>
-    <link href="https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.7"/>
-    <id>https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.7</id>
-    <updated>2026-11-10T04:08:27.000Z</updated>
-    <author><name>langchain-ai/langchain</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>Changes since langchain-core==1.7.6 release(core): 1.7.7 ( #41776 ) fix(core): cap nesting depth in load() ( #41742 ) chore(deps): patch newer-python security lock resolutions ( #41585 )</summary>
+    <title>llama.cpp b12244 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12244"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12244</id>
+    <updated>2026-11-10T07:28:33.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>ci: update oneAPI 2026.2, oneDNN 2026.1 and Level Zero SDK 1.34.0 ( #31540 ) Co-authored-by: Neo Zhang zhang.jianyu@outlook.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65697404 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABL</summary>
   </entry>
   <entry>
-    <title>Locating the source of a mysterious beep with Claude</title>
-    <link href="https://simonwillison.net/2026/Nov/9/mysterious-beeps"/>
-    <id>https://simonwillison.net/2026/Nov/9/mysterious-beeps</id>
-    <updated>2026-11-09T23:57:21.000Z</updated>
-    <author><name>Simon Willison</name></author>
-    <category term="ANALYSIS"/>
-    <summary>Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping . The beeps were far enough apart that standing in the room and trying to determine the source of the noise was frustrating, and I really didn't want to </summary>
+    <title>Prediction: more enthusiasts will get custom quantisations build by opus and Asta for their hardware and precision needs</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xsg2cu/prediction_more_enthusiasts_will_get_custom"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xsg2cu/prediction_more_enthusiasts_will_get_custom</id>
+    <updated>2026-11-10T06:47:23.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Based on my own little experiment and other reports I predict that more and more enthusiasts will ask a frontier LLM to build a custom quant of their favourite model. If Qwen 4 finally arrives I’ll try a ready made quant at first, probably unsloth. But I already plan to let opus build a quant specifically for my hardwa</summary>
+  </entry>
+  <entry>
+    <title>Falling Oil and Gas Prices Give Gilt Traders Some Relief</title>
+    <link href="https://www.bloomberg.com/news/newsletters/2026-11-10/falling-oil-and-gas-prices-give-gilt-traders-some-relief"/>
+    <id>https://www.bloomberg.com/news/newsletters/2026-11-10/falling-oil-and-gas-prices-give-gilt-traders-some-relief</id>
+    <updated>2026-11-10T07:48:22.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Plus, retail sales point to consumer caution</summary>
+  </entry>
+  <entry>
+    <title>BOE's Bailey Backs UK Trade Opportunities, Including With EU</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-11-10/bailey-backs-trade-opportunities-including-with-eu-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-11-10/bailey-backs-trade-opportunities-including-with-eu-video</id>
+    <updated>2026-11-10T07:44:52.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Bank of England Governor Andrew Bailey, speaking at an event in Zurich Monday, encouraged the UK to pursue any opportunity for greater trade and market access. &quot;If there are opportunities to increase the openness and the markets that we serve, wherever they are, whether it’s the European Union, Switzerland, or anywhere</summary>
+  </entry>
+  <entry>
+    <title>Enhancing Academic Advisement with Case-Based Reasoning</title>
+    <link href="https://arxiv.org/abs/2611.08572"/>
+    <id>https://arxiv.org/abs/2611.08572</id>
+    <updated>2026-11-10T05:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
+    <category term="RESEARCH"/>
+    <summary>arXiv:2611.08572v1 Announce Type: new Abstract: This research involved the study of an application of Case-Based Reasoning (CBR) in the field of academic advising. Academic advisement has been recognised as an important function of higher education. However, there is a widespread desire to improve the advisement servic</summary>
+  </entry>
+  <entry>
+    <title>LLM-Based Feature Extraction for Multi-Criteria Inventory Classification</title>
+    <link href="https://arxiv.org/abs/2611.08626"/>
+    <id>https://arxiv.org/abs/2611.08626</id>
+    <updated>2026-11-10T05:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
+    <category term="RESEARCH"/>
+    <summary>arXiv:2611.08626v1 Announce Type: new Abstract: E-commerce supply chains generate large volumes of customer feedback and operational data that remain underutilized in inventory management. Traditional inventory classification techniques such as ABC analysis rely primarily on annual dollar usage, while multi-criteria in</summary>
   </entry>
   <entry>
     <title>Meta launches Muse Ember, a small AI model built for the repetitive work agents actually do</title>
@@ -183,89 +219,26 @@
     <id>https://the-decoder.com/meta-launches-muse-ember-a-small-ai-model-built-for-the-repetitive-work-agents-actually-do</id>
     <updated>2026-11-09T19:41:51.000Z</updated>
     <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
+    <category term="PRODUCTS"/>
     <summary>Meta is introducing Muse Ember, its smallest and most efficient AI model, optimized for repetitive agent tasks such as tool calls, routing, and data extraction. According to Meta, it delivers more intelligence per dollar than Claude Haiku 5.5 or GPT-6 Luna. But it falls short when it comes to actual programming tasks. </summary>
   </entry>
   <entry>
-    <title>California voters reject Proposition 40, which would have imposed a one-time 5% tax on residents with a net worth above $1B to mostly help fund health care (Associated Press)</title>
-    <link href="https://www.techmeme.com/261109/p50"/>
-    <id>https://www.techmeme.com/261109/p50</id>
-    <updated>2026-11-10T04:00:50.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Associated Press : California voters reject Proposition 40, which would have imposed a one-time 5% tax on residents with a net worth above $1B to mostly help fund health care — California voters have rejected a first-in-the-nation tax on the net worth of billionaires following a contentious ballot fight …</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp b12242 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12242"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12242</id>
-    <updated>2026-11-10T02:04:48.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>chat : don't use lazy grammar when response_format is set with tools ( #31956 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65619172 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubun</summary>
-  </entry>
-  <entry>
-    <title>Qwen3.8-Flash-Next: Have you tried swapping the ngrams as per their latest version?</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xsbmbx/qwen38flashnext_have_you_tried_swapping_the"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xsbmbx/qwen38flashnext_have_you_tried_swapping_the</id>
-    <updated>2026-11-10T02:46:55.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Edit: Using unsloth UD-Q4_K_XL and q8_0 engrams Just curious to know what benefit it brings. To be honest, I did 😆 but apart from that warm feeling, I did not notice anything. I would like to know if someone did and did notice some benefits. My rig is AMD Strix Halo 128 GB + Windows 11 + gufo v0.33.0. Cheers! submitte</summary>
-  </entry>
-  <entry>
-    <title>Hegseth Hits Out at Critics as Massie Pushes Impeachment</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-11-10/hegseth-hits-out-at-critics-as-massie-pushes-impeachment-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-11-10/hegseth-hits-out-at-critics-as-massie-pushes-impeachment-video</id>
-    <updated>2026-11-10T02:49:21.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>President Donald Trump and Secretary of State Marco Rubio defended Defense Secretary Pete Hegseth after Republican representative Thomas Massie introduced articles of impeachment over military operations in Iran. Hegseth has rejected calls to step down, characterizing the effort as politically motivated. (Source: Bloom</summary>
-  </entry>
-  <entry>
-    <title>China Oil Imports Rebound as More Crude Flows From Persian Gulf</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-10/china-oil-imports-rebound-as-more-crude-flows-from-persian-gulf"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-10/china-oil-imports-rebound-as-more-crude-flows-from-persian-gulf</id>
-    <updated>2026-11-10T03:42:53.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Chinese crude oil imports rose to a seven-month high in October on a recovery in shipments from the Persian Gulf.</summary>
-  </entry>
-  <entry>
-    <title>FOVI-Dex: Foveation enables efficient perceptive learning of dexterous manipulation in simulation</title>
-    <link href="https://research.nvidia.com/publication/2026-11_fovi-dex-foveation-enables-efficient-perceptive-learning-dexterous-manipulation"/>
-    <id>https://research.nvidia.com/publication/2026-11_fovi-dex-foveation-enables-efficient-perceptive-learning-dexterous-manipulation</id>
-    <updated>2026-11-10T03:17:38.000Z</updated>
-    <author><name>NVIDIA Research</name></author>
-    <category term="RESEARCH"/>
-    <summary>FOVI-Dex: Foveation enables efficient perceptive learning of dexterous manipulation in simulation Advanced physics simulators and rendering engines promise to support the next-generation of robotic reinforcement learning (RL), yet training perceptive policies remains challenging due to the high-costs of rendering and p</summary>
-  </entry>
-  <entry>
-    <title>NormGym: Evaluating Normative Competence through Social Interaction</title>
-    <link href="https://arxiv.org/abs/2611.08613"/>
-    <id>https://arxiv.org/abs/2611.08613</id>
-    <updated>2026-11-09T05:00:00.000Z</updated>
+    <title>IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection</title>
+    <link href="https://arxiv.org/abs/2611.08647"/>
+    <id>https://arxiv.org/abs/2611.08647</id>
+    <updated>2026-11-10T05:00:00.000Z</updated>
     <author><name>arXiv cs.AI</name></author>
-    <category term="RESEARCH"/>
-    <summary>arXiv:2611.08613v1 Announce Type: new Abstract: Normative competence, the ability to infer socially enforced expectations from interaction and adjust behavior accordingly, is essential for agents operating in unfamiliar human communities. Yet existing evaluations largely test whether agents can recognize or apply norms</summary>
-  </entry>
-  <entry>
-    <title>Emails: Anthropic sent bankers a copy of its IPO filing showing plans to raise up to ~$69B, then followed up saying the pricing details were inaccurate (Echo Wang/Reuters)</title>
-    <link href="https://www.techmeme.com/261109/p48"/>
-    <id>https://www.techmeme.com/261109/p48</id>
-    <updated>2026-11-10T01:41:39.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Echo Wang / Reuters : Emails: Anthropic sent bankers a copy of its IPO filing showing plans to raise up to ~$69B, then followed up saying the pricing details were inaccurate — Anthropic sent out and then retracted details of its blockbuster IPO filing, according to emails to bankers seen by Reuters late on Monday.</summary>
-  </entry>
-  <entry>
-    <title>Copper Extends Rebound as Global Technology Stocks Resume Rally</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-10/copper-extends-rebound-as-global-technology-stocks-resume-rally"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-10/copper-extends-rebound-as-global-technology-stocks-resume-rally</id>
-    <updated>2026-11-10T03:04:14.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
     <category term="HARDWARE"/>
-    <summary>Copper extended its rebound from last week’s slump, tracking a rally in technology shares due to the metal’s use in power infrastructure and data centers.</summary>
+    <summary>arXiv:2611.08647v1 Announce Type: new Abstract: Intra-weight injection lets one model change another model's behaviour by editing its weights directly, without gradients. Such edits can range from altering lexical associations to enforcing output formats or updating factual knowledge. Despite growing interest in these </summary>
+  </entry>
+  <entry>
+    <title>SoftBank Logs $7 Billion Loss After US Data Center Costs Swell</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-10/softbank-group-earnings-loss-after-ai-worries-hit-tech-stocks-masayoshi-son"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-10/softbank-group-earnings-loss-after-ai-worries-hit-tech-stocks-masayoshi-son</id>
+    <updated>2026-11-10T06:35:51.000Z</updated>
+    <author><name>Bloomberg Tech</name></author>
+    <category term="HARDWARE"/>
+    <summary>SoftBank Group Corp. reported its first net loss in almost two years after swallowing a $3.7 billion writedown over a US data-center project amid rising fears around the sustainability of AI growth.</summary>
   </entry>
   <entry>
     <title>Tencent's AI chief says AI bioweapons are coming, but closing off models isn't the answer</title>
@@ -275,5 +248,32 @@
     <author><name>The Decoder</name></author>
     <category term="OPEN SOURCE"/>
     <summary>Tencent chief AI scientist Vinces Yao Shunyu warns that AI will soon be able to develop bioweapons and argues for a middle ground between open and closed models. While safety filters on open-source systems can be easily stripped through abliteration, closed models like Anthropic's Claude often block too aggressively. F</summary>
+  </entry>
+  <entry>
+    <title>0sec Labs Open-Sources 0, an AI Security Harness With Web UI, CLI and MCP</title>
+    <link href="https://www.marktechpost.com/2026/11/08/0sec-labs-open-sources-0-ai-security-harness"/>
+    <id>https://www.marktechpost.com/2026/11/08/0sec-labs-open-sources-0-ai-security-harness</id>
+    <updated>2026-11-09T07:55:18.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>0sec Labs has open-sourced 0, an AI security harness for code review, pentesting, reverse engineering and fixes. It runs locally through a browser console, a headless CLI and an MCP server, with your own model provider. The post 0sec Labs Open-Sources 0, an AI Security Harness With Web UI, CLI and MCP appeared first on</summary>
+  </entry>
+  <entry>
+    <title>Australia is drafting legislation for an AI safety regulator empowered to impose &quot;significant penalties&quot; after an OpenAI model hacked a government site in Sept. (James Mayger/Bloomberg)</title>
+    <link href="https://www.techmeme.com/261109/p53"/>
+    <id>https://www.techmeme.com/261109/p53</id>
+    <updated>2026-11-10T04:40:00.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>James Mayger / Bloomberg : Australia is drafting legislation for an AI safety regulator empowered to impose “significant penalties” after an OpenAI model hacked a government site in Sept. — Australia will create a new artificial-intelligence safety regulator that will have the power to impose …</summary>
+  </entry>
+  <entry>
+    <title>Jensen Huang should resign</title>
+    <link href="https://www.transformernews.ai/p/jensen-huang-should-resign-nvidia-affair-megaspeed"/>
+    <id>https://www.transformernews.ai/p/jensen-huang-should-resign-nvidia-affair-megaspeed</id>
+    <updated>2026-11-09T18:59:21.000Z</updated>
+    <author><name>Transformer</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>Nvidia’s CEO appears to have misled investors about his affair. His position is now untenable</summary>
   </entry>
 </feed>
