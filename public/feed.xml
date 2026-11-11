@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-11T04:08:40.428Z</updated>
+  <updated>2026-11-11T06:39:12.665Z</updated>
   <entry>
     <title>Gemini 4 Carbon is now available</title>
     <link href="https://deepmind.google/blog/gemini-4-carbon-is-now-available"/>
@@ -52,24 +52,6 @@
     <summary>New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.</summary>
   </entry>
   <entry>
-    <title>ComfyUI v0.45.2 released</title>
-    <link href="https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.2"/>
-    <id>https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.2</id>
-    <updated>2026-11-11T02:25:54.000Z</updated>
-    <author><name>comfyanonymous/ComfyUI</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>ComfyUI v0.45.2 — Also covered by: r/LocalLLM</summary>
-  </entry>
-  <entry>
-    <title>Delaying Internal Deployments Until After X Days of Safety Testing</title>
-    <link href="https://www.lesswrong.com/posts/XNLhpWgzhF8GYZ4Er/delaying-internal-deployments-until-after-x-days-of-safety"/>
-    <id>https://www.lesswrong.com/posts/XNLhpWgzhF8GYZ4Er/delaying-internal-deployments-until-after-x-days-of-safety</id>
-    <updated>2026-11-11T00:18:16.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>This post reflects my own takes, and not that of my employer's. This is a simple idea: before a new model can be deployed internally, you must first test it for a minimum, fixed period. You can adjust various axes of this proposal: Duration of the wait: in calendar time, or until you fulfill some condition. What it blo — Also covered by: AI Alignment Forum</summary>
-  </entry>
-  <entry>
     <title>PSI is trying to make a business out of AI-driven scientific discovery</title>
     <link href="https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery"/>
     <id>https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery</id>
@@ -77,6 +59,15 @@
     <author><name>TechCrunch Startups</name></author>
     <category term="FUNDING &amp; DEALS"/>
     <summary>PSI used an unreleased Anthropic model to answer a fundamental question about quantum computing that scientists have pursued for nearly two decades.</summary>
+  </entry>
+  <entry>
+    <title>The AI Safety Debate Has Lost the Plot. We Asked 10 Experts What the Real Nightmares Are</title>
+    <link href="https://ainowinstitute.org/news/the-ai-safety-debate-has-lost-the-plot-we-asked-10-experts-what-the-real-nightmares-are"/>
+    <id>https://ainowinstitute.org/news/the-ai-safety-debate-has-lost-the-plot-we-asked-10-experts-what-the-real-nightmares-are</id>
+    <updated>2026-11-10T20:51:35.000Z</updated>
+    <author><name>AI Now Institute</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>AI Now's Chief AI Scientist Heidy Khlaaf distinguishes between real concerns around AI safety and unsubstantiated extinction claims, while pointing to the existing field of risk assessment with its rigorous standards, techniques, and methods. The post The AI Safety Debate Has Lost the Plot. We Asked 10 Experts What the — Also covered by: Wired AI</summary>
   </entry>
   <entry>
     <title>Introducing AlphaProof Code: a breakthrough in verifying complex software at depth</title>
@@ -88,13 +79,40 @@
     <summary>AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.</summary>
   </entry>
   <entry>
-    <title>Nvidia Board Hires Wachtell for Independent Investigation of CEO Relationship</title>
-    <link href="https://www.theinformation.com/briefings/nvidia-board-hires-wachtell-independent-investigation-ceo-relationship"/>
-    <id>https://www.theinformation.com/briefings/nvidia-board-hires-wachtell-independent-investigation-ceo-relationship</id>
-    <updated>2026-11-10T19:35:19.000Z</updated>
-    <author><name>The Information</name></author>
+    <title>From the archive: Weizenbaum’s nightmares: how the inventor of the first chatbot turned against AI – podcast</title>
+    <link href="https://www.theguardian.com/news/audio/2026/nov/11/from-the-archive-weizenbaums-nightmares-how-the-inventor-of-the-first-chatbot-turned-against-ai-podcast"/>
+    <id>https://www.theguardian.com/news/audio/2026/nov/11/from-the-archive-weizenbaums-nightmares-how-the-inventor-of-the-first-chatbot-turned-against-ai-podcast</id>
+    <updated>2026-11-11T05:00:31.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>The Nvidia board on Tuesday announced that it had hired the law firm Wachtell, Lipton, Rosen &amp; Katz to conduct its independent investigation into the conduct of CEO Jensen Huang. The board first announced on Sunday that it would be initiating an investigation after reporting that Huang had ...</summary>
+    <summary>We are raiding the Guardian long read archives to bring you some classic pieces from years past, with new introductions from the authors This week, from 2023: Computer scientist Joseph Weizenbaum was there at the dawn of artificial intelligence – but he was also adamant that we must never confuse computers with humans </summary>
+  </entry>
+  <entry>
+    <title>llama.cpp b12283 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12283"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12283</id>
+    <updated>2026-11-11T06:21:55.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>sycl : fixed sycl CLAMP to actually support strided view ( #31784 ) Modify ggml_sycl_op_clamp to use the unary helper function ggml_sycl_detail::ggml_sycl_op_unary to handle non-contigous or strided views. The fix uses a pattern that matches other stride-safe unary ops, and is a simpler execution path. Deleted dead tem</summary>
+  </entry>
+  <entry>
+    <title>Dubai’s DIP Rises as Much as 6% in UAE’s First IPO Since War</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-11/dubai-s-dip-rises-as-much-as-6-after-uae-s-first-post-war-ipo"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-11/dubai-s-dip-rises-as-much-as-6-after-uae-s-first-post-war-ipo</id>
+    <updated>2026-11-11T06:08:28.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Dubai’s DIP Holding Plc shares rose after the company’s $529 million initial public offering, an indicator of investor appetite for the first listing from the United Arab Emirates this year.</summary>
+  </entry>
+  <entry>
+    <title>Graph Visualizations in Prompts for Knowledge Graph Question Answering</title>
+    <link href="https://arxiv.org/abs/2611.12938"/>
+    <id>https://arxiv.org/abs/2611.12938</id>
+    <updated>2026-11-11T05:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
+    <category term="RESEARCH"/>
+    <summary>arXiv:2611.12938v1 Announce Type: new Abstract: We study when and how multimodal input improves knowledge graph question answering (KGQA) in large vision--language models. Using a controlled evaluation over 1,500 WebQSP and CWQ questions and six VLMs within a fixed KGQA pipeline, we compare text-only prompting against </summary>
   </entry>
   <entry>
     <title>ollama v0.40.17 released</title>
@@ -102,26 +120,8 @@
     <id>https://github.com/ollama/ollama/releases/tag/v0.40.17-rc0</id>
     <updated>2026-11-10T22:25:00.000Z</updated>
     <author><name>ollama/ollama</name></author>
-    <category term="LOCAL MODELS"/>
+    <category term="HARDWARE"/>
     <summary>What's Changed Improve ChatGPT CLI restore and graceful restart by @hoyyeva in #19583 cmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in #19409 llm: use mmap for Vulkan integrated GPUs by @dhiltgen in #19640 rpreslar4765/Ollama by @rpreslar4765 in #17163 mlx: support concurrent generation by @dhiltg</summary>
-  </entry>
-  <entry>
-    <title>Korea Fines Bond Dealers Record $1.2 Billion Over Collusion</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-11/korea-fines-bond-dealers-record-1-2-billion-over-collusion"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-11/korea-fines-bond-dealers-record-1-2-billion-over-collusion</id>
-    <updated>2026-11-11T03:00:00.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>South Korea’s antitrust regulator imposed a record 1.63 trillion won ($1.2 billion) fine on more than a dozen domestic banks and brokerages for colluding in government bond auctions over more than three years, following a yearlong investigation.</summary>
-  </entry>
-  <entry>
-    <title>Gemini 4 Carbon arrives just in time to feel like yesterday's news in the fastest model cycle yet</title>
-    <link href="https://the-decoder.com/gemini-4-carbon-arrives-just-in-time-to-feel-like-yesterdays-news-in-the-fastest-model-cycle-yet"/>
-    <id>https://the-decoder.com/gemini-4-carbon-arrives-just-in-time-to-feel-like-yesterdays-news-in-the-fastest-model-cycle-yet</id>
-    <updated>2026-11-10T18:19:13.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="RESEARCH"/>
-    <summary>Google is making Gemini 4 Carbon generally available after a two-week testing phase. The model ranks first in several benchmarks, in some cases ahead of Anthropic's new Fable 5.2, at less than half the per-task cost. Google is also previewing coordinated agent teams through the &quot;/swarm&quot; feature, which split up complex </summary>
   </entry>
   <entry>
     <title>ExecuTorch WebGPU: PyTorch Models on the GPU, in the Browser</title>
@@ -133,13 +133,13 @@
     <summary>TL;DR PyTorch models now run in the web browser on the GPU through ExecuTorch, with no conversion to another framework’s format. You export with torch.export to an ExecuTorch .pte file,... The post ExecuTorch WebGPU: PyTorch Models on the GPU, in the Browser appeared first on PyTorch .</summary>
   </entry>
   <entry>
-    <title>Characterizing secondary structure representation in ESM-2</title>
-    <link href="https://www.lesswrong.com/posts/BoBYFAbo9j8hJyKyn/characterizing-secondary-structure-representation-in-esm-2"/>
-    <id>https://www.lesswrong.com/posts/BoBYFAbo9j8hJyKyn/characterizing-secondary-structure-representation-in-esm-2</id>
-    <updated>2026-11-11T00:51:03.000Z</updated>
-    <author><name>LessWrong</name></author>
+    <title>Delaying Internal Deployments Until After X Days of Safety Testing</title>
+    <link href="https://www.alignmentforum.org/posts/XNLhpWgzhF8GYZ4Er/delaying-internal-deployments-until-after-x-days-of-safety"/>
+    <id>https://www.alignmentforum.org/posts/XNLhpWgzhF8GYZ4Er/delaying-internal-deployments-until-after-x-days-of-safety</id>
+    <updated>2026-11-11T00:18:16.000Z</updated>
+    <author><name>AI Alignment Forum</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Methods note: The code used for the experiments and related open-source repo were built with Claude. The experimental design and writeup is my own, with minimal editing and formatting amendments made with Claude Introduction This is a research report inspired by a single question: in a model engineered to answer a simp</summary>
+    <summary>This post reflects my own takes, and not that of my employer's. This is a simple idea: before a new model can be deployed internally, you must first test it for a minimum, fixed period. You can adjust various axes of this proposal: Duration of the wait: in calendar time, or until you fulfill some condition. What it blo</summary>
   </entry>
   <entry>
     <title>DeepMind reveals Gemini Robotics 2.5 and open safety benchmark &quot;ASIMOV-jailbreak&quot;</title>
@@ -151,31 +151,22 @@
     <summary>The new model is up to twice as successful at some tasks.</summary>
   </entry>
   <entry>
-    <title>SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users</title>
-    <link href="https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html"/>
-    <id>https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html</id>
-    <updated>2026-11-10T19:19:39.000Z</updated>
+    <title>Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches</title>
+    <link href="https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html"/>
+    <id>https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html</id>
+    <updated>2026-11-11T06:04:02.000Z</updated>
     <author><name>The Hacker News</name></author>
     <category term="CYBER THREATS"/>
-    <summary>An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday. The attacker could also have seen requests being processed on that server that day, including requests sent in confidential mode, the company said earlier this w</summary>
+    <summary>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Details of the vulnerabilities are below - CVE-2026-20</summary>
   </entry>
   <entry>
-    <title>Microsoft Patch Tuesday for November 2026 — Snort rules and prominent vulnerabilities</title>
-    <link href="https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026"/>
-    <id>https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026</id>
-    <updated>2026-11-11T01:41:17.000Z</updated>
-    <author><name>Talos Intelligence</name></author>
+    <title>LandslideFM: A Foundation Model Towards Unified Landslide Perception and Understanding</title>
+    <link href="https://arxiv.org/abs/2611.12936"/>
+    <id>https://arxiv.org/abs/2611.12936</id>
+    <updated>2026-11-11T05:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
     <category term="CYBER DEFENSE"/>
-    <summary>Microsoft has released its monthly security update for November 2026, which includes 1328 vulnerabilities affecting a range of products, including 60 that Microsoft marked as &quot;critical.&quot; Out of 60 &quot;critical&quot; vulnerabilities, 45 are remote code execution (RCE) vulnerabilities.</summary>
-  </entry>
-  <entry>
-    <title>Sources: Anthropic's bankers are weighing plans to raise its IPO price following heavy demand, which could increase the valuation target to $1.5T or more (Financial Times)</title>
-    <link href="https://www.techmeme.com/261110/p60"/>
-    <id>https://www.techmeme.com/261110/p60</id>
-    <updated>2026-11-11T00:45:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>Financial Times : Sources: Anthropic's bankers are weighing plans to raise its IPO price following heavy demand, which could increase the valuation target to $1.5T or more — Claude maker's listing price expected to rise after strong demand from investors — Anthropic's bankers are weighing plans to increase …</summary>
+    <summary>arXiv:2611.12936v1 Announce Type: new Abstract: Intelligent landslide detection is essential for disaster prevention. However, existing models primarily focus on isolated visual tasks, require extensive labeled data, and lack deep analytical and scene-understanding capabilities. To address these limitations, we propose</summary>
   </entry>
   <entry>
     <title>llm-gemini 0.36</title>
@@ -196,84 +187,92 @@
     <summary>Vision AI and robotics pick what’s worth recovering out of conveyor belts of used clothing, bottles and mixed recyclables, diverting thousands of tons of materials from landfills.</summary>
   </entry>
   <entry>
-    <title>Dana’s talk on OpenAI’s proof of the Unique Games Conjecture, now on YouTube!</title>
-    <link href="https://scottaaronson.blog/?p=10318"/>
-    <id>https://scottaaronson.blog/?p=10318</id>
-    <updated>2026-11-10T20:27:28.000Z</updated>
-    <author><name>Shtetl-Optimized (Aaronson)</name></author>
+    <title>Sparxity Closes Series A, Bringing Total Funding to $90M</title>
+    <link href="https://www.hpcwire.com/off-the-wire/sparxity-closes-series-a-bringing-total-funding-to-90m"/>
+    <id>https://www.hpcwire.com/off-the-wire/sparxity-closes-series-a-bringing-total-funding-to-90m</id>
+    <updated>2026-11-11T05:40:02.000Z</updated>
+    <author><name>HPC Wire</name></author>
     <category term="QUANTUM"/>
-    <summary>Enjoy all three hours of this! Dana covers what the Unique Games problem is, the structure of a proof of its NP-hardness, exactly where the previous attempts to complete the proof (based on the Long Code and the Hadamard Code) got stuck, what new tree-based code the AI discovered, and how the new code gets […]</summary>
+    <summary>DRESDEN, Germany, Nov. 10, 2026 — Sparxity, a leader in sparse-native computing, today announced the close of its Series A, bringing cumulative funding secured by its team to $90 million. The round was led by ICM HPQC Fund and joined by investors such as Lockheed Martin Ventures, GlobalFoundries, GS Futures, Cloudberry</summary>
   </entry>
   <entry>
-    <title>Anthropic opens its Australian retail IPO, giving individual investors access to Class A shares ahead of the company's planned Nasdaq listing (Jenny Lee/CNBC)</title>
-    <link href="https://www.techmeme.com/261110/p63"/>
-    <id>https://www.techmeme.com/261110/p63</id>
-    <updated>2026-11-11T02:30:01.000Z</updated>
+    <title>A profile of Alice Huang, an alleged Chinese spy who founded Megaspeed with her business partner Kang Wei, who sources say was often introduced as her husband (New York Times)</title>
+    <link href="https://www.techmeme.com/261111/p5"/>
+    <id>https://www.techmeme.com/261111/p5</id>
+    <updated>2026-11-11T06:20:15.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Jenny Lee / CNBC : Anthropic opens its Australian retail IPO, giving individual investors access to Class A shares ahead of the company's planned Nasdaq listing — Anthropic, the maker of AI chatbot Claude, opened its Australian retail initial public offering on Wednesday, giving individual investors access …</summary>
+    <summary>New York Times : A profile of Alice Huang, an alleged Chinese spy who founded Megaspeed with her business partner Kang Wei, who sources say was often introduced as her husband — Alice Huang, who U.S. intelligence determined is a Chinese asset, emerged from the high-flying world of Shanghai finance to work …</summary>
   </entry>
   <entry>
-    <title>llama.cpp b12282 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12282"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12282</id>
-    <updated>2026-11-11T03:35:11.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>Australians are not streaming Australian music. Why the hell not?! | First Dog on the Moon</title>
+    <link href="https://www.theguardian.com/commentisfree/picture/2026/nov/11/australians-are-not-streaming-australian-music-why-the-hell-not"/>
+    <id>https://www.theguardian.com/commentisfree/picture/2026/nov/11/australians-are-not-streaming-australian-music-why-the-hell-not</id>
+    <updated>2026-11-11T05:34:40.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Is it because a) live music is just too hard (expensive) to do and b) AI streaming algorithms are eating our brains? Probably Sign up here to get an email whenever First Dog cartoons are published Get all your needs met at the First Dog shop if what you need is First Dog merchandise and prints Continue reading...</summary>
+  </entry>
+  <entry>
+    <title>I built a zero-dependency streaming Markdown renderer for AI chat replies, n× faster than the next one I benchmarked</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xt3hjd/i_built_a_zerodependency_streaming_markdown"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xt3hjd/i_built_a_zerodependency_streaming_markdown</id>
+    <updated>2026-11-11T00:27:43.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>chat : fix Muse Spark ignoring response_format json_schema ( #32017 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66115272 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CP</summary>
+    <summary>I've been building chat UIs for agents and kept running into the same issues with react-markdown: it re-parses the whole reply on every token, so long answers get noticeably slower, and you see raw ** and half-typed [links](htt until the token that closes them arrives. So I wrote my own renderer. It parses incrementall</summary>
   </entry>
   <entry>
-    <title>qwen-code v1.0.0-preview released</title>
-    <link href="https://github.com/QwenLM/qwen-code/releases/tag/v1.0.0-preview"/>
-    <id>https://github.com/QwenLM/qwen-code/releases/tag/v1.0.0-preview</id>
-    <updated>2026-11-11T03:55:44.000Z</updated>
-    <author><name>QwenLM/qwen-code</name></author>
+    <title>EarthRecord: From Pixels to Land Change with Multimodal Agents over Four Decades of Satellite Imagery</title>
+    <link href="https://arxiv.org/abs/2611.12934"/>
+    <id>https://arxiv.org/abs/2611.12934</id>
+    <updated>2026-11-11T05:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Qwen Code 1.0 Preview is now available. Some interfaces, configuration options, and behaviors may change during Preview. Highlights Brings together the agent capabilities of Qoder and Qwen Code for code understanding, implementation, debugging, and testing. Supports Qwen and Qoder accounts, multiple model providers, an</summary>
+    <summary>arXiv:2611.12934v1 Announce Type: new Abstract: While multimodal agents now carry out complex data analysis with tools, their ability to turn decades of satellite imagery into reliable land-change analysis, crucial for Earth observation science, remains unmeasured. Existing benchmarks fall short: they pose questions on</summary>
   </entry>
   <entry>
-    <title>Anthropic bankers prepare to increase IPO valuation to $1.5tn or more</title>
-    <link href="https://www.ft.com/content/68bcba57-0575-44ee-80f4-2e5ea23a431e?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/68bcba57-0575-44ee-80f4-2e5ea23a431e?syn-25a6b1a6=1</id>
-    <updated>2026-11-11T00:27:38.000Z</updated>
+    <title>BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model</title>
+    <link href="https://huggingface.co/blog/qvac/botpsy"/>
+    <id>https://huggingface.co/blog/qvac/botpsy</id>
+    <updated>2026-11-11T05:01:16.000Z</updated>
+    <author><name>Hugging Face Blog</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+  </entry>
+  <entry>
+    <title>Anthropic IPO valuation calculator: How much is it really worth?</title>
+    <link href="https://www.ft.com/content/8281fcde-bcf7-4145-b785-bc0d12616c27?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/8281fcde-bcf7-4145-b785-bc0d12616c27?syn-25a6b1a6=1</id>
+    <updated>2026-11-11T05:00:12.000Z</updated>
     <author><name>FT Artificial Intelligence</name></author>
     <category term="AI FINANCE"/>
-    <summary>Claude maker’s listing price expected to rise after strong demand from investors</summary>
+    <summary>As the Claude maker prepares to make its Wall Street debut, the FT’s interactive valuation calculator can help readers decide whether the AI giant is worth $500bn or $4tn</summary>
   </entry>
   <entry>
-    <title>Hedge Fund Risk Retreat Largest in a Decade, Morgan Stanley Says</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-11/hedge-fund-risk-retreat-largest-in-a-decade-says-morgan-stanley"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-11/hedge-fund-risk-retreat-largest-in-a-decade-says-morgan-stanley</id>
-    <updated>2026-11-11T02:17:50.000Z</updated>
+    <title>Luxury Watch Platform Subdial Raises $20 Million for Its US Push</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-11/luxury-watch-platform-subdial-raises-20-million-for-its-us-push"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-11/luxury-watch-platform-subdial-raises-20-million-for-its-us-push</id>
+    <updated>2026-11-11T06:00:00.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Global equity hedge funds cut risk at the steepest rate in more than a decade through the first week of November as a widespread unwind gathered steam, Morgan Stanley prime brokers wrote in a note dated Tuesday.</summary>
+    <summary>Luxury watch-trading platform Subdial is raising $20 million to accelerate its US expansion as it bets on growing demand in the world’s largest secondary market for timepieces, according to people familiar with the matter.</summary>
   </entry>
   <entry>
-    <title>Mitra-v2: Scaling synthetic pretraining for tabular foundation models</title>
-    <link href="https://www.amazon.science/blog/mitra-v2-scaling-synthetic-pretraining-for-tabular-foundation-models"/>
-    <id>https://www.amazon.science/blog/mitra-v2-scaling-synthetic-pretraining-for-tabular-foundation-models</id>
-    <updated>2026-11-10T15:37:39.000Z</updated>
-    <author><name>Amazon Science</name></author>
+    <title>Predictive Surprise as Self-Grounding Concept Bottleneck for Interpretable Time Series</title>
+    <link href="https://arxiv.org/abs/2611.12955"/>
+    <id>https://arxiv.org/abs/2611.12955</id>
+    <updated>2026-11-11T05:00:00.000Z</updated>
+    <author><name>arXiv cs.LG</name></author>
     <category term="RESEARCH"/>
-    <summary>Expanding the mix of synthetic data used to train a tabular foundation model enables it to adapt to new tables without new models and lead the single-model field on the TabArena benchmark.</summary>
+    <summary>arXiv:2611.12955v1 Announce Type: new Abstract: Time-series classifiers deployed in risk-sensitive domains must be (1) accurate, (2) interpretable, and (3) able to abstain when evidence is weak. Existing methods do not deliver all 3 at once, and the obstacle is structural, rather than logistical. Meaningful temporal pa</summary>
   </entry>
   <entry>
-    <title>Meta FAIR Releases e-means: An Algorithm Beating k-means in 10x Fewer Epochs</title>
-    <link href="https://www.marktechpost.com/2026/11/10/meta-fair-e-means-k-means-faiss"/>
-    <id>https://www.marktechpost.com/2026/11/10/meta-fair-e-means-k-means-faiss</id>
-    <updated>2026-11-10T23:20:19.000Z</updated>
-    <author><name>MarkTechPost</name></author>
+    <title>TimeOmni-o1: Bidirectionally Coupling Time Series Foundation Models and LLMs for Multimodal Reasoning and Forecasting</title>
+    <link href="https://arxiv.org/abs/2611.12902"/>
+    <id>https://arxiv.org/abs/2611.12902</id>
+    <updated>2026-11-11T05:00:00.000Z</updated>
+    <author><name>arXiv cs.CL</name></author>
     <category term="RESEARCH"/>
-    <summary>Meta FAIR’s e-means is a mini-batch k-means replacement shipped in FAISS 1.16.0. It reaches Lloyd’s 25-epoch loss in 1.4 to 2.6 epochs, with 10-45x GPU speedups and no extra hyperparameters. The post Meta FAIR Releases e-means: An Algorithm Beating k-means in 10x Fewer Epochs appeared first on MarkTechPost .</summary>
-  </entry>
-  <entry>
-    <title>LLM API Rate Limits: How to Fix OpenAI and Claude 429 Errors</title>
-    <link href="https://openrouter.ai/blog/tutorials/llm-api-rate-limits"/>
-    <id>https://openrouter.ai/blog/tutorials/llm-api-rate-limits</id>
-    <updated>2026-11-11T00:00:00.000Z</updated>
-    <author><name>OpenRouter Blog</name></author>
-    <category term="PRODUCTS"/>
-    <summary>A 429 Too Many Requests error means you sent more requests or tokens than your limit allows in the current time window. OpenAI, Anthropic and OpenRouter all return it, and it usually shows up the first time an app runs under real load or a batch job fans out across several workers.</summary>
+    <summary>arXiv:2611.12902v1 Announce Type: new Abstract: Time series from real-world systems are often accompanied by text, such as a report on an event that affects them. Two common tasks on these series are understanding, e.g., answering questions about a series, and forecasting its future values. Both tasks require reasoning</summary>
   </entry>
 </feed>
