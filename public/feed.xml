@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-12T03:53:30.605Z</updated>
+  <updated>2026-11-12T04:23:37.938Z</updated>
   <entry>
     <title>Nvidia Is Preparing to Oust CEO Jensen Huang</title>
     <link href="https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad?mod=rss_Technology"/>
@@ -13,7 +13,7 @@
     <updated>2026-11-12T00:17:00.000Z</updated>
     <author><name>WSJ Tech</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Move follows company investigation into an affair with a Chinese woman alleged to be a spy. — Also covered by: TechCrunch AI, WSJ Tech, The Verge AI, LocalLLaMA Subreddit, Tom's Hardware</summary>
+    <summary>Move follows company investigation into an affair with a Chinese woman alleged to be a spy. — Also covered by: TechCrunch AI, The Verge AI, Tom's Hardware</summary>
   </entry>
   <entry>
     <title>Gemini Decisions API: Fast, calibrated multimodal decisions</title>
@@ -73,19 +73,19 @@
     <title>llama.cpp b12307 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12307"/>
     <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12307</id>
-    <updated>2026-11-11T20:02:06.000Z</updated>
+    <updated>2026-11-12T04:13:33.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>metal : prevent out-of-bounds reads in SOLVE_TRI kernel ( #32103 )</summary>
+    <summary>metal : prevent out-of-bounds reads in SOLVE_TRI kernel ( #32103 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66535500 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) </summary>
   </entry>
   <entry>
-    <title>Claude Mythos 5.2 is now available in Devin Security</title>
-    <link href="https://devin.ai/blog/claude-mythos-5-2-security"/>
-    <id>https://devin.ai/blog/claude-mythos-5-2-security</id>
-    <updated>2026-11-11T18:00:00.000Z</updated>
-    <author><name>Devin (Cognition)</name></author>
+    <title>How our GTM Agent builds consistent, high-quality sales artifacts</title>
+    <link href="https://www.langchain.com/blog/gtm-agent-high-quality-sales-artifacts"/>
+    <id>https://www.langchain.com/blog/gtm-agent-high-quality-sales-artifacts</id>
+    <updated>2026-11-12T03:34:55.000Z</updated>
+    <author><name>LangChain Blog</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Claude Mythos 5.2 is now available in Devin Security for customers with frontier cyber model access through Devin.</summary>
+    <summary>Learn how LangChain built GTM Agent on Deep Agents to build high-quality, custom sales artifacts trained on business context.</summary>
   </entry>
   <entry>
     <title>Taiwan Drafts Plans for Wealth Fund, Aims for Bill by Year-End</title>
@@ -214,6 +214,15 @@
     <summary>Wall Street Journal : Letter: Sens. Elizabeth Warren and Chris Coons ask the Trump administration to preserve all documents tied to Nvidia's chip exports to China and Huang's affair — Sens. Elizabeth Warren and Chris Coons ask for documents to be preserved, often an initial step before formal congressional investigatio</summary>
   </entry>
   <entry>
+    <title>b12308: ci: move test models to ggml-org-dev (#32096)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12308"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12308</id>
+    <updated>2026-11-11T20:17:16.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>ci: move test models to ggml-org-dev fix test spec</summary>
+  </entry>
+  <entry>
     <title>DeepSeek V4.1 Flash 1017 exl3 2.9bpw APEX 2025 benchmark results</title>
     <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xtyxl9/deepseek_v41_flash_1017_exl3_29bpw_apex_2025"/>
     <id>https://www.reddit.com/r/LocalLLaMA/comments/1xtyxl9/deepseek_v41_flash_1017_exl3_29bpw_apex_2025</id>
@@ -223,22 +232,31 @@
     <summary>My main AI machine is a 6x3090 128GB DDR4 Threadripper 3960x system. I probably spend more time trying to optimize it than actually using it but it has been fun. I tried a bunch of saturated benchmarks like Terminal Bench 2.1, AIME 2026 and the performance was similar to unquantized DSV4.1 Flash 1017. I really wanted t</summary>
   </entry>
   <entry>
-    <title>aws-emulator</title>
-    <link href="https://simonwillison.net/2026/Nov/11/aws-emulator"/>
-    <id>https://simonwillison.net/2026/Nov/11/aws-emulator</id>
-    <updated>2026-11-11T21:18:30.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>Claude Mythos 5.2 is now available in Devin Security</title>
+    <link href="https://devin.ai/blog/claude-mythos-5-2-security"/>
+    <id>https://devin.ai/blog/claude-mythos-5-2-security</id>
+    <updated>2026-11-11T18:00:00.000Z</updated>
+    <author><name>Devin (Cognition)</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>aws-emulator Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Swaminathan (Swami) Sivasubramanian wrote </summary>
+    <summary>Claude Mythos 5.2 is now available in Devin Security for customers with frontier cyber model access through Devin.</summary>
   </entry>
   <entry>
-    <title>Why Bernstein Downgraded Nvidia Stock</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-11-12/why-bernstein-downgraded-nvidia-stock-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-11-12/why-bernstein-downgraded-nvidia-stock-video</id>
-    <updated>2026-11-12T03:34:15.000Z</updated>
+    <title>Palm Oil Climbs as El Niño Threatens Indonesia’s 2027 Supplies</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-12/palm-oil-climbs-as-el-nino-threatens-indonesia-s-2027-supplies"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-12/palm-oil-climbs-as-el-nino-threatens-indonesia-s-2027-supplies</id>
+    <updated>2026-11-12T04:07:35.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Stacy Rasgon, Managing Director and Senior Analyst at Bernstein Research, was asked why his team said in a note they’ve “had enough” before he discusses the outlook for Nvidia in the wake of fresh reports of CEO Jensen Huang’s extramarital affairs. Bernstein was the latest firm to downgrade the stock, cutting its ratin</summary>
+    <summary>Palm oil futures rose for a second session as traders weighed expectations for tightening supply in top grower Indonesia.</summary>
+  </entry>
+  <entry>
+    <title>China’s Loan Interest Rates Are Already Low, Central Bank Says</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-12/china-s-loan-interest-rates-are-already-low-central-bank-says"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-12/china-s-loan-interest-rates-are-already-low-central-bank-says</id>
+    <updated>2026-11-12T03:53:13.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>China’s central bank highlighted what it said were relatively low loan rates compared to the rest of the world — a sign it may remain cautious about cutting interest rates while borrowing demand remains sluggish.</summary>
   </entry>
   <entry>
     <title>Google Launches Gemini Decisions API With Gemini Decision 1 at $0.10/M Tokens</title>
@@ -257,23 +275,5 @@
     <author><name>OpenRouter Blog</name></author>
     <category term="PRODUCTS"/>
     <summary>An AI agent gets stuck in an infinite loop when a model keeps calling a tool that fails, usually with the same arguments, because nothing in the agent loop tells it to stop. Each retry resends the whole conversation, so every turn costs more than the last, and a loop left running overnight can cost thousands of dollars</summary>
-  </entry>
-  <entry>
-    <title>Supermicro Now Shipping Next-Gen Servers Powered by 6th Gen AMD EPYC 9006 Series CPUs</title>
-    <link href="https://www.hpcwire.com/off-the-wire/supermicro-now-shipping-next-gen-servers-powered-by-6th-gen-amd-epyc-9006-series-cpus"/>
-    <id>https://www.hpcwire.com/off-the-wire/supermicro-now-shipping-next-gen-servers-powered-by-6th-gen-amd-epyc-9006-series-cpus</id>
-    <updated>2026-11-11T22:28:05.000Z</updated>
-    <author><name>HPC Wire</name></author>
-    <category term="HARDWARE"/>
-    <summary>SAN JOSE, Calif., Nov. 11, 2026 — Super Micro Computer, Inc. today announced that its H15 generation server portfolio is now shipping. Powered by the 6th Gen AMD EPYC 9006 Series processors (formerly codenamed “Venice”), the H15 portfolio is a core component of Supermicro’s DCBBS architecture. Optimized for next-genera</summary>
-  </entry>
-  <entry>
-    <title>Hackers use AntiFox AI agents in AWS credential-theft attacks</title>
-    <link href="https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks"/>
-    <id>https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks</id>
-    <updated>2026-11-11T15:12:59.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments. [...]</summary>
   </entry>
 </feed>
