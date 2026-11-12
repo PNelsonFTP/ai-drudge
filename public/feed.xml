@@ -5,7 +5,16 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-12T13:09:14.020Z</updated>
+  <updated>2026-11-12T14:09:47.802Z</updated>
+  <entry>
+    <title>Nvidia CEO Jensen Huang Resigns</title>
+    <link href="https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad?mod=rss_Technology"/>
+    <id>https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad?mod=rss_Technology</id>
+    <updated>2026-11-12T14:04:00.000Z</updated>
+    <author><name>WSJ Tech</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Nvidia Chief Executive Jensen Huang has resigned after two extramarital affairs, including one with a suspected Chinese spy and another with an employee. — Also covered by: Bloomberg Tech, The Information, Wired AI, The Verge AI, WSJ Tech, LocalLLaMA Subreddit, Tom's Hardware</summary>
+  </entry>
   <entry>
     <title>Gemini Decisions API: Fast, calibrated multimodal decisions</title>
     <link href="https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api"/>
@@ -25,13 +34,13 @@
     <summary>With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.</summary>
   </entry>
   <entry>
-    <title>qvac/BotPsy-0.8B · Hugging Face - On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xu8685/qvacbotpsy08b_hugging_face_ondevice_personal"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xu8685/qvacbotpsy08b_hugging_face_ondevice_personal</id>
-    <updated>2026-11-12T09:13:49.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>BotPsy-0.8B is a 0.8B-parameter model designed for function calling and agentic workflows, built on top of Qwen3.5-0.8B and suitable for on-device deployment. BotPsy is a &quot;personal assistant&quot; that uses tools to perform a variety of simple tasks for the user, in domains such as web search &amp; research, travel &amp; lifestyle, — Also covered by: Hugging Face Blog</summary>
+    <title>Nine Korean startups vie for a spot in Disrupt 2027’s Startup Battlefield 200 competition</title>
+    <link href="https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition"/>
+    <id>https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition</id>
+    <updated>2026-11-12T13:26:25.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>The startups work across the deep tech sector, including healthcare, fintech, energy, semiconductors, and AI. All nine are looking to enter the US.</summary>
   </entry>
   <entry>
     <title>Nvidia Board Meets to Consider Replacing Jensen Huang</title>
@@ -62,8 +71,8 @@
   </entry>
   <entry>
     <title>United Airlines Blocks AI Agents Like Muse and Instinct From Booking Flights</title>
-    <link href="https://www.theinformation.com/briefings/united-airlines-blocks-ai-agents-like-muse-instinct-booking-flights"/>
-    <id>https://www.theinformation.com/briefings/united-airlines-blocks-ai-agents-like-muse-instinct-booking-flights</id>
+    <link href="https://info-reader-production.herokuapp.com/briefings/united-airlines-blocks-ai-agents-like-muse-instinct-booking-flights"/>
+    <id>https://info-reader-production.herokuapp.com/briefings/united-airlines-blocks-ai-agents-like-muse-instinct-booking-flights</id>
     <updated>2026-11-11T23:28:57.000Z</updated>
     <author><name>The Information</name></author>
     <category term="INDUSTRY NEWS"/>
@@ -79,13 +88,13 @@
     <summary>JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.</summary>
   </entry>
   <entry>
-    <title>Google launches Tabletop, an experimental AI platform to build customizable, collaborative personal planning and coordination hubs, in beta via a waitlist (Jess Weatherbed/The Verge)</title>
-    <link href="https://www.techmeme.com/261112/p21"/>
-    <id>https://www.techmeme.com/261112/p21</id>
-    <updated>2026-11-12T12:05:00.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Jess Weatherbed / The Verge : Google launches Tabletop, an experimental AI platform to build customizable, collaborative personal planning and coordination hubs, in beta via a waitlist — Tabletop provides customizable, collaborative spaces for all your personal planning needs.</summary>
+    <title>b12319: sycl : use cached device-id in set_main_device (#32013)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12319"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12319</id>
+    <updated>2026-11-12T06:50:55.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>ggml_sycl_set_main_device() runs at the start of every graph compute. Its early-return check called dpct::get_current_device_id(), which locks the device manager mutex and looks up the thread-to-device map. Use the thread-local cached id that the rest of the backend already uses. Assisted-by: Claude Code Co-authored-by</summary>
   </entry>
   <entry>
     <title>llama.cpp b12318 released</title>
@@ -97,15 +106,6 @@
     <summary>CUDA: add cuda debug buffer pool ( #31919 ) CUDA: add cuda debug buffer pool CUDA: add code comment for debug pool with compute-sanitizer Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66668638 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabl</summary>
   </entry>
   <entry>
-    <title>Kazakhstan-linked hackers used AI agent to spy on Central Asian governments</title>
-    <link href="https://therecord.media/kazakhstan-hackers-central-asia"/>
-    <id>https://therecord.media/kazakhstan-hackers-central-asia</id>
-    <updated>2026-11-12T13:00:00.000Z</updated>
-    <author><name>The Record</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Suspected Kazakhstan-linked hackers used an artificial intelligence agent to help spy on Central Asian governments, steal sensitive documents and infiltrate critical infrastructure networks, according to new research.</summary>
-  </entry>
-  <entry>
     <title>Buyers of $22 Billion Bank Securities Are Trapped in Losing Bet</title>
     <link href="https://www.bloomberg.com/news/articles/2026-11-12/buyers-of-22-billion-bank-securities-are-trapped-in-losing-bet"/>
     <id>https://www.bloomberg.com/news/articles/2026-11-12/buyers-of-22-billion-bank-securities-are-trapped-in-losing-bet</id>
@@ -115,13 +115,22 @@
     <summary>A $22 billion group of US bank preferred shares has been slumping harder than even the riskiest junk bonds this year — and investors have no good way out of the trade.</summary>
   </entry>
   <entry>
-    <title>Meta’s New Agreements Bring Clean Manufacturing to Data Center Supply Chains</title>
-    <link href="https://about.fb.com/news/2026/11/meta-new-agreements-clean-manufacturing-data-center-supply-chains"/>
-    <id>https://about.fb.com/news/2026/11/meta-new-agreements-clean-manufacturing-data-center-supply-chains</id>
-    <updated>2026-11-12T12:00:07.000Z</updated>
-    <author><name>Meta AI Blog</name></author>
+    <title>Fewer hours and higher wages – or more burnout and surveillance: employers told to prepare for AI</title>
+    <link href="https://www.theguardian.com/technology/2026/nov/12/fewer-hours-and-higher-wages-or-more-burnout-and-surveillance-employers-told-to-prepare-for-ai"/>
+    <id>https://www.theguardian.com/technology/2026/nov/12/fewer-hours-and-higher-wages-or-more-burnout-and-surveillance-employers-told-to-prepare-for-ai</id>
+    <updated>2026-11-12T06:55:44.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Workplace relations minister Amanda Rishworth launches best practice guide on AI adoption after Qantas and Canva job cuts Get our daily political email , free app or daily news podcast Entry-level jobs will be the first to be automated due to AI, but it could mean fewer hours and higher wages for ordinary workers – or </summary>
+  </entry>
+  <entry>
+    <title>A New Dawn in the Cloud: ‘Warhammer 40,000: Dawn of War IV’ Is Coming to GeForce NOW</title>
+    <link href="https://blogs.nvidia.com/blog/geforce-now-thursday-warhammer-dawn-of-war-iv-coming"/>
+    <id>https://blogs.nvidia.com/blog/geforce-now-thursday-warhammer-dawn-of-war-iv-coming</id>
+    <updated>2026-11-12T14:00:59.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
     <category term="HARDWARE"/>
-    <summary>We’re bringing clean manufacturing to our data centers and setting an industry standard by entering long-term purchase agreements with low-carbon producers across our supply chain. The post Meta’s New Agreements Bring Clean Manufacturing to Data Center Supply Chains appeared first on Meta Newsroom .</summary>
+    <summary>Rally the ranks this GFN Thursday. Warhammer 40,000: Dawn of War IV is coming to GeForce NOW, allowing players to experience the battle for Kronus through cloud gaming. There’s more on the horizon, with NVIDIA DLSS 5 technology coming to War Thunder and Where Winds Meet. Meanwhile, Dragon’s Dogma 2: Dark Arisen brings </summary>
   </entry>
   <entry>
     <title>Training a 1T-Parameter MoE on EU public infrastructure with PyTorch and TorchTitan</title>
@@ -178,13 +187,13 @@
     <summary>Security teams have more alerts, logs, and monitoring tools than ever. Yet when an attack happens, one simple question can still take too long to answer: Who or what is behind this activity, and what can they access? A suspicious login might belong to an employee. An unusual API call could come from a machine account. </summary>
   </entry>
   <entry>
-    <title>US humanoid robot production could hit 400,000 by 2030 as deployment ramps, J.P. Morgan says</title>
-    <link href="https://www.reuters.com/business/us-humanoid-robot-production-could-hit-400000-by-2030-deployment-ramps-jp-morgan-2026-11-12"/>
-    <id>https://www.reuters.com/business/us-humanoid-robot-production-could-hit-400000-by-2030-deployment-ramps-jp-morgan-2026-11-12</id>
-    <updated>2026-11-12T09:55:04.000Z</updated>
-    <author><name>Reuters AI (Google News)</name></author>
+    <title>Viam Launchpad aims to accelerate robotics deployments</title>
+    <link href="https://www.therobotreport.com/viam-launchpad-aims-to-accelerate-robotics-deployments"/>
+    <id>https://www.therobotreport.com/viam-launchpad-aims-to-accelerate-robotics-deployments</id>
+    <updated>2026-11-12T13:30:31.000Z</updated>
+    <author><name>The Robot Report</name></author>
     <category term="ROBOTICS"/>
-    <summary>US humanoid robot production could hit 400,000 by 2030 as deployment ramps, J.P. Morgan says Reuters</summary>
+    <summary>The Viam Launchpad is intended to provide the software and engineering infrastructure to help startups bring robots to commercial deployment. The post Viam Launchpad aims to accelerate robotics deployments appeared first on The Robot Report .</summary>
   </entry>
   <entry>
     <title>Australian quantum software startup Q-Ctrl, which builds sensors that help ships and aircraft navigate when GPS is unavailable, raised $290M at a $1B+ valuation (Jake Rudnitsky/Bloomberg)</title>
@@ -196,31 +205,31 @@
     <summary>Jake Rudnitsky / Bloomberg : Australian quantum software startup Q-Ctrl, which builds sensors that help ships and aircraft navigate when GPS is unavailable, raised $290M at a $1B+ valuation — Salesforce Ventures led a $290 million round in Q-Ctrl that values the Australian quantum software company at more than $1 billi</summary>
   </entry>
   <entry>
-    <title>KQuant - new quantization technique, 3.7× better quants for Qwen Flash Next 180B, Qwen 27B, 35B, 9B (measured in KL-divergence reduction) (MLX)</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xu9onk/kquant_new_quantization_technique_37_better"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xu9onk/kquant_new_quantization_technique_37_better</id>
-    <updated>2026-11-12T10:47:24.000Z</updated>
+    <title>ElevenLabs Scribe v3 Live uses conversational context to stop voice agents from cutting off callers mid-sentence</title>
+    <link href="https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence"/>
+    <id>https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence</id>
+    <updated>2026-11-12T13:48:19.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>ElevenLabs has released Scribe v3 and Scribe v3 Live, two new speech recognition models designed to transcribe accurately through background noise and crosstalk. Benchmarks from Artificial Analysis confirm that Scribe v3 narrowly beats competitors like OpenAI, Google, and Microsoft on accuracy. That precision comes at </summary>
+  </entry>
+  <entry>
+    <title>Nvidia's Jensen Huang Resigns as CEO, Colette Kress Named Interim</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xudeev/nvidias_jensen_huang_resigns_as_ceo_colette_kress"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xudeev/nvidias_jensen_huang_resigns_as_ceo_colette_kress</id>
+    <updated>2026-11-12T13:56:51.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>hey folks, im Alish, an ml engineer from Nace (folks behind Drex, an open source decision family model that hit #1 in Artificial analysis in decision index 2.1). Recently my cto gave me task to optimize quants for qwen4, so i dialed my uni proffesor from UoT and span up my Fable 5.2 and we cooooooked. starting with mlx</summary>
+    <summary>submitted by /u/ShreckAndDonkey123 [link] [comments]</summary>
   </entry>
   <entry>
-    <title>Presentation: Opening the Black Box: Critical Explainability for AI Agent Tool Selection with Kiji Inspector</title>
-    <link href="https://www.infoq.com/presentations/explainable-ai-llm-agent-decisions"/>
-    <id>https://www.infoq.com/presentations/explainable-ai-llm-agent-decisions</id>
-    <updated>2026-11-12T11:00:00.000Z</updated>
-    <author><name>InfoQ AI/ML</name></author>
+    <title>AI Startup LangChain More Than Doubles Its Valuation to $3 Billion</title>
+    <link href="https://www.wsj.com/cio-journal/ai-startup-langchain-more-than-doubles-its-valuation-to-3-billion-f83377ad?mod=rss_Technology"/>
+    <id>https://www.wsj.com/cio-journal/ai-startup-langchain-more-than-doubles-its-valuation-to-3-billion-f83377ad?mod=rss_Technology</id>
+    <updated>2026-11-12T14:00:00.000Z</updated>
+    <author><name>WSJ Tech</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Hannes Hapke shares how Dataiku’s open-source Kiji Inspector applies Sparse Autoencoders (SAEs) directly to decision tokens to expose why agents pick specific tools. Moving past superficial chain-of-thought narratives, he discusses causal ablation, layer activation extraction via patched vLLM engines, and production mo</summary>
-  </entry>
-  <entry>
-    <title>lobe-chat v2.3.3 released</title>
-    <link href="https://github.com/lobehub/lobehub/releases/tag/v2.3.3"/>
-    <id>https://github.com/lobehub/lobehub/releases/tag/v2.3.3</id>
-    <updated>2026-11-12T13:00:05.000Z</updated>
-    <author><name>lobehub/lobe-chat</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Release v2.3.3 From PR #22891 : #22891 🚀 LobeHub Release (20261112) Release Date: November 12, 2026 Since v2.3.2: 253 merged PRs · 252 commits · 12 contributors A week spent turning chat into a real workspace: direct Channels with their own reply rules, an inbox identity for every agent, and projects that can be creat</summary>
+    <summary>Alphabet’s CapitalG led the $300 million investment into the startup as it targets enterprises with agent-development platform.</summary>
   </entry>
   <entry>
     <title>Benin Ships First Crude Cargo for Decades From Revived Oil Field</title>
@@ -232,13 +241,13 @@
     <summary>Benin has rejoined the ranks of West Africa’s oil-exporting states, with its first crude oil cargo headed to Europe from an offshore field that had been dormant since the late 1990s.</summary>
   </entry>
   <entry>
-    <title>US Utilities Have a Plan to Win Over the AI Haters</title>
-    <link href="https://www.bloomberg.com/news/newsletters/2026-11-12/us-utilities-have-a-plan-to-win-over-the-ai-haters"/>
-    <id>https://www.bloomberg.com/news/newsletters/2026-11-12/us-utilities-have-a-plan-to-win-over-the-ai-haters</id>
-    <updated>2026-11-12T13:02:32.000Z</updated>
+    <title>Oil Rises After Trump Says the US Doesn’t Need a Deal With Iran</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-12/oil-jumps-after-trump-says-us-doesn-t-need-deal-with-iran"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-12/oil-jumps-after-trump-says-us-doesn-t-need-deal-with-iran</id>
+    <updated>2026-11-12T13:14:35.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Power companies say they’re working to ensure data centers pay up to connect to the grid, but widespread skepticism persists.</summary>
+    <summary>Oil rose after President Donald Trump said that the US doesn’t need a deal with Iran, dimming prospects for a breakthrough to end the war that has roiled Middle East supplies.</summary>
   </entry>
   <entry>
     <title>New research could lead to faster, trustworthy AI models for climate prediction</title>
@@ -250,30 +259,21 @@
     <summary>MIT scientists developed a training method to generate models that simulate the effects of human activities on climate much more quickly than other approaches.</summary>
   </entry>
   <entry>
-    <title>IBM Announces IBM Quantum Nighthawk r3: A New Processor to Support 10k Quantum Operations on 520 Programmable Qubits</title>
-    <link href="https://www.marktechpost.com/2026/11/12/ibm-quantum-nighthawk-r3-520-qubits-1040-qubit-system-2027"/>
-    <id>https://www.marktechpost.com/2026/11/12/ibm-quantum-nighthawk-r3-520-qubits-1040-qubit-system-2027</id>
-    <updated>2026-11-12T08:42:21.000Z</updated>
-    <author><name>MarkTechPost</name></author>
-    <category term="RESEARCH"/>
-    <summary>IBM announced Quantum Nighthawk r3, a 520-qubit processor designed for 10,000 quantum operations. 2 r3 chips will link into a 1,040-qubit system in 2027, while Nighthawk r2 already posts up to 19x speedups over Heron. The post IBM Announces IBM Quantum Nighthawk r3: A New Processor to Support 10k Quantum Operations on </summary>
-  </entry>
-  <entry>
-    <title>Fewer hours and higher wages – or more burnout and surveillance: employers told to prepare for AI</title>
-    <link href="https://www.theguardian.com/technology/2026/nov/12/fewer-hours-and-higher-wages-or-more-burnout-and-surveillance-employers-told-to-prepare-for-ai"/>
-    <id>https://www.theguardian.com/technology/2026/nov/12/fewer-hours-and-higher-wages-or-more-burnout-and-surveillance-employers-told-to-prepare-for-ai</id>
-    <updated>2026-11-12T06:55:44.000Z</updated>
-    <author><name>The Guardian AI</name></author>
+    <title>Runway’s Praxis-1 world action model for robotics is now available</title>
+    <link href="https://www.therobotreport.com/runways-praxis-1-world-action-model-for-robotics-is-now-available"/>
+    <id>https://www.therobotreport.com/runways-praxis-1-world-action-model-for-robotics-is-now-available</id>
+    <updated>2026-11-12T13:18:47.000Z</updated>
+    <author><name>The Robot Report</name></author>
     <category term="PRODUCTS"/>
-    <summary>Workplace relations minister Amanda Rishworth launches best practice guide on AI adoption after Qantas and Canva job cuts Get our daily political email , free app or daily news podcast Entry-level jobs will be the first to be automated due to AI, but it could mean fewer hours and higher wages for ordinary workers – or </summary>
+    <summary>Runway launched Praxis-1 with partners including Noble Machines, Standard Bots, and Ultra. Developers can now use it with open weights. The post Runway’s Praxis-1 world action model for robotics is now available appeared first on The Robot Report .</summary>
   </entry>
   <entry>
-    <title>Can Machines See a Sick Plant Before a Farmer Can?</title>
-    <link href="https://www.eetimes.com/can-machines-see-a-sick-plant-before-a-farmer-can"/>
-    <id>https://www.eetimes.com/can-machines-see-a-sick-plant-before-a-farmer-can</id>
-    <updated>2026-11-12T13:00:00.000Z</updated>
-    <author><name>EE Times</name></author>
+    <title>Nvidia CEO Jensen Huang resigns as CEO in the wake of multiple affairs, Chinese spy allegations</title>
+    <link href="https://www.tomshardware.com/tech-industry/nvidia-confirms-jensen-huang-has-resigned-as-ceo-colette-kress-executive-vice-president-and-chief-financial-officer-appointed-interim-ceo"/>
+    <id>https://www.tomshardware.com/tech-industry/nvidia-confirms-jensen-huang-has-resigned-as-ceo-colette-kress-executive-vice-president-and-chief-financial-officer-appointed-interim-ceo</id>
+    <updated>2026-11-12T13:58:41.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
     <category term="HARDWARE"/>
-    <summary>Soybean disease research shows the promise of hyperspectral imaging, while semiconductor advances could make spectral sensing affordable for farmers. The post Can Machines See a Sick Plant Before a Farmer Can? appeared first on EE Times .</summary>
+    <summary>NVIDIA (NASDAQ: NVDA) Board of Directors announced today that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately.</summary>
   </entry>
 </feed>
