@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-13T00:09:25.095Z</updated>
+  <updated>2026-11-13T00:42:51.436Z</updated>
   <entry>
     <title>NVIDIA CEO Jensen Huang Resigns, Colette Kress Named Interim CEO</title>
     <link href="https://www.hpcwire.com/off-the-wire/nvidia-ceo-jensen-huang-resigns-colette-kress-named-interim-ceo"/>
@@ -34,6 +34,15 @@
     <summary>Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.</summary>
   </entry>
   <entry>
+    <title>qwen-code v0.27.3 released</title>
+    <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.27.3"/>
+    <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.27.3</id>
+    <updated>2026-11-13T00:24:34.000Z</updated>
+    <author><name>QwenLM/qwen-code</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>What's Changed fix(managed-agent): release the MCP owner when a Session closes by @wenshao in #16728 fix(managed-agent): harden Harness error-code parsing, host reader and exception causes by @doudouOUC in #16826 docs(providers): document Wiro AI under OpenAI-compatible providers by @EminBudak in #16850 docs(serve): de — Also covered by: anthropics/claude-code</summary>
+  </entry>
+  <entry>
     <title>Holiday Extras is rethinking what it can build with Codex</title>
     <link href="https://openai.com/business/customer-stories/holidays-extras-codex"/>
     <id>https://openai.com/business/customer-stories/holidays-extras-codex</id>
@@ -50,15 +59,6 @@
     <author><name>MIT News AI</name></author>
     <category term="RESEARCH"/>
     <summary>A secure operating system, a quantum microsystem platform, and a 5G interference-canceling algorithm are named among the year's most significant innovations.</summary>
-  </entry>
-  <entry>
-    <title>Cisco lifts annual revenue forecast on strong AI networking demand</title>
-    <link href="https://www.reuters.com/business/media-telecom/cisco-raises-annual-revenue-forecast-strong-ai-networking-demand-2026-11-12"/>
-    <id>https://www.reuters.com/business/media-telecom/cisco-raises-annual-revenue-forecast-strong-ai-networking-demand-2026-11-12</id>
-    <updated>2026-11-12T22:18:58.000Z</updated>
-    <author><name>Reuters AI (Google News)</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Cisco lifts annual revenue forecast on strong AI networking demand Reuters — Also covered by: Bloomberg Tech</summary>
   </entry>
   <entry>
     <title>Gemini Decisions API: Fast, calibrated multimodal decisions</title>
@@ -78,49 +78,40 @@
     <category term="MODEL RELEASES"/>
   </entry>
   <entry>
-    <title>Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump</title>
-    <link href="https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump"/>
-    <id>https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump</id>
-    <updated>2026-11-12T22:42:51.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>New York-based Hatz AI, which makes tools for managed services providers to help small businesses adopt AI, raised a $24M Series A (CJ Fairfield/CRN)</title>
+    <link href="https://www.techmeme.com/261112/p65"/>
+    <id>https://www.techmeme.com/261112/p65</id>
+    <updated>2026-11-13T00:30:00.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>This Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke.</summary>
+    <summary>CJ Fairfield / CRN : New York-based Hatz AI, which makes tools for managed services providers to help small businesses adopt AI, raised a $24M Series A — 'Small businesses are trying to figure out how to transform themselves right now into being AI-first or AI-native, and it's a job that's very, very hard to do without</summary>
   </entry>
   <entry>
-    <title>llama.cpp b12329 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12329"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12329</id>
-    <updated>2026-11-12T22:26:10.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>New Model &quot;Ernie 5.5 Flash Preview&quot; hits strongly at a low parameter count (280B, 14B Active)</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xune1i/new_model_ernie_55_flash_preview_hits_strongly_at"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xune1i/new_model_ernie_55_flash_preview_hits_strongly_at</id>
+    <updated>2026-11-12T20:13:37.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>CUDA: Optimize prefil via fuse of w_s scale in epilogue MMQ for nvfp4 checkpoints ( #26048 ) ggml-cuda: Apply NVFP4 weight scale in MMQ write-back ggml-cuda: Fuse mul_mat(_id) + scale into MMQ ggml-cuda: Tests for the fused scale ggml-cuda: reuse existing graph to test fusion in mmq epiloque ggml-cuda: rename test_mul_</summary>
+    <summary>If you're asking what this leaderboard is, it is not AA, it is simply an aggregate index for &quot;Agentic Coding&quot; along 12 coding-related benchmarks (note that the AA index includes only 2 coding benchmarks: Terminal-Bench 4.0, FrontierCode-AA 2.0, making up just 25% of its total score. Because of that, it doesn't give you</summary>
   </entry>
   <entry>
-    <title>claude-code v2.1.323 released</title>
-    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.323"/>
-    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.323</id>
-    <updated>2026-11-12T22:12:13.000Z</updated>
-    <author><name>anthropics/claude-code</name></author>
+    <title>Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors</title>
+    <link href="https://unit42.paloaltonetworks.com/cairn-framework-ai-autonomous-attacks"/>
+    <id>https://unit42.paloaltonetworks.com/cairn-framework-ai-autonomous-attacks</id>
+    <updated>2026-11-12T15:00:31.000Z</updated>
+    <author><name>Palo Alto Unit 42</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>What's changed Added Code Mode, an experimental opt-in in which Claude writes JavaScript to call its tools; see https://code.claude.com/docs/en/code-mode to turn it on, or to turn it off for an organization Added engines[&quot;claude-code&quot;] to plugin.json : plugins outside their stated Claude Code version range are not inst</summary>
+    <summary>Our analysis of how attackers used the open-source Cairn AI agent framework to autonomously breach semiconductor, defense and civic targets. The post Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors appeared first on Unit 42 .</summary>
   </entry>
   <entry>
-    <title>Swiss Biotech Windward Raises $225 Million in US IPO, Placement</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-12/swiss-biotech-windward-raises-225-million-in-us-ipo-placement"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-12/swiss-biotech-windward-raises-225-million-in-us-ipo-placement</id>
-    <updated>2026-11-12T23:32:55.000Z</updated>
+    <title>Australia Bond Yield Falls Below US Peer as Rate Paths Diverge</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-13/australia-bond-yield-falls-below-us-peer-as-rate-paths-diverge"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-13/australia-bond-yield-falls-below-us-peer-as-rate-paths-diverge</id>
+    <updated>2026-11-13T00:24:14.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Windward Bio Group AG, raised about $225 million in a US initial public offering that priced at the midpoint of its marketed range, along with a private placement.</summary>
-  </entry>
-  <entry>
-    <title>Google's Gemini 4 Hydrogen outscores the bigger Argon just four weeks after its launch</title>
-    <link href="https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch"/>
-    <id>https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch</id>
-    <updated>2026-11-12T19:58:43.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="RESEARCH"/>
-    <summary>Google's Gemini 4 Hydrogen replaces the Flash series, but benchmarks suggest it also makes the pricier Argon obsolete. On the independent Artificial Analysis Intelligence Index, Hydrogen nearly matches Claude Sonnet 5.5 for less money but costs about 2.5 times more per task than GPT-6.1 Sol and still falls short on age</summary>
+    <summary>Australia’s benchmark bond yield fell below its US counterpart for the first time in more than a year as expectations for monetary policy in the two nations diverge.</summary>
   </entry>
   <entry>
     <title>Claude Meetings lets Anthropic's AI join your video calls</title>
@@ -132,13 +123,13 @@
     <summary>Anthropic is adding Claude directly to video calls. Claude Meetings joins Google Meet sessions and creates documents, whiteboards, and meeting notes in real time. The feature launches in beta for Team and Enterprise plans, with more platforms coming later. The article Claude Meetings lets Anthropic's AI join your video</summary>
   </entry>
   <entry>
-    <title>Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors</title>
-    <link href="https://unit42.paloaltonetworks.com/cairn-framework-ai-autonomous-attacks"/>
-    <id>https://unit42.paloaltonetworks.com/cairn-framework-ai-autonomous-attacks</id>
-    <updated>2026-11-12T15:00:31.000Z</updated>
-    <author><name>Palo Alto Unit 42</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Our analysis of how attackers used the open-source Cairn AI agent framework to autonomously breach semiconductor, defense and civic targets. The post Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors appeared first on Unit 42 .</summary>
+    <title>llm-gemini 0.37</title>
+    <link href="https://simonwillison.net/2026/Nov/12/llm-gemini"/>
+    <id>https://simonwillison.net/2026/Nov/12/llm-gemini</id>
+    <updated>2026-11-12T22:55:19.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="HARDWARE"/>
+    <summary>Release: llm-gemini 0.37 Google launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family. It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini 4's pricing really confusing. Here's the pricing scheme: Model Dates Input ($/M) Cached input Output</summary>
   </entry>
   <entry>
     <title>OpenAI’s data suggests that frontier models are hiding their thoughts because developers optimize for capability and compute</title>
@@ -168,24 +159,6 @@
     <summary>The Department of Justice and FBI announced two separate actions in response to North Korea-linked cryptocurrency theft operations.</summary>
   </entry>
   <entry>
-    <title>What Is Eval-Driven Development? How to Improve AI Agents</title>
-    <link href="https://www.langchain.com/blog/what-is-eval-driven-development"/>
-    <id>https://www.langchain.com/blog/what-is-eval-driven-development</id>
-    <updated>2026-11-12T20:31:46.000Z</updated>
-    <author><name>LangChain Blog</name></author>
-    <category term="ANALYSIS"/>
-    <summary>Eval-driven development helps you build AI agents against a consistent set of metrics. Define good behavior, write the eval first, then compare experiments.</summary>
-  </entry>
-  <entry>
-    <title>Agile Robots Raises $500 Million Series F at $8.5 Billion Valuation</title>
-    <link href="https://www.humanoidsdaily.com/news/agile-robots-500-million-series-f-softbank-8-5-billion"/>
-    <id>https://www.humanoidsdaily.com/news/agile-robots-500-million-series-f-softbank-8-5-billion</id>
-    <updated>2026-11-12T16:30:49.000Z</updated>
-    <author><name>Humanoids Daily</name></author>
-    <category term="ROBOTICS"/>
-    <summary>SoftBank led the round, with NVIDIA and Hitachi joining, as the Munich company plans US expansion and more production capacity in Germany.</summary>
-  </entry>
-  <entry>
     <title>PsiQuantum and AMD Broaden Collaboration Across Quantum, HPC and AI</title>
     <link href="https://www.hpcwire.com/off-the-wire/psiquantum-and-amd-broaden-collaboration-across-quantum-hpc-and-ai"/>
     <id>https://www.hpcwire.com/off-the-wire/psiquantum-and-amd-broaden-collaboration-across-quantum-hpc-and-ai</id>
@@ -193,6 +166,33 @@
     <author><name>HPC Wire</name></author>
     <category term="QUANTUM"/>
     <summary>Companies to co-design infrastructure and advance hybrid quantum-classical applications PALO ALTO, Calif. and SANTA CLARA, Calif., Nov. 12, 2026 — PsiQuantum and AMD today announced an expanded strategic partnership to co-design the computing infrastructure required to operate utility-scale, fault-tolerant quantum comp</summary>
+  </entry>
+  <entry>
+    <title>b12331: vulkan : Intel FA kernel for prefill. (#29357)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12331"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12331</id>
+    <updated>2026-11-12T10:19:17.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="GITHUB REPOS"/>
+    <summary>vulkan : Intel customized FA shader for prefill usage vulkan : adding check of max_bias/logit_softcap for Intel FA kernel path vulkan : add m16n16k16/SIMD32 support for Xe FA prefill shader vulkan : Intel FA shader and host refinement, with accuracy issues fixes vulkan : Limit the SLM usage to 48 KiB for Intel prefill </summary>
+  </entry>
+  <entry>
+    <title>Google's Gemini 4 Hydrogen outscores the bigger Argon just four weeks after its launch</title>
+    <link href="https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch"/>
+    <id>https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch</id>
+    <updated>2026-11-12T19:58:43.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Google's Gemini 4 Hydrogen replaces the Flash series, but benchmarks suggest it also makes the pricier Argon obsolete. On the independent Artificial Analysis Intelligence Index, Hydrogen nearly matches Claude Sonnet 5.5 for less money but costs about 2.5 times more per task than GPT-6.1 Sol and still falls short on age</summary>
+  </entry>
+  <entry>
+    <title>Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump</title>
+    <link href="https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump"/>
+    <id>https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump</id>
+    <updated>2026-11-12T22:42:51.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>This Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke.</summary>
   </entry>
   <entry>
     <title>Ex-Nvidia CEO Huang Hires Lawyers</title>
@@ -204,22 +204,13 @@
     <summary>Jensen Huang, who resigned as Nvidia CEO on Thursday amid a scandal over alleged affairs with several women, has hired Paul Weiss, a prominent white collar law firm, according to The New York Times . Huang’s resignation came four days after Nvidia’s board had announced it would investigate his ...</summary>
   </entry>
   <entry>
-    <title>Nebius tests the neocloud playbook with $40 billion in planned spending</title>
-    <link href="https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending"/>
-    <id>https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending</id>
-    <updated>2026-11-12T21:27:10.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Nebius plans to fund its $40 billion AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model.</summary>
-  </entry>
-  <entry>
-    <title>New Model &quot;Ernie 5.5 Flash Preview&quot; hits strongly at a low parameter count (280B, 14B Active)</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xune1i/new_model_ernie_55_flash_preview_hits_strongly_at"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xune1i/new_model_ernie_55_flash_preview_hits_strongly_at</id>
-    <updated>2026-11-12T20:13:37.000Z</updated>
+    <title>Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang's exit</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xut4o7/hugging_face_ceo_vows_to_keep_fighting_for_open"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xut4o7/hugging_face_ceo_vows_to_keep_fighting_for_open</id>
+    <updated>2026-11-13T00:11:18.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>If you're asking what this leaderboard is, it is not AA, it is simply an aggregate index for &quot;Agentic Coding&quot; along 12 coding-related benchmarks (note that the AA index includes only 2 coding benchmarks: Terminal-Bench 4.0, FrontierCode-AA 2.0, making up just 25% of its total score. Because of that, it doesn't give you</summary>
+    <summary>context : Nvidia buy HF, but now there uncertainty about it hf future under new leadership, he try reassurance people on x, but from his word itself sound not good, see and wait, but better backup you favorite datashet/model (again) just in case submitted by /u/Merchant_Lawrence [link] [comments]</summary>
   </entry>
   <entry>
     <title>Lawyer with too many GPUs, part 5: DeepSeek-V4.1-Flash at near-NVFP4 quality on eight V100s from 2018. 524K context, 100+ tok/s decode, ~160 tok/s with two chats at once, and my legal harness now runs on it, 100% local</title>
@@ -240,22 +231,31 @@
     <summary>The Devin Teams plan now includes Devin Desktop for every user, free sessions powered by SWE-2, SSO, cost controls, and a standard BAA for Teams customers.</summary>
   </entry>
   <entry>
-    <title>Congress Could Have Prevented Megaspeed Access: McGuire</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-11-12/congress-could-have-prevented-megaspeed-access-mcguire-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-11-12/congress-could-have-prevented-megaspeed-access-mcguire-video</id>
-    <updated>2026-11-12T23:36:51.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Chris McGuire, a senior fellow for China and emerging technologies at the Council on Foreign Relations and former Biden administration technology and national security official, says the key question is not whether export controls can work, but whether they are being enforced. McGuire speaks with Romaine Bostick and Je</summary>
+    <title>What Is Eval-Driven Development? How to Improve AI Agents</title>
+    <link href="https://www.langchain.com/blog/what-is-eval-driven-development"/>
+    <id>https://www.langchain.com/blog/what-is-eval-driven-development</id>
+    <updated>2026-11-12T20:31:46.000Z</updated>
+    <author><name>LangChain Blog</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Eval-driven development helps you build AI agents against a consistent set of metrics. Define good behavior, write the eval first, then compare experiments.</summary>
   </entry>
   <entry>
-    <title>Gold Holds Drop to Near One-Year Low as Rate-Hike Bets Increase</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-12/gold-holds-drop-to-near-one-year-low-as-rate-hike-bets-increase"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-12/gold-holds-drop-to-near-one-year-low-as-rate-hike-bets-increase</id>
-    <updated>2026-11-12T23:58:45.000Z</updated>
+    <title>Nvidia Is Not a Normal Company Having a CEO Issue: Everson</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-11-13/nvda-is-not-a-normal-company-having-a-ceo-issue-everson-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-11-13/nvda-is-not-a-normal-company-having-a-ceo-issue-everson-video</id>
+    <updated>2026-11-13T00:19:02.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Gold traded near a one-year low as investors ramped up bets on the Federal Reserve hiking rates to combat persistent inflation.</summary>
+    <summary>Carolyn Everson, a board member at Coca-Cola, Disney and Under Armour and a senior advisor at Permira, discusses how boards respond to allegations involving executives. Everson speaks with Romaine Bostick and Jess Menton on “The Close.” (Source: Bloomberg)</summary>
+  </entry>
+  <entry>
+    <title>Charles Elson on Nvidia’s Corporate Governance Structure</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-11-13/charles-elson-on-nvidia-s-corporate-governance-structure-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-11-13/charles-elson-on-nvidia-s-corporate-governance-structure-video</id>
+    <updated>2026-11-13T00:13:57.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Charles Elson, founding director of the University of Delaware’s Weinberg Center for Corporate Governance, says Nvidia’s board should have had a clearer succession plan and stronger oversight in place. He speaks with Romaine Bostick and Jess Menton on “The Close.” (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>Liquid AI Releases LiquidCodec, a 74M-Parameter Streaming Audio Codec</title>
@@ -267,12 +267,12 @@
     <summary>Liquid AI released LiquidCodec, a ~74M-parameter streaming audio codec that powers LFM3-Audio-2B and LFM3-Omni-2B. It runs at 12.5 Hz with 12 codebooks and encodes about 361x faster than real time on a single CPU thread. The post Liquid AI Releases LiquidCodec, a 74M-Parameter Streaming Audio Codec appeared first on Ma</summary>
   </entry>
   <entry>
-    <title>How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore</title>
-    <link href="https://aws.amazon.com/blogs/machine-learning/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore"/>
-    <id>https://aws.amazon.com/blogs/machine-learning/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore</id>
-    <updated>2026-11-12T21:47:07.000Z</updated>
-    <author><name>AWS ML Blog</name></author>
+    <title>Reranking in RAG: How to Fix Bad Retrieval with a Reranker</title>
+    <link href="https://openrouter.ai/blog/tutorials/reranking-rag"/>
+    <id>https://openrouter.ai/blog/tutorials/reranking-rag</id>
+    <updated>2026-11-13T00:00:00.000Z</updated>
+    <author><name>OpenRouter Blog</name></author>
     <category term="PRODUCTS"/>
-    <summary>Natera built SWARM, an agentic AI system on Amazon Bedrock AgentCore that captures institutional lab-operations knowledge and deploys it at scale. This post walks through the full architecture, from knowledge base construction to deployment and evaluation, delivering about 130x faster first response and 96.2% automated</summary>
+    <summary>When a RAG (Retrieval-Augmented Generation) app gives wrong answers even though the right information is in your documents, retrieval is often the cause. Vector search is great at finding chunks on the right topic, but it often falls for near misses, like pulling the bucket limit for the Enterprise plan when the user a</summary>
   </entry>
 </feed>
