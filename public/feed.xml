@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-13T17:50:09.783Z</updated>
+  <updated>2026-11-13T18:08:54.070Z</updated>
   <entry>
     <title>llama.cpp v1.0.0 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0"/>
@@ -13,7 +13,7 @@
     <updated>2026-11-13T14:08:10.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Blog post: https://huggingface.co/blog/ggml-org/llama-cpp-v1 Overview llama.cpp v1.0.0 removes the deprecated public API and promotes the NextN/speculative API to llama.h , adds OCP FP8 KV caches, a host-memory MoE expert cache with a configurable CPU share, and loading of external PLE shards. It adds three text archit — Also covered by: Lemmy c/localllama</summary>
+    <summary>Blog post: https://huggingface.co/blog/ggml-org/llama-cpp-v1 Overview llama.cpp v1.0.0 removes the deprecated public API and promotes the NextN/speculative API to llama.h , adds OCP FP8 KV caches, a host-memory MoE expert cache with a configurable CPU share, and loading of external PLE shards. It adds three text archit — Also covered by: Lemmy c/localllama, LocalLLaMA Subreddit</summary>
   </entry>
   <entry>
     <title>Introducing ChatGPT Wallet</title>
@@ -34,6 +34,15 @@
     <summary>Also covered by: Ai2 (Allen Institute)</summary>
   </entry>
   <entry>
+    <title>ChatGPT Launches Wallet Feature Allowing Users to Pay With Agents</title>
+    <link href="https://www.wsj.com/tech/ai/chatgpt-launches-wallet-feature-allowing-users-to-pay-with-agents-2abcded2?mod=rss_Technology"/>
+    <id>https://www.wsj.com/tech/ai/chatgpt-launches-wallet-feature-allowing-users-to-pay-with-agents-2abcded2?mod=rss_Technology</id>
+    <updated>2026-11-13T17:05:00.000Z</updated>
+    <author><name>WSJ Tech</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Users can add a debit or credit card to ChatGPT Wallet, which can then be used for payments without the need to re-enter card information. — Also covered by: Reuters AI (Google News)</summary>
+  </entry>
+  <entry>
     <title>Google Releases TPU Sync: Open-Source KV Cache Transfer for TPUs</title>
     <link href="https://www.marktechpost.com/2026/11/13/google-tpu-sync-kv-cache-transfer-library"/>
     <id>https://www.marktechpost.com/2026/11/13/google-tpu-sync-kv-cache-transfer-library</id>
@@ -50,15 +59,6 @@
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.</summary>
-  </entry>
-  <entry>
-    <title>Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1xv721n/nvidia_privately_confirmed_it_could_track_chips"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1xv721n/nvidia_privately_confirmed_it_could_track_chips</id>
-    <updated>2026-11-13T12:51:05.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>They are going to lock the new GPUs. &quot;Rep. Bill Foster says he intends to introduce new, stricter legislation that would require licenses to operate advanced GPUs , and “before a GPU could connect, its valid license would need to be verified.” That is closer to a remote lock/disable capability—but it is a proposed futu — Also covered by: MIT Tech Review AI</summary>
   </entry>
   <entry>
     <title>Gondola doubles revenue as its team builds more with Codex</title>
@@ -88,22 +88,22 @@
     <summary>Bloomberg : Sources: Anthropic's IPO, like SpaceX's, is closed to institutional investors in mainland China and Hong Kong, partly due to US arms export rules — Institutional investors based in mainland China and Hong Kong have been excluded from placing orders in Anthropic PBC's initial public offering …</summary>
   </entry>
   <entry>
-    <title>MACaQ 🐒: Open-source quantizer with a &quot;refinement&quot; mode for existing GGUFs + custom llama.cpp &amp; vLLM kernels</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1xv760f/macaq_opensource_quantizer_with_a_refinement_mode"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1xv760f/macaq_opensource_quantizer_with_a_refinement_mode</id>
-    <updated>2026-11-13T12:56:18.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>DeepSeek flash max is the first model to reach &gt;1% on challenging SWE-sweep bug finding benchmark</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xvcgxq/deepseek_flash_max_is_the_first_model_to_reach_1"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xvcgxq/deepseek_flash_max_is_the_first_model_to_reach_1</id>
+    <updated>2026-11-13T16:31:47.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Sharing MACaQ 🐒 , a fast, open-source quantization framework that outperforms popular Unsloth and Bartowski GGUFs on low-bit KLD while maintaining model size and inference speed. Also supports activation quantization and text-to-image and text-to-video models. Some key features: GGUF Refinement Mode: Upgrades existing</summary>
+    <summary>Hi, I've just updated the SWE-sweep leaderboard with more open-weight models! DeepSeek v4.1 flash (max) is the first open-weight model we evaluated that gets &gt;1%. This benchmark is extremely challenging: Models get a snapshot of a (potentially very large) repo containing hundreds of bugs. They don't receive any hint ab</summary>
   </entry>
   <entry>
-    <title>LangChain Raises $300M Series C at $3B Valuation</title>
-    <link href="https://www.langchain.com/blog/series-c"/>
-    <id>https://www.langchain.com/blog/series-c</id>
-    <updated>2026-11-13T16:06:29.000Z</updated>
-    <author><name>LangChain Blog</name></author>
+    <title>Introducing Devin Apps</title>
+    <link href="https://devin.ai/blog/devin-apps"/>
+    <id>https://devin.ai/blog/devin-apps</id>
+    <updated>2026-11-13T18:00:00.000Z</updated>
+    <author><name>Devin (Cognition)</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>LangChain raises $300M Series C at a $3B valuation, led by CapitalG, to help every company own its intelligence with LangSmith, the agent engineering platform.</summary>
+    <summary>Devin Apps are live, private web applications hosted directly on Devin's cloud computer. Here is how to create, share, and update one.</summary>
   </entry>
   <entry>
     <title>Indonesian Billionaire’s LNG Plant Gets $140 Million From Canada</title>
@@ -151,13 +151,13 @@
     <summary>ARTEX be hacking errybody up in here, the critical gap between when a patch is public and defenders respond, and how stable releases may be missing many patches</summary>
   </entry>
   <entry>
-    <title>DOJ: Gootloader used in at least 44 ransomware attacks costing $29 million since 2018</title>
-    <link href="https://therecord.media/gootloader-ransomware-doj-details"/>
-    <id>https://therecord.media/gootloader-ransomware-doj-details</id>
-    <updated>2026-11-13T15:59:00.000Z</updated>
+    <title>University of Texas at Arlington warns personal information stolen during cyberattack</title>
+    <link href="https://therecord.media/university-of-texas-arlington-warns-data-breach"/>
+    <id>https://therecord.media/university-of-texas-arlington-warns-data-breach</id>
+    <updated>2026-11-13T17:26:00.000Z</updated>
     <author><name>The Record</name></author>
     <category term="CYBER THREATS"/>
-    <summary>In a briefing adjacent to European announcements about an international anti-malware operation, U.S. officials detailed the history and impact of the Gootloader ransomware.</summary>
+    <summary>In a statement to Recorded Future News, a spokesperson said an investigation into the attack confirmed the stolen data but declined to say what information was obtained by the threat actors.</summary>
   </entry>
   <entry>
     <title>Policy and Disclosure: 2026 Edition</title>
@@ -178,13 +178,13 @@
     <summary>Anthropic is on track for the largest IPO ever, with orders exceeding available shares by a factor of six. The article Anthropic's IPO is six times oversubscribed and on track to become the largest public offering in history appeared first on The Decoder .</summary>
   </entry>
   <entry>
-    <title>[AINews] Jensen Huang resigns after 33 years leading NVIDIA</title>
-    <link href="https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia"/>
-    <id>https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia</id>
-    <updated>2026-11-13T09:04:13.000Z</updated>
-    <author><name>Latent Space</name></author>
+    <title>2026.46: The End of Jensen</title>
+    <link href="https://stratechery.com/2026/the-end-of-jensen"/>
+    <id>https://stratechery.com/2026/the-end-of-jensen</id>
+    <updated>2026-11-13T18:00:00.000Z</updated>
+    <author><name>Stratechery</name></author>
     <category term="ANALYSIS"/>
-    <summary>November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?</summary>
+    <summary>The best Stratechery content from the week of November 9, 2026, including the shocking demise of Jensen Huang; enterprise, consumer and Intel; and professional basketbal.</summary>
   </entry>
   <entry>
     <title>ASUS Unveils Gallop, Its First Humanoid Robot, Already Packing Parts on Its Own Production Line</title>
@@ -223,30 +223,40 @@
     <summary>Jensen Huang’s resignation from the AI chipmaker Nvidia has sent shockwaves through the global economy. Huang resigned after reported affairs with an Nvidia executive and a woman alleged to be a Chinese spy. The fallout is not over yet, with criticism mounting over the apparent lack of action from the US commerce secre</summary>
   </entry>
   <entry>
-    <title>Jensen Didn’t Create the AI Boom. It Created Him.</title>
-    <link href="https://www.theinformation.com/articles/jensen-create-ai-boom-created-him"/>
-    <id>https://www.theinformation.com/articles/jensen-create-ai-boom-created-him</id>
-    <updated>2026-11-13T16:30:17.000Z</updated>
-    <author><name>The Information</name></author>
+    <title>Microsoft says Microsoft 365 availability is improving as the outage stretches into a second day, disrupting governments, hospitals, and businesses globally (Bruce Gil/Gizmodo)</title>
+    <link href="https://www.techmeme.com/261113/p21"/>
+    <id>https://www.techmeme.com/261113/p21</id>
+    <updated>2026-11-13T17:50:02.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>If you follow investors and reporters on X, you would get the sense that the resignation of Jensen Huang amounts to the end of the AI boom. A summary of my X feed Wednesday morning would go something like “I hope the Nvidia board knew what they were doing before ending the world as we know it.” But if you believe that </summary>
+    <summary>Bruce Gil / Gizmodo : Microsoft says Microsoft 365 availability is improving as the outage stretches into a second day, disrupting governments, hospitals, and businesses globally — The tech giant is racing to fully restore Outlook, Teams, and other Microsoft 365 services following a widespread outage.</summary>
   </entry>
   <entry>
-    <title>llama.cpp v1.0.0</title>
-    <link href="https://sh.itjust.works/post/69868772"/>
-    <id>https://sh.itjust.works/post/69868772</id>
-    <updated>2026-11-13T14:42:33.000Z</updated>
-    <author><name>Lemmy c/localllama</name></author>
+    <title>b12363: ggml-vulkan: add optional device keepalive (#29267)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12363"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12363</id>
+    <updated>2026-11-13T11:53:55.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by Shatur to localllama 31 points | 1 comments https://huggingface.co/blog/ggml-org/llama-cpp-v1 From their official post on Reddit: Hey folks, it’s Merve from Hugging Face. Today, llama.cpp releases v1! Moving forward, we’ll keep covering every platform and every model type, while keeping llama.cpp robust an — Also covered by: ggml-org/llama.cpp</summary>
+    <summary>ggml-vulkan: add optional device keepalive simplify implementation, move ownership to backend, change env var to seconds Co-authored-by: Acmmi acmmi@Acmmis-MacBook-Air.local Co-authored-by: Ruben Ortlam rortlam@redhat.com</summary>
   </entry>
   <entry>
-    <title>llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem</title>
-    <link href="https://huggingface.co/blog/ggml-org/llama-cpp-v1"/>
-    <id>https://huggingface.co/blog/ggml-org/llama-cpp-v1</id>
-    <updated>2026-11-13T14:05:22.000Z</updated>
-    <author><name>Hugging Face Blog</name></author>
+    <title>I noticed the 2 Hessian Refinement of MACaQ can be applied to any GGUF without any patches ... and tried it. 13% better quants</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xvbqqa/i_noticed_the_2_hessian_refinement_of_macaq_can"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xvbqqa/i_noticed_the_2_hessian_refinement_of_macaq_can</id>
+    <updated>2026-11-13T16:03:56.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
+    <summary>TLDR: Qwen3.8-27B UD_4_XL quant with 13.23% less KL divergence than unsloth (on my small testset, I just have a single 5090, feel free to test more). Technically it performs 4% better on my LiveCodeBench benchmark (but that would be a single data point, so it's not super-reliable). It is equally fast and using it in op</summary>
+  </entry>
+  <entry>
+    <title>LangChain Raises $300M Series C at $3B Valuation</title>
+    <link href="https://www.langchain.com/blog/series-c"/>
+    <id>https://www.langchain.com/blog/series-c</id>
+    <updated>2026-11-13T16:06:29.000Z</updated>
+    <author><name>LangChain Blog</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>LangChain raises $300M Series C at a $3B valuation, led by CapitalG, to help every company own its intelligence with LangSmith, the agent engineering platform.</summary>
   </entry>
   <entry>
     <title>langchain v1.8.0 released</title>
@@ -256,15 +266,6 @@
     <author><name>langchain-ai/langchain</name></author>
     <category term="AGENTS &amp; TOOLS"/>
     <summary>langchain-openai 1.8.0 drops support for Python 3.10 , which has reached end-of-life. The minimum supported version is now Python 3.11, and the minimum langchain-core version is now 1.8.0. Users on Python 3.10 will continue to resolve langchain-openai 1.7.x. Changes since langchain-openai==1.7.4 release(openai): 1.8.0 </summary>
-  </entry>
-  <entry>
-    <title>OpenAI announces ChatGPT Wallet, which lets its dots AI agents make purchases on behalf of users, available to ChatGPT Pro subscribers in the US who are over 18 (Ashley Capoot/CNBC)</title>
-    <link href="https://www.techmeme.com/261113/p15"/>
-    <id>https://www.techmeme.com/261113/p15</id>
-    <updated>2026-11-13T15:35:05.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Ashley Capoot / CNBC : OpenAI announces ChatGPT Wallet, which lets its dots AI agents make purchases on behalf of users, available to ChatGPT Pro subscribers in the US who are over 18 — OpenAI on Friday announced ChatGPT Wallet, a new payment feature that enables its “dots” artificial intelligence agents to make purcha</summary>
   </entry>
   <entry>
     <title>The Billion-Dollar Business of Virtual Schools</title>
