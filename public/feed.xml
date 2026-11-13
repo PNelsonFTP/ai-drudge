@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-13T14:08:39.627Z</updated>
+  <updated>2026-11-13T15:08:39.804Z</updated>
   <entry>
-    <title>NVIDIA CEO Jensen Huang Resigns, Colette Kress Named Interim CEO</title>
-    <link href="https://www.hpcwire.com/off-the-wire/nvidia-ceo-jensen-huang-resigns-colette-kress-named-interim-ceo"/>
-    <id>https://www.hpcwire.com/off-the-wire/nvidia-ceo-jensen-huang-resigns-colette-kress-named-interim-ceo</id>
-    <updated>2026-11-12T23:56:08.000Z</updated>
-    <author><name>HPC Wire</name></author>
-    <category term="HARDWARE"/>
-    <summary>Nov. 12, 2026 — NVIDIA Board of Directors announced today that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately. Colette Kress, current Executive Vice President and Chief Financial Officer of NVIDIA, has agreed to serve as Interim Chief Executive Officer. — Also covered by: ServeTheHome, Humanoids Daily</summary>
+    <title>llama.cpp v1.0.0 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0</id>
+    <updated>2026-11-13T14:08:10.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Blog post: https://huggingface.co/blog/ggml-org/llama-cpp-v1 Overview llama.cpp v1.0.0 removes the deprecated public API and promotes the NextN/speculative API to llama.h , adds OCP FP8 KV caches, a host-memory MoE expert cache with a configurable CPU share, and loading of external PLE shards. It adds three text archit — Also covered by: Lemmy c/localllama, LocalLLaMA Subreddit</summary>
   </entry>
   <entry>
     <title>Google Releases TPU Sync: Open-Source KV Cache Transfer for TPUs</title>
@@ -34,13 +34,13 @@
     <summary>Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.</summary>
   </entry>
   <entry>
-    <title>Microsoft Outlook outage stretches into a second day. What to know.</title>
+    <title>Microsoft Outlook outage stretches into a second day: What to know</title>
     <link href="https://www.marketwatch.com/story/microsoft-stock-slumps-on-outage-that-includes-the-copilot-tool-it-has-been-heavily-promoting-4007dc4f?mod=mw_rss_topstories"/>
     <id>https://www.marketwatch.com/story/microsoft-stock-slumps-on-outage-that-includes-the-copilot-tool-it-has-been-heavily-promoting-4007dc4f?mod=mw_rss_topstories</id>
-    <updated>2026-11-13T13:36:00.000Z</updated>
+    <updated>2026-11-13T14:22:00.000Z</updated>
     <author><name>MarketWatch</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Microsoft notes ‘no evidence of malicious activity’ as it works to restore access to email and other services. — Also covered by: ZDNet AI</summary>
+    <summary>Microsoft said there is “no evidence of malicious activity” as it works to restore access to email and other services. — Also covered by: ZDNet AI</summary>
   </entry>
   <entry>
     <title>Gondola doubles revenue as its team builds more with Codex</title>
@@ -79,58 +79,22 @@
     <summary>This commit removes the llama version test-cmake and instead uses the version that is supplied by CMAKE_PREFIX_PATH. The motivation for this is to avoid issues when bumping major versions.</summary>
   </entry>
   <entry>
-    <title>OpenAI launches Daybreak Red Team in early access to test web apps for flaws and Daybreak Defense Factory to automate finding, validating, and fixing them (Jessica Lyons/The Register)</title>
-    <link href="https://www.techmeme.com/261113/p5"/>
-    <id>https://www.techmeme.com/261113/p5</id>
-    <updated>2026-11-13T07:25:02.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Elevated errors on claude.ai, Claude Code, and platform.claude.com</title>
+    <link href="https://status.claude.com/incidents/nn11wk485zfn"/>
+    <id>https://status.claude.com/incidents/nn11wk485zfn</id>
+    <updated>2026-11-13T10:18:13.000Z</updated>
+    <author><name>HN: AI (150+ points)</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Jessica Lyons / The Register : OpenAI launches Daybreak Red Team in early access to test web apps for flaws and Daybreak Defense Factory to automate finding, validating, and fixing them — OpenAI has launched two new security products, one for penetration testing and another for defense, and warned organizations …</summary>
+    <summary>Article URL: https://status.claude.com/incidents/nn11wk485zfn Comments URL: https://news.ycombinator.com/item?id=50481187 Points: 361 # Comments: 314</summary>
   </entry>
   <entry>
-    <title>llama.cpp v1.0.0 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0</id>
-    <updated>2026-11-13T14:08:10.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>Perplexity releases Decider v1.3 (26B) and Decider Flash v1.3 (5B): open-weight (Apache 2.0) classification/decision models</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xv7fku/perplexity_releases_decider_v13_26b_and_decider"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xv7fku/perplexity_releases_decider_v13_26b_and_decider</id>
+    <updated>2026-11-13T13:08:10.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Blog post: https://huggingface.co/blog/ggml-org/llama-cpp-v1 Overview llama.cpp v1.0.0 removes the deprecated public API and promotes the NextN/speculative API to llama.h , adds OCP FP8 KV caches, a host-memory MoE expert cache with a configurable CPU share, and loading of external PLE shards. It adds three text archit</summary>
-  </entry>
-  <entry>
-    <title>Stocks Rise Ahead of PPI; Microsoft Outage; Nvidia Fallout</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-11-13/bloomberg-brief-11-13-2026-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-11-13/bloomberg-brief-11-13-2026-video</id>
-    <updated>2026-11-13T13:43:23.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>US equity futures rise as investors await the latest inflation data to cap a dramatic week. Microsoft sees signs of early stabilization from a global service outage affecting Outlook, Teams, and Copilot. US Commerce Secretary Howard Lutnick comes under scrutiny amid Nvidia’s leadership crisis. Michael Purves of Tallbac</summary>
-  </entry>
-  <entry>
-    <title>Gold Crackdown in UAE Fails to Curb African Smuggling, NGO Says</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-13/gold-crackdown-in-uae-fails-to-curb-african-smuggling-ngo-says"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-13/gold-crackdown-in-uae-fails-to-curb-african-smuggling-ngo-says</id>
-    <updated>2026-11-13T13:48:31.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Gold smuggling from Africa to the United Arab Emirates showed little sign of slowing after the Gulf state introduced tougher sourcing rules, according to a new report by SwissAid.</summary>
-  </entry>
-  <entry>
-    <title>transformers v5.23.0 released</title>
-    <link href="https://github.com/huggingface/transformers/releases/tag/v5.23.0"/>
-    <id>https://github.com/huggingface/transformers/releases/tag/v5.23.0</id>
-    <updated>2026-11-13T14:06:36.000Z</updated>
-    <author><name>huggingface/transformers</name></author>
-    <category term="RESEARCH"/>
-    <summary>Add tag v5.23.0</summary>
-  </entry>
-  <entry>
-    <title>How AI Is Helping Care Teams Get Patients the Right Care, Sooner</title>
-    <link href="https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams"/>
-    <id>https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams</id>
-    <updated>2026-11-13T13:00:42.000Z</updated>
-    <author><name>NVIDIA Blog</name></author>
-    <category term="HARDWARE"/>
-    <summary>From pediatric research to smart hospitals, AI is helping care teams spend less time on routine tasks and more time with patients. Health systems and startups are putting it to work across healthcare, from matching patients to clinical trials to supporting radiologists, hospital teams and patients at home. Clinicians s</summary>
+    <summary>Perplexity has released two new &quot;decision models.&quot; These are general-purpose classifiers built from generative LLM backbones. You give them an input (the &quot;state&quot;) and one or more questions, and they return a probability distribution over the answer options. They don't generate text token by token. Models pplx-decider-v</summary>
   </entry>
   <entry>
     <title>Google Open Sources Ambient Quality Agent (AQuA) to Diagnose Production AI Agent Failures</title>
@@ -138,8 +102,44 @@
     <id>https://www.infoq.com/news/2026/11/google-ambient-agent-prod</id>
     <updated>2026-11-13T13:53:00.000Z</updated>
     <author><name>InfoQ AI/ML</name></author>
-    <category term="OPEN SOURCE"/>
+    <category term="AGENTS &amp; TOOLS"/>
     <summary>Google has open-sourced AQuA, a reference implementation that analyzes production AI agent sessions, verifies recurring failure patterns, and investigates root causes against deployed source snapshots. In a 32-session replay, developers reduced seat selection bypasses from 15 sessions to two and dietary preference omis</summary>
+  </entry>
+  <entry>
+    <title>Senegal Bonds Plunge as Budget Row Puts IMF Program at Risk</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-13/senegal-bonds-plunge-as-budget-row-puts-imf-program-at-risk"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-13/senegal-bonds-plunge-as-budget-row-puts-imf-program-at-risk</id>
+    <updated>2026-11-13T14:31:14.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Senegal’s dollar bonds fell this week as a budget standoff threatens to delay the government’s efforts to secure a $2.2 billion International Monetary Fund program.</summary>
+  </entry>
+  <entry>
+    <title>transformers v5.23.0 released</title>
+    <link href="https://github.com/huggingface/transformers/releases/tag/v5.23.0"/>
+    <id>https://github.com/huggingface/transformers/releases/tag/v5.23.0</id>
+    <updated>2026-11-13T14:10:57.000Z</updated>
+    <author><name>huggingface/transformers</name></author>
+    <category term="RESEARCH"/>
+    <summary>Release v5.23.0 New Model additions Inkling2 Inkling 2 Small is a multimodal model from Thinking Machines Lab that accepts text and image inputs and generates text outputs, and it is intended for use in English and other languages and across multiple coding languages. Its language backbone has 48 mixture-of-experts dec</summary>
+  </entry>
+  <entry>
+    <title>Google Releases Gemini 4 Hydrogen: 2.5x Faster Than Gemini 3.8 Flash</title>
+    <link href="https://www.marktechpost.com/2026/11/13/google-gemini-4-hydrogen"/>
+    <id>https://www.marktechpost.com/2026/11/13/google-gemini-4-hydrogen</id>
+    <updated>2026-11-13T09:45:48.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Google released Gemini 4 Hydrogen, a fast agentic model with a 1M-token window, 4 thinking levels and $1.50/$7.50 pricing. Google reports a 51 Artificial Analysis score and 57% on Terminal-Bench 4.1. The post Google Releases Gemini 4 Hydrogen: 2.5x Faster Than Gemini 3.8 Flash appeared first on MarkTechPost .</summary>
+  </entry>
+  <entry>
+    <title>Prohibited AI Practices under the AI Act</title>
+    <link href="https://artificialintelligenceact.eu/prohibited-ai-practices-under-the-ai-act"/>
+    <id>https://artificialintelligenceact.eu/prohibited-ai-practices-under-the-ai-act</id>
+    <updated>2026-11-13T13:35:13.000Z</updated>
+    <author><name>EU AI Act Newsletter</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>Since 2 February 2025, eight categories of AI practices have been banned in the EU because they pose unacceptable risks to fundamental rights and Union values. These ‘prohibited practices’ are set out in Article 5 of the AI Act. In 2026, the Digital Omnibus added two further prohibitions, which apply from 2 December 20</summary>
   </entry>
   <entry>
     <title>[tl;dr sec] #354 - ARTEX &amp; Agentic Hacking in the Wild, The Patchless Window, Backporting Security Fixes</title>
@@ -151,13 +151,13 @@
     <summary>ARTEX be hacking errybody up in here, the critical gap between when a patch is public and defenders respond, and how stable releases may be missing many patches</summary>
   </entry>
   <entry>
-    <title>Microsoft says November security updates cause printing issues</title>
-    <link href="https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues"/>
-    <id>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues</id>
-    <updated>2026-11-13T12:27:40.000Z</updated>
-    <author><name>BleepingComputer</name></author>
+    <title>Ransomware attack on Belarusian cloud firm disrupts businesses for days</title>
+    <link href="https://therecord.media/belarus-cloud-provider-activecloud-ransomware-attack"/>
+    <id>https://therecord.media/belarus-cloud-provider-activecloud-ransomware-attack</id>
+    <updated>2026-11-13T14:28:00.000Z</updated>
+    <author><name>The Record</name></author>
     <category term="CYBER THREATS"/>
-    <summary>Microsoft warned customers earlier this week that the November 2026 security updates may break printing for documents with complex formatting. [...]</summary>
+    <summary>ActiveCloud said hackers had breached its systems and encrypted parts of its cloud infrastructure, leaving customers unable to access key services for several days.</summary>
   </entry>
   <entry>
     <title>Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors</title>
@@ -169,13 +169,13 @@
     <summary>Our analysis of how attackers used the open-source Cairn AI agent framework to autonomously breach semiconductor, defense and civic targets. The post Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors appeared first on Unit 42 .</summary>
   </entry>
   <entry>
-    <title>AI server maker xFusion gets approval from the Shenzhen Stock Exchange for a ChiNext IPO; filing: the company aims to raise ~$1.2B by issuing up to 220M shares (Sangmi Cha/Bloomberg)</title>
-    <link href="https://www.techmeme.com/261113/p6"/>
-    <id>https://www.techmeme.com/261113/p6</id>
-    <updated>2026-11-13T09:35:00.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Anthropic IPO to Cap Year of Record-Breaking Equity Megadeals</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-13/anthropic-ipo-to-cap-year-of-record-breaking-equity-megadeals"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-13/anthropic-ipo-to-cap-year-of-record-breaking-equity-megadeals</id>
+    <updated>2026-11-13T14:19:49.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="FUNDING &amp; DEALS"/>
-    <summary>Sangmi Cha / Bloomberg : AI server maker xFusion gets approval from the Shenzhen Stock Exchange for a ChiNext IPO; filing: the company aims to raise ~$1.2B by issuing up to 220M shares — Artificial intelligence server maker xFusion Digital Technologies Co. received approval from the Shenzhen Stock Exchange on Thursday </summary>
+    <summary>Anthropic PBC is poised to add to a blockbuster year of transactions that are orders of magnitude larger than those seen in the past decade, with the biggest initial public offering of all time joining a half dozen other jumbo equity deals.</summary>
   </entry>
   <entry>
     <title>[AINews] Jensen Huang resigns after 33 years leading NVIDIA</title>
@@ -187,13 +187,13 @@
     <summary>November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?</summary>
   </entry>
   <entry>
-    <title>How Rhoda AI is using video data to create generalized AI models for robots</title>
-    <link href="https://www.therobotreport.com/how-rhoda-ai-is-using-video-data-to-create-generalized-ai-models-for-robots"/>
-    <id>https://www.therobotreport.com/how-rhoda-ai-is-using-video-data-to-create-generalized-ai-models-for-robots</id>
-    <updated>2026-11-13T13:30:44.000Z</updated>
-    <author><name>The Robot Report</name></author>
+    <title>ASUS Unveils Gallop, Its First Humanoid Robot, Already Packing Parts on Its Own Production Line</title>
+    <link href="https://www.humanoidsdaily.com/news/asus-gallop-humanoid-robot-jetson-thor-2028"/>
+    <id>https://www.humanoidsdaily.com/news/asus-gallop-humanoid-robot-jetson-thor-2028</id>
+    <updated>2026-11-13T14:38:55.000Z</updated>
+    <author><name>Humanoids Daily</name></author>
     <category term="ROBOTICS"/>
-    <summary>Rhoda AI offers a direct video action model, which it recently extended with mobile DVA, to enable robots to understand the physical world. The post How Rhoda AI is using video data to create generalized AI models for robots appeared first on The Robot Report .</summary>
+    <summary>The two-armed robot runs on NVIDIA Jetson Thor and learns from head-camera footage of ASUS factory workers. Partner pilots start in 2027, with a market launch targeted for the second half of 2028.</summary>
   </entry>
   <entry>
     <title>LTM Becomes First Global Systems Integrator to Launch Function in IBM Quantum Functions Catalog with AI-QEM</title>
@@ -221,57 +221,57 @@
     <category term="MODEL RELEASES"/>
   </entry>
   <entry>
-    <title>China's $3 billion-plus pipeline of Nvidia-powered AI data centres</title>
-    <link href="https://www.reuters.com/world/china/factbox-chinas-3-billion-plus-pipeline-nvidia-powered-ai-data-centres-2026-11-13"/>
-    <id>https://www.reuters.com/world/china/factbox-chinas-3-billion-plus-pipeline-nvidia-powered-ai-data-centres-2026-11-13</id>
-    <updated>2026-11-13T13:00:03.000Z</updated>
+    <title>EXCLUSIVE: Huang exit and US scrutiny imperil $3 billion in Chinese AI projects reliant on Nvidia</title>
+    <link href="https://www.reuters.com/world/china/huang-exit-us-scrutiny-imperil-3-billion-chinese-ai-projects-reliant-nvidia-2026-11-13"/>
+    <id>https://www.reuters.com/world/china/huang-exit-us-scrutiny-imperil-3-billion-chinese-ai-projects-reliant-nvidia-2026-11-13</id>
+    <updated>2026-11-13T14:12:25.000Z</updated>
     <author><name>Reuters AI (Google News)</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>China's $3 billion-plus pipeline of Nvidia-powered AI data centres Reuters</summary>
+    <summary>EXCLUSIVE: Huang exit and US scrutiny imperil $3 billion in Chinese AI projects reliant on Nvidia Reuters</summary>
   </entry>
   <entry>
-    <title>Perplexity releases Decider v1.3 (26B) and Decider Flash v1.3 (5B): open-weight (Apache 2.0) classification/decision models</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xv7fku/perplexity_releases_decider_v13_26b_and_decider"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xv7fku/perplexity_releases_decider_v13_26b_and_decider</id>
-    <updated>2026-11-13T13:08:10.000Z</updated>
+    <title>Scott Bessent says the departments of Treasury, Defense, State were in favor of putting Megaspeed on the entity list for months, but Commerce is in charge (CNBC)</title>
+    <link href="https://www.techmeme.com/261113/p13"/>
+    <id>https://www.techmeme.com/261113/p13</id>
+    <updated>2026-11-13T14:50:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>CNBC : Scott Bessent says the departments of Treasury, Defense, State were in favor of putting Megaspeed on the entity list for months, but Commerce is in charge — Treasury Secretary Scott Bessent on Friday said his department and others in the Trump administration have long supported slapping restrictions …</summary>
+  </entry>
+  <entry>
+    <title>I ran the same Halloween animation prompt through five coding agents on one local Qwen model</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xv5dsb/i_ran_the_same_halloween_animation_prompt_through"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xv5dsb/i_ran_the_same_halloween_animation_prompt_through</id>
+    <updated>2026-11-13T11:25:12.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Perplexity has released two new &quot;decision models.&quot; These are general-purpose classifiers built from generative LLM backbones. You give them an input (the &quot;state&quot;) and one or more questions, and they return a probability distribution over the answer options. They don't generate text token by token. Models pplx-decider-v</summary>
+    <summary>I gave Claude Code, OpenCode, GitHub Copilot Desktop, Pi, and Codex the same prompt to build a looping pixel-art Halloween diorama. I pointed all five at the same local model, Qwen3.8 Flash Next (Unsloth UD-Q4_K_XL) , served by Halogen. The attached video shows 30 seconds of each result playing together. ### My setup -</summary>
   </entry>
   <entry>
-    <title>llama.cpp : bump version to 1.0.0 by ggerganov · Pull Request #32190 · ggml-org/llama.cpp</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xv3cyt/llamacpp_bump_version_to_100_by_ggerganov_pull"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xv3cyt/llamacpp_bump_version_to_100_by_ggerganov_pull</id>
-    <updated>2026-11-13T09:22:15.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>llama.cpp v1.0.0</title>
+    <link href="https://sh.itjust.works/post/69868772"/>
+    <id>https://sh.itjust.works/post/69868772</id>
+    <updated>2026-11-13T14:42:33.000Z</updated>
+    <author><name>Lemmy c/localllama</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>llama.cpp is now 1.0.0 (maybe there will be some additional announcement? I couldn't find it now) submitted by /u/jacek2023 [link] [comments]</summary>
+    <summary>submitted by Shatur to localllama 6 points | 1 comments https://huggingface.co/blog/ggml-org/llama-cpp-v1 From their official post on Reddit: Hey folks, it’s Merve from Hugging Face. Today, llama.cpp releases v1! Moving forward, we’ll keep covering every platform and every model type, while keeping llama.cpp robust and — Also covered by: ggml-org/llama.cpp, LocalLLaMA Subreddit</summary>
   </entry>
   <entry>
-    <title>SynthCorp: A Platform for Creating Benchmarks for Data Agents</title>
-    <link href="https://arxiv.org/abs/2611.14765"/>
-    <id>https://arxiv.org/abs/2611.14765</id>
-    <updated>2026-11-13T05:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
+    <title>How one AI agent exposed five critical enterprise security gaps</title>
+    <link href="https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps"/>
+    <id>https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps</id>
+    <updated>2026-11-13T15:01:11.000Z</updated>
+    <author><name>BleepingComputer</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>arXiv:2611.14765v1 Announce Type: new Abstract: Current benchmarks for LLM-driven data agents saturate quickly and cannot target specific capabilities. We present SynthCorp, a platform that creates customizable data estates and benchmarks by simulating how business events produce and modify corporate data over time. Ea</summary>
+    <summary>An AI agent built to automate invoice processing could be manipulated into changing vendor bank details through a malicious email, without triggering traditional security alerts. Token Security examines five critical AI agent security gaps and shares practical guidance from industry security leaders on preventing them.</summary>
   </entry>
   <entry>
-    <title>US Futures Gain With Microsoft Outage, Producer Prices in Focus</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-13/us-futures-gain-with-microsoft-outage-producer-prices-in-focus"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-13/us-futures-gain-with-microsoft-outage-producer-prices-in-focus</id>
-    <updated>2026-11-13T13:19:12.000Z</updated>
+    <title>Mexico Rate Cut Fuels Speculation Officials Want a Weaker Peso</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-13/mexico-rate-cut-fuels-speculation-officials-want-a-weaker-peso"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-13/mexico-rate-cut-fuels-speculation-officials-want-a-weaker-peso</id>
+    <updated>2026-11-13T14:53:13.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>US equity futures were little changed early Friday as investors weigh a global software outage at Microsoft Corp., more news on the direction of the AI trade, and the next barometer for US inflation.</summary>
-  </entry>
-  <entry>
-    <title>Together Compiler: Continual Compilation for AI Inference</title>
-    <link href="https://arxiv.org/abs/2611.14681"/>
-    <id>https://arxiv.org/abs/2611.14681</id>
-    <updated>2026-11-13T05:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
-    <category term="RESEARCH"/>
-    <summary>arXiv:2611.14681v1 Announce Type: new Abstract: Today's AI workloads are rapidly changing: new models are released more often, model architectures are increasingly diverse, and traffic distributions change frequently. The challenge we face at Together AI is continual optimization for these changing workloads. Compiling</summary>
+    <summary>Traders are increasingly speculating Mexico’s central bank is pushing to weaken the currency whose strength threatened to weigh on exports and tourism.</summary>
   </entry>
 </feed>
