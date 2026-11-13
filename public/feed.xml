@@ -5,7 +5,16 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-13T09:40:22.100Z</updated>
+  <updated>2026-11-13T12:15:52.509Z</updated>
+  <entry>
+    <title>Google Releases TPU Sync: Open-Source KV Cache Transfer for TPUs</title>
+    <link href="https://www.marktechpost.com/2026/11/13/google-tpu-sync-kv-cache-transfer-library"/>
+    <id>https://www.marktechpost.com/2026/11/13/google-tpu-sync-kv-cache-transfer-library</id>
+    <updated>2026-11-13T10:32:26.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="RESEARCH"/>
+    <summary>Google released TPU Sync, an open-source C++ library that moves KV caches and weights across TPU HBM, host DRAM, storage and network. Google reports over 90% lower KV transfer latency on 235B to 480B MoE models. The post Google Releases TPU Sync: Open-Source KV Cache Transfer for TPUs appeared first on MarkTechPost .</summary>
+  </entry>
   <entry>
     <title>How Amplitude ships product improvements in 1–2 days with OpenAI</title>
     <link href="https://openai.com/business/customer-stories/amplitude"/>
@@ -43,30 +52,22 @@
     <summary>A secure operating system, a quantum microsystem platform, and a 5G interference-canceling algorithm are named among the year's most significant innovations.</summary>
   </entry>
   <entry>
-    <title>Jensen Huang’s Downfall Is a Sign of Silicon Valley’s Power Drain</title>
-    <link href="https://www.wsj.com/tech/jensen-huang-nvidia-silicon-valley-ce74b63f?mod=rss_Technology"/>
-    <id>https://www.wsj.com/tech/jensen-huang-nvidia-silicon-valley-ce74b63f?mod=rss_Technology</id>
-    <updated>2026-11-13T02:00:00.000Z</updated>
-    <author><name>WSJ Tech</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>The chorus of support among the tech elite for Nvidia’s co-founder underscores the seismic shifting of power under way within the industry. — Also covered by: Wired AI</summary>
+    <title>Gemini Decisions API</title>
+    <link href="https://simonwillison.net/2026/Nov/11/gemini-decisions-api"/>
+    <id>https://simonwillison.net/2026/Nov/11/gemini-decisions-api</id>
+    <updated>2026-11-11T22:03:25.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="RESEARCH"/>
+    <summary>Gemini Decisions API Google join Jev and OpenAI in the decision model category with &quot;Gemini Decision 1&quot;. This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even reuses Jev's term &quot;Noul&quot; for a yes/no question. It's priced the same as the  — Also covered by: Google AI Blog</summary>
   </entry>
   <entry>
-    <title>Gemini Decisions API: Fast, calibrated multimodal decisions</title>
-    <link href="https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api"/>
-    <id>https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api</id>
-    <updated>2026-11-11T18:00:00.000Z</updated>
-    <author><name>Google AI Blog</name></author>
+    <title>-b1b770d: examples : remove explict version from test-cmake (#32191)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0-b12359-b1b770d"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0-b12359-b1b770d</id>
+    <updated>2026-11-13T09:09:55.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions. — Also covered by: Simon Willison</summary>
-  </entry>
-  <entry>
-    <title>Introducing Gemini 4 Hydrogen</title>
-    <link href="https://deepmind.google/blog/introducing-gemini-4-hydrogen"/>
-    <id>https://deepmind.google/blog/introducing-gemini-4-hydrogen</id>
-    <updated>2026-11-12T18:00:50.000Z</updated>
-    <author><name>Google DeepMind Blog</name></author>
-    <category term="MODEL RELEASES"/>
+    <summary>This commit removes the llama version test-cmake and instead uses the version that is supplied by CMAKE_PREFIX_PATH. The motivation for this is to avoid issues when bumping major versions.</summary>
   </entry>
   <entry>
     <title>OpenAI launches Daybreak Red Team in early access to test web apps for flaws and Daybreak Defense Factory to automate finding, validating, and fixing them (Jessica Lyons/The Register)</title>
@@ -78,31 +79,31 @@
     <summary>Jessica Lyons / The Register : OpenAI launches Daybreak Red Team in early access to test web apps for flaws and Daybreak Defense Factory to automate finding, validating, and fixing them — OpenAI has launched two new security products, one for penetration testing and another for defense, and warned organizations …</summary>
   </entry>
   <entry>
-    <title>llama.cpp : bump version to 1.0.0 by ggerganov · Pull Request #32190 · ggml-org/llama.cpp</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xv3cyt/llamacpp_bump_version_to_100_by_ggerganov_pull"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xv3cyt/llamacpp_bump_version_to_100_by_ggerganov_pull</id>
-    <updated>2026-11-13T09:22:15.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>llama.cpp v1.0.0 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0</id>
+    <updated>2026-11-13T10:20:51.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>llama.cpp is now 1.0.0 (maybe there will be some additional announcement? I couldn't find it now) submitted by /u/jacek2023 [link] [comments]</summary>
+    <summary>Overview New version has been released. Note More info at 3PM CET Assets Nightly build: b12359 More info Releases and versioning of ggml-org projects Changelog since v0.9.0 b1b770d examples : remove explict version from test-cmake ( #32191 ) 4cda622 llama.cpp : bump version to 1.0.0 ( #32190 ) 6859813 sync : ggml 3bfde</summary>
   </entry>
   <entry>
-    <title>Meta launches an outbound calling feature for Muse, such as to businesses, available for paid US subscribers; Gemini and startup Instinct offer a similar option (Sarah Perez/TechCrunch)</title>
-    <link href="https://www.techmeme.com/261113/p1"/>
-    <id>https://www.techmeme.com/261113/p1</id>
-    <updated>2026-11-13T05:05:01.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>SynthCorp: A Platform for Creating Benchmarks for Data Agents</title>
+    <link href="https://arxiv.org/abs/2611.14765"/>
+    <id>https://arxiv.org/abs/2611.14765</id>
+    <updated>2026-11-13T05:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Sarah Perez / TechCrunch : Meta launches an outbound calling feature for Muse, such as to businesses, available for paid US subscribers; Gemini and startup Instinct offer a similar option — After initially testing the feature in September, Meta's consumer AI agent Muse is now able to place calls to U.S. businesses on b</summary>
+    <summary>arXiv:2611.14765v1 Announce Type: new Abstract: Current benchmarks for LLM-driven data agents saturate quickly and cannot target specific capabilities. We present SynthCorp, a platform that creates customizable data estates and benchmarks by simulating how business events produce and modify corporate data over time. Ea</summary>
   </entry>
   <entry>
-    <title>Why a $2 Billion Law Firm Suddenly Collapsed</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-13/why-a-2-billion-law-firm-suddenly-collapsed"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-13/why-a-2-billion-law-firm-suddenly-collapsed</id>
-    <updated>2026-11-13T09:00:02.000Z</updated>
+    <title>Microsoft Outage Hits Businesses, Nvidia Scandal Deepens</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-11-13/the-pulse-11-13-2026-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-11-13/the-pulse-11-13-2026-video</id>
+    <updated>2026-11-13T11:48:08.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>What Weil Gotshal’s collapse says about the frailty of big law. — Also covered by: Bloomberg Markets</summary>
+    <summary>&quot;The Pulse With Francine Lacqua&quot; is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story is, bringing you exclusive interviews and market-moving scoops. Today's guests: Azeem Azhar, Exponential View Founder; </summary>
   </entry>
   <entry>
     <title>Together Compiler: Continual Compilation for AI Inference</title>
@@ -114,22 +115,13 @@
     <summary>arXiv:2611.14681v1 Announce Type: new Abstract: Today's AI workloads are rapidly changing: new models are released more often, model architectures are increasingly diverse, and traffic distributions change frequently. The challenge we face at Together AI is continual optimization for these changing workloads. Compiling</summary>
   </entry>
   <entry>
-    <title>Torus Launches Foundry AI Infrastructure and Announces $500M in Growth Capital</title>
-    <link href="https://www.hpcwire.com/off-the-wire/torus-launches-foundry-ai-infrastructure-and-announces-500m-in-growth-capital"/>
-    <id>https://www.hpcwire.com/off-the-wire/torus-launches-foundry-ai-infrastructure-and-announces-500m-in-growth-capital</id>
-    <updated>2026-11-13T08:05:16.000Z</updated>
-    <author><name>HPC Wire</name></author>
+    <title>How Shanghai fund manager Kang Wei introduced his wife Alice Huang to Jensen and built $7.5 billion Nvidia AI GPU smuggling operation</title>
+    <link href="https://www.tomshardware.com/tech-industry/how-shanghai-fund-manager-kang-wei-introduced-his-wife-alice-huang-to-jensen-and-built-usd7-5-billion-nvidia-ai-gpu-smuggling-operation-mistresss-husband-joked-she-was-the-ceos-personal-assistant"/>
+    <id>https://www.tomshardware.com/tech-industry/how-shanghai-fund-manager-kang-wei-introduced-his-wife-alice-huang-to-jensen-and-built-usd7-5-billion-nvidia-ai-gpu-smuggling-operation-mistresss-husband-joked-she-was-the-ceos-personal-assistant</id>
+    <updated>2026-11-13T11:00:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
     <category term="HARDWARE"/>
-    <summary>SALT LAKE CITY, Nov. 13, 2026 — Torus, a U.S. manufacturer of distributed power and compute infrastructure, has launched Foundry, modular AI infrastructure designed to meet the fast-growing demand for inference compute. Torus Foundry packages power, storage, cooling, networking, and compute into a prefabricated system </summary>
-  </entry>
-  <entry>
-    <title>[AINews] Jensen Huang resigns after 33 years leading NVIDIA</title>
-    <link href="https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia"/>
-    <id>https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia</id>
-    <updated>2026-11-13T09:04:13.000Z</updated>
-    <author><name>Latent Space</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?</summary>
+    <summary>While Alice Huang lives on the headlines, it was actually her husband who put her in the same room as Jensen Huang.</summary>
   </entry>
   <entry>
     <title>[tl;dr sec] #354 - ARTEX &amp; Agentic Hacking in the Wild, The Patchless Window, Backporting Security Fixes</title>
@@ -141,13 +133,13 @@
     <summary>ARTEX be hacking errybody up in here, the critical gap between when a patch is public and defenders respond, and how stable releases may be missing many patches</summary>
   </entry>
   <entry>
-    <title>Microsoft confirms Windows activation failures after November updates</title>
-    <link href="https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates"/>
-    <id>https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates</id>
-    <updated>2026-11-13T09:36:18.000Z</updated>
-    <author><name>BleepingComputer</name></author>
+    <title>Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins</title>
+    <link href="https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html"/>
+    <id>https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html</id>
+    <updated>2026-11-13T10:55:03.000Z</updated>
+    <author><name>The Hacker News</name></author>
     <category term="CYBER THREATS"/>
-    <summary>Microsoft has confirmed that this month's Patch Tuesday security updates are causing Windows activation and licensing failures with 0x80041008 error codes. [...]</summary>
+    <summary>An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks. Police also seized about 6.4 million stolen logins belonging to more than 40,000 victims, according t</summary>
   </entry>
   <entry>
     <title>Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors</title>
@@ -159,18 +151,27 @@
     <summary>Our analysis of how attackers used the open-source Cairn AI agent framework to autonomously breach semiconductor, defense and civic targets. The post Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors appeared first on Unit 42 .</summary>
   </entry>
   <entry>
-    <title>AI server maker xFusion gets approval from the Shenzhen Stock Exchange for a ChiNext IPO; filing: the company aims to raise ~$1.2B by issuing up to 220M shares (Sangmi Cha/Bloomberg)</title>
-    <link href="https://www.techmeme.com/261113/p6"/>
-    <id>https://www.techmeme.com/261113/p6</id>
-    <updated>2026-11-13T09:35:00.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Africa’s Top Pension Funds Ask for About $1 Billion in Dangote’s Refinery IPO</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-13/africa-s-top-pension-funds-ask-for-about-1-billion-in-dangote-s-refinery-ipo"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-13/africa-s-top-pension-funds-ask-for-about-1-billion-in-dangote-s-refinery-ipo</id>
+    <updated>2026-11-13T09:49:29.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="FUNDING &amp; DEALS"/>
-    <summary>Sangmi Cha / Bloomberg : AI server maker xFusion gets approval from the Shenzhen Stock Exchange for a ChiNext IPO; filing: the company aims to raise ~$1.2B by issuing up to 220M shares — Artificial intelligence server maker xFusion Digital Technologies Co. received approval from the Shenzhen Stock Exchange on Thursday </summary>
+    <summary>Africa’s biggest money manager and Nigerian pension-fund administrators applied for almost $1 billion of shares in Dangote Petroleum Refinery and Petrochemicals FZE, according to people familiar with the matter.</summary>
+  </entry>
+  <entry>
+    <title>[AINews] Jensen Huang resigns after 33 years leading NVIDIA</title>
+    <link href="https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia"/>
+    <id>https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia</id>
+    <updated>2026-11-13T09:04:13.000Z</updated>
+    <author><name>Latent Space</name></author>
+    <category term="ANALYSIS"/>
+    <summary>November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?</summary>
   </entry>
   <entry>
     <title>Abrupt End to Nvidia’s Jensen Drama Leaves Unanswered Questions</title>
-    <link href="https://www.theinformation.com/articles/abrupt-end-nvidias-jensen-drama-leaves-unanswered-questions"/>
-    <id>https://www.theinformation.com/articles/abrupt-end-nvidias-jensen-drama-leaves-unanswered-questions</id>
+    <link href="https://info-reader-production.herokuapp.com/articles/abrupt-end-nvidias-jensen-drama-leaves-unanswered-questions"/>
+    <id>https://info-reader-production.herokuapp.com/articles/abrupt-end-nvidias-jensen-drama-leaves-unanswered-questions</id>
     <updated>2026-11-13T01:01:16.000Z</updated>
     <author><name>The Information</name></author>
     <category term="ROBOTICS"/>
@@ -186,13 +187,12 @@
     <summary>LTM has launched its AI-QEM software in the IBM Quantum Functions Catalog, becoming the first global systems integrator to do so. This software utilizes an AI-powered approach to mitigate hardware noise in quantum circuits without additional quantum processing unit (QPU) runtime. It has demonstrated high accuracy on up</summary>
   </entry>
   <entry>
-    <title>llama.cpp b12352 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12352"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12352</id>
-    <updated>2026-11-12T23:11:58.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="GITHUB REPOS"/>
-    <summary>chat : accept &lt;/ifm|think&gt; as K2 Horizon closer at medium/low effort …</summary>
+    <title>Introducing Gemini 4 Hydrogen</title>
+    <link href="https://deepmind.google/blog/introducing-gemini-4-hydrogen"/>
+    <id>https://deepmind.google/blog/introducing-gemini-4-hydrogen</id>
+    <updated>2026-11-12T18:00:50.000Z</updated>
+    <author><name>Google DeepMind Blog</name></author>
+    <category term="MODEL RELEASES"/>
   </entry>
   <entry>
     <title>Google's Gemini 4 Hydrogen outscores the bigger Argon just four weeks after its launch</title>
@@ -204,40 +204,67 @@
     <summary>Google's Gemini 4 Hydrogen replaces the Flash series, but benchmarks suggest it also makes the pricier Argon obsolete. On the independent Artificial Analysis Intelligence Index, Hydrogen nearly matches Claude Sonnet 5.5 for less money but costs about 2.5 times more per task than GPT-6.1 Sol and still falls short on age</summary>
   </entry>
   <entry>
-    <title>Edge0-145B: Open-Source On-Device AI with 145B Parameters</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xuuq0b/edge0145b_opensource_ondevice_ai_with_145b"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xuuq0b/edge0145b_opensource_ondevice_ai_with_145b</id>
-    <updated>2026-11-13T01:25:20.000Z</updated>
+    <title>AI server maker xFusion gets approval from the Shenzhen Stock Exchange for a ChiNext IPO; filing: the company aims to raise ~$1.2B by issuing up to 220M shares (Sangmi Cha/Bloomberg)</title>
+    <link href="https://www.techmeme.com/261113/p6"/>
+    <id>https://www.techmeme.com/261113/p6</id>
+    <updated>2026-11-13T09:35:00.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Sangmi Cha / Bloomberg : AI server maker xFusion gets approval from the Shenzhen Stock Exchange for a ChiNext IPO; filing: the company aims to raise ~$1.2B by issuing up to 220M shares — Artificial intelligence server maker xFusion Digital Technologies Co. received approval from the Shenzhen Stock Exchange on Thursday </summary>
+  </entry>
+  <entry>
+    <title>Nvidia scandal: Howard Lutnick under pressure over alleged lack of action</title>
+    <link href="https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china"/>
+    <id>https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china</id>
+    <updated>2026-11-13T09:41:22.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>US commerce secretary faces sack as warnings emerge about alleged Chinese spy’s ties to Jensen Huang and delays in adding Megaspeed to trade blacklist Analysis: Jensen Huang built an AI kingdom. Now he’s gone, will Nvidia’s ramparts be breached? One of Donald Trump’s top lieutenants reportedly could soon be fired, as c</summary>
+  </entry>
+  <entry>
+    <title>llama.cpp : bump version to 1.0.0 by ggerganov · Pull Request #32190 · ggml-org/llama.cpp</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xv3cyt/llamacpp_bump_version_to_100_by_ggerganov_pull"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xv3cyt/llamacpp_bump_version_to_100_by_ggerganov_pull</id>
+    <updated>2026-11-13T09:22:15.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by /u/BrightCandle [link] [comments]</summary>
+    <summary>llama.cpp is now 1.0.0 (maybe there will be some additional announcement? I couldn't find it now) submitted by /u/jacek2023 [link] [comments]</summary>
   </entry>
   <entry>
-    <title>SynthCorp: A Platform for Creating Benchmarks for Data Agents</title>
-    <link href="https://arxiv.org/abs/2611.14765"/>
-    <id>https://arxiv.org/abs/2611.14765</id>
-    <updated>2026-11-13T05:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
+    <title>Artificial Analysis updated Qwen 3.8 Flash Next score as 29</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xuxzfs/artificial_analysis_updated_qwen_38_flash_next"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xuxzfs/artificial_analysis_updated_qwen_38_flash_next</id>
+    <updated>2026-11-13T04:06:06.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Between GPT-6 Luna Max (28) and Claude Haiku 5.5 High (30). Comparing to other Qwen 3.8, the model is closer to max (34) than to 27B (20). https://artificialanalysis.ai/models/qwen3-8-flash-next submitted by /u/lionellee77 [link] [comments]</summary>
+  </entry>
+  <entry>
+    <title>Elevated errors on claude.ai, Claude Code, and platform.claude.com</title>
+    <link href="https://status.claude.com/incidents/nn11wk485zfn"/>
+    <id>https://status.claude.com/incidents/nn11wk485zfn</id>
+    <updated>2026-11-13T10:18:13.000Z</updated>
+    <author><name>HN: AI (150+ points)</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>arXiv:2611.14765v1 Announce Type: new Abstract: Current benchmarks for LLM-driven data agents saturate quickly and cannot target specific capabilities. We present SynthCorp, a platform that creates customizable data estates and benchmarks by simulating how business events produce and modify corporate data over time. Ea</summary>
+    <summary>Article URL: https://status.claude.com/incidents/nn11wk485zfn Comments URL: https://news.ycombinator.com/item?id=50481187 Points: 235 # Comments: 170</summary>
   </entry>
   <entry>
-    <title>Microsoft Labors to Fix Long Outage of Office, Outlook, Copilot</title>
-    <link href="https://www.theinformation.com/briefings/microsoft-labors-fix-long-outage-office-outlook-copilot"/>
-    <id>https://www.theinformation.com/briefings/microsoft-labors-fix-long-outage-office-outlook-copilot</id>
-    <updated>2026-11-13T01:57:05.000Z</updated>
-    <author><name>The Information</name></author>
+    <title>When an AI Agent Goes Wrong, Can You Stop It?</title>
+    <link href="https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html"/>
+    <id>https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html</id>
+    <updated>2026-11-13T11:52:31.000Z</updated>
+    <author><name>The Hacker News</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Microsoft said it was attempting to restore service to customers of Office, Copilot, and its Outlook email service after an outage took the applications offline for more than six hours for users across the globe on Thursday. The company first said it was investigating the outages shortly before ...</summary>
+    <summary>Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because its identity has access to the records and its connected tools allow the action. That kind of scenar</summary>
   </entry>
   <entry>
-    <title>Indonesian Stocks Set for Best Week Since June on Foreign Buying</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-13/indonesian-stocks-set-for-best-week-since-june-on-foreign-buying"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-13/indonesian-stocks-set-for-best-week-since-june-on-foreign-buying</id>
-    <updated>2026-11-13T09:17:11.000Z</updated>
+    <title>Microsoft Races to Fix Outage, Stocks Slip of Inflation Test</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-11-13/the-opening-trade-11-13-2026-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-11-13/the-opening-trade-11-13-2026-video</id>
+    <updated>2026-11-13T10:59:48.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Indonesia’s stocks are heading for their best week since mid-June as foreign investors tiptoed back into the market after months of selling.</summary>
+    <summary>Microsoft is struggling to restore access to its flagship software half a day after an outage began, leaving users unable to access email and chat services in one of the tech giant’s most severe disruptions in recent memory. US stock futures edged lower ahead of inflation data that will cap a dramatic week of mounting </summary>
   </entry>
   <entry>
     <title>Benchmarking Multilingual Document Understanding in Vision-Language Models</title>
@@ -247,32 +274,5 @@
     <author><name>arXiv cs.CL</name></author>
     <category term="RESEARCH"/>
     <summary>arXiv:2611.14758v1 Announce Type: new Abstract: Recent Vision-Language Models (VLMs) perform strongly on multimodal tasks, Document Understanding (DU) among them, but the benchmarks that measure them mostly cover English documents and narrow problems. How well current VLMs generalize across languages, tasks, styles and</summary>
-  </entry>
-  <entry>
-    <title>Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files</title>
-    <link href="https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html"/>
-    <id>https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html</id>
-    <updated>2026-11-13T08:05:49.000Z</updated>
-    <author><name>The Hacker News</name></author>
-    <category term="PRODUCTS"/>
-    <summary>An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unreported local privilege escalation flaw in Gaia OS to deploy a backdoor called TSGA. The activity, detailed by Check Point, began on October 30,</summary>
-  </entry>
-  <entry>
-    <title>Iraq October Oil Output Jumps to Highest Since 2019, IEA Says</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-13/iraq-october-oil-output-jumps-to-highest-since-2019-iea-says"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-13/iraq-october-oil-output-jumps-to-highest-since-2019-iea-says</id>
-    <updated>2026-11-13T09:05:30.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="HARDWARE"/>
-    <summary>Iraq’s oil output surged in October and production in the United Arab Emirates held near the previous month’s high, as Gulf producers increased crude flows despite shipping disruptions caused by the Iran war, the International Energy Agency said.</summary>
-  </entry>
-  <entry>
-    <title>CAFIN: CUDA-accelerated Adaptive Fisher Information Matrix Network Optimization via GPU-Native Kernel Fusion</title>
-    <link href="https://arxiv.org/abs/2611.14589"/>
-    <id>https://arxiv.org/abs/2611.14589</id>
-    <updated>2026-11-13T05:00:00.000Z</updated>
-    <author><name>arXiv cs.LG</name></author>
-    <category term="HARDWARE"/>
-    <summary>arXiv:2611.14589v1 Announce Type: new Abstract: Second-order optimizers improve deep neural network training using curvature information, but their practical efficiency is limited by GPU execution overhead. AdaFisher reduces Fisher Information Matrix (FIM) approximation costs through diagonal Kronecker structures and e</summary>
   </entry>
 </feed>
