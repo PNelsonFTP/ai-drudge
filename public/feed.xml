@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-14T19:15:50.890Z</updated>
+  <updated>2026-11-14T20:08:39.937Z</updated>
   <entry>
     <title>llama.cpp b12387 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12387"/>
     <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12387</id>
-    <updated>2026-11-14T18:06:52.000Z</updated>
+    <updated>2026-11-14T19:29:35.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Fix ctz64 on 32bit ( #32273 ) — Also covered by: run-llama/llama_index</summary>
+    <summary>Fix ctz64 on 32bit ( #32273 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67610352 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x — Also covered by: run-llama/llama_index</summary>
   </entry>
   <entry>
     <title>Introducing ChatGPT Wallet</title>
@@ -232,22 +232,22 @@
     <summary>From Apple's repeatedly delayed Siri AI to OpenAI's messy &quot;super app&quot; launch, here's a look at the AI projects that shut down or missed expectations.</summary>
   </entry>
   <entry>
-    <title>Introducing Llamafile-Studio.</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1xw7qxj/introducing_llamafilestudio"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1xw7qxj/introducing_llamafilestudio</id>
-    <updated>2026-11-14T17:16:26.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>Why don’t we have national open AI models?</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xw4ue3/why_dont_we_have_national_open_ai_models"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xw4ue3/why_dont_we_have_national_open_ai_models</id>
+    <updated>2026-11-14T15:17:07.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by /u/Ok-Plenty3368 [link] [comments]</summary>
+    <summary>Deepseek spent about $6m on 4.1 apparently. Published all of their work. US gov says don’t trust China, blah blah… As a US citizen why are we not training national open source? The cost is nothing compared to the budget, solves security issues, and prevents monopolistic practices on token pricing submitted by /u/Strang</summary>
   </entry>
   <entry>
-    <title>Mac mini M6 is a beast of a CI machine</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1xw9rmq/mac_mini_m6_is_a_beast_of_a_ci_machine"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1xw9rmq/mac_mini_m6_is_a_beast_of_a_ci_machine</id>
-    <updated>2026-11-14T18:37:16.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>Update: tandem.cpp — DeepSeek-V4.1 on a 64 GB PC with a 16 GB card, and AMD (ROCm) support</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xwan2j/update_tandemcpp_deepseekv41_on_a_64_gb_pc_with_a"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xwan2j/update_tandemcpp_deepseekv41_on_a_64_gb_pc_with_a</id>
+    <updated>2026-11-14T19:12:45.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>My MacBook did everything until this week - model, harness, CI, everything. It was getting badly overloaded especially when iOS build and tests were going on. Those can use 20GB RAM easily, given half a chance. It was thrashing. Microcenter had the base Mac mini M6 for $699, which felt like 2024 pricing so I pulled the</summary>
+    <summary>Quick update on tandem.cpp, my patch set for llama.cpp that runs MoE models too big for your VRAM faster. It keeps the hot experts on the GPU and lets the CPU help with the rest. Repo: https://github.com/ewhacc/tandem.cpp DeepSeek-V4.1-Flash IQ2_XS (ISTA GSQ-RCO, 139 GiB of experts) on normal PCs Decode tok/s, one user</summary>
   </entry>
   <entry>
     <title>Goal Engineering</title>
