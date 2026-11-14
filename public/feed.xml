@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-14T22:08:44.718Z</updated>
+  <updated>2026-11-14T23:07:21.905Z</updated>
   <entry>
     <title>llama.cpp b12387 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12387"/>
@@ -34,6 +34,15 @@
     <summary>Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.</summary>
   </entry>
   <entry>
+    <title>AI agent startup LangChain hits $3B valuation</title>
+    <link href="https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation"/>
+    <id>https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation</id>
+    <updated>2026-11-13T19:37:57.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.</summary>
+  </entry>
+  <entry>
     <title>[AINews] The No AI Slop Manifesto</title>
     <link href="https://latent.space/p/ainews-the-no-ai-slop-manifesto"/>
     <id>https://latent.space/p/ainews-the-no-ai-slop-manifesto</id>
@@ -52,15 +61,6 @@
     <summary>Also covered by: Ai2 (Allen Institute)</summary>
   </entry>
   <entry>
-    <title>AI agent startup LangChain hits $3B valuation</title>
-    <link href="https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation"/>
-    <id>https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation</id>
-    <updated>2026-11-13T19:37:57.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.</summary>
-  </entry>
-  <entry>
     <title>Gemini 4 Hydrogen in GitHub Copilot</title>
     <link href="https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot"/>
     <id>https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot</id>
@@ -68,15 +68,6 @@
     <author><name>GitHub Copilot Changelog</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Gemini 4 Hydrogen, Google’s latest Flash model, is now generally available in GitHub Copilot. It is designed for fast, efficient agentic coding, tool use, and multistep workflows, with improved instruction… The post Gemini 4 Hydrogen in GitHub Copilot appeared first on The GitHub Blog .</summary>
-  </entry>
-  <entry>
-    <title>[AINews] Jensen Huang resigns after 33 years leading NVIDIA</title>
-    <link href="https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia"/>
-    <id>https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia</id>
-    <updated>2026-11-13T09:04:13.000Z</updated>
-    <author><name>Latent Space</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership? — Also covered by: Gary Marcus</summary>
   </entry>
   <entry>
     <title>Three Lincoln Laboratory technologies receive 2026 R&amp;D 100 Awards</title>
@@ -88,13 +79,13 @@
     <summary>A secure operating system, a quantum microsystem platform, and a 5G interference-canceling algorithm are named among the year's most significant innovations.</summary>
   </entry>
   <entry>
-    <title>Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol</title>
-    <link href="https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol"/>
-    <id>https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol</id>
-    <updated>2026-11-14T16:48:01.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>b12388: chat : allow Gemma4 tool call during thought (#32232)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12388"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12388</id>
+    <updated>2026-11-14T22:32:19.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>For the first time in a while, no OpenAI model leads the MathArena AI math benchmark. Google's Gemini 4 Carbon and Anthropic's Fable 5.2 have knocked GPT-6.1 Sol from the top, though both cost significantly more. Gemini ignored the time limit in testing and almost never gave up on a task. The article Gemini 4 Carbon ta</summary>
+    <summary>The thought channel is normally closed with &lt;channel|&gt;, but the model may open it and go straight to a tool call without closing it. Stop the reasoning at &lt;channel|&gt; OR &lt;|tool_call&gt;, so an unclosed thought does not swallow the following tool call. Fixes: #32231 Assisted-by: Qwen 3.8 27b</summary>
   </entry>
   <entry>
     <title>Jensen Huang's resignation is a setback for US open models, as his funding gave open-source developers time to find their footing and will very likely dry up (Nathan Lambert/Interconnects AI)</title>
@@ -115,13 +106,22 @@
     <summary>Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]</summary>
   </entry>
   <entry>
-    <title>The Stadium Bidding War Shaking Up the Midwest</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-11-14/the-stadium-bidding-war-shaking-up-the-midwest-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-11-14/the-stadium-bidding-war-shaking-up-the-midwest-video</id>
-    <updated>2026-11-14T15:04:14.000Z</updated>
+    <title>(Digital) SpaceX Catches Starship in Novel Landing</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-11-14/-digital-spacex-catches-starship-in-novel-landing"/>
+    <id>https://www.bloomberg.com/news/videos/2026-11-14/-digital-spacex-catches-starship-in-novel-landing</id>
+    <updated>2026-11-14T22:25:41.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The Chicago Bears are weighing three possible homes for a new stadium: downtown Chicago, suburban Arlington Heights and Hammond, Indiana. The competition has turned into a high-stakes economic development battle involving billions of dollars in potential investment, tax incentives and public financing. Supporters say a</summary>
+    <summary>(Digital) SpaceX Catches Starship in Novel Landing (Source: Bloomberg)</summary>
+  </entry>
+  <entry>
+    <title>Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol</title>
+    <link href="https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol"/>
+    <id>https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol</id>
+    <updated>2026-11-14T16:48:01.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="RESEARCH"/>
+    <summary>For the first time in a while, no OpenAI model leads the MathArena AI math benchmark. Google's Gemini 4 Carbon and Anthropic's Fable 5.2 have knocked GPT-6.1 Sol from the top, though both cost significantly more. Gemini ignored the time limit in testing and almost never gave up on a task. The article Gemini 4 Carbon ta</summary>
   </entry>
   <entry>
     <title>AMD Launches EPYC Embedded 9006: Venice Gets an Early Start in Embedded</title>
@@ -145,7 +145,7 @@
     <title>Conducting The First Live Enterprise Comparison Between Agents and Human Professionals</title>
     <link href="https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals"/>
     <id>https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals</id>
-    <updated>2026-11-14T22:08:26.775Z</updated>
+    <updated>2026-11-14T23:07:02.110Z</updated>
     <author><name>Gray Swan</name></author>
     <category term="AI SECURITY"/>
   </entry>
@@ -186,13 +186,13 @@
     <summary>Runway releases its robotics model Praxis-1 with open weights and source code under the Apache 2.0 license. The model uses knowledge from video training for robot control and leads the World Action Model category on Nvidia's RoboLab-120 benchmark. It can't yet plan complex action sequences on its own, though. The artic</summary>
   </entry>
   <entry>
-    <title>Who’s News: Strategic Appointments at SemiQon, OrangeQS, IonQ, Haiqu, and Jij</title>
-    <link href="https://quantumcomputingreport.com/whos-news-strategic-appointments-at-semiqon-orangeqs-ionq-haiqu-and-jij"/>
-    <id>https://quantumcomputingreport.com/whos-news-strategic-appointments-at-semiqon-orangeqs-ionq-haiqu-and-jij</id>
-    <updated>2026-11-14T18:26:53.000Z</updated>
+    <title>Making Quantum SDKs More Accessible: Lessons from Contributing to Qiskit</title>
+    <link href="https://quantumcomputingreport.com/making-quantum-sdks-more-accessiblelessons-from-contributing-to-qiskit"/>
+    <id>https://quantumcomputingreport.com/making-quantum-sdks-more-accessiblelessons-from-contributing-to-qiskit</id>
+    <updated>2026-11-14T22:44:27.000Z</updated>
     <author><name>Quantum Computing Report</name></author>
     <category term="QUANTUM"/>
-    <summary>This article announces several strategic appointments in the quantum technology sector. SemiQon appointed Dr. Thierry Botter as CCO, OrangeQS named Raj Badoni as CCO, and IonQ expanded its finance leadership with Gary Merrill as CFO and Thomas A. Austin as CAO. Additionally, Haiqu appointed Kortny Rolston-Duce as Head </summary>
+    <summary>Software developer Gloria Amos describes her experience in making a contribution to the open source Qiskit platform and provides insights into some of the things contributors should watch out for. The post Making Quantum SDKs More Accessible: Lessons from Contributing to Qiskit appeared first on Quantum Computing Repor</summary>
   </entry>
   <entry>
     <title>Anthropic says outdated prompting habits are slowing down Claude Opus 5.5</title>
@@ -222,22 +222,22 @@
     <summary>Forbes : Unlike other larger-than-life tech founders, Jensen Huang lacked super-voting shares in Nvidia, making it easier for him to lose control of the company — This voice experience is generated by AI. Learn more. — Many tech CEOs including Mark Zuckerberg, Michael Dell and Evan Spiegel have majority voting power.</summary>
   </entry>
   <entry>
-    <title>Hot take: frontier models haven’t actually become much smarter</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xwegdi/hot_take_frontier_models_havent_actually_become"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xwegdi/hot_take_frontier_models_havent_actually_become</id>
-    <updated>2026-11-14T21:57:33.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>Qwen4 27B, 19th November</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1xwer6b/qwen4_27b_19th_november"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1xwer6b/qwen4_27b_19th_november</id>
+    <updated>2026-11-14T22:10:46.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>I know this is a controversial take, but I would like to hear others’ opinions: LLMs have become much more useful, but I’m not convinced their “raw intelligence” has improved nearly as much as their overall performance suggests. Context: I work with LLMs as a SWE, as a hobbyist experimenting with local models, and prof</summary>
+    <summary>submitted by /u/Toooooool [link] [comments]</summary>
   </entry>
   <entry>
-    <title>The GOAT</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xwedkk/the_goat"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xwedkk/the_goat</id>
-    <updated>2026-11-14T21:53:51.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>An LLM benchmark for models that fit in 16 GB VRAM</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1xwb98j/an_llm_benchmark_for_models_that_fit_in_16_gb_vram"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1xwb98j/an_llm_benchmark_for_models_that_fit_in_16_gb_vram</id>
+    <updated>2026-11-14T19:38:15.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by /u/Thrumpwart [link] [comments]</summary>
+    <summary>I'm one of the many people with a 16 GB GPU (5070 Ti), so I wanted to know which models that fit completely into 16 GB VRAM work best. The focus is general problem solving, no tool calling, coding or agent tasks. Every model runs in llama-server on the same card, fully in VRAM, with the same settings. 528 questions, 66</summary>
   </entry>
   <entry>
     <title>Goal Engineering</title>
