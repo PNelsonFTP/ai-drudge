@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-14T08:08:45.684Z</updated>
+  <updated>2026-11-14T12:08:39.302Z</updated>
   <entry>
-    <title>llama.cpp b12375 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12375"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12375</id>
-    <updated>2026-11-14T04:18:14.000Z</updated>
+    <title>llama.cpp b12377 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12377"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12377</id>
+    <updated>2026-11-14T09:51:07.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>chat : remove mistral workaround ( #32230 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67449481 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubun — Also covered by: run-llama/llama_index</summary>
+    <category term="LOCAL MODELS"/>
+    <summary>spec + model: refactor DFlash based speculative decoding methods ( #32016 ) dflash : move the DSpark markov head and backbone graphs to dspark.cpp Move-only: build_dspark_markov_head, graph_dsv4, graph_dsv41 and graph_mistral_large4 move verbatim. build_inp_target_features and build_dspark_markov_head become static mem — Also covered by: run-llama/llama_index</summary>
   </entry>
   <entry>
     <title>Introducing ChatGPT Wallet</title>
@@ -88,15 +88,6 @@
     <summary>Atom Computing has finalized a $100 million R&amp;D agreement with the U.S. Department of Commerce to accelerate the commercialization of fault-tolerant, utility-scale quantum systems. This funding will support hardware engineering and manufacturing scale-up at their Boulder, Colorado operations, moving logical-qubit archi — Also covered by: The Quantum Insider</summary>
   </entry>
   <entry>
-    <title>Google Releases TPU Sync: Open-Source KV Cache Transfer for TPUs</title>
-    <link href="https://www.marktechpost.com/2026/11/13/google-tpu-sync-kv-cache-transfer-library"/>
-    <id>https://www.marktechpost.com/2026/11/13/google-tpu-sync-kv-cache-transfer-library</id>
-    <updated>2026-11-13T10:32:26.000Z</updated>
-    <author><name>MarkTechPost</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Google released TPU Sync, an open-source C++ library that moves KV caches and weights across TPU HBM, host DRAM, storage and network. Google reports over 90% lower KV transfer latency on 235B to 480B MoE models. The post Google Releases TPU Sync: Open-Source KV Cache Transfer for TPUs appeared first on MarkTechPost . — Also covered by: InfoQ AI/ML</summary>
-  </entry>
-  <entry>
     <title>Three Lincoln Laboratory technologies receive 2026 R&amp;D 100 Awards</title>
     <link href="https://news.mit.edu/2026/lincoln-laboratory-technologies-receive-rd-100-awards-1112"/>
     <id>https://news.mit.edu/2026/lincoln-laboratory-technologies-receive-rd-100-awards-1112</id>
@@ -115,13 +106,22 @@
     <summary>Gemini Decisions API Google join Jev and OpenAI in the decision model category with &quot;Gemini Decision 1&quot;. This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even reuses Jev's term &quot;Noul&quot; for a yes/no question. It's priced the same as the  — Also covered by: Google AI Blog</summary>
   </entry>
   <entry>
-    <title>Operand, which offers AI-powered due diligence tools for PE firms, raised $31M across a seed and a Series A led by Khosla Ventures at a $220M valuation (Lucinda Shen/Axios)</title>
-    <link href="https://www.techmeme.com/261114/p6"/>
-    <id>https://www.techmeme.com/261114/p6</id>
-    <updated>2026-11-14T07:02:17.000Z</updated>
+    <title>Runway's open-source Praxis-1 turns video AI into a robot controller</title>
+    <link href="https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller"/>
+    <id>https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller</id>
+    <updated>2026-11-14T09:45:45.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Runway releases its robotics model Praxis-1 with open weights and source code under the Apache 2.0 license. The model uses knowledge from video training for robot control and leads the World Action Model category on Nvidia's RoboLab-120 benchmark. It can't yet plan complex action sequences on its own, though. The artic</summary>
+  </entry>
+  <entry>
+    <title>How the Swiss city of Lugano is trying to reinvent itself as a crypto hub to boost its economy by launching its own token LVGA, partnering with Tether, and more (Financial Times)</title>
+    <link href="https://www.techmeme.com/261114/p9"/>
+    <id>https://www.techmeme.com/261114/p9</id>
+    <updated>2026-11-14T12:05:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Lucinda Shen / Axios : Operand, which offers AI-powered due diligence tools for PE firms, raised $31M across a seed and a Series A led by Khosla Ventures at a $220M valuation — Operand, which uses AI to do due diligence for private equity firms, raised $31 million in seed and Series A funding, CEO Ram Gorthi tells Axio</summary>
+    <summary>Financial Times : How the Swiss city of Lugano is trying to reinvent itself as a crypto hub to boost its economy by launching its own token LVGA, partnering with Tether, and more — Lugano bets digital assets and a joint venture with the stablecoin giant can boost its economy, but some warn of dangers</summary>
   </entry>
   <entry>
     <title>WhiteMatter, which builds &quot;guardian&quot; AI agents to oversee file access, software use, decision making, and actions of existing AI agents, raised a $20M Series A (Alice Tecotzky/Business Insider)</title>
@@ -133,22 +133,13 @@
     <summary>Alice Tecotzky / Business Insider : WhiteMatter, which builds “guardian” AI agents to oversee file access, software use, decision making, and actions of existing AI agents, raised a $20M Series A — A startup using AI agents to keep rogue AI in line has raised $20 million. — WhiteMatter, founded in 2024 …</summary>
   </entry>
   <entry>
-    <title>China Railways Set Record With 4.13 Billion Trips in 10 Months</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-14/china-railways-set-record-with-4-13-billion-trips-in-10-months"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-14/china-railways-set-record-with-4-13-billion-trips-in-10-months</id>
-    <updated>2026-11-14T02:04:53.000Z</updated>
+    <title>Guinea Plans Bauxite Index as It Seeks to Bolster Ore Prices</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-14/guinea-plans-bauxite-index-as-it-seeks-to-bolster-ore-prices"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-14/guinea-plans-bauxite-index-as-it-seeks-to-bolster-ore-prices</id>
+    <updated>2026-11-14T11:27:57.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>China’s railways carried 4.13 billion passengers in the first 10 months of 2026, up 4.7% from a year earlier, according to the Ministry of Transport.</summary>
-  </entry>
-  <entry>
-    <title>Vercel Releases UI SDK: 50+ UI Behaviors for AI Coding Agents</title>
-    <link href="https://www.marktechpost.com/2026/11/13/vercel-ui-sdk-agent-ui-behaviors"/>
-    <id>https://www.marktechpost.com/2026/11/13/vercel-ui-sdk-agent-ui-behaviors</id>
-    <updated>2026-11-14T06:38:14.000Z</updated>
-    <author><name>MarkTechPost</name></author>
-    <category term="RESEARCH"/>
-    <summary>Vercel Labs released Vercel UI SDK, an Apache-2.0 beta library of 50+ UI behaviors. Coding agents compose them into accessible components for React, Vue, Svelte, Solid and Web Components, with a bridge for direct UI control. The post Vercel Releases UI SDK: 50+ UI Behaviors for AI Coding Agents appeared first on MarkTe</summary>
+    <summary>Guinea, the world’s biggest exporter of bauxite, plans to establish an index for the raw material as part of wider efforts to bolster prices.</summary>
   </entry>
   <entry>
     <title>transformers v5.23.0 released</title>
@@ -160,13 +151,13 @@
     <summary>Release v5.23.0 New Model additions Inkling2 Inkling 2 Small is a multimodal model from Thinking Machines Lab that accepts text and image inputs and generates text outputs, and it is intended for use in English and other languages and across multiple coding languages. Its language backbone has 48 mixture-of-experts dec</summary>
   </entry>
   <entry>
-    <title>Not Just Claude: Mapping &quot;Spiritual Behavior&quot; in 141 Large Language Models</title>
-    <link href="https://www.lesswrong.com/posts/FHYoQrDbk6apuHEPk/not-just-claude-mapping-spiritual-behavior-in-141-large"/>
-    <id>https://www.lesswrong.com/posts/FHYoQrDbk6apuHEPk/not-just-claude-mapping-spiritual-behavior-in-141-large</id>
-    <updated>2026-11-14T03:08:03.000Z</updated>
-    <author><name>LessWrong</name></author>
+    <title>Anthropic can already retrain Mythos with &quot;a fraction of the compute originally needed,&quot; says former researcher Coxon</title>
+    <link href="https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon"/>
+    <id>https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon</id>
+    <updated>2026-11-14T11:21:41.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Ever since Kyle Fish and the model welfare team at Anthropic announced their observation in 2025 of what they called the &quot;spiritual bliss attractor&quot; in Claude Opus 4 and Sonnet 4, the phenomenon has been given sporadic attention by AI researchers as both a curiosity and a potential but underdetermined model welfare or </summary>
+    <summary>Former OpenAI and Anthropic researcher Jacob Coxon points to a slide from Anthropic's IPO roadshow as a reason he left, saying it shows the company's algorithms are improving not just quickly but at an accelerating rate. Coxon continues to call for a pause on frontier model development so competitors can catch up and h</summary>
   </entry>
   <entry>
     <title>[tl;dr sec] #354 - ARTEX &amp; Agentic Hacking in the Wild, The Patchless Window, Backporting Security Fixes</title>
@@ -187,13 +178,13 @@
     <summary>Open source hacking tool Artex &quot;significantly reduces the time required to chain attack techniques, with some intrusions progressing from initial targeting to privileged access in under three hours,&quot; the FBI said.</summary>
   </entry>
   <entry>
-    <title>Policy and Disclosure: 2026 Edition</title>
-    <link href="https://projectzero.google/2026/11/disclosure-policy.html"/>
-    <id>https://projectzero.google/2026/11/disclosure-policy.html</id>
-    <updated>2026-11-13T08:00:00.000Z</updated>
-    <author><name>Google Project Zero</name></author>
+    <title>Nearly 20 years after launch, ancient AMD Radeon HD 2000 and 3000 GPUs finally get a Linux fix for corrupted video playback</title>
+    <link href="https://www.tomshardware.com/software/linux/nearly-20-years-after-launch-ancient-radeon-hd-2000-and-3000-gpus-finally-get-a-linux-fix-for-corrupted-video-playback-ai-helps-squash-a-decades-old-uvd-bug"/>
+    <id>https://www.tomshardware.com/software/linux/nearly-20-years-after-launch-ancient-radeon-hd-2000-and-3000-gpus-finally-get-a-linux-fix-for-corrupted-video-playback-ai-helps-squash-a-decades-old-uvd-bug</id>
+    <updated>2026-11-14T11:00:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
     <category term="CYBER DEFENSE"/>
-    <summary>Since 2021, Project Zero has followed a “90 + 30” vulnerability disclosure policy, allowing vendors up to 90 days to remediate a vulnerability plus an extra 30 days “soak time” for patch rollout. Our goal was to encourage faster patching and give vendors time to deliver patches to users. The advent of AI-assisted vulne</summary>
+    <summary>A new kernel contributor used AI to develop a patch for the drivers powering his nearly-20-year-old Radeon GPU.</summary>
   </entry>
   <entry>
     <title>datasette-cluster-map 0.19</title>
@@ -205,15 +196,6 @@
     <summary>Release: datasette-cluster-map 0.19 One of the oldest Datasette plugins, and still one of my favorites. It now works with Datasette 1.0a42, and depends on the new datasette-leaflet to ensure OpenStreetMap tiles are requested with a referrer header. Here's a map of power plants owned by California's PG&amp;E , also demonstr</summary>
   </entry>
   <entry>
-    <title>ASUS Unveils Gallop, Its First Humanoid Robot, Already Packing Parts on Its Own Production Line</title>
-    <link href="https://www.humanoidsdaily.com/news/asus-gallop-humanoid-robot-jetson-thor-2028"/>
-    <id>https://www.humanoidsdaily.com/news/asus-gallop-humanoid-robot-jetson-thor-2028</id>
-    <updated>2026-11-13T14:38:55.000Z</updated>
-    <author><name>Humanoids Daily</name></author>
-    <category term="ROBOTICS"/>
-    <summary>The two-armed robot runs on NVIDIA Jetson Thor and learns from head-camera footage of ASUS factory workers. Partner pilots start in 2027, with a market launch targeted for the second half of 2028.</summary>
-  </entry>
-  <entry>
     <title>University of Osaka Integrates Domestic Superconducting Quantum Processors with OCTOPUS Supercomputer via SEAFOOD Platform</title>
     <link href="https://quantumcomputingreport.com/university-of-osaka-integrates-domestic-superconducting-quantum-processors-with-octopus-supercomputer-via-seafood-platform"/>
     <id>https://quantumcomputingreport.com/university-of-osaka-integrates-domestic-superconducting-quantum-processors-with-octopus-supercomputer-via-seafood-platform</id>
@@ -223,40 +205,49 @@
     <summary>The University of Osaka has launched SEAFOOD, a hybrid computing platform integrating its OCTOPUS supercomputer with domestic superconducting quantum processors. This platform, the first of its kind in Japan, aims to tackle complex computational problems in fields like drug discovery and materials engineering by distri</summary>
   </entry>
   <entry>
-    <title>-b1b770d: examples : remove explict version from test-cmake (#32191)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0-b12359-b1b770d"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0-b12359-b1b770d</id>
-    <updated>2026-11-13T09:09:55.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary</title>
+    <link href="https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary"/>
+    <id>https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary</id>
+    <updated>2026-11-14T11:40:51.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>This commit removes the llama version test-cmake and instead uses the version that is supplied by CMAKE_PREFIX_PATH. The motivation for this is to avoid issues when bumping major versions.</summary>
+    <summary>OpenAI is dissolving its standalone robotics team for the second time, but not because it lacks data. General-purpose models like GPT-6 Astra can apparently control robots directly, making a dedicated unit unnecessary. The researchers are being redistributed across other teams in what the company frames as a way to acc</summary>
   </entry>
   <entry>
-    <title>Microsoft says all Microsoft 365 products are operational, ending an outage that disrupted governments, traders, hospitals, and businesses around the world (Bloomberg)</title>
-    <link href="https://www.techmeme.com/261114/p8"/>
-    <id>https://www.techmeme.com/261114/p8</id>
-    <updated>2026-11-14T08:03:46.000Z</updated>
+    <title>‘The social contract is broken’: young people on feeling shut out of careers</title>
+    <link href="https://www.theguardian.com/business/2026/nov/14/young-people-shut-out-of-work-ai"/>
+    <id>https://www.theguardian.com/business/2026/nov/14/young-people-shut-out-of-work-ai</id>
+    <updated>2026-11-14T10:00:42.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>In the first instalment of a new series, four young people reveal the impact of an endless cycle of applications and rejections Guardian to follow lives of eight young people in their search for jobs “I’ve been demoralised by the process, just constantly applying, then interviewing. I’ve just been applying to any jobs </summary>
+  </entry>
+  <entry>
+    <title>Operand, which offers AI-powered due diligence tools for PE firms, raised $31M across a seed and a Series A led by Khosla Ventures at a $220M valuation (Lucinda Shen/Axios)</title>
+    <link href="https://www.techmeme.com/261114/p6"/>
+    <id>https://www.techmeme.com/261114/p6</id>
+    <updated>2026-11-14T07:02:17.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Bloomberg : Microsoft says all Microsoft 365 products are operational, ending an outage that disrupted governments, traders, hospitals, and businesses around the world — Microsoft Corp. said access has been fully restored to its flagship software, ending an outage that paralyzed government offices, traders and business</summary>
+    <summary>Lucinda Shen / Axios : Operand, which offers AI-powered due diligence tools for PE firms, raised $31M across a seed and a Series A led by Khosla Ventures at a $220M valuation — Operand, which uses AI to do due diligence for private equity firms, raised $31 million in seed and Series A funding, CEO Ram Gorthi tells Axio</summary>
   </entry>
   <entry>
-    <title>b12376: Hexagon: add support for IQ2_XXS and NVFP4 (#31954)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12376"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12376</id>
-    <updated>2026-11-14T04:57:05.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>Abliterated models usefulness</title>
+    <link href="https://sh.itjust.works/post/69909664"/>
+    <id>https://sh.itjust.works/post/69909664</id>
+    <updated>2026-11-14T11:59:09.000Z</updated>
+    <author><name>Lemmy c/localllama</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>ggml-hexagon: IQ2_XXS and NVFP4 tiled repack layouts ggml-hexagon: IQ2_XXS HVX matmul kernel ggml-hexagon: NVFP4 HVX matmul kernel ggml-hexagon: NVFP4 per-tensor scale ggml-hexagon: HMX paths for IQ2_XXS and NVFP4 ggml-hexagon: supports_op coverage for NVFP4 and IQ2_XXS fix HMX IQ2_XXS dequant scale underflow in fp16 h</summary>
+    <summary>submitted by esc to localllama 2 points | 0 comments Are they really useful for anything but porn? I’ve tried deepseek-v4.1-flash and qwen-3.8 and both refuse to answer about radio jamming, unauthorized access to local systems, etc. Citing that this is illegal anywhere and they can’t help me. 🙃🥴</summary>
   </entry>
   <entry>
-    <title>RTX 5090 32GB + 64GB RAM — What local LLM would should I run?</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1xvurl3/rtx_5090_32gb_64gb_ram_what_local_llm_would"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1xvurl3/rtx_5090_32gb_64gb_ram_what_local_llm_would</id>
-    <updated>2026-11-14T05:55:23.000Z</updated>
+    <title>What’s the best MoE or model for my specs (in post)? I’m tired of spending $800/mo on Claude and Codex and their regulations being too strict and overreaching. Thanks in advance</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1xvykps/whats_the_best_moe_or_model_for_my_specs_in_post"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1xvykps/whats_the_best_moe_or_model_for_my_specs_in_post</id>
+    <updated>2026-11-14T09:48:06.000Z</updated>
     <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>My PC specifications: GPU: NVIDIA RTX 5090 — 32GB VRAM CPU: Intel Core i9-14900K/KF RAM: 64GB DDR5-6400 (2×32GB) Motherboard: ASUS PRIME Z790-P WIFI OS: Windows 11 Pro Inference backend: llama.cpp with CUDA acceleration Agent interface: Kilo with a custom tool/agent harness My current model: Model: Qwen3.8-27B Quantiza</summary>
+    <summary>Edit: I freaking love you guys. Why have I spent the past 2 months talking to ChatGPT about wtf to do smh. THANK. YOU. Abliterated is preferred. I want to be a free man goddammit. Going local (well, local builders with cloud reviewers perhaps). Maybe keep 1 Claude subscription to be the reviewer (unless Qwen really is </summary>
   </entry>
   <entry>
     <title>Open Source DocumentDB 1.0 Reaches General Availability</title>
@@ -268,12 +259,21 @@
     <summary>DocumentDB 1.0 is the first generally available release of the open source, MIT-licensed document database built on PostgreSQL, with compatibility for the MongoDB wire protocol. Most MongoDB drivers, tools, and queries work without changes. By Renato Losio</summary>
   </entry>
   <entry>
-    <title>Sam Bankman-Fried would have made nearly $40bn in Anthropic IPO</title>
-    <link href="https://www.ft.com/content/0ef40ac9-6d01-428f-98c8-a52bf5b9a787?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/0ef40ac9-6d01-428f-98c8-a52bf5b9a787?syn-25a6b1a6=1</id>
-    <updated>2026-11-13T23:39:26.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
+    <title>qwen-code v0.27.2-nightly.20261113.6f754be654 released</title>
+    <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.27.2-nightly.20261113.6f754be654"/>
+    <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.27.2-nightly.20261113.6f754be654</id>
+    <updated>2026-11-14T11:31:46.000Z</updated>
+    <author><name>QwenLM/qwen-code</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>What's Changed feat(managed-agent): register client filesystems into managed sessions by @wenshao in #16844 test(web-shell): open the shadow overview from its footer entry by @qwen-code-dev-bot in #17067 feat(managed-agent): plan long channel replies as ordered multi-segment deliveries by @wenshao in #17002 fix(permiss</summary>
+  </entry>
+  <entry>
+    <title>Goldman Sachs Sees 19% Return on Asia ex-Japan Stocks in 2027</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-14/goldman-sachs-sees-19-return-on-asia-ex-japan-stocks-in-2027"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-14/goldman-sachs-sees-19-return-on-asia-ex-japan-stocks-in-2027</id>
+    <updated>2026-11-14T10:16:50.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Jailed cryptocurrency mogul loses out on windfall from early investment in the AI lab</summary>
+    <summary>Goldman Sachs expects earnings growth to drive a 19% return for the MSCI Asia ex-Japan Index in dollar terms next year, even as it warned that uncertainty over artificial intelligence could fuel volatility.</summary>
   </entry>
 </feed>
