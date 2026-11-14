@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-14T18:08:46.746Z</updated>
+  <updated>2026-11-14T19:08:51.860Z</updated>
   <entry>
-    <title>llama.cpp b12383 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12383"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12383</id>
-    <updated>2026-11-14T14:47:39.000Z</updated>
+    <title>llama.cpp b12387 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12387"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12387</id>
+    <updated>2026-11-14T18:06:52.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>ggml-backend : start a new split at an incompatible weight in a split without inputs ( #31775 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67557548 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFrame — Also covered by: run-llama/llama_index</summary>
+    <summary>Fix ctz64 on 32bit ( #32273 ) — Also covered by: run-llama/llama_index</summary>
   </entry>
   <entry>
     <title>Introducing ChatGPT Wallet</title>
@@ -106,13 +106,13 @@
     <summary>Gemini Decisions API Google join Jev and OpenAI in the decision model category with &quot;Gemini Decision 1&quot;. This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even reuses Jev's term &quot;Noul&quot; for a yes/no question. It's priced the same as the  — Also covered by: Google AI Blog</summary>
   </entry>
   <entry>
-    <title>b12385: qwen2vl : apply FFN weight scales (#32241)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12385"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12385</id>
-    <updated>2026-11-14T18:02:15.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol</title>
+    <link href="https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol"/>
+    <id>https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol</id>
+    <updated>2026-11-14T16:48:01.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>The qwen2vl graph passed NULL for the ffn_up/gate/down scales, so the per-tensor NVFP4 scales loaded by the generic pass were never applied and the model produced garbage (PPL ~1e6 on CUDA, NaN on CPU). Pass the scales to build_ffn like qwen2 does. Fixes #32101</summary>
+    <summary>For the first time in a while, no OpenAI model leads the MathArena AI math benchmark. Google's Gemini 4 Carbon and Anthropic's Fable 5.2 have knocked GPT-6.1 Sol from the top, though both cost significantly more. Gemini ignored the time limit in testing and almost never gave up on a task. The article Gemini 4 Carbon ta</summary>
   </entry>
   <entry>
     <title>Jensen Huang's resignation is a setback for US open models, as his funding gave open-source developers time to find their footing and will very likely dry up (Nathan Lambert/Interconnects AI)</title>
@@ -122,6 +122,15 @@
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
     <summary>Nathan Lambert / Interconnects AI : Jensen Huang's resignation is a setback for US open models, as his funding gave open-source developers time to find their footing and will very likely dry up — A decapitation. It's time to rebuild. … Audio playback is not supported on your browser. Please upgrade.</summary>
+  </entry>
+  <entry>
+    <title>Why don’t we have national open AI models?</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xw4ue3/why_dont_we_have_national_open_ai_models"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xw4ue3/why_dont_we_have_national_open_ai_models</id>
+    <updated>2026-11-14T15:17:07.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Deepseek spent about $6m on 4.1 apparently. Published all of their work. US gov says don’t trust China, blah blah… As a US citizen why are we not training national open source? The cost is nothing compared to the budget, solves security issues, and prevents monopolistic practices on token pricing submitted by /u/Strang</summary>
   </entry>
   <entry>
     <title>Cursor confirms security breach led to malicious Claude Code extension</title>
@@ -142,31 +151,13 @@
     <summary>The Chicago Bears are weighing three possible homes for a new stadium: downtown Chicago, suburban Arlington Heights and Hammond, Indiana. The competition has turned into a high-stakes economic development battle involving billions of dollars in potential investment, tax incentives and public financing. Supporters say a</summary>
   </entry>
   <entry>
-    <title>Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol</title>
-    <link href="https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol"/>
-    <id>https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol</id>
-    <updated>2026-11-14T16:48:01.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="RESEARCH"/>
-    <summary>For the first time in a while, no OpenAI model leads the MathArena AI math benchmark. Google's Gemini 4 Carbon and Anthropic's Fable 5.2 have knocked GPT-6.1 Sol from the top, though both cost significantly more. Gemini ignored the time limit in testing and almost never gave up on a task. The article Gemini 4 Carbon ta</summary>
-  </entry>
-  <entry>
-    <title>By The Way: Headlines You May Have Missed</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-11-14/by-the-way-headlines-you-may-have-missed-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-11-14/by-the-way-headlines-you-may-have-missed-video</id>
-    <updated>2026-11-14T16:17:22.000Z</updated>
-    <author><name>Bloomberg Tech</name></author>
+    <title>AMD Launches EPYC Embedded 9006: Venice Gets an Early Start in Embedded</title>
+    <link href="https://www.servethehome.com/amd-launches-epyc-embedded-9006-venice-gets-an-early-start-in-embedded"/>
+    <id>https://www.servethehome.com/amd-launches-epyc-embedded-9006-venice-gets-an-early-start-in-embedded</id>
+    <updated>2026-11-14T19:00:44.000Z</updated>
+    <author><name>ServeTheHome</name></author>
     <category term="PRODUCTS"/>
-    <summary>Jensen Huang’s leather jacket, traders busting out fax machines during the Outlook outage, mega paydays for AI talent, and first-class Frontier tickets for $129: Join Lisa Mateo, David Gura and Christina Ruffini for a roundup of headlines you may have missed, but gotta see. (Source: Bloomberg)</summary>
-  </entry>
-  <entry>
-    <title>transformers v5.23.0 released</title>
-    <link href="https://github.com/huggingface/transformers/releases/tag/v5.23.0"/>
-    <id>https://github.com/huggingface/transformers/releases/tag/v5.23.0</id>
-    <updated>2026-11-13T14:10:57.000Z</updated>
-    <author><name>huggingface/transformers</name></author>
-    <category term="HARDWARE"/>
-    <summary>Release v5.23.0 New Model additions Inkling2 Inkling 2 Small is a multimodal model from Thinking Machines Lab that accepts text and image inputs and generates text outputs, and it is intended for use in English and other languages and across multiple coding languages. Its language backbone has 48 mixture-of-experts dec</summary>
+    <summary>With its new Zen 6 &quot;Venice&quot; silicon in hand, AMD has launched its next-generation EPYC Embedded 9006 platform for the embedded market, aiming to bring the performance benefits of the new platform to the long term stability-focused market segment The post AMD Launches EPYC Embedded 9006: Venice Gets an Early Start in Em</summary>
   </entry>
   <entry>
     <title>Anthropic can already retrain Mythos with &quot;a fraction of the compute originally needed,&quot; says former researcher Coxon</title>
@@ -194,6 +185,15 @@
     <author><name>Google Project Zero</name></author>
     <category term="CYBER DEFENSE"/>
     <summary>Since 2021, Project Zero has followed a “90 + 30” vulnerability disclosure policy, allowing vendors up to 90 days to remediate a vulnerability plus an extra 30 days “soak time” for patch rollout. Our goal was to encourage faster patching and give vendors time to deliver patches to users. The advent of AI-assisted vulne</summary>
+  </entry>
+  <entry>
+    <title>Anthropic CEO Amodei admits &quot;there's a huge uncertainty in what's going to happen next year&quot; days before a record IPO</title>
+    <link href="https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo"/>
+    <id>https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo</id>
+    <updated>2026-11-14T19:05:17.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>Days before what could be the largest IPO in history, Anthropic CEO Dario Amodei called buying compute 'the deepest business dilemma' his company faces. Anthropic's commitments now total nearly $901 billion, and it's still far from clear whether future revenue will justify those costs. The planned IPO is largely meant </summary>
   </entry>
   <entry>
     <title>Open-source AI without Jensen</title>
@@ -232,6 +232,15 @@
     <summary>Anthropic has made Claude Opus 5.5 the default model on all paid plans and published a guide that does away with old prompting habits. The main takeaway is to drop &quot;think hard&quot; and start at Medium effort. The article Anthropic says outdated prompting habits are slowing down Claude Opus 5.5 appeared first on The Decoder</summary>
   </entry>
   <entry>
+    <title>Databento, which offers market data APIs and says it has contracts with five of the six largest frontier AI labs, raised a $100M Series C at a $1.1B valuation (FinTech Global)</title>
+    <link href="https://www.techmeme.com/261114/p16"/>
+    <id>https://www.techmeme.com/261114/p16</id>
+    <updated>2026-11-14T18:35:04.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>FinTech Global : Databento, which offers market data APIs and says it has contracts with five of the six largest frontier AI labs, raised a $100M Series C at a $1.1B valuation — Databento, a platform supplying market data to the modern financial industry, has secured $100m in a Series C round that values the business a</summary>
+  </entry>
+  <entry>
     <title>The AI graveyard: a running list of projects and startups that didn’t make it</title>
     <link href="https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it"/>
     <id>https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it</id>
@@ -239,24 +248,6 @@
     <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
     <summary>From Apple's repeatedly delayed Siri AI to OpenAI's messy &quot;super app&quot; launch, here's a look at the AI projects that shut down or missed expectations.</summary>
-  </entry>
-  <entry>
-    <title>Sean Duffy blames Friday's FAA outage on copper-to-fiber wiring work at a remote facility, saying contractor L3Harris may have installed a &quot;faulty router&quot; (Joseph Pisani/Wall Street Journal)</title>
-    <link href="https://www.techmeme.com/261114/p14"/>
-    <id>https://www.techmeme.com/261114/p14</id>
-    <updated>2026-11-14T17:15:29.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Joseph Pisani / Wall Street Journal : Sean Duffy blames Friday's FAA outage on copper-to-fiber wiring work at a remote facility, saying contractor L3Harris may have installed a “faulty router” — Work at a single remote location caused instability that led authorities to order nationwide groundstop; airlines continue to</summary>
-  </entry>
-  <entry>
-    <title>Why don’t we have national open AI models?</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xw4ue3/why_dont_we_have_national_open_ai_models"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xw4ue3/why_dont_we_have_national_open_ai_models</id>
-    <updated>2026-11-14T15:17:07.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Deepseek spent about $6m on 4.1 apparently. Published all of their work. US gov says don’t trust China, blah blah… As a US citizen why are we not training national open source? The cost is nothing compared to the budget, solves security issues, and prevents monopolistic practices on token pricing submitted by /u/Strang</summary>
   </entry>
   <entry>
     <title>After medusa halo we get siren halo</title>
@@ -275,5 +266,14 @@
     <author><name>LangChain Blog</name></author>
     <category term="AGENTS &amp; TOOLS"/>
     <summary>The future of agents is them taking on open ended goals and driving towards completion of those goals. Learn more.</summary>
+  </entry>
+  <entry>
+    <title>Open Source DocumentDB 1.0 Reaches General Availability</title>
+    <link href="https://www.infoq.com/news/2026/11/mongodb-compatible-documentdb"/>
+    <id>https://www.infoq.com/news/2026/11/mongodb-compatible-documentdb</id>
+    <updated>2026-11-14T06:37:00.000Z</updated>
+    <author><name>InfoQ AI/ML</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>DocumentDB 1.0 is the first generally available release of the open source, MIT-licensed document database built on PostgreSQL, with compatibility for the MongoDB wire protocol. Most MongoDB drivers, tools, and queries work without changes. By Renato Losio</summary>
   </entry>
 </feed>
