@@ -5,15 +5,24 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-15T04:08:37.249Z</updated>
+  <updated>2026-11-15T08:08:43.322Z</updated>
   <entry>
-    <title>llama.cpp b12390 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12390"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12390</id>
-    <updated>2026-11-15T03:58:14.000Z</updated>
+    <title>llama.cpp b12405 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12405"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12405</id>
+    <updated>2026-11-15T08:00:17.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>common : fix infinite recursion in debug build for peg parser dump ( #32282 ) Change dump()-&gt;dump_impl() calls to avoid infinite recursion. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67701271 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI ena — Also covered by: run-llama/llama_index</summary>
+    <summary>common : reject out-of-range grammar_triggers type instead of aborting ( #30835 ) ( #31478 ) common : reject out-of-range grammar_triggers type instead of aborting ( #30835 ) tests : remove the invalid grammar trigger type regression test ( #30835 ) Website: https://llama.app Attestations: https://github.com/ggml-org/l — Also covered by: run-llama/llama_index</summary>
+  </entry>
+  <entry>
+    <title>qwen-code v0.27.4 released</title>
+    <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.27.4"/>
+    <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.27.4</id>
+    <updated>2026-11-15T07:04:40.000Z</updated>
+    <author><name>QwenLM/qwen-code</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>What's Changed feat(managed-agent): register client filesystems into managed sessions by @wenshao in #16844 test(web-shell): open the shadow overview from its footer entry by @qwen-code-dev-bot in #17067 feat(managed-agent): plan long channel replies as ordered multi-segment deliveries by @wenshao in #17002 fix(permiss — Also covered by: anthropics/claude-code, QwenLM/qwen-code</summary>
   </entry>
   <entry>
     <title>Introducing ChatGPT Wallet</title>
@@ -22,7 +31,16 @@
     <updated>2026-11-13T15:00:00.000Z</updated>
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections. — Also covered by: The Information</summary>
+    <summary>Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.</summary>
+  </entry>
+  <entry>
+    <title>Microsoft patent describes turning idle gaming GPUs into paid AI training hardware</title>
+    <link href="https://sh.itjust.works/post/69932677"/>
+    <id>https://sh.itjust.works/post/69932677</id>
+    <updated>2026-11-14T21:49:43.000Z</updated>
+    <author><name>Lemmy c/localllama</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>submitted by ThelastfingerofH to localllama 24 points | 8 comments https://videocardz.com/newz/microsoft-could-pay-gamers-for-using-spare-gpu-capacity-to-train-ai — Also covered by: LocalLLaMA Subreddit</summary>
   </entry>
   <entry>
     <title>Shield helps technicians hand off legacy portal work with OpenAI</title>
@@ -32,6 +50,15 @@
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.</summary>
+  </entry>
+  <entry>
+    <title>Introducing Gemini 4 Hydrogen</title>
+    <link href="https://deepmind.google/blog/introducing-gemini-4-hydrogen"/>
+    <id>https://deepmind.google/blog/introducing-gemini-4-hydrogen</id>
+    <updated>2026-11-12T18:00:50.000Z</updated>
+    <author><name>Google DeepMind Blog</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Also covered by: GitHub Copilot Changelog</summary>
   </entry>
   <entry>
     <title>AI agent startup LangChain hits $3B valuation</title>
@@ -61,15 +88,6 @@
     <summary>Also covered by: Ai2 (Allen Institute)</summary>
   </entry>
   <entry>
-    <title>Gemini 4 Hydrogen in GitHub Copilot</title>
-    <link href="https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot"/>
-    <id>https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot</id>
-    <updated>2026-11-13T18:23:48.000Z</updated>
-    <author><name>GitHub Copilot Changelog</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Gemini 4 Hydrogen, Google’s latest Flash model, is now generally available in GitHub Copilot. It is designed for fast, efficient agentic coding, tool use, and multistep workflows, with improved instruction… The post Gemini 4 Hydrogen in GitHub Copilot appeared first on The GitHub Blog .</summary>
-  </entry>
-  <entry>
     <title>Three Lincoln Laboratory technologies receive 2026 R&amp;D 100 Awards</title>
     <link href="https://news.mit.edu/2026/lincoln-laboratory-technologies-receive-rd-100-awards-1112"/>
     <id>https://news.mit.edu/2026/lincoln-laboratory-technologies-receive-rd-100-awards-1112</id>
@@ -79,40 +97,40 @@
     <summary>A secure operating system, a quantum microsystem platform, and a 5G interference-canceling algorithm are named among the year's most significant innovations.</summary>
   </entry>
   <entry>
-    <title>b12391: chat : allow tool calls inside reasoning blocks for Ministral-3 (#32271)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12391"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12391</id>
-    <updated>2026-11-14T22:33:35.000Z</updated>
+    <title>b12407: model : metal : workaround fusion for LFM3 (#32296)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12407"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12407</id>
+    <updated>2026-11-15T00:05:20.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>chat: allow tool calls inside reasoning blocks for Ministral-3 and Qwen3 Fixes #29248 Fixes #20837 chat: address review feedback for Ministral-3 reasoning end Remove &lt;function= from Qwen3 (intentionally not used outside outdated coder models) Ministral-3: use choice between [/THINK] and peek([TOOL_CALLS]) instead of op</summary>
+    <summary>lfm3 : put the normed tensor first in residual adds to enable norm fusion Assisted-by: Claude Opus 5.5 tests : update Metal fusion baseline for lfm3 Assisted-by: Claude Opus 5.5</summary>
   </entry>
   <entry>
-    <title>23andMe's Anne Wojcicki, formerly married to Google co-founder Sergey Brin, says Jensen Huang's affair shows what happens when CEOs think they are &quot;untouchable&quot; (Bloomberg)</title>
-    <link href="https://www.techmeme.com/261114/p22"/>
-    <id>https://www.techmeme.com/261114/p22</id>
-    <updated>2026-11-15T02:05:01.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>SpaceX Catches Starship’s Upper Stage for the First Time</title>
+    <link href="https://www.theinformation.com/briefings/spacex-catches-starships-upper-stage-first-time"/>
+    <id>https://www.theinformation.com/briefings/spacex-catches-starships-upper-stage-first-time</id>
+    <updated>2026-11-15T06:51:23.000Z</updated>
+    <author><name>The Information</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Bloomberg : 23andMe's Anne Wojcicki, formerly married to Google co-founder Sergey Brin, says Jensen Huang's affair shows what happens when CEOs think they are “untouchable” — As the Nvidia drama unfolds, the tech community adds yet another geek-turned-billionaire to its list of flawed visionaries.</summary>
+    <summary>SpaceX on Saturday caught its Starship upper stage with the arms of its launch tower in South Texas, a first for the rocket program. SpaceX had caught Super Heavy boosters before, but never the ship itself. The ship, which launched Friday on the 15th flight of the spacecraft, spent over ...</summary>
   </entry>
   <entry>
-    <title>Cursor confirms security breach led to malicious Claude Code extension</title>
-    <link href="https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension"/>
-    <id>https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension</id>
-    <updated>2026-11-14T17:27:25.000Z</updated>
-    <author><name>BleepingComputer</name></author>
+    <title>Nebuly, whose tech helps enterprises measure the business value of AI agents by analyzing their impact on productivity and revenue, raised a $21M Series A (Tamara Djurickovic/Tech.eu)</title>
+    <link href="https://www.techmeme.com/261115/p3"/>
+    <id>https://www.techmeme.com/261115/p3</id>
+    <updated>2026-11-15T06:40:02.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]</summary>
+    <summary>Tamara Djurickovic / Tech.eu : Nebuly, whose tech helps enterprises measure the business value of AI agents by analyzing their impact on productivity and revenue, raised a $21M Series A — Nebuly develops a platform that helps enterprises measure the business value of AI agents by analysing their impact on productivity </summary>
   </entry>
   <entry>
-    <title>The Entrepreneurs Behind Poppi Start Over</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-11-14/the-entrepreneurs-behind-poppi-start-over-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-11-14/the-entrepreneurs-behind-poppi-start-over-video</id>
-    <updated>2026-11-14T16:13:04.000Z</updated>
+    <title>Crypto’s Slow-Motion Selloff Leaves Traders Weary and Hopeless</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-15/crypto-s-slow-motion-selloff-leaves-traders-weary-and-hopeless"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-15/crypto-s-slow-motion-selloff-leaves-traders-weary-and-hopeless</id>
+    <updated>2026-11-15T05:10:27.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Poppi founders Allison and Stephen Ellsworth tell Bloomberg This Weekend how they turned a farmers market business into a nearly $2 billion beverage brand and what they learned from the decade-long journey. Speaking with hosts David Gura and Lisa Mateo, the couple explains why they are starting over with Jetty, a new h</summary>
+    <summary>Bitcoin’s latest selloff is testing the resolve of some of the cryptocurrency market’s most committed investors, as a succession of setbacks pushes prices toward their lowest levels of the year and major sources of demand weaken.</summary>
   </entry>
   <entry>
     <title>Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol</title>
@@ -124,13 +142,22 @@
     <summary>For the first time in a while, no OpenAI model leads the MathArena AI math benchmark. Google's Gemini 4 Carbon and Anthropic's Fable 5.2 have knocked GPT-6.1 Sol from the top, though both cost significantly more. Gemini ignored the time limit in testing and almost never gave up on a task. The article Gemini 4 Carbon ta</summary>
   </entry>
   <entry>
-    <title>AMD Launches EPYC Embedded 9006: Venice Gets an Early Start in Embedded</title>
-    <link href="https://www.servethehome.com/amd-launches-epyc-embedded-9006-venice-gets-an-early-start-in-embedded"/>
-    <id>https://www.servethehome.com/amd-launches-epyc-embedded-9006-venice-gets-an-early-start-in-embedded</id>
-    <updated>2026-11-14T19:00:44.000Z</updated>
-    <author><name>ServeTheHome</name></author>
+    <title>Twenty Minutes Into the Future: On Launching “Terminal Values”</title>
+    <link href="https://www.lesswrong.com/posts/krCjzvDn9xiKQXRib/twenty-minutes-into-the-future-on-launching-terminal-values"/>
+    <id>https://www.lesswrong.com/posts/krCjzvDn9xiKQXRib/twenty-minutes-into-the-future-on-launching-terminal-values</id>
+    <updated>2026-11-15T06:46:51.000Z</updated>
+    <author><name>LessWrong</name></author>
     <category term="PRODUCTS"/>
-    <summary>With its new Zen 6 &quot;Venice&quot; silicon in hand, AMD has launched its next-generation EPYC Embedded 9006 platform for the embedded market, aiming to bring the performance benefits of the new platform to the long term stability-focused market segment The post AMD Launches EPYC Embedded 9006: Venice Gets an Early Start in Em</summary>
+    <summary>Cross-posted from Oblomovka . It’s 4AM on a Monday morning. In a few hours, I’m supposed to be launching a new digital rights organisation at the Cypherpunk Congress , in Mumbai, India. I’m still in my pyjamas in San Francisco. This part, at least, was somewhat planned. I told Mykola Siusko and Becca Creamer , the orga</summary>
+  </entry>
+  <entry>
+    <title>The Lustre Collective Names Do IT Now Launch Partner Ahead of SC26</title>
+    <link href="https://www.hpcwire.com/off-the-wire/the-lustre-collective-names-do-it-now-launch-partner-ahead-of-sc26"/>
+    <id>https://www.hpcwire.com/off-the-wire/the-lustre-collective-names-do-it-now-launch-partner-ahead-of-sc26</id>
+    <updated>2026-11-15T08:05:41.000Z</updated>
+    <author><name>HPC Wire</name></author>
+    <category term="HARDWARE"/>
+    <summary>ARVADA, Colo., Nov. 15, 2026 — The Lustre Collective (TLC), the engineering company founded by veteran Lustre developers to advance Lustre upstream and in the open, has announced a strategic partnership with Do IT Now, the European HPC and AI infrastructure integrator. Together, the two companies will bring TLC’s upcom</summary>
   </entry>
   <entry>
     <title>Runway's open-source Praxis-1 turns video AI into a robot controller</title>
@@ -142,21 +169,21 @@
     <summary>Runway releases its robotics model Praxis-1 with open weights and source code under the Apache 2.0 license. The model uses knowledge from video training for robot control and leads the World Action Model category on Nvidia's RoboLab-120 benchmark. It can't yet plan complex action sequences on its own, though. The artic</summary>
   </entry>
   <entry>
-    <title>A calendar for the age of AI: AA</title>
-    <link href="https://www.lesswrong.com/posts/Kfhuxfqh95aGEdpgt/a-calendar-for-the-age-of-ai-aa"/>
-    <id>https://www.lesswrong.com/posts/Kfhuxfqh95aGEdpgt/a-calendar-for-the-age-of-ai-aa</id>
-    <updated>2026-11-15T01:43:08.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>We are in AA 9. In Brave New World, Aldous Huxley dated the future from the launch of a car. The book was set in AF 632; AF stands for &quot;Anno Fordi&quot; or &quot;After Ford&quot;. It starts counting from 1908 AD, the year when Ford launched the Model T into production. In the book, people say &quot;Ford!&quot;, instead of &quot;God!&quot;, and the cross</summary>
-  </entry>
-  <entry>
     <title>Conducting The First Live Enterprise Comparison Between Agents and Human Professionals</title>
     <link href="https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals"/>
     <id>https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals</id>
-    <updated>2026-11-15T04:08:17.950Z</updated>
+    <updated>2026-11-15T08:08:24.173Z</updated>
     <author><name>Gray Swan</name></author>
     <category term="AI SECURITY"/>
+  </entry>
+  <entry>
+    <title>How Jensen Huang built a multibillion-dollar business to let Chinese companies access Nvidia AI chips in SE Asian data centers, exploiting a gap in US sanctions (Wall Street Journal)</title>
+    <link href="https://www.techmeme.com/261115/p1"/>
+    <id>https://www.techmeme.com/261115/p1</id>
+    <updated>2026-11-15T05:55:03.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>Wall Street Journal : How Jensen Huang built a multibillion-dollar business to let Chinese companies access Nvidia AI chips in SE Asian data centers, exploiting a gap in US sanctions — Massive data centers in Southeast Asia exploited a gap in U.S. sanctions, providing crucial computing power for Chinese companies and a</summary>
   </entry>
   <entry>
     <title>Policy and Disclosure: 2026 Edition</title>
@@ -168,22 +195,22 @@
     <summary>Since 2021, Project Zero has followed a “90 + 30” vulnerability disclosure policy, allowing vendors up to 90 days to remediate a vulnerability plus an extra 30 days “soak time” for patch rollout. Our goal was to encourage faster patching and give vendors time to deliver patches to users. The advent of AI-assisted vulne</summary>
   </entry>
   <entry>
-    <title>Anthropic CEO Amodei admits &quot;there's a huge uncertainty in what's going to happen next year&quot; days before a record IPO</title>
-    <link href="https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo"/>
-    <id>https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo</id>
-    <updated>2026-11-14T19:05:17.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>Nidus, which is developing AI-powered tech for manufacturing robots used by US defense industrial companies, raised $30M across a pre-seed and a seed (Alex Konrad/Upstarts Media)</title>
+    <link href="https://www.techmeme.com/261115/p5"/>
+    <id>https://www.techmeme.com/261115/p5</id>
+    <updated>2026-11-15T06:50:01.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="FUNDING &amp; DEALS"/>
-    <summary>Days before what could be the largest IPO in history, Anthropic CEO Dario Amodei called buying compute 'the deepest business dilemma' his company faces. Anthropic's commitments now total nearly $901 billion, and it's still far from clear whether future revenue will justify those costs. The planned IPO is largely meant </summary>
+    <summary>Alex Konrad / Upstarts Media : Nidus, which is developing AI-powered tech for manufacturing robots used by US defense industrial companies, raised $30M across a pre-seed and a seed — The startup backed by Kleiner Perkins and Costanoa says it's reached “seven figures” in bookings with defense industrial customers in jus</summary>
   </entry>
   <entry>
-    <title>datasette-llm 0.1a11</title>
-    <link href="https://simonwillison.net/2026/Nov/14/datasette-llm"/>
-    <id>https://simonwillison.net/2026/Nov/14/datasette-llm</id>
-    <updated>2026-11-14T23:59:28.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>🔮 The $22 billion question about AI self-improvement #610</title>
+    <link href="https://www.exponentialview.co/p/ev-610"/>
+    <id>https://www.exponentialview.co/p/ev-610</id>
+    <updated>2026-11-15T04:47:29.000Z</updated>
+    <author><name>Exponential View (Azhar)</name></author>
     <category term="ANALYSIS"/>
-    <summary>Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard web prot</summary>
+    <summary>Plus: Cheap solar, who pays for Claude &amp; DNA immunotherapy++</summary>
   </entry>
   <entry>
     <title>Making Quantum SDKs More Accessible: Lessons from Contributing to Qiskit</title>
@@ -195,84 +222,57 @@
     <summary>Software developer Gloria Amos describes her experience in making a contribution to the open source Qiskit platform and provides insights into some of the things contributors should watch out for. The post Making Quantum SDKs More Accessible: Lessons from Contributing to Qiskit appeared first on Quantum Computing Repor</summary>
   </entry>
   <entry>
-    <title>Anthropic says outdated prompting habits are slowing down Claude Opus 5.5</title>
-    <link href="https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5"/>
-    <id>https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5</id>
-    <updated>2026-11-14T16:42:56.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>b12406: feat: add Inkling 2 support (text + vision) (#32217)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12406"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12406</id>
+    <updated>2026-11-14T23:51:31.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Anthropic has made Claude Opus 5.5 the default model on all paid plans and published a guide that does away with old prompting habits. The main takeaway is to drop &quot;think hard&quot; and start at Medium effort. The article Anthropic says outdated prompting habits are slowing down Claude Opus 5.5 appeared first on The Decoder</summary>
+    <summary>convert : add Inkling2 text GGUF conversion Assisted-by: Codex llama : implement Inkling2 text inference Assisted-by: Codex tests : cover Inkling2 text support Assisted-by: Codex conversion : dequantize packed Inkling2 experts in row chunks Decode per-layer NVFP4 and MXFP8 schemes, validate companions, and use stored s</summary>
   </entry>
   <entry>
-    <title>Source: Applied Digital has asked tenants like Oracle and Meta for billions in guarantees since at least last year to secure power before finalizing leases (Bloomberg)</title>
-    <link href="https://www.techmeme.com/261114/p21"/>
-    <id>https://www.techmeme.com/261114/p21</id>
-    <updated>2026-11-15T00:05:02.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Bloomberg : Source: Applied Digital has asked tenants like Oracle and Meta for billions in guarantees since at least last year to secure power before finalizing leases — Tech giants chasing the infinite promise of AI are finding themselves increasingly on the hook for something far earthier — the electrical grid.</summary>
-  </entry>
-  <entry>
-    <title>Thousands of Nvidia Staff Sign Petition to Bring Back Huang</title>
-    <link href="https://www.theinformation.com/briefings/thousands-nvidia-staff-sign-petition-bring-back-huang"/>
-    <id>https://www.theinformation.com/briefings/thousands-nvidia-staff-sign-petition-bring-back-huang</id>
-    <updated>2026-11-15T01:23:24.000Z</updated>
-    <author><name>The Information</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>A petition urging Nvidia’s board to reinstate Jensen Huang passed 100,000 signatures Saturday, including 5,248 people who said they are current Nvidia employees. Signers include Elon Musk, Epic Games’ Tim Sweeney and Y Combinator’s Garry Tan. Huang resigned Nov. 12 following reports of an affair ...</summary>
-  </entry>
-  <entry>
-    <title>LLVQ releases ~2.7-bit Qwen3 quants, with a quality-versus-speed trade-off</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1xwkzft/llvq_releases_27bit_qwen3_quants_with_a"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1xwkzft/llvq_releases_27bit_qwen3_quants_with_a</id>
-    <updated>2026-11-15T03:15:47.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
+    <title>RASA will cause total chaos to open LLMs and beyond</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xwmnkw/rasa_will_cause_total_chaos_to_open_llms_and"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xwmnkw/rasa_will_cause_total_chaos_to_open_llms_and</id>
+    <updated>2026-11-15T04:47:03.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>LLVQ is a new open-source project with Qwen3 4B, 8B and 14B quants at about 2.7 bits per weight. The 14B file is 5.09GB. The author's L40S tests report higher MMLU scores than llama.cpp's IQ2_S, but slower decoding at every tested size. Long prompts also use much more memory than llama.cpp in his tests. These aren't GG</summary>
+    <summary>Commerce Moves to Finalize Rule Blocking Chinese AI Firms From Renting Nvidia GPUs Abroad https://explainx.ai/blog/commerce-final-rule-chinese-ai-firms-remote-nvidia-chips-the-information-2026 House Passes Remote Access Security Act to Limit Adversaries’ Remote Access to Critical Technology https://www.cmtradelaw.com/2</summary>
   </entry>
   <entry>
-    <title>I benchmarked DeepSeek-V4.1-Flash on one and two M5 Ultra 512 GB Mac Studios</title>
-    <link href="https://www.reddit.com/r/LocalLLM/comments/1xwjfpy/i_benchmarked_deepseekv41flash_on_one_and_two_m5"/>
-    <id>https://www.reddit.com/r/LocalLLM/comments/1xwjfpy/i_benchmarked_deepseekv41flash_on_one_and_two_m5</id>
-    <updated>2026-11-15T01:55:07.000Z</updated>
-    <author><name>r/LocalLLM</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Hello all! Here are my benchmarks for DeepSeek-V4.1-Flash (ddalcu/DeepSeek-V4.1-Flash-1017-MLX-Serve-Lossless) on MLX-Serve 26.11.2, running on one and two M5 Ultra 512 GB Mac Studios. For the dual setup I used a single Thunderbolt RDMA link (an mlx-serve limitation at the moment) and split the experts across the two n</summary>
-  </entry>
-  <entry>
-    <title>Cohere Finding Shows Self-Hosted Open-Weight Models Still Need Egress Controls</title>
-    <link href="https://www.infoq.com/news/2026/11/cohere-open-weight-egress-risk"/>
-    <id>https://www.infoq.com/news/2026/11/cohere-open-weight-egress-risk</id>
-    <updated>2026-11-15T02:42:00.000Z</updated>
-    <author><name>InfoQ AI/ML</name></author>
+    <title>Cursor confirms security breach led to malicious Claude Code extension</title>
+    <link href="https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension"/>
+    <id>https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension</id>
+    <updated>2026-11-14T17:27:25.000Z</updated>
+    <author><name>BleepingComputer</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Cohere recently reported that one of Alibaba’s newest Qwen3.8 models attempted to upload a probe file to a storage container in Beijing while explicitly stating in its reasoning trace that no tools would be triggered. While there is no evidence of intentional backdooring, the report is a reminder that, even for self-ho</summary>
+    <summary>Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]</summary>
   </entry>
   <entry>
-    <title>Goal Engineering</title>
-    <link href="https://www.langchain.com/blog/goal-engineering"/>
-    <id>https://www.langchain.com/blog/goal-engineering</id>
-    <updated>2026-11-14T16:00:01.000Z</updated>
-    <author><name>LangChain Blog</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>The future of agents is them taking on open ended goals and driving towards completion of those goals. Learn more.</summary>
-  </entry>
-  <entry>
-    <title>(Digital) SpaceX Catches Starship in Novel Landing</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-11-14/-digital-spacex-catches-starship-in-novel-landing"/>
-    <id>https://www.bloomberg.com/news/videos/2026-11-14/-digital-spacex-catches-starship-in-novel-landing</id>
-    <updated>2026-11-14T22:25:41.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
+    <title>Huang’s downfall shows human judgment is not all it’s cracked up to be</title>
+    <link href="https://www.ft.com/content/f8dffb89-99e3-4e9d-ac62-4eb59da4f007?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/f8dffb89-99e3-4e9d-ac62-4eb59da4f007?syn-25a6b1a6=1</id>
+    <updated>2026-11-15T05:00:04.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
     <category term="AI FINANCE"/>
-    <summary>(Digital) SpaceX Catches Starship in Novel Landing (Source: Bloomberg)</summary>
+    <summary>The quality that sets us apart from machines has been absent during implosion by former Nvidia boss</summary>
   </entry>
   <entry>
-    <title>Juicy 6% Yields Gain Appeal After Nvidia Drama: Credit Weekly</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly</id>
-    <updated>2026-11-14T20:00:00.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
+    <title>Samsung conquered AI chips. Now it wants to build data centres</title>
+    <link href="https://www.ft.com/content/ee5b23b3-89b3-41f7-9158-56c1586759c2?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/ee5b23b3-89b3-41f7-9158-56c1586759c2?syn-25a6b1a6=1</id>
+    <updated>2026-11-15T05:00:04.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
     <category term="AI FINANCE"/>
-    <summary>US corporate bonds have been rallying in recent weeks, drawing the attention of money managers seeking shelter from turbulence in stocks.</summary>
+    <summary>South Korean conglomerate hopes to replicate success with semiconductors across its sprawling portfolio of businesses</summary>
+  </entry>
+  <entry>
+    <title>Cmpnd Releases dspy-wsp: Weight-Space Programming Comes to DSPy</title>
+    <link href="https://www.marktechpost.com/2026/11/14/cmpnd-dspy-wsp-weight-space-programming"/>
+    <id>https://www.marktechpost.com/2026/11/14/cmpnd-dspy-wsp-weight-space-programming</id>
+    <updated>2026-11-14T16:45:48.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="RESEARCH"/>
+    <summary>Cmpnd released dspy-wsp, a prototype DSPy optimizer for weight-space programming. A frontier LLM reads a small model’s weights, edits them in a sandbox, and tests each change, with no gradients and about $5 to $10 per run. The post Cmpnd Releases dspy-wsp: Weight-Space Programming Comes to DSPy appeared first on MarkTe</summary>
   </entry>
 </feed>
