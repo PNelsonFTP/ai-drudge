@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-15T03:08:45.949Z</updated>
+  <updated>2026-11-15T04:08:37.249Z</updated>
   <entry>
-    <title>llama.cpp b12389 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12389"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12389</id>
-    <updated>2026-11-14T22:32:48.000Z</updated>
+    <title>llama.cpp b12390 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12390"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12390</id>
+    <updated>2026-11-15T03:58:14.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>opencl: fixes for q4_k mv oob access, f16 swiglu_oai, cpy with stride… — Also covered by: run-llama/llama_index</summary>
+    <summary>common : fix infinite recursion in debug build for peg parser dump ( #32282 ) Change dump()-&gt;dump_impl() calls to avoid infinite recursion. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67701271 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI ena — Also covered by: run-llama/llama_index</summary>
   </entry>
   <entry>
     <title>Introducing ChatGPT Wallet</title>
@@ -23,15 +23,6 @@
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections. — Also covered by: The Information</summary>
-  </entry>
-  <entry>
-    <title>Microsoft patent describes turning idle gaming GPUs into paid AI training hardware</title>
-    <link href="https://sh.itjust.works/post/69932677"/>
-    <id>https://sh.itjust.works/post/69932677</id>
-    <updated>2026-11-14T21:49:43.000Z</updated>
-    <author><name>Lemmy c/localllama</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>submitted by ThelastfingerofH to localllama 21 points | 7 comments https://videocardz.com/newz/microsoft-could-pay-gamers-for-using-spare-gpu-capacity-to-train-ai — Also covered by: LocalLLaMA Subreddit</summary>
   </entry>
   <entry>
     <title>Shield helps technicians hand off legacy portal work with OpenAI</title>
@@ -88,13 +79,13 @@
     <summary>A secure operating system, a quantum microsystem platform, and a 5G interference-canceling algorithm are named among the year's most significant innovations.</summary>
   </entry>
   <entry>
-    <title>Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol</title>
-    <link href="https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol"/>
-    <id>https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol</id>
-    <updated>2026-11-14T16:48:01.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>b12391: chat : allow tool calls inside reasoning blocks for Ministral-3 (#32271)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12391"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12391</id>
+    <updated>2026-11-14T22:33:35.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>For the first time in a while, no OpenAI model leads the MathArena AI math benchmark. Google's Gemini 4 Carbon and Anthropic's Fable 5.2 have knocked GPT-6.1 Sol from the top, though both cost significantly more. Gemini ignored the time limit in testing and almost never gave up on a task. The article Gemini 4 Carbon ta</summary>
+    <summary>chat: allow tool calls inside reasoning blocks for Ministral-3 and Qwen3 Fixes #29248 Fixes #20837 chat: address review feedback for Ministral-3 reasoning end Remove &lt;function= from Qwen3 (intentionally not used outside outdated coder models) Ministral-3: use choice between [/THINK] and peek([TOOL_CALLS]) instead of op</summary>
   </entry>
   <entry>
     <title>23andMe's Anne Wojcicki, formerly married to Google co-founder Sergey Brin, says Jensen Huang's affair shows what happens when CEOs think they are &quot;untouchable&quot; (Bloomberg)</title>
@@ -115,13 +106,22 @@
     <summary>Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]</summary>
   </entry>
   <entry>
-    <title>(Digital) SpaceX Catches Starship in Novel Landing</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-11-14/-digital-spacex-catches-starship-in-novel-landing"/>
-    <id>https://www.bloomberg.com/news/videos/2026-11-14/-digital-spacex-catches-starship-in-novel-landing</id>
-    <updated>2026-11-14T22:25:41.000Z</updated>
+    <title>The Entrepreneurs Behind Poppi Start Over</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-11-14/the-entrepreneurs-behind-poppi-start-over-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-11-14/the-entrepreneurs-behind-poppi-start-over-video</id>
+    <updated>2026-11-14T16:13:04.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>(Digital) SpaceX Catches Starship in Novel Landing (Source: Bloomberg)</summary>
+    <summary>Poppi founders Allison and Stephen Ellsworth tell Bloomberg This Weekend how they turned a farmers market business into a nearly $2 billion beverage brand and what they learned from the decade-long journey. Speaking with hosts David Gura and Lisa Mateo, the couple explains why they are starting over with Jetty, a new h</summary>
+  </entry>
+  <entry>
+    <title>Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol</title>
+    <link href="https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol"/>
+    <id>https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol</id>
+    <updated>2026-11-14T16:48:01.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="RESEARCH"/>
+    <summary>For the first time in a while, no OpenAI model leads the MathArena AI math benchmark. Google's Gemini 4 Carbon and Anthropic's Fable 5.2 have knocked GPT-6.1 Sol from the top, though both cost significantly more. Gemini ignored the time limit in testing and almost never gave up on a task. The article Gemini 4 Carbon ta</summary>
   </entry>
   <entry>
     <title>AMD Launches EPYC Embedded 9006: Venice Gets an Early Start in Embedded</title>
@@ -154,7 +154,7 @@
     <title>Conducting The First Live Enterprise Comparison Between Agents and Human Professionals</title>
     <link href="https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals"/>
     <id>https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals</id>
-    <updated>2026-11-15T03:08:23.683Z</updated>
+    <updated>2026-11-15T04:08:17.950Z</updated>
     <author><name>Gray Swan</name></author>
     <category term="AI SECURITY"/>
   </entry>
@@ -222,22 +222,22 @@
     <summary>A petition urging Nvidia’s board to reinstate Jensen Huang passed 100,000 signatures Saturday, including 5,248 people who said they are current Nvidia employees. Signers include Elon Musk, Epic Games’ Tim Sweeney and Y Combinator’s Garry Tan. Huang resigned Nov. 12 following reports of an affair ...</summary>
   </entry>
   <entry>
-    <title>Qwen3 4B / 8B / 14B at ~2.7 bits per weight with Leech lattice quantization. Beats IQ2_S on quality at the same size, loses on speed [open source, Rust + CUDA]</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xwerbo/qwen3_4b_8b_14b_at_27_bits_per_weight_with_leech"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xwerbo/qwen3_4b_8b_14b_at_27_bits_per_weight_with_leech</id>
-    <updated>2026-11-14T22:10:59.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>LLVQ releases ~2.7-bit Qwen3 quants, with a quality-versus-speed trade-off</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1xwkzft/llvq_releases_27bit_qwen3_quants_with_a"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1xwkzft/llvq_releases_27bit_qwen3_quants_with_a</id>
+    <updated>2026-11-15T03:15:47.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>https://preview.redd.it/dfiyzcvakn1i1.png?width=2356&amp;format=png&amp;auto=webp&amp;s=41301d5648563b26353cba70079fb6afcd9bf329 hi r/LocalLLaMA , I've been working for a while on an independent Rust implementation of LLVQ, the Leech lattice quantization paper from Qualcomm ( arXiv:2603.11021 ), with my own CUDA kernel to actually</summary>
+    <summary>LLVQ is a new open-source project with Qwen3 4B, 8B and 14B quants at about 2.7 bits per weight. The 14B file is 5.09GB. The author's L40S tests report higher MMLU scores than llama.cpp's IQ2_S, but slower decoding at every tested size. Long prompts also use much more memory than llama.cpp in his tests. These aren't GG</summary>
   </entry>
   <entry>
-    <title>LFM2.5-24B-A2B + Hermes is awesome!</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xwgiow/lfm2524ba2b_hermes_is_awesome"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xwgiow/lfm2524ba2b_hermes_is_awesome</id>
-    <updated>2026-11-14T23:31:27.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>I benchmarked DeepSeek-V4.1-Flash on one and two M5 Ultra 512 GB Mac Studios</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1xwjfpy/i_benchmarked_deepseekv41flash_on_one_and_two_m5"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1xwjfpy/i_benchmarked_deepseekv41flash_on_one_and_two_m5</id>
+    <updated>2026-11-15T01:55:07.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>I just wanted to share some love for a model that doesn't seem to get very much: LFM2.5-24B-A2B! ( https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF ) LFM2.5-24B-A2B seems to be the only model that strikes a great balance between speed and capability on commodity hardware. Just to get it out of the way: This is NOT a</summary>
+    <summary>Hello all! Here are my benchmarks for DeepSeek-V4.1-Flash (ddalcu/DeepSeek-V4.1-Flash-1017-MLX-Serve-Lossless) on MLX-Serve 26.11.2, running on one and two M5 Ultra 512 GB Mac Studios. For the dual setup I used a single Thunderbolt RDMA link (an mlx-serve limitation at the moment) and split the experts across the two n</summary>
   </entry>
   <entry>
     <title>Cohere Finding Shows Self-Hosted Open-Weight Models Still Need Egress Controls</title>
@@ -258,13 +258,13 @@
     <summary>The future of agents is them taking on open ended goals and driving towards completion of those goals. Learn more.</summary>
   </entry>
   <entry>
-    <title>The Entrepreneurs Behind Poppi Start Over</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-11-14/the-entrepreneurs-behind-poppi-start-over-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-11-14/the-entrepreneurs-behind-poppi-start-over-video</id>
-    <updated>2026-11-14T16:13:04.000Z</updated>
+    <title>(Digital) SpaceX Catches Starship in Novel Landing</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-11-14/-digital-spacex-catches-starship-in-novel-landing"/>
+    <id>https://www.bloomberg.com/news/videos/2026-11-14/-digital-spacex-catches-starship-in-novel-landing</id>
+    <updated>2026-11-14T22:25:41.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Poppi founders Allison and Stephen Ellsworth tell Bloomberg This Weekend how they turned a farmers market business into a nearly $2 billion beverage brand and what they learned from the decade-long journey. Speaking with hosts David Gura and Lisa Mateo, the couple explains why they are starting over with Jetty, a new h</summary>
+    <summary>(Digital) SpaceX Catches Starship in Novel Landing (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>Juicy 6% Yields Gain Appeal After Nvidia Drama: Credit Weekly</title>
