@@ -5,24 +5,33 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-15T08:28:04.273Z</updated>
+  <updated>2026-11-15T11:08:38.238Z</updated>
   <entry>
-    <title>llama.cpp b12405 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12405"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12405</id>
-    <updated>2026-11-15T08:00:17.000Z</updated>
+    <title>llama.cpp b12410 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12410"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12410</id>
+    <updated>2026-11-15T08:05:10.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>common : reject out-of-range grammar_triggers type instead of aborting ( #30835 ) ( #31478 ) common : reject out-of-range grammar_triggers type instead of aborting ( #30835 ) tests : remove the invalid grammar trigger type regression test ( #30835 ) Website: https://llama.app Attestations: https://github.com/ggml-org/l — Also covered by: run-llama/llama_index</summary>
+    <summary>server : clear slot cache when the global lora config changes ( #30367 ) — Also covered by: run-llama/llama_index</summary>
+  </entry>
+  <entry>
+    <title>160 questions, only one wrong: top scorer in South Korea tax exam admits AI cheating</title>
+    <link href="https://www.theguardian.com/technology/2026/nov/15/ai-cheating-south-korea-college-entrance-exam"/>
+    <id>https://www.theguardian.com/technology/2026/nov/15/ai-cheating-south-korea-college-entrance-exam</id>
+    <updated>2026-11-15T08:56:11.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Fears for national college entrance exam next week as test taker admits sending photos of questions to AI tool The marks attained by the top scorer ⁠on South Korea’s national exam for aspiring tax accountants this year seemed too good to be true. On Sunday, sceptics were ⁠proven right when he ⁠confessed to ​using gener — Also covered by: Bloomberg Tech, Reuters AI (Google News)</summary>
   </entry>
   <entry>
     <title>qwen-code v0.27.4 released</title>
     <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.27.4"/>
     <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.27.4</id>
-    <updated>2026-11-15T07:04:40.000Z</updated>
+    <updated>2026-11-15T09:06:37.000Z</updated>
     <author><name>QwenLM/qwen-code</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>What's Changed feat(managed-agent): register client filesystems into managed sessions by @wenshao in #16844 test(web-shell): open the shadow overview from its footer entry by @qwen-code-dev-bot in #17067 feat(managed-agent): plan long channel replies as ordered multi-segment deliveries by @wenshao in #17002 fix(permiss — Also covered by: anthropics/claude-code, QwenLM/qwen-code</summary>
+    <summary>Highlights Managed Agent sessions can access granted local directories and open an interactive Managed Web Terminal without persisting credentials or paths. ( #16844 , #16866 ) Send outputs to Feishu and WeCom webhooks, with long managed-channel replies delivered as ordered segments instead of being truncated. ( #17012 — Also covered by: QwenLM/qwen-code, anthropics/claude-code, QwenLM/qwen-code</summary>
   </entry>
   <entry>
     <title>Introducing ChatGPT Wallet</title>
@@ -61,15 +70,6 @@
     <summary>LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.</summary>
   </entry>
   <entry>
-    <title>[AINews] The No AI Slop Manifesto</title>
-    <link href="https://latent.space/p/ainews-the-no-ai-slop-manifesto"/>
-    <id>https://latent.space/p/ainews-the-no-ai-slop-manifesto</id>
-    <updated>2026-11-14T08:31:02.000Z</updated>
-    <author><name>Latent Space</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>November 13, 2026 — AIE speakers unite to lay out how to fight slop. — Also covered by: HN: AI (150+ points)</summary>
-  </entry>
-  <entry>
     <title>XYBench: Helping with the problem behind the question</title>
     <link href="https://huggingface.co/blog/allenai/xybench"/>
     <id>https://huggingface.co/blog/allenai/xybench</id>
@@ -88,13 +88,13 @@
     <summary>A secure operating system, a quantum microsystem platform, and a 5G interference-canceling algorithm are named among the year's most significant innovations.</summary>
   </entry>
   <entry>
-    <title>b12407: model : metal : workaround fusion for LFM3 (#32296)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12407"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12407</id>
-    <updated>2026-11-15T00:05:20.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU</title>
+    <link href="https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu"/>
+    <id>https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu</id>
+    <updated>2026-11-15T10:06:06.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>lfm3 : put the normed tensor first in residual adds to enable norm fusion Assisted-by: Claude Opus 5.5 tests : update Metal fusion baseline for lfm3 Assisted-by: Claude Opus 5.5</summary>
+    <summary>Meituan has released the weights for LongCat-2.5, a 1.6-trillion-parameter model built for AI agents and trained entirely on Chinese hardware. On Terminal Bench, it scores 88.4 points, landing just behind Claude Opus 5. The sample deployment runs on 194 Huawei Ascend chips, and Meituan makes no mention of Nvidia GPUs. </summary>
   </entry>
   <entry>
     <title>SpaceX Catches Starship’s Upper Stage for the First Time</title>
@@ -106,15 +106,6 @@
     <summary>SpaceX on Saturday caught its Starship upper stage with the arms of its launch tower in South Texas, a first for the rocket program. SpaceX had caught Super Heavy boosters before, but never the ship itself. The ship, which launched Friday on the 15th flight of the spacecraft, spent over ...</summary>
   </entry>
   <entry>
-    <title>Nebuly, whose tech helps enterprises measure the business value of AI agents by analyzing their impact on productivity and revenue, raised a $21M Series A (Tamara Djurickovic/Tech.eu)</title>
-    <link href="https://www.techmeme.com/261115/p3"/>
-    <id>https://www.techmeme.com/261115/p3</id>
-    <updated>2026-11-15T06:40:02.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Tamara Djurickovic / Tech.eu : Nebuly, whose tech helps enterprises measure the business value of AI agents by analyzing their impact on productivity and revenue, raised a $21M Series A — Nebuly develops a platform that helps enterprises measure the business value of AI agents by analysing their impact on productivity </summary>
-  </entry>
-  <entry>
     <title>State Street, Pictet Call Time on Europe’s Stock Market Rally</title>
     <link href="https://www.bloomberg.com/news/articles/2026-11-15/state-street-pictet-call-time-on-europe-s-stock-market-rally"/>
     <id>https://www.bloomberg.com/news/articles/2026-11-15/state-street-pictet-call-time-on-europe-s-stock-market-rally</id>
@@ -124,48 +115,48 @@
     <summary>For weeks, European stocks have outshone other markets, pushing higher as AI ructions tripped up benchmarks elsewhere. Now, some investors and strategists say the rare stretch of outperformance is about to end.</summary>
   </entry>
   <entry>
-    <title>Twenty Minutes Into the Future: On Launching “Terminal Values”</title>
-    <link href="https://www.lesswrong.com/posts/krCjzvDn9xiKQXRib/twenty-minutes-into-the-future-on-launching-terminal-values"/>
-    <id>https://www.lesswrong.com/posts/krCjzvDn9xiKQXRib/twenty-minutes-into-the-future-on-launching-terminal-values</id>
-    <updated>2026-11-15T06:46:51.000Z</updated>
-    <author><name>LessWrong</name></author>
+    <title>After SuperMimic, Open-Source Humanoid Motion Trackers Now Train in Minutes on One GPU</title>
+    <link href="https://www.humanoidsdaily.com/news/supermimic-blinkmimic-xmimic-humanoid-motion-tracking-minutes"/>
+    <id>https://www.humanoidsdaily.com/news/supermimic-blinkmimic-xmimic-humanoid-motion-tracking-minutes</id>
+    <updated>2026-11-15T10:10:13.000Z</updated>
+    <author><name>Humanoids Daily</name></author>
+    <category term="RESEARCH"/>
+    <summary>A UC Berkeley paper released without code set off a run of community reimplementations. InstantTrack, BlinkMimic and XMimic cut Unitree G1 tracker training on a 40-clip benchmark to a few minutes, in simulation.</summary>
+  </entry>
+  <entry>
+    <title>Bland Launches Tofu-1, a Full-Duplex Speech-to-Speech Model for Calls</title>
+    <link href="https://www.marktechpost.com/2026/11/15/bland-tofu-1-full-duplex-speech-to-speech-model"/>
+    <id>https://www.marktechpost.com/2026/11/15/bland-tofu-1-full-duplex-speech-to-speech-model</id>
+    <updated>2026-11-15T10:06:21.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="PRODUCTS"/>
-    <summary>Cross-posted from Oblomovka . It’s 4AM on a Monday morning. In a few hours, I’m supposed to be launching a new digital rights organisation at the Cypherpunk Congress , in Mumbai, India. I’m still in my pyjamas in San Francisco. This part, at least, was somewhat planned. I told Mykola Siusko and Becca Creamer , the orga</summary>
+    <summary>Bland has released Tofu-1, a full-duplex speech-to-speech model for noisy, high-stakes phone calls. It is in enterprise research preview, with no published benchmarks, size or pricing yet. The post Bland Launches Tofu-1, a Full-Duplex Speech-to-Speech Model for Calls appeared first on MarkTechPost .</summary>
   </entry>
   <entry>
-    <title>The Lustre Collective Names Do IT Now Launch Partner Ahead of SC26</title>
-    <link href="https://www.hpcwire.com/off-the-wire/the-lustre-collective-names-do-it-now-launch-partner-ahead-of-sc26"/>
-    <id>https://www.hpcwire.com/off-the-wire/the-lustre-collective-names-do-it-now-launch-partner-ahead-of-sc26</id>
-    <updated>2026-11-15T08:05:41.000Z</updated>
-    <author><name>HPC Wire</name></author>
-    <category term="HARDWARE"/>
-    <summary>ARVADA, Colo., Nov. 15, 2026 — The Lustre Collective (TLC), the engineering company founded by veteran Lustre developers to advance Lustre upstream and in the open, has announced a strategic partnership with Do IT Now, the European HPC and AI infrastructure integrator. Together, the two companies will bring TLC’s upcom</summary>
-  </entry>
-  <entry>
-    <title>Runway's open-source Praxis-1 turns video AI into a robot controller</title>
-    <link href="https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller"/>
-    <id>https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller</id>
-    <updated>2026-11-14T09:45:45.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Runway releases its robotics model Praxis-1 with open weights and source code under the Apache 2.0 license. The model uses knowledge from video training for robot control and leads the World Action Model category on Nvidia's RoboLab-120 benchmark. It can't yet plan complex action sequences on its own, though. The artic</summary>
+    <title>Trying to understand that compute multiplier graph</title>
+    <link href="https://www.lesswrong.com/posts/WKt2mqJrsFuMiszed/trying-to-understand-that-compute-multiplier-graph"/>
+    <id>https://www.lesswrong.com/posts/WKt2mqJrsFuMiszed/trying-to-understand-that-compute-multiplier-graph</id>
+    <updated>2026-11-15T05:25:44.000Z</updated>
+    <author><name>LessWrong</name></author>
+    <category term="SAFETY &amp; POLICY"/>
+    <summary>Anthropic's IPO roadshow video has a graph. It shows four models; I think dot 1 = Claude 3.5, dot 2 = Claude 4, dot 3 = Mythos, arrowhead = unreleased model. The graph provided doesn't have any numbers on the Y axis. In this post I'll explain why I think the Y axis lines most likely represent a 10x jump each, and so th</summary>
   </entry>
   <entry>
     <title>Conducting The First Live Enterprise Comparison Between Agents and Human Professionals</title>
     <link href="https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals"/>
     <id>https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals</id>
-    <updated>2026-11-15T08:27:46.094Z</updated>
+    <updated>2026-11-15T11:08:17.457Z</updated>
     <author><name>Gray Swan</name></author>
     <category term="AI SECURITY"/>
   </entry>
   <entry>
-    <title>How Jensen Huang built a multibillion-dollar business to let Chinese companies access Nvidia AI chips in SE Asian data centers, exploiting a gap in US sanctions (Wall Street Journal)</title>
-    <link href="https://www.techmeme.com/261115/p1"/>
-    <id>https://www.techmeme.com/261115/p1</id>
-    <updated>2026-11-15T05:55:03.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident</title>
+    <link href="https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html"/>
+    <id>https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html</id>
+    <updated>2026-11-15T08:22:04.000Z</updated>
+    <author><name>The Hacker News</name></author>
     <category term="CYBER THREATS"/>
-    <summary>Wall Street Journal : How Jensen Huang built a multibillion-dollar business to let Chinese companies access Nvidia AI chips in SE Asian data centers, exploiting a gap in US sanctions — Massive data centers in Southeast Asia exploited a gap in U.S. sanctions, providing crucial computing power for Chinese companies and a</summary>
+    <summary>The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI. &quot;An attacker obtained an access key we had issued to Fireworks,&quot; Cursor said in a Friday update. &quot;The key was expos</summary>
   </entry>
   <entry>
     <title>Policy and Disclosure: 2026 Edition</title>
@@ -204,40 +195,40 @@
     <summary>Software developer Gloria Amos describes her experience in making a contribution to the open source Qiskit platform and provides insights into some of the things contributors should watch out for. The post Making Quantum SDKs More Accessible: Lessons from Contributing to Qiskit appeared first on Quantum Computing Repor</summary>
   </entry>
   <entry>
-    <title>b12406: feat: add Inkling 2 support (text + vision) (#32217)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12406"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12406</id>
-    <updated>2026-11-14T23:51:31.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>convert : add Inkling2 text GGUF conversion Assisted-by: Codex llama : implement Inkling2 text inference Assisted-by: Codex tests : cover Inkling2 text support Assisted-by: Codex conversion : dequantize packed Inkling2 experts in row chunks Decode per-layer NVFP4 and MXFP8 schemes, validate companions, and use stored s</summary>
-  </entry>
-  <entry>
-    <title>Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol</title>
-    <link href="https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol"/>
-    <id>https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol</id>
-    <updated>2026-11-14T16:48:01.000Z</updated>
+    <title>Australia's central bank finds AI hitting young workers first, especially in software and customer service</title>
+    <link href="https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service"/>
+    <id>https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service</id>
+    <updated>2026-11-15T10:45:58.000Z</updated>
     <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>For the first time in a while, no OpenAI model leads the MathArena AI math benchmark. Google's Gemini 4 Carbon and Anthropic's Fable 5.2 have knocked GPT-6.1 Sol from the top, though both cost significantly more. Gemini ignored the time limit in testing and almost never gave up on a task. The article Gemini 4 Carbon ta</summary>
+    <summary>Australia's central bank sees early signs that AI is hitting young entry-level workers in highly exposed jobs like software development and customer service. Since ChatGPT launched, job postings and employment among 15- to 24-year-olds in those fields have dropped more sharply than among older workers. Author Mike Majo</summary>
   </entry>
   <entry>
-    <title>Multi-GPUs considerations</title>
-    <link href="https://sh.itjust.works/post/69952776"/>
-    <id>https://sh.itjust.works/post/69952776</id>
-    <updated>2026-11-15T08:16:31.000Z</updated>
-    <author><name>Lemmy c/localllama</name></author>
+    <title>Nebuly, whose tech helps enterprises measure the business value of AI agents by analyzing their impact on productivity and revenue, raised a $21M Series A (Tamara Djurickovic/Tech.eu)</title>
+    <link href="https://www.techmeme.com/261115/p3"/>
+    <id>https://www.techmeme.com/261115/p3</id>
+    <updated>2026-11-15T06:40:02.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Tamara Djurickovic / Tech.eu : Nebuly, whose tech helps enterprises measure the business value of AI agents by analyzing their impact on productivity and revenue, raised a $21M Series A — Nebuly develops a platform that helps enterprises measure the business value of AI agents by analysing their impact on productivity </summary>
+  </entry>
+  <entry>
+    <title>Best sub 80b total or 6b active MoE for document intelligence?</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xwre6c/best_sub_80b_total_or_6b_active_moe_for_document"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xwre6c/best_sub_80b_total_or_6b_active_moe_for_document</id>
+    <updated>2026-11-15T09:34:12.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by Shimitar to localllama 1 points | 0 comments I have purchased an M2 to PCIe adapter and connected an additional GPU (an old RTX 6000, turing, 24gb VRAM) to my setup. This allowed me to run qwen 3.8 27B at Q8_K_XL (UD) instead of Q6_K_M. I am doing some image transcription tasks (writing down old handwritte</summary>
+    <summary>I'd like to make a pipeline capable of understanding pdfs of bank statements and then group expenses by categories etc. My thought was to first parse them with ocr into .md files and then feed that to a text model. I think it's more lightweight and accurate this way. But then I'm not sure what model to use to feed all </summary>
   </entry>
   <entry>
-    <title>Cursor confirms security breach led to malicious Claude Code extension</title>
-    <link href="https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension"/>
-    <id>https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension</id>
-    <updated>2026-11-14T17:27:25.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]</summary>
+    <title>Placing an implant into AI brain with Lazarus: Anatomy of a trojan</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xwsrp1/placing_an_implant_into_ai_brain_with_lazarus"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xwsrp1/placing_an_implant_into_ai_brain_with_lazarus</id>
+    <updated>2026-11-15T11:01:09.000Z</updated>
+    <author><name>LocalLLaMA Subreddit</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>hello there, I recently got a bit fascinated about Lazarus from Microsoft (even tho it is probably old technique) and I wrote a blog post showing a thought process I had while researching it - maybe it is helpful to anyone https://int8.io/implanting-ai-with-lazarus/ https://preview.redd.it/pt7hjyffcr1i1.png?width=1377&amp;</summary>
   </entry>
   <entry>
     <title>Crypto’s Slow-Motion Selloff Leaves Traders Weary and Hopeless</title>
@@ -249,22 +240,22 @@
     <summary>Bitcoin’s latest selloff is testing the resolve of some of the cryptocurrency market’s most committed investors, as a succession of setbacks pushes prices toward their lowest levels of the year and major sources of demand weaken.</summary>
   </entry>
   <entry>
-    <title>Huang’s downfall shows human judgment is not all it’s cracked up to be</title>
+    <title>When human judgment is not all it’s cracked up to be</title>
     <link href="https://www.ft.com/content/f8dffb89-99e3-4e9d-ac62-4eb59da4f007?syn-25a6b1a6=1"/>
     <id>https://www.ft.com/content/f8dffb89-99e3-4e9d-ac62-4eb59da4f007?syn-25a6b1a6=1</id>
     <updated>2026-11-15T05:00:04.000Z</updated>
     <author><name>FT Artificial Intelligence</name></author>
     <category term="AI FINANCE"/>
-    <summary>The quality that sets us apart from machines has been absent during implosion by former Nvidia boss</summary>
+    <summary>The quality that sets us apart from machines has been absent during implosion by former Nvidia boss Jensen Huang</summary>
   </entry>
   <entry>
-    <title>Cmpnd Releases dspy-wsp: Weight-Space Programming Comes to DSPy</title>
-    <link href="https://www.marktechpost.com/2026/11/14/cmpnd-dspy-wsp-weight-space-programming"/>
-    <id>https://www.marktechpost.com/2026/11/14/cmpnd-dspy-wsp-weight-space-programming</id>
-    <updated>2026-11-14T16:45:48.000Z</updated>
-    <author><name>MarkTechPost</name></author>
-    <category term="RESEARCH"/>
-    <summary>Cmpnd released dspy-wsp, a prototype DSPy optimizer for weight-space programming. A frontier LLM reads a small model’s weights, edits them in a sandbox, and tests each change, with no gradients and about $5 to $10 per run. The post Cmpnd Releases dspy-wsp: Weight-Space Programming Comes to DSPy appeared first on MarkTe</summary>
+    <title>AutoGPT v0.11.3 released</title>
+    <link href="https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.11.3"/>
+    <id>https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.11.3</id>
+    <updated>2026-11-15T08:59:39.000Z</updated>
+    <author><name>Significant-Gravitas/AutoGPT</name></author>
+    <category term="PRODUCTS"/>
+    <summary>🚀 Release autogpt-platform-beta-v0.11.3 Date: November 15, 2026 🔒 Security This release fixes several privately reported security issues. We'll publish the advisories once the fixes are live in production. 🔥 What's New? New Features #15384 - Add native mobile server foundations (by @ntindle ) #16683 - Support native</summary>
   </entry>
   <entry>
     <title>AMD Launches EPYC Embedded 9006: Venice Gets an Early Start in Embedded</title>
@@ -274,5 +265,14 @@
     <author><name>ServeTheHome</name></author>
     <category term="PRODUCTS"/>
     <summary>With its new Zen 6 &quot;Venice&quot; silicon in hand, AMD has launched its next-generation EPYC Embedded 9006 platform for the embedded market, aiming to bring the performance benefits of the new platform to the long term stability-focused market segment The post AMD Launches EPYC Embedded 9006: Venice Gets an Early Start in Em</summary>
+  </entry>
+  <entry>
+    <title>How Jensen Huang built a multibillion-dollar business to let Chinese companies access Nvidia AI chips in SE Asian data centers, exploiting a gap in US sanctions (Wall Street Journal)</title>
+    <link href="https://www.techmeme.com/261115/p1"/>
+    <id>https://www.techmeme.com/261115/p1</id>
+    <updated>2026-11-15T05:55:03.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="HARDWARE"/>
+    <summary>Wall Street Journal : How Jensen Huang built a multibillion-dollar business to let Chinese companies access Nvidia AI chips in SE Asian data centers, exploiting a gap in US sanctions — Massive data centers in Southeast Asia exploited a gap in U.S. sanctions, providing crucial computing power for Chinese companies and a</summary>
   </entry>
 </feed>
