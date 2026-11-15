@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-15T17:59:49.921Z</updated>
+  <updated>2026-11-15T18:08:40.564Z</updated>
   <entry>
     <title>Jensen Huang’s Downfall</title>
     <link href="https://www.wsj.com/tech/ai/jensen-huangs-downfall-14449f8a?mod=rss_Technology"/>
@@ -61,24 +61,6 @@
     <summary>Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.</summary>
   </entry>
   <entry>
-    <title>Introducing Gemini 4 Hydrogen</title>
-    <link href="https://deepmind.google/blog/introducing-gemini-4-hydrogen"/>
-    <id>https://deepmind.google/blog/introducing-gemini-4-hydrogen</id>
-    <updated>2026-11-12T18:00:50.000Z</updated>
-    <author><name>Google DeepMind Blog</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Also covered by: GitHub Copilot Changelog</summary>
-  </entry>
-  <entry>
-    <title>AI agent startup LangChain hits $3B valuation</title>
-    <link href="https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation"/>
-    <id>https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation</id>
-    <updated>2026-11-13T19:37:57.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.</summary>
-  </entry>
-  <entry>
     <title>XYBench: Helping with the problem behind the question</title>
     <link href="https://huggingface.co/blog/allenai/xybench"/>
     <id>https://huggingface.co/blog/allenai/xybench</id>
@@ -86,6 +68,15 @@
     <author><name>Hugging Face Blog</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Also covered by: Ai2 (Allen Institute)</summary>
+  </entry>
+  <entry>
+    <title>AI agent startup LangChain hits $3B valuation</title>
+    <link href="https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation"/>
+    <id>https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation</id>
+    <updated>2026-11-13T19:37:57.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.</summary>
   </entry>
   <entry>
     <title>Three Lincoln Laboratory technologies receive 2026 R&amp;D 100 Awards</title>
@@ -112,7 +103,7 @@
     <updated>2026-11-15T14:46:58.000Z</updated>
     <author><name>HN: AI (150+ points)</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Article URL: https://jakub.jankiewicz.org/blog/ai-code-open-source/ Comments URL: https://news.ycombinator.com/item?id=50507303 Points: 515 # Comments: 303</summary>
+    <summary>Article URL: https://jakub.jankiewicz.org/blog/ai-code-open-source/ Comments URL: https://news.ycombinator.com/item?id=50507303 Points: 555 # Comments: 324</summary>
   </entry>
   <entry>
     <title>Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU</title>
@@ -232,22 +223,22 @@
     <summary>Mark Gurman / Bloomberg : Sources: Apple plans to unveil smart glasses at WWDC and ship them by the end of 2027, focusing heavily on integration of third-party iPhone apps with Siri AI — Also: A look at the race to bring Face ID to the iPhone Duo. … Apple's just-announced Siri AI integrations are the centerpiece …</summary>
   </entry>
   <entry>
-    <title>Basalt 0.4.0: More models, still as fast - Qwen 27B up to 770 tok/s on a 5090</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xx1cu9/basalt_040_more_models_still_as_fast_qwen_27b_up"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xx1cu9/basalt_040_more_models_still_as_fast_qwen_27b_up</id>
-    <updated>2026-11-15T17:30:31.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>llama.cpp was copying 643 MB to the CPU per request. Disabling state saving nearly doubled throughput</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1xwxk21/llamacpp_was_copying_643_mb_to_the_cpu_per"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1xwxk21/llamacpp_was_copying_643_mb_to_the_cpu_per</id>
+    <updated>2026-11-15T14:58:56.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Hi everyone! I wanted to post a quick update on Basalt . Since last I posted, multi model and router support was implemented, starting with DeepSeek V4.1 Flash (IQ1_M 90 tok/s conv, 246 tok/s struct on a 5090 + 5060 Ti). Also new: video support, files in chats, and a bunch of fixes and improvements. Now 0.4.0 is out fe</summary>
+    <summary>We were running Qwen3.8-27B on an H100 with llama.cpp and 16 concurrent clients. Throughput was 58 tokens/sec, time to first token was almost two seconds, and nvidia-smi showed around 35% GPU utilization. I build Tensward, an open-source inference analysis and tuning tool. While investigating this, we built a small CUP</summary>
   </entry>
   <entry>
-    <title>X3Guard: A 150M parameter prompt guard</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xwyp7w/x3guard_a_150m_parameter_prompt_guard"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xwyp7w/x3guard_a_150m_parameter_prompt_guard</id>
-    <updated>2026-11-15T15:46:17.000Z</updated>
-    <author><name>LocalLLaMA Subreddit</name></author>
+    <title>I trained two language models on a 2011 desktop with no GPU: a 7M one from scratch and a LoRA of Qwen3.5-0.8B</title>
+    <link href="https://www.reddit.com/r/LocalLLM/comments/1xx15s9/i_trained_two_language_models_on_a_2011_desktop"/>
+    <id>https://www.reddit.com/r/LocalLLM/comments/1xx15s9/i_trained_two_language_models_on_a_2011_desktop</id>
+    <updated>2026-11-15T17:22:50.000Z</updated>
+    <author><name>r/LocalLLM</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>At Axiomic Labs we have just released X3Guard-150M, a prompt guard model trained on our high-performing base model, GPT-X3. For any given prompt, X3Guard flags whether it is Harmful, and whether it is Adversarial, in one go. It outperforms models that are many times its size, and can run entirely on edge devices, withi</summary>
+    <summary>I trained two language models on a 2011 desktop with no GPU: a 7M one from scratch and a LoRA of Qwen3.5-0.8B Hardware first, because it explains the rest. Core i5-2400 (Sandy Bridge, 2011), 16 GB DDR3, and a GeForce GT 710 that only exists to drive the monitor. PyTorch doesn't support that GPU, so everything below ran</summary>
   </entry>
   <entry>
     <title>Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident</title>
@@ -275,5 +266,14 @@
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
     <summary>India’s weddings are a major economic force, generating an estimated $130 billion in annual spending.. For many families, the financial commitment begins years before the ceremony through savings and gold accumulation, while some households borrow against existing jewelry to finance wedding expenses. (Source: Bloomberg</summary>
+  </entry>
+  <entry>
+    <title>White House Braces for Democratic Investigations</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-11-15/white-house-braces-for-democratic-investigations-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-11-15/white-house-braces-for-democratic-investigations-video</id>
+    <updated>2026-11-15T15:14:45.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Bully Pulpit International’s Adam Hodge and Monument Advocacy’s Mark Bednar are on Bloomberg This Weekend to examine the looming fight between congressional Democrats and the Trump administration over subpoenas, executive privilege and oversight of the White House’s relationships with corporate leaders. Speaking with h</summary>
   </entry>
 </feed>
