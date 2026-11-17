@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-17T20:02:05.848Z</updated>
+  <updated>2026-11-17T20:08:54.390Z</updated>
   <entry>
     <title>Jensen Huang says he would be ‘honored’ to return to Nvidia as CEO</title>
     <link href="https://www.theguardian.com/technology/2026/nov/17/nvidia-jensen-huang-statement"/>
@@ -25,15 +25,6 @@
     <summary>Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.</summary>
   </entry>
   <entry>
-    <title>llama.cpp b12482 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12482"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12482</id>
-    <updated>2026-11-17T19:54:37.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>vocab : speed up PLaMo-2/3 tokenizer table build ( #32249 ) Assisted-by: Claude Code (Claude Opus 5.5) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/68788910 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS  — Also covered by: run-llama/llama_index</summary>
-  </entry>
-  <entry>
     <title>Astra for Law leads in legal intelligence</title>
     <link href="https://openai.com/index/astra-law-6-2"/>
     <id>https://openai.com/index/astra-law-6-2</id>
@@ -41,6 +32,15 @@
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.</summary>
+  </entry>
+  <entry>
+    <title>llama.cpp b12484 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12484"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12484</id>
+    <updated>2026-11-17T14:40:53.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>ggml : decode F8_E4M3 to fp32 without ldexpf ( #32477 ) — Also covered by: run-llama/llama_index</summary>
   </entry>
   <entry>
     <title>Pedestal AI raises $4.7 million to agentify the supply chain</title>
@@ -259,21 +259,21 @@
     <summary>What's Changed Improve ChatGPT CLI restore and graceful restart by @hoyyeva in #19583 cmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in #19409 llm: use mmap for Vulkan integrated GPUs by @dhiltgen in #19640 rpreslar4765/Ollama by @rpreslar4765 in #17163 mlx: support concurrent generation by @dhiltg</summary>
   </entry>
   <entry>
-    <title>b12483: llama : keep the k-pool layout prefix on sequence edits (#32137)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12483"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12483</id>
-    <updated>2026-11-17T14:37:25.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>Muse Is Now Available in Australia: The World’s First Personal AI Agent Built for Everyone</title>
+    <link href="https://about.fb.com/news/2026/11/muse-is-now-available-in-australia"/>
+    <id>https://about.fb.com/news/2026/11/muse-is-now-available-in-australia</id>
+    <updated>2026-11-17T18:00:31.000Z</updated>
+    <author><name>Meta AI Blog</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>llama : keep the k-pool layout prefix on sequence edits Assisted-by: Claude Code llama : address review of the k-pool layout update Append and edit share one branch, using stale &gt; sq.pos_min. LLAMA_KPOOL_VERIFY=1 checks every update against a full rebuild. The scan moved into kpool_scan() so the check can reuse it. The</summary>
+    <summary>Muse is available in Australia from today, with local connector experiences across creativity, shopping, property, fitness and entertainment rolling out progressively. The post Muse Is Now Available in Australia: The World’s First Personal AI Agent Built for Everyone appeared first on Meta Newsroom .</summary>
   </entry>
   <entry>
-    <title>Fed's Williams Doesn't See Need for 'Dramatic Action' on Rates</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-11-17/fed-s-williams-no-need-for-dramatic-action-on-rates-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-11-17/fed-s-williams-no-need-for-dramatic-action-on-rates-video</id>
-    <updated>2026-11-17T19:51:47.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Federal Reserve Bank of New York President John Williams says he's seeing drivers pushing up inflation, including AI, but not necessarily a broadening of it at the Axios BFD Annual Summit. (Source: Bloomberg)</summary>
+    <title>Introducing Devin Bots: from tasks to outcomes</title>
+    <link href="https://devin.ai/blog/introducing-devin-bots"/>
+    <id>https://devin.ai/blog/introducing-devin-bots</id>
+    <updated>2026-11-17T17:00:00.000Z</updated>
+    <author><name>Devin (Cognition)</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Introducing Devin Bots: engineering teammates that own your goals and lead teams of Devins to deliver them.</summary>
   </entry>
 </feed>
