@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-17T04:48:06.380Z</updated>
+  <updated>2026-11-17T08:08:45.934Z</updated>
   <entry>
     <title>California sues OpenAI over safety concerns after rogue agent hacking</title>
     <link href="https://www.theguardian.com/technology/2026/nov/16/california-openai-rogue-agent-hacking-lawsuit"/>
@@ -25,13 +25,22 @@
     <summary>California Attorney General Rob Bonta announced a lawsuit on Monday against OpenAI over an attack by a swarm of its agents against the open-source repository platform Hugging Face in July. In the 31-page lawsuit , filed in the Superior Court of the State of California, Bonta asks for an ... — Also covered by: Reuters AI (Google News), The Record</summary>
   </entry>
   <entry>
-    <title>llama.cpp b12464 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12464"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12464</id>
-    <updated>2026-11-17T04:15:56.000Z</updated>
+    <title>llama.cpp b12465 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12465"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12465</id>
+    <updated>2026-11-17T07:56:12.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>opencl: add A7 Q8_0 non-MoE binary kernel ( #31003 ) — Also covered by: run-llama/llama_index</summary>
+    <summary>sycl: use fast division in bin-bcast kernels ( #32213 ) Replace the per-element modulo of i0 with fast_div_modulo in the ravel and unravel bin-bcast kernels, drop the now-unused ne10/ne20 kernel arguments, and reject divisors that do not fit in 32 bits when the magic values are computed, as the CUDA implementation does — Also covered by: run-llama/llama_index</summary>
+  </entry>
+  <entry>
+    <title>Strengthening NATO and allied cyber defenses with AI</title>
+    <link href="https://openai.com/index/strengthening-nato-allied-cyber-defences-ai"/>
+    <id>https://openai.com/index/strengthening-nato-allied-cyber-defences-ai</id>
+    <updated>2026-11-17T00:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.</summary>
   </entry>
   <entry>
     <title>Cybersecurity AI startup Corma reaches $1B valuation in about 3 months</title>
@@ -61,39 +70,22 @@
     <summary>New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.</summary>
   </entry>
   <entry>
-    <title>LVMH’s Media Division announces strategic partnership with OpenAI</title>
-    <link href="https://openai.com/index/lvmh-media-division-partnership"/>
-    <id>https://openai.com/index/lvmh-media-division-partnership</id>
-    <updated>2026-11-16T09:00:00.000Z</updated>
+    <title>How Revolut raises ambition without lowering the bar</title>
+    <link href="https://openai.com/business/customer-stories/revolut"/>
+    <id>https://openai.com/business/customer-stories/revolut</id>
+    <updated>2026-11-16T09:30:00.000Z</updated>
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.</summary>
+    <summary>Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.</summary>
   </entry>
   <entry>
-    <title>Our first phase of embedded assessments</title>
-    <link href="https://openai.com/index/our-first-phase-of-embedded-assessments"/>
-    <id>https://openai.com/index/our-first-phase-of-embedded-assessments</id>
-    <updated>2026-11-16T08:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.</summary>
-  </entry>
-  <entry>
-    <title>NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery</title>
-    <link href="https://www.hpcwire.com/off-the-wire/nvidia-cuda-x-libraries-give-agents-the-tools-to-accelerate-scientific-discovery"/>
-    <id>https://www.hpcwire.com/off-the-wire/nvidia-cuda-x-libraries-give-agents-the-tools-to-accelerate-scientific-discovery</id>
-    <updated>2026-11-17T04:13:41.000Z</updated>
-    <author><name>HPC Wire</name></author>
+    <title>llm 0.37.3</title>
+    <link href="https://simonwillison.net/2026/Nov/16/llm"/>
+    <id>https://simonwillison.net/2026/Nov/16/llm</id>
+    <updated>2026-11-16T23:57:26.000Z</updated>
+    <author><name>Simon Willison</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>Nov. 16, 2026 — With expanded NVIDIA CUDA-X libraries, including cuPhoton, cuPotential and cuSpa, researchers can sift through vast amounts of data to accelerate research, from astrophysics and materials science to single-cell biology. The speedups are helping scientists analyze larger datasets and model more complex s — Also covered by: NVIDIA Blog</summary>
-  </entry>
-  <entry>
-    <title>Advancing computer-use agents for healthcare teams</title>
-    <link href="https://openai.com/index/advancing-computer-use-for-healthcare-teams"/>
-    <id>https://openai.com/index/advancing-computer-use-for-healthcare-teams</id>
-    <updated>2026-11-16T06:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Release: llm 0.37.3 A bug fix release for LLM , mainly to cover a problem with the most recent Homebrew package of the software. Homebrew now ships the latest SQLite, 3.54.1 , which includes a fix that broke LLM's logging code . Short version: in SQLite 3.54.0 the following SQL: select json_object('a', (select json_arr — Also covered by: GN: Prompt Injection</summary>
   </entry>
   <entry>
     <title>28 Zero-Day Findings in Under Two Days. Is Robotics Security Keeping Pace?</title>
@@ -114,31 +106,31 @@
     <summary>Alibaba launches Qwen4-Max, a new flagship model with 2.4 trillion parameters that activates only 71 billion per token. A hybrid architecture sharply cuts costs on long contexts. Qwen4-Max lands just behind Kimi K3.1 Pro on the Artificial Analysis Intelligence Index, and Alibaba plans to release smaller Qwen4 models as</summary>
   </entry>
   <entry>
-    <title>LangChain Raises $300M Series C at $3B Valuation</title>
-    <link href="https://www.langchain.com/blog/series-c"/>
-    <id>https://www.langchain.com/blog/series-c</id>
-    <updated>2026-11-16T23:53:29.000Z</updated>
-    <author><name>LangChain Blog</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>LangChain raises $300M Series C at a $3B valuation, led by CapitalG, to help every company own its intelligence with LangSmith, the agent engineering platform.</summary>
+    <title>Millionaire factory: Anthropic IPO set to fuel AI gold rush in London’s high-end property market</title>
+    <link href="https://www.theguardian.com/business/2026/nov/17/millionaire-factory-anthropic-ipo-set-to-fuel-ai-gold-rush-in-londons-high-end-property-market"/>
+    <id>https://www.theguardian.com/business/2026/nov/17/millionaire-factory-anthropic-ipo-set-to-fuel-ai-gold-rush-in-londons-high-end-property-market</id>
+    <updated>2026-11-17T07:00:07.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>New tech wealth, amassed with remarkable speed, is now washing up on British shores Sporting hoodies and white trainers rather than the gilets of London’s banker and lawyer class, tech bros can struggle to be taken seriously by the capital’s luxury property agents. “We worked with a young tech entrepreneur with a subst</summary>
   </entry>
   <entry>
-    <title>Anthropic IPO: What Australian Investors Need to Know</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-11-17/anthropic-ipo-what-australian-investors-need-to-know-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-11-17/anthropic-ipo-what-australian-investors-need-to-know-video</id>
-    <updated>2026-11-17T04:10:08.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
+    <title>Inside the $900bn data centre bet behind Anthropic’s IPO</title>
+    <link href="https://www.ft.com/content/559c13f1-0888-47e5-b6ce-523309a37193?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/559c13f1-0888-47e5-b6ce-523309a37193?syn-25a6b1a6=1</id>
+    <updated>2026-11-17T05:00:08.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
     <category term="AI FINANCE"/>
-    <summary>Australian investors are among a select group outside the US able to participate directly in Anthropic’s IPO. North Star Funds Management Managing Partner Claudia Kwan discusses the risks surrounding the AI trade and how Australia could benefit from the AI infrastructure boom on &quot;Bloomberg: The Asia Trade.&quot; (Source: Bl</summary>
+    <summary>In Louisiana’s woods, the AI lab is racing to slash computing costs but creating enormous financial obligations</summary>
   </entry>
   <entry>
-    <title>CamSpokenNLI: A Pilot Resource for Cross-Variety Transfer Evaluation in Cameroon Pidgin English and Camfranglais</title>
-    <link href="https://arxiv.org/abs/2611.17573"/>
-    <id>https://arxiv.org/abs/2611.17573</id>
-    <updated>2026-11-16T05:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
+    <title>Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs</title>
+    <link href="https://arxiv.org/abs/2611.17339"/>
+    <id>https://arxiv.org/abs/2611.17339</id>
+    <updated>2026-11-17T05:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
     <category term="RESEARCH"/>
-    <summary>arXiv:2611.17573v1 Announce Type: new Abstract: Cameroon Pidgin English (a West African Pidgin English variety) and Camfranglais are widely used in Cameroon, yet to our knowledge, neither has a dedicated spoken Natural Language Inference (NLI) resource. We introduce CamSpokenNLI, a pilot dataset of 114 scenario-matched</summary>
+    <summary>arXiv:2611.17339v1 Announce Type: new Abstract: Hallucination detection for large language models is dominated by methods evaluated on 7B-70B research models with abundant sampling budgets and exact-match or ROUGE correctness labels. The small models practitioners actually ship on-device, Phi-3-mini, Llama-3.2-3B-Instr</summary>
   </entry>
   <entry>
     <title>ollama v0.40.17 released</title>
@@ -150,57 +142,49 @@
     <summary>What's Changed Improve ChatGPT CLI restore and graceful restart by @hoyyeva in #19583 cmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in #19409 llm: use mmap for Vulkan integrated GPUs by @dhiltgen in #19640 rpreslar4765/Ollama by @rpreslar4765 in #17163 mlx: support concurrent generation by @dhiltg</summary>
   </entry>
   <entry>
-    <title>California State Politics AI Safety Overview</title>
-    <link href="https://www.lesswrong.com/posts/qNivEw2dxrFvNSPWi/california-state-politics-ai-safety-overview"/>
-    <id>https://www.lesswrong.com/posts/qNivEw2dxrFvNSPWi/california-state-politics-ai-safety-overview</id>
-    <updated>2026-11-17T01:34:39.000Z</updated>
+    <title>Read More Facts and Fewer Theories</title>
+    <link href="https://www.lesswrong.com/posts/xyFdGGJ6Ckdnrqnsp/read-more-facts-and-fewer-theories"/>
+    <id>https://www.lesswrong.com/posts/xyFdGGJ6Ckdnrqnsp/read-more-facts-and-fewer-theories</id>
+    <updated>2026-11-17T05:19:20.000Z</updated>
     <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Introduction: I was recently reading Orienting to 1 year AGI timelines and was surprised to see that, at least according to Nikola Jurkovic, there are only 15 FTE working on AI Safety x CA State legislation! At the same time I’m somewhat already involved in state politics, so this seems like potentially a high value pl</summary>
+    <summary>I’m a broken record on this, but almost all of the most ~thoughtful~ people I know (or have interviewed) have memorized a lot of dates, places, names, numbers etc. And not just memorized, but care about their ability to recall specifics. Seek truth from facts. It’s the only way. — Joe Wiesenthal So many people reason t</summary>
   </entry>
   <entry>
-    <title>Conducting The First Live Enterprise Comparison Between Agents and Human Professionals</title>
-    <link href="https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals"/>
-    <id>https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals</id>
-    <updated>2026-11-17T04:47:37.152Z</updated>
-    <author><name>Gray Swan</name></author>
+    <title>AI agents LLM</title>
+    <link href="https://securityaffairs.com/203260/hacking/google-gtig-warns-ai-agents-automate-exploits-steal-credentials-and-scale-cybercrime.html/attachment/image-1884"/>
+    <id>https://securityaffairs.com/203260/hacking/google-gtig-warns-ai-agents-automate-exploits-steal-credentials-and-scale-cybercrime.html/attachment/image-1884</id>
+    <updated>2026-11-17T05:05:26.000Z</updated>
+    <author><name>GN: Prompt Injection</name></author>
     <category term="AI SECURITY"/>
+    <summary>AI agents LLM Security Affairs</summary>
   </entry>
   <entry>
-    <title>California sues OpenAI over AI agents escaping sandboxes, hacking firms</title>
-    <link href="https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms"/>
-    <id>https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms</id>
-    <updated>2026-11-16T20:59:44.000Z</updated>
-    <author><name>BleepingComputer</name></author>
+    <title>ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems</title>
+    <link href="https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html"/>
+    <id>https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html</id>
+    <updated>2026-11-17T06:29:27.000Z</updated>
+    <author><name>The Hacker News</name></author>
     <category term="CYBER THREATS"/>
-    <summary>California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed autonomous AI agents to escape isolated environments and launch cyberattacks against real-world organizations. [...]</summary>
+    <summary>ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later. The company said additional activity targeting on-premises environments continues to be repo</summary>
   </entry>
   <entry>
-    <title>QUIC and Covert: Novel HTTP/3-Powered RATs Target Southeast Asian Governments</title>
-    <link href="https://unit42.paloaltonetworks.com/custom-rats-target-southeast-asia-governments"/>
-    <id>https://unit42.paloaltonetworks.com/custom-rats-target-southeast-asia-governments</id>
-    <updated>2026-11-16T23:00:55.000Z</updated>
-    <author><name>Palo Alto Unit 42</name></author>
-    <category term="CYBER DEFENSE"/>
-    <summary>We uncover a Southeast Asian cyberespionage campaign deploying PerfectPioneer RAT, modular KUKURAT and stealth HTTP/3 C2 communication channels. The post QUIC and Covert: Novel HTTP/3-Powered RATs Target Southeast Asian Governments appeared first on Unit 42 .</summary>
-  </entry>
-  <entry>
-    <title>llm 0.37.3</title>
-    <link href="https://simonwillison.net/2026/Nov/16/llm"/>
-    <id>https://simonwillison.net/2026/Nov/16/llm</id>
-    <updated>2026-11-16T23:57:26.000Z</updated>
+    <title>Quoting Go Proverbs</title>
+    <link href="https://simonwillison.net/2026/Nov/17/go-proverbs"/>
+    <id>https://simonwillison.net/2026/Nov/17/go-proverbs</id>
+    <updated>2026-11-17T06:16:26.000Z</updated>
     <author><name>Simon Willison</name></author>
     <category term="ANALYSIS"/>
-    <summary>Release: llm 0.37.3 A bug fix release for LLM , mainly to cover a problem with the most recent Homebrew package of the software. Homebrew now ships the latest SQLite, 3.54.1 , which includes a fix that broke LLM's logging code . Short version: in SQLite 3.54.0 the following SQL: select json_object('a', (select json_arr</summary>
+    <summary>A little copying is better than a little dependency. — Go Proverbs , via Tags: go , programming</summary>
   </entry>
   <entry>
-    <title>China's AI² Robotics On Business Strategy</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-11-17/china-s-ai-robotics-on-business-strategy-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-11-17/china-s-ai-robotics-on-business-strategy-video</id>
-    <updated>2026-11-17T04:44:40.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
+    <title>China’s robot makers have more to offer than viral backflip videos</title>
+    <link href="https://www.ft.com/content/13fb1482-46d8-46a8-9163-f2391204319d?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/13fb1482-46d8-46a8-9163-f2391204319d?syn-25a6b1a6=1</id>
+    <updated>2026-11-17T05:00:14.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
     <category term="ROBOTICS"/>
-    <summary>Guo Yandong, Founder and CEO at AI² Robotics, discusses his outlook on innovation in China's humanoid technology sector with Stephen Engle on the sidelines of the APEC meetings in Shenzhen. (Source: Bloomberg)</summary>
+    <summary>Established robotics companies are continuing to grow and many are highly profitable</summary>
   </entry>
   <entry>
     <title>IQM and MQSC Demonstrate Open-Source Slurm 26.11 QPU Scheduling Using QDMI and Hierarchical Resources</title>
@@ -221,57 +205,75 @@
     <summary>Today, we're introducing Direct, a new messaging app brought to you by Instagram for chatting one-on-one or in groups with friends and family. The post Introducing Direct: An App Just for Messaging appeared first on Meta Newsroom .</summary>
   </entry>
   <entry>
-    <title>Anthropic tells investors Claude Mythos Preview got its AI running on AMD GPUs in ~3 days with &quot;basically no human intervention&quot;, vs. the usual 6-12 months (Shane Downing/Tom's Hardware)</title>
-    <link href="https://www.techmeme.com/261116/p52"/>
-    <id>https://www.techmeme.com/261116/p52</id>
-    <updated>2026-11-17T04:02:44.000Z</updated>
+    <title>Analysis: Amazon's $17B+ planned investment in Ohio data centers is at risk after midterm voters passed restriction measures affecting three proposed projects (Rafe Rosner-Uddin/Financial Times)</title>
+    <link href="https://www.techmeme.com/261117/p1"/>
+    <id>https://www.techmeme.com/261117/p1</id>
+    <updated>2026-11-17T05:40:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Shane Downing / Tom's Hardware : Anthropic tells investors Claude Mythos Preview got its AI running on AMD GPUs in ~3 days with “basically no human intervention”, vs. the usual 6-12 months — If AI can write the low-level code that ties models to Nvidia, CUDA matters less.</summary>
+    <summary>Rafe Rosner-Uddin / Financial Times : Analysis: Amazon's $17B+ planned investment in Ohio data centers is at risk after midterm voters passed restriction measures affecting three proposed projects — Voter revolts across the US threaten billions in AI investment as communities turn against Big Tech's expansion</summary>
   </entry>
   <entry>
-    <title>maxwell-model/Maxwell-V1-Flash · Hugging Face</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xyamk6/maxwellmodelmaxwellv1flash_hugging_face"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xyamk6/maxwellmodelmaxwellv1flash_hugging_face</id>
-    <updated>2026-11-17T04:04:39.000Z</updated>
+    <title>Nvidia unveils its Rubin HPC GPU with &quot;more than 50,000&quot; CUDA cores, up from 28,672 in the current Rubin GPU, for agentic workflows and scientific simulations (Jeffrey Kampman/Tom's Hardware)</title>
+    <link href="https://www.techmeme.com/261117/p3"/>
+    <id>https://www.techmeme.com/261117/p3</id>
+    <updated>2026-11-17T06:20:00.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Jeffrey Kampman / Tom's Hardware : Nvidia unveils its Rubin HPC GPU with “more than 50,000” CUDA cores, up from 28,672 in the current Rubin GPU, for agentic workflows and scientific simulations — Rubin HPC puts “over 50,000” CUDA cores on a chip, implies four-die layout — The Supercomputing 2026 conference is under way</summary>
+  </entry>
+  <entry>
+    <title>Hugging Face switched its language model inference routing to OpenRouter</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1xy9o6j/hugging_face_switched_its_language_model"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1xy9o6j/hugging_face_switched_its_language_model</id>
+    <updated>2026-11-17T03:16:54.000Z</updated>
     <author><name>LocalLLaMA Subreddit</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Model Introduction Maxwell-V1.0-Flash is a next-generation, high-performance Mixture-of-Experts (MoE) language model developed by the Maxwell Team, with 35B total parameters and 3B active parameters per token (both excluding embeddings) and support for context lengths up to 256K tokens. It is designed for strong reason</summary>
+    <summary>Hugging Face announced on November 16, 2026, that requests to language models through Inference Providers now go through OpenRouter instead of Hugging Face's own router. OpenRouter picks a provider for each call based on live price, speed, and reliability, and retries on another provider if the first one fails. The sam</summary>
   </entry>
   <entry>
-    <title>Barclays Says Forced Retail Liquidation Behind Taiwan Stock Rout</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-17/barclays-says-forced-retail-liquidation-behind-taiwan-stock-rout"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-17/barclays-says-forced-retail-liquidation-behind-taiwan-stock-rout</id>
-    <updated>2026-11-17T03:17:04.000Z</updated>
+    <title>The five components of building a &quot;company harness&quot;</title>
+    <link href="https://www.langchain.com/blog/components-building-company-harness"/>
+    <id>https://www.langchain.com/blog/components-building-company-harness</id>
+    <updated>2026-11-17T06:39:34.000Z</updated>
+    <author><name>LangChain Blog</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Learn how LangChain built internal agents across marketing, sales, and engineering, and how they have completely changed how those teams work.</summary>
+  </entry>
+  <entry>
+    <title>UK’s Latest Jobs Report Is a Mixed Bag With Wage Growth Slowing, Payrolls Cut</title>
+    <link href="https://www.bloomberg.com/news/newsletters/2026-11-17/uk-s-latest-jobs-report-is-a-mixed-bag-with-wage-growth-slowing-payrolls-cut"/>
+    <id>https://www.bloomberg.com/news/newsletters/2026-11-17/uk-s-latest-jobs-report-is-a-mixed-bag-with-wage-growth-slowing-payrolls-cut</id>
+    <updated>2026-11-17T07:42:37.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Forced selling by retail investors was a main driver of Taiwanese stocks’ steep selloff on Monday, a trend that could extend and pressure the market further, according to Barclays Plc.</summary>
+    <summary>Plus, the FTSE 100 is about to get tested by tech</summary>
   </entry>
   <entry>
-    <title>NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance</title>
-    <link href="https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin"/>
-    <id>https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin</id>
-    <updated>2026-11-16T16:00:25.000Z</updated>
-    <author><name>NVIDIA Blog</name></author>
+    <title>Tech sell-off deepens as Nvidia results loom</title>
+    <link href="https://www.ft.com/content/4a3b9892-67c6-4177-8503-80c0a5eb3b60?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/4a3b9892-67c6-4177-8503-80c0a5eb3b60?syn-25a6b1a6=1</id>
+    <updated>2026-11-17T07:36:55.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Investors fret over tighter US chip export controls and potential slowdown in AI data centre build-out</summary>
+  </entry>
+  <entry>
+    <title>When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors</title>
+    <link href="https://arxiv.org/abs/2611.17338"/>
+    <id>https://arxiv.org/abs/2611.17338</id>
+    <updated>2026-11-17T05:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
     <category term="RESEARCH"/>
-    <summary>In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference. NVIDIA swept every MLPerf Training v6.1 benchmark and, in its first MLPerf Endpoints submission, delivered more than 10x generational gains in th</summary>
+    <summary>arXiv:2611.17338v1 Announce Type: new Abstract: LLM memory systems often delete facts classified as stale. We show that this hard-filtering step can reduce downstream accuracy when resolver errors delete query-critical facts. Across three models, a controlled sensitivity intervention moves hard-drop from gains of +0.18</summary>
   </entry>
   <entry>
-    <title>Moonshot AI pivots Kimi models from coding to science as benchmark gains flatten</title>
-    <link href="https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten"/>
-    <id>https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten</id>
-    <updated>2026-11-16T18:52:55.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>LoRAWeaver: Directional Adapter Routing in LoRA Representation Space</title>
+    <link href="https://arxiv.org/abs/2611.17340"/>
+    <id>https://arxiv.org/abs/2611.17340</id>
+    <updated>2026-11-17T05:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
     <category term="RESEARCH"/>
-    <summary>Moonshot AI is done chasing coding benchmarks, it says. The Beijing startup is pivoting its Kimi language models toward biology, chemistry, and pharma research, arguing that science demands smarter AI than law, finance, or code. The article Moonshot AI pivots Kimi models from coding to science as benchmark gains flatte</summary>
-  </entry>
-  <entry>
-    <title>macOS 27.3 beta warns if an app would get full device control, nudging users to &quot;Choose Apps&quot; for the app to control instead, brought on by AI apps' popularity (Juli Clover/MacRumors)</title>
-    <link href="https://www.techmeme.com/261116/p49"/>
-    <id>https://www.techmeme.com/261116/p49</id>
-    <updated>2026-11-17T02:31:00.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Juli Clover / MacRumors : macOS 27.3 beta warns if an app would get full device control, nudging users to “Choose Apps” for the app to control instead, brought on by AI apps' popularity — With the latest macOS 27.3 beta, Apple is giving Mac users more control over the data they share and the access they give to apps …</summary>
+    <summary>arXiv:2611.17340v1 Announce Type: new Abstract: Large language models are expensive to update through full retraining. Parameter-efficient fine-tuning reduces the cost of adaptation, but repeated adaptation creates a growing pool of task-specific LoRA adapters. This pool complicates adapter selection during inference. </summary>
   </entry>
 </feed>
