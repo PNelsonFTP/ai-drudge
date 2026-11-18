@@ -5,16 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-18T20:08:42.221Z</updated>
-  <entry>
-    <title>GPT‑6.2 Astra and GPT‑6.2 Sol</title>
-    <link href="https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol"/>
-    <id>https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol</id>
-    <updated>2026-11-17T22:38:52.000Z</updated>
-    <author><name>Simon Willison</name></author>
-    <category term="PRODUCTS"/>
-    <summary>GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. They're available in the API as gpt-6.2-astra and gpt-6.2-sol . I shipped LLM 0.38 with support for the new models. 6.2 Astra is 80% — Also covered by: GitHub Copilot Changelog, OpenAI Blog</summary>
-  </entry>
+  <updated>2026-11-18T21:08:53.500Z</updated>
   <entry>
     <title>llama.cpp b12522 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12522"/>
@@ -34,6 +25,15 @@
     <summary>See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.</summary>
   </entry>
   <entry>
+    <title>Managing frontier AI risk: From training to deployment</title>
+    <link href="https://openai.com/index/managing-frontier-ai-risk"/>
+    <id>https://openai.com/index/managing-frontier-ai-risk</id>
+    <updated>2026-11-18T06:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.</summary>
+  </entry>
+  <entry>
     <title>Advancing chip design with OpenAI models</title>
     <link href="https://openai.com/index/advancing-chip-design-with-our-models"/>
     <id>https://openai.com/index/advancing-chip-design-with-our-models</id>
@@ -43,13 +43,13 @@
     <summary>OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.</summary>
   </entry>
   <entry>
-    <title>Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT</title>
-    <link href="https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership"/>
-    <id>https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership</id>
-    <updated>2026-11-18T00:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.</summary>
+    <title>GPT‑6.2 Astra and GPT‑6.2 Sol</title>
+    <link href="https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol"/>
+    <id>https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol</id>
+    <updated>2026-11-17T22:38:52.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="HARDWARE"/>
+    <summary>GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. They're available in the API as gpt-6.2-astra and gpt-6.2-sol . I shipped LLM 0.38 with support for the new models. 6.2 Astra is 80% — Also covered by: OpenAI News</summary>
   </entry>
   <entry>
     <title>India’s Humyn Labs raises $47M to feed US robotics companies the data they need</title>
@@ -78,6 +78,15 @@
     <summary>Sierra, the AI customer support startup founded by former Salesforce co-CEO Bret Taylor, has been in talks to raise new funding at around a $30 billion valuation, according to two people with knowledge of the fundraise. That price would nearly double the $15 billion-plus valuation it received in its last round announce</summary>
   </entry>
   <entry>
+    <title>b12525: ggml, ci : use llvm 22.1.8 (#32548)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12525"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12525</id>
+    <updated>2026-11-18T20:10:23.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>ggml, ci : use llvm 22.1.8 Signed-off-by: Adrien Gallouët angt@huggingface.co Update build-cpu.yml too Signed-off-by: Adrien Gallouët angt@huggingface.co Fix clang 22 Signed-off-by: Adrien Gallouët angt@huggingface.co Fix release.yml (arm64 with vulkan) Signed-off-by: Adrien Gallouët angt@huggingface.co Fix server.yml </summary>
+  </entry>
+  <entry>
     <title>Microsoft is replacing outside AI models in its own products with cheaper in-house alternatives</title>
     <link href="https://the-decoder.com/microsoft-is-replacing-outside-ai-models-in-its-own-products-with-cheaper-in-house-alternatives"/>
     <id>https://the-decoder.com/microsoft-is-replacing-outside-ai-models-in-its-own-products-with-cheaper-in-house-alternatives</id>
@@ -87,13 +96,13 @@
     <summary>Microsoft's AI division MAI unveiled seven new models for code, security, images, language, and routing at Ignite. MAI Code 2 reaches 98 percent of GPT-6.1 Sol's performance at 40 percent of the cost, according to Microsoft. The models are built for running AI agents around the clock in enterprises. The article Microso</summary>
   </entry>
   <entry>
-    <title>Anthropic Leveraged ETF Race Heats Up Even Before Stock’s Debut</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-18/anthropic-leveraged-etf-race-heats-up-even-before-stock-s-debut"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-18/anthropic-leveraged-etf-race-heats-up-even-before-stock-s-debut</id>
-    <updated>2026-11-18T19:49:06.000Z</updated>
+    <title>Anthropic’s Valuation Seems Justified: Thakker</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-11-18/anthropic-s-valuation-seems-justified-thakker-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-11-18/anthropic-s-valuation-seems-justified-thakker-video</id>
+    <updated>2026-11-18T20:46:05.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>A slew of leveraged ETFs tied to SpaceX launched soon after its public debut, but only one managed to attract meaningful assets. That experience has raised the stakes for Anthropic: Issuers are racing to get out front in hopes that their fund becomes the one that captures the bulk of investor dollars.</summary>
+    <summary>Dharmesh Thakker, general partner at Battery Ventures joins Dani Burger on “Bloomberg Deals.” Anthropic is guiding prospective investors in its initial public offering it expects to price the shares at the high end of the price range or above, according to people familiar with the matter. (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>CrisisBench: an evaluation suite for crisis counseling AI</title>
@@ -132,22 +141,22 @@
     <summary>Lucinda Shen / Axios : Paris-based Remanence, which helps companies train and fine-tune open-weight AI models, raised a $30M seed led by EQT Ventures and FirstMark — Remanence, a startup helping companies train their own AI models using open-weight players, raised $30 million in seed funding led by EQT Ventures and Fir</summary>
   </entry>
   <entry>
-    <title>Why Anthropic’s IPO Is Making Philanthropist Craig Newmark Hold Back on AI Safety Donations</title>
-    <link href="https://www.theinformation.com/articles/anthropics-ipo-making-philanthropist-craig-newmark-hold-back-ai-safety-donations"/>
-    <id>https://www.theinformation.com/articles/anthropics-ipo-making-philanthropist-craig-newmark-hold-back-ai-safety-donations</id>
-    <updated>2026-11-18T15:01:15.000Z</updated>
-    <author><name>The Information</name></author>
+    <title>Google ships Gemini 4 Neon, its fourth new Gemini model in a month</title>
+    <link href="https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month"/>
+    <id>https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month</id>
+    <updated>2026-11-18T21:03:23.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Craigslist founder Craig Newmark says he’s recently become worried about AI’s potential to cause serious harm to critical infrastructure and human society. He’s considered directing some of his philanthropic funding towards organizations trying to make sure powerful AI doesn’t harm humans. But Newmark told me he is hol</summary>
+    <summary>Google released Gemini 4 Neon, a new frontier model built for software development, knowledge work, and science. It handles text, images, video, audio, and PDFs with a context window of one million tokens. At $3 per million input tokens and $15 per million output tokens, Neon is priced above previous Gemini 4 models. T</summary>
   </entry>
   <entry>
-    <title>External sandboxes for coding agents</title>
-    <link href="https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents"/>
-    <id>https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents</id>
-    <updated>2026-11-17T22:52:29.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>ChatGPT Prompt Injection: Techniques, Threats, and Security Best Practices</title>
+    <link href="https://akamai.com/resources/white-paper/chatgpt-prompt-injection"/>
+    <id>https://akamai.com/resources/white-paper/chatgpt-prompt-injection</id>
+    <updated>2026-11-18T18:11:09.000Z</updated>
+    <author><name>GN: Prompt Injection</name></author>
     <category term="AI SECURITY"/>
-    <summary>External sandboxes for coding agents I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine. I worked on this project with Prime Rad</summary>
+    <summary>ChatGPT Prompt Injection: Techniques, Threats, and Security Best Practices Akamai</summary>
   </entry>
   <entry>
     <title>Lawmakers call on White House to develop defensive AI cyber systems</title>
@@ -162,7 +171,7 @@
     <title>US tech outages blamed on rush to fix bugs found by AI</title>
     <link href="https://www.ft.com/content/96c565f1-f229-40b6-91e8-7a849ec4b208?syn-25a6b1a6=1"/>
     <id>https://www.ft.com/content/96c565f1-f229-40b6-91e8-7a849ec4b208?syn-25a6b1a6=1</id>
-    <updated>2026-11-18T12:44:53.000Z</updated>
+    <updated>2026-11-18T21:03:53.000Z</updated>
     <author><name>FT Artificial Intelligence</name></author>
     <category term="CYBER DEFENSE"/>
     <summary>Experts say race to patch software flaws probably created instability in computer systems at Microsoft, JPMorgan and others</summary>
@@ -213,6 +222,15 @@
     <summary>The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.</summary>
   </entry>
   <entry>
+    <title>Sources: Bret Taylor's Sierra is in talks to raise ~$1.5B at a ~$30B valuation, up from $15.8B in May; it said in October it hit $400M+ in annualized revenue (The Information)</title>
+    <link href="https://www.techmeme.com/261118/p40"/>
+    <id>https://www.techmeme.com/261118/p40</id>
+    <updated>2026-11-18T21:01:02.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>The Information : Sources: Bret Taylor's Sierra is in talks to raise ~$1.5B at a ~$30B valuation, up from $15.8B in May; it said in October it hit $400M+ in annualized revenue — Sierra, the AI customer support startup founded by former Salesforce co-CEO Bret Taylor, has been in talks to raise new funding …</summary>
+  </entry>
+  <entry>
     <title>At Nvidia's first all-hands since Huang's ouster, Colette Kress told staff that they can expect pay raises and more equity in December, months ahead of schedule (Wired)</title>
     <link href="https://www.techmeme.com/261118/p38"/>
     <id>https://www.techmeme.com/261118/p38</id>
@@ -229,15 +247,6 @@
     <author><name>NVIDIA Blog</name></author>
     <category term="LOCAL MODELS"/>
     <summary>New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified memory and NVIDIA’s AI software stack, these systems provide room for larger local models alongside RTX-ac</summary>
-  </entry>
-  <entry>
-    <title>OVH announces Olala mini 7A1B</title>
-    <link href="https://sh.itjust.works/post/70098161"/>
-    <id>https://sh.itjust.works/post/70098161</id>
-    <updated>2026-11-18T05:31:25.000Z</updated>
-    <author><name>Lemmy c/localllama</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>submitted by Eyekaytee to localllama 12 points | 0 comments https://corporate.ovhcloud.com/en-au/newsroom/news/ovh-olala-mini/ Expectations are set to low but they do plan on improving quickly: On the road to v1.1, then v2.0 Expected by the end of the year, version 1.1 will extend the context window to 128,000 tokens a</summary>
   </entry>
   <entry>
     <title>Google rebrands its Gemini Spark AI agent as Tasks and makes it free in six countries; in the US it can call businesses and buy items with Google Pay (Emma Roth/The Verge)</title>
@@ -258,21 +267,12 @@
     <summary>Lens creators can describe the Lens they want in plain language, and their AI assistant handles the process from start to finish, Snapchat says.</summary>
   </entry>
   <entry>
-    <title>Fed Minutes Leave Door Open to Larger December Rate Hike</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-11-18/fed-minutes-leave-door-open-to-larger-december-rate-hike-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-11-18/fed-minutes-leave-door-open-to-larger-december-rate-hike-video</id>
-    <updated>2026-11-18T19:43:20.000Z</updated>
+    <title>Anthropic Said to Be Weighing IPO Price as High as $85 Per Share</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-18/anthropic-said-to-be-weighing-ipo-price-as-high-as-85-per-share"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-18/anthropic-said-to-be-weighing-ipo-price-as-high-as-85-per-share</id>
+    <updated>2026-11-18T20:39:53.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Minutes of the Federal Open Market Committee’s Oct. 27-28 meeting show nearly all Federal Reserve officials agreed they would likely have to raise interest rates “in the months ahead” to return inflation to their 2% target in a timely manner. Michael McKee reports. (Source: Bloomberg)</summary>
-  </entry>
-  <entry>
-    <title>Need Accountability, Transparency in FAA Funding, Says Sen. Capito</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-11-18/need-accountability-transparency-in-faa-funding-capito-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-11-18/need-accountability-transparency-in-faa-funding-capito-video</id>
-    <updated>2026-11-18T19:23:56.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Republican Senator Shelley Moore Capito of West Virginia talks about government funding, energy permitting reform and concerns about advanced chips going to China. Capito said that there needs to be more a 'accountability' and 'transparency' for FAA funding, adding that Transportation Secretary Sean Duffy's request for</summary>
+    <summary>Anthropic PBC is considering pricing the shares in its initial public offering in a range of around $80 to $85 each, according to people familiar with the matter.</summary>
   </entry>
 </feed>
