@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-19T21:08:45.749Z</updated>
+  <updated>2026-11-19T22:08:48.655Z</updated>
   <entry>
     <title>Humyn Labs raises $47M to collect real-world data for robotics</title>
     <link href="https://www.therobotreport.com/humyn-labs-raises-47m-to-collect-real-world-data-for-robotics"/>
@@ -16,13 +16,13 @@
     <summary>Humyn Labs provides data collected from real-world operations for frontier AI labs, robotics companies, and world-model developers. The post Humyn Labs raises $47M to collect real-world data for robotics appeared first on The Robot Report . — Also covered by: TechCrunch Startups</summary>
   </entry>
   <entry>
-    <title>llama.cpp b12549 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12549"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12549</id>
-    <updated>2026-11-19T17:51:04.000Z</updated>
+    <title>llama.cpp b12553 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12553"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12553</id>
+    <updated>2026-11-19T22:08:26.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>llama: fixes for Inkling 2 attention mask ( #32429 ) llama : give Inkling2 its own relative-position attention input The Inkling2 graph built its flash attention mask from the hybrid iswa input and passed it to build_attn through a new kq_mask argument. That argument let a caller pair its own dense mask with the kv_row — Also covered by: run-llama/llama_index</summary>
+    <summary>mtmd : fix YuE2 projector loading ( #32606 ) Allow cls.output.weight to be absent from the mmproj. It is an optional Qwen3 reranking head that the YuE2 NAR decoder never uses. Without this fix, mtmd_init_from_file() fails with &quot;tensor cls.output.weight is missing from the mmproj&quot;, preventing audio generation from start — Also covered by: run-llama/llama_index</summary>
   </entry>
   <entry>
     <title>How OpenAI’s Performance Factory keeps ChatGPT fast</title>
@@ -34,22 +34,22 @@
     <summary>Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.</summary>
   </entry>
   <entry>
-    <title>Former Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories</title>
-    <link href="https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories"/>
-    <id>https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories</id>
-    <updated>2026-11-19T17:00:00.000Z</updated>
+    <title>Meta’s new Muse Charm device may cost $300</title>
+    <link href="https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300"/>
+    <id>https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300</id>
+    <updated>2026-11-19T21:58:06.000Z</updated>
     <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Everful has raised $48.5 million to expand its factory-direct sourcing platform, helping retailers source products from overseas manufacturers.</summary>
+    <summary>Meta hasn't denied the reporting from The Information, saying only that it will &quot;have more to share soon&quot; about its upcoming AI wearable. — Also covered by: The Verge AI</summary>
   </entry>
   <entry>
-    <title>Meta’s Muse Charm might cost $300</title>
-    <link href="https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price"/>
-    <id>https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price</id>
-    <updated>2026-11-19T20:22:17.000Z</updated>
-    <author><name>The Verge AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm &quot;in time for the holidays in December,&quot; but […] — Also covered by: The Information</summary>
+    <title>Critical PHP Flaws Allow Code Execution, But Don't Panic 'PHP2Shell'-Style</title>
+    <link href="https://www.darkreading.com/application-security/critical-php-flaws-code-execution-panic-php2shell"/>
+    <id>https://www.darkreading.com/application-security/critical-php-flaws-code-execution-panic-php2shell</id>
+    <updated>2026-11-19T19:57:31.000Z</updated>
+    <author><name>Dark Reading</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>November's monthly security release patches seven critical PHP flaws that should be addressed ASAP, though experts say exploitability varies and depends heavily on configuration. — Also covered by: The Hacker News</summary>
   </entry>
   <entry>
     <title>Managing frontier AI risk: From training to deployment</title>
@@ -61,31 +61,13 @@
     <summary>OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.</summary>
   </entry>
   <entry>
-    <title>Anthropic valued at $2tn as shares begin trading after record-breaking IPO – business live</title>
+    <title>Anthropic shares end first day of trading at $97 as Wall Street closes sharply lower – business live</title>
     <link href="https://www.theguardian.com/business/live/2026/nov/19/anthropic-float-stock-market-nasdaq-raises-81bn-record-ipo-latest-news-updates"/>
     <id>https://www.theguardian.com/business/live/2026/nov/19/anthropic-float-stock-market-nasdaq-raises-81bn-record-ipo-latest-news-updates</id>
-    <updated>2026-11-19T21:06:54.000Z</updated>
+    <updated>2026-11-19T22:02:26.000Z</updated>
     <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Rolling coverage of Anthropic’s IPO, and the latest economic and financial news Anthropic to begin public trading at $1.5tn valuation after largest ever IPO Outages, spies, and trillion-dollar IPOs: is this our AI future? – Stateside with Kai and Carter Anthropic needs to grow into its $1.5tn valuation, argues Kathleen</summary>
-  </entry>
-  <entry>
-    <title>LangChain Raises $300M Series C at $3B Valuation</title>
-    <link href="https://www.langchain.com/blog/series-c"/>
-    <id>https://www.langchain.com/blog/series-c</id>
-    <updated>2026-11-19T18:24:58.000Z</updated>
-    <author><name>LangChain Blog</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>LangChain raises $300M Series C at a $3B valuation, led by CapitalG, to help every company own its intelligence with LangSmith, the agent engineering platform.</summary>
-  </entry>
-  <entry>
-    <title>Anthropic shares jump 17% after record Wall Street listing</title>
-    <link href="https://www.ft.com/content/2b203097-7c61-464f-810f-962912a133dd?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/2b203097-7c61-464f-810f-962912a133dd?syn-25a6b1a6=1</id>
-    <updated>2026-11-19T21:02:09.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
-    <category term="AI FINANCE"/>
-    <summary>AI group led by Dario Amodei raises $81bn in upsized public offering</summary>
+    <summary>All ⁠three major US stock indexes ⁠ended the session ​sharply lower after record-breaking IPO by maker behind AI agent Claude Anthropic needs to grow into its $1.5tn valuation, argues Kathleen Brooks, research director at XTB: Anthropic’s triumphant IPO and its trillion dollar plus valuation is more typical of a mature</summary>
   </entry>
   <entry>
     <title>GridForge: An Open Physics-Informed Digital Twin and Benchmark Suite for UK 11 kV Underground Distribution Cables</title>
@@ -106,15 +88,6 @@
     <summary>Anthropic launches the largest IPO in history, dethroning SpaceX as the previous record holder. Early investor Dustin Moskovitz is publicly distancing himself, warning that his early funding may have been an act &quot;that ended the world.&quot; The article Anthropic's $81.3 billion IPO shatters SpaceX's record as rising rates a</summary>
   </entry>
   <entry>
-    <title>NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs</title>
-    <link href="https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs"/>
-    <id>https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs</id>
-    <updated>2026-11-19T20:00:15.000Z</updated>
-    <author><name>NVIDIA Blog</name></author>
-    <category term="HARDWARE"/>
-    <summary>NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build, customize and deploy intelligent applications — from next-generation infrastructure on Azure to industrial systems and Windows PCs. At Microsoft Ignite, the companies are expanding access to Azure virtual machines powered by </summary>
-  </entry>
-  <entry>
     <title>[tl;dr sec] #355 - Cyber Chaos Monkey, Offsec Harness Index, Top 10 AWS Security Research of 2026</title>
     <link href="https://tldrsec.com/p/tldr-sec-355"/>
     <id>https://tldrsec.com/p/tldr-sec-355</id>
@@ -124,13 +97,13 @@
     <summary>Shopify's AI agent system that continuously attacks their production infra, list of open-source offensive AI agent harnesses, la creme de la cloud 2026</summary>
   </entry>
   <entry>
-    <title>A bipartisan group of 24+ House lawmakers forms the AI Safety and Innovation Caucus, seeking to balance mitigating AI risks with maintaining US leadership in AI (Owen Dahlkamp/Politico)</title>
-    <link href="https://www.techmeme.com/261119/p48"/>
-    <id>https://www.techmeme.com/261119/p48</id>
-    <updated>2026-11-19T19:01:15.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Lawmakers launch new AI safety caucus amid rising security concerns</title>
+    <link href="https://therecord.media/lawmakers-launch-new-ai-safety-caucus"/>
+    <id>https://therecord.media/lawmakers-launch-new-ai-safety-caucus</id>
+    <updated>2026-11-19T21:19:00.000Z</updated>
+    <author><name>The Record</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Owen Dahlkamp / Politico : A bipartisan group of 24+ House lawmakers forms the AI Safety and Innovation Caucus, seeking to balance mitigating AI risks with maintaining US leadership in AI — A bipartisan coalition of over two dozen House lawmakers is forming a new artificial intelligence caucus.</summary>
+    <summary>Seven of 26 founding members of the caucus are Republicans, a notable number given the White House’s steadfast opposition to regulating AI.</summary>
   </entry>
   <entry>
     <title>Transport for London breach exposes 265,000 Oyster card users' data</title>
@@ -178,40 +151,31 @@
     <summary>Quantum</summary>
   </entry>
   <entry>
-    <title>Introducing Tool Retrieval in the Gemini API</title>
-    <link href="https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval"/>
-    <id>https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval</id>
-    <updated>2026-11-19T18:00:00.000Z</updated>
-    <author><name>Google AI Blog</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.</summary>
-  </entry>
-  <entry>
     <title>Anthropic's blockbuster debut tests Wall Street's faith in AI boom</title>
     <link href="https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19"/>
     <id>https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19</id>
-    <updated>2026-11-19T20:54:36.000Z</updated>
+    <updated>2026-11-19T21:10:31.000Z</updated>
     <author><name>Reuters AI (Google News)</name></author>
     <category term="INDUSTRY NEWS"/>
     <summary>Anthropic's blockbuster debut tests Wall Street's faith in AI boom Reuters</summary>
   </entry>
   <entry>
-    <title>Anthropic CEO acknowledges AI has 'very real risks' shortly before IPO – video</title>
-    <link href="https://www.theguardian.com/technology/video/2026/nov/19/anthropic-dario-amodei-acknowledges-ai-risks-before-ipo-video"/>
-    <id>https://www.theguardian.com/technology/video/2026/nov/19/anthropic-dario-amodei-acknowledges-ai-risks-before-ipo-video</id>
-    <updated>2026-11-19T16:24:13.000Z</updated>
+    <title>Protesters rally against Anthropic in New York and San Francisco after $2tn stock market debut</title>
+    <link href="https://www.theguardian.com/technology/2026/nov/19/anthropic-ipo-protests"/>
+    <id>https://www.theguardian.com/technology/2026/nov/19/anthropic-ipo-protests</id>
+    <updated>2026-11-19T21:52:19.000Z</updated>
     <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Anthropic's CEO, Dario Amodei, issued a warning about the dangers of AI, saying it has 'very real' but 'avoidable' risks, shortly before the company rang the opening bell at Nasdaq Anthropic ‘to open up more than 20% higher at over $100 a share’ after blockbuster IPO – business live Continue reading...</summary>
+    <summary>Anti-AI groups gather in front of Nasdaq exchange in Times Square and Anthropic’s headquarters in San Francisco As the artificial intelligence startup Anthropic debuted on the US stock market at an eye-popping $2tn valuation Thursday, protesters from anti-AI groups rallied in front of the Nasdaq exchange at its New Yor</summary>
   </entry>
   <entry>
-    <title>b12550: ggml : add backend scheduler tests (#27258)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12550"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12550</id>
-    <updated>2026-11-19T14:40:13.000Z</updated>
+    <title>b12554: ggml : add BF16 support to ROPE and SET_ROWS (CPU, CUDA) (#32387)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12554"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12554</id>
+    <updated>2026-11-19T18:13:55.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Adds initial scheduler stress tests Adds new sleep op to simplify scheduler testing Adds testcase addressing #23321 Adds experimental vulkan GGML_OP_SLEEP Improves structure and naming of previous tests. Adds new tests, including one which detects the nkvo-bug correctly, and validates the proposed hotfix. Cleanup: Remo</summary>
+    <summary>ggml : add BF16 support to ROPE and SET_ROWS (CPU, CUDA) cuda : SET_ROWS from BF16 into quantized types and F8_E4M3 cuda : fuse BF16 rope into a BF16 cache tests : trim the BF16 rope cases to one per code path</summary>
   </entry>
   <entry>
     <title>Photoshop On-Device Remove Tool Performance Analysis</title>
@@ -223,22 +187,40 @@
     <summary>We created a custom benchmark and tested a range of GPUs to see how they perform with Photoshop's new AI-powered, on-device Remove Tool. The post Photoshop On-Device Remove Tool Performance Analysis appeared first on Puget Systems .</summary>
   </entry>
   <entry>
-    <title>Google-Tied Prepaid Bond Deals Delayed Due to Lackluster Demand</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-19/google-tied-prepaid-bond-deals-delayed-due-to-lackluster-demand"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-19/google-tied-prepaid-bond-deals-delayed-due-to-lackluster-demand</id>
-    <updated>2026-11-19T20:10:10.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Two prepaid energy deals totaling $3 billion, which featured Google parent company Alphabet Inc. as funding recipient, were delayed due to lackluster investor demand amid market volatility, according to a person familiar with the matter.</summary>
+    <title>LangChain Raises $300M Series C at $3B Valuation</title>
+    <link href="https://www.langchain.com/blog/series-c"/>
+    <id>https://www.langchain.com/blog/series-c</id>
+    <updated>2026-11-19T18:24:58.000Z</updated>
+    <author><name>LangChain Blog</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>LangChain raises $300M Series C at a $3B valuation, led by CapitalG, to help every company own its intelligence with LangSmith, the agent engineering platform.</summary>
   </entry>
   <entry>
-    <title>Anthropic IPO Said to Draw Over $9.4 Billion in Japan Order Book</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-19/anthropic-ipo-said-to-draw-over-9-4-billion-in-japan-order-book"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-19/anthropic-ipo-said-to-draw-over-9-4-billion-in-japan-order-book</id>
-    <updated>2026-11-19T20:00:00.000Z</updated>
+    <title>These tech outages are giving Y2K, AI agent style</title>
+    <link href="https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style"/>
+    <id>https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style</id>
+    <updated>2026-11-19T21:42:31.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say.</summary>
+  </entry>
+  <entry>
+    <title>NY’s Largest Mall Debt Now Controlled by Billionaire Namdar</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-19/ny-s-largest-mall-debt-now-controlled-by-billionaire-namdar"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-19/ny-s-largest-mall-debt-now-controlled-by-billionaire-namdar</id>
+    <updated>2026-11-19T21:51:06.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Anthropic PBC drew orders for more than three times the shares available in the Japan tranche of its US initial public offering.</summary>
+    <summary>The debt on Destiny USA, New York state’s largest shopping center, has been acquired by Namdar Realty Group, a Long Island-based real estate firm known for distressed retail real estate deals.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic Jumps 17% in Record IPO as Broader Tech Market Sells Off | Closing Bell</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-11-19/anthropic-jumps-17-in-record-ipo-closing-bell-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-11-19/anthropic-jumps-17-in-record-ipo-closing-bell-video</id>
+    <updated>2026-11-19T21:24:51.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Ed Ludlow, Carol Massar and Tim Stenovec. (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>Google's latest AI model is faster, cheaper and smarter than its flagship predecessor from just weeks ago</title>
@@ -250,6 +232,15 @@
     <summary>Google DeepMind has released Gemini 4 Neon, its fourth model in seven weeks, which is nearly 2x faster than its sibling Carbon, outperforms it on most benchmarks and comes in at a significantly lower price. The article Google's latest AI model is faster, cheaper and smarter than its flagship predecessor from just weeks</summary>
   </entry>
   <entry>
+    <title>Genie ZeroOps, now in public beta: An autonomous agent that fixes data pipelines, with lessons from 80,000 customer issues</title>
+    <link href="https://www.databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer"/>
+    <id>https://www.databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer</id>
+    <updated>2026-11-19T21:30:00.000Z</updated>
+    <author><name>Databricks Blog</name></author>
+    <category term="PRODUCTS"/>
+    <summary>In June we introduced Genie ZeroOps, an autonomous agent that detects, investigates,...</summary>
+  </entry>
+  <entry>
     <title>Amazon Polly launches voice cloning: A unique voice for your brand</title>
     <link href="https://aws.amazon.com/blogs/machine-learning/amazon-polly-launches-voice-cloning-a-unique-voice-for-your-brand"/>
     <id>https://aws.amazon.com/blogs/machine-learning/amazon-polly-launches-voice-cloning-a-unique-voice-for-your-brand</id>
@@ -259,13 +250,13 @@
     <summary>Voice cloning in Amazon Polly is now generally available. Give Amazon Polly a few minutes of recordings from a consenting speaker, and it builds a custom voice that reads new text in that speaker's voice. Cloned voices run on the Amazon Polly generative engine and support seven languages.</summary>
   </entry>
   <entry>
-    <title>The best things in open source are built together</title>
-    <link href="https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together"/>
-    <id>https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together</id>
-    <updated>2026-11-19T16:00:00.000Z</updated>
-    <author><name>GitHub Blog</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Introducing Replica and the Open Source Accessibility Framework, new open source projects for collaboration and inclusion. The post The best things in open source are built together appeared first on The GitHub Blog .</summary>
+    <title>NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs</title>
+    <link href="https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs"/>
+    <id>https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs</id>
+    <updated>2026-11-19T20:00:15.000Z</updated>
+    <author><name>NVIDIA Blog</name></author>
+    <category term="HARDWARE"/>
+    <summary>NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build, customize and deploy intelligent applications — from next-generation infrastructure on Azure to industrial systems and Windows PCs. At Microsoft Ignite, the companies are expanding access to Azure virtual machines powered by </summary>
   </entry>
   <entry>
     <title>Dnotitia Presents First Live Demonstration of Its VDPU Vector Search ASIC at SC26</title>
@@ -275,5 +266,14 @@
     <author><name>HPC Wire</name></author>
     <category term="HARDWARE"/>
     <summary>CHICAGO, Nov. 19, 2026 — Dnotitia Inc., an AI data infrastructure and semiconductor company, today announced the first public live demonstration of its VDPU (Vector Data Processing Unit) ASIC, a chip designed for AI data retrieval, at Supercomputing 2026 (SC26) in Chicago. The chip performed real-time searches across a</summary>
+  </entry>
+  <entry>
+    <title>European Commission confirms cyberattack, says hackers used AI tool</title>
+    <link href="https://therecord.media/european-commission-confirms-cyberattack-using-ai"/>
+    <id>https://therecord.media/european-commission-confirms-cyberattack-using-ai</id>
+    <updated>2026-11-19T15:15:00.000Z</updated>
+    <author><name>The Record</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>POLITICO had reported CERT-EU had identified the attackers’ use of ARTEX, an open-source AI hacking platform that the FBI last week warned was being used both by criminals and state-sponsored groups.</summary>
   </entry>
 </feed>
