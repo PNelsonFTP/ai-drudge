@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-20T04:08:39.600Z</updated>
+  <updated>2026-11-20T08:08:42.080Z</updated>
   <entry>
     <title>Humyn Labs raises $47M to collect real-world data for robotics</title>
     <link href="https://www.therobotreport.com/humyn-labs-raises-47m-to-collect-real-world-data-for-robotics"/>
@@ -16,13 +16,13 @@
     <summary>Humyn Labs provides data collected from real-world operations for frontier AI labs, robotics companies, and world-model developers. The post Humyn Labs raises $47M to collect real-world data for robotics appeared first on The Robot Report . — Also covered by: TechCrunch Startups</summary>
   </entry>
   <entry>
-    <title>llama.cpp b12556 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12556"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12556</id>
-    <updated>2026-11-19T23:17:27.000Z</updated>
+    <title>llama.cpp b12560 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12560"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12560</id>
+    <updated>2026-11-20T07:36:58.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>model : hrm : do not compute slot count as uint32_t ( #32601 ) load_arch_hparams multiplies n_hrm_layers_per_stack, n_hrm_h_cycles and (n_hrm_l_cycles + 1) into a uint32_t, then asserts the product equals block_count. Any factors whose true product is block_count + k*2^32 still pass the assert; 1073741825 * 2 * 2 = 2^3 — Also covered by: run-llama/llama_index</summary>
+    <summary>webgpu : add COL2IM_1D support ( #31708 ) — Also covered by: run-llama/llama_index</summary>
   </entry>
   <entry>
     <title>Anthropic Closes First Trading Day at $97 a Share, 17% Above IPO Price</title>
@@ -32,6 +32,24 @@
     <author><name>The Information</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Anthropic’s shares closed up 17% at $97 on the company’s first day as a public company, well down on its opening trade. Even so, the company finished the day with a market capitalization of around $1.75 trillion on a fully diluted basis, making it one of the world’s largest companies. In early ... — Also covered by: The Guardian AI</summary>
+  </entry>
+  <entry>
+    <title>Anthropic’s IPO Triumph</title>
+    <link href="https://www.theinformation.com/articles/anthropics-ipo-triumph"/>
+    <id>https://www.theinformation.com/articles/anthropics-ipo-triumph</id>
+    <updated>2026-11-20T01:00:57.000Z</updated>
+    <author><name>The Information</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Anthropic pulled it off. The biggest pure-play AI company out there, maker of the Claude line of AI models, went public on Thursday, with its shares jumping as much as 39% above its IPO price. The stock settled back a bit to close at $97.17, up 17% from its IPO price. That gave it a market capitalization of $1.76 trill</summary>
+  </entry>
+  <entry>
+    <title>Anthropic’s Wall Street stimulus fades</title>
+    <link href="https://www.ft.com/content/4f7cf30e-5c9a-489f-bd01-2283a6c9d0e9?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/4f7cf30e-5c9a-489f-bd01-2283a6c9d0e9?syn-25a6b1a6=1</id>
+    <updated>2026-11-20T05:00:26.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Shares of some banks and private capital groups tying their fortunes to AI have fallen this year — Also covered by: The Algorithmic Bridge</summary>
   </entry>
   <entry>
     <title>How OpenAI’s Performance Factory keeps ChatGPT fast</title>
@@ -70,22 +88,31 @@
     <summary>A record breaking IPO has raised billions for the AI frontier lab – but experts say the coming months could prove bumpy, as the industry faces a variety of challenges Anthropic closes first day of public trading at $1.3tn valuation after largest-ever IPO In the end, Anthropic’s much-anticipated IPO more than lived up t</summary>
   </entry>
   <entry>
-    <title>Anthropic shares end first day of trading at $97 as Wall Street closes sharply lower – as it happened</title>
-    <link href="https://www.theguardian.com/business/live/2026/nov/19/anthropic-float-stock-market-nasdaq-raises-81bn-record-ipo-latest-news-updates"/>
-    <id>https://www.theguardian.com/business/live/2026/nov/19/anthropic-float-stock-market-nasdaq-raises-81bn-record-ipo-latest-news-updates</id>
-    <updated>2026-11-19T22:13:52.000Z</updated>
-    <author><name>The Guardian AI</name></author>
+    <title>DSFlow: A Neuro-Symbolic Data Workflow Agent with Statistical Diagnostic Guardrails</title>
+    <link href="https://arxiv.org/abs/2611.25111"/>
+    <id>https://arxiv.org/abs/2611.25111</id>
+    <updated>2026-11-20T05:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>All ⁠three major US stock indexes ⁠ended the session ​sharply lower after record-breaking IPO by maker behind AI agent Claude Anthropic closes first day of public trading at $1.3tn valuation Protesters rally in New York and San Francisco Who are Anthropic’s seven co-founders, now worth $180bn? Anthropic needs to grow i</summary>
+    <summary>arXiv:2611.25111v1 Announce Type: new Abstract: Data science workflows often require tools that presume non-trivial technical knowledge. Large language models (LLMs) reduce this barrier, but a gap remains between flexible general-purpose agents and statistically controlled pipelines. We introduce DSFlow, a LangGraph-ba</summary>
   </entry>
   <entry>
-    <title>Taiwan Stocks Face Worst Week Since 1991 Despite Support Steps</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-20/taiwan-stocks-taiex-twse-1991-ai-chips-tsmc-hon-hai-foxconn"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-20/taiwan-stocks-taiex-twse-1991-ai-chips-tsmc-hon-hai-foxconn</id>
-    <updated>2026-11-20T02:29:57.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
+    <title>Tech stocks fall as Anthropic IPO fails to reignite AI trade</title>
+    <link href="https://www.ft.com/content/c7ad2e0c-efd1-40c2-a5a8-819ced8acf5b?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/c7ad2e0c-efd1-40c2-a5a8-819ced8acf5b?syn-25a6b1a6=1</id>
+    <updated>2026-11-20T07:29:48.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Asia’s markets follow Wall Street lower despite Claude AI maker’s record listing</summary>
+  </entry>
+  <entry>
+    <title>HireWatch: Evaluating LLM Compliance with U.S. Employment Law Under Contextual Pressure</title>
+    <link href="https://arxiv.org/abs/2611.24970"/>
+    <id>https://arxiv.org/abs/2611.24970</id>
+    <updated>2026-11-20T05:00:00.000Z</updated>
+    <author><name>arXiv cs.CL</name></author>
     <category term="RESEARCH"/>
-    <summary>Taiwan’s tech-heavy stock market witnessed another selloff on Friday as the global artificial intelligence trade came under fresh strain, putting the island’s benchmark on course for its worst week since 1991.</summary>
+    <summary>arXiv:2611.24970v1 Announce Type: new Abstract: The deployment of large language models (LLMs) in hiring pipelines is growing, yet existing evaluations generally overlook their compliance with legal rules. To fill this gap, we introduce HireWatch, an evaluation that assesses whether LLMs comply with U.S. laws that gove</summary>
   </entry>
   <entry>
     <title>Lenders aim to bar SpaceX from launching $40bn of chips into orbit</title>
@@ -106,31 +133,31 @@
     <summary>Shopify's AI agent system that continuously attacks their production infra, list of open-source offensive AI agent harnesses, la creme de la cloud 2026</summary>
   </entry>
   <entry>
-    <title>Lawmakers launch new AI safety caucus amid rising security concerns</title>
-    <link href="https://therecord.media/lawmakers-launch-new-ai-safety-caucus"/>
-    <id>https://therecord.media/lawmakers-launch-new-ai-safety-caucus</id>
-    <updated>2026-11-19T21:19:00.000Z</updated>
-    <author><name>The Record</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>Seven of 26 founding members of the caucus are Republicans, a notable number given the White House’s steadfast opposition to regulating AI.</summary>
+    <title>Density Feedback Control for Transferability of Generative Sparse Adversarial Attacks</title>
+    <link href="https://arxiv.org/abs/2611.25001"/>
+    <id>https://arxiv.org/abs/2611.25001</id>
+    <updated>2026-11-20T05:00:00.000Z</updated>
+    <author><name>arXiv cs.LG</name></author>
+    <category term="AI SECURITY"/>
+    <summary>arXiv:2611.25001v1 Announce Type: new Abstract: Generator-based sparse adversarial attacks train encoder--decoder networks to produce transferable sparse perturbations for black-box robustness evaluation. Their perturbation density, however, is set only indirectly by a fixed sparsity coefficient whose mapping to densit</summary>
   </entry>
   <entry>
-    <title>Transport for London breach exposes 265,000 Oyster card users' data</title>
-    <link href="https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data"/>
-    <id>https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data</id>
-    <updated>2026-11-19T18:20:01.000Z</updated>
-    <author><name>BleepingComputer</name></author>
+    <title>ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs</title>
+    <link href="https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html"/>
+    <id>https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html</id>
+    <updated>2026-11-20T07:11:39.000Z</updated>
+    <author><name>The Hacker News</name></author>
     <category term="CYBER THREATS"/>
-    <summary>Transport for London (TfL) has announced that around 265,000 Oyster photocard customers may have had their account details exposed in a data breach. [...]</summary>
+    <summary>Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS. &quot;ROMULUS likely operates as a delivery service, distributing CNCMachineRMS and Legion Loader through separate chains while re</summary>
   </entry>
   <entry>
-    <title>VMware patches vCenter zero-day exploited in attacks since September</title>
-    <link href="https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september"/>
-    <id>https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september</id>
-    <updated>2026-11-20T00:26:25.000Z</updated>
-    <author><name>BleepingComputer</name></author>
+    <title>New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It</title>
+    <link href="https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html"/>
+    <id>https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html</id>
+    <updated>2026-11-20T05:30:01.000Z</updated>
+    <author><name>The Hacker News</name></author>
     <category term="CYBER DEFENSE"/>
-    <summary>Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. [...]</summary>
+    <summary>A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine. The method was posted yesterday by a researcher who uses the handles M</summary>
   </entry>
   <entry>
     <title>Token fraud is here and it’s BAD (YouTube)</title>
@@ -142,13 +169,13 @@
     <summary>Token fraud is here and it’s BAD (YouTube) Claire Vo runs ChatPRD , an AI platform that helps product managers &quot;turn an idea into a spec&quot;. The product has been live since the GPT-4 era, and Claire has been building it in public for much of that time. In this YouTube video (see also the accompanying Twitter post ) Clair</summary>
   </entry>
   <entry>
-    <title>Robotics enters its post-Jensen Huang era</title>
-    <link href="https://www.therobotreport.com/robotics-enters-its-post-jensen-huang-era"/>
-    <id>https://www.therobotreport.com/robotics-enters-its-post-jensen-huang-era</id>
-    <updated>2026-11-20T03:06:28.000Z</updated>
-    <author><name>The Robot Report</name></author>
+    <title>Closing the Analyze-to-Design Gap: An Authorization-Bounded Agent for Self-Driving Laboratories</title>
+    <link href="https://arxiv.org/abs/2611.25043"/>
+    <id>https://arxiv.org/abs/2611.25043</id>
+    <updated>2026-11-20T05:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
     <category term="ROBOTICS"/>
-    <summary>One of robotics' most influential advocates is gone. Can the industry sustain its momentum without him? The post Robotics enters its post-Jensen Huang era appeared first on The Robot Report .</summary>
+    <summary>arXiv:2611.25043v1 Announce Type: new Abstract: Artificial intelligence (AI) agents are increasingly integrated into self-driving laboratories (SDLs) to plan experiments and interpret results. However, analytical reasoning alone does not make a laboratory autonomous: autonomy in an SDL is achievable only when the agent</summary>
   </entry>
   <entry>
     <title>Researchers Introduce QECLean Framework to Formally Verify Quantum Error-Correcting Codes in Lean 4</title>
@@ -160,22 +187,22 @@
     <summary>Researchers have developed QECLean, an open-source framework using Lean 4 to formally verify quantum error-correcting codes, addressing the difficulty of verifying complex, algorithmically discovered codes. It has successfully verified parameters for several significant QEC codes, including an IBM 360-qubit code and in</summary>
   </entry>
   <entry>
-    <title>Anthropic closes first day of public trading at $1.3tn valuation after largest-ever IPO</title>
-    <link href="https://www.theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo"/>
-    <id>https://www.theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo</id>
-    <updated>2026-11-19T22:09:18.000Z</updated>
-    <author><name>The Guardian AI</name></author>
+    <title>Asian tech stocks plunge as Anthropic's record IPO fails to stem an AI sell-off; SoftBank falls ~15%, TSMC falls 5%+, and Samsung and SK Hynix fall 6%+ (William Sandlund/Financial Times)</title>
+    <link href="https://www.techmeme.com/261120/p1"/>
+    <id>https://www.techmeme.com/261120/p1</id>
+    <updated>2026-11-20T05:45:01.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>AI startup and Claude chatbot maker became one of the world’s most valuable publicly traded businesses with final share price of $97 Anthropic closed its first day of trading on the US stock market about 17% higher than its initial public offering price. At the close of market on Thursday, Anthropic shares were trading</summary>
+    <summary>William Sandlund / Financial Times : Asian tech stocks plunge as Anthropic's record IPO fails to stem an AI sell-off; SoftBank falls ~15%, TSMC falls 5%+, and Samsung and SK Hynix fall 6%+ — Asia's markets follow Wall Street lower despite Claude AI maker's record listing — Technology stocks in Asia fell on Friday …</summary>
   </entry>
   <entry>
-    <title>Anthropic’s IPO Triumph</title>
-    <link href="https://www.theinformation.com/articles/anthropics-ipo-triumph"/>
-    <id>https://www.theinformation.com/articles/anthropics-ipo-triumph</id>
-    <updated>2026-11-20T01:00:57.000Z</updated>
-    <author><name>The Information</name></author>
+    <title>Sources: Singapore-based DayOne pauses its US IPO plans to raise up to $5B as soon as Q4 amid market volatility and valuation concerns around AI infrastructure (Bloomberg)</title>
+    <link href="https://www.techmeme.com/261120/p5"/>
+    <id>https://www.techmeme.com/261120/p5</id>
+    <updated>2026-11-20T07:00:01.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Anthropic pulled it off. The biggest pure-play AI company out there, maker of the Claude line of AI models, went public on Thursday, with its shares jumping as much as 39% above its IPO price. The stock settled back a bit to close at $97.17, up 17% from its IPO price. That gave it a market capitalization of $1.76 trill</summary>
+    <summary>Bloomberg : Sources: Singapore-based DayOne pauses its US IPO plans to raise up to $5B as soon as Q4 amid market volatility and valuation concerns around AI infrastructure — DayOne Data Centers Ltd. has put plans for its multibillion-dollar US initial public offering on hold, people familiar with the matter said …</summary>
   </entry>
   <entry>
     <title>Photoshop On-Device Remove Tool Performance Analysis</title>
@@ -187,49 +214,40 @@
     <summary>We created a custom benchmark and tested a range of GPUs to see how they perform with Photoshop's new AI-powered, on-device Remove Tool. The post Photoshop On-Device Remove Tool Performance Analysis appeared first on Puget Systems .</summary>
   </entry>
   <entry>
-    <title>Why agent governance starts with observability</title>
-    <link href="https://www.langchain.com/blog/agent-governance-observability"/>
-    <id>https://www.langchain.com/blog/agent-governance-observability</id>
-    <updated>2026-11-20T00:57:43.000Z</updated>
-    <author><name>LangChain Blog</name></author>
+    <title>Anthropic shares end first day of trading at $97 as Wall Street closes sharply lower – as it happened</title>
+    <link href="https://www.theguardian.com/business/live/2026/nov/19/anthropic-float-stock-market-nasdaq-raises-81bn-record-ipo-latest-news-updates"/>
+    <id>https://www.theguardian.com/business/live/2026/nov/19/anthropic-float-stock-market-nasdaq-raises-81bn-record-ipo-latest-news-updates</id>
+    <updated>2026-11-19T22:13:52.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>A strong AI agent governance strategy</summary>
+    <summary>All ⁠three major US stock indexes ⁠ended the session ​sharply lower after record-breaking IPO by maker behind AI agent Claude Anthropic closes first day of public trading at $1.3tn valuation Protesters rally in New York and San Francisco Who are Anthropic’s seven co-founders, now worth $180bn? Anthropic needs to grow i</summary>
   </entry>
   <entry>
-    <title>LangChain Raises $300M Series C at $3B Valuation</title>
-    <link href="https://www.langchain.com/blog/series-c"/>
-    <id>https://www.langchain.com/blog/series-c</id>
-    <updated>2026-11-19T18:24:58.000Z</updated>
-    <author><name>LangChain Blog</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>LangChain raises $300M Series C at a $3B valuation, led by CapitalG, to help every company own its intelligence with LangSmith, the agent engineering platform.</summary>
-  </entry>
-  <entry>
-    <title>Rising Bond Yields May Pose a Challenge to Nifty’s Sharp Rebound</title>
-    <link href="https://www.bloomberg.com/news/newsletters/2026-11-20/rising-bond-yields-may-pose-a-challenge-to-nifty-s-sharp-rebound"/>
-    <id>https://www.bloomberg.com/news/newsletters/2026-11-20/rising-bond-yields-may-pose-a-challenge-to-nifty-s-sharp-rebound</id>
-    <updated>2026-11-20T02:31:37.000Z</updated>
+    <title>Tech Valuation Plunge Brings Some Opportunities: Taking Stock</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-20/tech-valuation-plunge-brings-some-opportunities-taking-stock"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-20/tech-valuation-plunge-brings-some-opportunities-taking-stock</id>
+    <updated>2026-11-20T07:27:02.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The Nifty has rebounded almost 15% since early October, pushing valuations higher.</summary>
+    <summary>The sharp drop in the valuations of technology stocks, especially those linked to the artificial intelligence trade, is fueling debate over whether too much negativity has already been priced in.</summary>
   </entry>
   <entry>
-    <title>AI helps researchers investigate how thousands of medical studies share code</title>
-    <link href="https://news.mit.edu/2026/ai-helps-researchers-investigate-how-medical-studies-share-code-1119"/>
-    <id>https://news.mit.edu/2026/ai-helps-researchers-investigate-how-medical-studies-share-code-1119</id>
-    <updated>2026-11-19T22:15:00.000Z</updated>
-    <author><name>MIT News AI</name></author>
+    <title>CoMPASS: A Multi-Turn Benchmark for Measuring LLM Reinforcement of Parasocial Behavior</title>
+    <link href="https://arxiv.org/abs/2611.25109"/>
+    <id>https://arxiv.org/abs/2611.25109</id>
+    <updated>2026-11-20T05:00:00.000Z</updated>
+    <author><name>arXiv cs.AI</name></author>
     <category term="RESEARCH"/>
-    <summary>An MIT and Dana-Farber Institute-led team used large language models to examine nearly 4,000 studies and hundreds of code repositories, revealing gaps in the information needed to scrutinize and reuse published research.</summary>
+    <summary>arXiv:2611.25109v1 Announce Type: new Abstract: Users of conversational LLMs sometimes anthropomorphize these systems, form emotional attachments to them, and become dependent on them. This behavior, known as parasocial attachment, has been linked to multiple documented fatalities. However, public benchmarks for measur</summary>
   </entry>
   <entry>
-    <title>GridForge: An Open Physics-Informed Digital Twin and Benchmark Suite for UK 11 kV Underground Distribution Cables</title>
-    <link href="https://arxiv.org/abs/2611.23241"/>
-    <id>https://arxiv.org/abs/2611.23241</id>
-    <updated>2026-11-19T05:00:00.000Z</updated>
-    <author><name>arXiv cs.LG</name></author>
-    <category term="RESEARCH"/>
-    <summary>arXiv:2611.23241v1 Announce Type: new Abstract: The UK distribution-cable monitoring sector is data-rich but framework-poor: each Distribution Network Operator (DNO) collects megabytes of telemetry per asset per day, but there is no public benchmark dataset, no shared reference model, and no commonly agreed evaluation </summary>
+    <title>Geehy Launches G32R502 1kW Bidirectional Inverter Solution</title>
+    <link href="https://www.eetimes.com/geehy-launches-the-g32r502-1kw-fully-digital-bidirectional-energy-storage-inverter-solution"/>
+    <id>https://www.eetimes.com/geehy-launches-the-g32r502-1kw-fully-digital-bidirectional-energy-storage-inverter-solution</id>
+    <updated>2026-11-20T07:00:00.000Z</updated>
+    <author><name>EE Times</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Explore Geehy’s G32R502 1kW bidirectional energy storage inverter reference design, featuring digital control, high efficiency, and UPS functionality. The post Geehy Launches G32R502 1kW Bidirectional Inverter Solution appeared first on EE Times .</summary>
   </entry>
   <entry>
     <title>Anthropic's $81.3 billion IPO shatters SpaceX's record as rising rates and political headwinds shake the sector</title>
@@ -241,33 +259,6 @@
     <summary>Anthropic launches the largest IPO in history, dethroning SpaceX as the previous record holder. Early investor Dustin Moskovitz is publicly distancing himself, warning that his early funding may have been an act &quot;that ended the world.&quot; The article Anthropic's $81.3 billion IPO shatters SpaceX's record as rising rates a</summary>
   </entry>
   <entry>
-    <title>Amazon SageMaker Inference: 2026 launches in review, part 2</title>
-    <link href="https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-launches-in-review-part-2"/>
-    <id>https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-launches-in-review-part-2</id>
-    <updated>2026-11-20T00:34:07.000Z</updated>
-    <author><name>AWS ML Blog</name></author>
-    <category term="PRODUCTS"/>
-    <summary>This second installment reviews 13 more Amazon SageMaker AI inference launches from 2026, spanning configuration recommendations, fitting more models onto each GPU, serving models too large for one instance, cross-Region routing, and post-launch tuning, bringing the year's total to 26.</summary>
-  </entry>
-  <entry>
-    <title>Nscale Brings Its 1st NVIDIA Vera Rubin NVL72 Systems Online</title>
-    <link href="https://www.hpcwire.com/off-the-wire/nscale-brings-its-1st-nvidia-vera-rubin-nvl72-systems-online"/>
-    <id>https://www.hpcwire.com/off-the-wire/nscale-brings-its-1st-nvidia-vera-rubin-nvl72-systems-online</id>
-    <updated>2026-11-19T23:32:11.000Z</updated>
-    <author><name>HPC Wire</name></author>
-    <category term="HARDWARE"/>
-    <summary>LONDON, Nov. 19, 2026 — Nscale has brought online its first NVIDIA Vera Rubin NVL72 systems, using the newest rack-scale supercomputers for artificial intelligence to launch a global rollout expected in the coming months. The systems are Dell PowerEdge XE9812 servers built on the NVIDIA Vera Rubin NVL72 design, and giv</summary>
-  </entry>
-  <entry>
-    <title>NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs</title>
-    <link href="https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs"/>
-    <id>https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs</id>
-    <updated>2026-11-19T20:00:15.000Z</updated>
-    <author><name>NVIDIA Blog</name></author>
-    <category term="HARDWARE"/>
-    <summary>NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build, customize and deploy intelligent applications — from next-generation infrastructure on Azure to industrial systems and Windows PCs. At Microsoft Ignite, the companies are expanding access to Azure virtual machines powered by </summary>
-  </entry>
-  <entry>
     <title>Use Kimi Code CLI with models on Amazon Bedrock</title>
     <link href="https://aws.amazon.com/blogs/machine-learning/use-kimi-code-cli-with-models-on-amazon-bedrock"/>
     <id>https://aws.amazon.com/blogs/machine-learning/use-kimi-code-cli-with-models-on-amazon-bedrock</id>
@@ -275,5 +266,14 @@
     <author><name>AWS ML Blog</name></author>
     <category term="OPEN SOURCE"/>
     <summary>Kimi Code CLI v2.7.0 adds a native Amazon Bedrock provider, so you can connect the open source coding agent to models like Kimi K3.1 Pro using your standard AWS credential chain (named profiles or SSO) instead of a separate API key. This post shows how to configure the provider and send your first request.</summary>
+  </entry>
+  <entry>
+    <title>European Commission confirms cyberattack, says hackers used AI tool</title>
+    <link href="https://therecord.media/european-commission-confirms-cyberattack-using-ai"/>
+    <id>https://therecord.media/european-commission-confirms-cyberattack-using-ai</id>
+    <updated>2026-11-19T15:15:00.000Z</updated>
+    <author><name>The Record</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>POLITICO had reported CERT-EU had identified the attackers’ use of ARTEX, an open-source AI hacking platform that the FBI last week warned was being used both by criminals and state-sponsored groups.</summary>
   </entry>
 </feed>
