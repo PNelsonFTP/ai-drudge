@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-19T23:09:21.610Z</updated>
+  <updated>2026-11-20T00:08:37.941Z</updated>
   <entry>
     <title>Humyn Labs raises $47M to collect real-world data for robotics</title>
     <link href="https://www.therobotreport.com/humyn-labs-raises-47m-to-collect-real-world-data-for-robotics"/>
@@ -16,13 +16,13 @@
     <summary>Humyn Labs provides data collected from real-world operations for frontier AI labs, robotics companies, and world-model developers. The post Humyn Labs raises $47M to collect real-world data for robotics appeared first on The Robot Report . — Also covered by: TechCrunch Startups</summary>
   </entry>
   <entry>
-    <title>llama.cpp b12555 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12555"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12555</id>
-    <updated>2026-11-19T22:59:01.000Z</updated>
+    <title>llama.cpp b12556 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12556"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12556</id>
+    <updated>2026-11-19T23:17:27.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>opencl: support dp4a for KQ mm in decomposed FA ( #32577 ) opencl: support int8 KQ for DK = 512 Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com Assisted-by: Codex opencl: allow query chunk up to 96 for int8 KQ Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com Co — Also covered by: run-llama/llama_index</summary>
+    <summary>model : hrm : do not compute slot count as uint32_t ( #32601 ) load_arch_hparams multiplies n_hrm_layers_per_stack, n_hrm_h_cycles and (n_hrm_l_cycles + 1) into a uint32_t, then asserts the product equals block_count. Any factors whose true product is block_count + k*2^32 still pass the assert; 1073741825 * 2 * 2 = 2^3 — Also covered by: run-llama/llama_index</summary>
   </entry>
   <entry>
     <title>Anthropic Closes First Trading Day at $97 a Share, 17% Above IPO Price</title>
@@ -61,15 +61,6 @@
     <summary>November's monthly security release patches seven critical PHP flaws that should be addressed ASAP, though experts say exploitability varies and depends heavily on configuration. — Also covered by: The Hacker News</summary>
   </entry>
   <entry>
-    <title>Managing frontier AI risk: From training to deployment</title>
-    <link href="https://openai.com/index/managing-frontier-ai-risk"/>
-    <id>https://openai.com/index/managing-frontier-ai-risk</id>
-    <updated>2026-11-18T06:00:00.000Z</updated>
-    <author><name>OpenAI News</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.</summary>
-  </entry>
-  <entry>
     <title>Anthropic shares end first day of trading at $97 as Wall Street closes sharply lower – as it happened</title>
     <link href="https://www.theguardian.com/business/live/2026/nov/19/anthropic-float-stock-market-nasdaq-raises-81bn-record-ipo-latest-news-updates"/>
     <id>https://www.theguardian.com/business/live/2026/nov/19/anthropic-float-stock-market-nasdaq-raises-81bn-record-ipo-latest-news-updates</id>
@@ -77,6 +68,15 @@
     <author><name>The Guardian AI</name></author>
     <category term="MODEL RELEASES"/>
     <summary>All ⁠three major US stock indexes ⁠ended the session ​sharply lower after record-breaking IPO by maker behind AI agent Claude Anthropic closes first day of public trading at $1.3tn valuation Protesters rally in New York and San Francisco Who are Anthropic’s seven co-founders, now worth $180bn? Anthropic needs to grow i</summary>
+  </entry>
+  <entry>
+    <title>mlxrunner: adapt saved history to memory pressure (#19678)</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.17-rc2"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.17-rc2</id>
+    <updated>2026-11-19T23:41:42.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>mlxrunner: adapt saved history to memory pressure Retain Metal prefix history using observed memory headroom and execution workspace rather than a fixed 8 GiB allowance. Release unused buffers and cold history when system compression grows, preserving reusable paths and active requests. Cover pressure reclamation, snap</summary>
   </entry>
   <entry>
     <title>Anthropic IPO is About Capital, Says Kathryn Thompson</title>
@@ -175,13 +175,13 @@
     <updated>2026-11-19T22:09:18.000Z</updated>
     <author><name>The Guardian AI</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>AI startup and Claude chatbot maker became one of the world’s most valuable publicly traded businesses with final share price of $97 Anthropic closed its first day of trading on the US stock market about 17% higher than its initial public offering price. At the close of market Thursday, Anthropic shares were trading at</summary>
+    <summary>AI startup and Claude chatbot maker became one of the world’s most valuable publicly traded businesses with final share price of $97 Anthropic closed its first day of trading on the US stock market about 17% higher than its initial public offering price. At the close of market on Thursday, Anthropic shares were trading</summary>
   </entry>
   <entry>
     <title>Anthropic's blockbuster debut tests Wall Street's faith in AI boom</title>
     <link href="https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19"/>
     <id>https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19</id>
-    <updated>2026-11-19T21:10:31.000Z</updated>
+    <updated>2026-11-19T22:18:33.000Z</updated>
     <author><name>Reuters AI (Google News)</name></author>
     <category term="INDUSTRY NEWS"/>
     <summary>Anthropic's blockbuster debut tests Wall Street's faith in AI boom Reuters</summary>
@@ -194,15 +194,6 @@
     <author><name>Puget Systems</name></author>
     <category term="LOCAL MODELS"/>
     <summary>We created a custom benchmark and tested a range of GPUs to see how they perform with Photoshop's new AI-powered, on-device Remove Tool. The post Photoshop On-Device Remove Tool Performance Analysis appeared first on Puget Systems .</summary>
-  </entry>
-  <entry>
-    <title>Qwen Incidents Show Self-Hosted AI Models Need Stronger Steering</title>
-    <link href="https://www.darkreading.com/cyber-risk/qwen-incidents-self-hosted-ai-models-stronger-steering"/>
-    <id>https://www.darkreading.com/cyber-risk/qwen-incidents-self-hosted-ai-models-stronger-steering</id>
-    <updated>2026-11-19T22:40:03.000Z</updated>
-    <author><name>Dark Reading</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Companies deploying AI agents have the illusion of control, but several incidents demonstrate that businesses need to be ready to enforce directions.</summary>
   </entry>
   <entry>
     <title>LangChain Raises $300M Series C at $3B Valuation</title>
@@ -223,6 +214,15 @@
     <summary>Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say.</summary>
   </entry>
   <entry>
+    <title>Anthropic IPO Raises Only $110 Million From Australian Investors</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-19/anthropic-ipo-raises-only-110-million-from-australian-investors"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-19/anthropic-ipo-raises-only-110-million-from-australian-investors</id>
+    <updated>2026-11-19T23:35:17.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Australian investors were allocated less than 1% of total shares from Anthropic PBC’s record-breaking initial public offering.</summary>
+  </entry>
+  <entry>
     <title>GridForge: An Open Physics-Informed Digital Twin and Benchmark Suite for UK 11 kV Underground Distribution Cables</title>
     <link href="https://arxiv.org/abs/2611.23241"/>
     <id>https://arxiv.org/abs/2611.23241</id>
@@ -241,13 +241,13 @@
     <summary>In June we introduced Genie ZeroOps, an autonomous agent that detects, investigates,...</summary>
   </entry>
   <entry>
-    <title>Amazon SageMaker AI now detects latency drift, idle GPUs, and missed optimizations on your inference endpoints</title>
-    <link href="https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-detects-latency-drift-idle-gpus-and-missed-optimizations-on-your-inference-endpoints"/>
-    <id>https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-detects-latency-drift-idle-gpus-and-missed-optimizations-on-your-inference-endpoints</id>
-    <updated>2026-11-19T21:28:18.000Z</updated>
-    <author><name>AWS ML Blog</name></author>
+    <title>An MCP Config Doctor That Drops an Infostealer</title>
+    <link href="https://www.knostic.ai/blog/an-mcp-config-doctor-that-drops-an-infostealer"/>
+    <id>https://www.knostic.ai/blog/an-mcp-config-doctor-that-drops-an-infostealer</id>
+    <updated>2026-11-20T00:00:00.000Z</updated>
+    <author><name>Knostic</name></author>
     <category term="PRODUCTS"/>
-    <summary>Amazon SageMaker AI now monitors your generative AI inference endpoints by default and tells you when a change could improve performance or lower cost. It tracks latency, GPU utilization, and serving configuration, then sends a finding through AWS Health with a one-click path to benchmark alternatives in SageMaker Stud</summary>
+    <summary>A fake MCP config helper on npm launches a hidden StealC v2 infostealer on Windows. How the chain works, what it can steal, and what to check.</summary>
   </entry>
   <entry>
     <title>NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs</title>
