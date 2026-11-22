@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-21T23:36:23.823Z</updated>
+  <updated>2026-11-22T00:24:00.563Z</updated>
   <entry>
     <title>Hebbia sees improvements in financial research with GPT-6 Astra</title>
     <link href="https://openai.com/business/customer-stories/hebbia"/>
@@ -61,13 +61,13 @@
     <summary>Amazon is nearing a deal to buy Decart, an Israeli AI startup developing video models, for $7.5 billion, the Financial Times reported on Saturday. News that Amazon was considering a Decart purchase was first reported early last month by the Wall Street Journal. The three year old startup has ...</summary>
   </entry>
   <entry>
-    <title>llama.cpp b12618 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12618"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12618</id>
-    <updated>2026-11-21T23:35:33.000Z</updated>
+    <title>llama.cpp b12620 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12620"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12620</id>
+    <updated>2026-11-22T00:19:37.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>sycl: add IQ4_NL and IQ4_XS weight reorder ( #31998 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70634674 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 </summary>
+    <summary>ggml : improvements to the memory access pattern in ggml_compute_forward_mul_mat_one_chunk ( #30846 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70641771 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS X</summary>
   </entry>
   <entry>
     <title>How to build a knowledge factory for AI agents</title>
@@ -142,13 +142,13 @@
     <summary>Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]</summary>
   </entry>
   <entry>
-    <title>lobe-chat v0.0.166 released</title>
-    <link href="https://github.com/lobehub/lobehub/releases/tag/cli-release%2Fv0.0.166"/>
-    <id>https://github.com/lobehub/lobehub/releases/tag/cli-release%2Fv0.0.166</id>
-    <updated>2026-11-21T18:44:56.000Z</updated>
-    <author><name>lobehub/lobe-chat</name></author>
+    <title>b12621: sycl: bound CONV_TRANSPOSE_1D input iteration (#31109)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12621"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12621</id>
+    <updated>2026-11-21T14:20:29.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="CYBER DEFENSE"/>
-    <summary>🐛 fix(hetero): launch CLI agents and dsh with the PATH detection vali…</summary>
+    <summary>Used angelX to optimize SYCL/drama 3 coordination, results are as follows Each output reads only inputs with i s0 &lt;= idx &lt; i s0 + K, in the same ascending order as before. Arc Pro B70, oneAPI 2026.1, test-backend-ops perf, base 9b56ccf vs patch, median of 3 same-boot A/B/A rounds, A/A 1.000-1.001: input [ne0, ne1] kern</summary>
   </entry>
   <entry>
     <title>Oracle Says It Has Completed Funding to Fulfil OpenAI Deal</title>
@@ -211,7 +211,7 @@
     <updated>2026-11-21T00:25:50.000Z</updated>
     <author><name>Lemmy c/localllama</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by german to localllama 16 points | 3 comments Cyberbench is a cybersecurity-oriented benchmark. Opus 5.5 here is the CVP version with no cybersecurity restrictions - though it might still just be weak on it. nitter.click/ValsAI/status/2123874523938497007</summary>
+    <summary>submitted by german to localllama 17 points | 3 comments Cyberbench is a cybersecurity-oriented benchmark. Opus 5.5 here is the CVP version with no cybersecurity restrictions - though it might still just be weak on it. nitter.click/ValsAI/status/2123874523938497007</summary>
   </entry>
   <entry>
     <title>mlxrunner: adapt saved history to memory pressure (#19678)</title>
@@ -221,6 +221,15 @@
     <author><name>ollama/ollama</name></author>
     <category term="LOCAL MODELS"/>
     <summary>mlxrunner: adapt saved history to memory pressure Retain Metal prefix history using observed memory headroom and execution workspace rather than a fixed 8 GiB allowance. Release unused buffers and cold history when system compression grows, preserving reusable paths and active requests. Cover pressure reclamation, snap</summary>
+  </entry>
+  <entry>
+    <title>lobe-chat v0.0.166 released</title>
+    <link href="https://github.com/lobehub/lobehub/releases/tag/cli-release%2Fv0.0.166"/>
+    <id>https://github.com/lobehub/lobehub/releases/tag/cli-release%2Fv0.0.166</id>
+    <updated>2026-11-21T18:44:56.000Z</updated>
+    <author><name>lobehub/lobe-chat</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>🐛 fix(hetero): launch CLI agents and dsh with the PATH detection vali…</summary>
   </entry>
   <entry>
     <title>Here are the top AI agents that can live in your text messages</title>
@@ -266,14 +275,5 @@
     <author><name>Tom's Hardware</name></author>
     <category term="PRODUCTS"/>
     <summary>After months of inconsistent pricing, Intel's Core i7-14700K is down to its lowest price ever at $249.99, with support for LGA 1700 motherboards that come with either DDR4 or DDR5 memory support.</summary>
-  </entry>
-  <entry>
-    <title>Trump wants to ban US companies from building overseas data centers as bans slow development</title>
-    <link href="https://www.tomshardware.com/tech-industry/data-centers/trump-wants-to-ban-us-companies-from-building-overseas-data-centers-as-bans-slow-development-also-considers-putting-a-tremendous-tax-in-lieu-of-prohibition"/>
-    <id>https://www.tomshardware.com/tech-industry/data-centers/trump-wants-to-ban-us-companies-from-building-overseas-data-centers-as-bans-slow-development-also-considers-putting-a-tremendous-tax-in-lieu-of-prohibition</id>
-    <updated>2026-11-21T16:29:39.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
-    <category term="HARDWARE"/>
-    <summary>The president wants U.S. data center companies to stay within U.S. borders or pay a hefty fee if they want to build in foreign countries.</summary>
   </entry>
 </feed>
