@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-22T22:30:34.988Z</updated>
+  <updated>2026-11-22T23:08:43.984Z</updated>
   <entry>
     <title>Perplexity and Intelligence</title>
     <link href="https://openai.com/index/perplexity-and-intelligence"/>
@@ -61,22 +61,13 @@
     <summary>OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.</summary>
   </entry>
   <entry>
-    <title>b12634: chat : trigger lazy grammar on bare JSON tool calls (#32497)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12634"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12634</id>
-    <updated>2026-11-22T11:19:04.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Models like Llama 3.x emit tool calls as plain {&quot;name&quot;: ...} JSON without a start marker, so with tool_choice=auto no grammar was produced at all. Use a pattern trigger on the opening of the call object instead. Assisted-by: Claude Code</summary>
-  </entry>
-  <entry>
-    <title>Jensen Huang’s reported affair was ‘most expensive sex since Helen of Troy’, US senator says</title>
-    <link href="https://www.theguardian.com/us-news/2026/nov/22/jensen-huang-nvidia-john-kennedy"/>
-    <id>https://www.theguardian.com/us-news/2026/nov/22/jensen-huang-nvidia-john-kennedy</id>
-    <updated>2026-11-22T20:23:36.000Z</updated>
-    <author><name>The Guardian AI</name></author>
+    <title>OpenAI Calls For Leading AI Firms to Agree on AI Development Limits</title>
+    <link href="https://www.theinformation.com/briefings/openai-calls-leading-ai-firms-agree-ai-development-limits"/>
+    <id>https://www.theinformation.com/briefings/openai-calls-leading-ai-firms-agree-ai-development-limits</id>
+    <updated>2026-11-22T21:08:15.000Z</updated>
+    <author><name>The Information</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>John Kennedy looks to Trump leaders as he asks how China evidently bypassed export controls for Nvidia’s top AI chips Invoking Greek mythology, US senator John Kennedy has characterized former Nvidia chief executive officer Jensen Huang ’s reported affair with a suspected Chinese spy as “the most expensive sex since He</summary>
+    <summary>OpenAI’s chief scientist called for leading AI model developers to agree on limits that they won’t cross “until our ability to understand and monitor AI behavior achieve a certain concrete milestone.” “I’d like an industry standard that specifies a first limit on development, measured by some ...</summary>
   </entry>
   <entry>
     <title>llama.cpp b12633 released</title>
@@ -88,13 +79,22 @@
     <summary>ggml : fix nonzero clear on WebGPU and non-UMA devices ( #32727 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70776484 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) U</summary>
   </entry>
   <entry>
-    <title>Dip Buyers Hesitate to Step In as Nasdaq 100 Nears a Bear Market</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-22/dip-buyers-hesitate-to-step-in-as-nasdaq-100-nears-a-bear-market"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-22/dip-buyers-hesitate-to-step-in-as-nasdaq-100-nears-a-bear-market</id>
-    <updated>2026-11-22T20:31:44.000Z</updated>
+    <title>b12634: chat : trigger lazy grammar on bare JSON tool calls (#32497)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12634"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12634</id>
+    <updated>2026-11-22T11:19:04.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Models like Llama 3.x emit tool calls as plain {&quot;name&quot;: ...} JSON without a start marker, so with tool_choice=auto no grammar was produced at all. Use a pattern trigger on the opening of the call object instead. Assisted-by: Claude Code</summary>
+  </entry>
+  <entry>
+    <title>World's Biggest Warrants Market Is Fueled by Unusual Trading in Hong Kong</title>
+    <link href="https://www.bloomberg.com/graphics/hongkong-derivative-warrants-leverage-volume-ping-pong-trades"/>
+    <id>https://www.bloomberg.com/graphics/hongkong-derivative-warrants-leverage-volume-ping-pong-trades</id>
+    <updated>2026-11-22T23:00:17.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Since the fundamental outlook did not change dramatically during last week’s massive selloff in stocks and many valuation measures are now screaming bargain, contrarian impulses to buy the dip are running strong.</summary>
+    <summary>The $577 billion Hong Kong market has tell-tale signs of artificially inflated trading, insiders say.</summary>
   </entry>
   <entry>
     <title>NVIDIA Releases Alpamayo 2 Edge: A 2B Reasoning VLA for DRIVE Thor</title>
@@ -160,6 +160,15 @@
     <summary>ggml : add SIGMOID backward pass Sigmoid is used in Qwen3.5 hybrid models and had no backward pass. Bump RPC protocol patch version for the new op. Signed-off-by: gianni-cor gianfranco.cordella@tether.io replace assert with ggml_assert Co-authored-by: Johannes Gäßler johannesg@5d6.de ggml : keep sigmoid backward checks</summary>
   </entry>
   <entry>
+    <title>Dip Buyers Hesitate to Step In as Nasdaq 100 Nears a Bear Market</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-22/dip-buyers-hesitate-to-step-in-as-nasdaq-100-nears-a-bear-market"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-22/dip-buyers-hesitate-to-step-in-as-nasdaq-100-nears-a-bear-market</id>
+    <updated>2026-11-22T20:31:44.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>Since the fundamental outlook did not change dramatically during last week’s massive selloff in stocks and many valuation measures are now screaming bargain, contrarian impulses to buy the dip are running strong.</summary>
+  </entry>
+  <entry>
     <title>Muru</title>
     <link href="https://simonwillison.net/2026/Nov/21/muru"/>
     <id>https://simonwillison.net/2026/Nov/21/muru</id>
@@ -187,22 +196,22 @@
     <summary>QuEra Computing and NVIDIA have introduced PPVM, an open-source digital-twin simulation framework for quantum processors. PPVM unifies generalized stabilizer tableau simulation with Heisenberg-picture Pauli propagation, allowing for emulation of quantum processors, hardware noise, and classical control logic. It offers</summary>
   </entry>
   <entry>
-    <title>Two groups verify mathematician’s claim that Claude helped prove mathematics problem</title>
-    <link href="https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai"/>
-    <id>https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai</id>
-    <updated>2026-11-22T17:55:27.000Z</updated>
-    <author><name>The Guardian AI</name></author>
+    <title>After FAA, Microsoft, and bank outages, DNI Jay Clayton says Americans should prepare for &quot;bumps in the road&quot; as systems are upgraded to adapt to the AI age (Garrett Downs/CNBC)</title>
+    <link href="https://www.techmeme.com/261122/p11"/>
+    <id>https://www.techmeme.com/261122/p11</id>
+    <updated>2026-11-22T20:35:00.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Anthropic’s Levent Alpöge says it took six weeks for him using the AI tool to solve 19th-century Riemann hypothesis A mathematician at Anthropic has said that the San Francisco -based artificial intelligence (AI) company’s software has helped crack one of the most important unsolved problems in mathematics – and expert</summary>
+    <summary>Garrett Downs / CNBC : After FAA, Microsoft, and bank outages, DNI Jay Clayton says Americans should prepare for “bumps in the road” as systems are upgraded to adapt to the AI age — Director of National Intelligence Jay Clayton warned Americans to prepare for “bumps in the road” …</summary>
   </entry>
   <entry>
-    <title>OpenAI Calls For Leading AI Firms to Agree on AI Development Limits</title>
-    <link href="https://www.theinformation.com/briefings/openai-calls-leading-ai-firms-agree-ai-development-limits"/>
-    <id>https://www.theinformation.com/briefings/openai-calls-leading-ai-firms-agree-ai-development-limits</id>
-    <updated>2026-11-22T21:08:15.000Z</updated>
-    <author><name>The Information</name></author>
+    <title>OpenAI shares its models' perplexity, or how well they predict data, and urges pacing limits based on such metrics, citing a possible 2027 avalanche of AI gains (Jakub Pachocki/OpenAI)</title>
+    <link href="https://www.techmeme.com/261122/p9"/>
+    <id>https://www.techmeme.com/261122/p9</id>
+    <updated>2026-11-22T18:25:01.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>OpenAI’s chief scientist called for leading AI model developers to agree on limits that they won’t cross “until our ability to understand and monitor AI behavior achieve a certain concrete milestone.” “I’d like an industry standard that specifies a first limit on development, measured by some ...</summary>
+    <summary>Jakub Pachocki / OpenAI : OpenAI shares its models' perplexity, or how well they predict data, and urges pacing limits based on such metrics, citing a possible 2027 avalanche of AI gains — - Difficulty of comparison across labs. … - Detachment from actionable evaluations. … - Not accounting for advances outside of pret</summary>
   </entry>
   <entry>
     <title>AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU</title>
@@ -214,31 +223,21 @@
     <summary>AWS Lambda now runs Event Functions on EC2 G-series GPU instances through Lambda Managed Instances, with up to 48 concurrent invocations sharing one model per GPU, vLLM and SGLang base images that need no handler code, and 90-minute asynchronous timeouts. Billing is the instance price plus a 9.75 percent fee; first han</summary>
   </entry>
   <entry>
-    <title>AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace</title>
-    <link href="https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace"/>
-    <id>https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace</id>
-    <updated>2026-11-22T15:15:48.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>QCon San Francisco 2026: The Harness Is the New Operating System</title>
+    <link href="https://www.infoq.com/news/2026/11/harness-new-operating-system"/>
+    <id>https://www.infoq.com/news/2026/11/harness-new-operating-system</id>
+    <updated>2026-11-22T22:44:00.000Z</updated>
+    <author><name>InfoQ AI/ML</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>A new real-world test puts AI coding agents in a simulated developer job with colleagues, project boards, and incomplete handoffs, where they have to keep developing software on their own and reliably close open tickets in a messy daily workflow. Even Opus 5.5 and Astra fall far short, solving fewer than one in ten tas</summary>
+    <summary>At QCon San Francisco 2026, Mad Labs founder and CEO Manju Rajashekhar opened the conference arguing that the harness around an AI model, rather than the model itself, decides what an agent can do and how safely it does it. The keynote mapped the parts of a harness, including context, tools, state, permissions and feed</summary>
   </entry>
   <entry>
-    <title>Asia Braces for More Volatility After US Selloff: Markets Wrap</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-22/asia-braces-for-more-volatility-after-us-selloff-markets-wrap"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-22/asia-braces-for-more-volatility-after-us-selloff-markets-wrap</id>
-    <updated>2026-11-22T22:02:27.000Z</updated>
+    <title>Live: Asia-Pacific Stocks, Currencies React After Nasdaq, S&amp;P 500 Selloff</title>
+    <link href="https://www.bloomberg.com/news/live-blog/2026-11-22/asia-market-open"/>
+    <id>https://www.bloomberg.com/news/live-blog/2026-11-22/asia-market-open</id>
+    <updated>2026-11-22T22:56:32.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Traders in Asia were bracing for another bout of volatility after a sharp Wall Street selloff rattled risk appetite, even as regional authorities stepped up efforts to shore up markets.</summary>
-  </entry>
-  <entry>
-    <title>Aussie Seen Rebounding Against Kiwi From Worst Month Since 2022</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-22/aussie-seen-rebounding-against-kiwi-from-worst-month-since-2022"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-22/aussie-seen-rebounding-against-kiwi-from-worst-month-since-2022</id>
-    <updated>2026-11-22T21:16:37.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Australia’s dollar is poised to rebound against its New Zealand counterpart after sliding toward its steepest monthly drop in four years as sticky inflation challenges bets on domestic interest-rate cuts, analysts say.</summary>
   </entry>
   <entry>
     <title>Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries</title>
