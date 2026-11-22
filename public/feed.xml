@@ -5,15 +5,24 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-22T12:00:54.855Z</updated>
+  <updated>2026-11-22T12:20:25.794Z</updated>
   <entry>
-    <title>Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries</title>
-    <link href="https://www.marktechpost.com/2026/11/22/google-gemini-api-tool-retrieval"/>
-    <id>https://www.marktechpost.com/2026/11/22/google-gemini-api-tool-retrieval</id>
-    <updated>2026-11-22T10:03:54.000Z</updated>
-    <author><name>MarkTechPost</name></author>
+    <title>qwen-code v0.28.4 released</title>
+    <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.28.4"/>
+    <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.28.4</id>
+    <updated>2026-11-22T12:04:21.000Z</updated>
+    <author><name>QwenLM/qwen-code</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Google launched Gemini API Tool Retrieval in preview. Agents keep a large tool library on standby and load each parameter schema only when needed, inside one Interactions API request. The post Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries appeared first on MarkTechPost .</summary>
+    <summary>What's Changed fix(ci): use live review bot for manual re-review by @yiliang114 in #17848 ci(managed-agent): stabilize required gate name by @yiliang114 in #17865 refactor(managed-agent-server): retire the receipt-catalog SpotBugs exclusion with an analyzer-visible assertion by @wenshao in #17919 fix(managed-agent): ha — Also covered by: anthropics/claude-code, QwenLM/qwen-code</summary>
+  </entry>
+  <entry>
+    <title>Hebbia sees improvements in financial research with GPT-6 Astra</title>
+    <link href="https://openai.com/business/customer-stories/hebbia"/>
+    <id>https://openai.com/business/customer-stories/hebbia</id>
+    <updated>2026-11-20T00:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.</summary>
   </entry>
   <entry>
     <title>Combatting adversarial distillation</title>
@@ -25,15 +34,6 @@
     <summary>OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.</summary>
   </entry>
   <entry>
-    <title>qwen-code v0.28.3 released</title>
-    <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.28.3"/>
-    <id>https://github.com/QwenLM/qwen-code/releases/tag/v0.28.3</id>
-    <updated>2026-11-21T02:17:53.000Z</updated>
-    <author><name>QwenLM/qwen-code</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features feat(web-shell): explain background tasks from the composer chips ( #17398 ) by @wenshao Adds the backend-neutral unified chat surface contract and capability guards for Web Shell, with no user-visib — Also covered by: anthropics/claude-code, QwenLM/qwen-code</summary>
-  </entry>
-  <entry>
     <title>Can AI help scientists identify promising drug candidates?</title>
     <link href="https://openai.com/index/introducing-medchembench"/>
     <id>https://openai.com/index/introducing-medchembench</id>
@@ -43,13 +43,22 @@
     <summary>MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.</summary>
   </entry>
   <entry>
-    <title>Why I won’t leave mathematics, despite AI solving centuries-old problems | Ken Ono</title>
-    <link href="https://www.theguardian.com/commentisfree/2026/nov/22/why-i-wont-leave-mathematics-despite-ai-solving-centuries-old-problems"/>
-    <id>https://www.theguardian.com/commentisfree/2026/nov/22/why-i-wont-leave-mathematics-despite-ai-solving-centuries-old-problems</id>
-    <updated>2026-11-22T11:00:26.000Z</updated>
+    <title>Security researchers show how cheap AI inference providers steal keys and snoop on users</title>
+    <link href="https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users"/>
+    <id>https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users</id>
+    <updated>2026-11-22T12:07:56.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Security researchers at Dragos used two million fake AI requests to uncover serious vulnerabilities in the AI supply chain, finding at least three compromised providers, hundreds of stolen AWS keys, and marketplace resellers who were simply reading customer requests. OpenRouter responded by removing three providers and</summary>
+  </entry>
+  <entry>
+    <title>South Korea education minister resigns after AI cheating scandal engulfs university exams</title>
+    <link href="https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams"/>
+    <id>https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams</id>
+    <updated>2026-11-22T12:12:08.000Z</updated>
     <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>I believe human judgment remains essential Last year, I nearly quit mathematics. On 20 November, Levent Alpöge announced that, working with Claude, he had proved the Riemann hypothesis, a 167-year-old problem about the distribution of prime numbers. The Lean and Mathlib communities have since certified the formal proof</summary>
+    <summary>Choi Kyo-jin says he ‘failed to prepare adequately’ for entrance exams, which this year had phones banned and checks for cameras hidden in clothing South Korea’s education minister has resigned after an AI-assisted cheating scandal that erupted in the lead-up to key university entrance exams last week. The country has </summary>
   </entry>
   <entry>
     <title>llama.cpp b12631 released</title>
@@ -59,6 +68,15 @@
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
     <summary>webgpu : update GDN supports_op check ( #32782 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70718174 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU)</summary>
+  </entry>
+  <entry>
+    <title>Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries</title>
+    <link href="https://www.marktechpost.com/2026/11/22/google-gemini-api-tool-retrieval"/>
+    <id>https://www.marktechpost.com/2026/11/22/google-gemini-api-tool-retrieval</id>
+    <updated>2026-11-22T10:03:54.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Google launched Gemini API Tool Retrieval in preview. Agents keep a large tool library on standby and load each parameter schema only when needed, inside one Interactions API request. The post Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries appeared first on MarkTechPost .</summary>
   </entry>
   <entry>
     <title>S. Korea Rolls Out Phased Measures to Stabilize Volatile Markets</title>
@@ -94,7 +112,7 @@
     <updated>2026-11-22T11:54:41.000Z</updated>
     <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>We're doing the second round of Writehaven in London, where you have write 400 words every hour (or you're out). You can come any time during the day, but you have to write at least 400 words for every hour you're here. Unless you opt-out, your process of writing the posts will be streamed to the world. Feel free to th</summary>
+    <summary>We're doing the second round of Writehaven in London, where you have to write 400 words every hour (or you're out). You can come any time during the day, but you have to write at least 400 words for every hour you're here. Unless you opt out, your process of writing the posts will be streamed to the world. Feel free to</summary>
   </entry>
   <entry>
     <title>Claude Code Has Been Leaking Secrets Through Its &quot;Don't Ask Again&quot; Feature</title>
@@ -160,40 +178,40 @@
     <summary>Fixes #32789</summary>
   </entry>
   <entry>
-    <title>Best Personal AI Agents in 2026: OpenClaw, Hermes Agent, Gemini Spark and More, Compared on Memory, Security and Cost</title>
-    <link href="https://www.marktechpost.com/2026/11/22/best-personal-ai-agents-2026"/>
-    <id>https://www.marktechpost.com/2026/11/22/best-personal-ai-agents-2026</id>
-    <updated>2026-11-22T10:36:17.000Z</updated>
-    <author><name>MarkTechPost</name></author>
+    <title>GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude</title>
+    <link href="https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude"/>
+    <id>https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude</id>
+    <updated>2026-11-22T09:41:37.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Hermes Agent, OpenClaw, Gemini Spark, OpenAI dots, Meta Muse and Perplexity Personal Computer ranked on memory, security defaults and real cost. The post Best Personal AI Agents in 2026: OpenClaw, Hermes Agent, Gemini Spark and More, Compared on Memory, Security and Cost appeared first on MarkTechPost .</summary>
+    <summary>OpenAI's GPT-6.2 Astra and Sol give much shorter, more direct answers than their predecessors, but they are also less willing to admit uncertainty. Anthropic's Claude models score well ahead on transparency. The article GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude appeared f</summary>
   </entry>
   <entry>
-    <title>Two groups verify mathematician’s claim that Claude helped prove mathematics problem</title>
-    <link href="https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai"/>
-    <id>https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai</id>
-    <updated>2026-11-21T20:15:57.000Z</updated>
-    <author><name>The Guardian AI</name></author>
+    <title>Lean and Mathlib community officially confirms Levent Alpöge's proof of the Riemann hypothesis is correct</title>
+    <link href="https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct"/>
+    <id>https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct</id>
+    <updated>2026-11-22T11:08:31.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Anthropic’s Levent Alpöge says it took six weeks for him using the AI tool to solve 19th-century Riemann hypothesis A mathematician at Anthropic has said that the San Francisco -based artificial intelligence (AI) company’s software has helped crack one of the most important unsolved problems in mathematics – and expert</summary>
+    <summary>The Lean and Mathlib community has officially confirmed Levent Alpöge's proof of the Riemann hypothesis as correct. Dozens of independent verifiers checked the 17 million lines of computer code. The solution arrived years earlier than expected: Terence Tao had predicted it wouldn't happen until around 2050 and didn't e</summary>
   </entry>
   <entry>
-    <title>South Korea education minister resigns after AI cheating scandal engulfs university exams</title>
-    <link href="https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams"/>
-    <id>https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams</id>
-    <updated>2026-11-22T05:04:39.000Z</updated>
+    <title>As the real world falls apart, Grand Theft Auto looks more and more appealing | Dave Schilling</title>
+    <link href="https://www.theguardian.com/commentisfree/2026/nov/22/grand-theft-auto-vi-gaming"/>
+    <id>https://www.theguardian.com/commentisfree/2026/nov/22/grand-theft-auto-vi-gaming</id>
+    <updated>2026-11-22T12:00:29.000Z</updated>
     <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Choi Kyo-jin said he ‘failed to prepare adequately’ for entrance exams, which this year had phones banned and checks for cameras hidden in clothing South Korea’s education minister resigned on Sunday after an AI-assisted cheating scandal that erupted in the lead-up to the country’s key university entrance exams. The co</summary>
+    <summary>All these tech outages are a reminder we’re at the mercy of powers beyond our comprehension. At least in GTA we have control This week marked the release of the highly anticipated video game Grand Theft Auto VI. Millions around the world checked out of their usual responsibilities in order to immerse themselves in a ga</summary>
   </entry>
   <entry>
-    <title>It will soon be too late to regulate use of autonomous weapons, warns Red Cross</title>
-    <link href="https://www.theguardian.com/science/2026/nov/22/red-cross-warns-too-late-regulate-autonomous-weapons-united-nations"/>
-    <id>https://www.theguardian.com/science/2026/nov/22/red-cross-warns-too-late-regulate-autonomous-weapons-united-nations</id>
-    <updated>2026-11-22T09:00:22.000Z</updated>
+    <title>Why I won’t leave mathematics, despite AI solving centuries-old problems | Ken Ono</title>
+    <link href="https://www.theguardian.com/commentisfree/2026/nov/22/why-i-wont-leave-mathematics-despite-ai-solving-centuries-old-problems"/>
+    <id>https://www.theguardian.com/commentisfree/2026/nov/22/why-i-wont-leave-mathematics-despite-ai-solving-centuries-old-problems</id>
+    <updated>2026-11-22T11:00:26.000Z</updated>
     <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Warning about putting ‘genie back in the bottle’ comes as UN conference fails to agree on regulation instrument The International Committee of the Red Cross and rights groups have warned that it will soon be too late to put the “genie back in the bottle” as the development of autonomous weapons appears to outpace effor</summary>
+    <summary>I believe human judgment remains essential Last year, I nearly quit mathematics. On 20 November, Levent Alpöge announced that, working with Claude, he had proved the Riemann hypothesis, a 167-year-old problem about the distribution of prime numbers. The Lean and Mathlib communities have since certified the formal proof</summary>
   </entry>
   <entry>
     <title>AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU</title>
@@ -241,6 +259,15 @@
     <summary>Release v5.24.0 New Model additions Inkling 2 Mini Inkling 2 Mini is a multimodal model from Thinking Machines Lab that accepts text and image inputs and generates text outputs. It is a smaller sibling of Inkling 2 Small, added in v5.23.0. It has 24 decoder layers instead of 48, and compensates with a looping mechanism</summary>
   </entry>
   <entry>
+    <title>Best Personal AI Agents in 2026: OpenClaw, Hermes Agent, Gemini Spark and More, Compared on Memory, Security and Cost</title>
+    <link href="https://www.marktechpost.com/2026/11/22/best-personal-ai-agents-2026"/>
+    <id>https://www.marktechpost.com/2026/11/22/best-personal-ai-agents-2026</id>
+    <updated>2026-11-22T10:36:17.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="RESEARCH"/>
+    <summary>Hermes Agent, OpenClaw, Gemini Spark, OpenAI dots, Meta Muse and Perplexity Personal Computer ranked on memory, security defaults and real cost. The post Best Personal AI Agents in 2026: OpenClaw, Hermes Agent, Gemini Spark and More, Compared on Memory, Security and Cost appeared first on MarkTechPost .</summary>
+  </entry>
+  <entry>
     <title>Meta ads is now available in AWS Quick</title>
     <link href="https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick"/>
     <id>https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick</id>
@@ -248,32 +275,5 @@
     <author><name>AWS ML Blog</name></author>
     <category term="PRODUCTS"/>
     <summary>AWS Quick now has a Meta ads AI connector. Meta advertisers can use natural language in Quick to create, manage, and analyze campaigns while staying connected to the Meta ad management network, and combine Meta ad data with first- and third-party sources to build dashboards, documents, slide decks, and automated workfl</summary>
-  </entry>
-  <entry>
-    <title>Chess.com’s next move is a new hub for classic games, from mahjong to sudoku</title>
-    <link href="https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai"/>
-    <id>https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai</id>
-    <updated>2026-11-21T14:00:00.000Z</updated>
-    <author><name>The Verge AI</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word. They're all part of Chess's new Classic </summary>
-  </entry>
-  <entry>
-    <title>Energy companies deploy drones that can be recharged by straddling power lines</title>
-    <link href="https://www.tomshardware.com/tech-industry/drones/energy-companies-deploy-drones-that-can-be-recharged-by-straddling-power-lines-nomad-quadcopter-drones-can-monitor-the-grid-without-ever-returning-home"/>
-    <id>https://www.tomshardware.com/tech-industry/drones/energy-companies-deploy-drones-that-can-be-recharged-by-straddling-power-lines-nomad-quadcopter-drones-can-monitor-the-grid-without-ever-returning-home</id>
-    <updated>2026-11-22T11:30:00.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
-    <category term="HARDWARE"/>
-    <summary>NOMADs are drones that can land on live high-voltage lines, charge from the line itself and relocate ready for their next task.</summary>
-  </entry>
-  <entry>
-    <title>Advancing Science Together: Highlights From the Open Source AI For Science Summit</title>
-    <link href="https://about.fb.com/news/2026/11/advancing-science-together-highlights-from-the-open-source-ai-for-science-summit"/>
-    <id>https://about.fb.com/news/2026/11/advancing-science-together-highlights-from-the-open-source-ai-for-science-summit</id>
-    <updated>2026-11-20T18:30:45.000Z</updated>
-    <author><name>Meta AI Blog</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>We brought researchers from universities, hospitals, and industry together for the Open Source AI for Science Summit, an event built around using open source AI to accelerate scientific discovery. The post Advancing Science Together: Highlights From the Open Source AI For Science Summit appeared first on Meta Newsroom </summary>
   </entry>
 </feed>
