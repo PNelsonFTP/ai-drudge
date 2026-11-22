@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-22T14:08:37.056Z</updated>
+  <updated>2026-11-22T15:08:41.033Z</updated>
   <entry>
     <title>qwen-code v0.28.4 released</title>
     <link href="https://github.com/QwenLM/qwen-code/releases/tag/v0.28.4"/>
@@ -43,13 +43,13 @@
     <summary>MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.</summary>
   </entry>
   <entry>
-    <title>AI is getting better faster than experts can reliably test whether new systems are safe, METR warns</title>
-    <link href="https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns"/>
-    <id>https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns</id>
-    <updated>2026-11-22T13:00:43.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>b12634: chat : trigger lazy grammar on bare JSON tool calls (#32497)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12634"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12634</id>
+    <updated>2026-11-22T11:19:04.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>METR reports that leading AI models like Opus 5.5 and GPT-6 Astra are improving rapidly at research tasks but getting harder to measure. Current data can't rule out a dangerous acceleration in AI development, the organization warns, though it also says common tests may overestimate what the models can actually do. The </summary>
+    <summary>Models like Llama 3.x emit tool calls as plain {&quot;name&quot;: ...} JSON without a start marker, so with tool_choice=auto no grammar was produced at all. Use a pattern trigger on the opening of the call object instead. Assisted-by: Claude Code</summary>
   </entry>
   <entry>
     <title>Will fragile bipartisanship on AI survive the silly season, or is parliament heading for a holiday meltdown? | Josh Butler</title>
@@ -61,49 +61,40 @@
     <summary>A joint select committee report on Monday should signal where Labor is headed on issues including datacentres and copyright – and whether they’ll go it alone Get our daily political email , free app or daily news podcast The final four days of parliament for 2026 begin on Monday, and the government has a clutch of key </summary>
   </entry>
   <entry>
-    <title>llama.cpp b12631 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12631"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12631</id>
-    <updated>2026-11-22T09:06:37.000Z</updated>
+    <title>llama.cpp b12633 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12633"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12633</id>
+    <updated>2026-11-22T14:57:05.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>webgpu : update GDN supports_op check ( #32782 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70718174 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU)</summary>
+    <summary>ggml : fix nonzero clear on WebGPU and non-UMA devices ( #32727 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70776484 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) U</summary>
   </entry>
   <entry>
-    <title>PostgreSQL 19 Released with Online Table Repacking and Query Planning Controls</title>
-    <link href="https://www.infoq.com/news/2026/11/postgresql-19-released"/>
-    <id>https://www.infoq.com/news/2026/11/postgresql-19-released</id>
-    <updated>2026-11-22T12:54:00.000Z</updated>
-    <author><name>InfoQ AI/ML</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>The PostgreSQL Global Development Group released PostgreSQL 19, introducing changes to database maintenance, query planning, replication, and application development. The release focuses on reducing administrative overhead and improving performance, with new tools for reorganizing tables without downtime and controllin</summary>
-  </entry>
-  <entry>
-    <title>Will Anthropic’s IPO buck the tech sell-off?</title>
-    <link href="https://www.ft.com/content/1dc8290b-8100-434d-963c-79002c15f244?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/1dc8290b-8100-434d-963c-79002c15f244?syn-25a6b1a6=1</id>
-    <updated>2026-11-22T12:00:06.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Market Questions is the FT’s guide to the week ahead</summary>
-  </entry>
-  <entry>
-    <title>Taiwan Mulls Lowering Margin Requirement to Support Stock Market</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-22/taiwan-mulls-lowering-margin-requirement-to-support-stock-market"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-22/taiwan-mulls-lowering-margin-requirement-to-support-stock-market</id>
-    <updated>2026-11-22T12:35:15.000Z</updated>
+    <title>IQVIA Closes In on $1.1 Billion Takeover of UK Drug Services Group Quotient</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-22/iqvia-closes-in-on-1-1-billion-takeover-of-uk-drug-services-group-quotient"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-22/iqvia-closes-in-on-1-1-billion-takeover-of-uk-drug-services-group-quotient</id>
+    <updated>2026-11-22T14:33:23.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
-    <category term="RESEARCH"/>
-    <summary>Taiwan is considering lowering the margin requirement ratio for stock investors using borrowed funds as it tries to stem a selloff after the benchmark equity index’s worst week in 35 years.</summary>
+    <category term="AI FINANCE"/>
+    <summary>IQVIA Holdings Inc. is closing in on a roughly $1.1 billion takeover of Quotient Sciences, as the US clinical research group looks to expand its role in bringing new medicines to market.</summary>
   </entry>
   <entry>
-    <title>Data Processing Incidents on Inference Providers</title>
-    <link href="https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers"/>
-    <id>https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers</id>
-    <updated>2026-11-22T00:00:00.000Z</updated>
-    <author><name>OpenRouter Blog</name></author>
+    <title>Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries</title>
+    <link href="https://www.marktechpost.com/2026/11/22/google-gemini-api-tool-retrieval"/>
+    <id>https://www.marktechpost.com/2026/11/22/google-gemini-api-tool-retrieval</id>
+    <updated>2026-11-22T10:03:54.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="RESEARCH"/>
+    <summary>Google launched Gemini API Tool Retrieval in preview. Agents keep a large tool library on standby and load each parameter schema only when needed, inside one Interactions API request. The post Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries appeared first on MarkTechPost .</summary>
+  </entry>
+  <entry>
+    <title>Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog</title>
+    <link href="https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog"/>
+    <id>https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog</id>
+    <updated>2026-11-22T14:20:28.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="PRODUCTS"/>
-    <summary>Security researchers found that some inference providers did not uphold their data policies. These findings did not show any breach of OpenRouter. Here is what we have done and what comes next.</summary>
+    <summary>Perplexity is launching a Monitor API that searches the web on a schedule and alerts agents via webhook only when relevant changes occur. Its own decision model filters out unimportant results. For Perplexity, the API is part of a broader strategy to stand out from an increasingly interchangeable chatbot business throu</summary>
   </entry>
   <entry>
     <title>Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access</title>
@@ -133,6 +124,15 @@
     <summary>Stop Prompt Injection in RAG: 12 Steps, 90 Min shattered.io — Also covered by: GN: Prompt Injection</summary>
   </entry>
   <entry>
+    <title>Data Processing Incidents on Inference Providers</title>
+    <link href="https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers"/>
+    <id>https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers</id>
+    <updated>2026-11-22T00:00:00.000Z</updated>
+    <author><name>OpenRouter Blog</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>Security researchers found that some inference providers did not uphold their data policies. These findings did not show any breach of OpenRouter. Here is what we have done and what comes next.</summary>
+  </entry>
+  <entry>
     <title>Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps</title>
     <link href="https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html"/>
     <id>https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html</id>
@@ -140,6 +140,15 @@
     <author><name>The Hacker News</name></author>
     <category term="CYBER DEFENSE"/>
     <summary>A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling i</summary>
+  </entry>
+  <entry>
+    <title>Will Anthropic’s IPO buck the tech sell-off?</title>
+    <link href="https://www.ft.com/content/1dc8290b-8100-434d-963c-79002c15f244?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/1dc8290b-8100-434d-963c-79002c15f244?syn-25a6b1a6=1</id>
+    <updated>2026-11-22T12:00:06.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>Market Questions is the FT’s guide to the week ahead</summary>
   </entry>
   <entry>
     <title>Muru</title>
@@ -169,31 +178,13 @@
     <summary>IonQ announced a deal with Mastercard today. Analysts said IonQ’s roadmap is ambitious. Mastercard also commented. D-Wave Quantum and D-Wave were mentioned. The city of Chattanooga hosted it. Over a long time horizon, Horizon Europe funds research. Horizon Quantum Computing is different from Horizon raising money. IBM </summary>
   </entry>
   <entry>
-    <title>b12632: HIP: fix double halving of NVFP4 scales on CDNA3 (#32790)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12632"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12632</id>
-    <updated>2026-11-22T11:06:12.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="GITHUB REPOS"/>
-    <summary>Fixes #32789</summary>
-  </entry>
-  <entry>
-    <title>Security researchers show how cheap AI inference providers steal keys and snoop on users</title>
-    <link href="https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users"/>
-    <id>https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users</id>
-    <updated>2026-11-22T12:07:56.000Z</updated>
+    <title>AI is getting better faster than experts can reliably test whether new systems are safe, METR warns</title>
+    <link href="https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns"/>
+    <id>https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns</id>
+    <updated>2026-11-22T13:00:43.000Z</updated>
     <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Security researchers at Dragos used two million fake AI requests to uncover serious vulnerabilities in the AI supply chain, finding at least three compromised providers, hundreds of stolen AWS keys, and marketplace resellers who were simply reading customer requests. OpenRouter responded by removing three providers and</summary>
-  </entry>
-  <entry>
-    <title>GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude</title>
-    <link href="https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude"/>
-    <id>https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude</id>
-    <updated>2026-11-22T09:41:37.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>OpenAI's GPT-6.2 Astra and Sol give much shorter, more direct answers than their predecessors, but they are also less willing to admit uncertainty. Anthropic's Claude models score well ahead on transparency. The article GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude appeared f</summary>
+    <summary>METR reports that leading AI models like Opus 5.5 and GPT-6 Astra are improving rapidly at research tasks but getting harder to measure. Current data can't rule out a dangerous acceleration in AI development, the organization warns, though it also says common tests may overestimate what the models can actually do. The </summary>
   </entry>
   <entry>
     <title>As the real world falls apart, Grand Theft Auto looks more and more appealing | Dave Schilling</title>
@@ -214,15 +205,6 @@
     <summary>Choi Kyo-jin says he ‘failed to prepare adequately’ for entrance exams following last-minute scramble to tighten measures South Korea’s education minister has resigned after an AI-assisted cheating scandal that erupted in the lead-up to key university entrance exams last week. The country has been gripped by fears of A</summary>
   </entry>
   <entry>
-    <title>Moore Threads' next 'Lushan' gaming GPU could pack a record 64GB of VRAM</title>
-    <link href="https://www.tomshardware.com/pc-components/gpus/moore-threads-next-lushan-gaming-gpu-could-pack-a-record-64gb-of-vram-doubles-the-rtx-5090s-32gb-lofty-claims-of-15x-gaming-and-50x-ray-tracing-over-mtt-s80"/>
-    <id>https://www.tomshardware.com/pc-components/gpus/moore-threads-next-lushan-gaming-gpu-could-pack-a-record-64gb-of-vram-doubles-the-rtx-5090s-32gb-lofty-claims-of-15x-gaming-and-50x-ray-tracing-over-mtt-s80</id>
-    <updated>2026-11-22T12:30:00.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>Moore Threads teased its Lushan gaming GPU ahead of MDC 2026, with a product manager claiming record VRAM for a consumer graphics card.</summary>
-  </entry>
-  <entry>
     <title>AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU</title>
     <link href="https://www.infoq.com/news/2026/11/aws-lambda-gpu-managed-instances"/>
     <id>https://www.infoq.com/news/2026/11/aws-lambda-gpu-managed-instances</id>
@@ -232,31 +214,31 @@
     <summary>AWS Lambda now runs Event Functions on EC2 G-series GPU instances through Lambda Managed Instances, with up to 48 concurrent invocations sharing one model per GPU, vLLM and SGLang base images that need no handler code, and 90-minute asynchronous timeouts. Billing is the instance price plus a 9.75 percent fee; first han</summary>
   </entry>
   <entry>
-    <title>Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries</title>
-    <link href="https://www.marktechpost.com/2026/11/22/google-gemini-api-tool-retrieval"/>
-    <id>https://www.marktechpost.com/2026/11/22/google-gemini-api-tool-retrieval</id>
-    <updated>2026-11-22T10:03:54.000Z</updated>
-    <author><name>MarkTechPost</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Google launched Gemini API Tool Retrieval in preview. Agents keep a large tool library on standby and load each parameter schema only when needed, inside one Interactions API request. The post Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries appeared first on MarkTechPost .</summary>
+    <title>mlxrunner: adapt saved history to memory pressure (#19678)</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.17-rc2"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.17-rc2</id>
+    <updated>2026-11-19T23:41:42.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>mlxrunner: adapt saved history to memory pressure Retain Metal prefix history using observed memory headroom and execution workspace rather than a fixed 8 GiB allowance. Release unused buffers and cold history when system compression grows, preserving reusable paths and active requests. Cover pressure reclamation, snap</summary>
   </entry>
   <entry>
-    <title>Qwen Code Desktop v0.28.4</title>
-    <link href="https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.28.4"/>
-    <id>https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.28.4</id>
-    <updated>2026-11-22T12:52:42.000Z</updated>
-    <author><name>QwenLM/qwen-code</name></author>
+    <title>PostgreSQL 19 Released with Online Table Repacking and Query Planning Controls</title>
+    <link href="https://www.infoq.com/news/2026/11/postgresql-19-released"/>
+    <id>https://www.infoq.com/news/2026/11/postgresql-19-released</id>
+    <updated>2026-11-22T12:54:00.000Z</updated>
+    <author><name>InfoQ AI/ML</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>What's Changed test(managed-agent): observe a real scheduled /loop fire in the full-stack E2E by @wenshao in #17506 fix(verify-pr): harden the watch-state shape guard, container nonce, and VM prose by @wenshao in #17440 fix(external-context): deflake cumulative-deadline deletion timing by @qwen-code-dev-bot in #17342 d</summary>
+    <summary>The PostgreSQL Global Development Group released PostgreSQL 19, introducing changes to database maintenance, query planning, replication, and application development. The release focuses on reducing administrative overhead and improving performance, with new tools for reorganizing tables without downtime and controllin</summary>
   </entry>
   <entry>
-    <title>Trump’s Asia Trip Leaves Key Issues Unresolved</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-11-22/trump-s-asia-trip-leaves-key-issues-unresolved-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-11-22/trump-s-asia-trip-leaves-key-issues-unresolved-video</id>
-    <updated>2026-11-22T12:39:41.000Z</updated>
+    <title>Storm Devastates Rural Brazilian Town in Threat to Crops, Lives</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-22/storm-devastates-rural-brazilian-town-in-threat-to-crops-lives"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-22/storm-devastates-rural-brazilian-town-in-threat-to-crops-lives</id>
+    <updated>2026-11-22T14:41:40.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>ABC News State Department reporter Shannon Kingston tells Bloomberg This Weekend that Russia’s increasingly provocative actions near NATO countries are complicating President Donald Trump’s push for a negotiated end to the war in Ukraine, while Moscow remains publicly defiant. Speaking with hosts David Gura and Christi</summary>
+    <summary>A heavy storm that hit Brazil’s southern state of Rio Grande do Sul on Friday devastated a small town and raised concerns that continued rains and strong winds may bring further damage to crucial agriculture areas.</summary>
   </entry>
   <entry>
     <title>transformers v5.24.0 released</title>
@@ -268,6 +250,15 @@
     <summary>Release v5.24.0 New Model additions Inkling 2 Mini Inkling 2 Mini is a multimodal model from Thinking Machines Lab that accepts text and image inputs and generates text outputs. It is a smaller sibling of Inkling 2 Small, added in v5.23.0. It has 24 decoder layers instead of 48, and compensates with a looping mechanism</summary>
   </entry>
   <entry>
+    <title>Best Personal AI Agents in 2026: OpenClaw, Hermes Agent, Gemini Spark and More, Compared on Memory, Security and Cost</title>
+    <link href="https://www.marktechpost.com/2026/11/22/best-personal-ai-agents-2026"/>
+    <id>https://www.marktechpost.com/2026/11/22/best-personal-ai-agents-2026</id>
+    <updated>2026-11-22T10:36:17.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="RESEARCH"/>
+    <summary>Hermes Agent, OpenClaw, Gemini Spark, OpenAI dots, Meta Muse and Perplexity Personal Computer ranked on memory, security defaults and real cost. The post Best Personal AI Agents in 2026: OpenClaw, Hermes Agent, Gemini Spark and More, Compared on Memory, Security and Cost appeared first on MarkTechPost .</summary>
+  </entry>
+  <entry>
     <title>Meta ads is now available in AWS Quick</title>
     <link href="https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick"/>
     <id>https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick</id>
@@ -275,5 +266,14 @@
     <author><name>AWS ML Blog</name></author>
     <category term="PRODUCTS"/>
     <summary>AWS Quick now has a Meta ads AI connector. Meta advertisers can use natural language in Quick to create, manage, and analyze campaigns while staying connected to the Meta ad management network, and combine Meta ad data with first- and third-party sources to build dashboards, documents, slide decks, and automated workfl</summary>
+  </entry>
+  <entry>
+    <title>Governors Push States to Lead on AI</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-11-22/governors-push-states-to-lead-on-ai-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-11-22/governors-push-states-to-lead-on-ai-video</id>
+    <updated>2026-11-22T13:32:30.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="HARDWARE"/>
+    <summary>On Bloomberg This Weekend, Governors Wes Moore, Spencer Cox, Josh Stein and Mike Braun tell host Christina Ruffini that states need to take a larger role in shaping AI and data center policy as concerns grow over electricity costs, water use, jobs and consumer protections. The bipartisan group says data centers should </summary>
   </entry>
 </feed>
