@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-23T02:08:43.025Z</updated>
+  <updated>2026-11-23T03:08:43.198Z</updated>
   <entry>
     <title>Perplexity and Intelligence</title>
     <link href="https://openai.com/index/perplexity-and-intelligence"/>
@@ -22,7 +22,7 @@
     <updated>2026-11-22T21:01:16.000Z</updated>
     <author><name>HN: AI (150+ points)</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Article URL: https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth Comments URL: https://news.ycombinator.com/item?id=50603845 Points: 235 # Comments: 86</summary>
+    <summary>Article URL: https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth Comments URL: https://news.ycombinator.com/item?id=50603845 Points: 273 # Comments: 120</summary>
   </entry>
   <entry>
     <title>OpenAI’s chief scientist has thoughts on how to limit AI development</title>
@@ -61,49 +61,49 @@
     <summary>OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.</summary>
   </entry>
   <entry>
-    <title>llama.cpp b12643 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12643"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12643</id>
-    <updated>2026-11-23T02:05:29.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>mtmd: fix qwen3a audio tail ( #32697 ) add: test to reporduce error reported in #32689 fix: remove extra tokens from zero-padding of Qwen3-Omni / Qwen3-ASR audio add: qwen3a_tokens_for_frames instead of magic numbers refactor: only ggml_pad when required refactor: move qwen3a_tokens_for_frames as static member of mtmd_</summary>
-  </entry>
-  <entry>
-    <title>How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO</title>
-    <link href="https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo"/>
-    <id>https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo</id>
-    <updated>2026-11-23T01:25:53.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>TPG and Corpay agree to acquire and take private BILL Holdings, whose cloud-based software lets SMBs automate financial operations, in a deal valued at ~$6B (Pritam Biswas/Reuters)</title>
+    <link href="https://www.techmeme.com/261122/p17"/>
+    <id>https://www.techmeme.com/261122/p17</id>
+    <updated>2026-11-23T02:35:00.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Three significant backers share what gave them conviction to bet billions on Anthropic.</summary>
+    <summary>Pritam Biswas / Reuters : TPG and Corpay agree to acquire and take private BILL Holdings, whose cloud-based software lets SMBs automate financial operations, in a deal valued at ~$6B — Fintech firm BILL Holdings (BILL.N) said on Thursday it will be acquired by private equity group TPG, in partnership with Corpay …</summary>
   </entry>
   <entry>
-    <title>b12634: chat : trigger lazy grammar on bare JSON tool calls (#32497)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12634"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12634</id>
-    <updated>2026-11-22T11:19:04.000Z</updated>
+    <title>llama.cpp b12647 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12647"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12647</id>
+    <updated>2026-11-23T02:32:56.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Models like Llama 3.x emit tool calls as plain {&quot;name&quot;: ...} JSON without a start marker, so with tool_choice=auto no grammar was produced at all. Use a pattern trigger on the opening of the call object instead. Assisted-by: Claude Code</summary>
+    <category term="LOCAL MODELS"/>
+    <summary>tests : compare only the guaranteed GDN snapshot slots ( #32820 )</summary>
   </entry>
   <entry>
-    <title>Asia Market Measures May Buffer Stock Losses: BNP</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-11-23/asia-market-measures-may-buffer-stock-losses-bnp-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-11-23/asia-market-measures-may-buffer-stock-losses-bnp-video</id>
-    <updated>2026-11-23T02:04:38.000Z</updated>
+    <title>Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog</title>
+    <link href="https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog"/>
+    <id>https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog</id>
+    <updated>2026-11-22T14:20:28.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Perplexity is launching a Monitor API that searches the web on a schedule and alerts agents via webhook only when relevant changes occur. Its own decision model filters out unimportant results. For Perplexity, the API is part of a broader strategy to stand out from an increasingly interchangeable chatbot business throu</summary>
+  </entry>
+  <entry>
+    <title>Tata Steel to Acquire 26.4% in APL Apollo Tubes for $1.7 Billion</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-23/tata-steel-to-acquire-26-4-in-apl-apollo-tubes-for-1-7-billion"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-23/tata-steel-to-acquire-26-4-in-apl-apollo-tubes-for-1-7-billion</id>
+    <updated>2026-11-23T02:30:05.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Jason Lui, Head of APAC Equity Derivative Strategy at BNP Paribas, says market support measures in China, Taiwan and South Korea may provide a buffer against weak sentiment, but longer-term investment returns will still face long-term uncertainty from US data-center regulations and restrictions on remote access to chip</summary>
+    <summary>Tata Steel Ltd. has agreed to acquire a 26.4% stake in APL Apollo Tubes Ltd. for as much as 155.1 billion rupees ($1.7 billion), deepening its presence in India’s structural steel products market.</summary>
   </entry>
   <entry>
-    <title>NVIDIA Releases Alpamayo 2 Edge: A 2B Reasoning VLA for DRIVE Thor</title>
-    <link href="https://www.marktechpost.com/2026/11/22/nvidia-alpamayo-2-edge-2b-reasoning-vla-drive-thor"/>
-    <id>https://www.marktechpost.com/2026/11/22/nvidia-alpamayo-2-edge-2b-reasoning-vla-drive-thor</id>
-    <updated>2026-11-22T18:37:57.000Z</updated>
-    <author><name>MarkTechPost</name></author>
+    <title>India’s Nifty Stands Apart as Global Stocks, Gold Suffer Rare Joint Selloff</title>
+    <link href="https://www.bloomberg.com/news/newsletters/2026-11-23/india-s-nifty-stands-apart-as-global-stocks-gold-suffer-rare-joint-selloff"/>
+    <id>https://www.bloomberg.com/news/newsletters/2026-11-23/india-s-nifty-stands-apart-as-global-stocks-gold-suffer-rare-joint-selloff</id>
+    <updated>2026-11-23T02:36:16.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="RESEARCH"/>
-    <summary>NVIDIA released Alpamayo 2 Edge, a 2B-class reasoning vision-language-action model that plans driving trajectories and explains them on DRIVE AGX Thor, at 160 to 190 ms pixel-to-trajectory latency. The post NVIDIA Releases Alpamayo 2 Edge: A 2B Reasoning VLA for DRIVE Thor appeared first on MarkTechPost .</summary>
+    <summary>India’s equity benchmark climbed as the S&amp;P 500, MSCI’s Asia gauge and gold each lost more than 5% last week.</summary>
   </entry>
   <entry>
     <title>Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access</title>
@@ -124,13 +124,13 @@
     <summary>Seasonal Fellowships are three-month opportunities designed to accelerate or launch impactful careers in AI governance and policy. The fellowship has both a Research Track and an Applied Track. — Also covered by: GovAI</summary>
   </entry>
   <entry>
-    <title>Stop Prompt Injection in RAG: 12 Steps, 90 Min</title>
-    <link href="https://shattered.io/prompt-injection-rag-defense-scanner-guard-12-steps-2026"/>
-    <id>https://shattered.io/prompt-injection-rag-defense-scanner-guard-12-steps-2026</id>
-    <updated>2026-11-22T12:24:00.000Z</updated>
+    <title>No-Code Workflow Automation and AI Agents Collide With Shadow APIs and Prompt Injection Risks + Video</title>
+    <link href="https://t.co/zecKywAPg3"/>
+    <id>https://t.co/zecKywAPg3</id>
+    <updated>2026-11-23T02:26:34.000Z</updated>
     <author><name>GN: Prompt Injection</name></author>
     <category term="AI SECURITY"/>
-    <summary>Stop Prompt Injection in RAG: 12 Steps, 90 Min shattered.io</summary>
+    <summary>No-Code Workflow Automation and AI Agents Collide With Shadow APIs and Prompt Injection Risks + Video Howl.Link</summary>
   </entry>
   <entry>
     <title>Signal to block Siri, Gemini AI from capturing chats on iOS, Android</title>
@@ -178,6 +178,24 @@
     <summary>QuEra Computing and NVIDIA have introduced PPVM, an open-source digital-twin simulation framework for quantum processors. PPVM unifies generalized stabilizer tableau simulation with Heisenberg-picture Pauli propagation, allowing for emulation of quantum processors, hardware noise, and classical control logic. It offers</summary>
   </entry>
   <entry>
+    <title>GPT-6.2 Astra vs. Claude Fable 5.2 hands-on: nearly tied on three custom accounting, coding, and data tasks, but Fable used far more tokens and cost 5x+ as much (Jessica Wachtel/The New Stack)</title>
+    <link href="https://www.techmeme.com/261122/p16"/>
+    <id>https://www.techmeme.com/261122/p16</id>
+    <updated>2026-11-23T01:45:00.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Jessica Wachtel / The New Stack : GPT-6.2 Astra vs. Claude Fable 5.2 hands-on: nearly tied on three custom accounting, coding, and data tasks, but Fable used far more tokens and cost 5x+ as much — When I compared Anthropic's Fable 5.2 vs. OpenAI's GPT-6 Astra last week, Fable 5.2 was slightly more accurate (149 points </summary>
+  </entry>
+  <entry>
+    <title>How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO</title>
+    <link href="https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo"/>
+    <id>https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo</id>
+    <updated>2026-11-23T01:25:53.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Three significant backers share what gave them conviction to bet billions on Anthropic.</summary>
+  </entry>
+  <entry>
     <title>A profile of siblings Dario and Daniela Amodei; while at OpenAI, Dario suggested immersive videogames might ease political strife from AI-induced joblessness (Wall Street Journal)</title>
     <link href="https://www.techmeme.com/261122/p14"/>
     <id>https://www.techmeme.com/261122/p14</id>
@@ -185,15 +203,6 @@
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
     <summary>Wall Street Journal : A profile of siblings Dario and Daniela Amodei; while at OpenAI, Dario suggested immersive videogames might ease political strife from AI-induced joblessness — Dario and Daniela Amodei were on top of the biggest IPO ever Thursday-and a market rout one day later.</summary>
-  </entry>
-  <entry>
-    <title>Sources: Jay Clayton, director of national intelligence and AI czar, will also be acting national cyber director pending Kirsten A. Davies' Senate confirmation (Axios)</title>
-    <link href="https://www.techmeme.com/261122/p15"/>
-    <id>https://www.techmeme.com/261122/p15</id>
-    <updated>2026-11-23T00:55:00.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Axios : Sources: Jay Clayton, director of national intelligence and AI czar, will also be acting national cyber director pending Kirsten A. Davies' Senate confirmation — Director of National Intelligence Jay Clayton will also serve as acting national cyber director while Kirsten Davies awaits Senate confirmation …</summary>
   </entry>
   <entry>
     <title>AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU</title>
@@ -214,15 +223,6 @@
     <summary>submitted by german to localllama 24 points | 3 comments Cyberbench is a cybersecurity-oriented benchmark. Opus 5.5 here is the CVP version with no cybersecurity restrictions - though it might still just be weak on it. nitter.click/ValsAI/status/2123874523938497007</summary>
   </entry>
   <entry>
-    <title>Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog</title>
-    <link href="https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog"/>
-    <id>https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog</id>
-    <updated>2026-11-22T14:20:28.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Perplexity is launching a Monitor API that searches the web on a schedule and alerts agents via webhook only when relevant changes occur. Its own decision model filters out unimportant results. For Perplexity, the API is part of a broader strategy to stand out from an increasingly interchangeable chatbot business throu</summary>
-  </entry>
-  <entry>
     <title>AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace</title>
     <link href="https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace"/>
     <id>https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace</id>
@@ -232,22 +232,31 @@
     <summary>A new real-world test puts AI coding agents in a simulated developer job with colleagues, project boards, and incomplete handoffs, where they have to keep developing software on their own and reliably close open tickets in a messy daily workflow. Even Opus 5.5 and Astra fall far short, solving fewer than one in ten tas</summary>
   </entry>
   <entry>
-    <title>Why Asia Market Stabilization Measures May Not Be Enough</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-11-23/why-asia-market-stabilization-measures-may-not-be-enough-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-11-23/why-asia-market-stabilization-measures-may-not-be-enough-video</id>
-    <updated>2026-11-23T01:59:03.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Bloomberg's Lianting Tu talks about investor sentiment that recent stabilization measures in China, Taiwan and Korea are not quite enough, and how near-term outlook depends on dip buying and whether hedge funds keep cutting positions. (Source: Bloomberg)</summary>
+    <title>QCon San Francisco 2026: The Harness Is the New Operating System</title>
+    <link href="https://www.infoq.com/news/2026/11/harness-new-operating-system"/>
+    <id>https://www.infoq.com/news/2026/11/harness-new-operating-system</id>
+    <updated>2026-11-22T22:44:00.000Z</updated>
+    <author><name>InfoQ AI/ML</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>At QCon San Francisco 2026, Mad Labs founder and CEO Manju Rajashekhar opened the conference arguing that the harness around an AI model, rather than the model itself, decides what an agent can do and how safely it does it. The keynote mapped the parts of a harness, including context, tools, state, permissions and feed</summary>
   </entry>
   <entry>
-    <title>China State Funds Ramp Up ETF Buying to Record as Rout Deepens</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-23/china-state-funds-ramp-up-etf-buying-to-record-as-rout-deepens"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-23/china-state-funds-ramp-up-etf-buying-to-record-as-rout-deepens</id>
-    <updated>2026-11-23T01:48:30.000Z</updated>
+    <title>European Gas Surges as Cold Snap Threatens Tight Inventories</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-23/european-gas-surges-as-cold-snap-threatens-tight-inventories"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-23/european-gas-surges-as-cold-snap-threatens-tight-inventories</id>
+    <updated>2026-11-23T02:46:27.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>China’s state-backed funds poured a record amount of money into the market on Friday in another forceful attempt to stem a deepening selloff.</summary>
+    <summary>European natural gas jumped after forecasts for colder weather in the coming days, which could put further pressure on inventories already depleted by export disruptions stemming from the US-Iran war.</summary>
+  </entry>
+  <entry>
+    <title>NVIDIA Releases Alpamayo 2 Edge: A 2B Reasoning VLA for DRIVE Thor</title>
+    <link href="https://www.marktechpost.com/2026/11/22/nvidia-alpamayo-2-edge-2b-reasoning-vla-drive-thor"/>
+    <id>https://www.marktechpost.com/2026/11/22/nvidia-alpamayo-2-edge-2b-reasoning-vla-drive-thor</id>
+    <updated>2026-11-22T18:37:57.000Z</updated>
+    <author><name>MarkTechPost</name></author>
+    <category term="RESEARCH"/>
+    <summary>NVIDIA released Alpamayo 2 Edge, a 2B-class reasoning vision-language-action model that plans driving trajectories and explains them on DRIVE AGX Thor, at 160 to 190 ms pixel-to-trajectory latency. The post NVIDIA Releases Alpamayo 2 Edge: A 2B Reasoning VLA for DRIVE Thor appeared first on MarkTechPost .</summary>
   </entry>
   <entry>
     <title>Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries</title>
@@ -257,15 +266,6 @@
     <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
     <summary>Google launched Gemini API Tool Retrieval in preview. Agents keep a large tool library on standby and load each parameter schema only when needed, inside one Interactions API request. The post Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries appeared first on MarkTechPost .</summary>
-  </entry>
-  <entry>
-    <title>transformers v5.24.0 released</title>
-    <link href="https://github.com/huggingface/transformers/releases/tag/v5.24.0"/>
-    <id>https://github.com/huggingface/transformers/releases/tag/v5.24.0</id>
-    <updated>2026-11-21T12:43:39.000Z</updated>
-    <author><name>huggingface/transformers</name></author>
-    <category term="RESEARCH"/>
-    <summary>Release v5.24.0 New Model additions Inkling 2 Mini Inkling 2 Mini is a multimodal model from Thinking Machines Lab that accepts text and image inputs and generates text outputs. It is a smaller sibling of Inkling 2 Small, added in v5.23.0. It has 24 decoder layers instead of 48, and compensates with a looping mechanism</summary>
   </entry>
   <entry>
     <title>Data Processing Incidents on Inference Providers</title>
