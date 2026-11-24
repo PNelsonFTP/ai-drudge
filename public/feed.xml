@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-24T00:22:38.148Z</updated>
+  <updated>2026-11-24T01:08:44.055Z</updated>
   <entry>
-    <title>Nvidia CEO Jensen Huang is back. What happens next?</title>
-    <link href="https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang"/>
-    <id>https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang</id>
-    <updated>2026-11-23T22:10:32.000Z</updated>
-    <author><name>The Verge AI</name></author>
+    <title>Why Did Nvidia Reinstate Jensen Huang as CEO?</title>
+    <link href="https://www.bloomberg.com/news/features/2026-11-23/why-did-nvidia-reinstate-jensen-huang-as-ceo"/>
+    <id>https://www.bloomberg.com/news/features/2026-11-23/why-did-nvidia-reinstate-jensen-huang-as-ceo</id>
+    <updated>2026-11-23T23:20:08.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, after The New York Times reported there was evidence of another affair, this time with an Nvidia executive who reported di — Also covered by: Wired AI, EE Times</summary>
+    <summary>A White House pressure campaign and a $5 trillion market slide forced Nvidia to reinstate its founder — proving that in the AI race, boardroom discipline is a luxury shareholders can’t afford. — Also covered by: The Verge AI, EE Times</summary>
   </entry>
   <entry>
     <title>OpenAI and Cisco introduce Shirudo</title>
@@ -23,24 +23,6 @@
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
     <summary>OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp b12655 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12655"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12655</id>
-    <updated>2026-11-23T23:23:55.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>cmake: treat kleidiai files as vendored ( #32605 ) cmake: treat kleidiai files as vendored Signed-off-by: Aaron Teo aaron.teo1@ibm.com cmake: use quotes and semicolon separators Signed-off-by: Aaron Teo aaron.teo1@ibm.com Signed-off-by: Aaron Teo aaron.teo1@ibm.com Website: https://llama.app Attestations: https://githu — Also covered by: ggml-org/whisper.cpp</summary>
-  </entry>
-  <entry>
-    <title>GLM-5.4: Toward Generalized Coding with Our First Loop Transformer</title>
-    <link href="https://simonwillison.net/2026/Nov/23/glm-54"/>
-    <id>https://simonwillison.net/2026/Nov/23/glm-54</id>
-    <updated>2026-11-23T23:40:49.000Z</updated>
-    <author><name>Simon Willison</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>GLM-5.4: Toward Generalized Coding with Our First Loop Transformer GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this: In a standard Transformer, each layer runs once per forward pass. In a Loop Transformer, a group of weight</summary>
   </entry>
   <entry>
     <title>claude-code v2.1.331 released</title>
@@ -88,6 +70,15 @@
     <summary>Also covered by: Ai2 (Allen Institute)</summary>
   </entry>
   <entry>
+    <title>whisper.cpp v1.9.6 released</title>
+    <link href="https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.6"/>
+    <id>https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.6</id>
+    <updated>2026-11-23T17:51:11.000Z</updated>
+    <author><name>ggml-org/whisper.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>Overview New version has been released. More info: dist : releases and versioning of ggml-org projects Changelog since v1.9.5 96ec4d9 ggml : revert 5922450 ( #4200 ) 5eaee0c ci : update CUDA 11.8.0 CUBLAS version to 11.11.3.6 ( #4195 ) 258bb62 ci : update deploy-examples-wasm workflow plugins ( #4194 ) 95b3b2f go : rep — Also covered by: ggml-org/llama.cpp</summary>
+  </entry>
+  <entry>
     <title>Jensen is BACK at NVIDIA</title>
     <link href="https://www.servethehome.com/jensen-is-back-at-nvidia"/>
     <id>https://www.servethehome.com/jensen-is-back-at-nvidia</id>
@@ -106,6 +97,15 @@
     <summary>Rhiannon Hoyle / Wall Street Journal : Australia-based Myriota, which provides low-cost, low-power satellite connectivity for industrial IoT, raised roughly $40M in the first close of its Series C — Myriota raises roughly $40 million in a first close of a Series C round to hire staff and scale satellite constellation</summary>
   </entry>
   <entry>
+    <title>b12653: ggml : update cmake MATH_LIBRARY check (#32864)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12653"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12653</id>
+    <updated>2026-11-23T10:05:21.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>This commit updates the cmake check for MATH_LIBRARY and removes the DEFINED operator for the if() command. The motivation for this is that on windows if a parent project of ggml calls find_library(MATH_LIBRARY) this could return MATH_LIBRARY-NOTFOUND which will cause the if clause to be true. Removing the DEFINED oper</summary>
+  </entry>
+  <entry>
     <title>Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes</title>
     <link href="https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes"/>
     <id>https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes</id>
@@ -115,13 +115,22 @@
     <summary>As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.</summary>
   </entry>
   <entry>
-    <title>Inside the ‘war room’ that lobbied Trump to bring back Nvidia’s Huang</title>
-    <link href="https://www.ft.com/content/82d3be02-8ac7-4acb-aefa-6e3722ee05cc?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/82d3be02-8ac7-4acb-aefa-6e3722ee05cc?syn-25a6b1a6=1</id>
-    <updated>2026-11-23T22:46:14.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
+    <title>US Senate Probes Vance Role in Vitol Choice for Venezuela Oil</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-24/us-senate-probes-vance-role-in-vitol-choice-for-venezuela-oil"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-24/us-senate-probes-vance-role-in-vitol-choice-for-venezuela-oil</id>
+    <updated>2026-11-24T00:11:51.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Silicon Valley titans enlisted US president and JD Vance to rescue the billionaire tech boss whom they viewed as critical for the AI industry</summary>
+    <summary>A US senator is investigating the role Vice President JD Vance played in awarding a lucrative Venezuelan oil contract to a political donor and then-executive at commodities trader Vitol Group.</summary>
+  </entry>
+  <entry>
+    <title>GLM-5.4: Toward Generalized Coding with Our First Loop Transformer</title>
+    <link href="https://simonwillison.net/2026/Nov/23/glm-54"/>
+    <id>https://simonwillison.net/2026/Nov/23/glm-54</id>
+    <updated>2026-11-23T23:40:49.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="RESEARCH"/>
+    <summary>GLM-5.4: Toward Generalized Coding with Our First Loop Transformer GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this: In a standard Transformer, each layer runs once per forward pass. In a Loop Transformer, a group of weight</summary>
   </entry>
   <entry>
     <title>Hammerspace Benchmarks Tier 0 Storage at SC26 Without a Separate Storage Cluster</title>
@@ -160,13 +169,13 @@
     <summary>Austria's Foreign Ministry said late last week that hackers breached one of its websites and accessed the names and official contact information of employees at its Vienna headquarters and at Austria’s diplomatic missions abroad.</summary>
   </entry>
   <entry>
-    <title>Figure and T-Mobile Bring F.03 Humanoids to the Las Vegas Grand Prix</title>
-    <link href="https://www.humanoidsdaily.com/news/figure-t-mobile-f03-humanoids-las-vegas-grand-prix"/>
-    <id>https://www.humanoidsdaily.com/news/figure-t-mobile-f03-humanoids-las-vegas-grand-prix</id>
-    <updated>2026-11-23T15:48:05.000Z</updated>
-    <author><name>Humanoids Daily</name></author>
+    <title>gemini-cli v0.72.0-preview.0 released</title>
+    <link href="https://github.com/google-gemini/gemini-cli/releases/tag/v0.72.0-preview.0"/>
+    <id>https://github.com/google-gemini/gemini-cli/releases/tag/v0.72.0-preview.0</id>
+    <updated>2026-11-24T00:34:15.000Z</updated>
+    <author><name>google-gemini/gemini-cli</name></author>
     <category term="ROBOTICS"/>
-    <summary>Figure partnered with T-Mobile to put F.03 humanoids in co-branded vests on the Las Vegas Grand Prix circuit and pit lane, though neither company has said what the robots did on site.</summary>
+    <summary>What's Changed Changelog for v0.70.0 by @gemini-cli-robot in #30380 fix(core): handle nested .gitignore negations under dir/** patterns by @urielefrenvirtusa in #30370 fix(cli): expand Windows home-relative paths using tilde and backslash by @urielefrenvirtusa in #30376 fix(cli): resume most recently active session ins</summary>
   </entry>
   <entry>
     <title>Finding faster quantum algorithms with agents and formal verification</title>
@@ -178,31 +187,31 @@
     <summary>Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.</summary>
   </entry>
   <entry>
-    <title>Anthropic unveils Claude Ship, letting Claude review, fix, and approve GitHub pull requests based on team policies, in beta for Claude Team and Enterprise tiers (Radhika Rajkumar/ZDNET)</title>
-    <link href="https://www.techmeme.com/261123/p41"/>
-    <id>https://www.techmeme.com/261123/p41</id>
-    <updated>2026-11-23T21:25:00.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Radhika Rajkumar / ZDNET : Anthropic unveils Claude Ship, letting Claude review, fix, and approve GitHub pull requests based on team policies, in beta for Claude Team and Enterprise tiers — Would you let a few Claude agents review and ship your code for you? — ZDNET's key takeaways</summary>
+    <title>Model choice and setup questions</title>
+    <link href="https://sh.itjust.works/post/70380498"/>
+    <id>https://sh.itjust.works/post/70380498</id>
+    <updated>2026-11-23T22:17:57.000Z</updated>
+    <author><name>Lemmy c/localllama</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>submitted by prince_charring to localllama 4 points | 3 comments I’m pretty new to this local LLM business and hoping to have some input from the experts. I have an AMD card with 12GB VRAM and 32GB system RAM, running Linux. Currently I have llama.cpp up and running, and I tried out models Qwen2.5-Coder-14B-Instruct-GG</summary>
   </entry>
   <entry>
-    <title>b12657: ggml-cuda : handle zero blocks in few-row MMQ quantization (#32566)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12657"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12657</id>
-    <updated>2026-11-23T14:17:15.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>Are there AI agents built around collaboration and shared skills?</title>
+    <link href="https://sh.itjust.works/post/70383189"/>
+    <id>https://sh.itjust.works/post/70383189</id>
+    <updated>2026-11-23T23:45:16.000Z</updated>
+    <author><name>Lemmy c/localllama</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Assisted-by: ChatGPT (GPT-6)</summary>
+    <summary>submitted by PumpkinDrama to localllama 2 points | 0 comments I’ve been looking into multi-agent setups and most seem focused on orchestration or task delegation, but I’m curious if there are agents designed specifically around collaboration —where different sessions or bots can share skills, context, and capabilities </summary>
   </entry>
   <entry>
-    <title>b12653: ggml : update cmake MATH_LIBRARY check (#32864)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12653"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12653</id>
-    <updated>2026-11-23T10:05:21.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>This commit updates the cmake check for MATH_LIBRARY and removes the DEFINED operator for the if() command. The motivation for this is that on windows if a parent project of ggml calls find_library(MATH_LIBRARY) this could return MATH_LIBRARY-NOTFOUND which will cause the if clause to be true. Removing the DEFINED oper</summary>
+    <title>Inside the ‘war room’ that lobbied Trump to bring back Nvidia’s Huang</title>
+    <link href="https://www.ft.com/content/82d3be02-8ac7-4acb-aefa-6e3722ee05cc?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/82d3be02-8ac7-4acb-aefa-6e3722ee05cc?syn-25a6b1a6=1</id>
+    <updated>2026-11-23T22:46:14.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Silicon Valley titans enlisted US president and JD Vance to rescue the billionaire tech boss whom they viewed as critical for the AI industry</summary>
   </entry>
   <entry>
     <title>Startup Options Exchange Asks SEC to Approve Two New Venues</title>
@@ -212,15 +221,6 @@
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
     <summary>Options Xchange Group Inc., a startup bourse focused on equity derivatives, is seeking to start two new venues.</summary>
-  </entry>
-  <entry>
-    <title>Gold Holds Gain After Nvidia’s Rehiring of Huang Sparks Rally</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-24/gold-holds-gain-after-nvidia-s-rehiring-of-huang-sparks-rally"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-24/gold-holds-gain-after-nvidia-s-rehiring-of-huang-sparks-rally</id>
-    <updated>2026-11-24T00:06:57.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Gold steadied after surging Monday, as Jensen Huang’s surprise return to the helm of Nvidia Corp. recharged bets on artificial intelligence and spurred rallies across markets.</summary>
   </entry>
   <entry>
     <title>Anthropic Launches Claude Ship for GitHub Pull Request Review and Fixes</title>
