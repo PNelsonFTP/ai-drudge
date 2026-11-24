@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-24T14:08:46.439Z</updated>
+  <updated>2026-11-24T15:08:44.407Z</updated>
   <entry>
     <title>Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own</title>
     <link href="https://the-decoder.com/anthropics-claude-ship-lets-ai-agents-review-fix-and-approve-pull-requests-on-their-own"/>
@@ -16,22 +16,13 @@
     <summary>Anthropic has introduced Claude Ship, a new tool currently in beta that automatically reviews, corrects, and approves suggestions for code changes in accordance with team guidelines. The article Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own appeared first on The Decoder . — Also covered by: TechCrunch AI, The Verge AI</summary>
   </entry>
   <entry>
-    <title>Jensen Huang’s New Reality in Return as Nvidia CEO</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-11-24/jensen-huang-s-new-reality-in-return-as-nvidia-ceo-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-11-24/jensen-huang-s-new-reality-in-return-as-nvidia-ceo-video</id>
-    <updated>2026-11-24T14:02:10.000Z</updated>
-    <author><name>Bloomberg Tech</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Jensen Huang’s reinstatement atop Nvidia comes with heightened scrutiny from multiple government institutions, not only for Huang, but for the company’s policies and corporate governance. Ed Ludlow reports on Bloomberg Television. (Source: Bloomberg) — Also covered by: Reuters AI (Google News), EE Times</summary>
-  </entry>
-  <entry>
-    <title>llama.cpp b12676 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12676"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12676</id>
-    <updated>2026-11-24T13:28:52.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>GDN: use replay instead of rollback ( #31669 ) GDN: use replay instead of rollback [WIP] memory : move rs_max with the sequence when find_slot swaps cells find_slot swapped pos/src/rs_pend/seq_id of the cell it moves out of the way, but not rs_max, so that sequence inherited the rollback depth of the cell's previous ow — Also covered by: ggml-org/whisper.cpp</summary>
+    <title>McDonald's Japan data breach exposes customer location information</title>
+    <link href="https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information"/>
+    <id>https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information</id>
+    <updated>2026-11-24T14:09:37.000Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>McDonald's Japan, the fast-food giant's Japanese subsidiary, has disclosed a data breach after attackers accessed a database containing sensitive information for users of the company's official smartphone app. [...] — Also covered by: The Record</summary>
   </entry>
   <entry>
     <title>OpenAI and Cisco introduce Shirudo</title>
@@ -41,6 +32,15 @@
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
     <summary>OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.</summary>
+  </entry>
+  <entry>
+    <title>llama.cpp b12677 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12677"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12677</id>
+    <updated>2026-11-23T23:41:33.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>quantize : make local const static for MSVC ( #32902 ) — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
     <title>What Senator McCormick Wants to Hear From Nvidia CEO Jensen Huang</title>
@@ -59,6 +59,15 @@
     <author><name>anthropics/claude-code</name></author>
     <category term="MODEL RELEASES"/>
     <summary>What's changed Added Code Mode support in terminal sessions on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude Platform on AWS Added oidc.groups_jsonpath to the Claude apps gateway, to read groups from the matching entries of a list of objects with a small subset of JSONPath (RFC 9535) Added — Also covered by: QwenLM/qwen-code</summary>
+  </entry>
+  <entry>
+    <title>How Trump and Silicon Valley forced Nvidia to take Jensen Huang back</title>
+    <link href="https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back"/>
+    <id>https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back</id>
+    <updated>2026-11-24T14:56:50.000Z</updated>
+    <author><name>Ars Technica AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Huang’s allies enlisted Trump and Vance to pressure Nvidia’s board into taking him back. — Also covered by: The Guardian AI</summary>
   </entry>
   <entry>
     <title>Supertake raises $20M to let AI agents turn your market predictions into stock portfolios</title>
@@ -102,7 +111,7 @@
     <id>https://allenai.org/blog/robotrack</id>
     <updated>2026-11-23T08:00:00.000Z</updated>
     <author><name>Ai2 (Allen Institute)</name></author>
-    <category term="MODEL RELEASES"/>
+    <category term="RESEARCH"/>
     <summary>RoboTrack introduces a new benchmark, synthetic training dataset, and two models that improve how robots track objects during real-world manipulation tasks. — Also covered by: Hugging Face Blog</summary>
   </entry>
   <entry>
@@ -115,13 +124,22 @@
     <summary>Duncan Riley / SiliconANGLE : Zipher, which uses AI agents to handle data workload execution and resource allocation, raised $53M across seed and Series A from TLV Partners and others — Data infrastructure startup Zipher Technologies Ltd. today announced that it has raised $53 million in funding for a platform …</summary>
   </entry>
   <entry>
-    <title>US tech stocks set to slide after blistering rally</title>
-    <link href="https://www.ft.com/content/c0cb932a-076e-4471-8009-91749fde5f47?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/c0cb932a-076e-4471-8009-91749fde5f47?syn-25a6b1a6=1</id>
-    <updated>2026-11-24T13:33:49.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
+    <title>ollama v0.40.18 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.18"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.18</id>
+    <updated>2026-11-24T08:27:44.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>What's Changed mlx: fuse Inkling residual mixing on Metal by @dhiltgen in #19808 mlxrunner: share tensor helpers and model setup across architectures by @jaingaurav in #19805 llama.cpp: version bump b12651 + remove jetpack5 support by @pdevine in #19865 inkling2: faster Metal decode, prefill and draft rounds by @dhiltg</summary>
+  </entry>
+  <entry>
+    <title>Venezuela Unveils $237 Billion Debt Load Ahead of Restructuring</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-24/venezuela-unveils-237-billion-debt-load-ahead-of-restructuring"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-24/venezuela-unveils-237-billion-debt-load-ahead-of-restructuring</id>
+    <updated>2026-11-24T15:01:19.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Shares in Anthropic on track to open below IPO price for first time</summary>
+    <summary>Venezuela’s government said public debt stood at $237.5 billion in 2025, setting the stage for what could be one of the largest sovereign debt restructurings in history.</summary>
   </entry>
   <entry>
     <title>SAMA: Training-Free Consensus Ridge Tracking for Camera-Based Heart Rate on Five Public Datasets</title>
@@ -133,13 +151,22 @@
     <summary>arXiv:2611.28185v1 Announce Type: new Abstract: Remote photoplethysmography (rPPG) is usually benchmarked by one heart rate per video, a figure that hides the short windows in which a tele-consultation would actually read the pulse. We present SAMA, a training-free estimator that (i) forms a quality-weighted consensus </summary>
   </entry>
   <entry>
-    <title>inkling2: faster Metal decode, prefill and draft rounds (#19843)</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.18-rc0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.18-rc0</id>
-    <updated>2026-11-24T01:35:09.000Z</updated>
-    <author><name>ollama/ollama</name></author>
+    <title>Meta launches Muse in UK – the AI agent that can do your Christmas shopping</title>
+    <link href="https://www.theguardian.com/technology/2026/nov/24/meta-launches-muse-uk-ai-agent-do-christmas-shopping"/>
+    <id>https://www.theguardian.com/technology/2026/nov/24/meta-launches-muse-uk-ai-agent-do-christmas-shopping</id>
+    <updated>2026-11-24T14:36:32.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="PRODUCTS"/>
+    <summary>Users can give agents tasks such as booking travel or buying presents, but glitches have been reported Have you downloaded Meta’s AI assistant Muse or do you plan to? Want to avoid the Christmas shopping hordes? Then let your AI agent do the shopping for you. Mark Zuckerberg’s Meta is launching its Muse AI assistant in</summary>
+  </entry>
+  <entry>
+    <title>Leash Biosciences Raises $11M to Build Training Environments for Scientific AI</title>
+    <link href="https://www.hpcwire.com/off-the-wire/leash-biosciences-raises-11m-to-build-training-environments-for-scientific-ai"/>
+    <id>https://www.hpcwire.com/off-the-wire/leash-biosciences-raises-11m-to-build-training-environments-for-scientific-ai</id>
+    <updated>2026-11-24T14:49:30.000Z</updated>
+    <author><name>HPC Wire</name></author>
     <category term="HARDWARE"/>
-    <summary>inkling2: faster Metal decode, prefill and draft rounds Add Inkling-only Metal kernels, each with a stock-graph fallback, gated by GPU generation and size class: short BF16 products, deduplicated NVFP4/MXFP8 expert gathers with fused SwiGLU, fused loop controllers and residual mixing, relative-position split attention,</summary>
+    <summary>Company has generated more than 44 billion experimental measurements to support AI evaluation and training SALT LAKE CITY, Nov. 24, 2026 — Leash Biosciences, an AI infrastructure company building experimental environments for scientific agents, today announced an $11 million financing round co-led by Innovation Endeavo</summary>
   </entry>
   <entry>
     <title>New Shirudo tool uses AI to shield unpatched Linux systems from exploits</title>
@@ -151,22 +178,22 @@
     <summary>OpenAI and Cisco launched an open-source Linux security tool named Shirudo that deploys temporary runtime protections to block vulnerability exploitation while administrators prepare and roll out patches, without restarting services. [...]</summary>
   </entry>
   <entry>
-    <title>What Counts as Attack Success? Evaluating Harmfulness in Red Teaming LLMs</title>
-    <link href="https://arxiv.org/abs/2611.28038"/>
-    <id>https://arxiv.org/abs/2611.28038</id>
-    <updated>2026-11-24T05:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
+    <title>AISN #86: Anthropic Accused of Recklessness as it Goes Public</title>
+    <link href="https://newsletter.safe.ai/p/aisn-86-anthropic-accused-of-recklessness"/>
+    <id>https://newsletter.safe.ai/p/aisn-86-anthropic-accused-of-recklessness</id>
+    <updated>2026-11-24T14:31:03.000Z</updated>
+    <author><name>AI Safety Newsletter (CAIS)</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>arXiv:2611.28038v1 Announce Type: new Abstract: Judging whether a model response is harmful requires contextual and normative choices, yet red-teaming studies often delegate this judgment to automated evaluators. We examine how harmfulness criteria are specified in red-teaming research and how they carry through to rep</summary>
+    <summary>Also, AI companies face loss-of-control lawsuits and Jensen Huang returns as Nvidia CEO.</summary>
   </entry>
   <entry>
-    <title>CrowdStrike Makes AI Security Push With Blockbuster Zscaler Deal</title>
-    <link href="https://www.darkreading.com/endpoint-security/crowdstrike-ai-security-push-zscaler-deal"/>
-    <id>https://www.darkreading.com/endpoint-security/crowdstrike-ai-security-push-zscaler-deal</id>
-    <updated>2026-11-23T21:21:42.000Z</updated>
-    <author><name>Dark Reading</name></author>
+    <title>Can forced refusals make models &quot;snap out&quot; of a jailbreak?</title>
+    <link href="https://www.lesswrong.com/posts/mENw8pznQANekHoz5/can-forced-refusals-make-models-snap-out-of-a-jailbreak"/>
+    <id>https://www.lesswrong.com/posts/mENw8pznQANekHoz5/can-forced-refusals-make-models-snap-out-of-a-jailbreak</id>
+    <updated>2026-11-24T14:24:38.000Z</updated>
+    <author><name>LessWrong</name></author>
     <category term="AI SECURITY"/>
-    <summary>CrowdStrike's $44 billion acquisition of Zscaler would unite endpoint protection and zero-trust network security to obtain greater control over AI agents.</summary>
+    <summary>TL;DR: Getting a single refusal into the context of a jailbroken model partially negates the jailbreak on Llama (compliance with harmful tasks falls from 93% to 58%) but not Qwen (52% to 51%) and this is not notably affected by the details of the refusal e.g. on policy or off policy. Telling the models the prior turns </summary>
   </entry>
   <entry>
     <title>GLM-5.4: Toward Generalized Coding with Our First Loop Transformer</title>
@@ -178,6 +205,15 @@
     <summary>GLM-5.4: Toward Generalized Coding with Our First Loop Transformer GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this: In a standard Transformer, each layer runs once per forward pass. In a Loop Transformer, a group of weight</summary>
   </entry>
   <entry>
+    <title>SoftBank acquires Marc Raibert’s Robotics and AI Institute</title>
+    <link href="https://www.therobotreport.com/softbank-acquires-marc-raiberts-robotics-and-ai-institute"/>
+    <id>https://www.therobotreport.com/softbank-acquires-marc-raiberts-robotics-and-ai-institute</id>
+    <updated>2026-11-24T14:48:57.000Z</updated>
+    <author><name>The Robot Report</name></author>
+    <category term="ROBOTICS"/>
+    <summary>SoftBank has completed its acquisition of the Robotics and AI Institute from Hyundai Motor Group, expanding its robotics portfolio as the research organization looks to fill 24 open positions in Massachusetts and Switzerland. The post SoftBank acquires Marc Raibert’s Robotics and AI Institute appeared first on The Robo</summary>
+  </entry>
+  <entry>
     <title>Pasqal Leads European Defence Fund Project on Fault-Tolerant Quantum Computing</title>
     <link href="https://thequantuminsider.com/2026/11/24/pasqal-leads-european-defence-fund-project-fault-tolerant-quantum-computing"/>
     <id>https://thequantuminsider.com/2026/11/24/pasqal-leads-european-defence-fund-project-fault-tolerant-quantum-computing</id>
@@ -187,13 +223,13 @@
     <summary>Insider Brief PRESS RELEASE — Pasqal (Nasdaq: PSQL), a global leader in neutral-atom quantum computing, today announced the public launch of CoPaNA (Concatenated Parity codes on Neutral Atoms), a three-year research project selected under the European Defence Fund (EDF) 2025 call and coordinated by Pasqal. Together wit</summary>
   </entry>
   <entry>
-    <title>ollama v0.40.18 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.18"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.18</id>
-    <updated>2026-11-24T08:27:44.000Z</updated>
-    <author><name>ollama/ollama</name></author>
+    <title>Anthropic researcher stands by his AI-assisted Riemann proof but owns up to &quot;stupid things&quot; in the rollout</title>
+    <link href="https://the-decoder.com/anthropic-researcher-stands-by-his-ai-assisted-riemann-proof-but-owns-up-to-stupid-things-in-the-rollout"/>
+    <id>https://the-decoder.com/anthropic-researcher-stands-by-his-ai-assisted-riemann-proof-but-owns-up-to-stupid-things-in-the-rollout</id>
+    <updated>2026-11-24T14:28:41.000Z</updated>
+    <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>What's Changed mlx: fuse Inkling residual mixing on Metal by @dhiltgen in #19808 mlxrunner: share tensor helpers and model setup across architectures by @jaingaurav in #19805 llama.cpp: version bump b12651 + remove jetpack5 support by @pdevine in #19865 inkling2: faster Metal decode, prefill and draft rounds by @dhiltg</summary>
+    <summary>Anthropic researcher Levent Alpöge is walking back parts of his announcement of an AI-assisted proof of the generalized Riemann hypothesis. The claim that it ran to more than 250,000 pages was a joke, he says, and the published Lean code is &quot;full of garbage.&quot; He still stands by the math. The article Anthropic researche</summary>
   </entry>
   <entry>
     <title>The OpenClaw Foundation launches ShellBench to test 13 frontier AI models across five harnesses on 100 tasks; top AI models hit only a ~60% completion rate (Nat Rubio-Licht/The Deep View)</title>
@@ -205,15 +241,6 @@
     <summary>Nat Rubio-Licht / The Deep View : The OpenClaw Foundation launches ShellBench to test 13 frontier AI models across five harnesses on 100 tasks; top AI models hit only a ~60% completion rate — Though agents have become a massive part of the enterprise AI conversation, new research suggests that these systems aren't alwa</summary>
   </entry>
   <entry>
-    <title>Arianespace's Ariane 6 rocket launches 36 Amazon Leo satellites from ESA's spaceport in French Guiana, its fourth Amazon mission and the rocket's 10th flight (Summer Maxwell/Bloomberg)</title>
-    <link href="https://www.techmeme.com/261124/p15"/>
-    <id>https://www.techmeme.com/261124/p15</id>
-    <updated>2026-11-24T12:35:00.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Summer Maxwell / Bloomberg : Arianespace's Ariane 6 rocket launches 36 Amazon Leo satellites from ESA's spaceport in French Guiana, its fourth Amazon mission and the rocket's 10th flight — A European rocket blasted off Tuesday carrying 36 satellites for Amazon.com Inc.'s orbital communications network …</summary>
-  </entry>
-  <entry>
     <title>b12672: metal : add NVFP4 support (#32825)</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12672"/>
     <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12672</id>
@@ -223,22 +250,22 @@
     <summary>metal : add NVFP4 support Follow the MXFP4 path: add the UE4M3 scale decode, the NVFP4 dequantizers, a dedicated mat-vec kernel with its MUL_MAT_ID, small-batch and MMA variants, the mul_mm / mul_mm_id and tensor-op variants, and the get_rows and cpy kernels. Enable the type in supports_op. Tested on an M5 Max with ggm</summary>
   </entry>
   <entry>
-    <title>Behind Binance Hack, a Reckoning Over Who Controls Crypto</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-24/behind-binance-hack-a-reckoning-over-who-controls-crypto"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-24/behind-binance-hack-a-reckoning-over-who-controls-crypto</id>
-    <updated>2026-11-24T13:00:07.000Z</updated>
+    <title>Shenzhen conquered tech, now it wants culture</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-11-24/shenzhen-conquered-tech-now-it-wants-culture-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-11-24/shenzhen-conquered-tech-now-it-wants-culture-video</id>
+    <updated>2026-11-24T14:38:18.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>As North Korean cyberthieves were funneling billions out of Binance last month, the world’s largest crypto exchange looked to two other companies to help stop the bleeding: Tether and Circle.</summary>
+    <summary>Shenzhen grew rich manufacturing electric cars, drones, and smartphones. Now China’s tech capital is spending billions on building a cultural scene. Backed by tech billionaires like Tencent’s Pony Ma, the city is racing to reinvent itself as a global cultural hub. (Source: Bloomberg)</summary>
   </entry>
   <entry>
-    <title>Fund With $21 Billion Favors Africa Local Bonds, Adds to Uganda Bet</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-24/fund-with-21-billion-favors-africa-local-bonds-adds-to-uganda-bet"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-24/fund-with-21-billion-favors-africa-local-bonds-adds-to-uganda-bet</id>
-    <updated>2026-11-24T12:26:19.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
+    <title>US tech stocks slide as Jensen Huang return rally fades</title>
+    <link href="https://www.ft.com/content/c0cb932a-076e-4471-8009-91749fde5f47?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/c0cb932a-076e-4471-8009-91749fde5f47?syn-25a6b1a6=1</id>
+    <updated>2026-11-24T14:52:33.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
     <category term="AI FINANCE"/>
-    <summary>A currency rout that wiped 8% off the value of Uganda’s shilling last month rattled some investors, but failed to deter a $21 billion money manager.</summary>
+    <summary>Shares in Anthropic dip below IPO price as investor relief over reinstatement of Nvidia co-founder subsides</summary>
   </entry>
   <entry>
     <title>From Point Clouds to Engineering Models: Benchmarking Agentic 3D Reconstruction in the Built Environment</title>
@@ -248,32 +275,5 @@
     <author><name>arXiv cs.AI</name></author>
     <category term="RESEARCH"/>
     <summary>arXiv:2611.28197v1 Announce Type: new Abstract: Coding agents can translate 3D measurements into CAD geometry, but reconstructing engineering models for the built environment demands semantic interpretation and consistent construction constraints beyond surface fitting. We formulate scene-level Scan-to-BIM (Building In</summary>
-  </entry>
-  <entry>
-    <title>WISP: Composable Representations for Wrist-Worn Activity Recognition</title>
-    <link href="https://arxiv.org/abs/2611.28033"/>
-    <id>https://arxiv.org/abs/2611.28033</id>
-    <updated>2026-11-24T05:00:00.000Z</updated>
-    <author><name>arXiv cs.LG</name></author>
-    <category term="RESEARCH"/>
-    <summary>arXiv:2611.28033v1 Announce Type: new Abstract: Smartwatches and fitness bands are among the most common wearable devices, and large national health studies record movement at the wrist. Yet existing human activity recognition benchmarks mix sensors worn on different parts of the body, so they do not show how well acti</summary>
-  </entry>
-  <entry>
-    <title>QuEra Joins Genesis Mission Effort to Reduce Quantum Error Correction Overhead</title>
-    <link href="https://www.hpcwire.com/off-the-wire/quera-joins-genesis-mission-effort-to-reduce-quantum-error-correction-overhead"/>
-    <id>https://www.hpcwire.com/off-the-wire/quera-joins-genesis-mission-effort-to-reduce-quantum-error-correction-overhead</id>
-    <updated>2026-11-24T14:00:49.000Z</updated>
-    <author><name>HPC Wire</name></author>
-    <category term="HARDWARE"/>
-    <summary>The ASQC project, one of 12 Phase II awards under the Department of Energy’s Genesis Mission, will test AI-designed codes and decoders on hardware at QuEra, Harvard, and MIT. BOSTON, Nov. 24, 2026 — QuEra Computing has announced that it is a collaborating partner in ASQC (Application-Aware Error Correction Codesign for</summary>
-  </entry>
-  <entry>
-    <title>Samsung just launched a gaming monitor with a refresh rate higher than its price — dual-mode Odyssey G60H offers 1,100 Hz in HD</title>
-    <link href="https://www.tomshardware.com/monitors/gaming-monitors/samsung-just-launched-a-gaming-monitor-with-a-refresh-rate-higher-than-its-price-dual-mode-odyssey-g60h-offers-1-100-hz-in-hd"/>
-    <id>https://www.tomshardware.com/monitors/gaming-monitors/samsung-just-launched-a-gaming-monitor-with-a-refresh-rate-higher-than-its-price-dual-mode-odyssey-g60h-offers-1-100-hz-in-hd</id>
-    <updated>2026-11-24T13:12:57.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
-    <category term="HARDWARE"/>
-    <summary>Samsung's newly launched Odyssey G60H display is targeted squarely at serious competitive gamers with QHD 600Hz and HD 1100HZ display modes.</summary>
   </entry>
 </feed>
