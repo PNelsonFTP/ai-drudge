@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-24T04:23:19.010Z</updated>
+  <updated>2026-11-24T07:06:57.150Z</updated>
   <entry>
     <title>Nvidia CEO Jensen Huang is back. What happens next?</title>
     <link href="https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang"/>
@@ -16,13 +16,13 @@
     <summary>After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, after The New York Times reported there was evidence of another affair, this time with an Nvidia executive who reported di — Also covered by: Wired AI, EE Times</summary>
   </entry>
   <entry>
-    <title>llama.cpp b12669 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12669"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12669</id>
-    <updated>2026-11-24T02:43:24.000Z</updated>
+    <title>llama.cpp b12671 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12671"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12671</id>
+    <updated>2026-11-24T07:06:34.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>quantize: add option to automatically choose optimal quant types to reach a file/bpw target size at lowest error ( #15550 ) Refactor pareto optimise and convexify Refactor lagrange_penalty() Refactor quantisation checks into its own function Exit loop if no better solution found Replace slope with cross product Adjust  — Also covered by: ggml-org/whisper.cpp</summary>
+    <summary>metal : batch concat rows and copy them in vector chunks ( #32824 ) metal : batch concat rows and copy them in vector chunks The concat kernel copied one element per thread, so wide rows with many rows ran at a fraction of the memory bandwidth. Batch several rows per threadgroup and copy the contiguous dim-0 elements i — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
     <title>OpenAI and Cisco introduce Shirudo</title>
@@ -34,13 +34,13 @@
     <summary>OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.</summary>
   </entry>
   <entry>
-    <title>claude-code v2.1.331 released</title>
-    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.331"/>
-    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.331</id>
-    <updated>2026-11-23T21:34:41.000Z</updated>
-    <author><name>anthropics/claude-code</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>What's changed Added Code Mode support in terminal sessions on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude Platform on AWS Added oidc.groups_jsonpath to the Claude apps gateway, to read groups from the matching entries of a list of objects with a small subset of JSONPath (RFC 9535) Added — Also covered by: QwenLM/qwen-code</summary>
+    <title>Emerging Market Stocks Rally as Huang’s Return Revives AI Trade</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-24/emerging-market-stocks-rally-as-huang-s-return-revives-ai-trade"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-24/emerging-market-stocks-rally-as-huang-s-return-revives-ai-trade</id>
+    <updated>2026-11-24T06:26:44.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Emerging-market stocks rallied the most since July as investors snapped up artificial intelligence shares after Jensen Huang’s return to lead Nvidia Corp. — Also covered by: Reuters AI (Google News)</summary>
   </entry>
   <entry>
     <title>Supertake raises $20M to let AI agents turn your market predictions into stock portfolios</title>
@@ -50,6 +50,15 @@
     <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
     <summary>Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself.</summary>
+  </entry>
+  <entry>
+    <title>claude-code v2.1.331 released</title>
+    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.331"/>
+    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.331</id>
+    <updated>2026-11-23T21:34:41.000Z</updated>
+    <author><name>anthropics/claude-code</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>What's changed Added Code Mode support in terminal sessions on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude Platform on AWS Added oidc.groups_jsonpath to the Claude apps gateway, to read groups from the matching entries of a list of objects with a small subset of JSONPath (RFC 9535) Added — Also covered by: QwenLM/qwen-code</summary>
   </entry>
   <entry>
     <title>Jensen is back</title>
@@ -80,57 +89,39 @@
   </entry>
   <entry>
     <title>RoboTrack: Point tracking for real-world robotic manipulation</title>
-    <link href="https://huggingface.co/blog/allenai/robotrack"/>
-    <id>https://huggingface.co/blog/allenai/robotrack</id>
-    <updated>2026-11-23T17:20:37.000Z</updated>
-    <author><name>Hugging Face Blog</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Also covered by: Ai2 (Allen Institute)</summary>
+    <link href="https://allenai.org/blog/robotrack"/>
+    <id>https://allenai.org/blog/robotrack</id>
+    <updated>2026-11-23T08:00:00.000Z</updated>
+    <author><name>Ai2 (Allen Institute)</name></author>
+    <category term="RESEARCH"/>
+    <summary>RoboTrack introduces a new benchmark, synthetic training dataset, and two models that improve how robots track objects during real-world manipulation tasks. — Also covered by: Hugging Face Blog</summary>
   </entry>
   <entry>
-    <title>Comparing AI R&amp;D compute caps and deployment lags</title>
-    <link href="https://www.lesswrong.com/posts/e758PJCpwAwyodvEj/comparing-ai-r-and-d-compute-caps-and-deployment-lags"/>
-    <id>https://www.lesswrong.com/posts/e758PJCpwAwyodvEj/comparing-ai-r-and-d-compute-caps-and-deployment-lags</id>
-    <updated>2026-11-24T02:23:44.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>I’m publishing this a bit rougher than usual because it’s very pertinent to Evan Hubinger’s recent shortform , which advocates for blocking internal deployment as a pacing mechanism over compute reallocation (he mostly discusses it in the context of a risk-assessment-based regime, while this post discusses the policies — Also covered by: AI Alignment Forum</summary>
+    <title>The Path Ahead as Jensen Huang Returns as Nvidia’s CEO</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-11-24/the-path-ahead-as-jensen-huang-returns-as-nvidia-s-ceo-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-11-24/the-path-ahead-as-jensen-huang-returns-as-nvidia-s-ceo-video</id>
+    <updated>2026-11-24T05:02:43.000Z</updated>
+    <author><name>Bloomberg Tech</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Less than two weeks after Jensen Huang left Nvidia under the cloud of scandal, he is reclaiming the titles of president and chief executive officer. The board reinstated Jensen Huang as head of the world’s largest chipmaker in one of the most startling corporate comebacks in history, sending the stock on its biggest ra — Also covered by: Tom's Hardware</summary>
   </entry>
   <entry>
-    <title>ollama v0.40.18 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.18-rc0"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.18-rc0</id>
-    <updated>2026-11-24T04:18:13.000Z</updated>
-    <author><name>ollama/ollama</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>What's Changed mlx: fuse Inkling residual mixing on Metal by @dhiltgen in #19808 mlxrunner: share tensor helpers and model setup across architectures by @jaingaurav in #19805 llama.cpp: version bump b12651 + remove jetpack5 support by @pdevine in #19865 inkling2: faster Metal decode, prefill and draft rounds by @dhiltg</summary>
-  </entry>
-  <entry>
-    <title>OpenAI and Cisco launch Shirudo, an open-source runtime that helps teams protect running Linux systems without a reboot while they roll out patches (Mike Wheatley/SiliconANGLE)</title>
-    <link href="https://www.techmeme.com/261123/p54"/>
-    <id>https://www.techmeme.com/261123/p54</id>
-    <updated>2026-11-24T04:15:00.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Meta launches Muse in UK – the AI agent that can do your Christmas shopping</title>
+    <link href="https://www.theguardian.com/technology/2026/nov/24/meta-launches-muse-uk-ai-agent-do-christmas-shopping"/>
+    <id>https://www.theguardian.com/technology/2026/nov/24/meta-launches-muse-uk-ai-agent-do-christmas-shopping</id>
+    <updated>2026-11-24T06:00:07.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Mike Wheatley / SiliconANGLE : OpenAI and Cisco launch Shirudo, an open-source runtime that helps teams protect running Linux systems without a reboot while they roll out patches — Cybercriminals have gained the ability to discover vulnerabilities in software and take advantage of them in seconds, and it's all thanks t</summary>
+    <summary>Users can give agents tasks such as booking travel or buying presents, but glitches have been reported Want to avoid the Christmas shopping hordes? Then let your AI agent do it. Mark Zuckerberg’s Meta is launching its Muse AI assistant in the UK and is encouraging users to let it loose on their apps – and the high stre</summary>
   </entry>
   <entry>
-    <title>Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes</title>
-    <link href="https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes"/>
-    <id>https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes</id>
-    <updated>2026-11-23T22:05:50.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.</summary>
-  </entry>
-  <entry>
-    <title>Shares in Chinese Cobalt Producers Jump After Congo Bans Exports</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-24/shares-in-chinese-cobalt-producers-jump-after-congo-bans-exports"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-24/shares-in-chinese-cobalt-producers-jump-after-congo-bans-exports</id>
-    <updated>2026-11-24T03:17:56.000Z</updated>
+    <title>South Korea Considers Potential $3 Billion Dollar Bond Sale</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-24/south-korea-considers-potential-3-billion-dollar-bond-sale"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-24/south-korea-considers-potential-3-billion-dollar-bond-sale</id>
+    <updated>2026-11-24T06:20:31.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Shares in Chinese cobalt producers surged after the Democratic Republic of Congo slapped an export ban on the battery metal from the end of the month in a bid to arrest a price decline.</summary>
+    <summary>South Korea is considering issuing potentially about $3 billion of dollar-denominated notes in January.</summary>
   </entry>
   <entry>
     <title>GLM-5.4: Toward Generalized Coding with Our First Loop Transformer</title>
@@ -142,13 +133,22 @@
     <summary>GLM-5.4: Toward Generalized Coding with Our First Loop Transformer GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this: In a standard Transformer, each layer runs once per forward pass. In a Loop Transformer, a group of weight</summary>
   </entry>
   <entry>
-    <title>Inkling 1.9x faster inference + Training</title>
-    <link href="https://github.com/unslothai/unsloth/releases/tag/v0.1.923-beta"/>
-    <id>https://github.com/unslothai/unsloth/releases/tag/v0.1.923-beta</id>
-    <updated>2026-11-24T02:30:56.000Z</updated>
-    <author><name>unslothai/unsloth</name></author>
+    <title>Hammerspace Benchmarks Tier 0 Storage at SC26 Without a Separate Storage Cluster</title>
+    <link href="https://www.hpcwire.com/off-the-wire/hammerspace-benchmarks-tier-0-storage-at-sc26-without-a-separate-storage-cluster"/>
+    <id>https://www.hpcwire.com/off-the-wire/hammerspace-benchmarks-tier-0-storage-at-sc26-without-a-separate-storage-cluster</id>
+    <updated>2026-11-23T19:25:04.000Z</updated>
+    <author><name>HPC Wire</name></author>
     <category term="HARDWARE"/>
-    <summary>Inkling 2 Mini runs up to 1.9x faster on all GPUs for decoding + RTX Spark improvements. Also new: faster GRPO and AsyncGRPO training, Qwen-Image-Flash and FastWan, a Knowledge page in Settings and audio, subtitle and image translation. Highlights Inkling 2 Mini on 8 to 12 GB GPUs up to 1.9x faster decoding guide Fine-</summary>
+    <summary>REDWOOD CITY, Calif., Nov. 23, 2026 — Hammerspace today announced the company’s new performance on the IO500 10-Node Research list. In the SC26 submission, Hammerspace achieved an IO500 score of 688.01, delivering 449.86 GiB/s of bandwidth and 1,052.21 kIOP/s of metadata performance using standards-based Linux parallel</summary>
+  </entry>
+  <entry>
+    <title>OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching</title>
+    <link href="https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html"/>
+    <id>https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html</id>
+    <updated>2026-11-24T06:02:57.000Z</updated>
+    <author><name>The Hacker News</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>OpenAI and Cisco have teamed up to launch Shirudo (meaning &quot;shield&quot; in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime. &quot;It lets agents write dynamic eBPF controls to shield systems from exploits, giving defenders more time to test and roll out </summary>
   </entry>
   <entry>
     <title>CrowdStrike to purchase Zscaler for $43.9 billion</title>
@@ -169,15 +169,6 @@
     <summary>CrowdStrike's $44 billion acquisition of Zscaler would unite endpoint protection and zero-trust network security to obtain greater control over AI agents.</summary>
   </entry>
   <entry>
-    <title>Hackers breach Austrian Foreign Ministry website, access diplomats' contact details</title>
-    <link href="https://therecord.media/austrian-foreign-ministry-says-website-hacked"/>
-    <id>https://therecord.media/austrian-foreign-ministry-says-website-hacked</id>
-    <updated>2026-11-24T00:00:00.000Z</updated>
-    <author><name>The Record</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>Austria's Foreign Ministry said late last week that hackers breached one of its websites and accessed the names and official contact information of employees at its Vienna headquarters and at Austria’s diplomatic missions abroad.</summary>
-  </entry>
-  <entry>
     <title>Anthropic's appetite for compute is pushing xAI toward a rent-over-build strategy</title>
     <link href="https://the-decoder.com/anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy"/>
     <id>https://the-decoder.com/anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy</id>
@@ -185,6 +176,15 @@
     <author><name>The Decoder</name></author>
     <category term="FUNDING &amp; DEALS"/>
     <summary>Since May, SpaceXSI has been renting compute to competitors like Anthropic and Google while scaling back its own AI projects. Anthropic pays about $3.1 billion a month, Google $800 million, the New York Times reports. After its June IPO, SpaceXSI disbanded the 60-person Grok Imagine team, among other cuts. The article </summary>
+  </entry>
+  <entry>
+    <title>datasette-charts 0.2a0</title>
+    <link href="https://simonwillison.net/2026/Nov/24/datasette-charts"/>
+    <id>https://simonwillison.net/2026/Nov/24/datasette-charts</id>
+    <updated>2026-11-24T04:24:29.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="ANALYSIS"/>
+    <summary>Release: datasette-charts 0.2a0 I introduced this new charting plugin for Datasette yesterday . Today it's gained integration with Datasette Agent , so now you can ask chat for a chart and it will create one for you using the same underlying chart suggestion and generation tools. Here's a demo video, recorded on agent. — Also covered by: Simon Willison</summary>
   </entry>
   <entry>
     <title>Nvidia rejoices at Jensen Huang’s second coming as White House takes victory lap</title>
@@ -205,31 +205,66 @@
     <summary>Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.</summary>
   </entry>
   <entry>
-    <title>b12670: ggml: compact bias on the existing FLASH_ATTN_EXT (#32740)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12670"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12670</id>
-    <updated>2026-11-23T17:17:11.000Z</updated>
+    <title>ollama v0.40.18 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.18-rc0"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.18-rc0</id>
+    <updated>2026-11-24T04:18:13.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>What's Changed mlx: fuse Inkling residual mixing on Metal by @dhiltgen in #19808 mlxrunner: share tensor helpers and model setup across architectures by @jaingaurav in #19805 llama.cpp: version bump b12651 + remove jetpack5 support by @pdevine in #19865 inkling2: faster Metal decode, prefill and draft rounds by @dhiltg</summary>
+  </entry>
+  <entry>
+    <title>Introducing Muse in the UK: A Personal AI Agent You Control</title>
+    <link href="https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control"/>
+    <id>https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control</id>
+    <updated>2026-11-24T06:00:40.000Z</updated>
+    <author><name>Meta AI Blog</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Muse is now in the UK: a personal AI agent that doesn't just answer questions, but one that you can task to get things done on your behalf The post Introducing Muse in the UK: A Personal AI Agent You Control appeared first on Meta Newsroom .</summary>
+  </entry>
+  <entry>
+    <title>OpenAI and Cisco launch Shirudo, an open-source runtime that helps teams protect running Linux systems without a reboot while they roll out patches (Mike Wheatley/SiliconANGLE)</title>
+    <link href="https://www.techmeme.com/261123/p54"/>
+    <id>https://www.techmeme.com/261123/p54</id>
+    <updated>2026-11-24T04:15:00.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Mike Wheatley / SiliconANGLE : OpenAI and Cisco launch Shirudo, an open-source runtime that helps teams protect running Linux systems without a reboot while they roll out patches — Cybercriminals have gained the ability to discover vulnerabilities in software and take advantage of them in seconds, and it's all thanks t</summary>
+  </entry>
+  <entry>
+    <title>Kate Bush and Grace Jones urge Australian government not to legalise AI ‘theft’</title>
+    <link href="https://www.theguardian.com/technology/2026/nov/24/kate-bush-grace-jones-australian-artists-copyright-law-ai"/>
+    <id>https://www.theguardian.com/technology/2026/nov/24/kate-bush-grace-jones-australian-artists-copyright-law-ai</id>
+    <updated>2026-11-24T05:58:15.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Singers among 7,000 artists and creatives urging Labor to protect copyright law in face of lobbying from AI companies Get our breaking news email , free app or daily news podcast Kate Bush, Grace Jones and Sir Ian Rankin have joined 7,000 artists and creatives around the world pleading for the Australian government not</summary>
+  </entry>
+  <entry>
+    <title>b12672: metal : add NVFP4 support (#32825)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12672"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12672</id>
+    <updated>2026-11-23T19:02:30.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>compact bias on the existing FLASH_ATTN_EXT for CUDA, ROCm and Vulkan fixup! compact bias on the existing FLASH_ATTN_EXT for CUDA, ROCm and Vulkan remove the Vulkan support from this PR move the CUDA/HIP and Inkling 2 graph changes out of this PR CPU reference implementation of the indexed bias move the indexed bias te</summary>
+    <summary>metal : add NVFP4 support Follow the MXFP4 path: add the UE4M3 scale decode, the NVFP4 dequantizers, a dedicated mat-vec kernel with its MUL_MAT_ID, small-batch and MMA variants, the mul_mm / mul_mm_id and tensor-op variants, and the get_rows and cpy kernels. Enable the type in supports_op. Tested on an M5 Max with ggm</summary>
   </entry>
   <entry>
-    <title>Inside the ‘war room’ that lobbied Trump to bring back ousted tech boss</title>
-    <link href="https://www.ft.com/content/82d3be02-8ac7-4acb-aefa-6e3722ee05cc?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/82d3be02-8ac7-4acb-aefa-6e3722ee05cc?syn-25a6b1a6=1</id>
-    <updated>2026-11-23T22:46:14.000Z</updated>
+    <title>German industrial giants launch trading house for rare earths</title>
+    <link href="https://www.ft.com/content/bfcb8ee8-97cc-4ef0-8234-3a8da0d3a814?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/bfcb8ee8-97cc-4ef0-8234-3a8da0d3a814?syn-25a6b1a6=1</id>
+    <updated>2026-11-24T06:00:05.000Z</updated>
     <author><name>FT Artificial Intelligence</name></author>
     <category term="AI FINANCE"/>
-    <summary>Silicon Valley titans enlisted US president and JD Vance to rescue the billionaire tech boss whom they viewed as critical for the AI industry</summary>
+    <summary>Also in this newsletter: Europe’s underused playing card on AI</summary>
   </entry>
   <entry>
-    <title>Australia Bonds Set for Longest Rally Since June on RBA Cut Bets</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-24/australia-bonds-set-for-longest-rally-since-june-on-rba-cut-bets"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-24/australia-bonds-set-for-longest-rally-since-june-on-rba-cut-bets</id>
-    <updated>2026-11-24T04:06:12.000Z</updated>
+    <title>FTSE 100 Live: UK Stocks Set to Join Global Stocks Rally</title>
+    <link href="https://www.bloomberg.com/news/live-blog/2026-11-24/ftse-100-live-updates-pound-gilts-gold-prices-uk-retail-sales-nvidia-ai-stocks-jensen-huang-trump-iran-what-s-moving-uk-markets-right-now-markets-today-mwucfxwp"/>
+    <id>https://www.bloomberg.com/news/live-blog/2026-11-24/ftse-100-live-updates-pound-gilts-gold-prices-uk-retail-sales-nvidia-ai-stocks-jensen-huang-trump-iran-what-s-moving-uk-markets-right-now-markets-today-mwucfxwp</id>
+    <updated>2026-11-24T06:58:48.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Australia’s bond market is heading for its longest rally in over five months as mounting signs of economic weakness fuel bets the Reserve Bank’s next move will be an interest-rate cut.</summary>
   </entry>
   <entry>
     <title>Anthropic Launches Claude Ship for GitHub Pull Request Review and Fixes</title>
@@ -239,41 +274,5 @@
     <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
     <summary>Anthropic's Claude Ship bundles Code Review, PR Steward and Claude Approvals to review, fix and approve GitHub pull requests. Code Review is GA; the other 2 agents are in public beta for Team and Enterprise. The post Anthropic Launches Claude Ship for GitHub Pull Request Review and Fixes appeared first on MarkTechPost </summary>
-  </entry>
-  <entry>
-    <title>Z.ai follows OpenAI into loop transformer territory with its new 750B flagship model</title>
-    <link href="https://the-decoder.com/z-ai-follows-openai-into-loop-transformer-territory-with-its-new-750b-flagship-model"/>
-    <id>https://the-decoder.com/z-ai-follows-openai-into-loop-transformer-territory-with-its-new-750b-flagship-model</id>
-    <updated>2026-11-23T15:13:03.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="RESEARCH"/>
-    <summary>Z.ai is moving its flagship GLM-5.4 model to a loop architecture in which 28 layers run twice, which the company says lets the 750-billion-parameter model match models with 2 to 3 trillion parameters. Benchmark scores are only available for a smaller 30B test model so far, and Z.ai is positioning GLM-5.4 as the start o</summary>
-  </entry>
-  <entry>
-    <title>Hammerspace Benchmarks Tier 0 Storage at SC26 Without a Separate Storage Cluster</title>
-    <link href="https://www.hpcwire.com/off-the-wire/hammerspace-benchmarks-tier-0-storage-at-sc26-without-a-separate-storage-cluster"/>
-    <id>https://www.hpcwire.com/off-the-wire/hammerspace-benchmarks-tier-0-storage-at-sc26-without-a-separate-storage-cluster</id>
-    <updated>2026-11-23T19:25:04.000Z</updated>
-    <author><name>HPC Wire</name></author>
-    <category term="HARDWARE"/>
-    <summary>REDWOOD CITY, Calif., Nov. 23, 2026 — Hammerspace today announced the company’s new performance on the IO500 10-Node Research list. In the SC26 submission, Hammerspace achieved an IO500 score of 688.01, delivering 449.86 GiB/s of bandwidth and 1,052.21 kIOP/s of metadata performance using standards-based Linux parallel</summary>
-  </entry>
-  <entry>
-    <title>crewAI v1.15.45 released</title>
-    <link href="https://github.com/crewAIInc/crewAI/releases/tag/1.15.45"/>
-    <id>https://github.com/crewAIInc/crewAI/releases/tag/1.15.45</id>
-    <updated>2026-11-24T03:54:54.000Z</updated>
-    <author><name>crewAIInc/crewAI</name></author>
-    <category term="HARDWARE"/>
-    <summary>What's Changed Features Add ability to save HTML or markdown output as a PDF artifact. Bug Fixes Fix dependency issue by bumping e2b for Python &gt;=3.11 to pull patched wcmatch. Wrap file-like inputs in normalize_input_files . Reject negative checkpoint prune retention counts. Report MongoDB tool's real environment varia</summary>
-  </entry>
-  <entry>
-    <title>Researchers Are Using Meta’s Open-Weight AI Models to Transform Medicine</title>
-    <link href="https://about.fb.com/news/2026/11/researchers-using-meta-open-weight-ai-models-medical-breakthroughs"/>
-    <id>https://about.fb.com/news/2026/11/researchers-using-meta-open-weight-ai-models-medical-breakthroughs</id>
-    <updated>2026-11-23T18:00:01.000Z</updated>
-    <author><name>Meta AI Blog</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>We brought researchers together for the Open Source AI For Science Summit, where they shared how they’re using AI to accelerate scientific discovery. The post Researchers Are Using Meta’s Open-Weight AI Models to Transform Medicine appeared first on Meta Newsroom .</summary>
   </entry>
 </feed>
