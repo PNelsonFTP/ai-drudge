@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-24T12:41:12.802Z</updated>
+  <updated>2026-11-24T13:08:39.747Z</updated>
   <entry>
     <title>Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own</title>
     <link href="https://the-decoder.com/anthropics-claude-ship-lets-ai-agents-review-fix-and-approve-pull-requests-on-their-own"/>
@@ -32,15 +32,6 @@
     <author><name>OpenAI News</name></author>
     <category term="MODEL RELEASES"/>
     <summary>OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.</summary>
-  </entry>
-  <entry>
-    <title>GLM-5.4: Toward Generalized Coding with Our First Loop Transformer</title>
-    <link href="https://simonwillison.net/2026/Nov/23/glm-54"/>
-    <id>https://simonwillison.net/2026/Nov/23/glm-54</id>
-    <updated>2026-11-23T23:40:49.000Z</updated>
-    <author><name>Simon Willison</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>GLM-5.4: Toward Generalized Coding with Our First Loop Transformer GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this: In a standard Transformer, each layer runs once per forward pass. In a Loop Transformer, a group of weight</summary>
   </entry>
   <entry>
     <title>claude-code v2.1.331 released</title>
@@ -98,12 +89,12 @@
   </entry>
   <entry>
     <title>RoboTrack: Point tracking for real-world robotic manipulation</title>
-    <link href="https://huggingface.co/blog/allenai/robotrack"/>
-    <id>https://huggingface.co/blog/allenai/robotrack</id>
-    <updated>2026-11-23T17:20:37.000Z</updated>
-    <author><name>Hugging Face Blog</name></author>
+    <link href="https://allenai.org/blog/robotrack"/>
+    <id>https://allenai.org/blog/robotrack</id>
+    <updated>2026-11-23T08:00:00.000Z</updated>
+    <author><name>Ai2 (Allen Institute)</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Also covered by: Ai2 (Allen Institute)</summary>
+    <summary>RoboTrack introduces a new benchmark, synthetic training dataset, and two models that improve how robots track objects during real-world manipulation tasks. — Also covered by: Hugging Face Blog</summary>
   </entry>
   <entry>
     <title>Arianespace's Ariane 6 rocket launches 36 Amazon Leo satellites from ESA's spaceport in French Guiana, its fourth Amazon mission and the rocket's 10th flight (Summer Maxwell/Bloomberg)</title>
@@ -151,13 +142,13 @@
     <summary>inkling2: faster Metal decode, prefill and draft rounds Add Inkling-only Metal kernels, each with a stock-graph fallback, gated by GPU generation and size class: short BF16 products, deduplicated NVFP4/MXFP8 expert gathers with fused SwiGLU, fused loop controllers and residual mixing, relative-position split attention,</summary>
   </entry>
   <entry>
-    <title>OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching</title>
-    <link href="https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html"/>
-    <id>https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html</id>
-    <updated>2026-11-24T06:02:57.000Z</updated>
+    <title>Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap</title>
+    <link href="https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html"/>
+    <id>https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html</id>
+    <updated>2026-11-24T12:42:09.000Z</updated>
     <author><name>The Hacker News</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>OpenAI and Cisco have teamed up to launch Shirudo (meaning &quot;shield&quot; in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime. &quot;It lets agents write dynamic eBPF controls to shield systems from exploits, giving defenders more time to test and roll out </summary>
+    <summary>Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it. In March 2026, the hackers who hijacked Trivy, a widely used open-source security scanner, planted malicious code that looked </summary>
   </entry>
   <entry>
     <title>What Counts as Attack Success? Evaluating Harmfulness in Red Teaming LLMs</title>
@@ -178,22 +169,49 @@
     <summary>CrowdStrike's $44 billion acquisition of Zscaler would unite endpoint protection and zero-trust network security to obtain greater control over AI agents.</summary>
   </entry>
   <entry>
-    <title>Ousted BP Chairman Manifold to Join Aggreko Board Amid US IPO</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-24/ousted-bp-chairman-manifold-to-join-aggreko-board-amid-us-ipo"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-24/ousted-bp-chairman-manifold-to-join-aggreko-board-amid-us-ipo</id>
-    <updated>2026-11-24T12:14:38.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>Former BP Plc Chairman Albert Manifold, who was ousted earlier this year, will join the board of power equipment and services firm Aggreko Plc as part of its move to float in the US.</summary>
+    <title>McDonald’s Japan discloses breach exposing customer purchase and location data</title>
+    <link href="https://therecord.media/japan-mcdonalds-cyberattack-breach"/>
+    <id>https://therecord.media/japan-mcdonalds-cyberattack-breach</id>
+    <updated>2026-11-24T13:00:00.000Z</updated>
+    <author><name>The Record</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>McDonald’s Japan disclosed a cybersecurity breach that exposed customers’ purchase histories and mobile device location data.</summary>
   </entry>
   <entry>
-    <title>Finding faster quantum algorithms with agents and formal verification</title>
-    <link href="https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification"/>
-    <id>https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification</id>
-    <updated>2026-11-23T16:59:40.000Z</updated>
-    <author><name>Google DeepMind Blog</name></author>
+    <title>OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching</title>
+    <link href="https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html"/>
+    <id>https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html</id>
+    <updated>2026-11-24T06:02:57.000Z</updated>
+    <author><name>The Hacker News</name></author>
+    <category term="CYBER DEFENSE"/>
+    <summary>OpenAI and Cisco have teamed up to launch Shirudo (meaning &quot;shield&quot; in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime. &quot;It lets agents write dynamic eBPF controls to shield systems from exploits, giving defenders more time to test and roll out </summary>
+  </entry>
+  <entry>
+    <title>A profile of Levent Alpöge, the Anthropic mathematician who found a Riemann hypothesis proof with Claude and held off releasing it until after Anthropic's IPO (Wall Street Journal)</title>
+    <link href="https://www.techmeme.com/261124/p16"/>
+    <id>https://www.techmeme.com/261124/p16</id>
+    <updated>2026-11-24T12:50:00.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>Wall Street Journal : A profile of Levent Alp&amp;ouml;ge, the Anthropic mathematician who found a Riemann hypothesis proof with Claude and held off releasing it until after Anthropic's IPO — Mathematicians tried and failed to crack the Riemann Hypothesis for 167 years. Anthropic's Levent Alp&amp;ouml;ge says he's found a proo</summary>
+  </entry>
+  <entry>
+    <title>GLM-5.4: Toward Generalized Coding with Our First Loop Transformer</title>
+    <link href="https://simonwillison.net/2026/Nov/23/glm-54"/>
+    <id>https://simonwillison.net/2026/Nov/23/glm-54</id>
+    <updated>2026-11-23T23:40:49.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="ANALYSIS"/>
+    <summary>GLM-5.4: Toward Generalized Coding with Our First Loop Transformer GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this: In a standard Transformer, each layer runs once per forward pass. In a Loop Transformer, a group of weight</summary>
+  </entry>
+  <entry>
+    <title>Researchers Fit Quantum Circuits Into a 30 Billion-Parameter AI Model</title>
+    <link href="https://thequantuminsider.com/2026/11/24/researchers-fit-quantum-circuits-into-a-30-billion-parameter-ai-model"/>
+    <id>https://thequantuminsider.com/2026/11/24/researchers-fit-quantum-circuits-into-a-30-billion-parameter-ai-model</id>
+    <updated>2026-11-24T12:23:06.000Z</updated>
+    <author><name>The Quantum Insider</name></author>
     <category term="QUANTUM"/>
-    <summary>Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.</summary>
+    <summary>Insider Brief A quantum computer may one day serve as a computational partner to help chatbots predict what comes next, although scientists caution a lot of work remains. In an experiment, a team of researchers replaced eight layers of a large language model with a compact module that can run on a quantum processor, cu</summary>
   </entry>
   <entry>
     <title>Meta launches Muse in UK – the AI agent that can do your Christmas shopping</title>
@@ -202,16 +220,7 @@
     <updated>2026-11-24T06:00:07.000Z</updated>
     <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Users can give agents tasks such as booking travel or buying presents, but glitches have been reported Want to avoid the Christmas shopping hordes? Then let your AI agent do it. Mark Zuckerberg’s Meta is launching its Muse AI assistant in the UK and is encouraging users to let it loose on their apps – and the high stre</summary>
-  </entry>
-  <entry>
-    <title>Researchers find two separate, unsecured databases exposing 3.5B+ combined records, login credentials, and personal documents; 1.64B relate to Chinese citizens (Wired)</title>
-    <link href="https://www.techmeme.com/261124/p14"/>
-    <id>https://www.techmeme.com/261124/p14</id>
-    <updated>2026-11-24T12:10:02.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Wired : Researchers find two separate, unsecured databases exposing 3.5B+ combined records, login credentials, and personal documents; 1.64B relate to Chinese citizens — A pair of unsecured databases exposed sensitive information about hundreds of millions of people—including data that could let attackers “own” a victi</summary>
+    <summary>Users can give agents tasks such as booking travel or buying presents, but glitches have been reported Have you downloaded Meta’s AI assistant Muse or do you plan to? Want to avoid the Christmas shopping hordes? Then let your AI agent do it. Mark Zuckerberg’s Meta is launching its Muse AI assistant in the UK and is enc</summary>
   </entry>
   <entry>
     <title>b12672: metal : add NVFP4 support (#32825)</title>
@@ -232,13 +241,22 @@
     <summary>Muse is now in the UK: a personal AI agent that doesn't just answer questions, but one that you can task to get things done on your behalf The post Introducing Muse in the UK: A Personal AI Agent You Control appeared first on Meta Newsroom .</summary>
   </entry>
   <entry>
-    <title>China Probes Fourth Politburo Member in Major Leadership Shakeup</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-24/china-probes-politburo-member-and-shanghai-chief-chen-jining"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-24/china-probes-politburo-member-and-shanghai-chief-chen-jining</id>
-    <updated>2026-11-24T11:36:08.000Z</updated>
+    <title>Ousted BP Chairman Manifold to Join Aggreko Board Amid US IPO</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-24/ousted-bp-chairman-manifold-to-join-aggreko-board-amid-us-ipo"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-24/ousted-bp-chairman-manifold-to-join-aggreko-board-amid-us-ipo</id>
+    <updated>2026-11-24T12:14:38.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>China opened an investigation into Chen Jining, a member of the country’s elite Politburo, deepening upheaval in the top leadership as the ruling Communist Party prepares for a reshuffle next year.</summary>
+    <summary>Former BP Plc Chairman Albert Manifold, who was ousted earlier this year, will join the board of power equipment and services firm Aggreko Plc as part of its move to float in the US.</summary>
+  </entry>
+  <entry>
+    <title>DRC Reinstates Cobalt Export Ban</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-11-24/drc-reinstates-cobalt-export-ban-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-11-24/drc-reinstates-cobalt-export-ban-video</id>
+    <updated>2026-11-24T13:00:53.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>World’s top producer of the battery metal says it will ban exports beginning November 30th, in an effort to reverse slumping prices. Bloomberg TV’s Jennifer Zabasajja reports. (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>From Point Clouds to Engineering Models: Benchmarking Agentic 3D Reconstruction in the Built Environment</title>
@@ -257,23 +275,5 @@
     <author><name>arXiv cs.LG</name></author>
     <category term="RESEARCH"/>
     <summary>arXiv:2611.28033v1 Announce Type: new Abstract: Smartwatches and fitness bands are among the most common wearable devices, and large national health studies record movement at the wrist. Yet existing human activity recognition benchmarks mix sensors worn on different parts of the body, so they do not show how well acti</summary>
-  </entry>
-  <entry>
-    <title>Study: most AI deployments derive value by expanding and accelerating output rather than reducing costs, with 80% of 100 AI-built apps automating manual tasks (Anthropic)</title>
-    <link href="https://www.techmeme.com/261124/p12"/>
-    <id>https://www.techmeme.com/261124/p12</id>
-    <updated>2026-11-24T11:40:00.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="HARDWARE"/>
-    <summary>Anthropic : Study: most AI deployments derive value by expanding and accelerating output rather than reducing costs, with 80% of 100 AI-built apps automating manual tasks — How are businesses across the economy adopting AI? What bottlenecks and challenges have they faced?</summary>
-  </entry>
-  <entry>
-    <title>Vehicle-to-Grid: Great Idea or Unrealistic Dream? (Part 2)</title>
-    <link href="https://www.eetimes.com/vehicle-to-grid-great-idea-or-unrealistic-dream-part-2"/>
-    <id>https://www.eetimes.com/vehicle-to-grid-great-idea-or-unrealistic-dream-part-2</id>
-    <updated>2026-11-24T11:53:11.000Z</updated>
-    <author><name>EE Times</name></author>
-    <category term="HARDWARE"/>
-    <summary>Vehicle-to-grid technology promises grid benefits but raises concerns over battery life, charging access, costs, and driver convenience. The post Vehicle-to-Grid: Great Idea or Unrealistic Dream? (Part 2) appeared first on EE Times . — Also covered by: EE Times</summary>
   </entry>
 </feed>
