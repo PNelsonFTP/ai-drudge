@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-24T21:08:36.453Z</updated>
+  <updated>2026-11-24T21:32:27.997Z</updated>
   <entry>
     <title>llama.cpp b12681 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12681"/>
@@ -16,10 +16,19 @@
     <summary>vulkan: support state size 96 in ssm_scan ( #32162 ) vulkan: support state size 96 in ssm_scan Assisted-by: Claude Code vulkan: specialize ssm_scan state size Assisted-by: Codex vulkan: clarify ssm_scan constant names Assisted-by: Codex Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/atte — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
-    <title>Anthropic falls below IPO price as tech rally fades</title>
+    <title>Maple raises $5.3M to build AI products that protect your data, even from itself</title>
+    <link href="https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself"/>
+    <id>https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself</id>
+    <updated>2026-11-24T21:19:52.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic closes below IPO price as tech rally fades</title>
     <link href="https://www.ft.com/content/c0cb932a-076e-4471-8009-91749fde5f47?syn-25a6b1a6=1"/>
     <id>https://www.ft.com/content/c0cb932a-076e-4471-8009-91749fde5f47?syn-25a6b1a6=1</id>
-    <updated>2026-11-24T20:07:51.000Z</updated>
+    <updated>2026-11-24T21:11:37.000Z</updated>
     <author><name>FT Artificial Intelligence</name></author>
     <category term="INDUSTRY NEWS"/>
     <summary>Investor relief over reinstatement of Jensen Huang as Nvidia CEO subsides — Also covered by: The Information</summary>
@@ -96,13 +105,13 @@
     <summary>New York Times : Sources: the CIA and the ODNI recently discovered a cybersecurity breach affecting an open-source intelligence analysis system, exposing some unclassified info — The intrusion affecting the C.I.A. and the Office of the Director of National Intelligence comes amid heightened concerns about cybersecurity</summary>
   </entry>
   <entry>
-    <title>Netflix Buys Seinfeld Studio Lot After Goldman Forecloses</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-24/netflix-buys-seinfeld-la-studio-lot-after-goldman-forecloses"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-24/netflix-buys-seinfeld-la-studio-lot-after-goldman-forecloses</id>
-    <updated>2026-11-24T20:15:34.000Z</updated>
+    <title>Dell Raises AI Server Outlook as Backlog Hits Record $132 Billion | Closing Bell</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-11-24/dell-raises-ai-server-outlook-closing-bell-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-11-24/dell-raises-ai-server-outlook-closing-bell-video</id>
+    <updated>2026-11-24T21:21:25.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Netflix Inc. announced it’s buying Radford Studio Center, the historic Los Angeles lot where Seinfeld was filmed, for $380 million after Goldman Sachs Group Inc. took control of the property.</summary>
+    <summary>Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Carol Massar and Tim Stenovec. (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>transformers v5.24.1 released</title>
@@ -195,13 +204,13 @@
     <summary>Anthropic now lets you install Claude Artifacts as desktop apps on Mac and Windows, and a free account is enough. You build one in chat without writing code, and it can add menu bar items, send notifications, and create transparent windows. The article Anthropic turns Claude Artifacts into standalone desktop apps for m</summary>
   </entry>
   <entry>
-    <title>Sources: Jensen Huang said Nvidia doesn't need a succession plan because it operates a unique business model and such a plan would create unnecessary hierarchy (CNBC)</title>
-    <link href="https://www.techmeme.com/261124/p34"/>
-    <id>https://www.techmeme.com/261124/p34</id>
-    <updated>2026-11-24T20:10:00.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>OpenAI Preps ‘Athena’ Data Tool to Make its Agents More Accurate</title>
+    <link href="https://www.theinformation.com/articles/openai-preps-athena-data-tool-make-agents-accurate"/>
+    <id>https://www.theinformation.com/articles/openai-preps-athena-data-tool-make-agents-accurate</id>
+    <updated>2026-11-24T21:26:01.000Z</updated>
+    <author><name>The Information</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>CNBC : Sources: Jensen Huang said Nvidia doesn't need a succession plan because it operates a unique business model and such a plan would create unnecessary hierarchy — Nvidia CEO Jensen Huang on Tuesday struck a conciliatory and remorseful tone while leading his first employee meeting since being reinstated …</summary>
+    <summary>In its effort to win more business customers, OpenAI this fall launched an agent designed to help firms analyze their data and get answers to internal questions about their business. But at least one customer that has used the agent so far has found it isn’t yet accurate enough for widespread use. That’s a big problem.</summary>
   </entry>
   <entry>
     <title>ollama v0.40.18 released</title>
@@ -222,22 +231,13 @@
     <summary>metal : use a range-reduced log1p for softplus Use the atanh series for x in [-0.5, 1] and precise::log(1 + x) otherwise. This avoids the cancellation in log(1 + exp(x)) for negative inputs and does not rely on fast-math folding of (1 + e) - 1. Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4.1-Flash-1017-GGUF (Mac Stud</summary>
   </entry>
   <entry>
-    <title>LLM agents work for their parent companies, not for you</title>
-    <link href="https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you"/>
-    <id>https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you</id>
-    <updated>2026-11-24T12:40:15.000Z</updated>
-    <author><name>HN: LLM (100+ points)</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Article URL: https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/ Comments URL: https://news.ycombinator.com/item?id=50627340 Points: 796 # Comments: 336</summary>
-  </entry>
-  <entry>
-    <title>FHFA Clears FICO 10T Scores for Fannie Mae and Freddie Mac</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-24/fhfa-clears-fico-10t-scores-for-fannie-mae-and-freddie-mac"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-24/fhfa-clears-fico-10t-scores-for-fannie-mae-and-freddie-mac</id>
-    <updated>2026-11-24T18:48:49.000Z</updated>
+    <title>Netflix Buys Seinfeld Studio Lot After Goldman Forecloses</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-24/netflix-buys-seinfeld-la-studio-lot-after-goldman-forecloses"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-24/netflix-buys-seinfeld-la-studio-lot-after-goldman-forecloses</id>
+    <updated>2026-11-24T20:15:34.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Fannie Mae and Freddie Mac will allow FICO 10T credit scores, the Federal Housing Finance Agency announced Tuesday.</summary>
+    <summary>Netflix Inc. announced it’s buying Radford Studio Center, the historic Los Angeles lot where Seinfeld was filmed, for $380 million after Goldman Sachs Group Inc. took control of the property.</summary>
   </entry>
   <entry>
     <title>Agentic system personalizes physical controls to help users “DJ their art”</title>
@@ -258,21 +258,21 @@
     <summary>Viewing multirobot motion planning as an optimal-transport problem and using a Schrödinger bridge to approximate solutions enables near-optimal routing at fulfillment-center scale.</summary>
   </entry>
   <entry>
-    <title>These are the gifts developers will actually want</title>
-    <link href="https://github.blog/news-insights/company-news/these-are-the-gifts-developers-will-actually-want"/>
-    <id>https://github.blog/news-insights/company-news/these-are-the-gifts-developers-will-actually-want</id>
-    <updated>2026-11-24T16:00:00.000Z</updated>
-    <author><name>GitHub Blog</name></author>
+    <title>Meta launches Muse in UK – the AI agent that can do your Christmas shopping</title>
+    <link href="https://www.theguardian.com/technology/2026/nov/24/meta-launches-muse-uk-ai-agent-do-christmas-shopping"/>
+    <id>https://www.theguardian.com/technology/2026/nov/24/meta-launches-muse-uk-ai-agent-do-christmas-shopping</id>
+    <updated>2026-11-24T14:36:32.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="PRODUCTS"/>
-    <summary>The developer you're shopping for hasn’t shared their holiday wish list with you yet? Check out these gifts, plus our Black Friday discount all week long. The post These are the gifts developers will actually want appeared first on The GitHub Blog .</summary>
+    <summary>Users can give agents tasks such as booking travel or buying presents, but glitches have been reported Have you downloaded Meta’s AI assistant Muse or do you plan to? Want to avoid the Christmas shopping hordes? Then let your AI agent do the shopping for you. Mark Zuckerberg’s Meta is launching its Muse AI assistant in</summary>
   </entry>
   <entry>
-    <title>Your Slurm Workflow Shouldn’t Change When Your Cluster Does</title>
-    <link href="https://wf.coreweave.com/blog/your-slurm-workflow-shouldnt-change-when-your-cluster-does"/>
-    <id>https://wf.coreweave.com/blog/your-slurm-workflow-shouldnt-change-when-your-cluster-does</id>
-    <updated>2026-11-24T19:37:40.000Z</updated>
-    <author><name>CoreWeave Blog</name></author>
-    <category term="HARDWARE"/>
-    <summary>SUNK Anywhere brings CoreWeave's unified training system to GKE. See how to deploy it, connect SkyPilot, and launch the same job on GKE or CoreWeave.</summary>
+    <title>GPT-6 models demonstrate intrinsic protein-design capabilities</title>
+    <link href="https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"/>
+    <id>https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities</id>
+    <updated>2026-11-24T13:00:00.000Z</updated>
+    <author><name>OpenAI Blog</name></author>
+    <category term="PRODUCTS"/>
+    <summary>GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.</summary>
   </entry>
 </feed>
