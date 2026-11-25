@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-25T21:08:40.460Z</updated>
+  <updated>2026-11-25T22:08:45.678Z</updated>
   <entry>
-    <title>llama.cpp b12728 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12728"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12728</id>
-    <updated>2026-11-25T15:23:48.000Z</updated>
+    <title>llama.cpp b12734 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12734"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12734</id>
+    <updated>2026-11-25T09:42:34.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>ggml: allow reserving scratch memory in graph_optimize ( #31898 ) ggml: allow reserving scratch memory in graph_optimize Add add_scratch to ggml_backend_graph_optimize_params. A backend can reserve compute buffer memory that is allocated before a node first and kept until a node last has been computed, e.g. for data th — Also covered by: ggml-org/whisper.cpp</summary>
+    <summary>metal : commit the graph in chunks with one command buffer thread ( #3 … — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
     <title>Where scientists draw the line on AI agents</title>
@@ -23,15 +23,6 @@
     <author><name>Hugging Face Blog</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Also covered by: Ai2 (Allen Institute)</summary>
-  </entry>
-  <entry>
-    <title>Amazon and Meta are in talks to end the block on Meta's AI shopping agent Muse in Amazon's online store.</title>
-    <link href="https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store"/>
-    <id>https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store</id>
-    <updated>2026-11-25T16:44:37.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Amazon and Meta are in talks to bring back Muse, Meta's AI shopping agent that Amazon kicked off its platform in September. The two sides are stuck on ad revenue and who gets to control search results. That matters because Amazon's ad business generates $68.6 billion a year, and Muse already commands 51 percent of all  — Also covered by: The Verge AI</summary>
   </entry>
   <entry>
     <title>AI data centers are becoming harder to build, and neoclouds are feeling it</title>
@@ -106,13 +97,13 @@
     <summary>Lucinda Shen / Axios : Sources: a16z is in talks to raise ~$20B across its next set of funds; its last set, announced in January at $15B+, later grew to $20B+ with three add-ons — Venture capital firm Andreessen Horowitz is in talks to raise about $20 billion across its next set of funds, Axios Pro has learned from thr</summary>
   </entry>
   <entry>
-    <title>Microsoft Agent Framework repository update</title>
-    <link href="https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-repository-update"/>
-    <id>https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-repository-update</id>
-    <updated>2026-11-25T20:14:50.000Z</updated>
-    <author><name>Microsoft Agent Framework</name></author>
+    <title>langchain v1.8.5 released</title>
+    <link href="https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.5"/>
+    <id>https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.5</id>
+    <updated>2026-11-25T21:52:41.000Z</updated>
+    <author><name>langchain-ai/langchain</name></author>
     <category term="AGENTS &amp; TOOLS"/>
-    <summary>We apologize for the disruption caused by the Microsoft Agent Framework repository’s temporary unavailability. This is a necessary precaution. We’re working to restore access as soon as possible, but don’t yet have a confirmed timeline. The repository will remain unavailable until we can confidently determine it is saf</summary>
+    <summary>Changes since langchain-core==1.8.4 release(core): 1.8.5 ( #42103 ) fix(core): reuse provider message id on later stream chunks ( #42050 ) docs(core): clarify v3 runtime warning behavior ( #42040 ) docs(core): clarify supported streaming event APIs ( #42038 ) release(standard-tests): 1.2.0 ( #41996 ) release(text-split</summary>
   </entry>
   <entry>
     <title>Mega Rail Deal Gets Unusual WH Meeting</title>
@@ -133,12 +124,21 @@
     <summary>arXiv:2611.31255v1 Announce Type: new Abstract: Current multilingual benchmarks cover only a fraction of the languages represented in modern pretraining corpora and often conflate language proficiency with the ability to answer questions grounded in specific regions and communities. We introduce INCLUDE-2.0, a large-sc</summary>
   </entry>
   <entry>
+    <title>Sources: US chip curbs stall billions in data center loans tied to ByteDance, Alibaba, and Tencent, with some lenders delaying a $6.6B Bridge Data Centres loan (Bloomberg)</title>
+    <link href="https://www.techmeme.com/261125/p38"/>
+    <id>https://www.techmeme.com/261125/p38</id>
+    <updated>2026-11-25T22:05:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="HARDWARE"/>
+    <summary>Bloomberg : Sources: US chip curbs stall billions in data center loans tied to ByteDance, Alibaba, and Tencent, with some lenders delaying a $6.6B Bridge Data Centres loan — Lenders have hit the brakes on billions of dollars in loans tied to Chinese firms ByteDance, Alibaba and Tencent …</summary>
+  </entry>
+  <entry>
     <title>vLLM Singapore Meetup: Faster Prefill, Agent-Written Kernels and the Road to Vera Rubin</title>
     <link href="https://pytorch.org/blog/vllm-singapore-meetup-faster-prefill-agent-written-kernels-and-the-road-to-vera-rubin"/>
     <id>https://pytorch.org/blog/vllm-singapore-meetup-faster-prefill-agent-written-kernels-and-the-road-to-vera-rubin</id>
     <updated>2026-11-25T18:03:15.000Z</updated>
     <author><name>PyTorch Blog</name></author>
-    <category term="HARDWARE"/>
+    <category term="OPEN SOURCE"/>
     <summary>TL;DR At the Singapore vLLM meetup, engineers from Inferact, NVIDIA, and Alibaba Cloud showcased how the community is advancing open source AI inference through pipeline parallelism optimizations, agent-written kernels, real-time... The post vLLM Singapore Meetup: Faster Prefill, Agent-Written Kernels and the Road to V</summary>
   </entry>
   <entry>
@@ -160,13 +160,13 @@
     <summary>Q3 2026 Cybersecurity Report: A Prompt Injection of Capital PitchBook</summary>
   </entry>
   <entry>
-    <title>FIFA says hackers accessed ‘limited set of personal and business information’</title>
-    <link href="https://therecord.media/fifa-data-breach-limited"/>
-    <id>https://therecord.media/fifa-data-breach-limited</id>
-    <updated>2026-11-25T20:40:00.000Z</updated>
-    <author><name>The Record</name></author>
+    <title>1Password customer data stolen after employee GitHub account breach</title>
+    <link href="https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach"/>
+    <id>https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach</id>
+    <updated>2026-11-25T21:33:33.000Z</updated>
+    <author><name>BleepingComputer</name></author>
     <category term="CYBER THREATS"/>
-    <summary>The Switzerland-based international governing body for soccer says it's working with relevant authorities and law enforcement to investigate a recent breach.</summary>
+    <summary>1Password has disclosed a data breach after a an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data. [...]</summary>
   </entry>
   <entry>
     <title>The AI Threat Horizon: Why Speed, Edge AI and Baselines Are Our Best Defense</title>
@@ -210,7 +210,7 @@
     <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12731</id>
     <updated>2026-11-25T08:39:09.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
-    <category term="MODEL RELEASES"/>
+    <category term="GITHUB REPOS"/>
     <summary>common : implement named tool choice for automatic parsers common : add qwen3-coder support common : remove redundant condition common : set parallel_tool_calls to false for named tool common : implement tool choice allowed subset cleanup fix formatting + move validation to common more formatting &gt;_&lt;</summary>
   </entry>
   <entry>
@@ -223,31 +223,13 @@
     <summary>Chip restrictions, anti-distillation measures, and shrinking access to Nvidia hardware abroad are putting growing pressure on Deepseek, Moonshot AI, and Alibaba, according to a report. Deepseek researchers internally estimate they're already up to nine months behind US models, and the gap is widening. The article US ch</summary>
   </entry>
   <entry>
-    <title>Palo Alto Networks Accused by Ex-Executive of Accounting Fraud</title>
+    <title>Palo Alto Networks Accused by Ex-Manager of Accounting Fraud</title>
     <link href="https://www.bloomberg.com/news/articles/2026-11-25/palo-alto-networks-accused-by-ex-executive-of-accounting-fraud"/>
     <id>https://www.bloomberg.com/news/articles/2026-11-25/palo-alto-networks-accused-by-ex-executive-of-accounting-fraud</id>
     <updated>2026-11-25T21:01:09.000Z</updated>
     <author><name>Bloomberg Tech</name></author>
     <category term="INDUSTRY NEWS"/>
     <summary>Palo Alto Networks Inc., which last week announced a $4.5 billion AI acquisition, was sued by a former executive over claims he was fired for fighting back against accounting fraud at the cybersecurity company.</summary>
-  </entry>
-  <entry>
-    <title>Sources: the DOJ didn't formally investigate Jensen Huang before his reinstatement; AG Todd Blanche cleared him based on probes into Super Micro and Megaspeed (Reuters)</title>
-    <link href="https://www.techmeme.com/261125/p35"/>
-    <id>https://www.techmeme.com/261125/p35</id>
-    <updated>2026-11-25T21:01:00.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Reuters : Sources: the DOJ didn't formally investigate Jensen Huang before his reinstatement; AG Todd Blanche cleared him based on probes into Super Micro and Megaspeed — The US Justice Department did not conduct a formal investigation into Jensen Huang before US President Donald Trump pushed …</summary>
-  </entry>
-  <entry>
-    <title>b12732: ggml: allow input async copies (#30685)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12732"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12732</id>
-    <updated>2026-11-25T08:56:15.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>ggml: allow input async copies Copy the host inputs of a split with set_tensor_async followed by a single synchronize, instead of one blocking copy per input. This is opt-in per device through the new async_host_input cap, which only CUDA sets. Other backends keep the current path. The async path is used without pipeli</summary>
   </entry>
   <entry>
     <title>Inkling finetuning + perf fixes</title>
@@ -259,21 +241,39 @@
     <summary>Inkling Fine-tuning You can now fine-tune Inkling 2 Mini 1.8 to 3.1x faster and use 50% less VRAM in Unsloth with LoRA or QLoRA, then export it to GGUF or a merged 16-bit model. It trains on Kaggle's free 2x T4 and now supports tensor, pipeline and context parallel across GPUs. Also new: faster adamw_8bit steps, faster</summary>
   </entry>
   <entry>
-    <title>Blue Owl, Blackstone Make Rare Pension Deal</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-11-25/blue-owl-blackstone-make-rare-pension-deal-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-11-25/blue-owl-blackstone-make-rare-pension-deal-video</id>
-    <updated>2026-11-25T20:27:17.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Bloomberg's Layan Odeh joins Dani Burger on &quot;Bloomberg Deals.&quot; A top US pension is considering raising roughly $4 billion in a complex financing bundling stakes in private credit funds managed by Blackstone, Blue Owl Capital and others, according to people familiar with the matter. (Source: Bloomberg)</summary>
+    <title>ollama v0.40.18 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.18"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.18</id>
+    <updated>2026-11-24T08:27:44.000Z</updated>
+    <author><name>ollama/ollama</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>What's Changed mlx: fuse Inkling residual mixing on Metal by @dhiltgen in #19808 mlxrunner: share tensor helpers and model setup across architectures by @jaingaurav in #19805 llama.cpp: version bump b12651 + remove jetpack5 support by @pdevine in #19865 inkling2: faster Metal decode, prefill and draft rounds by @dhiltg</summary>
   </entry>
   <entry>
-    <title>US stocks endure volatile session as AI trade remains under pressure</title>
-    <link href="https://www.ft.com/content/705eb84c-801d-4a96-b908-e366511e886a?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/705eb84c-801d-4a96-b908-e366511e886a?syn-25a6b1a6=1</id>
-    <updated>2026-11-25T19:39:04.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
+    <title>Microsoft Agent Framework repository update</title>
+    <link href="https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-repository-update"/>
+    <id>https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-repository-update</id>
+    <updated>2026-11-25T20:14:50.000Z</updated>
+    <author><name>Microsoft Agent Framework</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>We apologize for the disruption caused by the Microsoft Agent Framework repository’s temporary unavailability. This is a necessary precaution. We’re working to restore access as soon as possible, but don’t yet have a confirmed timeline. The repository will remain unavailable until we can confidently determine it is saf</summary>
+  </entry>
+  <entry>
+    <title>Amazon and Meta are in talks to end the block on Meta's AI shopping agent Muse in Amazon's online store.</title>
+    <link href="https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store"/>
+    <id>https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store</id>
+    <updated>2026-11-25T16:44:37.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Amazon and Meta are in talks to bring back Muse, Meta's AI shopping agent that Amazon kicked off its platform in September. The two sides are stuck on ad revenue and who gets to control search results. That matters because Amazon's ad business generates $68.6 billion a year, and Muse already commands 51 percent of all </summary>
+  </entry>
+  <entry>
+    <title>US Tariff Proposal Raises Stakes for India to Clinch Trade Deal</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-25/us-tariff-proposal-raises-stakes-for-india-to-clinch-trade-deal"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-25/us-tariff-proposal-raises-stakes-for-india-to-clinch-trade-deal</id>
+    <updated>2026-11-25T21:03:17.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Chip group Nvidia among losers but AI start-up Anthropic a bright spot as shares recover above IPO price</summary>
+    <summary>US tariff rates announced Wednesday put pressure on India to agree to a trade deal or face a higher levy, leaving exporters and investors with little clarity on the trade outlook.</summary>
   </entry>
 </feed>
