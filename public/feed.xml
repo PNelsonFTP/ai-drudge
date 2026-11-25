@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-25T03:08:41.934Z</updated>
+  <updated>2026-11-25T04:09:03.524Z</updated>
   <entry>
-    <title>llama.cpp b12706 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12706"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12706</id>
-    <updated>2026-11-25T03:08:28.000Z</updated>
+    <title>llama.cpp b12711 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12711"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12711</id>
+    <updated>2026-11-25T04:07:58.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>metal : reserve the top-k scratch only for short rows ( #32942 ) The bitonic top-k path is only faster for short rows. On M5 and M2 Ultra it wins up to 128 columns; above that the radix path is faster. Use the radix path for ncols &gt; 128. The radix path selects in place and needs no scratch, but the buffer type always r — Also covered by: ggml-org/whisper.cpp</summary>
+    <summary>ggml-cpu: repack kernels for targets without dotprod (ARMv8.0 64-bit) for Q4_0/Q8_0 ( #32142 ) ggml-cpu: optimized kernels for ARM v8.0 (without dotprod) ggml-cpu: fix comment and align to implementation ggml-cpu: exclude new kernels for apple arch Website: https://llama.app Attestations: https://github.com/ggml-org/ll — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
     <title>claude-code v2.1.332 released</title>
@@ -69,6 +69,15 @@
     <category term="AGENTS &amp; TOOLS"/>
   </entry>
   <entry>
+    <title>GLM-5.4: Toward Generalized Coding with Our First Loop Transformer</title>
+    <link href="https://simonwillison.net/2026/Nov/23/glm-54"/>
+    <id>https://simonwillison.net/2026/Nov/23/glm-54</id>
+    <updated>2026-11-23T23:40:49.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="RESEARCH"/>
+    <summary>GLM-5.4: Toward Generalized Coding with Our First Loop Transformer GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this: In a standard Transformer, each layer runs once per forward pass. In a Loop Transformer, a group of weight</summary>
+  </entry>
+  <entry>
     <title>RoboTrack: Point tracking for real-world robotic manipulation</title>
     <link href="https://allenai.org/blog/robotrack"/>
     <id>https://allenai.org/blog/robotrack</id>
@@ -76,15 +85,6 @@
     <author><name>Ai2 (Allen Institute)</name></author>
     <category term="OPEN SOURCE"/>
     <summary>RoboTrack introduces a new benchmark, synthetic training dataset, and two models that improve how robots track objects during real-world manipulation tasks. — Also covered by: Hugging Face Blog</summary>
-  </entry>
-  <entry>
-    <title>b12696: model : inkling2 clip with ggml_l2_norm (#32940)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12696"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12696</id>
-    <updated>2026-11-24T12:47:28.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Assisted-by: Claude Opus 5.5</summary>
   </entry>
   <entry>
     <title>Tidal bans 100% AI-generated music with plans to delete more than 27m tracks</title>
@@ -105,13 +105,13 @@
     <summary>As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.</summary>
   </entry>
   <entry>
-    <title>India’s Anti-AI Stock Trade Confronts Rich Valuations, Global Tariff Risks</title>
-    <link href="https://www.bloomberg.com/news/newsletters/2026-11-25/india-s-anti-ai-stock-trade-confronts-rich-valuations-global-tariff-risks"/>
-    <id>https://www.bloomberg.com/news/newsletters/2026-11-25/india-s-anti-ai-stock-trade-confronts-rich-valuations-global-tariff-risks</id>
-    <updated>2026-11-25T02:30:28.000Z</updated>
+    <title>Starbucks Is Said to Engage Banks for Sale of Japan Business</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-25/starbucks-is-said-to-engage-banks-for-sale-of-japan-business"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-25/starbucks-is-said-to-engage-banks-for-sale-of-japan-business</id>
+    <updated>2026-11-25T03:10:23.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Meanwhile, a cash crunch in India’s banking system is forcing lenders to borrow at higher costs.</summary>
+    <summary>Starbucks Corp. has tapped advisers to prepare for a potential sale of its Japan business for several billion dollars, according to people familiar with the matter.</summary>
   </entry>
   <entry>
     <title>transformers v5.24.1 released</title>
@@ -121,15 +121,6 @@
     <author><name>huggingface/transformers</name></author>
     <category term="RESEARCH"/>
     <summary>Patch release v5.24.1 A patch to fix a bunch of stuff for vLLM, a few distributed issues, and some model fixes (llama4, dory); see the full list vLLM related Fix backward compatibility of the cache rename for remote code ( #51085 ) by @hmellor Restore modeling_attn_mask_utils for remote code (one-off to unblock vLLM) (</summary>
-  </entry>
-  <entry>
-    <title>New Inception extortion gang launches large-scale vishing campaign</title>
-    <link href="https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign"/>
-    <id>https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign</id>
-    <updated>2026-11-24T20:21:20.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="PRODUCTS"/>
-    <summary>A newly formed data extortion group named 'Inception' has been linked to a large-scale campaign that targets single sign-on (SSO) credentials of multiple global brands and firms. [...]</summary>
   </entry>
   <entry>
     <title>Dell Raises Annual Forecast as AI Data Center Boom Continues</title>
@@ -168,6 +159,15 @@
     <summary>From GitHub Copilot to Prompt Injection Technology Org</summary>
   </entry>
   <entry>
+    <title>New Inception extortion gang launches large-scale vishing campaign</title>
+    <link href="https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign"/>
+    <id>https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign</id>
+    <updated>2026-11-24T20:21:20.000Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>A newly formed data extortion group named 'Inception' has been linked to a large-scale campaign that targets single sign-on (SSO) credentials of multiple global brands and firms. [...]</summary>
+  </entry>
+  <entry>
     <title>AI Stocks’ Big Worry: a Chip Glut</title>
     <link href="https://www.theinformation.com/articles/ai-stocks-big-worry-chip-glut"/>
     <id>https://www.theinformation.com/articles/ai-stocks-big-worry-chip-glut</id>
@@ -204,6 +204,15 @@
     <summary>Two years after launch, Anthropic reports more than 700 million monthly downloads for its MCP interface standard. New features such as background tasks, follow-up questions for users, and file uploads are meant to let Claude work more independently. The article Anthropic tops 700 million monthly MCP SDK downloads and e</summary>
   </entry>
   <entry>
+    <title>Nutanix CEO Rajiv Ramaswami announces plans to step down and become a senior adviser, but will remain as CEO until a successor is named; he joined in late 2020 (Mike Wheatley/SiliconANGLE)</title>
+    <link href="https://www.techmeme.com/261124/p51"/>
+    <id>https://www.techmeme.com/261124/p51</id>
+    <updated>2026-11-25T03:15:00.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Mike Wheatley / SiliconANGLE : Nutanix CEO Rajiv Ramaswami announces plans to step down and become a senior adviser, but will remain as CEO until a successor is named; he joined in late 2020 — Rajiv Ramaswami is stepping down from his role as the Chief Executive Officer of Nutanix Inc., six years after he joined …</summary>
+  </entry>
+  <entry>
     <title>ollama v0.40.18 released</title>
     <link href="https://github.com/ollama/ollama/releases/tag/v0.40.18"/>
     <id>https://github.com/ollama/ollama/releases/tag/v0.40.18</id>
@@ -211,6 +220,15 @@
     <author><name>ollama/ollama</name></author>
     <category term="LOCAL MODELS"/>
     <summary>What's Changed mlx: fuse Inkling residual mixing on Metal by @dhiltgen in #19808 mlxrunner: share tensor helpers and model setup across architectures by @jaingaurav in #19805 llama.cpp: version bump b12651 + remove jetpack5 support by @pdevine in #19865 inkling2: faster Metal decode, prefill and draft rounds by @dhiltg</summary>
+  </entry>
+  <entry>
+    <title>Update on my multi-GPU setup</title>
+    <link href="https://sh.itjust.works/post/70423003"/>
+    <id>https://sh.itjust.works/post/70423003</id>
+    <updated>2026-11-24T19:09:58.000Z</updated>
+    <author><name>Lemmy c/localllama</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>submitted by Shimitar to localllama 5 points | 5 comments Well, here is the update then. Currently i have: two NVIDIA RTX A4000 (16GB+16GB) on PCI-e 3.0 8x bifurcator (CPU lanes) one NVIDIA RTX 6000 (Turing, 24GB) on PCI-e 3.0 4x (on M2 slot, CPU lane) i have one free slot, a 4x on chipset lanes that i could equip with</summary>
   </entry>
   <entry>
     <title>The Agent Lake</title>
@@ -231,6 +249,15 @@
     <summary>LangChain earned ISO/IEC 42001 certification, the international standard for AI management systems, using LangSmith. Learn how.</summary>
   </entry>
   <entry>
+    <title>India’s Anti-AI Stock Trade Confronts Rich Valuations, Global Tariff Risks</title>
+    <link href="https://www.bloomberg.com/news/newsletters/2026-11-25/india-s-anti-ai-stock-trade-confronts-rich-valuations-global-tariff-risks"/>
+    <id>https://www.bloomberg.com/news/newsletters/2026-11-25/india-s-anti-ai-stock-trade-confronts-rich-valuations-global-tariff-risks</id>
+    <updated>2026-11-25T02:30:28.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Meanwhile, a cash crunch in India’s banking system is forcing lenders to borrow at higher costs.</summary>
+  </entry>
+  <entry>
     <title>Rakuten Credit Risk Surges After Yen Bond Offering Scrapped</title>
     <link href="https://www.bloomberg.com/news/articles/2026-11-25/rakuten-credit-risk-surges-after-yen-bond-offering-scrapped"/>
     <id>https://www.bloomberg.com/news/articles/2026-11-25/rakuten-credit-risk-surges-after-yen-bond-offering-scrapped</id>
@@ -240,15 +267,6 @@
     <summary>Rakuten Group Inc.’s credit risk surged by the most since April 2025 after the company scrapped plans to raise about ¥150 billion ($942 million) in the bond market.</summary>
   </entry>
   <entry>
-    <title>Nscale says it has option to stay private as tech sell-off threatens $35bn IPO</title>
-    <link href="https://www.ft.com/content/189d0c46-3c66-420b-af7d-a1d0b78d68ac?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/189d0c46-3c66-420b-af7d-a1d0b78d68ac?syn-25a6b1a6=1</id>
-    <updated>2026-11-24T22:50:57.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Chief executive Josh Payne seeks to reassure staff at the UK data centre group after cutting back on hiring</summary>
-  </entry>
-  <entry>
     <title>GPT-6 models demonstrate intrinsic protein-design capabilities</title>
     <link href="https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"/>
     <id>https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities</id>
@@ -256,23 +274,5 @@
     <author><name>OpenAI Blog</name></author>
     <category term="PRODUCTS"/>
     <summary>GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.</summary>
-  </entry>
-  <entry>
-    <title>b12707: context : prevent excessive CPU polling without OpenMP (#32378)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12707"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12707</id>
-    <updated>2026-11-24T15:12:26.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="HARDWARE"/>
-    <summary>common : prevent polling while GPU computes (on Metal or without OpenMP) use AudioWorkIntervalCreate to keep the thread on P-cores Revert &quot;use AudioWorkIntervalCreate to keep the thread on P-cores&quot; This reverts commit a7270d2 .</summary>
-  </entry>
-  <entry>
-    <title>US DOJ touts &quot;largest-ever&quot; crackdown on scammers across the globe as it seizes 14,000 devices and $17 billion in illicit funds</title>
-    <link href="https://www.tomshardware.com/tech-industry/cyber-security/us-doj-touts-largest-ever-crackdown-on-scammers-across-the-globe-as-it-seizes-14-000-devices-and-usd17-billion-in-illicit-funds-operation-results-in-800-defendants-and-frees-2-200-forced-laborers"/>
-    <id>https://www.tomshardware.com/tech-industry/cyber-security/us-doj-touts-largest-ever-crackdown-on-scammers-across-the-globe-as-it-seizes-14-000-devices-and-usd17-billion-in-illicit-funds-operation-results-in-800-defendants-and-frees-2-200-forced-laborers</id>
-    <updated>2026-11-24T22:30:00.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
-    <category term="HARDWARE"/>
-    <summary>The U.S. Department of Justice has announced that the largest anti-scam push in its history has resulted in more than $8 billion in intended victim losses being recovered, leading to more than 800 defendants being charged.</summary>
   </entry>
 </feed>
