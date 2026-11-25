@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-25T22:08:45.678Z</updated>
+  <updated>2026-11-25T23:08:42.322Z</updated>
   <entry>
-    <title>llama.cpp b12734 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12734"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12734</id>
-    <updated>2026-11-25T09:42:34.000Z</updated>
+    <title>llama.cpp b12738 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12738"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12738</id>
+    <updated>2026-11-25T22:40:13.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>metal : commit the graph in chunks with one command buffer thread ( #3 … — Also covered by: ggml-org/whisper.cpp</summary>
+    <summary>server : handle CTRL_BREAK_EVENT on Windows for clean shutdown ( #32080 ) Windows can't send SIGINT to a child process, so scripts that launch llama-server could only kill it, which skips the clean shutdown. The console control handler only handled CTRL_C_EVENT, so a CTRL_BREAK_EVENT sent to the server's own process gr — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
     <title>Where scientists draw the line on AI agents</title>
@@ -23,15 +23,6 @@
     <author><name>Hugging Face Blog</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Also covered by: Ai2 (Allen Institute)</summary>
-  </entry>
-  <entry>
-    <title>AI data centers are becoming harder to build, and neoclouds are feeling it</title>
-    <link href="https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it"/>
-    <id>https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it</id>
-    <updated>2026-11-25T15:41:43.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="HARDWARE"/>
-    <summary>⁠Nvidia has made clear⁠ it won’t backstop an AI data center until it’s nearly ready to run, and that’s landing just as neoclouds report construction delays and more expensive debt. The message to developers is that land, power, and a finished building matter more than a pitch deck. ⁠Anita Verma-Lallian⁠ has been sellin</summary>
   </entry>
   <entry>
     <title>European Commission Proposes Quantum Act to Bring Research to Market</title>
@@ -88,13 +79,13 @@
     <summary>Anthropic CEO Dario Amodei is pushing back on an Axios report saying some employees believe humanity will hand power to superintelligent systems. Amodei says &quot;turning over governance to AI is a bad idea.&quot; The article Anthropic CEO Dario Amodei says letting AI govern society would be &quot;a bad idea&quot; appeared first on The D</summary>
   </entry>
   <entry>
-    <title>Sources: a16z is in talks to raise ~$20B across its next set of funds; its last set, announced in January at $15B+, later grew to $20B+ with three add-ons (Lucinda Shen/Axios)</title>
-    <link href="https://www.techmeme.com/261125/p33"/>
-    <id>https://www.techmeme.com/261125/p33</id>
-    <updated>2026-11-25T20:30:00.000Z</updated>
+    <title>Sources: US chip curbs stall billions in data center loans tied to ByteDance, Alibaba, and Tencent, with some lenders delaying a $6.6B Bridge Data Centres loan (Bloomberg)</title>
+    <link href="https://www.techmeme.com/261125/p38"/>
+    <id>https://www.techmeme.com/261125/p38</id>
+    <updated>2026-11-25T22:05:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Lucinda Shen / Axios : Sources: a16z is in talks to raise ~$20B across its next set of funds; its last set, announced in January at $15B+, later grew to $20B+ with three add-ons — Venture capital firm Andreessen Horowitz is in talks to raise about $20 billion across its next set of funds, Axios Pro has learned from thr</summary>
+    <summary>Bloomberg : Sources: US chip curbs stall billions in data center loans tied to ByteDance, Alibaba, and Tencent, with some lenders delaying a $6.6B Bridge Data Centres loan — Lenders have hit the brakes on billions of dollars in loans tied to Chinese firms ByteDance, Alibaba and Tencent …</summary>
   </entry>
   <entry>
     <title>langchain v1.8.5 released</title>
@@ -106,13 +97,13 @@
     <summary>Changes since langchain-core==1.8.4 release(core): 1.8.5 ( #42103 ) fix(core): reuse provider message id on later stream chunks ( #42050 ) docs(core): clarify v3 runtime warning behavior ( #42040 ) docs(core): clarify supported streaming event APIs ( #42038 ) release(standard-tests): 1.2.0 ( #41996 ) release(text-split</summary>
   </entry>
   <entry>
-    <title>Mega Rail Deal Gets Unusual WH Meeting</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-11-25/mega-rail-deal-gets-unusual-wh-meeting-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-11-25/mega-rail-deal-gets-unusual-wh-meeting-video</id>
-    <updated>2026-11-25T20:55:44.000Z</updated>
+    <title>Compass Delays $380 Million ABS After Data Center Outage</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-25/compass-delays-380-million-abs-after-data-center-outage"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-25/compass-delays-380-million-abs-after-data-center-outage</id>
+    <updated>2026-11-25T22:27:09.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>In a highly unusual gathering, White House officials met privately with a group of hedge fund investors betting on whether the $72 billion tie-up between Union Pacific and Norfolk Southern will win approval from the Trump administration, according to people familiar with the matter. Bloomberg's Scarlet Fu reports on &quot;B</summary>
+    <summary>Compass Datacenters has put off a $380 million sale of asset-backed securities after one of its data centers faced an operational disruption and investors dropped out of the offering.</summary>
   </entry>
   <entry>
     <title>INCLUDE-2.0: Disentangling Knowledge Gaps in Multilingual LLM Evaluation</title>
@@ -124,13 +115,13 @@
     <summary>arXiv:2611.31255v1 Announce Type: new Abstract: Current multilingual benchmarks cover only a fraction of the languages represented in modern pretraining corpora and often conflate language proficiency with the ability to answer questions grounded in specific regions and communities. We introduce INCLUDE-2.0, a large-sc</summary>
   </entry>
   <entry>
-    <title>Sources: US chip curbs stall billions in data center loans tied to ByteDance, Alibaba, and Tencent, with some lenders delaying a $6.6B Bridge Data Centres loan (Bloomberg)</title>
-    <link href="https://www.techmeme.com/261125/p38"/>
-    <id>https://www.techmeme.com/261125/p38</id>
-    <updated>2026-11-25T22:05:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="HARDWARE"/>
-    <summary>Bloomberg : Sources: US chip curbs stall billions in data center loans tied to ByteDance, Alibaba, and Tencent, with some lenders delaying a $6.6B Bridge Data Centres loan — Lenders have hit the brakes on billions of dollars in loans tied to Chinese firms ByteDance, Alibaba and Tencent …</summary>
+    <title>Copilot code review billing will default to the organization</title>
+    <link href="https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization"/>
+    <id>https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization</id>
+    <updated>2026-11-25T22:18:03.000Z</updated>
+    <author><name>GitHub Copilot Changelog</name></author>
+    <category term="PRODUCTS"/>
+    <summary>If you haven’t chosen how to bill Copilot code review for members with a Copilot license, those reviews will be billed to your organization starting December 30, 2026. To keep… The post Copilot code review billing will default to the organization appeared first on The GitHub Blog .</summary>
   </entry>
   <entry>
     <title>vLLM Singapore Meetup: Faster Prefill, Agent-Written Kernels and the Road to Vera Rubin</title>
@@ -142,13 +133,13 @@
     <summary>TL;DR At the Singapore vLLM meetup, engineers from Inferact, NVIDIA, and Alibaba Cloud showcased how the community is advancing open source AI inference through pipeline parallelism optimizations, agent-written kernels, real-time... The post vLLM Singapore Meetup: Faster Prefill, Agent-Written Kernels and the Road to V</summary>
   </entry>
   <entry>
-    <title>“Rewrite this as a new ordinance”: Inside the ChatGPT transcripts of a city manager</title>
-    <link href="https://www.transformernews.ai/p/inside-chatgpt-transcripts-city-manager-kingsland-georgia-ai-writting-laws"/>
-    <id>https://www.transformernews.ai/p/inside-chatgpt-transcripts-city-manager-kingsland-georgia-ai-writting-laws</id>
-    <updated>2026-11-25T17:02:08.000Z</updated>
-    <author><name>Transformer</name></author>
+    <title>To Read Sam Kriss is to Hurt Sam Kriss</title>
+    <link href="https://www.lesswrong.com/posts/TmLSELruftgknLafm/to-read-sam-kriss-is-to-hurt-sam-kriss"/>
+    <id>https://www.lesswrong.com/posts/TmLSELruftgknLafm/to-read-sam-kriss-is-to-hurt-sam-kriss</id>
+    <updated>2026-11-25T22:26:00.000Z</updated>
+    <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Lee Spell used ChatGPT to write laws, policies and communications governing 20,000 people in Kingsland, Georgia, even asking it to help “reword this [email] without sound like we broke the law”</summary>
+    <summary>Sam Kriss is a fantastically skilled author. I’ve never read anything of his that didn’t fill me with passion and make me want to launch myself face-first into the world. If he posted every day for three years I’d move to his home town and start a group house with other people who found that their souls flare to his wo</summary>
   </entry>
   <entry>
     <title>Q3 2026 Cybersecurity Report: A Prompt Injection of Capital</title>
@@ -178,13 +169,22 @@
     <summary>Unit 42 examines the evolution of AI-driven cyberattacks and outlines proactive defense strategies for security teams. The post The AI Threat Horizon: Why Speed, Edge AI and Baselines Are Our Best Defense appeared first on Unit 42 .</summary>
   </entry>
   <entry>
-    <title>MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake</title>
-    <link href="https://arxiv.org/abs/2611.31301"/>
-    <id>https://arxiv.org/abs/2611.31301</id>
-    <updated>2026-11-25T05:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
+    <title>Your AI Startup’s Exit Is Being Shaped By The Deals You Sign Today</title>
+    <link href="https://news.crunchbase.com/ma/your-ai-startups-exit-is-being-shaped-by-the-deals-you-sign-today"/>
+    <id>https://news.crunchbase.com/ma/your-ai-startups-exit-is-being-shaped-by-the-deals-you-sign-today</id>
+    <updated>2026-11-25T12:00:09.000Z</updated>
+    <author><name>Crunchbase News AI</name></author>
+    <category term="FUNDING &amp; DEALS"/>
+    <summary>When everything moves that fast, the terms of your financings and of your contracts for compute, data and distribution get set early and in a hurry. Some of those terms will later slow a sale, add cost and erode value.</summary>
+  </entry>
+  <entry>
+    <title>The Revolution vs The Renaissance — Thariq Shihipar, OpenAI</title>
+    <link href="https://latent.space/p/the_revolution_vs_the_renaissance_thariq_shihipar_openai"/>
+    <id>https://latent.space/p/the_revolution_vs_the_renaissance_thariq_shihipar_openai</id>
+    <updated>2026-11-25T22:28:01.000Z</updated>
+    <author><name>Latent Space</name></author>
     <category term="ANALYSIS"/>
-    <summary>arXiv:2611.31301v1 Announce Type: new Abstract: Audio-video (AV) deepfakes can fake the face, the voice, or both. Most benchmarks only ask whether a clip is real or fake, so they cannot show whether a detector relies on the picture, the voice, or encoding traces. We present MOZAIC, a paired benchmark with a 4-way label</summary>
+    <summary>AI can make software cheap enough to produce by the thousand and still give you more time to make one thing feel right. At AI Engineer CODE, Thariq Shihipar shows how those two futures can coexist. In his fighting game, he edits the size of a rock in t...</summary>
   </entry>
   <entry>
     <title>XPENG Details Mass-Production IRON Humanoid at AI Day 2026, Confirms Unisex Form Factor and VLA 3.0</title>
@@ -210,7 +210,7 @@
     <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12731</id>
     <updated>2026-11-25T08:39:09.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
-    <category term="GITHUB REPOS"/>
+    <category term="MODEL RELEASES"/>
     <summary>common : implement named tool choice for automatic parsers common : add qwen3-coder support common : remove redundant condition common : set parallel_tool_calls to false for named tool common : implement tool choice allowed subset cleanup fix formatting + move validation to common more formatting &gt;_&lt;</summary>
   </entry>
   <entry>
@@ -223,13 +223,22 @@
     <summary>Chip restrictions, anti-distillation measures, and shrinking access to Nvidia hardware abroad are putting growing pressure on Deepseek, Moonshot AI, and Alibaba, according to a report. Deepseek researchers internally estimate they're already up to nine months behind US models, and the gap is widening. The article US ch</summary>
   </entry>
   <entry>
-    <title>Palo Alto Networks Accused by Ex-Manager of Accounting Fraud</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-25/palo-alto-networks-accused-by-ex-executive-of-accounting-fraud"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-25/palo-alto-networks-accused-by-ex-executive-of-accounting-fraud</id>
-    <updated>2026-11-25T21:01:09.000Z</updated>
-    <author><name>Bloomberg Tech</name></author>
+    <title>NY Gov. Kathy Hochul signs a bill banning AI chatbot toys for five years, starting in February; California Gov. Gavin Newsom signed a four-year ban in September (NBC News)</title>
+    <link href="https://www.techmeme.com/261125/p37"/>
+    <id>https://www.techmeme.com/261125/p37</id>
+    <updated>2026-11-25T21:30:02.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Palo Alto Networks Inc., which last week announced a $4.5 billion AI acquisition, was sued by a former executive over claims he was fired for fighting back against accounting fraud at the cybersecurity company.</summary>
+    <summary>NBC News : NY Gov. Kathy Hochul signs a bill banning AI chatbot toys for five years, starting in February; California Gov. Gavin Newsom signed a four-year ban in September — Gov. Kathy Hochul signed a bill today preventing the manufacture, exchange, distribution and sale of toys powered by AI chatbots in New York State</summary>
+  </entry>
+  <entry>
+    <title>Nvidia agrees to pay $290M to settle a 2018 class action lawsuit alleging it misled shareholders about how much crypto mining fueled its GPU sales (Mike Scarcella/Reuters)</title>
+    <link href="https://www.techmeme.com/261125/p36"/>
+    <id>https://www.techmeme.com/261125/p36</id>
+    <updated>2026-11-25T21:15:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Mike Scarcella / Reuters : Nvidia agrees to pay $290M to settle a 2018 class action lawsuit alleging it misled shareholders about how much crypto mining fueled its GPU sales — Nvidia (NVDA.O) has agreed to pay $290 million to settle a long-running investor lawsuit alleging the chipmaker misled shareholders …</summary>
   </entry>
   <entry>
     <title>Inkling finetuning + perf fixes</title>
@@ -266,14 +275,5 @@
     <author><name>The Decoder</name></author>
     <category term="AGENTS &amp; TOOLS"/>
     <summary>Amazon and Meta are in talks to bring back Muse, Meta's AI shopping agent that Amazon kicked off its platform in September. The two sides are stuck on ad revenue and who gets to control search results. That matters because Amazon's ad business generates $68.6 billion a year, and Muse already commands 51 percent of all </summary>
-  </entry>
-  <entry>
-    <title>US Tariff Proposal Raises Stakes for India to Clinch Trade Deal</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-25/us-tariff-proposal-raises-stakes-for-india-to-clinch-trade-deal"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-25/us-tariff-proposal-raises-stakes-for-india-to-clinch-trade-deal</id>
-    <updated>2026-11-25T21:03:17.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>US tariff rates announced Wednesday put pressure on India to agree to a trade deal or face a higher levy, leaving exporters and investors with little clarity on the trade outlook.</summary>
   </entry>
 </feed>
