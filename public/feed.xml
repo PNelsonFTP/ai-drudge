@@ -5,33 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-25T05:29:13.657Z</updated>
+  <updated>2026-11-25T08:08:50.257Z</updated>
   <entry>
-    <title>llama.cpp b12717 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12717"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12717</id>
-    <updated>2026-11-24T18:47:34.000Z</updated>
+    <title>llama.cpp b12722 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12722"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12722</id>
+    <updated>2026-11-25T00:42:30.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>ggml : fix SpacemiT flash attention null mask, ALiBi and softcap ( #32 … — Also covered by: ggml-org/whisper.cpp</summary>
-  </entry>
-  <entry>
-    <title>claude-code v2.1.332 released</title>
-    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.332"/>
-    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.332</id>
-    <updated>2026-11-25T01:32:14.000Z</updated>
-    <author><name>anthropics/claude-code</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>What's changed Added skills from MCP servers (beta). They show as server:skill in the / menu; other skills keep their names Added a PreSkillShellCommand hook event that can refuse a skill or command's inline shell commands as it loads; on 2.1.331 and older, a settings file naming it opens a dialog at start Added &quot;Alway — Also covered by: QwenLM/qwen-code</summary>
-  </entry>
-  <entry>
-    <title>AI is not the cure-all for drug development</title>
-    <link href="https://www.ft.com/content/86cef5ab-ce61-4b50-8511-164aa3e5f499"/>
-    <id>https://www.ft.com/content/86cef5ab-ce61-4b50-8511-164aa3e5f499</id>
-    <updated>2026-11-25T05:00:22.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Investors need to understand how the technology fits in with the difficult and complex discovery process — Also covered by: The Decoder</summary>
+    <summary>opencl: add clc coopmat moe kernel for q4_0/q4_1/q4_k/q5_0/q5_1/q5_k/… — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
     <title>Maple raises $5.3M to build AI products that protect your data, even from itself</title>
@@ -75,7 +57,16 @@
     <id>https://openai.com/business/customer-stories/ifood</id>
     <updated>2026-11-24T00:00:00.000Z</updated>
     <author><name>OpenAI News</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
+    <category term="MODEL RELEASES"/>
+  </entry>
+  <entry>
+    <title>GLM-5.4: Toward Generalized Coding with Our First Loop Transformer</title>
+    <link href="https://simonwillison.net/2026/Nov/23/glm-54"/>
+    <id>https://simonwillison.net/2026/Nov/23/glm-54</id>
+    <updated>2026-11-23T23:40:49.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="RESEARCH"/>
+    <summary>GLM-5.4: Toward Generalized Coding with Our First Loop Transformer GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this: In a standard Transformer, each layer runs once per forward pass. In a Loop Transformer, a group of weight</summary>
   </entry>
   <entry>
     <title>RoboTrack: Point tracking for real-world robotic manipulation</title>
@@ -96,13 +87,13 @@
     <summary>Assisted-by: Claude Opus 5.5</summary>
   </entry>
   <entry>
-    <title>Tidal bans 100% AI-generated music with plans to delete more than 27m tracks</title>
-    <link href="https://www.theguardian.com/music/2026/nov/25/tidal-streaming-service-bans-ai-generated-music"/>
-    <id>https://www.theguardian.com/music/2026/nov/25/tidal-streaming-service-bans-ai-generated-music</id>
-    <updated>2026-11-25T02:12:22.000Z</updated>
-    <author><name>The Guardian AI</name></author>
+    <title>EU officials say the EC is pressing Pornhub, Stripchat, XNXX, and XVideos to introduce tougher age checks as it develops a bloc-wide age verification app (Barbara Moens/Financial Times)</title>
+    <link href="https://www.techmeme.com/261125/p8"/>
+    <id>https://www.techmeme.com/261125/p8</id>
+    <updated>2026-11-25T07:20:02.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Streaming service says 43% of uploads to platform in past 90 days were made entirely by artificial intelligence The music streaming service Tidal has announced it will ban entirely AI-generated music from its platform and remove millions of songs, saying AI music “diverts streams and royalties away from the artists, an</summary>
+    <summary>Barbara Moens / Financial Times : EU officials say the EC is pressing Pornhub, Stripchat, XNXX, and XVideos to introduce tougher age checks as it develops a bloc-wide age verification app — Adult websites seek to make deal with European Commission to minimise looming fines — Four large adult content websites are seekin</summary>
   </entry>
   <entry>
     <title>The Date You Didn't Set: The System-Prompt Date as a Hidden Variable in LLM Evaluation</title>
@@ -114,13 +105,13 @@
     <summary>arXiv:2611.31254v1 Announce Type: new Abstract: The system prompt of many instruction-tuned models carries a date, usually today's, filled in automatically for conversational and agentic requests alike, so an unchanged evaluation can send a different prompt each day. In this paper, we explore how much this hidden input</summary>
   </entry>
   <entry>
-    <title>Xi Probes Shanghai Boss, Widening Political Shakeup</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-11-25/xi-probes-shanghai-boss-widening-political-shakeup-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-11-25/xi-probes-shanghai-boss-widening-political-shakeup-video</id>
-    <updated>2026-11-25T04:25:11.000Z</updated>
+    <title>Malaysia's Pension Fund Favors Infrastructure Assets</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-11-25/malaysia-s-pension-fund-favors-infrastructure-assets-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-11-25/malaysia-s-pension-fund-favors-infrastructure-assets-video</id>
+    <updated>2026-11-25T07:40:39.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>China has opened an investigation into Chen Jining, a member of the country's elite Politburo and the party chief of Shanghai, for suspected serious violations of law and discipline. Bloomberg Economics' Neil Thomas has the context. (Source: Bloomberg)</summary>
+    <summary>Malaysia's Employees Provident Fund CEO Ahmad Zulqarnain Onn says the EPF favors infrastructure in 2027. It's one of the world's oldest and largest pension funds, with total investment assets of over $350 billion. He speaks with Haslinda Amin on &quot;Insight with Haslinda Amin.&quot; (Source: Bloomberg)</summary>
   </entry>
   <entry>
     <title>INCLUDE-2.0: Disentangling Knowledge Gaps in Multilingual LLM Evaluation</title>
@@ -132,6 +123,15 @@
     <summary>arXiv:2611.31255v1 Announce Type: new Abstract: Current multilingual benchmarks cover only a fraction of the languages represented in modern pretraining corpora and often conflate language proficiency with the ability to answer questions grounded in specific regions and communities. We introduce INCLUDE-2.0, a large-sc</summary>
   </entry>
   <entry>
+    <title>claude-code v2.1.332 released</title>
+    <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.332"/>
+    <id>https://github.com/anthropics/claude-code/releases/tag/v2.1.332</id>
+    <updated>2026-11-25T01:32:14.000Z</updated>
+    <author><name>anthropics/claude-code</name></author>
+    <category term="PRODUCTS"/>
+    <summary>What's changed Added skills from MCP servers (beta). They show as server:skill in the / menu; other skills keep their names Added a PreSkillShellCommand hook event that can refuse a skill or command's inline shell commands as it loads; on 2.1.331 and older, a settings file naming it opens a dialog at start Added &quot;Alway</summary>
+  </entry>
+  <entry>
     <title>Instantiation of Human Values in Image Generation</title>
     <link href="https://arxiv.org/abs/2611.31253"/>
     <id>https://arxiv.org/abs/2611.31253</id>
@@ -141,13 +141,13 @@
     <summary>arXiv:2611.31253v1 Announce Type: new Abstract: Text-to-image (T2I) models are increasingly embedded in everyday visual culture, yet little is known about how they translate abstract human values into visual scenes. We address this gap by introducing a framework, grounded in Schwartz's theory of basic human values, for</summary>
   </entry>
   <entry>
-    <title>ExecuTorch-TensorRT: PyTorch Robot Policies at NVIDIA TensorRT Speed</title>
-    <link href="https://pytorch.org/blog/executorch-tensorrt-pytorch-robot-policies-at-nvidia-tensorrt-speed"/>
-    <id>https://pytorch.org/blog/executorch-tensorrt-pytorch-robot-policies-at-nvidia-tensorrt-speed</id>
-    <updated>2026-11-24T20:31:02.000Z</updated>
-    <author><name>PyTorch Blog</name></author>
+    <title>Hackers reportedly breached CIA intelligence analysis system</title>
+    <link href="https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system"/>
+    <id>https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system</id>
+    <updated>2026-11-25T07:45:03.000Z</updated>
+    <author><name>BleepingComputer</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>TL;DR With Torch-TensorRT 2.15 and ExecuTorch 1.6 you can compile a PyTorch model with TensorRT, save it as an ExecuTorch program, and run it from C++ or Python without loading... The post ExecuTorch-TensorRT: PyTorch Robot Policies at NVIDIA TensorRT Speed appeared first on PyTorch .</summary>
+    <summary>Unknown attackers have reportedly breached an open-source intelligence analysis system at the US Central Intelligence Agency (CIA) [...]</summary>
   </entry>
   <entry>
     <title>Directly Maximizing On-policy Expected Accepted Length for Speculative Decoding</title>
@@ -168,22 +168,13 @@
     <summary>From GitHub Copilot to Prompt Injection Technology Org</summary>
   </entry>
   <entry>
-    <title>New Inception extortion gang launches large-scale vishing campaign</title>
-    <link href="https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign"/>
-    <id>https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign</id>
-    <updated>2026-11-24T20:21:20.000Z</updated>
-    <author><name>BleepingComputer</name></author>
-    <category term="CYBER THREATS"/>
-    <summary>A newly formed data extortion group named 'Inception' has been linked to a large-scale campaign that targets single sign-on (SSO) credentials of multiple global brands and firms. [...]</summary>
-  </entry>
-  <entry>
-    <title>What People Choose Not to Say: A Multimodal Benchmark for Fine-Grained Information Manipulation in Conversations</title>
-    <link href="https://arxiv.org/abs/2611.31346"/>
-    <id>https://arxiv.org/abs/2611.31346</id>
-    <updated>2026-11-25T05:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
+    <title>transformers v5.24.1 released</title>
+    <link href="https://github.com/huggingface/transformers/releases/tag/v5.24.1"/>
+    <id>https://github.com/huggingface/transformers/releases/tag/v5.24.1</id>
+    <updated>2026-11-24T16:13:08.000Z</updated>
+    <author><name>huggingface/transformers</name></author>
     <category term="CYBER DEFENSE"/>
-    <summary>arXiv:2611.31346v1 Announce Type: new Abstract: Recent advances in MLLMs have improved social understanding, enabling models to recognize emotions and distinguish truthful from deceptive behaviors. However, existing benchmarks largely focus on coarse-grained emotion recognition or binary truth-deception detection, over</summary>
+    <summary>Patch release v5.24.1 A patch to fix a bunch of stuff for vLLM, a few distributed issues, and some model fixes (llama4, dory); see the full list vLLM related Fix backward compatibility of the cache rename for remote code ( #51085 ) by @hmellor Restore modeling_attn_mask_utils for remote code (one-off to unblock vLLM) (</summary>
   </entry>
   <entry>
     <title>AI Stocks’ Big Worry: a Chip Glut</title>
@@ -204,6 +195,15 @@
     <summary>arXiv:2611.31301v1 Announce Type: new Abstract: Audio-video (AV) deepfakes can fake the face, the voice, or both. Most benchmarks only ask whether a clip is real or fake, so they cannot show whether a detector relies on the picture, the voice, or encoding traces. We present MOZAIC, a paired benchmark with a 4-way label</summary>
   </entry>
   <entry>
+    <title>ExecuTorch-TensorRT: PyTorch Robot Policies at NVIDIA TensorRT Speed</title>
+    <link href="https://pytorch.org/blog/executorch-tensorrt-pytorch-robot-policies-at-nvidia-tensorrt-speed"/>
+    <id>https://pytorch.org/blog/executorch-tensorrt-pytorch-robot-policies-at-nvidia-tensorrt-speed</id>
+    <updated>2026-11-24T20:31:02.000Z</updated>
+    <author><name>PyTorch Blog</name></author>
+    <category term="ROBOTICS"/>
+    <summary>TL;DR With Torch-TensorRT 2.15 and ExecuTorch 1.6 you can compile a PyTorch model with TensorRT, save it as an ExecuTorch program, and run it from C++ or Python without loading... The post ExecuTorch-TensorRT: PyTorch Robot Policies at NVIDIA TensorRT Speed appeared first on PyTorch .</summary>
+  </entry>
+  <entry>
     <title>I’ve been drinking wine in my kitchen</title>
     <link href="https://scottaaronson.blog/?p=10362"/>
     <id>https://scottaaronson.blog/?p=10362</id>
@@ -213,31 +213,22 @@
     <summary>See I don’t even like alcohol much. Like, I’ll have a half-glass of wine at a fancy dinner if everyone else is having some, or one beer at a reception, but that’s it. These days, though, can you blame me? Yesterday, as you all probably saw, hot on the heels of its proof of the […]</summary>
   </entry>
   <entry>
-    <title>Anthropic tops 700 million monthly MCP SDK downloads and expands the protocol for more autonomous AI agents</title>
-    <link href="https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents"/>
-    <id>https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents</id>
-    <updated>2026-11-24T19:23:41.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>Two years after launch, Anthropic reports more than 700 million monthly downloads for its MCP interface standard. New features such as background tasks, follow-up questions for users, and file uploads are meant to let Claude work more independently. The article Anthropic tops 700 million monthly MCP SDK downloads and e</summary>
-  </entry>
-  <entry>
-    <title>What real or imagined horrors are waking you up at 4am? | First Dog on the Moon</title>
-    <link href="https://www.theguardian.com/commentisfree/picture/2026/nov/25/what-real-or-imagined-horrors-are-waking-you-up-at-4am"/>
-    <id>https://www.theguardian.com/commentisfree/picture/2026/nov/25/what-real-or-imagined-horrors-are-waking-you-up-at-4am</id>
-    <updated>2026-11-25T05:28:12.000Z</updated>
-    <author><name>The Guardian AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>We are in the most globally anxious period since WW2. I made this up but it sounds true Sign up here to get an email whenever First Dog cartoons are published Get all your needs met at the First Dog shop if what you need is First Dog merchandise and prints Continue reading...</summary>
-  </entry>
-  <entry>
-    <title>Sources: US intelligence officials told congressional aides Alice Huang wasn't directed by China's MSS on Jensen Huang affair, but may have passed intel to MSS (New York Times)</title>
-    <link href="https://www.techmeme.com/261124/p52"/>
-    <id>https://www.techmeme.com/261124/p52</id>
-    <updated>2026-11-25T04:15:01.000Z</updated>
+    <title>Huawei says HarmonyOS has surpassed 100M installations across smartphones, tablets, and PCs, offering 460K+ apps and services from 12M+ registered developers (Iris Deng/South China Morning Post)</title>
+    <link href="https://www.techmeme.com/261125/p7"/>
+    <id>https://www.techmeme.com/261125/p7</id>
+    <updated>2026-11-25T07:10:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>New York Times : Sources: US intelligence officials told congressional aides Alice Huang wasn't directed by China's MSS on Jensen Huang affair, but may have passed intel to MSS — After President Trump said Jensen Huang was not a security threat, U.S. intelligence agencies told aides to lawmakers …</summary>
+    <summary>Iris Deng / South China Morning Post : Huawei says HarmonyOS has surpassed 100M installations across smartphones, tablets, and PCs, offering 460K+ apps and services from 12M+ registered developers — Huawei Technologies has announced that HarmonyOS, its home-grown, Android-free operating system, has surpassed 100 millio</summary>
+  </entry>
+  <entry>
+    <title>Tidal bans 100% AI-generated music with plans to delete more than 27m tracks</title>
+    <link href="https://www.theguardian.com/music/2026/nov/25/tidal-streaming-service-bans-ai-generated-music"/>
+    <id>https://www.theguardian.com/music/2026/nov/25/tidal-streaming-service-bans-ai-generated-music</id>
+    <updated>2026-11-25T02:12:22.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Streaming service says 43% of uploads to platform in past 90 days were made entirely by artificial intelligence The music streaming service Tidal has announced it will ban entirely AI-generated music from its platform and remove millions of songs, saying AI music “diverts streams and royalties away from the artists, an</summary>
   </entry>
   <entry>
     <title>ollama v0.40.18 released</title>
@@ -249,13 +240,13 @@
     <summary>What's Changed mlx: fuse Inkling residual mixing on Metal by @dhiltgen in #19808 mlxrunner: share tensor helpers and model setup across architectures by @jaingaurav in #19805 llama.cpp: version bump b12651 + remove jetpack5 support by @pdevine in #19865 inkling2: faster Metal decode, prefill and draft rounds by @dhiltg</summary>
   </entry>
   <entry>
-    <title>Update on my multi-GPU setup</title>
-    <link href="https://sh.itjust.works/post/70423003"/>
-    <id>https://sh.itjust.works/post/70423003</id>
-    <updated>2026-11-24T19:09:58.000Z</updated>
+    <title>Inkling 2 Mini added to Radiance</title>
+    <link href="https://sh.itjust.works/post/70442221"/>
+    <id>https://sh.itjust.works/post/70442221</id>
+    <updated>2026-11-25T05:59:05.000Z</updated>
     <author><name>Lemmy c/localllama</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by Shimitar to localllama 5 points | 5 comments Well, here is the update then. Currently i have: two NVIDIA RTX A4000 (16GB+16GB) on PCI-e 3.0 8x bifurcator (CPU lanes) one NVIDIA RTX 6000 (Turing, 24GB) on PCI-e 3.0 4x (on M2 slot, CPU lane) i have one free slot, a 4x on chipset lanes that i could equip with</summary>
+    <summary>submitted by avidamoeba to localllama 4 points | 0 comments https://codeberg.org/StillDeadcode/radiance/commit/1c104de400239a2c8eabb384d8ea218b30f9c9b9 Speed 2× Radeon AI PRO R9700 (gfx1201), tp: 2 , int8 KV cache, 200K context, greedy, 400 tokens a request, tok/s: prompts streams drafter, adaptive window (7 at most) d</summary>
   </entry>
   <entry>
     <title>Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition</title>
@@ -267,12 +258,21 @@
     <summary>arXiv:2611.31284v1 Announce Type: new Abstract: Autonomous agent governance is commonly framed as a problem of enforcing correct execution. However, in multi-agent systems, an equally fundamental question precedes execution: which agents are allowed to act. In this paper, we show that allocation is not an auxiliary con</summary>
   </entry>
   <entry>
-    <title>Indian Stocks Extend World-Beating Run as AI Selloff Resumes</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-25/indian-stocks-extend-world-beating-run-as-ai-selloff-resumes"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-25/indian-stocks-extend-world-beating-run-as-ai-selloff-resumes</id>
-    <updated>2026-11-25T05:04:20.000Z</updated>
+    <title>Malaysia Says Too Early to See Impact of US Chip Curbs</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-11-25/malaysia-says-too-early-to-see-impact-of-us-chip-curbs-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-11-25/malaysia-says-too-early-to-see-impact-of-us-chip-curbs-video</id>
+    <updated>2026-11-25T07:48:37.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Indian stocks surged, extending their world-beating November rally as renewed selling in global artificial intelligence names bolstered a rotation toward markets with limited exposure to the theme.</summary>
+    <summary>Malaysian Investment Development Authority Chairman, and Senior Political Advisor to the Malaysian Prime Minister, Zafrul Aziz, believes it's too early to see the impact of US chip curbs. The US recently announced it would enforce tighter control on the exports of advanced artificial intelligence chips to Singapore, Th</summary>
+  </entry>
+  <entry>
+    <title>China Dismisses US Tariff Prospect as ‘Political Maneuvering’</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-25/china-dismisses-us-tariff-prospect-as-political-maneuvering"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-25/china-dismisses-us-tariff-prospect-as-political-maneuvering</id>
+    <updated>2026-11-25T07:57:21.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>China called the prospect of new US tariffs on its exports “political maneuvering” and said the two nations should work together to maintain their trade truce.</summary>
   </entry>
 </feed>
