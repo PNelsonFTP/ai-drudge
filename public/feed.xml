@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-25T04:09:03.524Z</updated>
+  <updated>2026-11-25T04:36:32.292Z</updated>
   <entry>
-    <title>llama.cpp b12711 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12711"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12711</id>
-    <updated>2026-11-25T04:07:58.000Z</updated>
+    <title>llama.cpp b12717 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12717"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12717</id>
+    <updated>2026-11-24T18:47:34.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>ggml-cpu: repack kernels for targets without dotprod (ARMv8.0 64-bit) for Q4_0/Q8_0 ( #32142 ) ggml-cpu: optimized kernels for ARM v8.0 (without dotprod) ggml-cpu: fix comment and align to implementation ggml-cpu: exclude new kernels for apple arch Website: https://llama.app Attestations: https://github.com/ggml-org/ll — Also covered by: ggml-org/whisper.cpp</summary>
+    <summary>ggml : fix SpacemiT flash attention null mask, ALiBi and softcap ( #32 … — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
     <title>claude-code v2.1.332 released</title>
@@ -85,6 +85,15 @@
     <author><name>Ai2 (Allen Institute)</name></author>
     <category term="OPEN SOURCE"/>
     <summary>RoboTrack introduces a new benchmark, synthetic training dataset, and two models that improve how robots track objects during real-world manipulation tasks. — Also covered by: Hugging Face Blog</summary>
+  </entry>
+  <entry>
+    <title>b12723: model : inkling2 graph with fewer ops in mix() and control() (#32948)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12723"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12723</id>
+    <updated>2026-11-25T03:54:30.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Assisted-by: Claude Opus 5.5</summary>
   </entry>
   <entry>
     <title>Tidal bans 100% AI-generated music with plans to delete more than 27m tracks</title>
@@ -177,13 +186,13 @@
     <summary>If anyone needs therapy nowadays, it may be tech investors more than Jensen Huang . Let’s face it: The stock market has been a little manic-depressive lately. On Tuesday, for instance, the Jensen-reinstatement rally reversed itself, sending Nvidia stock down nearly 6%, while Anthropic closed below its IPO price. Neoclo</summary>
   </entry>
   <entry>
-    <title>Three LLM inflection points in twelve months</title>
-    <link href="https://simonwillison.net/2026/Nov/24/llm-inflection-points"/>
-    <id>https://simonwillison.net/2026/Nov/24/llm-inflection-points</id>
-    <updated>2026-11-24T23:02:07.000Z</updated>
-    <author><name>Simon Willison</name></author>
+    <title>[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab</title>
+    <link href="https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab"/>
+    <id>https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab</id>
+    <updated>2026-11-25T04:29:07.000Z</updated>
+    <author><name>Latent Space</name></author>
     <category term="ANALYSIS"/>
-    <summary>I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months. Here's the video of the talk. In this post I'm going to pull out the major inflection point th</summary>
+    <summary>November 24, 2026 — Neon beats Astra and Fable on LiveBench and cuts Theo’s TS Rust benchmark runtime by 48.6%.</summary>
   </entry>
   <entry>
     <title>I’ve been drinking wine in my kitchen</title>
@@ -202,6 +211,15 @@
     <author><name>The Decoder</name></author>
     <category term="MODEL RELEASES"/>
     <summary>Two years after launch, Anthropic reports more than 700 million monthly downloads for its MCP interface standard. New features such as background tasks, follow-up questions for users, and file uploads are meant to let Claude work more independently. The article Anthropic tops 700 million monthly MCP SDK downloads and e</summary>
+  </entry>
+  <entry>
+    <title>Sources: US intelligence officials told congressional aides Alice Huang wasn't directed by China's MSS on Jensen Huang affair, but may have passed intel to MSS (New York Times)</title>
+    <link href="https://www.techmeme.com/261124/p52"/>
+    <id>https://www.techmeme.com/261124/p52</id>
+    <updated>2026-11-25T04:15:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>New York Times : Sources: US intelligence officials told congressional aides Alice Huang wasn't directed by China's MSS on Jensen Huang affair, but may have passed intel to MSS — After President Trump said Jensen Huang was not a security threat, U.S. intelligence agencies told aides to lawmakers …</summary>
   </entry>
   <entry>
     <title>Nutanix CEO Rajiv Ramaswami announces plans to step down and become a senior adviser, but will remain as CEO until a successor is named; he joined in late 2020 (Mike Wheatley/SiliconANGLE)</title>
@@ -240,39 +258,21 @@
     <summary>An agent lake holds every trace your agents produce. See how LangSmith finds high-signal traces at scale and turns them into fixes and fine-tuned models.</summary>
   </entry>
   <entry>
-    <title>How We Achieved ISO 42001 with LangSmith</title>
-    <link href="https://www.langchain.com/blog/ai-governance-iso-iec-42001-langsmith"/>
-    <id>https://www.langchain.com/blog/ai-governance-iso-iec-42001-langsmith</id>
-    <updated>2026-11-25T01:04:06.000Z</updated>
-    <author><name>LangChain Blog</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>LangChain earned ISO/IEC 42001 certification, the international standard for AI management systems, using LangSmith. Learn how.</summary>
-  </entry>
-  <entry>
-    <title>India’s Anti-AI Stock Trade Confronts Rich Valuations, Global Tariff Risks</title>
-    <link href="https://www.bloomberg.com/news/newsletters/2026-11-25/india-s-anti-ai-stock-trade-confronts-rich-valuations-global-tariff-risks"/>
-    <id>https://www.bloomberg.com/news/newsletters/2026-11-25/india-s-anti-ai-stock-trade-confronts-rich-valuations-global-tariff-risks</id>
-    <updated>2026-11-25T02:30:28.000Z</updated>
+    <title>Xi Probes Shanghai Boss, Widening Political Shakeup</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-11-25/xi-probes-shanghai-boss-widening-political-shakeup-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-11-25/xi-probes-shanghai-boss-widening-political-shakeup-video</id>
+    <updated>2026-11-25T04:25:11.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Meanwhile, a cash crunch in India’s banking system is forcing lenders to borrow at higher costs.</summary>
+    <summary>China has opened an investigation into Chen Jining, a member of the country's elite Politburo and the party chief of Shanghai, for suspected serious violations of law and discipline. Bloomberg Economics' Neil Thomas has the context. (Source: Bloomberg)</summary>
   </entry>
   <entry>
-    <title>Rakuten Credit Risk Surges After Yen Bond Offering Scrapped</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-25/rakuten-credit-risk-surges-after-yen-bond-offering-scrapped"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-25/rakuten-credit-risk-surges-after-yen-bond-offering-scrapped</id>
-    <updated>2026-11-25T02:23:00.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
+    <title>Nscale says it has option to stay private as tech sell-off threatens $35bn IPO</title>
+    <link href="https://www.ft.com/content/189d0c46-3c66-420b-af7d-a1d0b78d68ac?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/189d0c46-3c66-420b-af7d-a1d0b78d68ac?syn-25a6b1a6=1</id>
+    <updated>2026-11-24T22:50:57.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
     <category term="AI FINANCE"/>
-    <summary>Rakuten Group Inc.’s credit risk surged by the most since April 2025 after the company scrapped plans to raise about ¥150 billion ($942 million) in the bond market.</summary>
-  </entry>
-  <entry>
-    <title>GPT-6 models demonstrate intrinsic protein-design capabilities</title>
-    <link href="https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"/>
-    <id>https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities</id>
-    <updated>2026-11-24T13:00:00.000Z</updated>
-    <author><name>OpenAI Blog</name></author>
-    <category term="PRODUCTS"/>
-    <summary>GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.</summary>
+    <summary>Chief executive Josh Payne seeks to reassure staff at the UK data centre group after cutting back on hiring</summary>
   </entry>
 </feed>
