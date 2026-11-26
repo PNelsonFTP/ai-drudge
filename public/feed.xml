@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-26T15:08:45.743Z</updated>
+  <updated>2026-11-26T16:08:40.159Z</updated>
   <entry>
     <title>llama.cpp v1.1.0 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0"/>
@@ -25,6 +25,15 @@
     <summary>Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and other secrets were not accessed. &quot;While we took immediate steps to contain the incide — Also covered by: BleepingComputer</summary>
   </entry>
   <entry>
+    <title>The New York Times warns photographers not to update Photoshop over AI features</title>
+    <link href="https://simonwillison.net/2026/Nov/26/hn-50651685"/>
+    <id>https://simonwillison.net/2026/Nov/26/hn-50651685</id>
+    <updated>2026-11-26T05:08:46.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>My comment on The New York Times warns photographers not to update Photoshop over AI features — Hacker News. I had a NYT photographer take my picture at my home earlier this year (for a story about Moltbook, oddly enough). At one point I asked if they could fix things up if I had a stain on my shirt and they said absol — Also covered by: HN: AI (150+ points)</summary>
+  </entry>
+  <entry>
     <title>Elon Musk pledges to give two SpaceX shares to every child in the US</title>
     <link href="https://www.theguardian.com/technology/2026/nov/26/elon-musk-pledges-to-give-two-spacex-shares-to-every-child-in-the-us"/>
     <id>https://www.theguardian.com/technology/2026/nov/26/elon-musk-pledges-to-give-two-spacex-shares-to-every-child-in-the-us</id>
@@ -40,7 +49,7 @@
     <updated>2026-11-26T08:14:37.000Z</updated>
     <author><name>QwenLM/qwen-code</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Highlights Managed sessions can now suspend while awaiting tool approvals, questions, or background work, and resume after Harness crashes via cold recovery. ( #17953 , #18115 , #18164 , #18166 , #18170 , #18187 , #18194 , #18224 , #18236 , #18303 ) Headless sessions and the Ink TUI now run on the event-bus kernel by d — Also covered by: anthropics/claude-code</summary>
+    <summary>Highlights Managed sessions can now suspend while awaiting tool approvals, questions, or background work, and resume after Harness crashes via cold recovery. ( #17953 , #18115 , #18164 , #18166 , #18170 , #18187 , #18194 , #18224 , #18236 , #18303 ) Headless sessions and the Ink TUI now run on the event-bus kernel by d — Also covered by: anthropics/claude-code, QwenLM/qwen-code</summary>
   </entry>
   <entry>
     <title>Quantum eMotion Completes Acquisition of Plurilock Security</title>
@@ -70,6 +79,15 @@
     <summary>OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.</summary>
   </entry>
   <entry>
+    <title>GPT-6 models demonstrate intrinsic protein-design capabilities</title>
+    <link href="https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"/>
+    <id>https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities</id>
+    <updated>2026-11-24T13:00:00.000Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.</summary>
+  </entry>
+  <entry>
     <title>b12778: CUDA: fuse the top-k MoE weight norm with an additive sum bias (#32943)</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12778"/>
     <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12778</id>
@@ -79,13 +97,13 @@
     <summary>Assisted-by: Claude Opus 5.5</summary>
   </entry>
   <entry>
-    <title>TrustedRouter, which raised $6M to offer E2EE and confidential computing for enterprise AI queries, says it processes 6B+ tokens per day, up from 1B in August (Davey Alba/Bloomberg)</title>
-    <link href="https://www.techmeme.com/261126/p18"/>
-    <id>https://www.techmeme.com/261126/p18</id>
-    <updated>2026-11-26T13:30:01.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue</title>
+    <link href="https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue"/>
+    <id>https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue</id>
+    <updated>2026-11-26T16:00:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Davey Alba / Bloomberg : TrustedRouter, which raised $6M to offer E2EE and confidential computing for enterprise AI queries, says it processes 6B+ tokens per day, up from 1B in August — The startup offers companies a way to keep employees' AI use private from model makers … Tech Across the Globe</summary>
+    <summary>On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.</summary>
   </entry>
   <entry>
     <title>Presentation: Finetuning Your Embedding Model for Better Search: Learning from Agentic Search at Dell</title>
@@ -97,13 +115,13 @@
     <summary>Rachel Shalom explains how Dell solved enterprise RAG retrieval failures on internal terminology by fine-tuning open-source embedding models. She discusses data prep with hard negatives, distributed InfoNCE loss training on H100 GPUs, automated hyperparameter tuning, and production evaluation using LLM-as-a-judge. By R</summary>
   </entry>
   <entry>
-    <title>(USD:ZAR) Rand Hurtles Toward Worst November Against Dollar in 25 Years</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-26/-usd-zar-rand-hurtles-toward-worst-november-against-dollar-in-25-years"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-26/-usd-zar-rand-hurtles-toward-worst-november-against-dollar-in-25-years</id>
-    <updated>2026-11-26T14:59:27.000Z</updated>
+    <title>What JLL Sees This Holiday Season</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-11-26/what-jll-sees-this-holiday-season-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-11-26/what-jll-sees-this-holiday-season-video</id>
+    <updated>2026-11-26T15:25:16.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>South Africa’s rand is being buffeted by domestic and global headwinds that have put the currency on course for the worst November against the dollar in 25 years.</summary>
+    <summary>JLL’s 2026 Holiday Retail Report found holiday spending is up 9.7% from last year, with more consumers directing more of their budgets toward experiences. Naveen Jaggi, President of Retail Advisory Services at JLL, discussed holiday shopping trends and the retail real estate outlook with Stephen Carroll on Bloomberg Ma</summary>
   </entry>
   <entry>
     <title>Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon</title>
@@ -119,7 +137,7 @@
     <id>https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040</id>
     <updated>2026-11-26T13:41:07.000Z</updated>
     <author><name>The Decoder</name></author>
-    <category term="PRODUCTS"/>
+    <category term="HARDWARE"/>
     <summary>The FCC has authorized SpaceX to deploy up to 1 million Starmind satellites to process AI data as orbital data centers. SpaceX is targeting its first launches in 2027, and the full constellation is set to be operating by 2040. Google and Blue Origin are also working on AI infrastructure in space, but Boston Consulting </summary>
   </entry>
   <entry>
@@ -132,13 +150,13 @@
     <summary>The next wave of AI innovation is happening now. Join the developers, researchers, engineers, and industry leaders driving that progress at PyTorch Day China 2026, taking place December 12 in... The post Explore the PyTorch Day China 2026 Schedule appeared first on PyTorch .</summary>
   </entry>
   <entry>
-    <title>Go seeking mysteries</title>
-    <link href="https://www.lesswrong.com/posts/f5r7FpLWiFQ7aeJu9/go-seeking-mysteries"/>
-    <id>https://www.lesswrong.com/posts/f5r7FpLWiFQ7aeJu9/go-seeking-mysteries</id>
-    <updated>2026-11-26T14:50:57.000Z</updated>
+    <title>Models probably should not know so much about how we train and evaluate them</title>
+    <link href="https://www.lesswrong.com/posts/5dJ2Bu9hZDQXxvADR/models-probably-should-not-know-so-much-about-how-we-train"/>
+    <id>https://www.lesswrong.com/posts/5dJ2Bu9hZDQXxvADR/models-probably-should-not-know-so-much-about-how-we-train</id>
+    <updated>2026-11-26T15:38:37.000Z</updated>
     <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>I think an impactful line of research would be to hunt for unexplained phenomena: simple things that are surprising and interesting, given the most parsimonious explanation of the data. Let’s call this mystery-seeking . MS Paint drawing by Opus 5.5. I also think this is differentially good for empirics-focused, junior </summary>
+    <summary>Tl;dr: It seems plausible that labs should filter information about specific training environments, evaluations, and oversight mechanisms from the pretraining data of potentially dangerous models. This is technically feasible, could make metagaming less useful, and may help preserve our ability to catch alignment failu</summary>
   </entry>
   <entry>
     <title>Real-Time Agentic Security: Cato AgentSense Intercepts Prompt Injection Before Autonomous Execution + Video</title>
@@ -150,13 +168,31 @@
     <summary>Real-Time Agentic Security: Cato AgentSense Intercepts Prompt Injection Before Autonomous Execution + Video Howl.Link</summary>
   </entry>
   <entry>
-    <title>sqlite3_rsync: Database Remote-Copy Tool For SQLite</title>
-    <link href="https://simonwillison.net/2026/Nov/26/sqlite3-rsync"/>
-    <id>https://simonwillison.net/2026/Nov/26/sqlite3-rsync</id>
-    <updated>2026-11-26T06:08:25.000Z</updated>
+    <title>Remus malware steals Gmail messages via fake Google Sheets extension</title>
+    <link href="https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension"/>
+    <id>https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension</id>
+    <updated>2026-11-26T15:23:28.000Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]</summary>
+  </entry>
+  <entry>
+    <title>TrustedRouter, which raised $6M to offer E2EE and confidential computing for enterprise AI queries, says it processes 6B+ tokens per day, up from 1B in August (Davey Alba/Bloomberg)</title>
+    <link href="https://www.techmeme.com/261126/p18"/>
+    <id>https://www.techmeme.com/261126/p18</id>
+    <updated>2026-11-26T13:30:01.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="CYBER DEFENSE"/>
+    <summary>Davey Alba / Bloomberg : TrustedRouter, which raised $6M to offer E2EE and confidential computing for enterprise AI queries, says it processes 6B+ tokens per day, up from 1B in August — The startup offers companies a way to keep employees' AI use private from model makers … Tech Across the Globe</summary>
+  </entry>
+  <entry>
+    <title>Quoting Jack Despain Zhou</title>
+    <link href="https://simonwillison.net/2026/Nov/26/jack-despain-zhou"/>
+    <id>https://simonwillison.net/2026/Nov/26/jack-despain-zhou</id>
+    <updated>2026-11-26T15:09:31.000Z</updated>
     <author><name>Simon Willison</name></author>
     <category term="ANALYSIS"/>
-    <summary>sqlite3_rsync: Database Remote-Copy Tool For SQLite This additional SQLite tool has been around for a while now - it was added as &quot;experimental&quot; in SQLite 3.47.0 in October 2024 and enhanced in SQLite 3.50.0 in May 2025 . It was only today that I understood one of its most attractive characteristics. Normally, if you w</summary>
+    <summary>Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostensibly serious credentials attached to ost</summary>
   </entry>
   <entry>
     <title>EU Rules Bring New Safety Requirements for Farm Robots</title>
@@ -186,22 +222,13 @@
     <summary>bump llama-server ( #19917 )</summary>
   </entry>
   <entry>
-    <title>OpenAI says it corrected a GPT-6.2 Astra and Sol launch billing mistake that had incorrectly discounted usage; Astra users will now hit their limits 40% faster (Graham Barlow/TechRadar)</title>
-    <link href="https://www.techmeme.com/261126/p16"/>
-    <id>https://www.techmeme.com/261126/p16</id>
-    <updated>2026-11-26T13:01:08.000Z</updated>
+    <title>Avicena, which links AI chips with microLEDs instead of lasers, raised a $100M+ Series C led by Intervest, with participation from SK Hynix, Samsung, and AMD (Cristian Dina/The Next Web)</title>
+    <link href="https://www.techmeme.com/261126/p20"/>
+    <id>https://www.techmeme.com/261126/p20</id>
+    <updated>2026-11-26T15:50:27.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Graham Barlow / TechRadar : OpenAI says it corrected a GPT-6.2 Astra and Sol launch billing mistake that had incorrectly discounted usage; Astra users will now hit their limits 40% faster — Too little, too late? … - OpenAI has admitted to a billing mistake with its new GPT-6.2 models — You'll now hit your usage limits </summary>
-  </entry>
-  <entry>
-    <title>Dozens of court cases in England and Wales affected by undisclosed AI use in 2026</title>
-    <link href="https://www.theguardian.com/technology/2026/nov/26/dozens-of-court-cases-in-england-and-wales-affected-by-undisclosed-ai-use-in-2026"/>
-    <id>https://www.theguardian.com/technology/2026/nov/26/dozens-of-court-cases-in-england-and-wales-affected-by-undisclosed-ai-use-in-2026</id>
-    <updated>2026-11-26T12:19:37.000Z</updated>
-    <author><name>The Guardian AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Exclusive: Investigation finds at least 25 cases affected by AI-generated witness statements, fictitious case law and nonexistent statutes Undisclosed AI use has affected more than two dozen court cases this year, prompting judges to complain about AI-generated witness statements, fictitious case law and nonexistent st</summary>
+    <summary>Cristian Dina / The Next Web : Avicena, which links AI chips with microLEDs instead of lasers, raised a $100M+ Series C led by Intervest, with participation from SK Hynix, Samsung, and AMD — SK hynix, Samsung and AMD's venture arms joined the Series C. New chief executive Kevin Pope plans to bring the first LightBundle</summary>
   </entry>
   <entry>
     <title>7 Best AI Agents for Founders to Manage Daily Business Workflows in 2026</title>
@@ -231,48 +258,21 @@
     <summary>An agent lake holds every trace your agents produce. See how LangSmith finds high-signal traces at scale and turns them into fixes and fine-tuned models.</summary>
   </entry>
   <entry>
-    <title>Oil Refining Profits Crash With Global Fuel Supply Rebounding</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-26/oil-refining-profits-crash-with-global-fuel-supply-rebounding"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-26/oil-refining-profits-crash-with-global-fuel-supply-rebounding</id>
-    <updated>2026-11-26T14:14:43.000Z</updated>
+    <title>BCG on What’s Keeping CEOs Up at Night</title>
+    <link href="https://www.bloomberg.com/news/videos/2026-11-26/bcg-on-what-s-keeping-ceos-up-at-night-video"/>
+    <id>https://www.bloomberg.com/news/videos/2026-11-26/bcg-on-what-s-keeping-ceos-up-at-night-video</id>
+    <updated>2026-11-26T15:20:01.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The amount of money oil refiners are making from turning crude into fuel has slumped to the lowest in months as recovering supply and sluggish demand ease the impact of the Iran war.</summary>
+    <summary>From AI and employee trust to political uncertainty and pressure for growth, a new Boston Consulting Group survey reveals what’s weighing on business leaders. Matthias Tauber, Managing Partner for EMEA at BCG, discussed what’s keeping CEOs up at night with Stephen Carroll on Bloomberg Markets. (Source: Bloomberg)</summary>
   </entry>
   <entry>
-    <title>¿Qué causó las fallas tecnológicas en EE.UU.?</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-11-26/-que-causo-las-fallas-tecnologicas-en-ee-uu-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-11-26/-que-causo-las-fallas-tecnologicas-en-ee-uu-video</id>
-    <updated>2026-11-26T14:11:51.000Z</updated>
+    <title>Mexican Peso Sees Worst Losing Streak Since 2021 on Carry Unwind</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-26/mexican-peso-sees-worst-losing-streak-since-2021-on-carry-unwind"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-26/mexican-peso-sees-worst-losing-streak-since-2021-on-carry-unwind</id>
+    <updated>2026-11-26T15:07:52.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Microsoft, aerolíneas, la NSA, JPMorgan y Apple sufrieron fallas en pocos días. No hay evidencia de que estén conectadas, pero sí una alerta: la IA descubre errores mucho más rápido de lo que pueden corregirse. (Source: Bloomberg)</summary>
-  </entry>
-  <entry>
-    <title>AutoformBench: A Lean Formalization Benchmark for Advanced Mathematics</title>
-    <link href="https://arxiv.org/abs/2611.33165"/>
-    <id>https://arxiv.org/abs/2611.33165</id>
-    <updated>2026-11-26T05:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
-    <category term="RESEARCH"/>
-    <summary>arXiv:2611.33165v1 Announce Type: new Abstract: AI systems are increasingly capable of producing machine-checked Lean proofs of advanced mathematical results. Real mathematical formalization, however, is not isolated theorem proving: it requires building the definitions and intermediate lemmas that connect a result to </summary>
-  </entry>
-  <entry>
-    <title>What, Who, and When: Structured Harm Assessment for Mental Health Safety via Short Reasoning</title>
-    <link href="https://arxiv.org/abs/2611.33263"/>
-    <id>https://arxiv.org/abs/2611.33263</id>
-    <updated>2026-11-26T05:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
-    <category term="RESEARCH"/>
-    <summary>arXiv:2611.33263v1 Announce Type: new Abstract: The growing use of large language models (LLMs) for mental health support raises important safety concerns. Existing guard models primarily identify categories of harmful content, often overlooking the context needed to determine an appropriate response. We introduce a cl</summary>
-  </entry>
-  <entry>
-    <title>Rethinking read replicas for the lakebase architecture</title>
-    <link href="https://www.databricks.com/blog/rethinking-read-replicas-lakebase-architecture"/>
-    <id>https://www.databricks.com/blog/rethinking-read-replicas-lakebase-architecture</id>
-    <updated>2026-11-26T13:45:08.000Z</updated>
-    <author><name>Databricks Blog</name></author>
-    <category term="PRODUCTS"/>
-    <summary>The idea behind read replicas makes sense: when your app gets busy, you add a couple...</summary>
+    <summary>The Mexican peso is headed for its longest losing streak in five years as investors flee to safe haven assets and the popular carry trade unravels.</summary>
   </entry>
 </feed>
