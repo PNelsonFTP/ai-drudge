@@ -5,15 +5,24 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-26T02:08:41.247Z</updated>
+  <updated>2026-11-26T03:08:56.274Z</updated>
   <entry>
-    <title>llama.cpp b12753 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12753"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12753</id>
-    <updated>2026-11-25T15:48:55.000Z</updated>
+    <title>llama.cpp b12754 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12754"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12754</id>
+    <updated>2026-11-26T02:50:38.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>llama : fix seq state restore with ON_DEVICE ( #30318 ) — Also covered by: ggml-org/whisper.cpp</summary>
+    <category term="LOCAL MODELS"/>
+    <summary>ggml-openvino: fix CI op tests and improve KV cache decode ( #33002 ) ggml-openvino: write back consumed in-place nodes of op-test graphs On the naive path every node of an op-test graph is a model output, except an in-place node that another node reads: it got no output, so its destination buffer was never written. GA — Also covered by: ggml-org/whisper.cpp</summary>
+  </entry>
+  <entry>
+    <title>OpenAI rolls out its merged ChatGPT Chat and Work tabs, with a shared usage meter, to a small group of Pro users, saying heavy users may hit their limits sooner (Jagmeet Singh/TechCrunch)</title>
+    <link href="https://www.techmeme.com/261125/p46"/>
+    <id>https://www.techmeme.com/261125/p46</id>
+    <updated>2026-11-26T02:55:02.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Jagmeet Singh / TechCrunch : OpenAI rolls out its merged ChatGPT Chat and Work tabs, with a shared usage meter, to a small group of Pro users, saying heavy users may hit their limits sooner — OpenAI has started rolling out a unified Chat and Work experience in ChatGPT to a few of its users, amid criticism from some sub — Also covered by: TechCrunch AI</summary>
   </entry>
   <entry>
     <title>Where scientists draw the line on AI agents</title>
@@ -34,13 +43,13 @@
     <summary>Amazon and Meta are in talks to bring back Muse, Meta's AI shopping agent that Amazon kicked off its platform in September. The two sides are stuck on ad revenue and who gets to control search results. That matters because Amazon's ad business generates $68.6 billion a year, and Muse already commands 51 percent of all  — Also covered by: The Verge AI</summary>
   </entry>
   <entry>
-    <title>European Commission Proposes Quantum Act to Bring Research to Market</title>
-    <link href="https://www.hpcwire.com/off-the-wire/european-commission-proposes-quantum-act-to-bring-research-to-market"/>
-    <id>https://www.hpcwire.com/off-the-wire/european-commission-proposes-quantum-act-to-bring-research-to-market</id>
-    <updated>2026-11-25T16:17:31.000Z</updated>
-    <author><name>HPC Wire</name></author>
-    <category term="HARDWARE"/>
-    <summary>Nov. 25, 2026 — The European Commission has proposed the Quantum Act, a new framework to help turn Europe’s quantum research into products and services, strengthen supply chains and prepare Europe’s digital systems for post-quantum cryptography. The proposal also lays the groundwork for the Sovereign Tech Equity Fund (</summary>
+    <title>European Commission Proposes EU Quantum Act and Sovereign Tech Equity Fund to Scale Industrial Capacity by 2030</title>
+    <link href="https://quantumcomputingreport.com/european-commission-proposes-eu-quantum-act-and-sovereign-tech-equity-fund-to-scale-industrial-capacity-by-2030"/>
+    <id>https://quantumcomputingreport.com/european-commission-proposes-eu-quantum-act-and-sovereign-tech-equity-fund-to-scale-industrial-capacity-by-2030</id>
+    <updated>2026-11-26T02:57:24.000Z</updated>
+    <author><name>Quantum Computing Report</name></author>
+    <category term="QUANTUM"/>
+    <summary>The European Commission has proposed the EU Quantum Act, a legislative framework for quantum technologies, and a €50 billion Sovereign Tech Equity Fund to boost industrial capacity by 2030. This initiative aims to align national and EU programs, address the private growth-capital gap, and establish global industrial le — Also covered by: The Quantum Insider</summary>
   </entry>
   <entry>
     <title>OpenAI and Cisco introduce Shirudo</title>
@@ -79,6 +88,15 @@
     <summary>Insider Brief PRESS RELEASE — ARQUE Systems, a Jülich–Aachen spin-off, aims to overcome a major hurdle in quantum computing using innovative quantum semiconductor technology. As part of the € 35 million Q-STAR.NRW project, their approach will now be tested with up to 200 qubits, helping to stimulate value creation in t — Also covered by: Quantum Computing Report</summary>
   </entry>
   <entry>
+    <title>b12755: model : add hy_v4_flash on the DSA iSWA cache (#32960)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12755"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12755</id>
+    <updated>2026-11-25T17:39:50.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>model : add hy_v4_flash on the DSA iSWA cache Tencent Hy4 flash is a hy_v4 trunk (iHC, gated MLA, sinks) with sparse and sliding-window MLA layers, sandwich norms, latent routed experts and deepseek41 Engram tables. The sparse layers select their context with a pooled indexer: the keys of 4 consecutive tokens are poole</summary>
+  </entry>
+  <entry>
     <title>Investigation: Nvidia sells its most advanced chips to at least two Chinese-owned California companies, which have leased or sold some of them to firms in Asia (Josh Boswell/CBS News)</title>
     <link href="https://www.techmeme.com/261125/p45"/>
     <id>https://www.techmeme.com/261125/p45</id>
@@ -97,49 +115,31 @@
     <summary>Changes since langchain-core==1.8.4 release(core): 1.8.5 ( #42103 ) fix(core): reuse provider message id on later stream chunks ( #42050 ) docs(core): clarify v3 runtime warning behavior ( #42040 ) docs(core): clarify supported streaming event APIs ( #42038 ) release(standard-tests): 1.2.0 ( #41996 ) release(text-split</summary>
   </entry>
   <entry>
-    <title>Shein’s Slow India Start Lays Bare Limits of Billionaire Ambani’s Retail Might</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-26/shein-s-slow-india-start-lays-bare-limits-of-billionaire-ambani-s-retail-might"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-26/shein-s-slow-india-start-lays-bare-limits-of-billionaire-ambani-s-retail-might</id>
-    <updated>2026-11-26T01:31:20.000Z</updated>
+    <title>KK Mart Starts $112 Million IPO Delayed by Malaysia Socks Row</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-26/kk-mart-starts-112-million-ipo-delayed-by-malaysia-socks-row"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-26/kk-mart-starts-112-million-ipo-delayed-by-malaysia-socks-row</id>
+    <updated>2026-11-26T02:03:11.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Shein Global Holdings Ltd.’s return to India through a local partner is off to a slow start, due to supply chain snags, leadership uncertainty and a lack of proprietary technology that made the fast-fashion brand a hit.</summary>
+    <summary>KK Mart Retail Bhd., the Malaysian convenience-store chain whose first attempt at an initial public offering was delayed by a religious controversy, is launching a 462 million ringgit ($112 million) share sale as it prepares to add hundreds of outlets across the country.</summary>
   </entry>
   <entry>
-    <title>INCLUDE-2.0: Disentangling Knowledge Gaps in Multilingual LLM Evaluation</title>
-    <link href="https://arxiv.org/abs/2611.31255"/>
-    <id>https://arxiv.org/abs/2611.31255</id>
-    <updated>2026-11-25T05:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
+    <title>Hawkish Bank of Japan Member Seeks Quick Rate Hikes On Inflation</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-26/hawkish-bank-of-japan-member-seeks-quick-rate-hikes-on-inflation"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-26/hawkish-bank-of-japan-member-seeks-quick-rate-hikes-on-inflation</id>
+    <updated>2026-11-26T02:28:30.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="RESEARCH"/>
-    <summary>arXiv:2611.31255v1 Announce Type: new Abstract: Current multilingual benchmarks cover only a fraction of the languages represented in modern pretraining corpora and often conflate language proficiency with the ability to answer questions grounded in specific regions and communities. We introduce INCLUDE-2.0, a large-sc</summary>
+    <summary>A hawkish member of the Bank of Japan’s policy board called for early action to keep raising the BOJ’s benchmark rate, supporting market expectations for a rate hike next month.</summary>
   </entry>
   <entry>
-    <title>Copilot code review billing will default to the organization</title>
-    <link href="https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization"/>
-    <id>https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization</id>
-    <updated>2026-11-25T22:18:03.000Z</updated>
-    <author><name>GitHub Copilot Changelog</name></author>
-    <category term="PRODUCTS"/>
-    <summary>If you haven’t chosen how to bill Copilot code review for members with a Copilot license, those reviews will be billed to your organization starting December 30, 2026. To keep… The post Copilot code review billing will default to the organization appeared first on The GitHub Blog .</summary>
-  </entry>
-  <entry>
-    <title>Evaluating Recent Model Releases on GDPx</title>
-    <link href="https://newsletter.semianalysis.com/p/evaluating-recent-model-releases"/>
-    <id>https://newsletter.semianalysis.com/p/evaluating-recent-model-releases</id>
-    <updated>2026-11-26T00:05:35.000Z</updated>
-    <author><name>SemiAnalysis Newsletter</name></author>
-    <category term="HARDWARE"/>
-    <summary>GPT-6.2 Astra takes the crown but bad at software engineering, Gemini 4 Neon is an impressive improvement from Google but still overrated, Fable 5.2 is smart but expensive, and new Chinese models as well</summary>
-  </entry>
-  <entry>
-    <title>vLLM Singapore Meetup: Faster Prefill, Agent-Written Kernels and the Road to Vera Rubin</title>
-    <link href="https://pytorch.org/blog/vllm-singapore-meetup-faster-prefill-agent-written-kernels-and-the-road-to-vera-rubin"/>
-    <id>https://pytorch.org/blog/vllm-singapore-meetup-faster-prefill-agent-written-kernels-and-the-road-to-vera-rubin</id>
-    <updated>2026-11-25T18:03:15.000Z</updated>
+    <title>Explore the PyTorch Day China 2026 Schedule</title>
+    <link href="https://pytorch.org/blog/explore-the-pytorch-day-china-2026-schedule"/>
+    <id>https://pytorch.org/blog/explore-the-pytorch-day-china-2026-schedule</id>
+    <updated>2026-11-26T02:44:16.000Z</updated>
     <author><name>PyTorch Blog</name></author>
     <category term="OPEN SOURCE"/>
-    <summary>TL;DR At the Singapore vLLM meetup, engineers from Inferact, NVIDIA, and Alibaba Cloud showcased how the community is advancing open source AI inference through pipeline parallelism optimizations, agent-written kernels, real-time... The post vLLM Singapore Meetup: Faster Prefill, Agent-Written Kernels and the Road to V</summary>
+    <summary>The next wave of AI innovation is happening now. Join the developers, researchers, engineers, and industry leaders driving that progress at PyTorch Day China 2026, taking place December 12 in... The post Explore the PyTorch Day China 2026 Schedule appeared first on PyTorch .</summary>
   </entry>
   <entry>
     <title>Claude and Levent Alpöge Prove the Riemann Hypothesis</title>
@@ -178,15 +178,6 @@
     <summary>Unit 42 examines the evolution of AI-driven cyberattacks and outlines proactive defense strategies for security teams. The post The AI Threat Horizon: Why Speed, Edge AI and Baselines Are Our Best Defense appeared first on Unit 42 .</summary>
   </entry>
   <entry>
-    <title>Your AI Startup’s Exit Is Being Shaped By The Deals You Sign Today</title>
-    <link href="https://news.crunchbase.com/ma/your-ai-startups-exit-is-being-shaped-by-the-deals-you-sign-today"/>
-    <id>https://news.crunchbase.com/ma/your-ai-startups-exit-is-being-shaped-by-the-deals-you-sign-today</id>
-    <updated>2026-11-25T12:00:09.000Z</updated>
-    <author><name>Crunchbase News AI</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>When everything moves that fast, the terms of your financings and of your contracts for compute, data and distribution get set early and in a hurry. Some of those terms will later slow a sale, add cost and erode value.</summary>
-  </entry>
-  <entry>
     <title>Quoting Scott Aaronson</title>
     <link href="https://simonwillison.net/2026/Nov/25/scott-aaronson"/>
     <id>https://simonwillison.net/2026/Nov/25/scott-aaronson</id>
@@ -214,13 +205,22 @@
     <summary>I feel like my previous posts (and post titles), and podcasts, and talks, have failed to do full justice to the magnitude of what’s now happening, so I’m trying again. Last night, we had friends and colleagues over for dinner. We were still trying to process OpenAI’s and Anthropic’s proofs of VP ≠ VNP—hot on […]</summary>
   </entry>
   <entry>
-    <title>Anthropic CEO Dario Amodei says letting AI govern society would be &quot;a bad idea&quot;</title>
-    <link href="https://the-decoder.com/anthropic-ceo-dario-amodei-says-letting-ai-govern-society-would-be-a-bad-idea"/>
-    <id>https://the-decoder.com/anthropic-ceo-dario-amodei-says-letting-ai-govern-society-would-be-a-bad-idea</id>
-    <updated>2026-11-25T20:15:50.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>Evaluating Recent Model Releases on GDPx</title>
+    <link href="https://newsletter.semianalysis.com/p/evaluating-recent-model-releases"/>
+    <id>https://newsletter.semianalysis.com/p/evaluating-recent-model-releases</id>
+    <updated>2026-11-26T00:05:35.000Z</updated>
+    <author><name>SemiAnalysis Newsletter</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Anthropic CEO Dario Amodei is pushing back on an Axios report saying some employees believe humanity will hand power to superintelligent systems. Amodei says &quot;turning over governance to AI is a bad idea.&quot; The article Anthropic CEO Dario Amodei says letting AI govern society would be &quot;a bad idea&quot; appeared first on The D</summary>
+    <summary>GPT-6.2 Astra takes the crown but bad at software engineering, Gemini 4 Neon is an impressive improvement from Google but still overrated, Fable 5.2 is smart but expensive, and new Chinese models as well</summary>
+  </entry>
+  <entry>
+    <title>b12731: common : implement named tool choice (#31564)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12731"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12731</id>
+    <updated>2026-11-25T08:39:09.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>common : implement named tool choice for automatic parsers common : add qwen3-coder support common : remove redundant condition common : set parallel_tool_calls to false for named tool common : implement tool choice allowed subset cleanup fix formatting + move validation to common more formatting &gt;_&lt;</summary>
   </entry>
   <entry>
     <title>A US court dismisses Amazon's challenge to a 2025 CPSC order requiring it to recall 400K+ hazardous products sold by third parties via Fulfillment by Amazon (Emma Roth/The Verge)</title>
@@ -230,15 +230,6 @@
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
     <summary>Emma Roth / The Verge : A US court dismisses Amazon's challenge to a 2025 CPSC order requiring it to recall 400K+ hazardous products sold by third parties via Fulfillment by Amazon — A court ruled in favor of the US CPSC's argument that Amazon is responsible for recalled products that other companies sell on its platfo</summary>
-  </entry>
-  <entry>
-    <title>Apple removes MiniMax's chatbot Talkie from the App Store worldwide over sexual content, after outlets showed it evidence of AI characters sexualizing children (TBIJ)</title>
-    <link href="https://www.techmeme.com/261125/p44"/>
-    <id>https://www.techmeme.com/261125/p44</id>
-    <updated>2026-11-26T01:30:01.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>TBIJ : Apple removes MiniMax's chatbot Talkie from the App Store worldwide over sexual content, after outlets showed it evidence of AI characters sexualizing children — Talkie's characters belittle and sexualise their young users - and its owners won't explain how it uses the data</summary>
   </entry>
   <entry>
     <title>ollama v0.40.18 released</title>
@@ -268,12 +259,21 @@
     <summary>We apologize for the disruption caused by the Microsoft Agent Framework repository’s temporary unavailability. This is a necessary precaution. We’re working to restore access as soon as possible, but don’t yet have a confirmed timeline. The repository will remain unavailable until we can confidently determine it is saf</summary>
   </entry>
   <entry>
-    <title>Rupee Has Room to Rally Before RBI Steps In, Strategists Say</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-26/rupee-rally-has-91-in-sight-as-rbi-seen-holding-back-dollar-buys"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-26/rupee-rally-has-91-in-sight-as-rbi-seen-holding-back-dollar-buys</id>
-    <updated>2026-11-26T01:30:00.000Z</updated>
+    <title>Rupee Hits 8-Month High as India November Stock Inflows Reach $14.7 Billion: INR</title>
+    <link href="https://www.bloomberg.com/news/newsletters/2026-11-26/rupee-hits-8-month-high-as-india-november-stock-inflows-reach-14-7-billion"/>
+    <id>https://www.bloomberg.com/news/newsletters/2026-11-26/rupee-hits-8-month-high-as-india-november-stock-inflows-reach-14-7-billion</id>
+    <updated>2026-11-26T02:32:22.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>India’s rupee is pulling away from its Asian peers, and strategists say the rally has further to run before the central bank steps in to buy dollars.</summary>
+    <summary>ANZ Banking Group sees room for the rupee to gain further to 90-91 per dollar.</summary>
+  </entry>
+  <entry>
+    <title>Shein’s Slow India Start Lays Bare Limits of Billionaire Ambani’s Retail Might</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-26/shein-s-slow-india-start-lays-bare-limits-of-billionaire-ambani-s-retail-might"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-26/shein-s-slow-india-start-lays-bare-limits-of-billionaire-ambani-s-retail-might</id>
+    <updated>2026-11-26T01:31:20.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Shein Global Holdings Ltd.’s return to India through a local partner is off to a slow start, due to supply chain snags, leadership uncertainty and a lack of proprietary technology that made the fast-fashion brand a hit.</summary>
   </entry>
 </feed>
