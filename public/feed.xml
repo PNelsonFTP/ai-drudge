@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-26T22:37:15.354Z</updated>
+  <updated>2026-11-26T23:08:38.742Z</updated>
   <entry>
     <title>llama.cpp v1.1.0 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0"/>
@@ -86,6 +86,15 @@
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
     <summary>CTech : Altair Semiconductor, an Israeli chipmaker spun off from Sony earlier in 2026, raised a $100M Series A, as it prepares to launch low-power cellular modems — The company, spun off from Sony earlier this year, is preparing a new low-power 5G modem for smart glasses, wearables and industrial devices.</summary>
+  </entry>
+  <entry>
+    <title>b12801: ggml/CUDA+HIP: Flash Attention with indexed bias (#33063)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12801"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12801</id>
+    <updated>2026-11-26T20:13:03.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>cuda : port indexed bias FA onto the refactored loaders Replays the #32740 bias support on the shared typed tile loader, adds bias in F32 to match the CPU reference and routes rows via KV_indirection. cuda : return zeros for a fully masked FA query row An all -inf mask row has a zero softmax sum, which divided gave NaN</summary>
   </entry>
   <entry>
     <title>Attributing Agentic Failure in Reasoning Vision-Language Models with Interactive 2D Environments</title>
@@ -258,21 +267,12 @@
     <summary>Rachel Shalom explains how Dell solved enterprise RAG retrieval failures on internal terminology by fine-tuning open-source embedding models. She discusses data prep with hard negatives, distributed InfoNCE loss training on H100 GPUs, automated hyperparameter tuning, and production evaluation using LLM-as-a-judge. By R</summary>
   </entry>
   <entry>
-    <title>Kazakhstan Encouraged Local Banks to Finance Deal for Gold Miner</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-26/kazakhstan-encouraged-local-banks-to-finance-deal-for-gold-miner"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-26/kazakhstan-encouraged-local-banks-to-finance-deal-for-gold-miner</id>
-    <updated>2026-11-26T17:35:40.000Z</updated>
+    <title>Bankers Pay Up for Hong Kong Apartments as Rents Hit New Highs</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-26/bankers-pay-up-for-hong-kong-apartments-as-rents-hit-new-highs"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-26/bankers-pay-up-for-hong-kong-apartments-as-rents-hit-new-highs</id>
+    <updated>2026-11-26T23:00:00.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Kazakhstan has encouraged domestic banks to lend more than $1 billion to construction tycoon Shakhmurat Mutalip and revised financing regulations to help him buy gold miner AK Altynalmas JSC, according to people familiar with the matter.</summary>
-  </entry>
-  <entry>
-    <title>Asian Stock Futures Signal Gains, Oil Climbs Again: Markets Wrap</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-26/asian-stock-futures-signal-gains-oil-climbs-again-markets-wrap"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-26/asian-stock-futures-signal-gains-oil-climbs-again-markets-wrap</id>
-    <updated>2026-11-26T21:59:57.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="AI FINANCE"/>
-    <summary>Asian stocks may look to build on a tech rally that powered gains in US stock futures on Thursday, with signs of a revival in risk appetite lifting assets including copper and Bitcoin. Oil climbed after Yemen’s Houthi rebels struck a key Saudi Refinery.</summary>
+    <summary>Hong Kong’s booming rental real estate market is spurring gains in previously underappreciated neighborhoods, as bankers pay up for apartments in one of the world’s most expensive places to live.</summary>
   </entry>
 </feed>
