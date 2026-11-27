@@ -5,24 +5,24 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-27T20:19:42.018Z</updated>
+  <updated>2026-11-27T21:09:40.647Z</updated>
   <entry>
-    <title>llama.cpp b12816 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12816"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12816</id>
-    <updated>2026-11-27T17:05:51.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>graph : read recurrent states in place instead of copying ( #28841 ) ( #30139 ) graph : read recurrent states in place instead of copying ( #28841 ) This is a graph only change that speeds up token output in the majority of cases and backends by removing state copy steps. Where possible, kernels now read recurrent stat — Also covered by: ggml-org/whisper.cpp</summary>
+    <title>OpenAI countersues Apple for stealing trade secrets</title>
+    <link href="https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4?syn-25a6b1a6=1</id>
+    <updated>2026-11-27T18:20:05.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>The ChatGPT maker also accuses the tech giant of ‘coercing and threatening’ suppliers who work with both companies, as legal battle escalates — Also covered by: Reuters AI (Google News), The Information</summary>
   </entry>
   <entry>
-    <title>OpenAI Countersues Apple In Trade Secrets Battle</title>
-    <link href="https://www.theinformation.com/briefings/openai-countersues-apple-trade-secrets-battle"/>
-    <id>https://www.theinformation.com/briefings/openai-countersues-apple-trade-secrets-battle</id>
-    <updated>2026-11-27T19:06:04.000Z</updated>
-    <author><name>The Information</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>OpenAI is alleging Apple stole its trade secrets—four months after Apple made the same claim against the AI company. OpenAI made the allegations on Friday in a countersuit it filed in an ongoing legal battle with Apple, which previously accused the ChatGPT maker of stealing trade secrets to ... — Also covered by: FT Artificial Intelligence</summary>
+    <title>llama.cpp b12818 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12818"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12818</id>
+    <updated>2026-11-27T20:47:42.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>ggml: support quant scales for fp8 and nvfp4 ( #28898 ) ggml: add tensor scaling (per-tensor, per-channel, per-expert, per-expert-per-channel) support add meta backend scale split add optional activation scales to mul_mat and mul_mat_id tensors handle bitnet scales too, disable in backends Don't treat single expert as  — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
     <title>qwen-code v0.28.7 released</title>
@@ -31,7 +31,7 @@
     <updated>2026-11-26T18:08:44.000Z</updated>
     <author><name>QwenLM/qwen-code</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Highlights Qwen Code CLI is now available on the Harness kernel, with usage statistics off by default unless privacy.usageStatisticsEnabled is true. ( #18351 ) Repeated-tool-call rejections now explain the cause and suggest /compress or /clear to recover, across TUI, headless, and daemon sessions. ( #18317 ) Web Shell  — Also covered by: anthropics/claude-code, QwenLM/qwen-code</summary>
+    <summary>Highlights Qwen Code CLI is now available on the Harness kernel, with usage statistics off by default unless privacy.usageStatisticsEnabled is true. ( #18351 ) Repeated-tool-call rejections now explain the cause and suggest /compress or /clear to recover, across TUI, headless, and daemon sessions. ( #18317 ) Web Shell  — Also covered by: anthropics/claude-code</summary>
   </entry>
   <entry>
     <title>Nvidia hits pause on chip shipments to Southeast Asia</title>
@@ -43,13 +43,13 @@
     <summary>Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China. — Also covered by: WSJ Tech</summary>
   </entry>
   <entry>
-    <title>Rockstar's AI dilemma: Can GTA 6's staggered release model survive coding agents?</title>
-    <link href="https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents"/>
-    <id>https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents</id>
-    <updated>2026-11-27T15:37:47.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>ollama v0.40.19 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.19"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.19</id>
+    <updated>2026-11-27T21:04:44.000Z</updated>
+    <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>More than 40 projects are working to bring a leaked Xbox build of GTA 6 to PC through reverse engineering just days after its $3.79 billion record console launch. AI coding agents like Claude Code are speeding up the process so much that an early unofficial multiplayer mode is already running. Rockstar's delayed PC bus</summary>
+    <summary>What's Changed inkling2: faster short histories, draft proposals and conv snapshots by @dhiltgen in #19881 mlxrunner: compact Engram history buffers by @pdevine in #19913 bump llama-server by @pdevine in #19917 Full Changelog : v0.40.18...v0.40.19-rc0</summary>
   </entry>
   <entry>
     <title>The Guardian view on AI and the Riemann hypothesis: a triumph of intelligence, a test of democracy | Editorial</title>
@@ -59,6 +59,15 @@
     <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
     <summary>Machines are solving problems that have been beyond the reach of human ingenuity. Their growing power must not become the sole preserve of billionaires For the average person, the news that AI has helped crack a problem that has defied mathematicians since 1859 might elicit momentary awe. What ought to worry everyone i</summary>
+  </entry>
+  <entry>
+    <title>Rockstar's AI dilemma: Can GTA 6's staggered release model survive coding agents?</title>
+    <link href="https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents"/>
+    <id>https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents</id>
+    <updated>2026-11-27T15:37:47.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>More than 40 projects are working to bring a leaked Xbox build of GTA 6 to PC through reverse engineering just days after its $3.79 billion record console launch. AI coding agents like Claude Code are speeding up the process so much that an early unofficial multiplayer mode is already running. Rockstar's delayed PC bus</summary>
   </entry>
   <entry>
     <title>Anthropic Shares Jump After Volatile First Week Since IPO</title>
@@ -88,6 +97,15 @@
     <summary>On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.</summary>
   </entry>
   <entry>
+    <title>b12819: CUDA: cache the device type at init (#33142)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12819"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12819</id>
+    <updated>2026-11-27T14:18:23.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="HARDWARE"/>
+    <summary>CUDA: cache the device type at init ggml_backend_cuda_device_get_type called cudaGetDeviceProperties on every call, which takes ~0.7-1 ms with the CUDA 12 runtime. With tensor overrides on multiple GPUs the scheduler queries the device type for every split input, so this ran dozens of times per token. Store the device </summary>
+  </entry>
+  <entry>
     <title>Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access</title>
     <link href="https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html"/>
     <id>https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html</id>
@@ -97,19 +115,19 @@
     <summary>Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT. &quot;I found a path from a fr</summary>
   </entry>
   <entry>
-    <title>Towards a Theory of Learnability via Debate</title>
-    <link href="https://www.lesswrong.com/posts/wdowLCxnsRg56cNqT/towards-a-theory-of-learnability-via-debate"/>
-    <id>https://www.lesswrong.com/posts/wdowLCxnsRg56cNqT/towards-a-theory-of-learnability-via-debate</id>
-    <updated>2026-11-27T17:16:33.000Z</updated>
-    <author><name>LessWrong</name></author>
+    <title>‘It’s not helping’: calls for guardrails and regulations as AI use rises at US retailers</title>
+    <link href="https://www.theguardian.com/us-news/2026/nov/27/ai-retailer-consumer-guardrails"/>
+    <id>https://www.theguardian.com/us-news/2026/nov/27/ai-retailer-consumer-guardrails</id>
+    <updated>2026-11-27T10:00:02.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Debate is a popular training protocol that is believed to be a promising approach to the problem of scalable oversight. Even though it is a training protocol, not a lot is known about its learning behaviour. A new paper that I coauthored with Tosca Lechner , Sivan Sabato , and Ruth Urner takes the first steps towards a</summary>
+    <summary>Labor leaders and advocates urge protections for workers and consumers as AI use becomes more commonplace As millions of Americans begin holiday shopping this Black Friday, consumers and workers alike are already seeing how artificial intelligence is reshaping the retail landscape. Anna, a cashier in a southern Oregon </summary>
   </entry>
   <entry>
     <title>Conducting The First Live Enterprise Comparison Between Agents and Human Professionals</title>
     <link href="https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals"/>
     <id>https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals</id>
-    <updated>2026-11-27T20:19:23.303Z</updated>
+    <updated>2026-11-27T21:09:22.986Z</updated>
     <author><name>Gray Swan</name></author>
     <category term="AI SECURITY"/>
   </entry>
@@ -123,13 +141,13 @@
     <summary>Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm. [...]</summary>
   </entry>
   <entry>
-    <title>Unpatched Cacti zero-day with public PoC gives remote code execution</title>
-    <link href="https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution"/>
-    <id>https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution</id>
-    <updated>2026-11-27T17:06:13.000Z</updated>
-    <author><name>BleepingComputer</name></author>
+    <title>Sánchez Seeks Unlikely Win With Plea for Spaniards to Go Vote</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-27/sanchez-seeks-unlikely-win-with-plea-for-spaniards-to-go-vote"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-27/sanchez-seeks-unlikely-win-with-plea-for-spaniards-to-go-vote</id>
+    <updated>2026-11-27T20:24:01.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
     <category term="CYBER DEFENSE"/>
-    <summary>A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that lets unauthenticated attackers execute commands on vulnerable servers. [...]</summary>
+    <summary>Pedro Sánchez rallied voters to turn out in Sunday’s national election during his final campaign event, in a last-minute attempt to pull off an upset.</summary>
   </entry>
   <entry>
     <title>AWS Challenger: Trainium3 Inference and Microarchitecture Deep Dive</title>
@@ -168,15 +186,6 @@
     <summary>Hackers breached the US Air Force's flagship cloud platform. The article Hackers breached the US Air Force's flagship Cloud One platform, report says appeared first on The Decoder .</summary>
   </entry>
   <entry>
-    <title>OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers</title>
-    <link href="https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers"/>
-    <id>https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers</id>
-    <updated>2026-11-27T19:38:37.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="MODEL RELEASES"/>
-    <summary>OpenAI is suing Apple in a California court, accusing it of trade secret theft and of coercing shared suppliers. The countersuit follows Apple's own lawsuit from the summer. Just two years ago, the two companies teamed up to bring ChatGPT to the iPhone. Now OpenAI is building its own devices to compete directly with Ap</summary>
-  </entry>
-  <entry>
     <title>OpenAI countersues Apple for allegedly stealing trade secrets via a staffer who returned to Apple and &quot;coercing and threatening&quot; suppliers that work with both (Financial Times)</title>
     <link href="https://www.techmeme.com/261127/p12"/>
     <id>https://www.techmeme.com/261127/p12</id>
@@ -186,22 +195,13 @@
     <summary>Financial Times : OpenAI countersues Apple for allegedly stealing trade secrets via a staffer who returned to Apple and “coercing and threatening” suppliers that work with both — The ChatGPT maker also accuses the tech giant of ‘coercing and threatening’ suppliers who work with both companies, as legal battle escalates</summary>
   </entry>
   <entry>
-    <title>b12818: ggml: support quant scales for fp8 and nvfp4 (#28898)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12818"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12818</id>
-    <updated>2026-11-27T13:51:55.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>ggml: add tensor scaling (per-tensor, per-channel, per-expert, per-expert-per-channel) support add meta backend scale split add optional activation scales to mul_mat and mul_mat_id tensors handle bitnet scales too, disable in backends Don't treat single expert as per-channel-per-expert Temp workaround for moe-cache wit</summary>
-  </entry>
-  <entry>
-    <title>Qwen Telemetry - FYI...</title>
-    <link href="https://sh.itjust.works/post/70572674"/>
-    <id>https://sh.itjust.works/post/70572674</id>
-    <updated>2026-11-27T18:15:49.000Z</updated>
-    <author><name>Lemmy c/localllama</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>submitted by GuyDudeman to localllama 10 points | 11 comments This was interesting. Didn’t know QwenCode phoned home… but apparently it does, which kinda makes sense… but still… Anyway, still yet to test fully but I think this ought to do it.</summary>
+    <title>Sources: Verizon is in talks to buy fiber-optic broadband operator Fidium for ~$6B, as part of its goal to expand its network to 50M US homes and businesses (Financial Times)</title>
+    <link href="https://www.techmeme.com/261127/p11"/>
+    <id>https://www.techmeme.com/261127/p11</id>
+    <updated>2026-11-27T18:50:02.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Financial Times : Sources: Verizon is in talks to buy fiber-optic broadband operator Fidium for ~$6B, as part of its goal to expand its network to 50M US homes and businesses — US group pursues company owned by Searchlight Capital and Canada's BCI in push to boost its presence in New England region</summary>
   </entry>
   <entry>
     <title>OpenAI is building &quot;Athena&quot; data platform to cut down on AI agent guesswork</title>
@@ -220,15 +220,6 @@
     <author><name>The Hacker News</name></author>
     <category term="AGENTS &amp; TOOLS"/>
     <summary>Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the attacks targeted critical infrastructure operators, and two of those succeeded, with no major disrupt</summary>
-  </entry>
-  <entry>
-    <title>OpenAI countersues Apple for stealing trade secrets</title>
-    <link href="https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4?syn-25a6b1a6=1</id>
-    <updated>2026-11-27T18:20:05.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
-    <category term="AI FINANCE"/>
-    <summary>The ChatGPT maker also accuses the tech giant of ‘coercing and threatening’ suppliers who work with both companies, as legal battle escalates</summary>
   </entry>
   <entry>
     <title>Can AI crack encryption?</title>
@@ -274,5 +265,14 @@
     <author><name>The Decoder</name></author>
     <category term="HARDWARE"/>
     <summary>Two Chinese companies installed Nvidia's powerful Blackwell chips at a Shanghai data center linked to Alice Huang, according to a Bloomberg investigation. A serial number led Bloomberg to Taiwanese manufacturer Gigabyte. Exporting these chips to China without a US license is illegal. The article Banned Nvidia Blackwell</summary>
+  </entry>
+  <entry>
+    <title>Meta Brings Code Review Auto-Approval More Mainstream with PyTorch GreenLight</title>
+    <link href="https://www.infoq.com/news/2026/11/uber-agent-spend-steady"/>
+    <id>https://www.infoq.com/news/2026/11/uber-agent-spend-steady</id>
+    <updated>2026-11-27T14:36:00.000Z</updated>
+    <author><name>InfoQ AI/ML</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>PyTorch now lets an AI reviewer approve pull requests from its own maintainers. GreenLight is an open-source take on RADAR, the system Meta uses to auto-land low-risk diffs after safety checks, a risk score and an LLM review. OpenAI, Anthropic and Sonar describe similar ways to automate approval while keeping humans on</summary>
   </entry>
 </feed>
