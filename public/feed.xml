@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-27T04:08:40.663Z</updated>
+  <updated>2026-11-27T04:34:50.560Z</updated>
   <entry>
-    <title>llama.cpp v1.1.0 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0</id>
-    <updated>2026-11-26T09:17:18.000Z</updated>
+    <title>llama.cpp b12808 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12808"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12808</id>
+    <updated>2026-11-27T03:01:40.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Overview llama.cpp v1.1.0 adds the Inkling 2 family (base, Mini and DSpark), Domyn Edge 4B, Zaya1 8B, RAON-1-mini and Hy4 flash, splits DFlash speculative decoding into separate draft methods, and deprecates the old llama_batch API in favour of llama_batch_ext . It brings a large set of TTS and audio models (Kokoro, Zo — Also covered by: ggml-org/whisper.cpp</summary>
+    <summary>sycl: dequantize reordered q6_K in f32 like the canonical kernel ( #32 … — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
     <title>qwen-code v0.28.7 released</title>
@@ -196,15 +196,6 @@
     <summary>arXiv:2611.33163v1 Announce Type: new Abstract: Offline handwritten signatures remain a primary behavioural biometric in legal and financial documents. Detecting skilled forgeries from a static raster image is hard because pen pressure, timing and stroke order are missing. This work studies a family of quantum machine </summary>
   </entry>
   <entry>
-    <title>b12804: hip : fix bf16 MFMA operand vector type for CDNA (#33086)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12804"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12804</id>
-    <updated>2026-11-26T20:36:34.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="GITHUB REPOS"/>
-    <summary>Follow-up to #30885 : the CDNA MFMA bf16 builtins also take short vectors, so LLVM 23 rejects __bf16 for gfx908, gfx90a, gfx942 and gfx950.</summary>
-  </entry>
-  <entry>
     <title>FCC clears SpaceX to deploy up to 1 million Starmind satellites for orbital AI data centers by 2040</title>
     <link href="https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040"/>
     <id>https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040</id>
@@ -237,16 +228,16 @@
     <updated>2026-11-26T21:47:45.000Z</updated>
     <author><name>HN: AI (150+ points)</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Article URL: https://janlukas.blog/posts/ai-self-hosting Comments URL: https://news.ycombinator.com/item?id=50660180 Points: 409 # Comments: 223</summary>
+    <summary>Article URL: https://janlukas.blog/posts/ai-self-hosting Comments URL: https://news.ycombinator.com/item?id=50660180 Points: 431 # Comments: 234</summary>
   </entry>
   <entry>
-    <title>b12788: tests : add RPC support to test-llama-archs (#33112)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12788"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12788</id>
-    <updated>2026-11-26T12:57:25.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>Release v1.1.0 · ggml-org/llama.cpp adds Inkling 2, Hy4 Flash, and more</title>
+    <link href="https://sh.itjust.works/post/70527238"/>
+    <id>https://sh.itjust.works/post/70527238</id>
+    <updated>2026-11-26T21:31:41.000Z</updated>
+    <author><name>Lemmy c/localllama</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>Running test-llama-archs with an RPC device is quite useful as an integration test for the RPC backend. Here is a sample run with the Vulkan backend: ggml-rpc-server -d Vulkan1 test-llama-archs --rpc 127.0.0.1:50052 -b RPC0</summary>
+    <summary>submitted by BeefAndPoultry to localllama 20 points | 2 comments https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0 llama.cpp v1.1.0 adds the Inkling 2 family (base, Mini and DSpark), Domyn Edge 4B, Zaya1 8B, RAON-1-mini and Hy4 flash, splits DFlash speculative decoding into separate draft methods, and deprecate</summary>
   </entry>
   <entry>
     <title>China Hedge Fund Star Builds Operating System Kernel for AI</title>
@@ -274,5 +265,14 @@
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
     <summary>Habitat Property Founder and CEO Victoria Allan tells Bloomberg TV that competing offers are pushing Hong Kong rents higher as returning expatriates, increased bank hiring and more arrivals from mainland China tighten housing supply. (Source: Bloomberg)</summary>
+  </entry>
+  <entry>
+    <title>EM Asia Stocks Set for Weekly Gain as Markets Regain Footing</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-27/em-asia-stocks-set-for-weekly-gain-as-markets-regain-footing"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-27/em-asia-stocks-set-for-weekly-gain-as-markets-regain-footing</id>
+    <updated>2026-11-27T03:33:48.000Z</updated>
+    <author><name>Bloomberg Markets</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Emerging-market equities in Asia were set for a weekly gain, clawing back some of a recent selloff as investors returned to technology shares and sentiment toward the artificial intelligence trade improved.</summary>
   </entry>
 </feed>
