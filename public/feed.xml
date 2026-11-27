@@ -5,15 +5,15 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-27T13:09:09.860Z</updated>
+  <updated>2026-11-27T14:24:14.033Z</updated>
   <entry>
-    <title>llama.cpp b12812 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12812"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12812</id>
-    <updated>2026-11-27T13:08:27.000Z</updated>
+    <title>llama.cpp b12815 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12815"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12815</id>
+    <updated>2026-11-27T14:12:56.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>metal : check all fused nodes for concurrency ( #33175 ) metal : check all fused nodes for concurrency The concurrency check for a fused group only examined the last node, so intermediate outputs (e.g. the TOPK_MOE ids/weights) and the group's sources (e.g. the router logits) were ignored. This allowed the fused top-k  — Also covered by: ggml-org/whisper.cpp</summary>
+    <summary>cuda : fix NVFP4 MMQ y_scale over-read in the stream-k fixup ( #33136 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/73139901 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 ( — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
     <title>qwen-code v0.28.7 released</title>
@@ -25,15 +25,6 @@
     <summary>Highlights Qwen Code CLI is now available on the Harness kernel, with usage statistics off by default unless privacy.usageStatisticsEnabled is true. ( #18351 ) Repeated-tool-call rejections now explain the cause and suggest /compress or /clear to recover, across TUI, headless, and daemon sessions. ( #18317 ) Web Shell  — Also covered by: anthropics/claude-code, QwenLM/qwen-code</summary>
   </entry>
   <entry>
-    <title>I don’t expect superposition in transformer MLP neurons</title>
-    <link href="https://www.lesswrong.com/posts/o9dPGxEbpQrnasgDB/i-don-t-expect-superposition-in-transformer-mlp-neurons"/>
-    <id>https://www.lesswrong.com/posts/o9dPGxEbpQrnasgDB/i-don-t-expect-superposition-in-transformer-mlp-neurons</id>
-    <updated>2026-11-27T12:44:01.000Z</updated>
-    <author><name>LessWrong</name></author>
-    <category term="RESEARCH"/>
-    <summary>I currently believe that in a typical (well trained and under-parametrized) transformer model, there is something like superposition-type compression in the residual stream, but not in the MLP neurons. By &quot;superposition-type compression&quot;, I mean some way of storing extra features using the fact that you can have mjx-ma — Also covered by: AI Alignment Forum</summary>
-  </entry>
-  <entry>
     <title>Nvidia hits pause on chip shipments to Southeast Asia</title>
     <link href="https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia"/>
     <id>https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia</id>
@@ -41,6 +32,15 @@
     <author><name>TechCrunch AI</name></author>
     <category term="INDUSTRY NEWS"/>
     <summary>Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China. — Also covered by: WSJ Tech</summary>
+  </entry>
+  <entry>
+    <title>I don’t expect superposition in transformer MLP neurons</title>
+    <link href="https://www.lesswrong.com/posts/o9dPGxEbpQrnasgDB/i-don-t-expect-superposition-in-transformer-mlp-neurons"/>
+    <id>https://www.lesswrong.com/posts/o9dPGxEbpQrnasgDB/i-don-t-expect-superposition-in-transformer-mlp-neurons</id>
+    <updated>2026-11-27T12:44:01.000Z</updated>
+    <author><name>LessWrong</name></author>
+    <category term="RESEARCH"/>
+    <summary>I currently believe that in a typical (well trained and under-parametrized) transformer model, there is something like superposition-type compression in the residual stream, but not in the MLP neurons. By &quot;superposition-type compression&quot;, I mean some way of storing extra features using the fact that you can have mjx-ma — Also covered by: AI Alignment Forum</summary>
   </entry>
   <entry>
     <title>Instagram for TV Comes to India, Introducing New Ways to Watch Reels Together</title>
@@ -52,13 +52,13 @@
     <summary>Instagram for TV will soon be available in India, bringing content from your favorite creators to the big screen in your home so you can enjoy watching them with friends. The post Instagram for TV Comes to India, Introducing New Ways to Watch Reels Together appeared first on Meta Newsroom .</summary>
   </entry>
   <entry>
-    <title>Sources: the US Air Force recently found that hackers breached Cloud One, the cloud computing platform powering its air defense radar and other data feeds (Reuters)</title>
-    <link href="https://www.techmeme.com/261127/p4"/>
-    <id>https://www.techmeme.com/261127/p4</id>
-    <updated>2026-11-27T12:10:01.000Z</updated>
-    <author><name>Techmeme</name></author>
+    <title>Meta whistleblower calls on Burnham to go further with ban on NDAs</title>
+    <link href="https://www.theguardian.com/technology/2026/nov/27/meta-whistleblower-sarah-wynn-williams-calls-on-burnham-to-go-further-with-ban-on-non-disclosure-agreements"/>
+    <id>https://www.theguardian.com/technology/2026/nov/27/meta-whistleblower-sarah-wynn-williams-calls-on-burnham-to-go-further-with-ban-on-non-disclosure-agreements</id>
+    <updated>2026-11-27T12:30:08.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Reuters : Sources: the US Air Force recently found that hackers breached Cloud One, the cloud computing platform powering its air defense radar and other data feeds — Hackers have breached the US Air Force's flagship cloud computing platform, three people familiar with the matter told Reuters …</summary>
+    <summary>Sarah Wynn-Williams says tech insiders with concerns about AI are being silenced in system reminiscent of George Orwell’s 1984 The Meta whistleblower who made allegations about the social media company’s treatment of teenagers has urged Andy Burnham to go further in banning non-disclosure agreements, warning that tech </summary>
   </entry>
   <entry>
     <title>Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators</title>
@@ -70,13 +70,13 @@
     <summary>Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the attacks targeted critical infrastructure operators, and two of those succeeded, with no major disrupt</summary>
   </entry>
   <entry>
-    <title>India’s Richest Civic Body Will Open Bond Sales to Retail Buyers</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-27/india-s-richest-civic-body-will-open-bond-sales-to-retail-buyers"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-27/india-s-richest-civic-body-will-open-bond-sales-to-retail-buyers</id>
-    <updated>2026-11-27T11:59:50.000Z</updated>
+    <title>Bank Indonesia Says 2027 Focus to Be on Stability, Inflation</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-27/bank-indonesia-says-policy-focus-on-stability-inflation-in-2027"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-27/bank-indonesia-says-policy-focus-on-stability-inflation-in-2027</id>
+    <updated>2026-11-27T13:31:11.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>Mumbai’s civic authority, India’s richest, plans to tap individual investors through future bond sales to help finance urban infrastructure projects.</summary>
+    <summary>Bank Indonesia will stay focused on stability next year as it pursues monetary policy that keeps inflation within its target range, while confronting sustained pressure on the rupiah.</summary>
   </entry>
   <entry>
     <title>AutoformBench: A Lean Formalization Benchmark for Advanced Mathematics</title>
@@ -97,6 +97,15 @@
     <summary>On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.</summary>
   </entry>
   <entry>
+    <title>Beyond Lithography: The Battle for Semiconductor Manufacturing Yield</title>
+    <link href="https://www.eetimes.com/beyond-lithography-the-battle-for-semiconductor-manufacturing-yield"/>
+    <id>https://www.eetimes.com/beyond-lithography-the-battle-for-semiconductor-manufacturing-yield</id>
+    <updated>2026-11-27T14:22:45.000Z</updated>
+    <author><name>EE Times</name></author>
+    <category term="HARDWARE"/>
+    <summary>The proposed MATCH Act exposes a strategic vulnerability extending beyond ASML to the technologies that determine manufacturing productivity and yield. The post Beyond Lithography: The Battle for Semiconductor Manufacturing Yield appeared first on EE Times .</summary>
+  </entry>
+  <entry>
     <title>Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access</title>
     <link href="https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html"/>
     <id>https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html</id>
@@ -106,21 +115,30 @@
     <summary>Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT. &quot;I found a path from a fr</summary>
   </entry>
   <entry>
-    <title>Book review: From Third World to First by Lee Kuan Yew</title>
-    <link href="https://www.lesswrong.com/posts/izjsdDMmthjxq4mZg/book-review-from-third-world-to-first-by-lee-kuan-yew"/>
-    <id>https://www.lesswrong.com/posts/izjsdDMmthjxq4mZg/book-review-from-third-world-to-first-by-lee-kuan-yew</id>
-    <updated>2026-11-27T12:59:44.000Z</updated>
-    <author><name>LessWrong</name></author>
+    <title>‘It’s not helping’: calls for guardrails and regulations as AI use rises at US retailers</title>
+    <link href="https://www.theguardian.com/us-news/2026/nov/27/ai-retailer-consumer-guardrails"/>
+    <id>https://www.theguardian.com/us-news/2026/nov/27/ai-retailer-consumer-guardrails</id>
+    <updated>2026-11-27T10:00:02.000Z</updated>
+    <author><name>The Guardian AI</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>“From Third World to First” is a very big book written by Lee Kuan Yew, ex prime-minister of Singapore. The story roughly goes like this: Singapore was a British colony, then it was part of Malaysia, then it got its independence as a small city-state surrounded by much bigger countries, and then, through the leadership</summary>
+    <summary>Labor leaders and advocates urge protections for workers and consumers as AI use becomes more commonplace As millions of Americans begin holiday shopping this Black Friday, consumers and workers alike are already seeing how artificial intelligence is reshaping the retail landscape. Anna, a cashier in a southern Oregon </summary>
   </entry>
   <entry>
     <title>Conducting The First Live Enterprise Comparison Between Agents and Human Professionals</title>
     <link href="https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals"/>
     <id>https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals</id>
-    <updated>2026-11-27T13:08:25.823Z</updated>
+    <updated>2026-11-27T14:23:55.081Z</updated>
     <author><name>Gray Swan</name></author>
     <category term="AI SECURITY"/>
+  </entry>
+  <entry>
+    <title>Japan’s education ministry discloses breach of government procurement system</title>
+    <link href="https://therecord.media/japan-education-ministry-cyberattack"/>
+    <id>https://therecord.media/japan-education-ministry-cyberattack</id>
+    <updated>2026-11-27T14:15:00.000Z</updated>
+    <author><name>The Record</name></author>
+    <category term="CYBER THREATS"/>
+    <summary>Japan’s education ministry disclosed earlier this week that hackers breached its government procurement system, potentially exposing records containing business information and email addresses.</summary>
   </entry>
   <entry>
     <title>Drupal warns of new site takeover flaw exploited in attacks</title>
@@ -150,13 +168,13 @@
     <summary>Most security metrics are not built to be used. They are built to be shown. Somewhere between the quarterly review and the next status update, a set of numbers gets assembled that looks reassuring in a room and tells almost no one what is actually happening across the environment that week. Someone pulls them together </summary>
   </entry>
   <entry>
-    <title>Volvo Cars Begins Training Hexagon’s AEON Humanoids at Ghent Plant Ahead of 2027 Production Target</title>
-    <link href="https://www.humanoidsdaily.com/news/volvo-cars-begins-training-hexagon-s-aeon-humanoids-at-ghent-plant-ahead-of-2027-production-target"/>
-    <id>https://www.humanoidsdaily.com/news/volvo-cars-begins-training-hexagon-s-aeon-humanoids-at-ghent-plant-ahead-of-2027-production-target</id>
-    <updated>2026-11-26T15:58:38.000Z</updated>
-    <author><name>Humanoids Daily</name></author>
+    <title>GXO doubling down on robotics in 2027</title>
+    <link href="https://www.therobotreport.com/gxo-doubling-down-on-robotics-in-2027"/>
+    <id>https://www.therobotreport.com/gxo-doubling-down-on-robotics-in-2027</id>
+    <updated>2026-11-27T13:56:43.000Z</updated>
+    <author><name>The Robot Report</name></author>
     <category term="ROBOTICS"/>
-    <summary>Volvo Cars is deploying Hexagon Robotics’ wheeled AEON humanoid robots at its Belgian manufacturing facility for imitation-learning trials, targeting live production integration by mid-2027.</summary>
+    <summary>GXO didn't disclose which providers it would increase deployments with, but let's take a look at the existing technologies in its portfolio. The post GXO doubling down on robotics in 2027 appeared first on The Robot Report .</summary>
   </entry>
   <entry>
     <title>SAP and planqc Demonstrate Enterprise Software Integration and Quantum Agents at Quantum Day Munich</title>
@@ -186,13 +204,22 @@
     <summary>The FCC has authorized SpaceX to deploy up to 1 million Starmind satellites to process AI data as orbital data centers. SpaceX is targeting its first launches in 2027, and the full constellation is set to be operating by 2040. Google and Blue Origin are also working on AI infrastructure in space, but Boston Consulting </summary>
   </entry>
   <entry>
-    <title>Serial numbers in Chinese filings reveal that Nvidia's restricted Blackwell chips were installed at a Shanghai data center linked to Alice Huang and Megaspeed (Bloomberg)</title>
-    <link href="https://www.techmeme.com/261127/p6"/>
-    <id>https://www.techmeme.com/261127/p6</id>
-    <updated>2026-11-27T13:05:01.000Z</updated>
+    <title>Sources: the US Air Force recently discovered a breach of Cloud One, which combines Microsoft, Amazon, Oracle, and Google clouds to power Air Force applications (Reuters)</title>
+    <link href="https://www.techmeme.com/261127/p4"/>
+    <id>https://www.techmeme.com/261127/p4</id>
+    <updated>2026-11-27T12:10:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Bloomberg : Serial numbers in Chinese filings reveal that Nvidia's restricted Blackwell chips were installed at a Shanghai data center linked to Alice Huang and Megaspeed — A pair of Chinese firms installed Nvidia Corp.'s powerful Blackwell semiconductors in a Shanghai data center linked to Alice Huang …</summary>
+    <summary>Reuters : Sources: the US Air Force recently discovered a breach of Cloud One, which combines Microsoft, Amazon, Oracle, and Google clouds to power Air Force applications — Hackers have breached the US Air Force's flagship cloud computing platform, three people familiar with the matter told Reuters …</summary>
+  </entry>
+  <entry>
+    <title>Pizza history: AI agent’s cardless purchase is a first for UK</title>
+    <link href="https://www.theguardian.com/business/2026/nov/27/ai-agent-cardless-transaction-pizza-papa-john-uk-fca-truelayer"/>
+    <id>https://www.theguardian.com/business/2026/nov/27/ai-agent-cardless-transaction-pizza-papa-john-uk-fca-truelayer</id>
+    <updated>2026-11-27T09:53:11.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Papa John’s order was made without sharing bank security details – tech that could revolutionise shopping Retailers enter the unknown with AI shopping assistants on Black Friday An order of Papa John’s margherita pizzas has become the first purchase in the UK to be made using an AI agent using cardless payment technolo</summary>
   </entry>
   <entry>
     <title>Release v1.1.0 · ggml-org/llama.cpp adds Inkling 2, Hy4 Flash, and more</title>
@@ -201,7 +228,7 @@
     <updated>2026-11-26T21:31:41.000Z</updated>
     <author><name>Lemmy c/localllama</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by BeefAndPoultry to localllama 29 points | 5 comments https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0 llama.cpp v1.1.0 adds the Inkling 2 family (base, Mini and DSpark), Domyn Edge 4B, Zaya1 8B, RAON-1-mini and Hy4 flash, splits DFlash speculative decoding into separate draft methods, and deprecate</summary>
+    <summary>submitted by BeefAndPoultry to localllama 30 points | 6 comments https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0 llama.cpp v1.1.0 adds the Inkling 2 family (base, Mini and DSpark), Domyn Edge 4B, Zaya1 8B, RAON-1-mini and Hy4 flash, splits DFlash speculative decoding into separate draft methods, and deprecate</summary>
   </entry>
   <entry>
     <title>MGMem: An Efficient, Deterministic, and Provenance-Preserving Framework for Long-Horizon Agent Memory</title>
@@ -213,31 +240,22 @@
     <summary>arXiv:2611.33174v1 Announce Type: new Abstract: Long-horizon Large Language Model (LLM) agents need persistent memory that surfaces the right past interaction at the right time across thousands of turns. Many systems index by invoking generative LLMs to rewrite history into summaries, facts, or knowledge graphs--a step</summary>
   </entry>
   <entry>
-    <title>Mozilla Partners with Mistral to Bring Open-Weight AI Models to Firefox Smart Window</title>
-    <link href="https://www.infoq.com/news/2026/11/mozilla-mistral-ai-smart-window"/>
-    <id>https://www.infoq.com/news/2026/11/mozilla-mistral-ai-smart-window</id>
-    <updated>2026-11-27T06:58:00.000Z</updated>
-    <author><name>InfoQ AI/ML</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Mozilla has partnered with Mistral AI to offer Mistral Small 4, an open-weight model, in Firefox's Smart Window AI assistant, now in beta. It is recommended for users in France, the US and Canada. Users can choose among several models, and Mistral agreed to zero data retention. Beta feedback is mixed. By Daniel Curtis</summary>
-  </entry>
-  <entry>
-    <title>Ofwat Warns Thames Water Rescue Decision Remains Months Away</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-27/ofwat-warns-thames-water-rescue-decision-remains-months-away"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-27/ofwat-warns-thames-water-rescue-decision-remains-months-away</id>
-    <updated>2026-11-27T12:47:58.000Z</updated>
+    <title>Poland Warns on Tech Debt Flood Before 2027 Eurobond Sales</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-27/poland-warns-on-tech-debt-flood-before-2027-eurobond-sales"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-27/poland-warns-on-tech-debt-flood-before-2027-eurobond-sales</id>
+    <updated>2026-11-27T13:36:03.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>The UK’s water regulator has warned it is still months away from making a decision on whether to approve a rescue of Thames Water by its creditors.</summary>
+    <summary>Poland is planning to tap international markets in early 2027 even as it warned of a flood of corporate borrowing clamoring for investor attention.</summary>
   </entry>
   <entry>
-    <title>¿Volverá la derecha al poder en España?</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-11-27/-volvera-la-derecha-al-poder-en-espana"/>
-    <id>https://www.bloomberg.com/news/videos/2026-11-27/-volvera-la-derecha-al-poder-en-espana</id>
-    <updated>2026-11-27T12:41:55.000Z</updated>
+    <title>As the AI Storm Rages, Are UK and Europe Markets a Haven For Investors? Live Q&amp;A</title>
+    <link href="https://www.bloomberg.com/sessions/2026-12-01/live-q-amp-a-are-uk-and-european-markets-a-haven-from-the-ai-storm"/>
+    <id>https://www.bloomberg.com/sessions/2026-12-01/live-q-amp-a-are-uk-and-european-markets-a-haven-from-the-ai-storm</id>
+    <updated>2026-11-27T13:35:54.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>España vota tras casi tres años de enorme tensión. Las encuestas apuntan a un regreso de la derecha, pero en 2023 también lo hicieron y Pedro Sánchez logró mantenerse en el poder. ¿Qué está en juego esta vez? (Source: Bloomberg)</summary>
+    <summary>Bloomberg reporters take your questions about UK and European markets in a Live Q&amp;A on Tuesday, December 1 at 1 p.m. GMT</summary>
   </entry>
   <entry>
     <title>What, Who, and When: Structured Harm Assessment for Mental Health Safety via Short Reasoning</title>
@@ -256,23 +274,5 @@
     <author><name>arXiv cs.CL</name></author>
     <category term="RESEARCH"/>
     <summary>arXiv:2611.33175v1 Announce Type: new Abstract: Transformer-based automated writing scoring models can achieve strong agreement with human scores while providing limited transparency into the response characteristics associated with their predictions. This study evaluated a feature-based post-hoc explanation approach i</summary>
-  </entry>
-  <entry>
-    <title>Kioxia's 3rd-gen XL-Flash hits Optane-class 3-microsecond read latency with 70% higher density</title>
-    <link href="https://www.tomshardware.com/pc-components/ssds/kioxias-3rd-gen-xl-flash-hits-optane-class-3-microsecond-read-latency-with-70-percent-higher-density-samples-march-2027-ahead-of-18-million-iops-gp2-ssds"/>
-    <id>https://www.tomshardware.com/pc-components/ssds/kioxias-3rd-gen-xl-flash-hits-optane-class-3-microsecond-read-latency-with-70-percent-higher-density-samples-march-2027-ahead-of-18-million-iops-gp2-ssds</id>
-    <updated>2026-11-27T12:00:00.000Z</updated>
-    <author><name>Tom's Hardware</name></author>
-    <category term="HARDWARE"/>
-    <summary>Kioxia showed an XL-Flash Generation 3 prototype at KIOXIA Forum in Tokyo and named the upcoming GP2 SSD as its first product.</summary>
-  </entry>
-  <entry>
-    <title>Tencent Open-Sources DFly2: Speculative Decoding That Reuses the Target’s Sparse KV Cache</title>
-    <link href="https://www.marktechpost.com/2026/11/26/tencent-dfly2-speculative-decoding-sparse-models"/>
-    <id>https://www.marktechpost.com/2026/11/26/tencent-dfly2-speculative-decoding-sparse-models</id>
-    <updated>2026-11-27T03:31:30.000Z</updated>
-    <author><name>MarkTechPost</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Tencent open-sourced DFly2, a speculative decoding drafter for sparse-attention LLMs. Each draft layer reuses the target's KV cache and top-k indexer picks, adding no draft KV memory and lifting 64K serving throughput by up to 81%. The post Tencent Open-Sources DFly2: Speculative Decoding That Reuses the Target’s Spars</summary>
   </entry>
 </feed>
