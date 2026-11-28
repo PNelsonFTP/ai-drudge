@@ -5,16 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-28T03:58:39.963Z</updated>
-  <entry>
-    <title>OpenAI countersues Apple for stealing trade secrets</title>
-    <link href="https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4?syn-25a6b1a6=1</id>
-    <updated>2026-11-27T23:00:08.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>The ChatGPT maker also accuses the tech giant of ‘coercing and threatening’ suppliers who work with both companies, as legal battle escalates — Also covered by: Reuters AI (Google News), The Information</summary>
-  </entry>
+  <updated>2026-11-28T04:08:45.117Z</updated>
   <entry>
     <title>llama.cpp b12823 released</title>
     <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12823"/>
@@ -23,6 +14,15 @@
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
     <summary>CUDA: fix ADD_ID launch for more than 65535 tokens ( #33162 ) The grid's y dimension came directly from the token count, so ADD_ID launches with more than 65535 tokens failed with &quot;invalid configuration argument&quot;. NVIDIA and HIP are equally affected, since gridDim.y is capped at 65535 on both. Clamp the grid and stride — Also covered by: ggml-org/whisper.cpp</summary>
+  </entry>
+  <entry>
+    <title>OpenAI countersues Apple for stealing trade secrets</title>
+    <link href="https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4?syn-25a6b1a6=1</id>
+    <updated>2026-11-27T23:00:08.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>The ChatGPT maker also accuses the tech giant of ‘coercing and threatening’ suppliers who work with both companies, as legal battle escalates — Also covered by: The Information</summary>
   </entry>
   <entry>
     <title>Nvidia hits pause on chip shipments to Southeast Asia</title>
@@ -43,13 +43,13 @@
     <summary>Highlights Qwen Code CLI is now available on the Harness kernel, with usage statistics off by default unless privacy.usageStatisticsEnabled is true. ( #18351 ) Repeated-tool-call rejections now explain the cause and suggest /compress or /clear to recover, across TUI, headless, and daemon sessions. ( #18317 ) Web Shell  — Also covered by: anthropics/claude-code, QwenLM/qwen-code</summary>
   </entry>
   <entry>
-    <title>ollama v0.40.19 released</title>
-    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.19"/>
-    <id>https://github.com/ollama/ollama/releases/tag/v0.40.19</id>
-    <updated>2026-11-27T21:47:32.000Z</updated>
+    <title>ollama v0.40.20-rc0 released</title>
+    <link href="https://github.com/ollama/ollama/releases/tag/v0.40.20-rc0"/>
+    <id>https://github.com/ollama/ollama/releases/tag/v0.40.20-rc0</id>
+    <updated>2026-11-27T21:06:59.000Z</updated>
     <author><name>ollama/ollama</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>What's Changed inkling2: faster short histories, draft proposals and conv snapshots by @dhiltgen in #19881 mlxrunner: compact Engram history buffers by @pdevine in #19913 bump llama-server by @pdevine in #19917 Full Changelog : v0.40.18...v0.40.19-rc0</summary>
+    <summary>bump llama-server ( #19953 )</summary>
   </entry>
   <entry>
     <title>Anthropic says Claude doesn't silently sabotage work and that some user reports reflect &quot;overcaution&quot;, where Claude clings to self-imposed rules on long tasks (Edwin/@edwinarbus)</title>
@@ -88,28 +88,19 @@
     <summary>GTA 6 broke sales records, but consoles running it rest on assumptions that failed: cheaper hardware, commodity memory, frozen platforms. The post GTA: Grand Three Assumptions appeared first on EE Times .</summary>
   </entry>
   <entry>
-    <title>Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access</title>
-    <link href="https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html"/>
-    <id>https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html</id>
-    <updated>2026-11-27T05:48:20.000Z</updated>
-    <author><name>The Hacker News</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT. &quot;I found a path from a fr</summary>
-  </entry>
-  <entry>
-    <title>It's a Belief Cascade</title>
-    <link href="https://www.lesswrong.com/posts/2kZgma6h2epedGBtD/it-s-a-belief-cascade"/>
-    <id>https://www.lesswrong.com/posts/2kZgma6h2epedGBtD/it-s-a-belief-cascade</id>
-    <updated>2026-11-28T03:52:24.000Z</updated>
+    <title>From modal agents to simultaneous proof search: a first attempt</title>
+    <link href="https://www.lesswrong.com/posts/mLsxPqcqreDqwNDg9/from-modal-agents-to-simultaneous-proof-search-a-first"/>
+    <id>https://www.lesswrong.com/posts/mLsxPqcqreDqwNDg9/from-modal-agents-to-simultaneous-proof-search-a-first</id>
+    <updated>2026-11-28T03:56:25.000Z</updated>
     <author><name>LessWrong</name></author>
-    <category term="SAFETY &amp; POLICY"/>
-    <summary>We’re probably in an info bubble. Written Nov 20-23, 2026, addressed to a (large) subset of the Berkeley AI safety community. TL;DR The high stakes and the pace of development understandably make us want to be able to predict the future. But the heightened focus on “timelines” is inducing myopia. We so badly want to kn</summary>
+    <category term="OPEN SOURCE"/>
+    <summary>I like the idea of &quot;open source game theory&quot;, where programs play one-shot games with access to each other's source code. MIRI ran a prisoner's dilemma tournament between bots that decide whether to cooperate or defect based on what they can prove about the other player's actions. Personally I would say the results wer</summary>
   </entry>
   <entry>
     <title>Conducting The First Live Enterprise Comparison Between Agents and Human Professionals</title>
     <link href="https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals"/>
     <id>https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals</id>
-    <updated>2026-11-28T03:58:22.338Z</updated>
+    <updated>2026-11-28T04:08:28.939Z</updated>
     <author><name>Gray Swan</name></author>
     <category term="AI SECURITY"/>
   </entry>
@@ -204,13 +195,12 @@
     <summary>submitted by GuyDudeman to localllama 18 points | 13 comments This was interesting. Didn’t know QwenCode phoned home… but apparently it does, which kinda makes sense… but still… Anyway, still yet to test fully but I think this ought to do it.</summary>
   </entry>
   <entry>
-    <title>Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators</title>
-    <link href="https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html"/>
-    <id>https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html</id>
-    <updated>2026-11-27T06:04:20.000Z</updated>
-    <author><name>The Hacker News</name></author>
-    <category term="AGENTS &amp; TOOLS"/>
-    <summary>Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the attacks targeted critical infrastructure operators, and two of those succeeded, with no major disrupt</summary>
+    <title>Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon</title>
+    <link href="https://huggingface.co/blog/ggml-org/llamacpp-amd-bench"/>
+    <id>https://huggingface.co/blog/ggml-org/llamacpp-amd-bench</id>
+    <updated>2026-11-26T11:37:17.000Z</updated>
+    <author><name>Hugging Face Blog</name></author>
+    <category term="LOCAL MODELS"/>
   </entry>
   <entry>
     <title>Managing $300B for Ultra Wealthy Families: Masters in Business with Holly MacDonald</title>
@@ -274,5 +264,14 @@
     <author><name>The Decoder</name></author>
     <category term="HARDWARE"/>
     <summary>Two Chinese companies installed Nvidia's powerful Blackwell chips at a Shanghai data center linked to Alice Huang, according to a Bloomberg investigation. A serial number led Bloomberg to Taiwanese manufacturer Gigabyte. Exporting these chips to China without a US license is illegal. The article Banned Nvidia Blackwell</summary>
+  </entry>
+  <entry>
+    <title>Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access</title>
+    <link href="https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html"/>
+    <id>https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html</id>
+    <updated>2026-11-27T05:48:20.000Z</updated>
+    <author><name>The Hacker News</name></author>
+    <category term="OPEN SOURCE"/>
+    <summary>Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT. &quot;I found a path from a fr</summary>
   </entry>
 </feed>
