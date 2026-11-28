@@ -5,16 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-28T04:08:45.117Z</updated>
-  <entry>
-    <title>llama.cpp b12823 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12823"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12823</id>
-    <updated>2026-11-28T01:28:25.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>CUDA: fix ADD_ID launch for more than 65535 tokens ( #33162 ) The grid's y dimension came directly from the token count, so ADD_ID launches with more than 65535 tokens failed with &quot;invalid configuration argument&quot;. NVIDIA and HIP are equally affected, since gridDim.y is capped at 65535 on both. Clamp the grid and stride — Also covered by: ggml-org/whisper.cpp</summary>
-  </entry>
+  <updated>2026-11-28T08:08:43.625Z</updated>
   <entry>
     <title>OpenAI countersues Apple for stealing trade secrets</title>
     <link href="https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4?syn-25a6b1a6=1"/>
@@ -22,16 +13,16 @@
     <updated>2026-11-27T23:00:08.000Z</updated>
     <author><name>FT Artificial Intelligence</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>The ChatGPT maker also accuses the tech giant of ‘coercing and threatening’ suppliers who work with both companies, as legal battle escalates — Also covered by: The Information</summary>
+    <summary>The ChatGPT maker also accuses the tech giant of ‘coercing and threatening’ suppliers who work with both companies, as legal battle escalates — Also covered by: Reuters AI (Google News), The Information</summary>
   </entry>
   <entry>
-    <title>Nvidia hits pause on chip shipments to Southeast Asia</title>
-    <link href="https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia"/>
-    <id>https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia</id>
-    <updated>2026-11-26T20:03:54.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China. — Also covered by: WSJ Tech</summary>
+    <title>llama.cpp b12826 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12826"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12826</id>
+    <updated>2026-11-27T19:28:53.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>ui: show only the mention label in generated conversation titles ( #33 … — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
     <title>qwen-code v0.28.7 released</title>
@@ -43,6 +34,15 @@
     <summary>Highlights Qwen Code CLI is now available on the Harness kernel, with usage statistics off by default unless privacy.usageStatisticsEnabled is true. ( #18351 ) Repeated-tool-call rejections now explain the cause and suggest /compress or /clear to recover, across TUI, headless, and daemon sessions. ( #18317 ) Web Shell  — Also covered by: anthropics/claude-code, QwenLM/qwen-code</summary>
   </entry>
   <entry>
+    <title>Nvidia hits pause on chip shipments to Southeast Asia</title>
+    <link href="https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia"/>
+    <id>https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia</id>
+    <updated>2026-11-26T20:03:54.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China. — Also covered by: WSJ Tech</summary>
+  </entry>
+  <entry>
     <title>ollama v0.40.20-rc0 released</title>
     <link href="https://github.com/ollama/ollama/releases/tag/v0.40.20-rc0"/>
     <id>https://github.com/ollama/ollama/releases/tag/v0.40.20-rc0</id>
@@ -52,40 +52,49 @@
     <summary>bump llama-server ( #19953 )</summary>
   </entry>
   <entry>
-    <title>Anthropic says Claude doesn't silently sabotage work and that some user reports reflect &quot;overcaution&quot;, where Claude clings to self-imposed rules on long tasks (Edwin/@edwinarbus)</title>
-    <link href="https://www.techmeme.com/261127/p17"/>
-    <id>https://www.techmeme.com/261127/p17</id>
-    <updated>2026-11-28T03:35:05.000Z</updated>
+    <title>Sweden-based Trustly, which lets merchants accept payments via bank transfers, raised $60M from Nordic Capital and others, taking its total funding to $450M+ (John Reynolds/Tech.eu)</title>
+    <link href="https://www.techmeme.com/261128/p3"/>
+    <id>https://www.techmeme.com/261128/p3</id>
+    <updated>2026-11-28T06:45:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Edwin / @edwinarbus : Anthropic says Claude doesn't silently sabotage work and that some user reports reflect “overcaution”, where Claude clings to self-imposed rules on long tasks — Claude has not been trained to sabotage work. Yes, it sometimes makes mistakes, and other agents might identify them, but this isn't sabo</summary>
+    <summary>John Reynolds / Tech.eu : Sweden-based Trustly, which lets merchants accept payments via bank transfers, raised $60M from Nordic Capital and others, taking its total funding to $450M+ — Trustly has raised the funds from existing investors. — Swedish fintech Trustly today confirmed it had completed a $60m funding round </summary>
   </entry>
   <entry>
-    <title>China Import Logistics Fell 0.6% in January-October, Xinhua Says</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-28/china-import-logistics-fell-0-6-in-january-october-xinhua-says"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-28/china-import-logistics-fell-0-6-in-january-october-xinhua-says</id>
-    <updated>2026-11-28T03:01:44.000Z</updated>
+    <title>Azure AI Gateway Reaches General Availability as a Standalone Service</title>
+    <link href="https://www.infoq.com/news/2026/11/azure-ai-gateway-ga"/>
+    <id>https://www.infoq.com/news/2026/11/azure-ai-gateway-ga</id>
+    <updated>2026-11-28T06:47:00.000Z</updated>
+    <author><name>InfoQ AI/ML</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Microsoft has made Azure AI Gateway generally available as a standalone Azure service for governing access to AI models and MCP tools across providers. A free tier covers 10,000 requests per gateway per month; paid billing starts January 1, 2027; and private networking remains in preview. By Steef-Jan Wiggers</summary>
+  </entry>
+  <entry>
+    <title>RBI Steps Up Gold Loan Scrutiny as Bullion Rout Signals Strain</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-11-28/rbi-steps-up-gold-loan-scrutiny-as-bullion-rout-signals-strain"/>
+    <id>https://www.bloomberg.com/news/articles/2026-11-28/rbi-steps-up-gold-loan-scrutiny-as-bullion-rout-signals-strain</id>
+    <updated>2026-11-28T06:39:08.000Z</updated>
     <author><name>Bloomberg Markets</name></author>
     <category term="AI FINANCE"/>
-    <summary>China’s import logistics demand contracted further in the first 10 months of the year, extending a slowdown from 9.6% growth in January-February, Xinhua News Agency reported, citing figures from the China Federation of Logistics and Purchasing.</summary>
+    <summary>India’s banking regulator is stepping up scrutiny of the nation’s $247 billion gold-loan sector as a sharp drop in bullion prices erodes the collateral that lenders demand from borrowers, according to people familiar with the matter.</summary>
   </entry>
   <entry>
-    <title>AutoformBench: A Lean Formalization Benchmark for Advanced Mathematics</title>
-    <link href="https://arxiv.org/abs/2611.33165"/>
-    <id>https://arxiv.org/abs/2611.33165</id>
-    <updated>2026-11-27T05:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
+    <title>BlueQubit Releases AI-Engineered State-Vector Simulator Outperforming NVIDIA cuStateVec Benchmarks</title>
+    <link href="https://quantumcomputingreport.com/bluequbit-releases-ai-engineered-state-vector-simulator-outperforming-nvidia-custatevec-benchmarks"/>
+    <id>https://quantumcomputingreport.com/bluequbit-releases-ai-engineered-state-vector-simulator-outperforming-nvidia-custatevec-benchmarks</id>
+    <updated>2026-11-28T04:44:48.000Z</updated>
+    <author><name>Quantum Computing Report</name></author>
     <category term="RESEARCH"/>
-    <summary>arXiv:2611.33165v1 Announce Type: new Abstract: AI systems are increasingly capable of producing machine-checked Lean proofs of advanced mathematical results. Real mathematical formalization, however, is not isolated theorem proving: it requires building the definitions and intermediate lemmas that connect a result to </summary>
+    <summary>BlueQubit has developed bluesv, an AI-engineered quantum state-vector simulator that outperforms NVIDIA’s cuStateVec and Google's qsim in benchmark tests. It offers direct API compatibility with major quantum programming frameworks and will be released as open-source software, representing a significant advancement in </summary>
   </entry>
   <entry>
-    <title>GTA: Grand Three Assumptions</title>
-    <link href="https://www.eetimes.com/gta-grand-three-assumptions"/>
-    <id>https://www.eetimes.com/gta-grand-three-assumptions</id>
-    <updated>2026-11-28T02:00:00.000Z</updated>
-    <author><name>EE Times</name></author>
+    <title>Best Black Friday Gaming laptop deals live</title>
+    <link href="https://www.tomshardware.com/live/news/best-black-friday-gaming-laptop-deals-day-two"/>
+    <id>https://www.tomshardware.com/live/news/best-black-friday-gaming-laptop-deals-day-two</id>
+    <updated>2026-11-28T08:01:57.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
     <category term="HARDWARE"/>
-    <summary>GTA 6 broke sales records, but consoles running it rest on assumptions that failed: cheaper hardware, commodity memory, frozen platforms. The post GTA: Grand Three Assumptions appeared first on EE Times .</summary>
+    <summary>The best Black Friday gaming laptops still live this weekend. — Also covered by: Tom's Hardware, Tom's Hardware</summary>
   </entry>
   <entry>
     <title>From modal agents to simultaneous proof search: a first attempt</title>
@@ -93,14 +102,14 @@
     <id>https://www.lesswrong.com/posts/mLsxPqcqreDqwNDg9/from-modal-agents-to-simultaneous-proof-search-a-first</id>
     <updated>2026-11-28T03:56:25.000Z</updated>
     <author><name>LessWrong</name></author>
-    <category term="OPEN SOURCE"/>
+    <category term="SAFETY &amp; POLICY"/>
     <summary>I like the idea of &quot;open source game theory&quot;, where programs play one-shot games with access to each other's source code. MIRI ran a prisoner's dilemma tournament between bots that decide whether to cooperate or defect based on what they can prove about the other player's actions. Personally I would say the results wer</summary>
   </entry>
   <entry>
     <title>Conducting The First Live Enterprise Comparison Between Agents and Human Professionals</title>
     <link href="https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals"/>
     <id>https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals</id>
-    <updated>2026-11-28T04:08:28.939Z</updated>
+    <updated>2026-11-28T08:08:21.727Z</updated>
     <author><name>Gray Swan</name></author>
     <category term="AI SECURITY"/>
   </entry>
@@ -123,15 +132,6 @@
     <summary>Pedro Sánchez rallied voters to turn out in Sunday’s national election during his final campaign event, in a last-minute attempt to pull off an upset.</summary>
   </entry>
   <entry>
-    <title>Mexican Airport Operator GAP Raises $398 Million for Fibra Trust</title>
-    <link href="https://www.bloomberg.com/news/articles/2026-11-27/mexican-airport-operator-gap-raises-398-million-for-fibra-trust"/>
-    <id>https://www.bloomberg.com/news/articles/2026-11-27/mexican-airport-operator-gap-raises-398-million-for-fibra-trust</id>
-    <updated>2026-11-27T21:05:05.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
-    <category term="FUNDING &amp; DEALS"/>
-    <summary>Mexican airport operator Grupo Aeroportuario del Pacifico SAB de CV raised 7.8 billion pesos ($398 million) for an energy and infrastructure trust, less than originally planned and following months of delays.</summary>
-  </entry>
-  <entry>
     <title>datasette-charts 0.4a0</title>
     <link href="https://simonwillison.net/2026/Nov/27/datasette-charts"/>
     <id>https://simonwillison.net/2026/Nov/27/datasette-charts</id>
@@ -141,22 +141,13 @@
     <summary>Release: datasette-charts 0.4a0 The new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an experimental plugins just to try out the hook and it came up with a bunch of friction points in the des</summary>
   </entry>
   <entry>
-    <title>The Chinese car champion turning to police and nurse robots</title>
-    <link href="https://www.ft.com/content/f83dd2dc-f51e-4151-9139-cf1918eb9d0a?syn-25a6b1a6=1"/>
-    <id>https://www.ft.com/content/f83dd2dc-f51e-4151-9139-cf1918eb9d0a?syn-25a6b1a6=1</id>
-    <updated>2026-11-28T01:00:07.000Z</updated>
-    <author><name>FT Artificial Intelligence</name></author>
+    <title>Embo, which is developing world models for robotics trained on massive amounts of internet video, emerges from stealth with a $110M seed led by a16z (Embo)</title>
+    <link href="https://www.techmeme.com/261128/p1"/>
+    <id>https://www.techmeme.com/261128/p1</id>
+    <updated>2026-11-28T05:50:02.000Z</updated>
+    <author><name>Techmeme</name></author>
     <category term="ROBOTICS"/>
-    <summary>Jaecoo owner Chery tries to make up lost ground after coming late to EV revolution</summary>
-  </entry>
-  <entry>
-    <title>TU Delft Demonstrates First Hybrid HPC-Quantum Workflow Linking DelftBlue Supercomputer and Tuna-17 Processor</title>
-    <link href="https://quantumcomputingreport.com/tu-delft-demonstrates-first-hybrid-hpc-quantum-workflow-linking-delftblue-supercomputer-and-tuna-17-processor"/>
-    <id>https://quantumcomputingreport.com/tu-delft-demonstrates-first-hybrid-hpc-quantum-workflow-linking-delftblue-supercomputer-and-tuna-17-processor</id>
-    <updated>2026-11-28T02:19:12.000Z</updated>
-    <author><name>Quantum Computing Report</name></author>
-    <category term="QUANTUM"/>
-    <summary>TU Delft and QuTech have successfully linked the DelftBlue supercomputer with QuTech's Tuna-17 quantum processor, demonstrating the first hybrid HPC-quantum workflow. This integration was tested with an electrical power-flow calculation, utilizing the Quantum Approximate Optimization Algorithm (QAOA) to optimize circui</summary>
+    <summary>Embo : Embo, which is developing world models for robotics trained on massive amounts of internet video, emerges from stealth with a $110M seed led by a16z — Embo is building the next generation of frontier AI models, with a deep understanding of physical reality and fine-grained motor skills.</summary>
   </entry>
   <entry>
     <title>Rockstar's AI dilemma: Can GTA 6's staggered release model survive coding agents?</title>
@@ -168,22 +159,31 @@
     <summary>More than 40 projects are working to bring a leaked Xbox build of GTA 6 to PC through reverse engineering just days after its $3.79 billion record console launch. AI coding agents like Claude Code are speeding up the process so much that an early unofficial multiplayer mode is already running. Rockstar's delayed PC bus</summary>
   </entry>
   <entry>
-    <title>US insurance giant Allstate has been suffering an outage since November 23, affecting its website and app; the company hasn't said what is causing the outage (Jean Eaglesham/Wall Street Journal)</title>
-    <link href="https://www.techmeme.com/261127/p15"/>
-    <id>https://www.techmeme.com/261127/p15</id>
-    <updated>2026-11-27T23:30:02.000Z</updated>
-    <author><name>Techmeme</name></author>
-    <category term="INDUSTRY NEWS"/>
-    <summary>Jean Eaglesham / Wall Street Journal : US insurance giant Allstate has been suffering an outage since November 23, affecting its website and app; the company hasn't said what is causing the outage — The multiday outage has left customers struggling to reach the insurer during one of the year's busiest travel weeks</summary>
+    <title>Hackers breached the US Air Force's flagship Cloud One platform, report says</title>
+    <link href="https://the-decoder.com/hackers-breached-the-us-air-forces-flagship-cloud-one-platform-report-says"/>
+    <id>https://the-decoder.com/hackers-breached-the-us-air-forces-flagship-cloud-one-platform-report-says</id>
+    <updated>2026-11-27T16:06:43.000Z</updated>
+    <author><name>The Decoder</name></author>
+    <category term="MODEL RELEASES"/>
+    <summary>Hackers breached the US Air Force's flagship cloud platform. The article Hackers breached the US Air Force's flagship Cloud One platform, report says appeared first on The Decoder .</summary>
   </entry>
   <entry>
-    <title>How the MATCH Act could backfire by barring ASML from its ~350 immersion scanners in China, letting rivals service and reverse engineer them, and hire its staff (LithoWar)</title>
-    <link href="https://www.techmeme.com/261127/p16"/>
-    <id>https://www.techmeme.com/261127/p16</id>
-    <updated>2026-11-28T02:00:01.000Z</updated>
+    <title>‘I told it to never call me again’: AI bots wreak havoc with UK restaurant bookings</title>
+    <link href="https://www.theguardian.com/business/2026/nov/28/ai-bots-wreak-havoc-uk-restaurant-bookings-meta-muse"/>
+    <id>https://www.theguardian.com/business/2026/nov/28/ai-bots-wreak-havoc-uk-restaurant-bookings-meta-muse</id>
+    <updated>2026-11-28T08:00:34.000Z</updated>
+    <author><name>The Guardian AI</name></author>
+    <category term="INDUSTRY NEWS"/>
+    <summary>Meta claims its Muse assistant will make users’ lives easier, but business owners say AI is driving them to go analogue Restaurant owners are battling a horde of AI bots and returning to using the telephone instead of online booking as new virtual assistants launch in the UK – but sometimes even that isn’t enough to st</summary>
+  </entry>
+  <entry>
+    <title>A profile of Jensen Huang, whom longtime friends and associates say has an unrelenting ability to make the most of any situation, as he returns as Nvidia's CEO (Erich Schwartzel/Wall Street Journal)</title>
+    <link href="https://www.techmeme.com/261128/p4"/>
+    <id>https://www.techmeme.com/261128/p4</id>
+    <updated>2026-11-28T07:40:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>LithoWar : How the MATCH Act could backfire by barring ASML from its ~350 immersion scanners in China, letting rivals service and reverse engineer them, and hire its staff — At the heart of the AI race, while East and West stockpile advanced processors, a quiet technology battle is under …</summary>
+    <summary>Erich Schwartzel / Wall Street Journal : A profile of Jensen Huang, whom longtime friends and associates say has an unrelenting ability to make the most of any situation, as he returns as Nvidia's CEO — As a longtime friend of the Nvidia CEO puts it, “Jensen will always pull a rabbit out of a hat”</summary>
   </entry>
   <entry>
     <title>Qwen Telemetry - FYI...</title>
@@ -192,7 +192,7 @@
     <updated>2026-11-27T18:15:49.000Z</updated>
     <author><name>Lemmy c/localllama</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>submitted by GuyDudeman to localllama 18 points | 13 comments This was interesting. Didn’t know QwenCode phoned home… but apparently it does, which kinda makes sense… but still… Anyway, still yet to test fully but I think this ought to do it.</summary>
+    <summary>submitted by GuyDudeman to localllama 19 points | 16 comments This was interesting. Didn’t know QwenCode phoned home… but apparently it does, which kinda makes sense… but still… Anyway, still yet to test fully but I think this ought to do it.</summary>
   </entry>
   <entry>
     <title>Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon</title>
@@ -203,31 +203,58 @@
     <category term="LOCAL MODELS"/>
   </entry>
   <entry>
-    <title>Managing $300B for Ultra Wealthy Families: Masters in Business with Holly MacDonald</title>
-    <link href="https://www.bloomberg.com/news/videos/2026-11-27/masters-in-business-with-holly-macdonald-video"/>
-    <id>https://www.bloomberg.com/news/videos/2026-11-27/masters-in-business-with-holly-macdonald-video</id>
-    <updated>2026-11-27T22:14:41.000Z</updated>
-    <author><name>Bloomberg Markets</name></author>
+    <title>Anthropic says Claude doesn't silently sabotage work and that some user reports reflect &quot;overcaution&quot;, where Claude clings to self-imposed rules on long tasks (Edwin/@edwinarbus)</title>
+    <link href="https://www.techmeme.com/261127/p17"/>
+    <id>https://www.techmeme.com/261127/p17</id>
+    <updated>2026-11-28T03:35:05.000Z</updated>
+    <author><name>Techmeme</name></author>
+    <category term="AGENTS &amp; TOOLS"/>
+    <summary>Edwin / @edwinarbus : Anthropic says Claude doesn't silently sabotage work and that some user reports reflect “overcaution”, where Claude clings to self-imposed rules on long tasks — Claude has not been trained to sabotage work. Yes, it sometimes makes mistakes, and other agents might identify them, but this isn't sabo</summary>
+  </entry>
+  <entry>
+    <title>Why Jensen Huang’s daily therapy sets a healthy example</title>
+    <link href="https://www.ft.com/content/cc26cc08-6d49-4e33-933c-6ccd5e8064e4?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/cc26cc08-6d49-4e33-933c-6ccd5e8064e4?syn-25a6b1a6=1</id>
+    <updated>2026-11-28T05:00:32.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
     <category term="AI FINANCE"/>
-    <summary>Barry speaks with Holly MacDonald, CEO of Bessemer Trust. They discuss her time working in Brazil and how investing in emerging markets shapes her investment philosophy. They also discuss the enduring strength of the US dollar, and how Bessemer evolved from a single family office to a $300 billion enterprise. They also</summary>
+    <summary>Seeking to alleviate mental health problems is one more global challenge tech innovators could take on</summary>
   </entry>
   <entry>
-    <title>What, Who, and When: Structured Harm Assessment for Mental Health Safety via Short Reasoning</title>
-    <link href="https://arxiv.org/abs/2611.33263"/>
-    <id>https://arxiv.org/abs/2611.33263</id>
-    <updated>2026-11-27T05:00:00.000Z</updated>
-    <author><name>arXiv cs.AI</name></author>
-    <category term="RESEARCH"/>
-    <summary>arXiv:2611.33263v1 Announce Type: new Abstract: The growing use of large language models (LLMs) for mental health support raises important safety concerns. Existing guard models primarily identify categories of harmful content, often overlooking the context needed to determine an appropriate response. We introduce a cl</summary>
+    <title>The mathematicians living through an AI revolution</title>
+    <link href="https://www.ft.com/content/f27646d1-d8f2-4592-8d0e-bcce6c6da061?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/f27646d1-d8f2-4592-8d0e-bcce6c6da061?syn-25a6b1a6=1</id>
+    <updated>2026-11-28T05:00:32.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
+    <category term="AI FINANCE"/>
+    <summary>Startling digitally assisted discoveries have raised questions about the future of human experts in the field</summary>
   </entry>
   <entry>
-    <title>Feature-Based Explainability of Transformer Scoring Models: A Fidelity-First Framework for Automated Writing Assessment</title>
-    <link href="https://arxiv.org/abs/2611.33175"/>
-    <id>https://arxiv.org/abs/2611.33175</id>
-    <updated>2026-11-27T05:00:00.000Z</updated>
-    <author><name>arXiv cs.CL</name></author>
+    <title>Sakana AI Releases Namazu Small, a 30B Model Built on Nemotron 3 Nano</title>
+    <link href="https://www.marktechpost.com/2026/11/26/sakana-ai-namazu-small-30b-nemotron-3-nano"/>
+    <id>https://www.marktechpost.com/2026/11/26/sakana-ai-namazu-small-30b-nemotron-3-nano</id>
+    <updated>2026-11-26T22:06:40.000Z</updated>
+    <author><name>MarkTechPost</name></author>
     <category term="RESEARCH"/>
-    <summary>arXiv:2611.33175v1 Announce Type: new Abstract: Transformer-based automated writing scoring models can achieve strong agreement with human scores while providing limited transparency into the response characteristics associated with their predictions. This study evaluated a feature-based post-hoc explanation approach i</summary>
+    <summary>Sakana AI released Sakana Namazu Small, a 30B-A3B reasoning model built on NVIDIA Nemotron 3 Nano. It averages 60.1 across 25 benchmarks, ahead of the 120B Nemotron 3 Super at 56.2. The post Sakana AI Releases Namazu Small, a 30B Model Built on Nemotron 3 Nano appeared first on MarkTechPost .</summary>
+  </entry>
+  <entry>
+    <title>SCOOP: Benchmark to Back Overland &amp; Bindwell in New Defense &amp; Bio Deals</title>
+    <link href="https://www.newcomer.co/p/scoop-benchmark-to-back-overland"/>
+    <id>https://www.newcomer.co/p/scoop-benchmark-to-back-overland</id>
+    <updated>2026-11-27T10:01:16.000Z</updated>
+    <author><name>Newcomer</name></author>
+    <category term="RESEARCH"/>
+    <summary>The venerable VC had hit a rough patch but is now on a roll</summary>
+  </entry>
+  <entry>
+    <title>QuTech Launches Quantum Systems Integration Unit to Build Open-Architecture Superconducting Systems</title>
+    <link href="https://quantumcomputingreport.com/qutech-launches-quantum-systems-integration-unit-to-build-open-architecture-superconducting-systems"/>
+    <id>https://quantumcomputingreport.com/qutech-launches-quantum-systems-integration-unit-to-build-open-architecture-superconducting-systems</id>
+    <updated>2026-11-28T03:13:18.000Z</updated>
+    <author><name>Quantum Computing Report</name></author>
+    <category term="PRODUCTS"/>
+    <summary>QuTech has launched a new Quantum Systems Integration Unit to build open-architecture superconducting quantum computers using a European supply chain. The unit aims to standardize modular system interfaces and integrate various hardware and software components, with a planned commercial spinout in 2028. This initiative</summary>
   </entry>
   <entry>
     <title>Grand Theft Auto VI proves why efficiency isn’t a virtue</title>
@@ -239,15 +266,6 @@
     <summary>On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.</summary>
   </entry>
   <entry>
-    <title>Mozilla Partners with Mistral to Bring Open-Weight AI Models to Firefox Smart Window</title>
-    <link href="https://www.infoq.com/news/2026/11/mozilla-mistral-ai-smart-window"/>
-    <id>https://www.infoq.com/news/2026/11/mozilla-mistral-ai-smart-window</id>
-    <updated>2026-11-27T06:58:00.000Z</updated>
-    <author><name>InfoQ AI/ML</name></author>
-    <category term="PRODUCTS"/>
-    <summary>Mozilla has partnered with Mistral AI to offer Mistral Small 4, an open-weight model, in Firefox's Smart Window AI assistant, now in beta. It is recommended for users in France, the US and Canada. Users can choose among several models, and Mistral agreed to zero data retention. Beta feedback is mixed. By Daniel Curtis</summary>
-  </entry>
-  <entry>
     <title>AWS Challenger: Trainium3 Inference and Microarchitecture Deep Dive</title>
     <link href="https://newsletter.semianalysis.com/p/trainium3-inferencex"/>
     <id>https://newsletter.semianalysis.com/p/trainium3-inferencex</id>
@@ -255,23 +273,5 @@
     <author><name>SemiAnalysis Newsletter</name></author>
     <category term="HARDWARE"/>
     <summary>Better Perf TCO vs NVIDIA GB300, First Principles Physics-Based Architecture, High MFU and MBU, UBenchX, Low Latency, Alisa Liu vs Eileen Gu</summary>
-  </entry>
-  <entry>
-    <title>Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports</title>
-    <link href="https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports"/>
-    <id>https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports</id>
-    <updated>2026-11-27T18:27:02.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="HARDWARE"/>
-    <summary>Two Chinese companies installed Nvidia's powerful Blackwell chips at a Shanghai data center linked to Alice Huang, according to a Bloomberg investigation. A serial number led Bloomberg to Taiwanese manufacturer Gigabyte. Exporting these chips to China without a US license is illegal. The article Banned Nvidia Blackwell</summary>
-  </entry>
-  <entry>
-    <title>Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access</title>
-    <link href="https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html"/>
-    <id>https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html</id>
-    <updated>2026-11-27T05:48:20.000Z</updated>
-    <author><name>The Hacker News</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT. &quot;I found a path from a fr</summary>
   </entry>
 </feed>
