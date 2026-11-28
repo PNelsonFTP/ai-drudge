@@ -5,7 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-28T01:08:59.833Z</updated>
+  <updated>2026-11-28T02:08:48.494Z</updated>
   <entry>
     <title>OpenAI countersues Apple for stealing trade secrets</title>
     <link href="https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4?syn-25a6b1a6=1"/>
@@ -16,13 +16,13 @@
     <summary>The ChatGPT maker also accuses the tech giant of ‘coercing and threatening’ suppliers who work with both companies, as legal battle escalates — Also covered by: Reuters AI (Google News), The Information</summary>
   </entry>
   <entry>
-    <title>llama.cpp b12822 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12822"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12822</id>
-    <updated>2026-11-27T14:31:18.000Z</updated>
+    <title>llama.cpp b12823 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12823"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12823</id>
+    <updated>2026-11-28T01:28:25.000Z</updated>
     <author><name>ggml-org/llama.cpp</name></author>
     <category term="LOCAL MODELS"/>
-    <summary>vulkan: handle empty conv3d kernel, fixes validation error ( #33106 ) — Also covered by: ggml-org/whisper.cpp</summary>
+    <summary>CUDA: fix ADD_ID launch for more than 65535 tokens ( #33162 ) The grid's y dimension came directly from the token count, so ADD_ID launches with more than 65535 tokens failed with &quot;invalid configuration argument&quot;. NVIDIA and HIP are equally affected, since gridDim.y is capped at 65535 on both. Clamp the grid and stride — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
     <title>Nvidia hits pause on chip shipments to Southeast Asia</title>
@@ -40,7 +40,7 @@
     <updated>2026-11-26T18:08:44.000Z</updated>
     <author><name>QwenLM/qwen-code</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Highlights Qwen Code CLI is now available on the Harness kernel, with usage statistics off by default unless privacy.usageStatisticsEnabled is true. ( #18351 ) Repeated-tool-call rejections now explain the cause and suggest /compress or /clear to recover, across TUI, headless, and daemon sessions. ( #18317 ) Web Shell  — Also covered by: anthropics/claude-code</summary>
+    <summary>Highlights Qwen Code CLI is now available on the Harness kernel, with usage statistics off by default unless privacy.usageStatisticsEnabled is true. ( #18351 ) Repeated-tool-call rejections now explain the cause and suggest /compress or /clear to recover, across TUI, headless, and daemon sessions. ( #18317 ) Web Shell  — Also covered by: anthropics/claude-code, QwenLM/qwen-code</summary>
   </entry>
   <entry>
     <title>ollama v0.40.19 released</title>
@@ -88,22 +88,13 @@
     <summary>arXiv:2611.33165v1 Announce Type: new Abstract: AI systems are increasingly capable of producing machine-checked Lean proofs of advanced mathematical results. Real mathematical formalization, however, is not isolated theorem proving: it requires building the definitions and intermediate lemmas that connect a result to </summary>
   </entry>
   <entry>
-    <title>b12823: CUDA: fix ADD_ID launch for more than 65535 tokens (#33162)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12823"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12823</id>
-    <updated>2026-11-27T14:32:42.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="PRODUCTS"/>
-    <summary>The grid's y dimension came directly from the token count, so ADD_ID launches with more than 65535 tokens failed with &quot;invalid configuration argument&quot;. NVIDIA and HIP are equally affected, since gridDim.y is capped at 65535 on both. Clamp the grid and stride over ne2 in the kernel, matching convert.cu and pad.cu. Add a</summary>
-  </entry>
-  <entry>
-    <title>AWS Challenger: Trainium3 Inference and Microarchitecture Deep Dive</title>
-    <link href="https://newsletter.semianalysis.com/p/trainium3-inferencex"/>
-    <id>https://newsletter.semianalysis.com/p/trainium3-inferencex</id>
-    <updated>2026-11-27T15:54:59.000Z</updated>
-    <author><name>SemiAnalysis Newsletter</name></author>
+    <title>GTA: Grand Three Assumptions</title>
+    <link href="https://www.eetimes.com/gta-grand-three-assumptions"/>
+    <id>https://www.eetimes.com/gta-grand-three-assumptions</id>
+    <updated>2026-11-28T02:00:00.000Z</updated>
+    <author><name>EE Times</name></author>
     <category term="HARDWARE"/>
-    <summary>Better Perf TCO vs NVIDIA GB300, First Principles Physics-Based Architecture, High MFU and MBU, UBenchX, Low Latency, Alisa Liu vs Eileen Gu</summary>
+    <summary>GTA 6 broke sales records, but consoles running it rest on assumptions that failed: cheaper hardware, commodity memory, frozen platforms. The post GTA: Grand Three Assumptions appeared first on EE Times .</summary>
   </entry>
   <entry>
     <title>Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access</title>
@@ -115,19 +106,19 @@
     <summary>Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT. &quot;I found a path from a fr</summary>
   </entry>
   <entry>
-    <title>Astra 6.2’s Brain Gets Smart But Its Head Gets Dumb</title>
-    <link href="https://thezvi.substack.com/p/astra-62s-brain-gets-smart-but-its"/>
-    <id>https://thezvi.substack.com/p/astra-62s-brain-gets-smart-but-its</id>
-    <updated>2026-11-27T13:36:29.000Z</updated>
-    <author><name>Don't Worry About the Vase (Zvi)</name></author>
+    <title>So, you want to study the unknown?</title>
+    <link href="https://www.lesswrong.com/posts/TCE6tmuYyhezydvZx/so-you-want-to-study-the-unknown"/>
+    <id>https://www.lesswrong.com/posts/TCE6tmuYyhezydvZx/so-you-want-to-study-the-unknown</id>
+    <updated>2026-11-27T22:23:52.000Z</updated>
+    <author><name>LessWrong</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Astra 6.2 has very high intelligence.</summary>
+    <summary>Some follow-up thoughts on where AI-enabled computational biotech is going, how to stay ahead of it and a possible mini research proposal.* Introduction The general question I'm asking throughout this essay is as follows: How to deal with infohazards while studying computationally generated (hazardous) sequences and ca</summary>
   </entry>
   <entry>
     <title>Conducting The First Live Enterprise Comparison Between Agents and Human Professionals</title>
     <link href="https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals"/>
     <id>https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals</id>
-    <updated>2026-11-28T01:08:28.771Z</updated>
+    <updated>2026-11-28T02:08:27.165Z</updated>
     <author><name>Gray Swan</name></author>
     <category term="AI SECURITY"/>
   </entry>
@@ -168,13 +159,13 @@
     <summary>Release: datasette-charts 0.4a0 The new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an experimental plugins just to try out the hook and it came up with a bunch of friction points in the des</summary>
   </entry>
   <entry>
-    <title>Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models</title>
-    <link href="https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models"/>
-    <id>https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models</id>
-    <updated>2026-11-27T16:58:56.000Z</updated>
-    <author><name>The Decoder</name></author>
+    <title>The Chinese car champion turning to police and nurse robots</title>
+    <link href="https://www.ft.com/content/f83dd2dc-f51e-4151-9139-cf1918eb9d0a?syn-25a6b1a6=1"/>
+    <id>https://www.ft.com/content/f83dd2dc-f51e-4151-9139-cf1918eb9d0a?syn-25a6b1a6=1</id>
+    <updated>2026-11-28T01:00:07.000Z</updated>
+    <author><name>FT Artificial Intelligence</name></author>
     <category term="ROBOTICS"/>
-    <summary>Yann LeCun is pushing forward with his alternative to language models through his startup AMI Labs. The JEPA architecture aims to give machines an internal world model that captures cause and effect. Three new studies show progress in robot planning, more efficient training, and error correction, though the pieces stil</summary>
+    <summary>Jaecoo owner Chery tries to make up lost ground after coming late to EV revolution</summary>
   </entry>
   <entry>
     <title>Every call</title>
@@ -204,13 +195,13 @@
     <summary>Machines are solving problems that have been beyond the reach of human ingenuity. Their growing power must not become the sole preserve of billionaires For the average person, the news that AI has helped crack a problem that has defied mathematicians since 1859 might elicit momentary awe. What ought to worry everyone i</summary>
   </entry>
   <entry>
-    <title>Some users claim Claude is silently sabotaging projects, but the behavior may stem from a clash between its proactive nature and strict instruction following (Drew Breunig)</title>
-    <link href="https://www.techmeme.com/261127/p14"/>
-    <id>https://www.techmeme.com/261127/p14</id>
-    <updated>2026-11-27T21:35:01.000Z</updated>
+    <title>How the MATCH Act could backfire by barring ASML from its ~350 immersion scanners in China, letting rivals service and reverse engineer them, and hire its staff (LithoWar)</title>
+    <link href="https://www.techmeme.com/261127/p16"/>
+    <id>https://www.techmeme.com/261127/p16</id>
+    <updated>2026-11-28T02:00:01.000Z</updated>
     <author><name>Techmeme</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>Drew Breunig : Some users claim Claude is silently sabotaging projects, but the behavior may stem from a clash between its proactive nature and strict instruction following — Is Claude Throwing the Game? — There's a recent spate of claims that Claude is silently sabotaging people's projects, especially when they involv</summary>
+    <summary>LithoWar : How the MATCH Act could backfire by barring ASML from its ~350 immersion scanners in China, letting rivals service and reverse engineer them, and hire its staff — At the heart of the AI race, while East and West stockpile advanced processors, a quiet technology battle is under …</summary>
   </entry>
   <entry>
     <title>Qwen Telemetry - FYI...</title>
@@ -274,5 +265,14 @@
     <author><name>InfoQ AI/ML</name></author>
     <category term="PRODUCTS"/>
     <summary>Mozilla has partnered with Mistral AI to offer Mistral Small 4, an open-weight model, in Firefox's Smart Window AI assistant, now in beta. It is recommended for users in France, the US and Canada. Users can choose among several models, and Mistral agreed to zero data retention. Beta feedback is mixed. By Daniel Curtis</summary>
+  </entry>
+  <entry>
+    <title>AWS Challenger: Trainium3 Inference and Microarchitecture Deep Dive</title>
+    <link href="https://newsletter.semianalysis.com/p/trainium3-inferencex"/>
+    <id>https://newsletter.semianalysis.com/p/trainium3-inferencex</id>
+    <updated>2026-11-27T15:54:59.000Z</updated>
+    <author><name>SemiAnalysis Newsletter</name></author>
+    <category term="HARDWARE"/>
+    <summary>Better Perf TCO vs NVIDIA GB300, First Principles Physics-Based Architecture, High MFU and MBU, UBenchX, Low Latency, Alisa Liu vs Eileen Gu</summary>
   </entry>
 </feed>
