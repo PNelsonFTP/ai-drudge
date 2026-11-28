@@ -5,16 +5,7 @@
   <link href="https://pnelsonftp.github.io/ai-drudge/"/>
   <link rel="self" href="https://pnelsonftp.github.io/ai-drudge/feed.xml"/>
   <id>https://pnelsonftp.github.io/ai-drudge/</id>
-  <updated>2026-11-28T00:08:37.358Z</updated>
-  <entry>
-    <title>llama.cpp b12818 released</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12818"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12818</id>
-    <updated>2026-11-27T20:47:42.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
-    <category term="LOCAL MODELS"/>
-    <summary>ggml: support quant scales for fp8 and nvfp4 ( #28898 ) ggml: add tensor scaling (per-tensor, per-channel, per-expert, per-expert-per-channel) support add meta backend scale split add optional activation scales to mul_mat and mul_mat_id tensors handle bitnet scales too, disable in backends Don't treat single expert as  — Also covered by: ggml-org/whisper.cpp</summary>
-  </entry>
+  <updated>2026-11-28T01:08:59.833Z</updated>
   <entry>
     <title>OpenAI countersues Apple for stealing trade secrets</title>
     <link href="https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4?syn-25a6b1a6=1"/>
@@ -22,7 +13,16 @@
     <updated>2026-11-27T23:00:08.000Z</updated>
     <author><name>FT Artificial Intelligence</name></author>
     <category term="INDUSTRY NEWS"/>
-    <summary>The ChatGPT maker also accuses the tech giant of ‘coercing and threatening’ suppliers who work with both companies, as legal battle escalates — Also covered by: The Information</summary>
+    <summary>The ChatGPT maker also accuses the tech giant of ‘coercing and threatening’ suppliers who work with both companies, as legal battle escalates — Also covered by: Reuters AI (Google News), The Information</summary>
+  </entry>
+  <entry>
+    <title>llama.cpp b12822 released</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12822"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12822</id>
+    <updated>2026-11-27T14:31:18.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>vulkan: handle empty conv3d kernel, fixes validation error ( #33106 ) — Also covered by: ggml-org/whisper.cpp</summary>
   </entry>
   <entry>
     <title>Nvidia hits pause on chip shipments to Southeast Asia</title>
@@ -40,7 +40,7 @@
     <updated>2026-11-26T18:08:44.000Z</updated>
     <author><name>QwenLM/qwen-code</name></author>
     <category term="MODEL RELEASES"/>
-    <summary>Highlights Qwen Code CLI is now available on the Harness kernel, with usage statistics off by default unless privacy.usageStatisticsEnabled is true. ( #18351 ) Repeated-tool-call rejections now explain the cause and suggest /compress or /clear to recover, across TUI, headless, and daemon sessions. ( #18317 ) Web Shell  — Also covered by: anthropics/claude-code, QwenLM/qwen-code</summary>
+    <summary>Highlights Qwen Code CLI is now available on the Harness kernel, with usage statistics off by default unless privacy.usageStatisticsEnabled is true. ( #18351 ) Repeated-tool-call rejections now explain the cause and suggest /compress or /clear to recover, across TUI, headless, and daemon sessions. ( #18317 ) Web Shell  — Also covered by: anthropics/claude-code</summary>
   </entry>
   <entry>
     <title>ollama v0.40.19 released</title>
@@ -88,22 +88,22 @@
     <summary>arXiv:2611.33165v1 Announce Type: new Abstract: AI systems are increasingly capable of producing machine-checked Lean proofs of advanced mathematical results. Real mathematical formalization, however, is not isolated theorem proving: it requires building the definitions and intermediate lemmas that connect a result to </summary>
   </entry>
   <entry>
-    <title>Grand Theft Auto VI proves why efficiency isn’t a virtue</title>
-    <link href="https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue"/>
-    <id>https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue</id>
-    <updated>2026-11-26T16:00:00.000Z</updated>
-    <author><name>TechCrunch AI</name></author>
+    <title>b12823: CUDA: fix ADD_ID launch for more than 65535 tokens (#33162)</title>
+    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12823"/>
+    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12823</id>
+    <updated>2026-11-27T14:32:42.000Z</updated>
+    <author><name>ggml-org/llama.cpp</name></author>
     <category term="PRODUCTS"/>
-    <summary>On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.</summary>
+    <summary>The grid's y dimension came directly from the token count, so ADD_ID launches with more than 65535 tokens failed with &quot;invalid configuration argument&quot;. NVIDIA and HIP are equally affected, since gridDim.y is capped at 65535 on both. Clamp the grid and stride over ne2 in the kernel, matching convert.cu and pad.cu. Add a</summary>
   </entry>
   <entry>
-    <title>b12819: CUDA: cache the device type at init (#33142)</title>
-    <link href="https://github.com/ggml-org/llama.cpp/releases/tag/b12819"/>
-    <id>https://github.com/ggml-org/llama.cpp/releases/tag/b12819</id>
-    <updated>2026-11-27T14:18:23.000Z</updated>
-    <author><name>ggml-org/llama.cpp</name></author>
+    <title>AWS Challenger: Trainium3 Inference and Microarchitecture Deep Dive</title>
+    <link href="https://newsletter.semianalysis.com/p/trainium3-inferencex"/>
+    <id>https://newsletter.semianalysis.com/p/trainium3-inferencex</id>
+    <updated>2026-11-27T15:54:59.000Z</updated>
+    <author><name>SemiAnalysis Newsletter</name></author>
     <category term="HARDWARE"/>
-    <summary>CUDA: cache the device type at init ggml_backend_cuda_device_get_type called cudaGetDeviceProperties on every call, which takes ~0.7-1 ms with the CUDA 12 runtime. With tensor overrides on multiple GPUs the scheduler queries the device type for every split input, so this ran dozens of times per token. Store the device </summary>
+    <summary>Better Perf TCO vs NVIDIA GB300, First Principles Physics-Based Architecture, High MFU and MBU, UBenchX, Low Latency, Alisa Liu vs Eileen Gu</summary>
   </entry>
   <entry>
     <title>Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access</title>
@@ -115,19 +115,19 @@
     <summary>Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT. &quot;I found a path from a fr</summary>
   </entry>
   <entry>
-    <title>So, you want to study the unknown?</title>
-    <link href="https://www.lesswrong.com/posts/TCE6tmuYyhezydvZx/so-you-want-to-study-the-unknown"/>
-    <id>https://www.lesswrong.com/posts/TCE6tmuYyhezydvZx/so-you-want-to-study-the-unknown</id>
-    <updated>2026-11-27T22:23:52.000Z</updated>
-    <author><name>LessWrong</name></author>
+    <title>Astra 6.2’s Brain Gets Smart But Its Head Gets Dumb</title>
+    <link href="https://thezvi.substack.com/p/astra-62s-brain-gets-smart-but-its"/>
+    <id>https://thezvi.substack.com/p/astra-62s-brain-gets-smart-but-its</id>
+    <updated>2026-11-27T13:36:29.000Z</updated>
+    <author><name>Don't Worry About the Vase (Zvi)</name></author>
     <category term="SAFETY &amp; POLICY"/>
-    <summary>Some follow-up thoughts on where AI-enabled computational biotech is going, how to stay ahead of it and a possible mini research proposal.* Introduction The general question I'm asking throughout this essay is as follows: How to deal with infohazards while studying computationally generated (hazardous) sequences and ca</summary>
+    <summary>Astra 6.2 has very high intelligence.</summary>
   </entry>
   <entry>
     <title>Conducting The First Live Enterprise Comparison Between Agents and Human Professionals</title>
     <link href="https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals"/>
     <id>https://www.grayswan.ai/blog/conducting-the-first-live-enterprise-comparison-between-agents-and-human-professionals</id>
-    <updated>2026-11-28T00:08:19.638Z</updated>
+    <updated>2026-11-28T01:08:28.771Z</updated>
     <author><name>Gray Swan</name></author>
     <category term="AI SECURITY"/>
   </entry>
@@ -157,6 +157,15 @@
     <author><name>Bloomberg Markets</name></author>
     <category term="FUNDING &amp; DEALS"/>
     <summary>Mexican airport operator Grupo Aeroportuario del Pacifico SAB de CV raised 7.8 billion pesos ($398 million) for an energy and infrastructure trust, less than originally planned and following months of delays.</summary>
+  </entry>
+  <entry>
+    <title>datasette-charts 0.4a0</title>
+    <link href="https://simonwillison.net/2026/Nov/27/datasette-charts"/>
+    <id>https://simonwillison.net/2026/Nov/27/datasette-charts</id>
+    <updated>2026-11-27T23:57:17.000Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="ANALYSIS"/>
+    <summary>Release: datasette-charts 0.4a0 The new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an experimental plugins just to try out the hook and it came up with a bunch of friction points in the des</summary>
   </entry>
   <entry>
     <title>Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models</title>
@@ -204,6 +213,15 @@
     <summary>Drew Breunig : Some users claim Claude is silently sabotaging projects, but the behavior may stem from a clash between its proactive nature and strict instruction following — Is Claude Throwing the Game? — There's a recent spate of claims that Claude is silently sabotaging people's projects, especially when they involv</summary>
   </entry>
   <entry>
+    <title>Qwen Telemetry - FYI...</title>
+    <link href="https://sh.itjust.works/post/70572674"/>
+    <id>https://sh.itjust.works/post/70572674</id>
+    <updated>2026-11-27T18:15:49.000Z</updated>
+    <author><name>Lemmy c/localllama</name></author>
+    <category term="LOCAL MODELS"/>
+    <summary>submitted by GuyDudeman to localllama 18 points | 13 comments This was interesting. Didn’t know QwenCode phoned home… but apparently it does, which kinda makes sense… but still… Anyway, still yet to test fully but I think this ought to do it.</summary>
+  </entry>
+  <entry>
     <title>Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators</title>
     <link href="https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html"/>
     <id>https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html</id>
@@ -240,6 +258,15 @@
     <summary>arXiv:2611.33175v1 Announce Type: new Abstract: Transformer-based automated writing scoring models can achieve strong agreement with human scores while providing limited transparency into the response characteristics associated with their predictions. This study evaluated a feature-based post-hoc explanation approach i</summary>
   </entry>
   <entry>
+    <title>Grand Theft Auto VI proves why efficiency isn’t a virtue</title>
+    <link href="https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue"/>
+    <id>https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue</id>
+    <updated>2026-11-26T16:00:00.000Z</updated>
+    <author><name>TechCrunch AI</name></author>
+    <category term="PRODUCTS"/>
+    <summary>On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.</summary>
+  </entry>
+  <entry>
     <title>Mozilla Partners with Mistral to Bring Open-Weight AI Models to Firefox Smart Window</title>
     <link href="https://www.infoq.com/news/2026/11/mozilla-mistral-ai-smart-window"/>
     <id>https://www.infoq.com/news/2026/11/mozilla-mistral-ai-smart-window</id>
@@ -247,32 +274,5 @@
     <author><name>InfoQ AI/ML</name></author>
     <category term="PRODUCTS"/>
     <summary>Mozilla has partnered with Mistral AI to offer Mistral Small 4, an open-weight model, in Firefox's Smart Window AI assistant, now in beta. It is recommended for users in France, the US and Canada. Users can choose among several models, and Mistral agreed to zero data retention. Beta feedback is mixed. By Daniel Curtis</summary>
-  </entry>
-  <entry>
-    <title>AWS Challenger: Trainium3 Inference and Microarchitecture Deep Dive</title>
-    <link href="https://newsletter.semianalysis.com/p/trainium3-inferencex"/>
-    <id>https://newsletter.semianalysis.com/p/trainium3-inferencex</id>
-    <updated>2026-11-27T15:54:59.000Z</updated>
-    <author><name>SemiAnalysis Newsletter</name></author>
-    <category term="HARDWARE"/>
-    <summary>Better Perf TCO vs NVIDIA GB300, First Principles Physics-Based Architecture, High MFU and MBU, UBenchX, Low Latency, Alisa Liu vs Eileen Gu</summary>
-  </entry>
-  <entry>
-    <title>Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports</title>
-    <link href="https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports"/>
-    <id>https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports</id>
-    <updated>2026-11-27T18:27:02.000Z</updated>
-    <author><name>The Decoder</name></author>
-    <category term="HARDWARE"/>
-    <summary>Two Chinese companies installed Nvidia's powerful Blackwell chips at a Shanghai data center linked to Alice Huang, according to a Bloomberg investigation. A serial number led Bloomberg to Taiwanese manufacturer Gigabyte. Exporting these chips to China without a US license is illegal. The article Banned Nvidia Blackwell</summary>
-  </entry>
-  <entry>
-    <title>Meta Brings Code Review Auto-Approval More Mainstream with PyTorch GreenLight</title>
-    <link href="https://www.infoq.com/news/2026/11/uber-agent-spend-steady"/>
-    <id>https://www.infoq.com/news/2026/11/uber-agent-spend-steady</id>
-    <updated>2026-11-27T14:36:00.000Z</updated>
-    <author><name>InfoQ AI/ML</name></author>
-    <category term="OPEN SOURCE"/>
-    <summary>PyTorch now lets an AI reviewer approve pull requests from its own maintainers. GreenLight is an open-source take on RADAR, the system Meta uses to auto-land low-risk diffs after safety checks, a risk score and an LLM review. OpenAI, Anthropic and Sonar describe similar ways to automate approval while keeping humans on</summary>
   </entry>
 </feed>
